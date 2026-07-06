@@ -6,8 +6,29 @@ sourceLabels: ["Slide/video-derived supporting context"]
 
 # Coding Agents
 
-## Why It Matters Here
-This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
+## Synopsis
+Coding agents are AI systems that can inspect repositories, reason about requirements, edit files, run commands, test changes, and sometimes open pull requests or operate development tools. They move AI coding from autocomplete toward task execution.
+
+## Origin And Context
+They evolved from code completion, IDE assistants, program synthesis, CI automation, and software bots. The recent shift is tool use: agents can read context, make coordinated edits, run tests, and respond to feedback inside real development workflows.
+
+## Why It Matters
+Software work is full of local context, repetitive edits, dependency checks, and validation loops. Coding agents can compress that cycle, but only when they respect repository conventions, tests, review standards, and operational safety.
+
+## How To Use It
+Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
+
+## Where It Is Useful
+They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
+
+## When To Use It
+Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
+
+## Active Use Cases
+- Bug fixes with local tests and deploy verification.
+- Repository-wide mechanical updates with reviewable diffs.
+- CI failure diagnosis and targeted remediation.
+- Agentic software factories that coordinate planning, coding, testing, and release steps.
 
 ## Related Slide Decks
 - [[youtube-gcseUQJ6Gbg-slides]] — Using OSS models to build AI apps with millions of users — Hassan El Mghari (4 extracted slide frames)

@@ -6,8 +6,29 @@ sourceLabels: ["Slide/video-derived supporting context"]
 
 # Agent Memory
 
-## Why It Matters Here
-This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
+## Synopsis
+Agent memory is the set of mechanisms that lets an agent carry useful context across steps, sessions, users, repositories, documents, or decisions. It includes short-term working context, long-term stores, cached artifacts, decision traces, vector or graph retrieval, and policies that decide what should be remembered, refreshed, or forgotten.
+
+## Origin And Context
+The topic comes from classic AI state management, knowledge representation, retrieval systems, personal assistants, and database-backed application design. The long-context era changed the tradeoff: teams can stuff more into prompts, but still need structured memory so agents can reason over the right facts at the right time.
+
+## Why It Matters
+Memory determines whether an agent can act consistently instead of restarting from scratch. It improves personalization, reduces repeated work, supports multi-step workflows, and makes decisions auditable. Poor memory creates stale assumptions, privacy risk, context bloat, and confident mistakes.
+
+## How To Use It
+Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
+
+## Where It Is Useful
+Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
+
+## When To Use It
+Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
+
+## Active Use Cases
+- Remembering repository architecture and prior implementation decisions.
+- Maintaining user preferences and project constraints across sessions.
+- Decision-trace retrieval for enterprise workflows.
+- Long-context cache and knowledge-graph backed agent workflows.
 
 ## Related Slide Decks
 - [[youtube-gcseUQJ6Gbg-slides]] — Using OSS models to build AI apps with millions of users — Hassan El Mghari (4 extracted slide frames)

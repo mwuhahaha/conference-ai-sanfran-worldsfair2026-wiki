@@ -6,8 +6,29 @@ sourceLabels: ["Slide/video-derived supporting context"]
 
 # Agent Evaluations
 
-## Why It Matters Here
-This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
+## Synopsis
+Agent evaluations are the measurement layer for systems that plan, call tools, write code, retrieve context, or take actions over time. They combine offline tests, production traces, human review, model-as-judge scoring, regression suites, and task-specific rubrics so teams can tell whether an agent is actually improving rather than merely sounding better.
+
+## Origin And Context
+The practice grows out of software testing, information-retrieval benchmarks, ML evaluation, and LLM prompt evaluation. Agentic systems made the problem harder because success depends on multi-step behavior: tool choice, state handling, recovery, cost, latency, safety, and final task outcome.
+
+## Why It Matters
+Without evaluations, agent teams cannot safely change prompts, models, tools, routing, memory policies, or autonomy levels. Evals turn vague quality complaints into visible failure modes and make it possible to ship agents with rollback criteria, measurable acceptance thresholds, and a shared language for product and engineering decisions.
+
+## How To Use It
+Start with real traces and representative tasks. Define the outcome that matters, add rubrics for intermediate behavior, keep golden examples for regressions, and separate fast pre-merge checks from slower production audits. Use model judges only when their decisions are calibrated against human review, and track cost, latency, and failure categories alongside quality.
+
+## Where It Is Useful
+Evaluations are useful in coding agents, support agents, research agents, data agents, voice agents, retrieval systems, and any workflow where the agent can take a plausible but wrong path. They are especially valuable where correctness, trust, or operational cost matters.
+
+## When To Use It
+Use evals before launching, whenever prompts or models change, when adding new tools, after incidents, and when expanding an agent into a new user segment or task family. Lightweight evals should run continuously; deeper reviews should run before major releases.
+
+## Active Use Cases
+- Regression tests for prompt, model, and tool changes.
+- Production trace review for agent reliability and cost drift.
+- Benchmarking coding agents, retrieval agents, and long-horizon workflows.
+- Reward-signal generation for continual learning and fine-tuning loops.
 
 ## Related Slide Decks
 - [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)

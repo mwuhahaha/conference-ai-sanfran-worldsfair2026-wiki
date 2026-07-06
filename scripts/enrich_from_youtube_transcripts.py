@@ -43,6 +43,174 @@ TOPIC_RULES = [
     ("agentic-search", "Agentic Search", ["search", "retrieval", "rag", "hybrid", "bm25", "vector", "web data"]),
 ]
 
+ARTICLE_HEADINGS = [
+    "Synopsis",
+    "Origin And Context",
+    "Why It Matters",
+    "How To Use It",
+    "Where It Is Useful",
+    "When To Use It",
+    "Active Use Cases",
+    "Why It Matters Here",
+]
+
+TOPIC_ARTICLES = {
+    "agent-evaluations": {
+        "synopsis": "Agent evaluations are the measurement layer for systems that plan, call tools, write code, retrieve context, or take actions over time. They combine offline tests, production traces, human review, model-as-judge scoring, regression suites, and task-specific rubrics so teams can tell whether an agent is actually improving rather than merely sounding better.",
+        "origin": "The practice grows out of software testing, information-retrieval benchmarks, ML evaluation, and LLM prompt evaluation. Agentic systems made the problem harder because success depends on multi-step behavior: tool choice, state handling, recovery, cost, latency, safety, and final task outcome.",
+        "why": "Without evaluations, agent teams cannot safely change prompts, models, tools, routing, memory policies, or autonomy levels. Evals turn vague quality complaints into visible failure modes and make it possible to ship agents with rollback criteria, measurable acceptance thresholds, and a shared language for product and engineering decisions.",
+        "how": "Start with real traces and representative tasks. Define the outcome that matters, add rubrics for intermediate behavior, keep golden examples for regressions, and separate fast pre-merge checks from slower production audits. Use model judges only when their decisions are calibrated against human review, and track cost, latency, and failure categories alongside quality.",
+        "where": "Evaluations are useful in coding agents, support agents, research agents, data agents, voice agents, retrieval systems, and any workflow where the agent can take a plausible but wrong path. They are especially valuable where correctness, trust, or operational cost matters.",
+        "when": "Use evals before launching, whenever prompts or models change, when adding new tools, after incidents, and when expanding an agent into a new user segment or task family. Lightweight evals should run continuously; deeper reviews should run before major releases.",
+        "use_cases": [
+            "Regression tests for prompt, model, and tool changes.",
+            "Production trace review for agent reliability and cost drift.",
+            "Benchmarking coding agents, retrieval agents, and long-horizon workflows.",
+            "Reward-signal generation for continual learning and fine-tuning loops.",
+        ],
+    },
+    "agent-memory": {
+        "synopsis": "Agent memory is the set of mechanisms that lets an agent carry useful context across steps, sessions, users, repositories, documents, or decisions. It includes short-term working context, long-term stores, cached artifacts, decision traces, vector or graph retrieval, and policies that decide what should be remembered, refreshed, or forgotten.",
+        "origin": "The topic comes from classic AI state management, knowledge representation, retrieval systems, personal assistants, and database-backed application design. The long-context era changed the tradeoff: teams can stuff more into prompts, but still need structured memory so agents can reason over the right facts at the right time.",
+        "why": "Memory determines whether an agent can act consistently instead of restarting from scratch. It improves personalization, reduces repeated work, supports multi-step workflows, and makes decisions auditable. Poor memory creates stale assumptions, privacy risk, context bloat, and confident mistakes.",
+        "how": "Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.",
+        "where": "Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.",
+        "when": "Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.",
+        "use_cases": [
+            "Remembering repository architecture and prior implementation decisions.",
+            "Maintaining user preferences and project constraints across sessions.",
+            "Decision-trace retrieval for enterprise workflows.",
+            "Long-context cache and knowledge-graph backed agent workflows.",
+        ],
+    },
+    "agent-security": {
+        "synopsis": "Agent security covers the controls that keep autonomous or semi-autonomous AI systems within trusted boundaries. It includes authentication, authorization, tool permissions, sandboxing, prompt-injection resistance, secret handling, audit logs, data-boundary enforcement, and recovery paths when an agent behaves unexpectedly.",
+        "origin": "It combines application security, cloud IAM, browser and plugin sandboxing, supply-chain security, and adversarial ML. Tool-using agents raise the stakes because natural-language inputs can influence systems that touch files, APIs, payments, infrastructure, or private data.",
+        "why": "Agents convert text into action. That makes ordinary content, retrieved documents, web pages, or UI state part of the attack surface. Security is what lets teams give agents useful tools without handing them unlimited authority.",
+        "how": "Use least-privilege tool scopes, explicit approval gates for high-risk actions, isolated execution environments, secret redaction, provenance checks, and audit trails. Treat retrieved content as untrusted input, test prompt-injection cases, and design rollback paths for destructive operations.",
+        "where": "Agent security matters in coding agents, MCP servers, browser agents, enterprise assistants, finance and compliance workflows, internal operations tools, and any system connected to privileged APIs or private data.",
+        "when": "Apply strong controls whenever an agent can read sensitive data, write state, call external APIs, spend money, deploy code, or influence another system. Lower-risk chat-only agents still need data handling and logging rules.",
+        "use_cases": [
+            "Permission-gated tool execution for enterprise agents.",
+            "Sandboxed coding and browser automation.",
+            "Prompt-injection and data-exfiltration testing for retrieval agents.",
+            "Audit logs for regulated or high-trust agent workflows.",
+        ],
+    },
+    "ai-sandboxes": {
+        "synopsis": "AI sandboxes are controlled execution environments where agents can run code, browse, inspect files, call tools, or manipulate artifacts without putting the host system at unnecessary risk. A sandbox gives the agent enough power to do real work while limiting filesystem, network, credential, and process access.",
+        "origin": "The pattern comes from operating-system isolation, browser sandboxes, CI runners, notebooks, container platforms, and secure code-execution services. Agentic coding and computer-use systems made sandboxing a default requirement rather than a specialty feature.",
+        "why": "Agents need to experiment, test, and inspect state. Sandboxes let them do that while containing failures, malicious inputs, runaway processes, and accidental destructive changes.",
+        "how": "Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.",
+        "where": "They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.",
+        "when": "Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.",
+        "use_cases": [
+            "Running generated code and tests before suggesting a patch.",
+            "Browser or computer-use automation with constrained state.",
+            "Temporary workspaces for data analysis and document transformation.",
+            "Reproducible agent task environments for evaluations.",
+        ],
+    },
+    "autoresearch": {
+        "synopsis": "AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.",
+        "origin": "It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.",
+        "why": "Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.",
+        "how": "Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.",
+        "where": "AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.",
+        "when": "Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.",
+        "use_cases": [
+            "Evidence-grounded briefing docs and source maps.",
+            "Research agents that compare papers, products, or implementation patterns.",
+            "Experiment-planning support for AI and data teams.",
+            "Conference or domain wiki synthesis from talks, transcripts, and slides.",
+        ],
+    },
+    "coding-agents": {
+        "synopsis": "Coding agents are AI systems that can inspect repositories, reason about requirements, edit files, run commands, test changes, and sometimes open pull requests or operate development tools. They move AI coding from autocomplete toward task execution.",
+        "origin": "They evolved from code completion, IDE assistants, program synthesis, CI automation, and software bots. The recent shift is tool use: agents can read context, make coordinated edits, run tests, and respond to feedback inside real development workflows.",
+        "why": "Software work is full of local context, repetitive edits, dependency checks, and validation loops. Coding agents can compress that cycle, but only when they respect repository conventions, tests, review standards, and operational safety.",
+        "how": "Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.",
+        "where": "They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.",
+        "when": "Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.",
+        "use_cases": [
+            "Bug fixes with local tests and deploy verification.",
+            "Repository-wide mechanical updates with reviewable diffs.",
+            "CI failure diagnosis and targeted remediation.",
+            "Agentic software factories that coordinate planning, coding, testing, and release steps.",
+        ],
+    },
+    "inference-engineering": {
+        "synopsis": "Inference engineering is the practice of making AI model serving reliable, fast, cost-aware, and fit for product constraints. It covers model selection, batching, caching, routing, quantization, GPU utilization, latency budgets, observability, and fallback behavior.",
+        "origin": "It extends production ML serving, distributed systems, GPU infrastructure, and web-performance engineering. LLMs added new constraints: token streaming, long prompts, context caching, tool latency, and rapidly changing model/provider economics.",
+        "why": "The same prompt can be unusable or profitable depending on latency, throughput, context size, and cost. Inference engineering turns model capability into a dependable product surface.",
+        "how": "Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.",
+        "where": "It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.",
+        "when": "Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.",
+        "use_cases": [
+            "Reducing token and GPU cost for agent workflows.",
+            "Serving long-context or cached-context applications.",
+            "Routing between frontier, small, local, and specialized models.",
+            "Optimizing voice and interactive applications for low latency.",
+        ],
+    },
+    "mcp": {
+        "synopsis": "Model Context Protocol, or MCP, is a standard pattern for connecting AI applications to tools, data, and interactive capabilities through structured servers and clients. In this wiki it also includes MCP Apps and agent-facing interfaces that expose richer actions or UI surfaces to models.",
+        "origin": "MCP emerged from the need to standardize how AI clients discover and call tools, access resources, and integrate with external systems. It sits in the lineage of plugin APIs, language-server style tooling, RPC, browser extensions, and developer-tool protocols.",
+        "why": "Agents are only as useful as the tools and context they can safely access. MCP reduces one-off integrations, gives tool providers a common surface, and helps clients reason about capabilities, permissions, and interaction patterns.",
+        "how": "Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.",
+        "where": "MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.",
+        "when": "Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.",
+        "use_cases": [
+            "Connecting agents to repositories, browsers, docs, databases, and SaaS tools.",
+            "MCP Apps that return interactive UI from tool servers.",
+            "Agent-ready web and developer-tool integrations.",
+            "Local inspectors and compliance checks for tool servers.",
+        ],
+    },
+    "software-factories": {
+        "synopsis": "Software factories are coordinated systems for turning ideas, issues, designs, tests, agents, and human review into shipped software. In an AI-native version, multiple agents may handle planning, coding, testing, review, documentation, and release support under explicit workflow rules.",
+        "origin": "The idea comes from assembly-line metaphors in software engineering, CI/CD, DevOps, internal developer platforms, and automated code generation. AI agents make the factory metaphor more literal because parts of the SDLC can be delegated to tool-using systems.",
+        "why": "A single coding assistant is useful, but organizations need repeatability, governance, and quality gates. Software factories focus on the whole production system: intake, context, implementation, validation, review, deployment, and learning.",
+        "how": "Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.",
+        "where": "They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.",
+        "when": "Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.",
+        "use_cases": [
+            "Agent-assisted feature delivery pipelines.",
+            "Automated maintenance, migration, and dependency-update programs.",
+            "Multi-agent planning, coding, testing, and review workflows.",
+            "Internal developer platforms with AI-native task orchestration.",
+        ],
+    },
+    "voice-agents": {
+        "synopsis": "Voice agents are AI systems that understand, reason, and respond through speech, often in real time. They combine speech recognition, speaker diarization, language models, tool use, dialogue state, text-to-speech, and sometimes visual or screen output.",
+        "origin": "They build on IVR systems, speech recognition, voice assistants, call-center automation, real-time media systems, and conversational AI. Modern multimodal and realtime models make them more fluid, but production voice still depends on latency, turn-taking, and trust.",
+        "why": "Voice is natural for hands-free, high-attention, or emotionally sensitive workflows. It also exposes failures quickly: delays, interruptions, wrong speaker attribution, and unnatural responses break trust faster than in text.",
+        "how": "Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.",
+        "where": "Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.",
+        "when": "Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.",
+        "use_cases": [
+            "Realtime support and appointment workflows.",
+            "Meeting and call understanding with speaker attribution.",
+            "Voice-in visual-out interfaces for richer task completion.",
+            "Hands-free operational assistants.",
+        ],
+    },
+    "agentic-search": {
+        "synopsis": "Agentic search is retrieval where an AI system actively plans, queries, follows leads, compares sources, and decides when it has enough evidence. It goes beyond one-shot RAG by treating search as an iterative reasoning and tool-use process.",
+        "origin": "It combines web search, enterprise search, information retrieval, RAG, semantic search, BM25, vector databases, knowledge graphs, and research-agent workflows. Agents add query reformulation, source triage, multi-hop exploration, and evidence synthesis.",
+        "why": "Many tasks fail because the agent either retrieves the wrong context or stops too early. Agentic search improves coverage, reduces hallucination, and helps systems expose the evidence behind an answer.",
+        "how": "Define the question, retrieve broadly, rerank by task relevance, inspect primary sources, track claims and citations, and loop when evidence conflicts or gaps remain. Use hybrid retrieval and structured indexes where pure vector search misses exact terms or relationships.",
+        "where": "It is useful in research, support knowledge bases, compliance review, code search, enterprise assistants, competitive intelligence, and document-heavy operations.",
+        "when": "Use agentic search when answers require multiple sources, fresh evidence, exact facts, or cross-document reasoning. Simple lookup or direct database queries are better for narrow deterministic questions.",
+        "use_cases": [
+            "Research agents that cite and compare sources.",
+            "Hybrid RAG over documents, SQL, UI telemetry, and web data.",
+            "Semantic code retrieval for coding agents.",
+            "Enterprise knowledge agents with source-grounded answers.",
+        ],
+    },
+}
+
 
 def slugify(value: str, *, max_len: int = 90) -> str:
     value = value.lower()
@@ -406,12 +574,10 @@ def update_topic_pages(topic_resources: dict[str, list[dict]], topic_quotes: dic
                 "\n".join([
                     frontmatter({"title": label, "category": "topics", "sourceLabels": ["Transcript-derived supporting context"]}),
                     f"# {label}",
-                    "",
-                    "## Why It Matters Here",
-                    "This topic page is generated from schedule, transcript, and slide-resource signals in the AI Engineer World's Fair 2026 wiki.",
                 ]) + "\n",
                 encoding="utf-8",
             )
+        upsert_topic_article(path, slug, label)
         resources = topic_resources.get(slug, [])
         quotes = topic_quotes.get(slug, [])
         support = []
@@ -428,6 +594,44 @@ def update_topic_pages(topic_resources: dict[str, list[dict]], topic_quotes: dic
         known.setdefault(slug, label)
     registry = [{"id": slug, "title": title or slug.replace("-", " ").title(), "path": f"wiki/topics/{slug}.md"} for slug, title in sorted(known.items()) if slug]
     (TOPICS / "registry.json").write_text(json.dumps(registry, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def topic_article_sections(slug: str, label: str) -> list[tuple[str, str]]:
+    article = TOPIC_ARTICLES.get(slug)
+    if not article:
+        article = {
+            "synopsis": f"{label} is a recurring AI Engineer World's Fair 2026 topic connected to agent design, production use, and applied AI engineering practice.",
+            "origin": "This page is synthesized from the wiki's schedule, transcripts, slide OCR, and supporting AI Engineer YouTube resources.",
+            "why": "It matters because teams need a shared vocabulary for deciding when the pattern is useful, how to implement it, and how to evaluate production tradeoffs.",
+            "how": "Use the supporting talks and resources below to identify common patterns, then test those patterns against real tasks, constraints, and failure modes.",
+            "where": "The topic is useful where its constraints and active use cases match a real product or engineering workflow.",
+            "when": "Use it when the operational benefits outweigh added complexity, and revisit the decision as model, tooling, and product constraints change.",
+            "use_cases": ["Conference-derived examples and supporting resources listed below."],
+        }
+    use_cases = "\n".join(f"- {item}" for item in article["use_cases"])
+    return [
+        ("Synopsis", article["synopsis"]),
+        ("Origin And Context", article["origin"]),
+        ("Why It Matters", article["why"]),
+        ("How To Use It", article["how"]),
+        ("Where It Is Useful", article["where"]),
+        ("When To Use It", article["when"]),
+        ("Active Use Cases", use_cases),
+    ]
+
+
+def upsert_topic_article(path: Path, slug: str, label: str) -> None:
+    text = path.read_text(errors="ignore") if path.exists() else ""
+    for heading in ARTICLE_HEADINGS:
+        text = re.sub(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", "", text, flags=re.M | re.S).rstrip() + "\n"
+    article = "\n\n".join(f"## {heading}\n{body.strip()}" for heading, body in topic_article_sections(slug, label))
+    match = re.search(r"^# .+$", text, flags=re.M)
+    if not match:
+        path.write_text(article.rstrip() + "\n", encoding="utf-8")
+        return
+    insert_at = match.end()
+    replacement = text[:insert_at].rstrip() + "\n\n" + article + "\n\n" + text[insert_at:].lstrip()
+    path.write_text(replacement.rstrip() + "\n", encoding="utf-8")
 
 
 def update_resource_registry() -> None:

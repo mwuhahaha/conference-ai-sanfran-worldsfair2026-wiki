@@ -6,8 +6,29 @@ sourceLabels: ["Slide/video-derived supporting context"]
 
 # Voice Agents
 
-## Why It Matters Here
-This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
+## Synopsis
+Voice agents are AI systems that understand, reason, and respond through speech, often in real time. They combine speech recognition, speaker diarization, language models, tool use, dialogue state, text-to-speech, and sometimes visual or screen output.
+
+## Origin And Context
+They build on IVR systems, speech recognition, voice assistants, call-center automation, real-time media systems, and conversational AI. Modern multimodal and realtime models make them more fluid, but production voice still depends on latency, turn-taking, and trust.
+
+## Why It Matters
+Voice is natural for hands-free, high-attention, or emotionally sensitive workflows. It also exposes failures quickly: delays, interruptions, wrong speaker attribution, and unnatural responses break trust faster than in text.
+
+## How To Use It
+Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
+
+## Where It Is Useful
+Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
+
+## When To Use It
+Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
+
+## Active Use Cases
+- Realtime support and appointment workflows.
+- Meeting and call understanding with speaker attribution.
+- Voice-in visual-out interfaces for richer task completion.
+- Hands-free operational assistants.
 
 ## Related Slide Decks
 - [[youtube-hVJOnuhFmTA-slides]] — The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI (22 extracted slide frames)

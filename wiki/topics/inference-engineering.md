@@ -6,8 +6,29 @@ sourceLabels: ["Slide/video-derived supporting context"]
 
 # Inference Engineering
 
-## Why It Matters Here
-This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
+## Synopsis
+Inference engineering is the practice of making AI model serving reliable, fast, cost-aware, and fit for product constraints. It covers model selection, batching, caching, routing, quantization, GPU utilization, latency budgets, observability, and fallback behavior.
+
+## Origin And Context
+It extends production ML serving, distributed systems, GPU infrastructure, and web-performance engineering. LLMs added new constraints: token streaming, long prompts, context caching, tool latency, and rapidly changing model/provider economics.
+
+## Why It Matters
+The same prompt can be unusable or profitable depending on latency, throughput, context size, and cost. Inference engineering turns model capability into a dependable product surface.
+
+## How To Use It
+Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
+
+## Where It Is Useful
+It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
+
+## When To Use It
+Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
+
+## Active Use Cases
+- Reducing token and GPU cost for agent workflows.
+- Serving long-context or cached-context applications.
+- Routing between frontier, small, local, and specialized models.
+- Optimizing voice and interactive applications for low latency.
 
 ## Related Slide Decks
 - [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)

@@ -9,8 +9,29 @@ last_auto_summarized: '2026-07-06T18:59:57.551Z'
 ---
 # Autoresearch
 
-## Why It Matters Here
-Autoresearch is the explicit World's Fair 2026 track that treats research itself as an AI engineering target: agents that retrieve, test, benchmark, optimize, and close feedback loops across scientific discovery and production model work. The connected Main Stage schedule makes the scope concrete, moving from Google DeepMind's research-to-production framing and Richard Socher's automated AI research to dense retrieval with frozen embedding models, autonomous research agents, reflective optimization of context/harness/model weights, kernel generation, and agent performance in OpenAI's hiring challenge. The linked livestream and extracted slides provide the official evidence layer for this track, while the transcript-backed resources broaden the theme into adjacent engineering practices: benchmarking agents, eval failure modes, product-signal-to-PR loops, agents building agents, on-device frontier results, multi-document compliance correlation, and autonomous engineering org design.
+## Synopsis
+AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
+
+## Origin And Context
+It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
+
+## Why It Matters
+Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
+
+## How To Use It
+Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
+
+## Where It Is Useful
+AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
+
+## When To Use It
+Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
+
+## Active Use Cases
+- Evidence-grounded briefing docs and source maps.
+- Research agents that compare papers, products, or implementation patterns.
+- Experiment-planning support for AI and data teams.
+- Conference or domain wiki synthesis from talks, transcripts, and slides.
 
 ## Livestream Source
 - [[youtube-4sX_He5c4sI]] — official WF2026 Autoresearch and keynote livestream.

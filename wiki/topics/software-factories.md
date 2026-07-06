@@ -6,8 +6,29 @@ sourceLabels: ["Official schedule", "Public YouTube livestream transcript", "Loc
 
 # Software Factories
 
-## Why It Matters Here
-Software Factories is a major World's Fair 2026 theme around AI-native development systems, coding agents, code review, orchestration, quality gates, deployment, and enterprise-scale software production.
+## Synopsis
+Software factories are coordinated systems for turning ideas, issues, designs, tests, agents, and human review into shipped software. In an AI-native version, multiple agents may handle planning, coding, testing, review, documentation, and release support under explicit workflow rules.
+
+## Origin And Context
+The idea comes from assembly-line metaphors in software engineering, CI/CD, DevOps, internal developer platforms, and automated code generation. AI agents make the factory metaphor more literal because parts of the SDLC can be delegated to tool-using systems.
+
+## Why It Matters
+A single coding assistant is useful, but organizations need repeatability, governance, and quality gates. Software factories focus on the whole production system: intake, context, implementation, validation, review, deployment, and learning.
+
+## How To Use It
+Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
+
+## Where It Is Useful
+They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
+
+## When To Use It
+Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
+
+## Active Use Cases
+- Agent-assisted feature delivery pipelines.
+- Automated maintenance, migration, and dependency-update programs.
+- Multi-agent planning, coding, testing, and review workflows.
+- Internal developer platforms with AI-native task orchestration.
 
 ## Livestream Source
 - [[youtube-htM02KMNZnk]] — official WF2026 Software Factories and keynote livestream.
