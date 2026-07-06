@@ -392,6 +392,7 @@ def quote_candidates(video_id: str, video: dict, text: str, topics: list[tuple[s
     candidates = []
     topic_slug = topics[0][0] if topics else "resources"
     topic_label = topics[0][1] if topics else "Supporting Resources"
+    related_topics = [{"slug": slug, "label": label, "score": score} for slug, label, score in topics]
     for sentence in split_sentences(text):
         words = sentence.split()
         if len(words) < 12 or len(words) > 42:
@@ -407,6 +408,7 @@ def quote_candidates(video_id: str, video: dict, text: str, topics: list[tuple[s
                 "video_title": video["youtube_title"],
                 "topic": topic_slug,
                 "topic_label": topic_label,
+                "related_topics": related_topics,
             })
     dedup = []
     seen = set()
@@ -419,6 +421,59 @@ def quote_candidates(video_id: str, video: dict, text: str, topics: list[tuple[s
         if len(dedup) >= 3:
             break
     return dedup
+
+
+def quote_importance(row: dict) -> str:
+    quote = row["quote"].strip()
+    low = quote.lower()
+    topic_label = row.get("topic_label") or "the related topic"
+    video_title = row.get("video_title") or "the source talk"
+    signals = []
+    if "you need to" in low or "we need to" in low:
+        signals.append("states an explicit operating requirement")
+    if "problem is" in low:
+        signals.append("names a concrete failure mode")
+    if "key is" in low or "important" in low:
+        signals.append("marks a principle the speaker treats as central")
+    if "not just" in low:
+        signals.append("draws a useful boundary between shallow and production-ready practice")
+    if "production" in low:
+        signals.append("connects the idea to real deployment pressure")
+    if "evaluation" in low or "measuring" in low or "measure" in low:
+        signals.append("turns the discussion toward measurement and accountability")
+    if "security" in low or "trust" in low:
+        signals.append("connects the technical point to trust and risk")
+    if "memory" in low or "context" in low:
+        signals.append("surfaces context management as an engineering concern")
+    if not signals:
+        signals.append("captures a compact claim from the transcript that helps navigate the broader talk")
+    unique_signals = list(dict.fromkeys(signals))
+    if len(unique_signals) == 1:
+        signal_text = unique_signals[0]
+    elif len(unique_signals) == 2:
+        signal_text = f"{unique_signals[0]} and {unique_signals[1]}"
+    else:
+        signal_text = f"{'; '.join(unique_signals[:-1])}; and {unique_signals[-1]}"
+    return (
+        f"This quote was chosen because it {signal_text}. In the context of "
+        f"[[youtube-{row['video_id']}|{md_escape(video_title)}]], it is a useful pointer into "
+        f"[[{row['topic']}|{topic_label}]] rather than just a memorable line: it captures a reusable engineering judgment readers can compare against the source transcript, slides, and related scheduled sessions."
+    )
+
+
+def quote_topic_links(row: dict) -> list[str]:
+    seen = set()
+    links = []
+    related = row.get("related_topics") or [{"slug": row["topic"], "label": row["topic_label"], "score": 0}]
+    for topic in related:
+        slug = topic.get("slug")
+        label = topic.get("label") or slug
+        if not slug or slug in seen:
+            continue
+        seen.add(slug)
+        suffix = "primary transcript signal" if slug == row.get("topic") else "secondary transcript signal"
+        links.append(f"- [[{slug}|{label}]] — {suffix}")
+    return links
 
 
 def upsert_section(path: Path, heading: str, body: str) -> None:
@@ -549,9 +604,14 @@ def write_quote_pages(quotes: list[dict]) -> None:
                     "",
                     f"> {row['quote']}",
                     "",
+                    "## Why This Quote Matters",
+                    quote_importance(row),
+                    "",
+                    "## Related Topics",
+                    *quote_topic_links(row),
+                    "",
                     "## Source",
                     f"- [[youtube-{row['video_id']}]] — {md_escape(row['video_title'])}",
-                    f"- Related topic: [[{row['topic']}|{row['topic_label']}]]",
                 ]).rstrip() + "\n",
                 encoding="utf-8",
             )

@@ -10,6 +10,14 @@ topic: "agentic-search"
 
 > And what I Turbo puffer what we think this actually means, you know if you break down rag into retrieval augmented generation, you know retrieval is not just vector search.
 
+## Why This Quote Matters
+This quote was chosen because it draws a useful boundary between shallow and production-ready practice. In the context of [[youtube-UM6sFg_jdlE|RAG is dead, right?? — Kuba Rogut, Turbopuffer]], it is a useful pointer into [[agentic-search|Agentic Search]] rather than just a memorable line: it captures a reusable engineering judgment readers can compare against the source transcript, slides, and related scheduled sessions.
+
+## Related Topics
+- [[agentic-search|Agentic Search]] — primary transcript signal
+- [[coding-agents|Coding Agents]] — secondary transcript signal
+- [[mcp|MCP]] — secondary transcript signal
+- [[agent-evaluations|Agent Evaluations]] — secondary transcript signal
+
 ## Source
 - [[youtube-UM6sFg_jdlE]] — RAG is dead, right?? — Kuba Rogut, Turbopuffer
-- Related topic: [[agentic-search|Agentic Search]]
