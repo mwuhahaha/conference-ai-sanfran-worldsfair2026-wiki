@@ -1,0 +1,15 @@
+£2 A 5 al
+Context graph: financial services data model ;
+Financial Services Context Graph
+Ss ENTITIES (What Exists)
+id * SCH aot me Cetera eA a PTicea UST le-esnPen aera)
+au Cd ie ee
+PY oy
+ket :
+EVENTS (What Happened)
+Decis:ons, Transactions, Approvals, Rejections =
+CONTEXT (The Why) oo nel me
+Policies Applied. Risk Factors. Employee Reasoning
+De
+oer
+Engineering the future of Al

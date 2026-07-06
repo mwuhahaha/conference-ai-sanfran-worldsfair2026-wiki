@@ -1,0 +1,10 @@
+HF CLI Skill # Add CLI skill globally
+hf skills add --claude --global
+lets any coding agent
+e search models, # Or per-project
+hf skills add --claude
+* manage datasets,
+e launch Spaces # Works with other agents too
+e run jobs (and more!) hf skills add --codex
+hf skills add --cursor
+hf skills add --opencode

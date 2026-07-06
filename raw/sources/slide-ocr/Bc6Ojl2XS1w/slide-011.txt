@@ -1,0 +1,19 @@
+Prompting structure
+A robust prompt ideally includes the following elements that come together to
+ak ¥ craft a great performance:
+. * e Audio Profile - persona / character identity (age, background
+* * etc)
+* ve bd
+e Scene - Sets the stage. Describes both the physical
+environment and the “vibe”.
+e Director's Notes - Performance guidance: style, breathing,
+pacing, articulation and accent.
+e Sample context - contextual starting point
+! e Transcript
+Ce a
+paves
+per Ena
+et
+CR
+Engineering the future of Al
+\

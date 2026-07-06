@@ -1,0 +1,13 @@
+nN
+[3 Google Maps Scraper
+Try for free
+
+compass/crawler—google-places © Developed by | 2 Compass Maintained by Apify
+Extract data from thousands of Google Maps locations and businesses. Get Google Maps data including reviews, reviewer
+details, images, contact info, opening hours, location, prices & more. Export scraped data, run the scraper via API,
+schedule and monitor runs, or integrate with other tools.
+
+2aext 4.2(56) © Pricing Pay_per event Q 1100 = & Monthly users 8.2k v Runs succeeded >99%
+© Response time 4.5 days S Last modified 3 hours ago
+
+Lead generation

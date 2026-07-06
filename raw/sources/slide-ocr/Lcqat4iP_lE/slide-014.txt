@@ -1,0 +1,13 @@
+Acknowledge prior work
+« MCP Spec Github had several proposals and code examples
+ES * RFC #246 by Sam Spencer proposes contextPropagation
+« Justin from the Steering Committee suggested a community convention
+rather than integrating into spec
+* Openinference group started adapters
+rE iliuwccananeae yen #25 LA Te place where
+ee a Tee om
+(Ay panienonivaiany
+nealing ene a 5 Reo
+vero a
+me | ro |: A ©
+‘awn aCe colon a Ssimol

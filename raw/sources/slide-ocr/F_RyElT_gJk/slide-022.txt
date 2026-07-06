@@ -1,0 +1,51 @@
+smp
+SOURCE CONTROL
+extemal-connectors-sectionsvelteW
+CHANGES
+<scriptlang-"ts">
+function IsLinearMCPConnector(connector: ExternalCon
+connectors
+Commit
+const disconnect-superform(disconnectServiceFerm,
+2.Admin Connections Page
+Changes
+nsync onupdate（result））（
+(server/src/routes/odmin/connections.svelte):
+connections.svelte serverrcoutesM
+if（result.type-'success'）（
+avait invalidate('data:extermalConnection
+Added the same CheckCircTe Iconimportand helperfunction
+extema-connectors-sect2+M
+)else（
+Updated the tableiconrendering to show CheckCircle for Linear MCP
+AIE
+logger.erroriForm submission faited:,r
+connectors
+Howit works:
+Detects MCP connectors with endpoint_urL pointing to Linear.opp or
+//Helper function ta checkif a service is connected
+functionIsConnected（connectionId:nunber):boolean（
+Showsacircle checkmark(CheckCircle）iconinstead of thegeneric Network
+//Directly check the array each tine to ensurere
+lcon for Linear connectors
+retur externalConnections.some（conn）conn.ext
+Fells back gracefully to the Network icon for non-Linear MCP connectors
+HandesvalidURLssafelywithtry/cath
+//Generate GitHub app Installation uRL Tron connecto
+function getGitHubAppInstallationUrl(connector: Exterr
+The implementationis complete and allchecks pass.Linear MCP connectors wil
+if（connector.type[=github_oauth）（
+return undefined
+admin connections pages.
+const config =connector.config as（instance_url)
+TODOs
+const instanceurl·config.instance_url
+const app5tugconfig.app_stug
+if（tinstanceurl ll!appSlug）
+retun undefined
+Inoticed the con cahnged
+const appsPathInstanceurlmhttps://github.c
+returns(instanceurl)/s(appsPath}/s(appstug)/1nst
+(cneints
+aws
+rld'sFair

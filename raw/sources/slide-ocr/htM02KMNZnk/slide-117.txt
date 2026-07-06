@@ -1,0 +1,12 @@
+eee 1g .
+Offline Evals: Scenario-Driven Simulation ee
+PO ee eee
+i
+Agent Sandbox Discrete Outputs
+‘
+Test Runner : Leama Cas Ges 3
+i Tools Update Completion Rate 98.5%
+\ Tool Correctness 166%
+\ Plan Quality High
+- i: Simulated Cost $0.65
+Scenario-driven, not prompt-driven.

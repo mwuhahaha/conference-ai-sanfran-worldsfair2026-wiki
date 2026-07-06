@@ -1,0 +1,10 @@
+. ; rd
+What is an Eval?
+Definition: An Eval (short for evaluation) is a
+structured test that checks how well your Al
+system performs. It helps you measure
+quality, reliability, and correctness across
+scenarios.
+i.
+aws
+7 Nae!

@@ -1,0 +1,134 @@
+---
+title: "Workshop Day and Welcome Reception"
+category: "events"
+date: "2026-06-29"
+type: "conference-day"
+source: "Official schedule"
+---
+
+# Workshop Day and Welcome Reception
+
+## What It Was
+Official AI Engineer World's Fair 2026 programming day at Moscone West in San Francisco. This page is generated from the official schedule data.
+
+## Scheduled Sessions
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]] — 9:00am-11:00am · Track 1
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries]] — 9:00am-11:00am · Track 2
+- [[2026-06-29-charlie-guo-cooking-with-codex]] — 9:00am-11:00am · Workshops Day 1
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]] — 9:00am-11:00am · Workshops Day 1
+- [[2026-06-29-javier-garza-ai-security-engineer-foundations-certificate]] — 9:00am-11:00am · Workshops Day 1
+- [[2026-06-29-ignacio-martinez-total-recall-agent-memory-and-harness-engineering]] — 9:00am-11:00am · Workshops Day 1
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — 9:00am-11:00am · Track 7
+- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]] — 9:00am-11:00am · Workshops Day 1
+- [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability]] — 9:00am-11:00am · Track 9
+- [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps]] — 9:00am-10:15am · Track M
+- [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent]] — 11:05am-12:05pm · Posttraining & Midtraining
+- [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context]] — 11:05am-12:05pm · Track 2
+- [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox]] — 11:05am-12:05pm · Workshops Day 1
+- [[2026-06-29-pamela-fox-the-model-swap-workshop]] — 11:05am-12:05pm · Workshops Day 1
+- [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer]] — 11:05am-12:05pm · Workshops Day 1
+- [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-1]] — 11:05am-12:05pm · Workshops Day 1
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]] — 11:05am-12:05pm · Workshops Day 1
+- [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway]] — 11:05am-12:05pm · Workshops Day 1
+- [[2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship]] — 11:05am-12:05pm · Workshops Day 1
+- [[2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents]] — 11:05am-12:05pm · Track M
+- [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive]] — 12:10pm-1:10pm · Workshops Day 1
+- [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker]] — 12:10pm-1:10pm · Workshops Day 1
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2]] — 12:10pm-1:10pm · Workshops Day 1
+- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1]] — 12:10pm-1:10pm · Workshops Day 1
+- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]] — 12:10pm-1:10pm · Workshops Day 1
+- [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-2]] — 12:10pm-1:10pm · Workshops Day 1
+- [[2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch]] — 12:10pm-1:10pm · Workshops Day 1
+- [[2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data]] — 12:10pm-1:10pm · Track 8
+- [[2026-06-29-paige-bailey-research-to-reality-with-google-deepmind]] — 12:10pm-1:10pm · Workshops Day 1
+- [[2026-06-29-ankur-duggal-let-your-agent-cook-using-skills-to-evaluate-and-improve-your-app]] — 1:15pm-2:15pm · Track 1
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2]] — 1:15pm-2:15pm · Workshops Day 1
+- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2]] — 1:15pm-2:15pm · Workshops Day 1
+- [[2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn]] — 1:15pm-2:15pm · Workshops Day 1
+- [[2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development]] — 1:15pm-2:15pm · Track 6
+- [[2026-06-29-palak-agarwal-how-reducto-parsed-the-epstein-files-for-the-viral-jmail-project-the-secret-complexities-of-document]] — 1:15pm-2:15pm · Track 7
+- [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer]] — 1:15pm-2:15pm · Workshops Day 1
+- [[2026-06-29-lotte-verheyden-continuously-improving-agents-with-langfuse]] — 1:15pm-2:15pm · Workshops Day 1
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]] — 2:20pm-4:20pm · Track 1
+- [[2026-06-29-yoni-michael-the-data-context-layer-why-data-engineering-agents-need-more-than-code-and-databases]] — 2:20pm-4:20pm · Track 2
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — 2:20pm-5:30pm · Workshops Day 1
+- [[2026-06-29-mark-lummus-burn-your-flags-how-paypal-designs-interactive-cli-tools-for-agents]] — 2:20pm-4:20pm · Workshops Day 1
+- [[2026-06-29-micah-silverman-ai-security-engineer-foundations-certificate]] — 2:20pm-4:20pm · Workshops Day 1
+- [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost]] — 2:20pm-4:20pm · Track 6
+- [[2026-06-29-jeff-vestal-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] — 2:20pm-4:20pm · Track 7
+- [[2026-06-29-emile-baizel-build-with-perception-agents]] — 2:20pm-4:20pm · Workshops Day 1
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] — 2:20pm-4:20pm · Workshops Day 1
+- [[2026-06-29-pamela-fox-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry]] — 2:20pm-3:35pm · Track M
+- [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents]] — 4:30pm-5:30pm · Workshops Day 1
+- [[2026-06-29-paul-bakaus-the-dark-arts-of-skill-engineering]] — 4:30pm-5:30pm · Track 2
+- [[2026-06-29-shubhankar-srivastava-hill-climbing-skills-how-to-improve-agents-without-touching-the-model]] — 4:30pm-5:30pm · Workshops Day 1
+- [[2026-06-29-bereket-habtemeskel-agent-auth]] — 4:30pm-5:30pm · Workshops Day 1
+- [[2026-06-29-will-brown-the-prime-intellect-stack]] — 4:30pm-5:30pm · Workshops Day 1
+- [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks]] — 4:30pm-5:30pm · Workshops Day 1
+- [[2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends]] — 4:30pm-5:30pm · Workshops Day 1
+- [[2026-06-29-gagan-bhat-evolution-of-agentic-surfaces]] — 4:30pm-5:30pm · Workshops Day 1
+- [[2026-06-29-joyce-zhang-human-connection-in-the-age-of-ai]] — 5:00pm-6:00pm · Expo Stage 2
+- [[2026-06-29-sonar-expo-welcome-speech]] — 6:00pm-6:15pm · Expo Stage 3
+- [[2026-06-29-session-runway-ai-film-festival]] — 6:15pm-7:15pm · Expo Stage 3
+- [[2026-06-29-swyx-the-highest-loop]] — 9:00am-9:05am · Software Factories
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge]] — 9:05am-9:25am · Software Factories
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — 9:25am-9:45am · Software Factories
+- [[2026-06-29-zixuan-li-glm-5-2-frontier-intelligence-open-weights]] — 9:45am-10:05am · Software Factories
+- [[2026-06-29-thom-wolf-thom-wolf-keynote]] — 10:05am-10:25am · Software Factories
+- [[2026-06-29-manoj-nair-security-track-intro]] — 10:25am-10:30am · Software Factories
+- [[2026-06-29-jason-liu-getting-the-most-out-of-codex]] — 10:45am-11:05am · Software Factories
+- [[2026-06-29-ryan-dahl-security-firewall-for-agents]] — 10:45am-11:05am · Claws & Personal Agents
+- [[2026-06-29-joseph-nelson-the-state-of-vision]] — 10:45am-11:05am · Vision & OCR
+- [[2026-06-29-edo-liberty-pinecone-2-0]] — 10:45am-11:05am · Search & Retrieval
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1]] — 10:45am-11:05am · Workshops Day 2
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]] — 10:45am-11:05am · Security
+- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]] — 10:45am-11:05am · Voice & Realtime AI
+- [[2026-06-29-devansh-tandon-tokens-in-engagement-out-training-llm-recommenders]] — 10:45am-11:05am · LLM Recsys
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]] — 10:45am-11:05am · Forward Deployed Engineering
+- [[2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier]] — 10:45am-11:05am · Data Quality
+- [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app]] — 10:45am-11:05am · Track M
+- [[2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals]] — 10:45am-11:05am · Agentic Commerce
+- [[2026-06-29-david-hsu-governance-is-the-real-bottleneck-to-ai-roi]] — 10:45am-11:05am · Claws & Personal Agents
+- [[2026-06-29-dor-sasson-every-ai-company-is-accidentally-building-a-bank]] — 10:45am-11:05am · Expo Stage NE
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines]] — 10:45am-11:05am · Expo Stage 2 NW
+- [[2026-06-29-sam-parsons-how-paypal-enterprise-payments-handles-agent-initiated-payments-across-chatgpt-and-google-ai-mode]] — 10:45am-11:05am · Expo Stage 3 SW
+- [[2026-06-29-jakub-hojsan-agentic-search-for-coding-agents]] — 10:45am-11:05am · Expo Stage 4 SE
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]] — 11:10am-11:30am · Software Factories
+- [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did]] — 11:10am-11:30am · Claws & Personal Agents
+- [[2026-06-29-jerry-liu-building-the-document-context-layer-for-ai-agents]] — 11:10am-11:30am · Vision & OCR
+- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]] — 11:10am-11:30am · Search & Retrieval
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-2]] — 11:10am-11:30am · Workshops Day 2
+- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — 11:10am-11:30am · Security
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] — 11:10am-11:30am · Voice & Realtime AI
+- [[2026-06-29-jacqueline-wood-spotify-llm-recsys]] — 11:10am-11:30am · LLM Recsys
+- [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor]] — 11:10am-11:30am · Forward Deployed Engineering
+- [[2026-06-29-robert-mchardy-the-messy-reality-of-scale-synthetic-data-and-pre-training-at-poolside]] — 11:10am-11:30am · Data Quality
+- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server]] — 11:10am-11:30am · AI-Native Enterprises
+- [[2026-06-29-ameya-bhatawdekar-your-agent-evolved-your-evals-didn-t]] — 11:10am-11:30am · AI Architects: Show my Workflow
+- [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]] — 11:10am-11:30am · Expo Stage 1 NE
+- [[2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs]] — 11:10am-11:30am · Expo Stage 2
+- [[2026-06-29-session-frontier-models-for-the-hard-parts-open-weights-for-the-rest]] — 11:10am-11:30am · Expo Stage 3 SW
+- [[2026-06-29-aditya-khandelwal-agents-codebases-and-teams-what-it-actually-takes-to-ship-together]] — 11:10am-11:30am · Expo Stage 4 SE
+- [[2026-06-29-charlie-holtz-orchestras-not-factories]] — 11:40am-12:00pm · Software Factories
+- [[2026-06-29-benjamin-guo-everyone-gets-a-software-company]] — 11:40am-12:00pm · Claws & Personal Agents
+- [[2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge]] — 11:40am-12:00pm · Vision & OCR
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]] — 11:40am-12:00pm · Search & Retrieval
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-3]] — 11:40am-12:00pm · Workshops Day 2
+- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night]] — 11:40am-12:00pm · Security
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — 11:40am-12:00pm · Voice & Realtime AI
+- [[2026-06-29-raghav-saboo-llm-recsys-at-doordash]] — 11:40am-12:00pm · LLM Recsys
+- [[2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering]] — 11:40am-12:00pm · Forward Deployed Engineering
+- [[2026-06-29-rayan-garg-rethinking-environments-for-long-horizon-work]] — 11:40am-12:00pm · Data Quality
+- [[2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end]] — 11:40am-12:00pm · Track M
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]] — 11:40am-12:00pm · AI-Native Enterprises
+- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]] — 11:40am-12:00pm · AI Architects: Show my Workflow
+- [[2026-06-29-jess-wang-agentic-vs-vector-search-an-eval-driven-approach-to-coding-agent-performance]] — 11:40am-12:00pm · Expo Stage 2 NW
+- [[2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages]] — 11:40am-12:00pm · Expo Stage 3 SW
+- [[2026-06-29-andreea-ple-ea-would-your-ai-agent-get-the-job-a-performance-review-framework-for-enterprise-agents]] — 11:40am-12:00pm · Expo Stage 4 SE
+- [[2026-06-29-daksh-gupta-what-we-learned-by-analyzing-1m-ai-generated-prs]] — 12:05pm-12:25pm · Software Factories
+- [[2026-06-29-shu-fang-tethered-our-agents-are-us]] — 12:05pm-12:25pm · Claws & Personal Agents
+- [[2026-06-29-aditya-gautam-modality-misalignment-and-originality-attribution-in-short-form-video-a-multi-agent-approach-at-platform-scale]] — 12:05pm-12:25pm · Vision & OCR
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents]] — 12:05pm-12:25pm · Search & Retrieval
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-4]] — 12:05pm-12:25pm · Workshops Day 2
+- [[2026-06-29-ezra-tanzer-agentic-development-security]] — 12:05pm-12:25pm · Security
+- [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie]] — 12:05pm-12:25pm · Claws & Personal Agents

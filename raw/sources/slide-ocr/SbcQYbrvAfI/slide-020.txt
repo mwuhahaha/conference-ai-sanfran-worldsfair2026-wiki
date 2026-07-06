@@ -1,0 +1,20 @@
+Prompt Learning vs GEPA, benchmarked
+We ran the same benchmarks used in the GEPA paper, but for Prompt Learning.
+With some eval engineering. here are the results we got:
+HoOtpotga, GPT.4 t Mini Hover. GPT-4 1 Mins
+ni - TO as oo SS
+4
+63 ‘
+| [po %
+we ve -
+| » / /
+es | bs /
+x | » ps : 2 s dee
+sr , 0 /
+a | | rr) ° /
+| : Optimization Method a / Optimization Method
+| oe OEM es / oe GM
+aw oe MPPOV? MPR.
+| —O frompt Learneng —@ Prompt Learmng
+, ¢ 1ooe 2000 w0 4000 000 4000 ° _ ¢ 1000 2000 000 4000 S000 000 »00
+Numbet of Rotonts Nuriber of Rovouts

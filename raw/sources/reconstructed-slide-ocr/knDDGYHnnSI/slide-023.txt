@@ -1,0 +1,16 @@
+KnowledgeGraphConstruction
+Unstructured Data
+MixofStructured&
+Structured Data
+TypicallyPDFsorother
+UnstructuredData
+Structureddatawith
+textdocuments
+Structureddatawith
+AIE
+shorttextvalues
+long-formtext
+erved2024
+Microsoft
+smol
+aws

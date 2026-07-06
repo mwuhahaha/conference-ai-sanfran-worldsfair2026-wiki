@@ -1,0 +1,25 @@
+data=[dict（row)for row in rows]# type:ignore
+return format_as_xml（data,item_tag='row'.include_root_tag=False)
+mcp=FastMCP（'PyPI query',1og_level='WARNING'）
+AIE
+@mcp.tool()
+async def pypi_downloads(question:str,ctx:Context[ServerSession,None])→ str:
+""Analyze downloads of packages from the Python package index PyPI to answer questions
+about package downloads."*"I
+result = await pypi_agent.run(question,model=McPSamplingModel（session=ctx.session),
+deps=Deps(ctx))
+return result.output
+if
+name
+main
+run()
+om devtoolsimport debug
+World's
+vellum
+W
+Microsoft
+aws
+Alndun
+Cal
+smol?
+World'sFair

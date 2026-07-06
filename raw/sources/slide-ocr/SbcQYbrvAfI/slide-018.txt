@@ -1,0 +1,18 @@
+Benchmarking Cline w/updated prompt on BBH
+BBH - Diverse evaluation suite that tos imutiot Finataccutacy change
+focuses on tasks difficult for language Acsueaey (eens)
+models sakent_tramsistionerror_ detection ° 08 f
+snacks, os 0.88 +038
+Example BBH Benchmarks tracking _shulfled_obyects_tneee_objects é ose 038
+- Complex Boolean Expressions fopscat deduction hve: objects ae bed “ex
+- Categorizing Geometric Shapes . Sports understanding 086 0%6 soa
+based on vertex coordinates word_sorting oes ova 0.04
+- Detecting Sarcasm in Statements semooeet—teuenees “e ' soot
+geometnc_ shapes 048 05 +0.02
+boolean expressions 094 094 0
+logrcat_deduction_three_ objects. 096 O96 0
+obyect_counting 0a 0.76 0.02
+multistep. anthmetic_two 008 O06 0.02
+formal_fallacies oes oa 0.04
+fopcal. deduction seven_objects 0.7% 0.72 “0.04
+web_of_hes 0.56 O48 0.08

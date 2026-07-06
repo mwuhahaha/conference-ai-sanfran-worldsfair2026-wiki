@@ -1,0 +1,5 @@
+In December Anthropic
+wrote a great blog post
+that canonically defined
+agents and workflows
+- | a Microsoft @yr{??

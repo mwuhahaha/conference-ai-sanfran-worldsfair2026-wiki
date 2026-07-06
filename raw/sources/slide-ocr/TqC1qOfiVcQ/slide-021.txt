@@ -1,0 +1,10 @@
+Tools vs Bash vs Code Generation
+Tools:
+- Pros: Highly structured, highly reliable
+- Cons: High context usage, not composable
+Bash:
+- Pros: Composable, static scripts, low context usage
+- Cons: Longer discovery time, slightly lower call rate
+Code Gen:
+- Pros: Highly composable, dynamic scripts
+- Cons: Needs linting & possibly compilation, careful API design

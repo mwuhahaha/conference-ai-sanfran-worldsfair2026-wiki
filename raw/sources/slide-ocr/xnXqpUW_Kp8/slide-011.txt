@@ -1,0 +1,52 @@
+EXPLORER
+agent.py
+github_agent.py x
+UNTm
+s
+aengineer
+exa=Exa（api_keywos.getenvEXA_API_KEY))
+oerv
+opena1-OpenAI(ap1_keyos.getenv("OPENAI_API_KEY"))
+agent.py
+deo
+print(*GETTINGPROFILE NAMES")
+res-exa.search_and_contents(
+texteTrue,
+AIE
+type-"neural",
+num_resultse10,
+names1
+for 1,hit in enumerate(res.results):
+print（fEXTRACTING NAES（1))
+name=openai.chat.completions.create(
+model=gpt-40°,
+messogesa
+("role":"user",
+fro the text.Only output the
+"content:hit.title+"\n"+hit.text[:2e]),
+othtng else.
+PROBLEMS
+OUTPUT
+DEBUG CONSOLE
+TERMINAL
+COMMENTS
+-tred-cli*: CLI utility for secure data storage.
+zh
+Exa-AI SearchEngine
+Python
+Funding*1Raised s17 mllion in Serles A to develop anAI-centric search engine.
+on precision and better information retrieval.
+s
+-Will Bryk discusses the future of search ina sesslon highlighting technologicalinnovati
+/atche9509qzbrQqu).
+do
+Key Takeays
+-The shift froe traditional searchengines toAI-driven solutlons is seen as essential for
+-Developeenton Gitubincludes coetributfons fron Bryk focused on supporting Cryptography
+fes
+NG
+wiltbrykwills-MacBook-Pro-2alengineer
+@o00cradeta
+Ln26,Col15Spaces4UTF-8LF(）Python
+Microsoft
+smol

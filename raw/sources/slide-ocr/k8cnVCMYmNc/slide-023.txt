@@ -1,0 +1,39 @@
+DN ae ace aa ead A lt dd aie aed Ca - &A WY & Hm 2. Ot ee Bw Tt et BD ten ts law
+e “ee
+Arty Editor init__.py — agentic_'oop_teol_ca
+: F Made a tcol call to get avather alerts a Bs
+i, or _init_.py ee eg ee ee peg ee pet gg pe pe eee a
+¥ AGENTIC_LOOP_TOOL_CALL... taney ere: ' ; ,
+anid ait NO TOOLS Chosen, rescording arth ao tessage: No alerts today here,
+> _pycache__ 47 get handierttcal sare: Tro Sen York skies se clear nus
+el ee | ea rare eeR AY Cot eed te
+¥ activities oo ae
+oe | get_weather_aler!
+> _ pycache__ E
+13 | f
+Cofes TaN CSS sere ER og oT)
+tool_:nvcker.py PAs) Peon .
+aml ol a9 ra ‘ eae
+laa
+Sam ob for: e1 a a a aan
+ro Rea aenes
+tool_he'pers py oy
+~ tools Da
+> _ pycache__ 26 ;
+ge
+| a aes? rai ,
+A Ps:
+fot Umer ldieam eye a 3 o cursor .
+get_weather.py EY rere eae me |
+ier meicL Ee ES ; ”
+7 my » c uv run python -m start_workflow “any weather aler
+teehee) 3 ts where I'm at?”
+Raed 34 Result: No alerts today here,
+> _pycacho__ " In New York skies so clear now.
+Pert Peaceful weather oad
+; en ee ere
+Pyproject.toml ,
+Parola UL a : : uv run python -m start_workflow “any weather aler
+ede ae ha ts in CA?”
+O00 Cursor Tab) Ln 1, Coll Spa |
+EE 7

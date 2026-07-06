@@ -1,0 +1,7 @@
+DSPy
+Overview
+DSPy is a declarative framework for building modular AI software.
+It allows you to iterate fast on structured code, rather than brittle strings, and
+offers algorithms that compile AI programs into effective prompts and
+weights for your language models
+https://dspy.ai

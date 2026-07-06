@@ -1,0 +1,54 @@
+amp
+SOURCECONTROL
+AMP
+CHANOES
+<scriptlang-"ts">
+Lport{superform}froe'sveltekit-superfors/cltent
+Inport type（z}fron‘zod
+return false
+√Commt
+constf
+Changes
+disconectServiceFor,
+externalConnectors,
+external connections,
+external-con
+ctors-secton.sv+2.M
+const scpConfigconoector.config asHCPConection
+externalConnections,
+const url·ev RL（mcpConfig.endpoint_rl)
+returnurl.hostnae
+Liner.app1 url.hostn
+disconectServiceFon: Supervalidatedz.inferstypec
+catch（
+AIE
+externalConnectors:ExternalConnector[]
+retum false
+externalConnections:ExternalConnectionl]
+sprops（)
+const disconectsuperfore(disconectServicefre,(
+asynconupdate（（resslt}）（
+if（result.typesuccess）（
+nalt invaLidate('data:externalConectiens')
+octian isLinearMcPConsector(connector: ExternalCon
+conector.type ncp
+ceturm fatse
+NowIneed to update the iconrendering logic to use the CheckCircle
+iconforLinearMCP connectors:
+conit mcpConfigconector.config sCPConnet
+cons: ur=nmv uRL（ncpConfig.endpoint_url)
+serversrq/routes/settings/extemal-connectors-section.svelte
+retym url.hostnane
+inear.apo'l|url.ho
+return false
+TODOS
+Implement the Linear connectoricon customlzation feature
+const disconnect -superForm(disconnectServiceFor,
+asynconupdate（(result}）（
+if（result.typem'success}（
+await InvaLidate(dataiexternalConnections
+)else（
+Logger.error('Form subsisslon failed:
+Microsoft
+smol?
+brid'sFair

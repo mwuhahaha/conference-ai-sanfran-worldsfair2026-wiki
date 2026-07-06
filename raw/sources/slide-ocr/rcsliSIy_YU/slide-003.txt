@@ -1,0 +1,18 @@
+[ee Oo ot Briggs om ¢€ Tw Pr i a era
+ry Le is
+7 iG a a to 3@ ™ ay Pre
+; ; 2 ;
+Di a ie ae eae ee O000O* «© fo we om 6 B
+NE npn cert tune Neer a
+2 A Brief History of LLM Coding
+— 2022: Context-unaware code snippets e
+"| oe e “Write python for bubble sort” ?
+Ta 2023: Context-aware code generation °
+ones @ 2
+= e® ‘Write a suite of unit tests for this function’ 2
+‘ 2024: Single agents for atomic coding tasks. .
+bee e “Implement the GET /products endpoint and use & %
+| curl to validate that it works”
+vo oe 2025: Parallel agents for large-scale work ee ee ee
+. . e@ “Migrate our app from Redux to React Query”
+5 coven ene no yan yan ode)

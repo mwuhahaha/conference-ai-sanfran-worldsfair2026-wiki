@@ -1,0 +1,31 @@
+bear
+Daniel Chaief
+Zep Al
+danielégetzep.coa
+ABSTRACT
+We imruduce Zep. a novel memory layer service for Al agents that outperforms the current sate:
+of-the-art system, MemGPT. sn the Deep Memory Retrieval (DMR) benchmark. Addivonally, Zep
+2% excels in more comprehcauve and challenging cvaluatwoas than DMR that better reflect real- works
+coterpoe use cases, While curtng retneval-augmentied gonctanon (RAG) frameworks for large
+language model (11M -hased agents arc limited to statec document retneval, cntcrpnse applicapoas
+demand dynamic Loowledge integraioa from diverse wurces including ongoung cuavenations and
+buunews data Zep addresses this fundamental lmitabon through its core component Graplnty—-a
+bs, lemporally-aware knowledge graph engine that dynanucally syntheuses both unstructured conver:
+Senora) data and structured buvness dala while masntaining hivioncal relavonships. In the OMR
+benchmark. = hoch the MemGPT team eusdinhed as ther primary evaluation meine. Zep demon-
+strates wiperwe performance (94.4% +0 93.4%). Beyond DMR. Zep's capabalues are farther vali.
+dated through the more challenging LongMcmi:val benchmark, which better reflects enterpnse use
+sasen through compiles temporal reasonang Lav Ja Gus evalusbon. Zep actueves substantial rewults
+lex with accuracy improvements of up to 15.5% while umultancoud) reducing response latency 5)
+90% compared to baseline implementations. These resulls are parbcularly pronounced in caterpnse-
+snbcal Lasks such at cfoss-sesucn anformation sy athesss and long-term contest maintenance, demon-
+strating Zep’s effectiveness for deployment sn real-workd applications
+te iy a ty
+D ‘i a
+; https://ze.. “te .. er
+f 2
+A ‘ fy F
+= 5 => Sd
+lanl
+a ea
+-

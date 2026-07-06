@@ -1,0 +1,6 @@
+Prefill stage Decode stage
+KV Cache
+Se Cone fteration 1 Iteration 2 Iteration 3 tteration 4 Iteration 5 Hteration 6
+REreni)) (Decode) (Decode) (Decode) (Decode) (Decode) (Decode)
+N 4
+& What are LLMs?” <q ete 4 <a: I rea » os

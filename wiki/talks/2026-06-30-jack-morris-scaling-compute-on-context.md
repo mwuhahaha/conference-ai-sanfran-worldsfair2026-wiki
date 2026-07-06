@@ -1,0 +1,42 @@
+---
+title: "Scaling Compute on Context"
+category: "talks"
+date: "2026-06-30"
+time: "11:40am-12:00pm"
+track: "Memory & Continual Learning"
+room: "Track 3"
+speakers: ["Jack Morris"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Scaling Compute on Context
+
+## Official Schedule Context
+- Date/time: 2026-06-30 · 11:40am-12:00pm
+- Track/room: Memory & Continual Learning · Track 3
+- Speaker(s): Jack Morris
+- Session type/status: session · confirmed
+
+## Official Description
+A case for when context is enough, and when updating weights may be the real memory mechanism.
+
+## Related YouTube Video
+[Jack Morris: Stuffing Context is not Memory, Updating Weights is](https://www.youtube.com/watch?v=Jty4s9-Jb78) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[jack-morris]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-Jty4s9-Jb78-slides]] — extracted from the related public AI Engineer video.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-Jty4s9-Jb78-dense-slides]] (3 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-Jty4s9-Jb78-dense-slides]]
+- [[youtube-Jty4s9-Jb78-reconstructed-slides]]
+- [[youtube-Jty4s9-Jb78-slides]]
+- Slide-derived terms: `context`, `full`, `weights`, `tokens`, `text`, `document`, `card`, `output`, `vector`, `databases`, `mage`, `april`, `kentucky`, `embeddings`, `things`, `knowledge`, `amazon`, `figma`

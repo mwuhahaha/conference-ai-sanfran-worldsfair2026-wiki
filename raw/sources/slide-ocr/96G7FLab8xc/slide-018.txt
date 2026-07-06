@@ -1,0 +1,7 @@
+An average LLM context holds 200.000 tokens.
+That means ~250 tokens for each of your 800 endpoints.
+So if eacn tool's description was approximately as long as the
+text on this slide. then you would have taken up about 1/4 of
+the chent LLMs memory...
+just by saying .
+Nd 2025-11-22 13:42:09

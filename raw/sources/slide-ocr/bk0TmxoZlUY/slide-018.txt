@@ -1,0 +1,14 @@
+: ®
+Scorer Tips
+Use a higher-quality model for scoring, even if the prompt uses a cheaper
+model. Scorers benefit from better reasoning and nuance.
+Treat scorers like judges: evaluate intent match, style accuracy, and
+overall output quality: -not just correctness.
+Break scoring into multiple focused scorers (e.g., accuracy, Creativity,
+formatting) to pinpoint issues.
+Test scorer prompts in the Playground before use. Try strong and weak
+outputs to refine scoring reliability.
+Avoid overloading the scorer prompt with context. Focus if on the relevant
+input and output for fair, consistent evaluation.
+ty
+| u

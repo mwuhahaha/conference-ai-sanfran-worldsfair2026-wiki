@@ -1,0 +1,41 @@
+DependencyManagement
+Tessl Docs
+Pvess Kt
+Q
+WhyAPM
+Alcodid
+That drectorylslinked to tessl.JsonThistleprovides documentationfor the FastAPI
+ody ryoper stsumyngptbenrrrdublee
+nue
+nomaniest for
+AIE
+tool wenyouneedinfomationabout FastPIusagefeturesand bestpractices
+APMfisDec yorprjc'santc dndecesonceyand eey
+Inidethetledectyyo/fdamaietflecaledcntis
+dddopdep aut
+-spuosudasdepngryeaodaofsuopoyadoap
+meadataabouthelencldingthpacae
+ape.ya1 - ihp vith your groect
+name:your-project
+"vorsion*o16.o*.
+"same*:*tessLpypl-faatap1*,
+dependencies:
+"docs*:*docs/Lndex.ad'.
+sitls froeay reositooy
+"describes*:*pkg:pyp1/fastapi0.116.1*,
+FPlugins
+threpics/skilts/skitls/frentene-design
+"summary':"FastAPI franework,highperform
+fast
+-gith/esome-copilot/glagins/context-englneering
+Specificagentgriaitiesfrosey repoiitory
+1fllatcsr
+-eicreseft/aoe-sanole-gacage
+https:/docs.tessl.io/use/make-your-agents-smarter-with-
+gitclme-erg/repo-cd-repe
+documentation
+APM -https://github.com/microsoft/apm
+AIEngineer
+AIEngineer
+AlEngineer
+EUROPE

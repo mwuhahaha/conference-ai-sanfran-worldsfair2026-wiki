@@ -1,0 +1,14 @@
+Containers: Security Story
+Root Namespace Userspace
+Container
+Molicious or Buggy Process ‘
+. Trusted Process
+Pid Namespace
+( .. rT Tp Pid Pid
+(Pat; | it 00 200
+fi\
+syscall ioctl syscall ioctl
+Attack Surface
+Container processes can attack the kernel
+« After al Contaners run as native processes on top of the kernel
+«© Any Malicious of Duggy process can attack the kernel and gan root. _ —

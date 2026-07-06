@@ -1,0 +1,33 @@
+i ee a iT” S @@ SUID OE, OO cc oc —
+o° F . 7 9 “ a ” Bp , a Ooacs
+@ dspy_workshop.ipynd US. @ depy workshop. clean ipynd 4 BTR ern og ET ration Ipynb M @ Summarizer py an |
+
+— bad a vo
+@osncy oeehon Sear tye wa ttt hoe at late gE a Abe eee a ost ltored cathe!
++ Code + Markdown C2 Interrupt © Restart ~ Crear AlOutputs ¢. GoTo | | Jupyter Vanables Cutene dy very (Python 31113)
+5 2 from attachtentssdspy import Attachoznts Rote Mt a
+i Loo ett
+4 pdt_tink = “https://d28rn@p2Snwr6d. ctoudfront .net/CIK-O00 10458 10/8b76daec-a85f-429a-968c-3c 3eSddaedfc.pdf~
+5
+6 doe = Attactrents(pdt_ link?
+1. O98 Python
+[Attachsents} Running primary processor ‘pdfé_to_Ute’ for Attys: //dl8enOp2>nwr6d.c loudt ont. net/C 2K O08 10858 18/ Sb fedacc- a8Sf-4290-9b8< -3c3c9ebacd tc. oct
+[Attachments] «Applying step ‘load.url_to_response’ to MUtosi//G1Bredo2sewr bd. clovdfront ret /CIm- 20010558107 Bo 74caec- 985! -429a-968c- Ich Gdove3 ec. pd’
+[Attachments! Applying step ‘eodify.morpn_to_detected_type’ to nites: //alSra@nZ5w Od. chcwa treat. ret/C1X OOVIOSSE1O/SE7bdaec BAST 4290 HRC ICH AddaCII<. pet
+[attachments] Applying step ‘load. pdf_to_pdfpluaber’ to Ntips://dlérnQa2s wr. cloudfrant ret /CIn- 080 10458i0/ £97 Gdae - 985 1-4299-968c-Fe3cSdbaed tcc!
+[Attachwents} Applying step ‘moaify.pages’ to Mitoss//O1 8 ndp2srw Gd. Cloust rant. met (CIM OV@lOIS810/Bb 2édacc 985° 4295 968C Ic3cPuvaCzTc.cdr
+[Attachments} Running AdditivePipeline(present.aarkdown + present.images + present. metadata
+[Attacheents} ADDlyINg addITive step ‘"present.markdown® tO MTHS: //O1ErMMu25 rw GI. Cus rOPL Mer/CIM ORO1O4S910/ BU 7EsaeC- 9851 4299 968C- 3c3c9dbAT] Cc. OU"
+{Attachments} Applying additive step "present.images’ to Sttosi//G1BreBolsewréd.cloudfroct. ret sCla-OO1045820/ 8d fedaec- 0894-4290 968 -IcdcIsbocd*c pd”
+bof TAs is what we're workirg with
+2) from [Pythcr.dispiay import Image, display
+3
+4 displaylisage urtedoc. inages[0)))
+Python
+1 # from https: //manimerivest githud. Lo/attachments/architectures#dspy - integration
+2
+A wae St avy ONUNOMEG aedlneieeeteam: seewirenens x emnccaienl
+Provems @ Gutrut Debug Consee Terminal Pets Gitlens  suoyter Th tah wmaee ecampe 8 1 Re x
+kay ©
+Re wera ad
+era Sate a core Ae CT es ns a

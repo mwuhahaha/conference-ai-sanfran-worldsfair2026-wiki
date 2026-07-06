@@ -1,0 +1,20 @@
+MREADME.md
+trade_notional.py
+zsh
+()002-place_order-1.jsonM
+()001-agent-1.jsonM
+PreviewREADME
+README.md
+Preview
+Markdown
+@boundary wrapper (LIVE)
+@boundary("place_order",kind="tool")
+annotate once
+INPUT captured
+symbol=ACME quantity=100e side=sell （args-InputState)
+def place_order(symbol:str,quantity:int）->dict:
+notional=quantity*SHARE_PRICE
+return {"status":"filled","notional_cents":notional)
+OUTPUT captured
+{"status":“filled","notional_cents":19000000,...)
+Envelope-store-fixtures/traces/

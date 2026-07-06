@@ -1,0 +1,6 @@
+ee , ; , Go " 5 c p a |
+e How you “express your
+iN ry lI T re Ss declarative intent”
+e Can be simple strings or
+complex Class-based objects
+|

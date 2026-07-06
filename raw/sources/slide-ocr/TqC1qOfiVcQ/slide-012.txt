@@ -1,0 +1,13 @@
+Bash is all you Need
+Bash is what makes Claude Code so good.
+Bash is a generic version for “code mode” or programmatic tool calling.
+The bash tool allows you to:
+
+- Store the results of tool calls to files, so you can search them.
+
+- Store memory in files.
+
+- Dynamically generate scripts and call them.
+
+- Compose functionality, use unix primitives like tail, grep, cat, etc.
+antundSe existing powerful software like ffmpeg, libreoffice, etc.

@@ -1,0 +1,14 @@
+Background
+Carnegie Mellon B
+Operating Systems x Distributed Systems
+Microsoft
+* Windows Subsystem for Linux
+Google S * From scratch OS for pre-Apple Watch Smartwatch
+* MicroVMs - Rust-based lightweight VMs for Linux dev .
+environments on Chrome OS
+° ARC- Android apps on Chrome OS in containers bat Replit
+¢ Infra - Proxied through my service for your entire session
+whenever you code on Replit
+Arrakis « RAG based code chat
+* Sandboxes for Al Agents - code execution and computer use
+© Built during my time at South Park Commons

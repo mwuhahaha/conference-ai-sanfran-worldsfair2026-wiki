@@ -1,0 +1,15 @@
+core
+World's Fair
+Example oy
+ys Se Chat LangquageModel feom Setter tig.” O t |
+ar ca anata, os ur agent loop,
+.
+71 Strearing chat with tool support b hg
+const streamingChat Effect gen fuscticre as 8 I
+const cnat rie’Ge Chat empty sad .
+ect-native
+yielte chat s
+steeanTent
+prompt “Gerreate a crestive story”
+pipe Stream runforfach part -» Effect sync s+ console. log part
+full control of our own agent

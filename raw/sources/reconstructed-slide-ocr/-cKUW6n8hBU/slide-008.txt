@@ -1,0 +1,25 @@
+Tang:NYC (NYT) 46.17 Cena
+Core Concepts
+Signatures
+Modules
+Tools
+Specifywhatyouwant,
+Structure your program
+Interactwiththeoutside
+nothow;lettheLLM
+logically
+world-or therestofthe
+figure it out
+program
+Adapters
+Optimizers
+Metrics
+Customizableprompt
+OptimizeyourDSPy
+Definewhattooptimize
+formatters:thinkJSON,
+program,ML-style
+against (can be multiple
+BAML,XML,etc.
+things)
+(lettheLLM figure it out!)

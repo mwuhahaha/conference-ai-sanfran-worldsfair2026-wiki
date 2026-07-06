@@ -1,0 +1,51 @@
+---
+title: "Model Routing"
+category: "talks"
+date: "2026-07-01"
+time: "3:45pm-4:05pm"
+track: "Local AI"
+room: "Track 4"
+speakers: ["Nader Khalil", "Walden Yan", "Tanay Varshney", "Alex Atallah"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Model Routing
+
+## Official Schedule Context
+- Date/time: 2026-07-01 · 3:45pm-4:05pm
+- Track/room: Local AI · Track 4
+- Speaker(s): Nader Khalil, Walden Yan, Tanay Varshney, Alex Atallah
+- Session type/status: session · confirmed
+
+## Official Description
+Model Routing explores how teams decide when to use local models, open-source models, or frontier
+
+cloud systems, and why the answer is increasingly hybrid rather than one-size-fits-all. The panel
+
+digs into routing architectures, model selection strategies, stack decisions, and what still needs
+
+to improve in local AI before more workloads can move closer to the user.  Moderator: Nader Khalil
+
+(NVIDIA). Panelists: Walden Yan (Cognition), Tanay Varshney (NVIDIA), Alex Atallah (OpenRouter).
+
+## Related YouTube Video
+[Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter](https://www.youtube.com/watch?v=84Vtz2IL1Ug) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[nader-khalil]]
+- [[walden-yan]]
+- [[tanay-varshney]]
+- [[alex-atallah]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-84Vtz2IL1Ug-dense-slides]] (3 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-84Vtz2IL1Ug-dense-slides]]
+- [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+- [[youtube-84Vtz2IL1Ug-slides]]
+- Slide-derived terms: `models`, `tokens`, `world`, `fair`, `model`, `llama`, `language`, `inference`, `train`, `openrouter`, `engineering`, `future`, `performance`, `openal`, `best`, `training`, `datasets`, `alengincer`

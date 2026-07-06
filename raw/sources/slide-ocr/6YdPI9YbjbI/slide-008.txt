@@ -1,0 +1,11 @@
+Evaluation challenges
+Iniual workflow:
+e Large JSONL datasets difficult to manage and version
+AE e Human evaluators costly and overwhelmed by volume
+> Need for scalable and efficient evaluation
+fe »
+» a
+| , 24]
+oe ma Microsoft §GOU
+~
+[ World's Fa

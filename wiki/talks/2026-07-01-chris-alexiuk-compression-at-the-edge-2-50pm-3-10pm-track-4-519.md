@@ -1,0 +1,54 @@
+---
+title: "Compression at the Edge"
+category: "talks"
+date: "2026-07-01"
+time: "2:50pm-3:10pm"
+track: "Local AI"
+room: "Track 4"
+speakers: ["Chris Alexiuk", "Daniel Han", "Asma Beevi", "Merve Noyan", "Parth Sareen"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Compression at the Edge
+
+## Official Schedule Context
+- Date/time: 2026-07-01 · 2:50pm-3:10pm
+- Track/room: Local AI · Track 4
+- Speaker(s): Chris Alexiuk, Daniel Han, Asma Beevi, Merve Noyan, Parth Sareen
+- Session type/status: session · confirmed
+
+## Official Description
+Compression at the Edge examines how smaller weights, faster inference, and constrained-memory
+
+deployments are making capable local AI more practical. The panel explores where compressed models
+
+already beat cloud on latency, privacy, cost, or control, what breakthroughs would unlock broader
+
+adoption, and how open model tooling is shaping the edge AI stack.  Moderator: Chris Alexiuk
+
+(NVIDIA). Panelists: Daniel Han (Unsloth), Asma Beevi (NVIDIA), Merve Noyan (Hugging Face), Michael
+
+Chiang (Ollama).
+
+## Related YouTube Video
+[Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face](https://www.youtube.com/watch?v=OV56RddyFuU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[chris-alexiuk]]
+- [[daniel-han]]
+- [[asma-beevi]]
+- [[merve-noyan]]
+- [[parth-sareen]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-OV56RddyFuU-dense-slides]] (20 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-OV56RddyFuU-dense-slides]]
+- [[youtube-OV56RddyFuU-reconstructed-slides]]
+- [[youtube-OV56RddyFuU-slides]]
+- Slide-derived terms: `model`, `skills`, `models`, `gguf`, `hermes`, `community`, `datasets`, `text`, `local`, `llama.cpp`, `inference`, `image`, `search`, `spaces`, `jobs`, `setup`, `claude`, `some`

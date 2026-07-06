@@ -1,0 +1,15 @@
+Original text Ps ss ns | ~~
+vec2text is an algorithm for recovering a
+text from embeddings. Using vec2text, we ec
+can recover over 90% of text inputs fro
+m embeddings exactly. PI
+agi
+Hypothesis (Round 7) an
+vectext2 is an algorithm for recovering
+text from_ embed s. Using vectex
+» we cd recover text from embed
+
+s, approx 90% 0 in.
+
+Embedding
+Full Context * RAG + Wechts

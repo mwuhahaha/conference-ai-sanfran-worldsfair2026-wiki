@@ -1,0 +1,9 @@
+Challenges of
+speech-to-speech
+‘
+!
+Complex decision making Reusing existing capabilities Dealing with complex states
+The speech-to-spaech model does not support Hf you've been investing in specalzed agents. tnstead of bukcing chasns that can represent
+the levat of reasoning that more advanced that rely on specitic modeis tor certain parts of a different parts of a workflow you are dealing with
+models tke 03 or o4-mun support. text-based flow, it’s harder to reuse them an agent that has an ongaing conversation.
+Wortds Fate ~ |

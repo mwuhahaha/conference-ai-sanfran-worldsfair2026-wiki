@@ -1,0 +1,13 @@
+UA.
+What techniques are you using to
+customize your Al systems? 70%+ of respondents are
+using RAG.
+on,
+ae
+—-
+40% mentioned LoRA/QLORA,
+indicating widespread preference for
+Bere:Bhot hearing parameter-efficient methods.
+Most popular core training approach is
+Breteaions supervised fine-tuning.
+om ff

@@ -1,0 +1,61 @@
+A
+2·SatNov 22447PM
+口
+口口
+dspy_workshop.ipynbU
+dspy_workshop_clean.ipynbM
+hub.ipyn
+summarization.ipynb M
+Summarizer.py
+Takng:NYC (NYT) 46.17Centra
+dspy_workshop_clean.ipynb>M Structured information from a PDF>MDynamicall generate a schema based on the content itself>from pydantic import BaseModel, Field
++Code
+十Markdown
+RunAllRestartClearAllOutputs|JupyterVariablesOutline
+venv(Python 3.11.13)
+""-A transaction in the document.
+D
+transaction_type:str=Field(description="The type oftransaction.")
+D日
+shares_sold:int =Field(descrintinn="Thenimher nf shares snln.)
+price_per_s(class）str
+total_price
+str(object=")->str str(bytes_or_buffer[encodingL errors]l)->str
+class Docunents Create anew stringobjectfrom the given object.f encodingorerrorsis specified,then the objectmustexpose a data buffer that wil e
+Astructdecodedusingtgienencodinganderrorhanderthewisereturnsthresultfbjctst_Ofdfined）orreprobjct）encoding
+formtype:defaults tosys.getefuencoing.ersdfalts tostic
+filing_date: str=Field（descriptionaThe date of the filing in the format YyyY-MM-Do.)
+total_shares,sold:int
+transactions:list[Transaction]=Field(description"Alist of transactions.")
+class DocumentAnalyzerSchena(dspy.Signature):
+Analyze document content and extract insights.
+MIEN
+document:Attachnents=dspy.InputField()
+document_schena:DocunentSchena=dspy.OutputField(desc="A structured representation of the document content.")
+result_schema=dspy.ChainofThought(DocumentAnalyzerSchena)(docunent=doc)
+pprint(dict{Any,Any)(result_schena.document_schema))
+#Now use the typed object to get the total shares sold
+print(\n\n#Total shares sold:)
+print(result_schena.document_schena.total_shares_sold)
+0.0s
+Python
+{'filing_date':'2025-09-15',
+'form_type':Form 4',
+I ±
+Problems
+Output
+Debug Console
+Terminal
+Ports
+GitLens
+Jupyter
+fish-modue_example+①自
+X
+XKtooe
+main
+Launchpad
+?6A8
+CursorTab
+Spaces:4
+Cell26of59
+AmpTab

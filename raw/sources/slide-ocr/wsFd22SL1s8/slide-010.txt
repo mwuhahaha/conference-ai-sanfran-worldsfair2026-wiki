@@ -1,0 +1,10 @@
+be —C“( eC SCC ,
+Backtracking
+« Pre-reasoning models - intuition that a higher order task needs to be broken down by a Planner
+« Agent should be able to snapshot progress and restart from last good snapshot versus starting from scratch
+Simple API
+« Python API
+* Golang CLI
++ MCP Server .
+¢ opeanapi compatible -~ generate clients in any language
+Configurable With Docker tooling ©

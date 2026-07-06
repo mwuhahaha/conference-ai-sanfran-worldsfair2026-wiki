@@ -1,0 +1,186 @@
+ockets',fllenane*：'sockets.py”
+1ineno：53，essage
+Event webaocket Connected:fc4a
+483-a6fc-45e0-8ab8-ce58d0558615')
+('aectine':
+2025-11-2219:18:10.173',1evelnaeINFO°
+"name'
+'uvicorn.error'.
+e':
+'wsproto.inplpy'.
+11nno:259,mesge*172.17.0.1:36182
+('asctine':
+2825-11-2219:18:18,174'levelnome':
+.ONT.
+f1lename*:*sockets.py”.
+1ineno:53,message
+`none'
+openhands.agent_server.s
+Bb77cd63-2891-4358-9ad3-fa4afbf7bcc9
+ockets',
+Event websocket Connected：922d8
+run openhands--resune 8b77cd53-2e91-4358-9ad3-fa4afbf7bcc9 to resume this conversation
+427-7c27-49a4-98d3-b16e7284455c')
+`C
+("asctine'
+2025-11-2219:18:10,188,*1evelnam
+'INFO'.
+direnv:1oading-/git/cve-demo-2/.envrc
+ddr:null,
+request line:null,“status code:null)
+'uvicorn.access'
+'client
+direnv:export +GITHU8_TOKENLLx_APIxEY
+('asotime'
+2025-11-2219:18:10,181,1evelname
+"INFO'.
+uvicorn.access'
+in2h1841
+'requeet_line':null,status_code'
+null)
+"client
+-derbox
+openhands*c
+addr'
+null,
+0T10S0,)
+'INFO'
+-derbox-/git/eve-demo-22main+
+Ttnu:.ppe
+request.line：null“status.code*
+null)
+'name'
+'uvicorn.access'.
+'client
+28:18cd./cve-deno-ai-engineer/
+（asctime':2825-11-2219:18:44,948
+'filename"
+"lineno":
+'levelna
+direnv:unloading
+'INFO'
+openhands.agent.server,s
+2d8427-7c27-49a4-98d3-b16e7284455c)
+ockets'
+'sockets.py'
+message"
+Event websocket disconnected:92
+do-devbox
+-/git/cve-
+（as0t1me':'2825-11-2219:18:44,948',
+'INFO'
+'socketo.py'
+'openhands.agent.server.s
+4a8483-a6fc-45e8-Bab8-ce58d558615')
+"filenase':
+'lineno*:85,
+'nessage'
+Event websocket disconnected:fo
+versation.error[]
+versatior
+（'asctime*;'2825-11-2219:18:44,948','1evelne
+'sockets.oy'.
+.OI.
+'openhands.agent_server.s
+ockets'
+'filene
+'linene*:85,
+'nessoge'
+'Event websocket disconnected:bd
+Update step
+(asctine:2025-11-22 19:18:44.948,*1evelnam
+edB557-6ebf-4a73-996e-535ca8fecec4)
+ith state lock
+'sockets.py'.
+lineno：Bs,message'
+'INFO'
+'name':*openhands.agent_server.s
+devbox
+11s
+ockets',
+Event ebsocket disconnected6a
+Be94f5-928a-48fg-a04-4f2aed5abe4a)
+-devbox
+C（asctime':*2825-11-2228:17:31.388*1evelname':*INF0*
+19:19)cd
+ae':'server.py'.
+"nar
+"uvicorn.error",
+'filen
+direnv:unloading
+('asctime
+'on.py"
+1ineno*:67.essegewasting for ppl1cation shutdown.)
+`INFO'.
+nme
+'uvicorn.error",
+'filenas
+20:17) gholone rbren/eve-deno-al-engineer
+devbox
+-/gtt
+Cloning into*cve-deno-ai-engineer'
+C(act1me':*2025-11-2220:17:36,417,1eve1na
+vscode_servicepy
+"WAANING','name
+'lineno′:78,'es#ge
+jasluabespupquado,
+Enunerating objects:8,done.
+"filename':
+vSDude server
+enote:
+Counting objects:1ee （8/8). done.
+did not stop gracefully.killing process)
+('osctime'
+'lineno':76,'message*;
+Application ahutdown complete.)
+name':*uvicorn.error`,
+'fileno
+Conpressing objects:1een（4/4）.done
+Total8（deltaa）.reusede（deltaa）.pack-re
+'on.py'
+enote:
+(`asctine
+'levelname'
+'INFO'.
+"name`
+'server.py
+'lineno*：94,message*:Finished server process[7l*,color.message
+'wicorn.error',
+"fslena
+Receiving cbjects)1ees（8/8）.done
+te/-xogaap-op
+nished server process[Lueetb[36ntdlub1b[an]’)
+'F1
+20:17)cdcve-deno-ai-engineer/
+Exception ignored in:<function BaseSubprocessTransport._del
+Tracebock (most recent call last):
+atax75e25a69b748
+-devbox-/git/eve-d
+0-at-engineermain+
+Fileasyncio/base_subprocess.py
+Fijeamyncio/base.aubprocess.py,1ine184.1n clos
+1ine 126,in_del
+total28k
+File*asyncio/umix.events.py”.
+File'asyncio/urdx.events.py"
+4root docker4.ekNov2228:17
+line 568,
+Iine592,
+inclose
+drxr-xr-x12rootroot
+Fileasyncio/base_events.py
+inalose
+7root docker 4.BkNov 2220:17
+4.BKNov2228:17
+Line 799.
+tncall.soon
+3root docker4.kNov 222:17
+.git
+File'asyncio/base.evente.py
+1ine 54s,in_check.closed
+1root docker
+Runtimerror:Event loop in cloed
+23 Nov 2228:17 READE.md
+edo-devbox-2h32n59s
+-/git/cve-de
+d-36）174.138.76.92d1k

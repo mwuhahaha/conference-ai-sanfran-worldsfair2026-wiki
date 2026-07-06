@@ -1,0 +1,4 @@
+Current Performance LLMS against of ARC-AGI 2
+ESSEC ARC-AGI-1 ARC-AGI-2 Efficency
+Score Score {cost/task)
+: a Microsoft omc

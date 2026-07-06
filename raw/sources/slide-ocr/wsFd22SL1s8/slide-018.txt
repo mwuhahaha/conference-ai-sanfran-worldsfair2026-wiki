@@ -1,0 +1,27 @@
+Pia vamespace a 7
+fone eee eee
+, Pid! Pid
+ --e! 100
+¢ Neer T Tee
+7 “*<\ ~
+(77 te 17 oe wy
+Pid 2!) | Pid 3! Pid Pid
+Vee ew Sarma 101 102
+~
+Mount Namespace ~~. OsSsee 7
+sere] ow
+f '
+,/
+—-—— = = «
+' |
+'
+aanipare
+Kernel
+Linux Container with Pid and Mount Namespace
+« Why? - My app needs Python? §, foo bb version 1.2, your server has Python 3 9, 3.6, 3.12 and doesn't have foo hb:
++ Package an app’s dependencies along with fs Core business logic
+« Run arbitrary user code on your machine
+© On Linux 8 Contameris » Codecton of Namespaces of dfferent resources (Process, Mount. Net etc.)
+« Insade 8 container you Only see resources mh your NEmespace snd Not ouside.
+*« Qutude the contamer you see everything inside your chddren namespaces
+« Resource atocaton happens via CGroups (“How much memory o¢ CPU to allocate this namespace”)

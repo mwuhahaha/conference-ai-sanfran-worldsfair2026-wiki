@@ -1,0 +1,86 @@
+A
+·SatNov 22440PM
+PPO
+dspy_workshop.ipymbU
+aeS0
+FO
+DSPY_WORKSHOP
+dspywor（functLon）def toad_dote(
+Tang:NYC (NYT) 4617 Centl
+>env
++Code
+dotenv_path:StrPath|None=None,
+stream:Io[str]|None=None,
+env (Python3.11.13)
+>vicode
+>data
+Lopt/hs
+verbose: boolFalse,
+skipped unsupported reflection of expression-based inde:
+oexti
+override:boolFalse,
+module_example
+LoRt/hs
+interpolate: boolTrue,
+kipped unsupported reflection of expression-based 1nde
+modules
+pexti
+OTo）b001
+encoding:str]None=“utf-8"
+BoundaryDetector.py
+for
+DocumentClassifier.py
+DocumentProcessor.py
+Parameters:
+doten_path:Absolute or relative path to eovfle.
+Summarizer.py
+stream:Text stream（tuchaso.StringIO）wiheev contnt,ed
+AdozAens
+doteynothN
+VisuWithTools.py
+load_dotenv(overrideTrue)
+>output
+0.0s
+Python
+main.py
+1M
+True
+OAN
+U,o
+5example
+gitignore
+inportos
+python-version
+U
+LM_CONFIG·（
+M
+"nodel":os.getenv("DSPY_FAST_MODEL"),
+dsp_workshop.pynb
+"ap_key":os.getenv（-OSPY_API_KEY"),
+u
+"api_base”:os.getenv("DSPY_ENDPOINT"),
+hubioynb
+n
+"ap1_version:os.getenv("DSPY_FAST_API_vERSION"),
+KLICENSE
+.CLEY MIVTAWOHA
+pyproject.toml
+Problem
+Terminal
+Ports
+Gitens
+Jupyter
+README.md
+r[ks
+adgraMADCAPM28857:~/D/d/d/modute_exanple]-[16:39:55]-[V:.ve]-[G:nain=]
+M
+time_entry.optimizer.
+uvlock
+OUTLINE
+Environment Setup
+MUseful tidbits
+M Simple Sentiment...
+MStructuredinformatio
+Dynamically genera..
+MAdapter Example
+6A8

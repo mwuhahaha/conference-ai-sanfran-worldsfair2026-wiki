@@ -1,0 +1,10 @@
+EasierDevelopment:Why?
+Natural Language Description:"Apples and oranges are both fruits"
+DATASEMANTICS
+AIE
+EXPLICIT(SYMBOLIC)
+Representation
+erved2023
+Microsoft
+smol
+aws

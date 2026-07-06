@@ -1,0 +1,78 @@
+Con
+Stash
+rae.py
+app.svete.ts
+Nstlee
+defpipeline_avto.parattetc2s
+on_Layer_Loaded（i.totat)
+P
+Changes
+leoprefil-deco
+layers[0]-PipeLineFirstLayer（Layers[e],sevice_rank,
+tayers[-1]=Pipetinelastlayer(
+edFles
+tayers[-1],
+device_rank,
+world_size,
+agroup,
+Amens
+1fisinstnce（Iner_odel_instace,Sptoss）:
+inner_model_Instance.Layer_typesInner_model_instance.layer_types[
+Addback6
+Commitand Push...
+Cor
+If alayer type doesnt exist,e canset it too.
+Terminal
+turboquant
+Ueven sarding
+bench
+james mconvesionit
+jamesmbx conversion 8bit
+ogx
+Local
+James
+s13
+Loca(3)
+Loca(6)
+aait resp.start（con）
+function CLlentResponse.start at xelaSfe7c
+Centese(ntt://afe.c//dsa/gfs-2i//i）[N]
+F11e/home/Larry/ex/.ven/Ltb/python3.13/site-packages/alohttp/cLient_reqre.o,Line 539,In staet
+sessape,gayloadaait protocl.res(）type:Ignore[union-attr]
+Lfunction DataQueue.read at dxelat4e193adb
+F1le/home/Larry/exo/.ven/Lib/python3.13/site-packages/aiohttp/streans.py,Line 763,in read
+alohttp.eLient_proto.Responseandler coject at xeBabedetb77o
+aait slf.miter
+LNone
+alohttp.ellent_sroto.Responsehanfler coject at fxeBabedeto776
+alohttp.cLiant_excegtLans.SocketTiaeoutError: Tineout en readingNata fron socket
+INFO
+dverLapping prefill:sent 120chunks,28342 takens（server_cached111,skip0)
+INFO
+INFO
+KVcache added（torch):20342 tokens
+02:05:27.4540PH
+Server refix cache:saved 28342 tokens （entries:1+2)
+02:09:39.0288P
+INFO
+INFO
+]Prefill reqest:40570 takens,start_pos,overlappingaTre
+Prefitl complete:28344 tokens 1n 8936as （2277 tok/s)
+2826-64-08T14:69:48.194893+00
+02:09:48.1416P
+INFO
+Sent coched:24K,arrays for positions0-28349
+|patched|IF0-Preflx cache hit:28340 tokns,1281 blocks（2groups）
+02:09:48.2043PN
+INFO
+INFO
+OverLapp1ng prefitL:sent 120chunks,46568 tokens （serve_cached20340,skip0)
+02:09:57.0796P
+02:89:57.0793PH
+INFO
+INFO
+KVcache adsed(tarch）:40568 tokens
+Server prefix cache:saved 40568 tokens(entrles:2+3）
+02:09:57.0885PN
+INFO
+UTF-

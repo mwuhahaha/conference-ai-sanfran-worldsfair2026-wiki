@@ -1,0 +1,16 @@
+Containers: Why? And What?
+. Parent
+Container Pid 1 Root
+Pid Namespace Namespaces
+(Pid 1 | Pid
+yee 100
+Pa Neott.
+ane ne tek 7“ 6
+| Pid 2 ' | Pid 3 ' Pid Pid
+“oc wT Te 101 102
+Mount Namespace “P.M see?
+(7 “r=
+1/
+1 —= =
+Kernel
+Linux Container with Pid and Mount Mamespace

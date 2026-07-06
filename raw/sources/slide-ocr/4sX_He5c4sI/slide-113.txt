@@ -1,0 +1,21 @@
+AEngin
+World'sFair
+You are watching an AJE Online Talk
+Pre-RecordedforWorld'sFair2026.
+Isearched across prior sessions.Two are directly relevant to what you're doing:
+vector-indexing mechanics you're about to apply.just on the repositories collection instead of PRs.
+2.pr-description-search-opened by Hax Kless,~1month ago.Added full-text search to the PR collection specifically.Relevant for the
+collection shape,existing indexes,and any write-path considerations on PRs.
+Together they bracket your task well:one shows the vector-indexing pattern, the other shows the PR collection you're nodifying.
+The senantic search surfaced these by relevance but didn't return their session IDs,and neither appears in the recent-session List （both
+predate it),so I can't auto-load then yet.To pull the full detail-file paths,index definitions,migration approach,and any gotchas-
+I'dwant toopen then directly.
+Wantneto do oneofthese?
+1.Load index-repositories （recommended)-the vector-indexing playbook to mirror.If you have its session ID or URL handy.paste it and I'Ll
+pull the full breakdown.
+2.Loadpr-description-search-for how the PR collection'sindexes are currently set up.
+3.Both,and I'll synthesize a combined “here's how to add vector indexing to the PR collectionplan grounded in what those sessions
+actually did.
+Ifyou don'thave theIDs,tell newhichone(s)you want and I'lldig them out.
+Workedfor41s
+ocean git:(add-pr-indexing-9c7ca610)[0pus4.8（1M context)]

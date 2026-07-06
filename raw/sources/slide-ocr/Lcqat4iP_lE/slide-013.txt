@@ -1,0 +1,18 @@
+Context Propagation
+recs cee: thas client es
+name tcovilee. nane
+arguments toallisr.argunents
+_neta {
+__traceContext {
+traceld spar Q).traceld
+spanId  spen ().spanid
+traceFlags span ().traceFlags
+be3. sik eee ee
+}
+iH
+Bae a });
+TAD LCe\*) CS
+LY
+ss w Microsoft @WS ary?
+a Saad all ad Pre Ya) [We wee)
+Beas 4

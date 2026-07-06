@@ -1,0 +1,10 @@
+Context comes at a Cusr aa a
+ae
+2
+With 1k tokens of context per user, we can ann
+output 10,000 tokens per second
+With 128k tokens of context per user, we can
+output 130 tokens per second
+“numbers computed for Llama 8B running at peak
+throughput (.e. excluding prefill) on a single H100
+Full Context ¢ RAG ¢ Weights

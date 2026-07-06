@@ -1,0 +1,6 @@
+tldr;
+V5
+01 stop chasing bitwise determinism through the API.
+02 pin every variable against the session
+03 capture the full envelope at the boundary, not just the prompt
+i

@@ -1,0 +1,18 @@
+Getcode
+Python
+Code
+co
+client-genai.Client(
+api_key=os.environ.get（"GEMINI_API_KEY"),
+model-"gemini-3.1-flash-lite-previev
+contents-
+types.Content(
+role="user"
+parts=I
+types.Part.from_text（text"https://blog.google/innovation-and-
+a1/technology/developers-tools/gemma-4/
+https://deepmind.google/btog/genie-3-a-new-frontier-for-world-aodels/
+Compare and contrast Genie 3 and Gemna 4-tell me how they're sinilar,different,or copletely
+unrelated..),
+Close
+Copy

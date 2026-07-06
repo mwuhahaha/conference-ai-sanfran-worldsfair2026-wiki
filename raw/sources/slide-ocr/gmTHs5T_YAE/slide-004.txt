@@ -1,0 +1,7 @@
+Example: e Llama 3.2 3B backbone
+Orpheus TTS e Increased vocab size for
+speech-specific tokens
+V Canopy Labs —.. Extended context ienaih
+with RoPE scaling
+= 3
+2“ " a Microsoft simon

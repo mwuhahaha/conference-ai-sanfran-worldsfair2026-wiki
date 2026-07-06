@@ -1,0 +1,171 @@
+c\'[oocepted]'}
+ith debug to see polling in action
+('asctine'
+"levelname'
+'INFO'.'name
+'sockets.py",
+'lineno':
+'mossage
+'openha
+nds.agent_server.sockets',
+Event Websocket Connected:922d8427-7e27-49a4-90d3-b16e7284455c*)
+`filename`
+file operations,and actions!
+2825-11-2219:18:10.180,1evenae':“INF0',nme
+'uvieor
+houldnow see **real-tise status updates
+n.access
+client_addr':null,request_line*:null,status_code
+'2825-11-2219:18:18,181*,1evelnome'INF0'.
+null)
+('asctine
+'uvicor
+n.occess'
+cllent addr':null,request line':null,*status_code
+null)
+59K
+('asctime'
+client.addr'
+NT.,T,
+null,
+"nane
+'uvicor
+n.access'
+null.
+'request.line'
+`levelnane'
+`INFO'
+"statun.code"
+'openha
+null)
+nds.agent_server.sockets",
+'asctime
+'filename
+'sockets.py'.
+'lineno"
+"name
+ebsocket d1sconnected:922d8427-7c27-49a4-90d3-b16e7284455c)
+'message
+'Event
+'asctime
+"levelname'
+`INFO'.
+nds.agent_server.sockets',
+'filename
+'sockets.py'.
+'lineno':
+"name`
+'openha
+*Event websocket disconnected:fc4aB483-abfc-45eB-Bab8-ce58dB558615)
+'osctime
+'INFO'
+nds.agent_server.sockets',
+'filename'
+'sockets.py'.
+"lineno'
+openha
+“Event websocket disconnected:bded8557-6ebf-4a73-996e-535caBfecec4')
+('asctime'
+levelnane
+'INFO'
+nds.agent_server.sockets'.
+"filename'
+'sockets.py'.
+'lineno':8s.
+'message
+'openha
+Event websocket disconnected:6ale94f5-g2Ba-48fe-a194-4f2aed5abe4a)
+C（'asctine
+`filename'
+'server.py'.
+'lineno′:264,
+'levelname
+'message'
+'INFO'
+orn.error'
+'Shutting do
+uvie
+('asctine'
+'Levelnane':
+"INFO'.
+Waiting for appllo
+'name':
+'uvicor
+n.error'
+"filena
+'on.py".
+1ineno:67,
+'message'
+mversatsoc error(8]:
+STr
+ation shutdown,')
+C('asctine':
+2825-11-2220:17:36.417','1evelnae:WARNING
+penhands.agent_server.vscode_service',
+"filename'
+'vscode_service.py'.
+"'name'
+onvereatiorxrroe(0)
+vsCode server did not stop gracefully.killing proce
+neno':78,
+'sessage':
+update step
+mith state_lock
+('asctine'
+2825-11-2228:17:36,428,1eve1name:INF0′,name*:uv1cor
+-devbex
+10:180 git checkout
+-/git/cve-ge
+n.error',
+'filename'
+"on.py".
+1ineno:76,*essage*:'Appication shutdo
+-devbox-/git/cve
+(astime:*2825-11-2228:17:36,428.1evelnae:INF0
+wncomplete.`}
+"filename':
+`nane':
+:'uvicor
+direnv:unloading
+10:19)cd
+n.error',
+'server.py'.
+1ineno:94,*messge
+'Finishedserve
+edo-devbox-/git
+process[7].color_message':
+Finished server processuee1b36ndlu
+28:17)ghclone rbren/ove-demo-ai-engineer
+Exoeption ignored in:function BaseSubprocessTransport.del..at Bx75e25s
+1b[0]')
+Cloning into'cve-deno-al-engineer
+eote：Enumerating objecte:8, done.
+Traceback （most recent call last）:
+69b748-
+Countingobjects:1ae（8/8）,done
+Conpressing ob]ects:10e（4/4）,done
+F1le*asyncio/base.subprocess.py，1ine 184.in close
+F1le*async1o/base_subprocess.py*，1ine 126,1ndel.
+renote:Tota]8（detae）.reused（delta a）,pack-reu
+F1le'asyncio/unix.events.py
+File*asyncio/unix.events.py”
+1ine 568,in close
+Receiving cbjects:18en （8/8）.done.
+1ine 592,in_clo
+2017）cdcve-deno-a1-engineer/
+devbox-/git
+File'asyncio/base_events.py"
+line 799,in call soon
+stat:canot statxgit/FETOHEAD:
+Nosuch file or directory
+File'asyncio/base_events.py'
+1ine 545.in_check_closed
+RuntineError:Event loop is closed
+git/cve-d
+slo+
+edo-devbox
+2h32±59s
+174.138.76.92d1sk
+Z2
+epu
+:8-bash*

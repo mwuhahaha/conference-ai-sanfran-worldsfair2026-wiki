@@ -1,0 +1,19 @@
+the big labs are all doing it
+Continuing to scale reinforcement
+learning AND - #
+v7) |
+Throughout the development of OpenAl 03, we've observed that
+large-scale rewnforcement learning exhityts the same “more oF @) | = Ss
+compute © better performance™ trend observed in GPT-series
+pretrainng. By retracing the scaling path—ths time in RL-we've N = xX a ‘ ¥ x
+pushed an additional order of magnitude in both training 9:24:02
+compute and inference-time reasoning, yet still see clear ¢" ‘nn
+performance gams. validating that the models’ performance
+continues to improve the more they're allowed to think. At equal Is RL +LLMs enough for AGI? - :
+latency and cost with OpenAl o1, 03 delrvers higher performance .
+in ChatGPT— and we've validated that if we fet it think longer, its Sholto Douglas & Trenton Bricken
+Performance keeps chmbing. 123K views + 13 days ago
+FY
+t4
+- , rai)
+— PLES ION

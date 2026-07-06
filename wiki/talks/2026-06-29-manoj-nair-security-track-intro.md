@@ -1,0 +1,33 @@
+---
+title: "Security Track intro"
+category: "talks"
+date: "2026-06-29"
+time: "10:25am-10:30am"
+track: "Software Factories"
+room: "Main Stage"
+speakers: ["Manoj Nair"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Security Track intro
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 10:25am-10:30am
+- Track/room: Software Factories · Main Stage
+- Speaker(s): Manoj Nair
+- Session type/status: keynote · confirmed
+
+## Official Description
+No official description published in the schedule data.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[manoj-nair]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

@@ -1,0 +1,63 @@
+---
+title: "Let's integrate AI Agents in Event-Sourced Systems"
+category: "talks"
+date: "2026-07-01"
+time: "11:40am-12:00pm"
+track: "AI in Finance"
+room: "Track 3"
+speakers: ["Divakar Kumar"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Let's integrate AI Agents in Event-Sourced Systems
+
+## Official Schedule Context
+- Date/time: 2026-07-01 · 11:40am-12:00pm
+- Track/room: AI in Finance · Track 3
+- Speaker(s): Divakar Kumar
+- Session type/status: session · confirmed
+
+## Official Description
+Fraud detection has always been a race against time. In traditional event-sourced systems, every
+
+transaction, login, or transfer is captured as a sequence of immutable events. These events tell a
+
+clear story — but only after the fact. What if events could do more than just record history? What
+
+if they could talk back? In this talk, we’ll explore how agentic event-driven systems transform
+
+fraud detection. Imagine every PaymentInitiated, LoginAttempt, or DeviceChanged event not just being
+
+logged, but immediately consumed by an autonomous Fraud Detection Agent. This agent correlates
+
+events across accounts, reasons over historical event streams, and generates new events like
+
+SuspiciousActivityFlagged or TransactionHeldForReview. Through a real-world inspired use case in
+
+banking and digital payments, we’ll show: - How event sourcing provides the perfect memory layer for
+
+fraud detection agents - Patterns for agents to safely inject new domain events without violating
+
+invariants - How to avoid runaway feedback loops when multiple agents interact (e.g., fraud +
+
+compliance + customer service agents) - Governance, auditing, and explainability challenges when
+
+autonomous agents take part in mission-critical workflows By the end of this session, you’ll see how
+
+event-driven DDD systems evolve when agents stop being passive consumers and start actively shaping
+
+the event stream — turning fraud detection from a reactive process into a proactive, adaptive
+
+defense.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[divakar-kumar]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

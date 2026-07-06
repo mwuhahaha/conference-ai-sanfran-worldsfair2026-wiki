@@ -1,0 +1,13 @@
+, : , ao a = 7 RB r
+oR Resa ee oe aor ee
+Use Cases Lighting Round
+|
+AYA"AoecLan zen | erehiced
+- Simple sentiment classifier Fl El
+- Structured information from a PDF = 1
+- Multimodal extraction [a]:
+- Web research agent (using Tools) .
+- Detect boundaries of a document github.com/kmad/aie
+- Recursively summarize an arbitrary-length document
+- GEPA example
+|

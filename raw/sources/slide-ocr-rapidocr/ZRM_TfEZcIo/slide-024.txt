@@ -1,0 +1,31 @@
+Newtab
+Newtab
+1-Templates
+2-Buffer
+3-Media
+4-Jounal
+5-Sources
+6-Notes
+7-Areas
+8-Projects
+Agentic Al Engineering Course
+X
+>Buildinga CodingAgentFrom Scratch
+Building Your OwnAl Research OS
+example_1_deep_research
+Create newnote （N）
+research-agentic-harness
+Gotofile（O）
+raw
+Close
+wid
+index
+log
+prompt
+example_3_ingest_links
+Building Your Own Al Research OS (Emp-.
+Content
+Moving
+9-Archive
+AGENTS
+Second-Brain

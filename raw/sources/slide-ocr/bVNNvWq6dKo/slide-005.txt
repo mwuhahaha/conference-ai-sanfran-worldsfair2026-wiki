@@ -1,0 +1,73 @@
+H
+Expi
+x0
+web_crewler.py
+nd_de
+CHERALC
+LASC
+Searched Ini
+web_crz
+ortrequests
+pxu/1/ss/.-
+fronbs4iport BeautifulSoup
+-/Library/Frameworks/Python.fra
+fronurllsh.parse iporturtjoin,urparse
+-/Library/Framevorks/Python.frasev
+Tron collectionsapnrt Counter
+port-re
+-'/usr/tocaUshare/nltk_data'
+epxlu/aeys/sn/,-
+ortatplottib.pyplot s plt
+frnltk.corpus iaoort stoprds
+nltk.tokenize inport word_tokenize
+p///.-
+mortsttk
+AIE
+porttine
+frostyping
+portjson
+Traceback（nost recent call tast):
+File"/Users/natt/command_demo/web_cra
+rqLred R data
+main()
+nltk.donload（'pumkt'）
+F1le"/Users/matt/comnand_demo/web_cra
+cravler.generate_report()
+altk.donloadl'pnkt_tab')
+F1le"/Users/natt/comand_demo/eb_cra
+words,counts=zip（*self.word_count
+WebCravlers
+Se!.
+_init_（self,starturl str）1
+ValueError:not enough values to unpack
+self.start_url-start_url
+self.donainurlparsestart_
+lt.vicited arCtl tfl
+Problems
+Output
+Debug Console
+Terminal
+Porta
+Isee we need to dowload addiional NLTK data. Letme
+nettgPatth
+ok-Air-2.1oca1
+fix that and modity the code tohandle emptyresuls
+"/usr/locaU/share/nltk_data'
+moregracehuly:
+"/usr/Li/nttk_data
+"/usr/local/Lb/sltk_data
+Eded_crer-py+188139
+Traceback（nost recent call last):
+F1le/sers/att/cand_d/_crler.py,Line 146,1odue
+Now let's run the crawler again:
+Fi1e/sers/tt/cnd/_crer.p.Line143,inmn
+Basn（)
+F1le/rs/mtt/cnd_d/b_crler.py,Lin118,g
+cravler.generate_report()
+wrds,contszipefncns.stcom
+nerate_re
+lueError：not enough values to unpack（expected 2,got ）
+M1-2.1oca
+L
+AGENTENGINEERING
+HTTPS://AI.ENGINEER

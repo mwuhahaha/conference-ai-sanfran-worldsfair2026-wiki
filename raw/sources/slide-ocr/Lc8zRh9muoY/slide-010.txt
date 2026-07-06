@@ -1,0 +1,7 @@
+record above the wire, not on tt.
+X at the network layer
+half your agent never touches
+the network: focal retrieval,
+in-process tools, memory.
+the socket can't record
+what isn’t on it.

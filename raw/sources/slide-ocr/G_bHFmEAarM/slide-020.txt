@@ -1,0 +1,13 @@
+GreenLEGOBricksPython
+Gemini3.1FlashLite Preview
+S61
+tokens
+There are 2 greenLEGO bricksin the image.
+ee
+(>Python
+withboundingboxes.
+[(box_2d:[21,33,237,467]，label:“green LEG0 brick"）,
+(box_2d:[578,91,818,510],label:“green LEG0 brick"）]
+Modes
+055AM
+(>Executable code

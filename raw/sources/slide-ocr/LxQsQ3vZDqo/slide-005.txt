@@ -1,0 +1,17 @@
+LRM: Adapting Gemini for Recommendation Tasks
+. Home
+> mae, » WatchNext
+Gemini | AX a “silos
+a ’ > — Search
++ -
+r r 24 - Music
+-m ee Ak
+soe ES a
+vid
+3 Voulube LRM . Ranking » Experiments
+Base Gemini checkpoint, Aligned to Served across
+adapted for YouTube tasks surfaces
+tions
+a
+me V1 cai)
+a a Microsoft =a)

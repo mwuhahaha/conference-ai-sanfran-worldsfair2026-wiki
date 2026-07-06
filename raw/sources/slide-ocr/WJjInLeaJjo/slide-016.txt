@@ -1,0 +1,10 @@
+ere strands EN telah
+strands tools calculator
+eae agent = Agent(tools=[calculator])
+Wort « iir| agent( . )
+oo
+, ‘ F .
+, { ;
+|
+Yoo
+Ci BUILDING AGENTS AT CLOUD-SCALE

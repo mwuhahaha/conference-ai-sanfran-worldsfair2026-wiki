@@ -1,0 +1,25 @@
+# sampling
+Give MCP servers the ability to make requests to LLMs via the client.
+（Powerfulfeature of McP,but not widely supported)
+AIE
+LLR
+RCPclient
+MCPserver
+LUNCall
+LLN tool call response
+toolcall
+saapling'createmessage*
+LURcall
+LLK text response
+sanpling response
+toolcall response
+RCPclient
+World'e
+daily
+Wor
+lndd'
+cair
+Microsoft
+aws
+smol?
+World'sFair

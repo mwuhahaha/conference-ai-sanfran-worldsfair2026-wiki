@@ -1,0 +1,14 @@
+Why Do We Need Al Sandboxes?
+
+Smarter Models
+
+1 * Ability to call tools during inference
+¢ Used in RL training
+Smarter Agents \
+
+2 « Can debug actions by running Linux commands “ps", *Isof”
+* Backtrack, replan and work towards the goal with a Sandbox at their disposal
+Security
+
+3 Agent code is no different that Github or StackOverflow code running on your host or
+production server

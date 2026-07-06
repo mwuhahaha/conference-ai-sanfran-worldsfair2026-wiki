@@ -1,0 +1,21 @@
+---
+title: "Ali Khial"
+category: "people"
+role: "Head of AI/ML"
+company: "G2i"
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
+---
+
+# Ali Khial
+
+## Official Role
+Head of AI/ML at G2i.
+
+## Official Bio
+Ali Khial is an engineering leader focused on building AI-native systems that work beyond the demo stage. He currently leads AI/ML at G2i, where he works across frontier AI evaluation, software engineering benchmarks, agentic workflows, and human-data quality systems. His current work centers on the gap between impressive AI prototypes and reliable production systems. He is especially interested in AI evaluation, data quality, tool-using applications, and the engineering practices needed to ship model-powered products in real-world environments.
+
+## Scheduled Sessions
+- [[2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly]] — Benchmarks: The Good, the Bad, and the Ugly (2026-06-30, 3:20pm-3:40pm)
+
+## Links
+- [LinkedIn](https://www.linkedin.com/in/ali-khial/)

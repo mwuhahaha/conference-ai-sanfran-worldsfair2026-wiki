@@ -1,0 +1,14 @@
+, , r
+Datasets - Tips
+Cees) Te apcvb arses Tae codes 1 Con
+focus on building a feedback loop rather than
+a perfect dataset
+e §=Never Stop Iterating:
+Use Logs to capture more edge cases and
+create more holistic Evals
+Cas occ ea lee Lelpe TAM Sale Ee
+use human review to establish ground truth
+Especially when using expected column
+a
+i : oO
+a a Microsoft

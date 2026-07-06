@@ -1,0 +1,13 @@
+How agentic areouragents? ©... 0“
+e Many agents are pipelines
+Low degree of autonomy
+Non-trivial engineering required ~~ :
+e Winning apps = tight feedback loops (mostly) eee _ ~
+_ IDEs (Cursor, Windsurf, Replit) “
+Better at hard Q&A
+e Not many agents “do stuff’ for 10+ min
+Devin, Operator, Deep Research “een
+How do we make more of these? Human LAM Cait , Environment
+Just wait for better models? .
+e Classical RL = optimize agent policy stow =
+(Anthropic)

@@ -1,0 +1,24 @@
+GEPA:REFLECTIVEPROMPTEVOLUTIONCANOUTPERFORM
+Taikng:NYC(NYT)46.17Centra
+REINFORCEMENTLEARNING
+LakshyaAAgrawal,ShangyinTan，DilaraSoylu²NoahZiems,
+RishiKhare',Krista Opsahl-Ong,ArnavSinghvi2s,HerumbShandilya²,
+MichaelJRyan,MengJiang',ChristopherPotts²,KoushikSen'
+AlexandrosG.Dimakis,IonStoica'DanKlein',MateiZahariaOmarKhattab
+Chris Potts
+https://www.youtube.com/
+watch?v=0bkwd9OYqfk
+Model
+HotpotQA
+IFBench
+Hover
+PUPA
+Aggregate
+Improvement
+Qwen3-8B
+Baseline
+MIPROv2
+GRPO
+GEPA
+My point here,though,is that both of them outperformed GRPO,which oughttobea
+kind ofadvanced RL-based post-training method,a fine-tuning method.

@@ -1,0 +1,27 @@
+BE ari: 6 Nie: EGS | SHA TNEESERAN Paeteets Sanne eid i ne oe a
+oe 5
+aCe) Initialize a Large Language Modet CLLM)
+Paelatand Creates a new seeret.
+Set-secret Sets a secret given a user cefined nave to its plaintext and returns the secret.
+Pear mee Set the current Gagger Engine version.
+epee Clear the CLM history
+mECLOmmrerT Tn Compact the LLM history
+Prrrea bxet write argusents te the standard avtsot
+anol Show decunentation fer a command, functien, module, on type
+Jistory Show the LUM haistery
+POL rsa Swap out the LOM iadel
+aaron 4 Switch into peoiwpt wode
+Beals Aare) Refresh the sche ra and revoac all codule functions
+Ale Switch inta shely rode
+types List all types available ano the current context
+eee a wait fer packgraung processes te cerplete
+Use “.nelp scovmands” for core inforration.
+- a) oe
+ool p Rie Deal oE GP Oa PRok WICh eels hel TOP aN wi Te)
+" a
+2 . -_
+a 2
+i a Mi ft qo
+* ol 7 a
+all ,
+a I

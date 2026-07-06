@@ -1,0 +1,25 @@
+Building GenAl is Hard, So How Are Teams Tackling This?
+
+vt — ~
+&
+Observability “|
+
+rs What is happening in my application? Can Erle
+en ba in | root cause down into the problem? Experimentation &
+NX. i
+* x Improvement
+Paar (+) i The ultimate goal of
+Nw observability and evaluation
+
+. ] : is to know where to iterate
+
+[5] and know where to improve
+5 the system
+Evaluation
+How well is the Al product that I've built, ,
+actually performing according my
+criteria?
+| ~s Aorze
+ce a i
+| Al Engineer |
+EUROPE

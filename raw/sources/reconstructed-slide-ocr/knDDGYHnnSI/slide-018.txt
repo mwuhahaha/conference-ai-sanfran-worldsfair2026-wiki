@@ -1,0 +1,17 @@
+①Higher
+MicrosoftResearchBlog
+Accuracy
+GraphRAG:Unlocking LLM
+The clearestdriver of
+discovery on narrative private data
+GraphRAG adoption amongst
+ary13,2024
+users ishigher accuracy.
+"By combining LLM-generated
+knowledge graphs and graph
+machine learning, GraphRAG
+enablesustoanswerimportant
+classesofquestions thatwe cannot
+attempt with baseline RAG alone."
+Microsoft
+23Neo4jInc.All rightsreserved2023

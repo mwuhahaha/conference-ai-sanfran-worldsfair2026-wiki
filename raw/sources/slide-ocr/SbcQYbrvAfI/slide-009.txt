@@ -1,0 +1,7 @@
+Prompt Learning
+Agent __—_— Output > LLM Evals
+(Student) (Takes Exam) (Teacher)
+Update Prompt
+(Lessons, HWs)
+Algorithm: Meta-Prompting
+(Teaching)

@@ -1,0 +1,7 @@
+Whynotusepromptengineeringorabettermodel?
+AIE
+Controlling with prompts (including
+LLMs are stochastic:Same inputsSame outputs
+Prompts don't offer guarantees: LLMs don' always follow instnuctions
+AUTOgPt
+Smol°

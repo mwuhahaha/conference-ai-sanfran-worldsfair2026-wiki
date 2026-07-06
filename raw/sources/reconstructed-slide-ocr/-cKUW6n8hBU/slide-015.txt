@@ -1,0 +1,15 @@
+D
+Taikng:NYC(NYT)46.17Centra
+Thereason thatthisistrickyisquitesubtle.It's thefact that
+anytimeyou use an LLM to assign areward,thoseLLMs aregiant
+thingswith billionsofparameters,and they'regameable.Ifyou're
+reinforcementlearningwithrespect to them,you willfind
+-AndrejKarpathy
+adversarial examplesforyourLMjudgesalmostguaranteed.
+(via theDwarkesh
+Podcast)
+Soyou can't do thisfor too long.You domaybe10 steps or20
+steps,andmaybeitwillwork,butyoucantdo100or100.I
+understand it'snotobvious,butbasically themodelwill find little
+cracks.It will find all these spurious things in the nooks and
+crannies of the giantmodel and find a way to cheat it

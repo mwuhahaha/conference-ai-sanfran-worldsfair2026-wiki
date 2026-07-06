@@ -1,0 +1,21 @@
+.
+SFT warmup + small models = fun on just a few GPUs
+as ‘ St ee |
+results = vf_env.evaluatet S cares)
+clientectient, ,
+eodel=aodel_nane, He
+sanpting_args:saapling_args,
+Nus_samples=num_sanptes . i
+) ,
+hub _sodel_id="Qwen?. $-78-Math-Python-SFT™, _ -
+}
+trainer > SFTTrainert ;
+mode l=nodel, : :
+ergsrargs,
+train dateset=dataset @ type: ignore Py
+) . r
+trainer. trarn()
+“ aws
+| a
+x
+wf me

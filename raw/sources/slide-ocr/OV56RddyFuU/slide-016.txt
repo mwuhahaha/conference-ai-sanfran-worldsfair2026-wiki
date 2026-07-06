@@ -1,0 +1,13 @@
+| eyoste: gemma-4-26B-A4B-it-GGUF brs fo on magmiog '
+@ GGUF conversational
+« Model card Files and versions “net + Community 1 Deploy - Gz
+2? Edit model card
+gemma-4-26B-A4B-it-GGUF “«<—o /\
+Recommended way to run this model: ?
+“mo Modetsize 25Bparams Architecture gemma4
+@ GGUF
+llama-sorver -ht ggnl-org/gemma-4-26B-A4B- it -GGUF } Chat template
+Thensaccess fis ® Hardware compatibility L4(24GB)x1 we
+4-bit GB Q4KM vend
+8-bit O80 feces
+16-bit Gre. 0:

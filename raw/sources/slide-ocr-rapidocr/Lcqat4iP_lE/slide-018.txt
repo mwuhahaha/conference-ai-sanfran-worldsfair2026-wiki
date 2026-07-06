@@ -1,0 +1,17 @@
+MagicMcPmoment
+withOpus4&Windsurf
+AIE
+Great! The test is working.Letme wait a moment for the traces to be
+sent to Weave and then checkif the inputs/outputs arenow properly
+mapped:
+Ranterminalcommand
+/mcp-otelSsleep10
+Auto-run
+MCPTool:wandb/query_weave_traces_tool
+orld'sFair
+um
+Wo
+Microsoft
+aws
+smol°
+Aladd'Eain

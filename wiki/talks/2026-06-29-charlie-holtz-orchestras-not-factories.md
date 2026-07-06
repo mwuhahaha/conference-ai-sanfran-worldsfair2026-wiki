@@ -1,0 +1,35 @@
+---
+title: "Orchestras, not Factories"
+category: "talks"
+date: "2026-06-29"
+time: "11:40am-12:00pm"
+track: "Software Factories"
+room: "Main Stage"
+speakers: ["Charlie Holtz"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Orchestras, not Factories
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 11:40am-12:00pm
+- Track/room: Software Factories · Main Stage
+- Speaker(s): Charlie Holtz
+- Session type/status: session · confirmed
+
+## Official Description
+Everything is Conductor now! I want to tell the story of how we came up with the original interface,
+
+what I think everyone (including us) is getting wrong and what's coming next.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[charlie-holtz]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

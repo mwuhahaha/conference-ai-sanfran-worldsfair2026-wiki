@@ -1,0 +1,20 @@
+AEngi
+World'sFair
+You are watching an AIE Oniline Talk
+Pre-Recorded tor Worid'sFair 2026.
+readMcpResource(Read resource "polygraph://sessions/fetch-app-title-from-backend-c9be44e2" from server "plugin:polygraph:polygraph-mcp")
+"contents":[
++33 tines （ctrl+o to expand）
+The previous work threaded the title into the Navbar and Footer.Let e look at how the title is rendered there.
+Listed 1directory(ctrl+oto expand)
+src)
+36fac02 Initial commit
+--FILES--
+src/lib:
++3lines （ctrL+o to expand)
+The merged code isn't in this snapshot's history (just the initial commit),but the title rendering lives in the Navbar.Let me look.
+Reading1file_（ctrl+otoexpand)
+Lsrc/components/Navbar.tsx
+Tempering-（29s·↓903 tokens·thinking with high effort)
+LTip:Run /install-github-app to tag @claude right fron your Github issues and PRs
+poly-frontend-93df5cb8 git:（fix-the-bug-with-title-1edeacf8)[0pus 4.8（1M context)]

@@ -1,0 +1,33 @@
+README.md
+trade_notional.py
+zsh
+(1002-place_order-1.jsonM
+{)001-agent-1.jsonM
+Preview RE
+susheemkoul@Susheems-MacBook-Pro chroniclepython examples/financial_incidents/run.py trade record
+RECoRD trade-notional
+User request
+Sell about $1,ooo of ACME frommy portfolio to rebalance.
+Boundary results
+Node
+KindMode
+Input
+Output
+agent@1
+llm
+LIVE
+Sellabout$1,eeeofACMEfrommyp
+place_order(symbol=ACMEg quantity=1000,side=sell)
+place_order@1
+tool
+LIVE
+symbol=ACME,quantity=1000,side=se
+filled:Sold1ee0ACMEats190.00($190,000.e0total)
+agent@2
+llm
+LIVE
+tool_result:filled
+Done.Sold 1000 ACME at $190.00 ($190,000.00 total)
+Trace exported
+fixtures/traces/trade-notional/
+osusheemkouleSusheems-MacBook-Pro chronicle

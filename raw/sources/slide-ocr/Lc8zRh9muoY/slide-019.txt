@@ -1,0 +1,20 @@
+zsh
+{1002-place_order-1.jsonM
+{)001-agent-1.jsonM
+PreviewREADME.md
+test_financialincidents.py
+tests>test_financial_incidents.py
+deftest_cutpoint_replay_blocks_incident(scenario,outcome_key):
+#Reset the chronicle session,load the corresponding trace,and prepare for replay with the correct stubbing plan
+session= reset_session()
+session.load_trace(trace_dir)
+session.enable_replay(
+#Stub the first agent LiM,run the tool and the second agent live
+ReplayPlan().stub("agent",1).live(scenario.TooL,1).live("agent",2)
+s
+result= scenario.run_agent(user_message="stubbed")
+5e
+Capture the result from the tool boundary at invocation index1
+live=session.captured_result(scenario.TooL,1)
+#Assert that the incident resulted in the action being blocked
+assertlive.get("blocked")isTrue

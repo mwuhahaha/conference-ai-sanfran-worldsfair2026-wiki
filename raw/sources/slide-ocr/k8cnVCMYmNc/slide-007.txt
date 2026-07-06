@@ -1,0 +1,18 @@
+OpenAl Agents SDK
+Available in both Python and Pres ee es
+ajel-roreid] elt ©.
+agent (
+e« Works with most LLMs (even ars ;
+non-OpenAl) ; instructions '
+
+Cie a JaleLev nes
+
+. result PCr ae re
+¢ Guardrails Pee
+« Streaming*
+A Tools & MCP support (result. final output)
+e Built-in Traces support
+e Flexible session management
+« Voice agent support*
+
+P “not yet compatrb’e with Temporal

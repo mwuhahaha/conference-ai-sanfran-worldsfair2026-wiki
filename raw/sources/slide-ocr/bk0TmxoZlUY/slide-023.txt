@@ -1,0 +1,29 @@
+app.py
+dsdosnd
+SEARCH
+code_conversion
+push_prompts.py
+prompts.create
+Ieport os
+import braintrust
+fies to incu
+from code_conversion.agents Iaport INSTRUCTLONS
+es to eickido
+project =braintrust.projects.create(nam
+s.enViron[“BRAINTRUST_PROJECT_NAME"])
+AIE
+project.
+pts.createl
+1resultn1fle-Openineditor
+nanea*Code Conversion Prompt",
+push_prompts.pycods
+slug=code-comvers1on-pronpt",
+project.prompts.create(
+descriptionaThis prompt is used to comvert
+promptaINSTRUCTIONS,
+model-os.environ["OPENAI_HCOEL_NAE"],
+messagesa!
+(“role”："systee，“content：DNSTuCTINS）,，
+("role”："user,"content”："《（input))”).
+Microsoft
+smol?

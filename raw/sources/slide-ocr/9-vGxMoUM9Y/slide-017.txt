@@ -1,0 +1,8 @@
+i OS
+Implementing Guardrails
+. . Traditional
+Grounding via LLM self
+external systems ML methods reflection
+Rules-based High precision
+heuristics DL classifiers
+:- Gasurdvaite Al

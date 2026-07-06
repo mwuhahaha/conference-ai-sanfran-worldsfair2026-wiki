@@ -1,0 +1,8 @@
+models — agents, serve locally
+| Agentic LLMs (thinking + tool calling): gpt-oss, Gemma-4,
+Minimax M2.7, GLM-5, Nemotron3-Super
+Agentic vision models (thinking + CUA): Qwen3.5
+(Alibaba), Kimi-K2.5
+ene i -oyiae
+wim serve Oven sQwens 6B a ee ; 1s Lo
+Lamas Geryes ord (em OTC Ten 8060

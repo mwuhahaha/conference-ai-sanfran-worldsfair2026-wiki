@@ -1,0 +1,12 @@
+Challenges
+Brittle,needtocoordinatebetweenbothCPU andTritonbeingupatthesame
+AIE
+time
+Tritonnotbuiltformulti-gpu/multi-node
+Pushmodelnotidealformulti-node(whichnodehasrankO?)
+No/limitedsupportfornon-nvidiachipsetswithTriton
+Verydifficulttodevelopagainst
+Needtohaveeverypieceeverywhere,hardtobringindisparatecompute(i.e.
+fromourtrainingcluster:kekw:)
+Microsoft
+smol?

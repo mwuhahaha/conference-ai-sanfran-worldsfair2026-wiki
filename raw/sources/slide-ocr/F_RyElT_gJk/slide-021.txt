@@ -1,0 +1,17 @@
+ss a a
+: La = a a Peres
+Eat Connection
+Connection Type
+| Remote MCP Server .|
+i Es
+Display Name
+Aeecr
+Lsirels Cua)
+Configuration
+{ i
+“endpoint_ucl: “nttos://mcp. linear.app/sse"
+i
+~
+w
+or
+—

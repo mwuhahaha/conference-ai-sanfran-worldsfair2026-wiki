@@ -1,0 +1,11 @@
+With Braintrust
+1. Decide on an improvement
+2. Curate targeted datasets (logs + handcrafted examples)
+3. Tie datasets to specific scoring functions (heuristics, LLM-as-judge, human review)
+4. Run evals, inspect details results
+5. Iterate until ready to ship
+cd
+A fm™
+i ae
+ho aws
+Pe iz, all

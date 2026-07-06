@@ -1,0 +1,12 @@
+Rules of agents + workflow composition
+(1) Agents have tools
+
+(2) Workflows have steps
+(3) An agent can be a step
+(4) A workflow can be a tool
+(5) An agent can be a tool
+(A\ A workflow can be a step
+
+i aws
+
+ee = | See

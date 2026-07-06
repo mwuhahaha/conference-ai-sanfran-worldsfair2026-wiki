@@ -1,0 +1,644 @@
+[
+  {
+    "id": "youtube--TiET_K-E_g-slides",
+    "title": "Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google",
+    "path": "wiki/slides/youtube--TiET_K-E_g-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube--cKUW6n8hBU-slides",
+    "title": "Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners",
+    "path": "wiki/slides/youtube--cKUW6n8hBU-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-12v5S1n1eOY-slides",
+    "title": "Slides: Building an Agentic Platform — Ben Kus, CTO Box",
+    "path": "wiki/slides/youtube-12v5S1n1eOY-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-1t-9-s1brcg-slides",
+    "title": "Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner",
+    "path": "wiki/slides/youtube-1t-9-s1brcg-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-2vlCqD6igVA-slides",
+    "title": "Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon",
+    "path": "wiki/slides/youtube-2vlCqD6igVA-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-3_gYbhABcAE-slides",
+    "title": "Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind",
+    "path": "wiki/slides/youtube-3_gYbhABcAE-slides.md",
+    "slide_count": 5
+  },
+  {
+    "id": "youtube-4sX_He5c4sI-slides",
+    "title": "Slides: WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive",
+    "path": "wiki/slides/youtube-4sX_He5c4sI-slides.md",
+    "slide_count": 120
+  },
+  {
+    "id": "youtube-5ID22ACI7IM-slides",
+    "title": "Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked",
+    "path": "wiki/slides/youtube-5ID22ACI7IM-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-5N33E9tC400-slides",
+    "title": "Slides: Why Agent Engineering — swyx",
+    "path": "wiki/slides/youtube-5N33E9tC400-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-5_QWh4LGoxg-slides",
+    "title": "Slides: Cognitive Shield Real Time Real Smart - Rachna Srivastava",
+    "path": "wiki/slides/youtube-5_QWh4LGoxg-slides.md",
+    "slide_count": 15
+  },
+  {
+    "id": "youtube-5nOLb27hQ5w-slides",
+    "title": "Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak",
+    "path": "wiki/slides/youtube-5nOLb27hQ5w-slides.md",
+    "slide_count": 19
+  },
+  {
+    "id": "youtube-6YdPI9YbjbI-slides",
+    "title": "Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)",
+    "path": "wiki/slides/youtube-6YdPI9YbjbI-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-7Dtu2bilcFs-slides",
+    "title": "Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding",
+    "path": "wiki/slides/youtube-7Dtu2bilcFs-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-84Vtz2IL1Ug-slides",
+    "title": "Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter",
+    "path": "wiki/slides/youtube-84Vtz2IL1Ug-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-8SUJEqQNClw-slides",
+    "title": "Slides: Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai",
+    "path": "wiki/slides/youtube-8SUJEqQNClw-slides.md",
+    "slide_count": 21
+  },
+  {
+    "id": "youtube-9-vGxMoUM9Y-slides",
+    "title": "Slides: Trust, but Verify: Shreya Rajpal",
+    "path": "wiki/slides/youtube-9-vGxMoUM9Y-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-96G7FLab8xc-slides",
+    "title": "Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect",
+    "path": "wiki/slides/youtube-96G7FLab8xc-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-APh1Vx0oLmQ-slides",
+    "title": "Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
+    "path": "wiki/slides/youtube-APh1Vx0oLmQ-slides.md",
+    "slide_count": 13
+  },
+  {
+    "id": "youtube-B9h9ovW5H9U-slides",
+    "title": "Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
+    "path": "wiki/slides/youtube-B9h9ovW5H9U-slides.md",
+    "slide_count": 16
+  },
+  {
+    "id": "youtube-BM2JX9hqsVQ-slides",
+    "title": "Slides: What if the network was the sandbox? — Remy Guercio, Tailscale",
+    "path": "wiki/slides/youtube-BM2JX9hqsVQ-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-BZtD0yYAgCQ-slides",
+    "title": "Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori",
+    "path": "wiki/slides/youtube-BZtD0yYAgCQ-slides.md",
+    "slide_count": 5
+  },
+  {
+    "id": "youtube-Bc6Ojl2XS1w-slides",
+    "title": "Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind",
+    "path": "wiki/slides/youtube-Bc6Ojl2XS1w-slides.md",
+    "slide_count": 14
+  },
+  {
+    "id": "youtube-BiG2ssibKGc-slides",
+    "title": "Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked",
+    "path": "wiki/slides/youtube-BiG2ssibKGc-slides.md",
+    "slide_count": 5
+  },
+  {
+    "id": "youtube-C_GG5g38vLU-slides",
+    "title": "Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM",
+    "path": "wiki/slides/youtube-C_GG5g38vLU-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-D4Dswf-__RM-slides",
+    "title": "Slides: CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS",
+    "path": "wiki/slides/youtube-D4Dswf-__RM-slides.md",
+    "slide_count": 20
+  },
+  {
+    "id": "youtube-DeFF3J8T5Pk-slides",
+    "title": "Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal",
+    "path": "wiki/slides/youtube-DeFF3J8T5Pk-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-E71YtNbCFXY-slides",
+    "title": "Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)",
+    "path": "wiki/slides/youtube-E71YtNbCFXY-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-ESbWpPT_9-o-slides",
+    "title": "Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs",
+    "path": "wiki/slides/youtube-ESbWpPT_9-o-slides.md",
+    "slide_count": 20
+  },
+  {
+    "id": "youtube-EY4O9M6AsWI-slides",
+    "title": "Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI",
+    "path": "wiki/slides/youtube-EY4O9M6AsWI-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-EyZiAp0pelw-slides",
+    "title": "Slides: Letting AI Interface with your App with MCP — Kent C Dodds",
+    "path": "wiki/slides/youtube-EyZiAp0pelw-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-F_RyElT_gJk-slides",
+    "title": "Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp",
+    "path": "wiki/slides/youtube-F_RyElT_gJk-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-Fzb1a24hF-o-slides",
+    "title": "Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger",
+    "path": "wiki/slides/youtube-Fzb1a24hF-o-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-G_bHFmEAarM-slides",
+    "title": "Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind",
+    "path": "wiki/slides/youtube-G_bHFmEAarM-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-HT4l0DeP69I-slides",
+    "title": "Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS",
+    "path": "wiki/slides/youtube-HT4l0DeP69I-slides.md",
+    "slide_count": 16
+  },
+  {
+    "id": "youtube-JIsgyk0Paic-slides",
+    "title": "Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley",
+    "path": "wiki/slides/youtube-JIsgyk0Paic-slides.md",
+    "slide_count": 22
+  },
+  {
+    "id": "youtube-JhJKgRAmfIU-slides",
+    "title": "Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft",
+    "path": "wiki/slides/youtube-JhJKgRAmfIU-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-JsCCrBF7F1g-slides",
+    "title": "Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize",
+    "path": "wiki/slides/youtube-JsCCrBF7F1g-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-Jty4s9-Jb78-slides",
+    "title": "Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is",
+    "path": "wiki/slides/youtube-Jty4s9-Jb78-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-Lc8zRh9muoY-slides",
+    "title": "Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft",
+    "path": "wiki/slides/youtube-Lc8zRh9muoY-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-Lcqat4iP_lE-slides",
+    "title": "Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso",
+    "path": "wiki/slides/youtube-Lcqat4iP_lE-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-LxQsQ3vZDqo-slides",
+    "title": "Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon",
+    "path": "wiki/slides/youtube-LxQsQ3vZDqo-slides.md",
+    "slide_count": 6
+  },
+  {
+    "id": "youtube-MRM7oA3JsFs-slides",
+    "title": "Slides: Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior",
+    "path": "wiki/slides/youtube-MRM7oA3JsFs-slides.md",
+    "slide_count": 16
+  },
+  {
+    "id": "youtube-NuePCNMpWGc-slides",
+    "title": "Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar",
+    "path": "wiki/slides/youtube-NuePCNMpWGc-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-OV56RddyFuU-slides",
+    "title": "Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face",
+    "path": "wiki/slides/youtube-OV56RddyFuU-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-OimPoLxioYg-slides",
+    "title": "Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson",
+    "path": "wiki/slides/youtube-OimPoLxioYg-slides.md",
+    "slide_count": 22
+  },
+  {
+    "id": "youtube-OkEGJ5G3foU-slides",
+    "title": "Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han",
+    "path": "wiki/slides/youtube-OkEGJ5G3foU-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-P_RI1kCkRbo-slides",
+    "title": "Slides: Voice AI: when is the \\\"Her\\\" moment? — Neil Zeghidour, CEO, Gradium AI",
+    "path": "wiki/slides/youtube-P_RI1kCkRbo-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-P_uhFGH4J9Y-slides",
+    "title": "Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games",
+    "path": "wiki/slides/youtube-P_uhFGH4J9Y-slides.md",
+    "slide_count": 6
+  },
+  {
+    "id": "youtube-PbHm2qKnu10-slides",
+    "title": "Slides: Training Agentic Reasoners — Will Brown, Prime Intellect",
+    "path": "wiki/slides/youtube-PbHm2qKnu10-slides.md",
+    "slide_count": 6
+  },
+  {
+    "id": "youtube-PmZDupFP3UM-slides",
+    "title": "Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)",
+    "path": "wiki/slides/youtube-PmZDupFP3UM-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-SZStlIhyTCY-slides",
+    "title": "Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company",
+    "path": "wiki/slides/youtube-SZStlIhyTCY-slides.md",
+    "slide_count": 20
+  },
+  {
+    "id": "youtube-SbUxRluVRwk-slides",
+    "title": "Slides: Structuring a modern AI team — Denys Linkov, Wisedocs",
+    "path": "wiki/slides/youtube-SbUxRluVRwk-slides.md",
+    "slide_count": 3
+  },
+  {
+    "id": "youtube-SbcQYbrvAfI-slides",
+    "title": "Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize",
+    "path": "wiki/slides/youtube-SbcQYbrvAfI-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-ShuJ_CN6zr4-slides",
+    "title": "Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI",
+    "path": "wiki/slides/youtube-ShuJ_CN6zr4-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-T5IMo5ntyhA-slides",
+    "title": "Slides: Stop Using RAG as Memory — Daniel Chalef, Zep",
+    "path": "wiki/slides/youtube-T5IMo5ntyhA-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-TqC1qOfiVcQ-slides",
+    "title": "Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic",
+    "path": "wiki/slides/youtube-TqC1qOfiVcQ-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-WJjInLeaJjo-slides",
+    "title": "Slides: Building Agents at Cloud Scale — Antje Barth, AWS",
+    "path": "wiki/slides/youtube-WJjInLeaJjo-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-XNtkiQJ49Ps-slides",
+    "title": "Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora",
+    "path": "wiki/slides/youtube-XNtkiQJ49Ps-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-Xfl50508LZM-slides",
+    "title": "Slides: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize",
+    "path": "wiki/slides/youtube-Xfl50508LZM-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-YRGjll7uu5w-slides",
+    "title": "Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase",
+    "path": "wiki/slides/youtube-YRGjll7uu5w-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-Ywl4LsvHKzU-slides",
+    "title": "Slides: RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot",
+    "path": "wiki/slides/youtube-Ywl4LsvHKzU-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-ZRM_TfEZcIo-slides",
+    "title": "Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI",
+    "path": "wiki/slides/youtube-ZRM_TfEZcIo-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-ZuiJjkbX0Og-slides",
+    "title": "Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
+    "path": "wiki/slides/youtube-ZuiJjkbX0Og-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-aqW68Is_Kj4-slides",
+    "title": "Slides: Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic",
+    "path": "wiki/slides/youtube-aqW68Is_Kj4-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-bSG9wUYaHWU-slides",
+    "title": "Slides: Context Is the New Code — Patrick Debois, Tessl",
+    "path": "wiki/slides/youtube-bSG9wUYaHWU-slides.md",
+    "slide_count": 22
+  },
+  {
+    "id": "youtube-bVNNvWq6dKo-slides",
+    "title": "Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf",
+    "path": "wiki/slides/youtube-bVNNvWq6dKo-slides.md",
+    "slide_count": 21
+  },
+  {
+    "id": "youtube-bk0TmxoZlUY-slides",
+    "title": "Slides: Evals 101 — Doug Guthrie, Braintrust",
+    "path": "wiki/slides/youtube-bk0TmxoZlUY-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-blW-lSd5CYQ-slides",
+    "title": "Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify",
+    "path": "wiki/slides/youtube-blW-lSd5CYQ-slides.md",
+    "slide_count": 14
+  },
+  {
+    "id": "youtube-bmWZk9vTze0-slides",
+    "title": "Slides: MCP is all you need — Samuel Colvin, Pydantic",
+    "path": "wiki/slides/youtube-bmWZk9vTze0-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-cVzf49yg0D8-slides",
+    "title": "Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind",
+    "path": "wiki/slides/youtube-cVzf49yg0D8-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-dvft0Gp9sEE-slides",
+    "title": "Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo",
+    "path": "wiki/slides/youtube-dvft0Gp9sEE-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-e9sLVMN76qU-slides",
+    "title": "Slides: AX is the only Experience that Matters - Ivan Burazin, Daytona",
+    "path": "wiki/slides/youtube-e9sLVMN76qU-slides.md",
+    "slide_count": 13
+  },
+  {
+    "id": "youtube-eOxOzcw70f0-slides",
+    "title": "Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison",
+    "path": "wiki/slides/youtube-eOxOzcw70f0-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-eW_vxrjvERk-slides",
+    "title": "Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j",
+    "path": "wiki/slides/youtube-eW_vxrjvERk-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-fL1iJHtl51Q-slides",
+    "title": "Slides: Building Cursor Composer – Lee Robinson, Cursor",
+    "path": "wiki/slides/youtube-fL1iJHtl51Q-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-gmTHs5T_YAE-slides",
+    "title": "Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten",
+    "path": "wiki/slides/youtube-gmTHs5T_YAE-slides.md",
+    "slide_count": 6
+  },
+  {
+    "id": "youtube-himhGiWJXjo-slides",
+    "title": "Slides: Realtime Data Connectivity for AI: Tanmai Gopal",
+    "path": "wiki/slides/youtube-himhGiWJXjo-slides.md",
+    "slide_count": 13
+  },
+  {
+    "id": "youtube-htM02KMNZnk-slides",
+    "title": "Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF",
+    "path": "wiki/slides/youtube-htM02KMNZnk-slides.md",
+    "slide_count": 120
+  },
+  {
+    "id": "youtube-iUWwcG-C8OU-slides",
+    "title": "Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS",
+    "path": "wiki/slides/youtube-iUWwcG-C8OU-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-iXhba366fQc-slides",
+    "title": "Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI",
+    "path": "wiki/slides/youtube-iXhba366fQc-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-ib-wTAvCZqg-slides",
+    "title": "Slides: Architecting and Testing Controllable Agents: Lance Martin",
+    "path": "wiki/slides/youtube-ib-wTAvCZqg-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-jVGCulhBRZI-slides",
+    "title": "Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
+    "path": "wiki/slides/youtube-jVGCulhBRZI-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-jryZvCuA0Uc-slides",
+    "title": "Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)",
+    "path": "wiki/slides/youtube-jryZvCuA0Uc-slides.md",
+    "slide_count": 3
+  },
+  {
+    "id": "youtube-k8cnVCMYmNc-slides",
+    "title": "Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal",
+    "path": "wiki/slides/youtube-k8cnVCMYmNc-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-kR64LOqBBCU-slides",
+    "title": "Slides: AgentCraft: Putting the Orc in Orchestration — Ido Salomon",
+    "path": "wiki/slides/youtube-kR64LOqBBCU-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-knDDGYHnnSI-slides",
+    "title": "Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem",
+    "path": "wiki/slides/youtube-knDDGYHnnSI-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-lY1iFbDPRlw-slides",
+    "title": "Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax",
+    "path": "wiki/slides/youtube-lY1iFbDPRlw-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-mQ7_Zje7WKE-slides",
+    "title": "Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify",
+    "path": "wiki/slides/youtube-mQ7_Zje7WKE-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-o-zkvb0iFDQ-slides",
+    "title": "Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps",
+    "path": "wiki/slides/youtube-o-zkvb0iFDQ-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-qaJXBMwUkoE-slides",
+    "title": "Slides: The 1,000x AI Engineer: Swyx",
+    "path": "wiki/slides/youtube-qaJXBMwUkoE-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-qdh_x-uRs9g-slides",
+    "title": "Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked",
+    "path": "wiki/slides/youtube-qdh_x-uRs9g-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-rcsliSIy_YU-slides",
+    "title": "Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands",
+    "path": "wiki/slides/youtube-rcsliSIy_YU-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-rgjF5o2Qjsc-slides",
+    "title": "Slides: The State of AI Code Quality: Hype vs Reality — Itamar Friedman, Qodo",
+    "path": "wiki/slides/youtube-rgjF5o2Qjsc-slides.md",
+    "slide_count": 15
+  },
+  {
+    "id": "youtube-rmvDxxNubIg-slides",
+    "title": "Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer",
+    "path": "wiki/slides/youtube-rmvDxxNubIg-slides.md",
+    "slide_count": 13
+  },
+  {
+    "id": "youtube-sRpqPgKeXNk-slides",
+    "title": "Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai",
+    "path": "wiki/slides/youtube-sRpqPgKeXNk-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-sl3icG-IjHo-slides",
+    "title": "Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset",
+    "path": "wiki/slides/youtube-sl3icG-IjHo-slides.md",
+    "slide_count": 2
+  },
+  {
+    "id": "youtube-so9l_MwS2yg-slides",
+    "title": "Slides: Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS",
+    "path": "wiki/slides/youtube-so9l_MwS2yg-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-tzRvcTEapzo-slides",
+    "title": "Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva",
+    "path": "wiki/slides/youtube-tzRvcTEapzo-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-u3NofYYstaY-slides",
+    "title": "Slides: Cohere for VPs of AI: Vivek Muppalla",
+    "path": "wiki/slides/youtube-u3NofYYstaY-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-wFTVEDYVJT0-slides",
+    "title": "Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)",
+    "path": "wiki/slides/youtube-wFTVEDYVJT0-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-wNH3q9pqn0U-slides",
+    "title": "Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind",
+    "path": "wiki/slides/youtube-wNH3q9pqn0U-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-wsFd22SL1s8-slides",
+    "title": "Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI",
+    "path": "wiki/slides/youtube-wsFd22SL1s8-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-xnXqpUW_Kp8-slides",
+    "title": "Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai",
+    "path": "wiki/slides/youtube-xnXqpUW_Kp8-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-xz0-brt56L8-slides",
+    "title": "Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)",
+    "path": "wiki/slides/youtube-xz0-brt56L8-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-yJHw33cVeHo-slides",
+    "title": "Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet",
+    "path": "wiki/slides/youtube-yJHw33cVeHo-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-zTZ0qunQXnM-slides",
+    "title": "Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data",
+    "path": "wiki/slides/youtube-zTZ0qunQXnM-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-zepu8Kk6FBQ-slides",
+    "title": "Slides: Agents for Everything Else — swyx",
+    "path": "wiki/slides/youtube-zepu8Kk6FBQ-slides.md",
+    "slide_count": 24
+  }
+]

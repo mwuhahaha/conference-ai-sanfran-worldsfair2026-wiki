@@ -1,0 +1,12 @@
+1 sampling determinism # system determinism
+temp 0 fixes the rule (argmax), not the logits you argmax over.
+2 float addition is NOT associative
+(0.1 + 1e20) ~ 1e20 = 0 0.1 + (1e20 — 1e20) = 0.1
+reorder a reduction - a logit's last bits move + argmax flips.
+3 the culprit is batch invariance
+same matmul, same GPU, 1000x —. bitwise identical.
+prod batches you with strangers; the kernel depends on batch shape.
+4 MoE routing jitter: expert capacity ceiling, route depends on the batch.
+same token? no. we need the SYSTEM to run the same
+STATE TRANSITION.
+@

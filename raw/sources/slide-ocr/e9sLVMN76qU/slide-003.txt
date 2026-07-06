@@ -1,0 +1,5 @@
+Most of today’s tooling breaks
+the moment you remove the
+human from the loop.
+4] aws
+ed

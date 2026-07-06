@@ -1,0 +1,13 @@
+design decisions
+¢ Just make edits don’t ask me
+*« Minimal Ul — no VS Code fork
+¢ No “choose your own model”
+© No fixed pricing, no token limit
+¢ Unix philosophy over vertical integration
+¢ Don't build on top of a RAG bot —- existing code Al UX is now outdated
+aaa’
+we
+es
+a —
+, . Cat]
+-z a Microsoft = GQOU

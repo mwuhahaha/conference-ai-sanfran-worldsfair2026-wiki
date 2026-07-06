@@ -1,0 +1,27 @@
+"use client":
+EventsourceMessage,I
+fetchEventSource,
+)fro"omicrosoft/fetch-eveet-source"
+inpsrt（naneid}frcaai":
+AIE
+inport（useCallback,useEffect,useState}fron
+"react":
+inprtASSISTANT_ID,DNSTRUCTIONS,MOEL}r/COStas
+lnport（Toolbax）fros*./toolbex":
+export interface Message
+id:string:
+content: stringi
+role:"ur"assistant"I"tool":
+nawe?:string:
+status?i"rumming”|"cogletee"
+export Snterface MessagePaylead
+content:string:
+attachents7:（fste_sd:strlng: toots:（type:string 1）11:
+port default fnction usessistant( toolbox）：（toolbox Toolbox））
+const （threadib,setThreaiD]auseStatestring|rutt-(ntt);
+wecost [sessages, setHessages]-usestate-Hessagell):
+coest[isurming,setisRuening]-use5tate(faise):
+cotst [inpt,setInput]-usestate（）
+STsFa
+Worid'sFai
+Microseft

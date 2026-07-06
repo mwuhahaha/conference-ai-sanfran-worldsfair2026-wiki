@@ -1,0 +1,7 @@
+NewExpectations
+AIE
+"Explain why you can't
+use Al before hiring”
+Microsoft
+smolo
+WordsFair

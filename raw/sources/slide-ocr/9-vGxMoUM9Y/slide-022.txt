@@ -1,0 +1,16 @@
+More examples of validations
+e Make sure my code is executable
+
+e Never give financial or healthcare advice
+
+e Don’t ask private questions |
+e Don’t mention competitors
+e Ensure each sentence is from a verified source and is accurate
+
+e No profanity is mentioned in text
+
+e Prompt injection protection
+
+e Never expose prompt or sources
+
+> Querdraiie Al

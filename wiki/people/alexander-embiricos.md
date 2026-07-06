@@ -1,0 +1,21 @@
+---
+title: "Alexander Embiricos"
+category: "people"
+role: "Head of Enterprise Product"
+company: "OpenAI"
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
+---
+
+# Alexander Embiricos
+
+## Official Role
+Head of Enterprise Product at OpenAI.
+
+## Official Bio
+Alexander Embiricos is the Head of Enterprise Product at OpenAI. He previously led product for Codex and worked on ChatGPT Desktop, with a consistent focus on building assistants that work alongside people in their work and personal contexts. Before joining OpenAI, Alexander founded Multi, a pair-programming startup acquired by OpenAI in 2024. Alexander is half Greek and half Malaysian and came to the United States to study Mechanical Engineering and Computer Science at Stanford University.
+
+## Scheduled Sessions
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering (2026-06-29, 9:25am-9:45am)
+
+## Links
+- [LinkedIn](https://www.linkedin.com/in/embirico/)

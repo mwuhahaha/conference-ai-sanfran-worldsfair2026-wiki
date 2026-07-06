@@ -1,0 +1,15 @@
+非 McP for multi-agent communication
+The way most people describe it:
+MCP
+tool
+AIE
+Agent
+tool
+tool
+World'sFair
+World:
+SEI
+Microsoft
+aws
+smol?
+World'sFair

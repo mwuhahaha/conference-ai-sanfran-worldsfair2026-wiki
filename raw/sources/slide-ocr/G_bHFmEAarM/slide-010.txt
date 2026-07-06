@@ -1,0 +1,42 @@
+ASh
+Ask
+D
+Untitedprompt/
+tokens
+Run settings
+G
+X
+Mediaresolution
+ExploreGooglemodels
+Default
+Thinkinglevel
+Featured
+Code and Chat
+Image Generation
+Minimal
+Test outourmostd
+Structured outputs
+Video Generation
+Speech and Music
+Real-time
+Code execution
+Generate videos wthVeodes,our stae
+Explore our toxt to speech andmusic
+Function calling
+Grounding withGoogle Search
+Source:G Googe Search
+Grounding withGoogle Maps
+Start bulding
+URLcontext
+Create
+Safety settings
+Edit
+Add stop sequence
+Adds
+27,601tokens
+X
+Output length
+88Tools
+GGrounding with Google SearchX
+Run
+TopP

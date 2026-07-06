@@ -1,0 +1,7 @@
+1. How do we get more intelligent Al?
+a. Approach #1 - Larger Parameter Models with Mixture of Experts Models
+b. Approach #2 - Mixture of Agents
+2. Hands on Workshop
+3. Q&A with MoE queen + Daniel
+_ * & | a Microsoft ar?
+an if a

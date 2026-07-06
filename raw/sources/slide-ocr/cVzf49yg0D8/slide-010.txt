@@ -1,0 +1,20 @@
+Pe en Ca eT ©: GO ek OF @ LE meters
+e . a 5 °
+
+Part 2: Building Agents
+Co
+. © HOW IT WORKS
+: @ Send request: prompt - tool definitions erence
+
+e@ Check outputs: look for function_call blocks o 5 5
+
+e@ Execute locally: run your function code
+
+oe Send results back: as function_reault re rrr
+
+e Repeat: until model returns text sheet So
+
+ee : ee Sa
+No history management
+OQ Sevver tracks na meracton 10 SO Aromatic ma ; foot re
+prenous meracton teak al

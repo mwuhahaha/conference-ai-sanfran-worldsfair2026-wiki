@@ -1,0 +1,13 @@
+Why use the Claude Agent SDK?
+
+- We realized people were using Claude Code for non-coding tasks.
+
+- We build our agents on top of our Agent SDK.
+
+- Itis built on top of lessons we've learned deploying Claude Code to
+millions of users.
+
+- We have strong opinions on the best way to build agents.
+
+- One of our biggest learnings: the Bash tool is the most powerful agent
+tool.

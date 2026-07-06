@@ -1,0 +1,17 @@
+boV6irYDei
+Getcode
+Python
+REST
+Python
+TypeScript
+Java
+Go
+.NET
+ViewAll Libraries
+types.Content(
+role="model",
+parts=I
+types.Part.from_text（text=Based on the video provided,here is a table detailing
+the dinosaur types identified,their appearance in the video,and a fun fact for each.
+Close
+Copy

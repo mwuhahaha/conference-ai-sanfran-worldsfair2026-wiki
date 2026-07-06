@@ -1,0 +1,21 @@
+---
+title: "Jake Broekhuizen"
+category: "people"
+role: "Labs Lead"
+company: "LangChain"
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
+---
+
+# Jake Broekhuizen
+
+## Official Role
+Labs Lead at LangChain.
+
+## Official Bio
+No official bio included in the speaker JSON.
+
+## Scheduled Sessions
+- [[2026-07-01-jake-broekhuizen-the-next-run-should-be-better]] — The Next Run Should Be Better (2026-07-01, 11:40am-12:00pm)
+
+## Links
+- [LinkedIn](https://www.linkedin.com/in/jake-broekhuizen)

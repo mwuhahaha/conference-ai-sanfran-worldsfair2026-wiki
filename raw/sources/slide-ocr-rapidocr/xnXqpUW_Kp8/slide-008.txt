@@ -1,0 +1,55 @@
+EXPLORER
+agent.py
+github_agent.pyx
+aiengineer
+defget_people():
+oerv
+ogent.py
+text-True,
+github_agent.py
+types"keyword",
+report.md
+num_resultsa1,
+urlr.resutts[e].url if r.results else
+out.append（（nane,url))
+AIE
+return out
+defagent_mark（itens);
+streanopenA.chat.completions.create(
+nodel-"gpt-40-min1",
+]asabessau
+streanaTrue,
+S6
+encodin
+PROBLEMS
+OUTPUT
+DEBUG CONSOLE
+TERMINAL
+COMMENTS
+[Tsubasa Kato]（https://github.com/stingraze)
+zh
+[RobertoBayardol(https://github.com/roberto-bayardo)
+[EdgarMe1j]（https://github.com/ejne1j)
+Python
+[MichaelBendersky](https://bendersky-github.1o/)
+[SarthChakravarty](https://github.com/sarthak-chakraborty)
+[DanielTunkeLang](https://github.con/gsingers/search_fundamentals_course)
+[DanlelCanpos]（https://github.com/danlel-e-campos)
+[SeuparnaPalchovdhury](https://github.con/seuparma)
+[Abhay Kashyap](https1//github.com/hayabhay/)
+[Sebastian Bruch](https://github.com/TusKNNy/seismic)
+[AuSH QuUATI]（https1//github.com/ankushagarva/ankush.cc)
+[AnrAadallah]（https1//github.com/awadalLah)
+[Ruey-Cheng Chen](https1//github.com/rueycheng)
+[Antonio MalLsa]（https://github.com/amal（La）
+Shashank
+Ranaprased](https://github.con/shas
+(scBiue
+res
+NG
+villbrykgwills-MacBook-Pro-2alengineer
+oo0ciadetau
+Ln26,Col15Spaces:4UTF-8LF
+()Python
+Microsoft
+smol

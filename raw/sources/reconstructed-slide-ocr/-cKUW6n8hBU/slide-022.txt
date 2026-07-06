@@ -1,0 +1,55 @@
+Q·SatNov22444PM
+dspy_workshop.ipynbU
+dspy_workshop_clean.ipynbM
+hub.ipyn
+Summarizer.py
+Taing:NYC (NYT) 46.7Centa
+dspy_workshop_clean.ipynb>M Structured information from a PDF> #Attachments/multimodal / structured output
++Code
++Markdown
+Interrupt
+RestartClearAllOutputsQGoToJupyterVariablesOutline
+verv（Python 3.11.13)
+口
+from attachments.dspy import Attachments
+D日
+doc=Attachnents（pdf_link)
+0.9s
+Python
+[Attachments]
+Running prinaryprocessor'pdf_to_llm'forhttps://d18rn@p25nr6d.cloudfront.net/C1K-00e1e4581e/8b76dacc-a85f-429a-968c-3c3c9dbac3fc.pdf
+[Attachments]
+Applyingstep'load.url_to_response'tohttps://d18rn0p25owr6d.cloudfrontnet/CIK-0001045810/8b76daec-a85f-429a-968c-3c3c9dbae3fc.pdt
+[Attachments]
+Applying step‘modify.norph_to_detected_type'to httas://d18rn@g25nmr6d.cloudfront.net/CIK-0001045810/8b76daec-a8Sf-429a-968c-3c3c9dbae3fc.pdf
+[Attachments]
+Applyingstep'load.pdf_to_pdfplumber'tohttps://d18rneo25mmr6d.cloudfront.net/CIK-0801045810/8b76daec-a85f-429a-968c-3c3c9dbae3fc.pdf
+[Attachments]
+Applying stepmodity.pages'tohttos://d18rnep25nwr6d.cloudfcont.net/cIK-e001845810/8b76daec-a85f-429a-968c-3c3c9dbae3fc.pdf
+[Attachments]
+Running AdditivePipeline(present.markdown+present.images+present.metadata)
+[Attachments]
+Applyingadditivestep'present.markdown'tohttps://d18rneo25mr6d.cloudfront.net/CIK-0001045810/8b76daec-a851-429a-968c-3c3c9dbae3fc.pd1
+[Attachments]
+Applying additive step'present.inages'tohttps://d18rnlo25mar6d.cloudfront.net/CIK-ee0104581e/8b76dacc-a85f-429a-968c-3c3c9dbae3fc.pdf
+Thisiswhat we're working with
+from IPython.display inport Image,display
+display(Image(url=doc.inages[e]))
+Python
+from https://maximerivest.github.1o/attachments/architecture/sdspy-integration
+Problems
+Output
+Debug Console
+Terminal
+Ports
+GitLens
+Jupyter
+fish-mod_oxample+①
+XKtOg
+Pmain
+Launchpad
+86A8
+CursorTab
+Spaces:4
+Cell19of59
+AmpTab

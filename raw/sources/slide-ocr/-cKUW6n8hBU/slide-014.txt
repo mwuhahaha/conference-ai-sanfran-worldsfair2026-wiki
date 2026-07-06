@@ -1,0 +1,9 @@
+; , a 7 go ity ry 7 A ec
+| Omani ats eRe ee |
+Optimizers
+| DSPy has various built-in primitives that allow you to then optimize your
+program. This allows you to quantitatively improve your performance and
+cost profile.
+_ “A DSPy optimizer is an algorithm that can tune the parameters of a DSPy
+| program (i.e., the prompts and/or the LM weights) to maximize the metrics
+you specify, like accuracy.”

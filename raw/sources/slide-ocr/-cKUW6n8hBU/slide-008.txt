@@ -1,0 +1,12 @@
+; . y : g@ i eS . Vd r ;
+|
+Core Concepts
+Specify what you want, Structure your program Interact with the outside
+not How: let the LIM logically world - or the rest of the
+tie tcam@lelt jo) dere eben!
+Adapters D
+Customizable prompt Optimize your DSPy Define what to optimize
+formatters: think JSON. Pyke eter en YO enleu(a against (can be multiple
+BAML., XML. ete. things)
+(let the LLM figure it out!)
+Po ;

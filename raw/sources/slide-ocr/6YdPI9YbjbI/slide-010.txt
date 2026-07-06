@@ -1,0 +1,17 @@
+Fast feedback for fast development
+Modular stack enables rapid iteration and
+continuous evaluation
+; a SPECIALISTS
+LLM-as-a-judge system run by Al data specialists
+e Design custom evaluation criteria LLM-AS-A-JUDGE
+e Analyze real user behaviors, improving i)
+prompts beyond benchmarks
+— ; ARON a
+e Evaluate and deploy new models (OpenAl,
+Anthropic, Google, open-source)
+DEPLOY T
+Continuous evaluations ensure quality, catch
+early, validate improvements
+i
+4 aws
+ae 3 a

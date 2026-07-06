@@ -1,0 +1,11 @@
+Yaseen coisa)
+This basic recipe, and the building blocks used in it, have not fundamentally changed since the
+Transformer was introduced by Goog!e Brain tn 2017, and slightly tweaked to today's left-to-right
+language made!s by OpenAl in GPT-1 and GPT-2.
+For example, the neural network architecture of Meta‘s Llama 2 model series only adopts a few
+changes that differentiate it from the original Transformer in 2017, or the Transformer as used in
+GPT-2 or GPT-3. These are the following:
+
+4)
+
+RUC aes MCLs eleliCte

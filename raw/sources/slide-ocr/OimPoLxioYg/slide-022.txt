@@ -1,0 +1,11 @@
+Lessons from Building Paint.wtf with CLIP
+Roboflow Inference Makes Life Easy
+Serving done right. an aad
+Built on the lessons of serving 100M of API ; interop - . -
+calls and thousands of hours of video. ee
+e Maximize throughput on your target ee
+hardware (GPU, CPU, edge) ie ao
+e Use ready-to-go foundation models ini
+e Pullin over 50k pretrained models from a aed
+Roboflow Universe community are eas
+14

@@ -1,0 +1,6 @@
+°
+Live API
+The Live API enables low-latency, real-time voice and vision interactions with Gemini.
+ese Text, audio, video
+“ee Text, audio +
+App Connect via WebSocket Live API

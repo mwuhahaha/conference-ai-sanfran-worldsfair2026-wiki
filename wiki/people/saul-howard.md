@@ -1,0 +1,21 @@
+---
+title: "Saul Howard"
+category: "people"
+role: "VP Engineering"
+company: "Anterior"
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
+---
+
+# Saul Howard
+
+## Official Role
+VP Engineering at Anterior.
+
+## Official Bio
+VP Engineering at Anterior building the AI Platform for Healthcare. Previously at Apple Cloud.
+
+## Scheduled Sessions
+- [[2026-07-01-christopher-lovejoy-why-your-enterprise-tech-stack-isn-t-ready-for-ai-agents-and-what-to-build-instead]] — Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead (2026-07-01, 3:45pm-4:05pm)
+
+## Links
+- [LinkedIn](https://linkedin.com/in/saulhoward)

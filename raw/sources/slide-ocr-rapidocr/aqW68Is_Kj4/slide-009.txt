@@ -1,0 +1,15 @@
+response=client.messages.create(
+model="claude-s0nnet-4-5-20250929"
+Memory
+max_tokens=4896,
+messages=[{
+"role":"user",
+content":Debug why the payment service is timing out"
+Laude saves:
+Payment servtce uses 3es
+retrylogtcLn Paymentcllent.java,
+teami
+preters clrcuit breakerpattern
+ANTHROPIC
+AlEngineer
+Engineering the future of Al

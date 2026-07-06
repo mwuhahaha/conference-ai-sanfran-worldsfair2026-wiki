@@ -1,0 +1,6 @@
+1 sampling determinism # system determinism
+temp 0 fixes the rule (argmax), not the logits you argmax over.
+2 float addition is NOT associative
+(0.1 + 1e20) - 1e20 = 0 0.1 + (1e20 — 1e20) = 0.1
+reorder a reduction - a logit's last bits move + argmax flips.
+&)

@@ -1,0 +1,21 @@
+---
+title: "Matt Brockman"
+category: "people"
+role: "AI Engineer"
+company: "E2B"
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
+---
+
+# Matt Brockman
+
+## Official Role
+AI Engineer at E2B.
+
+## Official Bio
+AI Engineer at E2B. Building sandboxes for you.
+
+## Scheduled Sessions
+- [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox]] — How I learned to stop worrying and love the sandbox (2026-06-29, 11:05am-12:05pm)
+
+## Links
+- [LinkedIn](https://www.linkedin.com/in/matt-brockman-629214139)

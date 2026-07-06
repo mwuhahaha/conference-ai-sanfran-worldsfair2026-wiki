@@ -1,0 +1,10 @@
+The Agent SDK is the best way to build agents in the
+“Anthropic Way”
+- Unix Primitives: Every agent should use bash [1] &a file system [2] (e.g.
+skills & memory)
+- Agents > Workflows: Agents build their own context + decide what to do
+with tools.
+- Code Generation for non-coding: We use code gen to generate docs,
+query the web, etc.
+- Every agent has a container.
+More on this here.

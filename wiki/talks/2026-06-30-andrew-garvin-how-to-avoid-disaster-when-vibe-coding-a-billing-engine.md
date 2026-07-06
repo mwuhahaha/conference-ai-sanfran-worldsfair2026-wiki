@@ -1,0 +1,85 @@
+---
+title: "How to avoid disaster when vibe-coding a billing engine"
+category: "talks"
+date: "2026-06-30"
+time: "11:10am-11:30am"
+track: "AI-Native Enterprises"
+room: "Leadership 1"
+speakers: ["Andrew Garvin"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# How to avoid disaster when vibe-coding a billing engine
+
+## Official Schedule Context
+- Date/time: 2026-06-30 · 11:10am-11:30am
+- Track/room: AI-Native Enterprises · Leadership 1
+- Speaker(s): Andrew Garvin
+- Session type/status: session · confirmed
+
+## Official Description
+This talk covers what that infrastructure looks like in practice: which primitives matter, where the
+
+human checkpoints belong, and what changes when your billing system needs to be legible to machines
+
+instead of configured by humans clicking through a UI. When building AI products, billing and
+
+pricing should be directly tied to the products themselves. They're in the hot path. Every token,
+
+every agent action, every inference is a billable moment, and if your entitlement checks aren't
+
+keeping up, a single runaway agent can rack up thousands of dollars in seconds with no one to send
+
+the bill to. Get metering wrong and you're either eating costs or overcharging customers. Get ledger
+
+consistency wrong and your invoices don't add up. Get tax wrong across 47 jurisdictions and you find
+
+out from a regulator, not a user. Here's the thing, though — agents are legitimately good at billing
+
+strategy. They can pick pricing models, configure plans, run simulations, and iterate on packaging
+
+way faster than a human team could. You want them doing that work. But proration, multi-currency,
+
+revenue recognition, tax — this stuff took the industry years to get right, and it's unforgiving
+
+when you get it wrong. The question then becomes not whether agents should be making billing
+
+changes, it's what they should be operating on when they do. Agents need tight, composable building
+
+blocks where the correctness is already baked in, human-in-the-loop checkpoints before anything
+
+irreversible goes out the door, and sandbox environments where they can experiment freely without
+
+torching production. That's the architecture that lets you move fast on pricing without waking up to
+
+broken invoices. Target audience: Engineers and technical founders building AI products that charge
+
+for usage — whether that's per-token, per-action, or per-seat with consumption overages. If you've
+
+ever hard-coded a pricing tier, duct-taped metering onto an existing system, or wondered how your
+
+billing setup is going to survive your next pricing change, this talk is for you. Audience
+
+takeaways: - A clear understanding of why billing for AI products sits in the hot path — and what
+
+specifically goes wrong when metering, entitlements, or ledger consistency can't keep up. - A
+
+practical architecture for making billing agent-operable: composable primitives with correctness
+
+baked in, human-in-the-loop checkpoints on irreversible actions, and sandbox environments for safe
+
+experimentation. - A framework for deciding where agents should be empowered to move fast on billing
+
+strategy and where guardrails need to be non-negotiable.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[andrew-garvin]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

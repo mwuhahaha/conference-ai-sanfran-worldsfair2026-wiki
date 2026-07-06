@@ -1,0 +1,16 @@
+iia a a me RBS MB RR a
+se Fag 0 2g oO rl * cel is) oO 9 oO Li cae co}
+a a red * a ca 7
+= © Dagger
+nitialize a Dagger module
+Bootstrap a new Dagger module in Go, Python, TypeScript, PHP, or Java by running dagger init in the application's root
+directory.
+Go Python TypeScript PHP Java
+This will generate a dagger. json Module metadata file and a ,dagger directory containing some boilerplate Dagger
+Functions as examples.
+e 2 ated Dagger Functions, run:
+’ ; . ‘ —_ A
+® an _ a
+7 a Microsoft §=SUOOU
+i FY
+a | |

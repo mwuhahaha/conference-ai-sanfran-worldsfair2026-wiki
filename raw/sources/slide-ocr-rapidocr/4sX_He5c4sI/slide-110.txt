@@ -1,0 +1,29 @@
+AEngi
+World'sFair
+You are watching an AJE Online Talk
+Pre-Recorded forWorid'sFair 2026.
+Create a plan to add a new API to the backend which returns the
+title of the frontendwebapp asa string and then plan the
+refactoring of the website title accordingly so it uses the one
+returned by the API.Don't inplement just yet,just create the
+plan
+OI'll investigate both repos to build an accurate plan.Let me
+explore the frontend directly and delegate a read-only
+investigation of the backend in parallel.
+Running 2agents（ctrl+o to expand)
+Explore （Explore frontend title handling)·18 tool uses·15.2k
+tokens
+LSearching for 4patterns,reading6 files
+polygraph:polygraph-delegate-subagent (Delegate backend
+investigation)
+（ctrl+b to run in background)
+Leavening-（3es↓2.θktokens)
+LTip:Use /voice to enable push-to-talk dictation
+poly-frontend-93df5cb8 git:(fetch-app-title-from-backend-c9be-
+auto mode on（shift+tab to cycle）·gh auth login
+main
+↑/↓to select.Enterto view
+OExplore
+Explore front_14s↓16.8k tokens
+Opolygraph:poLygraph-delegat
+Delegateback7s·↓9.4k tokens

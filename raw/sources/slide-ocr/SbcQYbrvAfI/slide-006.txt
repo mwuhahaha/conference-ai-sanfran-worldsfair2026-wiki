@@ -1,0 +1,8 @@
+Core Issues Distilled
+Adaptability & Self Determinism vs Context
+Learning Non Determinism Engineering
+Balance
+No System Instructions No Planning or Missing Tools
+Learned From Environment Very Static Planning Tool Guidance
+Missing Context
+(Pre Pruned Data)

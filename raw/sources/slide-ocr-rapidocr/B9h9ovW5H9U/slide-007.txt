@@ -1,0 +1,40 @@
+ContextGraphDemo
+Financial ServicesAgent
+context-graph-demo.vercel.app
+DATASOURCES
+BACKEND SERVICES
+FRONTEND&USERINTERFACE
+AIE
+Ingestion/ETL
+Data
+FastAPI Application
+Data Transfer
+API Calls&
+SupportTicket
++ClaudeAgent SDK
+System
+NexLjsUI
+Application
+10MCPTools
+Claude Agent
+User Actions
+&Queies
+CRM(e.g.
+Salesforce)
+(Embeddings)
+OpenAIAPI
+Chakra UIv3
+Neo4jContextGraph&GDS
+Internal
+BusinessData
+NVLGraphs
+Neo
+Vector
+GraphData Science Algorthms
+(Visualization)
+Aurabs
+Search
+Simlaritg LouvinPageRank
+(GOS)-FaRPxNNNode
+PP.1dNAPKPy
+Engineering the future of Al

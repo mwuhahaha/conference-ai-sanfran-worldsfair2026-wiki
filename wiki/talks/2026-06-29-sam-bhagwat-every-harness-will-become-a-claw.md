@@ -1,0 +1,51 @@
+---
+title: "Every Harness Will Become A Claw"
+category: "talks"
+date: "2026-06-29"
+time: "3:20pm-3:40pm"
+track: "Claws & Personal Agents"
+room: "Track 1"
+speakers: ["Sam Bhagwat"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Every Harness Will Become A Claw
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 3:20pm-3:40pm
+- Track/room: Claws & Personal Agents · Track 1
+- Speaker(s): Sam Bhagwat
+- Session type/status: session · confirmed
+
+## Official Description
+Most of the Harness discussion is just a reprise of Context Engineering from last summer. But it's
+
+not 2025 anymore. We live in a Claude Code world, and the best way to think about a harness is
+
+Context engineering + Coding Agents = Harness. Harnesses are a magical DX because of specific
+
+features like planning mode, parallel subagents, skills, background tasks etc. But it doesn't stop
+
+there. People are shoving their harnesses in a box, making them listen to external events, giving
+
+them channels (the ability to ping its users), and a heartbeat. They are making them into Claws. And
+
+actually, harnesses _want_ to become claws, so they can take up more share of mind, suit
+
+collaboration workflows, and be available afk. I propose "Steinberger's law", a spinoff of
+
+Zawinski's law: every harness will expand until it becomes a Claw
+
+## Related YouTube Video
+[Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai](https://www.youtube.com/watch?v=8SUJEqQNClw) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[sam-bhagwat]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-8SUJEqQNClw-slides]] — extracted from the related public AI Engineer video.

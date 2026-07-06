@@ -1,0 +1,18 @@
+iY .
+: °
+| Coding Agents Should
+2
+be like Ants
+Z
+4 One huge problem with coding agents is their
+granularity: You send all tasks, even cheap ones, to the
+expensive model.
+> + "please analyze this codebase for Haws” --> expensive
++ “is my gitignore file still there?” --> also expensive!
+_¢ instead of an ant colony, Anthropic built a huge,
+~ oa ry el : muscular ant,
+* — There's a better solution: Make small ants.
+7 ‘
+ce f
+e td
+Sea Engineering the future of Al

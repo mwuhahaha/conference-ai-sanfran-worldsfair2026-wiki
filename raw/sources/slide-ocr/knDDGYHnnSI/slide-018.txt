@@ -1,0 +1,16 @@
+ital
+Accuracy
+GraphRAG: Unlocking LLM
+Ree eld discovery on narrative private data
+GraphRAG adoption amongst Renres dire ‘Si
+users is higher accuracy.
+“By combining LLM-generated
+vate ert knowledge graphs and graph
+Oe w . ,
+SE EA machine learning, GraphRAG
+Beet Fea enables us to answer important
+Pett Ph kept 5
+a er classes of questions that we cannot
+ek .
+une attempt with baseline RAG alone."
+: - BE Microsoft

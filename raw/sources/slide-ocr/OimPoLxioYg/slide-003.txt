@@ -1,0 +1,7 @@
+The Premise: Convince an Al you’re the best artist
+1) GPT: Generate a prompt for users to draw
+eo User: Draws prompt in MS Paint interface
+6 CLIP: Judge vector similarity of text
+prompt and user image
+@ ???: 120k players in one week, 7 requests
+per second

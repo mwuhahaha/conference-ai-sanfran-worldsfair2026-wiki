@@ -1,0 +1,15 @@
+Create-Context-Graph Key Features A
+e 8 Agent Frameworks -- PydanticAl. Claude Agent SDK, OpenAl Agents SDK, LangGraph.
+CrewAl, Strands, Google ADK, and Anthropic Too!s.
+4 © =22 Built-in Domains -- Healthcare. finsery, real estate, and more w/ rich demo data. + You can
+ra ine * create your own Custom Domains
+mn . @ 12 SaaS data connectors -- GitHub. Slack, Jira, Notion, Gmail, Google Calendar. Satesforce.
+Paras Linear, Google Workspace. Claude Code. Claude Al. and ChatGPT.
+© Graph-native Al agents -- Cypher-powered tools for querying entities, relationships, and
+decision traces. Tool calls stream in real-time with live progress indicators.
+@ MCP Server for Claude Desktop -- Optionally generate an MCP server config so Claude
+Desktop quenes the same knowledge graph as your web app
+e Multi-turn Conversations, Streaming Chat, and Interactive Graph Visualizations
+= , a Al Engineer
+. a. — Sue) a
+| : ae , | X

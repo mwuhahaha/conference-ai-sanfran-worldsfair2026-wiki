@@ -1,0 +1,14 @@
+Ss For the same text, Cohere produces significantly fewer tokens
+Multilingual Token Costs
+Arabic BB Coee BH Opera Vato
+ola ae *
+English < 20
+French ;
+German S19
+Italian } ‘6
+Japancse H
+Korean = 05
+Portuguese § oo _
+Spanish -
+a tL EL IS OLA
+9

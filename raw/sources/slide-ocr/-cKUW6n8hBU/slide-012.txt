@@ -1,0 +1,20 @@
+£ . : ©] u" cy e a r
+PAf_Link SHARPEN rerePne ToT REPORT ont net /CIK-0001045810/8b7édacc-alSt- 4292-960. a ann
+. oo
+Ni T Iti m ft] i a | iY seem aseacnmense ve
+rag = dspy.ChainOfThought ("question, document -> answer")
+FORM 4 Be 4
+SUES Tt wmmscuenugeranettgena emma OT result = rag(question="How many shares were sold in total?", document=doc)
+me inca emesis print (result)
+EE ony SIATEIT. . ~e if Predictacn(
+renee Bvt es tee ane Vorerttes coed reasening-'The doftument is a Form 4 filing reporting changes in beneficial
+7 . . Ce eee Lo qnerehip wf geouratres by Mart. A, Stevens. if casts two transact pons mavecjvernd the
+fetes oe Fe sale of common nteck shares on twe datesiunins On P1/2006, 209, 200 shares were
+=e pe 2" 20 oe holds ine Gn Y 12s7Crh, 20,790 shares were sald.ininte find the total numer of
+: ee ee ee ae shares seid, we sum these twe amountoi\nsnacda,0CG 4 290, 94 = 490,098 shares maid
+oe I oe e Be, ue ih tetal.\nainNe other sales transacticns ate listed in the document.',
+——_ Boe TS ne answer='497,797 shares were sold in total.‘
+woe Te )
+aaa ee
+Bem nmitee me te ga a od
+|

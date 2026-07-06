@@ -1,0 +1,47 @@
+SOURCECONTROL
+external
+CHANGES
+cscript
+//Add connection type constants
+√Commit
+isLinearMcPConnector(connector:Exte
+Changes
+coenector.type 1a
+connections.svelte sverc/outesadmin
+2.M
+Now let me add the helper function.Ineed to find where the com
+extermal-connectors-section.svelt）+M
+ontlogic
+starts:
+AIE
+const mcpConfigconector.config
+cosT url=nev uRL（ncpConfig-endpoint
+server/src/routes/admin/connections.svelteLao-120
+retun url.hostnaee
+CATCh
+server/srq/routes/adminconections.svelte120160
+const disconnect=superForm(disconnectService
+async onupdate（(resutt}）（
+Perfect II add the helper function right before the addConnector functionc
+if（result.type'success'）（
+ait Lnvalidate'datalexternalCon
+)else{
+server/rc/routes/admin/connections.svelte
+Logger.erreri'Fer subaission fail
+submitting: deleteSihe**1nn
+)deleteConmectorfornang er
+message:deleteless 1newmessage↓
+TOOOs
+//Helper functionto check if a service is co
+function isConnected（connectionId:number):bo
+Implement the Linear connector icon customization feature
+FindLinearisuteboutcustomizingtinesr connectoricon
+//Directly check the arrayeach tine toe
+return extermalConnections.some（（conn）m
+//Generate GitHu app installation uRL from
+function getGitHubAppInstallationurliconnector
+if[connector.typeImgithub_oauth'）{
+retum undefined
+Microsoft
+smol?
+rid'sFair

@@ -1,0 +1,13 @@
+helped break I!ndia’s a EEN EN EEE INE © 7
+final jinx
+a zc 2 fe 5
+a
+Backtracking
+Ly
+
+* Pre-reasoning models - Intuition that a higher order task needs to be broken down by a Planner
+« Agent should be able to snapshot progress and restart from last good snapshot versus starting from scratch
+
+Simple API -
+
+Configurable With Docker tooling ©

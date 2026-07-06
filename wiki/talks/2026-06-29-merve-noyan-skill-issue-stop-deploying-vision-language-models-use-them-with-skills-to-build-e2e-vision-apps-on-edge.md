@@ -1,0 +1,50 @@
+---
+title: "Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge"
+category: "talks"
+date: "2026-06-29"
+time: "11:40am-12:00pm"
+track: "Vision & OCR"
+room: "Track 2"
+speakers: ["Merve Noyan"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 11:40am-12:00pm
+- Track/room: Vision & OCR · Track 2
+- Speaker(s): Merve Noyan
+- Session type/status: sponsor · confirmed
+
+## Official Description
+With the boom of vision language models barrier of entry to build vision apps are much lower so
+
+developers tend to use them right away. However, these models are very large and inefficient in
+
+production. In this talk, I will go through combining vision language models with Skills to build
+
+end-to-end vision apps from training to deployment using HF Skills, on top of showing the state-of-
+
+the-art in small computer vision/multimodal models.
+
+## Related YouTube Video
+[Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face](https://www.youtube.com/watch?v=OV56RddyFuU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[merve-noyan]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-OV56RddyFuU-slides]] — extracted from the related public AI Engineer video.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-OV56RddyFuU-dense-slides]] (20 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-OV56RddyFuU-dense-slides]]
+- [[youtube-OV56RddyFuU-reconstructed-slides]]
+- [[youtube-OV56RddyFuU-slides]]
+- Slide-derived terms: `model`, `skills`, `models`, `gguf`, `hermes`, `community`, `datasets`, `text`, `local`, `llama.cpp`, `inference`, `image`, `search`, `spaces`, `jobs`, `setup`, `claude`, `some`

@@ -1,0 +1,8 @@
+GraphRAG Retrieval Patterns
+Oates ot0 ac Ras bette ee eee SNe ee ee eae te cree ee ae
+|. Do avector search to find an initial set of nodes
+2. Traverse the graph around those nodes to add context
+3. (Optional: Rank the results using the graph and pass the
+top-k documents to the LLM)
+| ; )
+Ma Iracesxe) aS OVO UMEEGLU

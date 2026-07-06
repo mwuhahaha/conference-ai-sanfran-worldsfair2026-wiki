@@ -1,0 +1,25 @@
+{
+  "videoId": "4sX_He5c4sI",
+  "title": "WF2026: Autoresearch &amp; Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive",
+  "url": "https://www.youtube.com/watch?v=4sX_He5c4sI",
+  "transcriptSource": "youtube-transcript-api-helper",
+  "notes": [],
+  "transcriptChars": 444143,
+  "success": true,
+  "attemptedSteps": [
+    {
+      "name": "fetch-watch-page-html",
+      "status": "success",
+      "detail": "htmlChars=1241381",
+      "durationMs": 949
+    },
+    {
+      "name": "helper-transcript-api",
+      "status": "success",
+      "detail": "helper returned transcript",
+      "durationMs": 2103,
+      "transcriptSource": "youtube-transcript-api-helper",
+      "transcriptChars": 444143
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+a , ®
+Datasets - Tips
+
+Cero) ©: 18 ecvn irs] mene | Con
+focus on building a feedback loop rather than
+a perfect dataset
+
+e = =Never Stop Iterating:
+Use Logs to capture more edge cases and
+create more holistic Evals
+
+e Implement Human Reviews:
+use human review to establish ground truth
+Especially when using expected column
+
+° 4
+loro

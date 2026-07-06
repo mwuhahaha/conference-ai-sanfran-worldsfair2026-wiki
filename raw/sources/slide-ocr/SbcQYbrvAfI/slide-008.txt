@@ -1,0 +1,7 @@
+Reinforcement Learning
+RL Model _._—_—s Action > Reward Function
+(Student's Brain) (Takes Exam) (Exam Scorer)
+Update Weights Scalar Reward
+(Student's Brain) (Exam Score)
+Algorithm: Gradient Descent, PPO,
+Q-learning

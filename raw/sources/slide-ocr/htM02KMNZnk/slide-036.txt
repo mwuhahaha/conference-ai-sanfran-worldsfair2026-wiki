@@ -1,0 +1,3 @@
+X wrong question: can we make the model deterministic.
+V right question: can we debug & test a run we can't reproduce.
+@

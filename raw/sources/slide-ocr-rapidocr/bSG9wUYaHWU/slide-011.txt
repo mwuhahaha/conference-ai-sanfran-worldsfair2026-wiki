@@ -1,0 +1,17 @@
+Evals(LLM asJudge)
+CLAUDE.md-ContextRules
+ArI Stasdatds
+Erery A: eodpoint muat uae the prefix/e
+AIE
+Prompt
+esneesoluodpumaueoppy
+eapp.post(/eesome/user)defsave_user()1
+oeserate
+Eval-LLMasJodge
+Checki Does thepe
+for saving a user
+/PASS
+CLAUDE.md rule - Prompt - LLM-as-Judge eval
+AIEngineer
+Engineering the future of Al
+AlEngineer

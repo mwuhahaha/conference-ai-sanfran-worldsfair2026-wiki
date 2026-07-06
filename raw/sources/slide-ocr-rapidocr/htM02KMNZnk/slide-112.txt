@@ -1,0 +1,57 @@
+-pun
+UpgradetoPro
+AIEngineer
+Fpipeline.baml A
+Faoent.bamlA
+Esimple.bamlA
+Fcalc.
+FBAMLPlayground×
+World'sFair
+baml_src>ns_images)
+Fpipeine.baml
+sictx.output_rormat;
+udeao
+Trace
+FLane
+QSearch functions
+Mode:
+Include
+function inproving_inage(goal: string="a founder building a progre
+POpe
+Function
+Origin Thread
+systes
+calls
+leting:inage=generate_inage（goal);
+let judge:JudgeResponse=evaluate_inage(ing,goal);
+FUNCTION
+ORIGIN
+SELF TIHE
+user.inages.inpro.
+0.06ns
+letattenpts:int=0;
+user.inages.gener-
+s.genera.
+vhile （judge.score<e.956attenpts<10）{
+iser
+9799es
+ing=generate_image(goal);
+judge evaluate_inage(ing.goat):
+user,inages.evalu.
+User
+6467ms
+return ing:
+user.inages.AiGat..
+0.16ms
+FE
+.<tagged(generate
+0.01ns
+class JudgeResponse
+score:float,
+reason:string.
+inplements baml.ToString
+function to_string(self)->string throwsnever{
+oFair
+return'Score:s(self.score),Reason:s(self.reason):
+main*+Launchpadweek-2O0Lve ShareGitGraphBAML
+Engineering the future of Al

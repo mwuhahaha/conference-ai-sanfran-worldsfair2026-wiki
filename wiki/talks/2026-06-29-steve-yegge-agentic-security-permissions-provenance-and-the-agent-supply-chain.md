@@ -1,0 +1,52 @@
+---
+title: "Agentic Security: Permissions, Provenance, and the Agent Supply Chain"
+category: "talks"
+date: "2026-06-29"
+time: "2:25pm-2:45pm"
+track: "Security"
+room: "Track 5"
+speakers: ["Steve Yegge"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Agentic Security: Permissions, Provenance, and the Agent Supply Chain
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 2:25pm-2:45pm
+- Track/room: Security · Track 5
+- Speaker(s): Steve Yegge
+- Session type/status: sponsor · confirmed
+
+## Official Description
+As AI agents move from demos into production engineering workflows, the security boundary shifts
+
+from code alone to the permissions, tools, prompts, dependencies, credentials, and orchestration
+
+layers that agents can touch. This talk frames agentic security broadly: least-privilege agent
+
+permissions, sandboxing and capability design, provenance for agent-generated changes, risks in
+
+agent/tool/package supply chains, and practical patterns for keeping autonomous coding and
+
+operational agents auditable and containable.
+
+## Related YouTube Video
+[2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding](https://www.youtube.com/watch?v=7Dtu2bilcFs) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[steve-yegge]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-7Dtu2bilcFs-slides]] — extracted from the related public AI Engineer video.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-7Dtu2bilcFs-dense-slides]] (13 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-7Dtu2bilcFs-dense-slides]]
+- [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+- [[youtube-7Dtu2bilcFs-slides]]
+- Slide-derived terms: `software`, `coding`, `google`, `deepmind`, `engineering`, `year`, `died`, `steve`, `yegge`, `gene`, `engineer`, `author`, `researcher`, `code`, `models`, `future`, `will`, `watch`

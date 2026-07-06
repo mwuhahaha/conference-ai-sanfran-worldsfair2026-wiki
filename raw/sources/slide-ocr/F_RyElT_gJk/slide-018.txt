@@ -1,0 +1,58 @@
+SOURCE CONTROL
+ALP
+CHANOES
+<scriptlang-"ts">
+LportLmvalidate}froesapp/navigation
+iaport type（ExtemalConection）fros‘sl1b/db/exter
+MLIR
+Lnport typeExternalConnector）fro‘slib/db/externl
+Commit
+[nport （type deleteExternalConnectionSchema）fross
+inpert Loader fron@lucide/svelte/Lcons/loader-2
+Changes
+inport{Button}fromSweb-lib/components/ui/button'
+connections.svelte sverrcrouesadin
+WZ
+Import（Card,CardContent,CardHeader,CardTitle }frc
+serversrcroutes/admin/connections.svelte
+extermal-connectors-sectionsvelt2+M
+ort Checkcircle
+Lnport Cloudfromelucide/svelte/icons/cloud
+tde/sveLte/1co
+inport FileText fron'elucide/svelte/icons/file-text'
+inport sleck froneluclde/svelte/Icons/slack'
+AIE
+inpert Trash fron'elucide/svelte/icons/trash-2'
+Lnport Github from'elucide/sveLte/icons/github'
+Inpertxfroe'elucide/svelte/icons/x'
+impotLinkfromlucide/svelte/1cons/Link'
+Inport Netork fron'glucide/svelte/icons/netork
+Inport type（HCPConectionContig}fronesourcegraph/ap-
+inport Slackfron'elucide/svelte/icons/stack'
+inpert{superform}frossveltekit-superforms'
+inport {getConnectionisplayae,getDefaultConfigForType)
+(HCPConnectLonConfig}
+auetegraph
+//Add connection type constants
+Laport type（SuperValldated}fron'sveltekit-superfol
+inport{superform}fron
+'sveltekit-superforms/client'
+nport typez}fromzod
+Now let me add the helper function.Ineed tofind where the
+const(
+component logic starts:
+externalConnectors,
+disconnectServiceForm,
+externatConnections,
+Dserver/src/routes/admin/connections.svelte so-120
+disconnectServiceFore: SuperVaLidatedz.infertypec
+externalConnectors:ExternalConnectorll
+externalConnections: ExternalConnection1
+TODOs
+Sprops()
+Implement the Linear connector lcon customization feature
+isLinearHCPConmectoriconnector:Exter
+connector.type
+Microsoft
+smol?
+d'sFair

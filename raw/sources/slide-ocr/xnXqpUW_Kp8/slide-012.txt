@@ -1,0 +1,51 @@
+EXPLORER
+agent.py
+github_agent.py x
+aengineer
+oerv
+model-"gpt-40",
+agent.py
+nessages=
+dubeqrnp
+{"role”:"user,"content"：hit.title+"\n”•hit.text[:2ee]),
+othing else
+).choices[e].message.content.strip()
+Ifnane:
+AIE
+(aueu)puadde·soueu
+print("nases",nases)
+return List(dict.fromkeys(nanes))
+defget_people():
+out=[1
+for name in get_nanes():
+print（"GETTDNGGITHUB INFO")
+r-exa.search_and_contents(
+textaTrue.
+PROBLEMS
+OUTPUT
+DEBUG CONSOLE
+TERMINAL
+COMVENTS
+zs
+names['Jonathan Koren',None','Doug TurmbuLl',“None',
+'None','None','Aditya Varun Chadha',
+Python
+GETTDNG GITHUB INFO
+GETTINGGITHUB INFO
+GETTDNG GITHUB INFO
+GETTING GITHUB INFO
+[3onathan Koren]（https://github.con/}dkoren)
+[DougTurnbulL]（https1//github.co/softaredoug)
+None]（https1//github.com/none-None1)
+Areyouusing a screen reader to operateVS Code?
+[Aditya Varun Chadha](https1//github.com/adichad)
+[RobertoBayardo](https://github.com/rob
+[Tsubasa Kato](https://github.com/stingraze)
+res
+NG
+wilLbrykgwilLs-MacBook-Pro-2alengineer
+o00cimadea
+Ln26,Col15Spaces:4UTF-8LF
+(）Python
+Microsoft
+smol

@@ -1,0 +1,1157 @@
+# AI Engineer World's Fair 2026 Index
+
+## Start Here
+This standalone wiki is organized around the official AI Engineer World's Fair 2026 schedule, then enriched with public YouTube evidence, transcripts, slide OCR, reconstructed slide crops, and content-derived topic pages.
+
+- For the public landing page, start with [[overview]].
+- For talk-to-video matching and transcript availability, use [[talk-video-transcript-map]].
+- For slide-first exploration, use [[slide-library]], [[reconstructed-slide-library]], and [[dense-slide-library]].
+- For evidence rules, use [[source-boundary]].
+- For the advanced slide scanner audit, use [[advanced-slide-logic-page-audit]].
+
+## Conference Map
+- [[2026-06-28-new-engineer-orientation]]
+- [[2026-06-29-workshop-day-and-welcome-reception]]
+- [[2026-06-30-keynotes-and-breakouts]]
+- [[2026-07-01-world-cup-and-multi-track-programming]]
+- [[2026-07-02-final-day-and-last-chance-expo]]
+
+## Theme Map
+- [[coding-agents]]
+- [[software-factories]]
+- [[agent-evaluations]]
+- [[agent-memory]]
+- [[agent-security]]
+- [[agentic-search]]
+- [[voice-agents]]
+- [[inference-engineering]]
+- [[mcp]]
+- [[ai-sandboxes]]
+- [[autoresearch]]
+
+## Core Resources
+- [[overview]]
+- [[talk-video-transcript-map]]
+- [[worldsfair-2026-livestreams]]
+- [[slide-library]]
+- [[reconstructed-slide-library]]
+- [[dense-slide-library]]
+- [[official-conference-site]]
+- [[official-sessions-json]]
+- [[official-speakers-json]]
+
+## Talks
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]] — From Vibes to Production: Evaluating and Shipping AI Agents That Work 101
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries]] — AI on Your Lakehouse: Context Comes in Shapes, Not Queries
+- [[2026-06-29-charlie-guo-cooking-with-codex]] — Cooking with Codex
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]] — The best SDLC is the one you build yourself: Why orchestration changes everything
+- [[2026-06-29-javier-garza-ai-security-engineer-foundations-certificate]] — AI Security Engineer Foundations + Certificate
+- [[2026-06-29-ignacio-martinez-total-recall-agent-memory-and-harness-engineering]] — Total Recall: Agent Memory and Harness Engineering
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs
+- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]] — Open-Source Inference Engineering for the Agentic Era
+- [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability]] — Advanced workshop: Mastering AI Observability
+- [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps]] — Get Started with Models in Microsoft Foundry to Build AI Apps
+- [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent]] — Building self-learning loops for your agent
+- [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context]] — RAG Needs a Map: Using GraphRAG to Retrieve Connected Context
+- [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox]] — How I learned to stop worrying and love the sandbox
+- [[2026-06-29-pamela-fox-the-model-swap-workshop]] — The model swap workshop
+- [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer]] — Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer
+- [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-1]] — Local LLMs and workstation agents: Part 1
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]] — How to Build Quality Gates into Agentic Coding Workflows
+- [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway]] — What is an Inference Engine, Anyway?
+- [[2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship]] — Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship
+- [[2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents]] — From zero to deployed on Azure with AI agents
+- [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive]] — Evals in AI: A Deep Dive
+- [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker]] — From approval loops to autonomous agents with Docker
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2]] — 2 hr deep dive on LLM Inference at Scale — Part 1 of 2
+- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1]] — Build the Right Thing: Product Engineering for Software Developers (Part 1)
+- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]] — From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline
+- [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-2]] — Local LLMs and workstation agents: Part 2
+- [[2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch]] — Beyond RAG: Build a Relational Context Engine from Scratch
+- [[2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data]] — Building AI Agents with Real-Time Web Data
+- [[2026-06-29-paige-bailey-research-to-reality-with-google-deepmind]] — Research to Reality with Google DeepMind
+- [[2026-06-29-ankur-duggal-let-your-agent-cook-using-skills-to-evaluate-and-improve-your-app]] — Let your agent cook: using skills to evaluate and improve your app
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2]] — 2 hr deep dive on LLM Inference at Scale — Part 2 of 2
+- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2]] — Build the Right Thing: Product Engineering for Software Developers — Part 2
+- [[2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn]] — Build a Platform, Unleash an Agent on it.... and Watch it Burn!
+- [[2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development]] — SonarQube + OpenAI: Wiring Your Team for Agentic Development
+- [[2026-06-29-palak-agarwal-how-reducto-parsed-the-epstein-files-for-the-viral-jmail-project-the-secret-complexities-of-document]] — How Reducto parsed the Epstein Files for the Viral JMail Project: The Secret Complexities of Document
+- [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer]] — Turning My Obsidian Vault Into a Local AI Engineer
+- [[2026-06-29-lotte-verheyden-continuously-improving-agents-with-langfuse]] — Continuously improving agents with Langfuse
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]] — From Vibes to Production: Evaluating and Shipping AI Agents That Work 201
+- [[2026-06-29-yoni-michael-the-data-context-layer-why-data-engineering-agents-need-more-than-code-and-databases]] — The Data Context Layer: Why Data Engineering Agents Need More Than Code and Databases
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents
+- [[2026-06-29-mark-lummus-burn-your-flags-how-paypal-designs-interactive-cli-tools-for-agents]] — Burn your flags: How PayPal designs interactive CLI tools for agents
+- [[2026-06-29-micah-silverman-ai-security-engineer-foundations-certificate]] — AI Security Engineer Foundations + Certificate
+- [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost]] — Context Engineering in 2026: Compaction, Memory & Cost
+- [[2026-06-29-jeff-vestal-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] — Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers
+- [[2026-06-29-emile-baizel-build-with-perception-agents]] — Build with Perception Agents
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] — Hands-on AutoResearch: Cracking OpenAI's Parameter Golf
+- [[2026-06-29-pamela-fox-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry]] — Observe, optimize and protect your hosted agents in Microsoft Foundry
+- [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents]] — The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents
+- [[2026-06-29-paul-bakaus-the-dark-arts-of-skill-engineering]] — The Dark Arts of Skill Engineering
+- [[2026-06-29-shubhankar-srivastava-hill-climbing-skills-how-to-improve-agents-without-touching-the-model]] — Hill-climbing Skills: How to Improve Agents Without Touching the Model
+- [[2026-06-29-bereket-habtemeskel-agent-auth]] — Agent Auth
+- [[2026-06-29-will-brown-the-prime-intellect-stack]] — The Prime Intellect Stack
+- [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks]] — Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks
+- [[2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends]] — The Art and Science of Loopcraft with Pi (and friends)
+- [[2026-06-29-gagan-bhat-evolution-of-agentic-surfaces]] — Evolution of agentic surfaces
+- [[2026-06-29-joyce-zhang-human-connection-in-the-age-of-ai]] — Human Connection in the Age of AI
+- [[2026-06-29-sonar-expo-welcome-speech]] — Expo Welcome Speech
+- [[2026-06-29-session-runway-ai-film-festival]] — Runway AI Film Festival
+- [[2026-06-29-swyx-the-highest-loop]] — The Highest Loop
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge]] — On AI and Knowledge
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering
+- [[2026-06-29-zixuan-li-glm-5-2-frontier-intelligence-open-weights]] — GLM-5.2: Frontier Intelligence, Open Weights.
+- [[2026-06-29-thom-wolf-thom-wolf-keynote]] — Thom Wolf keynote
+- [[2026-06-29-manoj-nair-security-track-intro]] — Security Track intro
+- [[2026-06-29-jason-liu-getting-the-most-out-of-codex]] — Getting the most out of Codex
+- [[2026-06-29-ryan-dahl-security-firewall-for-agents]] — Security Firewall for Agents
+- [[2026-06-29-joseph-nelson-the-state-of-vision]] — The State of Vision
+- [[2026-06-29-edo-liberty-pinecone-2-0]] — Pinecone 2.0
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1]] — Claude Managed Agents Workshop (Part 1)
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on]] — Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.
+- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]] — The New Primitives: Building AI-Native Software
+- [[2026-06-29-devansh-tandon-tokens-in-engagement-out-training-llm-recommenders]] — Tokens In, Engagement Out: Training LLM-Recommenders
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]] — How Forward Deployed Engineering is done at Factory
+- [[2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier]] — Data Quality is the Compute Multiplier
+- [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app]] — Build agents fast with GitHub Copilot (from idea to working app)
+- [[2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals]] — Inside the AI economy: What Stripe’s data reveals
+- [[2026-06-29-david-hsu-governance-is-the-real-bottleneck-to-ai-roi]] — Governance Is the Real Bottleneck to AI ROI
+- [[2026-06-29-dor-sasson-every-ai-company-is-accidentally-building-a-bank]] — Every AI company is accidentally building a bank.
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines]] — The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines
+- [[2026-06-29-sam-parsons-how-paypal-enterprise-payments-handles-agent-initiated-payments-across-chatgpt-and-google-ai-mode]] — How PayPal Enterprise Payments handles agent-initiated payments across ChatGPT and Google AI Mode
+- [[2026-06-29-jakub-hojsan-agentic-search-for-coding-agents]] — Agentic Search for Coding Agents
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]] — Rise of the Software Factory
+- [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did]] — Your Agent Didn’t Fail. Your Harness Did.
+- [[2026-06-29-jerry-liu-building-the-document-context-layer-for-ai-agents]] — Building the Document Context Layer for AI Agents
+- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]] — The unreasonable effectiveness of BM25 for agentic search
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-2]] — Claude Managed Agents workshop (Part 2)
+- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] — Speech-to-Speech Model Research at Google DeepMind
+- [[2026-06-29-jacqueline-wood-spotify-llm-recsys]] — Spotify LLM Recsys
+- [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor]] — How Forward Deployed Engineering is done at Cursor
+- [[2026-06-29-robert-mchardy-the-messy-reality-of-scale-synthetic-data-and-pre-training-at-poolside]] — The Messy Reality of Scale: Synthetic Data and Pre-Training at Poolside
+- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server]] — Building the engine while flying the plane — launching the Figma MCP server
+- [[2026-06-29-ameya-bhatawdekar-your-agent-evolved-your-evals-didn-t]] — Your Agent Evolved. Your Evals Didn't.
+- [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]] — Give your coding agents the power of turbogrep!
+- [[2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs]] — Actionable Knowledge For Agents With Context Graphs
+- [[2026-06-29-session-frontier-models-for-the-hard-parts-open-weights-for-the-rest]] — Frontier models for the hard parts, open weights for the rest
+- [[2026-06-29-aditya-khandelwal-agents-codebases-and-teams-what-it-actually-takes-to-ship-together]] — Agents, codebases, and teams: what it actually takes to ship together
+- [[2026-06-29-charlie-holtz-orchestras-not-factories]] — Orchestras, not Factories
+- [[2026-06-29-benjamin-guo-everyone-gets-a-software-company]] — Everyone Gets A Software Company
+- [[2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge]] — Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]] — The Search Engine for the Agentic Web
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-3]] — Claude Managed Agents workshop (Part 3)
+- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night]] — We Gave an Agent Production Code Access and Then Tried to Sleep at Night
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things
+- [[2026-06-29-raghav-saboo-llm-recsys-at-doordash]] — LLM Recsys at DoorDash
+- [[2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering]] — AI tools for Forward Deployed Engineering
+- [[2026-06-29-rayan-garg-rethinking-environments-for-long-horizon-work]] — Rethinking Environments for Long Horizon Work
+- [[2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end]] — Use Copilot across CLI, dev, and cloud workflows to move faster end-to-end
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]] — Agentic SDLC at Uber: Building Blocks for Uber's Software Factory
+- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]] — The Last Human Code Review: Building Trust in AI-Generated Code
+- [[2026-06-29-jess-wang-agentic-vs-vector-search-an-eval-driven-approach-to-coding-agent-performance]] — Agentic vs. Vector Search: An Eval-Driven Approach to Coding Agent Performance
+- [[2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages]] — Agents Don't Have Coworkers, They Have Hostages
+- [[2026-06-29-andreea-ple-ea-would-your-ai-agent-get-the-job-a-performance-review-framework-for-enterprise-agents]] — Would your AI agent get the job? A performance review framework for enterprise agents
+- [[2026-06-29-daksh-gupta-what-we-learned-by-analyzing-1m-ai-generated-prs]] — What we learned by analyzing 1M AI-generated PRs
+- [[2026-06-29-shu-fang-tethered-our-agents-are-us]] — Tethered: Our Agents Are Us
+- [[2026-06-29-aditya-gautam-modality-misalignment-and-originality-attribution-in-short-form-video-a-multi-agent-approach-at-platform-scale]] — Modality Misalignment and Originality Attribution in Short-Form Video: A Multi-Agent Approach at Platform Scale
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents]] — Rebuilding the web for agents
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-4]] — Claude Managed Agents workshop (Part 4)
+- [[2026-06-29-ezra-tanzer-agentic-development-security]] — Agentic Development Security
+- [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie]] — Your Voice Agent is Just a Walkie-Talkie
+- [[2026-06-29-devansh-tandon-open-q-and-a-llm-recsys]] — Open Q&A: LLM Recsys
+- [[2026-06-29-jia-wu-how-forward-deployed-engineering-is-done-at-cognition]] — How Forward Deployed Engineering is done at Cognition
+- [[2026-06-29-david-brumley-bugcrowd-posttraining-talk]] — Bugcrowd posttraining talk
+- [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine
+- [[2026-06-29-hursh-agrawal-prototyping-as-leadership-how-a-cto-ships-with-ai-agents]] — Prototyping as Leadership: How a CTO Ships with AI Agents
+- [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked]] — Your Agent Is Lying to You About Whether It Worked
+- [[2026-06-29-hossein-niazmandi-why-building-building-agent-quality-platforms-is-hard]] — Why building building agent quality platforms is hard.
+- [[2026-06-29-simran-arora-can-llms-write-fast-multi-gpu-kernels-we-built-a-benchmark-to-find-out]] — Can LLMs write fast multi-GPU kernels? We built a benchmark to find out.
+- [[2026-06-29-rafal-wilinski-self-improving-agents-that-teach-the-company-back]] — Self-Improving Agents That Teach the Company Back
+- [[2026-06-29-kevin-hou-get-out-of-the-model-s-way]] — Get Out of the Model's Way
+- [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects]] — Agents' next frontier: agent-to-agent and network effects
+- [[2026-06-29-adit-abraham-from-ingestion-to-agents-how-leading-ai-teams-build-on-document-intelligence]] — From Ingestion to Agents: How Leading AI Teams Build on Document Intelligence
+- [[2026-06-29-benjamin-clavi-if-we-want-them-to-do-knowledge-work-we-need-to-design-knowledge-agents]] — If we want them to do Knowledge Work, we need to design Knowledge Agents
+- [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-1-of-3]] — Everybody Gets a Digital Clone! (Part 1 of 3)
+- [[2026-06-29-eugene-yan-using-llms-to-secure-source-code]] — Using LLMs to Secure Source Code
+- [[2026-06-29-paula-dozsa-tolan-voice-first-ai-companion]] — Tolan: Voice-First AI Companion
+- [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt1]] — From approval loops to autonomous agents with Docker pt1
+- [[2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering]] — The Dirty Secret of Forward Deployed Engineering
+- [[2026-06-29-varun-singh-the-base-model-is-dead]] — The Base Model is Dead
+- [[2026-06-29-salil-subbakrishna-modernize-ci-cd-using-agent-assisted-workflows-that-reduce-manual-debugging]] — Modernize CI/CD using agent-assisted workflows that reduce manual debugging
+- [[2026-06-29-andrew-orobator-spin-at-the-gate-until-green-the-engineering-primitives-behind-self-driving-codebases]] — Spin at the Gate Until Green: The Engineering Primitives Behind Self-Driving Codebases
+- [[2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub]] — Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub
+- [[2026-06-29-vlad-luzin-every-agent-everywhere-all-at-once]] — Every Agent, Everywhere, All at Once
+- [[2026-06-29-felipe-blanes-designing-evals-that-earn-user-trust]] — Designing Evals That Earn User Trust
+- [[2026-06-29-greg-pstrucha-stop-prompting]] — Stop prompting
+- [[2026-06-29-zach-lloyd-self-improving-software-factories-the-new-open-source-model]] — Self-Improving software factories: The new open source model"
+- [[2026-06-29-lance-martin-claude-for-long-horizon-tasks]] — Claude for long-horizon tasks
+- [[2026-06-29-andrew-dai-the-best-models-still-reason-like-toddlers]] — The Best Models Still Reason Like Toddlers
+- [[2026-06-29-hiral-shah-your-agreements-are-a-database-you-can-t-query-we-re-fixing-that]] — Your Agreements Are a Database You Can't Query. We're Fixing That
+- [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-2-of-3]] — Everybody Gets a Digital Clone! (Part 2 of 3)
+- [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer]] — Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer
+- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]] — 5 Voice Agent Failure Modes You'll Hit in Week One
+- [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt2]] — From approval loops to autonomous agents with Docker pt2
+- [[2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon]] — How Forward Deployed Engineering is done at Decagon
+- [[2026-06-29-thais-castello-branco-ending-ai-slop]] — Ending AI Slop
+- [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale]] — AI Evals Platform for Cross-Functional Teams at Scale
+- [[2026-06-29-sarthak-aggarwal-it-admin-for-the-ai-workforce-why-your-ai-agents-will-need-their-own-it-department]] — IT Admin for the AI Workforce: Why Your AI Agents Will Need Their Own IT Department
+- [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer]] — Who Approved That MCP Server? Governing the Tool Layer
+- [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them]] — Voice Agents Are Mostly Invisible. Here's How to See Them.
+- [[2026-06-29-session-what-we-learned-by-analyzing-1m-ai-generated-prs]] — what we learned by analyzing 1M AI generated PRs
+- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]] — Deploying browser agents at scale
+- [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be]] — We're the bottleneck, but we don't have to be
+- [[2026-06-29-karan-vaidya-from-coding-to-knowledge-work-agents]] — From coding to Knowledge work agents
+- [[2026-06-29-cody-menefee-you-re-not-thinking-big-enough-rebuilding-food-systems-from-first-principles-with-ai-agents]] — You’re Not Thinking Big Enough: Rebuilding Food Systems from First Principles with AI Agents
+- [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents]] — How to Connect AI to Billions of Legal Documents
+- [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-3-of-3]] — Everybody Gets a Digital Clone! (Part 3 of 3)
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]] — Agentic Security: Permissions, Provenance, and the Agent Supply Chain
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]] — I Monitored Crime Audio. Voice Agents Scare Me More.
+- [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt3]] — From approval loops to autonomous agents with Docker pt3
+- [[2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp]] — How Forward Deployed Engineering is done at Ramp
+- [[2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute]] — Scaling to Long-Horizons: Algorithms, Environments, Compute
+- [[2026-06-29-maria-bledsoe-using-ai-tools-to-teach-old-apps-new-tricks]] — Using AI tools to teach old apps new tricks
+- [[2026-06-29-kanish-manuja-productionizing-llm-gateways-architecture-tradeoffs-and-hard-lessons-from-the-trenches]] — Productionizing LLM Gateways: Architecture, Tradeoffs, and Hard Lessons from the Trenches
+- [[2026-06-29-kieran-klaassen-the-era-of-compound-engineering]] — The Era of Compound Engineering
+- [[2026-06-29-marina-petzel-beyond-golden-signals-monitoring-in-the-age-of-genai]] — Beyond Golden Signals: Monitoring in the Age of GenAI
+- [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app-2-25pm-2-45pm-expo-stage-2-nw-176]] — Build agents fast with GitHub Copilot (from idea to working app)
+- [[2026-06-29-jeff-ng-building-agents-is-trivial-now-context-is-the-next-frontier]] — Building agents is trivial now, context is the next frontier
+- [[2026-06-29-session-continuous-engineering-software-development-for-the-age-of-agents]] — Continuous Engineering: Software Development for the Age of Agents
+- [[2026-06-29-sarah-sachs-notion-s-token-town]] — Notion's Token Town
+- [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves]] — Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.
+- [[2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents]] — From VLM/VLA's to Embodied Agents
+- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search]] — Where RL Will Take Search
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-1]] — Setting Yourself Up for Success — Part 1
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are]] — It's 10pm. Do You Know Where Your Agents Are?
+- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence
+- [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt4]] — From approval loops to autonomous agents with Docker pt4
+- [[2026-06-29-kevin-bai-forward-deployed-engineering-101]] — Forward Deployed Engineering 101
+- [[2026-06-29-nick-heiner-when-will-the-benchmaxxing-plague-end]] — When Will The Benchmaxxing Plague End?
+- [[2026-06-29-clare-liguori-from-ai-assisted-to-ai-native-building-a-frontier-development-team]] — From AI-Assisted to AI-Native: Building a Frontier Development Team
+- [[2026-06-29-niels-rogge-how-i-automate-my-own-job-at-hugging-face-using-agents]] — How I automate my own job at Hugging Face using agents
+- [[2026-06-29-varun-krovvidi-6-pillars-of-an-agentic-harness-that-fixes-production-incidents]] — 6 Pillars of an Agentic Harness That Fixes Production Incidents
+- [[2026-06-29-rafael-levi-video-discovery-for-agentic-world-model-training]] — Video Discovery for Agentic World-Model Training
+- [[2026-06-29-session-self-driving-production-ai-wrote-your-code-ai-should-fix-it-too]] — Self-Driving Production: AI Wrote your Code. AI Should Fix It, Too
+- [[2026-06-29-vaibhav-gupta-fighting-slop-with-slop]] — fighting slop with slop
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw]] — Every Harness Will Become A Claw
+- [[2026-06-29-krishna-prasad-srinivasan-from-scratch-to-sota-training-a-3b-state-space-vision-model-for-1-4-billion-people]] — From Scratch to SOTA: Training a 3B State-Space Vision Model for 1.4 Billion People
+- [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022]] — Stop Chunking Like It's 2022
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-2]] — Setting Yourself Up for Success — Part 2
+- [[2026-06-29-aaron-stanley-ai-s-jurassic-park-period]] — AI’s Jurassic Park Period
+- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]] — "My name is... my name is...": A Linguistic Map for Building and Debugging Voice Agents
+- [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt5]] — From approval loops to autonomous agents with Docker pt5
+- [[2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler]] — How Forward Deployed Engineering is done at Kepler
+- [[2026-06-29-nicolai-ouporov-building-worlds-for-models]] — Building Worlds for Models
+- [[2026-06-29-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people]] — Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People
+- [[2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage]] — How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage)
+- [[2026-06-29-dan-bjornn-your-fine-tuned-model-is-tech-debt-a-50x-roi-house-of-cards]] — Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards
+- [[2026-06-29-thor-schaeff-can-your-agent-hear-you-now]] — Can Your Agent Hear You Now?
+- [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]] — From Context to Memory: Your Agents Need a Real Memory Layer
+- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]] — Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production
+- [[2026-06-29-leo-platzer-from-raw-documents-to-ai-ready-data]] — From raw documents to AI-ready data
+- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles]] — Loop Engineering from first principles
+- [[2026-06-29-kenton-varda-gadgets-personal-app-vibe-coding-that-is-actually-safe]] — Gadgets: Personal app vibe coding that is actually safe
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-3]] — Setting Yourself Up for Success — Part 3
+- [[2026-06-29-ethan-sutin-secure-cloud-compute]] — Secure Cloud Compute
+- [[2026-06-29-amit-desai-act-confirm-or-stop-smarter-behavior-for-ai-assistants-wearables-and-robots]] — Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots
+- [[2026-06-29-mahesh-sathiamoorthy-data-and-environment-curation-for-post-training-llms]] — Data and Environment Curation for Post-training LLMs
+- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]] — Unlock Agent Autonomy: The Runtime for AI-Native Systems
+- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]] — How We Built the Airbyte Agent MCP Server and CLI
+- [[2026-06-29-abhi-arya-from-chatbots-to-agents-how-reducto-builds-for-agent-experience-to-enable-real-work]] — From Chatbots to Agents: How Reducto builds for Agent Experience to Enable Real Work
+- [[2026-06-29-charlie-dickens-towards-reliable-financial-agents-how-a-4b-model-outsmarted-a-235b-giant]] — Towards Reliable Financial Agents: How a 4B Model Outsmarted a 235B Giant
+- [[2026-06-29-em-shreve-ai-enablement-at-automattic-how-a-remote-company-builds-ai-fluency]] — AI Enablement at Automattic: How a Remote Company Builds AI Fluency
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail]] — Harness Engineering is not Enough: Why Software Factories Fail
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust
+- [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement
+- [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable
+- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king]] — In the Land of AI Agents, the Verifiers Are King
+- [[2026-06-30-antje-barth-perception-agents]] — Perception Agents
+- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]] — Research to Reality with Google DeepMind
+- [[2026-06-30-laurie-voss-evals-track-intro]] — Evals Track Intro
+- [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research]] — First Steps Toward Automated AI Research
+- [[2026-06-30-adam-azzam-don-t-build-agents-build-environments]] — Don’t build agents, build environments
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use]] — Building the simulation infrastructure for practical world model use
+- [[2026-06-30-parth-asawa-beyond-static-intelligence-evaluating-continual-learning]] — Beyond Static Intelligence: Evaluating Continual Learning
+- [[2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live]] — Build realtime multimodal agents with Gemini Live
+- [[2026-06-30-lukas-petersson-vending-bench-long-horizon-agent-evals-for-a-simulated-vending-business]] — Vending-Bench: Long-Horizon Agent Evals for a Simulated Vending Business
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck
+- [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]] — Computer-use models will agentify the web, not APIs
+- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]] — Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production
+- [[2026-06-30-diogo-almeida-what-s-next-after-rlhf]] — What's next after RLHF?
+- [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service]] — From framework to runtime: running agents with Foundry Agent Service
+- [[2026-06-30-varun-shenoy-how-do-you-diffuse-ai-into-the-real-world]] — How do you diffuse AI into the real world?
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code?
+- [[2026-06-30-wallon-walusayi-ai-engineering-and-governance-2026-trends]] — AI Engineering & Governance 2026 Trends
+- [[2026-06-30-gabriel-spencer-harper-why-ai-didn-t-actually-make-you-ship-faster]] — Why AI Didn't Actually Make You Ship Faster
+- [[2026-06-30-tbd-sonar-redesigning-how-software-gets-built]] — Redesigning how software gets built
+- [[2026-06-30-martin-harrysson-tokenomics-from-ai-spend-to-ai-value]] — Tokenomics: From AI Spend to AI Value
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]] — Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models
+- [[2026-06-30-shashank-goyal-letting-the-interns-loose-how-we-accelerated-ai-adoption]] — Letting the Interns Loose — How We Accelerated AI Adoption.
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2]] — Building the simulation infrastructure for practical world model use (Part 2)
+- [[2026-06-30-ronak-malde-scaling-up-continual-learning]] — Scaling up Continual Learning
+- [[2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-2]] — Build realtime multimodal agents with Gemini Live (continued 2)
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent]] — From Signal to PR: Anatomy of a Self-Improving Agent
+- [[2026-06-30-max-drake-the-spatial-harness-bringing-agents-to-the-canvas]] — The Spatial Harness: Bringing Agents to the Canvas
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]] — Computer Use at the Edge of the Statistical Precipice
+- [[2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different]] — It’s Tokens All The Way Down: How RLMs are Different
+- [[2026-06-30-sean-cai-state-of-data]] — State of Data
+- [[2026-06-30-andrew-garvin-how-to-avoid-disaster-when-vibe-coding-a-billing-engine]] — How to avoid disaster when vibe-coding a billing engine
+- [[2026-06-30-vlad-luzin-is-orchestration-the-future]] — Is Orchestration the Future?
+- [[2026-06-30-viren-baraiya-harnessing-agents-the-durable-runtime-for-dynamic-workflows]] — Harnessing Agents: The Durable Runtime for Dynamic Workflows
+- [[2026-06-30-justin-reock-ai-assisted-engineering-5-trends-we-re-seeing-from-500-organizations]] — AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations
+- [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs]] — The Death of Keyword Search and the Rise of Agent-Readable Catalogs
+- [[2026-06-30-matt-lawler-fde-playbook-build-an-ai-support-agent-and-give-it-a-voice]] — FDE Playbook: Build an AI Support Agent and Give It a Voice
+- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]] — Memory Harnesses for Long-Running Research Agents
+- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]] — Kubernetes Is Not Your Sandbox
+- [[2026-06-30-jason-ma-commercial-grade-robots-for-real-world-usage]] — Commercial Grade-Robots for Real World Usage
+- [[2026-06-30-jack-morris-scaling-compute-on-context]] — Scaling Compute on Context
+- [[2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-3]] — Build realtime multimodal agents with Gemini Live (continued 3)
+- [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale]] — Building Closed-Loop Evals for a Multimodal Agent at Uber Scale
+- [[2026-06-30-jonathan-gordon-the-design-code-roundtrip-that-isn-t]] — The Design-Code Roundtrip That Isn't
+- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]] — Bringing agents onto the world wide web
+- [[2026-06-30-ajay-prakash-500-skills-zero-fine-tuning-linkedin-s-playbook-for-ai-agents-that-actually-know-your-codebase]] — 500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents That Actually Know Your Codebase
+- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers]] — Training Frontier Models to Out-Think Hackers
+- [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack]] — OpenAI, Anthropic, or agent frameworks: choose the right AI stack
+- [[2026-06-30-varun-pant-your-code-has-bugs-lean4-has-proofs-a-practical-guide-to-formal-verification-for-engineers]] — Your Code Has Bugs. Lean4 Has Proofs. A Practical Guide to Formal Verification for Engineers
+- [[2026-06-30-ankit-jain-how-to-kill-the-code-review]] — How to Kill the Code Review
+- [[2026-06-30-session-fault-tolerant-training-at-scale-making-hardware-failures-a-non-event]] — Fault-Tolerant Training at Scale: Making Hardware Failures a Non-Event
+- [[2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine]] — How to generate mergeable code with a context engine
+- [[2026-06-30-session-ai-agents-don-t-read-your-policy-docs-they-hit-your-apis]] — AI agents don't read your policy docs. They hit your APIs.
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]] — « the era of (auto) research »
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]] — Your agent needs a sandbox, not a desert
+- [[2026-06-30-yu-su-intelligence-continual-learning-expertise]] — Intelligence + Continual Learning = Expertise
+- [[2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-4]] — Build realtime multimodal agents with Gemini Live (continued 4)
+- [[2026-06-30-rustem-feyzkhanov-from-agent-traces-to-agent-simulations-the-next-era-of-agent-evaluation]] — From Agent Traces to Agent Simulations: The next era of agent evaluation
+- [[2026-06-30-maximillian-piras-mousepower-agents-that-can-t-be-measured-can-t-be-managed]] — Mousepower: agents that can’t be measured, can’t be managed.
+- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] — The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans
+- [[2026-06-30-brandon-waselnuk-your-agents-lack-context-here-s-how-to-fix-you-re-absolutely-right]] — Your agents lack context: Here's how to fix "You're absolutely right!"
+- [[2026-06-30-raymond-feng-learning-on-the-job-the-future-of-post-training]] — Learning on the job: the future of post-training
+- [[2026-06-30-imad-touil-ai-native-organisations-runs-on-skills-how-to-extract-structure-evaluate-and-scale-them]] — AI-Native Organisations runs on Skills: How to Extract, Structure, evaluate and Scale Them
+- [[2026-06-30-laurie-voss-the-death-of-the-code-review]] — The Death of the Code Review
+- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months]] — Your agent architecture has a half-life of 6 months
+- [[2026-06-30-rishab-kumar-from-stateless-to-stateful-orchestrating-real-time-voice-and-messaging-agents-with-twilio-and-amazon-bedrock]] — From Stateless to Stateful: Orchestrating Real-Time Voice & Messaging Agents with Twilio and Amazon Bedrock
+- [[2026-06-30-james-zou-harnessing-collective-agent-intelligence-for-open-science]] — Harnessing Collective Agent Intelligence for Open Science
+- [[2026-06-30-anant-srivastava-prompt-memory-weights-the-architecture-decisions-most-ai-teams-make-by-accident]] — Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]] — Closing the Loop: An Autonomous AI Research Agent
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
+- [[2026-06-30-xiangming-sun-unitree-building-mass-produced-humanoids]] — Unitree: Building Mass Produced Humanoids
+- [[2026-06-30-sara-hooker-adaption-labs-gradient-free-continual-learning]] — Adaption Labs — Gradient-Free Continual Learning
+- [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development]] — The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development
+- [[2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior]] — Model Whisperers: How Evals and Prompts Shape Agent Behavior
+- [[2026-06-30-paul-bakaus-design-at-the-speed-of-adjectives]] — Design at the Speed of Adjectives
+- [[2026-06-30-gaurav-mishra-from-rl-to-irl]] — From RL to IRL
+- [[2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it]] — How long can your skills be before your agent forgets what you told it?
+- [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards]] — Reinforcement Learning without Verifiable Rewards
+- [[2026-06-30-ben-kus-the-half-life-of-agent-infrastructure]] — The Half Life of Agent Infrastructure
+- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]] — Tokenmaxxing is the New "Lines of Code"
+- [[2026-06-30-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people]] — Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People
+- [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox]] — Why Agents Should Have Their Own Sandbox
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]] — An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
+- [[2026-06-30-deepak-pathak-frontier-robotics-research]] — Frontier Robotics Research
+- [[2026-06-30-vivek-trivedy-improving-agents-is-a-data-mining-problem]] — Improving Agents is a Data Mining Problem
+- [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-2]] — The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 2)
+- [[2026-06-30-maor-bril-evaling-video-slop]] — Evaling Video Slop
+- [[2026-06-30-thais-castello-branco-training-taste]] — Training Taste
+- [[2026-06-30-omer-primor-the-rise-of-caas-context-as-a-service-for-agentic-ai]] — The Rise of CaaS: Context-as-a-Service for Agentic AI
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents
+- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]] — Emulated: The data for fully autonomous software engineers and companies
+- [[2026-06-30-rachna-srivastava-guardians-of-the-state-how-we-built-an-air-gapped-ai-fortress-for-consumer-data]] — Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data
+- [[2026-06-30-matthew-jewkes-engineering-agency-out-of-the-happy-path]] — Engineering Agency out of the Happy Path
+- [[2026-06-30-thorsten-hans-edge-native-ai-building-ultra-fast-agents-and-mcp-servers-with-spin]] — Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin
+- [[2026-06-30-gil-feig-why-your-company-needs-a-context-graph-and-how-to-build-it]] — Why your company needs a context graph, and how to build it
+- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]] — Warp: Building Self-Improving Agent Software Factories
+- [[2026-06-30-session-natively-multimodal-from-step-zero]] — Natively Multimodal from Step Zero
+- [[2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization]] — Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization
+- [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code]] — 1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code
+- [[2026-06-30-suchet-bargoti-from-manual-drones-to-autonomous-multi-agent-missions]] — From Manual Drones to Autonomous Multi-Agent Missions
+- [[2026-06-30-samuel-denton-bringing-continual-learning-into-enterprises]] — Bringing Continual Learning into Enterprises
+- [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-3]] — The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 3)
+- [[2026-06-30-mihnea-munteanu-ask-youtube-open-q-and-a]] — Ask YouTube — Open Q&A
+- [[2026-06-30-eve-bouffard-imagination-engineering]] — Imagination Engineering
+- [[2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor]] — Computer-Use 2.0: Agents Just Got Multi-Cursor
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier
+- [[2026-06-30-kenny-workman-latchbio]] — LatchBio
+- [[2026-06-30-marco-casalaina-power-agents-with-microsoft-iq]] — Power agents with Microsoft IQ
+- [[2026-06-30-mingsheng-hong-from-tokenmaxxing-to-trusted-throughput]] — From Tokenmaxxing to Trusted Throughput
+- [[2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code]] — I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.
+- [[2026-06-30-ronak-chokshi-power-agents-with-microsoft-iq]] — Power agents with Microsoft IQ
+- [[2026-06-30-kamalakannan-nandagopal-beyond-code-generation-api-context-for-agentic-engineering]] — Beyond Code Generation: API Context for Agentic Engineering
+- [[2026-06-30-jesse-hall-latency-is-a-budget-humanlike-is-the-goal]] — Latency Is a Budget. Humanlike Is the Goal.
+- [[2026-06-30-session-your-stack-has-a-latency-problem-you-can-t-see]] — Your Stack Has a Latency Problem You Can’t See
+- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]] — Autoresearch for Kernels
+- [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity]] — The Next Trillion Users of the Internet Still Don't Have an Identity
+- [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics]] — Why Large? Tiny LMs & Agents on Edge/Robotics
+- [[2026-06-30-ben-hylak-designing-agents-the-floor-is-the-frontier]] — Designing Agents (The Floor Is the Frontier)
+- [[2026-06-30-brian-douglas-don-t-write-skills-train-models]] — Don't Write Skills, Train Models
+- [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely]] — Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely
+- [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] — The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs
+- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research]] — Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]] — MCP Apps: Give the Model Data, Give the User a UI
+- [[2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it]] — Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It
+- [[2026-06-30-roberto-milev-agents-are-where-microservices-were-in-2015-we-re-making-all-the-same-mistakes]] — Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes.
+- [[2026-06-30-tom-s-hernando-kofman-intelligent-model-routing-frontier-performance-without-frontier-bills]] — Intelligent Model Routing: Frontier Performance Without Frontier Bills
+- [[2026-06-30-alex-campos-inference-performance-as-a-competitive-advantage]] — Inference performance as a competitive advantage
+- [[2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder]] — Building an Agent Harness for the Business, Not the Builder
+- [[2026-06-30-dylan-couzon-the-frontier-is-coming-home]] — The Frontier Is Coming Home
+- [[2026-06-30-eli-cohen-continuous-offensive-security-the-only-approach-in-an-agent-first-world]] — Continuous Offensive Security the only approach in an agent-first world
+- [[2026-06-30-roland-gavrilescu-autoresearch-in-the-wild]] — Autoresearch in the wild
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] — Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale
+- [[2026-06-30-amit-navindgi-from-self-driving-monorepo-to-self-driving-cars]] — From Self-Driving Monorepo to Self-Driving Cars
+- [[2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system]] — Lessons from Studying Every Memory System
+- [[2026-06-30-brian-douglas-don-t-write-skills-train-models-cont-2-3]] — Don't Write Skills, Train Models (cont. 2/3)
+- [[2026-06-30-philipp-schmid-don-t-ship-skills-without-evals]] — Don't Ship Skills Without Evals
+- [[2026-06-30-jeremiah-lowin-generative-ui-in-python]] — Generative UI... in Python?
+- [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai]] — How Web Data Infrastructure Powers the Next Generation of AI
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async]] — MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?
+- [[2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly]] — Benchmarks: The Good, the Bad, and the Ugly
+- [[2026-06-30-ashu-joshi-deploy-agents-to-users-in-m365-teams-and-apps]] — Deploy agents to users in M365, Teams, and apps
+- [[2026-06-30-carlos-sanchez-agentic-sites-building-hyper-personalized-websites]] — Agentic Sites: Building Hyper Personalized Websites
+- [[2026-06-30-david-corbitt-inference-is-the-new-training-loop-architecting-high-reliability-agents-and-continuous-ai-systems]] — Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems
+- [[2026-06-30-session-the-self-improving-oss-agent-stack]] — The Self-Improving OSS Agent Stack
+- [[2026-06-30-dean-qui-anola-ai-applications-in-a-flash-no-dev-ops-just-code]] — AI Applications in a flash! No Dev Ops. Just code.
+- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents]] — The Infinite Context Window Is a Myth: Context Engineering for AI Agents
+- [[2026-06-30-session-vibe-code-safely-introducing-gadgets]] — Vibe Code Safely: Introducing Gadgets
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]] — Autoresearch in a Multi-Agent AI Village
+- [[2026-06-30-jonathan-kelley-building-ambitious-software]] — Building ambitious software
+- [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body]] — I gave an AI a body
+- [[2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide]] — LLM Knowledge Bases: a practical guide
+- [[2026-06-30-brian-douglas-don-t-write-skills-train-models-cont-3-3]] — Don't Write Skills, Train Models (cont. 3/3)
+- [[2026-06-30-alex-shaw-everything-is-a-rollout]] — Everything Is a Rollout
+- [[2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables]] — One Designer + Al. Hundreds of Deliverables.
+- [[2026-06-30-alex-hancock-the-universal-remote-control-for-ai]] — The Universal Remote Control for AI
+- [[2026-06-30-rania-khalaf-the-chief-ai-officer-a-framework-for-the-emerging-swiss-army-knife-of-roles]] — The Chief AI Officer: A framework for the emerging Swiss Army Knife of roles
+- [[2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations]] — The state of AI in software development: Insights across 400+ organizations
+- [[2026-06-30-abdul-dakkak-modular-taming-the-ai-hardware-cambrian-explosion]] — Modular: Taming the AI Hardware Cambrian Explosion
+- [[2026-06-30-dominik-kundel-building-on-the-codex-harness]] — Building on the Codex Harness
+- [[2026-06-30-jetashree-ravi-stop-renting-intelligence-the-train-to-deploy-loop-for-specialized-ai]] — Stop Renting Intelligence: The Train-to-Deploy Loop for Specialized AI
+- [[2026-06-30-tarun-sunkaraneni-ray-actors-vision-tokens-and-the-gil-engineering-an-sft-data-pipeline-that-keeps-gpus-busy]] — Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy
+- [[2026-06-30-addy-osmani-closing-keynote]] — Closing Keynote
+- [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI
+- [[2026-06-30-wei-lin-chiang-closing-keynote]] — Closing Keynote
+- [[2026-07-01-session-battlefield-setup]] — Battlefield setup
+- [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering]] — The 2026 State of AI Engineering
+- [[2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it]] — TCP and RDMA are Killing Inference Throughput; Homa can Fix It
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model]] — The Unreasonable Effectiveness of Separating the Task from the Model
+- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs]] — How Anthropic Builds: Lessons from Labs
+- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer]] — Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer
+- [[2026-07-01-katelyn-lesse-tokens-should-have-jobs]] — Tokens Should Have Jobs
+- [[2026-07-01-sangwu-lee-training-krea-2-what-matters-in-generative-model-training]] — Training Krea 2 - What matters in generative model training.
+- [[2026-07-01-nidhi-kaushik-vyas-designing-multimodal-collaborative-agents-for-next-gen-commerce]] — Designing Multimodal Collaborative Agents for Next-Gen Commerce
+- [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms]] — ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now]] — State of the Union: Why Local, Why Now
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]] — CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens
+- [[2026-07-01-everett-berry-gtm-engineering-the-technical-bits]] — GTM Engineering: The Technical Bits
+- [[2026-07-01-chaitanya-asawa-from-ambient-documentation-to-clinical-intelligence]] — From Ambient Documentation to Clinical Intelligence
+- [[2026-07-01-serena-ge-deepswe-expert-code-datasets]] — DeepSWE: expert code datasets
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale
+- [[2026-07-01-pamela-fox-diagnosing-agent-failures-in-production]] — Diagnosing agent failures in production
+- [[2026-07-01-jennifer-lee-building-safe-payment-infrastructure-for-machine-to-machine-commerce]] — Building safe payment infrastructure for machine-to-machine commerce
+- [[2026-07-01-safia-abdalla-the-agent-behind-the-curtain-building-the-oz-cloud-agent-platform]] — The Agent Behind the Curtain: Building the Oz Cloud Agent Platform
+- [[2026-07-01-wallon-walusayi-ai-engineering-and-governance-2026-trends]] — AI Engineering & Governance 2026 Trends
+- [[2026-07-01-willem-pienaar-your-agent-can-t-tell-if-it-s-right]] — Your Agent Can't Tell If It's Right
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]] — No, That's Not a Software Factory
+- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] — Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers
+- [[2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent]] — $100,000 AIE Startup Battlefield — presented by Hyperagent
+- [[2026-07-01-martin-harrysson-the-agentic-product-development-organization]] — The Agentic Product Development Organization
+- [[2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development]] — MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development
+- [[2026-07-01-james-russo-html-is-all-agents-need]] — HTML Is All Agents Need
+- [[2026-07-01-harshal-bhangale-why-your-ai-agent-needs-a-wallet-agentic-commerce-on-arc-with-usdc-and-nanopayments]] — Why Your AI Agent Needs a Wallet: Agentic commerce on Arc with USDC and Nanopayments
+- [[2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money]] — Why Off-the-Shelf AI Doesn't Understand Money
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420]] — State of the Union: Why Local, Why Now
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4]] — Active Graph Agent Runtime (BabyAGI 4)
+- [[2026-07-01-aliisa-rosenthal-reverse-engineering-the-ai-buyer]] — Reverse-Engineering the AI Buyer
+- [[2026-07-01-rashi-agrawal-guardrails-first-engineering-member-facing-health-ai]] — Guardrails First: Engineering Member-Facing Health AI
+- [[2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering]] — Anthropic's CCA Exam as a Field-Guide for Agentic Engineering
+- [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy]] — Routing LLM Inference in Production: From Engine Signals to Policy
+- [[2026-07-01-chang-liu-tracing-and-debugging-agents-across-systems-with-opentelemetry]] — Tracing and debugging agents across systems with OpenTelemetry
+- [[2026-07-01-dmitry-buykin-tribal-dungeons-of-global-shipping-ai-agents-at-global-scale]] — Tribal Dungeons of Global Shipping: AI Agents at Global Scale
+- [[2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens]] — FinOps for AI Agents: Who Spent All the Tokens?
+- [[2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn]] — Beyond RAG: See a relational context engine reduce token burn
+- [[2026-07-01-zubin-aysola-aria-how-we-built-autoresearch-with-autoresearch]] — ARIA, how we built autoresearch with autoresearch
+- [[2026-07-01-michael-patterson-the-lethal-trifecta-is-already-on-your-developers-laptops]] — The Lethal Trifecta Is Already on Your Developers' Laptops
+- [[2026-07-01-matt-gibiec-your-ai-agent-has-no-nervous-system]] — Your AI Agent Has No Nervous System
+- [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md]] — Auth for Agents: Unblock Autonomous AI with auth.md
+- [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer]] — Building an Agentic Video Editor for Mass Consumer
+- [[2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws]] — When AI Agents Pay and Sellers Monetize: Building x402 Apps for Agentic Commerce on AWS
+- [[2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems]] — Let's integrate AI Agents in Event-Sourced Systems
+- [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk]] — Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk
+- [[2026-07-01-mike-phipps-your-moat-is-your-data-model]] — Your Moat Is Your Data Model
+- [[2026-07-01-flora-liu-ai-in-gtm-at-notion]] — AI in GTM at Notion
+- [[2026-07-01-jared-joselowitz-shipping-ai-to-a-million-patients-without-an-a-b-test]] — Shipping AI to a Million Patients Without an A/B Test
+- [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands]] — Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands
+- [[2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable]] — Are LLM Performance Benchmarks Reliable?
+- [[2026-07-01-ross-wollman-benchmarking-vs-code-with-vsc-bench-how-to-measure-agent-performance]] — Benchmarking VS Code with VSC-Bench: How to measure agent performance
+- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]] — All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens
+- [[2026-07-01-khaled-alashmouny-what-if-your-chip-design-team-moved-like-a-single-body]] — What If Your Chip Design Team Moved Like a Single Body?
+- [[2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents]] — The Art of Building Verifiers for Computer Use Agents
+- [[2026-07-01-sheilah-kirui-seeing-the-plumbing-profiling-vllm-speculative-decoding-on-nvidia-blackwell]] — Seeing the Plumbing: Profiling vLLM Speculative Decoding on NVIDIA Blackwell
+- [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface]] — Voice is the universal interface
+- [[2026-07-01-jake-broekhuizen-the-next-run-should-be-better]] — The Next Run Should Be Better
+- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents]] — Harness Engineering: Building the Production Cage for Powerful Domain Agents
+- [[2026-07-01-arturo-nunez-the-next-game-engine-won-t-have-a-manual]] — The Next Game Engine Won't Have a Manual
+- [[2026-07-01-jan-curn-x402-isn-t-good-yet]] — x402 isn’t good (yet)
+- [[2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services]] — How Kepler Built Verifiable AI for Financial Services
+- [[2026-07-01-session-local-ai-demos]] — Local AI Demos
+- [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context]] — From Systems of Record to Systems of Context
+- [[2026-07-01-arman-vaziri-the-building-blocks-of-gtm-orchestration]] — The Building Blocks of GTM Orchestration
+- [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses]] — 200 Million Patient Interactions Later: What the Generic Voice Stack Misses
+- [[2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases]] — Benchmarking Coding Agents on New vs Legacy Code bases
+- [[2026-07-01-rita-zhang-vertical-mobility-building-an-ai-inference-platform-that-scales-from-mvp-to-trillion-parameter-workloads]] — Vertical Mobility: Building an AI Inference Platform That Scales from MVP to Trillion-Parameter Workloads
+- [[2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work]] — Design multi-agent systems that actually work
+- [[2026-07-01-pranay-bhatia-stop-model-shopping-why-ownership-beats-choice-in-the-agent-stack]] — Stop Model Shopping: Why Ownership Beats Choice in the Agent Stack
+- [[2026-07-01-archana-kamath-preferences-benchmarks-model-routing-for-how-teams-actually-build]] — Preferences > Benchmarks: Model Routing for How Teams Actually Build
+- [[2026-07-01-giedrius-steimantas-the-missing-layer-in-agentic-ai]] — The Missing Layer in Agentic AI
+- [[2026-07-01-ali-adl-tabatabai-while-you-were-generating-the-verification-gap-nobody-talked-about]] — While You Were Generating: The Verification Gap Nobody Talked About
+- [[2026-07-01-ben-dicken-move-fast-and-don-t-break-things]] — Move fast and (don’t) break things
+- [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild]] — Agents That Forge Their Own Tools: Self-Modifying AI in the Wild
+- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles]] — Latent Space Live: the Inference Inflection from First Principles
+- [[2026-07-01-brendan-rappazzo-loophole-adversarial-agents-to-stress-test-your-morality]] — Loophole - Adversarial Agents To Stress Test Your Morality
+- [[2026-07-01-todd-fisher-while-my-guitar-gently-speaks]] — While my guitar gently speaks
+- [[2026-07-01-rodrigo-coelho-agent-spending-without-controls-the-missing-infrastructure-layer-for-ai-pa]] — Agent Spending Without Controls: The Missing Infrastructure Layer for AI Pa…
+- [[2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees]] — Build for the Memo, Not the Demo — Notes from 200 Investment Committees
+- [[2026-07-01-carter-abdallah-local-models-trust-control-optimization]] — Local Models: Trust, Control, Optimization
+- [[2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis]] — AI : Learned Execution Graphs for Real-Time Anomaly Detection & Drift Classification in APIs
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem]] — How Juries and Librarians Can Solve GTM's AI Trust Problem
+- [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong]] — Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong.
+- [[2026-07-01-dominik-kundel-codex-behind-the-harness]] — Codex, Behind the Harness
+- [[2026-07-01-philip-kiely-what-s-new-in-inference-engineering]] — What's New in Inference Engineering
+- [[2026-07-01-chang-liu-evaluating-and-optimizing-ai-agents-from-observability-to-continuous-improvement]] — Evaluating and optimizing AI agents: from observability to continuous improvement
+- [[2026-07-01-josh-leavitt-from-zero-to-ai-native-scaling-ai-across-the-org]] — From Zero to AI-Native: Scaling AI Across the Org
+- [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement]] — Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.
+- [[2026-07-01-michael-liendo-trust-but-verify-human-in-the-loop-for-agents-that-actually-matter]] — Trust, But Verify: Human-in-the-Loop for Agents That Actually Matter
+- [[2026-07-01-rowan-christmas-yolo-mode-safely-microvm-sandboxes-for-any-agent]] — YOLO Mode, Safely: microVM Sandboxes for Any Agent
+- [[2026-07-01-joshua-mo-your-model-is-private-your-system-isn-t]] — Your Model is Private. Your System Isn't.
+- [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training]] — Video Discovery for Agentic World-Model Training
+- [[2026-07-01-giselle-van-dongen-every-step-you-take-every-call-you-make-the-reliable-agent-stack]] — 🎵 Every step you take, every call you make - the reliable agent stack
+- [[2026-07-01-lina-colucci-voice-agents-with-realtime-video]] — Voice agents with Realtime Video
+- [[2026-07-01-anna-spysz-teaching-agents-to-pay]] — Teaching agents to pay
+- [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers]] — We Vetted 2,000 AI Skills Before They Reached Developers
+- [[2026-07-01-carter-abdallah-local-models-trust-control-optimization-1-55pm-2-15pm-track-4-489]] — Local Models: Trust, Control, Optimization
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]] — Why Agentic Systems Need Ontologies
+- [[2026-07-01-christopher-burns-how-we-got-llms-to-recommend-our-open-source-library-without-paying-or-plug-ins]] — How We Got LLMs to Recommend Our Open Source Library (Without Paying or Plug-ins)
+- [[2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents]] — Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents
+- [[2026-07-01-arjun-singh-multiplayer-agentic-engineering-enabling-your-whole-team-and-your-best-agents-to-work-together]] — Multiplayer agentic engineering: enabling your whole team and your best agents to work together
+- [[2026-07-01-daniel-svonava-large-clusters-for-small-models]] — Large clusters for small models
+- [[2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud]] — Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud
+- [[2026-07-01-brian-lewis-which-ai-startups-actually-land-enterprise-contracts-lessons-from-evaluating-100-ai-startups-at-millennium-management]] — Which AI startups actually land enterprise contracts? Lessons from evaluating 100+ AI startups at Millennium Management
+- [[2026-07-01-r-mi-louf-agent-frameworks-considered-harmful]] — Agent Frameworks Considered Harmful
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does
+- [[2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results]] — Everyone talks about document search, but what about results?
+- [[2026-07-01-sarah-sanders-we-let-an-ai-agent-execute-bash-and-lived-to-talk-about-it]] — We let an AI agent execute Bash and lived to talk about it
+- [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light]] — Generative Video at the Speed of Light
+- [[2026-07-01-ahnaf-prio-the-agentic-commerce-stack]] — The Agentic Commerce Stack
+- [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you]] — Your Finance Agent's Bottleneck Is You
+- [[2026-07-01-chris-alexiuk-compression-at-the-edge]] — Compression at the Edge
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]] — Video Has No Memory. Here's How We Built One.
+- [[2026-07-01-jeffrey-wang-knowledge-systems-the-new-gtm-stack]] — Knowledge Systems: The New GTM Stack
+- [[2026-07-01-ayush-bhardwaj-trading-desks-to-clinical-trials-parallels-in-applied-vertical-ai]] — Trading Desks to Clinical Trials: Parallels in Applied Vertical AI
+- [[2026-07-01-justin-smith-always-on-agents-run-production-without-the-on-call-tax]] — Always-on agents run production without the on-call tax
+- [[2026-07-01-byung-gon-gon-chun-the-frontier-ai-inference-cloud-for-agents]] — The Frontier AI Inference Cloud for Agents
+- [[2026-07-01-ashu-joshi-operate-agents-safely-at-scale-with-enterprise-governance]] — Operate agents safely at scale with enterprise governance
+- [[2026-07-01-kunal-lanjewar-your-hero-agent-needs-a-party]] — Your Hero Agent Needs a Party
+- [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference]] — Optimizing Open Models for Production Grade Inference
+- [[2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session]] — Improving AIE: Q&A and Feedback Session
+- [[2026-07-01-melanie-warrick-the-human-is-an-async-api]] — The Human Is an Async API
+- [[2026-07-01-kay-malcolm-no-memory-no-harness-why-the-database-is-the-last-line-of-defense]] — No Memory, No Harness: Why the Database Is the Last Line of Defense
+- [[2026-07-01-gabriel-jorge-menezes-infra-behind-krea-2-how-to-train-and-serve-at-scale]] — Infra behind Krea 2 - How to train and serve at scale
+- [[2026-07-01-jay-mok-your-agent-just-authorized-what]] — Your Agent Just Authorized What?!
+- [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations]] — Simulation-Maxxing: How Nubank ships agents 20× faster with simulations
+- [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519]] — Compression at the Edge
+- [[2026-07-01-shafik-quoraishee-on-device-agentic-ai-for-the-new-york-times-games]] — On-Device Agentic AI for the New York Times Games
+- [[2026-07-01-justin-joyce-how-ai-agents-let-gtm-teams-scale]] — How AI Agents Let GTM Teams Scale
+- [[2026-07-01-dan-feng-how-to-build-an-ai-native-health-company]] — How to build an AI-Native Health Company
+- [[2026-07-01-idan-gazit-realtime-multiplayer-automation-and-you]] — Realtime multiplayer, automation, and you!
+- [[2026-07-01-yuchen-fama-kv-cache-aware-routing-and-p-d-disaggregation-on-kubernetes-the-parts-public-benchmarks-don-t-show]] — KV Cache-Aware Routing and P/D Disaggregation on Kubernetes: The Parts Public Benchmarks Don't Show
+- [[2026-07-01-salman-munaf-ai-agents-are-just-distributed-systems-now]] — AI Agents Are Just Distributed Systems Now
+- [[2026-07-01-sebastian-fox-inside-847-production-clinical-ai-notes]] — Inside 847 Production Clinical AI Notes
+- [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers]] — Harness Engineering: The New Core Skill for Agentic Developers
+- [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory]] — Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory
+- [[2026-07-01-session-the-software-factory]] — The Software Factory
+- [[2026-07-01-andrew-qu-how-we-solved-agent-building]] — How we Solved Agent Building
+- [[2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers]] — The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers
+- [[2026-07-01-gus-iwanaga-the-end-of-the-static-screen-architecting-intent-driven-ux-with-agentic-orchestration]] — The End of the Static Screen: Architecting Intent-Driven UX with Agentic Orchestration
+- [[2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products]] — Skills are new features: Building Skill-Centric Harness for Agentic Products
+- [[2026-07-01-nader-khalil-model-routing]] — Model Routing
+- [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs]] — Citation Needed: Provenance for LLM-Built Knowledge Graphs
+- [[2026-07-01-sait-izmit-building-gtm-ai-agents-lessons-from-deploying-to-6-000-users]] — Building GTM AI Agents: Lessons from Deploying to 6,000 Users
+- [[2026-07-01-anuj-iravane-don-t-be-data-poor]] — Don't be data poor
+- [[2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster]] — Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster
+- [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story]] — Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story
+- [[2026-07-01-lena-hall-the-signal-layer-what-to-build-when-anything-can-be-built]] — The Signal Layer: What to Build When Anything Can Be Built
+- [[2026-07-01-sachin-malhotra-give-the-agent-a-budget-not-a-token]] — Give the Agent a Budget, Not a Token
+- [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not]] — Agent Memory Is a Solved Problem. Agent Learning Is Not.
+- [[2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session-repeat]] — Improving AIE: Q&A and Feedback Session (repeat)
+- [[2026-07-01-ivan-leo-an-interaction-is-all-you-need]] — An Interaction Is All You Need
+- [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in]] — An AI Future Without the Lock-In
+- [[2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python]] — Agents Without Code: How Skills, YAML, and Filesystems Replaced Python
+- [[2026-07-01-david-levine-beyond-the-lethal-trifecta-agentic-commerce-on-the-open-internet-at-machine-speed]] — Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet at Machine Speed
+- [[2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses]] — Wearing the Agent: Engineering a Family-and-Friends Personal Agent, from Group Chats to Glasses
+- [[2026-07-01-nader-khalil-model-routing-3-45pm-4-05pm-track-4-549]] — Model Routing
+- [[2026-07-01-subbiah-sethuraman-why-we-killed-our-multi-agent-pipeline-lessons-from-pharma-commercial-intelligence]] — Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence
+- [[2026-07-01-stephanie-jarmak-the-death-of-developer-advocates]] — The Death of Developer Advocates
+- [[2026-07-01-christopher-lovejoy-why-your-enterprise-tech-stack-isn-t-ready-for-ai-agents-and-what-to-build-instead]] — Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead
+- [[2026-07-01-saoud-rizwan-open-source-is-dead-long-live-open-source]] — Open Source Is Dead. Long Live Open Source.
+- [[2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards]] — Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards
+- [[2026-07-01-sandhya-subramani-tell-the-robot-what-you-want]] — Tell the Robot What You Want
+- [[2026-07-01-nan-jiang-taking-reinforcement-learning-cross-datacenter]] — Taking Reinforcement Learning Cross Datacenter
+- [[2026-07-01-sarah-simionescu-dashboards-are-dead]] — Dashboards are Dead
+- [[2026-07-01-theo-browne-closing-keynote-theo-browne]] — Closing Keynote — Theo Browne
+- [[2026-07-01-garry-tan-closing-keynote-garry-tan]] — Closing Keynote: Garry Tan
+- [[2026-07-01-howie-liu-startup-battlefield]] — Startup Battlefield
+
+## People
+- [[aaron-stanley]]
+- [[abduallah-mohamed]]
+- [[abdul-dakkak]]
+- [[abhi-arya]]
+- [[abhilash-asokan]]
+- [[abhishek-bhardwaj]]
+- [[adam-azzam]]
+- [[adam-huda]]
+- [[addy-osmani]]
+- [[adi-singh]]
+- [[adit-abraham]]
+- [[aditya-gautam]]
+- [[aditya-khandelwal]]
+- [[ahmad-osman]]
+- [[ahmed-ahres]]
+- [[ahnaf-prio]]
+- [[ajay-prakash]]
+- [[akele-reed]]
+- [[alex-atallah]]
+- [[alex-bauer]]
+- [[alex-campos]]
+- [[alex-cheema]]
+- [[alex-hancock]]
+- [[alex-shaw]]
+- [[alex-volkov]]
+- [[alexander-embiricos]]
+- [[ali-adl-tabatabai]]
+- [[ali-khial]]
+- [[aliisa-rosenthal]]
+- [[aman-gupta]]
+- [[ameya-bhatawdekar]]
+- [[ameya-ketkar]]
+- [[amit-desai]]
+- [[amit-navindgi]]
+- [[anant-srivastava]]
+- [[anders-swanson]]
+- [[andreea-ple-ea]]
+- [[andrei-bocan]]
+- [[andrew-dai]]
+- [[andrew-garvin]]
+- [[andrew-orobator]]
+- [[andrew-qu]]
+- [[ang-li]]
+- [[angela-jiang]]
+- [[anil-nadiminti]]
+- [[anirban-chatterjee]]
+- [[ankit-jain]]
+- [[ankur-duggal]]
+- [[anna-spysz]]
+- [[annabell-sch-fer]]
+- [[antje-barth]]
+- [[anuj-iravane]]
+- [[aparna-dhinakaran]]
+- [[archana-kamath]]
+- [[arek-borucki]]
+- [[ari-morcos]]
+- [[arjun-singh]]
+- [[arman-vaziri]]
+- [[armen-aghajanyan]]
+- [[arturo-nunez]]
+- [[arun-sekhar]]
+- [[arunachalam-manikandan]]
+- [[asaf-gardin]]
+- [[ashish-kamra]]
+- [[ashok-chandrasekar]]
+- [[ashu-joshi]]
+- [[asma-beevi]]
+- [[averi-kitsch]]
+- [[ayush-bhardwaj]]
+- [[barr-yaron]]
+- [[ben-dicken]]
+- [[ben-holmes]]
+- [[ben-hylak]]
+- [[ben-kus]]
+- [[benjamin-clavi]]
+- [[benjamin-guo]]
+- [[benoit-schillings]]
+- [[bereket-habtemeskel]]
+- [[bogdan-gaza]]
+- [[bohan-li]]
+- [[brandon-callender]]
+- [[brandon-waselnuk]]
+- [[brendan-rappazzo]]
+- [[brian-douglas]]
+- [[brian-lewis]]
+- [[byung-gon-gon-chun]]
+- [[carlos-sanchez]]
+- [[carole-robin-ph-d]]
+- [[carter-abdallah]]
+- [[chaitanya-asawa]]
+- [[chang-liu]]
+- [[charles-frye]]
+- [[charlie-dickens]]
+- [[charlie-guo]]
+- [[charlie-holtz]]
+- [[chengxi-taylor]]
+- [[chris-alexiuk]]
+- [[chris-souza]]
+- [[christopher-burns]]
+- [[christopher-lovejoy]]
+- [[christopher-manning]]
+- [[clare-liguori]]
+- [[clay-cockrell]]
+- [[cody-menefee]]
+- [[corby-rosset]]
+- [[corey-gallon]]
+- [[cormac-brick]]
+- [[cornelia-davis]]
+- [[cyrus-clarke]]
+- [[daksh-gupta]]
+- [[dan-adler]]
+- [[dan-b-l-ceanu]]
+- [[dan-bjornn]]
+- [[dan-farrelly]]
+- [[dan-feng]]
+- [[dan-fu]]
+- [[dan-ndombe]]
+- [[daniel-bump]]
+- [[daniel-chalef]]
+- [[daniel-han]]
+- [[daniel-kim]]
+- [[daniel-svonava]]
+- [[dat-ngo]]
+- [[dave-revere]]
+- [[david-brumley]]
+- [[david-corbitt]]
+- [[david-hsu]]
+- [[david-levine]]
+- [[dean-qui-anola]]
+- [[deepak-pathak]]
+- [[denys-linkov]]
+- [[derek-meegan]]
+- [[devansh-tandon]]
+- [[dex-horthy]]
+- [[dhruv-batra]]
+- [[dhruv-nathawani]]
+- [[dhruv-srikanth]]
+- [[dillon-dupont]]
+- [[diogo-almeida]]
+- [[divakar-kumar]]
+- [[dixing-xu]]
+- [[dmitry-buykin]]
+- [[dominik-kundel]]
+- [[dor-sasson]]
+- [[doug-guthrie]]
+- [[doug-keller]]
+- [[dru-knox]]
+- [[du-an-lightfoot]]
+- [[dustin-mihalik]]
+- [[dylan-bristot]]
+- [[dylan-couzon]]
+- [[edo-liberty]]
+- [[ekaterina-deyneka]]
+- [[eli-cohen]]
+- [[elie-bakouch]]
+- [[elizabeth-fuentes-leone]]
+- [[em-shreve]]
+- [[emil-eifrem]]
+- [[emile-baizel]]
+- [[eno-reyes]]
+- [[erik-meijer]]
+- [[erina-karati]]
+- [[ethan-jung-min-cha]]
+- [[ethan-sutin]]
+- [[eugene-yan]]
+- [[eve-bouffard]]
+- [[everett-berry]]
+- [[extend-ai]]
+- [[eyal-blum]]
+- [[ezra-tanzer]]
+- [[felipe-blanes]]
+- [[filip-makraduli]]
+- [[flora-liu]]
+- [[francesco-bonacci]]
+- [[frank-coyle]]
+- [[fuad-ali]]
+- [[gabriel-cemaj]]
+- [[gabriel-chua]]
+- [[gabriel-jorge-menezes]]
+- [[gabriel-martinez]]
+- [[gabriel-spencer-harper]]
+- [[gagan-bhat]]
+- [[garrett-galow]]
+- [[garry-tan]]
+- [[gaurav-mishra]]
+- [[geoffrey-litt]]
+- [[george-cameron]]
+- [[george-he]]
+- [[giedrius-steimantas]]
+- [[gil-feig]]
+- [[giselle-van-dongen]]
+- [[greg-pstrucha]]
+- [[gus-iwanaga]]
+- [[gustavo-cordido]]
+- [[han-xiao]]
+- [[harald-kirschner]]
+- [[harshal-bhangale]]
+- [[harshul-jain]]
+- [[hassan-el-mghari]]
+- [[heather-downing]]
+- [[hiral-shah]]
+- [[hossein-niazmandi]]
+- [[howie-liu]]
+- [[hursh-agrawal]]
+- [[idan-gazit]]
+- [[ido-salomon]]
+- [[ignacio-martinez]]
+- [[imad-touil]]
+- [[isaac-miller]]
+- [[isabella-kai-he]]
+- [[ishan-anand]]
+- [[itamar-friedman]]
+- [[ivan-burazin]]
+- [[ivan-leo]]
+- [[jack-morris]]
+- [[jacob-lauritzen]]
+- [[jacqueline-wood]]
+- [[jai-chopra]]
+- [[jake-broekhuizen]]
+- [[jakub-hojsan]]
+- [[james-le]]
+- [[james-russo]]
+- [[james-zou]]
+- [[jan-curn]]
+- [[jared-joselowitz]]
+- [[jason-kramberger]]
+- [[jason-liu]]
+- [[jason-lopatecki]]
+- [[jason-ma]]
+- [[javier-garza]]
+- [[jay-mok]]
+- [[jean-denis-greze]]
+- [[jeff-ng]]
+- [[jeff-vestal]]
+- [[jeffrey-wang]]
+- [[jennifer-lee]]
+- [[jeremiah-lowin]]
+- [[jeremy-adams]]
+- [[jerry-liu]]
+- [[jess-wang]]
+- [[jesse-hall]]
+- [[jesse-lumarie]]
+- [[jetashree-ravi]]
+- [[jia-wu]]
+- [[jim-clark]]
+- [[jo-kristian-bergum]]
+- [[joanne-song]]
+- [[joel-hooks]]
+- [[john-craft]]
+- [[john-lindquist]]
+- [[john-mcbride]]
+- [[john-ousterhout]]
+- [[jonathan-gordon]]
+- [[jonathan-kelley]]
+- [[joseph-nelson]]
+- [[joseph-wang]]
+- [[josh-leavitt]]
+- [[joshua-mo]]
+- [[joshua-xu]]
+- [[joyce-zhang]]
+- [[jue-wang]]
+- [[julian-bright]]
+- [[justin-joyce]]
+- [[justin-reock]]
+- [[justin-smith]]
+- [[kamalakannan-nandagopal]]
+- [[kanish-manuja]]
+- [[karan-vaidya]]
+- [[karthik-ranganathan]]
+- [[katelyn-lesse]]
+- [[kay-malcolm]]
+- [[keegan-mccallum]]
+- [[keiji-kanazawa]]
+- [[kenny-workman]]
+- [[kent-c-dodds]]
+- [[kenton-varda]]
+- [[kevin-bai]]
+- [[kevin-hou]]
+- [[kevin-madura]]
+- [[kevin-orellana]]
+- [[khaled-alashmouny]]
+- [[kieran-klaassen]]
+- [[killian-carlsen-phelan]]
+- [[kim-maida]]
+- [[krishna-prasad-srinivasan]]
+- [[kunal-lanjewar]]
+- [[kwindla-kramer]]
+- [[kyle-mistele]]
+- [[lakshya-agrawal]]
+- [[lance-martin]]
+- [[laurie-voss]]
+- [[lee-robinson]]
+- [[lena-hall]]
+- [[leo-mehr]]
+- [[leo-platzer]]
+- [[liad-yosef]]
+- [[lina-colucci]]
+- [[lotte-seifert]]
+- [[lotte-verheyden]]
+- [[louis-fran-ois-bouchard]]
+- [[lovina-dmello]]
+- [[lu-zhang]]
+- [[lucas-atkins]]
+- [[lucas-palma]]
+- [[lukas-petersson]]
+- [[mahesh-sathiamoorthy]]
+- [[manoj-nair]]
+- [[maor-bril]]
+- [[marah-abdin]]
+- [[marco-casalaina]]
+- [[maria-bledsoe]]
+- [[marina-petzel]]
+- [[mark-lummus]]
+- [[martin-harrysson]]
+- [[matt-brockman]]
+- [[matt-dailey]]
+- [[matt-gibiec]]
+- [[matt-lawler]]
+- [[matt-linderman]]
+- [[matthew-berman]]
+- [[matthew-jewkes]]
+- [[max-drake]]
+- [[maxime-rivest]]
+- [[maximilian-david-rumpf]]
+- [[maximillian-piras]]
+- [[melanie-warrick]]
+- [[merve-noyan]]
+- [[micah-hill-smith]]
+- [[micah-silverman]]
+- [[michael-forrester]]
+- [[michael-grinich]]
+- [[michael-liendo]]
+- [[michael-patterson]]
+- [[michelle-nguyen]]
+- [[midam-kim]]
+- [[miguel-gonz-lez-fern-ndez]]
+- [[mihnea-munteanu]]
+- [[mike-chambers]]
+- [[mike-krieger]]
+- [[mike-phipps]]
+- [[mingsheng-hong]]
+- [[moritz-johner]]
+- [[nachiket-paranjape]]
+- [[nader-khalil]]
+- [[naman-ahuja]]
+- [[nan-jiang]]
+- [[natalie-meurer]]
+- [[navinkumar-patil]]
+- [[neil-zeghidour]]
+- [[nicholas-arcolano]]
+- [[nick-heiner]]
+- [[nick-nisi]]
+- [[nicolai-ouporov]]
+- [[nidhi-kaushik-vyas]]
+- [[niels-rogge]]
+- [[nikita-kothari]]
+- [[nilofer-rajpurkar]]
+- [[nishant-gupta]]
+- [[niv-granot]]
+- [[nixon-dinh]]
+- [[nnenna-ndukwe]]
+- [[nyah-macklin]]
+- [[olive-song]]
+- [[omar-solano]]
+- [[omer-primor]]
+- [[omri-bruchim]]
+- [[owen-halpert]]
+- [[pablo-castro]]
+- [[paige-bailey]]
+- [[palak-agarwal]]
+- [[pamela-fox]]
+- [[paola-estefania]]
+- [[parth-asawa]]
+- [[parth-sareen]]
+- [[patricija-emaityt]]
+- [[patrick-debois]]
+- [[paul-bakaus]]
+- [[paul-klein-iv]]
+- [[paula-dozsa]]
+- [[pauline-brunet]]
+- [[pedro-lopez]]
+- [[peter-werry]]
+- [[philip-kiely]]
+- [[philipp-schmid]]
+- [[pierluca-d-oro]]
+- [[prakhar-dixit]]
+- [[pranav-maheshwari]]
+- [[pranay-bhatia]]
+- [[preetika-bhateja]]
+- [[prerna-kakkar]]
+- [[priyanka-phatak]]
+- [[prukalpa-sankar]]
+- [[qianru-lao]]
+- [[qingyang-wu]]
+- [[rachna-srivastava]]
+- [[rafael-levi]]
+- [[rafal-wilinski]]
+- [[raghav-saboo]]
+- [[ramana-siddanth-emani]]
+- [[rania-khalaf]]
+- [[rashi-agrawal]]
+- [[rayan-garg]]
+- [[raymond-feng]]
+- [[r-mi-louf]]
+- [[remy-guercio]]
+- [[richard-socher]]
+- [[rishab-kumar]]
+- [[rita-zhang]]
+- [[ritvik-pandya]]
+- [[rob-cheung]]
+- [[rob-wachen]]
+- [[robert-brennan]]
+- [[robert-mchardy]]
+- [[roberto-milev]]
+- [[rodrigo-coelho]]
+- [[roland-gavrilescu]]
+- [[romain-huet]]
+- [[ronak-chokshi]]
+- [[ronak-malde]]
+- [[ross-taylor]]
+- [[ross-wollman]]
+- [[rowan-christmas]]
+- [[rustem-feyzkhanov]]
+- [[ryan-cooke]]
+- [[ryan-dahl]]
+- [[ryan-marten]]
+- [[sachin-malhotra]]
+- [[safia-abdalla]]
+- [[sai-krishna-rallabandi]]
+- [[sait-izmit]]
+- [[salil-subbakrishna]]
+- [[salman-munaf]]
+- [[sam-bhagwat]]
+- [[sam-parsons]]
+- [[samridhi-vaid]]
+- [[samuel-colvin]]
+- [[samuel-denton]]
+- [[sandhya-subramani]]
+- [[sangwu-lee]]
+- [[saoud-rizwan]]
+- [[sara-hooker]]
+- [[sarah-sachs]]
+- [[sarah-sanders]]
+- [[sarah-simionescu]]
+- [[sarthak-aggarwal]]
+- [[saul-howard]]
+- [[sean-cai]]
+- [[sean-sodha]]
+- [[sebastian-fox]]
+- [[serena-ge]]
+- [[shafik-quoraishee]]
+- [[shane-wolf]]
+- [[shashank-goyal]]
+- [[shawn-chan]]
+- [[sheilah-kirui]]
+- [[shlok-khemani]]
+- [[shreya-rajpal]]
+- [[shruti-arora]]
+- [[shu-fang]]
+- [[shubhankar-srivastava]]
+- [[simon-eskildsen]]
+- [[simran-arora]]
+- [[sitanshu-gupta]]
+- [[sonar]]
+- [[soumya-gupta]]
+- [[stefania-druga]]
+- [[stephanie-jarmak]]
+- [[stephen-chin]]
+- [[steve-yegge]]
+- [[subbiah-sethuraman]]
+- [[suchet-bargoti]]
+- [[sujee-maniyam]]
+- [[sumanyu-sharma]]
+- [[sunny-rekhi]]
+- [[suraj-gupta]]
+- [[susheem-koul]]
+- [[swaroop-chitlur-haridas]]
+- [[swyx]]
+- [[tanay-varshney]]
+- [[tanmai-gopal]]
+- [[tanmay-sah]]
+- [[tariq-shaukat]]
+- [[tarun-sunkaraneni]]
+- [[tejas-bhakta]]
+- [[tejas-kumar]]
+- [[tereza-t-kov]]
+- [[thais-castello-branco]]
+- [[thariq-shihipar]]
+- [[theo-browne]]
+- [[thom-wolf]]
+- [[thor-schaeff]]
+- [[thorsten-hans]]
+- [[tim-sweeney]]
+- [[tina-manghnani]]
+- [[tisha-chawla]]
+- [[todd-fisher]]
+- [[tom-ouyang]]
+- [[tom-s-hernando-kofman]]
+- [[tony-fabrikant]]
+- [[tushar-jain]]
+- [[tyler-gillam]]
+- [[uday-kanagala]]
+- [[uday-kiran-medisetty]]
+- [[udi-menkes]]
+- [[uri-rolls]]
+- [[vaibhav-gupta]]
+- [[valeria-wu-fon]]
+- [[varun-krovvidi]]
+- [[varun-pant]]
+- [[varun-shenoy]]
+- [[varun-singh]]
+- [[vasant-kearney]]
+- [[vasuman-moza]]
+- [[vayum-arora]]
+- [[venky-b]]
+- [[vincent-weisser]]
+- [[vincent-wendy]]
+- [[vinoo-ganesh]]
+- [[vinoth-govindarajan]]
+- [[viren-baraiya]]
+- [[vivek-muppalla]]
+- [[vivek-trivedy]]
+- [[vlad-luzin]]
+- [[vyas-a]]
+- [[walden-yan]]
+- [[wallon-walusayi]]
+- [[wei-lin-chiang]]
+- [[whitney-lee]]
+- [[will-bond]]
+- [[will-brown]]
+- [[will-bryk]]
+- [[will-lyon]]
+- [[willem-pienaar]]
+- [[wolfram-ravenwolf]]
+- [[xiangming-sun]]
+- [[yogendra-miraje]]
+- [[yohan-raju]]
+- [[yohei-nakajima]]
+- [[yoni-michael]]
+- [[yu-su]]
+- [[yubo-wang]]
+- [[yuchen-fama]]
+- [[yunmo-koo]]
+- [[yuval-belfer]]
+- [[yves-raimond]]
+- [[zach-blumenfeld]]
+- [[zach-lloyd]]
+- [[zack-proser]]
+- [[zain-hasan]]
+- [[zhengyao-jiang]]
+- [[zixuan-li]]
+- [[zubin-aysola]]

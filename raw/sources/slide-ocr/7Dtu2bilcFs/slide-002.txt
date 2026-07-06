@@ -1,0 +1,15 @@
+°
+Al Developer Trajectory
+t
+2023 2025
+a code completions (Cop:lot) agente coding assistants (Claude Code, Codex,
+Cline, Amp, Gemini CLI, . J
+| 1 2 3 4
+2024 2026
+chat based programming (Cursor, Windsurf, Cody! 2
+Siang a We ail know by now that agentic coding is not the Fina Form for Al.
+This talk is about what's coming next: orchestrators.
+et
+ages 2026: THE YEAR THE IDE DIED
+eee STEVE YEGGE = jmp GENE KIM Aprevowstion
+Google DeepMind Software Engineer . Author & Researcher

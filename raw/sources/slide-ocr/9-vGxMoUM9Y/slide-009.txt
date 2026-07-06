@@ -1,0 +1,7 @@
+|
+Alex Graveley @ sxe
+@alexgraveley
+Simple LLM technique that helps a lot (but you might not be using): add |
+- aconstraint checker to ensure valid generation. On violation, inject what
+was generated and the rule violation, and regenerate.
+:+ Querdraie Al

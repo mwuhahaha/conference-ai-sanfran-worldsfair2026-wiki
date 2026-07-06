@@ -1,0 +1,19 @@
+D
+pdf_link
+sdaau
+ront.net/CIK-0001045810/8b76daec-a85f-429a-968c
+Taikng:NYC(NYT)46.17Central
+Multimodality
+doc=Attachments(pdf_link)
+rag = dspy.ChainofThought("question,document->answer")
+FORM4
+result =rag(question="How many shares were sold in total?",document=doc)
+print(result)
+Prediction(
+reasoning='The document isa Form 4filing reporting changes in beneficial
+ownership of securities by Mark A.Stevens.It lists two transactions involving the
+sale of common stock shares on two dates:\n\n-On 9/11/2025,200,000 shares were
+sold.\n-On 9/12/2025,297,797 shares were sold.\n\nTo find the total number of
+shares so1d,we sum these tw0 amounts:\n\n200,000 +297,797=497,797 shares so1d
+in total.\n\nNo other sales transactions are listed in the document.
+answer='497,797sharesweresoldin total.'

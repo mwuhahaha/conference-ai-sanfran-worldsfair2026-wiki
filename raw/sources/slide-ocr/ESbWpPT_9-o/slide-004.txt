@@ -1,0 +1,21 @@
+The Hardware Lottery
+
+Sara Hooker
+Google Research, Brain Team
+shooker@google.com
+Abstract
+Hardware, systems and algorithms research communities have historically
+had different incentive structures and fluctuating motivation to engage with
+each other explicitly. This historical treatment is odd given that hardware
+and software have frequently determined which research ideas succeed (and
+fail). This essay introduces the term hardware lottery to describe when a
+research idea wins because it is suited to the available software and hard-
+ware and not because the idea is superior to alternative research directions.
+Examples from early computer science history illustrate how hardware lot-
+teries can delay research progress by casting successful ideas as failures.
+These lessons are particularly salicnt given the advent of domain spccial-
+ized hardware which make it increasingly costly to stray off of the beaten
+path of research ideas. This essay posits that the gains from progress in
+computing are likely to become even more uneven, with certain research
+directions moving into the fast-lane while progress on others is further ob-
+structed.

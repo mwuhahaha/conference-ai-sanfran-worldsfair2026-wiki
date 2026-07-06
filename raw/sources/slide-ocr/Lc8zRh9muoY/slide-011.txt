@@ -1,0 +1,20 @@
+e e
+
+record above the wire, not on it.
+
+X at the network layer JY at the boundary
+
+half your agent never touches capture what enters each node
+
+the network: local retrieval, and what leaves it, every I/O,
+
+in-process tools, memory. network or not.
+
+the socket can't record the meaning of each step,
+
+what isnt on it. not the packets.
+
+f 7 3
+
+tracing records it. replay re-runs it offline: stub the model, O calls. “ha
+Opentnference - Arize Phoenix - LangGraph checkpointers - framework -agnostic

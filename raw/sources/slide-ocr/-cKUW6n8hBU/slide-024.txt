@@ -1,0 +1,39 @@
+=! Ea a rr Se @® SOR Os cc CT i
+ee f 5 : : Q Ul} = a 2 a ooce
+@ dspy_.workshop.ipynb US @ dspy_worashop, clean ipynd M hub. oy qi i Eee Pres SUMS Eton iyo A @ Summarizer py Ca
+
+. ° eee z sgn Rey
+; j
+BD Sety ere Gear yh Ma ot tan ate tr POF an Gyn lay den ecute sete ha Saeed oe tee oe tentitee £m gga at Bane del fed
++= Code + Markdown => Run A! © Restart « Clese Al Outputs | | Jupyter Venables Outline + dy vere {Python 3:11.13)
+. 8 “"TA Ceansection in tne docusent. 7°" ne Be atth
+- s transaction_type: str = Fieldidescription="Fhe type of transaction."} a R
+6 Shares_sold> int w Fratdtdacerintinns*The nimnar at charac cold *b
+} price per_s (class) str
+8 ROCBLLDFECE geomet: 1 -> ste stritytes_or buffer, encoamgl, evtars!}) <> str
+9
+1@ class Decunents Create are sirng otyect from the green object f encedeg oF errors 1s specified, then the object must espose a data buffer that mt be
+un “HPA struct OeCeded using the Qven encod.ng and erro hand ef Otherw.ce, raturns the fesuit of obyeCe Ste) (4 defined) of reprrabyect) encoding
+32 form_type:  de‘aulls to sys geidefau tencodrgl! errors defauits to ‘stnct
+43 filang_date: str Fieid(descriptione*The date of the filing in the format YYYY-MM-00.")
+wa total shares sold: int
+1S transactions: iist{Trarsaction] © Fieldidescriptione"A list of transactions.”)
+16
+1? class Oocurentganalyzecdchoralaspy. Signature):
+1B “Analyze document content and extract insights. “""
+19 document: Atiachneats # spy. InputFieldd)
+28 Gocument_schema: Docuncatschema # dspy.dutputhieltaidesce"A steuctured representation of the dacument content.”)
+aL
+22) result_schema © dspy.CnsindfTrougnt(Dorvrer taraiyzerscner.s) (documentadoc}
+23) eprint(vict:4:., 2 5. (result schema. document_schema:)
+a
+25) 8 Now use the Lyped object to get the total shares sold
+26 prant{"\n\n # Total shares sold: ")
+27 print (result_schema.document_schens. total_shares_sold)
+00s Python
++ ('talang_date’s '2025-99-15°,
+"form_type’: ‘Form 4°,
+Probie: QZ Ovteut Debug Conse’e Terminal Ports Gitlens  tugyter poten omadeeeampe 6 1 Ro x
+Sag)
+Ke ees a
+a eae uC RC CE Cusorfab - Spaces 4 Cer ee nr ee)

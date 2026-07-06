@@ -1,0 +1,17 @@
+# Local/generated caches
+.local/
+.ops/state/cache/
+raw/tmp/
+raw/experiments/
+raw/video-cache/
+raw/slide-frames-tmp/
+
+# Raw video captures are too large for normal GitHub pushes and can be regenerated.
+raw/**/*.mp4
+raw/**/*.mkv
+raw/**/*.mov
+raw/**/*.webm
+
+# OS/editor noise
+.DS_Store
+*.swp

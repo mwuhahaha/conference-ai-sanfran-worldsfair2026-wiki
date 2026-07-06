@@ -1,0 +1,14 @@
+TT Ease of Use: Intuitive agent
+development to get started in
+minutes instead of hours
+
+te Robust Capabilities: Native tools,
+Stra nd S Age ales oe MCP servers, and natively integrated
+
+PE Nese adl at)
+Strands Agents is an open-source
+python SDK for building agents
+using just a few lines of code nex Extensibility: Support for custom model
+Qo providers, custom tools, and MCP
+</> Rapid Development: Quick
+prototyping and iteration

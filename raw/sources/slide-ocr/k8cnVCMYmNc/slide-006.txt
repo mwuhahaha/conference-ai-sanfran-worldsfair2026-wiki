@@ -1,0 +1,13 @@
+What's an agent?
+
+An agent is an Al application “
+
+consisting of a model equipped “ee
+
+with instructions that guide its tes r T ry erste
+behavior, access to tools that oe — (1)
+extend its capabilities, :
+
+encapsulated in a runtime with a @) ®
+
+dynamic lifecycle.

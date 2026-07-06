@@ -1,0 +1,8 @@
+Rule Generalization: Meta-prompt enforces high-level, reusable coding rules rather than repo-specific fixes.
+Cross-Repo Validation: Train/test split by repository ensure learned rules generalize beyond local quirks.
+Expertise vs. Overfitting
+e True developers do “overfit" — to their own codebases.
+e That's not a flaw, it's expertise: understanding patterns, pitfalls, and idioms within a domain.
+e Cline can adaptively specialize when deployed to a team’s repos, mirroring how human engineers internalize
+their environment — while still starting frorn a general foundation.
+Aarize 2025-11-22 12:45:08

@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101",
+    "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 101",
+    "path": "wiki/talks/2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101.md"
+  },
+  {
+    "id": "2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries",
+    "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+    "path": "wiki/talks/2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries.md"
+  },
+  {
+    "id": "2026-06-29-charlie-guo-cooking-with-codex",
+    "title": "Cooking with Codex",
+    "path": "wiki/talks/2026-06-29-charlie-guo-cooking-with-codex.md"
+  },
+  {
+    "id": "2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything",
+    "title": "The best SDLC is the one you build yourself: Why orchestration changes everything",
+    "path": "wiki/talks/2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything.md"
+  },
+  {
+    "id": "2026-06-29-javier-garza-ai-security-engineer-foundations-certificate",
+    "title": "AI Security Engineer Foundations + Certificate",
+    "path": "wiki/talks/2026-06-29-javier-garza-ai-security-engineer-foundations-certificate.md"
+  },
+  {
+    "id": "2026-06-29-ignacio-martinez-total-recall-agent-memory-and-harness-engineering",
+    "title": "Total Recall: Agent Memory and Harness Engineering",
+    "path": "wiki/talks/2026-06-29-ignacio-martinez-total-recall-agent-memory-and-harness-engineering.md"
+  },
+  {
+    "id": "2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus",
+    "title": "Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs",
+    "path": "wiki/talks/2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus.md"
+  },
+  {
+    "id": "2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era",
+    "title": "Open-Source Inference Engineering for the Agentic Era",
+    "path": "wiki/talks/2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era.md"
+  },
+  {
+    "id": "2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability",
+    "title": "Advanced workshop: Mastering AI Observability",
+    "path": "wiki/talks/2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability.md"
+  },
+  {
+    "id": "2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps",
+    "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+    "path": "wiki/talks/2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps.md"
+  },
+  {
+    "id": "2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent",
+    "title": "Building self-learning loops for your agent",
+    "path": "wiki/talks/2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent.md"
+  },
+  {
+    "id": "2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context",
+    "title": "RAG Needs a Map: Using GraphRAG to Retrieve Connected Context",
+    "path": "wiki/talks/2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context.md"
+  },
+  {
+    "id": "2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox",
+    "title": "How I learned to stop worrying and love the sandbox",
+    "path": "wiki/talks/2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox.md"
+  },
+  {
+    "id": "2026-06-29-pamela-fox-the-model-swap-workshop",
+    "title": "The model swap workshop",
+    "path": "wiki/talks/2026-06-29-pamela-fox-the-model-swap-workshop.md"
+  },
+  {
+    "id": "2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer",
+    "title": "Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer",
+    "path": "wiki/talks/2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer.md"
+  },
+  {
+    "id": "2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-1",
+    "title": "Local LLMs and workstation agents: Part 1",
+    "path": "wiki/talks/2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-1.md"
+  },
+  {
+    "id": "2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows",
+    "title": "How to Build Quality Gates into Agentic Coding Workflows",
+    "path": "wiki/talks/2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows.md"
+  },
+  {
+    "id": "2026-06-29-charles-frye-what-is-an-inference-engine-anyway",
+    "title": "What is an Inference Engine, Anyway?",
+    "path": "wiki/talks/2026-06-29-charles-frye-what-is-an-inference-engine-anyway.md"
+  },
+  {
+    "id": "2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship",
+    "title": "Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship",
+    "path": "wiki/talks/2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship.md"
+  },
+  {
+    "id": "2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents",
+    "title": "From zero to deployed on Azure with AI agents",
+    "path": "wiki/talks/2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents.md"
+  },
+  {
+    "id": "2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive",
+    "title": "Evals in AI: A Deep Dive",
+    "path": "wiki/talks/2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive.md"
+  },
+  {
+    "id": "2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker",
+    "title": "From approval loops to autonomous agents with Docker",
+    "path": "wiki/talks/2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker.md"
+  },
+  {
+    "id": "2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2",
+    "title": "2 hr deep dive on LLM Inference at Scale — Part 1 of 2",
+    "path": "wiki/talks/2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2.md"
+  },
+  {
+    "id": "2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1",
+    "title": "Build the Right Thing: Product Engineering for Software Developers (Part 1)",
+    "path": "wiki/talks/2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1.md"
+  },
+  {
+    "id": "2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline",
+    "title": "From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline",
+    "path": "wiki/talks/2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline.md"
+  },
+  {
+    "id": "2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-2",
+    "title": "Local LLMs and workstation agents: Part 2",
+    "path": "wiki/talks/2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-2.md"
+  },
+  {
+    "id": "2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch",
+    "title": "Beyond RAG: Build a Relational Context Engine from Scratch",
+    "path": "wiki/talks/2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch.md"
+  },
+  {
+    "id": "2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data",
+    "title": "Building AI Agents with Real-Time Web Data",
+    "path": "wiki/talks/2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data.md"
+  },
+  {
+    "id": "2026-06-29-paige-bailey-research-to-reality-with-google-deepmind",
+    "title": "Research to Reality with Google DeepMind",
+    "path": "wiki/talks/2026-06-29-paige-bailey-research-to-reality-with-google-deepmind.md"
+  },
+  {
+    "id": "2026-06-29-ankur-duggal-let-your-agent-cook-using-skills-to-evaluate-and-improve-your-app",
+    "title": "Let your agent cook: using skills to evaluate and improve your app",
+    "path": "wiki/talks/2026-06-29-ankur-duggal-let-your-agent-cook-using-skills-to-evaluate-and-improve-your-app.md"
+  },
+  {
+    "id": "2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2",
+    "title": "2 hr deep dive on LLM Inference at Scale — Part 2 of 2",
+    "path": "wiki/talks/2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2.md"
+  },
+  {
+    "id": "2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2",
+    "title": "Build the Right Thing: Product Engineering for Software Developers — Part 2",
+    "path": "wiki/talks/2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2.md"
+  },
+  {
+    "id": "2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn",
+    "title": "Build a Platform, Unleash an Agent on it.... and Watch it Burn!",
+    "path": "wiki/talks/2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn.md"
+  },
+  {
+    "id": "2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development",
+    "title": "SonarQube + OpenAI: Wiring Your Team for Agentic Development",
+    "path": "wiki/talks/2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development.md"
+  },
+  {
+    "id": "2026-06-29-palak-agarwal-how-reducto-parsed-the-epstein-files-for-the-viral-jmail-project-the-secret-complexities-of-document",
+    "title": "How Reducto parsed the Epstein Files for the Viral JMail Project: The Secret Complexities of Document",
+    "path": "wiki/talks/2026-06-29-palak-agarwal-how-reducto-parsed-the-epstein-files-for-the-viral-jmail-project-the-secret-complexities-of-document.md"
+  },
+  {
+    "id": "2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer",
+    "title": "Turning My Obsidian Vault Into a Local AI Engineer",
+    "path": "wiki/talks/2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer.md"
+  },
+  {
+    "id": "2026-06-29-lotte-verheyden-continuously-improving-agents-with-langfuse",
+    "title": "Continuously improving agents with Langfuse",
+    "path": "wiki/talks/2026-06-29-lotte-verheyden-continuously-improving-agents-with-langfuse.md"
+  },
+  {
+    "id": "2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201",
+    "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 201",
+    "path": "wiki/talks/2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201.md"
+  },
+  {
+    "id": "2026-06-29-yoni-michael-the-data-context-layer-why-data-engineering-agents-need-more-than-code-and-databases",
+    "title": "The Data Context Layer: Why Data Engineering Agents Need More Than Code and Databases",
+    "path": "wiki/talks/2026-06-29-yoni-michael-the-data-context-layer-why-data-engineering-agents-need-more-than-code-and-databases.md"
+  },
+  {
+    "id": "2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents",
+    "title": "Special topics in Kernels, RL, Reward Hacking in Agents",
+    "path": "wiki/talks/2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents.md"
+  },
+  {
+    "id": "2026-06-29-mark-lummus-burn-your-flags-how-paypal-designs-interactive-cli-tools-for-agents",
+    "title": "Burn your flags: How PayPal designs interactive CLI tools for agents",
+    "path": "wiki/talks/2026-06-29-mark-lummus-burn-your-flags-how-paypal-designs-interactive-cli-tools-for-agents.md"
+  },
+  {
+    "id": "2026-06-29-micah-silverman-ai-security-engineer-foundations-certificate",
+    "title": "AI Security Engineer Foundations + Certificate",
+    "path": "wiki/talks/2026-06-29-micah-silverman-ai-security-engineer-foundations-certificate.md"
+  },
+  {
+    "id": "2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost",
+    "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+    "path": "wiki/talks/2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost.md"
+  },
+  {
+    "id": "2026-06-29-jeff-vestal-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers",
+    "title": "Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers",
+    "path": "wiki/talks/2026-06-29-jeff-vestal-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers.md"
+  },
+  {
+    "id": "2026-06-29-emile-baizel-build-with-perception-agents",
+    "title": "Build with Perception Agents",
+    "path": "wiki/talks/2026-06-29-emile-baizel-build-with-perception-agents.md"
+  },
+  {
+    "id": "2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf",
+    "title": "Hands-on AutoResearch: Cracking OpenAI's Parameter Golf",
+    "path": "wiki/talks/2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf.md"
+  },
+  {
+    "id": "2026-06-29-pamela-fox-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry",
+    "title": "Observe, optimize and protect your hosted agents in Microsoft Foundry",
+    "path": "wiki/talks/2026-06-29-pamela-fox-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry.md"
+  },
+  {
+    "id": "2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents",
+    "title": "The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents",
+    "path": "wiki/talks/2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents.md"
+  },
+  {
+    "id": "2026-06-29-paul-bakaus-the-dark-arts-of-skill-engineering",
+    "title": "The Dark Arts of Skill Engineering",
+    "path": "wiki/talks/2026-06-29-paul-bakaus-the-dark-arts-of-skill-engineering.md"
+  },
+  {
+    "id": "2026-06-29-shubhankar-srivastava-hill-climbing-skills-how-to-improve-agents-without-touching-the-model",
+    "title": "Hill-climbing Skills: How to Improve Agents Without Touching the Model",
+    "path": "wiki/talks/2026-06-29-shubhankar-srivastava-hill-climbing-skills-how-to-improve-agents-without-touching-the-model.md"
+  },
+  {
+    "id": "2026-06-29-bereket-habtemeskel-agent-auth",
+    "title": "Agent Auth",
+    "path": "wiki/talks/2026-06-29-bereket-habtemeskel-agent-auth.md"
+  },
+  {
+    "id": "2026-06-29-will-brown-the-prime-intellect-stack",
+    "title": "The Prime Intellect Stack",
+    "path": "wiki/talks/2026-06-29-will-brown-the-prime-intellect-stack.md"
+  },
+  {
+    "id": "2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks",
+    "title": "Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks",
+    "path": "wiki/talks/2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks.md"
+  },
+  {
+    "id": "2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends",
+    "title": "The Art and Science of Loopcraft with Pi (and friends)",
+    "path": "wiki/talks/2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends.md"
+  },
+  {
+    "id": "2026-06-29-gagan-bhat-evolution-of-agentic-surfaces",
+    "title": "Evolution of agentic surfaces",
+    "path": "wiki/talks/2026-06-29-gagan-bhat-evolution-of-agentic-surfaces.md"
+  },
+  {
+    "id": "2026-06-29-joyce-zhang-human-connection-in-the-age-of-ai",
+    "title": "Human Connection in the Age of AI",
+    "path": "wiki/talks/2026-06-29-joyce-zhang-human-connection-in-the-age-of-ai.md"
+  },
+  {
+    "id": "2026-06-29-sonar-expo-welcome-speech",
+    "title": "Expo Welcome Speech",
+    "path": "wiki/talks/2026-06-29-sonar-expo-welcome-speech.md"
+  },
+  {
+    "id": "2026-06-29-session-runway-ai-film-festival",
+    "title": "Runway AI Film Festival",
+    "path": "wiki/talks/2026-06-29-session-runway-ai-film-festival.md"
+  },
+  {
+    "id": "2026-06-29-swyx-the-highest-loop",
+    "title": "The Highest Loop",
+    "path": "wiki/talks/2026-06-29-swyx-the-highest-loop.md"
+  },
+  {
+    "id": "2026-06-29-pablo-castro-on-ai-and-knowledge",
+    "title": "On AI and Knowledge",
+    "path": "wiki/talks/2026-06-29-pablo-castro-on-ai-and-knowledge.md"
+  },
+  {
+    "id": "2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering",
+    "title": "The Golden Age of AI Engineering",
+    "path": "wiki/talks/2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering.md"
+  },
+  {
+    "id": "2026-06-29-zixuan-li-glm-5-2-frontier-intelligence-open-weights",
+    "title": "GLM-5.2: Frontier Intelligence, Open Weights.",
+    "path": "wiki/talks/2026-06-29-zixuan-li-glm-5-2-frontier-intelligence-open-weights.md"
+  },
+  {
+    "id": "2026-06-29-thom-wolf-thom-wolf-keynote",
+    "title": "Thom Wolf keynote",
+    "path": "wiki/talks/2026-06-29-thom-wolf-thom-wolf-keynote.md"
+  },
+  {
+    "id": "2026-06-29-manoj-nair-security-track-intro",
+    "title": "Security Track intro",
+    "path": "wiki/talks/2026-06-29-manoj-nair-security-track-intro.md"
+  },
+  {
+    "id": "2026-06-29-jason-liu-getting-the-most-out-of-codex",
+    "title": "Getting the most out of Codex",
+    "path": "wiki/talks/2026-06-29-jason-liu-getting-the-most-out-of-codex.md"
+  },
+  {
+    "id": "2026-06-29-ryan-dahl-security-firewall-for-agents",
+    "title": "Security Firewall for Agents",
+    "path": "wiki/talks/2026-06-29-ryan-dahl-security-firewall-for-agents.md"
+  },
+  {
+    "id": "2026-06-29-joseph-nelson-the-state-of-vision",
+    "title": "The State of Vision",
+    "path": "wiki/talks/2026-06-29-joseph-nelson-the-state-of-vision.md"
+  },
+  {
+    "id": "2026-06-29-edo-liberty-pinecone-2-0",
+    "title": "Pinecone 2.0",
+    "path": "wiki/talks/2026-06-29-edo-liberty-pinecone-2-0.md"
+  },
+  {
+    "id": "2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1",
+    "title": "Claude Managed Agents Workshop (Part 1)",
+    "path": "wiki/talks/2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1.md"
+  },
+  {
+    "id": "2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on",
+    "title": "Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.",
+    "path": "wiki/talks/2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on.md"
+  },
+  {
+    "id": "2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software",
+    "title": "The New Primitives: Building AI-Native Software",
+    "path": "wiki/talks/2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software.md"
+  },
+  {
+    "id": "2026-06-29-devansh-tandon-tokens-in-engagement-out-training-llm-recommenders",
+    "title": "Tokens In, Engagement Out: Training LLM-Recommenders",
+    "path": "wiki/talks/2026-06-29-devansh-tandon-tokens-in-engagement-out-training-llm-recommenders.md"
+  },
+  {
+    "id": "2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory",
+    "title": "How Forward Deployed Engineering is done at Factory",
+    "path": "wiki/talks/2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory.md"
+  },
+  {
+    "id": "2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier",
+    "title": "Data Quality is the Compute Multiplier",
+    "path": "wiki/talks/2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier.md"
+  },
+  {
+    "id": "2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app",
+    "title": "Build agents fast with GitHub Copilot (from idea to working app)",
+    "path": "wiki/talks/2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app.md"
+  },
+  {
+    "id": "2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals",
+    "title": "Inside the AI economy: What Stripe’s data reveals",
+    "path": "wiki/talks/2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals.md"
+  },
+  {
+    "id": "2026-06-29-david-hsu-governance-is-the-real-bottleneck-to-ai-roi",
+    "title": "Governance Is the Real Bottleneck to AI ROI",
+    "path": "wiki/talks/2026-06-29-david-hsu-governance-is-the-real-bottleneck-to-ai-roi.md"
+  },
+  {
+    "id": "2026-06-29-dor-sasson-every-ai-company-is-accidentally-building-a-bank",
+    "title": "Every AI company is accidentally building a bank.",
+    "path": "wiki/talks/2026-06-29-dor-sasson-every-ai-company-is-accidentally-building-a-bank.md"
+  },
+  {
+    "id": "2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines",
+    "title": "The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines",
+    "path": "wiki/talks/2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines.md"
+  },
+  {
+    "id": "2026-06-29-sam-parsons-how-paypal-enterprise-payments-handles-agent-initiated-payments-across-chatgpt-and-google-ai-mode",
+    "title": "How PayPal Enterprise Payments handles agent-initiated payments across ChatGPT and Google AI Mode",
+    "path": "wiki/talks/2026-06-29-sam-parsons-how-paypal-enterprise-payments-handles-agent-initiated-payments-across-chatgpt-and-google-ai-mode.md"
+  },
+  {
+    "id": "2026-06-29-jakub-hojsan-agentic-search-for-coding-agents",
+    "title": "Agentic Search for Coding Agents",
+    "path": "wiki/talks/2026-06-29-jakub-hojsan-agentic-search-for-coding-agents.md"
+  },
+  {
+    "id": "2026-06-29-tereza-t-kov-rise-of-the-software-factory",
+    "title": "Rise of the Software Factory",
+    "path": "wiki/talks/2026-06-29-tereza-t-kov-rise-of-the-software-factory.md"
+  },
+  {
+    "id": "2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did",
+    "title": "Your Agent Didn’t Fail. Your Harness Did.",
+    "path": "wiki/talks/2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did.md"
+  },
+  {
+    "id": "2026-06-29-jerry-liu-building-the-document-context-layer-for-ai-agents",
+    "title": "Building the Document Context Layer for AI Agents",
+    "path": "wiki/talks/2026-06-29-jerry-liu-building-the-document-context-layer-for-ai-agents.md"
+  },
+  {
+    "id": "2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search",
+    "title": "The unreasonable effectiveness of BM25 for agentic search",
+    "path": "wiki/talks/2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search.md"
+  },
+  {
+    "id": "2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-2",
+    "title": "Claude Managed Agents workshop (Part 2)",
+    "path": "wiki/talks/2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-2.md"
+  },
+  {
+    "id": "2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features",
+    "title": "Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features",
+    "path": "wiki/talks/2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features.md"
+  },
+  {
+    "id": "2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind",
+    "title": "Speech-to-Speech Model Research at Google DeepMind",
+    "path": "wiki/talks/2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind.md"
+  },
+  {
+    "id": "2026-06-29-jacqueline-wood-spotify-llm-recsys",
+    "title": "Spotify LLM Recsys",
+    "path": "wiki/talks/2026-06-29-jacqueline-wood-spotify-llm-recsys.md"
+  },
+  {
+    "id": "2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor",
+    "title": "How Forward Deployed Engineering is done at Cursor",
+    "path": "wiki/talks/2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor.md"
+  },
+  {
+    "id": "2026-06-29-robert-mchardy-the-messy-reality-of-scale-synthetic-data-and-pre-training-at-poolside",
+    "title": "The Messy Reality of Scale: Synthetic Data and Pre-Training at Poolside",
+    "path": "wiki/talks/2026-06-29-robert-mchardy-the-messy-reality-of-scale-synthetic-data-and-pre-training-at-poolside.md"
+  },
+  {
+    "id": "2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server",
+    "title": "Building the engine while flying the plane — launching the Figma MCP server",
+    "path": "wiki/talks/2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server.md"
+  },
+  {
+    "id": "2026-06-29-ameya-bhatawdekar-your-agent-evolved-your-evals-didn-t",
+    "title": "Your Agent Evolved. Your Evals Didn't.",
+    "path": "wiki/talks/2026-06-29-ameya-bhatawdekar-your-agent-evolved-your-evals-didn-t.md"
+  },
+  {
+    "id": "2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep",
+    "title": "Give your coding agents the power of turbogrep!",
+    "path": "wiki/talks/2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep.md"
+  },
+  {
+    "id": "2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs",
+    "title": "Actionable Knowledge For Agents With Context Graphs",
+    "path": "wiki/talks/2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs.md"
+  },
+  {
+    "id": "2026-06-29-session-frontier-models-for-the-hard-parts-open-weights-for-the-rest",
+    "title": "Frontier models for the hard parts, open weights for the rest",
+    "path": "wiki/talks/2026-06-29-session-frontier-models-for-the-hard-parts-open-weights-for-the-rest.md"
+  },
+  {
+    "id": "2026-06-29-aditya-khandelwal-agents-codebases-and-teams-what-it-actually-takes-to-ship-together",
+    "title": "Agents, codebases, and teams: what it actually takes to ship together",
+    "path": "wiki/talks/2026-06-29-aditya-khandelwal-agents-codebases-and-teams-what-it-actually-takes-to-ship-together.md"
+  },
+  {
+    "id": "2026-06-29-charlie-holtz-orchestras-not-factories",
+    "title": "Orchestras, not Factories",
+    "path": "wiki/talks/2026-06-29-charlie-holtz-orchestras-not-factories.md"
+  },
+  {
+    "id": "2026-06-29-benjamin-guo-everyone-gets-a-software-company",
+    "title": "Everyone Gets A Software Company",
+    "path": "wiki/talks/2026-06-29-benjamin-guo-everyone-gets-a-software-company.md"
+  },
+  {
+    "id": "2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge",
+    "title": "Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge",
+    "path": "wiki/talks/2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge.md"
+  },
+  {
+    "id": "2026-06-29-will-bryk-the-search-engine-for-the-agentic-web",
+    "title": "The Search Engine for the Agentic Web",
+    "path": "wiki/talks/2026-06-29-will-bryk-the-search-engine-for-the-agentic-web.md"
+  },
+  {
+    "id": "2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-3",
+    "title": "Claude Managed Agents workshop (Part 3)",
+    "path": "wiki/talks/2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-3.md"
+  },
+  {
+    "id": "2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night",
+    "title": "We Gave an Agent Production Code Access and Then Tried to Sleep at Night",
+    "path": "wiki/talks/2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night.md"
+  },
+  {
+    "id": "2026-06-29-charlie-guo-voice-agents-can-just-do-things",
+    "title": "Voice Agents Can Just Do Things",
+    "path": "wiki/talks/2026-06-29-charlie-guo-voice-agents-can-just-do-things.md"
+  },
+  {
+    "id": "2026-06-29-raghav-saboo-llm-recsys-at-doordash",
+    "title": "LLM Recsys at DoorDash",
+    "path": "wiki/talks/2026-06-29-raghav-saboo-llm-recsys-at-doordash.md"
+  },
+  {
+    "id": "2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering",
+    "title": "AI tools for Forward Deployed Engineering",
+    "path": "wiki/talks/2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering.md"
+  },
+  {
+    "id": "2026-06-29-rayan-garg-rethinking-environments-for-long-horizon-work",
+    "title": "Rethinking Environments for Long Horizon Work",
+    "path": "wiki/talks/2026-06-29-rayan-garg-rethinking-environments-for-long-horizon-work.md"
+  },
+  {
+    "id": "2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end",
+    "title": "Use Copilot across CLI, dev, and cloud workflows to move faster end-to-end",
+    "path": "wiki/talks/2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end.md"
+  },
+  {
+    "id": "2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory",
+    "title": "Agentic SDLC at Uber: Building Blocks for Uber's Software Factory",
+    "path": "wiki/talks/2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory.md"
+  },
+  {
+    "id": "2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code",
+    "title": "The Last Human Code Review: Building Trust in AI-Generated Code",
+    "path": "wiki/talks/2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code.md"
+  },
+  {
+    "id": "2026-06-29-jess-wang-agentic-vs-vector-search-an-eval-driven-approach-to-coding-agent-performance",
+    "title": "Agentic vs. Vector Search: An Eval-Driven Approach to Coding Agent Performance",
+    "path": "wiki/talks/2026-06-29-jess-wang-agentic-vs-vector-search-an-eval-driven-approach-to-coding-agent-performance.md"
+  },
+  {
+    "id": "2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages",
+    "title": "Agents Don't Have Coworkers, They Have Hostages",
+    "path": "wiki/talks/2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages.md"
+  },
+  {
+    "id": "2026-06-29-andreea-ple-ea-would-your-ai-agent-get-the-job-a-performance-review-framework-for-enterprise-agents",
+    "title": "Would your AI agent get the job? A performance review framework for enterprise agents",
+    "path": "wiki/talks/2026-06-29-andreea-ple-ea-would-your-ai-agent-get-the-job-a-performance-review-framework-for-enterprise-agents.md"
+  },
+  {
+    "id": "2026-06-29-daksh-gupta-what-we-learned-by-analyzing-1m-ai-generated-prs",
+    "title": "What we learned by analyzing 1M AI-generated PRs",
+    "path": "wiki/talks/2026-06-29-daksh-gupta-what-we-learned-by-analyzing-1m-ai-generated-prs.md"
+  },
+  {
+    "id": "2026-06-29-shu-fang-tethered-our-agents-are-us",
+    "title": "Tethered: Our Agents Are Us",
+    "path": "wiki/talks/2026-06-29-shu-fang-tethered-our-agents-are-us.md"
+  },
+  {
+    "id": "2026-06-29-aditya-gautam-modality-misalignment-and-originality-attribution-in-short-form-video-a-multi-agent-approach-at-platform-scale",
+    "title": "Modality Misalignment and Originality Attribution in Short-Form Video: A Multi-Agent Approach at Platform Scale",
+    "path": "wiki/talks/2026-06-29-aditya-gautam-modality-misalignment-and-originality-attribution-in-short-form-video-a-multi-agent-approach-at-platform-scale.md"
+  },
+  {
+    "id": "2026-06-29-liad-yosef-rebuilding-the-web-for-agents",
+    "title": "Rebuilding the web for agents",
+    "path": "wiki/talks/2026-06-29-liad-yosef-rebuilding-the-web-for-agents.md"
+  },
+  {
+    "id": "2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-4",
+    "title": "Claude Managed Agents workshop (Part 4)",
+    "path": "wiki/talks/2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-4.md"
+  },
+  {
+    "id": "2026-06-29-ezra-tanzer-agentic-development-security",
+    "title": "Agentic Development Security",
+    "path": "wiki/talks/2026-06-29-ezra-tanzer-agentic-development-security.md"
+  },
+  {
+    "id": "2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie",
+    "title": "Your Voice Agent is Just a Walkie-Talkie",
+    "path": "wiki/talks/2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie.md"
+  },
+  {
+    "id": "2026-06-29-devansh-tandon-open-q-and-a-llm-recsys",
+    "title": "Open Q&A: LLM Recsys",
+    "path": "wiki/talks/2026-06-29-devansh-tandon-open-q-and-a-llm-recsys.md"
+  },
+  {
+    "id": "2026-06-29-jia-wu-how-forward-deployed-engineering-is-done-at-cognition",
+    "title": "How Forward Deployed Engineering is done at Cognition",
+    "path": "wiki/talks/2026-06-29-jia-wu-how-forward-deployed-engineering-is-done-at-cognition.md"
+  },
+  {
+    "id": "2026-06-29-david-brumley-bugcrowd-posttraining-talk",
+    "title": "Bugcrowd posttraining talk",
+    "path": "wiki/talks/2026-06-29-david-brumley-bugcrowd-posttraining-talk.md"
+  },
+  {
+    "id": "2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine",
+    "title": "Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine",
+    "path": "wiki/talks/2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine.md"
+  },
+  {
+    "id": "2026-06-29-hursh-agrawal-prototyping-as-leadership-how-a-cto-ships-with-ai-agents",
+    "title": "Prototyping as Leadership: How a CTO Ships with AI Agents",
+    "path": "wiki/talks/2026-06-29-hursh-agrawal-prototyping-as-leadership-how-a-cto-ships-with-ai-agents.md"
+  },
+  {
+    "id": "2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked",
+    "title": "Your Agent Is Lying to You About Whether It Worked",
+    "path": "wiki/talks/2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked.md"
+  },
+  {
+    "id": "2026-06-29-hossein-niazmandi-why-building-building-agent-quality-platforms-is-hard",
+    "title": "Why building building agent quality platforms is hard.",
+    "path": "wiki/talks/2026-06-29-hossein-niazmandi-why-building-building-agent-quality-platforms-is-hard.md"
+  },
+  {
+    "id": "2026-06-29-simran-arora-can-llms-write-fast-multi-gpu-kernels-we-built-a-benchmark-to-find-out",
+    "title": "Can LLMs write fast multi-GPU kernels? We built a benchmark to find out.",
+    "path": "wiki/talks/2026-06-29-simran-arora-can-llms-write-fast-multi-gpu-kernels-we-built-a-benchmark-to-find-out.md"
+  },
+  {
+    "id": "2026-06-29-rafal-wilinski-self-improving-agents-that-teach-the-company-back",
+    "title": "Self-Improving Agents That Teach the Company Back",
+    "path": "wiki/talks/2026-06-29-rafal-wilinski-self-improving-agents-that-teach-the-company-back.md"
+  },
+  {
+    "id": "2026-06-29-kevin-hou-get-out-of-the-model-s-way",
+    "title": "Get Out of the Model's Way",
+    "path": "wiki/talks/2026-06-29-kevin-hou-get-out-of-the-model-s-way.md"
+  },
+  {
+    "id": "2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects",
+    "title": "Agents' next frontier: agent-to-agent and network effects",
+    "path": "wiki/talks/2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects.md"
+  },
+  {
+    "id": "2026-06-29-adit-abraham-from-ingestion-to-agents-how-leading-ai-teams-build-on-document-intelligence",
+    "title": "From Ingestion to Agents: How Leading AI Teams Build on Document Intelligence",
+    "path": "wiki/talks/2026-06-29-adit-abraham-from-ingestion-to-agents-how-leading-ai-teams-build-on-document-intelligence.md"
+  },
+  {
+    "id": "2026-06-29-benjamin-clavi-if-we-want-them-to-do-knowledge-work-we-need-to-design-knowledge-agents",
+    "title": "If we want them to do Knowledge Work, we need to design Knowledge Agents",
+    "path": "wiki/talks/2026-06-29-benjamin-clavi-if-we-want-them-to-do-knowledge-work-we-need-to-design-knowledge-agents.md"
+  },
+  {
+    "id": "2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-1-of-3",
+    "title": "Everybody Gets a Digital Clone! (Part 1 of 3)",
+    "path": "wiki/talks/2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-1-of-3.md"
+  },
+  {
+    "id": "2026-06-29-eugene-yan-using-llms-to-secure-source-code",
+    "title": "Using LLMs to Secure Source Code",
+    "path": "wiki/talks/2026-06-29-eugene-yan-using-llms-to-secure-source-code.md"
+  },
+  {
+    "id": "2026-06-29-paula-dozsa-tolan-voice-first-ai-companion",
+    "title": "Tolan: Voice-First AI Companion",
+    "path": "wiki/talks/2026-06-29-paula-dozsa-tolan-voice-first-ai-companion.md"
+  },
+  {
+    "id": "2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt1",
+    "title": "From approval loops to autonomous agents with Docker pt1",
+    "path": "wiki/talks/2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt1.md"
+  },
+  {
+    "id": "2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering",
+    "title": "The Dirty Secret of Forward Deployed Engineering",
+    "path": "wiki/talks/2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering.md"
+  },
+  {
+    "id": "2026-06-29-varun-singh-the-base-model-is-dead",
+    "title": "The Base Model is Dead",
+    "path": "wiki/talks/2026-06-29-varun-singh-the-base-model-is-dead.md"
+  },
+  {
+    "id": "2026-06-29-salil-subbakrishna-modernize-ci-cd-using-agent-assisted-workflows-that-reduce-manual-debugging",
+    "title": "Modernize CI/CD using agent-assisted workflows that reduce manual debugging",
+    "path": "wiki/talks/2026-06-29-salil-subbakrishna-modernize-ci-cd-using-agent-assisted-workflows-that-reduce-manual-debugging.md"
+  },
+  {
+    "id": "2026-06-29-andrew-orobator-spin-at-the-gate-until-green-the-engineering-primitives-behind-self-driving-codebases",
+    "title": "Spin at the Gate Until Green: The Engineering Primitives Behind Self-Driving Codebases",
+    "path": "wiki/talks/2026-06-29-andrew-orobator-spin-at-the-gate-until-green-the-engineering-primitives-behind-self-driving-codebases.md"
+  },
+  {
+    "id": "2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub",
+    "title": "Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub",
+    "path": "wiki/talks/2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub.md"
+  },
+  {
+    "id": "2026-06-29-vlad-luzin-every-agent-everywhere-all-at-once",
+    "title": "Every Agent, Everywhere, All at Once",
+    "path": "wiki/talks/2026-06-29-vlad-luzin-every-agent-everywhere-all-at-once.md"
+  },
+  {
+    "id": "2026-06-29-felipe-blanes-designing-evals-that-earn-user-trust",
+    "title": "Designing Evals That Earn User Trust",
+    "path": "wiki/talks/2026-06-29-felipe-blanes-designing-evals-that-earn-user-trust.md"
+  },
+  {
+    "id": "2026-06-29-greg-pstrucha-stop-prompting",
+    "title": "Stop prompting",
+    "path": "wiki/talks/2026-06-29-greg-pstrucha-stop-prompting.md"
+  },
+  {
+    "id": "2026-06-29-zach-lloyd-self-improving-software-factories-the-new-open-source-model",
+    "title": "Self-Improving software factories: The new open source model\"",
+    "path": "wiki/talks/2026-06-29-zach-lloyd-self-improving-software-factories-the-new-open-source-model.md"
+  },
+  {
+    "id": "2026-06-29-lance-martin-claude-for-long-horizon-tasks",
+    "title": "Claude for long-horizon tasks",
+    "path": "wiki/talks/2026-06-29-lance-martin-claude-for-long-horizon-tasks.md"
+  },
+  {
+    "id": "2026-06-29-andrew-dai-the-best-models-still-reason-like-toddlers",
+    "title": "The Best Models Still Reason Like Toddlers",
+    "path": "wiki/talks/2026-06-29-andrew-dai-the-best-models-still-reason-like-toddlers.md"
+  },
+  {
+    "id": "2026-06-29-hiral-shah-your-agreements-are-a-database-you-can-t-query-we-re-fixing-that",
+    "title": "Your Agreements Are a Database You Can't Query. We're Fixing That",
+    "path": "wiki/talks/2026-06-29-hiral-shah-your-agreements-are-a-database-you-can-t-query-we-re-fixing-that.md"
+  },
+  {
+    "id": "2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-2-of-3",
+    "title": "Everybody Gets a Digital Clone! (Part 2 of 3)",
+    "path": "wiki/talks/2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-2-of-3.md"
+  },
+  {
+    "id": "2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer",
+    "title": "Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer",
+    "path": "wiki/talks/2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer.md"
+  },
+  {
+    "id": "2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one",
+    "title": "5 Voice Agent Failure Modes You'll Hit in Week One",
+    "path": "wiki/talks/2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one.md"
+  },
+  {
+    "id": "2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt2",
+    "title": "From approval loops to autonomous agents with Docker pt2",
+    "path": "wiki/talks/2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt2.md"
+  },
+  {
+    "id": "2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon",
+    "title": "How Forward Deployed Engineering is done at Decagon",
+    "path": "wiki/talks/2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon.md"
+  },
+  {
+    "id": "2026-06-29-thais-castello-branco-ending-ai-slop",
+    "title": "Ending AI Slop",
+    "path": "wiki/talks/2026-06-29-thais-castello-branco-ending-ai-slop.md"
+  },
+  {
+    "id": "2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale",
+    "title": "AI Evals Platform for Cross-Functional Teams at Scale",
+    "path": "wiki/talks/2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale.md"
+  },
+  {
+    "id": "2026-06-29-sarthak-aggarwal-it-admin-for-the-ai-workforce-why-your-ai-agents-will-need-their-own-it-department",
+    "title": "IT Admin for the AI Workforce: Why Your AI Agents Will Need Their Own IT Department",
+    "path": "wiki/talks/2026-06-29-sarthak-aggarwal-it-admin-for-the-ai-workforce-why-your-ai-agents-will-need-their-own-it-department.md"
+  },
+  {
+    "id": "2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer",
+    "title": "Who Approved That MCP Server? Governing the Tool Layer",
+    "path": "wiki/talks/2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer.md"
+  },
+  {
+    "id": "2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them",
+    "title": "Voice Agents Are Mostly Invisible. Here's How to See Them.",
+    "path": "wiki/talks/2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them.md"
+  },
+  {
+    "id": "2026-06-29-session-what-we-learned-by-analyzing-1m-ai-generated-prs",
+    "title": "what we learned by analyzing 1M AI generated PRs",
+    "path": "wiki/talks/2026-06-29-session-what-we-learned-by-analyzing-1m-ai-generated-prs.md"
+  },
+  {
+    "id": "2026-06-29-derek-meegan-deploying-browser-agents-at-scale",
+    "title": "Deploying browser agents at scale",
+    "path": "wiki/talks/2026-06-29-derek-meegan-deploying-browser-agents-at-scale.md"
+  },
+  {
+    "id": "2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be",
+    "title": "We're the bottleneck, but we don't have to be",
+    "path": "wiki/talks/2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be.md"
+  },
+  {
+    "id": "2026-06-29-karan-vaidya-from-coding-to-knowledge-work-agents",
+    "title": "From coding to Knowledge work agents",
+    "path": "wiki/talks/2026-06-29-karan-vaidya-from-coding-to-knowledge-work-agents.md"
+  },
+  {
+    "id": "2026-06-29-cody-menefee-you-re-not-thinking-big-enough-rebuilding-food-systems-from-first-principles-with-ai-agents",
+    "title": "You’re Not Thinking Big Enough: Rebuilding Food Systems from First Principles with AI Agents",
+    "path": "wiki/talks/2026-06-29-cody-menefee-you-re-not-thinking-big-enough-rebuilding-food-systems-from-first-principles-with-ai-agents.md"
+  },
+  {
+    "id": "2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents",
+    "title": "How to Connect AI to Billions of Legal Documents",
+    "path": "wiki/talks/2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents.md"
+  },
+  {
+    "id": "2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-3-of-3",
+    "title": "Everybody Gets a Digital Clone! (Part 3 of 3)",
+    "path": "wiki/talks/2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-3-of-3.md"
+  },
+  {
+    "id": "2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain",
+    "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+    "path": "wiki/talks/2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain.md"
+  },
+  {
+    "id": "2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more",
+    "title": "I Monitored Crime Audio. Voice Agents Scare Me More.",
+    "path": "wiki/talks/2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more.md"
+  },
+  {
+    "id": "2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt3",
+    "title": "From approval loops to autonomous agents with Docker pt3",
+    "path": "wiki/talks/2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt3.md"
+  },
+  {
+    "id": "2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp",
+    "title": "How Forward Deployed Engineering is done at Ramp",
+    "path": "wiki/talks/2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp.md"
+  },
+  {
+    "id": "2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute",
+    "title": "Scaling to Long-Horizons: Algorithms, Environments, Compute",
+    "path": "wiki/talks/2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute.md"
+  },
+  {
+    "id": "2026-06-29-maria-bledsoe-using-ai-tools-to-teach-old-apps-new-tricks",
+    "title": "Using AI tools to teach old apps new tricks",
+    "path": "wiki/talks/2026-06-29-maria-bledsoe-using-ai-tools-to-teach-old-apps-new-tricks.md"
+  },
+  {
+    "id": "2026-06-29-kanish-manuja-productionizing-llm-gateways-architecture-tradeoffs-and-hard-lessons-from-the-trenches",
+    "title": "Productionizing LLM Gateways: Architecture, Tradeoffs, and Hard Lessons from the Trenches",
+    "path": "wiki/talks/2026-06-29-kanish-manuja-productionizing-llm-gateways-architecture-tradeoffs-and-hard-lessons-from-the-trenches.md"
+  },
+  {
+    "id": "2026-06-29-kieran-klaassen-the-era-of-compound-engineering",
+    "title": "The Era of Compound Engineering",
+    "path": "wiki/talks/2026-06-29-kieran-klaassen-the-era-of-compound-engineering.md"
+  },
+  {
+    "id": "2026-06-29-marina-petzel-beyond-golden-signals-monitoring-in-the-age-of-genai",
+    "title": "Beyond Golden Signals: Monitoring in the Age of GenAI",
+    "path": "wiki/talks/2026-06-29-marina-petzel-beyond-golden-signals-monitoring-in-the-age-of-genai.md"
+  },
+  {
+    "id": "2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app-2-25pm-2-45pm-expo-stage-2-nw-176",
+    "title": "Build agents fast with GitHub Copilot (from idea to working app)",
+    "path": "wiki/talks/2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app-2-25pm-2-45pm-expo-stage-2-nw-176.md"
+  },
+  {
+    "id": "2026-06-29-jeff-ng-building-agents-is-trivial-now-context-is-the-next-frontier",
+    "title": "Building agents is trivial now, context is the next frontier",
+    "path": "wiki/talks/2026-06-29-jeff-ng-building-agents-is-trivial-now-context-is-the-next-frontier.md"
+  },
+  {
+    "id": "2026-06-29-session-continuous-engineering-software-development-for-the-age-of-agents",
+    "title": "Continuous Engineering: Software Development for the Age of Agents",
+    "path": "wiki/talks/2026-06-29-session-continuous-engineering-software-development-for-the-age-of-agents.md"
+  },
+  {
+    "id": "2026-06-29-sarah-sachs-notion-s-token-town",
+    "title": "Notion's Token Town",
+    "path": "wiki/talks/2026-06-29-sarah-sachs-notion-s-token-town.md"
+  },
+  {
+    "id": "2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves",
+    "title": "Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.",
+    "path": "wiki/talks/2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves.md"
+  },
+  {
+    "id": "2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents",
+    "title": "From VLM/VLA's to Embodied Agents",
+    "path": "wiki/talks/2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents.md"
+  },
+  {
+    "id": "2026-06-29-maximilian-david-rumpf-where-rl-will-take-search",
+    "title": "Where RL Will Take Search",
+    "path": "wiki/talks/2026-06-29-maximilian-david-rumpf-where-rl-will-take-search.md"
+  },
+  {
+    "id": "2026-06-29-jason-liu-setting-yourself-up-for-success-part-1",
+    "title": "Setting Yourself Up for Success — Part 1",
+    "path": "wiki/talks/2026-06-29-jason-liu-setting-yourself-up-for-success-part-1.md"
+  },
+  {
+    "id": "2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are",
+    "title": "It's 10pm. Do You Know Where Your Agents Are?",
+    "path": "wiki/talks/2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are.md"
+  },
+  {
+    "id": "2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence",
+    "title": "Realtime Voice Agents with Frontier Intelligence",
+    "path": "wiki/talks/2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence.md"
+  },
+  {
+    "id": "2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt4",
+    "title": "From approval loops to autonomous agents with Docker pt4",
+    "path": "wiki/talks/2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt4.md"
+  },
+  {
+    "id": "2026-06-29-kevin-bai-forward-deployed-engineering-101",
+    "title": "Forward Deployed Engineering 101",
+    "path": "wiki/talks/2026-06-29-kevin-bai-forward-deployed-engineering-101.md"
+  },
+  {
+    "id": "2026-06-29-nick-heiner-when-will-the-benchmaxxing-plague-end",
+    "title": "When Will The Benchmaxxing Plague End?",
+    "path": "wiki/talks/2026-06-29-nick-heiner-when-will-the-benchmaxxing-plague-end.md"
+  },
+  {
+    "id": "2026-06-29-clare-liguori-from-ai-assisted-to-ai-native-building-a-frontier-development-team",
+    "title": "From AI-Assisted to AI-Native: Building a Frontier Development Team",
+    "path": "wiki/talks/2026-06-29-clare-liguori-from-ai-assisted-to-ai-native-building-a-frontier-development-team.md"
+  },
+  {
+    "id": "2026-06-29-niels-rogge-how-i-automate-my-own-job-at-hugging-face-using-agents",
+    "title": "How I automate my own job at Hugging Face using agents",
+    "path": "wiki/talks/2026-06-29-niels-rogge-how-i-automate-my-own-job-at-hugging-face-using-agents.md"
+  },
+  {
+    "id": "2026-06-29-varun-krovvidi-6-pillars-of-an-agentic-harness-that-fixes-production-incidents",
+    "title": "6 Pillars of an Agentic Harness That Fixes Production Incidents",
+    "path": "wiki/talks/2026-06-29-varun-krovvidi-6-pillars-of-an-agentic-harness-that-fixes-production-incidents.md"
+  },
+  {
+    "id": "2026-06-29-rafael-levi-video-discovery-for-agentic-world-model-training",
+    "title": "Video Discovery for Agentic World-Model Training",
+    "path": "wiki/talks/2026-06-29-rafael-levi-video-discovery-for-agentic-world-model-training.md"
+  },
+  {
+    "id": "2026-06-29-session-self-driving-production-ai-wrote-your-code-ai-should-fix-it-too",
+    "title": "Self-Driving Production: AI Wrote your Code. AI Should Fix It, Too",
+    "path": "wiki/talks/2026-06-29-session-self-driving-production-ai-wrote-your-code-ai-should-fix-it-too.md"
+  },
+  {
+    "id": "2026-06-29-vaibhav-gupta-fighting-slop-with-slop",
+    "title": "fighting slop with slop",
+    "path": "wiki/talks/2026-06-29-vaibhav-gupta-fighting-slop-with-slop.md"
+  },
+  {
+    "id": "2026-06-29-sam-bhagwat-every-harness-will-become-a-claw",
+    "title": "Every Harness Will Become A Claw",
+    "path": "wiki/talks/2026-06-29-sam-bhagwat-every-harness-will-become-a-claw.md"
+  },
+  {
+    "id": "2026-06-29-krishna-prasad-srinivasan-from-scratch-to-sota-training-a-3b-state-space-vision-model-for-1-4-billion-people",
+    "title": "From Scratch to SOTA: Training a 3B State-Space Vision Model for 1.4 Billion People",
+    "path": "wiki/talks/2026-06-29-krishna-prasad-srinivasan-from-scratch-to-sota-training-a-3b-state-space-vision-model-for-1-4-billion-people.md"
+  },
+  {
+    "id": "2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022",
+    "title": "Stop Chunking Like It's 2022",
+    "path": "wiki/talks/2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022.md"
+  },
+  {
+    "id": "2026-06-29-jason-liu-setting-yourself-up-for-success-part-2",
+    "title": "Setting Yourself Up for Success — Part 2",
+    "path": "wiki/talks/2026-06-29-jason-liu-setting-yourself-up-for-success-part-2.md"
+  },
+  {
+    "id": "2026-06-29-aaron-stanley-ai-s-jurassic-park-period",
+    "title": "AI’s Jurassic Park Period",
+    "path": "wiki/talks/2026-06-29-aaron-stanley-ai-s-jurassic-park-period.md"
+  },
+  {
+    "id": "2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents",
+    "title": "\"My name is... my name is...\": A Linguistic Map for Building and Debugging Voice Agents",
+    "path": "wiki/talks/2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents.md"
+  },
+  {
+    "id": "2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt5",
+    "title": "From approval loops to autonomous agents with Docker pt5",
+    "path": "wiki/talks/2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker-pt5.md"
+  },
+  {
+    "id": "2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler",
+    "title": "How Forward Deployed Engineering is done at Kepler",
+    "path": "wiki/talks/2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler.md"
+  },
+  {
+    "id": "2026-06-29-nicolai-ouporov-building-worlds-for-models",
+    "title": "Building Worlds for Models",
+    "path": "wiki/talks/2026-06-29-nicolai-ouporov-building-worlds-for-models.md"
+  },
+  {
+    "id": "2026-06-29-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people",
+    "title": "Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People",
+    "path": "wiki/talks/2026-06-29-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people.md"
+  },
+  {
+    "id": "2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage",
+    "title": "How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage)",
+    "path": "wiki/talks/2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage.md"
+  },
+  {
+    "id": "2026-06-29-dan-bjornn-your-fine-tuned-model-is-tech-debt-a-50x-roi-house-of-cards",
+    "title": "Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards",
+    "path": "wiki/talks/2026-06-29-dan-bjornn-your-fine-tuned-model-is-tech-debt-a-50x-roi-house-of-cards.md"
+  },
+  {
+    "id": "2026-06-29-thor-schaeff-can-your-agent-hear-you-now",
+    "title": "Can Your Agent Hear You Now?",
+    "path": "wiki/talks/2026-06-29-thor-schaeff-can-your-agent-hear-you-now.md"
+  },
+  {
+    "id": "2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer",
+    "title": "From Context to Memory: Your Agents Need a Real Memory Layer",
+    "path": "wiki/talks/2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer.md"
+  },
+  {
+    "id": "2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production",
+    "title": "Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production",
+    "path": "wiki/talks/2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production.md"
+  },
+  {
+    "id": "2026-06-29-leo-platzer-from-raw-documents-to-ai-ready-data",
+    "title": "From raw documents to AI-ready data",
+    "path": "wiki/talks/2026-06-29-leo-platzer-from-raw-documents-to-ai-ready-data.md"
+  },
+  {
+    "id": "2026-06-29-kyle-mistele-loop-engineering-from-first-principles",
+    "title": "Loop Engineering from first principles",
+    "path": "wiki/talks/2026-06-29-kyle-mistele-loop-engineering-from-first-principles.md"
+  },
+  {
+    "id": "2026-06-29-kenton-varda-gadgets-personal-app-vibe-coding-that-is-actually-safe",
+    "title": "Gadgets: Personal app vibe coding that is actually safe",
+    "path": "wiki/talks/2026-06-29-kenton-varda-gadgets-personal-app-vibe-coding-that-is-actually-safe.md"
+  },
+  {
+    "id": "2026-06-29-jason-liu-setting-yourself-up-for-success-part-3",
+    "title": "Setting Yourself Up for Success — Part 3",
+    "path": "wiki/talks/2026-06-29-jason-liu-setting-yourself-up-for-success-part-3.md"
+  },
+  {
+    "id": "2026-06-29-ethan-sutin-secure-cloud-compute",
+    "title": "Secure Cloud Compute",
+    "path": "wiki/talks/2026-06-29-ethan-sutin-secure-cloud-compute.md"
+  },
+  {
+    "id": "2026-06-29-amit-desai-act-confirm-or-stop-smarter-behavior-for-ai-assistants-wearables-and-robots",
+    "title": "Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots",
+    "path": "wiki/talks/2026-06-29-amit-desai-act-confirm-or-stop-smarter-behavior-for-ai-assistants-wearables-and-robots.md"
+  },
+  {
+    "id": "2026-06-29-mahesh-sathiamoorthy-data-and-environment-curation-for-post-training-llms",
+    "title": "Data and Environment Curation for Post-training LLMs",
+    "path": "wiki/talks/2026-06-29-mahesh-sathiamoorthy-data-and-environment-curation-for-post-training-llms.md"
+  },
+  {
+    "id": "2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems",
+    "title": "Unlock Agent Autonomy: The Runtime for AI-Native Systems",
+    "path": "wiki/talks/2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems.md"
+  },
+  {
+    "id": "2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli",
+    "title": "How We Built the Airbyte Agent MCP Server and CLI",
+    "path": "wiki/talks/2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli.md"
+  },
+  {
+    "id": "2026-06-29-abhi-arya-from-chatbots-to-agents-how-reducto-builds-for-agent-experience-to-enable-real-work",
+    "title": "From Chatbots to Agents: How Reducto builds for Agent Experience to Enable Real Work",
+    "path": "wiki/talks/2026-06-29-abhi-arya-from-chatbots-to-agents-how-reducto-builds-for-agent-experience-to-enable-real-work.md"
+  },
+  {
+    "id": "2026-06-29-charlie-dickens-towards-reliable-financial-agents-how-a-4b-model-outsmarted-a-235b-giant",
+    "title": "Towards Reliable Financial Agents: How a 4B Model Outsmarted a 235B Giant",
+    "path": "wiki/talks/2026-06-29-charlie-dickens-towards-reliable-financial-agents-how-a-4b-model-outsmarted-a-235b-giant.md"
+  },
+  {
+    "id": "2026-06-29-em-shreve-ai-enablement-at-automattic-how-a-remote-company-builds-ai-fluency",
+    "title": "AI Enablement at Automattic: How a Remote Company Builds AI Fluency",
+    "path": "wiki/talks/2026-06-29-em-shreve-ai-enablement-at-automattic-how-a-remote-company-builds-ai-fluency.md"
+  },
+  {
+    "id": "2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail",
+    "title": "Harness Engineering is not Enough: Why Software Factories Fail",
+    "path": "wiki/talks/2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail.md"
+  },
+  {
+    "id": "2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust",
+    "title": "In Code They Act, In Proof We Trust",
+    "path": "wiki/talks/2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust.md"
+  },
+  {
+    "id": "2026-06-29-lee-robinson-recursive-model-improvement",
+    "title": "Recursive Model Improvement",
+    "path": "wiki/talks/2026-06-29-lee-robinson-recursive-model-improvement.md"
+  },
+  {
+    "id": "2026-06-30-thariq-shihipar-field-guide-to-fable",
+    "title": "Field Guide to Fable",
+    "path": "wiki/talks/2026-06-30-thariq-shihipar-field-guide-to-fable.md"
+  },
+  {
+    "id": "2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king",
+    "title": "In the Land of AI Agents, the Verifiers Are King",
+    "path": "wiki/talks/2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king.md"
+  },
+  {
+    "id": "2026-06-30-antje-barth-perception-agents",
+    "title": "Perception Agents",
+    "path": "wiki/talks/2026-06-30-antje-barth-perception-agents.md"
+  },
+  {
+    "id": "2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind",
+    "title": "Research to Reality with Google DeepMind",
+    "path": "wiki/talks/2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind.md"
+  },
+  {
+    "id": "2026-06-30-laurie-voss-evals-track-intro",
+    "title": "Evals Track Intro",
+    "path": "wiki/talks/2026-06-30-laurie-voss-evals-track-intro.md"
+  },
+  {
+    "id": "2026-06-30-richard-socher-first-steps-toward-automated-ai-research",
+    "title": "First Steps Toward Automated AI Research",
+    "path": "wiki/talks/2026-06-30-richard-socher-first-steps-toward-automated-ai-research.md"
+  },
+  {
+    "id": "2026-06-30-adam-azzam-don-t-build-agents-build-environments",
+    "title": "Don’t build agents, build environments",
+    "path": "wiki/talks/2026-06-30-adam-azzam-don-t-build-agents-build-environments.md"
+  },
+  {
+    "id": "2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use",
+    "title": "Building the simulation infrastructure for practical world model use",
+    "path": "wiki/talks/2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use.md"
+  },
+  {
+    "id": "2026-06-30-parth-asawa-beyond-static-intelligence-evaluating-continual-learning",
+    "title": "Beyond Static Intelligence: Evaluating Continual Learning",
+    "path": "wiki/talks/2026-06-30-parth-asawa-beyond-static-intelligence-evaluating-continual-learning.md"
+  },
+  {
+    "id": "2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live",
+    "title": "Build realtime multimodal agents with Gemini Live",
+    "path": "wiki/talks/2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live.md"
+  },
+  {
+    "id": "2026-06-30-lukas-petersson-vending-bench-long-horizon-agent-evals-for-a-simulated-vending-business",
+    "title": "Vending-Bench: Long-Horizon Agent Evals for a Simulated Vending Business",
+    "path": "wiki/talks/2026-06-30-lukas-petersson-vending-bench-long-horizon-agent-evals-for-a-simulated-vending-business.md"
+  },
+  {
+    "id": "2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck",
+    "title": "Understanding is the new bottleneck",
+    "path": "wiki/talks/2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck.md"
+  },
+  {
+    "id": "2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis",
+    "title": "Computer-use models will agentify the web, not APIs",
+    "path": "wiki/talks/2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis.md"
+  },
+  {
+    "id": "2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production",
+    "title": "Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production",
+    "path": "wiki/talks/2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production.md"
+  },
+  {
+    "id": "2026-06-30-diogo-almeida-what-s-next-after-rlhf",
+    "title": "What's next after RLHF?",
+    "path": "wiki/talks/2026-06-30-diogo-almeida-what-s-next-after-rlhf.md"
+  },
+  {
+    "id": "2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service",
+    "title": "From framework to runtime: running agents with Foundry Agent Service",
+    "path": "wiki/talks/2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service.md"
+  },
+  {
+    "id": "2026-06-30-varun-shenoy-how-do-you-diffuse-ai-into-the-real-world",
+    "title": "How do you diffuse AI into the real world?",
+    "path": "wiki/talks/2026-06-30-varun-shenoy-how-do-you-diffuse-ai-into-the-real-world.md"
+  },
+  {
+    "id": "2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code",
+    "title": "The Z/L Continuum: Should AI Engineers Still Read Code?",
+    "path": "wiki/talks/2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code.md"
+  },
+  {
+    "id": "2026-06-30-wallon-walusayi-ai-engineering-and-governance-2026-trends",
+    "title": "AI Engineering & Governance 2026 Trends",
+    "path": "wiki/talks/2026-06-30-wallon-walusayi-ai-engineering-and-governance-2026-trends.md"
+  },
+  {
+    "id": "2026-06-30-gabriel-spencer-harper-why-ai-didn-t-actually-make-you-ship-faster",
+    "title": "Why AI Didn't Actually Make You Ship Faster",
+    "path": "wiki/talks/2026-06-30-gabriel-spencer-harper-why-ai-didn-t-actually-make-you-ship-faster.md"
+  },
+  {
+    "id": "2026-06-30-tbd-sonar-redesigning-how-software-gets-built",
+    "title": "Redesigning how software gets built",
+    "path": "wiki/talks/2026-06-30-tbd-sonar-redesigning-how-software-gets-built.md"
+  },
+  {
+    "id": "2026-06-30-martin-harrysson-tokenomics-from-ai-spend-to-ai-value",
+    "title": "Tokenomics: From AI Spend to AI Value",
+    "path": "wiki/talks/2026-06-30-martin-harrysson-tokenomics-from-ai-spend-to-ai-value.md"
+  },
+  {
+    "id": "2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models",
+    "title": "Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models",
+    "path": "wiki/talks/2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models.md"
+  },
+  {
+    "id": "2026-06-30-shashank-goyal-letting-the-interns-loose-how-we-accelerated-ai-adoption",
+    "title": "Letting the Interns Loose — How We Accelerated AI Adoption.",
+    "path": "wiki/talks/2026-06-30-shashank-goyal-letting-the-interns-loose-how-we-accelerated-ai-adoption.md"
+  },
+  {
+    "id": "2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2",
+    "title": "Building the simulation infrastructure for practical world model use (Part 2)",
+    "path": "wiki/talks/2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2.md"
+  },
+  {
+    "id": "2026-06-30-ronak-malde-scaling-up-continual-learning",
+    "title": "Scaling up Continual Learning",
+    "path": "wiki/talks/2026-06-30-ronak-malde-scaling-up-continual-learning.md"
+  },
+  {
+    "id": "2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-2",
+    "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+    "path": "wiki/talks/2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-2.md"
+  },
+  {
+    "id": "2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent",
+    "title": "From Signal to PR: Anatomy of a Self-Improving Agent",
+    "path": "wiki/talks/2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent.md"
+  },
+  {
+    "id": "2026-06-30-max-drake-the-spatial-harness-bringing-agents-to-the-canvas",
+    "title": "The Spatial Harness: Bringing Agents to the Canvas",
+    "path": "wiki/talks/2026-06-30-max-drake-the-spatial-harness-bringing-agents-to-the-canvas.md"
+  },
+  {
+    "id": "2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice",
+    "title": "Computer Use at the Edge of the Statistical Precipice",
+    "path": "wiki/talks/2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice.md"
+  },
+  {
+    "id": "2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different",
+    "title": "It’s Tokens All The Way Down: How RLMs are Different",
+    "path": "wiki/talks/2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different.md"
+  },
+  {
+    "id": "2026-06-30-sean-cai-state-of-data",
+    "title": "State of Data",
+    "path": "wiki/talks/2026-06-30-sean-cai-state-of-data.md"
+  },
+  {
+    "id": "2026-06-30-andrew-garvin-how-to-avoid-disaster-when-vibe-coding-a-billing-engine",
+    "title": "How to avoid disaster when vibe-coding a billing engine",
+    "path": "wiki/talks/2026-06-30-andrew-garvin-how-to-avoid-disaster-when-vibe-coding-a-billing-engine.md"
+  },
+  {
+    "id": "2026-06-30-vlad-luzin-is-orchestration-the-future",
+    "title": "Is Orchestration the Future?",
+    "path": "wiki/talks/2026-06-30-vlad-luzin-is-orchestration-the-future.md"
+  },
+  {
+    "id": "2026-06-30-viren-baraiya-harnessing-agents-the-durable-runtime-for-dynamic-workflows",
+    "title": "Harnessing Agents: The Durable Runtime for Dynamic Workflows",
+    "path": "wiki/talks/2026-06-30-viren-baraiya-harnessing-agents-the-durable-runtime-for-dynamic-workflows.md"
+  },
+  {
+    "id": "2026-06-30-justin-reock-ai-assisted-engineering-5-trends-we-re-seeing-from-500-organizations",
+    "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+    "path": "wiki/talks/2026-06-30-justin-reock-ai-assisted-engineering-5-trends-we-re-seeing-from-500-organizations.md"
+  },
+  {
+    "id": "2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs",
+    "title": "The Death of Keyword Search and the Rise of Agent-Readable Catalogs",
+    "path": "wiki/talks/2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs.md"
+  },
+  {
+    "id": "2026-06-30-matt-lawler-fde-playbook-build-an-ai-support-agent-and-give-it-a-voice",
+    "title": "FDE Playbook: Build an AI Support Agent and Give It a Voice",
+    "path": "wiki/talks/2026-06-30-matt-lawler-fde-playbook-build-an-ai-support-agent-and-give-it-a-voice.md"
+  },
+  {
+    "id": "2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents",
+    "title": "Memory Harnesses for Long-Running Research Agents",
+    "path": "wiki/talks/2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents.md"
+  },
+  {
+    "id": "2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox",
+    "title": "Kubernetes Is Not Your Sandbox",
+    "path": "wiki/talks/2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox.md"
+  },
+  {
+    "id": "2026-06-30-jason-ma-commercial-grade-robots-for-real-world-usage",
+    "title": "Commercial Grade-Robots for Real World Usage",
+    "path": "wiki/talks/2026-06-30-jason-ma-commercial-grade-robots-for-real-world-usage.md"
+  },
+  {
+    "id": "2026-06-30-jack-morris-scaling-compute-on-context",
+    "title": "Scaling Compute on Context",
+    "path": "wiki/talks/2026-06-30-jack-morris-scaling-compute-on-context.md"
+  },
+  {
+    "id": "2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-3",
+    "title": "Build realtime multimodal agents with Gemini Live (continued 3)",
+    "path": "wiki/talks/2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-3.md"
+  },
+  {
+    "id": "2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale",
+    "title": "Building Closed-Loop Evals for a Multimodal Agent at Uber Scale",
+    "path": "wiki/talks/2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale.md"
+  },
+  {
+    "id": "2026-06-30-jonathan-gordon-the-design-code-roundtrip-that-isn-t",
+    "title": "The Design-Code Roundtrip That Isn't",
+    "path": "wiki/talks/2026-06-30-jonathan-gordon-the-design-code-roundtrip-that-isn-t.md"
+  },
+  {
+    "id": "2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web",
+    "title": "Bringing agents onto the world wide web",
+    "path": "wiki/talks/2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web.md"
+  },
+  {
+    "id": "2026-06-30-ajay-prakash-500-skills-zero-fine-tuning-linkedin-s-playbook-for-ai-agents-that-actually-know-your-codebase",
+    "title": "500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents That Actually Know Your Codebase",
+    "path": "wiki/talks/2026-06-30-ajay-prakash-500-skills-zero-fine-tuning-linkedin-s-playbook-for-ai-agents-that-actually-know-your-codebase.md"
+  },
+  {
+    "id": "2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers",
+    "title": "Training Frontier Models to Out-Think Hackers",
+    "path": "wiki/talks/2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers.md"
+  },
+  {
+    "id": "2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack",
+    "title": "OpenAI, Anthropic, or agent frameworks: choose the right AI stack",
+    "path": "wiki/talks/2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack.md"
+  },
+  {
+    "id": "2026-06-30-varun-pant-your-code-has-bugs-lean4-has-proofs-a-practical-guide-to-formal-verification-for-engineers",
+    "title": "Your Code Has Bugs. Lean4 Has Proofs. A Practical Guide to Formal Verification for Engineers",
+    "path": "wiki/talks/2026-06-30-varun-pant-your-code-has-bugs-lean4-has-proofs-a-practical-guide-to-formal-verification-for-engineers.md"
+  },
+  {
+    "id": "2026-06-30-ankit-jain-how-to-kill-the-code-review",
+    "title": "How to Kill the Code Review",
+    "path": "wiki/talks/2026-06-30-ankit-jain-how-to-kill-the-code-review.md"
+  },
+  {
+    "id": "2026-06-30-session-fault-tolerant-training-at-scale-making-hardware-failures-a-non-event",
+    "title": "Fault-Tolerant Training at Scale: Making Hardware Failures a Non-Event",
+    "path": "wiki/talks/2026-06-30-session-fault-tolerant-training-at-scale-making-hardware-failures-a-non-event.md"
+  },
+  {
+    "id": "2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine",
+    "title": "How to generate mergeable code with a context engine",
+    "path": "wiki/talks/2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine.md"
+  },
+  {
+    "id": "2026-06-30-session-ai-agents-don-t-read-your-policy-docs-they-hit-your-apis",
+    "title": "AI agents don't read your policy docs. They hit your APIs.",
+    "path": "wiki/talks/2026-06-30-session-ai-agents-don-t-read-your-policy-docs-they-hit-your-apis.md"
+  },
+  {
+    "id": "2026-06-30-elie-bakouch-the-era-of-auto-research",
+    "title": "« the era of (auto) research »",
+    "path": "wiki/talks/2026-06-30-elie-bakouch-the-era-of-auto-research.md"
+  },
+  {
+    "id": "2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert",
+    "title": "Your agent needs a sandbox, not a desert",
+    "path": "wiki/talks/2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert.md"
+  },
+  {
+    "id": "2026-06-30-yu-su-intelligence-continual-learning-expertise",
+    "title": "Intelligence + Continual Learning = Expertise",
+    "path": "wiki/talks/2026-06-30-yu-su-intelligence-continual-learning-expertise.md"
+  },
+  {
+    "id": "2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-4",
+    "title": "Build realtime multimodal agents with Gemini Live (continued 4)",
+    "path": "wiki/talks/2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-4.md"
+  },
+  {
+    "id": "2026-06-30-rustem-feyzkhanov-from-agent-traces-to-agent-simulations-the-next-era-of-agent-evaluation",
+    "title": "From Agent Traces to Agent Simulations: The next era of agent evaluation",
+    "path": "wiki/talks/2026-06-30-rustem-feyzkhanov-from-agent-traces-to-agent-simulations-the-next-era-of-agent-evaluation.md"
+  },
+  {
+    "id": "2026-06-30-maximillian-piras-mousepower-agents-that-can-t-be-measured-can-t-be-managed",
+    "title": "Mousepower: agents that can’t be measured, can’t be managed.",
+    "path": "wiki/talks/2026-06-30-maximillian-piras-mousepower-agents-that-can-t-be-measured-can-t-be-managed.md"
+  },
+  {
+    "id": "2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans",
+    "title": "The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans",
+    "path": "wiki/talks/2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans.md"
+  },
+  {
+    "id": "2026-06-30-brandon-waselnuk-your-agents-lack-context-here-s-how-to-fix-you-re-absolutely-right",
+    "title": "Your agents lack context: Here's how to fix \"You're absolutely right!\"",
+    "path": "wiki/talks/2026-06-30-brandon-waselnuk-your-agents-lack-context-here-s-how-to-fix-you-re-absolutely-right.md"
+  },
+  {
+    "id": "2026-06-30-raymond-feng-learning-on-the-job-the-future-of-post-training",
+    "title": "Learning on the job: the future of post-training",
+    "path": "wiki/talks/2026-06-30-raymond-feng-learning-on-the-job-the-future-of-post-training.md"
+  },
+  {
+    "id": "2026-06-30-imad-touil-ai-native-organisations-runs-on-skills-how-to-extract-structure-evaluate-and-scale-them",
+    "title": "AI-Native Organisations runs on Skills: How to Extract, Structure, evaluate and Scale Them",
+    "path": "wiki/talks/2026-06-30-imad-touil-ai-native-organisations-runs-on-skills-how-to-extract-structure-evaluate-and-scale-them.md"
+  },
+  {
+    "id": "2026-06-30-laurie-voss-the-death-of-the-code-review",
+    "title": "The Death of the Code Review",
+    "path": "wiki/talks/2026-06-30-laurie-voss-the-death-of-the-code-review.md"
+  },
+  {
+    "id": "2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months",
+    "title": "Your agent architecture has a half-life of 6 months",
+    "path": "wiki/talks/2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months.md"
+  },
+  {
+    "id": "2026-06-30-rishab-kumar-from-stateless-to-stateful-orchestrating-real-time-voice-and-messaging-agents-with-twilio-and-amazon-bedrock",
+    "title": "From Stateless to Stateful: Orchestrating Real-Time Voice & Messaging Agents with Twilio and Amazon Bedrock",
+    "path": "wiki/talks/2026-06-30-rishab-kumar-from-stateless-to-stateful-orchestrating-real-time-voice-and-messaging-agents-with-twilio-and-amazon-bedrock.md"
+  },
+  {
+    "id": "2026-06-30-james-zou-harnessing-collective-agent-intelligence-for-open-science",
+    "title": "Harnessing Collective Agent Intelligence for Open Science",
+    "path": "wiki/talks/2026-06-30-james-zou-harnessing-collective-agent-intelligence-for-open-science.md"
+  },
+  {
+    "id": "2026-06-30-anant-srivastava-prompt-memory-weights-the-architecture-decisions-most-ai-teams-make-by-accident",
+    "title": "Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident",
+    "path": "wiki/talks/2026-06-30-anant-srivastava-prompt-memory-weights-the-architecture-decisions-most-ai-teams-make-by-accident.md"
+  },
+  {
+    "id": "2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent",
+    "title": "Closing the Loop: An Autonomous AI Research Agent",
+    "path": "wiki/talks/2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent.md"
+  },
+  {
+    "id": "2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1",
+    "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1",
+    "path": "wiki/talks/2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1.md"
+  },
+  {
+    "id": "2026-06-30-xiangming-sun-unitree-building-mass-produced-humanoids",
+    "title": "Unitree: Building Mass Produced Humanoids",
+    "path": "wiki/talks/2026-06-30-xiangming-sun-unitree-building-mass-produced-humanoids.md"
+  },
+  {
+    "id": "2026-06-30-sara-hooker-adaption-labs-gradient-free-continual-learning",
+    "title": "Adaption Labs — Gradient-Free Continual Learning",
+    "path": "wiki/talks/2026-06-30-sara-hooker-adaption-labs-gradient-free-continual-learning.md"
+  },
+  {
+    "id": "2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development",
+    "title": "The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development",
+    "path": "wiki/talks/2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development.md"
+  },
+  {
+    "id": "2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior",
+    "title": "Model Whisperers: How Evals and Prompts Shape Agent Behavior",
+    "path": "wiki/talks/2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior.md"
+  },
+  {
+    "id": "2026-06-30-paul-bakaus-design-at-the-speed-of-adjectives",
+    "title": "Design at the Speed of Adjectives",
+    "path": "wiki/talks/2026-06-30-paul-bakaus-design-at-the-speed-of-adjectives.md"
+  },
+  {
+    "id": "2026-06-30-gaurav-mishra-from-rl-to-irl",
+    "title": "From RL to IRL",
+    "path": "wiki/talks/2026-06-30-gaurav-mishra-from-rl-to-irl.md"
+  },
+  {
+    "id": "2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it",
+    "title": "How long can your skills be before your agent forgets what you told it?",
+    "path": "wiki/talks/2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it.md"
+  },
+  {
+    "id": "2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards",
+    "title": "Reinforcement Learning without Verifiable Rewards",
+    "path": "wiki/talks/2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards.md"
+  },
+  {
+    "id": "2026-06-30-ben-kus-the-half-life-of-agent-infrastructure",
+    "title": "The Half Life of Agent Infrastructure",
+    "path": "wiki/talks/2026-06-30-ben-kus-the-half-life-of-agent-infrastructure.md"
+  },
+  {
+    "id": "2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code",
+    "title": "Tokenmaxxing is the New \"Lines of Code\"",
+    "path": "wiki/talks/2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code.md"
+  },
+  {
+    "id": "2026-06-30-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people",
+    "title": "Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People",
+    "path": "wiki/talks/2026-06-30-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people.md"
+  },
+  {
+    "id": "2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox",
+    "title": "Why Agents Should Have Their Own Sandbox",
+    "path": "wiki/talks/2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox.md"
+  },
+  {
+    "id": "2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge",
+    "title": "An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge",
+    "path": "wiki/talks/2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge.md"
+  },
+  {
+    "id": "2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2",
+    "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2",
+    "path": "wiki/talks/2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2.md"
+  },
+  {
+    "id": "2026-06-30-deepak-pathak-frontier-robotics-research",
+    "title": "Frontier Robotics Research",
+    "path": "wiki/talks/2026-06-30-deepak-pathak-frontier-robotics-research.md"
+  },
+  {
+    "id": "2026-06-30-vivek-trivedy-improving-agents-is-a-data-mining-problem",
+    "title": "Improving Agents is a Data Mining Problem",
+    "path": "wiki/talks/2026-06-30-vivek-trivedy-improving-agents-is-a-data-mining-problem.md"
+  },
+  {
+    "id": "2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-2",
+    "title": "The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 2)",
+    "path": "wiki/talks/2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-2.md"
+  },
+  {
+    "id": "2026-06-30-maor-bril-evaling-video-slop",
+    "title": "Evaling Video Slop",
+    "path": "wiki/talks/2026-06-30-maor-bril-evaling-video-slop.md"
+  },
+  {
+    "id": "2026-06-30-thais-castello-branco-training-taste",
+    "title": "Training Taste",
+    "path": "wiki/talks/2026-06-30-thais-castello-branco-training-taste.md"
+  },
+  {
+    "id": "2026-06-30-omer-primor-the-rise-of-caas-context-as-a-service-for-agentic-ai",
+    "title": "The Rise of CaaS: Context-as-a-Service for Agentic AI",
+    "path": "wiki/talks/2026-06-30-omer-primor-the-rise-of-caas-context-as-a-service-for-agentic-ai.md"
+  },
+  {
+    "id": "2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents",
+    "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents",
+    "path": "wiki/talks/2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents.md"
+  },
+  {
+    "id": "2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies",
+    "title": "Emulated: The data for fully autonomous software engineers and companies",
+    "path": "wiki/talks/2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies.md"
+  },
+  {
+    "id": "2026-06-30-rachna-srivastava-guardians-of-the-state-how-we-built-an-air-gapped-ai-fortress-for-consumer-data",
+    "title": "Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data",
+    "path": "wiki/talks/2026-06-30-rachna-srivastava-guardians-of-the-state-how-we-built-an-air-gapped-ai-fortress-for-consumer-data.md"
+  },
+  {
+    "id": "2026-06-30-matthew-jewkes-engineering-agency-out-of-the-happy-path",
+    "title": "Engineering Agency out of the Happy Path",
+    "path": "wiki/talks/2026-06-30-matthew-jewkes-engineering-agency-out-of-the-happy-path.md"
+  },
+  {
+    "id": "2026-06-30-thorsten-hans-edge-native-ai-building-ultra-fast-agents-and-mcp-servers-with-spin",
+    "title": "Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin",
+    "path": "wiki/talks/2026-06-30-thorsten-hans-edge-native-ai-building-ultra-fast-agents-and-mcp-servers-with-spin.md"
+  },
+  {
+    "id": "2026-06-30-gil-feig-why-your-company-needs-a-context-graph-and-how-to-build-it",
+    "title": "Why your company needs a context graph, and how to build it",
+    "path": "wiki/talks/2026-06-30-gil-feig-why-your-company-needs-a-context-graph-and-how-to-build-it.md"
+  },
+  {
+    "id": "2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories",
+    "title": "Warp: Building Self-Improving Agent Software Factories",
+    "path": "wiki/talks/2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories.md"
+  },
+  {
+    "id": "2026-06-30-session-natively-multimodal-from-step-zero",
+    "title": "Natively Multimodal from Step Zero",
+    "path": "wiki/talks/2026-06-30-session-natively-multimodal-from-step-zero.md"
+  },
+  {
+    "id": "2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization",
+    "title": "Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization",
+    "path": "wiki/talks/2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization.md"
+  },
+  {
+    "id": "2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code",
+    "title": "1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code",
+    "path": "wiki/talks/2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code.md"
+  },
+  {
+    "id": "2026-06-30-suchet-bargoti-from-manual-drones-to-autonomous-multi-agent-missions",
+    "title": "From Manual Drones to Autonomous Multi-Agent Missions",
+    "path": "wiki/talks/2026-06-30-suchet-bargoti-from-manual-drones-to-autonomous-multi-agent-missions.md"
+  },
+  {
+    "id": "2026-06-30-samuel-denton-bringing-continual-learning-into-enterprises",
+    "title": "Bringing Continual Learning into Enterprises",
+    "path": "wiki/talks/2026-06-30-samuel-denton-bringing-continual-learning-into-enterprises.md"
+  },
+  {
+    "id": "2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-3",
+    "title": "The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 3)",
+    "path": "wiki/talks/2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-3.md"
+  },
+  {
+    "id": "2026-06-30-mihnea-munteanu-ask-youtube-open-q-and-a",
+    "title": "Ask YouTube — Open Q&A",
+    "path": "wiki/talks/2026-06-30-mihnea-munteanu-ask-youtube-open-q-and-a.md"
+  },
+  {
+    "id": "2026-06-30-eve-bouffard-imagination-engineering",
+    "title": "Imagination Engineering",
+    "path": "wiki/talks/2026-06-30-eve-bouffard-imagination-engineering.md"
+  },
+  {
+    "id": "2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor",
+    "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor",
+    "path": "wiki/talks/2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor.md"
+  },
+  {
+    "id": "2026-06-30-liad-yosef-mcp-apps-extending-the-frontier",
+    "title": "MCP Apps - Extending the frontier",
+    "path": "wiki/talks/2026-06-30-liad-yosef-mcp-apps-extending-the-frontier.md"
+  },
+  {
+    "id": "2026-06-30-kenny-workman-latchbio",
+    "title": "LatchBio",
+    "path": "wiki/talks/2026-06-30-kenny-workman-latchbio.md"
+  },
+  {
+    "id": "2026-06-30-marco-casalaina-power-agents-with-microsoft-iq",
+    "title": "Power agents with Microsoft IQ",
+    "path": "wiki/talks/2026-06-30-marco-casalaina-power-agents-with-microsoft-iq.md"
+  },
+  {
+    "id": "2026-06-30-mingsheng-hong-from-tokenmaxxing-to-trusted-throughput",
+    "title": "From Tokenmaxxing to Trusted Throughput",
+    "path": "wiki/talks/2026-06-30-mingsheng-hong-from-tokenmaxxing-to-trusted-throughput.md"
+  },
+  {
+    "id": "2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code",
+    "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+    "path": "wiki/talks/2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code.md"
+  },
+  {
+    "id": "2026-06-30-ronak-chokshi-power-agents-with-microsoft-iq",
+    "title": "Power agents with Microsoft IQ",
+    "path": "wiki/talks/2026-06-30-ronak-chokshi-power-agents-with-microsoft-iq.md"
+  },
+  {
+    "id": "2026-06-30-kamalakannan-nandagopal-beyond-code-generation-api-context-for-agentic-engineering",
+    "title": "Beyond Code Generation: API Context for Agentic Engineering",
+    "path": "wiki/talks/2026-06-30-kamalakannan-nandagopal-beyond-code-generation-api-context-for-agentic-engineering.md"
+  },
+  {
+    "id": "2026-06-30-jesse-hall-latency-is-a-budget-humanlike-is-the-goal",
+    "title": "Latency Is a Budget. Humanlike Is the Goal.",
+    "path": "wiki/talks/2026-06-30-jesse-hall-latency-is-a-budget-humanlike-is-the-goal.md"
+  },
+  {
+    "id": "2026-06-30-session-your-stack-has-a-latency-problem-you-can-t-see",
+    "title": "Your Stack Has a Latency Problem You Can’t See",
+    "path": "wiki/talks/2026-06-30-session-your-stack-has-a-latency-problem-you-can-t-see.md"
+  },
+  {
+    "id": "2026-06-30-tejas-bhakta-autoresearch-for-kernels",
+    "title": "Autoresearch for Kernels",
+    "path": "wiki/talks/2026-06-30-tejas-bhakta-autoresearch-for-kernels.md"
+  },
+  {
+    "id": "2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity",
+    "title": "The Next Trillion Users of the Internet Still Don't Have an Identity",
+    "path": "wiki/talks/2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity.md"
+  },
+  {
+    "id": "2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics",
+    "title": "Why Large? Tiny LMs & Agents on Edge/Robotics",
+    "path": "wiki/talks/2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics.md"
+  },
+  {
+    "id": "2026-06-30-ben-hylak-designing-agents-the-floor-is-the-frontier",
+    "title": "Designing Agents (The Floor Is the Frontier)",
+    "path": "wiki/talks/2026-06-30-ben-hylak-designing-agents-the-floor-is-the-frontier.md"
+  },
+  {
+    "id": "2026-06-30-brian-douglas-don-t-write-skills-train-models",
+    "title": "Don't Write Skills, Train Models",
+    "path": "wiki/talks/2026-06-30-brian-douglas-don-t-write-skills-train-models.md"
+  },
+  {
+    "id": "2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely",
+    "title": "Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely",
+    "path": "wiki/talks/2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely.md"
+  },
+  {
+    "id": "2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis",
+    "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+    "path": "wiki/talks/2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis.md"
+  },
+  {
+    "id": "2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research",
+    "title": "Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)",
+    "path": "wiki/talks/2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research.md"
+  },
+  {
+    "id": "2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui",
+    "title": "MCP Apps: Give the Model Data, Give the User a UI",
+    "path": "wiki/talks/2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui.md"
+  },
+  {
+    "id": "2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it",
+    "title": "Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It",
+    "path": "wiki/talks/2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it.md"
+  },
+  {
+    "id": "2026-06-30-roberto-milev-agents-are-where-microservices-were-in-2015-we-re-making-all-the-same-mistakes",
+    "title": "Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes.",
+    "path": "wiki/talks/2026-06-30-roberto-milev-agents-are-where-microservices-were-in-2015-we-re-making-all-the-same-mistakes.md"
+  },
+  {
+    "id": "2026-06-30-tom-s-hernando-kofman-intelligent-model-routing-frontier-performance-without-frontier-bills",
+    "title": "Intelligent Model Routing: Frontier Performance Without Frontier Bills",
+    "path": "wiki/talks/2026-06-30-tom-s-hernando-kofman-intelligent-model-routing-frontier-performance-without-frontier-bills.md"
+  },
+  {
+    "id": "2026-06-30-alex-campos-inference-performance-as-a-competitive-advantage",
+    "title": "Inference performance as a competitive advantage",
+    "path": "wiki/talks/2026-06-30-alex-campos-inference-performance-as-a-competitive-advantage.md"
+  },
+  {
+    "id": "2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder",
+    "title": "Building an Agent Harness for the Business, Not the Builder",
+    "path": "wiki/talks/2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder.md"
+  },
+  {
+    "id": "2026-06-30-dylan-couzon-the-frontier-is-coming-home",
+    "title": "The Frontier Is Coming Home",
+    "path": "wiki/talks/2026-06-30-dylan-couzon-the-frontier-is-coming-home.md"
+  },
+  {
+    "id": "2026-06-30-eli-cohen-continuous-offensive-security-the-only-approach-in-an-agent-first-world",
+    "title": "Continuous Offensive Security the only approach in an agent-first world",
+    "path": "wiki/talks/2026-06-30-eli-cohen-continuous-offensive-security-the-only-approach-in-an-agent-first-world.md"
+  },
+  {
+    "id": "2026-06-30-roland-gavrilescu-autoresearch-in-the-wild",
+    "title": "Autoresearch in the wild",
+    "path": "wiki/talks/2026-06-30-roland-gavrilescu-autoresearch-in-the-wild.md"
+  },
+  {
+    "id": "2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale",
+    "title": "Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale",
+    "path": "wiki/talks/2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale.md"
+  },
+  {
+    "id": "2026-06-30-amit-navindgi-from-self-driving-monorepo-to-self-driving-cars",
+    "title": "From Self-Driving Monorepo to Self-Driving Cars",
+    "path": "wiki/talks/2026-06-30-amit-navindgi-from-self-driving-monorepo-to-self-driving-cars.md"
+  },
+  {
+    "id": "2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system",
+    "title": "Lessons from Studying Every Memory System",
+    "path": "wiki/talks/2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system.md"
+  },
+  {
+    "id": "2026-06-30-brian-douglas-don-t-write-skills-train-models-cont-2-3",
+    "title": "Don't Write Skills, Train Models (cont. 2/3)",
+    "path": "wiki/talks/2026-06-30-brian-douglas-don-t-write-skills-train-models-cont-2-3.md"
+  },
+  {
+    "id": "2026-06-30-philipp-schmid-don-t-ship-skills-without-evals",
+    "title": "Don't Ship Skills Without Evals",
+    "path": "wiki/talks/2026-06-30-philipp-schmid-don-t-ship-skills-without-evals.md"
+  },
+  {
+    "id": "2026-06-30-jeremiah-lowin-generative-ui-in-python",
+    "title": "Generative UI... in Python?",
+    "path": "wiki/talks/2026-06-30-jeremiah-lowin-generative-ui-in-python.md"
+  },
+  {
+    "id": "2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai",
+    "title": "How Web Data Infrastructure Powers the Next Generation of AI",
+    "path": "wiki/talks/2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai.md"
+  },
+  {
+    "id": "2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async",
+    "title": "MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?",
+    "path": "wiki/talks/2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async.md"
+  },
+  {
+    "id": "2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly",
+    "title": "Benchmarks: The Good, the Bad, and the Ugly",
+    "path": "wiki/talks/2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly.md"
+  },
+  {
+    "id": "2026-06-30-ashu-joshi-deploy-agents-to-users-in-m365-teams-and-apps",
+    "title": "Deploy agents to users in M365, Teams, and apps",
+    "path": "wiki/talks/2026-06-30-ashu-joshi-deploy-agents-to-users-in-m365-teams-and-apps.md"
+  },
+  {
+    "id": "2026-06-30-carlos-sanchez-agentic-sites-building-hyper-personalized-websites",
+    "title": "Agentic Sites: Building Hyper Personalized Websites",
+    "path": "wiki/talks/2026-06-30-carlos-sanchez-agentic-sites-building-hyper-personalized-websites.md"
+  },
+  {
+    "id": "2026-06-30-david-corbitt-inference-is-the-new-training-loop-architecting-high-reliability-agents-and-continuous-ai-systems",
+    "title": "Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems",
+    "path": "wiki/talks/2026-06-30-david-corbitt-inference-is-the-new-training-loop-architecting-high-reliability-agents-and-continuous-ai-systems.md"
+  },
+  {
+    "id": "2026-06-30-session-the-self-improving-oss-agent-stack",
+    "title": "The Self-Improving OSS Agent Stack",
+    "path": "wiki/talks/2026-06-30-session-the-self-improving-oss-agent-stack.md"
+  },
+  {
+    "id": "2026-06-30-dean-qui-anola-ai-applications-in-a-flash-no-dev-ops-just-code",
+    "title": "AI Applications in a flash! No Dev Ops. Just code.",
+    "path": "wiki/talks/2026-06-30-dean-qui-anola-ai-applications-in-a-flash-no-dev-ops-just-code.md"
+  },
+  {
+    "id": "2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents",
+    "title": "The Infinite Context Window Is a Myth: Context Engineering for AI Agents",
+    "path": "wiki/talks/2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents.md"
+  },
+  {
+    "id": "2026-06-30-session-vibe-code-safely-introducing-gadgets",
+    "title": "Vibe Code Safely: Introducing Gadgets",
+    "path": "wiki/talks/2026-06-30-session-vibe-code-safely-introducing-gadgets.md"
+  },
+  {
+    "id": "2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village",
+    "title": "Autoresearch in a Multi-Agent AI Village",
+    "path": "wiki/talks/2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village.md"
+  },
+  {
+    "id": "2026-06-30-jonathan-kelley-building-ambitious-software",
+    "title": "Building ambitious software",
+    "path": "wiki/talks/2026-06-30-jonathan-kelley-building-ambitious-software.md"
+  },
+  {
+    "id": "2026-06-30-cyrus-clarke-i-gave-an-ai-a-body",
+    "title": "I gave an AI a body",
+    "path": "wiki/talks/2026-06-30-cyrus-clarke-i-gave-an-ai-a-body.md"
+  },
+  {
+    "id": "2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide",
+    "title": "LLM Knowledge Bases: a practical guide",
+    "path": "wiki/talks/2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide.md"
+  },
+  {
+    "id": "2026-06-30-brian-douglas-don-t-write-skills-train-models-cont-3-3",
+    "title": "Don't Write Skills, Train Models (cont. 3/3)",
+    "path": "wiki/talks/2026-06-30-brian-douglas-don-t-write-skills-train-models-cont-3-3.md"
+  },
+  {
+    "id": "2026-06-30-alex-shaw-everything-is-a-rollout",
+    "title": "Everything Is a Rollout",
+    "path": "wiki/talks/2026-06-30-alex-shaw-everything-is-a-rollout.md"
+  },
+  {
+    "id": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
+    "title": "One Designer + Al. Hundreds of Deliverables.",
+    "path": "wiki/talks/2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables.md"
+  },
+  {
+    "id": "2026-06-30-alex-hancock-the-universal-remote-control-for-ai",
+    "title": "The Universal Remote Control for AI",
+    "path": "wiki/talks/2026-06-30-alex-hancock-the-universal-remote-control-for-ai.md"
+  },
+  {
+    "id": "2026-06-30-rania-khalaf-the-chief-ai-officer-a-framework-for-the-emerging-swiss-army-knife-of-roles",
+    "title": "The Chief AI Officer: A framework for the emerging Swiss Army Knife of roles",
+    "path": "wiki/talks/2026-06-30-rania-khalaf-the-chief-ai-officer-a-framework-for-the-emerging-swiss-army-knife-of-roles.md"
+  },
+  {
+    "id": "2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations",
+    "title": "The state of AI in software development: Insights across 400+ organizations",
+    "path": "wiki/talks/2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations.md"
+  },
+  {
+    "id": "2026-06-30-abdul-dakkak-modular-taming-the-ai-hardware-cambrian-explosion",
+    "title": "Modular: Taming the AI Hardware Cambrian Explosion",
+    "path": "wiki/talks/2026-06-30-abdul-dakkak-modular-taming-the-ai-hardware-cambrian-explosion.md"
+  },
+  {
+    "id": "2026-06-30-dominik-kundel-building-on-the-codex-harness",
+    "title": "Building on the Codex Harness",
+    "path": "wiki/talks/2026-06-30-dominik-kundel-building-on-the-codex-harness.md"
+  },
+  {
+    "id": "2026-06-30-jetashree-ravi-stop-renting-intelligence-the-train-to-deploy-loop-for-specialized-ai",
+    "title": "Stop Renting Intelligence: The Train-to-Deploy Loop for Specialized AI",
+    "path": "wiki/talks/2026-06-30-jetashree-ravi-stop-renting-intelligence-the-train-to-deploy-loop-for-specialized-ai.md"
+  },
+  {
+    "id": "2026-06-30-tarun-sunkaraneni-ray-actors-vision-tokens-and-the-gil-engineering-an-sft-data-pipeline-that-keeps-gpus-busy",
+    "title": "Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy",
+    "path": "wiki/talks/2026-06-30-tarun-sunkaraneni-ray-actors-vision-tokens-and-the-gil-engineering-an-sft-data-pipeline-that-keeps-gpus-busy.md"
+  },
+  {
+    "id": "2026-06-30-addy-osmani-closing-keynote",
+    "title": "Closing Keynote",
+    "path": "wiki/talks/2026-06-30-addy-osmani-closing-keynote.md"
+  },
+  {
+    "id": "2026-06-30-george-cameron-trends-in-ai",
+    "title": "Trends in AI",
+    "path": "wiki/talks/2026-06-30-george-cameron-trends-in-ai.md"
+  },
+  {
+    "id": "2026-06-30-wei-lin-chiang-closing-keynote",
+    "title": "Closing Keynote",
+    "path": "wiki/talks/2026-06-30-wei-lin-chiang-closing-keynote.md"
+  },
+  {
+    "id": "2026-07-01-session-battlefield-setup",
+    "title": "Battlefield setup",
+    "path": "wiki/talks/2026-07-01-session-battlefield-setup.md"
+  },
+  {
+    "id": "2026-07-01-barr-yaron-the-2026-state-of-ai-engineering",
+    "title": "The 2026 State of AI Engineering",
+    "path": "wiki/talks/2026-07-01-barr-yaron-the-2026-state-of-ai-engineering.md"
+  },
+  {
+    "id": "2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it",
+    "title": "TCP and RDMA are Killing Inference Throughput; Homa can Fix It",
+    "path": "wiki/talks/2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it.md"
+  },
+  {
+    "id": "2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model",
+    "title": "The Unreasonable Effectiveness of Separating the Task from the Model",
+    "path": "wiki/talks/2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model.md"
+  },
+  {
+    "id": "2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs",
+    "title": "How Anthropic Builds: Lessons from Labs",
+    "path": "wiki/talks/2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs.md"
+  },
+  {
+    "id": "2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer",
+    "title": "Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer",
+    "path": "wiki/talks/2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer.md"
+  },
+  {
+    "id": "2026-07-01-katelyn-lesse-tokens-should-have-jobs",
+    "title": "Tokens Should Have Jobs",
+    "path": "wiki/talks/2026-07-01-katelyn-lesse-tokens-should-have-jobs.md"
+  },
+  {
+    "id": "2026-07-01-sangwu-lee-training-krea-2-what-matters-in-generative-model-training",
+    "title": "Training Krea 2 - What matters in generative model training.",
+    "path": "wiki/talks/2026-07-01-sangwu-lee-training-krea-2-what-matters-in-generative-model-training.md"
+  },
+  {
+    "id": "2026-07-01-nidhi-kaushik-vyas-designing-multimodal-collaborative-agents-for-next-gen-commerce",
+    "title": "Designing Multimodal Collaborative Agents for Next-Gen Commerce",
+    "path": "wiki/talks/2026-07-01-nidhi-kaushik-vyas-designing-multimodal-collaborative-agents-for-next-gen-commerce.md"
+  },
+  {
+    "id": "2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms",
+    "title": "ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs",
+    "path": "wiki/talks/2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms.md"
+  },
+  {
+    "id": "2026-07-01-nader-khalil-state-of-the-union-why-local-why-now",
+    "title": "State of the Union: Why Local, Why Now",
+    "path": "wiki/talks/2026-07-01-nader-khalil-state-of-the-union-why-local-why-now.md"
+  },
+  {
+    "id": "2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens",
+    "title": "CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens",
+    "path": "wiki/talks/2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens.md"
+  },
+  {
+    "id": "2026-07-01-everett-berry-gtm-engineering-the-technical-bits",
+    "title": "GTM Engineering: The Technical Bits",
+    "path": "wiki/talks/2026-07-01-everett-berry-gtm-engineering-the-technical-bits.md"
+  },
+  {
+    "id": "2026-07-01-chaitanya-asawa-from-ambient-documentation-to-clinical-intelligence",
+    "title": "From Ambient Documentation to Clinical Intelligence",
+    "path": "wiki/talks/2026-07-01-chaitanya-asawa-from-ambient-documentation-to-clinical-intelligence.md"
+  },
+  {
+    "id": "2026-07-01-serena-ge-deepswe-expert-code-datasets",
+    "title": "DeepSWE: expert code datasets",
+    "path": "wiki/talks/2026-07-01-serena-ge-deepswe-expert-code-datasets.md"
+  },
+  {
+    "id": "2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale",
+    "title": "Operating Distributed Inference Systems at Scale",
+    "path": "wiki/talks/2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale.md"
+  },
+  {
+    "id": "2026-07-01-pamela-fox-diagnosing-agent-failures-in-production",
+    "title": "Diagnosing agent failures in production",
+    "path": "wiki/talks/2026-07-01-pamela-fox-diagnosing-agent-failures-in-production.md"
+  },
+  {
+    "id": "2026-07-01-jennifer-lee-building-safe-payment-infrastructure-for-machine-to-machine-commerce",
+    "title": "Building safe payment infrastructure for machine-to-machine commerce",
+    "path": "wiki/talks/2026-07-01-jennifer-lee-building-safe-payment-infrastructure-for-machine-to-machine-commerce.md"
+  },
+  {
+    "id": "2026-07-01-safia-abdalla-the-agent-behind-the-curtain-building-the-oz-cloud-agent-platform",
+    "title": "The Agent Behind the Curtain: Building the Oz Cloud Agent Platform",
+    "path": "wiki/talks/2026-07-01-safia-abdalla-the-agent-behind-the-curtain-building-the-oz-cloud-agent-platform.md"
+  },
+  {
+    "id": "2026-07-01-wallon-walusayi-ai-engineering-and-governance-2026-trends",
+    "title": "AI Engineering & Governance 2026 Trends",
+    "path": "wiki/talks/2026-07-01-wallon-walusayi-ai-engineering-and-governance-2026-trends.md"
+  },
+  {
+    "id": "2026-07-01-willem-pienaar-your-agent-can-t-tell-if-it-s-right",
+    "title": "Your Agent Can't Tell If It's Right",
+    "path": "wiki/talks/2026-07-01-willem-pienaar-your-agent-can-t-tell-if-it-s-right.md"
+  },
+  {
+    "id": "2026-07-01-ryan-cooke-no-that-s-not-a-software-factory",
+    "title": "No, That's Not a Software Factory",
+    "path": "wiki/talks/2026-07-01-ryan-cooke-no-that-s-not-a-software-factory.md"
+  },
+  {
+    "id": "2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers",
+    "title": "Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers",
+    "path": "wiki/talks/2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers.md"
+  },
+  {
+    "id": "2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent",
+    "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+    "path": "wiki/talks/2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent.md"
+  },
+  {
+    "id": "2026-07-01-martin-harrysson-the-agentic-product-development-organization",
+    "title": "The Agentic Product Development Organization",
+    "path": "wiki/talks/2026-07-01-martin-harrysson-the-agentic-product-development-organization.md"
+  },
+  {
+    "id": "2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development",
+    "title": "MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development",
+    "path": "wiki/talks/2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development.md"
+  },
+  {
+    "id": "2026-07-01-james-russo-html-is-all-agents-need",
+    "title": "HTML Is All Agents Need",
+    "path": "wiki/talks/2026-07-01-james-russo-html-is-all-agents-need.md"
+  },
+  {
+    "id": "2026-07-01-harshal-bhangale-why-your-ai-agent-needs-a-wallet-agentic-commerce-on-arc-with-usdc-and-nanopayments",
+    "title": "Why Your AI Agent Needs a Wallet: Agentic commerce on Arc with USDC and Nanopayments",
+    "path": "wiki/talks/2026-07-01-harshal-bhangale-why-your-ai-agent-needs-a-wallet-agentic-commerce-on-arc-with-usdc-and-nanopayments.md"
+  },
+  {
+    "id": "2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money",
+    "title": "Why Off-the-Shelf AI Doesn't Understand Money",
+    "path": "wiki/talks/2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money.md"
+  },
+  {
+    "id": "2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420",
+    "title": "State of the Union: Why Local, Why Now",
+    "path": "wiki/talks/2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420.md"
+  },
+  {
+    "id": "2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4",
+    "title": "Active Graph Agent Runtime (BabyAGI 4)",
+    "path": "wiki/talks/2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4.md"
+  },
+  {
+    "id": "2026-07-01-aliisa-rosenthal-reverse-engineering-the-ai-buyer",
+    "title": "Reverse-Engineering the AI Buyer",
+    "path": "wiki/talks/2026-07-01-aliisa-rosenthal-reverse-engineering-the-ai-buyer.md"
+  },
+  {
+    "id": "2026-07-01-rashi-agrawal-guardrails-first-engineering-member-facing-health-ai",
+    "title": "Guardrails First: Engineering Member-Facing Health AI",
+    "path": "wiki/talks/2026-07-01-rashi-agrawal-guardrails-first-engineering-member-facing-health-ai.md"
+  },
+  {
+    "id": "2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering",
+    "title": "Anthropic's CCA Exam as a Field-Guide for Agentic Engineering",
+    "path": "wiki/talks/2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering.md"
+  },
+  {
+    "id": "2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy",
+    "title": "Routing LLM Inference in Production: From Engine Signals to Policy",
+    "path": "wiki/talks/2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy.md"
+  },
+  {
+    "id": "2026-07-01-chang-liu-tracing-and-debugging-agents-across-systems-with-opentelemetry",
+    "title": "Tracing and debugging agents across systems with OpenTelemetry",
+    "path": "wiki/talks/2026-07-01-chang-liu-tracing-and-debugging-agents-across-systems-with-opentelemetry.md"
+  },
+  {
+    "id": "2026-07-01-dmitry-buykin-tribal-dungeons-of-global-shipping-ai-agents-at-global-scale",
+    "title": "Tribal Dungeons of Global Shipping: AI Agents at Global Scale",
+    "path": "wiki/talks/2026-07-01-dmitry-buykin-tribal-dungeons-of-global-shipping-ai-agents-at-global-scale.md"
+  },
+  {
+    "id": "2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens",
+    "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+    "path": "wiki/talks/2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens.md"
+  },
+  {
+    "id": "2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn",
+    "title": "Beyond RAG: See a relational context engine reduce token burn",
+    "path": "wiki/talks/2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn.md"
+  },
+  {
+    "id": "2026-07-01-zubin-aysola-aria-how-we-built-autoresearch-with-autoresearch",
+    "title": "ARIA, how we built autoresearch with autoresearch",
+    "path": "wiki/talks/2026-07-01-zubin-aysola-aria-how-we-built-autoresearch-with-autoresearch.md"
+  },
+  {
+    "id": "2026-07-01-michael-patterson-the-lethal-trifecta-is-already-on-your-developers-laptops",
+    "title": "The Lethal Trifecta Is Already on Your Developers' Laptops",
+    "path": "wiki/talks/2026-07-01-michael-patterson-the-lethal-trifecta-is-already-on-your-developers-laptops.md"
+  },
+  {
+    "id": "2026-07-01-matt-gibiec-your-ai-agent-has-no-nervous-system",
+    "title": "Your AI Agent Has No Nervous System",
+    "path": "wiki/talks/2026-07-01-matt-gibiec-your-ai-agent-has-no-nervous-system.md"
+  },
+  {
+    "id": "2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md",
+    "title": "Auth for Agents: Unblock Autonomous AI with auth.md",
+    "path": "wiki/talks/2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md.md"
+  },
+  {
+    "id": "2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer",
+    "title": "Building an Agentic Video Editor for Mass Consumer",
+    "path": "wiki/talks/2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer.md"
+  },
+  {
+    "id": "2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws",
+    "title": "When AI Agents Pay and Sellers Monetize: Building x402 Apps for Agentic Commerce on AWS",
+    "path": "wiki/talks/2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws.md"
+  },
+  {
+    "id": "2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems",
+    "title": "Let's integrate AI Agents in Event-Sourced Systems",
+    "path": "wiki/talks/2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems.md"
+  },
+  {
+    "id": "2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk",
+    "title": "Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk",
+    "path": "wiki/talks/2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk.md"
+  },
+  {
+    "id": "2026-07-01-mike-phipps-your-moat-is-your-data-model",
+    "title": "Your Moat Is Your Data Model",
+    "path": "wiki/talks/2026-07-01-mike-phipps-your-moat-is-your-data-model.md"
+  },
+  {
+    "id": "2026-07-01-flora-liu-ai-in-gtm-at-notion",
+    "title": "AI in GTM at Notion",
+    "path": "wiki/talks/2026-07-01-flora-liu-ai-in-gtm-at-notion.md"
+  },
+  {
+    "id": "2026-07-01-jared-joselowitz-shipping-ai-to-a-million-patients-without-an-a-b-test",
+    "title": "Shipping AI to a Million Patients Without an A/B Test",
+    "path": "wiki/talks/2026-07-01-jared-joselowitz-shipping-ai-to-a-million-patients-without-an-a-b-test.md"
+  },
+  {
+    "id": "2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands",
+    "title": "Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands",
+    "path": "wiki/talks/2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands.md"
+  },
+  {
+    "id": "2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable",
+    "title": "Are LLM Performance Benchmarks Reliable?",
+    "path": "wiki/talks/2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable.md"
+  },
+  {
+    "id": "2026-07-01-ross-wollman-benchmarking-vs-code-with-vsc-bench-how-to-measure-agent-performance",
+    "title": "Benchmarking VS Code with VSC-Bench: How to measure agent performance",
+    "path": "wiki/talks/2026-07-01-ross-wollman-benchmarking-vs-code-with-vsc-bench-how-to-measure-agent-performance.md"
+  },
+  {
+    "id": "2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens",
+    "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+    "path": "wiki/talks/2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens.md"
+  },
+  {
+    "id": "2026-07-01-khaled-alashmouny-what-if-your-chip-design-team-moved-like-a-single-body",
+    "title": "What If Your Chip Design Team Moved Like a Single Body?",
+    "path": "wiki/talks/2026-07-01-khaled-alashmouny-what-if-your-chip-design-team-moved-like-a-single-body.md"
+  },
+  {
+    "id": "2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents",
+    "title": "The Art of Building Verifiers for Computer Use Agents",
+    "path": "wiki/talks/2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents.md"
+  },
+  {
+    "id": "2026-07-01-sheilah-kirui-seeing-the-plumbing-profiling-vllm-speculative-decoding-on-nvidia-blackwell",
+    "title": "Seeing the Plumbing: Profiling vLLM Speculative Decoding on NVIDIA Blackwell",
+    "path": "wiki/talks/2026-07-01-sheilah-kirui-seeing-the-plumbing-profiling-vllm-speculative-decoding-on-nvidia-blackwell.md"
+  },
+  {
+    "id": "2026-07-01-kwindla-kramer-voice-is-the-universal-interface",
+    "title": "Voice is the universal interface",
+    "path": "wiki/talks/2026-07-01-kwindla-kramer-voice-is-the-universal-interface.md"
+  },
+  {
+    "id": "2026-07-01-jake-broekhuizen-the-next-run-should-be-better",
+    "title": "The Next Run Should Be Better",
+    "path": "wiki/talks/2026-07-01-jake-broekhuizen-the-next-run-should-be-better.md"
+  },
+  {
+    "id": "2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents",
+    "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+    "path": "wiki/talks/2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents.md"
+  },
+  {
+    "id": "2026-07-01-arturo-nunez-the-next-game-engine-won-t-have-a-manual",
+    "title": "The Next Game Engine Won't Have a Manual",
+    "path": "wiki/talks/2026-07-01-arturo-nunez-the-next-game-engine-won-t-have-a-manual.md"
+  },
+  {
+    "id": "2026-07-01-jan-curn-x402-isn-t-good-yet",
+    "title": "x402 isn’t good (yet)",
+    "path": "wiki/talks/2026-07-01-jan-curn-x402-isn-t-good-yet.md"
+  },
+  {
+    "id": "2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services",
+    "title": "How Kepler Built Verifiable AI for Financial Services",
+    "path": "wiki/talks/2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services.md"
+  },
+  {
+    "id": "2026-07-01-session-local-ai-demos",
+    "title": "Local AI Demos",
+    "path": "wiki/talks/2026-07-01-session-local-ai-demos.md"
+  },
+  {
+    "id": "2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context",
+    "title": "From Systems of Record to Systems of Context",
+    "path": "wiki/talks/2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context.md"
+  },
+  {
+    "id": "2026-07-01-arman-vaziri-the-building-blocks-of-gtm-orchestration",
+    "title": "The Building Blocks of GTM Orchestration",
+    "path": "wiki/talks/2026-07-01-arman-vaziri-the-building-blocks-of-gtm-orchestration.md"
+  },
+  {
+    "id": "2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses",
+    "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+    "path": "wiki/talks/2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses.md"
+  },
+  {
+    "id": "2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases",
+    "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+    "path": "wiki/talks/2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases.md"
+  },
+  {
+    "id": "2026-07-01-rita-zhang-vertical-mobility-building-an-ai-inference-platform-that-scales-from-mvp-to-trillion-parameter-workloads",
+    "title": "Vertical Mobility: Building an AI Inference Platform That Scales from MVP to Trillion-Parameter Workloads",
+    "path": "wiki/talks/2026-07-01-rita-zhang-vertical-mobility-building-an-ai-inference-platform-that-scales-from-mvp-to-trillion-parameter-workloads.md"
+  },
+  {
+    "id": "2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work",
+    "title": "Design multi-agent systems that actually work",
+    "path": "wiki/talks/2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work.md"
+  },
+  {
+    "id": "2026-07-01-pranay-bhatia-stop-model-shopping-why-ownership-beats-choice-in-the-agent-stack",
+    "title": "Stop Model Shopping: Why Ownership Beats Choice in the Agent Stack",
+    "path": "wiki/talks/2026-07-01-pranay-bhatia-stop-model-shopping-why-ownership-beats-choice-in-the-agent-stack.md"
+  },
+  {
+    "id": "2026-07-01-archana-kamath-preferences-benchmarks-model-routing-for-how-teams-actually-build",
+    "title": "Preferences > Benchmarks: Model Routing for How Teams Actually Build",
+    "path": "wiki/talks/2026-07-01-archana-kamath-preferences-benchmarks-model-routing-for-how-teams-actually-build.md"
+  },
+  {
+    "id": "2026-07-01-giedrius-steimantas-the-missing-layer-in-agentic-ai",
+    "title": "The Missing Layer in Agentic AI",
+    "path": "wiki/talks/2026-07-01-giedrius-steimantas-the-missing-layer-in-agentic-ai.md"
+  },
+  {
+    "id": "2026-07-01-ali-adl-tabatabai-while-you-were-generating-the-verification-gap-nobody-talked-about",
+    "title": "While You Were Generating: The Verification Gap Nobody Talked About",
+    "path": "wiki/talks/2026-07-01-ali-adl-tabatabai-while-you-were-generating-the-verification-gap-nobody-talked-about.md"
+  },
+  {
+    "id": "2026-07-01-ben-dicken-move-fast-and-don-t-break-things",
+    "title": "Move fast and (don’t) break things",
+    "path": "wiki/talks/2026-07-01-ben-dicken-move-fast-and-don-t-break-things.md"
+  },
+  {
+    "id": "2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild",
+    "title": "Agents That Forge Their Own Tools: Self-Modifying AI in the Wild",
+    "path": "wiki/talks/2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild.md"
+  },
+  {
+    "id": "2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles",
+    "title": "Latent Space Live: the Inference Inflection from First Principles",
+    "path": "wiki/talks/2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles.md"
+  },
+  {
+    "id": "2026-07-01-brendan-rappazzo-loophole-adversarial-agents-to-stress-test-your-morality",
+    "title": "Loophole - Adversarial Agents To Stress Test Your Morality",
+    "path": "wiki/talks/2026-07-01-brendan-rappazzo-loophole-adversarial-agents-to-stress-test-your-morality.md"
+  },
+  {
+    "id": "2026-07-01-todd-fisher-while-my-guitar-gently-speaks",
+    "title": "While my guitar gently speaks",
+    "path": "wiki/talks/2026-07-01-todd-fisher-while-my-guitar-gently-speaks.md"
+  },
+  {
+    "id": "2026-07-01-rodrigo-coelho-agent-spending-without-controls-the-missing-infrastructure-layer-for-ai-pa",
+    "title": "Agent Spending Without Controls: The Missing Infrastructure Layer for AI Pa…",
+    "path": "wiki/talks/2026-07-01-rodrigo-coelho-agent-spending-without-controls-the-missing-infrastructure-layer-for-ai-pa.md"
+  },
+  {
+    "id": "2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees",
+    "title": "Build for the Memo, Not the Demo — Notes from 200 Investment Committees",
+    "path": "wiki/talks/2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees.md"
+  },
+  {
+    "id": "2026-07-01-carter-abdallah-local-models-trust-control-optimization",
+    "title": "Local Models: Trust, Control, Optimization",
+    "path": "wiki/talks/2026-07-01-carter-abdallah-local-models-trust-control-optimization.md"
+  },
+  {
+    "id": "2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis",
+    "title": "AI : Learned Execution Graphs for Real-Time Anomaly Detection & Drift Classification in APIs",
+    "path": "wiki/talks/2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis.md"
+  },
+  {
+    "id": "2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem",
+    "title": "How Juries and Librarians Can Solve GTM's AI Trust Problem",
+    "path": "wiki/talks/2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem.md"
+  },
+  {
+    "id": "2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong",
+    "title": "Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong.",
+    "path": "wiki/talks/2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong.md"
+  },
+  {
+    "id": "2026-07-01-dominik-kundel-codex-behind-the-harness",
+    "title": "Codex, Behind the Harness",
+    "path": "wiki/talks/2026-07-01-dominik-kundel-codex-behind-the-harness.md"
+  },
+  {
+    "id": "2026-07-01-philip-kiely-what-s-new-in-inference-engineering",
+    "title": "What's New in Inference Engineering",
+    "path": "wiki/talks/2026-07-01-philip-kiely-what-s-new-in-inference-engineering.md"
+  },
+  {
+    "id": "2026-07-01-chang-liu-evaluating-and-optimizing-ai-agents-from-observability-to-continuous-improvement",
+    "title": "Evaluating and optimizing AI agents: from observability to continuous improvement",
+    "path": "wiki/talks/2026-07-01-chang-liu-evaluating-and-optimizing-ai-agents-from-observability-to-continuous-improvement.md"
+  },
+  {
+    "id": "2026-07-01-josh-leavitt-from-zero-to-ai-native-scaling-ai-across-the-org",
+    "title": "From Zero to AI-Native: Scaling AI Across the Org",
+    "path": "wiki/talks/2026-07-01-josh-leavitt-from-zero-to-ai-native-scaling-ai-across-the-org.md"
+  },
+  {
+    "id": "2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement",
+    "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+    "path": "wiki/talks/2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement.md"
+  },
+  {
+    "id": "2026-07-01-michael-liendo-trust-but-verify-human-in-the-loop-for-agents-that-actually-matter",
+    "title": "Trust, But Verify: Human-in-the-Loop for Agents That Actually Matter",
+    "path": "wiki/talks/2026-07-01-michael-liendo-trust-but-verify-human-in-the-loop-for-agents-that-actually-matter.md"
+  },
+  {
+    "id": "2026-07-01-rowan-christmas-yolo-mode-safely-microvm-sandboxes-for-any-agent",
+    "title": "YOLO Mode, Safely: microVM Sandboxes for Any Agent",
+    "path": "wiki/talks/2026-07-01-rowan-christmas-yolo-mode-safely-microvm-sandboxes-for-any-agent.md"
+  },
+  {
+    "id": "2026-07-01-joshua-mo-your-model-is-private-your-system-isn-t",
+    "title": "Your Model is Private. Your System Isn't.",
+    "path": "wiki/talks/2026-07-01-joshua-mo-your-model-is-private-your-system-isn-t.md"
+  },
+  {
+    "id": "2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training",
+    "title": "Video Discovery for Agentic World-Model Training",
+    "path": "wiki/talks/2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training.md"
+  },
+  {
+    "id": "2026-07-01-giselle-van-dongen-every-step-you-take-every-call-you-make-the-reliable-agent-stack",
+    "title": "🎵 Every step you take, every call you make - the reliable agent stack",
+    "path": "wiki/talks/2026-07-01-giselle-van-dongen-every-step-you-take-every-call-you-make-the-reliable-agent-stack.md"
+  },
+  {
+    "id": "2026-07-01-lina-colucci-voice-agents-with-realtime-video",
+    "title": "Voice agents with Realtime Video",
+    "path": "wiki/talks/2026-07-01-lina-colucci-voice-agents-with-realtime-video.md"
+  },
+  {
+    "id": "2026-07-01-anna-spysz-teaching-agents-to-pay",
+    "title": "Teaching agents to pay",
+    "path": "wiki/talks/2026-07-01-anna-spysz-teaching-agents-to-pay.md"
+  },
+  {
+    "id": "2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers",
+    "title": "We Vetted 2,000 AI Skills Before They Reached Developers",
+    "path": "wiki/talks/2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers.md"
+  },
+  {
+    "id": "2026-07-01-carter-abdallah-local-models-trust-control-optimization-1-55pm-2-15pm-track-4-489",
+    "title": "Local Models: Trust, Control, Optimization",
+    "path": "wiki/talks/2026-07-01-carter-abdallah-local-models-trust-control-optimization-1-55pm-2-15pm-track-4-489.md"
+  },
+  {
+    "id": "2026-07-01-frank-coyle-why-agentic-systems-need-ontologies",
+    "title": "Why Agentic Systems Need Ontologies",
+    "path": "wiki/talks/2026-07-01-frank-coyle-why-agentic-systems-need-ontologies.md"
+  },
+  {
+    "id": "2026-07-01-christopher-burns-how-we-got-llms-to-recommend-our-open-source-library-without-paying-or-plug-ins",
+    "title": "How We Got LLMs to Recommend Our Open Source Library (Without Paying or Plug-ins)",
+    "path": "wiki/talks/2026-07-01-christopher-burns-how-we-got-llms-to-recommend-our-open-source-library-without-paying-or-plug-ins.md"
+  },
+  {
+    "id": "2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents",
+    "title": "Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents",
+    "path": "wiki/talks/2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents.md"
+  },
+  {
+    "id": "2026-07-01-arjun-singh-multiplayer-agentic-engineering-enabling-your-whole-team-and-your-best-agents-to-work-together",
+    "title": "Multiplayer agentic engineering: enabling your whole team and your best agents to work together",
+    "path": "wiki/talks/2026-07-01-arjun-singh-multiplayer-agentic-engineering-enabling-your-whole-team-and-your-best-agents-to-work-together.md"
+  },
+  {
+    "id": "2026-07-01-daniel-svonava-large-clusters-for-small-models",
+    "title": "Large clusters for small models",
+    "path": "wiki/talks/2026-07-01-daniel-svonava-large-clusters-for-small-models.md"
+  },
+  {
+    "id": "2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud",
+    "title": "Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud",
+    "path": "wiki/talks/2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud.md"
+  },
+  {
+    "id": "2026-07-01-brian-lewis-which-ai-startups-actually-land-enterprise-contracts-lessons-from-evaluating-100-ai-startups-at-millennium-management",
+    "title": "Which AI startups actually land enterprise contracts? Lessons from evaluating 100+ AI startups at Millennium Management",
+    "path": "wiki/talks/2026-07-01-brian-lewis-which-ai-startups-actually-land-enterprise-contracts-lessons-from-evaluating-100-ai-startups-at-millennium-management.md"
+  },
+  {
+    "id": "2026-07-01-r-mi-louf-agent-frameworks-considered-harmful",
+    "title": "Agent Frameworks Considered Harmful",
+    "path": "wiki/talks/2026-07-01-r-mi-louf-agent-frameworks-considered-harmful.md"
+  },
+  {
+    "id": "2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does",
+    "title": "MCP doesn’t suck — your agent does",
+    "path": "wiki/talks/2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does.md"
+  },
+  {
+    "id": "2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results",
+    "title": "Everyone talks about document search, but what about results?",
+    "path": "wiki/talks/2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results.md"
+  },
+  {
+    "id": "2026-07-01-sarah-sanders-we-let-an-ai-agent-execute-bash-and-lived-to-talk-about-it",
+    "title": "We let an AI agent execute Bash and lived to talk about it",
+    "path": "wiki/talks/2026-07-01-sarah-sanders-we-let-an-ai-agent-execute-bash-and-lived-to-talk-about-it.md"
+  },
+  {
+    "id": "2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light",
+    "title": "Generative Video at the Speed of Light",
+    "path": "wiki/talks/2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light.md"
+  },
+  {
+    "id": "2026-07-01-ahnaf-prio-the-agentic-commerce-stack",
+    "title": "The Agentic Commerce Stack",
+    "path": "wiki/talks/2026-07-01-ahnaf-prio-the-agentic-commerce-stack.md"
+  },
+  {
+    "id": "2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you",
+    "title": "Your Finance Agent's Bottleneck Is You",
+    "path": "wiki/talks/2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you.md"
+  },
+  {
+    "id": "2026-07-01-chris-alexiuk-compression-at-the-edge",
+    "title": "Compression at the Edge",
+    "path": "wiki/talks/2026-07-01-chris-alexiuk-compression-at-the-edge.md"
+  },
+  {
+    "id": "2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one",
+    "title": "Video Has No Memory. Here's How We Built One.",
+    "path": "wiki/talks/2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one.md"
+  },
+  {
+    "id": "2026-07-01-jeffrey-wang-knowledge-systems-the-new-gtm-stack",
+    "title": "Knowledge Systems: The New GTM Stack",
+    "path": "wiki/talks/2026-07-01-jeffrey-wang-knowledge-systems-the-new-gtm-stack.md"
+  },
+  {
+    "id": "2026-07-01-ayush-bhardwaj-trading-desks-to-clinical-trials-parallels-in-applied-vertical-ai",
+    "title": "Trading Desks to Clinical Trials: Parallels in Applied Vertical AI",
+    "path": "wiki/talks/2026-07-01-ayush-bhardwaj-trading-desks-to-clinical-trials-parallels-in-applied-vertical-ai.md"
+  },
+  {
+    "id": "2026-07-01-justin-smith-always-on-agents-run-production-without-the-on-call-tax",
+    "title": "Always-on agents run production without the on-call tax",
+    "path": "wiki/talks/2026-07-01-justin-smith-always-on-agents-run-production-without-the-on-call-tax.md"
+  },
+  {
+    "id": "2026-07-01-byung-gon-gon-chun-the-frontier-ai-inference-cloud-for-agents",
+    "title": "The Frontier AI Inference Cloud for Agents",
+    "path": "wiki/talks/2026-07-01-byung-gon-gon-chun-the-frontier-ai-inference-cloud-for-agents.md"
+  },
+  {
+    "id": "2026-07-01-ashu-joshi-operate-agents-safely-at-scale-with-enterprise-governance",
+    "title": "Operate agents safely at scale with enterprise governance",
+    "path": "wiki/talks/2026-07-01-ashu-joshi-operate-agents-safely-at-scale-with-enterprise-governance.md"
+  },
+  {
+    "id": "2026-07-01-kunal-lanjewar-your-hero-agent-needs-a-party",
+    "title": "Your Hero Agent Needs a Party",
+    "path": "wiki/talks/2026-07-01-kunal-lanjewar-your-hero-agent-needs-a-party.md"
+  },
+  {
+    "id": "2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference",
+    "title": "Optimizing Open Models for Production Grade Inference",
+    "path": "wiki/talks/2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference.md"
+  },
+  {
+    "id": "2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session",
+    "title": "Improving AIE: Q&A and Feedback Session",
+    "path": "wiki/talks/2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session.md"
+  },
+  {
+    "id": "2026-07-01-melanie-warrick-the-human-is-an-async-api",
+    "title": "The Human Is an Async API",
+    "path": "wiki/talks/2026-07-01-melanie-warrick-the-human-is-an-async-api.md"
+  },
+  {
+    "id": "2026-07-01-kay-malcolm-no-memory-no-harness-why-the-database-is-the-last-line-of-defense",
+    "title": "No Memory, No Harness: Why the Database Is the Last Line of Defense",
+    "path": "wiki/talks/2026-07-01-kay-malcolm-no-memory-no-harness-why-the-database-is-the-last-line-of-defense.md"
+  },
+  {
+    "id": "2026-07-01-gabriel-jorge-menezes-infra-behind-krea-2-how-to-train-and-serve-at-scale",
+    "title": "Infra behind Krea 2 - How to train and serve at scale",
+    "path": "wiki/talks/2026-07-01-gabriel-jorge-menezes-infra-behind-krea-2-how-to-train-and-serve-at-scale.md"
+  },
+  {
+    "id": "2026-07-01-jay-mok-your-agent-just-authorized-what",
+    "title": "Your Agent Just Authorized What?!",
+    "path": "wiki/talks/2026-07-01-jay-mok-your-agent-just-authorized-what.md"
+  },
+  {
+    "id": "2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations",
+    "title": "Simulation-Maxxing: How Nubank ships agents 20× faster with simulations",
+    "path": "wiki/talks/2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations.md"
+  },
+  {
+    "id": "2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519",
+    "title": "Compression at the Edge",
+    "path": "wiki/talks/2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519.md"
+  },
+  {
+    "id": "2026-07-01-shafik-quoraishee-on-device-agentic-ai-for-the-new-york-times-games",
+    "title": "On-Device Agentic AI for the New York Times Games",
+    "path": "wiki/talks/2026-07-01-shafik-quoraishee-on-device-agentic-ai-for-the-new-york-times-games.md"
+  },
+  {
+    "id": "2026-07-01-justin-joyce-how-ai-agents-let-gtm-teams-scale",
+    "title": "How AI Agents Let GTM Teams Scale",
+    "path": "wiki/talks/2026-07-01-justin-joyce-how-ai-agents-let-gtm-teams-scale.md"
+  },
+  {
+    "id": "2026-07-01-dan-feng-how-to-build-an-ai-native-health-company",
+    "title": "How to build an AI-Native Health Company",
+    "path": "wiki/talks/2026-07-01-dan-feng-how-to-build-an-ai-native-health-company.md"
+  },
+  {
+    "id": "2026-07-01-idan-gazit-realtime-multiplayer-automation-and-you",
+    "title": "Realtime multiplayer, automation, and you!",
+    "path": "wiki/talks/2026-07-01-idan-gazit-realtime-multiplayer-automation-and-you.md"
+  },
+  {
+    "id": "2026-07-01-yuchen-fama-kv-cache-aware-routing-and-p-d-disaggregation-on-kubernetes-the-parts-public-benchmarks-don-t-show",
+    "title": "KV Cache-Aware Routing and P/D Disaggregation on Kubernetes: The Parts Public Benchmarks Don't Show",
+    "path": "wiki/talks/2026-07-01-yuchen-fama-kv-cache-aware-routing-and-p-d-disaggregation-on-kubernetes-the-parts-public-benchmarks-don-t-show.md"
+  },
+  {
+    "id": "2026-07-01-salman-munaf-ai-agents-are-just-distributed-systems-now",
+    "title": "AI Agents Are Just Distributed Systems Now",
+    "path": "wiki/talks/2026-07-01-salman-munaf-ai-agents-are-just-distributed-systems-now.md"
+  },
+  {
+    "id": "2026-07-01-sebastian-fox-inside-847-production-clinical-ai-notes",
+    "title": "Inside 847 Production Clinical AI Notes",
+    "path": "wiki/talks/2026-07-01-sebastian-fox-inside-847-production-clinical-ai-notes.md"
+  },
+  {
+    "id": "2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers",
+    "title": "Harness Engineering: The New Core Skill for Agentic Developers",
+    "path": "wiki/talks/2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers.md"
+  },
+  {
+    "id": "2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory",
+    "title": "Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory",
+    "path": "wiki/talks/2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory.md"
+  },
+  {
+    "id": "2026-07-01-session-the-software-factory",
+    "title": "The Software Factory",
+    "path": "wiki/talks/2026-07-01-session-the-software-factory.md"
+  },
+  {
+    "id": "2026-07-01-andrew-qu-how-we-solved-agent-building",
+    "title": "How we Solved Agent Building",
+    "path": "wiki/talks/2026-07-01-andrew-qu-how-we-solved-agent-building.md"
+  },
+  {
+    "id": "2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers",
+    "title": "The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers",
+    "path": "wiki/talks/2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers.md"
+  },
+  {
+    "id": "2026-07-01-gus-iwanaga-the-end-of-the-static-screen-architecting-intent-driven-ux-with-agentic-orchestration",
+    "title": "The End of the Static Screen: Architecting Intent-Driven UX with Agentic Orchestration",
+    "path": "wiki/talks/2026-07-01-gus-iwanaga-the-end-of-the-static-screen-architecting-intent-driven-ux-with-agentic-orchestration.md"
+  },
+  {
+    "id": "2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products",
+    "title": "Skills are new features: Building Skill-Centric Harness for Agentic Products",
+    "path": "wiki/talks/2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products.md"
+  },
+  {
+    "id": "2026-07-01-nader-khalil-model-routing",
+    "title": "Model Routing",
+    "path": "wiki/talks/2026-07-01-nader-khalil-model-routing.md"
+  },
+  {
+    "id": "2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs",
+    "title": "Citation Needed: Provenance for LLM-Built Knowledge Graphs",
+    "path": "wiki/talks/2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs.md"
+  },
+  {
+    "id": "2026-07-01-sait-izmit-building-gtm-ai-agents-lessons-from-deploying-to-6-000-users",
+    "title": "Building GTM AI Agents: Lessons from Deploying to 6,000 Users",
+    "path": "wiki/talks/2026-07-01-sait-izmit-building-gtm-ai-agents-lessons-from-deploying-to-6-000-users.md"
+  },
+  {
+    "id": "2026-07-01-anuj-iravane-don-t-be-data-poor",
+    "title": "Don't be data poor",
+    "path": "wiki/talks/2026-07-01-anuj-iravane-don-t-be-data-poor.md"
+  },
+  {
+    "id": "2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster",
+    "title": "Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster",
+    "path": "wiki/talks/2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster.md"
+  },
+  {
+    "id": "2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story",
+    "title": "Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story",
+    "path": "wiki/talks/2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story.md"
+  },
+  {
+    "id": "2026-07-01-lena-hall-the-signal-layer-what-to-build-when-anything-can-be-built",
+    "title": "The Signal Layer: What to Build When Anything Can Be Built",
+    "path": "wiki/talks/2026-07-01-lena-hall-the-signal-layer-what-to-build-when-anything-can-be-built.md"
+  },
+  {
+    "id": "2026-07-01-sachin-malhotra-give-the-agent-a-budget-not-a-token",
+    "title": "Give the Agent a Budget, Not a Token",
+    "path": "wiki/talks/2026-07-01-sachin-malhotra-give-the-agent-a-budget-not-a-token.md"
+  },
+  {
+    "id": "2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not",
+    "title": "Agent Memory Is a Solved Problem. Agent Learning Is Not.",
+    "path": "wiki/talks/2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not.md"
+  },
+  {
+    "id": "2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session-repeat",
+    "title": "Improving AIE: Q&A and Feedback Session (repeat)",
+    "path": "wiki/talks/2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session-repeat.md"
+  },
+  {
+    "id": "2026-07-01-ivan-leo-an-interaction-is-all-you-need",
+    "title": "An Interaction Is All You Need",
+    "path": "wiki/talks/2026-07-01-ivan-leo-an-interaction-is-all-you-need.md"
+  },
+  {
+    "id": "2026-07-01-remy-guercio-an-ai-future-without-the-lock-in",
+    "title": "An AI Future Without the Lock-In",
+    "path": "wiki/talks/2026-07-01-remy-guercio-an-ai-future-without-the-lock-in.md"
+  },
+  {
+    "id": "2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python",
+    "title": "Agents Without Code: How Skills, YAML, and Filesystems Replaced Python",
+    "path": "wiki/talks/2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python.md"
+  },
+  {
+    "id": "2026-07-01-david-levine-beyond-the-lethal-trifecta-agentic-commerce-on-the-open-internet-at-machine-speed",
+    "title": "Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet at Machine Speed",
+    "path": "wiki/talks/2026-07-01-david-levine-beyond-the-lethal-trifecta-agentic-commerce-on-the-open-internet-at-machine-speed.md"
+  },
+  {
+    "id": "2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses",
+    "title": "Wearing the Agent: Engineering a Family-and-Friends Personal Agent, from Group Chats to Glasses",
+    "path": "wiki/talks/2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses.md"
+  },
+  {
+    "id": "2026-07-01-nader-khalil-model-routing-3-45pm-4-05pm-track-4-549",
+    "title": "Model Routing",
+    "path": "wiki/talks/2026-07-01-nader-khalil-model-routing-3-45pm-4-05pm-track-4-549.md"
+  },
+  {
+    "id": "2026-07-01-subbiah-sethuraman-why-we-killed-our-multi-agent-pipeline-lessons-from-pharma-commercial-intelligence",
+    "title": "Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence",
+    "path": "wiki/talks/2026-07-01-subbiah-sethuraman-why-we-killed-our-multi-agent-pipeline-lessons-from-pharma-commercial-intelligence.md"
+  },
+  {
+    "id": "2026-07-01-stephanie-jarmak-the-death-of-developer-advocates",
+    "title": "The Death of Developer Advocates",
+    "path": "wiki/talks/2026-07-01-stephanie-jarmak-the-death-of-developer-advocates.md"
+  },
+  {
+    "id": "2026-07-01-christopher-lovejoy-why-your-enterprise-tech-stack-isn-t-ready-for-ai-agents-and-what-to-build-instead",
+    "title": "Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead",
+    "path": "wiki/talks/2026-07-01-christopher-lovejoy-why-your-enterprise-tech-stack-isn-t-ready-for-ai-agents-and-what-to-build-instead.md"
+  },
+  {
+    "id": "2026-07-01-saoud-rizwan-open-source-is-dead-long-live-open-source",
+    "title": "Open Source Is Dead. Long Live Open Source.",
+    "path": "wiki/talks/2026-07-01-saoud-rizwan-open-source-is-dead-long-live-open-source.md"
+  },
+  {
+    "id": "2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards",
+    "title": "Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards",
+    "path": "wiki/talks/2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards.md"
+  },
+  {
+    "id": "2026-07-01-sandhya-subramani-tell-the-robot-what-you-want",
+    "title": "Tell the Robot What You Want",
+    "path": "wiki/talks/2026-07-01-sandhya-subramani-tell-the-robot-what-you-want.md"
+  },
+  {
+    "id": "2026-07-01-nan-jiang-taking-reinforcement-learning-cross-datacenter",
+    "title": "Taking Reinforcement Learning Cross Datacenter",
+    "path": "wiki/talks/2026-07-01-nan-jiang-taking-reinforcement-learning-cross-datacenter.md"
+  },
+  {
+    "id": "2026-07-01-sarah-simionescu-dashboards-are-dead",
+    "title": "Dashboards are Dead",
+    "path": "wiki/talks/2026-07-01-sarah-simionescu-dashboards-are-dead.md"
+  },
+  {
+    "id": "2026-07-01-theo-browne-closing-keynote-theo-browne",
+    "title": "Closing Keynote — Theo Browne",
+    "path": "wiki/talks/2026-07-01-theo-browne-closing-keynote-theo-browne.md"
+  },
+  {
+    "id": "2026-07-01-garry-tan-closing-keynote-garry-tan",
+    "title": "Closing Keynote: Garry Tan",
+    "path": "wiki/talks/2026-07-01-garry-tan-closing-keynote-garry-tan.md"
+  },
+  {
+    "id": "2026-07-01-howie-liu-startup-battlefield",
+    "title": "Startup Battlefield",
+    "path": "wiki/talks/2026-07-01-howie-liu-startup-battlefield.md"
+  }
+]

@@ -1,0 +1,10 @@
+cee Qwen2 ore a1 as
+Norm Pre-norm RMSNorm
+é Ca i‘ Q/KIV Rate Separate (GQA)
+na ae
+* rar i Lexth ated) Coa
+Attention GGA (fewer KV)
+Output
+Allon packed sequences with = zero padding waste
+Engineering the future of Al
+ES) >

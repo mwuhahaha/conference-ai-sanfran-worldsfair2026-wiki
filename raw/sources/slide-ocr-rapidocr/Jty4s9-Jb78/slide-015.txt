@@ -1,0 +1,23 @@
+Nothea
+ringanything?
+Tumupvolume
+inport chronadb
+chroma_client=chromadb.Client()
+siitchcreate_collectiontooet_or.cceate_collection
+to.avotd creating.ahercoliectionevery
+NYC(NYT) 47.14 Cafe
+collectton=chroma_cltent.get_or_create_collection(name=my_collection)
+01Pp0R21
+upsert`
+to.votd=ddn
+collectlon.upsert(
+docunents=[
+"Thisisadocument aboutpineapple
+This is a document about oranges*
+[ZP}.‘-IP1.]-sp)
+results=collectton.query(
+query_texts[Thts ts a query document about florida],Chroma wlll etbed thts for you
+2=511n
+manyresotts to retur
+print(results)
+FullContext·RAG·Weights

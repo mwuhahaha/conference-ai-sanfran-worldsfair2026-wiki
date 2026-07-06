@@ -1,0 +1,17 @@
+Containers: Sandboxing
+© Jail” contamers by restncting CAP aduibes and syscails they Can can
+Reduce attack surface
+Userspace
+Root Namespace
+Container # minijail0 -S /usr/: share/minijail0/$(uname -m)/eat.policy — \
+Molicious or Buggy Process /bin/cat /proc/self/seccomp_filter
+a
+Pid Namespace .
+Cm # open with O_LARGEFILE|O_RDOWLY|O_NONBLOCK or some combination.
+( Pid | open: argl == 32768 || arg1 == 0 |{ arg? == 34816 || arg? == 2048
+it mmap2: arg2 22 Ox0
+A\ wmunmap: 1
+sys call | ioctl close: 1
+a
+Reduce attack surface by using seccomp Filters
+© Can restrict the attack surface by restricting the Linux CAP abdibes alowed to a process such as CAP_NET, CAP_SYS_ADMIN ate

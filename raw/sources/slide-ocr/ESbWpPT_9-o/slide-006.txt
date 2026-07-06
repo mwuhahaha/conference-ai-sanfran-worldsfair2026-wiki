@@ -1,0 +1,15 @@
+> /context
+Context Usage
+er claude -opus-4-5-20251101 - 63«/2e0k tokens (31?:)
+, : 12 System prompt: 2.9k torxens (1.4%:)
+
+a ») System tools: 14./K toxens (/.45)
+bel Messages: 8 toxens (@.@%)
+
+re Puen - Free space: 13/k (68.7%)
+
+ae : i Autocorpact buffer: 45.8« toKens (22.575)
+
+SlashCommand Tool - 4 com~™ands
+
+L Total: 949 toxens

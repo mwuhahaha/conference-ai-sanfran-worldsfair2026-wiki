@@ -1,0 +1,10 @@
+Arrakis:UpdatedArchitecture
+Arrakis-API
+LinuxServer
+RESTAPI
+arrakis-py-sdk
+ArrakisRestserver
+arrakis-client
+RESTAPI
+Userspace
+Kernel

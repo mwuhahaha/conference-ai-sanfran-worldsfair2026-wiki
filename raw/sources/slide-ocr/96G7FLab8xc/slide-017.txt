@@ -1,0 +1,12 @@
+server.py
+The"GoldenTool
+@mcp.tool（annotations={"readonlyHint":True})
+async def track_latest_order(
+email:str,
+include_cancelled:bool =False
+→str:
+Locates a user's Lastorder and returns status.
+Use when user asks“Where is my stuff?"
+Example:
+User:"Check bob@example.com"
+Call:track_latest_order(email="bob@example.com")

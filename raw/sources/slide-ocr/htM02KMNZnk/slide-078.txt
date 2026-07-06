@@ -1,0 +1,28 @@
+AIEngineer
+AGoogle Antigravity
+World'sFair
+PRESENTED BY
+Microsoft
+Autocomplete-Chat
+Agents
+Agent Manager
+Embeddingsearch
+Chet-Agents only
+Multiple agents in parallel
+Rulesfiles
+Customtools
+Skills &plugins
+Code snippets around cursor
+MCPserverintegrations
+2026era?
+Tree sitter ASTparsing
+Hooks
+Permissions
+Artifacts (ie.plan& walkthrough docs)
+nAI
+Deterministiccontextretrieval
+Agenticresearchforcontext
+Agent-first management Uls
+f
+Fair
+Engineering the future of Al

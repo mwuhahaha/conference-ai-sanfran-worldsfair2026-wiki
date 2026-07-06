@@ -1,0 +1,33 @@
+LLMRankings
+Comparemodelsforall prompts
+AllCategories
+Programming
+Roleplay
+Marketing
+Marketing/Seo
+Technology
+Science
+Translation
+Finance
+Health
+Trivia
+Academia
+2.6T
+1.95T
+10to100%growth
+MoMforthelast2y
+Mar17
+Leaderboard
+Token usage across models
+Top thisweek
+OpenAl:GPT-40-mini>
+443Btokens
+GPT-4o mnis OpenA's newest model after [GPT-4 Omn]models
+Google:Gemini 2.0Flash>
+239B tokens
+Anthropic:ClaudeSonnet4>
+207Btokens
+Claude Sonnet 4 signiicanty enhances the ca
+Google:Gemini 2.5ProPreview>
+183B tokens
+Gemni 2.5 Prois Googe's state-of-the-art Ai model des

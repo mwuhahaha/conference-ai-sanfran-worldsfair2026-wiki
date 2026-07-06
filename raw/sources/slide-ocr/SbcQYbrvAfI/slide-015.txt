@@ -1,0 +1,18 @@
+Benchmarking Cline w/ updated prompt on SWE-Bench Lite
+GPT-4.1
+Optemization Loop Train Accuracy Train Delta Test Accuracy Test Oetta .
+— onrsa ~| 5% Improvement, just
+: 0 2000 400133 02133 10.9400 through rules
+2 0.3400 20.1633 0.3133 +0.1400
+3 C3333 «0 1466 0 2800 00 1067
+4 0 33900 001543 0 3000 +0 1267 . .
+e No fine-tuning, no tool changes, no
+architecture changes. JUST RULES.
+Claude Sonnet 4.5
+Optimizaton (ogp = Tran Accuracy Tran Deita Test Accuracy Test Oeta e GPT-4.1 achieved performance near
+° 0.3000 - 0.3633 - . . .
+Sonnet 4-5, which is widely
+1 0 2800 oo2ce O3533 9 0200 . .
+5 5 3308 e078 eae 50808 considered state of the art for coding
+3 0.3600 40.0600 0.3600 40.0067 questions
+4 0 3000 +0 0600 9 36900 +0 0067 3 4% cost!

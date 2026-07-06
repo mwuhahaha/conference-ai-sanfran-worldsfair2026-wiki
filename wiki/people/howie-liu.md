@@ -1,0 +1,22 @@
+---
+title: "Howie Liu"
+category: "people"
+role: "CEO"
+company: "Airtable"
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
+---
+
+# Howie Liu
+
+## Official Role
+CEO at Airtable.
+
+## Official Bio
+Howie is the CEO of Airtable, which he co-founded in 2013 with the vision of creating a radically faster and more intuitive way to build useful applications. Since launch, Airtable has gained a groundswell of adoption across a range of customers from small businesses to the world's largest enterprises, with over 500,000 organizations using Airtable's AI-native platform to build applications that fit their workflows. Now counting over half of the Fortune 500 as paid customers, Airtable enables organizations to turn the power of AI into measurable business impact and power mission-critical enterprise use cases. The company recently launched Superagent, a standalone product built on multi-agent coordination that delivers research and analysis through teams of specialized AI agents working in parallel. Headquartered in San Francisco, Airtable has raised $1.36 billion to date and employs over 750 employees.
+
+## Scheduled Sessions
+- [[2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent]] — $100,000 AIE Startup Battlefield — presented by Hyperagent (2026-07-01, 10:45am-1:00pm)
+- [[2026-07-01-howie-liu-startup-battlefield]] — Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
+
+## Links
+- [LinkedIn](https://www.linkedin.com/in/howieliu/)

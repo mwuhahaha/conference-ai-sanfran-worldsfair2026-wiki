@@ -1,0 +1,6 @@
+Agenda
+e What is the Claude Agent SDK?
+e Why use it?
+e How do you design an agent?
+e Example: prototyping an agent
+ANTHROPAC CONHDENTAL 2

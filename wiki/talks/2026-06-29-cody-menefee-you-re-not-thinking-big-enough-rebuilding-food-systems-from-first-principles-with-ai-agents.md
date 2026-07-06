@@ -1,0 +1,51 @@
+---
+title: "You’re Not Thinking Big Enough: Rebuilding Food Systems from First Principles with AI Agents"
+category: "talks"
+date: "2026-06-29"
+time: "2:25pm-2:45pm"
+track: "Vision & OCR"
+room: "Track 2"
+speakers: ["Cody Menefee"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# You’re Not Thinking Big Enough: Rebuilding Food Systems from First Principles with AI Agents
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 2:25pm-2:45pm
+- Track/room: Vision & OCR · Track 2
+- Speaker(s): Cody Menefee
+- Session type/status: sponsor · confirmed
+
+## Official Description
+Most of the AI world is still thinking too small. We’re building SaaS wrappers and GTM agents while
+
+real-world systems are still run through fragmented knowledge, delayed feedback, and human
+
+guesswork. In this talk, I’ll show how I’m building an outdoor agentic system for pasture-raised
+
+livestock operations using LLMs, a Firecrawl-curated knowledge base, drone and satellite imagery,
+
+and geo collars to monitor pasture, guide animal movement, and support better decisions across
+
+cattle, sheep, poultry, and more. I’ll cover the architecture, retrieval and grounding, human
+
+approval loops, and what broke first: hallucinated confidence, weak environmental grounding, sparse
+
+evals, and the gap between a smart answer and a safe action. It’s a case study in building agents
+
+for the physical world, and a broader argument that AI’s real upside is in rethinking real-world
+
+systems from first principles.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[cody-menefee]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

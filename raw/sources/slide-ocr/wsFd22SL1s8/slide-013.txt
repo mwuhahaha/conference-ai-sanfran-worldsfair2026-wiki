@@ -1,0 +1,17 @@
+°
+Arrakis: API
+Arrakis Restserver exposes the following REST API. This is also available via a Python SOK, MCP Server and an openapi compliant YAML fite
+API - Sandboxes, Snapshots, Command Execution, Files
+a
+ee
+rHandlerunc€"/"4&Pl VERS ION+ "/yms", s.startve) Methods ("POST")
+rtandlefurc€"/"+API VERSION* "/vais/{name}", s.updateviState).Methads(" PATCH” )
+r.Handleburc("/"+APL_VERSION**/vas/{name?", s.destroyys), Methods(" DELETE”)
+r HandleFunc("/"+APl VERSION*  /vais", s.destroyAllyas ) MutiodsC DELETE” )
+r.Handlerunc("/"*#APT VERSION® "/vms", Ss listallvas ) Mothads( GET" )
+r.HandleFunc€"/"+APT_VERSTON® 7 /vs/fnames 7, s.listvil) Metnods("GET" )
+Handlefunc€"/"+APL_VERSTONS” /vas/{name}/snapshots”, s.sqapshotvl) MethodsC "POST" )
+vdlebunc€"/"+APL VERSION* “/ems/finame}/omnd", s.vmCorrand) Methods(" POST")
+dleFunc€"/"*APL VERSTON+ "/yus/{name}/tiles”, s.virkileupload).Methods( "POST )
+dleFunc("/"+4APL VERSION+  /vas/{name}/tiles”, s.vrtiledownload). Met hods( "GET" )
+end Lerkanc€"/"+APL VERSIONS "/health”, s health neck). Metnods ("GET")

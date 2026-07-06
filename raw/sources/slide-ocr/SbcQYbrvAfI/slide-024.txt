@@ -1,0 +1,18 @@
+North Star: Self-Iimproving Agents
+Self-improving agents require a feedback loop where both agents and evals evoive together—not just better
+prompts, but better evaluations too.
+Collect data
+oo
+byals with low oO
+confidence
+D Improve fae Run evals . fey area. @
+
+Improve prompt Agent Update prempt Pyates
+
+/ Fine-tune
+
+, Collect dataset SN 7
+Annotate for of failures S
+training dataset
+
+Aarize 2025°11-22 12:55:08

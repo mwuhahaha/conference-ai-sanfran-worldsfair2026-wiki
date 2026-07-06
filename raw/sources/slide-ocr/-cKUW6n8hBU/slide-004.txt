@@ -1,0 +1,6 @@
+DSPy allows you to decompose logic into a -
+program that treats LLMs as a first class citizen...
+... Without having to tweak prompts (unless you
+want to)
+
+e

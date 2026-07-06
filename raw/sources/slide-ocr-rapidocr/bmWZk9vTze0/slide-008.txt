@@ -1,0 +1,17 @@
+# sampling
+Give MCP servers the ability to make requests to LLMs via the client.
+(Powerful feature of MCP,but not widely supported*)
+LLM
+MCPclient
+HCP server
+LLM call
+LLMtoolcallresponse
+toolcall
+sanpling*createmessage*
+LLM call
+LLN text response
+osuodsax Bugtdaes
+toolcallresponse
+LLM
+HCPclient
+MCP server

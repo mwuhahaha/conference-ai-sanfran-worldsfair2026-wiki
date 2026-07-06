@@ -1,0 +1,21 @@
+a © —— — ~ Ca
+o 2 BS yeree we iersee® ot we “ « 00 © Qi
+(is): [from IPython.display import Image, display
+class GraphState[TypedDict}:
+Represents the state of our graph.
+Attributes:
+question: question
+generation: LLM generation
+search: whether to add search
+Gocuments: List of documents
+wee
+question: str
+generation: str
+search: str
+documents: Lististr)
+steps: Lististr!
+|!
+7 f aan ,
+i s980Q +: see ww
+and | aWws
+' ~ eel

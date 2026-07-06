@@ -1,0 +1,8 @@
+The problem:
+
+access ¢ understanding
+
+* Weconnect agents to code, logs. docs, tickets, and more...
+* Which gives us plausible output that often compiles...
+
++ Butit fails human review and real world expectations.

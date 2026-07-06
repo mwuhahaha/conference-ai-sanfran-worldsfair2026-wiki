@@ -1,0 +1,25 @@
+(base)zachhlumenfold:-/d
+Project generated!
+Generating deno data...
+[1/4] Seeded 60 entities
+[3/4]Generated 25documents
+[2/4]Created 119relationships
+[4/4]Created1edecisiontraces
+Genarated:60 entities,119 relationships,25 documents,10 decision traces
+Written to:/Users/zachblumenfeld/demo/my-health-apo-2/data/fixtures.json
+Donel Your Healthcare context graph apo is ready.
+cdmy-health-app-2
+nake dockar-up
+make install
+Install dependencies
+nake seed
+Start Neo4j
+AIE
+makestart
+Seed sanple data
+start backend+frontend
+Frontend:httoi//locaihost:3oe9
+Backend:
+http://1oc1host:80
+(base)zachblumenfeld:-/demos
+Engineering thefutureofAl

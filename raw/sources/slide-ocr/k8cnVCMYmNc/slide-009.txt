@@ -1,0 +1,11 @@
+Introducing Temporal
+e Technology and open source project that delivers
+resilience for distributed systems in a novel way.
+e Supports a programming model that allows
+developers to code the , while the
+platform provides services that compensate for a i; |
+wide range of distributed system failures. S I ! ] e @) al
+e Platform comes in the form of a service + SDKs
+SDK is available for Go, Java, Python, PHP, Typescript, .Net, Ruby
+Note The OpendAl Agents SOK + Tempora: scluton is currently ee
+only avalatle ‘or Python. Typescript com.ng in the future

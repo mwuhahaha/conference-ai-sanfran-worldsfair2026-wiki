@@ -1,0 +1,118 @@
+---
+title: "Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize"
+category: "slides"
+video_id: "JsCCrBF7F1g"
+sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
+---
+
+# Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize
+
+## Source Video
+[LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize](https://www.youtube.com/watch?v=JsCCrBF7F1g)
+
+## Relationship To World's Fair 2026
+These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+
+## Related Scheduled Sessions
+- [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked]] — Your Agent Is Lying to You About Whether It Worked
+
+## Extracted Slides
+![[assets/slides/JsCCrBF7F1g/slide-001.jpg]]
+
+OCR text:
+
+> €3 Braintrust €} WorkOS OpenAl
+
+![[assets/slides/JsCCrBF7F1g/slide-002.jpg]]
+
+OCR text:
+
+> Sevan bee ne ET a)
+> mn . ‘ @ arize 7 .
+> cae ‘ LLM Observability, Evaluation,” | ~~, ;
+> - Experimentation Platform Be
+> Google DeepMind
+
+![[assets/slides/JsCCrBF7F1g/slide-003.jpg]]
+
+OCR text:
+
+> oT 7 PC i . . . . . . . Cr a ad " i “s 7 ; ROK ; ~
+> 
+> observe Dee ne on OR CP ava a
+> Cy ce: a ca os ot ere |
+> 
+> aa Ship Agents that Work
+> 
+> A iM
+> Sr =i .
+> Powering the world’s leading Al teams
+> =
+> #3 Braintrust €) WorkOS OpenAl
+
+![[assets/slides/JsCCrBF7F1g/slide-004.jpg]]
+
+OCR text:
+
+> Building GenAl is Hard, So How Are Teams Tackling This?
+> 
+> vt — ~
+> &
+> Observability “|
+> 
+> rs What is happening in my application? Can Erle
+> en ba in | root cause down into the problem? Experimentation &
+> NX. i
+> * x Improvement
+> Paar (+) i The ultimate goal of
+> Nw observability and evaluation
+> 
+> . ] : is to know where to iterate
+> 
+> [5] and know where to improve
+> 5 the system
+> Evaluation
+> How well is the Al product that I've built, ,
+> actually performing according my
+> criteria?
+> | ~s Aorze
+> ce a i
+> | Al Engineer |
+> EUROPE
+
+![[assets/slides/JsCCrBF7F1g/slide-005.jpg]]
+
+OCR text:
+
+> Bullding GenAl is Hard,So How Are Teams Tackling
+> AEngineer
+> EUROPE
+> D26
+
+![[assets/slides/JsCCrBF7F1g/slide-006.jpg]]
+
+OCR text:
+
+> Evaluators
+> Create valuator
+> QSA
+> QA
+> AIE
+> tepst
+> Engineering the future of Al
+> \Engineer
+
+![[assets/slides/JsCCrBF7F1g/slide-007.jpg]]
+
+OCR text:
+
+> | Al Engineer |
+> EUROPE
+> AI.ENGINEER
+
+## Slide-Derived Subjects To Review
+Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
+## Reconstructed Slide Deck
+- [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+## Dense Scene-Detected Slide Candidates
+- [[youtube-JsCCrBF7F1g-dense-slides]]

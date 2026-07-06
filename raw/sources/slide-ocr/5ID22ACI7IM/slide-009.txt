@@ -1,0 +1,6 @@
+Where Al forward teams use a context engine
+
+* Agent Plans & code — hydrate context before planning to improve codegen quality.
+* Ticket enrichment — gathering context across systems to improve tickets.
+
+* Triage operations — routing issues, enriching tickets, and validating bug reports.

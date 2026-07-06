@@ -1,0 +1,57 @@
+[
+  {
+    "id": "agent-evaluations",
+    "title": "Agent Evaluations",
+    "path": "wiki/topics/agent-evaluations.md"
+  },
+  {
+    "id": "agent-memory",
+    "title": "Agent Memory",
+    "path": "wiki/topics/agent-memory.md"
+  },
+  {
+    "id": "agent-security",
+    "title": "Agent Security",
+    "path": "wiki/topics/agent-security.md"
+  },
+  {
+    "id": "agentic-search",
+    "title": "Agentic Search",
+    "path": "wiki/topics/agentic-search.md"
+  },
+  {
+    "id": "ai-sandboxes",
+    "title": "AI Sandboxes",
+    "path": "wiki/topics/ai-sandboxes.md"
+  },
+  {
+    "id": "autoresearch",
+    "title": "Autoresearch",
+    "path": "wiki/topics/autoresearch.md"
+  },
+  {
+    "id": "coding-agents",
+    "title": "Coding Agents",
+    "path": "wiki/topics/coding-agents.md"
+  },
+  {
+    "id": "inference-engineering",
+    "title": "Inference Engineering",
+    "path": "wiki/topics/inference-engineering.md"
+  },
+  {
+    "id": "mcp",
+    "title": "Model Context Protocol",
+    "path": "wiki/topics/mcp.md"
+  },
+  {
+    "id": "software-factories",
+    "title": "Software Factories",
+    "path": "wiki/topics/software-factories.md"
+  },
+  {
+    "id": "voice-agents",
+    "title": "Voice Agents",
+    "path": "wiki/topics/voice-agents.md"
+  }
+]

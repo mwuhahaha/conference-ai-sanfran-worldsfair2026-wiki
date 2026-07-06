@@ -1,0 +1,7 @@
+Coding Agents on SWE-Bench Lite, No Prompt Changes
+Sonnet 4-5 GPT 4.1 Sonnet 4-5 Haiku 4.5
+Cost: $3/1M tokens Cost: $2/1M tokens Cost: $3/1M tokens Cost: $1/1M tokens
+*& Latency: © Latency: * Latency: *& Latency:
+30.00% 18.67% 40.00% 18.67%
+Retr Deas sey UE UD so ats Ghia G issues cetabe s aes
+HN ped Pe Sard pes yet BP Bo AN

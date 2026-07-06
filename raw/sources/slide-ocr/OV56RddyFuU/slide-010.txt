@@ -1,0 +1,14 @@
+Local self-improving agents
+Hermes Agent COC
+e self-improvement is baked in: # use with inference providers
+HF TOKEN&ht ...
+after the task, the agent saves hermes, chad e=provider bf
+the approach asa reusable # use with local served endpoint
+"skill" and persists memory (Ulama.cpp & friends)
+hermes config set OPENAIT BASE URL
+across sessions httpi//locathost :8080/y1
+. hermes config set OPENAT API KEY dutmy
+° Integrated with Inference hernes contig set LUM MODEL your-model-
+Providers or serve LM locally name
+# start chatting
+hermes chat

@@ -1,0 +1,30 @@
+const researchAgent nev Agent（{
+nane:'research-agent',
+Lnstrocttons:You are a research agent that analyzes
+Agent supervisor
+questtonsopenai(gpt-4'),
+const summaryAgent-new Agent（{
+nase:'sunary-agent',
+instructlons:You are a su
+Supervisor
+model:openal(gpt-4).
+AIE
+const researchTool=createTool（{
+id:'research',
+execute:async（tnputData））{
+constresult=await researchAgent.0
+rate(inputData.query);
+return{text:resutt.text）;
+F.
+const summaryTool=createTool（{
+ld:*summarize'
+execute:async（{inputData}）{
+const result -awalt summaryAgent.generateLnputData.text);
+return{text:Tesult.text）;
+export const supervlsorAgent=new Agent（
+hane:'supervisor-agent'.
+nodel:openal('gpt-4'),
+research and summarization tasks.
+tools:[researchTool,summaryTool],
+aws
+Word'sFair

@@ -1,0 +1,16 @@
+"s _ LLM agents in 2025
+e Most LLMs are Chatbots Stages of Artificial
+Great on Q&A benchmarks Inteligence
+ES Heipful for interactive problem-solving Level 1 Chatbots, Al with conversational
+e “Reasoning” models = the future? language
+01,03, R1, Grok 3... Level 2 Reasoners, human-level problem
+Better at hard Q&A sovmeg
+: e Best practices for “agents” Level 3 vo Agents, systems that can take actions
+Many chained LLM calls per task Level 4 Innovators, A! that can aid in invention
+Prompt engineering + tooling
+Evals, ops. tool-use, human-in-the-loop Level S a agesueien that can do the work
+Results are... OK?
+ee ge awe en gil (Open
+ee a |< Pamala aah [c
+* ee a AI.ENGINEER
++

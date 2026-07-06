@@ -1,0 +1,6 @@
+Taing:NYC(NYT)46.17Cental
+How you“express your
+Signatures
+declarativeintent”
+Can be simple strings or
+complex Class-based objects

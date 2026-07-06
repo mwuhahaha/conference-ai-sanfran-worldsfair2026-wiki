@@ -1,0 +1,11 @@
+GraphRAGRetrieval Patterns
+ThecoreGraphRAGpattern isverysimple,yetpowerful.
+AIE
+Doavectorsearch tofind an initial setofnodes
+Traverse the graph around those nodes to add context
+(Optional:Rank the results using the graph and pass the
+top-kdocumentstotheLLM)
+orved2024
+Microsoft
+smol
+aws

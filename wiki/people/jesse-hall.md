@@ -1,0 +1,18 @@
+---
+title: "Jesse Hall"
+category: "people"
+role: "Staff Developer Advocate"
+company: "Livekit"
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
+---
+
+# Jesse Hall
+
+## Official Role
+Staff Developer Advocate at Livekit.
+
+## Official Bio
+Jesse Hall is a Staff Developer Advocate at LiveKit and a full-stack developer who specializes in teaching TypeScript developers how to build AI-powered web applications using real-time communication technologies. He creates practical articles, videos, and interactive talks that break down complex voice AI and agent concepts into clear, production-ready takeaways.
+
+## Scheduled Sessions
+- [[2026-06-30-jesse-hall-latency-is-a-budget-humanlike-is-the-goal]] — Latency Is a Budget. Humanlike Is the Goal. (2026-06-30, 2:25pm-2:45pm)

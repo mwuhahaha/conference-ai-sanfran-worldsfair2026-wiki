@@ -1,0 +1,45 @@
+---
+title: "Loop Engineering from first principles"
+category: "talks"
+date: "2026-06-29"
+time: "3:45pm-4:05pm"
+track: "Software Factories"
+room: "Main Stage"
+speakers: ["Kyle Mistele"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Loop Engineering from first principles
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 3:45pm-4:05pm
+- Track/room: Software Factories · Main Stage
+- Speaker(s): Kyle Mistele
+- Session type/status: session · confirmed
+
+## Official Description
+Code is free, software is infinite, and agents can do it all - that's the promise of the lights-off
+
+software factory, where humans interact only with tickets & specifications, and nobody reads the
+
+code, let alone writes it. We ran our own for six months, and we have the scars to prove it - bad
+
+code compounded, and agents created problems that agents couldn't solve - until we had to throw it
+
+all away. But this is a survivor's guide, not an obituary. In this talk, we'll share the challenges
+
+we encountered, what we liked, what we hated, what we're still doing, what we stopped doing, and
+
+what we started doing afterwards.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[kyle-mistele]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

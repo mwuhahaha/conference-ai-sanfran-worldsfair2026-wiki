@@ -1,0 +1,15 @@
+Devel t |
+The second reason we hear
+people choose GraphRAG over
+vector-only RAG is easier
+development... once they've
+pushed through the initial
+learning curve.
+
+" Werdly ease of develapment Jer lack
+thereof! :s aiso ene of the stumbins: blocks!
+How can that be?
+
+One word Knowledge Graph Construction’
+Ok that’s three. Susneld that tnouenAtuerd
+ae

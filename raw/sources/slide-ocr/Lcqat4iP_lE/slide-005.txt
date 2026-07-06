@@ -1,0 +1,8 @@
+Why do we care about this
+ES * Both build tools that need MCP observability
+* Care about DevEx
+*« Bad developer and user experience is threat to adoption
+« CTOs/CISOs - Familiar observability is necessary for production
+reer EN Hacerseis
+INES) ree | nae
+wd Ceikes se) SE hk ES 600 OO

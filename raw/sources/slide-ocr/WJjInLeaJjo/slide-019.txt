@@ -1,0 +1,24 @@
+https: //github.com/awslabs/mcp
+() README 6<&% Codeotconduct ff Apache-20 tcense 87) Secunty @ = 2 Af conte butions
+Deployments 500
+¢ AWS MCP Servers ;
+@ release
+A sute of speaatzred MCP servers that help you get the most out of AWS, wherever you use MCP.
+@ onnud-peges
+CT 0 ee
+3 rary deploy tents
+Table of Contents
+Languages
+. AWS HCP Servers es b+
+Tabie of Cortents © Lemons So, te Deckertigtin”,
+Shem @ HTM.
+Viihat ¢ the Model Context Protocol (MCP } and new dows # work with AV'’S MCP Seteers?
+© Vihy NCP Servers?
+] Avaliable Servers
+= Core MCP Server
+© AWS Documentaton MCP Server a
+* Amazon Bedrock Knowledge Bares Retina! MCP Seever
+© AWS Kendra index MCP Server hy :
+© AWS COK MCP Server
+© Cost Anaiyss MCP Server
+# Amazon Nova Canvas MCP Server dl

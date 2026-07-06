@@ -1,0 +1,21 @@
+areact/vite withmaterial des
+on tracking.simple and big accessible ui foilowing
+gn principies
+AIE
+Edit with Copilot
+ibCopilot
+AgentMode
+1create a React/Vite website for water hydration tracking
+a CtloedtyoaSi
+inten
+ele mn
+Let me start by creating the workspace structure.
+redly
+Create New Workspace*
+Continue with #new workspace setup
+ib Copilot
+antext..
+nyour workspacein agentmode
+Claude Sonnet 4
+aws
+World'sFair

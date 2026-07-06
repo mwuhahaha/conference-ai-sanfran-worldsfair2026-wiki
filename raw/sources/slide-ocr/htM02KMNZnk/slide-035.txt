@@ -1,0 +1,12 @@
+# unedited, from the threads HARD DATA
+r/LocalLLaMA 1,000 prompts
+“different outputs at temperature = 0, — 80 answers
+mostly the MoE architecture.”
+
+temp O vLLM  Qwen-3-8B
+t/LocalLLaMA
+“even at temp 0 you get different
+answers, you‘re using GPUs.”
+Hacker News
+“completely correct or completely wrong,
+depending on minute numerical diffs.”

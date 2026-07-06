@@ -1,0 +1,18 @@
+a I ae ada ac ect ies hd coe .. ' & mom ih ne Pt lita td
+© © | Mui scemerenn «. Q Rutten tO ede- Geta mG me tainent epens ae 2 | 0) trweetatenteat ie RQ te etiene meres .-
+© SB ete ene oe Sono Do @ ~ 0: ee tae naa oer y
+Bq tenet EE) Ca tens Reet Prune 05 Coateg tees Co Cpe Toe Wiyfemoer a Ls AP Boones -
+() README = &f3_ License @ 3:
+(note, you will need enough quota on in your OpenAl account to run
+this demo)
+4. PDF Generation Dependencies - Required for PDF output (optional) *
+Starting Temporal Server
+# Install Temporal CLI Q
+curl -sSf https://temporal.dawnload/cli.sh | sh
+# Start Temporal server
+temporal server start-dev
+Setup
+1. Clone this repository
+2. Install dependencies:
+uv sync oa
+@ 2 Catunir Onandl! AP] bau:

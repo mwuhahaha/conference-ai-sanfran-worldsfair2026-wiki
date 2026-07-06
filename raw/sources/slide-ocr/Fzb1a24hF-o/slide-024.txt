@@ -1,0 +1,20 @@
+a AMS i a RS eS OS a i i a
+ay Fe fo} Le rT od QO oO co OQ oO Ca i a a
+a a ee a a e .
+= © Dagger
+workspace-input and with-workspace-output . These bindings can be used to provide (or retrieve) the workspace to
+the agent.
+« The LLM is supplied with a prompt file instead of an inline prompt. By separating the prompt from the Dagger Function
+code, it becomes easier to maintain and update the instructions given to the LLM. q
+The final step is to add the prompt file. Create a file at .dagger/develop_prompt.md with the following content:
+You are a develooer on the Hel loUaaqer Yues$s propect.
+You will be qiven ar assientert and the Coele te covplete the assignment,
+SKCrvaamnt ae] Laan OPCs ee oat ied
+&8 Copstrapits
+Before wtitlsbg code, ofulyce the workspace tu understadd the project.
+Oramernnehs Ohe ubdeceessary changes,
+tests to validate your tode charges.
+ad pountrl yan bove covpletea the ass caecedt and the Tests gauss,
+) : so
+7 Sy
+= a 2

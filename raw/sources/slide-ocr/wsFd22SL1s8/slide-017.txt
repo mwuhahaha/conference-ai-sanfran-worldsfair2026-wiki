@@ -1,0 +1,15 @@
+Containers: Why? And What?
+. Parent
+Container Pid 1 Root
+Pid Namespace Nomespaces
+I pid 1 Pid
+ee 100
+o oar 7 Te ~
+: Pid 21 t Pid 31 Pid Pid
+=e ST Te 101 102
+Mount Namespace “f+. --
+{7 wor
+1 /
+' = ‘
+Userspace
+Kernel

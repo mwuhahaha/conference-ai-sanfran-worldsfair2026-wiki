@@ -1,0 +1,11 @@
+Challenges e Not every corpus/query is relational DB material
+e Normalization (West Germany, South Korea and
+Japan)
+o Both during ingestion and inference
+e Abstinence & Ambiguity
+o Did Real Madrid win in the 2006 Final? (Not
+world cup)
+e Clustering and inferring schema (clear trade-off
+on complexity)
+e Text2SQL over complex schemas
+ne ae

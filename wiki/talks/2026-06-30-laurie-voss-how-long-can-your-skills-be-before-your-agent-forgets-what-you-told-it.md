@@ -1,0 +1,58 @@
+---
+title: "How long can your skills be before your agent forgets what you told it?"
+category: "talks"
+date: "2026-06-30"
+time: "1:30pm-1:50pm"
+track: "Context Engineering"
+room: "Track 8"
+speakers: ["Laurie Voss"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# How long can your skills be before your agent forgets what you told it?
+
+## Official Schedule Context
+- Date/time: 2026-06-30 · 1:30pm-1:50pm
+- Track/room: Context Engineering · Track 8
+- Speaker(s): Laurie Voss
+- Session type/status: session · confirmed
+
+## Official Description
+A year ago, frontier models lost the thread somewhere around 200 simultaneous instructions, so
+
+skills files had to stay short and lean on sub-skills and subagents. We re-ran IFScale on the 2026
+
+frontier and found the ceiling has moved by an order of magnitude: closer to 2,000 instructions, up
+
+to 5,000 on the strongest models. The more interesting story is how models fail at the new frontier:
+
+DeepSeek quietly drops instructions, Opus refuses outright when innocuous words trip a safety
+
+classifier, Gemini burns its whole budget on reasoning and emits nothing, and GPT-5.5 stops to tell
+
+you your request was unreasonable. The capacity problem is largely solved; verification is wide
+
+open. We'll show the data, the failure modes, and what it costs to find out. You’ll come out with
+
+hard data on the ceiling for complex instructions to LLMs
+
+## Related YouTube Video
+[Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize](https://www.youtube.com/watch?v=Xfl50508LZM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Cached at `raw/sources/youtube-transcripts/Xfl50508LZM.txt` (22,591 words).
+
+## People
+- [[laurie-voss]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-Xfl50508LZM-slides]] — extracted from the related public AI Engineer video.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-Xfl50508LZM-dense-slides]] (7 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-Xfl50508LZM-dense-slides]]
+- [[youtube-Xfl50508LZM-reconstructed-slides]]
+- [[youtube-Xfl50508LZM-slides]]
+- Slide-derived terms: `phoenix`, `claude`, `tome`, `setting`, `tracing`, `alengineer`, `europe`, `ages`, `notebook`, `cloud`, `comma`, `swiss`, `cheese`, `braintrust`, `workos`, `openal`, `frage`, `gers`

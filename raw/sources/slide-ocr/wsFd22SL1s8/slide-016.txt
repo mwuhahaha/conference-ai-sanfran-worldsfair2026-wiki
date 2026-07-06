@@ -1,0 +1,14 @@
+mov eax, 1
+xor ebx, ebx
+int 0x80
+Process 1 Process 2
+\ hread j Thread
+a
+ioctl syscall
+Userspace
+Kernel (OS)
+Execution model of a typical Linux System
+« A ‘Thread” is the smasbest unt of execution. Each “Thread” has a “task_struct” that’s in the Scheduéer run queue.
+* “Process” consists of mutuple threads “Threads” in a process have different TIDs but same PID, share page table ang other things Bound by shared resources
+* Kernel prowses “pnvieged’ access to hardware If not gated, buggy of maicious Code can wreak havoc
+© Special instrucbons to switch to kernel mode / supervitar mode and invoke a syscall for privileged access

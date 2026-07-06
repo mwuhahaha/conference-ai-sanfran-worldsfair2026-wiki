@@ -1,0 +1,31 @@
+Preview README.md
+Amp
+SeeAmpOwner'sManualformore informationaboutAmp
+Update TODOs
+AIE
+GettingStarted
+三LinearIssues 50issues found
+1.Create server/.env.LocaL withcontentsfrom 1Password.
+iesFou
+d(50)
+macOSbootstrap
+AMP-20
+Done
+1.Install dependencies:
+Add special icon for Line
+brew install mise
+brew install postgresql
+OSS-8225
+Backdog
+brew install redis
+Create adefaultcon component forextensior
+s withnoicon
+brewinstallrg
+brew install podnan-desktop
+2.Create podmanmachine with sufficlentresources:
+podman machine init-disk-size 128-memory 16384
+ILservice:
+ces start postaresql
+Microsoft
+smol?
+rid'sFair

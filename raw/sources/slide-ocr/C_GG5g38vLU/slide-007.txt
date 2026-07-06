@@ -1,0 +1,25 @@
+7-index.tsX
+157-noex1s
+Cursor Light
+import(createT
+Lght(Visul Studio）Vs
+import
+createC
+Lght Moden Dett Lighe Mod
+import（runLoop o
+Ug+Detat Lt
+import （BrowseI sdlarizedLigh
+Abyss
+//trya shitty
+CursorDark
+Const MODELoCursorDark Midnight
+AIE
+const TASK=
+Upvote a story on Hacker News.
+Go to https://news.ycombinator.com.
+console.1og（Model:s（MODEL)）:
+console.log(Task:upvote on Hacker News\n'):
+const session = new BrowserSession();
+10LShr
+AlEngineer
+Engineering the future of Al

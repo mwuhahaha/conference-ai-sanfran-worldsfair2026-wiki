@@ -1,0 +1,11 @@
+Without Bash With Bash
+User: How much did I spend on ride sharing User: How much did I spend on ride sharing
+this week? this week?
+Tool Cali (Gmail Query Search) query: “uber Tool Call (Bash): ‘gmail_search.ts query
+OR lyft” “uber OR lyft*
+Thinking: I found the following emails that Tool Call (Bash):
+mention Uber and Lyft, I need to find the
+cost of each email. gmait_search.ts ~- a> :
+wot sf
+ret > : " IN
+Claude: The total is... (hallucinated) wee : 1 \ a, /

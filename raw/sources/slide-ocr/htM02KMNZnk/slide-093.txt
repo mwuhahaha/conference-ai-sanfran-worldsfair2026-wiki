@@ -1,0 +1,15 @@
+Poe @
+Ree
+Example oe .
+wtnver s Cnat. LanguageModel fon HRs wpa O t |
+start Effect: Stream tras “etter® 8 if age al (ole) OF
+.
+// Steeaming chat with tool support b Bi
+const streamingChat - Effect gen furctione ao eT
+const chat vievce Chat empty Eff 5
+ect-native
+yin’ te chat Cy
+streanText
+prompt “ieeeeaste a cteative stat”
+pipe Stream. runforEach. part =~ Effect. sync t+ console log part
+language model if we were to uh

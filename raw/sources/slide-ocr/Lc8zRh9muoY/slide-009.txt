@@ -1,0 +1,17 @@
+X wrong question: can we make the model deterministic.
+J right question: can we debug & test a run we can't reproduce.
+determinism was never the goal. record the run, replay the recording.
+
+bitwise determinism replayability
+
+= controllability = observability
+
+same input —- identical output. reconstruct a run that happened,
+
+you won't get it from a hosted API, well enough to debug. you don't
+
+and you don’t want it: that need determinism, you need -
+
+tandomness makes the model qaod. the run recorded. =
+
+a

@@ -1,0 +1,64 @@
+---
+title: "Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes."
+category: "talks"
+date: "2026-06-30"
+time: "2:50pm-3:10pm"
+track: "AI-Native Enterprises"
+room: "Leadership 1"
+speakers: ["Roberto Milev", "Uday Kanagala"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes.
+
+## Official Schedule Context
+- Date/time: 2026-06-30 · 2:50pm-3:10pm
+- Track/room: AI-Native Enterprises · Leadership 1
+- Speaker(s): Roberto Milev, Uday Kanagala
+- Session type/status: session · confirmed
+
+## Official Description
+Remember when everyone was shipping microservices without service discovery, circuit breakers, or
+
+distributed tracing? Agents are in that exact phase right now. Everyone's building them. Almost
+
+nobody is thinking about the infrastructure underneath. We've been deploying production agents
+
+across 120+ microservices. Here's the stack that's emerging: Runtime — containerized execution,
+
+session persistence, workspace snapshots. Solved-ish, mostly duct tape. Memory — RAG had a good run.
+
+It's not enough. Tiered memory — short-term, long-term with semantic/episodic strategies, agents
+
+deciding what to remember and forget. Observability — you can't tail -f an agent. Execution traces,
+
+reasoning chains, confidence signals — agents need their own observability stack. Testing — the
+
+biggest gap. Unit testing non-deterministic behavior, regression testing prompt changes, knowing
+
+your agent got worse before users do. Skills and tools — MCP and skill definitions as the standard
+
+interface layer — the REST APIs of the agent era. Context engineering — what the agent knows at
+
+decision time. The new performance tuning. Guardrails and auth — scoped credentials, budget limits,
+
+knowing when to stop. Least-privilege for agents. Orchestration — single vs. multi-agent,
+
+choreography vs. orchestration. Same tradeoffs as microservices, new failure modes. This talk maps
+
+the stack, draws the parallels to how we eventually got microservices right, and calls out what's
+
+still painfully missing.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[roberto-milev]]
+- [[uday-kanagala]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

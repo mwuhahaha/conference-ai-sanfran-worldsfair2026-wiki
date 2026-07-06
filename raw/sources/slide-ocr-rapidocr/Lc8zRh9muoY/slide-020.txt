@@ -1,0 +1,36 @@
+[1002-place_order-1.jsonM
+()001-agent-1.jsonM
+PreviewREADME.mid
+test_financial_incidents.pyβ
+test
+susheemkoul@Susheems-MacBook-Pro chroniclepython examples/financial_incidents/run.py trade test
+TEST trade-notional
+(cut-point)
+Boundary results
+Node
+KindMode
+Input
+Output
+agent@1
+llm
+STUB
+Sellabout$1,eo0ofACMEfrommyp
+-place_order(symbol=ACME,quantity=1e00,side=sell)
+place_order@1
+tool
+LIVE
+symbol=ACME,quantity=leee,side=se
+blocked:0rderblocked-s190,eo0.e0exceedsmaximums5,e00.e0
+agente2
+llm
+LIVE
+blocked:0rderblocked-s190,000.00e0rderblocked-s190,000.e0exceedsmaximum$5,000.00
+Verification
+[PASs]orderblocked
+[PASS]
+[PASS] agent@1 stubbed
+no shares sold
+[PASs]place_order ran live
+Final message
+"0rderblocked-s190,000.e0exceeds maximum $5,000.0o
+OsusheemkouleSusheems-MacBook-Pro chronicle

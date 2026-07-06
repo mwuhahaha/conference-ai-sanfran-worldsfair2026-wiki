@@ -1,0 +1,9 @@
+G
+Taking:NYCNYT)46.17Cental
+Optimizers
+DSPy has various built-in primitives that allow you to then optimize your
+program. This allows you to quantitatively improve your performance and
+costprofile.
+"A DsPy optimizer is an algorithm that can tune the parameters of a DsPy
+program (i.e., the prompts and/or the LM weights) to maximize the metrics
+you specify, like accuracy."

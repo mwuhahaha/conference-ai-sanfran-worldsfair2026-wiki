@@ -1,0 +1,42 @@
+handler.baml-aie-IndexAdded
+Upgrade toPro+
+AIEngineer
+World'sFair
+aml1,M
+handler.bamlAX
+main.pyM
+baml_src>ns_timer>Ehandler.baml>.
+main.py>
+Open
+Playground|You,1hour ago |1 author[You)
+function with_timeout<T>（millis:int,f:
+let work:Future<T,null>=spawn
+f()
+def safe_python():
+defwork（):
+PRESENTED BY
+let timer:Future<never,baml.errors.Io
+tine.sleep(10)
+baml.sys.sleep(delay:baml.time.Dur
+return"Done"
+Microsoft
+work.cancel():
+throw TimeoutErrormessage:Oper
+#Set a timeout of 1eee milliseconds （1 second)
+result=root.timer.with_timeout（1ooe,work)
+print(f"Result:(result)")
+let result:Future<T,baml.errors.Io
+awaitresult
+class TimeoutError
+message:string,
+AL!
+Worl
+implements baml.ToString
+function to_string(self)->string
+raturn calfmeceane.
+main*+Launchpadweek-2
+@0A1
+Live Share Git Graph
+BAML
+UTF-8LF()BAMLPrettier
+Engineering the future of Al

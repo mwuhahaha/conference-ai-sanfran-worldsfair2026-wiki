@@ -1,0 +1,10 @@
+What Guardrails Al does
+
+Guardrails Al is a fully open source library that offers
+Framework for creating custom validators
+
+Orchestration of prompting > verification > re-prompting
+
+| Library of commonly used validators for multiple use cases
+Specification language for communicating requirements to LLM
++> Guerdraiie Al

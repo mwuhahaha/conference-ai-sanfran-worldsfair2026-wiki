@@ -1,0 +1,16 @@
+3 Ingredients in an Eval
+DATASET SCORER
+~The loqie behind your
+The code or prompt you evals,
+want to evaluate. : r
+Can be oan
+-It can range fron a (Ce been RUC ke Co] en ee
+single prompt to un A set of real-world Cede funetion
+entire agent workflow. exarples, mearear 5 —
+The scorer will give a
+Requires an input and “These are your test score of B 108 to each
+RTeTeesTiny fen rare row in the dataset
+i 3
+OS
+bg
+| u

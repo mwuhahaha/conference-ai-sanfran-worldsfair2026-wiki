@@ -1,0 +1,61 @@
+---
+title: "Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features"
+category: "talks"
+date: "2026-06-29"
+time: "11:10am-11:30am"
+track: "Security"
+room: "Track 5"
+speakers: ["Lovina Dmello"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 11:10am-11:30am
+- Track/room: Security · Track 5
+- Speaker(s): Lovina Dmello
+- Session type/status: sponsor · confirmed
+
+## Official Description
+ShadowRay exposed over a billion dollars of data through a missing authentication check. It wasn't a
+
+zero-day. It wasn't a clever new attack class. It was a default config someone never flipped off.
+
+That story is not the exception in production ML, it's the rule. We synthesized 139 peer-reviewed
+
+papers on production ML security across access control, runtime security, infrastructure, and
+
+operations. Five findings stood out, and one of them upends how most teams think about ML security:
+
+- Misconfiguration, not missing features, is the dominant failure mode. The mechanisms exist. Teams
+
+aren't using them, or are using them wrong. - Adversarial defenses impose 15–30% inference overhead,
+
+which is why almost no production system actually runs them. - ML-specific security tooling lags
+
+general DevOps tooling by years. - Security, data-science, and ops teams operate in expertise silos
+
+that create persistent gaps no single team can see. - LLM and multi-tenant GPU threats are evolving
+
+faster than defenses (prompt injection, RAG poisoning, GPU side channels). This talk walks through
+
+the four-pillar defense-in-depth framework, the six-category threat taxonomy that maps each attack
+
+to its primary and secondary defenses, and a four-level security maturity model that matches
+
+overhead budgets to deployment contexts. You leave knowing where your stack actually sits and which
+
+3 misconfigurations account for most of the risk.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[lovina-dmello]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

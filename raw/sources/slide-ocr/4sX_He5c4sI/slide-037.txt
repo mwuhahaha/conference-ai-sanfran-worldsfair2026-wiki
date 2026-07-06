@@ -1,0 +1,17 @@
+eres eld
+
+Agenda
+
+| Meet OG Assist
+
+2. | The Origin Story
+
+| Betting on Effect
+
+a. | The Core Agent Loop
+
+s. | A2A, Evals & Sandboxing ~
+
+s. | Long Context Handling ga
+Monitoring & Observability 7 q
+2. | Tools. Skills & Dev Workflows how we collect feedback, a ;

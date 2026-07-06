@@ -1,0 +1,27 @@
+Preview README.md
+Amp
+canyo
+See AmpOwner's Manual formore informationaboutAmp.
+ectorlconandimple
+nentit
+AIE
+Getting Started
+三Linearlssues50iss
+1.Create server/.env.locaL withcontentsfrom1Password
+macOSbootstrap
+UpdateTODOs
+1.Install dependencies:
+Foun
+brew install mise
+brew install redis
+brew install postgresql
+brew install podan
+brew installrg
+brewinstallpodnan-desktop
+2.Create podmanmachine with sufficlentresources:
+TODO
+ILservice:
+ces start postaresal
+Microsoft
+smol?
+brid'sFair

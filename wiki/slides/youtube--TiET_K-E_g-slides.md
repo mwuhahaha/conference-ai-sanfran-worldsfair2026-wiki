@@ -1,0 +1,153 @@
+---
+title: "Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google"
+category: "slides"
+video_id: "-TiET_K-E_g"
+sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
+---
+
+# Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google
+
+## Source Video
+[From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google](https://www.youtube.com/watch?v=-TiET_K-E_g)
+
+## Relationship To World's Fair 2026
+These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+
+## Related Scheduled Sessions
+- [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics]] — Why Large? Tiny LMs & Agents on Edge/Robotics
+
+## Extracted Slides
+![[assets/slides/-TiET_K-E_g/slide-001.jpg]]
+
+OCR text:
+
+> €3 Braintrust €} WorkOS OpenAl
+
+![[assets/slides/-TiET_K-E_g/slide-002.jpg]]
+
+OCR text:
+
+> TLMs:TinyLLMsand
+> AgentsonEdgeDevices
+> AIE
+> Bringing state-of-the-artagenticskilstothe
+> edgewithopenmodels
+> Cormac Brick, Principal Engineer, Google Al Edge
+> GoogleDeepMind
+
+![[assets/slides/-TiET_K-E_g/slide-003.jpg]]
+
+OCR text:
+
+> n Agenda 00 Al Edge. SLMs & TLMs
+> 10 Agent Skills locally on Android & iOS
+> * Sd
+> oY a a 20 TLM workflow
+> ey 30 TLMsin Action
+> Engineering the future of Al
+
+![[assets/slides/-TiET_K-E_g/slide-004.jpg]]
+
+OCR text:
+
+> SystemlevelGenAl
+> AIE
+> Gemini NanowithAICore
+> Apple IntelligenceWriting
+> summarizationonAndroid
+> toolsonios
+> Engineering the future of Al
+> AIEng
+
+![[assets/slides/-TiET_K-E_g/slide-005.jpg]]
+
+OCR text:
+
+> NEW
+> Agent Skills & Gemma 4 E2B &
+> (‘System GenAl' uses AlCore when avail
+> Pee 3 .
+> ae B92 59 eam
+> . ; Bebe Si.
+> a a oes Poe S360
+> nd ~*
+> OO
+> Masi ones
+> Woy pp bore
+> Oink
+> Oy 8
+> P¥AENESA Veacine
+> WOES cone ve
+> Tek Can
+> BRE Gare:
+> wre
+> i
+> . | Al Engineer |
+> EUROPE
+
+![[assets/slides/-TiET_K-E_g/slide-006.jpg]]
+
+OCR text:
+
+> Example Skills - Restaurant Roulette
+> ere g ;
+> a
+> ul : | f
+> Engineering the future of Al
+
+![[assets/slides/-TiET_K-E_g/slide-007.jpg]]
+
+OCR text:
+
+> Example Skills - Restaurant Roulette
+> Cs Ree Noah aaa
+> ae
+> Engineering the future of Al
+
+![[assets/slides/-TiET_K-E_g/slide-008.jpg]]
+
+OCR text:
+
+> FunctionGemma TuningLab:Fine-Tuning
+> atou
+> tdetalls
+> Signin with Hugging Face
+> AIE
+> 2.Tral
+> Tool Schema&Datalmport
+> Idas
+> Step 2:UpldDataIOptin
+> To tral
+> onyour
+> data,up
+> adaCSv
+> DropFile Here
+> Engineering the future of Al
+> AIEn
+
+![[assets/slides/-TiET_K-E_g/slide-009.jpg]]
+
+OCR text:
+
+> TO Sark a |
+> a -— PC
+> Sen
+> i y)
+> i _ ee He PE ar
+> q - =e ie
+> Ey
+> ach aA
+> F +n
+> | ene
+> 1° see
+> D Lt
+> nad ;
+> : ins —
+> : : “— . ,
+
+## Slide-Derived Subjects To Review
+Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
+## Reconstructed Slide Deck
+- [[youtube--TiET_K-E_g-reconstructed-slides]]
+## Dense Scene-Detected Slide Candidates
+- [[youtube--TiET_K-E_g-dense-slides]]

@@ -1,0 +1,4 @@
+GraphRAGRetrieval Patterns
+ThecoreGraphRAGpatternisverysimple,yetpowerful.
+Doavectorsearch tofind an initial setofnodes
+19Neo4jInc.Allrightsreserved2024

@@ -1,0 +1,644 @@
+[
+  {
+    "id": "youtube--TiET_K-E_g-reconstructed-slides",
+    "title": "Reconstructed Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google",
+    "path": "wiki/slides/youtube--TiET_K-E_g-reconstructed-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube--cKUW6n8hBU-reconstructed-slides",
+    "title": "Reconstructed Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners",
+    "path": "wiki/slides/youtube--cKUW6n8hBU-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-12v5S1n1eOY-reconstructed-slides",
+    "title": "Reconstructed Slides: Building an Agentic Platform — Ben Kus, CTO Box",
+    "path": "wiki/slides/youtube-12v5S1n1eOY-reconstructed-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-1t-9-s1brcg-reconstructed-slides",
+    "title": "Reconstructed Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner",
+    "path": "wiki/slides/youtube-1t-9-s1brcg-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-2vlCqD6igVA-reconstructed-slides",
+    "title": "Reconstructed Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon",
+    "path": "wiki/slides/youtube-2vlCqD6igVA-reconstructed-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-3_gYbhABcAE-reconstructed-slides",
+    "title": "Reconstructed Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind",
+    "path": "wiki/slides/youtube-3_gYbhABcAE-reconstructed-slides.md",
+    "slide_count": 5
+  },
+  {
+    "id": "youtube-4sX_He5c4sI-reconstructed-slides",
+    "title": "Reconstructed Slides: WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive",
+    "path": "wiki/slides/youtube-4sX_He5c4sI-reconstructed-slides.md",
+    "slide_count": 80
+  },
+  {
+    "id": "youtube-5ID22ACI7IM-reconstructed-slides",
+    "title": "Reconstructed Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked",
+    "path": "wiki/slides/youtube-5ID22ACI7IM-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-5N33E9tC400-reconstructed-slides",
+    "title": "Reconstructed Slides: Why Agent Engineering — swyx",
+    "path": "wiki/slides/youtube-5N33E9tC400-reconstructed-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-5_QWh4LGoxg-reconstructed-slides",
+    "title": "Reconstructed Slides: Cognitive Shield Real Time Real Smart - Rachna Srivastava",
+    "path": "wiki/slides/youtube-5_QWh4LGoxg-reconstructed-slides.md",
+    "slide_count": 15
+  },
+  {
+    "id": "youtube-5nOLb27hQ5w-reconstructed-slides",
+    "title": "Reconstructed Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak",
+    "path": "wiki/slides/youtube-5nOLb27hQ5w-reconstructed-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-6YdPI9YbjbI-reconstructed-slides",
+    "title": "Reconstructed Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)",
+    "path": "wiki/slides/youtube-6YdPI9YbjbI-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-7Dtu2bilcFs-reconstructed-slides",
+    "title": "Reconstructed Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding",
+    "path": "wiki/slides/youtube-7Dtu2bilcFs-reconstructed-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-84Vtz2IL1Ug-reconstructed-slides",
+    "title": "Reconstructed Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter",
+    "path": "wiki/slides/youtube-84Vtz2IL1Ug-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-8SUJEqQNClw-reconstructed-slides",
+    "title": "Reconstructed Slides: Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai",
+    "path": "wiki/slides/youtube-8SUJEqQNClw-reconstructed-slides.md",
+    "slide_count": 21
+  },
+  {
+    "id": "youtube-9-vGxMoUM9Y-reconstructed-slides",
+    "title": "Reconstructed Slides: Trust, but Verify: Shreya Rajpal",
+    "path": "wiki/slides/youtube-9-vGxMoUM9Y-reconstructed-slides.md",
+    "slide_count": 22
+  },
+  {
+    "id": "youtube-96G7FLab8xc-reconstructed-slides",
+    "title": "Reconstructed Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect",
+    "path": "wiki/slides/youtube-96G7FLab8xc-reconstructed-slides.md",
+    "slide_count": 20
+  },
+  {
+    "id": "youtube-APh1Vx0oLmQ-reconstructed-slides",
+    "title": "Reconstructed Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
+    "path": "wiki/slides/youtube-APh1Vx0oLmQ-reconstructed-slides.md",
+    "slide_count": 13
+  },
+  {
+    "id": "youtube-B9h9ovW5H9U-reconstructed-slides",
+    "title": "Reconstructed Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
+    "path": "wiki/slides/youtube-B9h9ovW5H9U-reconstructed-slides.md",
+    "slide_count": 16
+  },
+  {
+    "id": "youtube-BM2JX9hqsVQ-reconstructed-slides",
+    "title": "Reconstructed Slides: What if the network was the sandbox? — Remy Guercio, Tailscale",
+    "path": "wiki/slides/youtube-BM2JX9hqsVQ-reconstructed-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-BZtD0yYAgCQ-reconstructed-slides",
+    "title": "Reconstructed Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori",
+    "path": "wiki/slides/youtube-BZtD0yYAgCQ-reconstructed-slides.md",
+    "slide_count": 5
+  },
+  {
+    "id": "youtube-Bc6Ojl2XS1w-reconstructed-slides",
+    "title": "Reconstructed Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind",
+    "path": "wiki/slides/youtube-Bc6Ojl2XS1w-reconstructed-slides.md",
+    "slide_count": 14
+  },
+  {
+    "id": "youtube-BiG2ssibKGc-reconstructed-slides",
+    "title": "Reconstructed Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked",
+    "path": "wiki/slides/youtube-BiG2ssibKGc-reconstructed-slides.md",
+    "slide_count": 5
+  },
+  {
+    "id": "youtube-C_GG5g38vLU-reconstructed-slides",
+    "title": "Reconstructed Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM",
+    "path": "wiki/slides/youtube-C_GG5g38vLU-reconstructed-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-D4Dswf-__RM-reconstructed-slides",
+    "title": "Reconstructed Slides: CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS",
+    "path": "wiki/slides/youtube-D4Dswf-__RM-reconstructed-slides.md",
+    "slide_count": 20
+  },
+  {
+    "id": "youtube-DeFF3J8T5Pk-reconstructed-slides",
+    "title": "Reconstructed Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal",
+    "path": "wiki/slides/youtube-DeFF3J8T5Pk-reconstructed-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-E71YtNbCFXY-reconstructed-slides",
+    "title": "Reconstructed Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)",
+    "path": "wiki/slides/youtube-E71YtNbCFXY-reconstructed-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-ESbWpPT_9-o-reconstructed-slides",
+    "title": "Reconstructed Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs",
+    "path": "wiki/slides/youtube-ESbWpPT_9-o-reconstructed-slides.md",
+    "slide_count": 19
+  },
+  {
+    "id": "youtube-EY4O9M6AsWI-reconstructed-slides",
+    "title": "Reconstructed Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI",
+    "path": "wiki/slides/youtube-EY4O9M6AsWI-reconstructed-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-EyZiAp0pelw-reconstructed-slides",
+    "title": "Reconstructed Slides: Letting AI Interface with your App with MCP — Kent C Dodds",
+    "path": "wiki/slides/youtube-EyZiAp0pelw-reconstructed-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-F_RyElT_gJk-reconstructed-slides",
+    "title": "Reconstructed Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp",
+    "path": "wiki/slides/youtube-F_RyElT_gJk-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-Fzb1a24hF-o-reconstructed-slides",
+    "title": "Reconstructed Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger",
+    "path": "wiki/slides/youtube-Fzb1a24hF-o-reconstructed-slides.md",
+    "slide_count": 22
+  },
+  {
+    "id": "youtube-G_bHFmEAarM-reconstructed-slides",
+    "title": "Reconstructed Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind",
+    "path": "wiki/slides/youtube-G_bHFmEAarM-reconstructed-slides.md",
+    "slide_count": 22
+  },
+  {
+    "id": "youtube-HT4l0DeP69I-reconstructed-slides",
+    "title": "Reconstructed Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS",
+    "path": "wiki/slides/youtube-HT4l0DeP69I-reconstructed-slides.md",
+    "slide_count": 16
+  },
+  {
+    "id": "youtube-JIsgyk0Paic-reconstructed-slides",
+    "title": "Reconstructed Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley",
+    "path": "wiki/slides/youtube-JIsgyk0Paic-reconstructed-slides.md",
+    "slide_count": 21
+  },
+  {
+    "id": "youtube-JhJKgRAmfIU-reconstructed-slides",
+    "title": "Reconstructed Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft",
+    "path": "wiki/slides/youtube-JhJKgRAmfIU-reconstructed-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-JsCCrBF7F1g-reconstructed-slides",
+    "title": "Reconstructed Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize",
+    "path": "wiki/slides/youtube-JsCCrBF7F1g-reconstructed-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-Jty4s9-Jb78-reconstructed-slides",
+    "title": "Reconstructed Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is",
+    "path": "wiki/slides/youtube-Jty4s9-Jb78-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-Lc8zRh9muoY-reconstructed-slides",
+    "title": "Reconstructed Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft",
+    "path": "wiki/slides/youtube-Lc8zRh9muoY-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-Lcqat4iP_lE-reconstructed-slides",
+    "title": "Reconstructed Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso",
+    "path": "wiki/slides/youtube-Lcqat4iP_lE-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-LxQsQ3vZDqo-reconstructed-slides",
+    "title": "Reconstructed Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon",
+    "path": "wiki/slides/youtube-LxQsQ3vZDqo-reconstructed-slides.md",
+    "slide_count": 6
+  },
+  {
+    "id": "youtube-MRM7oA3JsFs-reconstructed-slides",
+    "title": "Reconstructed Slides: Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior",
+    "path": "wiki/slides/youtube-MRM7oA3JsFs-reconstructed-slides.md",
+    "slide_count": 16
+  },
+  {
+    "id": "youtube-NuePCNMpWGc-reconstructed-slides",
+    "title": "Reconstructed Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar",
+    "path": "wiki/slides/youtube-NuePCNMpWGc-reconstructed-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-OV56RddyFuU-reconstructed-slides",
+    "title": "Reconstructed Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face",
+    "path": "wiki/slides/youtube-OV56RddyFuU-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-OimPoLxioYg-reconstructed-slides",
+    "title": "Reconstructed Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson",
+    "path": "wiki/slides/youtube-OimPoLxioYg-reconstructed-slides.md",
+    "slide_count": 22
+  },
+  {
+    "id": "youtube-OkEGJ5G3foU-reconstructed-slides",
+    "title": "Reconstructed Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han",
+    "path": "wiki/slides/youtube-OkEGJ5G3foU-reconstructed-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-P_RI1kCkRbo-reconstructed-slides",
+    "title": "Reconstructed Slides: Voice AI: when is the \\\"Her\\\" moment? — Neil Zeghidour, CEO, Gradium AI",
+    "path": "wiki/slides/youtube-P_RI1kCkRbo-reconstructed-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-P_uhFGH4J9Y-reconstructed-slides",
+    "title": "Reconstructed Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games",
+    "path": "wiki/slides/youtube-P_uhFGH4J9Y-reconstructed-slides.md",
+    "slide_count": 6
+  },
+  {
+    "id": "youtube-PbHm2qKnu10-reconstructed-slides",
+    "title": "Reconstructed Slides: Training Agentic Reasoners — Will Brown, Prime Intellect",
+    "path": "wiki/slides/youtube-PbHm2qKnu10-reconstructed-slides.md",
+    "slide_count": 6
+  },
+  {
+    "id": "youtube-PmZDupFP3UM-reconstructed-slides",
+    "title": "Reconstructed Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)",
+    "path": "wiki/slides/youtube-PmZDupFP3UM-reconstructed-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-SZStlIhyTCY-reconstructed-slides",
+    "title": "Reconstructed Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company",
+    "path": "wiki/slides/youtube-SZStlIhyTCY-reconstructed-slides.md",
+    "slide_count": 20
+  },
+  {
+    "id": "youtube-SbUxRluVRwk-reconstructed-slides",
+    "title": "Reconstructed Slides: Structuring a modern AI team — Denys Linkov, Wisedocs",
+    "path": "wiki/slides/youtube-SbUxRluVRwk-reconstructed-slides.md",
+    "slide_count": 3
+  },
+  {
+    "id": "youtube-SbcQYbrvAfI-reconstructed-slides",
+    "title": "Reconstructed Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize",
+    "path": "wiki/slides/youtube-SbcQYbrvAfI-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-ShuJ_CN6zr4-reconstructed-slides",
+    "title": "Reconstructed Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI",
+    "path": "wiki/slides/youtube-ShuJ_CN6zr4-reconstructed-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-T5IMo5ntyhA-reconstructed-slides",
+    "title": "Reconstructed Slides: Stop Using RAG as Memory — Daniel Chalef, Zep",
+    "path": "wiki/slides/youtube-T5IMo5ntyhA-reconstructed-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-TqC1qOfiVcQ-reconstructed-slides",
+    "title": "Reconstructed Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic",
+    "path": "wiki/slides/youtube-TqC1qOfiVcQ-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-WJjInLeaJjo-reconstructed-slides",
+    "title": "Reconstructed Slides: Building Agents at Cloud Scale — Antje Barth, AWS",
+    "path": "wiki/slides/youtube-WJjInLeaJjo-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-XNtkiQJ49Ps-reconstructed-slides",
+    "title": "Reconstructed Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora",
+    "path": "wiki/slides/youtube-XNtkiQJ49Ps-reconstructed-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-Xfl50508LZM-reconstructed-slides",
+    "title": "Reconstructed Slides: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize",
+    "path": "wiki/slides/youtube-Xfl50508LZM-reconstructed-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-YRGjll7uu5w-reconstructed-slides",
+    "title": "Reconstructed Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase",
+    "path": "wiki/slides/youtube-YRGjll7uu5w-reconstructed-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-Ywl4LsvHKzU-reconstructed-slides",
+    "title": "Reconstructed Slides: RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot",
+    "path": "wiki/slides/youtube-Ywl4LsvHKzU-reconstructed-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-ZRM_TfEZcIo-reconstructed-slides",
+    "title": "Reconstructed Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI",
+    "path": "wiki/slides/youtube-ZRM_TfEZcIo-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-ZuiJjkbX0Og-reconstructed-slides",
+    "title": "Reconstructed Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
+    "path": "wiki/slides/youtube-ZuiJjkbX0Og-reconstructed-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-aqW68Is_Kj4-reconstructed-slides",
+    "title": "Reconstructed Slides: Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic",
+    "path": "wiki/slides/youtube-aqW68Is_Kj4-reconstructed-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-bSG9wUYaHWU-reconstructed-slides",
+    "title": "Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl",
+    "path": "wiki/slides/youtube-bSG9wUYaHWU-reconstructed-slides.md",
+    "slide_count": 19
+  },
+  {
+    "id": "youtube-bVNNvWq6dKo-reconstructed-slides",
+    "title": "Reconstructed Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf",
+    "path": "wiki/slides/youtube-bVNNvWq6dKo-reconstructed-slides.md",
+    "slide_count": 20
+  },
+  {
+    "id": "youtube-bk0TmxoZlUY-reconstructed-slides",
+    "title": "Reconstructed Slides: Evals 101 — Doug Guthrie, Braintrust",
+    "path": "wiki/slides/youtube-bk0TmxoZlUY-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-blW-lSd5CYQ-reconstructed-slides",
+    "title": "Reconstructed Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify",
+    "path": "wiki/slides/youtube-blW-lSd5CYQ-reconstructed-slides.md",
+    "slide_count": 14
+  },
+  {
+    "id": "youtube-bmWZk9vTze0-reconstructed-slides",
+    "title": "Reconstructed Slides: MCP is all you need — Samuel Colvin, Pydantic",
+    "path": "wiki/slides/youtube-bmWZk9vTze0-reconstructed-slides.md",
+    "slide_count": 18
+  },
+  {
+    "id": "youtube-cVzf49yg0D8-reconstructed-slides",
+    "title": "Reconstructed Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind",
+    "path": "wiki/slides/youtube-cVzf49yg0D8-reconstructed-slides.md",
+    "slide_count": 22
+  },
+  {
+    "id": "youtube-dvft0Gp9sEE-reconstructed-slides",
+    "title": "Reconstructed Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo",
+    "path": "wiki/slides/youtube-dvft0Gp9sEE-reconstructed-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-e9sLVMN76qU-reconstructed-slides",
+    "title": "Reconstructed Slides: AX is the only Experience that Matters - Ivan Burazin, Daytona",
+    "path": "wiki/slides/youtube-e9sLVMN76qU-reconstructed-slides.md",
+    "slide_count": 13
+  },
+  {
+    "id": "youtube-eOxOzcw70f0-reconstructed-slides",
+    "title": "Reconstructed Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison",
+    "path": "wiki/slides/youtube-eOxOzcw70f0-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-eW_vxrjvERk-reconstructed-slides",
+    "title": "Reconstructed Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j",
+    "path": "wiki/slides/youtube-eW_vxrjvERk-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-fL1iJHtl51Q-reconstructed-slides",
+    "title": "Reconstructed Slides: Building Cursor Composer – Lee Robinson, Cursor",
+    "path": "wiki/slides/youtube-fL1iJHtl51Q-reconstructed-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-gmTHs5T_YAE-reconstructed-slides",
+    "title": "Reconstructed Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten",
+    "path": "wiki/slides/youtube-gmTHs5T_YAE-reconstructed-slides.md",
+    "slide_count": 6
+  },
+  {
+    "id": "youtube-himhGiWJXjo-reconstructed-slides",
+    "title": "Reconstructed Slides: Realtime Data Connectivity for AI: Tanmai Gopal",
+    "path": "wiki/slides/youtube-himhGiWJXjo-reconstructed-slides.md",
+    "slide_count": 13
+  },
+  {
+    "id": "youtube-htM02KMNZnk-reconstructed-slides",
+    "title": "Reconstructed Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF",
+    "path": "wiki/slides/youtube-htM02KMNZnk-reconstructed-slides.md",
+    "slide_count": 80
+  },
+  {
+    "id": "youtube-iUWwcG-C8OU-reconstructed-slides",
+    "title": "Reconstructed Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS",
+    "path": "wiki/slides/youtube-iUWwcG-C8OU-reconstructed-slides.md",
+    "slide_count": 4
+  },
+  {
+    "id": "youtube-iXhba366fQc-reconstructed-slides",
+    "title": "Reconstructed Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI",
+    "path": "wiki/slides/youtube-iXhba366fQc-reconstructed-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-ib-wTAvCZqg-reconstructed-slides",
+    "title": "Reconstructed Slides: Architecting and Testing Controllable Agents: Lance Martin",
+    "path": "wiki/slides/youtube-ib-wTAvCZqg-reconstructed-slides.md",
+    "slide_count": 7
+  },
+  {
+    "id": "youtube-jVGCulhBRZI-reconstructed-slides",
+    "title": "Reconstructed Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
+    "path": "wiki/slides/youtube-jVGCulhBRZI-reconstructed-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-jryZvCuA0Uc-reconstructed-slides",
+    "title": "Reconstructed Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)",
+    "path": "wiki/slides/youtube-jryZvCuA0Uc-reconstructed-slides.md",
+    "slide_count": 3
+  },
+  {
+    "id": "youtube-k8cnVCMYmNc-reconstructed-slides",
+    "title": "Reconstructed Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal",
+    "path": "wiki/slides/youtube-k8cnVCMYmNc-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-kR64LOqBBCU-reconstructed-slides",
+    "title": "Reconstructed Slides: AgentCraft: Putting the Orc in Orchestration — Ido Salomon",
+    "path": "wiki/slides/youtube-kR64LOqBBCU-reconstructed-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-knDDGYHnnSI-reconstructed-slides",
+    "title": "Reconstructed Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem",
+    "path": "wiki/slides/youtube-knDDGYHnnSI-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-lY1iFbDPRlw-reconstructed-slides",
+    "title": "Reconstructed Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax",
+    "path": "wiki/slides/youtube-lY1iFbDPRlw-reconstructed-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-mQ7_Zje7WKE-reconstructed-slides",
+    "title": "Reconstructed Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify",
+    "path": "wiki/slides/youtube-mQ7_Zje7WKE-reconstructed-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-o-zkvb0iFDQ-reconstructed-slides",
+    "title": "Reconstructed Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps",
+    "path": "wiki/slides/youtube-o-zkvb0iFDQ-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-qaJXBMwUkoE-reconstructed-slides",
+    "title": "Reconstructed Slides: The 1,000x AI Engineer: Swyx",
+    "path": "wiki/slides/youtube-qaJXBMwUkoE-reconstructed-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-qdh_x-uRs9g-reconstructed-slides",
+    "title": "Reconstructed Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked",
+    "path": "wiki/slides/youtube-qdh_x-uRs9g-reconstructed-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-rcsliSIy_YU-reconstructed-slides",
+    "title": "Reconstructed Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands",
+    "path": "wiki/slides/youtube-rcsliSIy_YU-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-rgjF5o2Qjsc-reconstructed-slides",
+    "title": "Reconstructed Slides: The State of AI Code Quality: Hype vs Reality — Itamar Friedman, Qodo",
+    "path": "wiki/slides/youtube-rgjF5o2Qjsc-reconstructed-slides.md",
+    "slide_count": 15
+  },
+  {
+    "id": "youtube-rmvDxxNubIg-reconstructed-slides",
+    "title": "Reconstructed Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer",
+    "path": "wiki/slides/youtube-rmvDxxNubIg-reconstructed-slides.md",
+    "slide_count": 13
+  },
+  {
+    "id": "youtube-sRpqPgKeXNk-reconstructed-slides",
+    "title": "Reconstructed Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai",
+    "path": "wiki/slides/youtube-sRpqPgKeXNk-reconstructed-slides.md",
+    "slide_count": 11
+  },
+  {
+    "id": "youtube-sl3icG-IjHo-reconstructed-slides",
+    "title": "Reconstructed Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset",
+    "path": "wiki/slides/youtube-sl3icG-IjHo-reconstructed-slides.md",
+    "slide_count": 2
+  },
+  {
+    "id": "youtube-so9l_MwS2yg-reconstructed-slides",
+    "title": "Reconstructed Slides: Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS",
+    "path": "wiki/slides/youtube-so9l_MwS2yg-reconstructed-slides.md",
+    "slide_count": 8
+  },
+  {
+    "id": "youtube-tzRvcTEapzo-reconstructed-slides",
+    "title": "Reconstructed Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva",
+    "path": "wiki/slides/youtube-tzRvcTEapzo-reconstructed-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-u3NofYYstaY-reconstructed-slides",
+    "title": "Reconstructed Slides: Cohere for VPs of AI: Vivek Muppalla",
+    "path": "wiki/slides/youtube-u3NofYYstaY-reconstructed-slides.md",
+    "slide_count": 9
+  },
+  {
+    "id": "youtube-wFTVEDYVJT0-reconstructed-slides",
+    "title": "Reconstructed Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)",
+    "path": "wiki/slides/youtube-wFTVEDYVJT0-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-wNH3q9pqn0U-reconstructed-slides",
+    "title": "Reconstructed Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind",
+    "path": "wiki/slides/youtube-wNH3q9pqn0U-reconstructed-slides.md",
+    "slide_count": 17
+  },
+  {
+    "id": "youtube-wsFd22SL1s8-reconstructed-slides",
+    "title": "Reconstructed Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI",
+    "path": "wiki/slides/youtube-wsFd22SL1s8-reconstructed-slides.md",
+    "slide_count": 24
+  },
+  {
+    "id": "youtube-xnXqpUW_Kp8-reconstructed-slides",
+    "title": "Reconstructed Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai",
+    "path": "wiki/slides/youtube-xnXqpUW_Kp8-reconstructed-slides.md",
+    "slide_count": 12
+  },
+  {
+    "id": "youtube-xz0-brt56L8-reconstructed-slides",
+    "title": "Reconstructed Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)",
+    "path": "wiki/slides/youtube-xz0-brt56L8-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-yJHw33cVeHo-reconstructed-slides",
+    "title": "Reconstructed Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet",
+    "path": "wiki/slides/youtube-yJHw33cVeHo-reconstructed-slides.md",
+    "slide_count": 23
+  },
+  {
+    "id": "youtube-zTZ0qunQXnM-reconstructed-slides",
+    "title": "Reconstructed Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data",
+    "path": "wiki/slides/youtube-zTZ0qunQXnM-reconstructed-slides.md",
+    "slide_count": 10
+  },
+  {
+    "id": "youtube-zepu8Kk6FBQ-reconstructed-slides",
+    "title": "Reconstructed Slides: Agents for Everything Else — swyx",
+    "path": "wiki/slides/youtube-zepu8Kk6FBQ-reconstructed-slides.md",
+    "slide_count": 23
+  }
+]

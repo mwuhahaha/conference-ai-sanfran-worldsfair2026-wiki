@@ -1,0 +1,15 @@
+How reinforcement learning works
+e Key idea: explore and exploit See
+e DeepSeek’s GRPO | ve seee cv ez (olUULUUUILLNUUIU UNI Ga
+Group-Relative Policy Optimization oT ~ sension econ peers
+eee) wayne? Toone
+Like PPO but simp! sows omnes ——________.
+= ae. =e] x
+. Less compute. same effect coemroeeeren|| a
+ee . %
+@ Main loop: —_ V
+Sample N responses per prompt ee
+Compute rewards for each
+“Advantage estimates” (Jay Alammar, °25)
+Update rule: better score = increase likelihood
+e Challenges: rewards? multi-turn?

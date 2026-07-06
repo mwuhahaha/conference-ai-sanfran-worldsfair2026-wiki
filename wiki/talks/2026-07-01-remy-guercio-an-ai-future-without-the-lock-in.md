@@ -1,0 +1,72 @@
+---
+title: "An AI Future Without the Lock-In"
+category: "talks"
+date: "2026-07-01"
+time: "3:20pm-3:40pm"
+track: "Expo Stage 4 SE"
+room: "Expo Stage 4 SE"
+speakers: ["Remy Guercio"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# An AI Future Without the Lock-In
+
+## Official Schedule Context
+- Date/time: 2026-07-01 · 3:20pm-3:40pm
+- Track/room: track TBD · Expo Stage 4 SE
+- Speaker(s): Remy Guercio
+- Session type/status: session · confirmed
+
+## Official Description
+Every organization navigating AI adoption faces the same trap: the market moves faster than any
+
+procurement cycle, no single vendor leads across model quality, interface, sandbox, and data access
+
+for more than a few months at a time, and the obvious answer of consolidating behind one platform
+
+trades short-term control for long-term lock-in. This session makes the case that the winning
+
+strategy is not picking the best walled garden. It is building a connective layer underneath all of
+
+them. Tailscale's Remy Guercio walks through the four components required for transformative AI, why
+
+vertically integrated stacks are structurally fragile, and how organizations can maintain visibility
+
+and control without betting on a single vendor's continued dominance. The second half of the session
+
+covers three new capabilities in Aperture, Tailscale's identity-aware AI gateway: Identity-Aware
+
+Universal Data Connectors (Public Alpha), which translate Tailscale network identity into scoped
+
+access to internal data sources via MCP and API endpoints; a Responsive Chat UI (Public Alpha) that
+
+gives non-technical users a mobile-friendly interface to every LLM configured in Aperture; and
+
+Sandbox Support (Private Alpha), bringing ephemeral and persistent compute environments into the
+
+same identity model. Attendees leave with a framework for evaluating AI platforms that does not
+
+depend on picking a winner, and a concrete path to deploying provider-agnostic AI tooling on
+
+infrastructure they already run.
+
+## Related YouTube Video
+[What if the network was the sandbox? — Remy Guercio, Tailscale](https://www.youtube.com/watch?v=BM2JX9hqsVQ) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[remy-guercio]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-BM2JX9hqsVQ-slides]] — extracted from the related public AI Engineer video.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-BM2JX9hqsVQ-dense-slides]] (1 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-BM2JX9hqsVQ-dense-slides]]
+- [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
+- [[youtube-BM2JX9hqsVQ-slides]]
+- Slide-derived terms: `tailscale`, `alengineer`, `engineering`, `future`, `braintrust`, `workos`, `openal`, `network`, `sandbox`, `components`, `europe`, `google`, `deepmind`, `sanc`, `aiengir`, `keys`, `pein`, `taliscale`

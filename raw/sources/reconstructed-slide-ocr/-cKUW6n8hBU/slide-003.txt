@@ -1,0 +1,11 @@
+Taking:NYC(NYT)46.17Centra
+Use Cases Lighting Round
+What we'll cover:
+Simple sentiment classifier
+Structured information from a PDF
+Multimodal extraction
+Web research agent (using Tools)
+Detectboundaries of a document
+github.com/kmad/aie
+Recursivelysummarize an arbitrary-length document
+GEPA example

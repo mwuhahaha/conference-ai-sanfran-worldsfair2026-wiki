@@ -1,0 +1,8 @@
+World's Fair .
+Imagine a language that...
+describes visual layout
+has mountains of training data
+models understand it intuitively
+renders straight to pixels
+runs basically everywhere
+that they understand intuitively, that renders to pixels and can run everywhere.

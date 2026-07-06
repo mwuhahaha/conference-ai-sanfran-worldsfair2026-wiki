@@ -1,0 +1,25 @@
+yee) wy .
+? x. -=
+, oN ys Pe
+se
+; Pid 2 ; 1 Pid 3 } Pid Pid
+— = oe oe — = = =
+x 101 102
+~
+Mount Namespace +. SSeee =
+mae e ne
+‘ '
+,/
+' |
+1
+«
+[foo Userspace
+Kernel
+Linux Container with Pid and Mount Namespace
+«© Wihy? - My app needs Python 8, foo kb version 1.2, your server has Python 3.9, 3.6, 312 and dorsn’t have foo lb
+© Package an apps dependencies along with fs Core business logic
++ Run arbitrary user code on your machine
+« On Linux a Container is « Collection of Namespaces of aterent resources (Process, Mount, Net etc. ).
+* Inssde a container you only see resources mn your Namespace and Not outside.
+«© Qutude the contamer you see everything inside your Chédren namespaces
+« Resource afocation happens via CGroups (“How much memory of CPU to allocate thes namespace?*)

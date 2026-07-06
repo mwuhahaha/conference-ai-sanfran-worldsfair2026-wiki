@@ -1,0 +1,24 @@
+Ce er i ec Qostagwee ee. ¢ EA or ee a rr aro
+oa ee ©} oo
+sad _ Cary re F F
+, , , P ,
+Pre rSterase OO000" 2 Bo ome
+ee eh we ee me Ne moe A OP RF te ee et beer Ree ye
+we Vibecoding CVE Remediation: Setup
+e
+cena Access this presentation to copy/paste! dub.sh/openhands-workshop
+e Create a GitHub repo to hold your work ;
+Be / ® Get a GitHub token *
+github com, settings, lakens 2
+‘ Scopes repo, workflow 2
+—_ export GITHUB_TOKEN=...
+= e Getan LLM Token “
+Mee | $10 free by stgning up for OpenHands »
+rT @ = app.all hands.dev/settings/apr-keys Pa
+Anthropic, OpenAl, etc will also work
+» export LLM_API_KEY-...
+| e Start an Agent Server
+eo 7 docker run -p 8000:86086 ghcr.io/openhands/agent-server :314348a-python!
+ee e Create AGENTS md, cursorrules, or an OpenHands microagent
+Point to docs openhands dev/sdk and github com/QpenHands/soltware-agent-sdk
+g CeO 2025-11-22 15:17:24

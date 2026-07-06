@@ -1,0 +1,42 @@
+---
+title: "How Forward Deployed Engineering is done at Factory"
+category: "talks"
+date: "2026-06-29"
+time: "10:45am-11:05am"
+track: "Forward Deployed Engineering"
+room: "Track 8"
+speakers: ["Eno Reyes"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# How Forward Deployed Engineering is done at Factory
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 10:45am-11:05am
+- Track/room: Forward Deployed Engineering · Track 8
+- Speaker(s): Eno Reyes
+- Session type/status: session · confirmed
+
+## Official Description
+No official description published in the schedule data.
+
+## Related YouTube Video
+[Making Codebases Agent Ready – Eno Reyes, Factory AI](https://www.youtube.com/watch?v=ShuJ_CN6zr4) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[eno-reyes]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-ShuJ_CN6zr4-slides]] — extracted from the related public AI Engineer video.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-ShuJ_CN6zr4-dense-slides]] (2 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-ShuJ_CN6zr4-dense-slides]]
+- [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- [[youtube-ShuJ_CN6zr4-slides]]
+- Slide-derived terms: `factory`, `codebases`, `summit`, `autonomous`, `engineering`, `systems`, `make`, `ready`, `cocle`, `pastas`, `code`, `making`, `agent-ready`, `creme`, `enoreves`, `ctoeco-rouncer`

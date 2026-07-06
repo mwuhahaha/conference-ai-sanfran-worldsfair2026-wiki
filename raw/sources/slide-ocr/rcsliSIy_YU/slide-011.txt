@@ -1,0 +1,19 @@
+, ne i he eo Me i he fF Oa PC ee a ed
+° ee ee ge %
+F ; ; rae’ mF
+, , Ps
+Uae Oe ee ieee O0000" © Bo Home + ®
+2 Me | aN FE LT, EES Gee ee Re sp
+oo Task Decomposition
+. “ Break your end-goal down into tasks that:
+yee e Are one(-ish) shottable .
+“ewe e Fitina single commit , a ad 2
+vo : e Can be executed in parallel oo, 7 :
+eee e Can be verified by a human as correct ~f ed _* »
+a ; . 2
+4 / or incorrect °
+ee e Clear dependencies/ordering between
+. tasks
+(Cm)
+ - _.
+; can vamgene son 2025-11-22 15:00:23

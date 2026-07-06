@@ -1,0 +1,5 @@
+Workflows & Agents
+When building workflows, use our structured outputs:
+
+https: //platform.claude.com/docs /en /agent-sdk/structured-o
+utputs

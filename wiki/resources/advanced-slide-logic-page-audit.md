@@ -1,0 +1,215 @@
+---
+title: "Advanced Slide Logic Page Audit"
+category: "resources"
+sourceLabels: ["Local RapidOCR audit", "Reconstructed slide registry"]
+---
+
+# Advanced Slide Logic Page Audit
+
+## What Changed
+- Existing stage-frame slide pages were refreshed from canonical OCR after a local RapidOCR pass.
+- Crop-reconstructed companion decks were generated with OpenCV slide-region detection and local OCR.
+- Future YouTube slide scans now optionally use RapidOCR when Tesseract output is weak.
+
+## RapidOCR Pass Summary
+- Slide images audited: 1842
+- Weak OCR candidates processed: 675
+- Canonical OCR replacements applied: 291
+- Weak frames classified as unreadable/non-slide: 115
+
+## Stage-Frame Slide Pages With RapidOCR Improvements
+- [[youtube-htM02KMNZnk-slides]] — 31 improved OCR frames; 5 unreadable/non-slide weak frames — Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
+- [[youtube-4sX_He5c4sI-slides]] — 20 improved OCR frames; 6 unreadable/non-slide weak frames — Slides: WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
+- [[youtube-zepu8Kk6FBQ-slides]] — 12 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Agents for Everything Else — swyx
+- [[youtube-F_RyElT_gJk-slides]] — 10 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp
+- [[youtube-G_bHFmEAarM-slides]] — 10 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind
+- [[youtube-bVNNvWq6dKo-slides]] — 10 improved OCR frames; 2 unreadable/non-slide weak frames — Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf
+- [[youtube-ESbWpPT_9-o-slides]] — 8 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs
+- [[youtube-Lc8zRh9muoY-slides]] — 8 improved OCR frames; 2 unreadable/non-slide weak frames — Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft
+- [[youtube-8SUJEqQNClw-slides]] — 7 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai
+- [[youtube-eOxOzcw70f0-slides]] — 7 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison
+- [[youtube-YRGjll7uu5w-slides]] — 6 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase
+- [[youtube-bmWZk9vTze0-slides]] — 6 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: MCP is all you need — Samuel Colvin, Pydantic
+- [[youtube-xnXqpUW_Kp8-slides]] — 6 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai
+- [[youtube-5nOLb27hQ5w-slides]] — 5 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak
+- [[youtube-EY4O9M6AsWI-slides]] — 5 improved OCR frames; 2 unreadable/non-slide weak frames — Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI
+- [[youtube-MRM7oA3JsFs-slides]] — 5 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior
+- [[youtube-bSG9wUYaHWU-slides]] — 5 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Context Is the New Code — Patrick Debois, Tessl
+- [[youtube-cVzf49yg0D8-slides]] — 5 improved OCR frames; 3 unreadable/non-slide weak frames — Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind
+- [[youtube-o-zkvb0iFDQ-slides]] — 5 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
+- [[youtube--cKUW6n8hBU-slides]] — 4 improved OCR frames; 2 unreadable/non-slide weak frames — Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners
+- [[youtube-5N33E9tC400-slides]] — 4 improved OCR frames; 4 unreadable/non-slide weak frames — Slides: Why Agent Engineering — swyx
+- [[youtube-6YdPI9YbjbI-slides]] — 4 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)
+- [[youtube-84Vtz2IL1Ug-slides]] — 4 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter
+- [[youtube-OimPoLxioYg-slides]] — 4 improved OCR frames; 3 unreadable/non-slide weak frames — Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson
+- [[youtube-bk0TmxoZlUY-slides]] — 4 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Evals 101 — Doug Guthrie, Braintrust
+- [[youtube-himhGiWJXjo-slides]] — 4 improved OCR frames; 1 unreadable/non-slide weak frames — Slides: Realtime Data Connectivity for AI: Tanmai Gopal
+- [[youtube-so9l_MwS2yg-slides]] — 4 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS
+- [[youtube-yJHw33cVeHo-slides]] — 4 improved OCR frames; 1 unreadable/non-slide weak frames — Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet
+- [[youtube--TiET_K-E_g-slides]] — 3 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google
+- [[youtube-Bc6Ojl2XS1w-slides]] — 3 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind
+- [[youtube-C_GG5g38vLU-slides]] — 3 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM
+- [[youtube-EyZiAp0pelw-slides]] — 3 improved OCR frames; 4 unreadable/non-slide weak frames — Slides: Letting AI Interface with your App with MCP — Kent C Dodds
+- [[youtube-JhJKgRAmfIU-slides]] — 3 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft
+- [[youtube-P_RI1kCkRbo-slides]] — 3 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI
+- [[youtube-WJjInLeaJjo-slides]] — 3 improved OCR frames; 2 unreadable/non-slide weak frames — Slides: Building Agents at Cloud Scale — Antje Barth, AWS
+- [[youtube-ZRM_TfEZcIo-slides]] — 3 improved OCR frames; 6 unreadable/non-slide weak frames — Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI
+- [[youtube-zTZ0qunQXnM-slides]] — 3 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data
+- [[youtube-5ID22ACI7IM-slides]] — 2 improved OCR frames; 4 unreadable/non-slide weak frames — Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked
+- [[youtube-B9h9ovW5H9U-slides]] — 2 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j
+- [[youtube-BM2JX9hqsVQ-slides]] — 2 improved OCR frames; 1 unreadable/non-slide weak frames — Slides: What if the network was the sandbox? — Remy Guercio, Tailscale
+- [[youtube-D4Dswf-__RM-slides]] — 2 improved OCR frames; 1 unreadable/non-slide weak frames — Slides: CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS
+- [[youtube-JsCCrBF7F1g-slides]] — 2 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize
+- [[youtube-ShuJ_CN6zr4-slides]] — 2 improved OCR frames; 3 unreadable/non-slide weak frames — Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI
+- [[youtube-aqW68Is_Kj4-slides]] — 2 improved OCR frames; 2 unreadable/non-slide weak frames — Slides: Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic
+- [[youtube-eW_vxrjvERk-slides]] — 2 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j
+- [[youtube-iXhba366fQc-slides]] — 2 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI
+- [[youtube-kR64LOqBBCU-slides]] — 2 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: AgentCraft: Putting the Orc in Orchestration — Ido Salomon
+- [[youtube-knDDGYHnnSI-slides]] — 2 improved OCR frames; 3 unreadable/non-slide weak frames — Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem
+- [[youtube-rcsliSIy_YU-slides]] — 2 improved OCR frames; 1 unreadable/non-slide weak frames — Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands
+- [[youtube-rmvDxxNubIg-slides]] — 2 improved OCR frames; 3 unreadable/non-slide weak frames — Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer
+- [[youtube-wFTVEDYVJT0-slides]] — 2 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)
+- [[youtube-xz0-brt56L8-slides]] — 2 improved OCR frames; 6 unreadable/non-slide weak frames — Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)
+- [[youtube-1t-9-s1brcg-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner
+- [[youtube-2vlCqD6igVA-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon
+- [[youtube-7Dtu2bilcFs-slides]] — 1 improved OCR frames; 3 unreadable/non-slide weak frames — Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding
+- [[youtube-9-vGxMoUM9Y-slides]] — 1 improved OCR frames; 4 unreadable/non-slide weak frames — Slides: Trust, but Verify: Shreya Rajpal
+- [[youtube-96G7FLab8xc-slides]] — 1 improved OCR frames; 6 unreadable/non-slide weak frames — Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect
+- [[youtube-BZtD0yYAgCQ-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori
+- [[youtube-BiG2ssibKGc-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked
+- [[youtube-DeFF3J8T5Pk-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal
+- [[youtube-HT4l0DeP69I-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS
+- [[youtube-Jty4s9-Jb78-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is
+- [[youtube-Lcqat4iP_lE-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso
+- [[youtube-NuePCNMpWGc-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar
+- [[youtube-OV56RddyFuU-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face
+- [[youtube-PmZDupFP3UM-slides]] — 1 improved OCR frames; 1 unreadable/non-slide weak frames — Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)
+- [[youtube-SZStlIhyTCY-slides]] — 1 improved OCR frames; 2 unreadable/non-slide weak frames — Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company
+- [[youtube-T5IMo5ntyhA-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Stop Using RAG as Memory — Daniel Chalef, Zep
+- [[youtube-Xfl50508LZM-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize
+- [[youtube-Ywl4LsvHKzU-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot
+- [[youtube-blW-lSd5CYQ-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify
+- [[youtube-e9sLVMN76qU-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: AX is the only Experience that Matters - Ivan Burazin, Daytona
+- [[youtube-fL1iJHtl51Q-slides]] — 1 improved OCR frames; 6 unreadable/non-slide weak frames — Slides: Building Cursor Composer – Lee Robinson, Cursor
+- [[youtube-k8cnVCMYmNc-slides]] — 1 improved OCR frames; 1 unreadable/non-slide weak frames — Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal
+- [[youtube-mQ7_Zje7WKE-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify
+- [[youtube-qaJXBMwUkoE-slides]] — 1 improved OCR frames; 1 unreadable/non-slide weak frames — Slides: The 1,000x AI Engineer: Swyx
+- [[youtube-sRpqPgKeXNk-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai
+- [[youtube-wNH3q9pqn0U-slides]] — 1 improved OCR frames; 2 unreadable/non-slide weak frames — Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind
+- [[youtube-wsFd22SL1s8-slides]] — 1 improved OCR frames; 0 unreadable/non-slide weak frames — Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI
+
+## Reconstructed Companion Decks
+
+- [[youtube--TiET_K-E_g-reconstructed-slides]] — 9 reconstructed slide crops — Reconstructed Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google
+- [[youtube--cKUW6n8hBU-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners
+- [[youtube-12v5S1n1eOY-reconstructed-slides]] — 18 reconstructed slide crops — Reconstructed Slides: Building an Agentic Platform — Ben Kus, CTO Box
+- [[youtube-1t-9-s1brcg-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner
+- [[youtube-2vlCqD6igVA-reconstructed-slides]] — 4 reconstructed slide crops — Reconstructed Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon
+- [[youtube-3_gYbhABcAE-reconstructed-slides]] — 5 reconstructed slide crops — Reconstructed Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind
+- [[youtube-4sX_He5c4sI-reconstructed-slides]] — 80 reconstructed slide crops — Reconstructed Slides: WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
+- [[youtube-5ID22ACI7IM-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked
+- [[youtube-5N33E9tC400-reconstructed-slides]] — 18 reconstructed slide crops — Reconstructed Slides: Why Agent Engineering — swyx
+- [[youtube-5_QWh4LGoxg-reconstructed-slides]] — 15 reconstructed slide crops — Reconstructed Slides: Cognitive Shield Real Time Real Smart - Rachna Srivastava
+- [[youtube-5nOLb27hQ5w-reconstructed-slides]] — 18 reconstructed slide crops — Reconstructed Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak
+- [[youtube-6YdPI9YbjbI-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)
+- [[youtube-7Dtu2bilcFs-reconstructed-slides]] — 17 reconstructed slide crops — Reconstructed Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding
+- [[youtube-84Vtz2IL1Ug-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter
+- [[youtube-8SUJEqQNClw-reconstructed-slides]] — 21 reconstructed slide crops — Reconstructed Slides: Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai
+- [[youtube-9-vGxMoUM9Y-reconstructed-slides]] — 22 reconstructed slide crops — Reconstructed Slides: Trust, but Verify: Shreya Rajpal
+- [[youtube-96G7FLab8xc-reconstructed-slides]] — 20 reconstructed slide crops — Reconstructed Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect
+- [[youtube-APh1Vx0oLmQ-reconstructed-slides]] — 13 reconstructed slide crops — Reconstructed Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs
+- [[youtube-B9h9ovW5H9U-reconstructed-slides]] — 16 reconstructed slide crops — Reconstructed Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j
+- [[youtube-BM2JX9hqsVQ-reconstructed-slides]] — 12 reconstructed slide crops — Reconstructed Slides: What if the network was the sandbox? — Remy Guercio, Tailscale
+- [[youtube-BZtD0yYAgCQ-reconstructed-slides]] — 5 reconstructed slide crops — Reconstructed Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori
+- [[youtube-Bc6Ojl2XS1w-reconstructed-slides]] — 14 reconstructed slide crops — Reconstructed Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind
+- [[youtube-BiG2ssibKGc-reconstructed-slides]] — 5 reconstructed slide crops — Reconstructed Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked
+- [[youtube-C_GG5g38vLU-reconstructed-slides]] — 10 reconstructed slide crops — Reconstructed Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM
+- [[youtube-D4Dswf-__RM-reconstructed-slides]] — 20 reconstructed slide crops — Reconstructed Slides: CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS
+- [[youtube-DeFF3J8T5Pk-reconstructed-slides]] — 8 reconstructed slide crops — Reconstructed Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal
+- [[youtube-E71YtNbCFXY-reconstructed-slides]] — 12 reconstructed slide crops — Reconstructed Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)
+- [[youtube-ESbWpPT_9-o-reconstructed-slides]] — 19 reconstructed slide crops — Reconstructed Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs
+- [[youtube-EY4O9M6AsWI-reconstructed-slides]] — 17 reconstructed slide crops — Reconstructed Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI
+- [[youtube-EyZiAp0pelw-reconstructed-slides]] — 8 reconstructed slide crops — Reconstructed Slides: Letting AI Interface with your App with MCP — Kent C Dodds
+- [[youtube-F_RyElT_gJk-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp
+- [[youtube-Fzb1a24hF-o-reconstructed-slides]] — 22 reconstructed slide crops — Reconstructed Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger
+- [[youtube-G_bHFmEAarM-reconstructed-slides]] — 22 reconstructed slide crops — Reconstructed Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind
+- [[youtube-HT4l0DeP69I-reconstructed-slides]] — 16 reconstructed slide crops — Reconstructed Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS
+- [[youtube-JIsgyk0Paic-reconstructed-slides]] — 21 reconstructed slide crops — Reconstructed Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley
+- [[youtube-JhJKgRAmfIU-reconstructed-slides]] — 9 reconstructed slide crops — Reconstructed Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft
+- [[youtube-JsCCrBF7F1g-reconstructed-slides]] — 7 reconstructed slide crops — Reconstructed Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize
+- [[youtube-Jty4s9-Jb78-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is
+- [[youtube-Lc8zRh9muoY-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft
+- [[youtube-Lcqat4iP_lE-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso
+- [[youtube-LxQsQ3vZDqo-reconstructed-slides]] — 6 reconstructed slide crops — Reconstructed Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon
+- [[youtube-MRM7oA3JsFs-reconstructed-slides]] — 16 reconstructed slide crops — Reconstructed Slides: Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior
+- [[youtube-NuePCNMpWGc-reconstructed-slides]] — 4 reconstructed slide crops — Reconstructed Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar
+- [[youtube-OV56RddyFuU-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face
+- [[youtube-OimPoLxioYg-reconstructed-slides]] — 22 reconstructed slide crops — Reconstructed Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson
+- [[youtube-OkEGJ5G3foU-reconstructed-slides]] — 7 reconstructed slide crops — Reconstructed Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han
+- [[youtube-P_RI1kCkRbo-reconstructed-slides]] — 17 reconstructed slide crops — Reconstructed Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI
+- [[youtube-P_uhFGH4J9Y-reconstructed-slides]] — 6 reconstructed slide crops — Reconstructed Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games
+- [[youtube-PbHm2qKnu10-reconstructed-slides]] — 6 reconstructed slide crops — Reconstructed Slides: Training Agentic Reasoners — Will Brown, Prime Intellect
+- [[youtube-PmZDupFP3UM-reconstructed-slides]] — 9 reconstructed slide crops — Reconstructed Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)
+- [[youtube-SZStlIhyTCY-reconstructed-slides]] — 20 reconstructed slide crops — Reconstructed Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company
+- [[youtube-SbUxRluVRwk-reconstructed-slides]] — 3 reconstructed slide crops — Reconstructed Slides: Structuring a modern AI team — Denys Linkov, Wisedocs
+- [[youtube-SbcQYbrvAfI-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize
+- [[youtube-ShuJ_CN6zr4-reconstructed-slides]] — 7 reconstructed slide crops — Reconstructed Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI
+- [[youtube-T5IMo5ntyhA-reconstructed-slides]] — 4 reconstructed slide crops — Reconstructed Slides: Stop Using RAG as Memory — Daniel Chalef, Zep
+- [[youtube-TqC1qOfiVcQ-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic
+- [[youtube-WJjInLeaJjo-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Building Agents at Cloud Scale — Antje Barth, AWS
+- [[youtube-XNtkiQJ49Ps-reconstructed-slides]] — 10 reconstructed slide crops — Reconstructed Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora
+- [[youtube-Xfl50508LZM-reconstructed-slides]] — 7 reconstructed slide crops — Reconstructed Slides: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize
+- [[youtube-YRGjll7uu5w-reconstructed-slides]] — 11 reconstructed slide crops — Reconstructed Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase
+- [[youtube-Ywl4LsvHKzU-reconstructed-slides]] — 11 reconstructed slide crops — Reconstructed Slides: RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot
+- [[youtube-ZRM_TfEZcIo-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI
+- [[youtube-ZuiJjkbX0Og-reconstructed-slides]] — 11 reconstructed slide crops — Reconstructed Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand
+- [[youtube-aqW68Is_Kj4-reconstructed-slides]] — 11 reconstructed slide crops — Reconstructed Slides: Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic
+- [[youtube-bSG9wUYaHWU-reconstructed-slides]] — 19 reconstructed slide crops — Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl
+- [[youtube-bVNNvWq6dKo-reconstructed-slides]] — 20 reconstructed slide crops — Reconstructed Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf
+- [[youtube-bk0TmxoZlUY-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: Evals 101 — Doug Guthrie, Braintrust
+- [[youtube-blW-lSd5CYQ-reconstructed-slides]] — 14 reconstructed slide crops — Reconstructed Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify
+- [[youtube-bmWZk9vTze0-reconstructed-slides]] — 18 reconstructed slide crops — Reconstructed Slides: MCP is all you need — Samuel Colvin, Pydantic
+- [[youtube-cVzf49yg0D8-reconstructed-slides]] — 22 reconstructed slide crops — Reconstructed Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind
+- [[youtube-dvft0Gp9sEE-reconstructed-slides]] — 9 reconstructed slide crops — Reconstructed Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo
+- [[youtube-e9sLVMN76qU-reconstructed-slides]] — 13 reconstructed slide crops — Reconstructed Slides: AX is the only Experience that Matters - Ivan Burazin, Daytona
+- [[youtube-eOxOzcw70f0-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison
+- [[youtube-eW_vxrjvERk-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j
+- [[youtube-fL1iJHtl51Q-reconstructed-slides]] — 12 reconstructed slide crops — Reconstructed Slides: Building Cursor Composer – Lee Robinson, Cursor
+- [[youtube-gmTHs5T_YAE-reconstructed-slides]] — 6 reconstructed slide crops — Reconstructed Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten
+- [[youtube-himhGiWJXjo-reconstructed-slides]] — 13 reconstructed slide crops — Reconstructed Slides: Realtime Data Connectivity for AI: Tanmai Gopal
+- [[youtube-htM02KMNZnk-reconstructed-slides]] — 80 reconstructed slide crops — Reconstructed Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
+- [[youtube-iUWwcG-C8OU-reconstructed-slides]] — 4 reconstructed slide crops — Reconstructed Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS
+- [[youtube-iXhba366fQc-reconstructed-slides]] — 9 reconstructed slide crops — Reconstructed Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI
+- [[youtube-ib-wTAvCZqg-reconstructed-slides]] — 7 reconstructed slide crops — Reconstructed Slides: Architecting and Testing Controllable Agents: Lance Martin
+- [[youtube-jVGCulhBRZI-reconstructed-slides]] — 8 reconstructed slide crops — Reconstructed Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex
+- [[youtube-jryZvCuA0Uc-reconstructed-slides]] — 3 reconstructed slide crops — Reconstructed Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)
+- [[youtube-k8cnVCMYmNc-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal
+- [[youtube-kR64LOqBBCU-reconstructed-slides]] — 17 reconstructed slide crops — Reconstructed Slides: AgentCraft: Putting the Orc in Orchestration — Ido Salomon
+- [[youtube-knDDGYHnnSI-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem
+- [[youtube-lY1iFbDPRlw-reconstructed-slides]] — 8 reconstructed slide crops — Reconstructed Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax
+- [[youtube-mQ7_Zje7WKE-reconstructed-slides]] — 10 reconstructed slide crops — Reconstructed Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify
+- [[youtube-o-zkvb0iFDQ-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
+- [[youtube-qaJXBMwUkoE-reconstructed-slides]] — 17 reconstructed slide crops — Reconstructed Slides: The 1,000x AI Engineer: Swyx
+- [[youtube-qdh_x-uRs9g-reconstructed-slides]] — 12 reconstructed slide crops — Reconstructed Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked
+- [[youtube-rcsliSIy_YU-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands
+- [[youtube-rgjF5o2Qjsc-reconstructed-slides]] — 15 reconstructed slide crops — Reconstructed Slides: The State of AI Code Quality: Hype vs Reality — Itamar Friedman, Qodo
+- [[youtube-rmvDxxNubIg-reconstructed-slides]] — 13 reconstructed slide crops — Reconstructed Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer
+- [[youtube-sRpqPgKeXNk-reconstructed-slides]] — 11 reconstructed slide crops — Reconstructed Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai
+- [[youtube-sl3icG-IjHo-reconstructed-slides]] — 2 reconstructed slide crops — Reconstructed Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset
+- [[youtube-so9l_MwS2yg-reconstructed-slides]] — 8 reconstructed slide crops — Reconstructed Slides: Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS
+- [[youtube-tzRvcTEapzo-reconstructed-slides]] — 10 reconstructed slide crops — Reconstructed Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva
+- [[youtube-u3NofYYstaY-reconstructed-slides]] — 9 reconstructed slide crops — Reconstructed Slides: Cohere for VPs of AI: Vivek Muppalla
+- [[youtube-wFTVEDYVJT0-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)
+- [[youtube-wNH3q9pqn0U-reconstructed-slides]] — 17 reconstructed slide crops — Reconstructed Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind
+- [[youtube-wsFd22SL1s8-reconstructed-slides]] — 24 reconstructed slide crops — Reconstructed Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI
+- [[youtube-xnXqpUW_Kp8-reconstructed-slides]] — 12 reconstructed slide crops — Reconstructed Slides: Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai
+- [[youtube-xz0-brt56L8-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)
+- [[youtube-yJHw33cVeHo-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet
+- [[youtube-zTZ0qunQXnM-reconstructed-slides]] — 10 reconstructed slide crops — Reconstructed Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data
+- [[youtube-zepu8Kk6FBQ-reconstructed-slides]] — 23 reconstructed slide crops — Reconstructed Slides: Agents for Everything Else — swyx
+
+## Source Artifacts
+- `raw/sources/slide-ocr-rapidocr-audit.json`
+- `raw/sources/slide-ocr-rapidocr/`
+- `raw/sources/reconstructed-slide-audit.json`
+- `wiki/slides/reconstructed-registry.json`

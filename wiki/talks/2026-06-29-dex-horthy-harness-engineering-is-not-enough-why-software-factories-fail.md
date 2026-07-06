@@ -1,0 +1,42 @@
+---
+title: "Harness Engineering is not Enough: Why Software Factories Fail"
+category: "talks"
+date: "2026-06-29"
+time: "4:30pm-4:50pm"
+track: "Software Factories"
+room: "Main Stage"
+speakers: ["Dex Horthy"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Harness Engineering is not Enough: Why Software Factories Fail
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 4:30pm-4:50pm
+- Track/room: Software Factories · Main Stage
+- Speaker(s): Dex Horthy
+- Session type/status: keynote · confirmed
+
+## Official Description
+No official description published in the schedule data.
+
+## Related YouTube Video
+[No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer](https://www.youtube.com/watch?v=rmvDxxNubIg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[dex-horthy]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-rmvDxxNubIg-slides]] — extracted from the related public AI Engineer video.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-rmvDxxNubIg-dense-slides]] (4 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-rmvDxxNubIg-dense-slides]]
+- [[youtube-rmvDxxNubIg-reconstructed-slides]]
+- [[youtube-rmvDxxNubIg-slides]]
+- Slide-derived terms: `code`, `allowed`, `vibes`, `engineering`, `summit`, `tasks`, `dexhorthy`, `adexhorthy`, `coding`, `future`, `software`, `solving`, `hard`, `horthy`, `humanlayer`, `intentional`, `compaction`, `approach`

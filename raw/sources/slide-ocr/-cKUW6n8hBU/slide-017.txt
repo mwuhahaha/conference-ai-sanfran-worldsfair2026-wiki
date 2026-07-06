@@ -1,0 +1,32 @@
+fi J E . 3 Ul) 4 _ p r
+rT
+GEPA: REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM = = ra
+
+REINFORCEMENT LEARNING ae
+
+Lakshya A Agrawal’, Shangyin Tan’, Dilara Soylu’, Noah Ziems‘, Ls 7
+
+Rishi Khare!. Krista Opsahl-Ong', Amay Singhvi?*, Herumb Shandilya’.
+
+Michael J Ryan’, Meng Jiang‘. Christopher Potts’. Koushik Sen’. ia
+
+Alexandros G. Dimakis'-', lon Stoica', Dan Klein', Matei Zaharia'’, Omar Khattab® .
+
+"UC Berkeley "Stanford University *BespokeLabs.ai ‘Notre Dame ‘“Databricks = *MIT Chris Potts
+https://www.youtube.com/
+watch?v=Obkwd90 Yaqfk
+
+“Model —HotpotQA_IFBench Hover PUPA Aggregate Improvement
+
+Qwen3-8B
+
+Baseline 42.33 36.90 35.33 80.82 48.85 —
+
+MIPROv?2 6 47. 81 1] 6.26
+
+GRPO 43.33 35.88 38.67 86.66 51.14 +2.29
+
+GEPA 62.33 38.61 52.33 91.85 61.28 +12.44
+
+My point here, though, is that both of them outperformed GRPO, which ought to be a
+kind of advanced RL-based post-training method, a fine-tuning method.

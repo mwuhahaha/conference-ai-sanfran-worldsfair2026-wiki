@@ -1,0 +1,35 @@
+---
+title: "Data and Environment Curation for Post-training LLMs"
+category: "talks"
+date: "2026-06-29"
+time: "3:45pm-4:05pm"
+track: "Data Quality"
+room: "Track 9"
+speakers: ["Mahesh Sathiamoorthy"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Data and Environment Curation for Post-training LLMs
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 3:45pm-4:05pm
+- Track/room: Data Quality · Track 9
+- Speaker(s): Mahesh Sathiamoorthy
+- Session type/status: session · confirmed
+
+## Official Description
+Hold for Bespoke Labs. Company works on data curation, eval tooling, and reinforcement-learning
+
+environment curation for agent development.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[mahesh-sathiamoorthy]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

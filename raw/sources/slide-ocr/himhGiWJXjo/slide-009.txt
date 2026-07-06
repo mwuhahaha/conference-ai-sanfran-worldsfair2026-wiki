@@ -1,0 +1,3 @@
+LLMs don't know what your API is.
+But LLMs know what SQL is.
+What if everything was SQL?

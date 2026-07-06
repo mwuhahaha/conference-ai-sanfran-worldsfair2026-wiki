@@ -1,0 +1,18 @@
+---
+title: "Benjamin Clavié"
+category: "people"
+role: "Member of Technical Staff"
+company: "Mixedbread Inc."
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
+---
+
+# Benjamin Clavié
+
+## Official Role
+Member of Technical Staff at Mixedbread Inc..
+
+## Official Bio
+MTS at Mixedbread working on building the future of Retrieval.
+
+## Scheduled Sessions
+- [[2026-06-29-benjamin-clavi-if-we-want-them-to-do-knowledge-work-we-need-to-design-knowledge-agents]] — If we want them to do Knowledge Work, we need to design Knowledge Agents (2026-06-29, 1:30pm-1:50pm)

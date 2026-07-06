@@ -1,0 +1,14 @@
+Reinforcement Learning Solver Using
+Hyperdimensional Semantic Clusters
+© Applied reinforcement leaming to treat
+group selection as a sparse-reward
+decision process.
+e Used hyperdimensiona! semantic
+embeddings to structure the word space.
+e Trained agents to learn grouping policies
+from historical puzzle solutions.
+e Incorporated lexical and semantic
+coherence as input features for state
+evaluation
+=
+|| u

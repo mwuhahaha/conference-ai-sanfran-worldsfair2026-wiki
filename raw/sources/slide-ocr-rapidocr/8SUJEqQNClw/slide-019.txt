@@ -1,0 +1,16 @@
+Workflowastool
+export const agent = new Agent（{
+name:'Agent',
+instructions:Ask the user for
+AIE
+their location,check weather，
+and plan a trip，
+model:openai('gpt-4o-mini'),
+workflows:
+checkweather,
+planTrip
+memory,
+github.com/mastra-ai/mastra
+Microsoft
+smol?
+World'sFair

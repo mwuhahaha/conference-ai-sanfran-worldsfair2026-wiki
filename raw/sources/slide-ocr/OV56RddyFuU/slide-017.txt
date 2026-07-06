@@ -1,0 +1,11 @@
+oi .
+Howtouse from Pi Pi x
+» Start the llama.cpp server
+. Copy
+brew install llama.cop
+. cos : "Copy
+llama-server -bf ggml-org/gemma-4-268-A4B-2t-GGUF: Q4_K_M  -  --jinja
+» Configure the model in Pi
+» Run Pi
+Quick Links
+Read the Pi documentation

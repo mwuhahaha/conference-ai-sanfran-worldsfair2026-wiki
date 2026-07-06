@@ -1,0 +1,55 @@
+ifornhux
+lyoutx
+yoacs
+LognfaxLoinFom
+O
+"use client':
+functionin the
+(useState}
+'rot':
+pufidndudattfosteaccringLethlyoucle
+runction LoginFormt)（
+const （fornCata,setFornData)
+fulNe!.
+useStatel
+Ftletme check the curent stae of thefle to undentand the ce
+email:*.,
+Anlyed Looc1-5D
+password:...
+AIE
+confirPassword:.
+comlele heafeh functonemntatior Letme mae these
+fleld and
+const （error,setfrrer)
+usestate(""):
+changee:
+const handleFullNameChenge
+const（name,value)e.target;
+React.Char
+Eed LmxD+1-2110
+const（value)
+e.taroet:
+setForata（prev a（（
+Tve made She folo
+[nane]:vaiue
+prev,
+1.Added efeid to he fostae
+fullName:value
+2.miemented henifelweheg function toupd
+sttributes
+const handleSubnlt
+Thchngeswcletndefohdhnlelinenuproy
+e.preventDefault（):
+setEror(*):
+duringregistraon.
+fornData.confirePassword)
+Letme run the develog
+entsener toma ure everythings working
+nend:
+stresponse
+reteht'/epi/auth/register'
+neaders:
+3ody1JsoN.stringify（
+--NSERT--
+AGENTENGINEERING
+HTTPS://AI.ENGINEER

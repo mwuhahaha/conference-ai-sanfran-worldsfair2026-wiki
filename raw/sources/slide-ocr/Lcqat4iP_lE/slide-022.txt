@@ -1,0 +1,13 @@
+Call to Action
+Al Engineers:
+* Think about observability
+« Work on high level SDK adapters like Openinference
+* Work on conventions (genai semantic conventions)
+Platform Builders:
+* Add OTel support
+1w RFCs
+coos - ery ule talk to us about your ideas about MCP observability
+Wl
+_* 7 | 4
+apatite’ <3 m Microsoft OWS a?
+Wiartielle Eaivr

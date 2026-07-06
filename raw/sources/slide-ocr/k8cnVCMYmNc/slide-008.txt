@@ -1,0 +1,17 @@
+OpenAT ACRES
+/ oo
+saatrecetons / \
+(| : ie
+comer from the rucner)
+wodel :
+agents Agent ‘ /
+agent ( — ~
+Tools
+name 5
+model Fi
+instructions TRIAGE AGENT INSTRUCTIONS,
+handoffs [weather_agent, local_biz_agent],
+tools [WebSearchTool],
+y
+result Runner.run_sync
+(agent, )

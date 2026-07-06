@@ -1,0 +1,12 @@
+ESTs a 9y RE |
+The reason that this is tricky is quite subtle. It’s the fact that \
+anytime you use an LLM to assign a reward, those LLMs are giant
+things with billions of parameters, and they're gameable. If you're
+reinforcement learning with respect to them, you will find - Andrej Karpathy
+adversarial examples for your LLM judges, almost guaranteed. (via the Dwarkesh
+So you can’t do this for too long. You do maybe 10 steps or 20 Podeast)
+steps, and maybe it will work, but you can’t do 100 or 1,000. I
+understand it’s not obvious, but basically the model will find little
+cracks. It will find all these spurious things in the nooks and
+crannies of the giant model and find a way to cheat it
+@

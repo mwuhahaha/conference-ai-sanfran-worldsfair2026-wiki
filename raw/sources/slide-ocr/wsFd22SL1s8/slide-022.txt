@@ -1,0 +1,14 @@
+Containers: Security Story
+Root Namespace Userspace
+Container
+Malicious or Buggy Process 4
+Pid Namespace Trusted Process
+(maalt [7777 Pid Pid )*
+pPidt, | t00 200
+fi\
+syscall | ioctl syscall | ioctl
+Attack Surface
+Container processes can attack the kernel
+© After a8 Contaners run as native processes on op of the kernel
+¢ Ary malicious of buggy process can attack the kerne’ and gam root.
++ Once it becomes roo! ft Can do anything ft wants

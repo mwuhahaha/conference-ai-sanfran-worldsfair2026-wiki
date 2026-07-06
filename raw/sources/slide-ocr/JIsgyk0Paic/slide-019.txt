@@ -1,0 +1,35 @@
+a MAT 8 ey
+a sreasoninp»
+bs (reasoning)
+ze . . ° ciRe aaa
+caer
+/* Rubric engineering °
+aS (sswee)
+<tanseer>
+; e An accessible way to steer RL algorithms Beret tector
+der coree.toeey coward Lecce (prampts, completions, arsenr, sokmargs} -+ list{floatl:
+e Invites creativity + experimentation responses + [complet ionipt |‘ centert’| 2) completion os comptet ions]
+O Prompenlel Gli concrete)
+eal ea ted toni ae Lente ge amt aneaerdel toe ron cenpomnen!
+e Anecdotally, seems to help seer aide Gheeedieras(altighe cinwcr:cacjornee du foe toordesgarnesSn{reaporsen 1H
+fetarh TO Gf fee ae se OO fet, a Le rip leatracted responses, aeswert |
+“ s “arp
+¢ The next “prompt engineering” set fon cnsara, tay | Comptensvengyremeryys: hayeltteari:
+respenses - [completion Oil custest (1 1+ completion 10 completions]
+e Next steps: extracted renpenses = Leeteat ees acne (7) 1x0 6 a0 respons]
+retere TOS Gt recedigitd) elve @.@ Tae or i> extracted revponses!
+Using LLMs to design rubrics? Bet cnet am teat) + Moats
+cat ne
+Auto-tuning rubrics with DSPy? WT Leetecaet (Meceanonsagennty oe
+tort 8
+incorporating LLM judges for soft cnteria? i a ia
+Avoiding reward hacking? tees mammary)
+Cert ce tetas at tins fete eset 1h me
+Peat un anecanteer eth ee de
+tomt ee 82}
+" 7 ' a a TY towed -+ Centteatse: tC ites enews Et lee ee:
+a. . : ae : Bet ant cutt toward ire Ieompletiony, samergel + Leet itloet]
+i enngis the new prompt enpireennyt oe wae anseta's oo sore ‘amg Dennen conc eaple vanes
+an AGENT ENGINEERING
+me AI.ENGINEER
+at {

@@ -1,0 +1,15 @@
+O PyTorch
+RL infrastructure PyTorc
+e =RL training infra: exists, but mostly “RLHF-style” © unsloth
+e Want options besides “wait for big lab tuning APIs” Hugging Face
+e How can we plan ahead?
+e Unknowns: a
+Cost to do RL for agentic tasks?
+. How small can the models be?
+Generalization across tasks? Createle fine-tuned model ©
+. How to design effective rewards? Method
+e Opportunities: ee
+Reinforcement .
+- Open-source infra for DIY
+- Services for agentic RL Base Model
+o1-mint-2024-09-12-alpha ¢

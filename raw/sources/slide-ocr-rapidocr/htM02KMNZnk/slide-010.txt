@@ -1,0 +1,87 @@
+sectior
+Update
+AIEngineer
+EXPLORER
+main.pyu
+(1evoljsonfUx
+World's Fair
+AEWF
+{“name”:“order_status_inquiry”,“query”:“Hi,Iordered a Smart Thermostat last week and I haven't
+srciaiewf
+agent_conngs
+{name":warranty_clain”,“query":“My Laptop Pro screen started flickering after 8months.Is this
+venv
+（nane:“troubleshoot_thermostat”,query”:“My Smart Thermostat isn't turningon at all.The screen
+skills
+{“nane":"troubleshoot_earbuds","query:“My wireless Earbuds won't connect to my phone anynore.The
+Fagentignore
+U
+PROBLEMS
+OUTPUT
+AZURE
+TERMINAL
+PORTS
+dockerignore
+U
+PS C:\temp\fopt\aiewf>azd aiagent optimize status opt_3a57877364c84fa2b4fe39cbaabe175d
+PRESENTED BY
+erv.example
+U
+agent.manifest...
+U
+Results:
+Candidate
+Score Eval Strategy
+agentyaml
+Microsoft
+U
+Dockerfile
+U
+baseline
+0.68View
+[1eval-quickjsonl
+U
+candidate_1
+0.78Vlew
+systee_prom
+(1evaljsonl
+U
+candidate_2
+0.52Viewskills
+!evalyaml
+candidate_3
+0.62 View skills,system_prompt
+U
+main.py
+candidate_4
+0.50Viewskills
+U
+①READMEmd
+U
+Candidate IDs:
+Erequirements.txt
+baseline
+cand_5b4a46a388bb47fb8ddfdc54e64c6b2e
+*candidate_1
+cand_b6d9dab7feff48929e63e08282bd6acc
+aoubgb
+candidate_2
+cand_7a088cf58b114461b8b32cafe5728d57
+L.AI
+!azure.yaml
+candidate_3
+cand_57bf26def3514a9388ed812845ac70bc
+candidate_4
+cand_e6be2af2a37e41ad9d936288953ef49b
+>OUTLINE
+TIMELNE
+Apply the best candidatelocally,then deploy:
+azd aiagent optimize apply--candidate cand_b6d9dab7feff48929e63e00282bd6acc
+ch
+d'sFair
+naino
+uShre
+Ln3.Col9Spaces4UTF·8LF（]JSONLines
+bamy
+927AM
+Engineering the future of Al

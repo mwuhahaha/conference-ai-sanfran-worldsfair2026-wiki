@@ -1,0 +1,5 @@
+Our Stack (up to 2025)
+- Marketing: Figma + React + Vercel + Supabase
+- Ticketing: Ti.to + Validar
+- Sponsors: Figma + Google Sheets
+- Speakers: Sessionize

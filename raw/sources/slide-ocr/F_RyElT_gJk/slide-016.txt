@@ -1,0 +1,51 @@
+amp
+ectors-section.svelte
+Card>
+cCardContent>
+teecnexternatuonnectors asconnectaon（connectaon.io)
+<div class"py-3flex justify-between iteas-center>
+cdiv classe"flex itens-center gop-3")
+<divclassflex iteas-center justify-center p-1.5r
+{#if connection.typegithub_oauth}
+<Githubclass=h-5-5°/>
+Qtype.*Connector.*Omatches
+AIE
+{:else if conmection.type 'stack}
+Slackclasse²h-5-5”/>
+(else if conectlon.type notion)
+Qinterface.*ConnectorOmatches
+<F1leTextclassa"h-5v-5"/>
+(:elseifconection.type-'google')
+Let me search for the connector data structure more
+<Cloudclasse²h-5v-5°/>
+(ielse if conmection.type-ncp'}
+Networkclasseh-5v-5”/>
+QFind the data structure definition for connector
+(:else)
+type,config etc
+<Linkclassah-5v-5°/>
+(it)
+ndpoint_url is
+/div
+avalable in the Ui components:
+<h3classe"font-mediua>(connection.display_nane)
+</divs
+/h
+QFindhowMCP connector cor
+icons are displayed
+div class="flex itens-center gap-2">
+(#if isConected（connection.1d))
+<const Installurl-getGitHubAppInstallationurl
+(#ifinstalturl)
+TODOs
+Button
+href=(instalturl)
+classflex stens-center gap-2
+varianta"outline"
+targete"_blank"
+Githubclassh-4-4²>
+Install App to Gitub Organizations
+Button
+(/if)
+aws
+d'sFair

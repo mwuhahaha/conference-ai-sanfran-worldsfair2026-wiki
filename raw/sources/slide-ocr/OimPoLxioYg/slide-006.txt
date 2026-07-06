@@ -1,0 +1,14 @@
+CLIP: Trained on 400M image/text pairs, OpenAl, 2021
+text_embedding: how CLIP Paint.wtf Scoring
+maps the paint.wtf prompt into
+its feature space CLIP’s Interpretation
+
+x, of the Paint.wtf Prompt
+Image_embedding: how CLIP cuPtissarpraention of
+maps the user submission into saiaaeteiaiiaaiienaiiniias-
+its feature space /e
+Winning paint.wtf: minimizing Cosine Similarity S|
+distance between the prompt i
+and the user drawing
+
+7

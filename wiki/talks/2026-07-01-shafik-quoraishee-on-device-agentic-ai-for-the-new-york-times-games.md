@@ -1,0 +1,73 @@
+---
+title: "On-Device Agentic AI for the New York Times Games"
+category: "talks"
+date: "2026-07-01"
+time: "2:50pm-3:10pm"
+track: "Graphs"
+room: "Track 5"
+speakers: ["Shafik Quoraishee", "Joanne Song"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# On-Device Agentic AI for the New York Times Games
+
+## Official Schedule Context
+- Date/time: 2026-07-01 · 2:50pm-3:10pm
+- Track/room: Graphs · Track 5
+- Speaker(s): Shafik Quoraishee, Joanne Song
+- Session type/status: sponsor · confirmed
+
+## Official Description
+Traditional mobile game architectures rely on static state machines and fixed behavioral trees.
+
+Under this model, gameplay and accessibility are treated as rigid, separate systems. This results in
+
+blunt difficulty toggles, predictable character loops, and reactive features that fail to address a
+
+player's actual context. Constraint-Centric Agentic Simulation (CCAS) offers a theoretical shift. By
+
+modeling the game world as a continuous, multi-agent negotiation, accessibility and challenge become
+
+part of a single, fluid continuum.  Using the JetBrains Koog framework on Android, this session
+
+explores the theory of running local agents on consumer mobile devices. We will discuss how
+
+principles of game theory, specifically dynamic negotiation and constraint satisfaction, can be used
+
+to build systems that reason over game states. Instead of executing pre-planned scripts, these
+
+agents dynamically alter their strategies. They negotiate environmental constraints to provide
+
+emergent challenges for high-skill players or organically smooth out cognitive and motor friction
+
+points for those requiring assistance.  Running these theoretical models on edge hardware requires
+
+overcoming significant practical hurdles. We will break down the architecture needed to support this
+
+continuous adaptation without relying on cloud computation. We will cover how to manage memory
+
+footprints, compress state histories for rapid backtracking, and schedule local planning loops so
+
+they integrate flawlessly with the rendering engine.
+
+## Related YouTube Video
+[New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games](https://www.youtube.com/watch?v=P_uhFGH4J9Y) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+## Transcript Status
+Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+
+## People
+- [[shafik-quoraishee]]
+- [[joanne-song]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Supporting Slides
+- [[youtube-P_uhFGH4J9Y-slides]] — extracted from the related public AI Engineer video.
+## Slide Evidence
+- Slide-only cropped deck: [[youtube-P_uhFGH4J9Y-dense-slides]] (2 viable slide images).
+- Related slide/OCR pages:
+- [[youtube-P_uhFGH4J9Y-dense-slides]]
+- [[youtube-P_uhFGH4J9Y-reconstructed-slides]]
+- [[youtube-P_uhFGH4J9Y-slides]]
+- Slide-derived terms: `york`, `times`, `microsoft`, `connections`, `semantic`, `research`, `game`, `reinforcement`, `score`, `awss`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augmentcode`, `workos`, `game/al`, `developer`

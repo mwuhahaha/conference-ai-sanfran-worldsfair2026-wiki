@@ -1,0 +1,16 @@
+| heck
+two kinds of check.
+deterministic behavioural
+control flow - guardrails prompt / wording changes
+k
+
+freeze the recorded context as replay the scenario, score
+
+a fixture. Let the tool be called with qty 1000 MEANING not bytes:
+
+again, but this time assert on the tool output did it stay grounded? did st
+
+rerunnable & free. refuse the destructive call? ——_—
+
+never calls the model. score it: assert ficids . LLM-judge —_
+a

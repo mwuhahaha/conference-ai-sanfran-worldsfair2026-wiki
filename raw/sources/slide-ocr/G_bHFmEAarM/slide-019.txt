@@ -1,0 +1,11 @@
+Green LEGOBricksPython
+Gemini3.1FlashLite Preview
+tokens
+Gemini3FlashPreview
+ExecuLaDlcoue
+Codeexecutionresult
+Bounding boxes drawn on inage.
+There are 2 green LEGO bricks in the image.
+<>Python
+[{box_2d:[21,33,237,467],label:“green LEG0 brick
+{box_2d:[578,91,818,510],label:“green LEG0 brick

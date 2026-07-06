@@ -1,0 +1,14 @@
+r we
+The Reliability Rosetta Stone. mdi
+. Distributed Systems Pattern Agent Equivalent
+Circuit Breakers Tool Isolation .
+1 {PATTERN TSOLATION] ry t [PATTERN ISOLATION) i
+Rate Limiting Agent Limits
+; ‘ TUENtt Une cme tee Tf iy C toate £59 ORC OREM) | 1
+Retries : Controlled Recovery
+1 (MECOWERT LOGIC] iD ' (necovtmy coCreh x
+Quotas Cost Governance
+: Lae SOU e CAPS] a q _ __ _ Ce suet CAPS) k
+Observability Agent Tracing 5
+va (IMACEAMILATY system) | + . Cimacea@icity system) « #
+[ ANALYSIS: RELIABILITY MAPPING ]

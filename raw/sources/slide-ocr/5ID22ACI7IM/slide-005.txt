@@ -1,0 +1,15 @@
+Remember how you built context?
+* Day lat yourjob you had almost nocontext.
+* Overtime, you accumulated it:
+
+* Mentorship
+
+* Planning & code reviews
+
+* Architecture decisions
+
+* Incidents & outages
+
+* Experiments & rollouts
+
+* Pushing alot of PRs

@@ -1,0 +1,19 @@
+Preview README.md
+Amp
+See AmpOwner'sManual formore informationaboutAmp
+AIE
+Getting Started
+1.Create server/.env.LocaL withcontentsfrom 1Password
+macOSbootstrap
+1.Install dependencies:
+brewinstall mise
+brew install postgresql
+brew install redis
+brew installpodman
+brew installrg
+brew install podnan-desktop
+2.Create podmanmachine with sufficlentresources:
+ILservice:
+ces start postaresal
+aws
+rld'sFair

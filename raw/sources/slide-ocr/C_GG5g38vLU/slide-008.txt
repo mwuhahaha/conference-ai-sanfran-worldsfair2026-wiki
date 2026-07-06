@@ -1,0 +1,31 @@
+nr id me Gee wee
+eerie raters soos
+Spey o
+4 const TASK «
+s@ Upvote a story on Hacker News
+12 Go to mttos://news. ycombinator.com.
+reo 23 Call browser got stories to see ranked stories with their 10s and voted status.
+
+* bd i4 Find the highest-ranked story mhere alreadyVoted is false.
+
+* Pa 15 Chick 1ts upvote arrow using the oxact selector: afid«"up_STORYID*} (replace STOAYIO with the actual td).
+
+* a 16 trim():
+
+rd ee
+18 console.jog{ Model: ${MODE:} >):
+29 console. log{ Task: upvete on Hacker News\n ):
+2
+?. Const session 3 mew Arownerhessies();
+22
+230 try ¢
+24 @wailt session.apen i
+2s
+vf Const tools = createTools! session! ;
+er conat wessages © createContex: TASK;
+2m const result 2 awalt runloopi MODEL, messages, tools! :
+we
+we aaARnena ina Vnfnemar Rhea) anounced
+SD tae to nee Lae a Teen lame MO ed ee tal rotten Bates
+; omgeesll Enai H
+og : ngineering the future o

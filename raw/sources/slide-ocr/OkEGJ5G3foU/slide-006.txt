@@ -1,0 +1,24 @@
+{ : ed
+: >
+: 5
+: Q
+: a
+; 5
+| |
+: ,
+4 ,
+s A
+: 5
+5 p
+: a
+: a
+; 5 ;
+: ‘reeds_fixed_stride_order’,
+> ‘needs_fixed stride order’,
+: ,
+; >
+Gariena :
+"
+FAT
+= V1 °
+; a Microsoft OCU

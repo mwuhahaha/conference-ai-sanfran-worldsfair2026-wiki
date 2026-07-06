@@ -1,0 +1,40 @@
+YourActivity
+Seehowyou've beenusing modelsonOpenRouter.Privacy
+Spend
+Tokens
+Requests
+Last
+Last
+Lastday 499
+Lastwek4.35K
+Last day3
+Lastwk12
+day
+From:
+To:
+Filters
+Export
+Timestamp
+Provider/Model
+App
+Tokens
+Cost
+Speed
+Finish
+O
+Jun3,10:11PM
+Claude 3.7.Sonnet
+OpenRouter:Chatroom
+79.0tps
+stop
+Jun3,10:11PM
+Claude37.Soonet
+OpenRouter:Chatroom
+s
+66.0tps
+stop
+Jun3,10:11PM
+Claude.3.7Sonnet
+OpenRouter:Chatroom
+s69
+stop

@@ -1,0 +1,13 @@
+Users are already building cutting-edge agents
+with the CC SDK
+e All software tasks
+SRE agents
+Security agents
+- Incident triage agents
+Automated bug fixing
+e Site & Dashboard builders
+e MS Office agents
+e Legal, Finance, Healthcare, HR
+e Custom agent instructions + any integration
+Cloud logs, CI/CD, ete.
+ANTHROP\C CONEIDEN TIAL w

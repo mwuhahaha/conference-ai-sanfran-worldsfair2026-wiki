@@ -1,0 +1,12 @@
+Infrastructure was built for 2
+predictable microservices.
+THE GREAT MISMATCH
+Traditional sexcrin ous x Autonomous
+Microservices MASSES APE ene Al Agents
+Stateless | —| —_, Stateful
+_ (STATE: 0] ome {STATE: PERSIST]
+Deterministic | a a a Probabilistic
+| [PATH: FIXED] | °° [PATH: DYNAMIC]
+- Request-response ———|> Multi-step workflows
+[FLOW: SYNC] eh (FLOW: ASYNC]
+, (TIME: <1¢0MS) 2 Pee [TIME: >MIN/HR]

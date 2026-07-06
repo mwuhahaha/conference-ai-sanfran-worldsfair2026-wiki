@@ -1,0 +1,12 @@
+Uh.
+Top newsletters from respondents Top podcasts from respondents
+“ Latent Space (swyx) “ Latent Space (swyx & Alessio)
+“ The Batch (Andrew Ng) * Machine Learning Street Talk (Tim Scarfe)
+™ Interconnects (Nathan Lambert) ” The Cognitive Revolution (Nathan Labenz)
+“ Ahead of Al (Sebastian Raschka) “ No Priors (Sarah Guo and Elad Gil)
+* AlphaSignal (Lior Alexander) * This Week in Machine Learning/Al (Sam C.)
+* SemiAnalysis (Dylan Patel) ” Gradient Dissent (Lukas Biewald)
+* Eugene Yan’s Newsletter * Practical Al (Dan Whitenack)
+“ Ben's Bites (Ben Tossell) “ The Gradient (Daniel Bashir)
+™ Import Al (Jack Clark) ” Weaviate Podcast (Connor Shorten)
+” The Neuron (Noah Edelman) ” Robot Brains (Pieter Abbeel)

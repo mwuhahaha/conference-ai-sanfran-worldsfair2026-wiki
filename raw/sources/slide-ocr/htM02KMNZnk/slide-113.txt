@@ -1,0 +1,43 @@
+pipeline.baml-ale-indexAdded
+AIEngineer
+Fpipeline.bamlAX
+Fagent.bamlA
+New Agent Terminal
+World'sFair
+baml_src>ns_images）
+Fpipelne.baml
+s(ctx.output_rormat)
+function is_true
+(assert.is_true)builtin>/assert/assert.banl:4-1e
+// Hard assertions - throv and stop execution on fallure.
+Op
+Piayoround
+functionis_true（condition:bool）-→null{
+functioninproving_inage(goal:string="afounder builds
+if（icondition）{
+let ing:inage =generate_inage（goal);
+banl.sys.panic("assertion failed:expected true)
+PRESENTED BY
+let judge:JudgeResponse evaluate_inage(ing,goal)
+)else.
+null
+let attemptsi int=0;
+Microsoft
+vhite（judge.score<0.956attempts<10）{
+ing=generate_inage（goat):
+o（aie)vbv@Vaibhavs-MacBook-Pro-3aie
+references (e):
+judge=evaluate_inage(ing,goal):
+return ing:
+class JudgeResponse
+score:float,
+reason:string,
+inplementsbaml.ToString
+6E
+function to_string(self)->string throws never
+d'sFair
+return'Score:s(self.score),Reason:siself.
+d+
+Ln30,Col1Spaces:4UTF-8LFBAMLPrettier
+te
+Engineering the future of Al

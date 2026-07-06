@@ -1,0 +1,26 @@
+TL;DR:We buit a transformer-based
+works.
+Foryears,Stripe has been usngmachineleamingmodels trained on
+AIE
+dscretefeatures(BIN，p,paymentmetod,et.）to mprove our
+products forusers.And these feature-by-feature effortshave worked
+wll+15%coveron-30%fraud
+But these models have Imitations.Wehave to select and therefore
+Aside:Worked for
+constrain thefeatures considered bythemode.Andeachmodel
+equrestask-specifictrainingforauhorization,forfraud,fordsputes,
+Given theleamingpower ofgenerallzed transfomerarchitectures,we
+andsoon.
+paymentsandfraud
+obviousthati would-payments islikelanguagein some ways
+wonderedwhetheranLLM-stye approachcould workhere.t wasnt
+(structuralpattemssmlarto sytaxandsemantics,temporaly
+atStripetoo!
+knsywnainglent
+sequential)and extremely unlike language inothers (fewer distinct
+grammaticalrules).
+Sowebuitapaymentsfoundatonmodelsef-supevisednewok
+thatleamsdense,enerl-puposevctorsforeveytransactnmuch
+transactionsitdistillseachchargeskynasintoaingeeatl
+mbedsin.
+aws

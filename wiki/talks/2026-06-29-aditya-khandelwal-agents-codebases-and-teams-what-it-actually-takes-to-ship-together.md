@@ -1,0 +1,41 @@
+---
+title: "Agents, codebases, and teams: what it actually takes to ship together"
+category: "talks"
+date: "2026-06-29"
+time: "11:10am-11:30am"
+track: "Expo Stage 4 SE"
+room: "Expo Stage 4 SE"
+speakers: ["Aditya Khandelwal"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Agents, codebases, and teams: what it actually takes to ship together
+
+## Official Schedule Context
+- Date/time: 2026-06-29 · 11:10am-11:30am
+- Track/room: track TBD · Expo Stage 4 SE
+- Speaker(s): Aditya Khandelwal
+- Session type/status: session · confirmed
+
+## Official Description
+Using a coding agent solo is one thing. Getting a whole team to trust agent-written code, agent-run
+
+reviews, and long-running agent work is another. That's where most teams stall. This talk is about
+
+what it actually takes to get there: how to shape a codebase so agents can work in it safely, how to
+
+earn a skeptical team's trust instead of mandating it, and the failure modes that only show up once
+
+agents are part of the daily workflow.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[aditya-khandelwal]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

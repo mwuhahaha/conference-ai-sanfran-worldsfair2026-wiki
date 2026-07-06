@@ -1,0 +1,14 @@
+3 Ingredients in an Eval
+DATASET SCORER
+~The logie behind your
+The code or prompt you evals.
+want to evaluate. ~
+Can be an
+-It can ranqe tron a LLM as a judge or full
+single prompt to an A set of real-world Cede function
+rahe a mCMmeTe Srp GME Ola Ge a CrvaN examples, 7 ; ;
+The scorer will give a
+PORTO P Reem Mes TLCL aeT “These are your test score of B-108 to each
+an output. cases. row in the dataset.
+— ‘ mE okor to ES O00 Ue
+oo 7

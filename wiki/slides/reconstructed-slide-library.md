@@ -1,0 +1,124 @@
+---
+title: "Reconstructed Slide Library"
+category: "slides"
+sourceLabels: ["Local OpenCV slide-region detection", "Cropped public YouTube video frames"]
+---
+
+# Reconstructed Slide Library
+
+This page indexes cleaner companion decks reconstructed by cropping likely slide regions from the extracted video frames. These pages preserve the original full-stage frame decks and add a slideshow-style view when a slide region can be detected.
+
+## Coverage
+- Reconstructed decks: 107
+- Reconstructed slide images: 1729
+- Reconstruction audit: `raw/sources/reconstructed-slide-audit.json`
+- High-recall fallback decks: [[dense-slide-library]]
+
+## Decks
+- [[youtube--TiET_K-E_g-reconstructed-slides]] — 9 reconstructed slide images
+- [[youtube--cKUW6n8hBU-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-12v5S1n1eOY-reconstructed-slides]] — 18 reconstructed slide images
+- [[youtube-1t-9-s1brcg-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-2vlCqD6igVA-reconstructed-slides]] — 4 reconstructed slide images
+- [[youtube-3_gYbhABcAE-reconstructed-slides]] — 5 reconstructed slide images
+- [[youtube-4sX_He5c4sI-reconstructed-slides]] — 80 reconstructed slide images
+- [[youtube-5ID22ACI7IM-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-5N33E9tC400-reconstructed-slides]] — 18 reconstructed slide images
+- [[youtube-5_QWh4LGoxg-reconstructed-slides]] — 15 reconstructed slide images
+- [[youtube-5nOLb27hQ5w-reconstructed-slides]] — 18 reconstructed slide images
+- [[youtube-6YdPI9YbjbI-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-7Dtu2bilcFs-reconstructed-slides]] — 17 reconstructed slide images
+- [[youtube-84Vtz2IL1Ug-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-8SUJEqQNClw-reconstructed-slides]] — 21 reconstructed slide images
+- [[youtube-9-vGxMoUM9Y-reconstructed-slides]] — 22 reconstructed slide images
+- [[youtube-96G7FLab8xc-reconstructed-slides]] — 20 reconstructed slide images
+- [[youtube-APh1Vx0oLmQ-reconstructed-slides]] — 13 reconstructed slide images
+- [[youtube-B9h9ovW5H9U-reconstructed-slides]] — 16 reconstructed slide images
+- [[youtube-BM2JX9hqsVQ-reconstructed-slides]] — 12 reconstructed slide images
+- [[youtube-BZtD0yYAgCQ-reconstructed-slides]] — 5 reconstructed slide images
+- [[youtube-Bc6Ojl2XS1w-reconstructed-slides]] — 14 reconstructed slide images
+- [[youtube-BiG2ssibKGc-reconstructed-slides]] — 5 reconstructed slide images
+- [[youtube-C_GG5g38vLU-reconstructed-slides]] — 10 reconstructed slide images
+- [[youtube-D4Dswf-__RM-reconstructed-slides]] — 20 reconstructed slide images
+- [[youtube-DeFF3J8T5Pk-reconstructed-slides]] — 8 reconstructed slide images
+- [[youtube-E71YtNbCFXY-reconstructed-slides]] — 12 reconstructed slide images
+- [[youtube-ESbWpPT_9-o-reconstructed-slides]] — 19 reconstructed slide images
+- [[youtube-EY4O9M6AsWI-reconstructed-slides]] — 17 reconstructed slide images
+- [[youtube-EyZiAp0pelw-reconstructed-slides]] — 8 reconstructed slide images
+- [[youtube-F_RyElT_gJk-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-Fzb1a24hF-o-reconstructed-slides]] — 22 reconstructed slide images
+- [[youtube-G_bHFmEAarM-reconstructed-slides]] — 22 reconstructed slide images
+- [[youtube-HT4l0DeP69I-reconstructed-slides]] — 16 reconstructed slide images
+- [[youtube-JIsgyk0Paic-reconstructed-slides]] — 21 reconstructed slide images
+- [[youtube-JhJKgRAmfIU-reconstructed-slides]] — 9 reconstructed slide images
+- [[youtube-JsCCrBF7F1g-reconstructed-slides]] — 7 reconstructed slide images
+- [[youtube-Jty4s9-Jb78-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-Lc8zRh9muoY-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-Lcqat4iP_lE-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-LxQsQ3vZDqo-reconstructed-slides]] — 6 reconstructed slide images
+- [[youtube-MRM7oA3JsFs-reconstructed-slides]] — 16 reconstructed slide images
+- [[youtube-NuePCNMpWGc-reconstructed-slides]] — 4 reconstructed slide images
+- [[youtube-OV56RddyFuU-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-OimPoLxioYg-reconstructed-slides]] — 22 reconstructed slide images
+- [[youtube-OkEGJ5G3foU-reconstructed-slides]] — 7 reconstructed slide images
+- [[youtube-P_RI1kCkRbo-reconstructed-slides]] — 17 reconstructed slide images
+- [[youtube-P_uhFGH4J9Y-reconstructed-slides]] — 6 reconstructed slide images
+- [[youtube-PbHm2qKnu10-reconstructed-slides]] — 6 reconstructed slide images
+- [[youtube-PmZDupFP3UM-reconstructed-slides]] — 9 reconstructed slide images
+- [[youtube-SZStlIhyTCY-reconstructed-slides]] — 20 reconstructed slide images
+- [[youtube-SbUxRluVRwk-reconstructed-slides]] — 3 reconstructed slide images
+- [[youtube-SbcQYbrvAfI-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-ShuJ_CN6zr4-reconstructed-slides]] — 7 reconstructed slide images
+- [[youtube-T5IMo5ntyhA-reconstructed-slides]] — 4 reconstructed slide images
+- [[youtube-TqC1qOfiVcQ-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-WJjInLeaJjo-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-XNtkiQJ49Ps-reconstructed-slides]] — 10 reconstructed slide images
+- [[youtube-Xfl50508LZM-reconstructed-slides]] — 7 reconstructed slide images
+- [[youtube-YRGjll7uu5w-reconstructed-slides]] — 11 reconstructed slide images
+- [[youtube-Ywl4LsvHKzU-reconstructed-slides]] — 11 reconstructed slide images
+- [[youtube-ZRM_TfEZcIo-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-ZuiJjkbX0Og-reconstructed-slides]] — 11 reconstructed slide images
+- [[youtube-aqW68Is_Kj4-reconstructed-slides]] — 11 reconstructed slide images
+- [[youtube-bSG9wUYaHWU-reconstructed-slides]] — 19 reconstructed slide images
+- [[youtube-bVNNvWq6dKo-reconstructed-slides]] — 20 reconstructed slide images
+- [[youtube-bk0TmxoZlUY-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-blW-lSd5CYQ-reconstructed-slides]] — 14 reconstructed slide images
+- [[youtube-bmWZk9vTze0-reconstructed-slides]] — 18 reconstructed slide images
+- [[youtube-cVzf49yg0D8-reconstructed-slides]] — 22 reconstructed slide images
+- [[youtube-dvft0Gp9sEE-reconstructed-slides]] — 9 reconstructed slide images
+- [[youtube-e9sLVMN76qU-reconstructed-slides]] — 13 reconstructed slide images
+- [[youtube-eOxOzcw70f0-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-eW_vxrjvERk-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-fL1iJHtl51Q-reconstructed-slides]] — 12 reconstructed slide images
+- [[youtube-gmTHs5T_YAE-reconstructed-slides]] — 6 reconstructed slide images
+- [[youtube-himhGiWJXjo-reconstructed-slides]] — 13 reconstructed slide images
+- [[youtube-htM02KMNZnk-reconstructed-slides]] — 80 reconstructed slide images
+- [[youtube-iUWwcG-C8OU-reconstructed-slides]] — 4 reconstructed slide images
+- [[youtube-iXhba366fQc-reconstructed-slides]] — 9 reconstructed slide images
+- [[youtube-ib-wTAvCZqg-reconstructed-slides]] — 7 reconstructed slide images
+- [[youtube-jVGCulhBRZI-reconstructed-slides]] — 8 reconstructed slide images
+- [[youtube-jryZvCuA0Uc-reconstructed-slides]] — 3 reconstructed slide images
+- [[youtube-k8cnVCMYmNc-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-kR64LOqBBCU-reconstructed-slides]] — 17 reconstructed slide images
+- [[youtube-knDDGYHnnSI-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-lY1iFbDPRlw-reconstructed-slides]] — 8 reconstructed slide images
+- [[youtube-mQ7_Zje7WKE-reconstructed-slides]] — 10 reconstructed slide images
+- [[youtube-o-zkvb0iFDQ-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-qaJXBMwUkoE-reconstructed-slides]] — 17 reconstructed slide images
+- [[youtube-qdh_x-uRs9g-reconstructed-slides]] — 12 reconstructed slide images
+- [[youtube-rcsliSIy_YU-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-rgjF5o2Qjsc-reconstructed-slides]] — 15 reconstructed slide images
+- [[youtube-rmvDxxNubIg-reconstructed-slides]] — 13 reconstructed slide images
+- [[youtube-sRpqPgKeXNk-reconstructed-slides]] — 11 reconstructed slide images
+- [[youtube-sl3icG-IjHo-reconstructed-slides]] — 2 reconstructed slide images
+- [[youtube-so9l_MwS2yg-reconstructed-slides]] — 8 reconstructed slide images
+- [[youtube-tzRvcTEapzo-reconstructed-slides]] — 10 reconstructed slide images
+- [[youtube-u3NofYYstaY-reconstructed-slides]] — 9 reconstructed slide images
+- [[youtube-wFTVEDYVJT0-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-wNH3q9pqn0U-reconstructed-slides]] — 17 reconstructed slide images
+- [[youtube-wsFd22SL1s8-reconstructed-slides]] — 24 reconstructed slide images
+- [[youtube-xnXqpUW_Kp8-reconstructed-slides]] — 12 reconstructed slide images
+- [[youtube-xz0-brt56L8-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-yJHw33cVeHo-reconstructed-slides]] — 23 reconstructed slide images
+- [[youtube-zTZ0qunQXnM-reconstructed-slides]] — 10 reconstructed slide images
+- [[youtube-zepu8Kk6FBQ-reconstructed-slides]] — 23 reconstructed slide images

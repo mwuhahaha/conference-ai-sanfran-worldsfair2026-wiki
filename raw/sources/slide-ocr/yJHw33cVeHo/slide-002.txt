@@ -1,0 +1,5 @@
+From Text to Vision to Voice:
+Exploring Multimodality
+with OpenAl
+RomainHuet
+Head ofDeveloper Experience,OpenAl

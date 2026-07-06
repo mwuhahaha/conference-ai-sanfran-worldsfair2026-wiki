@@ -1,0 +1,28 @@
+How to Create a ChatGPT Clone GShere a oy
+Manus's Computer Qo
+Way ca Teemnal
+» Executing command warn po ctatget cicie GA C2 Scatgon cloce A create Clase ap
+Create a ChatGPT clone
+shell
+8 Ubuntussandioar~ $ ed /Rome/ubuntu && akdir -p chatgpt clone && cd chatget
+a manus Clone && create_flask_app .
+I'll help you create a ChatGPT clone. I'll work on developing a web-based chat Creates! acnew Flaskiapplication
+interface that mimics the functionality of ChatGPT. Let me get started right create_flask_app [app_naeel
+away. ARGUMENTS :
+as tthe mosi web ccaition i te for a ChatGPT a nian Name of the Flask application to create
+* Connected to datasource{i) v Creste_flask_app ay_app
+bop tutsandtaa rs omatgpt clore ¢
+
+& manus
+l'll be creating a ChatGPT clone using Flask, which is the appropriate choice
+sance we need both a frontend interface and backend processing for the chat
+functionality. Let me set up the project structure and implement the necessary
+components.
+
+Create the ChatGPT clone project using the Flask template «
+
+Creating the ChatGPT clone project using the Flask template
+
+Creating the ChatGPT clone Flask project.
+
+@ Usng terminal

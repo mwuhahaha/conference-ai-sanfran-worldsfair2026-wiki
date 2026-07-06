@@ -1,0 +1,16 @@
+README.md
+trade_notional.pyzsh
+(1002-place_order-1.jsonM
+{1001-agent-1.jsonM
+PreviewREADME
+examples>financial_incidents>trade_notional.py
+USER_MESSAGE="Sell about $1,eeo of ACME from my portfolio to rebalance.
+>def set_mode(mode:str)->None:
+>def_order_input（*args,**kwargs)->InputState:
+@boundary（TooL,kind="tool",extract_input=_order_input)
+def place_order(symbol:str,quantity:int,*，side: str=“sell")->dict[str,Any]:
+@boundary("agent",kind="llm",extract_input=agent_input)
+>def agent_plan(state:dict[str,Any])->dict[str,Any]:
+@boundary("agent",kind="llm",extract_input=agent_input)
+>def agent_finalize(state:dict[str,Any],tool_result:dict[str,Any])-> dict[str,Any]:
+>def run_agent(user_message:str=USER_MESSAGE)->dict[str,Any]:-

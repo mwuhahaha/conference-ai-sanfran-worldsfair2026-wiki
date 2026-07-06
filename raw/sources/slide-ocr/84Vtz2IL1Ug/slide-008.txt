@@ -1,0 +1,25 @@
+enn February, 2023: .. and Llama wins, almost
+World's Fair
+LLaMA: Open and Efficient Foundation Language Models
+aws Hugo Touvron; Thibeut Lavril; Gautier Izacard; Xavier Martinet
+el Marie-Anne Lachaux, Timothee Lacroix, Baptiste Rozitre, Naman Goyal
+Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin
+4 Edouard Grave; Guillaume Lample"
+; Meta Al
+Tent as A Abstract performance, a smaller one wained longer will
+, , _ ultimately be cheaper at inference. For instance,
+We introduce Ls MA. « collection of founda: although Hoffmann et al. (2022) recommends
+5 bon language models ranging from 7B to 6$B - ep
+, ; parameters. We train cur models oa tnitions training a 10B model on 2008 tokens, we find
+a of tokens, and show that it ts powsble to train that the performance of a 7B modet continues to
+ntl Masc-of-the-an models using publicly avail- improve even after IT tokens.
+able datasets caclusively, without resorting
+‘au to propnetasy and inaccessible datasets fe The focus of this work is to train a series of
+ba) particular, LLaMA-138 outperforms GPT-3 language models that achieve the best possible per-
+(1758) om most benchmarks, and LLaMA- formance at various inference budgets, by training
+“ compas ee rapes on more tokens than what is typically used. The
+inchalla- LM-S40B. We release
+all ous models to the research community |. resulting models, called ee from 7B
+AlEngmoce > é
+‘ a
+Tet Engineering the future of Al

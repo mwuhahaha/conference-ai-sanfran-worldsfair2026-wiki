@@ -1,0 +1,21 @@
+iM Sc nh sacs
+ie Fag a Le 3 oO rl * css co} oO 9 oO tJ ee a) a
+a 7 coved a a J
+= @ Dagger fa sn)
+Create a new Dagger Cloud account by running dagger login:
+The Dagger CUI will invite you to authenticate your device by displaying a link containing a unique key. Click the link in your
+browser, and verify that you see the same key in the Dagger Cloud Web interface.
+SSanetets FLL ES Bc
+Broeser opeted tar bttpsi//authidagder sc boudyact ivate fuser code. bONP SRUM
+Confietatiog code: FONP SRUM
+Once you confirm your authentication code, your Dagger CLI will be authenticated and you will get redirected to your newly
+[loud organization,
+a
+=
+; an creating your organization, all future Dagger workflows can be inspected in Dagger Cloud.
+— Oy
+Pe s
+n
+a
+Ny af.
+a | y:

@@ -1,0 +1,24 @@
+February, 2023: ... and Llama wins, almost
+LLaMA: Open and Efficient Foundation Language Models
+Hugo Touvron; Thibaut Lavril; Gautier Izacard; Xavier Martinet
+Marie-Anne Lachaux, Timothee Lacroix, Baptiste Rozitre, Naman Goyal
+Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin
+Edouard Grave; Guillaume Lample*
+Meta Al
+
+Abstract performance, a smaller one trained longer will
+Wei ' ultimately be cheaper at inference. For instance,
+we introduce LLaMA. arcollection of founda- although Hoffmann et al. (2022) recommends
+tion language models ranging from 7B to 65B -
+parameters. We train our models on trillions training a 10B model on 200B tokens, we find
+of tokens, and show that it is possible to train that the performance of a 7B model continues to
+state-of-the-art models using publicly avail- improve even after IT tokens.
+able datasets exclusively, without resorting
+to proprietary and inaccessible datasets. Ip The focus of this work is to train a series of
+pesticular, LLaMA-13B outperforms GPT-3 language models that achieve the best possible per-
+(1758) on most benchmerks, and LLaMA- formance at various inference budgets, by training
+65B is competitive with the best models, on more tokens than what is typically used. The
+Chinchilla-70B and Pal.M-540B. We release resulting fels, called LLaMA, ranges from 7B
+all our models to the research communily’. . we
+
+to 65B parameters with compctitive performance

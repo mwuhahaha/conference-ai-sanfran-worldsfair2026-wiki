@@ -1,0 +1,6 @@
+(GB)
+126.3x
+Improvement
+GPUMemory
+LocalAcceleratorMemory
+ReleaseYear

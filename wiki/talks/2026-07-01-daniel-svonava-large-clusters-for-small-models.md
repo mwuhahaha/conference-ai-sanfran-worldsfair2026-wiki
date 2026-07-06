@@ -1,0 +1,43 @@
+---
+title: "Large clusters for small models"
+category: "talks"
+date: "2026-07-01"
+time: "1:55pm-2:15pm"
+track: "Inference"
+room: "Track 9"
+speakers: ["Daniel Svonava"]
+sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+---
+
+# Large clusters for small models
+
+## Official Schedule Context
+- Date/time: 2026-07-01 · 1:55pm-2:15pm
+- Track/room: Inference · Track 9
+- Speaker(s): Daniel Svonava
+- Session type/status: session · confirmed
+
+## Official Description
+Small task-specific models are cheaper, faster and narrowly better than the frontier. But a wide
+
+catalog of small models is tricky to serve - dedicated worker pools sit idle, top-down request
+
+routers choke up on the huge volume of small requests, your users bring 100s of LoRAs.. In this talk
+
+we show how we serve 1M tokens per second with small models, how we architect our cluster for
+
+maximum throughput AND minimum latency and how we apply autoresearch to rewrite our inference code
+
+to support 10+ new models a week.
+
+## Related YouTube Video
+No related AI Engineer channel video found yet.
+
+## Transcript Status
+No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
+
+## People
+- [[daniel-svonava]]
+
+## Notes
+- Pending transcript synthesis when an official recording or confirmed matching video is available.

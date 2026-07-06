@@ -1,0 +1,8 @@
+AIE
+Or like this:
+const [notifyTeam,assignPlan]= await Promise.all（[
+step.run("notify_team",async（）=>{
+return{notified:true };
+step.run("assign_default_plan",async()=>{
+return {planId:“starter"};
+github.com/mastra-ai/mastra

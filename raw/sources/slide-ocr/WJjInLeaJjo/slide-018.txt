@@ -1,0 +1,23 @@
+* & File Operations - Read, write, and edit files with syntax highlighting and ntelkgent modifications
+« MI Shell Integration - Execute and interact with sheti commands securely
+— « ww» Memory - Store user and agent memories across agent runs to provide personalized experiences.
+with both Mem0 and Amazon Bedrock Knowledge Bases
+« HTTP Client - Make API requests with comprehensive authentication support
+| "
+; Po htay * . Slack Client - Real-time Slack events, message processing, and Slack APl access
+) ig Ld “wees * 2, Python Execution - Run Python code smppets with state persistence, user conturmation for code
+bee execution, and safety features
+. + B Mathematical Tools - Perform advanced calculations with symbolic math capabihties
+7 + AWS Integration - Seamless access to AWS services
+7 \ By + F Image Processing - Generate and process images for Al applications
+Ag vee * %. Video Processing - Use models and agents to generate dynamic videos
+) f World 3 «© & Audio Output - Enable models to generate audio and speak
+a io * te) Environment Management - Handle environment variables safely
+7 x 5 « 7 Journaling - Create and manage structured logs and journals
+anual « ™ Task Scheduling - Schedule and manage cron jobs
+; = w Advanced Reasoning - Tools for complex thinking and reasoning capabilities
+7 ‘ays » Swarm Intelligence - Coordinate muttiple Al agents for paratlel problem solving with shared
+‘ hd memory
+7 / + (J Multiple tools in Parallel - Cali multiple other tools at the same time in parallel with Batch Tool
+rere’
+Mela lek ale

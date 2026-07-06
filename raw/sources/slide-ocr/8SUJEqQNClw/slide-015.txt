@@ -1,0 +1,8 @@
+Here’s another way to put It:
+(1) Agents store threads of messages and
+continuously interact with users
+(2) Workflows can have branching. parallelism,
+conditions. loops, can suspend/resume, etc
+a, aws
+! 7]
+ee

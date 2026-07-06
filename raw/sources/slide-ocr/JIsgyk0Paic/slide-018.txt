@@ -1,0 +1,36 @@
+YOML_COT_FORMAT = 7h)
+<reasoning>
+{reasoning}
+es a s </FRBSORING®
+Rubric engineering cn
+{answer}
+</antwer>
+e An accessible way to steer RL algorithms 4 wecatn sRentans
+Sef correctness feward fenclprompts, completions, answer, eshmargs) -> Visti float):
+e Invites creativity + experimentation responses - [completion(@}["content’] for completion in completions)
+@ © promprsletl-1}[*content’]
+extracted_responses © leatract awl answeedr) for r in cesponses!]
+e Anecdotally, seems to help printt*="e28, fPOveation:\ntgh=. f\ndniwer:\n(anuwer 101)", {\aResponse:\n(responses (el),
+return [2,@ af r 35 @ else @.8@ fore, a an ripteatracted_responses, antwerh)
+rf . na"?
+e The next prompt engineering . Get int_reward func(completions, eckwargs) -» listiftoat]:
+responses « Icompletion{@}[‘content’] for completion 19 completions!
+e Next steps: extracted_responses + [esteact_uel_answerdr) for rin cesponses]
+retuen [0.4 at Fiisdigit() else 0.8 for ¢ in extracted_responies)
+Using LLMs to design rubrics? dei count .wiftandl: <a itiget:
+2 x count - 0.0
+.  Auto-tuning rubrics with DSPy? 14 tent cunt Meceasonangeint) s+ a:
+count e+ O.125
+. Incorporating LLM judges for soft criteria? " E85 AN EASA wa
+eeone S20,
++ ex: « Af text.counti™\aanswerzya™) -- 1:
+Avoiding reward hacking? But menib si
+Count -- Tenlteat. split" \ec/answermior yet) bee. 08
+af text.countd™\nc/angeere™ bh oe 1:
+townt +s 6.125
+NY will brown Count -« (lentteat. shit \ecsanewere 1-11) - 1bet leet
+le retuen count
+any
+det salcount reward fucc (completions, setwergs) -- Liatlflowt]:
+a rl rn P e * =f A tents: my for Me A te ?
+rubric engineering is the new prompt engineering tarianaiidincnciaal

@@ -1,0 +1,27 @@
+B
+rtlogging
+etreqoests
+oetBeavtLfulsoop
+Coefigoratiea
+AIE
+20.s.vn.gt（*ATA_，ocker)
+OTRT_-.ah.（o.path.abst（_f1l_）)
+logging.scConfig（1ev）-eggig.DFo,fort-s（ncte
+log-logging-getlegger（_ae_)
+ffetpae：tr，reriet3）t
+.Fetor....
+"fetchpage throupBrigt Detawoonlocker.
+foattept inrage[retries）:
+try:
+response.reqsts.postc
+"https1//ags.brightdata.com/regest",
+ders(*aethorLationrerer（aP_r）*),
+tlseout-50,
+response.raise_fer_status()
+escept reqoests.heqoestExceptlon ss )
+1og.rng（fattpt（attmgt·1）falled for （or1)：[0）²)
+fattt（etrses-）
+（.lg（2ttt）
+raise lontlaetrrer(fFailed te fetch [or1)aftee (retries)atteapts°)
+AIEngineer
+EUROPE
