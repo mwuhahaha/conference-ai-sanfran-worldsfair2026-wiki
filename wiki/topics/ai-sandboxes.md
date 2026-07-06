@@ -1,28 +1,29 @@
 ---
-title: "AI Sandboxes"
-category: "topics"
-sourceLabels: ["Slide/video-derived supporting context"]
+title: AI Sandboxes
+category: topics
+sourceLabels:
+  - Slide/video-derived supporting context
+last_auto_summarized: '2026-07-06T19:57:33.413Z'
 ---
-
 # AI Sandboxes
 
 ## Synopsis
-AI sandboxes are controlled execution environments where agents can run code, browse, inspect files, call tools, or manipulate artifacts without putting the host system at unnecessary risk. A sandbox gives the agent enough power to do real work while limiting filesystem, network, credential, and process access.
+AI sandboxes are controlled execution environments where agents can run code, browse pages, inspect files, call tools, render interfaces, or manipulate artifacts without giving the model unrestricted access to the host system. In the World’s Fair material, the idea shows up across agent builders, browser agents, MCP apps, eval runners, cloud deployment workflows, and production assistants: the sandbox is the boundary that lets an agent act while keeping filesystem, network, credentials, browser state, and process execution under policy.
 
 ## Origin And Context
-The pattern comes from operating-system isolation, browser sandboxes, CI runners, notebooks, container platforms, and secure code-execution services. Agentic coding and computer-use systems made sandboxing a default requirement rather than a specialty feature.
+The pattern comes from operating-system isolation, browser sandboxes, CI runners, notebooks, container platforms, secure code-execution services, and cloud GPU runtimes. The connected sessions make it more agent-specific: Nearform’s agent-building slide deck frames agents as systems that create and operate artifacts; Cloudflare’s Eval++ talk treats evaluation as a repeatable compute primitive; Google’s Chrome DevTools and WebMCP talks put browser/tool surfaces in front of agents; Amazon Nova Act and MCP show structured tool execution; Modal and RunPod sessions point to remote execution environments where APIs, endpoints, and GPUs become the sandboxed substrate.
 
 ## Why It Matters
-Agents need to experiment, test, and inspect state. Sandboxes let them do that while containing failures, malicious inputs, runaway processes, and accidental destructive changes.
+Agents need to experiment, test, browse, and inspect state, but the conference evidence repeatedly shows that those actions are only useful when they are observable and bounded. Browser-agent talks emphasize that agents can misread pages or overclaim web search; production talks from OpenGov and Databricks point toward enterprise controls, auditability, and deployment discipline; logging and continual-learning sessions show that failures need to be captured as durable evidence. A sandbox turns agent action into something reviewable: commands, diffs, traces, screenshots, tool calls, resource use, and failure cases can be inspected instead of trusted on faith.
 
 ## How To Use It
-Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
+Choose isolation based on what the agent can touch. A low-risk assistant may only need a temporary workspace and subprocess limits; generated code, dependency installation, or untrusted scripts should run in containers, remote runners, or microVM-like environments; browser agents need constrained profiles, explicit download/upload rules, and page-state capture; MCP or ChatGPT app surfaces need iframe and tool-boundary controls; production agents need policy-controlled network access, scoped credentials, quotas, and human-review checkpoints. Capture logs, diffs, artifacts, browser traces, screenshots, evaluation results, and resource usage so the sandbox produces evidence as well as containment.
 
 ## Where It Is Useful
-They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
+They are useful in coding assistants, browser and computer-use agents, MCP apps, app builders, data-analysis workspaces, test runners, eval harnesses, educational tools, cloud endpoint deployment flows, and software-factory pipelines. The connected resources stretch the pattern from local IDE workflows and Chrome DevTools-style interfaces to GPU-backed endpoint deployment and enterprise agent operations.
 
 ## When To Use It
-Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
+Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, call external tools, transform documents, or run scripts generated from model output. Tighten limits when credentials, production data, customer workflows, or browser sessions are involved; loosen them only after the task model, threat model, logging requirements, and rollback path are well understood.
 
 ## Active Use Cases
 - Running generated code and tests before suggesting a patch.
@@ -34,6 +35,76 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
 
 ## Related Scheduled Sessions
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]] — Computer Use at the Edge of the Statistical Precipice; [[pierluca-d-oro|Pierluca D'Oro]] (Day 3 — Session Day 2 · 11:10am-11:30am · Computer Use; official schedule)
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] — Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale; [[robert-brennan|Robert Brennan]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Sandbox & Platform Engineering; official schedule)
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]] — Your agent needs a sandbox, not a desert; [[samuel-colvin|Samuel Colvin]] (Day 3 — Session Day 2 · 12:05pm-12:25pm · Sandbox & Platform Engineering; official schedule)
+- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]] — Unlock Agent Autonomy: The Runtime for AI-Native Systems; [[tushar-jain|Tushar Jain]] (Day 2 — Session Day 1 · 3:45pm-4:05pm · AI Architects: Show my Workflow; official schedule)
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1; [[abhishek-bhardwaj|Abhishek Bhardwaj]] (Day 3 — Session Day 2 · 1:30pm-1:50pm · Sandbox & Platform Engineering; official schedule)
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2; [[abhishek-bhardwaj|Abhishek Bhardwaj]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Sandbox & Platform Engineering; official schedule)
+- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]] — Kubernetes Is Not Your Sandbox; [[ivan-burazin|Ivan Burazin]] (Day 3 — Session Day 2 · 11:40am-12:00pm · Sandbox & Platform Engineering; official schedule)
+- [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code]] — 1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code; [[kevin-orellana|Kevin Orellana]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Sandbox & Platform Engineering; official schedule)
+- [[2026-06-30-adam-azzam-don-t-build-agents-build-environments]] — Don’t build agents, build environments; [[adam-azzam|Adam Azzam]] (Day 3 — Session Day 2 · 10:45am-11:05am · Sandbox & Platform Engineering; official schedule)
+- [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox]] — How I learned to stop worrying and love the sandbox; [[matt-brockman|Matt Brockman]] (Day 1 — Workshop Day · 11:05am-12:05pm · Workshops Day 1; official schedule)
+- [[2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud]] — Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud; [[arun-sekhar|Arun Sekhar]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Track M; official schedule)
+- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]] — Deploying browser agents at scale; [[derek-meegan|Derek Meegan]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · Expo Stage 4 SE; official schedule)
+- [[2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute]] — Scaling to Long-Horizons: Algorithms, Environments, Compute; [[ross-taylor|Ross Taylor]], [[chengxi-taylor|Chengxi Taylor]] (Day 2 — Session Day 1 · 2:25pm-2:45pm · Data Quality; official schedule)
+- [[2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents]] — The Art of Building Verifiers for Computer Use Agents; [[miguel-gonz-lez-fern-ndez|Miguel González Fernández]], [[corby-rosset|Corby Rosset]] (Day 4 — Session Day 3 · 11:40am-12:00pm · Expo Stage 1 NE; official schedule)
+- [[2026-07-01-rowan-christmas-yolo-mode-safely-microvm-sandboxes-for-any-agent]] — YOLO Mode, Safely: microVM Sandboxes for Any Agent; [[rowan-christmas|Rowan Christmas]] (Day 4 — Session Day 3 · 1:30pm-1:50pm · Expo Stage 2 NW; official schedule)
+- [[2026-06-29-rayan-garg-rethinking-environments-for-long-horizon-work]] — Rethinking Environments for Long Horizon Work; [[rayan-garg|Rayan Garg]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Data Quality; official schedule)
+- [[2026-06-29-mahesh-sathiamoorthy-data-and-environment-curation-for-post-training-llms]] — Data and Environment Curation for Post-training LLMs; [[mahesh-sathiamoorthy|Mahesh Sathiamoorthy]] (Day 2 — Session Day 1 · 3:45pm-4:05pm · Data Quality; official schedule)
+- [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service]] — From framework to runtime: running agents with Foundry Agent Service; [[tina-manghnani|Tina Manghnani]], [[keiji-kanazawa|Keiji Kanazawa]] (Day 3 — Session Day 2 · 10:45am-11:05am · Track M; official schedule)
+- [[2026-06-30-viren-baraiya-harnessing-agents-the-durable-runtime-for-dynamic-workflows]] — Harnessing Agents: The Durable Runtime for Dynamic Workflows; [[viren-baraiya|Viren Baraiya]] (Day 3 — Session Day 2 · 11:10am-11:30am · Expo Stage 1 NE; official schedule)
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4]] — Active Graph Agent Runtime (BabyAGI 4); [[yohei-nakajima|Yohei Nakajima]] (Day 4 — Session Day 3 · 11:10am-11:30am · Graphs; official schedule)
+- [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents]] — The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents; [[ang-li|Ang Li]] (Day 1 — Workshop Day · 4:30pm-5:30pm · Workshops Day 1; official schedule)
+- [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox]] — Why Agents Should Have Their Own Sandbox; [[philipp-schmid|Philipp Schmid]] (Day 3 — Session Day 2 · 1:30pm-1:50pm · Expo Stage 1; official schedule)
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs; [[du-an-lightfoot|Du'an Lightfoot]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 7; related YouTube resource; via [[youtube-wFTVEDYVJT0]])
+- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]] — Bringing agents onto the world wide web; [[paul-klein-iv|Paul Klein IV]] (Day 3 — Session Day 2 · 11:40am-12:00pm · Computer Use; official schedule)
+
+## Related People
+- [[john-craft|John Craft]]
+- [[abhishek-bhardwaj|Abhishek Bhardwaj]]
+- [[arun-sekhar|Arun Sekhar]]
+- [[tina-manghnani|Tina Manghnani]]
+- [[pierluca-d-oro|Pierluca D'Oro]]
+- [[robert-brennan|Robert Brennan]]
+- [[samuel-colvin|Samuel Colvin]]
+- [[tushar-jain|Tushar Jain]]
+- [[ivan-burazin|Ivan Burazin]]
+- [[kevin-orellana|Kevin Orellana]]
+- [[adam-azzam|Adam Azzam]]
+- [[matt-brockman|Matt Brockman]]
+- [[derek-meegan|Derek Meegan]]
+- [[ross-taylor|Ross Taylor]]
+- [[chengxi-taylor|Chengxi Taylor]]
+- [[miguel-gonz-lez-fern-ndez|Miguel González Fernández]]
+- [[corby-rosset|Corby Rosset]]
+- [[rowan-christmas|Rowan Christmas]]
+- [[rayan-garg|Rayan Garg]]
+- [[mahesh-sathiamoorthy|Mahesh Sathiamoorthy]]
+- [[keiji-kanazawa|Keiji Kanazawa]]
+- [[viren-baraiya|Viren Baraiya]]
+- [[yohei-nakajima|Yohei Nakajima]]
+- [[ang-li|Ang Li]]
+
+## Related Companies
+- [[docker|Docker]]
+- [[microsoft|Microsoft]]
+- [[browserbase|Browserbase]]
+- [[openai|OpenAI]]
+- [[amazon-agi-lab|Amazon AGI Lab]]
+- [[cua|Cua]]
+- [[typedef|typedef]]
+- [[oxylabs|Oxylabs]]
+- [[amazon-web-services|Amazon Web Services]]
+- [[mcp-apps|MCP Apps]]
+- [[navan|Navan]]
+- [[uber|Uber]]
+- [[warp|Warp]]
+- [[prime-intellect|Prime Intellect]]
+- [[meta|Meta]]
+- [[yugabyte|Yugabyte]]
+- [[programma-labs|Programma Labs]]
+- [[openhands|OpenHands]]
 
 ## Transcript And Resource Support
 ### Transcript-backed resources

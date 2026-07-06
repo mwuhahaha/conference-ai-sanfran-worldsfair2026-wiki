@@ -36,7 +36,76 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[youtube-jVjt-2g8NMY-slides]] — A Genius With Amnesia - Victor Savkin, Nx (19 extracted slide frames)
 
 ## Related Scheduled Sessions
-- [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] — The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; official schedule)
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]] — MCP Apps: Give the Model Data, Give the User a UI; [[dustin-mihalik|Dustin Mihalik]] (Day 3 — Session Day 2 · 2:50pm-3:10pm · Context Engineering; official schedule)
+- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]] — The New Primitives: Building AI-Native Software; [[kwindla-kramer|Kwindla Kramer]] (Day 2 — Session Day 1 · 10:45am-11:05am · Voice & Realtime AI; related YouTube resource; via [[youtube-sAOBXCDiDOs]])
+- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]] — How We Built the Airbyte Agent MCP Server and CLI; [[pedro-lopez|Pedro Lopez]] (Day 2 — Session Day 1 · 3:45pm-4:05pm · Expo Stage 1; related YouTube resource; via [[youtube-sAOBXCDiDOs]])
+- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]] — Emulated: The data for fully autonomous software engineers and companies; [[joseph-wang|Joseph Wang]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Posttraining & Midtraining; related YouTube resource; via [[youtube-sAOBXCDiDOs]])
+- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production]] — Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production; [[averi-kitsch|Averi Kitsch]], [[prerna-kakkar|Prerna Kakkar]] (Day 3 — Session Day 2 · 10:45am-11:05am · Context Engineering; official schedule)
+- [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer]] — Who Approved That MCP Server? Governing the Tool Layer; [[jim-clark|Jim Clark]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · Expo Stage 1 NE; official schedule)
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines]] — The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines; [[dan-adler|Dan Adler]] (Day 2 — Session Day 1 · 10:45am-11:05am · Expo Stage 2 NW; official schedule)
+- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server]] — Building the engine while flying the plane — launching the Figma MCP server; [[jesse-lumarie|Jesse Lumarie]] (Day 2 — Session Day 1 · 11:10am-11:30am · AI-Native Enterprises; official schedule)
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async]] — MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?; [[cornelia-davis|Cornelia Davis]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Context Engineering; official schedule)
+- [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild]] — Agents That Forge Their Own Tools: Self-Modifying AI in the Wild; [[sandhya-subramani|Sandhya Subramani]] (Day 4 — Session Day 3 · 12:05pm-12:25pm · Expo Stage 4 SE; official schedule)
+- [[2026-06-29-mark-lummus-burn-your-flags-how-paypal-designs-interactive-cli-tools-for-agents]] — Burn your flags: How PayPal designs interactive CLI tools for agents; [[mark-lummus|Mark Lummus]], [[navinkumar-patil|Navinkumar Patil]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Workshops Day 1; official schedule)
+- [[2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development]] — MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development; [[nikita-kothari|Nikita Kothari]] (Day 4 — Session Day 3 · 11:10am-11:30am · Agentic Engineering; official schedule)
+- [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer]] — Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer; [[ethan-jung-min-cha|Ethan (Jung Min) Cha]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · Security; official schedule)
+- [[2026-06-30-thorsten-hans-edge-native-ai-building-ultra-fast-agents-and-mcp-servers-with-spin]] — Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin; [[thorsten-hans|Thorsten Hans]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Expo Stage 2; official schedule)
+- [[2026-06-29-maria-bledsoe-using-ai-tools-to-teach-old-apps-new-tricks]] — Using AI tools to teach old apps new tricks; [[maria-bledsoe|Maria Bledsoe]] (Day 2 — Session Day 1 · 2:25pm-2:45pm · Track M; official schedule)
+- [[2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws]] — When AI Agents Pay and Sellers Monetize: Building x402 Apps for Agentic Commerce on AWS; [[anil-nadiminti|Anil Nadiminti]] (Day 4 — Session Day 3 · 11:40am-12:00pm · Agentic Commerce; official schedule)
+- [[2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge]] — Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge; [[merve-noyan|Merve Noyan]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Vision & OCR; official schedule)
+- [[2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering]] — AI tools for Forward Deployed Engineering; [[vasuman-moza|Vasuman Moza]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Forward Deployed Engineering; official schedule)
+- [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps]] — Get Started with Models in Microsoft Foundry to Build AI Apps; [[pamela-fox|Pamela Fox]] (Day 1 — Workshop Day · 9:00am-10:15am · Track M; official schedule)
+- [[2026-06-30-ashu-joshi-deploy-agents-to-users-in-m365-teams-and-apps]] — Deploy agents to users in M365, Teams, and apps; [[ashu-joshi|Ashu Joshi]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Track M; official schedule)
+- [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training]] — Video Discovery for Agentic World-Model Training; [[rafael-levi|Rafael Levi]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Expo Stage 2 NW; related YouTube resource; via [[youtube-btxGmN8RvNU]])
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs; [[du-an-lightfoot|Du'an Lightfoot]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 7; related YouTube resource; via [[youtube-wFTVEDYVJT0]])
+
+## Related People
+- [[john-craft|John Craft]]
+- [[laurie-voss|Laurie Voss]]
+- [[pamela-fox|Pamela Fox]]
+- [[sandhya-subramani|Sandhya Subramani]]
+- [[jason-liu|Jason Liu]]
+- [[john-lindquist|John Lindquist]]
+- [[liad-yosef|Liad Yosef]]
+- [[charlie-guo|Charlie Guo]]
+- [[frank-coyle|Frank Coyle]]
+- [[christopher-manning|Christopher Manning]]
+- [[kwindla-kramer|Kwindla Kramer]]
+- [[merve-noyan|Merve Noyan]]
+- [[arun-sekhar|Arun Sekhar]]
+- [[elizabeth-fuentes-leone|Elizabeth Fuentes Leone]]
+- [[harshul-jain|Harshul Jain]]
+- [[tanmay-sah|Tanmay Sah]]
+- [[jan-curn|Jan Curn]]
+- [[ido-salomon|Ido Salomon]]
+- [[dustin-mihalik|Dustin Mihalik]]
+- [[pedro-lopez|Pedro Lopez]]
+- [[joseph-wang|Joseph Wang]]
+- [[averi-kitsch|Averi Kitsch]]
+- [[prerna-kakkar|Prerna Kakkar]]
+- [[jim-clark|Jim Clark]]
+
+## Related Companies
+- [[microsoft|Microsoft]]
+- [[openai|OpenAI]]
+- [[docker|Docker]]
+- [[arize-ai|Arize AI]]
+- [[google|Google]]
+- [[amazon-web-services|Amazon Web Services]]
+- [[hugging-face|Hugging Face]]
+- [[nvidia|NVIDIA]]
+- [[mcp-apps|MCP Apps]]
+- [[paypal|PayPal]]
+- [[towards-ai|Towards AI]]
+- [[bright-data|Bright Data]]
+- [[uber|Uber]]
+- [[warp|Warp]]
+- [[weights-and-biases-by-coreweave|Weights & Biases by CoreWeave]]
+- [[egghead-io|egghead.io]]
+- [[meta|Meta]]
+- [[neo4j|Neo4j]]
 
 ## Transcript And Resource Support
 ### Transcript-backed resources

@@ -30,24 +30,55 @@ Use a software-factory approach when many similar tasks flow through the same pa
 - Multi-agent planning, coding, testing, and review workflows.
 - Internal developer platforms with AI-native task orchestration.
 
+## Related Scheduled Sessions
+- [[2026-07-01-session-the-software-factory]] — The Software Factory; speaker TBD (Day 4 — Session Day 3 · 2:50pm-3:10pm · Expo Stage 4 SE; official schedule)
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]] — The best SDLC is the one you build yourself: Why orchestration changes everything; [[shane-wolf|Shane Wolf]], [[andrei-bocan|Andrei Bocan]] (Day 1 — Workshop Day · 9:00am-11:00am · Workshops Day 1; official schedule)
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]] — Agentic SDLC at Uber: Building Blocks for Uber's Software Factory; [[uday-kiran-medisetty|Uday Kiran Medisetty]], [[adam-huda|Adam Huda]] (Day 2 — Session Day 1 · 11:40am-12:00pm · AI-Native Enterprises; official schedule)
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]] — No, That's Not a Software Factory; [[ryan-cooke|Ryan Cooke]] (Day 4 — Session Day 3 · 10:45am-11:05am · Expo Stage 3; official schedule)
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]] — Rise of the Software Factory; [[tereza-t-kov|Tereza Tížková]] (Day 2 — Session Day 1 · 11:10am-11:30am · Software Factories; official schedule)
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]] — How Forward Deployed Engineering is done at Factory; [[eno-reyes|Eno Reyes]] (Day 2 — Session Day 1 · 10:45am-11:05am · Forward Deployed Engineering; official schedule)
+- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles]] — Loop Engineering from first principles; [[kyle-mistele|Kyle Mistele]] (Day 2 — Session Day 1 · 3:45pm-4:05pm · Software Factories; official schedule)
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use]] — Building the simulation infrastructure for practical world model use; [[christopher-manning|Christopher Manning]] (Day 3 — Session Day 2 · 10:45am-11:05am · Robotics & World Models; official schedule)
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2]] — Building the simulation infrastructure for practical world model use (Part 2); [[christopher-manning|Christopher Manning]] (Day 3 — Session Day 2 · 11:10am-11:30am · Robotics & World Models; official schedule)
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]] — How to Build Quality Gates into Agentic Coding Workflows; [[nnenna-ndukwe|Nnenna Ndukwe]] (Day 1 — Workshop Day · 11:05am-12:05pm · Workshops Day 1; official schedule)
+- [[2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends]] — The Art and Science of Loopcraft with Pi (and friends); [[joel-hooks|Joel Hooks]] (Day 1 — Workshop Day · 4:30pm-5:30pm · Workshops Day 1; official schedule)
+- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]] — Warp: Building Self-Improving Agent Software Factories; [[suraj-gupta|Suraj Gupta]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Expo Stage 3 SW; official schedule)
+
+## Related People
+- [[christopher-manning|Christopher Manning]]
+- [[shane-wolf|Shane Wolf]]
+- [[andrei-bocan|Andrei Bocan]]
+- [[uday-kiran-medisetty|Uday Kiran Medisetty]]
+- [[adam-huda|Adam Huda]]
+- [[ryan-cooke|Ryan Cooke]]
+- [[tereza-t-kov|Tereza Tížková]]
+- [[eno-reyes|Eno Reyes]]
+- [[kyle-mistele|Kyle Mistele]]
+- [[nnenna-ndukwe|Nnenna Ndukwe]]
+- [[joel-hooks|Joel Hooks]]
+- [[suraj-gupta|Suraj Gupta]]
+
+## Related Companies
+- [[atlassian|Atlassian]]
+- [[uber|Uber]]
+- [[factory|Factory]]
+- [[moonlake-ai|Moonlake AI]]
+- [[workos|WorkOS]]
+- [[humanlayer|HumanLayer]]
+- [[qodo-ai|Qodo AI]]
+- [[badass-dev-egghead-io|badass.dev / egghead.io]]
+- [[warp|Warp]]
+
+## Transcript And Resource Support
+### Transcript-backed resources
+- [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw
+
 ## Livestream Source
 - [[youtube-htM02KMNZnk]] — official WF2026 Software Factories and keynote livestream.
 - [[youtube-htM02KMNZnk-slides]] — extracted slide/OCR deck for the livestream.
-
-## Related Scheduled Sessions
-- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king]]
-- [[2026-06-30-shashank-goyal-letting-the-interns-loose-how-we-accelerated-ai-adoption]]
-- [[2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine]]
-- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
-- [[2026-06-30-laurie-voss-the-death-of-the-code-review]]
-- [[2026-06-29-zach-lloyd-self-improving-software-factories-the-new-open-source-model]]
 
 ## Neighboring Subjects
 - [[coding-agents]]
 - [[agent-security]]
 - [[agent-evaluations]]
 - [[ai-sandboxes]]
-
-## Transcript And Resource Support
-### Transcript-backed resources
-- [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw

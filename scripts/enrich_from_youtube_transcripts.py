@@ -563,7 +563,122 @@ def write_quote_pages(quotes: list[dict]) -> None:
     (QUOTES / "registry.json").write_text(json.dumps(registry, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def update_topic_pages(topic_resources: dict[str, list[dict]], topic_quotes: dict[str, list[dict]]) -> None:
+def registry_title_map(category: str) -> dict[str, str]:
+    rows = read_json(WIKI / category / "registry.json", [])
+    return {str(row.get("title", "")).lower(): row.get("id") for row in rows if row.get("title") and row.get("id")}
+
+
+def people_company_map() -> dict[str, str]:
+    companies = {}
+    for page in sorted((WIKI / "people").glob("*.md")):
+        text = page.read_text(errors="ignore")
+        title_match = re.search(r'^title:\s*"?([^"\n]+)"?$', text, re.M)
+        company_match = re.search(r'^company:\s*"?([^"\n]+)"?$', text, re.M)
+        if title_match and company_match:
+            companies[title_match.group(1).strip().lower()] = company_match.group(1).strip()
+    return companies
+
+
+def person_link(name: str, people_by_title: dict[str, str]) -> str:
+    slug = people_by_title.get(name.lower()) or slugify(name)
+    return f"[[{slug}|{md_escape(name)}]]"
+
+
+def company_link(name: str, companies_by_title: dict[str, str]) -> str:
+    slug = companies_by_title.get(name.lower()) or slugify(name)
+    return f"[[{slug}|{md_escape(name)}]]"
+
+
+def collect_schedule_topic_sessions(sessions: list[dict]) -> dict[str, list[dict]]:
+    topic_sessions: dict[str, list[dict]] = defaultdict(list)
+    for session in sessions:
+        haystack = " ".join(str(session.get(key, "")) for key in ["description", "track", "type", "room"])
+        title = str(session.get("title", ""))
+        track = str(session.get("track", ""))
+        title_low = title.lower()
+        track_low = track.lower()
+        for slug, _label, score in topic_hits(title, haystack):
+            keys = next((keys for rule_slug, _rule_label, keys in TOPIC_RULES if rule_slug == slug), [])
+            title_boost = 120 if any(key.lower() in title_low for key in keys) else 0
+            track_boost = 40 if any(key.lower() in track_low for key in keys) else 0
+            topic_sessions[slug].append({"session": session, "score": score * 10 + title_boost + track_boost, "source": "official schedule"})
+    return topic_sessions
+
+
+def section_block(text: str, heading: str) -> tuple[str, str]:
+    pattern = re.compile(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", re.M | re.S)
+    match = pattern.search(text)
+    if not match:
+        return text, ""
+    return (text[: match.start()] + text[match.end() :]).rstrip() + "\n", match.group(0).strip()
+
+
+def reorder_topic_graph_sections(path: Path) -> None:
+    text = path.read_text(errors="ignore")
+    blocks = []
+    for heading in ["Related Scheduled Sessions", "Related People", "Related Companies", "Transcript And Resource Support"]:
+        text, block = section_block(text, heading)
+        if block:
+            blocks.append(block)
+    if not blocks:
+        path.write_text(text.rstrip() + "\n", encoding="utf-8")
+        return
+    insert_match = re.search(r"^## Related Slide Decks\n.*?(?=^## |\Z)", text, flags=re.M | re.S)
+    if not insert_match:
+        insert_match = re.search(r"^## Active Use Cases\n.*?(?=^## |\Z)", text, flags=re.M | re.S)
+    insert_at = insert_match.end() if insert_match else len(text)
+    replacement = text[:insert_at].rstrip() + "\n\n" + "\n\n".join(blocks) + "\n\n" + text[insert_at:].lstrip()
+    path.write_text(replacement.rstrip() + "\n", encoding="utf-8")
+
+
+def upsert_topic_relationships(path: Path, session_rows: list[dict]) -> None:
+    people_by_title = registry_title_map("people")
+    companies_by_title = registry_title_map("companies")
+    company_by_person = people_company_map()
+
+    deduped_sessions = []
+    seen_sessions = set()
+    for row in sorted(session_rows, key=lambda item: item["score"], reverse=True):
+        session = row["session"]
+        slug = session_slug(session)
+        if slug in seen_sessions:
+            continue
+        seen_sessions.add(slug)
+        deduped_sessions.append(row)
+
+    selected = deduped_sessions[:24]
+    if selected:
+        lines = []
+        for row in selected:
+            session = row["session"]
+            speakers = session.get("speakers") or []
+            speaker_text = ", ".join(person_link(name, people_by_title) for name in speakers) or "speaker TBD"
+            meta = " · ".join(part for part in [session.get("day"), session.get("time"), session.get("track") or session.get("room")] if part)
+            source = row.get("source", "topic match")
+            via = f"; via [[youtube-{row['video_id']}]]" if row.get("video_id") else ""
+            suffix = f" ({meta}; {source}{via})" if meta or source or via else ""
+            lines.append(f"- [[{session_slug(session)}]] — {md_escape(session.get('title'))}; {speaker_text}{suffix}")
+        upsert_section(path, "Related Scheduled Sessions", "\n".join(lines))
+
+    people_scores: Counter[str] = Counter()
+    company_scores: Counter[str] = Counter()
+    for index, row in enumerate(deduped_sessions):
+        weight = max(1, 1000 - index)
+        for speaker in row["session"].get("speakers") or []:
+            people_scores[speaker] += weight
+            company = company_by_person.get(speaker.lower())
+            if company:
+                company_scores[company] += weight
+
+    if people_scores:
+        lines = [f"- {person_link(name, people_by_title)}" for name, _count in people_scores.most_common(24)]
+        upsert_section(path, "Related People", "\n".join(lines))
+    if company_scores:
+        lines = [f"- {company_link(name, companies_by_title)}" for name, _count in company_scores.most_common(18)]
+        upsert_section(path, "Related Companies", "\n".join(lines))
+
+
+def update_topic_pages(topic_resources: dict[str, list[dict]], topic_quotes: dict[str, list[dict]], topic_sessions: dict[str, list[dict]]) -> None:
     TOPICS.mkdir(parents=True, exist_ok=True)
     existing_registry = read_json(TOPICS / "registry.json", [])
     known = {item.get("id"): item.get("title") for item in existing_registry}
@@ -578,6 +693,7 @@ def update_topic_pages(topic_resources: dict[str, list[dict]], topic_quotes: dic
                 encoding="utf-8",
             )
         upsert_topic_article(path, slug, label)
+        upsert_topic_relationships(path, topic_sessions.get(slug, []))
         resources = topic_resources.get(slug, [])
         quotes = topic_quotes.get(slug, [])
         support = []
@@ -591,6 +707,7 @@ def update_topic_pages(topic_resources: dict[str, list[dict]], topic_quotes: dic
                 support.append(f"- “{md_escape(row['quote'])}” — [[youtube-{row['video_id']}]]")
         if support:
             upsert_section(path, "Transcript And Resource Support", "\n".join(support))
+        reorder_topic_graph_sections(path)
         known.setdefault(slug, label)
     registry = [{"id": slug, "title": title or slug.replace("-", " ").title(), "path": f"wiki/topics/{slug}.md"} for slug, title in sorted(known.items()) if slug]
     (TOPICS / "registry.json").write_text(json.dumps(registry, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -622,6 +739,8 @@ def topic_article_sections(slug: str, label: str) -> list[tuple[str, str]]:
 
 def upsert_topic_article(path: Path, slug: str, label: str) -> None:
     text = path.read_text(errors="ignore") if path.exists() else ""
+    if all(f"## {heading}" in text for heading in ARTICLE_HEADINGS[:7]):
+        return
     for heading in ARTICLE_HEADINGS:
         text = re.sub(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", "", text, flags=re.M | re.S).rstrip() + "\n"
     article = "\n\n".join(f"## {heading}\n{body.strip()}" for heading, body in topic_article_sections(slug, label))
@@ -654,6 +773,7 @@ def main() -> int:
     quote_rows = []
     topic_resources: dict[str, list[dict]] = defaultdict(list)
     topic_quotes: dict[str, list[dict]] = defaultdict(list)
+    topic_sessions = collect_schedule_topic_sessions(sessions)
     processed = []
     missing = []
     skipped_non_article = []
@@ -676,13 +796,15 @@ def main() -> int:
         write_resource(video_id, video, text, topics, matches)
         for slug, label, score in topics:
             topic_resources[slug].append({"video_id": video_id, "title": video["youtube_title"], "score": score})
+            for match_score, session in matches:
+                topic_sessions[slug].append({"session": session, "score": score + match_score, "source": "related YouTube resource", "video_id": video_id})
         qrows = quote_candidates(video_id, video, text, topics)
         quote_rows.extend(qrows)
         for row in qrows:
             topic_quotes[row["topic"]].append(row)
         processed.append({"video_id": video_id, "title": video["youtube_title"], "topics": topics, "matches": [session_slug(s) for _score, s in matches], "quotes": len(qrows), "words": len(text.split())})
     write_quote_pages(quote_rows)
-    update_topic_pages(topic_resources, topic_quotes)
+    update_topic_pages(topic_resources, topic_quotes, topic_sessions)
     update_resource_registry()
     report = {
         "processed": processed,
