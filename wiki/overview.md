@@ -13,6 +13,7 @@ The wiki is schedule-first. Official session and speaker pages are treated as th
 - [[worldsfair-2026-livestreams]] — livestream uploads, transcript status, and slide extraction.
 - [[advanced-slide-logic-page-audit]] — RapidOCR and reconstructed-slide audit.
 - [[source-boundary]] — corpus rules and evidence confidence.
+- Source repository: [mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki](https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki).
 
 ## Corpus
 - 560 official schedule sessions generated as talk pages.
