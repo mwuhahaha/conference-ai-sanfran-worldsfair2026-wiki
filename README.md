@@ -36,3 +36,33 @@ python3 /garage/obsidian/scripts/generate_calendar.py
 ```
 
 For link/asset validation, use the command embedded in the conversion plan.
+
+## Static Site Export
+
+This repository can be deployed as a static Cloudflare Pages site.
+
+Local build:
+
+```bash
+npm run build
+```
+
+The build writes a pre-rendered static site to `dist/`.
+
+Cloudflare Pages Git integration settings:
+
+- Repository: `mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki`
+- Production branch: `main`
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Root directory: repository root
+
+Wrangler direct-upload deployment, after authenticating Wrangler:
+
+```bash
+npm run pages:deploy
+```
+
+Planned Pages project name: `aie-worldsfair2026`.
+
+Planned custom domain: confirm whether this should be `aie-worldsfair2026.plusrobot.ai` or the typed `aie-wordlsfair2026.plusrobot.ai`.

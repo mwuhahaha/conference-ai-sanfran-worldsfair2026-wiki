@@ -12,6 +12,9 @@ raw/**/*.mkv
 raw/**/*.mov
 raw/**/*.webm
 
+# Cloudflare Pages build output
+dist/
+
 # OS/editor noise
 .DS_Store
 *.swp
