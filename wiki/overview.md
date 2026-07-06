@@ -56,8 +56,6 @@ Slides are first-class material in this wiki because many World’s Fair videos 
 - [[ai-sandboxes]] — sandboxes, browsers, environments, and safe agent execution.
 - [[autoresearch]] — research agents, data quality, parameter golf, and scientific workflows.
 
-## Reader Contract
-This is a clean AIE-specific conference wiki, not a mixed local workspace. It intentionally avoids cross-project notes, private recordings, diary material, and unrelated local vault content. Pages should make source confidence clear: official schedule facts are canonical, related videos are supporting context, and slide/OCR text is best-effort until manually reviewed.
 ## Slide/OCR Coverage
 - [[slide-library]] tracks 380 extracted video slide decks.
 - 2603 slide/frame images are embedded in deck pages.
