@@ -3,11 +3,9 @@
 Project-local instructions for the clean AI Engineer World’s Fair 2026 wiki.
 
 Read first:
-1. `/garage/obsidian/WORKFLOW-PROMPT.md`
-2. `/garage/obsidian/CLAUDE.md`
-3. `/garage/obsidian/WORKFLOW_STRATEGIES/README.md`
-4. `.ops/state/current.md`
-5. `.ops/plans/worldsfair-aie-specific-conversion-plan.md`
+1. `.ops/state/current.md`
+2. `.ops/plans/worldsfair-aie-specific-conversion-plan.md`
+3. `README.md`
 
 ## Purpose
 

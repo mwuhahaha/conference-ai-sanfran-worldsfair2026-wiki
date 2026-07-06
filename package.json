@@ -2,7 +2,6 @@
   "name": "conference-ai-sanfran-worldsfair2026-wiki",
   "private": true,
   "scripts": {
-    "build": "python3 scripts/export_static_site.py",
-    "pages:deploy": "npm run build && npx wrangler pages deploy dist --project-name aie-worldsfair2026"
+    "build": "python3 scripts/export_static_site.py"
   }
 }

@@ -32,10 +32,10 @@ Read:
 From this directory:
 
 ```bash
-python3 /garage/obsidian/scripts/generate_calendar.py
+npm run build
 ```
 
-For link/asset validation, use the command embedded in the conversion plan.
+The build writes the deployable static site to `dist/`.
 
 ## Static Site Export
 
@@ -56,13 +56,3 @@ Cloudflare Pages Git integration settings:
 - Build command: `npm run build`
 - Build output directory: `dist`
 - Root directory: repository root
-
-Wrangler direct-upload deployment, after authenticating Wrangler:
-
-```bash
-npm run pages:deploy
-```
-
-Planned Pages project name: `aie-worldsfair2026`.
-
-Planned custom domain: `aie-worldsfair2026.plusrobot.ai`.

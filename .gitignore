@@ -1,5 +1,13 @@
 # Local/generated caches
 .local/
+.wrangler/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+wrangler.toml
+wrangler.json
+wrangler.jsonc
 .ops/state/cache/
 raw/tmp/
 raw/experiments/
