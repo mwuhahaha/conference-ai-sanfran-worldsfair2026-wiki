@@ -1,34 +1,31 @@
 ---
 title: "WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive"
 category: "resources"
-sourceLabels: ["Public YouTube metadata", "YouTube transcript helper", "Local slide OCR"]
+sourceLabels:
+  - "Public YouTube metadata"
+  - "YouTube transcript"
+videoId: "4sX_He5c4sI"
+last_enriched: "2026-07-06T19:22:39.343586+00:00"
 ---
-
 # WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
 
 ## What It Is
-Official AI Engineer YouTube livestream recording for World's Fair 2026 in San Francisco, covering Autoresearch and keynote programming.
+A public AI Engineer YouTube WF26 livestream used as supporting material for the AI Engineer World's Fair 2026 wiki.
 
-## Transcript Availability
-Cached transcript from the YouTube transcript helper.
+## Transcript Status
+Cached transcript text is available at `raw/sources/youtube-livestream-transcripts/4sX_He5c4sI.txt` (82,600 words).
 
-## Cached Transcript
-- Bundle: `raw/sources/youtube-livestream-transcripts/4sX_He5c4sI.bundle.json`
-- Plain text: `raw/sources/youtube-livestream-transcripts/4sX_He5c4sI.txt`
-- Receipt: `raw/sources/youtube-livestream-transcripts/4sX_He5c4sI.receipt.json`
-- Transcript characters: 444143
+## Topic Signals
+- [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[autoresearch|AutoResearch]], [[mcp|MCP]]
+- Transcript keywords: `aren`, `leaderboard`, `into`, `ripple`, `hardly`, `node`, `loss`, `benchmark`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=4sX_He5c4sI)
+
+## Related Scheduled Sessions
+- [[2026-06-29-sonar-expo-welcome-speech]] — Expo Welcome Speech (match score 80)
 
 ## Extracted Slides
 - [[youtube-4sX_He5c4sI-dense-slides]]
 - [[youtube-4sX_He5c4sI-reconstructed-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
-
-## Related Subjects
-- [[autoresearch]]
-- [[agent-evaluations]]
-- [[agentic-search]]
-- [[agent-memory]]
-- [[slide-library]]

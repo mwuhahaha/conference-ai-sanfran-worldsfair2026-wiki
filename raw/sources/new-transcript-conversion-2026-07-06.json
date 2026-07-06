@@ -1,0 +1,433 @@
+{
+  "converted": [
+    {
+      "video_id": "9fubhllmsBU",
+      "source": "raw/sources/youtube-subtitles/9fubhllmsBU.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/9fubhllmsBU.txt",
+      "words": 3542
+    },
+    {
+      "video_id": "kZsf_Sfm7RU",
+      "source": "raw/sources/youtube-subtitles/kZsf_Sfm7RU.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/kZsf_Sfm7RU.txt",
+      "words": 3369
+    },
+    {
+      "video_id": "2IxD9OB3XuQ",
+      "source": "raw/sources/youtube-subtitles/2IxD9OB3XuQ.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/2IxD9OB3XuQ.txt",
+      "words": 3230
+    },
+    {
+      "video_id": "sAOBXCDiDOs",
+      "source": "raw/sources/youtube-subtitles/sAOBXCDiDOs.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/sAOBXCDiDOs.txt",
+      "words": 4772
+    },
+    {
+      "video_id": "d_Ftrl3vfV0",
+      "source": "raw/sources/youtube-subtitles/d_Ftrl3vfV0.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/d_Ftrl3vfV0.txt",
+      "words": 984
+    },
+    {
+      "video_id": "hVJOnuhFmTA",
+      "source": "raw/sources/youtube-subtitles/hVJOnuhFmTA.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/hVJOnuhFmTA.txt",
+      "words": 3152
+    },
+    {
+      "video_id": "UNzCG3lw6O0",
+      "source": "raw/sources/youtube-subtitles/UNzCG3lw6O0.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/UNzCG3lw6O0.txt",
+      "words": 4219
+    },
+    {
+      "video_id": "fWXJM-J0ZB8",
+      "source": "raw/sources/youtube-subtitles/fWXJM-J0ZB8.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/fWXJM-J0ZB8.txt",
+      "words": 4922
+    },
+    {
+      "video_id": "spNAUEgq_A8",
+      "source": "raw/sources/youtube-subtitles/spNAUEgq_A8.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/spNAUEgq_A8.txt",
+      "words": 5175
+    },
+    {
+      "video_id": "6bmM45jkMDY",
+      "source": "raw/sources/youtube-subtitles/6bmM45jkMDY.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/6bmM45jkMDY.txt",
+      "words": 2339
+    },
+    {
+      "video_id": "pSto5YaNGUo",
+      "source": "raw/sources/youtube-subtitles/pSto5YaNGUo.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/pSto5YaNGUo.txt",
+      "words": 4340
+    },
+    {
+      "video_id": "DqtmZE6Hl0g",
+      "source": "raw/sources/youtube-subtitles/DqtmZE6Hl0g.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/DqtmZE6Hl0g.txt",
+      "words": 2088
+    },
+    {
+      "video_id": "65X0pQ6Lmbg",
+      "source": "raw/sources/youtube-subtitles/65X0pQ6Lmbg.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/65X0pQ6Lmbg.txt",
+      "words": 1935
+    },
+    {
+      "video_id": "Iwe_RY-fYgI",
+      "source": "raw/sources/youtube-subtitles/Iwe_RY-fYgI.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/Iwe_RY-fYgI.txt",
+      "words": 2314
+    },
+    {
+      "video_id": "dRmWYHuIJxM",
+      "source": "raw/sources/youtube-subtitles/dRmWYHuIJxM.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/dRmWYHuIJxM.txt",
+      "words": 1320
+    },
+    {
+      "video_id": "uiP88SpCi1Q",
+      "source": "raw/sources/youtube-subtitles/uiP88SpCi1Q.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/uiP88SpCi1Q.txt",
+      "words": 1000
+    },
+    {
+      "video_id": "akk6KRlcwW4",
+      "source": "raw/sources/youtube-subtitles/akk6KRlcwW4.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/akk6KRlcwW4.txt",
+      "words": 2391
+    },
+    {
+      "video_id": "Akm1sqvWG4A",
+      "source": "raw/sources/youtube-subtitles/Akm1sqvWG4A.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/Akm1sqvWG4A.txt",
+      "words": 6285
+    },
+    {
+      "video_id": "T0HhO4YtTfE",
+      "source": "raw/sources/youtube-subtitles/T0HhO4YtTfE.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/T0HhO4YtTfE.txt",
+      "words": 4200
+    },
+    {
+      "video_id": "XovaGv4f39A",
+      "source": "raw/sources/youtube-subtitles/XovaGv4f39A.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/XovaGv4f39A.txt",
+      "words": 863
+    },
+    {
+      "video_id": "OXMMN-XbxwA",
+      "source": "raw/sources/youtube-subtitles/OXMMN-XbxwA.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/OXMMN-XbxwA.txt",
+      "words": 2284
+    },
+    {
+      "video_id": "whue9_YquGA",
+      "source": "raw/sources/youtube-subtitles/whue9_YquGA.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/whue9_YquGA.txt",
+      "words": 2725
+    },
+    {
+      "video_id": "JRTAtZ5iBkU",
+      "source": "raw/sources/youtube-subtitles/JRTAtZ5iBkU.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/JRTAtZ5iBkU.txt",
+      "words": 1152
+    },
+    {
+      "video_id": "IddXPepIAS4",
+      "source": "raw/sources/youtube-subtitles/IddXPepIAS4.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/IddXPepIAS4.txt",
+      "words": 3287
+    },
+    {
+      "video_id": "Jx4ZFEAq6bY",
+      "source": "raw/sources/youtube-subtitles/Jx4ZFEAq6bY.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/Jx4ZFEAq6bY.txt",
+      "words": 1867
+    },
+    {
+      "video_id": "-x5GEVnkuRw",
+      "source": "raw/sources/youtube-subtitles/-x5GEVnkuRw.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/-x5GEVnkuRw.txt",
+      "words": 3937
+    },
+    {
+      "video_id": "aHhB3sjGjkI",
+      "source": "raw/sources/youtube-subtitles/aHhB3sjGjkI.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/aHhB3sjGjkI.txt",
+      "words": 4742
+    },
+    {
+      "video_id": "JnubYCYunk8",
+      "source": "raw/sources/youtube-subtitles/JnubYCYunk8.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/JnubYCYunk8.txt",
+      "words": 937
+    },
+    {
+      "video_id": "vh2VGuQ3zhY",
+      "source": "raw/sources/youtube-subtitles/vh2VGuQ3zhY.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/vh2VGuQ3zhY.txt",
+      "words": 3468
+    },
+    {
+      "video_id": "ij-AU9dpJjc",
+      "source": "raw/sources/youtube-subtitles/ij-AU9dpJjc.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/ij-AU9dpJjc.txt",
+      "words": 3716
+    },
+    {
+      "video_id": "4uFVSLgD2Q4",
+      "source": "raw/sources/youtube-subtitles/4uFVSLgD2Q4.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/4uFVSLgD2Q4.txt",
+      "words": 3047
+    },
+    {
+      "video_id": "jVjt-2g8NMY",
+      "source": "raw/sources/youtube-subtitles/jVjt-2g8NMY.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/jVjt-2g8NMY.txt",
+      "words": 3363
+    },
+    {
+      "video_id": "UPwGaM2MKHY",
+      "source": "raw/sources/youtube-subtitles/UPwGaM2MKHY.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/UPwGaM2MKHY.txt",
+      "words": 2546
+    },
+    {
+      "video_id": "3hXJI2q0Jz8",
+      "source": "raw/sources/youtube-subtitles/3hXJI2q0Jz8.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/3hXJI2q0Jz8.txt",
+      "words": 3697
+    },
+    {
+      "video_id": "vljxQZfJ9wY",
+      "source": "raw/sources/youtube-subtitles/vljxQZfJ9wY.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/vljxQZfJ9wY.txt",
+      "words": 1143
+    },
+    {
+      "video_id": "ZD9-4fW2HhM",
+      "source": "raw/sources/youtube-subtitles/ZD9-4fW2HhM.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/ZD9-4fW2HhM.txt",
+      "words": 3006
+    },
+    {
+      "video_id": "IJXjTLPzvAU",
+      "source": "raw/sources/youtube-subtitles/IJXjTLPzvAU.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/IJXjTLPzvAU.txt",
+      "words": 7031
+    },
+    {
+      "video_id": "0S8xe9ftGTM",
+      "source": "raw/sources/youtube-subtitles/0S8xe9ftGTM.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/0S8xe9ftGTM.txt",
+      "words": 3479
+    },
+    {
+      "video_id": "ObTPqBGsEbA",
+      "source": "raw/sources/youtube-subtitles/ObTPqBGsEbA.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/ObTPqBGsEbA.txt",
+      "words": 6544
+    },
+    {
+      "video_id": "btxGmN8RvNU",
+      "source": "raw/sources/youtube-subtitles/btxGmN8RvNU.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/btxGmN8RvNU.txt",
+      "words": 2716
+    },
+    {
+      "video_id": "gHs5ZiY80PM",
+      "source": "raw/sources/youtube-subtitles/gHs5ZiY80PM.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/gHs5ZiY80PM.txt",
+      "words": 3117
+    },
+    {
+      "video_id": "c-2eEv2ou7Y",
+      "source": "raw/sources/youtube-subtitles/c-2eEv2ou7Y.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/c-2eEv2ou7Y.txt",
+      "words": 3346
+    },
+    {
+      "video_id": "ghJmWQCIHRM",
+      "source": "raw/sources/youtube-subtitles/ghJmWQCIHRM.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/ghJmWQCIHRM.txt",
+      "words": 3246
+    },
+    {
+      "video_id": "TNwJ1LMiENk",
+      "source": "raw/sources/youtube-subtitles/TNwJ1LMiENk.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/TNwJ1LMiENk.txt",
+      "words": 4032
+    },
+    {
+      "video_id": "SS-A8sE7hkw",
+      "source": "raw/sources/youtube-subtitles/SS-A8sE7hkw.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/SS-A8sE7hkw.txt",
+      "words": 4033
+    },
+    {
+      "video_id": "zMiSRliEzv4",
+      "source": "raw/sources/youtube-subtitles/zMiSRliEzv4.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/zMiSRliEzv4.txt",
+      "words": 2882
+    },
+    {
+      "video_id": "zDGHt0LB-dA",
+      "source": "raw/sources/youtube-subtitles/zDGHt0LB-dA.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/zDGHt0LB-dA.txt",
+      "words": 2652
+    },
+    {
+      "video_id": "UM6sFg_jdlE",
+      "source": "raw/sources/youtube-subtitles/UM6sFg_jdlE.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/UM6sFg_jdlE.txt",
+      "words": 2187
+    },
+    {
+      "video_id": "gUMwt4-5kn0",
+      "source": "raw/sources/youtube-subtitles/gUMwt4-5kn0.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/gUMwt4-5kn0.txt",
+      "words": 7
+    },
+    {
+      "video_id": "TUnPNY4E2fw",
+      "source": "raw/sources/youtube-subtitles/TUnPNY4E2fw.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/TUnPNY4E2fw.txt",
+      "words": 2091
+    },
+    {
+      "video_id": "EcqMYoIV57A",
+      "source": "raw/sources/youtube-subtitles/EcqMYoIV57A.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/EcqMYoIV57A.txt",
+      "words": 4289
+    },
+    {
+      "video_id": "SKDJo2CopRs",
+      "source": "raw/sources/youtube-subtitles/SKDJo2CopRs.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/SKDJo2CopRs.txt",
+      "words": 4757
+    },
+    {
+      "video_id": "ILdE7FaAjVA",
+      "source": "raw/sources/youtube-subtitles/ILdE7FaAjVA.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/ILdE7FaAjVA.txt",
+      "words": 1823
+    },
+    {
+      "video_id": "_xIwFcnHqp4",
+      "source": "raw/sources/youtube-subtitles/_xIwFcnHqp4.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/_xIwFcnHqp4.txt",
+      "words": 2852
+    },
+    {
+      "video_id": "QuuIywMG4s8",
+      "source": "raw/sources/youtube-subtitles/QuuIywMG4s8.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/QuuIywMG4s8.txt",
+      "words": 4050
+    },
+    {
+      "video_id": "KLSuFPj2ld0",
+      "source": "raw/sources/youtube-subtitles/KLSuFPj2ld0.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/KLSuFPj2ld0.txt",
+      "words": 3304
+    },
+    {
+      "video_id": "_B4Pv9ttFgY",
+      "source": "raw/sources/youtube-subtitles/_B4Pv9ttFgY.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/_B4Pv9ttFgY.txt",
+      "words": 3311
+    },
+    {
+      "video_id": "pmoDeA3RBZY",
+      "source": "raw/sources/youtube-subtitles/pmoDeA3RBZY.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/pmoDeA3RBZY.txt",
+      "words": 3258
+    },
+    {
+      "video_id": "mFLlVpnGpds",
+      "source": "raw/sources/youtube-subtitles/mFLlVpnGpds.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/mFLlVpnGpds.txt",
+      "words": 4117
+    },
+    {
+      "video_id": "r305-aQTaU0",
+      "source": "raw/sources/youtube-subtitles/r305-aQTaU0.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/r305-aQTaU0.txt",
+      "words": 5238
+    },
+    {
+      "video_id": "iNkFlCiij0U",
+      "source": "raw/sources/youtube-subtitles/iNkFlCiij0U.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/iNkFlCiij0U.txt",
+      "words": 4346
+    },
+    {
+      "video_id": "wcUJWP6WpGM",
+      "source": "raw/sources/youtube-subtitles/wcUJWP6WpGM.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/wcUJWP6WpGM.txt",
+      "words": 2642
+    },
+    {
+      "video_id": "hCMrEfPG2Yg",
+      "source": "raw/sources/youtube-subtitles/hCMrEfPG2Yg.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/hCMrEfPG2Yg.txt",
+      "words": 2621
+    },
+    {
+      "video_id": "zKk7sDMGDEQ",
+      "source": "raw/sources/youtube-subtitles/zKk7sDMGDEQ.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/zKk7sDMGDEQ.txt",
+      "words": 3298
+    },
+    {
+      "video_id": "504PvfXou5Y",
+      "source": "raw/sources/youtube-subtitles/504PvfXou5Y.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/504PvfXou5Y.txt",
+      "words": 1865
+    },
+    {
+      "video_id": "HvZXAOZ3iv8",
+      "source": "raw/sources/youtube-subtitles/HvZXAOZ3iv8.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/HvZXAOZ3iv8.txt",
+      "words": 1823
+    },
+    {
+      "video_id": "YYH0DMQr30A",
+      "source": "raw/sources/youtube-subtitles/YYH0DMQr30A.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/YYH0DMQr30A.txt",
+      "words": 3665
+    },
+    {
+      "video_id": "KA5kPbdkK2E",
+      "source": "raw/sources/youtube-subtitles/KA5kPbdkK2E.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/KA5kPbdkK2E.txt",
+      "words": 3423
+    },
+    {
+      "video_id": "hqHC6Z_lXyo",
+      "source": "raw/sources/youtube-subtitles/hqHC6Z_lXyo.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/hqHC6Z_lXyo.txt",
+      "words": 3313
+    },
+    {
+      "video_id": "u-rJwPPU3QA",
+      "source": "raw/sources/youtube-subtitles/u-rJwPPU3QA.en-orig.vtt",
+      "target": "raw/sources/youtube-transcripts/u-rJwPPU3QA.txt",
+      "words": 6781
+    },
+    {
+      "video_id": "I2cbIws9j10",
+      "source": "raw/sources/youtube-subtitles/I2cbIws9j10.en-orig.vtt",
+      "target": "raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt",
+      "words": 91792
+    }
+  ],
+  "missing": [
+    "LrGCT7G_rU8"
+  ]
+}

@@ -1,0 +1,21 @@
+‘ (© ©. : Cn ee * | ao
+. ere CORY :
+
+Two problems every document chatbot hits
+
+Paying to read documents twice Search split across too many tools cee umateditigy owe
+
+Cloud vision APIs charge +500- 1,000 tokens per Good answers need meaning (vectors) and exact Se pn et a cated a
+
+Paye just to tuna PDE into text before a user asks words (keywords). Teams often run a veetor DB, a ay HALE oes : ‘
+
+anything. A 200 page manual can cost 100k+ tokens search engine, and wrapper code to combine them a Le = an . r a a ,
+
+at ingest, and tables still break. : so when results are wrong, you fix contig files, not ue
+
+query. WO ay ee
+This talk: parse locally - one Postgres database - hybrid search in plain Python
+a.. %,
+%,
+a an
+h @

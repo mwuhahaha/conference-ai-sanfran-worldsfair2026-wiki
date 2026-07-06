@@ -1,0 +1,10 @@
+trigger
+gathercontext
+evaluate
+decide
+new listing
+act
+record
+stop
+retry
+escalate

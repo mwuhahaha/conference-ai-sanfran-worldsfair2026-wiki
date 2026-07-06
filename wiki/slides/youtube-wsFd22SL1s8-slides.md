@@ -11,11 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI](https://www.youtube.com/watch?v=wsFd22SL1s8)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] — From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/wsFd22SL1s8/slide-001.jpg]]
@@ -483,9 +482,6 @@ OCR text:
 > Reduce attack surface by using seccomp Filters
 > © Can restrict the attack surface by restricting the Linux CAP abdibes alowed to a process such as CAP_NET, CAP_SYS_ADMIN ate
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-wsFd22SL1s8-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-wsFd22SL1s8-dense-slides]]

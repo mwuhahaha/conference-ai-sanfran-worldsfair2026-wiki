@@ -11,11 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize](https://www.youtube.com/watch?v=SbcQYbrvAfI)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent]] — Building self-learning loops for your agent
-- [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them]] — Voice Agents Are Mostly Invisible. Here's How to See Them.
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/SbcQYbrvAfI/slide-001.jpg]]
@@ -438,9 +437,6 @@ OCR text:
 > 
 > Aarize 2025°11-22 12:55:08
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-SbcQYbrvAfI-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-SbcQYbrvAfI-dense-slides]]

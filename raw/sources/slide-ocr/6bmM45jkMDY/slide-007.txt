@@ -1,0 +1,15 @@
+THE STORY MAP
+Contact
+Triage
+Resolve or route
+Close
+RELEASE1
+Capture intent
+Classifyurgency
+Draft agrounded answer
+ps5
+LATER
+Read sentiment
+Route to a team
+opepeusattns
+Check satisfaction

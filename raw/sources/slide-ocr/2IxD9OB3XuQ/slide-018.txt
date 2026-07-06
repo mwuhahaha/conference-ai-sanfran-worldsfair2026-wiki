@@ -1,0 +1,7 @@
+Meridian Support Agent
+Areproducible test-bed for continual learning in a tool-using support agent.
+=) Asingle source of truth A) Interacting policies
+a a ae aa AR acer a a et Caria ae eg an a A a a aera oc maaan iar
+a) Deterministic evaluators Pe ie ee et
+@ Decisions are tool calls Se a ee ee oe oe ee ee
+co ) Regression-sensitive by design ST ae a Se

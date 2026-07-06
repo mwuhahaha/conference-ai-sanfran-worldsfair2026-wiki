@@ -1,0 +1,6 @@
+es an This browser challenge is a
+Fairly simple webpage
+But generally across webpage
+The markdown has
+~20x token compression w.r.t DOM
+So a

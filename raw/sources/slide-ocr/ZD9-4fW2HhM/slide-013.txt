@@ -1,0 +1,6 @@
+‘Great place —
+/d tour this one."
+Principle 7 77
+Contract Design X a dead end for the system
+What contracts do other parts
+of the system depend on?

@@ -1,0 +1,14 @@
+AIENGINEERWORLD'SFAIR
+June30-July2,2026-SanFrancisco
+SEARCH&RETRIEVAL TRACK
+We Cut 94% of Our Al Coding Tokens
+With a Local Code Index
+Here's the architecture.
+0.4ms
+Token Reduction
+Search Latency
+Recall@10
+RajkumarSakthivel
+RS
+github.com/elara-labs/code-
+context-engine

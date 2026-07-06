@@ -1,0 +1,28 @@
+, a a en Ce | Ce © cr red ra’ my i a aR
+; Te Erie
+ee ee
+as aa
+Pela paynent_eethod. details: {
+* ad cord: (
+brand: ‘vise’,
+* 5d country: ‘US’,
+* * display.beand: ‘visa’,
+* va epszomh: 4,
+cad exp_yeor: 2027,
+fingerprint: ‘thfEL TcD4sZV6Gpe',
+funding: ‘credit’,
+generated from: mull,
+lasta: '4242*,
+netaork_tokendetotls: rutt,
+networks: (Object),
+regulated status: ‘unregulated’,
+three_d_secure_usage: null,
+wollet: null
+}
+type: ‘card
+,
+Te]. a |
+ae
+PRS q
+ae Engineering the future of Al
+en ‘

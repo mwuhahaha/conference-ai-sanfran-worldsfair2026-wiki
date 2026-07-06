@@ -1,0 +1,41 @@
+97R
+1index.ts×
+AI-DEMO
+.claude
+spt)Ts(ndex.ts)
+dse
+mep
+spt
+claude
+try
+vscode
+const paymentIntent-soit sellerStripe.paymentIntents.create（{
+node_modules
+currency:"usd",
+amount:5oe0,
+NUWO
+Tsnde.ts
+MtGrantedToken.id
+AIE
+(1paciage-lock.json
+confirm:troe,
+payment_method:"pn_card_visa",
+(1packagejson
+!pepm-lock.yaml
+autoeatic_payment_methods:(
+Fstcho
+enabled:true,
+tsconfigjon
+allow_redirects:“never",
+console.log（"Payment intent created:",paymentIntent))
+)catch（error）（
+console.error("Error creating payment intent:",error):
+throwerror:
+OUTLINE
+TIMELINE
+VmanO
+Ln5,Col15ps:2UTF-5
+AlEnginoer
+AlEngineer
+2O28
+EUROPE

@@ -11,10 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [How fast are LLM inference engines anyway? — Charles Frye, Modal](https://www.youtube.com/watch?v=DeFF3J8T5Pk)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway]] — What is an Inference Engine, Anyway?
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/DeFF3J8T5Pk/slide-001.jpg]]
@@ -122,9 +122,6 @@ OCR text:
 > Al Engineer
 > World's Fair
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-DeFF3J8T5Pk-dense-slides]]

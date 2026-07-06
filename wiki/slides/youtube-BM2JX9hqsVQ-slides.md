@@ -11,10 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [What if the network was the sandbox? — Remy Guercio, Tailscale](https://www.youtube.com/watch?v=BM2JX9hqsVQ)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in]] — An AI Future Without the Lock-In
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/BM2JX9hqsVQ/slide-001.jpg]]
@@ -166,9 +166,6 @@ OCR text:
 > aU elas
 > AI.ENGINEER
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-BM2JX9hqsVQ-dense-slides]]

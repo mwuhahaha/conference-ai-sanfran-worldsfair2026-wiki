@@ -1,0 +1,10 @@
+Four operating agents.
+
+01 log-monitor — detect & fix fast (reactive)
+
+02 PR-review — gate the fix (reactive)
+
+03 + session-analyzer — feel the health (reactive)
+
+04 QA/computer-use — go test it (proactive - roadmap)
+; One example — not a recipe.

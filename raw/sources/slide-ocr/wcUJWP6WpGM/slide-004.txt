@@ -1,0 +1,19 @@
+What Makes a Good Task?
+Problem description
+1. A good task balances clarity
+x * & 2. Too easy and too hard both fail er cee :
+a Od eo. ee
+pe " 3. Complexity: breadth or depth an -.
+Pa Reliable verifier ee
+1. Should reward actual fixes, should reject fake —
+solutions : ; ec
+2. Not too narrow, not too wide “oo oa -
+Stable infrastructure is part of eval 7 ; a aan
+1. Minimal infra noise during runs —_ i
+2. Connection might blink, images might become
+stale, pipeline might break (1970s bug)
+ha
+_ Al Engineer
+|p See) a 3
+ye
+A — »

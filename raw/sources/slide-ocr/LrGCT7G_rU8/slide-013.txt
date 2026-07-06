@@ -1,0 +1,15 @@
+Small Al Can Still Deliver Operational Value &)
+1.Use deterministic logic for observable facts © F. ae 6)
+2.Use RL where contextual action selection adds parent ane
+value secs eter "Ein, if
+3 esol ove
+3.Place safety constraints outside the learned policy ii i ae :
+4.Treat escalation and validation as core pet apis
+capabilities ore Sets
+5.Evaluate across repeated seeds, not one favorable (s) ot 2 nh
+run
+| A practical self-healing pipeline does not
+T keaw need a giant model. It needs bounded
+Ci ays authority, reproducible evidence, and the
+discipline to escalate when it is
+uncertain.

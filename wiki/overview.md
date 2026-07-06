@@ -56,3 +56,8 @@ Slides are first-class material in this wiki because many World’s Fair videos 
 
 ## Reader Contract
 This is a clean AIE-specific conference wiki, not a mixed local workspace. It intentionally avoids cross-project notes, private recordings, diary material, and unrelated local vault content. Pages should make source confidence clear: official schedule facts are canonical, related videos are supporting context, and slide/OCR text is best-effort until manually reviewed.
+## Slide/OCR Coverage
+- [[slide-library]] tracks 372 extracted video slide decks.
+- 2525 slide/frame images are embedded in deck pages.
+- 2503 extracted frames have non-empty local OCR text.
+- OCR is best-effort because most videos are full-stage captures rather than direct slide exports.

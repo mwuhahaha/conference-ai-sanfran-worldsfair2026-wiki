@@ -11,11 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)](https://www.youtube.com/watch?v=PmZDupFP3UM)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-30-justin-reock-ai-assisted-engineering-5-trends-we-re-seeing-from-500-organizations]] — AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations
-- [[2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations]] — The state of AI in software development: Insights across 400+ organizations
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/PmZDupFP3UM/slide-001.jpg]]
@@ -162,9 +161,6 @@ OCR text:
 > Code Summit
 > ai.engineer
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-PmZDupFP3UM-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-PmZDupFP3UM-dense-slides]]

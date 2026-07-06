@@ -11,10 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Cohere for VPs of AI: Vivek Muppalla](https://www.youtube.com/watch?v=u3NofYYstaY)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses]] — 200 Million Patient Interactions Later: What the Generic Voice Stack Misses
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/u3NofYYstaY/slide-001.jpg]]
@@ -140,9 +140,6 @@ OCR text:
 > 
 > a
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-u3NofYYstaY-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-u3NofYYstaY-dense-slides]]

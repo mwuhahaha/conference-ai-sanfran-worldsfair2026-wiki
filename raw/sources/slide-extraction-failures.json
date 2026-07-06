@@ -8,5 +8,35 @@
     "video_id": "liG97YXaTSA",
     "title": "OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs",
     "error": "yt-dlp failed for liG97YXaTSA: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
+  },
+  {
+    "video_id": "aHhB3sjGjkI",
+    "title": "Agents Building Agents - Alfonso Graziano, Nearform",
+    "error": "yt-dlp failed for aHhB3sjGjkI: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
+  },
+  {
+    "video_id": "ij-AU9dpJjc",
+    "title": "Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
+    "error": "yt-dlp failed for ij-AU9dpJjc: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
+  },
+  {
+    "video_id": "jVjt-2g8NMY",
+    "title": "A Genius With Amnesia - Victor Savkin, Nx",
+    "error": "yt-dlp failed for jVjt-2g8NMY: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
+  },
+  {
+    "video_id": "SS-A8sE7hkw",
+    "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+    "error": "yt-dlp failed for SS-A8sE7hkw: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
+  },
+  {
+    "video_id": "EcqMYoIV57A",
+    "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+    "error": "yt-dlp failed for EcqMYoIV57A: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
+  },
+  {
+    "video_id": "iNkFlCiij0U",
+    "title": "The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
+    "error": "yt-dlp failed for iNkFlCiij0U: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\nERROR: unable to download video data: HTTP Error 403: Forbidden\n"
   }
 ]

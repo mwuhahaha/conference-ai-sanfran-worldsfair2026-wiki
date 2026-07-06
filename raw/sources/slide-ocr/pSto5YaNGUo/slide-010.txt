@@ -1,0 +1,50 @@
+AOLStage
+SYSTE (fron
+(ndex)
+Nate
+Kind
+Version
+onbcarding
+buile
+evaluate.
+sutagent-ski1t-boilder
+mutagent-evaluator
+skill
+skill
+0.1.0-alpha.0
+diagnose
+autagent-diagnostics
+skilt
+0.1.0-alpha.8
+shared
+mutagent-teaplates
+skill
+orchestrater
+eutagent-orchestrator
+apest
+SETUP/ONBOAROING
+complete-googleprovider-workspace mutagent-systes·default
+peaini-3.1-flash-Lite-previev-pined_jodge agent-eispatch-obserabitity
+claude-code(evalate·diagose)
+STATE-
+active stage: none
+last verdict:none
+gated: none pending
+*syc.........Indexthe topology ofskilts/agents（scope source foreval/diagose)
+Indexxs
+Lifecycle
+*adit.......Data-flow/leak/context-flo/usdit
+(-evaluator]
+[-evaluator]
+diapose ....RCAcausalchains onrotedfailores-ranked reedies
+（5IRPRovE·gatedapply.domstreas of*diagose-ever ato-aplies）
+(-diagnostics]
+*status.......bere are w-active stagelast verdict·ending gates
+StateSetup
+help ........Show thisdashbeard
+onboard........Unfiedonboarding.config
+(atias *config)
+Everything*s vired andready,Mat ould you Like to shape -evalate，*aulit, er *diap
+nose?or just tell me in plain wordsvhat yore after,
+Bene
+Burak

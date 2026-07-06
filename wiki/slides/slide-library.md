@@ -8,135 +8,402 @@ sourceLabels: ["Public YouTube video frames", "Local OCR"]
 
 This page summarizes extracted slide decks from speaker-matched AI Engineer YouTube videos. OCR is best-effort and should be checked against the embedded slide images.
 
-## Reconstructed Companion Decks
-- [[reconstructed-slide-library]] tracks cropped slide-region companion decks created with local OpenCV reconstruction.
-- [[dense-slide-library]] tracks high-recall PySceneDetect fallback decks for videos where standard sampling may miss slide changes.
-
 ## Coverage
-- Slide decks: 107
-- Extracted slide/frame images: 1842
-- OCR text files: 1842
+- Slide decks: 372
+- Extracted slide/frame images: 2525
+- OCR text files: 2525
 
 ## Decks
+- [[youtube--TiET_K-E_g-dense-slides]] — 0 extracted frames
+- [[youtube--TiET_K-E_g-reconstructed-slides]] — 0 extracted frames
 - [[youtube--TiET_K-E_g-slides]] — 9 extracted frames
+- [[youtube--cKUW6n8hBU-dense-slides]] — 0 extracted frames
+- [[youtube--cKUW6n8hBU-reconstructed-slides]] — 0 extracted frames
 - [[youtube--cKUW6n8hBU-slides]] — 24 extracted frames
+- [[youtube--x5GEVnkuRw-slides]] — 24 extracted frames
+- [[youtube-0S8xe9ftGTM-slides]] — 24 extracted frames
+- [[youtube-12v5S1n1eOY-dense-slides]] — 0 extracted frames
+- [[youtube-12v5S1n1eOY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-12v5S1n1eOY-slides]] — 18 extracted frames
+- [[youtube-1t-9-s1brcg-dense-slides]] — 0 extracted frames
+- [[youtube-1t-9-s1brcg-reconstructed-slides]] — 0 extracted frames
 - [[youtube-1t-9-s1brcg-slides]] — 24 extracted frames
+- [[youtube-2IxD9OB3XuQ-slides]] — 24 extracted frames
+- [[youtube-2vlCqD6igVA-reconstructed-slides]] — 0 extracted frames
 - [[youtube-2vlCqD6igVA-slides]] — 4 extracted frames
+- [[youtube-3_gYbhABcAE-dense-slides]] — 0 extracted frames
+- [[youtube-3_gYbhABcAE-reconstructed-slides]] — 0 extracted frames
 - [[youtube-3_gYbhABcAE-slides]] — 5 extracted frames
+- [[youtube-3hXJI2q0Jz8-slides]] — 7 extracted frames
+- [[youtube-4sX_He5c4sI-dense-slides]] — 0 extracted frames
+- [[youtube-4sX_He5c4sI-reconstructed-slides]] — 0 extracted frames
 - [[youtube-4sX_He5c4sI-slides]] — 120 extracted frames
+- [[youtube-4uFVSLgD2Q4-slides]] — 11 extracted frames
+- [[youtube-504PvfXou5Y-slides]] — 4 extracted frames
+- [[youtube-5ID22ACI7IM-dense-slides]] — 0 extracted frames
+- [[youtube-5ID22ACI7IM-reconstructed-slides]] — 0 extracted frames
 - [[youtube-5ID22ACI7IM-slides]] — 24 extracted frames
+- [[youtube-5N33E9tC400-dense-slides]] — 0 extracted frames
+- [[youtube-5N33E9tC400-reconstructed-slides]] — 0 extracted frames
 - [[youtube-5N33E9tC400-slides]] — 18 extracted frames
+- [[youtube-5_QWh4LGoxg-dense-slides]] — 0 extracted frames
+- [[youtube-5_QWh4LGoxg-reconstructed-slides]] — 0 extracted frames
 - [[youtube-5_QWh4LGoxg-slides]] — 15 extracted frames
+- [[youtube-5nOLb27hQ5w-dense-slides]] — 0 extracted frames
+- [[youtube-5nOLb27hQ5w-reconstructed-slides]] — 0 extracted frames
 - [[youtube-5nOLb27hQ5w-slides]] — 19 extracted frames
+- [[youtube-65X0pQ6Lmbg-slides]] — 11 extracted frames
+- [[youtube-6YdPI9YbjbI-dense-slides]] — 0 extracted frames
+- [[youtube-6YdPI9YbjbI-reconstructed-slides]] — 0 extracted frames
 - [[youtube-6YdPI9YbjbI-slides]] — 24 extracted frames
+- [[youtube-6bmM45jkMDY-slides]] — 11 extracted frames
+- [[youtube-7Dtu2bilcFs-dense-slides]] — 0 extracted frames
+- [[youtube-7Dtu2bilcFs-reconstructed-slides]] — 0 extracted frames
 - [[youtube-7Dtu2bilcFs-slides]] — 18 extracted frames
+- [[youtube-84Vtz2IL1Ug-dense-slides]] — 0 extracted frames
+- [[youtube-84Vtz2IL1Ug-reconstructed-slides]] — 0 extracted frames
 - [[youtube-84Vtz2IL1Ug-slides]] — 24 extracted frames
+- [[youtube-8SUJEqQNClw-reconstructed-slides]] — 0 extracted frames
 - [[youtube-8SUJEqQNClw-slides]] — 21 extracted frames
+- [[youtube-9-vGxMoUM9Y-dense-slides]] — 0 extracted frames
+- [[youtube-9-vGxMoUM9Y-reconstructed-slides]] — 0 extracted frames
 - [[youtube-9-vGxMoUM9Y-slides]] — 23 extracted frames
+- [[youtube-96G7FLab8xc-dense-slides]] — 0 extracted frames
+- [[youtube-96G7FLab8xc-reconstructed-slides]] — 0 extracted frames
 - [[youtube-96G7FLab8xc-slides]] — 24 extracted frames
+- [[youtube-9fubhllmsBU-slides]] — 13 extracted frames
+- [[youtube-APh1Vx0oLmQ-dense-slides]] — 0 extracted frames
+- [[youtube-APh1Vx0oLmQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-APh1Vx0oLmQ-slides]] — 13 extracted frames
+- [[youtube-Akm1sqvWG4A-slides]] — 9 extracted frames
+- [[youtube-B9h9ovW5H9U-dense-slides]] — 0 extracted frames
+- [[youtube-B9h9ovW5H9U-reconstructed-slides]] — 0 extracted frames
 - [[youtube-B9h9ovW5H9U-slides]] — 16 extracted frames
+- [[youtube-BM2JX9hqsVQ-dense-slides]] — 0 extracted frames
+- [[youtube-BM2JX9hqsVQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-BM2JX9hqsVQ-slides]] — 12 extracted frames
+- [[youtube-BZtD0yYAgCQ-dense-slides]] — 0 extracted frames
+- [[youtube-BZtD0yYAgCQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-BZtD0yYAgCQ-slides]] — 5 extracted frames
+- [[youtube-Bc6Ojl2XS1w-dense-slides]] — 0 extracted frames
+- [[youtube-Bc6Ojl2XS1w-reconstructed-slides]] — 0 extracted frames
 - [[youtube-Bc6Ojl2XS1w-slides]] — 14 extracted frames
+- [[youtube-BiG2ssibKGc-dense-slides]] — 0 extracted frames
+- [[youtube-BiG2ssibKGc-reconstructed-slides]] — 0 extracted frames
 - [[youtube-BiG2ssibKGc-slides]] — 5 extracted frames
+- [[youtube-C_GG5g38vLU-dense-slides]] — 0 extracted frames
+- [[youtube-C_GG5g38vLU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-C_GG5g38vLU-slides]] — 10 extracted frames
+- [[youtube-D4Dswf-__RM-reconstructed-slides]] — 0 extracted frames
 - [[youtube-D4Dswf-__RM-slides]] — 20 extracted frames
+- [[youtube-DeFF3J8T5Pk-dense-slides]] — 0 extracted frames
+- [[youtube-DeFF3J8T5Pk-reconstructed-slides]] — 0 extracted frames
 - [[youtube-DeFF3J8T5Pk-slides]] — 8 extracted frames
+- [[youtube-DqtmZE6Hl0g-slides]] — 2 extracted frames
+- [[youtube-E71YtNbCFXY-dense-slides]] — 0 extracted frames
+- [[youtube-E71YtNbCFXY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-E71YtNbCFXY-slides]] — 12 extracted frames
+- [[youtube-ESbWpPT_9-o-dense-slides]] — 0 extracted frames
+- [[youtube-ESbWpPT_9-o-reconstructed-slides]] — 0 extracted frames
 - [[youtube-ESbWpPT_9-o-slides]] — 20 extracted frames
+- [[youtube-EY4O9M6AsWI-reconstructed-slides]] — 0 extracted frames
 - [[youtube-EY4O9M6AsWI-slides]] — 17 extracted frames
+- [[youtube-EyZiAp0pelw-dense-slides]] — 0 extracted frames
+- [[youtube-EyZiAp0pelw-reconstructed-slides]] — 0 extracted frames
 - [[youtube-EyZiAp0pelw-slides]] — 8 extracted frames
+- [[youtube-F_RyElT_gJk-reconstructed-slides]] — 0 extracted frames
 - [[youtube-F_RyElT_gJk-slides]] — 24 extracted frames
+- [[youtube-Fzb1a24hF-o-dense-slides]] — 0 extracted frames
+- [[youtube-Fzb1a24hF-o-reconstructed-slides]] — 0 extracted frames
 - [[youtube-Fzb1a24hF-o-slides]] — 24 extracted frames
+- [[youtube-G_bHFmEAarM-dense-slides]] — 0 extracted frames
+- [[youtube-G_bHFmEAarM-reconstructed-slides]] — 0 extracted frames
 - [[youtube-G_bHFmEAarM-slides]] — 24 extracted frames
+- [[youtube-HT4l0DeP69I-dense-slides]] — 0 extracted frames
+- [[youtube-HT4l0DeP69I-reconstructed-slides]] — 0 extracted frames
 - [[youtube-HT4l0DeP69I-slides]] — 16 extracted frames
+- [[youtube-HvZXAOZ3iv8-slides]] — 7 extracted frames
+- [[youtube-IJXjTLPzvAU-slides]] — 8 extracted frames
+- [[youtube-ILdE7FaAjVA-slides]] — 7 extracted frames
+- [[youtube-IddXPepIAS4-slides]] — 5 extracted frames
+- [[youtube-Iwe_RY-fYgI-slides]] — 13 extracted frames
+- [[youtube-JIsgyk0Paic-dense-slides]] — 0 extracted frames
+- [[youtube-JIsgyk0Paic-reconstructed-slides]] — 0 extracted frames
 - [[youtube-JIsgyk0Paic-slides]] — 22 extracted frames
+- [[youtube-JRTAtZ5iBkU-slides]] — 6 extracted frames
+- [[youtube-JhJKgRAmfIU-dense-slides]] — 0 extracted frames
+- [[youtube-JhJKgRAmfIU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-JhJKgRAmfIU-slides]] — 9 extracted frames
+- [[youtube-JnubYCYunk8-slides]] — 8 extracted frames
+- [[youtube-JsCCrBF7F1g-dense-slides]] — 0 extracted frames
+- [[youtube-JsCCrBF7F1g-reconstructed-slides]] — 0 extracted frames
 - [[youtube-JsCCrBF7F1g-slides]] — 7 extracted frames
+- [[youtube-Jty4s9-Jb78-dense-slides]] — 0 extracted frames
+- [[youtube-Jty4s9-Jb78-reconstructed-slides]] — 0 extracted frames
 - [[youtube-Jty4s9-Jb78-slides]] — 24 extracted frames
+- [[youtube-Jx4ZFEAq6bY-slides]] — 19 extracted frames
+- [[youtube-KA5kPbdkK2E-slides]] — 7 extracted frames
+- [[youtube-KLSuFPj2ld0-slides]] — 10 extracted frames
+- [[youtube-Lc8zRh9muoY-dense-slides]] — 0 extracted frames
+- [[youtube-Lc8zRh9muoY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-Lc8zRh9muoY-slides]] — 23 extracted frames
+- [[youtube-Lcqat4iP_lE-dense-slides]] — 0 extracted frames
+- [[youtube-Lcqat4iP_lE-reconstructed-slides]] — 0 extracted frames
 - [[youtube-Lcqat4iP_lE-slides]] — 24 extracted frames
+- [[youtube-LrGCT7G_rU8-slides]] — 14 extracted frames
+- [[youtube-LxQsQ3vZDqo-dense-slides]] — 0 extracted frames
+- [[youtube-LxQsQ3vZDqo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-LxQsQ3vZDqo-slides]] — 6 extracted frames
+- [[youtube-MRM7oA3JsFs-reconstructed-slides]] — 0 extracted frames
 - [[youtube-MRM7oA3JsFs-slides]] — 16 extracted frames
+- [[youtube-NuePCNMpWGc-dense-slides]] — 0 extracted frames
+- [[youtube-NuePCNMpWGc-reconstructed-slides]] — 0 extracted frames
 - [[youtube-NuePCNMpWGc-slides]] — 4 extracted frames
+- [[youtube-OV56RddyFuU-dense-slides]] — 0 extracted frames
+- [[youtube-OV56RddyFuU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-OV56RddyFuU-slides]] — 24 extracted frames
+- [[youtube-OXMMN-XbxwA-slides]] — 8 extracted frames
+- [[youtube-ObTPqBGsEbA-slides]] — 11 extracted frames
+- [[youtube-OimPoLxioYg-dense-slides]] — 0 extracted frames
+- [[youtube-OimPoLxioYg-reconstructed-slides]] — 0 extracted frames
 - [[youtube-OimPoLxioYg-slides]] — 22 extracted frames
+- [[youtube-OkEGJ5G3foU-dense-slides]] — 0 extracted frames
+- [[youtube-OkEGJ5G3foU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-OkEGJ5G3foU-slides]] — 7 extracted frames
+- [[youtube-P_RI1kCkRbo-dense-slides]] — 0 extracted frames
+- [[youtube-P_RI1kCkRbo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-P_RI1kCkRbo-slides]] — 17 extracted frames
+- [[youtube-P_uhFGH4J9Y-dense-slides]] — 0 extracted frames
+- [[youtube-P_uhFGH4J9Y-reconstructed-slides]] — 0 extracted frames
 - [[youtube-P_uhFGH4J9Y-slides]] — 6 extracted frames
+- [[youtube-PbHm2qKnu10-dense-slides]] — 0 extracted frames
+- [[youtube-PbHm2qKnu10-reconstructed-slides]] — 0 extracted frames
 - [[youtube-PbHm2qKnu10-slides]] — 6 extracted frames
+- [[youtube-PmZDupFP3UM-dense-slides]] — 0 extracted frames
+- [[youtube-PmZDupFP3UM-reconstructed-slides]] — 0 extracted frames
 - [[youtube-PmZDupFP3UM-slides]] — 9 extracted frames
+- [[youtube-QuuIywMG4s8-slides]] — 8 extracted frames
+- [[youtube-SKDJo2CopRs-slides]] — 5 extracted frames
+- [[youtube-SZStlIhyTCY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-SZStlIhyTCY-slides]] — 20 extracted frames
+- [[youtube-SbUxRluVRwk-dense-slides]] — 0 extracted frames
+- [[youtube-SbUxRluVRwk-reconstructed-slides]] — 0 extracted frames
 - [[youtube-SbUxRluVRwk-slides]] — 3 extracted frames
+- [[youtube-SbcQYbrvAfI-dense-slides]] — 0 extracted frames
+- [[youtube-SbcQYbrvAfI-reconstructed-slides]] — 0 extracted frames
 - [[youtube-SbcQYbrvAfI-slides]] — 24 extracted frames
+- [[youtube-ShuJ_CN6zr4-dense-slides]] — 0 extracted frames
+- [[youtube-ShuJ_CN6zr4-reconstructed-slides]] — 0 extracted frames
 - [[youtube-ShuJ_CN6zr4-slides]] — 7 extracted frames
+- [[youtube-T0HhO4YtTfE-slides]] — 16 extracted frames
+- [[youtube-T5IMo5ntyhA-dense-slides]] — 0 extracted frames
+- [[youtube-T5IMo5ntyhA-reconstructed-slides]] — 0 extracted frames
 - [[youtube-T5IMo5ntyhA-slides]] — 4 extracted frames
+- [[youtube-TNwJ1LMiENk-slides]] — 6 extracted frames
+- [[youtube-TUnPNY4E2fw-slides]] — 12 extracted frames
+- [[youtube-TqC1qOfiVcQ-dense-slides]] — 0 extracted frames
+- [[youtube-TqC1qOfiVcQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-TqC1qOfiVcQ-slides]] — 24 extracted frames
+- [[youtube-UM6sFg_jdlE-slides]] — 4 extracted frames
+- [[youtube-UNzCG3lw6O0-slides]] — 5 extracted frames
+- [[youtube-UPwGaM2MKHY-slides]] — 8 extracted frames
+- [[youtube-WJjInLeaJjo-dense-slides]] — 0 extracted frames
+- [[youtube-WJjInLeaJjo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-WJjInLeaJjo-slides]] — 24 extracted frames
+- [[youtube-XNtkiQJ49Ps-dense-slides]] — 0 extracted frames
+- [[youtube-XNtkiQJ49Ps-reconstructed-slides]] — 0 extracted frames
 - [[youtube-XNtkiQJ49Ps-slides]] — 10 extracted frames
+- [[youtube-Xfl50508LZM-dense-slides]] — 0 extracted frames
+- [[youtube-Xfl50508LZM-reconstructed-slides]] — 0 extracted frames
 - [[youtube-Xfl50508LZM-slides]] — 7 extracted frames
+- [[youtube-XovaGv4f39A-slides]] — 5 extracted frames
+- [[youtube-YRGjll7uu5w-dense-slides]] — 0 extracted frames
+- [[youtube-YRGjll7uu5w-reconstructed-slides]] — 0 extracted frames
 - [[youtube-YRGjll7uu5w-slides]] — 11 extracted frames
+- [[youtube-YYH0DMQr30A-slides]] — 4 extracted frames
+- [[youtube-Ywl4LsvHKzU-dense-slides]] — 0 extracted frames
+- [[youtube-Ywl4LsvHKzU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-Ywl4LsvHKzU-slides]] — 11 extracted frames
+- [[youtube-ZD9-4fW2HhM-slides]] — 23 extracted frames
+- [[youtube-ZRM_TfEZcIo-dense-slides]] — 0 extracted frames
+- [[youtube-ZRM_TfEZcIo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-ZRM_TfEZcIo-slides]] — 24 extracted frames
+- [[youtube-ZuiJjkbX0Og-dense-slides]] — 0 extracted frames
+- [[youtube-ZuiJjkbX0Og-reconstructed-slides]] — 0 extracted frames
 - [[youtube-ZuiJjkbX0Og-slides]] — 11 extracted frames
+- [[youtube-_B4Pv9ttFgY-slides]] — 10 extracted frames
+- [[youtube-_xIwFcnHqp4-slides]] — 12 extracted frames
+- [[youtube-akk6KRlcwW4-slides]] — 8 extracted frames
+- [[youtube-aqW68Is_Kj4-dense-slides]] — 0 extracted frames
+- [[youtube-aqW68Is_Kj4-reconstructed-slides]] — 0 extracted frames
 - [[youtube-aqW68Is_Kj4-slides]] — 11 extracted frames
+- [[youtube-bSG9wUYaHWU-dense-slides]] — 0 extracted frames
+- [[youtube-bSG9wUYaHWU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-bSG9wUYaHWU-slides]] — 22 extracted frames
+- [[youtube-bVNNvWq6dKo-dense-slides]] — 0 extracted frames
+- [[youtube-bVNNvWq6dKo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-bVNNvWq6dKo-slides]] — 21 extracted frames
+- [[youtube-bk0TmxoZlUY-dense-slides]] — 0 extracted frames
+- [[youtube-bk0TmxoZlUY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-bk0TmxoZlUY-slides]] — 24 extracted frames
+- [[youtube-blW-lSd5CYQ-dense-slides]] — 0 extracted frames
+- [[youtube-blW-lSd5CYQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-blW-lSd5CYQ-slides]] — 14 extracted frames
+- [[youtube-bmWZk9vTze0-dense-slides]] — 0 extracted frames
+- [[youtube-bmWZk9vTze0-reconstructed-slides]] — 0 extracted frames
 - [[youtube-bmWZk9vTze0-slides]] — 18 extracted frames
+- [[youtube-btxGmN8RvNU-slides]] — 9 extracted frames
+- [[youtube-c-2eEv2ou7Y-slides]] — 11 extracted frames
+- [[youtube-cVzf49yg0D8-dense-slides]] — 0 extracted frames
+- [[youtube-cVzf49yg0D8-reconstructed-slides]] — 0 extracted frames
 - [[youtube-cVzf49yg0D8-slides]] — 24 extracted frames
+- [[youtube-dRmWYHuIJxM-slides]] — 11 extracted frames
+- [[youtube-d_Ftrl3vfV0-slides]] — 10 extracted frames
+- [[youtube-dvft0Gp9sEE-dense-slides]] — 0 extracted frames
+- [[youtube-dvft0Gp9sEE-reconstructed-slides]] — 0 extracted frames
 - [[youtube-dvft0Gp9sEE-slides]] — 9 extracted frames
+- [[youtube-e9sLVMN76qU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-e9sLVMN76qU-slides]] — 13 extracted frames
+- [[youtube-eOxOzcw70f0-dense-slides]] — 0 extracted frames
+- [[youtube-eOxOzcw70f0-reconstructed-slides]] — 0 extracted frames
 - [[youtube-eOxOzcw70f0-slides]] — 24 extracted frames
+- [[youtube-eW_vxrjvERk-dense-slides]] — 0 extracted frames
+- [[youtube-eW_vxrjvERk-reconstructed-slides]] — 0 extracted frames
 - [[youtube-eW_vxrjvERk-slides]] — 23 extracted frames
+- [[youtube-fL1iJHtl51Q-dense-slides]] — 0 extracted frames
+- [[youtube-fL1iJHtl51Q-reconstructed-slides]] — 0 extracted frames
 - [[youtube-fL1iJHtl51Q-slides]] — 12 extracted frames
+- [[youtube-fWXJM-J0ZB8-slides]] — 24 extracted frames
+- [[youtube-gHs5ZiY80PM-slides]] — 3 extracted frames
+- [[youtube-gUMwt4-5kn0-slides]] — 2 extracted frames
+- [[youtube-ghJmWQCIHRM-slides]] — 7 extracted frames
+- [[youtube-gmTHs5T_YAE-dense-slides]] — 0 extracted frames
+- [[youtube-gmTHs5T_YAE-reconstructed-slides]] — 0 extracted frames
 - [[youtube-gmTHs5T_YAE-slides]] — 6 extracted frames
+- [[youtube-hCMrEfPG2Yg-slides]] — 7 extracted frames
+- [[youtube-hVJOnuhFmTA-slides]] — 22 extracted frames
+- [[youtube-himhGiWJXjo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-himhGiWJXjo-slides]] — 13 extracted frames
+- [[youtube-hqHC6Z_lXyo-slides]] — 12 extracted frames
+- [[youtube-htM02KMNZnk-dense-slides]] — 0 extracted frames
+- [[youtube-htM02KMNZnk-reconstructed-slides]] — 0 extracted frames
 - [[youtube-htM02KMNZnk-slides]] — 120 extracted frames
+- [[youtube-iUWwcG-C8OU-dense-slides]] — 0 extracted frames
+- [[youtube-iUWwcG-C8OU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-iUWwcG-C8OU-slides]] — 4 extracted frames
+- [[youtube-iXhba366fQc-dense-slides]] — 0 extracted frames
+- [[youtube-iXhba366fQc-reconstructed-slides]] — 0 extracted frames
 - [[youtube-iXhba366fQc-slides]] — 9 extracted frames
+- [[youtube-ib-wTAvCZqg-dense-slides]] — 0 extracted frames
+- [[youtube-ib-wTAvCZqg-reconstructed-slides]] — 0 extracted frames
 - [[youtube-ib-wTAvCZqg-slides]] — 7 extracted frames
+- [[youtube-jVGCulhBRZI-dense-slides]] — 0 extracted frames
+- [[youtube-jVGCulhBRZI-reconstructed-slides]] — 0 extracted frames
 - [[youtube-jVGCulhBRZI-slides]] — 8 extracted frames
+- [[youtube-jryZvCuA0Uc-dense-slides]] — 0 extracted frames
+- [[youtube-jryZvCuA0Uc-reconstructed-slides]] — 0 extracted frames
 - [[youtube-jryZvCuA0Uc-slides]] — 3 extracted frames
+- [[youtube-k8cnVCMYmNc-dense-slides]] — 0 extracted frames
+- [[youtube-k8cnVCMYmNc-reconstructed-slides]] — 0 extracted frames
 - [[youtube-k8cnVCMYmNc-slides]] — 24 extracted frames
+- [[youtube-kR64LOqBBCU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-kR64LOqBBCU-slides]] — 18 extracted frames
+- [[youtube-kZsf_Sfm7RU-slides]] — 19 extracted frames
+- [[youtube-knDDGYHnnSI-dense-slides]] — 0 extracted frames
+- [[youtube-knDDGYHnnSI-reconstructed-slides]] — 0 extracted frames
 - [[youtube-knDDGYHnnSI-slides]] — 24 extracted frames
+- [[youtube-lY1iFbDPRlw-dense-slides]] — 0 extracted frames
+- [[youtube-lY1iFbDPRlw-reconstructed-slides]] — 0 extracted frames
 - [[youtube-lY1iFbDPRlw-slides]] — 8 extracted frames
+- [[youtube-mFLlVpnGpds-slides]] — 6 extracted frames
+- [[youtube-mQ7_Zje7WKE-dense-slides]] — 0 extracted frames
+- [[youtube-mQ7_Zje7WKE-reconstructed-slides]] — 0 extracted frames
 - [[youtube-mQ7_Zje7WKE-slides]] — 10 extracted frames
+- [[youtube-o-zkvb0iFDQ-dense-slides]] — 0 extracted frames
+- [[youtube-o-zkvb0iFDQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-o-zkvb0iFDQ-slides]] — 24 extracted frames
+- [[youtube-pSto5YaNGUo-slides]] — 24 extracted frames
+- [[youtube-pmoDeA3RBZY-slides]] — 10 extracted frames
+- [[youtube-qaJXBMwUkoE-dense-slides]] — 0 extracted frames
+- [[youtube-qaJXBMwUkoE-reconstructed-slides]] — 0 extracted frames
 - [[youtube-qaJXBMwUkoE-slides]] — 18 extracted frames
+- [[youtube-qdh_x-uRs9g-reconstructed-slides]] — 0 extracted frames
 - [[youtube-qdh_x-uRs9g-slides]] — 12 extracted frames
+- [[youtube-r305-aQTaU0-slides]] — 9 extracted frames
+- [[youtube-rcsliSIy_YU-dense-slides]] — 0 extracted frames
+- [[youtube-rcsliSIy_YU-reconstructed-slides]] — 0 extracted frames
 - [[youtube-rcsliSIy_YU-slides]] — 24 extracted frames
+- [[youtube-rgjF5o2Qjsc-reconstructed-slides]] — 0 extracted frames
 - [[youtube-rgjF5o2Qjsc-slides]] — 15 extracted frames
+- [[youtube-rmvDxxNubIg-dense-slides]] — 0 extracted frames
+- [[youtube-rmvDxxNubIg-reconstructed-slides]] — 0 extracted frames
 - [[youtube-rmvDxxNubIg-slides]] — 13 extracted frames
+- [[youtube-sAOBXCDiDOs-slides]] — 18 extracted frames
+- [[youtube-sRpqPgKeXNk-dense-slides]] — 0 extracted frames
+- [[youtube-sRpqPgKeXNk-reconstructed-slides]] — 0 extracted frames
 - [[youtube-sRpqPgKeXNk-slides]] — 11 extracted frames
+- [[youtube-sl3icG-IjHo-dense-slides]] — 0 extracted frames
+- [[youtube-sl3icG-IjHo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-sl3icG-IjHo-slides]] — 2 extracted frames
+- [[youtube-so9l_MwS2yg-reconstructed-slides]] — 0 extracted frames
 - [[youtube-so9l_MwS2yg-slides]] — 8 extracted frames
+- [[youtube-spNAUEgq_A8-slides]] — 24 extracted frames
+- [[youtube-tzRvcTEapzo-dense-slides]] — 0 extracted frames
+- [[youtube-tzRvcTEapzo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-tzRvcTEapzo-slides]] — 10 extracted frames
+- [[youtube-u-rJwPPU3QA-slides]] — 6 extracted frames
+- [[youtube-u3NofYYstaY-dense-slides]] — 0 extracted frames
+- [[youtube-u3NofYYstaY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-u3NofYYstaY-slides]] — 9 extracted frames
+- [[youtube-uiP88SpCi1Q-slides]] — 5 extracted frames
+- [[youtube-vh2VGuQ3zhY-slides]] — 13 extracted frames
+- [[youtube-vljxQZfJ9wY-slides]] — 12 extracted frames
+- [[youtube-wFTVEDYVJT0-dense-slides]] — 0 extracted frames
+- [[youtube-wFTVEDYVJT0-reconstructed-slides]] — 0 extracted frames
 - [[youtube-wFTVEDYVJT0-slides]] — 24 extracted frames
+- [[youtube-wNH3q9pqn0U-dense-slides]] — 0 extracted frames
+- [[youtube-wNH3q9pqn0U-reconstructed-slides]] — 0 extracted frames
 - [[youtube-wNH3q9pqn0U-slides]] — 17 extracted frames
+- [[youtube-wcUJWP6WpGM-slides]] — 5 extracted frames
+- [[youtube-whue9_YquGA-slides]] — 11 extracted frames
+- [[youtube-wsFd22SL1s8-dense-slides]] — 0 extracted frames
+- [[youtube-wsFd22SL1s8-reconstructed-slides]] — 0 extracted frames
 - [[youtube-wsFd22SL1s8-slides]] — 24 extracted frames
+- [[youtube-xnXqpUW_Kp8-dense-slides]] — 0 extracted frames
+- [[youtube-xnXqpUW_Kp8-reconstructed-slides]] — 0 extracted frames
 - [[youtube-xnXqpUW_Kp8-slides]] — 12 extracted frames
+- [[youtube-xz0-brt56L8-dense-slides]] — 0 extracted frames
+- [[youtube-xz0-brt56L8-reconstructed-slides]] — 0 extracted frames
 - [[youtube-xz0-brt56L8-slides]] — 24 extracted frames
+- [[youtube-yJHw33cVeHo-dense-slides]] — 0 extracted frames
+- [[youtube-yJHw33cVeHo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-yJHw33cVeHo-slides]] — 24 extracted frames
+- [[youtube-zDGHt0LB-dA-slides]] — 10 extracted frames
+- [[youtube-zKk7sDMGDEQ-slides]] — 2 extracted frames
+- [[youtube-zMiSRliEzv4-slides]] — 2 extracted frames
+- [[youtube-zTZ0qunQXnM-reconstructed-slides]] — 0 extracted frames
 - [[youtube-zTZ0qunQXnM-slides]] — 10 extracted frames
+- [[youtube-zepu8Kk6FBQ-dense-slides]] — 0 extracted frames
+- [[youtube-zepu8Kk6FBQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-zepu8Kk6FBQ-slides]] — 24 extracted frames
 
 ## OCR-Derived Subject Signals
-- [[coding-agents]] — OCR keyword signal in 274 slide frames
-- [[agentic-search]] — OCR keyword signal in 191 slide frames
-- [[agent-evaluations]] — OCR keyword signal in 154 slide frames
-- [[agent-memory]] — OCR keyword signal in 143 slide frames
-- [[mcp]] — OCR keyword signal in 87 slide frames
-- [[voice-agents]] — OCR keyword signal in 45 slide frames
-- [[inference-engineering]] — OCR keyword signal in 44 slide frames
-- [[ai-sandboxes]] — OCR keyword signal in 42 slide frames
-- [[agent-security]] — OCR keyword signal in 42 slide frames
+- [[coding-agents]] — OCR keyword signal in 358 slide frames
+- [[agentic-search]] — OCR keyword signal in 259 slide frames
+- [[agent-evaluations]] — OCR keyword signal in 246 slide frames
+- [[agent-memory]] — OCR keyword signal in 201 slide frames
+- [[mcp]] — OCR keyword signal in 120 slide frames
+- [[inference-engineering]] — OCR keyword signal in 75 slide frames
+- [[ai-sandboxes]] — OCR keyword signal in 61 slide frames
+- [[agent-security]] — OCR keyword signal in 60 slide frames
+- [[voice-agents]] — OCR keyword signal in 59 slide frames
 
 ## Unresolved Video Failures
 - `gcseUQJ6Gbg` — Using OSS models to build AI apps with millions of users — Hassan El Mghari
 - `liG97YXaTSA` — OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs
+- `aHhB3sjGjkI` — Agents Building Agents - Alfonso Graziano, Nearform
+- `ij-AU9dpJjc` — Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co
+- `jVjt-2g8NMY` — A Genius With Amnesia - Victor Savkin, Nx
+- `SS-A8sE7hkw` — Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind
+- `EcqMYoIV57A` — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
+- `iNkFlCiij0U` — The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI

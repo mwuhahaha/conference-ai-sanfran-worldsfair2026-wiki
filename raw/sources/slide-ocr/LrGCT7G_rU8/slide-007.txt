@@ -1,0 +1,9 @@
+: Safe Autonomy
+The Learned Policy Does Not Have Final Authority
+1.Q-learning policy proposes an action
+2.Safety layer evaluates critical anomalies .
+3.Unsafe passive actions are overridden
+4.High-risk and unknown conditions escalate
+5.Every decision produces an audit record Ez
+a \
+4 = Escalation is a correct action, not a failure of autonomy.

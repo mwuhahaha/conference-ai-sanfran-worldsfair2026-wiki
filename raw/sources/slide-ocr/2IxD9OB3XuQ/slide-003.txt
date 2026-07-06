@@ -1,0 +1,13 @@
+Continual Learning for an Al Agent
+ra
+| AGENT |
+MODEL HARNESS MEMORY
+
+cae LLM(s): weights prompts - skills - in-session state }
+; model selection tools - code - persistant ;
+} workflow knowledge
+continuously improve
+the agent from its experiences ides
+without forgetting. ane
+y
+= : PVC a ye wal elke) J

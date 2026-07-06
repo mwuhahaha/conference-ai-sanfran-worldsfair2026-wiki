@@ -1,0 +1,22 @@
+| Robustness and Ablation
+What produced reliability?
+
+1.RL success matched the , ,
+deterministic policy: 0.00 + 0.19 30 synthetic seeds; mean + 95% Cl
+percentage-point difference -
+
+2.Deterministic rules beat random -15.03 + 0.66 pp
+selection by 15.63 + 1.86 points Safety override jel
+
+3.The safety override reduced vs hone +0.00 + 0.19 pp
+non-escalation by 15.03 + 0.66 RL vs rules ®
+
+4 Dawa ‘ded oni tab +15.63 + 1.86 pp
+.RL provided an inspectable
+learned policy, but did not Rules vs random Fe
+outperform rules in this -15 -10 -S5 0 5 10. 15
+benchmark Difference (percentage points)
+
+5.Structured decision logic and
+external guardrails produced at
+most of the reliability ti

@@ -1,0 +1,12 @@
+: PS ~ ED ~ EE - A -  - E
+. Ca Late or unavailable source data
+Th . Schema drift
+e -
+GN Datetime parsing incompatibilities
+Problem *
+®) Null-rate spikes
+Cloud ETL jobs break because of:
+tes ,
+4d, Type changes
+: =,» . = Unknown runtime errors
+7 a Modeled manual MTTR ~ 2.5 working days

@@ -1,0 +1,4 @@
+The hardest problem wasn't retrieval. It was knowing when
+retrieval was -
+Confidence scoring blend
+@ Simple heuristic won

@@ -2094,9 +2094,6 @@ OCR text:
 > specification
 > implementation
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-htM02KMNZnk-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-htM02KMNZnk-dense-slides]]

@@ -1,0 +1,11 @@
+agent memory
+‘Great place — listing id: A12345 the contract
+9_.
+/d tour this one.” score: 4
+commute_min: 12
+/- decision: shortlist
+reason: great layout
+X a dead end for the system needs_human: no
+) ask Relocation Scout: notes: charming, near the park...
+"vated 4+, commute < 1S min"
+¥ it can actually answer

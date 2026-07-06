@@ -11,11 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify](https://www.youtube.com/watch?v=blW-lSd5CYQ)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-07-01-jan-curn-x402-isn-t-good-yet]] — x402 isn’t good (yet)
-- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/blW-lSd5CYQ/slide-001.jpg]]
@@ -240,9 +239,6 @@ OCR text:
 > Al Engineer
 > World's Fair
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-blW-lSd5CYQ-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-blW-lSd5CYQ-dense-slides]]

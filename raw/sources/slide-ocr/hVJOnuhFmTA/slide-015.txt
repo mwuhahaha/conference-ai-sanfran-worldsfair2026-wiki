@@ -1,0 +1,30 @@
+Conversation is more than turn-taking
+Whatreal-time conversational Al has to understand
+1.PARTICIPANTS
+2.FLOW
+mm-hm
+Turn-taking
+Backchannels
+Whoishere
+Who isspeaking
+Interruptions&repair
+Timing
+Whoislistening
+Who isbeing
+addressed
+Natural conversation=
+timing+context+
+Overlap
+repair+social understanding
+3.MEANING
+4.ACTION
+Attention
+Thread tracking
+Decisions/
+Whento speak
+Grounding
+Shared context
+Beliefs/
+commitments
+vswait
+intentions

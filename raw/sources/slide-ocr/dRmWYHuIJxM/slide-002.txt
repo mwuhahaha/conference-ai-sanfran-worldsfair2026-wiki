@@ -1,0 +1,4 @@
+Every Al coding tool we tried had the same assumption:
+send as much context as possible.
+sw \2)2)
+| i“

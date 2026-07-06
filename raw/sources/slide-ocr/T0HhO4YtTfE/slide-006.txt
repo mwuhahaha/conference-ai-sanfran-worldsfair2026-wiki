@@ -1,0 +1,16 @@
+Background
+Background
+Health insurers and health funds around the world employ medical reviewers to assess
+; whether a requested treatment, procedure, or medication is covered under a patient's
+
+Pf policy. This requires cross-referencing clinical documentation, coverage policies, clinical
+
+guidelines, and patient claims history. It is one of the most administratively intensive
+« P| ; roles in healthcare operations.
+ee
+
+What we are building
+We are building an internal claims review system for a fictitious health insurance
+company called MDB Health. This system is used by medical reviewers to assess and
+adjudicate claims. The external-facing system through which healthcare providers
+submit claims and receive feedback on outcomes is out of scope.

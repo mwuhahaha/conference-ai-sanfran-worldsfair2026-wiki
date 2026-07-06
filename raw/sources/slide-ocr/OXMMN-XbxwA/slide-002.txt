@@ -1,0 +1,6 @@
+ESTIMATEDTOTALCOST:
+HigharcAI
+Bullding data model...
+Showme supplies and cost.
+Whatwould thiscost to build
+in the Northeast Division?

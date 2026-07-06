@@ -1,0 +1,9 @@
+Deterministic Anomaly Rules
+Schema drift, null spikes, field
+removals, type changes
+Q-Learning Decision Policy
+Retry, coerce schema, rollback,
+quarantine, escalate, log
+Safety Override e Th :
+Critical anomaly + passive action
+ver intelligence

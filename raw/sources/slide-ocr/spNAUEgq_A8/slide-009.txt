@@ -1,0 +1,4 @@
+Agents are hard
+¢ Agentic loop orchestration
+¢ Provider abstraction
+* Durable execution

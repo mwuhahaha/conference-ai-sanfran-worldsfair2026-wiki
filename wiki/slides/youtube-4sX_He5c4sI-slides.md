@@ -1956,9 +1956,6 @@ OCR text:
 > THIRTY-SIXAGENTS,ONEJOBEACH
 > Athena
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-4sX_He5c4sI-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-4sX_He5c4sI-dense-slides]]

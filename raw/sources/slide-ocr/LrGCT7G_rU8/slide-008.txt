@@ -1,0 +1,22 @@
+| Example Failure
+* wjob_names =, synthetic etLjob «,
+“triggered_at": “2026-05-21702:05:202", = {A} Real Glue job failure
+"error_classification": {
+“error_type": “DATETIME FORMAL ERROR”. + {B] Classified by Error Classifier
+"confidence": 6.98,
+. “root_cause": “Spark 3 datetime format incompatibility”,
+“recommended_action”: “APPLY_SCHEMA_COERCION” - [C] Rule engine says: coerce
+Sefema/date format
+“selected_action": “APPLY_SCHEMA_COERCION”, - [D] Agent selects schema coercion
+"“anomaly_override’: false, ~ {E] Safety override did not fire .
+remediation": {
+“success”: false,
+) note": “Manual Glue script update required” - {F] Logged for review
+}
+Observed condition Decision
+1.Glue-style job failure event 1.Policy selects schema coercion
+received 2.Safety override does not fire
+. 2.Datetime-format incompatibility 3.Automatic coercion is unavailable
+detected 4.Incident is logged for manual review
+3.Error classified with 0.90 ;
+confidence

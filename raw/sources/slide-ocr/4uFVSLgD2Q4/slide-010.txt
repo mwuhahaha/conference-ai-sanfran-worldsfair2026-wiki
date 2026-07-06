@@ -1,0 +1,10 @@
+OpenGov
+Observability
+You can'tscale
+examplecliertwun
+whatyou can't
+646666466d
+see.
+Source:https://effect.website/docs/observability/tracing/
+Every agent run is traced end to end. giving us the visibility to
+debug,measure,and tune behavioratproduction scale.

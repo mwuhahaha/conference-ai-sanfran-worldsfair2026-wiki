@@ -1,0 +1,6 @@
+Matha oes] ?
+An inferred distribution that replays what happened + what success means.
+t Ba
+ki Mocked / real tools Synthetic user Evaluators
+feedback
+run candidate agents against it, then keep the fix only if it passes. f

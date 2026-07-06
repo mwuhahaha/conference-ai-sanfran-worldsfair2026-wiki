@@ -1,0 +1,10 @@
+What is an agent?
+
+An agent is an LLM with agency: it reasons, invokes |
+TOOLS to interact with the world, RETRIEVES from
+memory, and loops until the TASK is complete.
+
+- | React Agent
+Tools/
+QR LLM ———~ Execute —— pRetrieval/ |
+~~” websearch

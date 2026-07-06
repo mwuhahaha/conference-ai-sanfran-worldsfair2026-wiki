@@ -1,0 +1,27 @@
+Ovevie
+F-001Th
+De
+s40-87%ofend-to-end latencyin28/30traces.
+Problem
+The agent composes outoour
+p.so.the agent effectlvely
+decodesthe comersationcontext twicep
+[mooel ca],whohare ony2-seach
+ng steps
+Evldence
+traoe673a73b131
+Why-chain
+Traces arg sow[p5054s,41%oyer 60s]
+-taal
+salta
+Mostof tht timeiginside one tool.genrateDrftReply
+.f151
+That tool ia a nested LLM call serieRzed attor the pare
+I'T-895
+Fa-K2 pr-211 S0o
+FF-S51
+Selected:
+Bene
+SNOILJN
+Burak
+Reset all

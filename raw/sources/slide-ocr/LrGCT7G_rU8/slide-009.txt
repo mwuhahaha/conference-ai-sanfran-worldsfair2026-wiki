@@ -1,0 +1,15 @@
+| Reproducible Evaluation
+Designed for Independent Reproduction
+ambenzon27/rl-etl-
+1.Generalized AWS Lambda-style remediation-agent a
+architecture Sn eae
+2.Synthetic schemas, records, logs, and Seg, 6
+incidents ——EEEEEE
+3.No production data or infrastructure reeercrnenceecacngert gated ET ran ser
+identifiers Se reese erces erm
+4.Four controlled experiments: E1-E4 Snares
+5.Robustness check across 30 runs, seeds
+42-71
+6.Results reported with 95% confidence C> Public benchmark and tests are
+‘intervals ‘ ; available in the GitHub
+repository. &

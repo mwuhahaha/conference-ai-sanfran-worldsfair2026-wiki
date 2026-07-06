@@ -1,0 +1,13 @@
+2)
+
+8  TASK-SPECIFIC MODELS CHEAT SHEET
+
+S - Isacamera pointing at something?
+
+a Use vision models like MobileNet, YOLO, MediaPipe
+
+g
+
+a
+
+: ~

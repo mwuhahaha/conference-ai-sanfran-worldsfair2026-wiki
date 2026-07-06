@@ -1,0 +1,11 @@
+OpenGov7
+a. | Meet OG Assist
+2. | The Origin Story
+| Betting on Effect
+| The Core Agent Loop
+| A2A, Evals & Sandboxing
+eae
+6. | Long Context Handling
+d )
+7. Monitoring & Observability
+2. | Tools, Skills & Dev Workflows al

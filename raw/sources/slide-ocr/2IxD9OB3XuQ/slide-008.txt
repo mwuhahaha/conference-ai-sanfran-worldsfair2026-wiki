@@ -1,0 +1,13 @@
+Updating the model weights
+SFT
+imitate correct trajectories; needs labeled examples of the right behavior
+Supervised fine-tuning
+RL post-training
+sample, score against a reward or preference signal, reinforce what wins
+DPO-GRPO: RLVR
+LoRA
+limits the setof parameters that can change; cheaper, safer updates
+Low-Rank Adaptation
+'
+They need:
+Hard to apply to a raw production log (unless we lift it into a replayable enve

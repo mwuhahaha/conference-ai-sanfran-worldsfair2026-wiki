@@ -1,0 +1,5 @@
+7
+Define system guardrails
+Guardrails define the boundaries of acceptable inputs and outputs.
+«x! a
+~ _

@@ -1,0 +1,10 @@
+agGie) 4
+
+» OpenAl is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-
+Me
+
+» Code references and early user tests show that the model can speak, hear, and listen
+simultaneously, handling mid-sentence interruptions naturally.
+
+= The unannounced model has already started rolling out to a select group of app users,
+hinting at an official release window this week.

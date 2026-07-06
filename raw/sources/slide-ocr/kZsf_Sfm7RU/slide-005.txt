@@ -1,0 +1,5 @@
+One task.
+Hundreds of tools.
+It writes code, runs the terminal, calls other companies’ services.
+Every tool is a new, quiet way to fail.
+{

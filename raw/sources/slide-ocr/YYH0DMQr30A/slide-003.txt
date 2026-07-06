@@ -1,0 +1,13 @@
+Does Task Quality Actually Matter?
+e Almodel capabilities are fundamentally bounded by training data quality
+— this holds regardless of model architecture, scale, or agent harness.
+p ee . e For agentic benchmarks and evals, task quality is data quality
+pe " — but the field currently lacks empirical evidence that curating higher-quality tasks
+PY ry leads to meaningfully better training outcomes,
+ad " *
+Can we measure the impact of task quality on model performance?
+a 2
+w) | Al Engineer
+[aed
+J EUROPE
+rs

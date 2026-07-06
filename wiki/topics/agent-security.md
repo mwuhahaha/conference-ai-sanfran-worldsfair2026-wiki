@@ -1,18 +1,36 @@
 ---
-title: Agent Security
-category: topics
-sourceLabels:
-  - Slide/video-derived supporting context
-last_auto_summarized: '2026-07-03T17:42:50.873Z'
+title: "Agent Security"
+category: "topics"
+sourceLabels: ["Slide/video-derived supporting context"]
 ---
+
 # Agent Security
 
 ## Why It Matters Here
-Agent security matters here because the linked World's Fair 2026 material puts autonomous systems inside real AI-native production workflows rather than treating them as abstract chatbots. The Autoresearch and Keynotes slide deck connects this topic to programming featuring Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, and Recursive, where agentic research loops, model-driven discovery, benchmark pressure, and orchestration patterns all raise questions about how agents are scoped, supervised, evaluated, and stopped when they go off track. The connected Software Factories livestream adds Microsoft, OpenAI, OpenClaw, Z.ai, MiniMax, and Hugging Face, grounding the same security concerns in coding agents, software-factory pipelines, automated review, deployment gates, and enterprise development controls.
-
-Across those connections, agent security is less about a single defensive feature and more about the operating model around AI systems that can read, write, plan, call tools, modify code, and influence production workflows. The relevant risks include tool permission boundaries, prompt and context leakage, unsafe code changes, weak review gates, over-trusting benchmark results, supply-chain exposure through generated software, and failures in monitoring or rollback. For this World's Fair topic, the important thread is how labs and infrastructure companies are moving from demos toward systems that need durable guardrails: identity, access control, audit trails, evaluation harnesses, human approval points, sandboxing, and incident handling for agents that participate directly in research and software delivery.
+This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
 
 ## Related Slide Decks
-- [[youtube-4sX_He5c4sI-slides]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive (120 extracted slide frames)
+- [[youtube-2IxD9OB3XuQ-slides]] —  (24 extracted slide frames)
+- [[youtube-hVJOnuhFmTA-slides]] — The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI (22 extracted slide frames)
+- [[youtube-LrGCT7G_rU8-slides]] — Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon (14 extracted slide frames)
+- [[youtube-whue9_YquGA-slides]] — Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation (11 extracted slide frames)
+- [[youtube--x5GEVnkuRw-slides]] — Structuring the Unstructured - Cedric Clyburn, Red Hat (24 extracted slide frames)
+- [[youtube-4uFVSLgD2Q4-slides]] — Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov (11 extracted slide frames)
+- [[youtube-3hXJI2q0Jz8-slides]] — Recursive Coding Agents - Raymond Weitekamp, OpenProse (7 extracted slide frames)
+- [[youtube-ZD9-4fW2HhM-slides]] — Build Systems, Not Code - Angie Jones, Agentic AI Foundation (23 extracted slide frames)
+- [[youtube-IJXjTLPzvAU-slides]] — The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen (8 extracted slide frames)
+- [[youtube-ObTPqBGsEbA-slides]] — The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks (11 extracted slide frames)
+- [[youtube-c-2eEv2ou7Y-slides]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic (11 extracted slide frames)
+- [[youtube-_xIwFcnHqp4-slides]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub (12 extracted slide frames)
+- [[youtube-KLSuFPj2ld0-slides]] — Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe (10 extracted slide frames)
+- [[youtube-zKk7sDMGDEQ-slides]] — Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer (2 extracted slide frames)
 
 ## Related Scheduled Sessions
+
+## Transcript And Resource Support
+### Transcript-backed resources
+- [[youtube-SKDJo2CopRs]] — Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare
+- [[youtube-c-2eEv2ou7Y]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
+- [[youtube-hCMrEfPG2Yg]] — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
+- [[youtube-_xIwFcnHqp4]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
+- [[youtube-6bmM45jkMDY]] — You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs

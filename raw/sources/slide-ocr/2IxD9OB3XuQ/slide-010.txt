@@ -1,0 +1,8 @@
+Updating memory
+Write down facts and distill skills, so the agent doesn’t rediscover them.
+Information memory
+store a fact or correction; e.g., “always confirm the date before booking”
+Skill distillation
+compress a successful trajectory into a reusable how-to packet
+[scmetresviewmed asa patoafharess!
+: : - works directly on (log + feedback) but usually unverifie F

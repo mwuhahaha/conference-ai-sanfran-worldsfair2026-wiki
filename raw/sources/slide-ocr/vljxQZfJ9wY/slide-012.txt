@@ -1,0 +1,7 @@
+Architectural Imperatives
+1. Offline benchmarks are necessary but insufficient.
+2. Agentic systems must be evaluated as full workflows.
+3. Production telemetry is the ultimate evaluation signal.
+4. Reliability always supersedes raw model accuracy.
+5. Evals are no longer tests; they are core infrastructure.
+“You can’t improve what you don’t continuously evaluate.”

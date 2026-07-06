@@ -1,0 +1,2311 @@
+{
+  "source": "yt-dlp current @aiDotEngineer videos/streams",
+  "new_cut_videos": [
+    {
+      "title": "Field Guide to Fable — Thariq Shihipar, Anthropic",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/9fubhllmsBU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAO8_tjHgSEEeo4yBjLkXj2REmOqg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9fubhllmsBU/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCjI3upkE_-WheM_x5fL_Q1ya2cwg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9fubhllmsBU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCssfwRFSAjdiDVEtZADDpQ971JMw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9fubhllmsBU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBfbemSWJfC8DC5CSvIdTYhbXI0wA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1168.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "9fubhllmsBU",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=9fubhllmsBU",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Missing Layer After Launch - Raphael Kalandadze, Wandero AI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/kZsf_Sfm7RU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAbC7ZQqBGm5mTcZ2I0zxMOOZ2RNg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kZsf_Sfm7RU/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBVSbwbF0rrinVzTVbdsyubjIq_8w",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kZsf_Sfm7RU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBC8zaWXv2JlgJB8yga46HotMoLeQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kZsf_Sfm7RU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBS-7KVXTfcDdLflplo2AGxcMiRDQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1173.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "kZsf_Sfm7RU",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=kZsf_Sfm7RU",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/2IxD9OB3XuQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBUeSHuEDTTDVUAuZ414-QtXM1ciw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2IxD9OB3XuQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDMCalCqyuD145lBwrrDxPJBFIXHQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2IxD9OB3XuQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0nA_L5BPF-cT7ZWl1x5ZuvRGCew",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2IxD9OB3XuQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDcuuHBiJi6VQkDBAAzY-pHWuOGtg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1355.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "2IxD9OB3XuQ",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=2IxD9OB3XuQ",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/sAOBXCDiDOs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDPhrxoDgZOM7lESUYAFyQ78Ucp_w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/sAOBXCDiDOs/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCQJuD-hclKpnsPDox7iZRVsPmTLw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/sAOBXCDiDOs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjROGgz4gLeoNk3PI-AYZQa9bczA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/sAOBXCDiDOs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRsrt2Cnhq5l2LHeT8AsTjp1Q5tg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1734.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "sAOBXCDiDOs",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=sAOBXCDiDOs",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/d_Ftrl3vfV0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB2sQUAKAemRflgqO9X42KBK-qwLw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/d_Ftrl3vfV0/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBsTtTkC0UMFNi7WNkl8q5d9H1oXA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/d_Ftrl3vfV0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAlu-VpeEehCcu9SshiROnOe5mIQA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/d_Ftrl3vfV0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvcvOcFfn3dVJtALL10S5UvB9H6A",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 362.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "d_Ftrl3vfV0",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=d_Ftrl3vfV0",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/hVJOnuhFmTA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBHg37khbnD65rNVg_j0dc_zv8APw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hVJOnuhFmTA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCOxpELztu9S13whROj3Y7gXqaQ9A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hVJOnuhFmTA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0DY8hwgRy79nZwEMKsWUFZfm2OQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hVJOnuhFmTA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBP-5NtAkT_Qd6RHvYc0xaHymgWzg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1213.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "hVJOnuhFmTA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Building Great Agent Skills: The Missing Manual",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/UNzCG3lw6O0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD40KjXqFKGXUvKaZBiZ9IQAbAvOg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UNzCG3lw6O0/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCPhHC69QyYUZYeVPDWbIKC3noE3w",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UNzCG3lw6O0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0r8HrYVjL8xPW-r0Sy1XyZWM4bA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UNzCG3lw6O0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLArKVX2qSoA2DH7-LsgaefGy95PmA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1243.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "UNzCG3lw6O0",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Frontier results, on device - RL Nabors, Arize",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/fWXJM-J0ZB8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBJgmQWM6O-IKiZKGW6FlynFa3i8A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fWXJM-J0ZB8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDriT_rNRfJIGvP_ofumXSMx36wug",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fWXJM-J0ZB8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxS4Nd0G0zFfVGgXzu7u5mc59mGQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fWXJM-J0ZB8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDB_Voc9MXvg6ENN3FSQJj-zhEYpA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1852.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "fWXJM-J0ZB8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=fWXJM-J0ZB8",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/spNAUEgq_A8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAc2jKklDdCPXw6eOMU7c-dzQeU6A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/spNAUEgq_A8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAOXqe8mcvZikr8VJ4diU2qipp6OQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/spNAUEgq_A8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADvX1WDgV6qsvR3CfEjw17ci3WRg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/spNAUEgq_A8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGE8ppUmex7ualLGBsB4ebyNcBng",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1838.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "spNAUEgq_A8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=spNAUEgq_A8",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/6bmM45jkMDY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA-phajrlP7d2-QDKlmwt4eXzFH3Q",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6bmM45jkMDY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCN1OHVJcAYvS7OujQM2kYpT1u6qg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6bmM45jkMDY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJNZd5akGp0JQSZKSJ3G5SD2axlQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6bmM45jkMDY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCytZNUAE7VI5N77U5Ev1Oc5EHqpw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 945.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "6bmM45jkMDY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=6bmM45jkMDY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/pSto5YaNGUo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDmSg3YWt4YhK8Szx_m9yWp8czlzA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pSto5YaNGUo/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB0a7NKi-TJK_m-1HHEHyJyy20g0g",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pSto5YaNGUo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGtZDTIEi4AxMPP1-x9YUOcXutSA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pSto5YaNGUo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzPGi1-SjHY1G80pTKkLZ2BLKp7g",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 2090.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "pSto5YaNGUo",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=pSto5YaNGUo",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Prompt is the Platform - Dominik Tornow, Resonate HQ",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/DqtmZE6Hl0g/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDJDq2Bs-4dZU8a7zV4RqBPCthjsA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/DqtmZE6Hl0g/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLArQj3rN14n7Yx1nAQny5Tu9C-GLw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/DqtmZE6Hl0g/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-QcJicpO0qdywg2N2wSfSwkFDRA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/DqtmZE6Hl0g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvU8kzWSaHIbQWku4_m77D3AkAXg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1053.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "DqtmZE6Hl0g",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=DqtmZE6Hl0g",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/LrGCT7G_rU8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDqmvW-mjGLdn-iO-Dyevm-QhOeMA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/LrGCT7G_rU8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDhpqz4suddwDzEu1Dtft7NiKXqQw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/LrGCT7G_rU8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKmRRkKfxMVmYDcI0csuXxN9AqnA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/LrGCT7G_rU8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQ3HLv4Ugnn1rkEDr3-Xsdi4j6pw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 881.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "LrGCT7G_rU8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=LrGCT7G_rU8",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/65X0pQ6Lmbg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDHnonTdjMXPB_9FzUhnRefnTVXNA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/65X0pQ6Lmbg/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC6xTRbVvQibDNN15-3QiWwCuZD6A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/65X0pQ6Lmbg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPWk7yBmkQMxX1U3zApOn9chRBSA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/65X0pQ6Lmbg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByvwYxY8F4CjNntxlq1WpKmcWeLQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 785.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "65X0pQ6Lmbg",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=65X0pQ6Lmbg",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/Iwe_RY-fYgI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA6xukf_uIHaEaaCBglLqp18CvCYg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Iwe_RY-fYgI/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD0HUiftYpd1VjtdpFHcbweBpMoqg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Iwe_RY-fYgI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZHKiIeSA_ue_2ORXnJ4m4W_A-UA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Iwe_RY-fYgI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCc-MsbFknU638ejFEtf1j516uaKw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1140.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "Iwe_RY-fYgI",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=Iwe_RY-fYgI",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/dRmWYHuIJxM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCc3pMgVVbF0DeUF1dirriS8opvbg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/dRmWYHuIJxM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBcBmC78XgRYq1M-Ly8A6-fpiULYg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/dRmWYHuIJxM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdfnhdke20vcYyh4WAltOg9Gs8mg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/dRmWYHuIJxM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPrM7uu6ML_qTWu2-pax7ewdQDdQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 643.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "dRmWYHuIJxM",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=dRmWYHuIJxM",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/uiP88SpCi1Q/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA9n5dipgAp87BjmooKyw_tQfVywA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/uiP88SpCi1Q/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD-jz-bWW6-ry54C0k-V4ShESvtcQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/uiP88SpCi1Q/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4X9xVAk-lwVqVd22fDNGUsgRgIw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/uiP88SpCi1Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmHknvkCXcsfCDYFCvri9coNLXWQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 355.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "uiP88SpCi1Q",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=uiP88SpCi1Q",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/akk6KRlcwW4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA-LmhimRUx4-FkIWvXZlGoVbjjUA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/akk6KRlcwW4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAwIVnU3ZU-G-hSb99mkT38CJjeGA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/akk6KRlcwW4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-3ERCRNL_fu2NOHbwqtkxz1r-bA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/akk6KRlcwW4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAad8Rp5rlhETfzY066g7ZtZV_Q8Q",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1476.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "akk6KRlcwW4",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=akk6KRlcwW4",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/Akm1sqvWG4A/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDgQfhd_mB0GsCHuOgURtacDB903Q",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Akm1sqvWG4A/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD-Bhx-CxWEalp_Muv6ETfnsx8Zww",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Akm1sqvWG4A/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCb8PhhQjlXXjGcltOou2o8k2AH-w",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Akm1sqvWG4A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDr4PPzRfII_S_0uempmEImV2-7lA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 2748.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "Akm1sqvWG4A",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=Akm1sqvWG4A",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/T0HhO4YtTfE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDaeYTJ41JA6gaENXsRA50q8fGbFQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/T0HhO4YtTfE/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAyKAKl0e1iFcNYabSe0UroIvj_hA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/T0HhO4YtTfE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDMGHGTIhotX4hNXZFqA1oooP0sVQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/T0HhO4YtTfE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPHVcOBQ2bODV_hFEpOyCgH0WezA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1733.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "T0HhO4YtTfE",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=T0HhO4YtTfE",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/XovaGv4f39A/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAXRbAdFBIySovLRhC58ik3k2zk5w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XovaGv4f39A/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDSryQKCDZCYYzLr_p8xFViQtJAWA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XovaGv4f39A/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAj4ot0xHJy_8xwT6D6Y721D7PNaQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XovaGv4f39A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-qTolRwbotekDQS_E768QzO2CWQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 352.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "XovaGv4f39A",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=XovaGv4f39A",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/OXMMN-XbxwA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBysFZGGkNuOxdJpmBJ3_8T8Pz9MQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OXMMN-XbxwA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAfMTbrAcAmxuxC6TaEqFZCZoyuHw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OXMMN-XbxwA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCigOULss-z1JQ38CGw5u-nAQlsXw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OXMMN-XbxwA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDT74ol_jiYk5QbpPG3yF8IjMOQ8Q",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 897.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "OXMMN-XbxwA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=OXMMN-XbxwA",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/whue9_YquGA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDTiMlXwzVi99lg-IG7Z_My-4Do_w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/whue9_YquGA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDkWh_wbvtMXJpu3hMlxOFu5K4d8g",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/whue9_YquGA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAogPyfR1iNXdN04eErPviE66bgVQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/whue9_YquGA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5GicdbTyG7HwMMWkAUU1rwfW-jw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1056.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "whue9_YquGA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=whue9_YquGA",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/JRTAtZ5iBkU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDX3MX5P5deisAUltTVPJiwPgJDlQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JRTAtZ5iBkU/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCYH4pOSq9qg2k4J_LRG8tTtrMWAQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JRTAtZ5iBkU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuTu3lChKAcTklhVuc-V_up1IK8g",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JRTAtZ5iBkU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDsVd9EJjSJ8uULYppabuxecHFe7g",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 420.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "JRTAtZ5iBkU",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=JRTAtZ5iBkU",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/IddXPepIAS4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBI6ERQVlBsUmQHmIwrjXmibUkKfA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IddXPepIAS4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA9cSMeZhZbEtEMq2J5Duo9OsOEQQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IddXPepIAS4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvX0sHIZ6smx727soXBENIeyp9yA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IddXPepIAS4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBEnfj3bRTlC71es1eD1JxjojGTxg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1067.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "IddXPepIAS4",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=IddXPepIAS4",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/Jx4ZFEAq6bY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDriruWWfk4gbt8fcwMqPqHZZX-9w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Jx4ZFEAq6bY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCWzWVPFGqvrDIcPEuIx8AxsfKEnQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Jx4ZFEAq6bY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxOSlUAYaYuIFlJIp5B9691TC_Qg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Jx4ZFEAq6bY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPwq9EG06hDwG9gHU9zSj2wdhUdw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 937.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "Jx4ZFEAq6bY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=Jx4ZFEAq6bY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Structuring the Unstructured - Cedric Clyburn, Red Hat",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/-x5GEVnkuRw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAXEfVizp4I1nqpFQZv7fVL8__8Zg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-x5GEVnkuRw/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCZGABPJ2IXkAKv-vH12OSkGgttTA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-x5GEVnkuRw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJ3yd0pizutd8dNG0z6UENmC8UjQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-x5GEVnkuRw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_lQf29oLf1lHAC77udM-MuZFcXQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1241.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "-x5GEVnkuRw",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=-x5GEVnkuRw",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Agents Building Agents - Alfonso Graziano, Nearform",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/aHhB3sjGjkI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDlXm_FTPjMYg6UBBM1gLX0UX21og",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aHhB3sjGjkI/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBOV1mDSXDMO_JqghOHQ-8THzZ88Q",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aHhB3sjGjkI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB9UCW_OqrQPu7pbuBumDUPvaUmZg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aHhB3sjGjkI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfnIXP30mX49Jwv6ErsZO21uF0yg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1814.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "aHhB3sjGjkI",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=aHhB3sjGjkI",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/JnubYCYunk8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBTgCgPl3f1mu1J-GrZvoIsP8vdaQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JnubYCYunk8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCza_BPSlgBd22F13Kyajv_xCNMhw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JnubYCYunk8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAchEbstinTK2uNQnw8H1to2fqIgQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JnubYCYunk8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz2HuO8w1Vnh4_GN47q50TIU5KZg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 266.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "JnubYCYunk8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=JnubYCYunk8",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/vh2VGuQ3zhY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBl_3p6bVRRJTyt60fwpX5xc15RUw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vh2VGuQ3zhY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC6-VuZ1eizFNvrK1F68RhXAfqEeg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vh2VGuQ3zhY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUKl39Rpf5TmwdlKdnOkDapTMxfA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vh2VGuQ3zhY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB6uY2GOMwul-bVY1J5-ltmVz11wg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1707.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "vh2VGuQ3zhY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=vh2VGuQ3zhY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/ij-AU9dpJjc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDDQ31RhYk2tFB59BwxokdvY6RV3g",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ij-AU9dpJjc/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC-h5MR_hRZNtmd9uf8OBlqKHLB8w",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ij-AU9dpJjc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_O-YACrTeutmRB_LfjAJDcv6z_w",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ij-AU9dpJjc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0ywBoRFZBKe4UjiyoUDHPkf-rKQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1257.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "ij-AU9dpJjc",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=ij-AU9dpJjc",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/4uFVSLgD2Q4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBfWdNEciv2wRgvEUJWc0JtgZmeVg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4uFVSLgD2Q4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCPoaz-6pmCFnLElRQvjjJjInCkgQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4uFVSLgD2Q4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWcB9OSworwroNieUWbwTDNnv2ow",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4uFVSLgD2Q4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCk1lD4zAWzK2zBDIG0xi_4BTH5Pg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1110.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "4uFVSLgD2Q4",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=4uFVSLgD2Q4",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "A Genius With Amnesia - Victor Savkin, Nx",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/jVjt-2g8NMY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD8NAajAt3vIu8VS3S0kiiuDGqzdg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jVjt-2g8NMY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDB3actZ9I0m1A1Dem0m17DGOfqLA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jVjt-2g8NMY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVXZrHSciK97kw8c5uSjSIokAZkw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jVjt-2g8NMY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBe4DE6C20CAhD109jTLrFvF1-utA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1200.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "jVjt-2g8NMY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=jVjt-2g8NMY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Log Is The Agent - Ishaan Sehgal, Omnara",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/UPwGaM2MKHY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDrXihMHvNCcEoNLUFO2_Y7NNkBEw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UPwGaM2MKHY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBjMnD3_mYSZlz-AM0ZaF2jGzWR1Q",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UPwGaM2MKHY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-P8PfPt_h0UQcLmzoDRkK1eFyCQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UPwGaM2MKHY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXLBF8UDVx8gcRxav0BqJkcAmZQA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 911.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "UPwGaM2MKHY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=UPwGaM2MKHY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Recursive Coding Agents - Raymond Weitekamp, OpenProse",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/3hXJI2q0Jz8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAtiq7PNahoVLWHow3udcWYFKwz2A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3hXJI2q0Jz8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLACrAoK9241DGEwCBY1tIPfk9rO6Q",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3hXJI2q0Jz8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFoS2fwv7_c7Eyoq90bl4_mZk6CQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3hXJI2q0Jz8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2qAWcCyR8acHfebmUH2ZLKqBwhw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1428.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "3hXJI2q0Jz8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=3hXJI2q0Jz8",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/vljxQZfJ9wY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDQ1yQrA-LaY6Kgob6dG4bPsJFoSA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vljxQZfJ9wY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAD1zp5gIEdEYcABBCKBtm4W-BRgA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vljxQZfJ9wY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqzD2tRuh5K9FTKznk2bLgN6kdAA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vljxQZfJ9wY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDH0e0ir30R3VUQnkEBR4GRPQGEBA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 492.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "vljxQZfJ9wY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=vljxQZfJ9wY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/ZD9-4fW2HhM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDsbFlpHiZxkgSnP2D4CD7YqhLOJA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZD9-4fW2HhM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCdXuMqXQgkqEcX5HAAE7F4K3MFvg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZD9-4fW2HhM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLwLk4nDa4ozthvPfzgkkMEukpkA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZD9-4fW2HhM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsZWc3SJ2Ti1KqNCWsvsmw1-Zxgw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1179.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "ZD9-4fW2HhM",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=ZD9-4fW2HhM",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/IJXjTLPzvAU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCws6sIZ6G4TXODmEWdPvG6s8JVtg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IJXjTLPzvAU/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCmTRHa79UP1GEl7B9B0iO8djq47w",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IJXjTLPzvAU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJB4zEyVTnTCsivh_7HTt0loB8bg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IJXjTLPzvAU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDv4JqLN5VRSjYgSXHiM3WuhEDxkA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 3497.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "IJXjTLPzvAU",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=IJXjTLPzvAU",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "6 Things to Know about AIE World's Fair 2026",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/0S8xe9ftGTM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBIXVVGhvAeVONAEg2eVSZzCN_7ZQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/0S8xe9ftGTM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCfBeqYI5gz27IfstDaAJ_W5K5URQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/0S8xe9ftGTM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1nsKDRAOR8mOlBP7ZFxJdpke4kQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/0S8xe9ftGTM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqNo6H2LIQre7IU_0IxxcRMl6oTQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1070.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "0S8xe9ftGTM",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=0S8xe9ftGTM",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/ObTPqBGsEbA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBDEOEZHCpOkq6y1bY9-OI3Ylg_DA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ObTPqBGsEbA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBiJwzDoly1u2tG_w_Bsrz2eEvsmQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ObTPqBGsEbA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZFrKFCOYtZgwH8XfBkNq2jQ4TBQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ObTPqBGsEbA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_PoIl9oCm1sGAYPiOIHAq8ZX69g",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 2226.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "ObTPqBGsEbA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=ObTPqBGsEbA",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/btxGmN8RvNU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAtjIjKLbrYWE_65D_kgQSrJzh9HQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/btxGmN8RvNU/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA8xR1dAj_kUohGxf8zwC0_TwbCRA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/btxGmN8RvNU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAynub7HSQIn0UfYhOGjPlykJziCA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/btxGmN8RvNU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrQJ4qRivLp9LxACm44alfKNYOTg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 949.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "btxGmN8RvNU",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=btxGmN8RvNU",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/gHs5ZiY80PM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAZ-Jsgyk14_rQ-QKX-IVc1IWntSw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gHs5ZiY80PM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD0IXga2uebx8eExzPgQT_Q1Cp0uA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gHs5ZiY80PM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVlIoBxZ_CcShUNhL_89WZdKOznw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gHs5ZiY80PM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAghkikFf6oBK-SOGOnRaMRWNTmyQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1126.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "gHs5ZiY80PM",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=gHs5ZiY80PM",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/c-2eEv2ou7Y/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCkC1RbK4NPXSIu4E6SJESp8h9y7A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/c-2eEv2ou7Y/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDjh966oxpDcRwstShFBpyJt6ZReQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/c-2eEv2ou7Y/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCwkDduueSZwzR0EGp8IGJYdRQN5A",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/c-2eEv2ou7Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZQGWzGmq8CChe2O6ARplQGTTRow",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1211.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "c-2eEv2ou7Y",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=c-2eEv2ou7Y",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/ghJmWQCIHRM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBmx4sXuodIE-VvRfDQ7A5sjwVHZw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ghJmWQCIHRM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDyBcOgOffQ-dPLjNq9GouFB-7l0Q",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ghJmWQCIHRM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTNf24CLdmNBF9bNF250LkjrB89Q",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ghJmWQCIHRM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4-U7ZbI57PbgWY4Dj0mRH-7ef5g",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1294.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "ghJmWQCIHRM",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=ghJmWQCIHRM",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/TNwJ1LMiENk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZotx3155id_B7Yy-wI3Qnj2Jxaw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TNwJ1LMiENk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLArrYmxsQ9BPGmmh6XgPZWVc1ypXg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TNwJ1LMiENk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDE8xr13ZRkKAqXeBS9xHE5dkgwCg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TNwJ1LMiENk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkj8ZOXL6DVPQ4UefIAPdhRhgCBw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1256.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "TNwJ1LMiENk",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=TNwJ1LMiENk",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/SS-A8sE7hkw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDxinLB1zzpw9pJ4B1p6snuzVMvrg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SS-A8sE7hkw/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC8ztNfDpWn-OWULyR_4pVtwwTEaw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SS-A8sE7hkw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXdOIZKsi0-TvNKecWsomthzvIFw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SS-A8sE7hkw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCCMw_r85kpRYJc2NXp5tqmC3ErwQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1252.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "SS-A8sE7hkw",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=SS-A8sE7hkw",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/zMiSRliEzv4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA6TpovAucJc2M4jKDvuXCBdo9RAA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zMiSRliEzv4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA0bSaEklqjtxeq51SJOEBqFYg2eQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zMiSRliEzv4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOYhkpD27NUXmH3L4gjp-Ibe9weQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zMiSRliEzv4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmGMutTrJFF1rKyaCtEuMtC9CVUw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 939.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "zMiSRliEzv4",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=zMiSRliEzv4",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/zDGHt0LB-dA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDb8TRYjjDtG1FDM0CXiZ3SNvto2A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zDGHt0LB-dA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDWzY4CW52J9qptgWILBLUezQ2oDQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zDGHt0LB-dA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCU5rOzk1UEEktAPQN4E8qK_OeLwQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zDGHt0LB-dA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBU7M4Z3QuER35yH7G9eWPDrmeQIQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1219.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "zDGHt0LB-dA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=zDGHt0LB-dA",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "RAG is dead, right?? — Kuba Rogut, Turbopuffer",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/UM6sFg_jdlE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDh_0JrjwGBcSVgZ8sqOf7uxd-c1A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UM6sFg_jdlE/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDCkWVDeC08HVC_IMmYgah_ewkptA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UM6sFg_jdlE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGmNM32N0sy3gVtQ4jOH99GqIWXA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UM6sFg_jdlE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoLRN9gmJV3m8k-1dxtyIM4fAefQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 673.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "UM6sFg_jdlE",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=UM6sFg_jdlE",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "2026 AI Engineer Vibe Reel",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/gUMwt4-5kn0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAjhz0AM39QVMyToygcxw-Q17KFUg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gUMwt4-5kn0/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA3v534rAOHt2bDHcgWeLNeDJJIEA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gUMwt4-5kn0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4yQJBKwY4Cx7XUc5W2fQLG5BDbw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gUMwt4-5kn0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7jAcftSYyLer4bJEHrrIS5zgIyQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 67.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "gUMwt4-5kn0",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=gUMwt4-5kn0",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/TUnPNY4E2fw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDTpFETd9fU28Ey9pIYJNuFJUBwjA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TUnPNY4E2fw/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCZooYlQQZey5cHgzuL43mjTFUH0A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TUnPNY4E2fw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAda_g_lzDzO2xUg-tp4KNarB_jcQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TUnPNY4E2fw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBbRCfNwg7Zy_O-iZAvfPwHkAV71w",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 950.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "TUnPNY4E2fw",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=TUnPNY4E2fw",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/EcqMYoIV57A/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCLxdgIE8W_I6bHDYv1dEAM5RtnCw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EcqMYoIV57A/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAJUi5FUH7plx-uQBWpfhAIvynguA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EcqMYoIV57A/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBaXrBWhjP-Do1hKM2LiKhUOccDNQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EcqMYoIV57A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQhvNvDKeusqzJjODQxKDOt8yk1A",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1587.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "EcqMYoIV57A",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=EcqMYoIV57A",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/SKDJo2CopRs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA6pQBjoQtI8qYxrhVbFkv8QTdSdQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SKDJo2CopRs/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBSS4y6c7RAxeqQgcrqvAtg2ScyjQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SKDJo2CopRs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5oe_xzoH_cPN0m4CxfZRlnjOSPQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SKDJo2CopRs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCumxDDWAUfMxGM0qr3kk_GhJ_a9A",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1491.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "SKDJo2CopRs",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=SKDJo2CopRs",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/ILdE7FaAjVA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDU7YkxmJsYWSV5VETGY9b0-SbqRQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ILdE7FaAjVA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDrogZ2yfx5rh9ZazpfQNdyrNxEcQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ILdE7FaAjVA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_1sadg7xsYGacaaDosD_gmmEIYQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ILdE7FaAjVA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHMvlFcdiQI4m6hrhE2NnVULDtKA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 806.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "ILdE7FaAjVA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=ILdE7FaAjVA",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/_xIwFcnHqp4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBx-7RiCGBNyQsXjMRiQ0Yb3E49oQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_xIwFcnHqp4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLACO9_DBnqCls25ivh--9yCweUf0A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_xIwFcnHqp4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBUrRqzdm8U6sMhS05BA64Kqn1Qjw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_xIwFcnHqp4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2JaVbmzoXWlzUxt5XAhaDFQe6FA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 966.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "_xIwFcnHqp4",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=_xIwFcnHqp4",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/QuuIywMG4s8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC9GhRPOsMuhul2aAk_Vg_ijKcBJA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/QuuIywMG4s8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAaGftdyeJ77b0piJSmY6ksbiRuVA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/QuuIywMG4s8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCzKqYePblKHKvpevIXMCnWmbjTSw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/QuuIywMG4s8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAewZnWsWqIFDGmc5PCHLdrO3dD9g",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1144.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "QuuIywMG4s8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=QuuIywMG4s8",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/KLSuFPj2ld0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDusQkCXmF-tzuotZ7ireWKdE3Q3g",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KLSuFPj2ld0/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDcOEVcr5IFv4Lz3CwFcezQXgcbOQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KLSuFPj2ld0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsoIQnKPRp4-Sfj_wQdbEgRd-Psw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KLSuFPj2ld0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBG6cC9dlkdrstJKj7VItYKPRZUhA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1126.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "KLSuFPj2ld0",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=KLSuFPj2ld0",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/_B4Pv9ttFgY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLADVm3c2josJJYYEQP4zpUNHwZFEA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_B4Pv9ttFgY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCqE6Q7s2sYj_0QMqfmDmJXNoM2xQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_B4Pv9ttFgY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKL6xeLstkTD_dcTjTUQaKtdd-Zw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_B4Pv9ttFgY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9un20hB9UgZiEyfXtlpt2TyfBnA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1358.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "_B4Pv9ttFgY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=_B4Pv9ttFgY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/pmoDeA3RBZY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAlpLrPPshqav5qK_MZIt9E49H6KQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pmoDeA3RBZY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCmFw2N4zD7i_1qCWJ8aw7mkvnidw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pmoDeA3RBZY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCm3IWXsrt36NY3lCzbPbuMErEI8w",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pmoDeA3RBZY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBEqLZq2Nt_ee_08UyO9Ic35Ow9rg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1004.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "pmoDeA3RBZY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=pmoDeA3RBZY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/mFLlVpnGpds/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCBME93g0xwRlZ8XmuGFSHAtPFYrQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mFLlVpnGpds/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDhnBvZirLHeLgb0bUZnBhVPN37-A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mFLlVpnGpds/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkcOKO-BALCKwjsV77RXRbHBStEQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mFLlVpnGpds/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLALZVVv_FpJSJkaiGyZnR-Fn9TySA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1520.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "mFLlVpnGpds",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=mFLlVpnGpds",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Text Diffusion — Brendan O’Donoghue, Google DeepMind",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/r305-aQTaU0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC-JtJJ-5PAKoFumb0MmxzYde4VQA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/r305-aQTaU0/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDi4yuT9ghaetbuUrVEWo_j-CTiYA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/r305-aQTaU0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3YeB3V0f8ySCc2psd8_den8NHUg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/r305-aQTaU0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAn6HvP5gM9sfcJy_IvgB-NfkstKw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1683.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "r305-aQTaU0",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=r305-aQTaU0",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/iNkFlCiij0U/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC2iuPQOcLZLMJ9Yb6q1cgqC-kZzw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/iNkFlCiij0U/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCqtAV2F-F-TC2fk2MuKtMDu5C0bQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/iNkFlCiij0U/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdD7BVdgTQ037o07l6PVzOdQHEGQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/iNkFlCiij0U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoVJYLJ9M8R-eZm9Nr-aJc1mBJUg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1405.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "iNkFlCiij0U",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=iNkFlCiij0U",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/wcUJWP6WpGM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLApmO0D3lauU9RSfuaZZLy8Wc97JA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wcUJWP6WpGM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAi6x35eqAaU3mLM0JWtUZFPRGpSA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wcUJWP6WpGM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZMdxKKe0EHi79sl7Pqm01F4wV_Q",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wcUJWP6WpGM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdFmD_KtT0Z1HnVmv3_Vzy9K9kWw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 990.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "wcUJWP6WpGM",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=wcUJWP6WpGM",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/hCMrEfPG2Yg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCC425UPR1mwFXQNvIm8kdHeHe7ew",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hCMrEfPG2Yg/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDnbY_lzgFmg89zPmETs6ZG0GhtvQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hCMrEfPG2Yg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhQyuWriRL8QxxpNTARNFMwHR8KQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hCMrEfPG2Yg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBN7MGald_XVrTeGAwS03dwfGpg1Q",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1018.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "hCMrEfPG2Yg",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=hCMrEfPG2Yg",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/zKk7sDMGDEQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAWEfFSdQner5iF7F3BAt6INmUHVg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zKk7sDMGDEQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBMGofU-xUQ2SBD4jbarmHdr62uUA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zKk7sDMGDEQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAP9Cn0R5RehjHUr60OatYPp-bKXw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zKk7sDMGDEQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATcxqJjaqU8VmL5tKWoU_mMMl0KQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 968.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "zKk7sDMGDEQ",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=zKk7sDMGDEQ",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/504PvfXou5Y/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB9EJKxQ7qqtlWHlBHYJo5AtmhQsA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/504PvfXou5Y/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB04s9DGb6p3hEOMqujHm2DuLuVKQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/504PvfXou5Y/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-JYtiPfZUOOyIm-v8BEeS7So8bw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/504PvfXou5Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApyNFL72cIjIt7nbWlkvz1ot_JMg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 769.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "504PvfXou5Y",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=504PvfXou5Y",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "What Lies Beneath the API — Benjamin Cowen, Modal",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/HvZXAOZ3iv8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBvK5OGqijX3BS8NWD1XniA9LLDsg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/HvZXAOZ3iv8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBbvOLxEugnrmv2SpKBg7BuJ8Bb5A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/HvZXAOZ3iv8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqq-B_xAY7BRJjRHH0pn7z-6QEbQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/HvZXAOZ3iv8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyvvCY6VGKAfRl3Oz1jGtOEX1Cpw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 760.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "HvZXAOZ3iv8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=HvZXAOZ3iv8",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/YYH0DMQr30A/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDu7gWEZAyAy_swAzgh57iAIiOURw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YYH0DMQr30A/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCuHGkAsswiZhuS5-_9_NhzffEmVQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YYH0DMQr30A/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKFuMTRRbqvP3quaRnFgKDLIrnng",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YYH0DMQr30A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDA2n5szsYtyqNdeBJ9vQldPL3Heg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1240.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "YYH0DMQr30A",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=YYH0DMQr30A",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "How Lovable self-improves every hour — Benjamin Verbeek, Lovable",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/KA5kPbdkK2E/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB6ZKh1PUffkQEgQp8WVl3gOUhMjQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KA5kPbdkK2E/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCoyTZhsR91otNV5S4UlFTZeoy_DQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KA5kPbdkK2E/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDaau5-jAvKmou2SH2PWtqijJ961w",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KA5kPbdkK2E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0UhqZ7P_yxVFbfnDHLpAZgK_MLQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1145.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "KA5kPbdkK2E",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=KA5kPbdkK2E",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/hqHC6Z_lXyo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDYO8VKytK-2Pmw2iUrBgObudfCeA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hqHC6Z_lXyo/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBL6Lg_yTuS9a3HdvDdxoePeay9KQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hqHC6Z_lXyo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCs2SY_VGbPHZ-LoL5vuPy6ETtnvg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hqHC6Z_lXyo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeSbH3MsvOvJY62OuaTANT9ss7pA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1176.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "hqHC6Z_lXyo",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=hqHC6Z_lXyo",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "How to talk to statues — Joe Reeve, ElevenLabs",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/u-rJwPPU3QA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCKdjDSMdEOc2niknFI3E8uOVh41g",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/u-rJwPPU3QA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDOQ55njTZD2f1NuMQUkxnSTFdk8A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/u-rJwPPU3QA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAd6o3Mp2lDJjLAq_PCQMmDx57wuA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/u-rJwPPU3QA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLsa__MecwsJDdmnX2kkmcEovNAw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 2008.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "u-rJwPPU3QA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=u-rJwPPU3QA",
+      "__x_forwarded_for_ip": null
+    }
+  ],
+  "new_wf26_streams": [
+    {
+      "title": "WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAsKp-tBQztFVaMq_fCD5BUBbkrpQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDhC8r0rn-nFLSZakI9iUZ7zii8LA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdgRd3FA2lrT2ev-2UJT0_Ql7VCw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLhhhTJooboQFPwmEwhtaF5aJhlw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 33075.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "I2cbIws9j10",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=I2cbIws9j10",
+      "__x_forwarded_for_ip": null
+    }
+  ]
+}

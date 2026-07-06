@@ -1,0 +1,18 @@
+Enriching PersonaPlex’s output with non-verbal aspects creates an important qualitative
+difference relative to systems without this dimension: PersonaPlex now recreates some of
+the same cues humans use to read intent, emotions, or comprehension.
+Examples
+NVIDIA ADLR The following examples showcase PersonaPlex’s behavior across different scenarios. In
+all audio files, you can hear the user speaking in the left channel and PersonaPlex in the
+right channel (shown in green).
+1 Assistant
+1 I . i vt
+Prompt: You are a wise and fnendly teacher. Answer questions of provide advice in a clear and
+engaging way.
+In this example from FullDuplexBenct’s interruption evaluation, PersonaPlex
+demonstrates general knowledge, interrupterability, and natural turn taking.
+2 Customer Service - Banking
+Prompt: You work for First Neuron Bank which is a bank and your name is Sanni Virtanen
+Information: The customer's transaction for $1,200 at Home Depot was declined. Verify
+customer identity. The transaction was flagged due to an unusual location (transaction
+attempted in Miami, FL; customer normally transacts in Seattle, WA)

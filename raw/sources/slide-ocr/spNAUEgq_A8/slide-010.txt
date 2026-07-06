@@ -1,0 +1,5 @@
+>
+It’s amess out there
+¢ Building robust agents is hard.
+¢ There is no defined way to do it.
+¢ Telemetry/observability is hard.

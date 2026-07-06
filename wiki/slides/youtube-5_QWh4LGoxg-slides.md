@@ -11,10 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Cognitive Shield Real Time Real Smart - Rachna Srivastava](https://www.youtube.com/watch?v=5_QWh4LGoxg)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-30-rachna-srivastava-guardians-of-the-state-how-we-built-an-air-gapped-ai-fortress-for-consumer-data]] — Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/5_QWh4LGoxg/slide-001.jpg]]
@@ -414,9 +414,6 @@ OCR text:
 > a
 > iC ce AY) Oe eo Oko | kL ee |
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-5_QWh4LGoxg-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-5_QWh4LGoxg-dense-slides]]

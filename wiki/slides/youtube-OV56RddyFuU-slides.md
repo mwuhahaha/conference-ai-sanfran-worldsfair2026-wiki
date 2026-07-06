@@ -11,12 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face](https://www.youtube.com/watch?v=OV56RddyFuU)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge]] — Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge
-- [[2026-07-01-chris-alexiuk-compression-at-the-edge]] — Compression at the Edge
-- [[2026-07-01-chris-alexiuk-compression-at-the-edge]] — Compression at the Edge
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/OV56RddyFuU/slide-001.jpg]]
@@ -480,9 +478,6 @@ OCR text:
 > Me | ..use any app on Spaces!
 > [_atsineer_] Google DeepMind
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-OV56RddyFuU-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-OV56RddyFuU-dense-slides]]

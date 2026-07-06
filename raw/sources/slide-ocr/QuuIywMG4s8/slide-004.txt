@@ -1,0 +1,20 @@
+ro Nikunj Kothari |
+Genuinely curious - has any engineer made a decision on a model (or
+harness) based on a benchmark result?
+
+a Every researcher / engineer | have talked to routinely dismisses it. They
+Penn trust their taste, evals and how models are performing for their specific use
+" * Cee
+* *
+
+od ve *
+
+It’s seems like it’s simply now used for the labs to show how they’re slightly
+ahead but in my head has no material impact on whether a model is used or
+not.
+
+I'd love to be proven wrong so please push back!
+
+i
+| Al Engineer |
+W009

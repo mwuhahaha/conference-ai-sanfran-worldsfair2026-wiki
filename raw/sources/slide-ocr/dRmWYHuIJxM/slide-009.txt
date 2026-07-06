@@ -1,0 +1,6 @@
+TRADE-OFFS
+i
+What we're honest about
+94% is against full-file reads Monorepos dilute recall
+Embedding model matters What actually worked
+: )

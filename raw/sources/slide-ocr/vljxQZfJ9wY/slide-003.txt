@@ -1,0 +1,8 @@
+The Paradigm Shift: Output vs. Behavior
+Traditional LLM Evaluation Agent Evaluation
+Goal Output Accuracy > Workflow Behavior
+Environment Static Datasets > Dynamic Contexts
+|
+Execution Single-path Processing | > Multi-path & Tool Dependent
+I
+Failure Mode | Hallucination > ascading Workflow Failure

@@ -1,0 +1,13 @@
+Offline Evals: Scenario-Driven Simulation
+
+ee
+' fl
+! Agent Sandbox Discrete Outputs
+; _
+: Tools tC Steps update i Completion Rate 98.5%
+
+: ¢ ; Tool Correctness 106%
+' Plan Quality High
+FEE SO AS ESR i EB OO Ma Ol Bag! Simulated Cost $0.65
+
+Scenario-driven, not prompt-driven.

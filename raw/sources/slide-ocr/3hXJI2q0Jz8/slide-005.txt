@@ -1,0 +1,19 @@
+THE RLM RUDRIC
+Lots of things feel close.
+Executable
+Prompt
+Codecalls
+Model picks
+State stays
+environment
+extenalized
+She model
+decomposition
+symbolle
+Plain long-context call
+Coding agents +subagents
+ing loops
+Hardcoded map-reduce
+-OARLM
+Recursive Language Model
+Open the RLMrubric

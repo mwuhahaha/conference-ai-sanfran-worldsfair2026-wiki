@@ -1,0 +1,12 @@
+What if the activations are still too big?
+|. Inputs to each Transformer block can't be recomputed quickly
+he 2. Still, we can offload to CPU
+* *
+Ps * Prefetch before we reach the layer. similar to weights for FSOP
+a " Ps x first implemented in
+* >
+Unsloth Gradient
+Checkpointing - 4x longer
+context windows
+- | AlEngineer |
+; EUROPE

@@ -1,0 +1,13 @@
+Add VCL to your agents in
+acRe- Seen anes
+ot ] Use your own LLM
+an Compatible with all major agent frameworks
+Initial agent < : p
+$ relai learning-env create --log-file --feedback
+Create learning environments from lag/feedback or synthetically
+; ; Simulators (mock/real tools, persona,...) and evaluators (code/LLMs)
+y $ relai optimize
+ae Holistic: adjusts prompts, models, tools, skills, s
+Lifelong: online regression control i
+Optimized version PR
+c

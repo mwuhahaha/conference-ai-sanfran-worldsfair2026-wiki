@@ -11,11 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon](https://www.youtube.com/watch?v=LxQsQ3vZDqo)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-devansh-tandon-tokens-in-engagement-out-training-llm-recommenders]] — Tokens In, Engagement Out: Training LLM-Recommenders
-- [[2026-06-29-devansh-tandon-open-q-and-a-llm-recsys]] — Open Q&A: LLM Recsys
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/LxQsQ3vZDqo/slide-001.jpg]]
@@ -120,9 +119,6 @@ OCR text:
 > Qo
 > | a Microsoft §=ooou®
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-LxQsQ3vZDqo-dense-slides]]

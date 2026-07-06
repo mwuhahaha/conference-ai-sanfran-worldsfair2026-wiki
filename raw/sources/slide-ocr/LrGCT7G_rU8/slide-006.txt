@@ -1,0 +1,11 @@
+RL Selects the Response, Not the Facts
+Action:
+
+State:
+1.Failure category
+2.Risk level 1.Tabular Q-learning
+3.Retry count 2.Small, interpretable state space
+4.Drift severity 3.Low-memory inference
+5.Data-quality condition 4.Inspectable Q-values for every decision
+
+“TECHNICALLY, THIS IS A SINGLE-STEP CONTEXTUAL DECISION PROBLEM IMPLEMENTED WITH TABULAR O-LEARNING.

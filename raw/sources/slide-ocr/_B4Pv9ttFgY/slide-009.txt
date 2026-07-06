@@ -1,0 +1,20 @@
+Practicalexample
+full-2026-03-30T08-23-38
+Mar30,2:00AM
+gemini_cli
+gemini-pro-latest
+Skills(CLI)
+TESTID
+ACTIONDATE
+AOENT
+MODEL
+SERVING MODE
+AIE
+AVERAGE UPLIFT
+ASSERTIONSPASSED
+ACTIVATION
+(26/26)tasks
+GUIDANCECONSUMED
+(25/26）tasks
+Engineering the future of Al
+AlEngineer

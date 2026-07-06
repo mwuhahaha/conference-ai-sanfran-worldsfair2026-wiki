@@ -1,0 +1,15 @@
+pp-
+Thesolution-doubleiframe
+specific subdomain with Cs
+chatgpt.com Content-Security-Policy
+script-srcnonce--https://*,chatgpt.com
+AIE
+frae-aroself·.stripe.com*-youtube.com
+cbody>
+srca*https://abo123.web-sandbox.oalusercontent.com>
+<meta http-equiv='Content-Security-Policy'content=connect-src'sy-servic
+<script>initializeApp(）</scriptx
+ATp/>ddyJno<ATp
+/body
+AlEngineer
+EUROPE

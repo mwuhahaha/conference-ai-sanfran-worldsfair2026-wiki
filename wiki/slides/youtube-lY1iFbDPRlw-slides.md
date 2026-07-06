@@ -11,11 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Minimax M2: Building the #1 Open Model – Olive Song, MiniMax](https://www.youtube.com/watch?v=lY1iFbDPRlw)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-thom-wolf-thom-wolf-keynote]] — Thom Wolf keynote
-- [[2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it]] — Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/lY1iFbDPRlw/slide-001.jpg]]
@@ -106,9 +105,6 @@ OCR text:
 > wire
 > all ‘} MINIMAX MiniMax Agent Intelligence “ith Evoryene
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-lY1iFbDPRlw-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-lY1iFbDPRlw-dense-slides]]

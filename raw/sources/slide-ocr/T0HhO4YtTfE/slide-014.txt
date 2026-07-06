@@ -1,0 +1,12 @@
+()
+oF co . ~
+i r is e » ons f
+Optimizing for accuracy
+Technique What it involves
+; | Prompt eng reenng Wrote clear and well-stroctured prompts
+FY EXetsaimnL aay Progress ve disclosure of eformation fo agents
+a 2 ; OlTclarmelon nn irz4iileal Rewrite or cecomoase queres for better retmeval ar generation
+a , ,
+Rerark rg Reorder retreved documents py relevance
+Compactor Summarize or remove content from the LLM’s contead wenGow
+Memory managemer* Persist information across sessions

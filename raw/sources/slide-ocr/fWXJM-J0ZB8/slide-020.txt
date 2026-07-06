@@ -1,0 +1,18 @@
+" .
+a
+
+5
+
+S
+
+ea = Capability eval
+
+a P J
+
+A Asks, “What can this agent do well?” They should
+
+i start at a low pass rate, targeting tasks the agent
+
+a struggles with and giving teams a hill to clim
+
+= —Anthropic, Demystifying Evals for Al Age

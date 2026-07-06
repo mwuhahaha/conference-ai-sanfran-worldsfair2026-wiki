@@ -1,0 +1,17 @@
+claude doesn’t use semantic code search ‘g® turbopuffer
+6 Ethan Lipnik @ &@ @EthanLipnik - Jan 30 Gove
+Does anyone know why Codex and Claude doesn't use cloud-based
+A embeddings like Cursor to quickly search through the codebase?
+* *
+bd * -
+rn a © 68 tra © 658 ih 266K Qt
+bd bd
+ariel @ Boris Cherny @ (Jou
+@bcherny
+Early versions of Claude Code used RAG + a local vector db, but we
+found pretty quickly that agentic search generally works better. It is also
+simpler and doesn’t have the same issues around security, privacy,
+staleness, and reliability.
+9:56 PM - Jan 31, 2026 - 11M Views
+ia
+Engineering the future of Al

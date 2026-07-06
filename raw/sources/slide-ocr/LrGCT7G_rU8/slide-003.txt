@@ -1,0 +1,14 @@
+Phave 1 Architecture ~ Al Pipeline Health Agent
+An End-to-End RL Pipeline
+Health Agent for Anomaly
+| —E ia Detection and Autonomous
+apa Self-Healing of Cloud Data
+= reais
+SCTE GENERA AES HERERERERARRARETUICETAE
+Monitor + Diagnose — Score > Decide —> Safety > Act — Validate
+l.Observe logs, schema, and data-quality conditions
+2.Diagnose the likely failure family
+e 3.Estimate operational risk
+
+4.Select a bounded remediation action
+5.Validate whether the action restored a healthy state

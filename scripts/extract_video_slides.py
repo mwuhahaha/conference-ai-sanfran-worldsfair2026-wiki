@@ -106,13 +106,18 @@ def video_metadata_by_id() -> dict[str, dict]:
         if video_id:
             videos.setdefault(video_id, video)
     for source_path in [
+        ROOT / "raw" / "sources" / "new-video-discovery-2026-07-06.json",
         ROOT / "raw" / "sources" / "aidotengineer-channel-streams-latest.json",
         ROOT / "raw" / "sources" / "aidotengineer-channel-videos-latest.json",
     ]:
         if not source_path.exists():
             continue
         payload = load_json(source_path)
-        for entry in payload.get("entries", []):
+        entries = []
+        entries.extend(payload.get("new_cut_videos") or [])
+        entries.extend(payload.get("new_wf26_streams") or [])
+        entries.extend(payload.get("entries") or [])
+        for entry in entries:
             video_id = entry.get("id")
             if not video_id:
                 continue

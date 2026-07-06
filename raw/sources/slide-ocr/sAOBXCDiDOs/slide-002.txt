@@ -1,0 +1,7 @@
+You know MCP. Do you know MCP Apps?
+Everyone in this room knows what MCP is. Far fewer know
+what MCP Apps are, how they work, how to build them,
+
+and how to distribute them.
+
+By the end of this talk you will know everything you need to join the race.

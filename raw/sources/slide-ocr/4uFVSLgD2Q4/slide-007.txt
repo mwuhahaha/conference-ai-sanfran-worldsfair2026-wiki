@@ -1,0 +1,39 @@
+OpenGovT
+interface AgentCard{
+1/Hunan-readablena
+for the Agent （e-g.,Recipe Agent)
+//Hunan-readable description of the Ageot's function
+description: string:
+/uRL addresswhere the Agent is hosted
+url:string:
+1/Service provider information for the Agent
+provider?:(
+Agent-to-Agent Protocol
+organization:string:
+url:string:
+11Version of the Agent(format defined by provider,e.g.,"1.o.e)
+version:string:
+documentationurl7:string:
+I/uRL for the Agent'sdocumentation
+Built Off The
+capabilities:{
+streaning?:boolean;// If the Agent supports SSE
+pushNotifications?:boolean://If the Agent can push update notifications to the client
+stateTransitionHistory?:boolean: // If the Ageot exposes task state change history
+A2AProtocol
+//Authentication requirenents for the Agent (intended to match OpenAPI auth structure)
+authentication1{
+schees:stringll://e.g.,Basic,Bearer
+I/Default Interaction nodes supported by the Agent across all skitls
+defaultInputModes:stringI]:// Supported input MINE types
+defaultoutputModes:stringIl:// Supported outputMIME types
+I/Collection ofcapability units the Agent can perform
+skills:(
+id:string:// unique identifier for the skiit
+name:string:// Mumn-readable name for the skill
+TheA2Aprotocol allowsOGAssist tobuild offasupported
+description: string://Skill description
+spec,rather than from the ground up.
+tags:stringll:// Tagsdescribing the skill's capability category (e.g.,"cooking,"cu
+examples7:stringl]:// Exanple scenarios or pronpts the skill can execute （e.g.,Inee
+Source:https://agent2agent.info/docs/concepts/agentcard/

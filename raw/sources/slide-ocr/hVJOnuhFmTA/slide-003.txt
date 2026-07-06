@@ -1,0 +1,97 @@
+:bytes
+sFind Python files>18
+Variables
+Endpoint
+timit100
+What would you like to build?
+sfind.-typef-name*py-size·k
+554889E54883
+itens-[]
+https://api.example.com/v1/users
+EC20488B7DF8
+sCount Tooos in those files
+Functions
+Method
+Write aPythonfunction
+488B75F05DC3
+$grep-RInTO0O1wc-1
+def fetch（url,timeout-5):
+GET
+that parses a CSVfile,
+resp·http.get（url,tineouttineout）
+deduplicatesrowsby
+return resp.json()
+Auth
+email (case-insensitive),
+sSho top5by size
+Conditionals
+Bearer Token
+keeps themostrecent
+；x86-64
+s1s-Uhs（find.-name'.py）
+ifresp.status_code200:
+record byupdated_at,
+push
+rbp
+sort-kS-hr|head-n5
+Token
+and returns theresult
+mov
+rbp,rsp
+-re-r--r-.
+else:
+18k Lib/parser.py
+raise Error(resp.text)
+asaJSONarray.
+sub
+rsp,8x26
+-W-F--r--
+-r-r----
+12xapi/elient.py
+mov
+rdi,[rbp-0x8]
+8.0Kutils/i0.py
+Loops
+(NOsr） son
+Requirements:
+rsi,[rbp-0x10]
+-rw-r--r-.
+000c
+mov
+6.1K tests/test_api.py
+for Item in data:
+Use csv.DictReader
+-r--r-
+ifiten["active"]:
+rbp
+.Stream large files
+pop
+sFetch API andpretty-print
+itens.append（iten)
+'actiw':trve,
+"iit:100,
+.Validate emails
+ret
+5curl-shttps://api.exanple.com/\
+upe,:olo,
+Sort by updated_at desc
+users?linit-31j0.
+Include a count summary
+Add type hints and
+（p.PT.）
+Data (JSoN）Primitive
+Timeout(s)
+docstring
+（"id:2.name²:Linus}.
+user.
+（"id":3.name²:Grace°）
+"email:*adaexanple.con*
+"role":'adnin"
+Response Format
+JSON
+0x01
+Opcodes
+Shell
+Primitives
+Fields
+Open Language

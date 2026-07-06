@@ -13,7 +13,7 @@ speakers:
 sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
-last_auto_summarized: '2026-07-03T05:04:50.555Z'
+last_auto_summarized: '2026-07-06T19:01:18.863Z'
 ---
 # Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks
 
@@ -57,9 +57,11 @@ for voice-driven development, a pattern for authoring reusable agent skills, and
 hooks and scheduled automations they can adapt the same week.
 
 ## Summary
-This confirmed Workshop Day 1 session brings together Nick Nisi and Zack Proser from WorkOS to describe a hands-on operating model for AI-native engineering. The official framing centers on replacing pre-AI development habits with deliberate agent workflows: voice-coding to externalize intent, reusable skills to preserve recurring context, hooks that respond to meaningful development events, and scheduled agent tasks that keep work moving outside normal keyboard time.
+This confirmed Workshop Day 1 session frames AI-native engineering as a redesign of the working day, not just a faster editor loop. Nick Nisi and Zack Proser are both connected to WorkOS, which makes the workshop less a generic tooling survey than a practitioner account of how developer-experience, TypeScript tooling, applied AI, and developer education habits can be reorganized around agents. The official description emphasizes four concrete workflow primitives: voice-coding as a way to externalize intent before implementation, reusable agent skills as packaged context, event-driven hooks for moments that deserve automated intervention, and scheduled tasks for work that can run while the engineer is away from the keyboard.
 
-The connected speaker pages make the WorkOS angle concrete. Nisi brings a developer-experience and TypeScript tooling perspective, with community context from JS Party and NebraskaJS, while Proser brings applied-AI and developer-education experience from WorkOS plus earlier infrastructure and AI work at Pinecone and Gruntwork. The linked supporting video and extracted slides, titled “Your Attention Is the Bottleneck, Not Your Agents,” are not confirmed as this exact workshop recording, but they reinforce the same thesis: the scarce resource is human attention, so agent systems should be designed around delegation, context packaging, and careful handoffs rather than simply accelerating the old coding loop.
+The speaker context sharpens the division of labor. Nisi's profile points toward developer experience, TypeScript, and community teaching through JS Party and NebraskaJS, so his side of the session likely grounds the topic in day-to-day engineering ergonomics: how prompts, voice notes, tools, and repo conventions become repeatable habits. Proser's WorkOS applied-AI background, earlier developer-education role, and prior infrastructure and AI experience at Pinecone and Gruntwork connect the same practices to agent-system design, retrieval-heavy context work, and teaching engineers how to operate new workflows without turning them into brittle rituals.
+
+The linked supporting video and extracted slide page, “Your Attention Is the Bottleneck, Not Your Agents,” are marked as related context rather than a confirmed recording of this exact workshop. Even with that caveat, they reinforce the workshop's central claim: the limiting resource is not agent throughput but human attention, judgment, and handoff quality. The adjacent wiki resources also place this session in a broader voice-first cluster, including “Voice In, Visuals Out,” but this page's strongest evidence remains the official schedule description plus the WorkOS speaker and slide connections. Treat the synthesis here as grounded in those linked sources, with transcript-level claims deferred until an exact recording or confirmed transcript is available.
 
 ## Related YouTube Video
 [Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS](https://www.youtube.com/watch?v=so9l_MwS2yg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

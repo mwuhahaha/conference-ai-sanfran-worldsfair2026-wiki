@@ -11,11 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Letting AI Interface with your App with MCP — Kent C Dodds](https://www.youtube.com/watch?v=EyZiAp0pelw)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1]] — Build the Right Thing: Product Engineering for Software Developers (Part 1)
-- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2]] — Build the Right Thing: Product Engineering for Software Developers — Part 2
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/EyZiAp0pelw/slide-001.jpg]]
@@ -133,9 +132,6 @@ OCR text:
 > Lifestuff
 > 88Connectapps
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-EyZiAp0pelw-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-EyZiAp0pelw-dense-slides]]

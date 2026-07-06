@@ -1,0 +1,21 @@
+Diffusion models: What & Why
++ Generate mages/video by iteratrvely denoising from random nase
+- Each step: neural network predicts and removes nose — refines output
+a *& + Quality comes from many refinement passes {typically 20-50 steps)
+* od
+* * + Powering today’s leading models
+bal x + FLUX 2 (Black Forest Labs} — SOTA text-to-image, photoreakstic
+* bd of + LTX-2 3 (Laghtsicks) — 22B params, 4K@SOfps video + audro
++ Wan 2.7, HunyuanVideo. Seedance 20.
+- Used for: text-to-image, text-to-video, image editing, 3D generation, inpainting, super-resolution, world simulation,
+scientific modeling
+0 Perenowee , . PaciatDenowe wen) ,
+a a on Bar.
+ae : PRE 5 50
+be pee LSS
+mo eae Sas Bene
+, ons Ser en eee
+a eee es P -
+pre
+= <i Pd Engineering the future of Al
+hoe Bi

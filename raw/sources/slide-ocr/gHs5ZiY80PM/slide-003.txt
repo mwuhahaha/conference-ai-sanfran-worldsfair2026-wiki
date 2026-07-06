@@ -1,0 +1,21 @@
+Quantization: Performance & Quality
+ara as ; ‘
+a | a ae 3 eed a in ‘a a : in oy
+es aaa “=
+‘ * ied vw ee
+rm x bake a a ie von a rd ed
+* * = P .
+* * *
+= | . ag . p iO i f
+a i an oat
+“= ¥ ov aaa “-
+OLY with TensorRT-LLM - Visual Gen Run a pre-quantized ckpt from HF
+# With NVFP4 quantization F ” 7
+python visual_gen_flux.py --model_path black-forest- id dale ance
+labs/FLUX.2-dev --prompt “A cat’ --linear_type trtllm-nvfp4
+" Pes
+; 7 a ae ste ces
+: ah ee aa a
+oa Al Engineer
+ES] f ral EUROPE
+Ro ;

@@ -1,0 +1,6 @@
+g
+> It has no access to why yesterday's runs passed or
+failed. The eval signal dies in a dashboard.
+7 > This is the missing layer: a system that consumes
+traces, absorbs eval outcomes, and converts both
+into retrievable guidance for future runs.

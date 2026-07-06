@@ -1,0 +1,59 @@
+Q。
+Conversion.ipynbMX
+Token_Cost_Comparison.ipynb M
+Chunkless_RAG.ipynb M
+Chunking.ipynb
+DOCLING-WORKSHOP
+Al-Ready Data with DoclingM Basic Document Conversion>M Document Structure Exploration>#Document metadata-important for tracking
+notebooks
+>fixtures
+AddCodeAddMarkdownRunAll Restart ClearAllOutputs|JupyterVariablesOutline
+venv (3.13.7) (Python 3.13.7)
+ndno<
+SectionHeaderItem:Abstract
+gitignore
+TextItem:We introduce Docling,an easy-to-use,self-contained,MITlicensed,open-source toolkit for document conversion,tr
+Chunking.ipynb
+TextItem:Repository-https://github.com/DS4SD/docling
+Chunkless_RAG.ipynbM
+SectionHeaderItem:1Introduction
+TextItem:Converting documentsback into a unified machineprocessable format has been a major challenge for decades due to th
+Conversion_Colab.ipynb
+TextItem:*These authors contributed equally.
+Converson.pynb
+M
+MCP_Agents.ipynb
+M
+Ollama RAG.ipynb
+ExportFormatsandOptions
+RAG.ipynb
+Serving.ipynb
+Doclingsupportsmultipleexportformatswithvariousoptions:
+Token_Cost_Compar.M
+Add Code
+Add Markdown
+>scripts
+>src
+#Export to different formats (various options available,but called with default ones)
+gitignore
+markdown_text=doc.export_to_markdown()
+!.markdownlint-cli2.yaml
+html_text=doc.export_to_html()
+!.poutine.yml
+json_dict=doc.export_to_dict（)
+doc_tags=doc.export_to_doctags()
+!.pre-commit-config.yaml
+F.spellcheck-en-custom.txt
+#Save different formats(various options available,some showm)
+!.spellcheck.yaml
+doc.save_as_markdown(
+constraints.txt
+output_dir/"document.nd",
+LICENSE
+image_mode=ImageRefMode.PLACEHOLDER,
+image_placeholder="<!--my image placeholder
+!mkdocs.yml
+pyproject.toml
+①README.md
+OUTLINE
+JSON

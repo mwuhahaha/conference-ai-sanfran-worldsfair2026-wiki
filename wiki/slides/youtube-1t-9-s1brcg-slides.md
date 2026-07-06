@@ -11,15 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner](https://www.youtube.com/watch?v=1t-9-s1brcg)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps]] — Get Started with Models in Microsoft Foundry to Build AI Apps
-- [[2026-06-29-pamela-fox-the-model-swap-workshop]] — The model swap workshop
-- [[2026-06-29-pamela-fox-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry]] — Observe, optimize and protect your hosted agents in Microsoft Foundry
-- [[2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end]] — Use Copilot across CLI, dev, and cloud workflows to move faster end-to-end
-- [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack]] — OpenAI, Anthropic, or agent frameworks: choose the right AI stack
-- [[2026-07-01-pamela-fox-diagnosing-agent-failures-in-production]] — Diagnosing agent failures in production
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/1t-9-s1brcg/slide-001.jpg]]
@@ -484,9 +479,6 @@ OCR text:
 > Sotad tenons 197
 > 8-0 @ Hs Sees 100 De
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-1t-9-s1brcg-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-1t-9-s1brcg-dense-slides]]

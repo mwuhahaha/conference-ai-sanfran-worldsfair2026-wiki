@@ -26,3 +26,7 @@ Software Factories is a major World's Fair 2026 theme around AI-native developme
 - [[agent-security]]
 - [[agent-evaluations]]
 - [[ai-sandboxes]]
+
+## Transcript And Resource Support
+### Transcript-backed resources
+- [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw

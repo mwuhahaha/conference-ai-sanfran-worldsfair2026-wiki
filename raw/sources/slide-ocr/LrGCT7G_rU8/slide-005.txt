@@ -1,0 +1,7 @@
+: Detection and Diagnosis
+Establish the Facts Before Choosing an Action
+Schema profiler Structure, types. nesting. null rates
+Drift detector Additions. removals. type changes
+Data-quality analyzer Completeness, validity, consistency
+‘Converts log patterns into failure categories
+Deterministic prototype with limited dataset; ML-ready with richer incident history.

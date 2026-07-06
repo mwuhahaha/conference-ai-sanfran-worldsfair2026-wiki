@@ -1,0 +1,17 @@
+it
+e Wi
+From reactive bar @
+e
+debugging to Before:
+e e \ ¢ Manual log inspection
+intelligentrecovery! —~ schematracing
+The goal is not to replace * Delayed dashboards _
+‘ ¢ Modeled MTTR: 2.5 working days
+human judgment.
+O af? 3 aa éA
+It is to reserveds for the failures as
+that truly need ite“Hr i: ¢ Event-triggered diagnosis
+Routine ETL failufes. nach erlogy Edie, e RL-guided remediation
+explainable, and ecoverabiein' nutes. ¢ Safety-constrained escalation
+. ae oy} ¢ Minutes-scale recovery
+4

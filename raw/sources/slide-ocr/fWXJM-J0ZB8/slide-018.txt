@@ -1,0 +1,55 @@
+p)
+
+Q
+
+8. Measures of Success
+
+2
+
+aa
+
+fa)
+
+a Dimension What it asks How it's measured
+
+Q
+
+Ss
+
+S JSON validity Does the output parse? Try JSON . parse, count successes
+—
+
+Do £:N] tokens point to messages that
+
+a Reference structural validity (re : ] pot g Regex extract refs, checkeachN € [1,
+< actually exist? message_count)
+
+PN
+
+= Does the summary stay faithful to the thread, LLM-as-judge — Claude scores each
+a Factual consistency es She Summary slay "at wucge — an
+
+3 or invent claims? summary against its source
+
+pee
+
+= Word count vs context-specific limits (8-12
+ig) Le compliance Does it stay in the target word band?
+
+io ngth complian OES EE SEE NN MHTAEREL OKO for tist view, 19-46 for modal)
+
+7
+
+i p50 latency Typical TT summary Median across the eval set
+
+s
+
+S
+
+o p95 latency Worst-case wait 95th percentile across the
+
+=
+
+2)
+
+=] £ach evaluator returns a per-example score. Average across the 28-example golden dataset, with 3 repetitrons per example __

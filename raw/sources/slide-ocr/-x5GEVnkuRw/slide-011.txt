@@ -1,0 +1,12 @@
+Docling: Get your documents ready for gen Al
+An open source processor using advanced vision models * OCR
+> Parsing of multipie document formats incl. PDF, iC ™
+DOCX, XLSX, HTML, images, and more Oi ced thd
+mee Gen
+» Advanced PDF understanding with page layout, j= a - | | r
+| '
+reading order, table structure, code, formulas, - ast
+image classification, etc
+» Plug-and-play ecosystem integrations
+» Local execution for sensitive data and
+air-gapped environments

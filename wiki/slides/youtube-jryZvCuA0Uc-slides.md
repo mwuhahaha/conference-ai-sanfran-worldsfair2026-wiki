@@ -11,13 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)](https://www.youtube.com/watch?v=jryZvCuA0Uc)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-jason-liu-getting-the-most-out-of-codex]] — Getting the most out of Codex
-- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-1]] — Setting Yourself Up for Success — Part 1
-- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-2]] — Setting Yourself Up for Success — Part 2
-- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-3]] — Setting Yourself Up for Success — Part 3
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/jryZvCuA0Uc/slide-001.jpg]]
@@ -51,9 +48,6 @@ OCR text:
 > . lo : ae
 > | ie
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-jryZvCuA0Uc-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-jryZvCuA0Uc-dense-slides]]

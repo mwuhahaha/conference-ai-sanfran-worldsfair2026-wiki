@@ -1,0 +1,2300 @@
+{
+  "processed": [
+    {
+      "video_id": "hqHC6Z_lXyo",
+      "title": "20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          55
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          36
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          10
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          4
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3313
+    },
+    {
+      "video_id": "0S8xe9ftGTM",
+      "title": "6 Things to Know about AIE World's Fair 2026",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          24
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          9
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          7
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          5
+        ]
+      ],
+      "matches": [],
+      "quotes": 2,
+      "words": 3479
+    },
+    {
+      "video_id": "jVjt-2g8NMY",
+      "title": "A Genius With Amnesia - Victor Savkin, Nx",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          109
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          19
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          3
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          2
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3363
+    },
+    {
+      "video_id": "aHhB3sjGjkI",
+      "title": "Agents Building Agents - Alfonso Graziano, Nearform",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          63
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          47
+        ],
+        [
+          "mcp",
+          "MCP",
+          31
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          19
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 4742
+    },
+    {
+      "video_id": "4uFVSLgD2Q4",
+      "title": "Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          34
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          21
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          11
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          9
+        ]
+      ],
+      "matches": [
+        "2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli"
+      ],
+      "quotes": 3,
+      "words": 3047
+    },
+    {
+      "video_id": "T0HhO4YtTfE",
+      "title": "AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          51
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          38
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          35
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          9
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 4200
+    },
+    {
+      "video_id": "Iwe_RY-fYgI",
+      "title": "AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          33
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          13
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          7
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          7
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2314
+    },
+    {
+      "video_id": "dvft0Gp9sEE",
+      "title": "Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          17
+        ],
+        [
+          "mcp",
+          "MCP",
+          6
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          6
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          5
+        ]
+      ],
+      "matches": [
+        "2026-06-29-charlie-guo-cooking-with-codex",
+        "2026-06-29-charlie-guo-voice-agents-can-just-do-things"
+      ],
+      "quotes": 3,
+      "words": 1508
+    },
+    {
+      "video_id": "504PvfXou5Y",
+      "title": "BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          18
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          8
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          3
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          2
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 1865
+    },
+    {
+      "video_id": "zKk7sDMGDEQ",
+      "title": "Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          69
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          50
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          20
+        ],
+        [
+          "mcp",
+          "MCP",
+          18
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3298
+    },
+    {
+      "video_id": "hCMrEfPG2Yg",
+      "title": "Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          46
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          20
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          4
+        ],
+        [
+          "agent-security",
+          "Agent Security",
+          3
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2621
+    },
+    {
+      "video_id": "mFLlVpnGpds",
+      "title": "Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI",
+      "topics": [
+        [
+          "voice-agents",
+          "Voice Agents",
+          68
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          40
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          8
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          5
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 4117
+    },
+    {
+      "video_id": "JnubYCYunk8",
+      "title": "Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK",
+      "topics": [
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          15
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          9
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          8
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          1
+        ]
+      ],
+      "matches": [],
+      "quotes": 0,
+      "words": 937
+    },
+    {
+      "video_id": "ZD9-4fW2HhM",
+      "title": "Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          29
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          11
+        ],
+        [
+          "mcp",
+          "MCP",
+          6
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          4
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3006
+    },
+    {
+      "video_id": "_B4Pv9ttFgY",
+      "title": "Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          90
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          30
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          22
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          7
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3311
+    },
+    {
+      "video_id": "wFTVEDYVJT0",
+      "title": "Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          49
+        ],
+        [
+          "mcp",
+          "MCP",
+          33
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          27
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          14
+        ]
+      ],
+      "matches": [
+        "2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus"
+      ],
+      "quotes": 3,
+      "words": 13586
+    },
+    {
+      "video_id": "whue9_YquGA",
+      "title": "Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          53
+        ],
+        [
+          "mcp",
+          "MCP",
+          14
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          4
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          4
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2725
+    },
+    {
+      "video_id": "UNzCG3lw6O0",
+      "title": "Building Great Agent Skills: The Missing Manual",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          39
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          26
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          8
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          4
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 4219
+    },
+    {
+      "video_id": "_xIwFcnHqp4",
+      "title": "Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          114
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          44
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          6
+        ],
+        [
+          "agent-security",
+          "Agent Security",
+          2
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2852
+    },
+    {
+      "video_id": "KLSuFPj2ld0",
+      "title": "Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          29
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          18
+        ],
+        [
+          "mcp",
+          "MCP",
+          18
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          3
+        ]
+      ],
+      "matches": [
+        "2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents",
+        "2026-07-01-jennifer-lee-building-safe-payment-infrastructure-for-machine-to-machine-commerce",
+        "2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use",
+        "2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2",
+        "2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents"
+      ],
+      "quotes": 3,
+      "words": 3304
+    },
+    {
+      "video_id": "Akm1sqvWG4A",
+      "title": "Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          56
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          56
+        ],
+        [
+          "mcp",
+          "MCP",
+          11
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          8
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 6285
+    },
+    {
+      "video_id": "2IxD9OB3XuQ",
+      "title": "Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          47
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          24
+        ],
+        [
+          "mcp",
+          "MCP",
+          22
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          21
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3230
+    },
+    {
+      "video_id": "pmoDeA3RBZY",
+      "title": "Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          44
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          13
+        ],
+        [
+          "software-factories",
+          "Software Factories",
+          6
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          4
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3258
+    },
+    {
+      "video_id": "bk0TmxoZlUY",
+      "title": "Evals 101 — Doug Guthrie, Braintrust",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          97
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          49
+        ],
+        [
+          "mcp",
+          "MCP",
+          21
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          5
+        ]
+      ],
+      "matches": [
+        "2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability"
+      ],
+      "quotes": 3,
+      "words": 9125
+    },
+    {
+      "video_id": "QuuIywMG4s8",
+      "title": "Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          44
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          33
+        ],
+        [
+          "mcp",
+          "MCP",
+          11
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          11
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 4050
+    },
+    {
+      "video_id": "9fubhllmsBU",
+      "title": "Field Guide to Fable — Thariq Shihipar, Anthropic",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          45
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          9
+        ],
+        [
+          "mcp",
+          "MCP",
+          8
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          4
+        ]
+      ],
+      "matches": [
+        "2026-06-30-thariq-shihipar-field-guide-to-fable"
+      ],
+      "quotes": 3,
+      "words": 3542
+    },
+    {
+      "video_id": "fWXJM-J0ZB8",
+      "title": "Frontier results, on device - RL Nabors, Arize",
+      "topics": [
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          29
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          24
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          17
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          10
+        ]
+      ],
+      "matches": [],
+      "quotes": 2,
+      "words": 4922
+    },
+    {
+      "video_id": "zDGHt0LB-dA",
+      "title": "GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          24
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          21
+        ],
+        [
+          "mcp",
+          "MCP",
+          11
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          5
+        ]
+      ],
+      "matches": [],
+      "quotes": 1,
+      "words": 2652
+    },
+    {
+      "video_id": "KA5kPbdkK2E",
+      "title": "How Lovable self-improves every hour — Benjamin Verbeek, Lovable",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          19
+        ],
+        [
+          "mcp",
+          "MCP",
+          17
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          8
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          4
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3423
+    },
+    {
+      "video_id": "u-rJwPPU3QA",
+      "title": "How to talk to statues — Joe Reeve, ElevenLabs",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          55
+        ],
+        [
+          "voice-agents",
+          "Voice Agents",
+          44
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          9
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          8
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 6781
+    },
+    {
+      "video_id": "JRTAtZ5iBkU",
+      "title": "HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          17
+        ],
+        [
+          "mcp",
+          "MCP",
+          15
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          2
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          1
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 1152
+    },
+    {
+      "video_id": "sAOBXCDiDOs",
+      "title": "MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          229
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          41
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          14
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          10
+        ]
+      ],
+      "matches": [
+        "2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software",
+        "2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli",
+        "2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies",
+        "2026-06-30-liad-yosef-mcp-apps-extending-the-frontier",
+        "2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui"
+      ],
+      "quotes": 3,
+      "words": 4772
+    },
+    {
+      "video_id": "akk6KRlcwW4",
+      "title": "OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          25
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          7
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          5
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          3
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2391
+    },
+    {
+      "video_id": "vljxQZfJ9wY",
+      "title": "Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          82
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          13
+        ],
+        [
+          "mcp",
+          "MCP",
+          12
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          4
+        ]
+      ],
+      "matches": [
+        "2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale"
+      ],
+      "quotes": 3,
+      "words": 1143
+    },
+    {
+      "video_id": "UM6sFg_jdlE",
+      "title": "RAG is dead, right?? — Kuba Rogut, Turbopuffer",
+      "topics": [
+        [
+          "agentic-search",
+          "Agentic Search",
+          59
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          34
+        ],
+        [
+          "mcp",
+          "MCP",
+          9
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          8
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2187
+    },
+    {
+      "video_id": "3hXJI2q0Jz8",
+      "title": "Recursive Coding Agents - Raymond Weitekamp, OpenProse",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          89
+        ],
+        [
+          "mcp",
+          "MCP",
+          15
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          13
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          11
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3697
+    },
+    {
+      "video_id": "OXMMN-XbxwA",
+      "title": "Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          48
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          34
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          34
+        ],
+        [
+          "mcp",
+          "MCP",
+          4
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2284
+    },
+    {
+      "video_id": "TUnPNY4E2fw",
+      "title": "Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI",
+      "topics": [
+        [
+          "agent-memory",
+          "Agent Memory",
+          33
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          27
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          22
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          9
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2091
+    },
+    {
+      "video_id": "zMiSRliEzv4",
+      "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          29
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          16
+        ],
+        [
+          "mcp",
+          "MCP",
+          10
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          10
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2882
+    },
+    {
+      "video_id": "Xfl50508LZM",
+      "title": "Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          120
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          36
+        ],
+        [
+          "mcp",
+          "MCP",
+          16
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          6
+        ]
+      ],
+      "matches": [
+        "2026-06-30-laurie-voss-evals-track-intro",
+        "2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101",
+        "2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201",
+        "2026-06-30-laurie-voss-the-death-of-the-code-review",
+        "2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it"
+      ],
+      "quotes": 3,
+      "words": 22591
+    },
+    {
+      "video_id": "SS-A8sE7hkw",
+      "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          28
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          21
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          9
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          8
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 4033
+    },
+    {
+      "video_id": "TNwJ1LMiENk",
+      "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          22
+        ],
+        [
+          "mcp",
+          "MCP",
+          21
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          20
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          13
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 4032
+    },
+    {
+      "video_id": "ij-AU9dpJjc",
+      "title": "Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          59
+        ],
+        [
+          "voice-agents",
+          "Voice Agents",
+          26
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          10
+        ],
+        [
+          "mcp",
+          "MCP",
+          7
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3716
+    },
+    {
+      "video_id": "-x5GEVnkuRw",
+      "title": "Structuring the Unstructured - Cedric Clyburn, Red Hat",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          47
+        ],
+        [
+          "mcp",
+          "MCP",
+          33
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          27
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          7
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3937
+    },
+    {
+      "video_id": "wcUJWP6WpGM",
+      "title": "SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          56
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          27
+        ],
+        [
+          "mcp",
+          "MCP",
+          15
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          6
+        ]
+      ],
+      "matches": [
+        "2026-07-01-brian-lewis-which-ai-startups-actually-land-enterprise-contracts-lessons-from-evaluating-100-ai-startups-at-millennium-management"
+      ],
+      "quotes": 3,
+      "words": 2642
+    },
+    {
+      "video_id": "YYH0DMQr30A",
+      "title": "Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          52
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          35
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          14
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          10
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3665
+    },
+    {
+      "video_id": "r305-aQTaU0",
+      "title": "Text Diffusion — Brendan O’Donoghue, Google DeepMind",
+      "topics": [
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          97
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          55
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          16
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          9
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 5238
+    },
+    {
+      "video_id": "vh2VGuQ3zhY",
+      "title": "The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          175
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          40
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          29
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          27
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3468
+    },
+    {
+      "video_id": "ghJmWQCIHRM",
+      "title": "The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          97
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          22
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          6
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          5
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3246
+    },
+    {
+      "video_id": "pSto5YaNGUo",
+      "title": "The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          61
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          41
+        ],
+        [
+          "mcp",
+          "MCP",
+          11
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          6
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 4340
+    },
+    {
+      "video_id": "iNkFlCiij0U",
+      "title": "The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          90
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          49
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          15
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          15
+        ]
+      ],
+      "matches": [
+        "2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends"
+      ],
+      "quotes": 3,
+      "words": 4346
+    },
+    {
+      "video_id": "spNAUEgq_A8",
+      "title": "The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          54
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          31
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          16
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          11
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 5175
+    },
+    {
+      "video_id": "UPwGaM2MKHY",
+      "title": "The Log Is The Agent - Ishaan Sehgal, Omnara",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          39
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          19
+        ],
+        [
+          "mcp",
+          "MCP",
+          18
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          9
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2546
+    },
+    {
+      "video_id": "IJXjTLPzvAU",
+      "title": "The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          31
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          23
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          16
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          8
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 7031
+    },
+    {
+      "video_id": "kZsf_Sfm7RU",
+      "title": "The Missing Layer After Launch - Raphael Kalandadze, Wandero AI",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          25
+        ],
+        [
+          "mcp",
+          "MCP",
+          14
+        ],
+        [
+          "voice-agents",
+          "Voice Agents",
+          9
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          6
+        ]
+      ],
+      "matches": [
+        "2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents",
+        "2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis",
+        "2026-07-01-giedrius-steimantas-the-missing-layer-in-agentic-ai",
+        "2026-07-01-rodrigo-coelho-agent-spending-without-controls-the-missing-infrastructure-layer-for-ai-pa"
+      ],
+      "quotes": 3,
+      "words": 3369
+    },
+    {
+      "video_id": "ObTPqBGsEbA",
+      "title": "The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          52
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          44
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          4
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          4
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 6544
+    },
+    {
+      "video_id": "hVJOnuhFmTA",
+      "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          30
+        ],
+        [
+          "voice-agents",
+          "Voice Agents",
+          17
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          7
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          1
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3152
+    },
+    {
+      "video_id": "DqtmZE6Hl0g",
+      "title": "The Prompt is the Platform - Dominik Tornow, Resonate HQ",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          11
+        ],
+        [
+          "mcp",
+          "MCP",
+          8
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          4
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          1
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2088
+    },
+    {
+      "video_id": "ILdE7FaAjVA",
+      "title": "Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          14
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          11
+        ],
+        [
+          "mcp",
+          "MCP",
+          9
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          8
+        ]
+      ],
+      "matches": [],
+      "quotes": 1,
+      "words": 1823
+    },
+    {
+      "video_id": "Jx4ZFEAq6bY",
+      "title": "User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch",
+      "topics": [
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          32
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          21
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          18
+        ],
+        [
+          "mcp",
+          "MCP",
+          11
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 1867
+    },
+    {
+      "video_id": "IddXPepIAS4",
+      "title": "Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          53
+        ],
+        [
+          "mcp",
+          "MCP",
+          19
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          4
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          1
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3287
+    },
+    {
+      "video_id": "65X0pQ6Lmbg",
+      "title": "Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
+      "topics": [
+        [
+          "voice-agents",
+          "Voice Agents",
+          22
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          17
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          11
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          3
+        ]
+      ],
+      "matches": [
+        "2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks"
+      ],
+      "quotes": 3,
+      "words": 1935
+    },
+    {
+      "video_id": "dRmWYHuIJxM",
+      "title": "We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          42
+        ],
+        [
+          "mcp",
+          "MCP",
+          22
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          17
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          16
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 1320
+    },
+    {
+      "video_id": "4sX_He5c4sI",
+      "title": "WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          50
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          10
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          8
+        ],
+        [
+          "mcp",
+          "MCP",
+          8
+        ]
+      ],
+      "matches": [
+        "2026-06-29-sonar-expo-welcome-speech"
+      ],
+      "quotes": 3,
+      "words": 82600
+    },
+    {
+      "video_id": "htM02KMNZnk",
+      "title": "WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          38
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          33
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          30
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          12
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 89050
+    },
+    {
+      "video_id": "I2cbIws9j10",
+      "title": "WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          35
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          17
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          10
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          9
+        ]
+      ],
+      "matches": [
+        "2026-07-01-garry-tan-closing-keynote-garry-tan",
+        "2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs"
+      ],
+      "quotes": 3,
+      "words": 91792
+    },
+    {
+      "video_id": "HvZXAOZ3iv8",
+      "title": "What Lies Beneath the API — Benjamin Cowen, Modal",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          22
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          13
+        ],
+        [
+          "mcp",
+          "MCP",
+          7
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          6
+        ]
+      ],
+      "matches": [],
+      "quotes": 2,
+      "words": 1823
+    },
+    {
+      "video_id": "XovaGv4f39A",
+      "title": "When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
+      "topics": [
+        [
+          "agent-memory",
+          "Agent Memory",
+          20
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          16
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          12
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          2
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 863
+    },
+    {
+      "video_id": "SKDJo2CopRs",
+      "title": "Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          42
+        ],
+        [
+          "mcp",
+          "MCP",
+          33
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          20
+        ],
+        [
+          "agent-security",
+          "Agent Security",
+          14
+        ]
+      ],
+      "matches": [
+        "2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers"
+      ],
+      "quotes": 3,
+      "words": 4757
+    },
+    {
+      "video_id": "c-2eEv2ou7Y",
+      "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          61
+        ],
+        [
+          "mcp",
+          "MCP",
+          61
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          14
+        ],
+        [
+          "agent-security",
+          "Agent Security",
+          11
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3346
+    },
+    {
+      "video_id": "EcqMYoIV57A",
+      "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          66
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          47
+        ],
+        [
+          "mcp",
+          "MCP",
+          15
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          14
+        ]
+      ],
+      "matches": [
+        "2026-06-29-yoni-michael-the-data-context-layer-why-data-engineering-agents-need-more-than-code-and-databases",
+        "2026-06-30-gil-feig-why-your-company-needs-a-context-graph-and-how-to-build-it"
+      ],
+      "quotes": 3,
+      "words": 4289
+    },
+    {
+      "video_id": "B9h9ovW5H9U",
+      "title": "Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
+      "topics": [
+        [
+          "agent-memory",
+          "Agent Memory",
+          35
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          29
+        ],
+        [
+          "mcp",
+          "MCP",
+          15
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          14
+        ]
+      ],
+      "matches": [
+        "2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries"
+      ],
+      "quotes": 3,
+      "words": 2859
+    },
+    {
+      "video_id": "6bmM45jkMDY",
+      "title": "You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          23
+        ],
+        [
+          "mcp",
+          "MCP",
+          6
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          1
+        ],
+        [
+          "agent-security",
+          "Agent Security",
+          1
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 2339
+    },
+    {
+      "video_id": "gHs5ZiY80PM",
+      "title": "You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          48
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          16
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          10
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          9
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 3117
+    },
+    {
+      "video_id": "uiP88SpCi1Q",
+      "title": "Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          22
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          17
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          13
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          9
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 1000
+    },
+    {
+      "video_id": "btxGmN8RvNU",
+      "title": "Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          34
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          16
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          16
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          6
+        ]
+      ],
+      "matches": [
+        "2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training",
+        "2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training"
+      ],
+      "quotes": 3,
+      "words": 2716
+    },
+    {
+      "video_id": "d_Ftrl3vfV0",
+      "title": "Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          11
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          3
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          2
+        ],
+        [
+          "mcp",
+          "MCP",
+          2
+        ]
+      ],
+      "matches": [],
+      "quotes": 2,
+      "words": 984
+    }
+  ],
+  "missing_transcripts": [
+    "gUMwt4-5kn0",
+    "LrGCT7G_rU8"
+  ],
+  "quote_count": 220,
+  "updated_at": "2026-07-06T19:22:40.005695+00:00"
+}

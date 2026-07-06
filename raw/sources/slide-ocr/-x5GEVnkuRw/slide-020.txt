@@ -1,0 +1,60 @@
+Q
+B
+Conversion.ipynbMx
+Token_Cost_Comparison.ipynb M
+Chunkless_RAG.ipynb M
+Chunking.ipynb
+DOCLING-WORKSHOP
+notebooks
+>fixtures
+AddCodeAdd MarkdownRun All Restart ClearAll Outputs|JupyterVariablesOutline
+venv (3.13.7) (Python 3.13.7)
+>output
+gitignore
+Chunking.ipynb
+InspectingPicture Content
+Chunkless_RAG.ipynbM
+Conversion_Colab.ipynb
+Conversion.ipynb
+M
+D日
+MCP_Agents.ipynb
+M
+definspect_pictures_with_inages（doc:DoclingDocument,image_size=(6,4)):
+Ollama RAG.ipynb
+pisplay pictures inline with their text content.
+RAG.ipynb
+foridx,pictureinenumerateiPictureItem](doc.pictures):
+Serving.ipynb
+print(f"\n('=′60)")
+Token_Cost_Compari..M
+print（f"Picture(idx)")
+print（f"('='*60）")
+scripts
+）src
+#Display the image
+gitignore
+try:
+!.markdownlint-cli2.yaml
+img=picture.get_image(doc)
+ifimg:
+!poutine.yml
+plt.figure(figsize=image_size)
+!.pre-commit-config.yaml
+plt.inshow（img)
+F.spellcheck-en-custom.txt
+plt.axis('off')
+!.spellcheck.yaml
+plt.title(f"Picture(idx}")
+Fconstraints.txt
+plt.show()
+LICENSE
+print（f"Could not display image:(e)")
+!mkdocs.yml
+pyproject.toml
+#Display metadata
+README.md
+caption=picture.caption_text(doc)
+ifcaption:
+print（f"\nCaption:(caption}")
+OUTLINE

@@ -1,0 +1,16 @@
+5 *
+&
+
+5
+
+S
+
+Ea = Smaller) Language Models (SLMs)
+
+=
+
+A Smaller versions of LLMs containing several million
+
+i to several billion parameters (LLMs may have
+
+a hundreds of billions or even a trillion “6

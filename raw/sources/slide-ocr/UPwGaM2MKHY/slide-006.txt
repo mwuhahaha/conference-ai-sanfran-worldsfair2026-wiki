@@ -1,0 +1,8 @@
+{
+9
+The deepest lock-in is log lock-in
+1. Models Can be Swapped
+2. APtIs/Tools can be changed
+3. Log is locked in. Continuity is trapped.
+tad
+in et F

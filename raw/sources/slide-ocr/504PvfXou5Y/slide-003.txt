@@ -1,0 +1,20 @@
+® e
+ADR: what it looks like
+e
+id: "@38°
+ra status: Accepted ;
+* * enforced _by: import-linter
+* Pd eet weer haa eel es
+Ps | Ae | * - *e/templates/we*
+AIE ~ “eftermplatetags/es*
+bd * —_—
+we *
+CCM Lei teC sme Uma eke
+Context: Templates called .filter() and .count() directly,
+making Nel queries invisible until production,
+Oecision: Tenplates receive only pre-fetched typed data.
+ORM models are barned from the terplate layer.
+Enforced: import-linter blocks CRM icports in tevplates.
+| e ° i f
+| ! Engineering the future of Al
+" 7 .

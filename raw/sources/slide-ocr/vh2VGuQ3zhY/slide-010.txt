@@ -1,0 +1,17 @@
+KNOW THELIMITS
+Trade-Offs&BestPractices
+Ankush Rastogi
+CONCERN
+MITIGATION
+Router maymiss a needed tool
+Fallback:raiseK,or let theLLMrequestmore
+Adds complexity:vector DB+tuning
+Embedding search is ms-fast; the savings dominate
+Sohail Shuikh
+Raretoolsmayranklow
+Logmisses;retrain oraddkeyword boosting
+Kthresholdishard to calibrate
+Start atK=5;tune on a dev eval set
+Notworthitbelow~20 tools
+For smalltoolsets,load statically;norouter
+Ankush Rastogi

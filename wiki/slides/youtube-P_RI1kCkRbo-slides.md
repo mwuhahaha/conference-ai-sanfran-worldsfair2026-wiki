@@ -11,14 +11,10 @@ sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 [Voice AI: when is the "Her" moment? — Neil Zeghidour, CEO, Gradium AI](https://www.youtube.com/watch?v=P_RI1kCkRbo)
 
 ## Relationship To World's Fair 2026
-These slides are extracted from a public AI Engineer YouTube video that matched one or more scheduled World's Fair sessions by speaker. They are supporting context unless the video is later confirmed as the exact session recording.
+These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.
 
 ## Related Scheduled Sessions
-- [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie]] — Your Voice Agent is Just a Walkie-Talkie
-- [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-1-of-3]] — Everybody Gets a Digital Clone! (Part 1 of 3)
-- [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-2-of-3]] — Everybody Gets a Digital Clone! (Part 2 of 3)
-- [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-3-of-3]] — Everybody Gets a Digital Clone! (Part 3 of 3)
-- [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface]] — Voice is the universal interface
+- No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
 ![[assets/slides/P_RI1kCkRbo/slide-001.jpg]]
@@ -244,9 +240,6 @@ OCR text:
 > aU elas
 > AI.ENGINEER
 
+
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
-## Reconstructed Slide Deck
-- [[youtube-P_RI1kCkRbo-reconstructed-slides]]
-## Dense Scene-Detected Slide Candidates
-- [[youtube-P_RI1kCkRbo-dense-slides]]
