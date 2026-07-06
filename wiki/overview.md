@@ -1,8 +1,12 @@
 # AI Engineer World's Fair 2026 Wiki
 
-AI Engineer World's Fair 2026 ran June 28-July 2, 2026 in San Francisco, with main programming at Moscone West. This standalone wiki turns the official schedule, public AI Engineer YouTube evidence, livestream transcripts, and extracted slide data into an interlinked conference intelligence map.
+AI Engineer World's Fair 2026 ran June 28-July 2, 2026 in San Francisco, with main programming at Moscone West. This standalone wiki was built from the official AI Engineer World's Fair schedule and speaker data, then enriched with public AI Engineer YouTube uploads, livestream transcripts, local Whisper fallback transcripts where needed, extracted video frames, slide OCR, reconstructed slide crops, quote selection, and content-derived topic links.
 
-The wiki is schedule-first. Official session and speaker pages are treated as the backbone; YouTube videos, transcripts, OCR, and reconstructed slides are supporting evidence unless a video is confirmed as an exact session recording.
+The result is a schedule-first conference intelligence map. Official session and speaker pages are the backbone; YouTube videos, transcripts, OCR, reconstructed slides, quotes, topics, people, and company pages are layered on top as supporting evidence and navigation paths.
+
+## Source Links
+- Source repository: [mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki](https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki).
+- Official event site: [AI Engineer World's Fair 2026](https://www.ai.engineer/worldsfair/2026).
 
 ## Quick Access
 - [[index]] — full wiki index and section guide.
@@ -13,8 +17,6 @@ The wiki is schedule-first. Official session and speaker pages are treated as th
 - [[worldsfair-2026-livestreams]] — livestream uploads, transcript status, and slide extraction.
 - [[advanced-slide-logic-page-audit]] — RapidOCR and reconstructed-slide audit.
 - [[source-boundary]] — corpus rules and evidence confidence.
-- Source repository: [mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki](https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki).
-- Official event site: [AI Engineer World's Fair 2026](https://www.ai.engineer/worldsfair/2026).
 
 ## Corpus
 - 560 official schedule sessions generated as talk pages.
