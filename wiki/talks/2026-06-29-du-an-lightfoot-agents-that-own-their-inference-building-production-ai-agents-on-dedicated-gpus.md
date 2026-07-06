@@ -12,13 +12,13 @@ speakers:
 sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
-last_auto_summarized: '2026-07-04T08:18:58.152Z'
+last_auto_summarized: '2026-07-06T20:02:16.974Z'
 ---
 # Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs
 
 ## Official Schedule Context
 - Date/time: 2026-06-29 · 9:00am-11:00am
-- Track/room: track TBD · Track 7
+- Room: Track 7
 - Speaker(s): Du'an Lightfoot
 - Session type/status: sponsor · confirmed
 
@@ -48,11 +48,13 @@ under real concurrency, KV cache tradeoffs, vLLM's metrics, and the bottlenecks 
 when you operate the inference server yourself.
 
 ## Summary
-Du'an Lightfoot's workshop is framed as a hands-on production-inference lab for teams that want more control over the model-serving layer behind their agents. The official schedule description is explicit about the operational problem: hosted token APIs can become a liability when customer data, rate limits, launch traffic, latency targets, or rising usage costs make external inference feel like rented capacity rather than product infrastructure. In response, the workshop has participants use a dedicated GPU, stand up vLLM, point an agent at that endpoint, and then apply concurrent load until the inference server's real behavior shows up in metrics.
+Du'an Lightfoot's World's Fair workshop is a production-inference lab for agent teams that want the model endpoint to become infrastructure they own rather than an external token API they rent. The official session description names the operational pressure points directly: customer data leaving the team's boundary, provider rate limits during launches, high-volume products, latency-sensitive workloads, regulated-industry constraints, and token bills that turn inference into a scaling risk. The hands-on shape is concrete: participants get a dedicated GPU, stand up vLLM, connect an agent to that endpoint, and then push concurrent traffic through the system until batching, KV-cache pressure, throughput limits, and latency tradeoffs become visible in metrics.
 
-The useful connection is to Lightfoot's related public AI Engineer workshop, "Building Agents with Amazon Nova Act and MCP." That adjacent material is not confirmed as a recording of this exact World's Fair session, but it establishes the application-level agent vocabulary around tools, actions, environments, memory, autonomous systems, model-driven execution, Amazon Nova, and MCP. The extracted, dense, and reconstructed slide pages all point back to that same agent-building context. This page sits one layer lower in the stack: instead of focusing on how an agent selects tools or acts in an environment, it focuses on what happens when the team owns the model endpoint that agent depends on.
+The connected Du'an Lightfoot people page makes the production framing sharper: Lightfoot is described as a Senior AI Engineer at Akamai Technologies, where AI work intersects with network engineering and infrastructure. That background matters because this session is not pitched as an agent-framework tutorial. It is about the layer underneath the agent: the GPU-backed serving stack, the scheduler, the cache, the observability surface, and the failure modes that only appear when multiple requests compete for the same inference server. In this page's evidence model, the official schedule supplies the confirmed World's Fair topic, while the connected YouTube, transcript, and slide pages supply adjacent public context for Lightfoot's agent-building vocabulary.
 
-Read against the connected people and slide pages, the session is best understood as the infrastructure-heavy counterpart to Lightfoot's agentic-systems material. A team coming from the Nova Act and MCP framing would already be thinking in terms of agents that plan, act, remember, and call tools; this workshop asks what it takes to run the inference substrate for those agents under production pressure. The concrete learning surface is vLLM behavior under load: continuous batching, KV-cache pressure, throughput ceilings, and the latency tradeoffs that appear when many requests share a GPU-backed server. That makes the session less about choosing an agent framework and more about treating the GPU, scheduler, cache, metrics, and serving endpoint as part of the product's reliability boundary.
+The related AI Engineer video, "Building Agents with Amazon Nova Act and MCP," should be treated as supporting context rather than a confirmed recording of this exact session. Its extracted, dense, and reconstructed slide pages point to application-level concepts such as tools, actions, environments, memory, autonomous systems, model-driven execution, Amazon Nova, and MCP. Read alongside those pages, this World's Fair workshop looks like the infrastructure counterpart to that agentic-systems material. A team can use Nova Act, MCP, tools, memory, and environment interaction to design the agent loop, but this session asks what happens when the agent's intelligence depends on a self-operated model server under real load.
+
+The key synthesis is that "owning inference" expands the reliability boundary of an agent product. Once the team runs vLLM on a dedicated GPU, product behavior is shaped by continuous batching efficiency, KV-cache capacity, request concurrency, per-request latency targets, GPU utilization, and the quality of metrics available during tuning. The workshop's likely value is not just that attendees leave with working code; it is that they see the hidden coupling between agent design and inference operations. Tool-calling agents, autonomous workflows, and MCP-connected systems all become more operationally serious when their model-serving endpoint is a component the team must capacity-plan, observe, and optimize itself.
 
 ## Related YouTube Video
 [Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)](https://www.youtube.com/watch?v=wFTVEDYVJT0) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
