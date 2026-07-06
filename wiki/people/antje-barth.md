@@ -3,6 +3,7 @@ title: "Antje Barth"
 category: "people"
 role: "Member of Technical Staff"
 company: "Amazon AGI Lab"
+twitter: "https://x.com/anbarth"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Member of Technical Staff at Amazon AGI Lab.
+
+## Profile Links
+- [X / Twitter](https://x.com/anbarth)
 
 ## Official Bio
 Member of Technical Staff at Amazon AGI, AI product leader, keynote speaker, and O'Reilly author. She also co-instructed Generative AI with Large Language Models with DeepLearning.AI.

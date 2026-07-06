@@ -2,6 +2,8 @@
 title: "Rita Zhang"
 category: "people"
 company: "Coreweave"
+twitter: "https://x.com/ritazzhang"
+website: "https://ritazh.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -9,6 +11,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Role not listed at Coreweave.
+
+## Profile Links
+- [X / Twitter](https://x.com/ritazzhang)
+- [Website](https://ritazh.com)
 
 ## Official Bio
 Rita Zhang works on CoreWeave's inference platform and AI/ML workload infrastructure. Her background includes principal software engineering work at Microsoft on cloud-native and AI platform systems.

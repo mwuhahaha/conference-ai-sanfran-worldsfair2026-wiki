@@ -3,6 +3,7 @@ title: "Zack Proser"
 category: "people"
 role: "AI Engineer, Applied AI"
 company: "WorkOS"
+twitter: "https://x.com/zackproser"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 AI Engineer, Applied AI at WorkOS.
+
+## Profile Links
+- [X / Twitter](https://x.com/zackproser)
 
 ## Official Bio
 AI engineer working on Applied AI at WorkOS; previously led Developer Education at WorkOS and has earlier experience at Pinecone, Gruntwork, and Cloudflare.

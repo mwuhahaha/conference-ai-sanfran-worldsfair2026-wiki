@@ -3,6 +3,7 @@ title: "Simran Arora"
 category: "people"
 role: "Computer Science PhD Student"
 company: "Stanford University"
+website: "https://arorasimran.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Computer Science PhD Student at Stanford University.
+
+## Profile Links
+- [Website](https://arorasimran.com)
 
 ## Official Bio
 Simran Arora is a Stanford computer science PhD student working on AI systems, GPU kernels, and efficient model execution. She is a co-author of KernelBench and related multi-GPU kernel research, and is associated with Together AI in recent AI-for-science and systems work.

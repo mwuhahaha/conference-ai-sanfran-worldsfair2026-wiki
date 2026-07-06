@@ -3,6 +3,7 @@ title: "Eugene Yan"
 category: "people"
 role: "Member of Technical Staff"
 company: "Anthropic"
+twitter: "https://x.com/eugeneyan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Member of Technical Staff at Anthropic.
+
+## Profile Links
+- [X / Twitter](https://x.com/eugeneyan)
 
 ## Official Bio
 Eugene Yan is a Member of Technical Staff at Anthropic, where he works on safe and reliable AI systems at scale. He previously led ML/AI teams at Amazon, Alibaba, Lazada, and a healthtech Series A, and writes about LLMs, recommender systems, and engineering.

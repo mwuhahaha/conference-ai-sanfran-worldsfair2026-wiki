@@ -3,6 +3,8 @@ title: "Charlie Holtz"
 category: "people"
 role: "CEO"
 company: "Conductor"
+twitter: "https://x.com/charlieholtz"
+website: "https://www.conductor.build"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 CEO at Conductor.
+
+## Profile Links
+- [X / Twitter](https://x.com/charlieholtz)
+- [Website](https://www.conductor.build)
 
 ## Official Bio
 CEO + Co-Founder, Conductor

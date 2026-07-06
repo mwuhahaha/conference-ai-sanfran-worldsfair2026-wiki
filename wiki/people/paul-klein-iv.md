@@ -3,6 +3,7 @@ title: "Paul Klein IV"
 category: "people"
 role: "Founder & CEO"
 company: "Browserbase"
+twitter: "https://x.com/pk_iv"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Founder & CEO at Browserbase.
+
+## Profile Links
+- [X / Twitter](https://x.com/pk_iv)
 
 ## Official Bio
 Founder and CEO of Browserbase, a company building browser infrastructure for web automation and AI agents.

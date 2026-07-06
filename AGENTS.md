@@ -21,6 +21,9 @@ It should preserve the official schedule/media evidence layer while adding Miami
 ## Boundaries
 
 - Keep official schedule facts distinct from supporting YouTube videos, transcripts, OCR, and inferred synthesis.
+- Treat useful public "sources of sources" as part of normal wiki enrichment when they clarify the conference graph: speaker-provided social/profile links, official company sites, public professional profiles, product docs, and related public source pages are allowed when directly relevant.
+- Label source layers clearly. Do not blend company/profile-site context into official schedule facts.
+- Save available LinkedIn, X/Twitter, website, and blog links from the official speaker roster on people pages near the role/company section.
 - Do not delete generated schedule/media evidence pages.
 - Do not promote OCR-only text into confident claims without labeling the source.
 - Prefer content-derived topic/knowledge graph organization over copying Miami’s exact category set.

@@ -3,6 +3,9 @@ title: "John Lindquist"
 category: "people"
 role: "Agentic Instructor"
 company: "egghead.io"
+twitter: "https://x.com/johnlindquist"
+website: "https://egghead.io"
+blog: "https://dev.build"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +13,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Agentic Instructor at egghead.io.
+
+## Profile Links
+- [X / Twitter](https://x.com/johnlindquist)
+- [Website](https://egghead.io)
+- [Blog](https://dev.build)
 
 ## Official Bio
 John Lindquist currently teaches Codex "Power User" Workshops through https://egghead.io. As a seasoned software engineer, educator, and entrepreneur, he is best known as the co-founder of egghead.io – a premier online learning platform for web developers. With a career spanning two decades, John has built a reputation for creating innovative web applications and empowering countless developers through concise, high-impact video tutorials. He has led engineering teams for high-profile projects (from Disney entertainment sites to HBO's online platform) and traveled the globe as a Developer Evangelist, sharing his expertise at conferences and workshops. John's passion lies in demystifying complex technologies for others: he helped lead the JavaScript community into adopting framework-driven development with his early AngularJS tutorials, and to date he has produced over 500 programming videos covering everything from reactive programming and JavaScript fundamentals to the latest AI developer workflows and technologies. Collaborative and visionary, John continues to inspire developers worldwide by pioneering new ways to teach and embrace the latest development workflows.

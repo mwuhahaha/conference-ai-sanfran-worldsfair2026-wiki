@@ -3,6 +3,8 @@ title: "Sean Cai"
 category: "people"
 role: "CEO"
 company: "Independent / State of Data"
+twitter: "https://x.com/SeanZCai"
+website: "https://www.seancai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 CEO at Independent / State of Data.
+
+## Profile Links
+- [X / Twitter](https://x.com/SeanZCai)
+- [Website](https://www.seancai.com/)
 
 ## Official Bio
 Data Quality Research at Prime Intellect and State of Data Author.  Prior investor at Hummingbird and Costanoa.

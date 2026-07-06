@@ -3,6 +3,9 @@ title: Ahmad Osman
 category: people
 role: Founder & CEO
 company: Osmantic
+linkedin: "https://linkedin.com/in/TheAhmadOsman"
+twitter: "https://x.com/TheAhmadOsman"
+website: "https://ahmadosman.com/"
 sourceLabels:
   - Official speaker roster
   - Official conference schedule
@@ -12,6 +15,11 @@ last_auto_summarized: '2026-07-06T17:59:08.657Z'
 
 ## Official Role
 Founder & CEO at Osmantic.
+
+## Profile Links
+- [LinkedIn](https://linkedin.com/in/TheAhmadOsman)
+- [X / Twitter](https://x.com/TheAhmadOsman)
+- [Website](https://ahmadosman.com/)
 
 ## Official Bio
 Ahmad M. Osman is an AI researcher, systems engineer, and r/LocalLLaMA moderator whose World's Fair presence centers on making local AI practical, owned, and performant. His scheduled workshop pair, “Local LLMs and workstation agents,” frames him as the hands-on local-inference voice behind advice like “Buy a GPU” and “Opensource,” with a focus on workstation-scale agents, self-hosted infrastructure, and the operational choices needed to run capable models outside hosted APIs.
@@ -26,6 +34,3 @@ Ahmad’s background spans LLMs, inference, hardware, infrastructure, and full-s
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now]] — State of the Union: Why Local, Why Now (2026-07-01, 10:45am-11:05am)
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420]] — State of the Union: Why Local, Why Now (2026-07-01, 11:10am-11:30am)
 - [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk]] — Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk (2026-07-01, 11:40am-12:00pm)
-
-## Links
-- [LinkedIn](https://linkedin.com/in/TheAhmadOsman)

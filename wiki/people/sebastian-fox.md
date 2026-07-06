@@ -3,6 +3,7 @@ title: "Sebastian Fox"
 category: "people"
 role: "CEO"
 company: "Composo"
+linkedin: "https://www.linkedin.com/in/seb--fox/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,11 +12,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 CEO at Composo.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/seb--fox/)
+
 ## Official Bio
 CEO of Composo. Former MD. Led AI teams at McKinsey & QuantumBlack. Working on quality evaluation for AI in high-stakes domains (e.g. health, pharma, legal, finance)
 
 ## Scheduled Sessions
 - [[2026-07-01-sebastian-fox-inside-847-production-clinical-ai-notes]] — Inside 847 Production Clinical AI Notes (2026-07-01, 2:50pm-3:10pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/seb--fox/)

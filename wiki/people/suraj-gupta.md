@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Software Engineer at Warp.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Suraj Gupta is a software engineer at Warp working on agentic developer experience and AI terminal workflows, including Warp's agentic development environment.
 

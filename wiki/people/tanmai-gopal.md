@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 CEO/cofounder at PromptQL.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Tanmai is the CEO/cofounder of PromptQL (née Hasura). He loves programming languages, databases and working on creating simple abstractions to solve hard problems.
 

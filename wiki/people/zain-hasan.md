@@ -3,6 +3,8 @@ title: "Zain Hasan"
 category: "people"
 role: "Staff AI/ML Engineer - DX"
 company: "Together AI"
+twitter: "https://x.com/ZainHasan6"
+website: "https://zainhas.github.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Staff AI/ML Engineer - DX at Together AI.
+
+## Profile Links
+- [X / Twitter](https://x.com/ZainHasan6)
+- [Website](https://zainhas.github.io)
 
 ## Official Bio
 AI/ML engineer and educator focused on large-scale models, tooling, and developer education.

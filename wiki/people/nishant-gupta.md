@@ -3,6 +3,8 @@ title: "Nishant Gupta"
 category: "people"
 role: "Software Engineer, Tech Lead"
 company: "Meta"
+linkedin: "https://www.linkedin.com/in/nishantgupta-ai/"
+blog: "https://buzzingtech.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Software Engineer, Tech Lead at Meta.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/nishantgupta-ai/)
+- [Blog](https://buzzingtech.ai/)
 
 ## Official Bio
 I am a Staff Software Engineer and Researcher at Meta, specializing in large-scale distributed systems, AI infrastructure, and operational resilience. Within Meta Superintelligence Labs, I build agentic infrastructure that enables AI systems to operate reliably in production through evaluation, auditing, safety controls, feedback loops, and human oversight.
@@ -22,6 +28,3 @@ I am passionate about building scalable, fault-tolerant systems and translating 
 
 ## Scheduled Sessions
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale (2026-07-01, 10:45am-11:05am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/nishantgupta-ai/)

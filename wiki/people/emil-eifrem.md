@@ -3,6 +3,7 @@ title: "Emil Eifrem"
 category: "people"
 role: "CEO"
 company: "Neo4j"
+twitter: "https://x.com/emileifrem"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 CEO at Neo4j.
+
+## Profile Links
+- [X / Twitter](https://x.com/emileifrem)
 
 ## Official Bio
 Emil Eifrem is the co-founder and CEO of Neo4j, the graph database and analytics leader that enabled investigative journalists to crack the Panama Papers leak, NASA to get to Mars two years faster, power discoveries in biodiversity and genomics sampling, cancer research, fraud detection, scientific research, and serve thousands of organizations worldwide including 75 of the Fortune 100. Graph uniquely organizes data in the same way that the human brain does in expressing the complex relationships, context and connections between data as data itself. By uncovering the web of relationships underlying our interconnected world, graph enables organizations to dynamically predict what happens when these relationships change and why.

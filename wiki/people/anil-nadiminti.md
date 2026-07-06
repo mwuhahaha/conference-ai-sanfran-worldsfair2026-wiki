@@ -3,6 +3,8 @@ title: "Anil Nadiminti"
 category: "people"
 role: "Sr Solutions Architect"
 company: "Amazon Web Services (AWS)"
+linkedin: "https://www.linkedin.com/in/nadiminti"
+twitter: "https://x.com/super_intel_bot"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,11 +13,12 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Sr Solutions Architect at Amazon Web Services (AWS).
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/nadiminti)
+- [X / Twitter](https://x.com/super_intel_bot)
+
 ## Official Bio
 Anil Nadiminti is a Senior Solutions Architect at AWS, where he supports Enterprise FinTech and Web3 customers in designing secure, scalable, and production-ready cloud architectures. He also specializes in Agentic AI on AWS, advising customers on AI architecture patterns, autonomous workflows, and emerging application design models. His work sits at the intersection of financial services, Web3, and AI, with a focus on helping organizations evaluate new approaches to machine-to-machine commerce and programmable services. He is particularly interested in emerging standards such as x402, which uses HTTP 402 to enable programmatic payments for APIs, services, and AI agents over standard web infrastructure. Through his work with customers, Anil helps bridge technical strategy and practical implementation for next-generation applications on AWS.
 
 ## Scheduled Sessions
 - [[2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws]] — When AI Agents Pay and Sellers Monetize: Building x402 Apps for Agentic Commerce on AWS (2026-07-01, 11:40am-12:00pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/nadiminti)

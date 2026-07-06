@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Product, Software, Infra, and Applied AI at Reducto.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Abhi Arya works on product, software, infrastructure, and applied AI at Reducto. He previously co-founded Opennote, a YC S25 company acquired by Reducto, and has also worked on browser automation at Browserbase and mission operations software at NASA Johnson Space Center.
 

@@ -3,6 +3,8 @@ title: "Ethan (Jung Min) Cha"
 category: "people"
 role: "AI Development Lead"
 company: "The Carlyle Group"
+linkedin: "https://linkedin.com/in/ethancha0411"
+website: "https://ethancha.net"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,6 +13,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 AI Development Lead at The Carlyle Group.
 
+## Profile Links
+- [LinkedIn](https://linkedin.com/in/ethancha0411)
+- [Website](https://ethancha.net)
+
 ## Official Bio
 AI Development Lead at Carlyle partnering with investor relations teams to surface high-value AI opportunities and building the AI platform that ship them at scale. His work sits at the intersection of AI and relationship-driven corners of finance: how capital gets raised, how investors are understood, and how relationship scales.
 
@@ -18,6 +24,3 @@ Across earlier roles at Cedar, a healthcare fintech company, and Novelis, a glob
 
 ## Scheduled Sessions
 - [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer]] — Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer (2026-06-29, 1:55pm-2:15pm)
-
-## Links
-- [LinkedIn](https://linkedin.com/in/ethancha0411)

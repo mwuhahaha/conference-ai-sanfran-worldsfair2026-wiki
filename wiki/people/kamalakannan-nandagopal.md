@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Staff Software Engineer at Postman.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Kamalakannan Nandagopal is a Staff Software Engineer at Postman working on client platform, performance, Node.js and agentic-AI related developer workflows, including Postman's git-native collection format.
 

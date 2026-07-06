@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Senior Software Engineer at Airbyte.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Pedro S. Lopez is a Senior Software Engineer at Airbyte. His WF26 talk focuses on how Airbyte built its Agent MCP Server and CLI for agent-oriented data integration workflows.
 

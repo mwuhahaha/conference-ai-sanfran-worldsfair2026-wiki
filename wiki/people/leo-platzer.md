@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Founder at Deasy Labs / Collibra.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Leo Platzer co-founded Deasy Labs, a company focused on making unstructured enterprise content more accessible and AI-ready, which was acquired by Collibra.
 

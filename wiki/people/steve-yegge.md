@@ -3,6 +3,7 @@ title: "Steve Yegge"
 category: "people"
 role: "Icon"
 company: "Gas Town"
+twitter: "https://x.com/steve_yegge"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Icon at Gas Town.
+
+## Profile Links
+- [X / Twitter](https://x.com/steve_yegge)
 
 ## Official Bio
 Steve Yegge is a longtime software engineer and technical writer known for his work on developer tools and software engineering.

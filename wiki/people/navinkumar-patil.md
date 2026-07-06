@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Staff Software Engineer at PayPal.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Engineer focused on large-scale and distributed systems.
 

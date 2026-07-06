@@ -2,6 +2,7 @@
 title: "Emile Baizel"
 category: "people"
 company: "Amazon AGI Lab"
+linkedin: "https://www.linkedin.com/in/emilebaizel"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,11 +11,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Role not listed at Amazon AGI Lab.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/emilebaizel)
+
 ## Official Bio
 Emile Baizel is with Amazon AGI Lab and is co-presenting the “Build with Perception Agents” workshop at AI Engineer World’s Fair 2026.
 
 ## Scheduled Sessions
 - [[2026-06-29-emile-baizel-build-with-perception-agents]] — Build with Perception Agents (2026-06-29, 2:20pm-4:20pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/emilebaizel)

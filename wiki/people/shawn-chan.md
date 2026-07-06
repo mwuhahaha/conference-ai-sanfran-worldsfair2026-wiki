@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Vice President at China Resources Holdings.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Shawn Chan is Vice President at China Resources Holdings, leading a consumer-sector fund, and was previously Head of Investment at A.S. Watson Group (CK Hutchison). Across fifteen years he has executed cross-border M&A, IPOs and strategic investments in companies including Oatly, Airbnb, SenseTime, Moore Threads, Leapmotor and EVE Energy, across Hong Kong, mainland China, the UK and the US. MSc Finance from the University of Manchester. His current focus is what it takes for AI agents to earn trust inside real investment committee workflows.
 

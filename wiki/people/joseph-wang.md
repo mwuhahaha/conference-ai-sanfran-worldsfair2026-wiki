@@ -3,6 +3,7 @@ title: "Joseph Wang"
 category: "people"
 role: "CEO"
 company: "Emulated"
+website: "https://emulated.so/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 CEO at Emulated.
+
+## Profile Links
+- [Website](https://emulated.so/)
 
 ## Official Bio
 CEO of Emulated, building the data for fully autonomous AI

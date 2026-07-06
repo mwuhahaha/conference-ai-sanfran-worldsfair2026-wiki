@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Product Manager at Google.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Product Manager at Google/YouTube working on ads, evals, agents, llm-as-judge systems. Before PM, data engineer at google cloud
 

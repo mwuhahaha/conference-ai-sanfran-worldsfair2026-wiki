@@ -3,6 +3,7 @@ title: "Arjun Singh"
 category: "people"
 role: "Co-founder and CEO"
 company: "Superconductor"
+twitter: "https://x.com/singharjun51293"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Co-founder and CEO at Superconductor.
+
+## Profile Links
+- [X / Twitter](https://x.com/singharjun51293)
 
 ## Official Bio
 Arjun Singh is the co-founder and CEO of Superconductor. Previously, he co-founded Gradescope, an AI grading platform acquired by Turnitin in 2018.

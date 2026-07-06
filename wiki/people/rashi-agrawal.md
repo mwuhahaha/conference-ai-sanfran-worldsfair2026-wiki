@@ -3,6 +3,8 @@ title: "Rashi Agrawal"
 category: "people"
 role: "Head of Agentic AI"
 company: "Hinge Health"
+linkedin: "https://www.linkedin.com/in/rashi283/"
+website: "https://sessionize.com/rashiagrawal/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Head of Agentic AI at Hinge Health.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/rashi283/)
+- [Website](https://sessionize.com/rashiagrawal/)
 
 ## Official Bio
 Rashi Agrawal is the Head of Agentic AI at Hinge Health, where she engineers high-stakes, secure, and HIPAA-compliant systems. Operating at the pioneer edge of generative AI technology, she architects state-of-the-art frameworks that move beyond simple automation to solve critical problems and drive dramatic business growth.
@@ -22,6 +28,3 @@ Beyond the office, Rashi is a global explorer who has traveled to over 50 countr
 
 ## Scheduled Sessions
 - [[2026-07-01-rashi-agrawal-guardrails-first-engineering-member-facing-health-ai]] — Guardrails First: Engineering Member-Facing Health AI (2026-07-01, 11:10am-11:30am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/rashi283/)

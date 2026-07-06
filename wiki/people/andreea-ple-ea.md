@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Co-Founder and COO at Druid AI.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Andreea Pleşea is Co-Founder and COO of Druid AI, where she helps design and scale enterprise agentic AI systems. She has a technical background including a PhD in artificial intelligence, with work focused on AI agent communication and autonomous agent interoperability.
 

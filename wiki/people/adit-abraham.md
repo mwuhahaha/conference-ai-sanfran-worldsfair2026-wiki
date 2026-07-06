@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 CEO and cofounder at Reducto.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Adit Abraham is co-founder and CEO of Reducto, building an AI document-intelligence platform for parsing, understanding, and structuring complex unstructured documents for AI applications. He previously studied computer science at MIT and worked on product at Google.
 

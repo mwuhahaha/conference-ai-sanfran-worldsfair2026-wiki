@@ -101,6 +101,19 @@ def cached_transcript_note(video_id: str) -> str:
     return f"Cached at `raw/sources/youtube-transcripts/{video_id}.txt` ({word_count:,} words)."
 
 
+def profile_link_lines(speaker: dict) -> list[str]:
+    links = []
+    if speaker.get("linkedin"):
+        links.append(f"- [LinkedIn]({speaker.get('linkedin')})")
+    if speaker.get("twitter"):
+        links.append(f"- [X / Twitter]({speaker.get('twitter')})")
+    if speaker.get("website"):
+        links.append(f"- [Website]({speaker.get('website')})")
+    if speaker.get("blog"):
+        links.append(f"- [Blog]({speaker.get('blog')})")
+    return links
+
+
 def related_transcript_status(video: dict, status: dict | None) -> str:
     return (
         f"Related video transcript availability: {caption_label(status)}. "
@@ -255,6 +268,10 @@ def main() -> int:
                     "category": "people",
                     "role": speaker.get("role"),
                     "company": speaker.get("company"),
+                    "linkedin": speaker.get("linkedin"),
+                    "twitter": speaker.get("twitter"),
+                    "website": speaker.get("website"),
+                    "blog": speaker.get("blog"),
                     "sourceLabels": ["Official speaker roster", "Official conference schedule"],
                 }
             ),
@@ -263,6 +280,9 @@ def main() -> int:
             "## Official Role",
             f"{speaker.get('role') or 'Role not listed'} at {speaker.get('company') or 'company not listed'}.",
             "",
+            "## Profile Links",
+            *(profile_link_lines(speaker) or ["No public profile links listed in the official speaker roster."]),
+            "",
             "## Official Bio",
             speaker.get("bio") or "No official bio included in the speaker JSON.",
             "",
@@ -270,8 +290,6 @@ def main() -> int:
         ]
         for session in person_sessions:
             body.append(f"- [[{talk_slug(session)}]] — {session.get('title')} ({day_to_date(session.get('day', ''))}, {session.get('time')})")
-        if speaker.get("linkedin"):
-            body.extend(["", "## Links", f"- [LinkedIn]({speaker.get('linkedin')})"])
         write(ROOT / "wiki" / "people" / f"{slugify(name)}.md", "\n".join(body))
 
     # Company pages.

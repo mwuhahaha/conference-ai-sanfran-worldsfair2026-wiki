@@ -3,6 +3,7 @@ title: "Sangwu Lee"
 category: "people"
 role: "AI Lead"
 company: "Krea.ai"
+website: "https://re-n-y.github.io/devlog/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 AI Lead at Krea.ai.
+
+## Profile Links
+- [Website](https://re-n-y.github.io/devlog/)
 
 ## Official Bio
 Sangwu Lee is an AI Lead at Krea.ai, working on generative media models and creative AI systems.

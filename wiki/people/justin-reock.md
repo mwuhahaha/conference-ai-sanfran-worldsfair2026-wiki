@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Deputy CTO at DX.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Justin Reock is Deputy CTO at DX, where he works on engineering intelligence and software-development productivity. His AI Engineer talks focus on trends in AI-assisted engineering across hundreds of organizations.
 

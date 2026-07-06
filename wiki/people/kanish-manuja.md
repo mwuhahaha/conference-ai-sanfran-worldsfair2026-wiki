@@ -3,6 +3,7 @@ title: "Kanish Manuja"
 category: "people"
 role: "Principal Software Engineer"
 company: "Twilio Inc."
+linkedin: "https://www.linkedin.com/in/kanish-manuja-a99bb923/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Principal Software Engineer at Twilio Inc..
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/kanish-manuja-a99bb923/)
 
 ## Official Bio
 Kanish Manuja is a principal AI engineer at Twilio, where he leads production LLM gateway and AI platform systems for enterprise-scale AI applications. His work focuses on building reliable, secure, and observable infrastructure for large language model adoption, including multi-tenant gateways, authentication and authorization, guardrails, audit logging, fallback strategies, and production readiness for GenAI workloads.
@@ -20,6 +24,3 @@ In this session, Kanish will share practical lessons from designing and operatin
 
 ## Scheduled Sessions
 - [[2026-06-29-kanish-manuja-productionizing-llm-gateways-architecture-tradeoffs-and-hard-lessons-from-the-trenches]] — Productionizing LLM Gateways: Architecture, Tradeoffs, and Hard Lessons from the Trenches (2026-06-29, 2:25pm-2:45pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/kanish-manuja-a99bb923/)

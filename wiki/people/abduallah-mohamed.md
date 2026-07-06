@@ -3,6 +3,8 @@ title: Abduallah Mohamed
 category: people
 role: VP of AI/ML
 company: AIDAChip
+linkedin: "https://www.linkedin.com/in/abduallah/"
+website: "https://abduallahmohamed.com/"
 sourceLabels:
   - Official speaker roster
   - Official conference schedule
@@ -16,6 +18,10 @@ Abduallah Mohamed is VP of AI/ML at AIDAChip, where he helps define the AI platf
 ## Official Role
 VP of AI/ML at AIDAChip.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/abduallah/)
+- [Website](https://abduallahmohamed.com/)
+
 ## Official Bio
 VP of AI/ML at AIDAChip, building the AI platform for semiconductor IP development, Ex-Meta. Core expertise spans agentic AI & LLM frameworks,  multi-modal sensor fusion, tracking, and multi-agent trajectory prediction. PhD @UT Austin.
 
@@ -24,6 +30,3 @@ Mohamed's background combines production-scale AI/ML experience from Meta with r
 
 ## Scheduled Sessions
 - [[2026-07-01-khaled-alashmouny-what-if-your-chip-design-team-moved-like-a-single-body]] — What If Your Chip Design Team Moved Like a Single Body? (2026-07-01, 11:40am-12:00pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/abduallah/)

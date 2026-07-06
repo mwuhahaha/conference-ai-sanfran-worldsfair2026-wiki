@@ -3,6 +3,7 @@ title: "swyx"
 category: "people"
 role: "Curator"
 company: "Latent Space / AI Engineer"
+twitter: "https://x.com/swyx"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Curator at Latent Space / AI Engineer.
+
+## Profile Links
+- [X / Twitter](https://x.com/swyx)
 
 ## Official Bio
 Shawn Wang, known online as swyx, is a co-founder/editor of Latent Space and an organizer and prominent voice in the AI Engineer community.

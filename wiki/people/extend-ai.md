@@ -10,6 +10,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Role not listed at Extend AI.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Extend AI is a document-processing platform for parsing, extracting, classifying, splitting, and editing complex documents so teams can build AI-powered document workflows and reliable document agents.
 

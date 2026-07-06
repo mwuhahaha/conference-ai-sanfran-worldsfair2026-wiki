@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Director, Product and Solutions Marketing at Sonar.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Anirban Chatterjee leads AI strategy and partnerships at Sonar, working at the intersection of AI product, go-to-market, and developer code quality as software teams adopt AI agents.
 

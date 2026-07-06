@@ -3,6 +3,8 @@ title: "Jack Morris"
 category: "people"
 role: "Cofounder"
 company: "Engram"
+twitter: "https://x.com/jxmnop"
+website: "https://jxmo.io / https://substack.com/@jxmnop"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Cofounder at Engram.
+
+## Profile Links
+- [X / Twitter](https://x.com/jxmnop)
+- [Website](https://jxmo.io / https://substack.com/@jxmnop)
 
 ## Official Bio
 Jack is a cofounder and head of research at Engram. He received his PhD in 2025 from Cornell University

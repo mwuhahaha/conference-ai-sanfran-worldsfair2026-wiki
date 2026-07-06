@@ -3,6 +3,8 @@ title: "Subbiah Sethuraman"
 category: "people"
 role: "Partner"
 company: "ZS Associates"
+linkedin: "https://www.linkedin.com/in/subbiahsethuraman/"
+website: "https://subbiah-sethuraman.medium.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Partner at ZS Associates.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/subbiahsethuraman/)
+- [Website](https://subbiah-sethuraman.medium.com/)
 
 ## Official Bio
 Subbiah leads the AI Engineering Practice at ZS, where he architects and scales enterprise AI systems spanning agentic and traditional ML. He has delivered enterpriseAI applications for leading pharmaceutical clients across R&D, Commercial, and Enterprise domains.
@@ -19,6 +25,3 @@ A recognized thought leader, he is passionate about responsible AI and the engin
 
 ## Scheduled Sessions
 - [[2026-07-01-subbiah-sethuraman-why-we-killed-our-multi-agent-pipeline-lessons-from-pharma-commercial-intelligence]] — Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence (2026-07-01, 3:45pm-4:05pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/subbiahsethuraman/)

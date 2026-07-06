@@ -3,6 +3,7 @@ title: "Karthik Ranganathan"
 category: "people"
 role: "Co-founder and Co-CEO"
 company: "Yugabyte"
+twitter: "https://x.com/karthikr"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Co-founder and Co-CEO at Yugabyte.
+
+## Profile Links
+- [X / Twitter](https://x.com/karthikr)
 
 ## Official Bio
 Karthik Ranganathan is co-founder and co-CEO of Yugabyte, the company behind YugabyteDB. He was one of the original database engineers at Facebook/Meta working on distributed databases including Cassandra and HBase.

@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Staff Developer Success Advocate at Docker.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Dan Ndombe is a Staff Developer Success Advocate at Docker who helps developers build and ship software faster. He is a two-time founder and former engineer-turned-product manager with experience at Netflix, Pinterest, and Calm.
 

@@ -3,6 +3,7 @@ title: "Michael Grinich"
 category: "people"
 role: "Founder & CEO"
 company: "WorkOS"
+twitter: "https://x.com/grinich"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Founder & CEO at WorkOS.
+
+## Profile Links
+- [X / Twitter](https://x.com/grinich)
 
 ## Official Bio
 Founder and CEO of WorkOS, a company focused on APIs and integrations that help applications become enterprise-ready.

@@ -3,6 +3,9 @@ title: "Benjamin Clavié"
 category: "people"
 role: "Member of Technical Staff"
 company: "Mixedbread Inc."
+twitter: "https://x.com/bclavie"
+website: "https://mixedbread.com"
+blog: "https://ben.clavie.eu"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +13,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Member of Technical Staff at Mixedbread Inc..
+
+## Profile Links
+- [X / Twitter](https://x.com/bclavie)
+- [Website](https://mixedbread.com)
+- [Blog](https://ben.clavie.eu)
 
 ## Official Bio
 MTS at Mixedbread working on building the future of Retrieval.

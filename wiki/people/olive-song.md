@@ -3,6 +3,7 @@ title: "Olive Song"
 category: "people"
 role: "RL Lead"
 company: "MiniMax"
+twitter: "https://x.com/olive_jy_song"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 RL Lead at MiniMax.
+
+## Profile Links
+- [X / Twitter](https://x.com/olive_jy_song)
 
 ## Official Bio
 Researcher at MiniMax focused on reinforcement learning and model evaluation for the M-series models.

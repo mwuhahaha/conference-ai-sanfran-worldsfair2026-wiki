@@ -3,6 +3,9 @@ title: "Adam Huda"
 category: "people"
 role: "Sr Engineering Leader for AI Dev Tools"
 company: "Uber"
+linkedin: "https://www.linkedin.com/in/thinktopdown/"
+twitter: "https://x.com/hudaman"
+website: "https://adamhuda.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +13,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Sr Engineering Leader for AI Dev Tools at Uber.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/thinktopdown/)
+- [X / Twitter](https://x.com/hudaman)
+- [Website](https://adamhuda.com)
 
 ## Official Bio
 Adam is a Senior Engineering Manager at Uber, where he leads the AI Developer Tools team on a mission to supercharge software engineering. Currently obsessed with manifesting ideas with Claude Code, he is a true believer that AI will be the ultimate catalyst for unlocking Starfleet.
@@ -20,6 +28,3 @@ When he’s not busy building the future of developer tools, Adam unplugs outdoo
 
 ## Scheduled Sessions
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]] — Agentic SDLC at Uber: Building Blocks for Uber's Software Factory (2026-06-29, 11:40am-12:00pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/thinktopdown/)

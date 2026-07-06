@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 SVP/GM, AI & Personalization at Spotify.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Senior leader for AI and personalization at Spotify.
 

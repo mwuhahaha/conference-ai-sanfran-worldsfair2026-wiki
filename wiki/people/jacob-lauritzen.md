@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 CTO at Legora.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 CTO at Legora.
 

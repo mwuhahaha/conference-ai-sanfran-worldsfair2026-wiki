@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Developer Advocate at Nebius.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Sujee Maniyam is a developer advocate at Nebius with a background in ML, data engineering, technical training, and production inference education.
 

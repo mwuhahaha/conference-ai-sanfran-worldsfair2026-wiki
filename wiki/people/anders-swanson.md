@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Developer Evangelist at Oracle.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Anders Swanson is a Developer Evangelist for Oracle Database. He helps developers build modern applications with Oracle Database, including microservices, event-driven systems, cloud-native architectures, vector databases, and AI database features.
 

@@ -3,6 +3,10 @@ title: "Keegan McCallum"
 category: "people"
 role: "Founder"
 company: "uRun"
+linkedin: "https://linkedin.com/in/keeganmccallum3"
+twitter: "https://x.com/keeganmccallum3"
+website: "https://urun.sh"
+blog: "https://urun.sh"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,11 +15,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Founder at uRun.
 
+## Profile Links
+- [LinkedIn](https://linkedin.com/in/keeganmccallum3)
+- [X / Twitter](https://x.com/keeganmccallum3)
+- [Website](https://urun.sh)
+- [Blog](https://urun.sh)
+
 ## Official Bio
 Founder of uRun, build the inference cloud for the interactive era of AI. Formerly Head of ML Infrastructure at Luma, built Video model serving for Dream Machine from scratch after pivot to generative video. Obsessed with the intersection of creativity and technology.
 
 ## Scheduled Sessions
 - [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light]] — Generative Video at the Speed of Light (2026-07-01, 2:25pm-2:45pm)
-
-## Links
-- [LinkedIn](https://linkedin.com/in/keeganmccallum3)

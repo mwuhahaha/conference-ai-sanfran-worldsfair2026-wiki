@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Staff Software Engineer, App Eng Manager at Runpod.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Dean Quiñanola is a Staff Software Engineer and application engineering manager at Runpod, working on developer-facing infrastructure for quickly deploying AI applications.
 

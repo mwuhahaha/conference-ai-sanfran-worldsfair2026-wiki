@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Staff Developer Advocate at Livekit.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Jesse Hall is a Staff Developer Advocate at LiveKit and a full-stack developer who specializes in teaching TypeScript developers how to build AI-powered web applications using real-time communication technologies. He creates practical articles, videos, and interactive talks that break down complex voice AI and agent concepts into clear, production-ready takeaways.
 

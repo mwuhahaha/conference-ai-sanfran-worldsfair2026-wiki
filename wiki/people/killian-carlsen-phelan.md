@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Developer Content Engineer at Sonar.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Killian Carlsen-Phelan is a Developer Content Engineer at Sonar. He writes and teaches about SonarQube, AI-generated code review, Codex CLI integration, and quality gates for agentic development workflows.
 

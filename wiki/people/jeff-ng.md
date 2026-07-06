@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Engineer at Unblocked.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Jeffrey Ng is an engineer at Unblocked, a company building a context engine for software teams and AI agents.
 

@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Member of Technical Staff at Laude Institute.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Ryan Marten is building Harbor at the Laude Institute and works on research-to-production efforts including Harbor, Terminal-Bench, and OpenThoughts-Agent.
 

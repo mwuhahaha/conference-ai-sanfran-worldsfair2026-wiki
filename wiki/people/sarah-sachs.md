@@ -3,6 +3,8 @@ title: "Sarah Sachs"
 category: "people"
 role: "Eng Lead, AI"
 company: "Notion"
+linkedin: "https://www.linkedin.com/in/sarahmsachs/"
+twitter: "https://x.com/sarahmsachs"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Eng Lead, AI at Notion.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/sarahmsachs/)
+- [X / Twitter](https://x.com/sarahmsachs)
 
 ## Official Bio
 Sarah Sachs is an engineering leader focused on shipping practical, high-leverage AI into real products at scale. Currently leading AI Modeling at Notion, she oversees four core areas of the company’s modeling efforts: Reasoning and Agentic Orchestration, Core Model Engineering, Search and Ranking, and Data Specialists & Evals — driving the next generation of Notion AI across reasoning, retrieval, and end-to-end drafting and editing. 
@@ -20,6 +26,3 @@ Sarah holds a Sc.B. in Applied Mathematics–Computer Science from Brown Univers
 
 ## Scheduled Sessions
 - [[2026-06-29-sarah-sachs-notion-s-token-town]] — Notion's Token Town (2026-06-29, 2:50pm-3:10pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/sarahmsachs/)

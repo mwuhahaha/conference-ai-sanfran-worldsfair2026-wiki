@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Staff Product Manager at Docker.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Rowan Christmas is a Staff Product Manager at Docker with prior strategy, technology and consulting leadership experience, working in Docker's AI/agent platform context.
 

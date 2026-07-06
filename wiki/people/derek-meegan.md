@@ -3,6 +3,9 @@ title: "Derek Meegan"
 category: "people"
 role: "Software Engineer"
 company: "Browserbase"
+linkedin: "https://www.linkedin.com/in/derekmeegan"
+twitter: "https://x.com/derekmeegan"
+website: "https://derekmeegan.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,11 +14,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Software Engineer at Browserbase.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/derekmeegan)
+- [X / Twitter](https://x.com/derekmeegan)
+- [Website](https://derekmeegan.com)
+
 ## Official Bio
 Derek Meegan is a software engineer at Browserbase. He builds systems and browser automation tooling, and writes about browser automation, Stagehand, and how technology changes the way people work.
 
 ## Scheduled Sessions
 - [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]] — Deploying browser agents at scale (2026-06-29, 1:55pm-2:15pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/derekmeegan)

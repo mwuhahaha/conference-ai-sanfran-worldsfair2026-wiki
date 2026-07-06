@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Tech Translator at Neo4j.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Jeremy Adams-Casañas is a technology communicator and developer-facing specialist associated with Neo4j, Dagger, GitHub, Twistlock, Puppet, and the U.S. Army, speaking on edge agents, NanoClaw, Raspberry Pi, and graph memory.
 

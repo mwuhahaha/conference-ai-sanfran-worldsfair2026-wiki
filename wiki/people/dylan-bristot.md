@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Product Marketing at Token Factory.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Dylan Bristot works in product marketing at Token Factory and speaks on practical approaches for scaling open-model inference in production AI infrastructure.
 

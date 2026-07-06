@@ -3,6 +3,7 @@ title: "Tariq Shaukat"
 category: "people"
 role: "Chief Executive Officer"
 company: "Sonar"
+twitter: "https://x.com/tariqshaukat"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Chief Executive Officer at Sonar.
+
+## Profile Links
+- [X / Twitter](https://x.com/tariqshaukat)
 
 ## Official Bio
 Chief Executive Officer of Sonar. Previously served as President of Google Cloud and President of Bumble.

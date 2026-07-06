@@ -3,6 +3,9 @@ title: "Rob Cheung"
 category: "people"
 role: "Co-founder"
 company: "Zo Computer"
+linkedin: "https://www.linkedin.com/in/robertkcheung"
+twitter: "https://x.com/perceptnet"
+website: "https://rob.zo.space"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,11 +14,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Co-founder at Zo Computer.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/robertkcheung)
+- [X / Twitter](https://x.com/perceptnet)
+- [Website](https://rob.zo.space)
+
 ## Official Bio
 Rob Cheung is Co-founder of Zo Computer. He was previously the first engineer at Substack and earlier worked on the Venmo team before reuniting with Ben Guo to build Zo.
 
 ## Scheduled Sessions
 - [[2026-06-29-benjamin-guo-everyone-gets-a-software-company]] — Everyone Gets A Software Company (2026-06-29, 11:40am-12:00pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/robertkcheung)

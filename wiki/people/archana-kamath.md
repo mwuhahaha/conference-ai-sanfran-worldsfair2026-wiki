@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 VP of Engineering at Digital Ocean.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Archana Kamath is VP of Engineering at DigitalOcean, working across infrastructure, compute, networking, and AI infrastructure. Her DigitalOcean profile content emphasizes customer-centric infrastructure and product engineering for cloud and AI workloads.
 

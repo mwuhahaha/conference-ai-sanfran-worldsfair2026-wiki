@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Solutions Architect at Arize AI.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Ankur Duggal is a Solutions Architect at Arize AI, where he helps enterprise teams make AI agents and applications reliable in production. His work includes tracing agent decisions, implementing evaluations, and building feedback-driven workflows for agentic systems.
 

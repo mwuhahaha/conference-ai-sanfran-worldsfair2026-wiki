@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Solutions Engineer at Docker.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 John Craft works in Sales Engineering/Solutions Engineering at Docker. His recent speaking context centers on governing MCP and moving from approval loops to autonomous agents with Docker.
 

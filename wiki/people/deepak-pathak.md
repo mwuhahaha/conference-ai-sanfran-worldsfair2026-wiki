@@ -3,6 +3,9 @@ title: "Deepak Pathak"
 category: "people"
 role: "Co-Founder & CEO"
 company: "Skild AI"
+linkedin: "https://www.linkedin.com/in/pathak22"
+twitter: "https://twitter.com/pathak2206"
+website: "https://www.cs.cmu.edu/~dpathak"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,11 +14,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Co-Founder & CEO at Skild AI.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/pathak22)
+- [X / Twitter](https://twitter.com/pathak2206)
+- [Website](https://www.cs.cmu.edu/~dpathak)
+
 ## Official Bio
 Co-Founder and CEO of Skild AI; Assistant Professor at Carnegie Mellon University in the Robotics Institute, affiliated with the Machine Learning Department.
 
 ## Scheduled Sessions
 - [[2026-06-30-deepak-pathak-frontier-robotics-research]] — Frontier Robotics Research (2026-06-30, 1:55pm-2:15pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/pathak22)

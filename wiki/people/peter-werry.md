@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Founding Engineer at Unblocked.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Founding engineer at Unblocked working on context engines for modern engineering teams.
 

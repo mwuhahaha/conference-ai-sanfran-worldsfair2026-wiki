@@ -3,6 +3,7 @@ title: "Thariq Shihipar"
 category: "people"
 role: "Claude Code"
 company: "Anthropic"
+twitter: "https://x.com/trq212"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Claude Code at Anthropic.
+
+## Profile Links
+- [X / Twitter](https://x.com/trq212)
 
 ## Official Bio
 Engineer and serial entrepreneur currently working on Claude Code at Anthropic. Previously founded One More Multiverse, co-founded Pubpub.org, and co-founded Chime.

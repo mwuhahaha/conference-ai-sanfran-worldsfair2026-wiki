@@ -3,6 +3,9 @@ title: "Dhruv Batra"
 category: "people"
 role: "Co-founder & Chief Scientist"
 company: "Yutori"
+linkedin: "https://www.linkedin.com/in/dhruv-batra-dbatra/"
+twitter: "https://x.com/DhruvBatra_"
+website: "https://dhruvbatra.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +13,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Co-founder & Chief Scientist at Yutori.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/dhruv-batra-dbatra/)
+- [X / Twitter](https://x.com/DhruvBatra_)
+- [Website](https://dhruvbatra.com/)
 
 ## Official Bio
 Dhruv Batra is a co-founder and the Chief Scientist of Yutori, building web agents.  
@@ -22,6 +30,3 @@ He is a recipient of best paper awards/nominations in every area of AI (vision, 
 
 ## Scheduled Sessions
 - [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]] — Computer-use models will agentify the web, not APIs (2026-06-30, 10:45am-11:05am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/dhruv-batra-dbatra/)

@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 CEO at Fleet.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Nicolai Ouporov is founder and CEO of Fleet, an applied AI and product lab building simulations and real-world challenges for testing and training agents. He previously was a founding engineer and first hire at Respell and has Stanford robotics research experience.
 

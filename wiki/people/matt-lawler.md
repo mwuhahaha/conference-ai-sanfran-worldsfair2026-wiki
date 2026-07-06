@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Forward Deployed Engineer Lead at AssemblyAI.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Leads FDE for Onboarding at AssemblyAI, helping teams ship speech-to-text and voice AI to production, from model selection and architecture through deployment and scale.
 

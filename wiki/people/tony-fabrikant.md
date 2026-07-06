@@ -3,6 +3,7 @@ title: "Tony Fabrikant"
 category: "people"
 role: "Co-founder"
 company: "CoupleWork AI"
+linkedin: "https://www.linkedin.com/in/tony-fabrikant"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,6 +12,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Co-founder at CoupleWork AI.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/tony-fabrikant)
+
 ## Official Bio
 Tony Fabrikant is cofounder of BetterLabs AI and builder of CoupleWork, an AI relationship coach helping couples navigate conflict, repair, crisis moments, and long-term relationship health. He previously held senior technology leadership roles at S&P Global, where he served as CTO for a major financial data and analytics business, and at Bridgewater Associates, where he worked on investment technology and research systems.
 
@@ -18,6 +22,3 @@ Tony’s work focuses on applying AI agents, real-time voice AI, and safety-firs
 
 ## Scheduled Sessions
 - [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong]] — Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong. (2026-07-01, 1:30pm-1:50pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/tony-fabrikant)

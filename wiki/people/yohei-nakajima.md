@@ -3,6 +3,10 @@ title: "Yohei Nakajima"
 category: "people"
 role: "Managing Partner"
 company: "Untapped Capital"
+linkedin: "https://www.linkedin.com/in/yoheinakajima"
+twitter: "https://x.com/yoheinakajima"
+website: "https://yoheinakajima.com"
+blog: "https://yohei.me"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,6 +15,12 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Managing Partner at Untapped Capital.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/yoheinakajima)
+- [X / Twitter](https://x.com/yoheinakajima)
+- [Website](https://yoheinakajima.com)
+- [Blog](https://yohei.me)
+
 ## Official Bio
 Yohei Nakajima is a General Partner and co-founder of Untapped Capital, a pre-seed venture fund backing unexpected founders at the earliest stages. He is best known as the creator of BabyAGI, one of the early open-source autonomous agent experiments that helped popularize task-driven AI agents. Yohei’s work sits at the intersection of venture capital, software prototyping, and frontier AI research: he builds tools and experiments to understand where technology is going, then uses those lessons to support founders and shape investment theses.
 
@@ -18,6 +28,3 @@ Most recently, Yohei has been developing ActiveGraph, an event-log-native archit
 
 ## Scheduled Sessions
 - [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4]] — Active Graph Agent Runtime (BabyAGI 4) (2026-07-01, 11:10am-11:30am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/yoheinakajima)

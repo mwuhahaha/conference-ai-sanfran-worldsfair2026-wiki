@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Member of Technical Staff at Laude Institute.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Alex Shaw is the creator of Harbor, a framework for evaluating and optimizing agents and language models in sandboxed environments.
 

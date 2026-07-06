@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Director of Product Marketing at Microsoft.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Ronak Chokshi is Director of Product Marketing at Microsoft, with recent public activity around Microsoft Copilot, Copilot CLI, Azure Content Understanding, and AI marketplace/product announcements.
 

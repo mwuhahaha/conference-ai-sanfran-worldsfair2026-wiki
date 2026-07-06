@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Tech Group Lead at AI21 Labs.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Niv Granot is a Tech Group Lead at AI21 Labs working on AI systems engineering, retrieval, web search, and knowledge-intensive tools. He has discussed RAG evaluation and query-dependent chunking in AI21 technical content.
 

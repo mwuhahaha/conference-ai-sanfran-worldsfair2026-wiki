@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Software Engineer at Warp.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Safia Abdalla is a software engineer at Warp working on Oz, Warp's cloud orchestration platform for agents, including multi-agent orchestration and self-improving verification loops.
 

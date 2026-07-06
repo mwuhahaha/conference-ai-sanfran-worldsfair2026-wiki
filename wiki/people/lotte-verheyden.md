@@ -3,6 +3,7 @@ title: "Lotte Verheyden"
 category: "people"
 role: "AI engineer and developer educator, Langfuse"
 company: "Clickhouse"
+twitter: "https://x.com/lotte_verheyden"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 AI engineer and developer educator, Langfuse at Clickhouse.
+
+## Profile Links
+- [X / Twitter](https://x.com/lotte_verheyden)
 
 ## Official Bio
 Lotte Verheyden guides both humans and agents through AI engineering at Langfuse, part of ClickHouse. Her work focuses on making AI observability and agent workflows legible to developers and coding agents.

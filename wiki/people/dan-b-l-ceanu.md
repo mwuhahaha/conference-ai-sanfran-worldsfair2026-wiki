@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Chief Product Officer and Co-Founder at DRUID AI.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Dan Bălăceanu is Chief Product Officer and Co-Founder at DRUID AI. He works on enterprise AI agents and conversational automation, with a background in business, IT, artificial intelligence, language processing, and large-scale software development.
 

@@ -3,6 +3,7 @@ title: "Richard Socher"
 category: "people"
 role: "CEO & Co-Founder"
 company: "You.com / Recursive Superintelligence"
+twitter: "https://x.com/RichardSocher"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 CEO & Co-Founder at You.com / Recursive Superintelligence.
+
+## Profile Links
+- [X / Twitter](https://x.com/RichardSocher)
 
 ## Official Bio
 AI researcher and entrepreneur; CEO and Co-Founder of You.com and Recursive Superintelligence. Previously Chief Scientist and EVP at Salesforce, with a Stanford PhD in Computer Science and widely cited work in NLP and deep learning.

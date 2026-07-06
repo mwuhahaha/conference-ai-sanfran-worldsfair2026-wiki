@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 FDE CTO at Decagon.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Sunny Rekhi is FDE CTO at Decagon and speaks about how forward deployed engineering is done at Decagon.
 

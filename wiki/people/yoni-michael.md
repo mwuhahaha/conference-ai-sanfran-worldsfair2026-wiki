@@ -3,6 +3,8 @@ title: "Yoni Michael"
 category: "people"
 role: "Co-Founder"
 company: "typedef"
+linkedin: "https://www.linkedin.com/in/yonimichael"
+twitter: "https://x.com/yoni_michael"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,6 +13,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Co-Founder at typedef.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/yonimichael)
+- [X / Twitter](https://x.com/yoni_michael)
+
 ## Official Bio
 Yoni Michael is the co-founder of Typedef, a company building the data context layer for AI agents working across modern data stacks. Typedef analyzes transformation code, lineage, schemas, metrics, and usage patterns to help agents reason safely about complex data systems.
 
@@ -18,6 +24,3 @@ Yoni has spent more than a decade building infrastructure and data platforms at 
 
 ## Scheduled Sessions
 - [[2026-06-29-yoni-michael-the-data-context-layer-why-data-engineering-agents-need-more-than-code-and-databases]] — The Data Context Layer: Why Data Engineering Agents Need More Than Code and Databases (2026-06-29, 2:20pm-4:20pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/yonimichael)

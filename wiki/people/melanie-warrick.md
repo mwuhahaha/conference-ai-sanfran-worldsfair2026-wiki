@@ -3,6 +3,8 @@ title: "Melanie Warrick"
 category: "people"
 role: "Developer Relations Engineering"
 company: "Temporal Technologies"
+twitter: "https://x.com/nyghtowlYT"
+website: "https://nyghtowl.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Developer Relations Engineering at Temporal Technologies.
+
+## Profile Links
+- [X / Twitter](https://x.com/nyghtowlYT)
+- [Website](https://nyghtowl.com)
 
 ## Official Bio
 Melanie Warrick works in Developer Relations Engineering at Temporal Technologies. She has built AI solutions across data engineering, machine learning, developer relations, and health-tech roles, and now focuses on durable infrastructure and agentic systems.

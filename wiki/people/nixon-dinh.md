@@ -2,6 +2,7 @@
 title: "Nixon Dinh"
 category: "people"
 company: "PayPal"
+linkedin: "https://www.linkedin.com/in/nixon-dinh"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,11 +11,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Role not listed at PayPal.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/nixon-dinh)
+
 ## Official Bio
 No official bio included in the speaker JSON.
 
 ## Scheduled Sessions
 - [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs]] — The Death of Keyword Search and the Rise of Agent-Readable Catalogs (2026-06-30, 11:10am-11:30am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/nixon-dinh)

@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Developer Experience Engineer at Google DeepMind.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Ivan Leo works on Developer Experience at Google DeepMind, focusing on making it easier to build on Gemini and on evaluating autonomous agents. He previously worked on action engines for knowledge work at Manus and open-source libraries for structured LLM outputs.
 

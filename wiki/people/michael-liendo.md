@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Staff Developer Advocate at Auth0.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Michael Liendo is a Staff Developer Advocate at Auth0 who focuses on simplifying complex development topics through written and video tutorials, especially around full-stack SaaS, authentication, and serverless development.
 

@@ -2,6 +2,7 @@
 title: "Sheilah Kirui"
 category: "people"
 company: "NVIDIA"
+website: "https://developer.nvidia.com/blog/author/skirui"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -9,6 +10,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Role not listed at NVIDIA.
+
+## Profile Links
+- [Website](https://developer.nvidia.com/blog/author/skirui)
 
 ## Official Bio
 No official bio included in the speaker JSON.

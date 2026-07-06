@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Software Engineer at Two Sigma Investments.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Software engineer at Two Sigma Investments building the AI platform. Formerly led Developer Productivity and Insurance Engineering teams. Previously at Wealthfront.
 

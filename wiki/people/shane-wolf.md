@@ -2,6 +2,7 @@
 title: "Shane Wolf"
 category: "people"
 company: "Atlassian"
+linkedin: "https://www.linkedin.com/in/shane-wolf"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,11 +11,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Role not listed at Atlassian.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/shane-wolf)
+
 ## Official Bio
 No official bio included in the speaker JSON.
 
 ## Scheduled Sessions
 - [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]] — The best SDLC is the one you build yourself: Why orchestration changes everything (2026-06-29, 9:00am-11:00am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/shane-wolf)

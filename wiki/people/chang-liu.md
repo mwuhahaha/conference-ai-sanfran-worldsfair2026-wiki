@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Senior Product Manager at Microsoft.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Chang Liu is a Senior Product Manager at Microsoft working on Azure AI Foundry evaluation and agent quality tooling, including metrics for quality and safety in agentic applications.
 

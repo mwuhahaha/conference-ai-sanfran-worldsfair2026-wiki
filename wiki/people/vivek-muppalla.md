@@ -3,6 +3,9 @@ title: "Vivek Muppalla"
 category: "people"
 role: "VP AI Engineering"
 company: "Hippocratic AI"
+linkedin: "https://www.linkedin.com/in/vivekmuppalla/"
+twitter: "https://x.com/vim1up"
+website: "https://hippocraticai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +13,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 VP AI Engineering at Hippocratic AI.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/vivekmuppalla/)
+- [X / Twitter](https://x.com/vim1up)
+- [Website](https://hippocraticai.com/)
 
 ## Official Bio
 Vivek Raju Muppalla is VP of AI Engineering at Hippocratic AI, where he leads product engineering for healthcare agents powering AI Front Door, Nurse Co-Pilot, and over 200 million patient-agent interactions. His focus is on turning frontier models into clinically safe, production-grade voice agents across real-time orchestration, evaluation, reliability, and patient-facing workflows.
@@ -20,6 +28,3 @@ Throughout his career, Vivek has focused on the hardest part of shipping AI: bui
 
 ## Scheduled Sessions
 - [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses]] — 200 Million Patient Interactions Later: What the Generic Voice Stack Misses (2026-07-01, 12:05pm-12:25pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/vivekmuppalla/)

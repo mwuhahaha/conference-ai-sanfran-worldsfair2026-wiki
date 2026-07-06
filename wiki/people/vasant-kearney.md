@@ -3,6 +3,9 @@ title: "Vasant Kearney"
 category: "people"
 role: "CEO and Founder"
 company: "Onlay"
+linkedin: "https://www.linkedin.com/in/vasant-kearney-7b7a48b3"
+twitter: "https://x.com/vasantkearney"
+website: "https://onlay.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +13,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 CEO and Founder at Onlay.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/vasant-kearney-7b7a48b3)
+- [X / Twitter](https://x.com/vasantkearney)
+- [Website](https://onlay.ai/)
 
 ## Official Bio
 Vasant Kearney is founder and CEO of Onlay AI, where he builds agentic healthcare revenue-cycle infrastructure across claims, eligibility, attachments, payer follow-up, payment posting, and bank reconciliation.
@@ -20,6 +28,3 @@ His work sits at the intersection of healthcare operations, regulated workflows,
 
 ## Scheduled Sessions
 - [[2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents]] — Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents (2026-07-01, 1:55pm-2:15pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/vasant-kearney-7b7a48b3)

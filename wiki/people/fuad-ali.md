@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Senior Product Manager at Arize AI.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Fuad Ali is a Senior Product Manager at Arize AI focused on ML observability and reliable AI systems. His background spans engineering and product work at SpaceX, Tesla, Twitter and Federato, and he co-hosts The Next Iteration podcast.
 

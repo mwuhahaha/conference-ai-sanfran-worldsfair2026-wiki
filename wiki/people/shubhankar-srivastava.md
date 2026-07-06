@@ -3,6 +3,7 @@ title: "Shubhankar Srivastava"
 category: "people"
 role: "Founding Sales Engineer"
 company: "Browserbase"
+twitter: "https://x.com/_shubhankar"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Founding Sales Engineer at Browserbase.
+
+## Profile Links
+- [X / Twitter](https://x.com/_shubhankar)
 
 ## Official Bio
 Shubhankar Srivastava is the founding Sales Engineer of Browserbase, a developer-infrastructure company for building and deploying browser agents that interact with the web. Before Browserbase, he co-founded Houseware, a product analytics company that was acquired by LaunchDarkly.

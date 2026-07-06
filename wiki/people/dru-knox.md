@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Head of Product at Tessl.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Dru Knox leads product at Tessl, working on AI-native software development, coding-agent harnesses, specifications and workflows that help teams build reliable software with agents.
 

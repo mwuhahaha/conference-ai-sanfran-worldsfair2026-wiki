@@ -3,6 +3,8 @@ title: "Neil Zeghidour"
 category: "people"
 role: "Co-founder & CEO"
 company: "Gradium"
+twitter: "https://x.com/neilzegh"
+website: "https://gradium.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Co-founder & CEO at Gradium.
+
+## Profile Links
+- [X / Twitter](https://x.com/neilzegh)
+- [Website](https://gradium.ai)
 
 ## Official Bio
 Neil Zeghidour is the co-founder and CEO of Gradium. Neil founded Gradium after a decade of building and leading frontier generative audio teams at Meta and Google DeepMind. Being frustrated by slow and brittle voice assistants , he built the engineering teams that developed the first neural audio codecs and introduced the first audio LLMs, such as AudioLM, at Google. He later created Kyutai to launch Moshi, the world's first real-time, full-duplex conversational AI , and Hibiki, the first simultaneous speech-to-speech translation system. Today, Gradium is focused on helping developers build natural, real-time voice agents by providing ultra-low latency streaming APIs that transition these breakthroughs from the research lab to production.

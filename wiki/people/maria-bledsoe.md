@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 General Manager, Product Marketing at Microsoft.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Maria Bledsoe is General Manager of Product Marketing at Microsoft, writing and speaking about enterprise AI readiness, AI tools, and the practical foundations required to scale AI across organizations.
 

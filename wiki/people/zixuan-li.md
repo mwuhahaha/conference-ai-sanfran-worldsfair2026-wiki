@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Head of Z.ai at Z.ai.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Head of Z.ai, involved with Z.ai's AI products and GLM model strategy.
 

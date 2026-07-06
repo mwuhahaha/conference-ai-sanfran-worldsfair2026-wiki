@@ -3,6 +3,10 @@ title: "Vinoth Govindarajan"
 category: "people"
 role: "Member of Technical Staff"
 company: "OpenAI"
+linkedin: "https://www.linkedin.com/in/vinothgovindarajan/"
+twitter: "https://x.com/iamvinoth"
+website: "https://theagentstack.substack.com/"
+blog: "https://theagentstack.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +14,12 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Member of Technical Staff at OpenAI.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/vinothgovindarajan/)
+- [X / Twitter](https://x.com/iamvinoth)
+- [Website](https://theagentstack.substack.com/)
+- [Blog](https://theagentstack.substack.com/)
 
 ## Official Bio
 Vinoth Govindarajan is a Member of Technical Staff at OpenAI, where he works on core data infrastructure for large-scale AI systems and internal agent platforms. His work focuses on control planes, stateful architectures, scalability, low-latency systems, observability, and reliability patterns that make production system safe, resilient, and predictable.
@@ -20,6 +30,3 @@ Outside of his work, he is the co-author of Engineering Lakehouses with Open Tab
 
 ## Scheduled Sessions
 - [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did]] — Your Agent Didn’t Fail. Your Harness Did. (2026-06-29, 11:10am-11:30am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/vinothgovindarajan/)

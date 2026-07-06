@@ -3,6 +3,7 @@ title: "Daniel Svonava"
 category: "people"
 role: "CEO and co-founder"
 company: "Superlinked"
+twitter: "https://x.com/svonava"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 CEO and co-founder at Superlinked.
+
+## Profile Links
+- [X / Twitter](https://x.com/svonava)
 
 ## Official Bio
 Daniel Svonava is CEO and co-founder of Superlinked.

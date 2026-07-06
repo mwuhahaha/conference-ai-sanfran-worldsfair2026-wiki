@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Dating Coach for Tech Founders at Joyce Consulting Group.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Joyce Zhang is a dating coach for tech founders and ambitious professionals, helping clients build exceptional relationships. She is a former Stripe and BCG operator and MIT alum, and writes Joyce's Dating Playbook.
 

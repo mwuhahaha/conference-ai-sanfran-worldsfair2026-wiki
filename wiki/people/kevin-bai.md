@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Member of Technical Staff at Anthropic.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Kevin Bai works in applied AI at Anthropic and has a background in forward deployed engineering, Palantir, Rippling, the United Nations, and international relations.
 

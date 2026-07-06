@@ -3,6 +3,9 @@ title: "Wei-Lin Chiang"
 category: "people"
 role: "Co-founder & CTO"
 company: "Arena"
+linkedin: "https://www.linkedin.com/in/wei-lin-chiang-51b025b2/"
+twitter: "https://x.com/infwinston"
+website: "https://infwinston.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +13,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Co-founder & CTO at Arena.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/wei-lin-chiang-51b025b2/)
+- [X / Twitter](https://x.com/infwinston)
+- [Website](https://infwinston.github.io/)
 
 ## Official Bio
 Wei-Lin Chiang is the co-founder and CTO of Arena, the leading open platform for evaluating AI through real-world human feedback. A systems builder and researcher, Wei-Lin has played a foundational role in the design, scaling, and launch of the community-driven evaluation platform.
@@ -20,6 +28,3 @@ Outside of work, Wei-Lin enjoys hiking and cycling, often exploring new trails a
 
 ## Scheduled Sessions
 - [[2026-06-30-wei-lin-chiang-closing-keynote]] — Closing Keynote (2026-06-30, 5:10pm-5:30pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/wei-lin-chiang-51b025b2/)

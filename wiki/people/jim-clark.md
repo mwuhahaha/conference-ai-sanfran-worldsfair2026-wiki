@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Principal Software Engineer at Docker.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Jim Clark is a Principal Software Engineer at Docker working on Docker's MCP tooling and gateway. His recent work focuses on secure, controlled interfaces between AI agents, tools, and MCP servers.
 

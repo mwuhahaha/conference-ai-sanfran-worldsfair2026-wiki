@@ -3,6 +3,9 @@ title: "Shafik Quoraishee"
 category: "people"
 role: "Staff Engineer"
 company: "The New York Times"
+linkedin: "https://www.linkedin.com/in/shafik-quoraishee/"
+twitter: "https://x.com/squoraishee"
+website: "https://www.shafikquoraishee.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,6 +14,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Staff Engineer at The New York Times.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/shafik-quoraishee/)
+- [X / Twitter](https://x.com/squoraishee)
+- [Website](https://www.shafikquoraishee.com/)
+
 ## Official Bio
 Shafik Quoraishee is a Staff Games Engineer, published writer, illustrator, and artificial intelligence researcher at The New York Times. With over a decade of experience in mobile development, he plays a key role in building and integrating the Times's highly popular digital puzzles into the Android ecosystem.
 
@@ -18,6 +26,3 @@ Outside of game engineering, Quoraishee is a practitioner specializing in comput
 
 ## Scheduled Sessions
 - [[2026-07-01-shafik-quoraishee-on-device-agentic-ai-for-the-new-york-times-games]] — On-Device Agentic AI for the New York Times Games (2026-07-01, 2:50pm-3:10pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/shafik-quoraishee/)

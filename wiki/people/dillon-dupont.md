@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 CTO at Cua.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Building computer-use agents at Cua, WindowsAgentArena co-author
 

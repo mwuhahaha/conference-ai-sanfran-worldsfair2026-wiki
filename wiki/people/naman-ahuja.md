@@ -3,6 +3,9 @@ title: "Naman Ahuja"
 category: "people"
 role: "Senior Software Engineer"
 company: "Meta"
+linkedin: "https://www.linkedin.com/in/namanahuja/"
+website: "https://buzzingtech.ai/"
+blog: "https://buzzingtech.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,6 +14,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Senior Software Engineer at Meta.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/namanahuja/)
+- [Website](https://buzzingtech.ai/)
+- [Blog](https://buzzingtech.ai/)
+
 ## Official Bio
 Software Engineer at Meta working at the intersection of distributed systems, AI infrastructure, and hardware enablement. He focuses on adopting new hardware platforms across Meta’s datacenter fleet to support AGI-scale workloads and production AI systems.
 
@@ -18,6 +26,3 @@ His work spans capacity management, autoscaling, reliability engineering, and da
 
 ## Scheduled Sessions
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale (2026-07-01, 10:45am-11:05am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/namanahuja/)

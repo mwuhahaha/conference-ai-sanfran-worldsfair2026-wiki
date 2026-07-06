@@ -3,6 +3,10 @@ title: "Daniel Han"
 category: "people"
 role: "Co-founder"
 company: "Unsloth"
+linkedin: "https://www.linkedin.com/in/danielhanchen"
+twitter: "https://x.com/danielhanchen"
+website: "https://unsloth.ai"
+blog: "https://unsloth.ai/introducing"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,6 +15,12 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Co-founder at Unsloth.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/danielhanchen)
+- [X / Twitter](https://x.com/danielhanchen)
+- [Website](https://unsloth.ai)
+- [Blog](https://unsloth.ai/introducing)
+
 ## Official Bio
 Co-founder of Unsloth. Making open source AI more accessible and local. 300M downloads. 65K GitHub stars. Previously at NVIDIA.
 
@@ -18,6 +28,3 @@ Co-founder of Unsloth. Making open source AI more accessible and local. 300M dow
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents (2026-06-29, 2:20pm-5:30pm)
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge]] — Compression at the Edge (2026-07-01, 2:25pm-2:45pm)
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519]] — Compression at the Edge (2026-07-01, 2:50pm-3:10pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/danielhanchen)

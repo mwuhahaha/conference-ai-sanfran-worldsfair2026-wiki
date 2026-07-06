@@ -3,6 +3,10 @@ title: "James Le"
 category: "people"
 role: "Head of Developer Experience"
 company: "TwelveLabs"
+linkedin: "https://www.linkedin.com/in/khanhnamle94/"
+twitter: "https://x.com/le_james94"
+website: "http://jameskle.com/"
+blog: "https://jameskle.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,11 +15,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Head of Developer Experience at TwelveLabs.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/khanhnamle94/)
+- [X / Twitter](https://x.com/le_james94)
+- [Website](http://jameskle.com/)
+- [Blog](https://jameskle.com/)
+
 ## Official Bio
 James Le is currently leading Developer Experience at Twelve Labs, a startup building foundation models for video understanding. Previously, he worked at MLOps startups including Superb AI, Snorkel AI, Weights & Biases, and taught production ML content with Full Stack Deep Learning.
 
 ## Scheduled Sessions
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]] — Video Has No Memory. Here's How We Built One. (2026-07-01, 2:25pm-2:45pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/khanhnamle94/)

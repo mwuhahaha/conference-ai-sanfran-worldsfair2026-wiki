@@ -3,6 +3,9 @@ title: "Stephanie Jarmak"
 category: "people"
 role: "Agent Advocate"
 company: "Sourcegraph"
+linkedin: "https://linkedin.com/in/stephanie-jarmak"
+twitter: "https://x.com/sgjarmak"
+website: "https://www.sjarmak.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +13,11 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Agent Advocate at Sourcegraph.
+
+## Profile Links
+- [LinkedIn](https://linkedin.com/in/stephanie-jarmak)
+- [X / Twitter](https://x.com/sgjarmak)
+- [Website](https://www.sjarmak.ai/)
 
 ## Official Bio
 Dr. Stephanie Jarmak is an Agent Advocate, AI engineer, and research scientist building agentic systems for go-to-market, developer tooling, and knowledge infrastructure. She is an OSS maintainer of Gas City and a research affiliate with the NASA search engine SciX, where her work focuses on search relevance, discovery systems, and AI-assisted access to scientific literature.
@@ -20,6 +28,3 @@ Previously, Stephanie served as Project Scientist for Planetary Science at SciX 
 
 ## Scheduled Sessions
 - [[2026-07-01-stephanie-jarmak-the-death-of-developer-advocates]] — The Death of Developer Advocates (2026-07-01, 3:45pm-4:05pm)
-
-## Links
-- [LinkedIn](https://linkedin.com/in/stephanie-jarmak)

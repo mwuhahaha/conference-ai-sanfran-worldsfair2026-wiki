@@ -3,6 +3,7 @@ title: "Dan Fu"
 category: "people"
 role: "VP of Kernels"
 company: "Together AI"
+twitter: "https://x.com/realDanFu"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 VP of Kernels at Together AI.
+
+## Profile Links
+- [X / Twitter](https://x.com/realDanFu)
 
 ## Official Bio
 VP of Kernels at Together AI and Assistant Professor of Computer Science and Engineering at UC San Diego, focused on efficient machine learning systems and GPU performance.

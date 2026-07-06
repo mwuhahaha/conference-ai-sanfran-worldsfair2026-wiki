@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Head of Platform Engineering at LlamaIndex.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 George He leads platform engineering at LlamaIndex, working on document agents, OCR, retrieval, and infrastructure for connecting enterprise data to LLM applications.
 

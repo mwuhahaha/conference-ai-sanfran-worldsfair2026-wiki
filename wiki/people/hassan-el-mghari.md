@@ -3,6 +3,10 @@ title: "Hassan El Mghari"
 category: "people"
 role: "Director of Developer Experience"
 company: "Together AI"
+linkedin: "https://www.linkedin.com/in/nutlope/"
+twitter: "https://x.com/nutlope"
+website: "https://nutlope.com"
+blog: "https://nutlope.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,11 +15,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Director of Developer Experience at Together AI.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/nutlope/)
+- [X / Twitter](https://x.com/nutlope)
+- [Website](https://nutlope.com)
+- [Blog](https://nutlope.com)
+
 ## Official Bio
 Leading Developer Experience at Together AI. Educating developers on AI & building open source AI apps. Based in New York.
 
 ## Scheduled Sessions
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] — The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs (2026-06-30, 2:50pm-3:10pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/nutlope/)

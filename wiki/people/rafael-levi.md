@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 DevRel at Bright Data.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 No official bio included in the speaker JSON.
 

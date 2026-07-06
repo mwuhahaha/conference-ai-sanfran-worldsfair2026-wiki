@@ -3,6 +3,8 @@ title: "Corby Rosset"
 category: "people"
 role: "Senior Researcher"
 company: "Microsoft Research"
+twitter: "https://x.com/corby_rosset"
+website: "https://corbyrosset.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Senior Researcher at Microsoft Research.
+
+## Profile Links
+- [X / Twitter](https://x.com/corby_rosset)
+- [Website](https://corbyrosset.com)
 
 ## Official Bio
 Corby Rosset is a Senior Researcher at Microsoft Research studying the intersection of large language models and search/retrieval systems. His work includes conversational search, Bing's People Also Ask feature, and recent verifier research for computer-use agents.

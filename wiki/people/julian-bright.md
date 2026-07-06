@@ -11,6 +11,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 Co-Founder at Introspection.
 
+## Profile Links
+No public profile links listed in the official speaker roster.
+
 ## Official Bio
 Julian Bright is a co-founder at Introspection, building infrastructure for agent autoresearch and agent systems with Roland Gavrilescu.
 

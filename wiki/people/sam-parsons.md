@@ -3,6 +3,8 @@ title: "Sam Parsons"
 category: "people"
 role: "Senior Staff Software Engineer and Tech Lead"
 company: "PayPal Braintree"
+twitter: "https://x.com/sjparsons"
+website: "https://sjparsons.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Senior Staff Software Engineer and Tech Lead at PayPal Braintree.
+
+## Profile Links
+- [X / Twitter](https://x.com/sjparsons)
+- [Website](https://sjparsons.com)
 
 ## Official Bio
 Sam Parsons is a Senior Staff Software Engineer and Tech Lead at PayPal Braintree. His current team builds Payments Orchestration, and he has more than 15 years of experience building critical fintech, travel, higher-education, and government software systems.

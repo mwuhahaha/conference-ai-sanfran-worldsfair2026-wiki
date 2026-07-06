@@ -3,6 +3,7 @@ title: "Benoit Schillings"
 category: "people"
 role: "VP of Technology"
 company: "Google DeepMind"
+linkedin: "https://www.linkedin.com/in/benoit-schillings-2942a5"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -11,6 +12,9 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ## Official Role
 VP of Technology at Google DeepMind.
 
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/benoit-schillings-2942a5)
+
 ## Official Bio
 Benoit Schillings leads the Thinking, Reasoning, and Coding teams at Google DeepMind, directing foundational research toward AGI. His work focuses on advancing next-generation model reasoning and integrating software development best practices into AI code generation. 
 
@@ -18,6 +22,3 @@ Previously, as Chief Technology Officer at X, Benoit guided early-stage teams in
 
 ## Scheduled Sessions
 - [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]] — Research to Reality with Google DeepMind (2026-06-30, 10:05am-10:25am)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/benoit-schillings-2942a5)

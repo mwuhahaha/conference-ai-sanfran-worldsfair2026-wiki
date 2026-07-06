@@ -3,6 +3,8 @@ title: "Jue Wang"
 category: "people"
 role: "Senior Staff Researcher"
 company: "Together AI"
+twitter: "https://x.com/JueWANG26088228"
+website: "https://juewang.me"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +12,10 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Senior Staff Researcher at Together AI.
+
+## Profile Links
+- [X / Twitter](https://x.com/JueWANG26088228)
+- [Website](https://juewang.me)
 
 ## Official Bio
 Jue Wang is a Senior Staff Researcher at Together AI working on efficient and cost-effective algorithms and systems for LLMs, after earning a Ph.D. in computer science from Zhejiang University.

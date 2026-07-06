@@ -3,6 +3,10 @@ title: "Erina Karati"
 category: "people"
 role: "Former Microsoft"
 company: "Supercell"
+linkedin: "https://www.linkedin.com/in/ekarati/"
+twitter: "https://x.com/erinakarati"
+website: "https://www.erinakarati.dev/"
+blog: "https://www.erinakarati.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
@@ -10,6 +14,12 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 
 ## Official Role
 Former Microsoft at Supercell.
+
+## Profile Links
+- [LinkedIn](https://www.linkedin.com/in/ekarati/)
+- [X / Twitter](https://x.com/erinakarati)
+- [Website](https://www.erinakarati.dev/)
+- [Blog](https://www.erinakarati.dev/)
 
 ## Official Bio
 Erina Karati builds applied AI systems across generative AI, multi-agent architectures, and production-ready ML pipelines. She recently worked as an AI Engineer at Supercell, where she built modular multi-agent systems and scalable AI infrastructure for real-world interactive environments, with resulting research accepted to the WiML Symposium @ ICML 2026.
@@ -22,6 +32,3 @@ Erina graduated with a Master’s in Computer Science from the University of Min
 
 ## Scheduled Sessions
 - [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]] — Autoresearch in a Multi-Agent AI Village (2026-06-30, 3:45pm-4:05pm)
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/ekarati/)
