@@ -65,4 +65,4 @@ npm run pages:deploy
 
 Planned Pages project name: `aie-worldsfair2026`.
 
-Planned custom domain: confirm whether this should be `aie-worldsfair2026.plusrobot.ai` or the typed `aie-wordlsfair2026.plusrobot.ai`.
+Planned custom domain: `aie-worldsfair2026.plusrobot.ai`.
