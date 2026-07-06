@@ -8,6 +8,7 @@ This standalone wiki is organized around the official AI Engineer World's Fair 2
 - For slide-first exploration, use [[slide-library]], [[reconstructed-slide-library]], and [[dense-slide-library]].
 - For evidence rules, use [[source-boundary]].
 - For the advanced slide scanner audit, use [[advanced-slide-logic-page-audit]].
+- Source repository: [mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki](https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki).
 
 ## Conference Map
 - [[2026-06-28-new-engineer-orientation]]
