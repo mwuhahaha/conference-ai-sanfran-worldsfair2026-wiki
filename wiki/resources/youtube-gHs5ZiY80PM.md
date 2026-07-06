@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "gHs5ZiY80PM"
-last_enriched: "2026-07-06T19:22:39.960802+00:00"
+last_enriched: "2026-07-06T19:48:35.359057+00:00"
 ---
 # You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/gHs5ZiY8
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[inference-engineering|Inference Engineering]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `hopefully`, `impact`, `techniques`, `b200`, `team`, `into`, `looking`, `further`
+- Transcript keywords: `load`, `sorry`, `covering`, `developers`, `data`, `seen`, `terms`, `focus`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=gHs5ZiY80PM)

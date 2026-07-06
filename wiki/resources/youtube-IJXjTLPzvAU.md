@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "IJXjTLPzvAU"
-last_enriched: "2026-07-06T19:22:39.205371+00:00"
+last_enriched: "2026-07-06T19:48:34.594212+00:00"
 ---
 # The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/IJXjTLPz
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `quoting`, `abolitionist`, `naturalness`, `anthropic`, `into`, `texts`, `double`, `builds`
+- Transcript keywords: `engineers`, `documentary`, `appears`, `sits`, `reinforcement`, `enough`, `separated`, `1848`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=IJXjTLPzvAU)

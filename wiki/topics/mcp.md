@@ -10,19 +10,12 @@ sourceLabels: ["Slide/video-derived supporting context"]
 This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
 
 ## Related Slide Decks
-- [[youtube-sAOBXCDiDOs-slides]] —  (18 extracted slide frames)
-- [[youtube-spNAUEgq_A8-slides]] — The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents (24 extracted slide frames)
-- [[youtube-IddXPepIAS4-slides]] — Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS (5 extracted slide frames)
-- [[youtube--x5GEVnkuRw-slides]] — Structuring the Unstructured - Cedric Clyburn, Red Hat (24 extracted slide frames)
-- [[youtube-vh2VGuQ3zhY-slides]] — The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica (13 extracted slide frames)
-- [[youtube-ObTPqBGsEbA-slides]] — The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks (11 extracted slide frames)
-- [[youtube-c-2eEv2ou7Y-slides]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic (11 extracted slide frames)
-- [[youtube-ghJmWQCIHRM-slides]] — The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google (7 extracted slide frames)
-- [[youtube-_xIwFcnHqp4-slides]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub (12 extracted slide frames)
-- [[youtube-_B4Pv9ttFgY-slides]] — Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google (10 extracted slide frames)
-- [[youtube-hCMrEfPG2Yg-slides]] — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman (7 extracted slide frames)
+- [[youtube-gcseUQJ6Gbg-slides]] — Using OSS models to build AI apps with millions of users — Hassan El Mghari (4 extracted slide frames)
+- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
+- [[youtube-jVjt-2g8NMY-slides]] — A Genius With Amnesia - Victor Savkin, Nx (19 extracted slide frames)
 
 ## Related Scheduled Sessions
+- [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] — The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs
 
 ## Transcript And Resource Support
 ### Transcript-backed resources

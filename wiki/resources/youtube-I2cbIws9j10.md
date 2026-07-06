@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "I2cbIws9j10"
-last_enriched: "2026-07-06T19:22:39.704639+00:00"
+last_enriched: "2026-07-06T19:48:35.108090+00:00"
 ---
 # WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-livestream-transcrip
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `auditing`, `unintended`, `dings`, `aren`, `into`, `node`, `blocker`, `caution`
+- Transcript keywords: `episode`, `archetype`, `sorry`, `supply`, `appears`, `plug`, `disk`, `optimization`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=I2cbIws9j10)

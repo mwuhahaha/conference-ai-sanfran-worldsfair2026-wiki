@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "504PvfXou5Y"
-last_enriched: "2026-07-06T19:22:38.605598+00:00"
+last_enriched: "2026-07-06T19:48:33.988667+00:00"
 ---
 # BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/504PvfXo
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[agentic-search|Agentic Search]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `design`, `layers`, `team`, `poor`, `into`, `specific`, `journey`, `replaced`
+- Transcript keywords: `folders`, `sorry`, `seen`, `closing`, `cannot`, `focus`, `forget`, `banana`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=504PvfXou5Y)

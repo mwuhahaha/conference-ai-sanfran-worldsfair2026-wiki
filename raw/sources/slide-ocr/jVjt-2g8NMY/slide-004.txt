@@ -1,0 +1,8 @@
+113A105000Z
+PROBLENS TO SOLVE
+There are many. They fall into
+two categories.
+Repoboundaries
+Amnesia
+The agent can only see and change one repo ata
+time,never the system aroundit.

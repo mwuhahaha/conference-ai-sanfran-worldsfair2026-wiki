@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "bk0TmxoZlUY"
-last_enriched: "2026-07-06T19:22:38.795068+00:00"
+last_enriched: "2026-07-06T19:48:34.179047+00:00"
 ---
 # Evals 101 — Doug Guthrie, Braintrust
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/bk0TmxoZ
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `score`, `break`, `resonated`, `figure`, `under`, `customer`, `impact`, `sample`
+- Transcript keywords: `engineers`, `logger`, `load`, `jump`, `specified`, `month`, `data`, `developers`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=bk0TmxoZlUY)

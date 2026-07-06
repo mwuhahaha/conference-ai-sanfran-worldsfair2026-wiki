@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "TUnPNY4E2fw"
-last_enriched: "2026-07-06T19:22:38.962305+00:00"
+last_enriched: "2026-07-06T19:48:34.348289+00:00"
 ---
 # Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/TUnPNY4E
 
 ## Topic Signals
 - [[agent-memory|Agent Memory]], [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `impact`, `techniques`, `optimization`, `services`, `into`, `huge`, `further`, `breaking`
+- Transcript keywords: `computations`, `data`, `developers`, `terms`, `loss`, `optimization`, `divide`, `knowledge`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=TUnPNY4E2fw)

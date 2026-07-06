@@ -10,23 +10,8 @@ sourceLabels: ["Slide/video-derived supporting context"]
 This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
 
 ## Related Slide Decks
-- [[youtube-2IxD9OB3XuQ-slides]] —  (24 extracted slide frames)
-- [[youtube-fWXJM-J0ZB8-slides]] — Frontier results, on device - RL Nabors, Arize (24 extracted slide frames)
-- [[youtube-pSto5YaNGUo-slides]] — The Agentic AI Engineer - Benedikt Sanftl, Mutagent (24 extracted slide frames)
-- [[youtube-LrGCT7G_rU8-slides]] — Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon (14 extracted slide frames)
-- [[youtube-65X0pQ6Lmbg-slides]] — Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs (11 extracted slide frames)
-- [[youtube-dRmWYHuIJxM-slides]] — We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco (11 extracted slide frames)
-- [[youtube-T0HhO4YtTfE-slides]] — AI System Design: From Idea to Production - Apoorva Joshi, MongoDB (16 extracted slide frames)
-- [[youtube--x5GEVnkuRw-slides]] — Structuring the Unstructured - Cedric Clyburn, Red Hat (24 extracted slide frames)
-- [[youtube-vh2VGuQ3zhY-slides]] — The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica (13 extracted slide frames)
-- [[youtube-vljxQZfJ9wY-slides]] —  (12 extracted slide frames)
-- [[youtube-0S8xe9ftGTM-slides]] — 6 Things to Know about AIE World's Fair 2026 (24 extracted slide frames)
-- [[youtube-zDGHt0LB-dA-slides]] — GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod (10 extracted slide frames)
-- [[youtube-ILdE7FaAjVA-slides]] — Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod (7 extracted slide frames)
-- [[youtube-_B4Pv9ttFgY-slides]] — Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google (10 extracted slide frames)
-- [[youtube-r305-aQTaU0-slides]] — Text Diffusion — Brendan O’Donoghue, Google DeepMind (9 extracted slide frames)
-- [[youtube-HvZXAOZ3iv8-slides]] — What Lies Beneath the API — Benjamin Cowen, Modal (7 extracted slide frames)
-- [[youtube-hqHC6Z_lXyo-slides]] — 20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna (12 extracted slide frames)
+- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
+- [[youtube-SS-A8sE7hkw-slides]] — Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind (12 extracted slide frames)
 
 ## Related Scheduled Sessions
 

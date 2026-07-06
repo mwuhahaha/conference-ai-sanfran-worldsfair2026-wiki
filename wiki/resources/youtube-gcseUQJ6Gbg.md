@@ -20,3 +20,5 @@ Not fetched yet.
 
 ## Related Scheduled Sessions
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] — The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs
+## Extracted Slides
+- [[youtube-gcseUQJ6Gbg-slides]]

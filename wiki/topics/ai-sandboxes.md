@@ -10,18 +10,7 @@ sourceLabels: ["Slide/video-derived supporting context"]
 This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
 
 ## Related Slide Decks
-- [[youtube-2IxD9OB3XuQ-slides]] —  (24 extracted slide frames)
-- [[youtube-sAOBXCDiDOs-slides]] —  (18 extracted slide frames)
-- [[youtube-pSto5YaNGUo-slides]] — The Agentic AI Engineer - Benedikt Sanftl, Mutagent (24 extracted slide frames)
-- [[youtube--x5GEVnkuRw-slides]] — Structuring the Unstructured - Cedric Clyburn, Red Hat (24 extracted slide frames)
-- [[youtube-JnubYCYunk8-slides]] — Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK (8 extracted slide frames)
-- [[youtube-4uFVSLgD2Q4-slides]] — Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov (11 extracted slide frames)
-- [[youtube-3hXJI2q0Jz8-slides]] — Recursive Coding Agents - Raymond Weitekamp, OpenProse (7 extracted slide frames)
-- [[youtube-vljxQZfJ9wY-slides]] —  (12 extracted slide frames)
-- [[youtube-0S8xe9ftGTM-slides]] — 6 Things to Know about AIE World's Fair 2026 (24 extracted slide frames)
-- [[youtube-c-2eEv2ou7Y-slides]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic (11 extracted slide frames)
-- [[youtube-wcUJWP6WpGM-slides]] — SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius (5 extracted slide frames)
-- [[youtube-HvZXAOZ3iv8-slides]] — What Lies Beneath the API — Benjamin Cowen, Modal (7 extracted slide frames)
+- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
 
 ## Related Scheduled Sessions
 

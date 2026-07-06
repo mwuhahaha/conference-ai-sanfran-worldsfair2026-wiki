@@ -20,3 +20,5 @@ Not fetched yet.
 
 ## Related Scheduled Sessions
 - [[2026-06-30-alex-shaw-everything-is-a-rollout]] — Everything Is a Rollout
+## Extracted Slides
+- [[youtube-liG97YXaTSA-slides]]

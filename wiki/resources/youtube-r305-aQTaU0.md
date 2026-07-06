@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "r305-aQTaU0"
-last_enriched: "2026-07-06T19:22:39.110380+00:00"
+last_enriched: "2026-07-06T19:48:34.504221+00:00"
 ---
 # Text Diffusion — Brendan O’Donoghue, Google DeepMind
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/r305-aQT
 
 ## Topic Signals
 - [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `remember`, `aggressive`, `ranges`, `figure`, `finish`, `square`, `aren`, `into`
+- Transcript keywords: `landing`, `website`, `engineers`, `budget`, `sorry`, `coding`, `ratio`, `data`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=r305-aQTaU0)

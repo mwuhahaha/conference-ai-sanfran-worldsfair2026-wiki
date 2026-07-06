@@ -1,0 +1,21 @@
+We collect }
+tracing informations <2 Search + S&S & Timeline
+t= QA-Chatbot
+12.778
+contains-pii: 0.00 O — error-anatysi... 100 O — error-analysi... 1.00 O ’
+helpfulness: 0.20 © —is_question: 1.00 O —is_same_lan... 1.00 O
+*»  handle-chatbot-message v
+12.775
+**  get-langfuse-prompt
+—  create-mcp-client
+008s
+-« al.streamText
+v
+12.63s —_ --
+<“ ai.streamText.doStream
+5 485 1,119 > 52 (9 1.121) a yy
+7 ~
+J aitoolCall i a 7 —
+037s ar. es
+ ai.streamText.doStream
+a “ls 4.268 > 28119 4549) er ‘

@@ -1,0 +1,6 @@
+11A0SOH
+Potygraph
+Yes,reconstruct the session
+No,canceL resume
+/kup./jdoom,center>toselect,<esc>tocancel
+-Previou

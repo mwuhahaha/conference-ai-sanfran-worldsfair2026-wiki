@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "EcqMYoIV57A"
-last_enriched: "2026-07-06T19:22:39.925937+00:00"
+last_enriched: "2026-07-06T19:48:35.326558+00:00"
 ---
 # Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/EcqMYoIV
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `figure`, `customer`, `requirement`, `optimization`, `balance`, `specializing`, `architects`, `into`
+- Transcript keywords: `coding`, `data`, `developers`, `seen`, `focus`, `weights`, `meant`, `bottom`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=EcqMYoIV57A)
@@ -25,3 +25,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/EcqMYoIV
 ## Related Scheduled Sessions
 - [[2026-06-29-yoni-michael-the-data-context-layer-why-data-engineering-agents-need-more-than-code-and-databases]] — The Data Context Layer: Why Data Engineering Agents Need More Than Code and Databases (match score 9)
 - [[2026-06-30-gil-feig-why-your-company-needs-a-context-graph-and-how-to-build-it]] — Why your company needs a context graph, and how to build it (match score 9)
+
+## Extracted Slides
+- [[youtube-EcqMYoIV57A-slides]]

@@ -1,0 +1,13 @@
+12-LAYER3
+The induction pack.
+Wheremostteamsstop.
+/personality-builder.ts
+const WARMTH_DESCRIPTIONS={
+10:'extremelywarmandeffusive',
+7:'friendly and approachable',
+'neutral and professional',
+very formal and distant',
+//Plus banned/approved phrases,USPs-all per-venue
+or what they're carrying.
+ISADORA MARTIN-DYE
+STOPWRITINGTONEINSTRUCTIONS.LAYERTHEM

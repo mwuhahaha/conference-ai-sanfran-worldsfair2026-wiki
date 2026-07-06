@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "spNAUEgq_A8"
-last_enriched: "2026-07-06T19:22:39.178128+00:00"
+last_enriched: "2026-07-06T19:48:34.569607+00:00"
 ---
 # The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/spNAUEgq
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `rapidly`, `remember`, `break`, `telemetry`, `figure`, `customer`, `boggling`, `granted`
+- Transcript keywords: `website`, `insurance`, `coding`, `ourselves`, `addish`, `momentarily`, `data`, `awfully`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=spNAUEgq_A8)

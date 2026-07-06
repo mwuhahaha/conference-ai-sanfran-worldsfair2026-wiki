@@ -1781,6 +1781,35 @@
       "words": 1867
     },
     {
+      "video_id": "LrGCT7G_rU8",
+      "title": "Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          47
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          25
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          19
+        ],
+        [
+          "agent-security",
+          "Agent Security",
+          8
+        ]
+      ],
+      "matches": [],
+      "quotes": 3,
+      "words": 1843
+    },
+    {
       "video_id": "IddXPepIAS4",
       "title": "Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
       "topics": [
@@ -2291,10 +2320,14 @@
       "words": 984
     }
   ],
-  "missing_transcripts": [
-    "gUMwt4-5kn0",
-    "LrGCT7G_rU8"
+  "missing_transcripts": [],
+  "skipped_non_article": [
+    {
+      "video_id": "gUMwt4-5kn0",
+      "title": "2026 AI Engineer Vibe Reel",
+      "reason": "non-talk event reel"
+    }
   ],
-  "quote_count": 220,
-  "updated_at": "2026-07-06T19:22:40.005695+00:00"
+  "quote_count": 223,
+  "updated_at": "2026-07-06T19:48:35.406226+00:00"
 }

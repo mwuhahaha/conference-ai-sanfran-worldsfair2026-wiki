@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "UPwGaM2MKHY"
-last_enriched: "2026-07-06T19:22:39.192356+00:00"
+last_enriched: "2026-07-06T19:48:34.583265+00:00"
 ---
 # The Log Is The Agent - Ishaan Sehgal, Omnara
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/UPwGaM2M
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `auditing`, `break`, `clearly`, `under`, `finish`, `anthropic`, `strongest`, `several`
+- Transcript keywords: `data`, `loss`, `closing`, `cannot`, `meant`, `disk`, `playstation`, `forget`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=UPwGaM2MKHY)

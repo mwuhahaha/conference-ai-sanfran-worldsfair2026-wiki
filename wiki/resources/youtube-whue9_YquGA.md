@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "whue9_YquGA"
-last_enriched: "2026-07-06T19:22:38.700761+00:00"
+last_enriched: "2026-07-06T19:48:34.084734+00:00"
 ---
 # Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/whue9_Yq
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `remember`, `figure`, `impact`, `techniques`, `anthropic`, `design`, `square`, `services`
+- Transcript keywords: `leveling`, `engineers`, `incredible`, `coupled`, `tweak`, `load`, `coding`, `integrate`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=whue9_YquGA)

@@ -1,0 +1,23 @@
+11A0SOH
+Both look directly relevant-one for the vector-indexing pattern,one for the PR collection specifically.Let me pull details on both.First
+I need their session IDs.
+Called plugin:polygraph:polygraph-mcp (ctrl+o to expand)
+Isearched acrossprior sessions.Twoare directly relevant to what you're doing:
+1.index-repositories-opened by you,~2 days ago.Added vector indexing and inplemented repository search.This is the closest match:same
+vector-indexing mechanics you're about to apply.just on the repositories collection instead of PRs.
+2.pr-description-search -opened by Max Kless,~1month ago.Added full-text search to the PR collection specifically.Relevant for the
+collection shape,existing indexes,and any write-path considerations on PRs.
+Together they bracket your task well:one shows the vector-indexing pattern, the other shows the PR collection you're modifying.
+The senantic search surfaced these by relevance but didn't return their session Ios,and neither appears in the recent-session List （both
+predate it),so I can't auto-load them yet.To pull the full detail-file paths,index definitions,migration approach,and any gotchas-
+I'dwant toopen them directly.
+Wantmeto do oneofthese?
+1.Load index-repositories （reconmended)-the vector-indexing playbook to mirror.If you have its session ID or uRL handy.paste it and I'll
+pull the full breakdown.
+2.Load pr-description-search-for how the PR collection'sindexes are currently set up.
+3.Both,and I'll synthesize a combined here's how to add vector indexing to the PR collection"plan grounded in what those sessions
+actualty did.
+If you don't have the IDs, tell me which one(s) you want and I'll dig the out.
+*Workedfor41s
+ocean git:(add-pr-indexing-9c7ca610)[0pus4.8（1M context)]
+Previou

@@ -1,0 +1,23 @@
+jobs>agent-2>JOB.md>##PriorityHints
+##Objective
+Step1
+What is the main goal of this optimization job? Be specific about what "better"means.
+createajob
+Examples:
+"Improve accuracy on themath golden dataset from~20%to 80%+
+"Reduce average latency below 5ooms while maintaining current accuracy"
+“Add support for x questions (currently e% pass rate on that category)
+Wewant to improve theaccuracy asmuch aswe can
+##Target Repository
+Absolute or relative path to the repo the coding agent will modify.
+Also specify which branch to start from-this is the baseline.
+**Path**:/Users/alfonsograziano/Desktop/exp/auto-agent-demo
+**Branch**:master
+##Metrics
+Which metric should the system optimize,and what guardrails apply to
+The primary metric determines whether a hypothesis is accepted or rej
+secondary metric regresses beyond its threshold,even if the primary
+**Primarymetric**:accuracy（maximize)
+**Secondary constraints**:
+latency_avg_ms:max 2e% regression
+cost_usd:max5e% regression

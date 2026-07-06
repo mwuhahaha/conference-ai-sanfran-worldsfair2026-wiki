@@ -10,32 +10,13 @@ sourceLabels: ["Slide/video-derived supporting context"]
 This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.
 
 ## Related Slide Decks
-- [[youtube-kZsf_Sfm7RU-slides]] —  (19 extracted slide frames)
-- [[youtube-2IxD9OB3XuQ-slides]] —  (24 extracted slide frames)
-- [[youtube-hVJOnuhFmTA-slides]] — The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI (22 extracted slide frames)
-- [[youtube-fWXJM-J0ZB8-slides]] — Frontier results, on device - RL Nabors, Arize (24 extracted slide frames)
-- [[youtube-spNAUEgq_A8-slides]] — The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents (24 extracted slide frames)
-- [[youtube-pSto5YaNGUo-slides]] — The Agentic AI Engineer - Benedikt Sanftl, Mutagent (24 extracted slide frames)
-- [[youtube-LrGCT7G_rU8-slides]] — Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon (14 extracted slide frames)
-- [[youtube-Iwe_RY-fYgI-slides]] — AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent (13 extracted slide frames)
-- [[youtube-dRmWYHuIJxM-slides]] — We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco (11 extracted slide frames)
-- [[youtube-T0HhO4YtTfE-slides]] — AI System Design: From Idea to Production - Apoorva Joshi, MongoDB (16 extracted slide frames)
-- [[youtube-XovaGv4f39A-slides]] — When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis (5 extracted slide frames)
-- [[youtube-Jx4ZFEAq6bY-slides]] — User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch (19 extracted slide frames)
-- [[youtube-vh2VGuQ3zhY-slides]] — The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica (13 extracted slide frames)
-- [[youtube-4uFVSLgD2Q4-slides]] — Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov (11 extracted slide frames)
-- [[youtube-3hXJI2q0Jz8-slides]] — Recursive Coding Agents - Raymond Weitekamp, OpenProse (7 extracted slide frames)
-- [[youtube-vljxQZfJ9wY-slides]] —  (12 extracted slide frames)
-- [[youtube-ZD9-4fW2HhM-slides]] — Build Systems, Not Code - Angie Jones, Agentic AI Foundation (23 extracted slide frames)
-- [[youtube-ObTPqBGsEbA-slides]] — The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks (11 extracted slide frames)
-- [[youtube-c-2eEv2ou7Y-slides]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic (11 extracted slide frames)
-- [[youtube-ghJmWQCIHRM-slides]] — The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google (7 extracted slide frames)
-- [[youtube-UM6sFg_jdlE-slides]] — RAG is dead, right?? — Kuba Rogut, Turbopuffer (4 extracted slide frames)
-- [[youtube-TUnPNY4E2fw-slides]] — Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI (12 extracted slide frames)
-- [[youtube-_xIwFcnHqp4-slides]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub (12 extracted slide frames)
-- [[youtube-504PvfXou5Y-slides]] — BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence (4 extracted slide frames)
+- [[youtube-gcseUQJ6Gbg-slides]] — Using OSS models to build AI apps with millions of users — Hassan El Mghari (4 extracted slide frames)
+- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
+- [[youtube-jVjt-2g8NMY-slides]] — A Genius With Amnesia - Victor Savkin, Nx (19 extracted slide frames)
+- [[youtube-EcqMYoIV57A-slides]] — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo (4 extracted slide frames)
 
 ## Related Scheduled Sessions
+- [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] — The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs
 
 ## Transcript And Resource Support
 ### Transcript-backed resources
@@ -47,6 +28,7 @@ This subject appears in extracted slide/video context connected to AI Engineer W
 - [[youtube-XovaGv4f39A]] — When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis
 - [[youtube-jVjt-2g8NMY]] — A Genius With Amnesia - Victor Savkin, Nx
 - [[youtube-UPwGaM2MKHY]] — The Log Is The Agent - Ishaan Sehgal, Omnara
+- [[youtube-LrGCT7G_rU8]] — Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon
 - [[youtube-Jx4ZFEAq6bY]] — User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch
 - [[youtube-r305-aQTaU0]] — Text Diffusion — Brendan O’Donoghue, Google DeepMind
 - [[youtube-spNAUEgq_A8]] — The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents
@@ -56,7 +38,6 @@ This subject appears in extracted slide/video context connected to AI Engineer W
 - [[youtube-htM02KMNZnk]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
 - [[youtube-ZD9-4fW2HhM]] — Build Systems, Not Code - Angie Jones, Agentic AI Foundation
 - [[youtube-3hXJI2q0Jz8]] — Recursive Coding Agents - Raymond Weitekamp, OpenProse
-- [[youtube-hqHC6Z_lXyo]] — 20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna
 
 ### Quote signals
 - “And today, I'm going to tell you about our research project, which is called Road to 5 million sequence length, breaking memory barriers in context parallelism.” — [[youtube-TUnPNY4E2fw]]

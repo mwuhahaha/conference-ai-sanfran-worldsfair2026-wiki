@@ -1,0 +1,9 @@
+1A0SH
+THE IDEA
+The synthetic
+monorepo
+Connectseparaterepositoriesinto one
+unified dependencygraph,without
+moving asingleline ofcode.
+SEPARATE
+EEHLNA

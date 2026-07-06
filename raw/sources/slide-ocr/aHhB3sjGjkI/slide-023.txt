@@ -1,0 +1,16 @@
+Step 2 (a): The user gives a feedback
+E= Trace 1632fbb0299d5d21ab0fed2957bbfSaa
+© Search & 8 Timeline ®
+t= langfuse-chatbot
+8.475 v
+S c user-feedba.. 0.00 O
+Additional Feedback "Very long answer ¥
+Te? aS APT, RES BPM
+++ ai.streamText
+Very long answed 447s ¥
+ai.streamText.doStream
+. 4.46s 35 > 82 (2 17) ——
+0 ._ &
+oe. =
+a
+Py

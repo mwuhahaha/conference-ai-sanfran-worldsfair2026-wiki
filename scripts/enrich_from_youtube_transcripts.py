@@ -299,10 +299,53 @@ def write_resource(video_id: str, video: dict, text: str, topics: list[tuple[str
             lines.append(f"- [[{session_slug(session)}]] — {md_escape(session.get('title'))} (match score {score})")
     page = RESOURCES / f"youtube-{video_id}.md"
     existing = page.read_text(errors="ignore") if page.exists() else ""
+    preserved_sections = set()
     for section in ["Extracted Slides", "Dense Slide Evidence", "Reconstructed Slide Deck"]:
         m = re.search(rf"^## {re.escape(section)}\n.*?(?=^## |\Z)", existing, re.M | re.S)
         if m:
             lines.extend(["", m.group(0).strip()])
+            preserved_sections.add(section)
+    if "Extracted Slides" not in preserved_sections and (WIKI / "slides" / f"youtube-{video_id}-slides.md").exists():
+        lines.extend(["", "## Extracted Slides", f"- [[youtube-{video_id}-slides]]"])
+    page.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+
+def non_article_supporting_media(video: dict) -> bool:
+    title = (video.get("youtube_title") or "").lower()
+    return "vibe reel" in title
+
+
+def write_non_transcript_resource(video_id: str, video: dict, reason: str) -> None:
+    RESOURCES.mkdir(parents=True, exist_ok=True)
+    lines = [
+        frontmatter({
+            "title": video["youtube_title"],
+            "category": "resources",
+            "sourceLabels": ["Public YouTube metadata"],
+            "videoId": video_id,
+            "last_enriched": datetime.now(timezone.utc).isoformat(),
+        }),
+        f"# {video['youtube_title']}",
+        "",
+        "## What It Is",
+        "A public AI Engineer YouTube supporting media item connected to AI Engineer World's Fair 2026.",
+        "",
+        "## Transcript Status",
+        reason,
+        "",
+        "## Link",
+        f"[YouTube]({video['youtube_url']})",
+    ]
+    page = RESOURCES / f"youtube-{video_id}.md"
+    existing = page.read_text(errors="ignore") if page.exists() else ""
+    preserved_sections = set()
+    for section in ["Extracted Slides", "Dense Slide Evidence", "Reconstructed Slide Deck"]:
+        m = re.search(rf"^## {re.escape(section)}\n.*?(?=^## |\Z)", existing, re.M | re.S)
+        if m:
+            lines.extend(["", m.group(0).strip()])
+            preserved_sections.add(section)
+    if "Extracted Slides" not in preserved_sections and (WIKI / "slides" / f"youtube-{video_id}-slides.md").exists():
+        lines.extend(["", "## Extracted Slides", f"- [[youtube-{video_id}-slides]]"])
     page.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
@@ -409,9 +452,18 @@ def main() -> int:
     topic_quotes: dict[str, list[dict]] = defaultdict(list)
     processed = []
     missing = []
+    skipped_non_article = []
     for video_id, video in sorted(videos.items(), key=lambda item: item[1]["youtube_title"].lower()):
         path = transcript_path(video_id)
         if not path:
+            if non_article_supporting_media(video):
+                write_non_transcript_resource(
+                    video_id,
+                    video,
+                    "No article transcript is expected for this non-talk event reel; it is kept as supporting media rather than topic evidence.",
+                )
+                skipped_non_article.append({"video_id": video_id, "title": video["youtube_title"], "reason": "non-talk event reel"})
+                continue
             missing.append(video_id)
             continue
         text = path.read_text(errors="ignore")
@@ -431,6 +483,7 @@ def main() -> int:
     report = {
         "processed": processed,
         "missing_transcripts": missing,
+        "skipped_non_article": skipped_non_article,
         "quote_count": len(quote_rows),
         "updated_at": datetime.now(timezone.utc).isoformat(),
     }

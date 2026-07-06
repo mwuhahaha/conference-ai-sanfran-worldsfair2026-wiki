@@ -1,0 +1,17 @@
+Some failure modes
+. ¥ ¥,. hk 97?) thee ay > a
+a pj Be a ; SOF
+er ‘750. 4. Jame Sena
+yoy “eee o a ‘ bea as ;
+om): arr gss ¥ " [29 P)
+: ~ s " >. 2 am “~~ Sena wl TY ey ry
+Sr bat A awa pea xt
+No tools Wrong system prompt No context retrieval
+The system doesn't have The system prompt doesn't The agent is not able to
+the tools it requires to align with the rules which are fetch the relevant context
+operate correctly, or the represented in the Golden to answer cer777t"
+tools are wrong and/or Dataset
+contains bugs 2
+9 i” . *
+, 7
+ind rv} ow

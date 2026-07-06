@@ -619,15 +619,16 @@ def main() -> int:
     update_topic_registry()
     update_slide_library()
     update_project_overview_with_slide_status()
-    if failures:
-        failure_path = ROOT / "raw" / "sources" / "slide-extraction-failures.json"
-        existing = []
-        if failure_path.exists():
-            try:
-                existing = json.loads(failure_path.read_text())
-            except Exception:
-                existing = []
-        failure_path.write_text(json.dumps(existing + failures, indent=2, ensure_ascii=False) + "\n")
+    failure_path = ROOT / "raw" / "sources" / "slide-extraction-failures.json"
+    existing = []
+    if failure_path.exists():
+        try:
+            existing = json.loads(failure_path.read_text())
+        except Exception:
+            existing = []
+    attempted = set(ids)
+    kept = [failure for failure in existing if failure.get("video_id") not in attempted]
+    failure_path.write_text(json.dumps(kept + failures, indent=2, ensure_ascii=False) + "\n")
     return 0
 
 

@@ -1,0 +1,16 @@
+polygraphsession st/mp
+Select repositories
+[]poly-design-93df5cbe
+[x]poly-frontend-93df5cbθ
+[x]poly-backend-93df5cb0
+dependents
+selected repos
+poly-frontend-93df5cb0
+poly-backend-93df5cb8
+dependencies
+poly-design-93df5cb8
+selected
+connected
+api
+package
+up/k up,down/j down,<space> toggle,<enter> confirm,/filter,<esc>cancel.

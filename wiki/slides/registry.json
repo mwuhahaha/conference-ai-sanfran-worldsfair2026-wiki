@@ -564,6 +564,12 @@
     "slide_count": 17
   },
   {
+    "id": "youtube-EcqMYoIV57A-slides",
+    "title": "Slides: Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+    "path": "wiki/slides/youtube-EcqMYoIV57A-slides.md",
+    "slide_count": 4
+  },
+  {
     "id": "youtube-EyZiAp0pelw-dense-slides",
     "title": "Dense Slides: Letting AI Interface with your App with MCP — Kent C Dodds",
     "path": "wiki/slides/youtube-EyZiAp0pelw-dense-slides.md",
@@ -1020,6 +1026,12 @@
     "slide_count": 5
   },
   {
+    "id": "youtube-SS-A8sE7hkw-slides",
+    "title": "Slides: Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+    "path": "wiki/slides/youtube-SS-A8sE7hkw-slides.md",
+    "slide_count": 12
+  },
+  {
     "id": "youtube-SZStlIhyTCY-reconstructed-slides",
     "title": "Reconstructed Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company",
     "path": "wiki/slides/youtube-SZStlIhyTCY-reconstructed-slides.md",
@@ -1314,6 +1326,12 @@
     "slide_count": 12
   },
   {
+    "id": "youtube-aHhB3sjGjkI-slides",
+    "title": "Slides: Agents Building Agents - Alfonso Graziano, Nearform",
+    "path": "wiki/slides/youtube-aHhB3sjGjkI-slides.md",
+    "slide_count": 24
+  },
+  {
     "id": "youtube-akk6KRlcwW4-slides",
     "title": "Slides: OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
     "path": "wiki/slides/youtube-akk6KRlcwW4-slides.md",
@@ -1572,6 +1590,12 @@
     "slide_count": 2
   },
   {
+    "id": "youtube-gcseUQJ6Gbg-slides",
+    "title": "Slides: Using OSS models to build AI apps with millions of users — Hassan El Mghari",
+    "path": "wiki/slides/youtube-gcseUQJ6Gbg-slides.md",
+    "slide_count": 4
+  },
+  {
     "id": "youtube-ghJmWQCIHRM-slides",
     "title": "Slides: The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
     "path": "wiki/slides/youtube-ghJmWQCIHRM-slides.md",
@@ -1644,6 +1668,12 @@
     "slide_count": 120
   },
   {
+    "id": "youtube-iNkFlCiij0U-slides",
+    "title": "Slides: The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
+    "path": "wiki/slides/youtube-iNkFlCiij0U-slides.md",
+    "slide_count": 7
+  },
+  {
     "id": "youtube-iUWwcG-C8OU-dense-slides",
     "title": "Dense Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS",
     "path": "wiki/slides/youtube-iUWwcG-C8OU-dense-slides.md",
@@ -1698,6 +1728,12 @@
     "slide_count": 7
   },
   {
+    "id": "youtube-ij-AU9dpJjc-slides",
+    "title": "Slides: Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
+    "path": "wiki/slides/youtube-ij-AU9dpJjc-slides.md",
+    "slide_count": 4
+  },
+  {
     "id": "youtube-jVGCulhBRZI-dense-slides",
     "title": "Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
     "path": "wiki/slides/youtube-jVGCulhBRZI-dense-slides.md",
@@ -1714,6 +1750,12 @@
     "title": "Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex",
     "path": "wiki/slides/youtube-jVGCulhBRZI-slides.md",
     "slide_count": 8
+  },
+  {
+    "id": "youtube-jVjt-2g8NMY-slides",
+    "title": "Slides: A Genius With Amnesia - Victor Savkin, Nx",
+    "path": "wiki/slides/youtube-jVjt-2g8NMY-slides.md",
+    "slide_count": 19
   },
   {
     "id": "youtube-jryZvCuA0Uc-dense-slides",
@@ -1804,6 +1846,12 @@
     "title": "Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax",
     "path": "wiki/slides/youtube-lY1iFbDPRlw-slides.md",
     "slide_count": 8
+  },
+  {
+    "id": "youtube-liG97YXaTSA-slides",
+    "title": "Slides: OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs",
+    "path": "wiki/slides/youtube-liG97YXaTSA-slides.md",
+    "slide_count": 4
   },
   {
     "id": "youtube-mFLlVpnGpds-slides",

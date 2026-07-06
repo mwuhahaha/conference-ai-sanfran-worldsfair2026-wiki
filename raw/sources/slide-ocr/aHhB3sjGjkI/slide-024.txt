@@ -1,0 +1,26 @@
+Step 3: Collect all the traces with feedback locally
+npm run fetch-traces-with-feedback.ts --from 2026-03-30 ==to'2026-04-03:--limit 200
+1 { “a -
+? “fetchedat™: “2026-04-03712:24:50.6192", 7
+3 “environment”: “production”, oo
+i “totalScanned”: 133,
+5 “totalwithFeedback”: 114, *
+6 “traces”: | od
+3 ( .
+8 “td: "f47ac 10b928e4d27b11a92837d8e9210", 2
+“ “userId”: “j.smith@quantum-solutions.1o”, =
+le “timestamp”: “2026-04-05T08:14:12.11527,
+11 “model”: “us. anthropic.claude- sonnet -4-5-20256929-v1:0", pis
+2 “Latency”: 2.12, cn
+13 “question”: “what is the recommended torque specification for the titanium alloy bolts on the ¢ a
+14 “answer”: “To find the specific torque requirements for the Cx-5@0 engine components, please re --4#7.
+1s “comments”: £), :
+16 “userfeedback": [ - 0
+1? “score”: i,
+13 “comment”: “Solid guidance, but could be more precise. 7/18. \nl) You should have linked dirc di.
+Is hw =
+28 “annotations”: [} A
+at > q
+Poy
+
+A
