@@ -2,15 +2,30 @@
 title: "Prime Intellect"
 category: "companies"
 aliases: ["Prime Intellect"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # Prime Intellect
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[elie-bakouch]] — Research Engineer
-- [[vincent-weisser]] — Co-founder & CEO
-- [[will-brown]] — Researcher
+## Why It Matters At World's Fair
+Prime Intellect appears through 3 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: « the era of (auto) research »; Local Models: Trust, Control, Optimization; The Prime Intellect Stack.
+
+## Related People
+- [[elie-bakouch]] - Research Engineer
+- [[vincent-weisser]] - Co-founder & CEO
+- [[will-brown]] - Researcher
+
+## Related Scheduled Sessions
+- [[2026-06-29-will-brown-the-prime-intellect-stack]] - The Prime Intellect Stack (2026-06-29, 4:30pm-5:30pm)
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]] - « the era of (auto) research » (2026-06-30, 12:05pm-12:25pm)
+- [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards]] - Reinforcement Learning without Verifiable Rewards (2026-06-30, 1:30pm-1:50pm)
+- [[2026-07-01-carter-abdallah-local-models-trust-control-optimization]] - Local Models: Trust, Control, Optimization (2026-07-01, 1:55pm-2:15pm)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

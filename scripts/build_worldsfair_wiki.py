@@ -101,6 +101,19 @@ def cached_transcript_note(video_id: str) -> str:
     return f"Cached at `raw/sources/youtube-transcripts/{video_id}.txt` ({word_count:,} words)."
 
 
+def load_company_profiles() -> dict:
+    """Load curated public company context keyed by company slug."""
+    return load_json(ROOT / "raw" / "sources" / "company-profiles.json", {})
+
+
+def related_transcript_status(video: dict, status: dict | None) -> str:
+    return (
+        f"Related video transcript availability: {caption_label(status)}. "
+        "Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. "
+        f"{cached_transcript_note(video.get('video_id', ''))}"
+    )
+
+
 def profile_link_lines(speaker: dict) -> list[str]:
     links = []
     if speaker.get("linkedin"):
@@ -112,14 +125,6 @@ def profile_link_lines(speaker: dict) -> list[str]:
     if speaker.get("blog"):
         links.append(f"- [Blog]({speaker.get('blog')})")
     return links
-
-
-def related_transcript_status(video: dict, status: dict | None) -> str:
-    return (
-        f"Related video transcript availability: {caption_label(status)}. "
-        "Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. "
-        f"{cached_transcript_note(video.get('video_id', ''))}"
-    )
 
 
 def best_related(session_title: str, related_by_title: dict) -> dict | None:
@@ -297,22 +302,65 @@ def main() -> int:
     for speaker in speakers:
         if speaker.get("company"):
             company_people[speaker["company"]].append(speaker)
-    company_pages = build_company_pages(company_people)
+    company_pages = build_company_pages(company_people, sessions_by_speaker, load_company_profiles())
     for company_slug, company_page in sorted(company_pages.items()):
         company = company_page["title"]
         aliases = company_page["aliases"]
         people = company_page["people"]
+        related_sessions = company_page["sessions"]
+        profile = company_page.get("profile") or {}
+        source_labels = unique_list(["Official speaker roster", "Official conference schedule", *profile.get("sourceLabels", [])])
         body = [
-            frontmatter({"title": company, "category": "companies", "aliases": aliases, "sourceLabels": ["Official speaker roster"]}),
+            frontmatter(
+                {
+                    "title": company,
+                    "category": "companies",
+                    "aliases": aliases,
+                    "website": profile.get("website"),
+                    "sourceLabels": source_labels,
+                }
+            ),
             f"# {company}",
             "",
-            "## Why It Appears",
-            "This organization appears in the official AI Engineer World's Fair 2026 speaker roster.",
+            "## What It Is",
+            profile.get("summary")
+            or "No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.",
             "",
-            "## Associated Speakers",
+            "## Why It Matters At World's Fair",
+            company_importance_text(company, people, related_sessions, profile),
+            "",
+            "## Related People",
         ]
         for person in sorted(people, key=lambda p: p.get("name", "")):
             body.append(f"- [[{slugify(person.get('name', ''))}]] — {person.get('role') or 'role not listed'}")
+        body.extend(["", "## Related Scheduled Sessions"])
+        if related_sessions:
+            for session in sorted(related_sessions, key=lambda s: (day_to_date(s.get("day", "")), s.get("time", ""), s.get("title", ""))):
+                body.append(
+                    f"- [[{talk_slug(session)}]] — {session.get('title')} ({day_to_date(session.get('day', ''))}, {session.get('time') or 'time TBD'})"
+                )
+        else:
+            body.append("- No related scheduled sessions were found from the official schedule data.")
+        if profile.get("origin"):
+            body.extend(["", "## Origin And Context", profile["origin"]])
+        if profile.get("notes"):
+            body.extend(["", "## Notes"])
+            for note in profile["notes"]:
+                body.append(f"- {note}")
+        body.extend(["", "## Public Sources"])
+        links = profile.get("sourceLinks") or []
+        if links:
+            for link in links:
+                body.append(f"- [{md_label(link.get('label') or link.get('url'))}]({link.get('url')})")
+        else:
+            body.append("- No public company/profile source links have been added yet.")
+        body.extend(
+            [
+                "",
+                "## Evidence Boundary",
+                "Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.",
+            ]
+        )
         write(ROOT / "wiki" / "companies" / f"{company_slug}.md", "\n".join(body))
 
     # Video resources.
@@ -415,7 +463,19 @@ def assign_talk_slugs(sessions: list[dict]) -> None:
         session["_slug"] = candidate
 
 
-def build_company_pages(company_people: dict) -> dict:
+def unique_list(items) -> list:
+    seen = set()
+    values = []
+    for item in items:
+        if item and item not in seen:
+            seen.add(item)
+            values.append(item)
+    return values
+
+
+def build_company_pages(company_people: dict, sessions_by_speaker: dict | None = None, profiles: dict | None = None) -> dict:
+    sessions_by_speaker = sessions_by_speaker or {}
+    profiles = profiles or {}
     grouped = defaultdict(lambda: {"aliases": [], "people": []})
     for company, people in company_people.items():
         company_slug = slugify(company)
@@ -425,12 +485,37 @@ def build_company_pages(company_people: dict) -> dict:
     for company_slug, data in grouped.items():
         aliases = sorted(set(data["aliases"]))
         people_by_name = {person.get("name"): person for person in data["people"] if person.get("name")}
+        sessions_by_slug = {}
+        for person in people_by_name.values():
+            for session in sessions_by_speaker.get(person.get("name"), []):
+                sessions_by_slug[talk_slug(session)] = session
+            for session in person.get("sessions") or []:
+                sessions_by_slug[talk_slug(session)] = session
         pages[company_slug] = {
             "title": aliases[0],
             "aliases": aliases,
             "people": list(people_by_name.values()),
+            "sessions": list(sessions_by_slug.values()),
+            "profile": profiles.get(company_slug, {}),
         }
     return pages
+
+
+def company_importance_text(company: str, people: list[dict], sessions: list[dict], profile: dict) -> str:
+    if profile.get("why_it_matters"):
+        return profile["why_it_matters"]
+    people_count = len(people)
+    session_count = len(sessions)
+    if session_count:
+        session_titles = "; ".join(session.get("title", "Untitled session") for session in sessions[:3])
+        return (
+            f"{company} appears through {people_count} official speaker(s) connected to {session_count} scheduled session(s). "
+            f"Those sessions make the organization relevant to the conference knowledge graph around: {session_titles}."
+        )
+    return (
+        f"{company} appears through {people_count} official speaker(s) in the AI Engineer World's Fair 2026 roster. "
+        "Add a public company profile when a relevant company site or professional source is reviewed."
+    )
 
 
 def write_resource_pages(sessions, speakers, video_count):

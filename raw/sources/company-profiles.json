@@ -1,0 +1,45 @@
+{
+  "superconductor": {
+    "website": "https://www.superconductor.com/",
+    "summary": "Superconductor is a multiplayer workspace for teams and AI coding agents to build, review, and ship software together. Its public site and docs describe cloud-hosted coding-agent runs, shared agent sessions, live app previews, automated QA, guided code review, cloud development environments, and support for multiple agent/model providers.",
+    "why_it_matters": "The company's public product focus lines up directly with the World's Fair session on multiplayer agentic engineering: moving coding-agent work out of isolated local machines and into shared, reviewable team workflows.",
+    "origin": "The official speaker roster lists Arjun Singh as Superconductor's co-founder and CEO. Public professional profiles connect Singh's prior company, Gradescope, to the company's engineering and product background.",
+    "sourceLabels": [
+      "Official speaker roster",
+      "Official conference schedule",
+      "Public company site",
+      "Public company documentation",
+      "Public professional profile"
+    ],
+    "sourceLinks": [
+      {
+        "label": "Superconductor official site",
+        "url": "https://www.superconductor.com/"
+      },
+      {
+        "label": "Superconductor docs",
+        "url": "https://www.superconductor.com/docs/"
+      },
+      {
+        "label": "Superconductor vs Codex docs",
+        "url": "https://www.superconductor.com/docs/comparison/vs-codex"
+      },
+      {
+        "label": "Arjun Singh LinkedIn",
+        "url": "https://www.linkedin.com/in/arjun-singh-629216105"
+      },
+      {
+        "label": "Arjun Singh RubyEvents profile",
+        "url": "https://www.rubyevents.org/profiles/arjun810"
+      },
+      {
+        "label": "Arjun Singh Reach Capital profile",
+        "url": "https://www.reachcapital.com/team/arjun-singh/"
+      }
+    ],
+    "notes": [
+      "The company should not be confused with similarly named superconducting-materials companies; the World's Fair roster context points to the AI coding-agent company at superconductor.com.",
+      "Public sources describe Superconductor around agentic engineering, cloud development environments, agent benchmarking, and collaborative review workflows."
+    ]
+  }
+}

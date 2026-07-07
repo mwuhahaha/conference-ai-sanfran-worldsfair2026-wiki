@@ -2,13 +2,25 @@
 title: "W&B from CoreWeave"
 category: "companies"
 aliases: ["W&B from CoreWeave"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # W&B from CoreWeave
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[alex-volkov]] — AI Evangelist & Host of ThursdAI
+## Why It Matters At World's Fair
+W&B from CoreWeave appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Z/L Continuum: Should AI Engineers Still Read Code?.
+
+## Related People
+- [[alex-volkov]] - AI Evangelist & Host of ThursdAI
+
+## Related Scheduled Sessions
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] - The Z/L Continuum: Should AI Engineers Still Read Code? (2026-06-30, 10:45am-11:05am)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

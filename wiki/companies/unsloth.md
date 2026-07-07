@@ -2,13 +2,26 @@
 title: "Unsloth"
 category: "companies"
 aliases: ["Unsloth"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # Unsloth
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[daniel-han]] — Co-founder
+## Why It Matters At World's Fair
+Unsloth appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Special topics in Kernels, RL, Reward Hacking in Agents; Compression at the Edge.
+
+## Related People
+- [[daniel-han]] - Co-founder
+
+## Related Scheduled Sessions
+- [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] - Special topics in Kernels, RL, Reward Hacking in Agents (2026-06-29, 2:20pm-5:30pm)
+- [[2026-07-01-chris-alexiuk-compression-at-the-edge]] - Compression at the Edge (2026-07-01, 2:50pm-3:10pm)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

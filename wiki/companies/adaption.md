@@ -2,13 +2,25 @@
 title: "Adaption"
 category: "companies"
 aliases: ["Adaption"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # Adaption
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[sara-hooker]] — CEO, and Co-founder
+## Why It Matters At World's Fair
+Adaption appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Adaption Labs — Gradient-Free Continual Learning.
+
+## Related People
+- [[sara-hooker]] - CEO, and Co-founder
+
+## Related Scheduled Sessions
+- [[2026-06-30-sara-hooker-adaption-labs-gradient-free-continual-learning]] - Adaption Labs — Gradient-Free Continual Learning (2026-06-30, 1:30pm-1:50pm)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

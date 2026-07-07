@@ -2,13 +2,25 @@
 title: "Skydio"
 category: "companies"
 aliases: ["Skydio"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # Skydio
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[suchet-bargoti]] — Director of Inspection and Mapping
+## Why It Matters At World's Fair
+Skydio appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: From Manual Drones to Autonomous Multi-Agent Missions.
+
+## Related People
+- [[suchet-bargoti]] - Director of Inspection and Mapping
+
+## Related Scheduled Sessions
+- [[2026-06-30-suchet-bargoti-from-manual-drones-to-autonomous-multi-agent-missions]] - From Manual Drones to Autonomous Multi-Agent Missions (2026-06-30, 2:25pm-2:45pm)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

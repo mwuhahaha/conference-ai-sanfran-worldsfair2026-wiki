@@ -1,14 +1,16 @@
 ---
-title: "Anthropic"
-category: "companies"
-aliases: ["Anthropic"]
-sourceLabels: ["Official speaker roster"]
+title: Anthropic
+category: companies
+aliases:
+  - Anthropic
+sourceLabels:
+  - Official speaker roster
+last_auto_summarized: '2026-07-06T22:54:32.308Z'
 ---
-
 # Anthropic
 
 ## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+Anthropic appears as one of the most heavily represented organizations in the AI Engineer World's Fair 2026 speaker roster. Its presence is centered on the Claude Platform, Claude Code, Claude Managed Agents, Applied AI, developer infrastructure, and production reliability for AI systems. The connected speaker set spans product leadership, platform engineering, applied AI, managed agent infrastructure, coding agents, CI/CD systems, and Anthropic Labs, making Anthropic a major source for the wiki's coverage of coding agents, agent memory, agent security, and inference engineering.
 
 ## Associated Speakers
 - [[angela-jiang]] — Head of Product, Claude Platform

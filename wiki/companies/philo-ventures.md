@@ -2,13 +2,25 @@
 title: "Philo Ventures"
 category: "companies"
 aliases: ["Philo Ventures"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # Philo Ventures
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[todd-fisher]] — Head of Engineering Launching 0-1 startups
+## Why It Matters At World's Fair
+Philo Ventures appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: While my guitar gently speaks.
+
+## Related People
+- [[todd-fisher]] - Head of Engineering Launching 0-1 startups
+
+## Related Scheduled Sessions
+- [[2026-07-01-todd-fisher-while-my-guitar-gently-speaks]] - While my guitar gently speaks (2026-07-01, 1:30pm-1:50pm)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

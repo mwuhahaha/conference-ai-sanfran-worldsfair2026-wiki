@@ -2,14 +2,27 @@
 title: "Figma"
 category: "companies"
 aliases: ["Figma"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # Figma
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[eyal-blum]] — Software Engineer
-- [[jesse-lumarie]] — Software Engineer
+## Why It Matters At World's Fair
+Figma appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage); Building the engine while flying the plane — launching the Figma MCP server.
+
+## Related People
+- [[eyal-blum]] - Software Engineer
+- [[jesse-lumarie]] - Software Engineer
+
+## Related Scheduled Sessions
+- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server]] - Building the engine while flying the plane — launching the Figma MCP server (2026-06-29, 11:10am-11:30am)
+- [[2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage]] - How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage) (2026-06-29, 3:20pm-3:40pm)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

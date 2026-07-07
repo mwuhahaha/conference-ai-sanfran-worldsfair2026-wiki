@@ -2,13 +2,25 @@
 title: "TikTok"
 category: "companies"
 aliases: ["TikTok"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # TikTok
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[salman-munaf]] — Lead Site Reliability Engineer
+## Why It Matters At World's Fair
+TikTok appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: AI Agents Are Just Distributed Systems Now.
+
+## Related People
+- [[salman-munaf]] - Lead Site Reliability Engineer
+
+## Related Scheduled Sessions
+- [[2026-07-01-salman-munaf-ai-agents-are-just-distributed-systems-now]] - AI Agents Are Just Distributed Systems Now (2026-07-01, 2:50pm-3:10pm)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

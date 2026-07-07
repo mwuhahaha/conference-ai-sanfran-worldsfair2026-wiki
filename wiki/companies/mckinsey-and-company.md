@@ -2,14 +2,27 @@
 title: "McKinsey & Company"
 category: "companies"
 aliases: ["McKinsey & Company"]
-sourceLabels: ["Official speaker roster"]
+sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 
 # McKinsey & Company
 
-## Why It Appears
-This organization appears in the official AI Engineer World's Fair 2026 speaker roster.
+## What It Is
+No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
 
-## Associated Speakers
-- [[martin-harrysson]] — Senior Partner
-- [[matt-linderman]] — Partner, Technology Practice
+## Why It Matters At World's Fair
+McKinsey & Company appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Tokenomics: From AI Spend to AI Value; The Agentic Product Development Organization.
+
+## Related People
+- [[martin-harrysson]] - Senior Partner
+- [[matt-linderman]] - Partner, Technology Practice
+
+## Related Scheduled Sessions
+- [[2026-06-30-martin-harrysson-tokenomics-from-ai-spend-to-ai-value]] - Tokenomics: From AI Spend to AI Value (2026-06-30, 11:00am-12:00pm)
+- [[2026-07-01-martin-harrysson-the-agentic-product-development-organization]] - The Agentic Product Development Organization (2026-07-01, 11:00am-12:00pm)
+
+## Public Sources
+- No public company/profile source links have been added yet.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
