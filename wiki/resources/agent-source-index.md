@@ -1,89 +1,99 @@
 ---
-title: "Agent Source Index"
+title: "Agent Navigation Index"
 category: "resources"
-sourceLabels: ["Agent guidance", "Source index", "Public source map"]
+sourceLabels: ["Agent guidance", "Navigation index", "Public wiki map"]
 ---
 
-# Agent Source Index
+# Agent Navigation Index
 
-This page is the markdown source map for agents working on the AI Engineer World's Fair 2026 wiki. Start here when deciding which files are allowed to support a claim, which sources are canonical, and which scripts refresh derived pages.
+This is the agent-readable navigation map for the AI Engineer World's Fair 2026 wiki. Point an agent here when it needs to consume the public wiki, find the right page type, follow evidence links, or understand how topics, talks, people, companies, slides, quotes, and resources connect.
 
-## Agent Start Order
-- Read `AGENT.md` at the repository root for the short operating contract.
-- Read `AGENTS.md` for local project instructions, category boundaries, and regeneration rules.
-- Read this page before adding source links, public-source enrichment, or new generated pages.
-- Read [[source-boundary]] before promoting transcript, OCR, slide, or public-profile context into article prose.
+Raw standalone markdown for agents: https://aie-worldsfair2026.plusrobot.ai/agent-index.md
 
-## Canonical Public Sources
+Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-source-index/
+
+## Start Here
+- Home overview: https://aie-worldsfair2026.plusrobot.ai/
+- Full index: https://aie-worldsfair2026.plusrobot.ai/index/
+- Search page: https://aie-worldsfair2026.plusrobot.ai/search/
+- Topics index: https://aie-worldsfair2026.plusrobot.ai/topics/
+- Talks index: https://aie-worldsfair2026.plusrobot.ai/talks/
+- People index: https://aie-worldsfair2026.plusrobot.ai/people/
+- Companies index: https://aie-worldsfair2026.plusrobot.ai/companies/
+- Slides index: https://aie-worldsfair2026.plusrobot.ai/slides/
+- Quotes index: https://aie-worldsfair2026.plusrobot.ai/quotes/
+- Tools index: https://aie-worldsfair2026.plusrobot.ai/tools/
+- Source boundary and evidence confidence: https://aie-worldsfair2026.plusrobot.ai/resources/source-boundary/
+
+## URL Rules
+- Every rendered page uses a stable lowercase slug URL ending in `/`.
+- A talk page is `/talks/<date-speaker-title-slug>/`.
+- A person page is `/people/<person-slug>/`.
+- A company page is `/companies/<company-slug>/`.
+- A topic page is `/topics/<topic-slug>/`.
+- A slide page is `/slides/<youtube-video-id-kind>/`.
+- A quote page is `/quotes/<quote-slug>/`.
+- A resource page is `/resources/<resource-slug>/`.
+- Wiki links in markdown use `[[slug]]` or `[[slug|label]]`; on the public site these resolve to the matching rendered URL.
+
+## Corpus Map
+- Talks: 560 rendered talk pages; official schedule sessions indexed: 560.
+- People: 553 rendered people pages; official speakers indexed: 552.
+- Companies: 340 rendered company pages.
+- Topics: 12 synthesis pages across repeated conference themes.
+- Resources: 190 pages for source maps, YouTube evidence, livestreams, and processing audits.
+- Slides: 383 slide pages; standard decks: 180; reconstructed decks: 107; dense decks: 93.
+- Quotes: 59 selected quote pages tied back to source videos and topics.
+- Tools: 61 tool/protocol/entity pages generated from the conference evidence layer.
+- Events: 5 day/event overview pages.
+
+## Navigation Strategy
+- If you know a talk title or speaker, start with `/search/`, `/talks/`, or `/people/`.
+- If you know a theme, start with `/topics/`, then follow related talks, people, companies, tools, quotes, and resources from that topic page.
+- If you need primary schedule context, use the talk page first. Talk pages preserve title, speaker, company, date, track, room, and schedule labels.
+- If you need a speaker's context, use the person page, then follow company, scheduled talks, related videos, and social/profile links when present.
+- If you need organizational context, use the company page, then follow related people and scheduled talks.
+- If you need media evidence, use the talk/video/transcript map and the YouTube resource pages before relying on a transcript or slide page.
+- If you need slide evidence, prefer reconstructed slide pages for readable cropped slides, then use dense or full-stage slide pages as supporting views.
+- If you need reusable concepts, use topics and tools pages; they synthesize across multiple talks and resources.
+- If you need a concise evidence-backed excerpt, use quote pages and then follow their source video, related topic, and scheduled talk links.
+
+## High-Value Entry Points
+- Agentic Web topic: https://aie-worldsfair2026.plusrobot.ai/topics/agentic-web/
+- Agentic Search topic: https://aie-worldsfair2026.plusrobot.ai/topics/agentic-search/
+- Coding Agents topic: https://aie-worldsfair2026.plusrobot.ai/topics/coding-agents/
+- Agent Evaluations topic: https://aie-worldsfair2026.plusrobot.ai/topics/agent-evaluations/
+- Agent Memory topic: https://aie-worldsfair2026.plusrobot.ai/topics/agent-memory/
+- AI Sandboxes topic: https://aie-worldsfair2026.plusrobot.ai/topics/ai-sandboxes/
+- MCP topic: https://aie-worldsfair2026.plusrobot.ai/topics/mcp/
+- Inference Engineering topic: https://aie-worldsfair2026.plusrobot.ai/topics/inference-engineering/
+- Talk/video/transcript map: https://aie-worldsfair2026.plusrobot.ai/resources/talk-video-transcript-map/
+- Livestreams resource: https://aie-worldsfair2026.plusrobot.ai/resources/worldsfair-2026-livestreams/
+- Slide library: https://aie-worldsfair2026.plusrobot.ai/resources/slide-library/
+- Reconstructed slide library: https://aie-worldsfair2026.plusrobot.ai/resources/reconstructed-slide-library/
+- Dense slide library: https://aie-worldsfair2026.plusrobot.ai/resources/dense-slide-library/
+
+## Evidence Confidence
+- Official schedule and speaker facts are canonical for dates, titles, speakers, organizations, tracks, rooms, and session status.
+- Related YouTube pages are supporting context unless the page explicitly confirms an exact recording match.
+- Transcripts are useful evidence, but speaker/session matching and caption quality may vary.
+- Slide OCR is best-effort. For important claims, inspect the embedded slide image or reconstructed crop.
+- Topic, tool, quote, and company pages are synthesis layers. Follow their linked talks, resources, videos, slides, and source-boundary notes before treating a claim as primary.
+
+## Media And Source Pointers
 - Official conference website: https://www.ai.engineer/worldsfair/2026
-- Official sessions JSON mirror: `raw/sources/official-sessions.json`
-  - Status: present; sessions indexed: 560
-- Official speakers JSON mirror: `raw/sources/official-speakers.json`
-  - Status: present; speakers indexed: 552
+- Official schedule mirror status: present; sessions indexed: 560.
+- Official speaker mirror status: present; speakers indexed: 552.
 - AI Engineer YouTube channel: https://www.youtube.com/@aiDotEngineer
-- AI Engineer channel video metadata: `raw/sources/aidotengineer-channel-videos-latest.json`
-  - Status: present; video entries: 804
-- AI Engineer channel livestream metadata: `raw/sources/aidotengineer-channel-streams-latest.json`
-  - Status: present; livestream entries: 32
+- Channel video metadata status: present; video entries: 804.
+- Channel livestream metadata status: present; livestream entries: 32.
+- Related talk/video rows indexed: 153.
+- Cached speaker-matched transcript files: 76.
+- Cached livestream transcript files: 3.
 
-## Derived Source Maps
-- Talk/video/caption map: [[talk-video-transcript-map]]
-  - Raw relation file: `raw/sources/speaker-video-map.json`; relation rows: 153
-- Caption availability: `raw/sources/related-video-caption-status.json`
-- Official livestream resource: [[worldsfair-2026-livestreams]]
-- Public company/profile enrichment data: `raw/sources/company-profiles.json`
-  - Curated company profiles: 1
-- Agentic Web topic page: [[agentic-web]]
-
-## Transcript Sources
-- Speaker-matched YouTube transcripts: `raw/sources/youtube-transcripts/<video-id>.txt`
-  - Cached transcript files: 76
-- Livestream transcript bundles: `raw/sources/youtube-livestream-transcripts/*.bundle.json`
-  - Cached livestream plain-text transcripts: 3
-- Whisper fallback transcripts: generated by `scripts/transcribe_youtube_audio.py` when public captions are unavailable.
-
-## Slide And OCR Sources
-- Full-stage extracted slide pages: [[slide-library]]
-  - Markdown slide pages: 180
-- Reconstructed crop slide pages: [[reconstructed-slide-library]]
-  - Reconstructed slide pages: 107
-- Dense scene-detection slide pages: [[dense-slide-library]]
-  - Dense slide pages: 93
-- Full-stage OCR text: `raw/sources/slide-ocr/<video-id>/slide-*.txt`
-- RapidOCR rereads: `raw/sources/slide-ocr-rapidocr/<video-id>/slide-*.txt`
-- Improved OCR replacements: `raw/sources/slide-ocr-improved/<video-id>/slide-*.txt`
-- Reconstructed slide OCR: `raw/sources/reconstructed-slide-ocr/<video-id>/slide-*.txt`
-- OCR quality audit: `raw/sources/slide-ocr-quality-audit.json`
-- RapidOCR audit: `raw/sources/slide-ocr-rapidocr-audit.json`
-- Reconstructed slide audit: `raw/sources/reconstructed-slide-audit.json`
-- Dense slide audit: `raw/sources/dense-scenedetect-audit.json`
-
-## Public Source-Of-Source Enrichment
-- Speaker social/profile links belong on people pages near the role/company context when present in the official speaker roster.
-- Company pages may use official company sites, product docs, public professional profiles, and related public pages when directly relevant.
-- Public profile/company context must remain labeled as supporting context; it does not override official schedule facts.
-- Add curated company context to `raw/sources/company-profiles.json`, then run `python3 scripts/enrich_company_pages.py`.
-
-## Main Wiki-Making Scripts
-- `python3 scripts/build_worldsfair_wiki.py` - bootstrap official schedule, people, companies, talks, resources, and registries.
-- `python3 scripts/enrich_company_pages.py` - refresh company articles from roster, schedule, and curated public company profiles.
-- `python3 scripts/update_people_profile_links.py` - upsert speaker profile/social links from official roster data.
-- `python3 scripts/enrich_from_youtube_transcripts.py` - enrich pages from cached YouTube transcripts.
-- `python3 scripts/extract_video_slides.py` - extract stage-frame slide evidence from related videos.
-- `python3 scripts/reconstruct_video_slides.py` - create cleaner crop-based slide decks.
-- `python3 scripts/dense_scenedetect_slide_pass.py` - capture high-recall slide changes from scene detection.
-- `python3 scripts/rapidocr_slide_pass.py` and `python3 scripts/reread_slide_ocr.py` - improve OCR quality.
-- `python3 scripts/generate_tool_inventory.py` - generate tool pages and registry.
-- `python3 scripts/generate_question_layer.py` - generate question pages and registry.
-- `python3 scripts/generate_agentic_web_topic.py` - refresh the Agentic Web topic from official schedule titles and related local resources.
-- `python3 scripts/update_talk_schedule_labels.py` - upsert official track, room, type, and status labels on talk pages.
-- `python3 scripts/generate_agent_source_index.py` - refresh this page.
-- `npm run build` - export static HTML to `dist/` using `scripts/export_static_site.py`.
-
-## Agent Rules For Using Sources
-- Prefer official schedule and speaker data for titles, dates, times, rooms, tracks, speakers, and affiliations.
-- Treat related YouTube videos as supporting evidence unless an exact session recording is confirmed.
-- Treat YouTube captions and Whisper transcripts as transcript evidence, with speaker/session matching reviewed before confident attribution.
-- Treat OCR as best-effort. Use embedded slide images or reconstructed crops to verify important slide claims.
-- Do not import private notes, diary material, local-only caches, or unrelated Obsidian content into the publishable wiki.
-- When adding a claim, leave a path back to the source layer: talk, resource, slide, transcript map, public company/profile source, or raw source file.
+## Agent Task Recipes
+- To answer `what was said about X`: search X, inspect the relevant topic page, open related talks, then follow video/transcript and slide links.
+- To answer `who is connected to X`: inspect the topic or company page, then follow Related People and Related Scheduled Sessions.
+- To answer `which companies are involved`: start with `/companies/`, search the company name, then cross-check people and talks linked from that company page.
+- To answer `what evidence supports this`: prefer talk pages and resource pages, then use transcripts, quotes, and slide pages as supporting evidence.
+- To answer `where should I browse next`: use the related links at the bottom of the current page; the wiki is intentionally cross-linked across talks, people, companies, topics, tools, quotes, resources, and slides.

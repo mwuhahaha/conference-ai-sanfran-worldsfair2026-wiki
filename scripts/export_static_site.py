@@ -330,6 +330,15 @@ render();
     return render_layout("Search", body, pages, "search")
 
 
+def strip_frontmatter(markdown: str) -> str:
+    if not markdown.startswith("---\n"):
+        return markdown
+    end = markdown.find("\n---\n", 4)
+    if end == -1:
+        return markdown
+    return markdown[end + 5 :].lstrip()
+
+
 def write_styles() -> None:
     (DIST / "styles.css").write_text(
         """
@@ -508,6 +517,11 @@ def export() -> None:
 """,
         encoding="utf-8",
     )
+    agent_index = WIKI / "resources" / "agent-source-index.md"
+    if agent_index.exists():
+        raw_agent_index = strip_frontmatter(agent_index.read_text(encoding="utf-8"))
+        (DIST / "agent-index.md").write_text(raw_agent_index, encoding="utf-8")
+        (DIST / "agent-source-index.md").write_text(raw_agent_index, encoding="utf-8")
 
     print(f"Exported {len(pages)} pages to {DIST}")
 
