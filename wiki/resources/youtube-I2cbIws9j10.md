@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "I2cbIws9j10"
-last_enriched: "2026-07-06T19:48:35.108090+00:00"
+last_enriched: "2026-07-08T23:50:10.203099+00:00"
 ---
 # WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-livestream-transcrip
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `episode`, `archetype`, `sorry`, `supply`, `appears`, `plug`, `disk`, `optimization`
+- Transcript keywords: `disorder`, `substantial`, `energy`, `exploring`, `memory`, `persists`, `involves`, `smartest`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=I2cbIws9j10)
@@ -25,3 +25,6 @@ Cached transcript text is available at `raw/sources/youtube-livestream-transcrip
 ## Related Scheduled Sessions
 - [[2026-07-01-garry-tan-closing-keynote-garry-tan]] — Closing Keynote: Garry Tan (match score 86)
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs]] — How Anthropic Builds: Lessons from Labs (match score 80)
+
+## Extracted Slides
+- [[youtube-I2cbIws9j10-slides]]

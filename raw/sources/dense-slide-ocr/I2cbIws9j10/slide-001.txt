@@ -1,0 +1,33 @@
+World'sFair
+Choosing a model:quality dominates
+Whatare yourtop3considerationsforchoosingamodel forproduction?
+Accuracyand
+Accuracy/quality
+outputqualityare
+PRESENTEDBY
+Agentic capabilities (like tool-calling)
+farandawaythe
+Cost
+topconsideration.
+Microsoft
+Privacy / data controls
+Ecosystem/developerexperience
+Only5%thinkof
+Reliability/uptime
+open-weightasa
+Enterprisesupport/compliance
+primary
+Latency
+Fine-tuning/customization support
+consideration.
+Open weights
+Other
+enAl
+World'sF
+I'sF
+cro:
+The2026StateofAlEngineering
+ildk
+orld'sF
+BarrYaron/Partner
+Amplify

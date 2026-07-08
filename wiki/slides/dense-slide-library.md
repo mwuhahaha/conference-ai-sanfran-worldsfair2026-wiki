@@ -9,8 +9,8 @@ sourceLabels: ["Captured video frames", "Local OpenCV slide-region detection"]
 This indexes slide-only cropped decks produced from captured video frames. Use these when the wiki needs actual visible slide images rather than speaker shots, title cards, or demo/browser frames.
 
 ## Coverage
-- Dense decks: 93
-- Dense slide images: 595
+- Dense decks: 94
+- Dense slide images: 607
 
 ## Decks
 - [[youtube--TiET_K-E_g-dense-slides]] — 1 slide-only image
@@ -42,6 +42,7 @@ This indexes slide-only cropped decks produced from captured video frames. Use t
 - [[youtube-Fzb1a24hF-o-dense-slides]] — 5 slide-only images
 - [[youtube-G_bHFmEAarM-dense-slides]] — 5 slide-only images
 - [[youtube-HT4l0DeP69I-dense-slides]] — 2 slide-only images
+- [[youtube-I2cbIws9j10-dense-slides]] — 12 slide-only images
 - [[youtube-JIsgyk0Paic-dense-slides]] — 11 slide-only images
 - [[youtube-JhJKgRAmfIU-dense-slides]] — 4 slide-only images
 - [[youtube-JsCCrBF7F1g-dense-slides]] — 1 slide-only image

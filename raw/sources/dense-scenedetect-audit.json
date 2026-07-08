@@ -43801,7 +43801,1890 @@
       "slide_only": true,
       "ocr_enabled": false,
       "source_mode": "captured-frames"
+    },
+    {
+      "video_id": "I2cbIws9j10",
+      "scene_images": 367,
+      "slides": [
+        {
+          "source": "frame-00016.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.96,
+          "visual_features": {
+            "edge_density": 0.056,
+            "dark_ratio": 0.3195,
+            "bright_ratio": 0.4934,
+            "saturated_ratio": 0.3833,
+            "bottom_blue_ratio": 0.0006,
+            "left_bright_ratio": 0.0187,
+            "center_bright_ratio": 0.6048,
+            "center_narrow_bright_ratio": 0.5827
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-001.jpg",
+          "ocr_text": "World'sFair\nChoosing a model:quality dominates\nWhatare yourtop3considerationsforchoosingamodel forproduction?\nAccuracyand\nAccuracy/quality\noutputqualityare\nPRESENTEDBY\nAgentic capabilities (like tool-calling)\nfarandawaythe\nCost\ntopconsideration.\nMicrosoft\nPrivacy / data controls\nEcosystem/developerexperience\nOnly5%thinkof\nReliability/uptime\nopen-weightasa\nEnterprisesupport/compliance\nprimary\nLatency\nFine-tuning/customization support\nconsideration.\nOpen weights\nOther\nenAl\nWorld'sF\nI'sF\ncro:\nThe2026StateofAlEngineering\nildk\norld'sF\nBarrYaron/Partner\nAmplify",
+          "ocr_confidence": 0.9666
+        },
+        {
+          "source": "frame-00076.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.91,
+          "visual_features": {
+            "edge_density": 0.0545,
+            "dark_ratio": 0.0914,
+            "bright_ratio": 0.7641,
+            "saturated_ratio": 0.1733,
+            "bottom_blue_ratio": 0.0114,
+            "left_bright_ratio": 0.7066,
+            "center_bright_ratio": 0.7618,
+            "center_narrow_bright_ratio": 0.7987
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-002.jpg",
+          "ocr_text": "An End-to-End RLPipeline\nHealthAgentforAnomaly\nDetectionandAutonomous\nSelf-HealingofCloudData\nPipelines\nNOTE:GENERALIZEDPUBLICREFERENCEARCHITECTURE\nThe\n1.0bservelogs,schema,anddata-qualityconditions\n2.Diagnosethelikelyfailurefamily\nSolution\n3.Estimateoperationalrisk\n4.Selectaboundedremediationaction\n5.Validatewhethertheactionrestoredahealthystate",
+          "ocr_confidence": 0.9817
+        },
+        {
+          "source": "frame-00077.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.45,
+          "visual_features": {
+            "edge_density": 0.0413,
+            "dark_ratio": 0.0935,
+            "bright_ratio": 0.7552,
+            "saturated_ratio": 0.1963,
+            "bottom_blue_ratio": 0.0021,
+            "left_bright_ratio": 0.7165,
+            "center_bright_ratio": 0.7564,
+            "center_narrow_bright_ratio": 0.772
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-003.jpg",
+          "ocr_text": "DeterministicAnomalyRules\nSchemadriftnullspikes,field\nremovals,typechanges\nQ-Learning Decision Policy\nRetry,coerceschema,rollback,\nquarantine,escalate,log\nThe\nSafetyOverride\nIntelligence\nCritical anomaly+passive action\n→escalate\nLayer",
+          "ocr_confidence": 0.952
+        },
+        {
+          "source": "frame-00078.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.57,
+          "visual_features": {
+            "edge_density": 0.0447,
+            "dark_ratio": 0.0912,
+            "bright_ratio": 0.8035,
+            "saturated_ratio": 0.1015,
+            "bottom_blue_ratio": 0.0,
+            "left_bright_ratio": 0.8474,
+            "center_bright_ratio": 0.7823,
+            "center_narrow_bright_ratio": 0.7853
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-004.jpg",
+          "ocr_text": "RL Selects theResponse,NottheFacts\nAction:\nState:\nretry\ncoerce\nrollback\nquarantine\nescalate\n1.Failurecategory\n2.Risklevel\n1.TabularQ-learning\n3.Retrycount\n2.Small,interpretablestatespace\n4.Driftseverity\n3.Low-memoryinference\n5.Data-qualitycondition\n4.InspectableQ-valuesforeverydecision\nTECHNICALLY.THISISASINGLE-STEPCONTEXTUALDECISIONPROBLEMIMPLEMENTEDWITHTABULARQ-LEARNING.",
+          "ocr_confidence": 0.9823
+        },
+        {
+          "source": "frame-00089.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.38,
+          "visual_features": {
+            "edge_density": 0.0395,
+            "dark_ratio": 0.1082,
+            "bright_ratio": 0.7322,
+            "saturated_ratio": 0.1186,
+            "bottom_blue_ratio": 0.0,
+            "left_bright_ratio": 0.4233,
+            "center_bright_ratio": 0.7779,
+            "center_narrow_bright_ratio": 0.8436
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-005.jpg",
+          "ocr_text": "Hi,I'mLouis-Francois\n-Co-founder&CTO@TowardsAl\n“What'sAl\"onYouTube·authorofBuildingLLMsforProduction\nPreviouslyPhD@Mila\n-Buildcourses,videos,andtrainingsforaliving\nTOWARDSAI\nWhichallstartsfromgoodresearch!",
+          "ocr_confidence": 0.9697
+        },
+        {
+          "source": "frame-00093.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.09,
+          "visual_features": {
+            "edge_density": 0.031,
+            "dark_ratio": 0.1028,
+            "bright_ratio": 0.8241,
+            "saturated_ratio": 0.1029,
+            "bottom_blue_ratio": 0.0026,
+            "left_bright_ratio": 0.8553,
+            "center_bright_ratio": 0.8798,
+            "center_narrow_bright_ratio": 0.8859
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-006.jpg",
+          "ocr_text": "(problems) One conversation has to do everything\nMeaning:\nthecontextwindowbecomes\n-thedatabase,\n-thefile system,\n-thememory,\n-thereasoningspace\nTOWARDSA",
+          "ocr_confidence": 0.967
+        },
+        {
+          "source": "frame-00146.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.57,
+          "visual_features": {
+            "edge_density": 0.0447,
+            "dark_ratio": 0.1747,
+            "bright_ratio": 0.5466,
+            "saturated_ratio": 0.2582,
+            "bottom_blue_ratio": 0.9274,
+            "left_bright_ratio": 0.5526,
+            "center_bright_ratio": 0.6065,
+            "center_narrow_bright_ratio": 0.651
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-007.jpg",
+          "ocr_text": "D\n(cslletecs)\nTrack narrative state，not numbers\nIRPERFECT NPC RENORY\nWORLDMOOD\nDne-Line.senery thatdecays -\nsoftensat+2e,roppedat+4o.\ncalt-tense\nTKREADS\nATTLTUDE INFERENCE\n4ndoks tne\nworid remeroersandvesves back Is.\nReadsyour last 5noves\nDrvtal ptay.Nareec.sorio.\nDon't track HP and dice-an LLH is bad at that.Track what it's\ngreat at.",
+          "ocr_confidence": 0.8243
+        },
+        {
+          "source": "frame-00147.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 177.2,
+          "visual_features": {
+            "edge_density": 0.0627,
+            "dark_ratio": 0.2646,
+            "bright_ratio": 0.3816,
+            "saturated_ratio": 0.334,
+            "bottom_blue_ratio": 0.9265,
+            "left_bright_ratio": 0.4472,
+            "center_bright_ratio": 0.4041,
+            "center_narrow_bright_ratio": 0.4509
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-008.jpg",
+          "ocr_text": "口\n(cetletack)\nNarratedonthefly·renderedtopaper\nEach scene:a prompt-Pollinations.ai-Floyd-Steinberg dither\n1-bitpacked for the 8oex48e panel.",
+          "ocr_confidence": 0.8129
+        },
+        {
+          "source": "frame-00238.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.38,
+          "visual_features": {
+            "edge_density": 0.0396,
+            "dark_ratio": 0.1401,
+            "bright_ratio": 0.7447,
+            "saturated_ratio": 0.1981,
+            "bottom_blue_ratio": 0.0,
+            "left_bright_ratio": 0.7259,
+            "center_bright_ratio": 0.8344,
+            "center_narrow_bright_ratio": 0.8493
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-009.jpg",
+          "ocr_text": "THE PROBLEM\nYourcontextwindowhasahiddenRAMbill\n42GB\nEvery tokenyouragentreads orwritesgetscachedin\nmemory:theKV cache.It isthe model's short-term\nghts(2708)\nmemory, and it grows with every step.\n21GB\nPushthecontextfarenoughandthecachegetsbigger\n11GB\nthanthemodelitself.\n5GB\nOnaMacitisworse:model,cache andyourvectorindexall\n1GB\nfightoveronesharedpoolofRAM.\n4K\nIlustrative -26B-classmodel - context lengthtokens)At long context the cache\n16K\n64K\n128K\nis tens of GB.",
+          "ocr_confidence": 0.9605
+        },
+        {
+          "source": "frame-00240.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.4,
+          "visual_features": {
+            "edge_density": 0.04,
+            "dark_ratio": 0.1399,
+            "bright_ratio": 0.7679,
+            "saturated_ratio": 0.1801,
+            "bottom_blue_ratio": 0.0,
+            "left_bright_ratio": 0.7228,
+            "center_bright_ratio": 0.8538,
+            "center_narrow_bright_ratio": 0.8601
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-010.jpg",
+          "ocr_text": "GOOGLERESEARCH-ICLR2026\nWhatisTurboQuant\nAcompressionalgorithmthatstoresembeddingsandtheKVcachein3to4bitsinstead\nof32,withnotraining.ltworksintwostages:\n32-bit\nStage1-PolarQuant\n(r,0)\nStage2.QJL+1bit\n-4-bit\nfull vector\nngth + direction\npassaaduos\nSTAGE1.POLARQUANT\nSTACE2-QJL\nDoesthe compression.Stores eachvector by direction,so one simple\nFixesthe error.One extrabitpernumberkeepsthe compressed scores\nrule quantizesit,withnocodebookto train.\nunbiased,sotheranking stayscorrect.\nRead the paper\nRead the launch post",
+          "ocr_confidence": 0.9146
+        },
+        {
+          "source": "frame-00273.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.08,
+          "visual_features": {
+            "edge_density": 0.031,
+            "dark_ratio": 0.2168,
+            "bright_ratio": 0.5266,
+            "saturated_ratio": 0.3996,
+            "bottom_blue_ratio": 0.7161,
+            "left_bright_ratio": 0.3452,
+            "center_bright_ratio": 0.6811,
+            "center_narrow_bright_ratio": 0.726
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-011.jpg",
+          "ocr_text": "whatpeoplethinktheagentis\nmodel\nruntime/sandbox\ntools\nloop\nframework\nToday,whenpeopletalkaboutagents,\ntheyusuallypointatthewrongthing.",
+          "ocr_confidence": 0.9873
+        },
+        {
+          "source": "frame-00274.jpg",
+          "kind": "visible-slide-crop",
+          "box": [
+            0,
+            37,
+            960,
+            503
+          ],
+          "score": 176.69,
+          "visual_features": {
+            "edge_density": 0.0482,
+            "dark_ratio": 0.2292,
+            "bright_ratio": 0.4934,
+            "saturated_ratio": 0.4085,
+            "bottom_blue_ratio": 0.7655,
+            "left_bright_ratio": 0.3543,
+            "center_bright_ratio": 0.6247,
+            "center_narrow_bright_ratio": 0.6535
+          },
+          "strict_reason": "visual-bright-slide",
+          "screen_share_chrome": false,
+          "output": "slide-012.jpg",
+          "ocr_text": "SimplifiedLoop\nwhilesession_has_work:\nstate=reconstruct_from_log(session_id)\nresponse =model.next(state)\nappend(response)\nifresponse.requests_tool:\nresult=run_tool(response.tool_call)\nappend(result)\nYoucanreconstructthestatefromthe\nlog,youcanpassthatstatetothemodel,",
+          "ocr_confidence": 0.9827
+        }
+      ],
+      "rejected": [
+        {
+          "source": "frame-00001.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00002.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00003.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00004.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00005.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00006.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00007.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00008.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00009.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00010.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00011.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00012.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00013.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngineer\nWorld'sFair\nWhoResponded\n1,048respondents-mostlyfounders,CTOs,andAlengineers\nFounder/CTO\nAI Engineer\nGlobal,fromorgsofall\nPRESENTED BY\nOther\nsizes-fromstartupto\nFullstackEngineer\nenterprise-butskew\nMicrosoft\nEngineeringManager/TechLead\nsmaller.\nProduct Manager\nResearchScientist/ResearchEngineer\nBackend Engineer\nData Engineer\n<100people\nFrontend Engineer\nData Scientist\nMLEngineer\nW\n'air\nThe2026StateofAlEngineering\nBarrYaron/Partner\nAmplify"
+        },
+        {
+          "source": "frame-00014.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "World'sFair\nAudioremainsthestrongestintent-to-adoptrate\nIntent-to-Adopt Rate(%)\nPRESENTED BY\nAudio/Voice\nMicrosoft\nLastyear,weshowedthe\nImage\nintent-to-adoptratefor\naudiowashighestofall\nthemodalities.\nVideo\nThisyearitiseven\nhigher!\nNIMAX\nThe2026StateofAlEngineering\ne.ai\nBarrYaron/Partner\nAmplify"
+        },
+        {
+          "source": "frame-00015.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "World'sFair\nMost folks using open-weight models are\nalsousingclosedmodels\nWhat models are you using?\n>90%ofrespondents\nPRESENTED BY\nusingopen-weightmodels\narealsousingclosed\nMicrosoft\nClosed models (e.g.GPTs,Claude)\nmodels.\nOpen-weight models, out of the box\nThey areaugmenting\nOpen-weightmodels,finetunedbyyourteam\ninsteadofreplacing.\nModels trained from scratchin-house\nOther\nofrespondentsuse\n'sFair\nmultiplemodels\nThe2026StateofAlEngineering\n:air\nBarrYaron/Partner\nAmplify"
+        },
+        {
+          "source": "frame-00019.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngineer\nWorld'sFair\nAgents arestill governedbybluntinstruments!\nInfrastructure/controlstomanage agents\nNoonehassettled\nHuman-in-the-loop approvals\nonhowtocontrol\nPRESENTED BY\nToolpermissions/access controls\nagents.\nTask decomposition/planning steps\nMicrosoft\nRetrieval from internalknowledge sources\nAndwhentheyfail,\nMemory orpersistent context\nSandboxed execution environments\nit'softenthe\nTracing/observability foragentruns\nthinking.\nStructured workflowsor statemachines\nAutomated testsor evalsbefore actions are taken\nRetry logic/fallbackmodels\nWe mostlyrelyonprompting alone\nOther\nBrowse'\nWor\nAIE\nNo\nThe2026StateofAlEngineering\nWor\nBarrYaron/Partner\nAmplify"
+        },
+        {
+          "source": "frame-00020.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\nWorld'sFair\nWhereAIMoneyActually\nsadidguun-ou\nGoes\nAgentorchestration\nInference/servingisthetoolthatpeople\nbuymostandwant tobuild least\nModel routing logic\nPRESENTED BY\n·Productlogicstaysin-house\nModel serving/inference infra\nMicrosoft\n·Mostteamsarenotshoppingaround once\nthey'vebuilt orboughta layer\nObservability/tracing\n1IN\n.Fine-tuningis the clearest“notyet”layer\nPromptmanagement\nBuilt, but considered buying\nEvals\nBought,but considered building\nDon'thave\nRAG/retrieval\nBought or buying\nAlEn\nBuilt orbuilding\nserbase\norld'sF:\nsFair\nriz\nThe2026StateofAlEngineering\nX\nI'sF:\nBarrYaron/Partner\nAmplify"
+        },
+        {
+          "source": "frame-00025.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "Overview\nAlEngir\nWorld'sFair\nAlworkloadsdependonhighnetworkperformance\nAlworkloadsareevolving(especiallywithagents):\nHistoricallydominatedbyverylargetransfers\nPRESENTED BY\n·Keymetricisthroughput\nSmallrequest-responseexchangesbecomingmorecommon\nMicrosoft\n·Latency is crucial\nTCPandRDMAhavehightaillatency（1-10ms)\nPoorcongestioncontrol\nStreamingAPI\nHoma:newtransportprotocolwithtaillatency~1o0μs\nAIEng\nBettercongestioncontrol\nrld'sFai\nMessage-orientedAPI\npenA\nWoI\nJuly 2, 2026\nTCP and RDMA :\nng Inferenoe Throughput\nSlide 2\nTCPand RDMAareKillingInferenceThroughput;HomacanFixlt\nAlEng\npp\nJohnOusterhout/ProfessorEmeritus\nUniversity"
+        },
+        {
+          "source": "frame-00026.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIWorkloadsAreEvolving\nWorld'sFair\nTraditionallydominatedbylargetransfers(Gbytes):\nWeightgradients\nModelweights\nKVcacheentries\nPRESENTED BY\nCheckpoints\nMicrosoft\nPerformancelimitedbynetworkthroughput(Gbits/sec)\nLargetransfers“easy”fornetworkstohandle\nE.g.,canamortizestartup/coordinationoverheads\nTCPandRDMA(RoCE)performwell\nd'sFair\nMic\nAIEngi\nenAl\nYorld'\nJuly 2. 2026\nare Kiling lnference Throughpu\nSlide 3\nTCPand RDMAareKillingInferenceThroughput;HomacanFixIt\nd's\nAka\nJohnOusterhout/ProfessorEmeritus\nUniversity"
+        },
+        {
+          "source": "frame-00027.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngin\nAIWorkloadsAreEvolving，cont'd\nWorld'sFair\nAlworkloadsarebecomingmoregranular\n(especiallyinference&agents)\nMoresmallmessageexchanges\nKVcachemapchecks\nPRESENTED BY\nBarriersynchronizationmessages\nMicrosoft\nOthercoordination\nForsmallrequests,latencyiscritical\nRound-triptimetosendshortrequest,perform\nsmallcomputation,getshortresponse\nTaillatencymatters(e.g.99thpercentile)\nMicrose\nHighlatencycanlimitinferencethroughput\nair\nA\norld'sFa\nJuly 2, 2026\nTCPand RDMAareKillingInferenceThroughput;Homa canFixIt\nAkamai\nJohnOusterhout/ProfessorEmeritus\nUniversity"
+        },
+        {
+          "source": "frame-00028.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEnginee\nAIWorkloadsAreEvolving，cont'd\nWorld'sFair\nAlworkloadsarebecomingmoregranular\n(especiallyinference&agents)\nMoresmallmessageexchanges\nKVcachemapchecks\nCompute\nSync\nPRESENTED BY\nBarriersynchronizationmessages\nMicrosoft\nOthercoordination\nNodes\nForsmallrequests,latencyiscritical\nRound-triptimetosendshortrequest,perform\nsmallcomputation,getshortresponse\n5ms\n2ms\nTaillatencymatters(e.g.99thpercentile)\nGPUsstallduringsync\nAma\nAGILa\nHighlatencycanlimitinferencethroughput\nAuly 2. 2026\nTCPand RDMAareKillingInferenceThroughput;HomacanFixIt\n代\nJohnOusterhout/ProfessorEmeritus\nUniversity"
+        },
+        {
+          "source": "frame-00029.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngineer\nIncastCongestion\nWorld'sFair\nShort\nMessage\nDatacenterNetwork\nTop-of-RackSwitch\nPRESENTED BY\nMicrosoft\nEgressPort\nLong\nMessages\nReceiving\nSending\nNode\nNodes\nShort message\nPackets\nSendingnodesmust\ndelayed\naccumulatein\nWorld's\nAn\nthrottleoutputtolimit\nqueue\ncongestion\nAuly 2. 2026\nTCP and RDMA are KGling Inference Throughput; Homa can Fix I\nS 9P9S\nTCPandRDMAareKillingInferenceThroughput;HomacanFixIt\nJohnOusterhout/ProfessorEmeritus\nUniversity"
+        },
+        {
+          "source": "frame-00037.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00038.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00039.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00040.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00041.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00042.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00043.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00044.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00045.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00046.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00047.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00048.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00049.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00050.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00051.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00052.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00053.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00054.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00055.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00056.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00057.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00058.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00059.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00060.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00061.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00062.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00063.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00064.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00065.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00066.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00067.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00068.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00069.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00070.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00071.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00072.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00073.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00074.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00075.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00079.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00080.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00081.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00082.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00083.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00084.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00085.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00086.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00087.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00088.jpg",
+          "reason": "rejected-no-visible-slide-text",
+          "ocr_text": "My personal notes!"
+        },
+        {
+          "source": "frame-00090.jpg",
+          "reason": "rejected-no-visible-slide-text",
+          "ocr_text": "Whichtool,when?\nDoyoujustneedtoactquicklyonamorecomplextask?"
+        },
+        {
+          "source": "frame-00092.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00095.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00096.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00097.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "CLls:Thedebuggablebackboneofdirectexecution.\nAIEngineer\nWorld'sFair\nReadable\n(youseeexactly\nwhathappened)\nPRESENTED BY\n>git diffmain...HEAD--core/sharing/\nReproducible\nMicrosoft\n>curl-shttps://api.internal/status|jq'.services.record_save\n(copy-pasteat\n2AM)\n>grep“RecordSaveException\"/var/log/app/errors.log|wc-l\nComposable\n(pipeintothe\nnextcommand)\nAlEr\nt\norld'sFair\nTheHeuristic:Ifanengineeronyourteamwouldopenaterminal\ntodothis,theagentshoulduseaCLItoo.\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00100.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "Action.investigating\nWorld'sFair\nCustomerEscalation\nParsestack\nSearcherror\nCheckrecent\nQuerytenant\nCorrelate&\nPRESENTED BY\ntrace\npatterns\nreleases\nlogs\nsummarize\nMicrosoft\nCLIlocal\nMCP\nCLI gitlog-\nMCP\nSkillappliesedge\nregex/grep\nerrors.search\nafter\nmonitoring.query\ncases:e.g,“f\n-enforces\n>100tenants,\nisolation!\nflagPO\"\nNE\nTheskill saysWHAT to do.MCPs and CLIsDO it.\nrld'sFair\nEachlayerdoeswhatitisfundamentallybestat.\nPu!\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00101.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngineer\nThreeQuestionstoDecide\nWorld'sFair\nWhat\nHowtight\nWho else\nfailure mode\nisyour\nPRESENTED BY\nneeds this?\nmatters\ncontext\nmost?\nbudget?\nMicrosoft\nMultiple\nworkflows\nJustthis\nMultiple\nsharea\nTransparency\nValidation\nprocedure\n&tenant\nSequencing\nagent\n&reproducibility\nGenerous\nagents\nguardrails\nTight\nisolation\nMust use Skills\nAIEnc\nUse CLI\nUse MCP\nUse Skill\nUse CLI\nUse MCP\nUse Skill\nUse CLIorMCP\nforon-demand\narch\nld'sFair\nAued\nloading\npyte\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00102.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00103.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00104.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00105.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00106.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00107.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00108.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00109.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00110.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00111.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00112.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00113.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00114.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00115.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00116.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00117.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00118.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00119.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00120.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00121.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00122.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00123.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00124.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00125.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00126.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00127.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00128.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00129.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00130.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00133.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00134.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00135.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngineer\nWorld'sFair\nPRESENTED BY\nMicrosoft\nAgentsthatwebuild\nAIEn\norld'sFai\nAWS Builder Center\nBro\nEngineering the future of Al\nAIE\norlasF\nCr"
+        },
+        {
+          "source": "frame-00136.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00137.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00138.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00139.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00140.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00141.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00142.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00143.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00144.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00145.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00148.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00149.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00150.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00151.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00152.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00153.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00154.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00155.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00156.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00157.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00158.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00159.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00160.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00161.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00162.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00163.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00164.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00165.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00166.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00167.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00168.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00169.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00170.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00171.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00172.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00173.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00174.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00175.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00176.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00177.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00178.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00179.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00180.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00181.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00182.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00183.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00184.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00185.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00186.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00187.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00188.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00189.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00190.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00191.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00192.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00193.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00194.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00195.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00196.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00197.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00198.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00199.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00200.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00201.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00202.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00203.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00204.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00205.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "Agenticworkflows\nHarnesses\nBackgroundagents\nAgentplatforms\nWorld'sFair\nA2A,MCP...\nObservability&\nEvals\nAgentSDKs\nLLMSDKs\nMemory\nA\nmemLet\nPRESENTED BY\nMicrosoft\nqueue\nretrylogic\nKVstore\ncheckpoints\ncronjobs\nsessionlock\nAIEngineer\nServerlessfunctions\nContainers\nSandboxes\noft\norld'sF:\nD\nE2B\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00206.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngir\nAgenticworkflows\nHarnesses\nBackgroundagents\nAgentplatforms\nWorld'sFair\nA2A,MCP...\nObservability&\nEvals\nAgentSDKs\nLLMSDKS\nMemory\nA\nmem0Le\nPRESENTED BY\nMicrosoft\nRestate:durableruntimeforagents\nDurable\nState&session\nCommunication\nObservability&\nExecution\ncoordination\n&flowcontrol\nControl\nAlEngineer\nServerlessfunctions\nContainers\nSandboxes\nft\nrld'sFai\nD\nE2B\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00207.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngin\nWorld'sFair\nASlackresearchagentforallemployees\nResearchAger\nPRESENTED BY\nGhelle vanDo\nResearchAgent\nMicrosoft\nAIEngin\nrld'sFai\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00211.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\nBEYOND WORKFLOWS:STATEFUL ACTORS&SESSION COOROINATION& CONTROL\nWorld'sFair\n@controller.handler()Giselle van Dongen\nasync def message(restate:ObjectContext,text:str)->None:\n1.Add to context\nhistory = await restate.get(name:aessages”,\n.type_hint=ChatHistory)or ChatHistory()\nhistory.messages.append(user(text2)\nrestate.set(name“nossages\",his\ntta.teta\nPRESENTED BY\ntef tr(eetent: str) Girt\n2.Check for ongoing research\ncurrent=await restate.get（name:current\",type_hint=str)\nMicrosoft\n=3a.Cancel or steer ongoing research\nif current is not None:\ndecision =await call_llm_gateway(restate,classify_request（nistory,text))\nmatch decision[\"strategy\"]:\ncase \"cancel\":\nrestate.cancel_invocation(current)\ncase_:\nrestate.resolve_signal（current,name.\"steer\",text)\nreturn\nAIEngineer\n3b. Start new research\nNarch\norld'sFai\nfron deep_research inport research\nAuedu\nhandle =restate.object_send(research,key=restate.key(),arg=history)\nirbyte\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00212.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\n8T\nBEYOND WORKFLOWS:STATEFUL ACTORS&SESSION COORDINATION&CONTROL\nWorld'sFair\nn\n@controller.handler() &Giselle van Dongen\nasync def message(restate:ObjectContext,text:str)->None:\n1.Add to context\nhistory = await restate.get（name:“messages\",type_hint=ChatHistory)or ChatHistory()\nhistory.messagos.append（user(text)\nrestate.set（name:\"nessagos\",history)\nPRESENTED BY\n2.Check for ongoing research\ncurrent =await restate.get（name:“current,type_hint=str)\nMicrosoft\n=3a.Cancelor steer ongoing research\nifcurrent is not None:\ndecision =await call_llm_gateway(restate,classify_request（history,text))\nmatch decision[\"strategy\"]:\ncase \"cancel\":\nrestate.cancel_invocation(current)\ncase_:\nI\nrestate.resolve_signa（current,name:\"steer\",text)\nreturn\nAlEngineer\n3b. Start new research\nfron deep_research inport research\nearch\norld'sFa\nmpany\nhandle =restate.object_send(research,key=restate.key(),arg=history)\nbyte\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00213.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00214.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\n8T\n#BEYOND WORKFLOWS:STATEFUL ACTORS &SESSION COORDINATION& CONTROL\nWorld'sFair\nn\n@controller.handler()&Giselle vanDongen\nasync dof message（restate:ObjectContext，text:str)->None:\n1.Add to context\nhistory = await restate.get（name:“messages\",type_hint=ChatHistory)or ChatHistory()\nhistory.messages.append（user(text))\nrestate.set（name“nessages*,history)\nPRESENTED BY\n=2.Check for ongoing research\ncurrent=await restate.get（name:“current\",type_hint=str)\nMicrosoft\n3a. Cancel or steer ongoing research\nifcurrent is not None:\ndecision =await call_llm_gateway(restate,classify_request（history,text))\nmatch decision[\"strategy\"]:\ncase \"cancel\":\nrestate.cancel_invocation(current)\ncase_:\nrestate.resolve_signat（current,name:\"steer,text)\nreturn\n3b.Start new research\nAlEngir\noft\nfron deep_research inport research\nld'sF:\nhandle =restate.object_send(research,key=restate.key(),arg=history)\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00218.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00219.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00220.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00221.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00222.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00223.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00225.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00226.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngir\nWorld'sFair\nThe wizard: dissected\nPRESENTED BY\nIt's anagent.\nMicrosoft\nIt'sgotallthethingsyou'dexpect:\n·Models\n·Systemprompts\n.Tools\nButitalsohas:\n·Acontextengine,builtbymyteam\n·AcustomTulinterface\n.Thewarlock:contextscanner\noft\nVorld'sF:\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00227.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngineer\nWorld'sFair\nOUROG\nSECURITY\nLayerO:systemprompts\nPOSTURE\nDO NOTSHAREPll.Makenomistakes.\nPRESENTED BY\nLayer1:allowlist\nMicrosoft\nBashcanonlyruncertain tools.\nLayer2:regexscanner\nScan contextflowingintoand output flowing outof theagent.\nN'sFair\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00231.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\nWorld'sFair\nEnter: the warlock\nA detection engine:itscans,you decidehowto act\nPRESENTED BY\nMicrosoft\nUsesYARA:boring,butdeterministic\nBuiltagainstthreatshapes,think:OWASPTop10\nAlEngineer\nhe Search\nWorld'sF\nPostHog\nuCompany\n'rby\nEngineering the future of Al\nBesger"
+        },
+        {
+          "source": "frame-00232.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\nWorld'sFair\nEnter: the warlock\nA detectionengine:itscans,you decidehowtoact\nPRESENTED BY\nMicrosoft\nUsesYARA:boring,butdeterministic\nBuiltagainstthreatshapes,think:OwAsPTop10\nI\nAlEngineer\ne Search\norld'sF:\nPostHog\nCompany\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00241.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00242.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00243.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00244.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00245.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00246.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00247.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00248.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00249.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00250.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00251.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00252.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00253.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00254.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00255.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00256.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00257.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00258.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00259.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00260.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00261.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00262.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00263.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00264.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00265.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00266.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00267.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00268.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00269.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00270.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00271.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00272.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00278.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00279.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00280.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\nsauogdxy\n01_python>src）\nWorld'sFair\n>env\niaport os\nopython\niaport requests\ndef_get_headers（accept_headere*aplication/vnd.github.v3+son)：\nCsrC\npat = 0s.enviren.get(\"GITHB_PAT\")\nPycache\nifmotpat:\nnt_Py\nreturn(\nraise Valuefrror(\"GITHs_PAT environment variable is not set.\")\nagent.py\nithub_clen.py\n\"Accept\"：accept_header,\n\"Authorization\":f\"token (pat)\",\nprompts.py\nPRESENTED BY\ntoolspy\nmain.py\ndefget_pr_details（repo: str,pr_nunberi int）->dict:\nMicrosoft\nrRetrieves puttrequest metadata,including the head branch comnit SH\n）02_framwok\nurl-fhttps://api.github.com/repos/(repo)/pulls/(pr_nunber)\"\n>03_managed-ag\nresponse =requests.get（url,headers=_pet_headers())\n>Cassets\nresponse.raise_for_status()\nCONTENT.md\nProblem\nOutput\nDebug Console\nTerminal\nPorts\ninde.md\n[ale-vorlds-fair-agents)phitschmldgphiLschmidnac [15:38:15] I~/Desktop/ale-worlds-falr-agents]\ngokg\nuru_yn/.\nUser > hello\ngokg\nprompt.md\nAgent > Hello1 I an an autonated senior Gitruo Pull Reqvest reviever,\nTohelp yovreviev apull request,please provide eitheri\n2.A **fut1GitHub Put1 Request URL**（eg.,https1//githb.com/omer/repo/pul/123）,\n1.The *repository path and pull reguest nunberee (e.g..\nJ0*（.Zt.pueodau/Ja\nrair\nOnce yoo share that information, I wil analyze the putl request, check for issues (such as security flavs, bugs, quality inprove\nnents,or logical errors),post reviev comments on specific Lines if needed, and grovide a detailed sunmary of ay review\nAE\nUser > Reviev pul1 reqvest google-gemini/genini-skit Is/putt/54 and retunn your reviev here, don't write coements or approve 1t,\nrld'sFair\nFunction_call;get_pr_detaits（(°repo'：'google-genin1/genini-skills','pr_nunber'：54）)\nOut\n'head_sha...\nLn9,Col40\nLF\nFair\nEngineering the future of Al\nhtrun"
+        },
+        {
+          "source": "frame-00281.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\n02_frame\nrk）src）toolspy\nWorld'sFair\nfron.githob_clientinport(\nopython\n>e\nread_pr_diff,\nC\npost_reviev_connent,\npycache,\nn_Py\nagent.py\nExport tools list directly\nTOOLS-1\nprompts.SY\nread_repo_fite,\nread_pr_diff,\nA\nt0os.y\nerv\npost_reviev_comnent,\nmainpy\n02_framework\n>D\njnit_py\nProbler\noutput.\nOebug Console\nPorts\n(aie-worlds-fair-agents) philschaidgphitschmid-mac [15:38:15][~/Desktop/ale-vorlds-falr-agents]\ngokg\nrnyton/in.y\nA\npromgts.py\nseChanges Evaluatedi**\nookg\nt0ols.py\n1.*gensni-3.1-flash-Lite-previev5rightarrovs*gensni-3.1-flash-1ite'**\neny\n2.*genini-3-gro-inage-previeS{rightarrovsgenjni-3-pro-inage*\nmain.py\n3.*gemni-3.1-f Lash-inage-previev** 5rightarrovs *gemini-3.1-flashinage\n03managed-age\n#*#*Cbservations:**\nrair\n>assts\n-aAccuracyi* The changes correctly corresgond to the officlal naning updates of the Genini AP1 nodels transitioning fro\nCONTENT.md\n6experinental/prevlev status to GeneralAvailability (GA).\nCurrent release phase.\nsuffix, whichaligns vith its\nindex.md\n-Formatting:s The narkdoun bullet List is clean, symtax is correct, and no formatting errers or breken Links are intro\nduced,\ncto\nWorld'sFair\nprompt.md\n>Outine\nothe correct GA production endpoints. No issves detected.\nTineline\nLn1,Col1\nSaCes:4UTF-8\nLF\nFail\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00282.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00283.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00285.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngineer\n中\nai-words-tar-agents\nWorld'sFair\n0pyhn\nREAL_GH/vorkspace/gh_instalt/bin/gh\nyirg/uta/ie\nCsC\nP\npromotspy\nif[1-f\"sEAL_Gr]；then\ntospy\necho\"GithabCLInot found.Installing te/workspace/gh_iastall...>62\nmkdir-p/workspace/gh_install\nmain.py\n02_famework\nre/workspace/gh_install/gh.tar.gr>62\neche\"GitHub CLI installed.”2\nCaC\nTA\npel\n_ntPy\nexeC“SREAL_G\"”\nexport GH_TokEN\"dummy_token_to_bypass_cli_check\"\nprompts.py\nt0ospy\nenv\nmainpy\nProble\noutput.\nDebug Console\nPorts\nX\n03_managed-ag\n(aie-worlds-fair-agents) phitschmidgphitschmid-\n[15:55:5e][/Desktop/aie-vorlds-fair-agents]\n国gokg\nagents\nivrune3_nanaged-agents/stream.py\ngokg\nA\n口bin\n)gh\n3.*Diff Check:*\nts, or codebase files are negatively affected.\n-The diff consists of a straightforvare, three-Line substitvtson In the docun\nentation f1le. No 1ogic, behavioral scrip\nAGENTS.md\nrair\nmain.py\nstream.py\nThe changes are highly acourate, correct, and vital for keeping the\n##Conclus1onRecommendation\ndate.\nntatior\nand skilt definitlons up to\n）Cas5ts\nAlEn\nCONTENT.md\n**Reconnendation*x *aApprove** (This cha\nsuch as the CLA),\navthor resolves any pending repository checks\nThe Search\norld'sFair\nindexmd\n[Status1 conpleted]\nAICompar\n>Outine\n[Sandbex Environ\nActivated:e5155135-3c82-4fte-Be72-1a39a3a458911\nTineline\n16A0\nFair\nirbyte\nEngineering the future of Al\n)R"
+        },
+        {
+          "source": "frame-00286.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\nai-words-fair-agents\ndefmain（）:\nWorld'sFair\n0python\nCG\nifuser_inpvt.lower（)in[“exit\",“quit*]1\ngithub_clent.py\npromptspy\nbreak\n100sPY\nprint（\"nAgent is thinking and executing tools...)\nmainpy\nif etv_id:\nenvironment=env_id\nCsC\nenvironnent = etv_config\nPRESENTED BY\npl\nnt_py\nRun interaction\nInteraction=client.interactions.createl\nMicrosoft\nprompts.py\nagente\"antigravity-previee-05-2026\",\ntoospy\ningut-user_input,\nenvironmentwenvironment,\nprevious_interaction_iorlast_interaction_id\nmainpy\n03_managed-age\nagents\nStore states for the next turn\ntast_interaction_id-interaction.id\nenv_sdaInteraction,environment_id\n-gh\nAGENTS.md\nprint(r\"vnAgent >(interaction.ovtput_text)n*)\nmain.py\nexcept(KeyboardInterrupt,EoFError):\nprint(\"noodye!\")\nstream.py\nProble\nOuUt\n>sss\nDebug Console\nTerminal\nPorts\nCONTENT.md\npkg\nd'sair\nindexmd\nuvrun3_naged-ents/strem.py\neokg\nuCompany\nhe Search\n>Outine\n[Catifornia weather Update uly 2826](https1//ww.youtube.con/watchvAd)F661dds)[1.3]\n>Timeline\n[Status]conpleted]\n16A0\nvser>\nUTF-0\nLF\nSyte\nEngineering the future of Al"
+        },
+        {
+          "source": "frame-00287.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00288.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00289.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00290.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00291.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00292.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00293.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00294.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00295.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00296.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00297.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00298.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00299.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00300.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00301.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00302.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00303.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00304.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00305.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00306.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00307.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00308.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00309.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00310.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00311.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00312.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AlEngineer\nWorld'sFair\nPRESENTED BY\nMicrosoft\nColorado\nBouder\nM.8.C1.901N.Z,0.0\norld'sF\nMic\nOpen\nAlEng\nNorld\nAIEy\nKeynote\norldor\nAki\nTheoBrowne/Founder\nt3.gg\nAlEng"
+        },
+        {
+          "source": "frame-00313.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00314.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngir\nWorld'sFair\nPRESENTED BY\nwhydowe qualify ourselvesbythe\nMicrosoft\nlanguagesweknow?\nAEngin\nMINIMA\nWorld':\nOpel\nAlEngin\nKeynote\n'US\nvWorld:\nTheoBrowne/Foundert3.gg\nAIEr"
+        },
+        {
+          "source": "frame-00315.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "World'sFair\nPRESENTED BY\nWhy are we so scared of deleting code?\nMicrosoft\nair\nAm\nAGILat\nFair\nKeynote\nalr\n,oft\nTheoBrowne/Foundert3.gg"
+        },
+        {
+          "source": "frame-00316.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngir\nWorld'sFair\nToo big\nFull-stackcloud\nPRESENTED BY\nMicrosoft\nStartup\nZoomforstreamers\nSideproject\nRedditscraper\nWorld's\nB\nBr\nW\nKeynote\nWr\nTheoBrowne/Foundert\nt3.gg"
+        },
+        {
+          "source": "frame-00319.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "World'sFair\nViablenow\nRangeofthingsyoucover\nPRESENTED BY\nMicrosoft\nNotyourproblem\n#offeaturesinagivenarea\nZ.AI\nWorld\nAIEn\nAlEngr\nlorld's\nav\nKeynote\nAEny\nlorld\nTheoBrowne/Foundert3.gg"
+        },
+        {
+          "source": "frame-00320.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00321.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00322.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00323.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00324.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00325.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00326.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00327.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00328.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00329.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00330.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00331.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00332.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00333.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00334.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00335.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "World'sFair\nFleet\nClaw\nPRESENTED BY\nMicrosoft\nAgent\nChat\nWorld'sFair\nCompletion\nHyperagent\nKeynote\nHowieLiu/CEoHyperagent"
+        },
+        {
+          "source": "frame-00336.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngi\nWorld'sFair\nFleet\nClaw\nPRESENTED BY\nMicrosoft\nAgent\nChat\nLab\nWorld's Fair\nCompletion\nnAI\nHyperagent\nair\nKeynote\nHowieLiu/CEoHyperagent"
+        },
+        {
+          "source": "frame-00337.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngi\nWorld'sFair\nFleet\nClaw\nPRESENTED BY\nMicrosoft\nAgent\nChat\nAX\nWorld'sFail\nCompletion\n:air\nnenAl\nHyperagent\nJ'sFail\nKeynote\nHowieLiu/CEoHyperagent\nildki"
+        },
+        {
+          "source": "frame-00340.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00341.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "AIEngineer\nAgentspromptinghumans\nWorld'sFair\nItemized quote\nPLAN\nFul Renovation\nPRESENTED BY\nFence-line clearing & haul-off\nMicrosoft\nFlower bed creationalo\nlence\nmg prer\nSodinstall St.Augustine\n700 sq ft • $1.85\nMulch install·new beds\nOS\norld'sFa\nProject total\nFair\nwserb\nHyperagent\nKeynote\na\nHowieLiu/CEoHyperagent"
+        },
+        {
+          "source": "frame-00342.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00343.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "Fleet ata glance\nWorld'sFair\nPRESENTED BY\nMicrosoft\nWorkos\nWor\nAEngir\nBr\nHyperagent\nKeynote\nlor\nAIEng\nHowieLiu/CEoHyperagent"
+        },
+        {
+          "source": "frame-00344.jpg",
+          "reason": "rejected-title-or-sponsor-card",
+          "ocr_text": "Fleet ata glance\nWorld'sFair\nPRESENTED BY\nMicrosoft\nWorkos\nW\nAlEngin\nNorlo'-\nHyperagent\nKeynote\nW\nHowieLiu/CEoHyperagent"
+        },
+        {
+          "source": "frame-00345.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00346.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00347.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00348.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00349.jpg",
+          "reason": "rejected-mostly-blank-screen",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00350.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00351.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00352.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00353.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00354.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00355.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00356.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00357.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00358.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00359.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00360.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00361.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00362.jpg",
+          "reason": "rejected-no-visible-slide-text",
+          "ocr_text": "AlEngineer\nWorld'sFair"
+        },
+        {
+          "source": "frame-00363.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00364.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00365.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00366.jpg",
+          "reason": "rejected-mostly-dark-card",
+          "ocr_text": ""
+        },
+        {
+          "source": "frame-00367.jpg",
+          "reason": "rejected-no-clear-slide-surface",
+          "ocr_text": ""
+        }
+      ],
+      "slide_only": true,
+      "ocr_enabled": true,
+      "source_mode": "captured-frames"
     }
   ],
-  "videoCount": 107
+  "videoCount": 108
 }

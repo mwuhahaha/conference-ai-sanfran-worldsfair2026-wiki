@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "4uFVSLgD2Q4"
-last_enriched: "2026-07-06T19:48:33.942793+00:00"
+last_enriched: "2026-07-08T23:50:08.929527+00:00"
 ---
 # Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/4uFVSLgD
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[ai-sandboxes|AI Sandboxes]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `website`, `integrate`, `data`, `downs`, `customer`, `software`, `typescript`, `help`
+- Transcript keywords: `fast`, `budgeting`, `logging`, `potential`, `platform`, `memory`, `experience`, `party`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=4uFVSLgD2Q4)

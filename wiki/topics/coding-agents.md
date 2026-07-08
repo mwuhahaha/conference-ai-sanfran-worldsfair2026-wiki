@@ -31,9 +31,7 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - Agentic software factories that coordinate planning, coding, testing, and release steps.
 
 ## Related Slide Decks
-- [[youtube-gcseUQJ6Gbg-slides]] — Using OSS models to build AI apps with millions of users — Hassan El Mghari (4 extracted slide frames)
-- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
-- [[youtube-jVjt-2g8NMY-slides]] — A Genius With Amnesia - Victor Savkin, Nx (19 extracted slide frames)
+- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; [[will-bond|Will Bond]], [[ameya-ketkar|Ameya Ketkar]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · AI-Native Enterprises; official schedule)

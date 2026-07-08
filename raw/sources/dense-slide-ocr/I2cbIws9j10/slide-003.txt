@@ -1,0 +1,12 @@
+DeterministicAnomalyRules
+Schemadriftnullspikes,field
+removals,typechanges
+Q-Learning Decision Policy
+Retry,coerceschema,rollback,
+quarantine,escalate,log
+The
+SafetyOverride
+Intelligence
+Critical anomaly+passive action
+→escalate
+Layer

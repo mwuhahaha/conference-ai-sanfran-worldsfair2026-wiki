@@ -1,0 +1,20 @@
+GOOGLERESEARCH-ICLR2026
+WhatisTurboQuant
+AcompressionalgorithmthatstoresembeddingsandtheKVcachein3to4bitsinstead
+of32,withnotraining.ltworksintwostages:
+32-bit
+Stage1-PolarQuant
+(r,0)
+Stage2.QJL+1bit
+-4-bit
+full vector
+ngth + direction
+passaaduos
+STAGE1.POLARQUANT
+STACE2-QJL
+Doesthe compression.Stores eachvector by direction,so one simple
+Fixesthe error.One extrabitpernumberkeepsthe compressed scores
+rule quantizesit,withnocodebookto train.
+unbiased,sotheranking stayscorrect.
+Read the paper
+Read the launch post

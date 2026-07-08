@@ -31,8 +31,7 @@ Invest in inference engineering once prototypes need predictable user experience
 - Optimizing voice and interactive applications for low latency.
 
 ## Related Slide Decks
-- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
-- [[youtube-SS-A8sE7hkw-slides]] — Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind (12 extracted slide frames)
+- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale; [[nishant-gupta|Nishant Gupta]], [[naman-ahuja|Naman Ahuja]] (Day 4 — Session Day 3 · 10:45am-11:05am · Inference; official schedule)

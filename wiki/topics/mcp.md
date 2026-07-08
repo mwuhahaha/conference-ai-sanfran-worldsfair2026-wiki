@@ -31,9 +31,7 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - Local inspectors and compliance checks for tool servers.
 
 ## Related Slide Decks
-- [[youtube-gcseUQJ6Gbg-slides]] — Using OSS models to build AI apps with millions of users — Hassan El Mghari (4 extracted slide frames)
-- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
-- [[youtube-jVjt-2g8NMY-slides]] — A Genius With Amnesia - Victor Savkin, Nx (19 extracted slide frames)
+- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)

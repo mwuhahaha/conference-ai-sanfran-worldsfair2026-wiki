@@ -1,29 +1,28 @@
 ---
-title: Agent Memory
-category: topics
-sourceLabels:
-  - Slide/video-derived supporting context
-last_auto_summarized: '2026-07-06T19:56:11.553Z'
+title: "Agent Memory"
+category: "topics"
+sourceLabels: ["Slide/video-derived supporting context"]
 ---
+
 # Agent Memory
 
 ## Synopsis
-Agent memory is the layer that lets an agent carry the right state across a task instead of treating every prompt as a fresh start. In the World's Fair material, it shows up as several related patterns: long-context training and cache-augmented generation for keeping more source material available, semantic code retrieval for finding the right repository facts, context graphs and decision traces for remembering why choices were made, logs as durable agent state, and skill systems that package reusable procedures for future runs.
+Agent memory is the set of mechanisms that lets an agent carry useful context across steps, sessions, users, repositories, documents, or decisions. It includes short-term working context, long-term stores, cached artifacts, decision traces, vector or graph retrieval, and policies that decide what should be remembered, refreshed, or forgotten.
 
 ## Origin And Context
-This topic sits at the intersection of classic AI state management, knowledge representation, retrieval systems, observability, and database-backed application design. The connected sessions sharpen the tradeoff: Max Ryabinin frames long context as a training and systems problem, Luis Romero-Sevilla argues for knowledge representation when all context matters, Zach Blumenfeld pushes beyond documents toward decision traces and context graphs, and Victor Savkin's "A Genius With Amnesia" treats forgotten project context as a practical failure mode for software agents.
+The topic comes from classic AI state management, knowledge representation, retrieval systems, personal assistants, and database-backed application design. The long-context era changed the tradeoff: teams can stuff more into prompts, but still need structured memory so agents can reason over the right facts at the right time.
 
 ## Why It Matters
-Memory determines whether an agent can act consistently across multi-step work, codebases, users, and decisions. More context alone is not enough: Nupur Sharma's "Why More Context Makes Your Agent Dumber" and the Orbis cache-augmented generation talk both point to degradation when context is stuffed without structure. The stronger pattern is selective, source-grounded memory: retrieve the right facts, preserve provenance, keep decision history inspectable, and refresh or discard state when it becomes stale.
+Memory determines whether an agent can act consistently instead of restarting from scratch. It improves personalization, reduces repeated work, supports multi-step workflows, and makes decisions auditable. Poor memory creates stale assumptions, privacy risk, context bloat, and confident mistakes.
 
 ## How To Use It
-Separate working context from durable memory, then decide what each layer is allowed to retain. Store source-backed facts, repository architecture, user preferences, decision traces, logs, artifacts, and evaluation outcomes with timestamps and provenance. Use retrieval keyed to task intent, not just lexical similarity, and combine retrieval with graph or log structures when the agent needs relationships, chronology, or accountability. Add explicit policies for freshness, deletion, permissions, summarization, and OCR/transcript confidence, then test memory behavior with scenarios where stale or overbroad context would cause a wrong action.
+Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
 
 ## Where It Is Useful
-Memory is useful anywhere an agent has to continue work over time: coding agents that need repository history, customer-support agents that need prior case context, enterprise assistants that need decision records, research agents that need source trails, ETL remediation agents that need operational history, and personal productivity systems that must respect user preferences without relearning them every session.
+Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
 
 ## When To Use It
-Use durable memory when repeated interaction, long-horizon work, auditability, or cross-document reasoning matters. Prefer lighter working context for one-shot tasks. Avoid durable memory for sensitive data unless retention and deletion rules are clear, and avoid confident reuse of old state when the cost of asking again is lower than the risk of acting on stale context.
+Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
 
 ## Active Use Cases
 - Remembering repository architecture and prior implementation decisions.
@@ -32,10 +31,7 @@ Use durable memory when repeated interaction, long-horizon work, auditability, o
 - Long-context cache and knowledge-graph backed agent workflows.
 
 ## Related Slide Decks
-- [[youtube-gcseUQJ6Gbg-slides]] — Using OSS models to build AI apps with millions of users — Hassan El Mghari (4 extracted slide frames)
-- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
-- [[youtube-jVjt-2g8NMY-slides]] — A Genius With Amnesia - Victor Savkin, Nx (19 extracted slide frames)
-- [[youtube-EcqMYoIV57A-slides]] — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo (4 extracted slide frames)
+- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]] — From Context to Memory: Your Agents Need a Real Memory Layer; [[anders-swanson|Anders Swanson]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 2 NW; official schedule)

@@ -1,0 +1,12 @@
+An End-to-End RL Pipeline
+| Health Agent for Anomaly
+| stmt = aes ve re Detection and Autonomous
+; a Self-Healing of Cloud Data
+| = reais
+WiGTE GEN REL ER ORRICK URSIN
+Monitor — Diagnose — Score — Decide — Safety — Act > Validate
+1.Observe logs, schema, and data-quality conditions
+2.Diagnose the likely failure family
+e 3.Estimate operational risk
+4.Select a bounded remediation action
+5.Validate whether the action restored a heaithy state

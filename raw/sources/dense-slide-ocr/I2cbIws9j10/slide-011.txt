@@ -1,0 +1,8 @@
+whatpeoplethinktheagentis
+model
+runtime/sandbox
+tools
+loop
+framework
+Today,whenpeopletalkaboutagents,
+theyusuallypointatthewrongthing.

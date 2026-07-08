@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "B9h9ovW5H9U"
-last_enriched: "2026-07-06T19:48:35.340022+00:00"
+last_enriched: "2026-07-08T23:50:10.456175+00:00"
 ---
 # Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/B9h9ovW5
 
 ## Topic Signals
 - [[agent-memory|Agent Memory]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `website`, `sorry`, `ourselves`, `embedded`, `month`, `data`, `semantics`, `live`
+- Transcript keywords: `foundation`, `others`, `memory`, `ones`, `complete`, `reasoning`, `together`, `blog`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=B9h9ovW5H9U)

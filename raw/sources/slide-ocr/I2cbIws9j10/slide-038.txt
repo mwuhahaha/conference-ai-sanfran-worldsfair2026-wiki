@@ -1,0 +1,10 @@
+ene Tg
+Deterministic Anomaly Rules
+Schema drift, null spikes, field
+removals, type changes
+Q-Learning Decision Policy
+Retry, coerce schema, roliback,
+quarantine, escalate, log
+Safety Override e The
+Critical anomaly + passive action
+om intelligence

@@ -1,0 +1,8 @@
+(problems) One conversation has to do everything
+Meaning:
+thecontextwindowbecomes
+-thedatabase,
+-thefile system,
+-thememory,
+-thereasoningspace
+TOWARDSA

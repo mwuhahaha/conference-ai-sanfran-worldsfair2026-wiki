@@ -31,12 +31,7 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - Hands-free operational assistants.
 
 ## Related Slide Decks
-- [[youtube-hVJOnuhFmTA-slides]] — The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI (22 extracted slide frames)
-- [[youtube-65X0pQ6Lmbg-slides]] — Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs (11 extracted slide frames)
-- [[youtube--x5GEVnkuRw-slides]] — Structuring the Unstructured - Cedric Clyburn, Red Hat (24 extracted slide frames)
-- [[youtube-IJXjTLPzvAU-slides]] — The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen (8 extracted slide frames)
-- [[youtube-mFLlVpnGpds-slides]] — Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI (6 extracted slide frames)
-- [[youtube-u-rJwPPU3QA-slides]] — How to talk to statues — Joe Reeve, ElevenLabs (6 extracted slide frames)
+- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence; [[bohan-li|Bohan Li]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Voice & Realtime AI; official schedule)

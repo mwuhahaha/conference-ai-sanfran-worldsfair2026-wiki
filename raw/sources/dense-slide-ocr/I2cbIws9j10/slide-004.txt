@@ -1,0 +1,18 @@
+RL Selects theResponse,NottheFacts
+Action:
+State:
+retry
+coerce
+rollback
+quarantine
+escalate
+1.Failurecategory
+2.Risklevel
+1.TabularQ-learning
+3.Retrycount
+2.Small,interpretablestatespace
+4.Driftseverity
+3.Low-memoryinference
+5.Data-qualitycondition
+4.InspectableQ-valuesforeverydecision
+TECHNICALLY.THISISASINGLE-STEPCONTEXTUALDECISIONPROBLEMIMPLEMENTEDWITHTABULARQ-LEARNING.

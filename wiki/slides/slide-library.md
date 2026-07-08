@@ -9,9 +9,9 @@ sourceLabels: ["Public YouTube video frames", "Local OCR"]
 This page summarizes extracted slide decks from speaker-matched AI Engineer YouTube videos. OCR is best-effort and should be checked against the embedded slide images.
 
 ## Coverage
-- Slide decks: 380
-- Extracted slide/frame images: 2603
-- OCR text files: 2603
+- Slide decks: 381
+- Extracted slide/frame images: 2683
+- OCR text files: 2683
 
 ## Decks
 - [[youtube--TiET_K-E_g-dense-slides]] — 0 extracted frames
@@ -124,6 +124,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-HT4l0DeP69I-reconstructed-slides]] — 0 extracted frames
 - [[youtube-HT4l0DeP69I-slides]] — 16 extracted frames
 - [[youtube-HvZXAOZ3iv8-slides]] — 7 extracted frames
+- [[youtube-I2cbIws9j10-slides]] — 80 extracted frames
 - [[youtube-IJXjTLPzvAU-slides]] — 8 extracted frames
 - [[youtube-ILdE7FaAjVA-slides]] — 7 extracted frames
 - [[youtube-IddXPepIAS4-slides]] — 5 extracted frames
@@ -396,22 +397,12 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-zepu8Kk6FBQ-slides]] — 24 extracted frames
 
 ## OCR-Derived Subject Signals
-- [[coding-agents]] — OCR keyword signal in 368 slide frames
-- [[agentic-search]] — OCR keyword signal in 267 slide frames
-- [[agent-evaluations]] — OCR keyword signal in 252 slide frames
-- [[agent-memory]] — OCR keyword signal in 212 slide frames
-- [[mcp]] — OCR keyword signal in 122 slide frames
-- [[inference-engineering]] — OCR keyword signal in 78 slide frames
-- [[agent-security]] — OCR keyword signal in 63 slide frames
+- [[coding-agents]] — OCR keyword signal in 369 slide frames
+- [[agentic-search]] — OCR keyword signal in 271 slide frames
+- [[agent-evaluations]] — OCR keyword signal in 255 slide frames
+- [[agent-memory]] — OCR keyword signal in 217 slide frames
+- [[mcp]] — OCR keyword signal in 124 slide frames
+- [[inference-engineering]] — OCR keyword signal in 80 slide frames
+- [[agent-security]] — OCR keyword signal in 66 slide frames
 - [[ai-sandboxes]] — OCR keyword signal in 62 slide frames
-- [[voice-agents]] — OCR keyword signal in 59 slide frames
-
-## Unresolved Video Failures
-- `gcseUQJ6Gbg` — Using OSS models to build AI apps with millions of users — Hassan El Mghari
-- `liG97YXaTSA` — OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs
-- `aHhB3sjGjkI` — Agents Building Agents - Alfonso Graziano, Nearform
-- `ij-AU9dpJjc` — Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co
-- `jVjt-2g8NMY` — A Genius With Amnesia - Victor Savkin, Nx
-- `SS-A8sE7hkw` — Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind
-- `EcqMYoIV57A` — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
-- `iNkFlCiij0U` — The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI
+- [[voice-agents]] — OCR keyword signal in 60 slide frames

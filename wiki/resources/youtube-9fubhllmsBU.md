@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "9fubhllmsBU"
-last_enriched: "2026-07-06T19:48:34.211885+00:00"
+last_enriched: "2026-07-08T23:50:09.247431+00:00"
 ---
 # Field Guide to Fable — Thariq Shihipar, Anthropic
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/9fubhllm
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `incredible`, `engineers`, `tweak`, `coding`, `specified`, `ourselves`, `embedded`, `month`
+- Transcript keywords: `foreign`, `fast`, `offs`, `engineers`, `tries`, `articles`, `blog`, `interacting`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=9fubhllmsBU)

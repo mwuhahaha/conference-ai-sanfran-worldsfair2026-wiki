@@ -1,1 +1,1928 @@
-{"id": "UCLKPca3kwwd-B59HNr-_lvA", "channel": "AI Engineer", "channel_id": "UCLKPca3kwwd-B59HNr-_lvA", "title": "AI Engineer - Live", "availability": null, "channel_follower_count": 525000, "description": "Talks, workshops, events, and training for AI Engineers. ", "tags": [], "thumbnails": [{"url": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj", "height": 900, "width": 900, "id": "0", "resolution": "900x900"}, {"url": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s0", "id": "avatar_uncropped", "preference": 1}], "uploader_id": "@aiDotEngineer", "uploader_url": "https://www.youtube.com/@aiDotEngineer", "modified_date": null, "view_count": null, "playlist_count": 32, "uploader": "AI Engineer", "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA", "_type": "playlist", "entries": [{"title": "WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy", "thumbnails": [{"url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAsKp-tBQztFVaMq_fCD5BUBbkrpQ", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDhC8r0rn-nFLSZakI9iUZ7zii8LA", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdgRd3FA2lrT2ev-2UJT0_Ql7VCw", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLhhhTJooboQFPwmEwhtaF5aJhlw", "height": 188, "width": 336}], "duration": 33075.0, "timestamp": null, "ie_key": "Youtube", "id": "I2cbIws9j10", "_type": "url", "url": "https://www.youtube.com/watch?v=I2cbIws9j10", "__x_forwarded_for_ip": null}, {"title": "WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive", "thumbnails": [{"url": "https://i.ytimg.com/vi/4sX_He5c4sI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBAUjiJgmvMfu5Y3m4zbbYw3-yitA", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/4sX_He5c4sI/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDOtmT7EyczZOdQd2iZav98wuAUZw", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/4sX_He5c4sI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0YZTEu6MBCfJ03cjUpfESHYf_xA", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/4sX_He5c4sI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjX4w18fnlGGI27XLP8FVyVGqZ5Q", "height": 188, "width": 336}], "duration": 31916.0, "timestamp": null, "ie_key": "Youtube", "id": "4sX_He5c4sI", "_type": "url", "url": "https://www.youtube.com/watch?v=4sX_He5c4sI", "__x_forwarded_for_ip": null}, {"title": "WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF", "thumbnails": [{"url": "https://i.ytimg.com/vi/htM02KMNZnk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAYFUXkm0SmKoL55sOOvAO6e69iBA", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/htM02KMNZnk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC-FTajhYBTbD9xNY8ejrqQfZZ_Gg", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/htM02KMNZnk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYsI9Wl-GZWSbD3_wZOCB2vzfsxw", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/htM02KMNZnk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCfDl-nUKEW1l8ir289TC05iNv0g", "height": 188, "width": 336}], "duration": 31012.0, "timestamp": null, "ie_key": "Youtube", "id": "htM02KMNZnk", "_type": "url", "url": "https://www.youtube.com/watch?v=htM02KMNZnk", "__x_forwarded_for_ip": null}, {"title": "AI Engineer Melbourne 2026 Keynote Livestream | Day 2", "thumbnails": [{"url": "https://i.ytimg.com/vi/NmjGfdZLNIs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBLp6X-LZDHt3MZawZd1N_k_rVFRg", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/NmjGfdZLNIs/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBcwNARFhXYPH6ozKqzpQAJmVeVXA", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/NmjGfdZLNIs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxuWaxq_3z2per0hM56ZROnojroA", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/NmjGfdZLNIs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBivP5NyDSNsbu_mECoHWl7Evg2uA", "height": 188, "width": 336}], "duration": 3931.0, "timestamp": null, "ie_key": "Youtube", "id": "NmjGfdZLNIs", "_type": "url", "url": "https://www.youtube.com/watch?v=NmjGfdZLNIs", "__x_forwarded_for_ip": null}, {"title": "AI Engineer Melbourne 2026 Keynote Livestream | Day 1", "thumbnails": [{"url": "https://i.ytimg.com/vi/wjXowoQ7E8c/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCjdYoiF_hEY0qVxMkM-tG_kvNnDw", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/wjXowoQ7E8c/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCHNyEnkMnxJ2RliDLdQHVYfhjCKg", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/wjXowoQ7E8c/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaobWIvTEhZ7ErdRB8ZbiWQyvqKQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/wjXowoQ7E8c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqQK1rHqxTKLK_QZTjeSSKVG2N8Q", "height": 188, "width": 336}], "duration": 5187.0, "timestamp": null, "ie_key": "Youtube", "id": "wjXowoQ7E8c", "_type": "url", "url": "https://www.youtube.com/watch?v=wjXowoQ7E8c", "__x_forwarded_for_ip": null}, {"title": "AIE Singapore Day 2 ft. Google DeepMind, OpenClaw, Adaption, Arize, Cloudflare, Robot Company & more", "thumbnails": [{"url": "https://i.ytimg.com/vi/m12vGjfbNlo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBinfPG-W4rAoh2COTlyrNilUIj0g", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/m12vGjfbNlo/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAlT2bWz_cJhkJaRBs3O6RX59YtsQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/m12vGjfbNlo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDpgVXza-Cf2ux8wntH_MPUvEFzQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/m12vGjfbNlo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeaFMHFhW5lrHTXtivOGWPs8vW7w", "height": 188, "width": 336}], "duration": 34080.0, "timestamp": null, "ie_key": "Youtube", "id": "m12vGjfbNlo", "_type": "url", "url": "https://www.youtube.com/watch?v=m12vGjfbNlo", "__x_forwarded_for_ip": null}, {"title": "AIE Singapore Day 1 ft. Minister, NanoClaw, OpenAI, Google, Vercel, Cursor & more", "thumbnails": [{"url": "https://i.ytimg.com/vi/_xQnSNlBP_w/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBs8LEliamZK6AxO-eRiTZrL0o55Q", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/_xQnSNlBP_w/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDTBzO9GoaoAmjL78d1q5HJe_wsow", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/_xQnSNlBP_w/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu4kfXRiCxf-oYMTztePni49pwAQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/_xQnSNlBP_w/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5vssb35C8M1ceh0-LIQFN8KMgTQ", "height": 188, "width": 336}], "duration": 36552.0, "timestamp": null, "ie_key": "Youtube", "id": "_xQnSNlBP_w", "_type": "url", "url": "https://www.youtube.com/watch?v=_xQnSNlBP_w", "__x_forwarded_for_ip": null}, {"title": "AIE Miami Day 2 ft. Cerebras, OpenCode, Cursor, Arize AI, and more!", "thumbnails": [{"url": "https://i.ytimg.com/vi/DeM_u2Ik0sk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAdIlWZNE_gPpdUvPS4jnozlelufQ", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/DeM_u2Ik0sk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBMJwQLk6O7KZ308yoe11bsjOWy0A", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/DeM_u2Ik0sk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5cC78B9EfBnLa6n2dFKUc0LbUsg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/DeM_u2Ik0sk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDysBd48fLWelqdqQwslloRpOSDMw", "height": 188, "width": 336}], "duration": 28936.0, "timestamp": null, "ie_key": "Youtube", "id": "DeM_u2Ik0sk", "_type": "url", "url": "https://www.youtube.com/watch?v=DeM_u2Ik0sk", "__x_forwarded_for_ip": null}, {"title": "AIE Miami Keynote & Talks ft. OpenCode. Google Deepmind, OpenAI, and more!", "thumbnails": [{"url": "https://i.ytimg.com/vi/6IxSbMhT7v4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDNmM9y1it-cyCDPiV_YOyWgQBfng", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/6IxSbMhT7v4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBXSJaIePsx-Vwka4ams4THSlMn9Q", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/6IxSbMhT7v4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBb-DsvkNkGVHKeRcNlENwdrapZVQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/6IxSbMhT7v4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtA5YzL_SBu6VUDTLTJYSMp2niJw", "height": 188, "width": 336}], "duration": 28466.0, "timestamp": null, "ie_key": "Youtube", "id": "6IxSbMhT7v4", "_type": "url", "url": "https://www.youtube.com/watch?v=6IxSbMhT7v4", "__x_forwarded_for_ip": null}, {"title": "AIE Europe Keynotes & Coding Agents ft. Pi, Google Deepmind, Anthropic, Cursor, Linear, & more", "thumbnails": [{"url": "https://i.ytimg.com/vi/_zdroS0Hc74/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC51U3RsmVc4x0vTd6-yectM6owww", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/_zdroS0Hc74/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC1URaKzNqSnQmBsOEOPckojFzoUQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/_zdroS0Hc74/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuW_c9Yg06vFBA86RG8kb5zlt-Zw", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/_zdroS0Hc74/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJSGVXdOC2gfh27bPigdO4xa9GMg", "height": 188, "width": 336}], "duration": 32991.0, "timestamp": null, "ie_key": "Youtube", "id": "_zdroS0Hc74", "_type": "url", "url": "https://www.youtube.com/watch?v=_zdroS0Hc74", "__x_forwarded_for_ip": null}, {"title": "AIE Europe Keynotes & OpenClaw ft Deepmind, OpenAI, Vercel, @pragmaticengineer , @mattpocockuk", "thumbnails": [{"url": "https://i.ytimg.com/vi/O_IMsEg91g8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBdEkUuZB9yxhCrAwXfKHYNeBvK-A", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/O_IMsEg91g8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA5e1IzfMaxNPyEckhxPTvoI5g68g", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/O_IMsEg91g8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFtuSnO_0uSiT-SxdSpsnmIeOwIg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/O_IMsEg91g8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApAeITYrOlbiZIAAgUzCboJUpuEQ", "height": 188, "width": 336}], "duration": 33061.0, "timestamp": null, "ie_key": "Youtube", "id": "O_IMsEg91g8", "_type": "url", "url": "https://www.youtube.com/watch?v=O_IMsEg91g8", "__x_forwarded_for_ip": null}, {"title": "AIE CODE Day 2: ft Google Deepmind, Anthropic, Cursor, Netflix, Cline, OpenAI, Meta, and METR", "thumbnails": [{"url": "https://i.ytimg.com/vi/xmbSQz-PNMM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDLfKcM2QR32xPEkuWfdcRkSCYI5w", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/xmbSQz-PNMM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDk1ne7EeJQaYwoeX9ZLxQ1im4vkQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/xmbSQz-PNMM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDL9gmF1dUwroe3pg4Kmqo2cCgmGA", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/xmbSQz-PNMM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQsjNkcuSv6qkkn3gip4fHU7O3pQ", "height": 188, "width": 336}], "duration": 32226.0, "timestamp": null, "ie_key": "Youtube", "id": "xmbSQz-PNMM", "_type": "url", "url": "https://www.youtube.com/watch?v=xmbSQz-PNMM", "__x_forwarded_for_ip": null}, {"title": "AIE CODE 2025: AI Leadership ft Anthropic, OpenAI, McKinsey, Bloomberg, Google Deepmind, and Tenex", "thumbnails": [{"url": "https://i.ytimg.com/vi/cMSprbJ95jg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDy3HieF1O1IT3vS7rqWkuKqSU76Q", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/cMSprbJ95jg/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDTI_0-xRyAknRE48JYg4f9rIiM3g", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/cMSprbJ95jg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrmTR-ThzhJa7XHdVPDXGco8Bafw", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/cMSprbJ95jg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXPJxBCkrN0GxV1uOO9DF7NMQHog", "height": 188, "width": 336}], "duration": 29765.0, "timestamp": null, "ie_key": "Youtube", "id": "cMSprbJ95jg", "_type": "url", "url": "https://www.youtube.com/watch?v=cMSprbJ95jg", "__x_forwarded_for_ip": null}, {"title": "AI Engineer Paris 2025 (Day 2)", "thumbnails": [{"url": "https://i.ytimg.com/vi/wyUdpmj9-64/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLChP2GkrcYdwQMDcibxP_QHVcT6Ww", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/wyUdpmj9-64/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDcR60LDdWnfYLET0V-WhkDaDmI_g", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/wyUdpmj9-64/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwdNUDRgqR0ALqG3M1-SLm7bq7YQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/wyUdpmj9-64/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6Ol8QRKSFLVea9MppsbTeOC6r6w", "height": 188, "width": 336}], "duration": 30399.0, "timestamp": null, "ie_key": "Youtube", "id": "wyUdpmj9-64", "_type": "url", "url": "https://www.youtube.com/watch?v=wyUdpmj9-64", "__x_forwarded_for_ip": null}, {"title": "Opening Keynotes - AIE Paris 2025 (Day 1)", "thumbnails": [{"url": "https://i.ytimg.com/vi/d6dp_dwgpYQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCxLYrLOvC1iU69HuxDDVGvRruijQ", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/d6dp_dwgpYQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB91bE1txX27exrv1LZGMQRECWUwg", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/d6dp_dwgpYQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZI3uz8iCNuqZWtRytuLihaF0MeQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/d6dp_dwgpYQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2NupXqACwAyaU9m84hlKIx3gXYA", "height": 188, "width": 336}], "duration": 5126.0, "timestamp": null, "ie_key": "Youtube", "id": "d6dp_dwgpYQ", "_type": "url", "url": "https://www.youtube.com/watch?v=d6dp_dwgpYQ", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2025 - Day 2 Keynotes & SWE Agents track", "thumbnails": [{"url": "https://i.ytimg.com/vi/U-fMsbY-kHY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAba_4v_tTnOIfH9t80eVqOfcAjMA", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/U-fMsbY-kHY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA345W6f1ZGtkInfT15k9gJCYbgbQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/U-fMsbY-kHY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDAI79uIJt5mrqP-w1Npy67oOcxg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/U-fMsbY-kHY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtzyoyg9w7HEg_xewLAlUdrSErZg", "height": 188, "width": 336}], "duration": 32887.0, "timestamp": null, "ie_key": "Youtube", "id": "U-fMsbY-kHY", "_type": "url", "url": "https://www.youtube.com/watch?v=U-fMsbY-kHY", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2025 - Retrieval + Search", "thumbnails": [{"url": "https://i.ytimg.com/vi/a0TyTMDh1is/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCBj8WcdRgLuQeiY2GHlGm2txqSzA", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/a0TyTMDh1is/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCtraQHH7WOJ6cqpSa9z98uYpHU4w", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/a0TyTMDh1is/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwC2kwgqrXvq-JZOTQ6RP1cQjeZg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/a0TyTMDh1is/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDu9lb-MFaeYINc-TFI2zmjcDoBhw", "height": 188, "width": 336}], "duration": 14434.0, "timestamp": null, "ie_key": "Youtube", "id": "a0TyTMDh1is", "_type": "url", "url": "https://www.youtube.com/watch?v=a0TyTMDh1is", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World's Fair 2025 - Evals", "thumbnails": [{"url": "https://i.ytimg.com/vi/Vqsfn9rWXR8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAKS9hbwo6IdHwDjlWHzV2DpRVyZQ", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/Vqsfn9rWXR8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCQmn_eLJX3E--O2UrElx_xzA6Q1Q", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/Vqsfn9rWXR8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBbj_g_tdGOWgvfp5TNojJyIp4mWg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/Vqsfn9rWXR8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDhxYFMN0v7vmYlp1zVtGyBWu0vdg", "height": 188, "width": 336}], "duration": 14352.0, "timestamp": null, "ie_key": "Youtube", "id": "Vqsfn9rWXR8", "_type": "url", "url": "https://www.youtube.com/watch?v=Vqsfn9rWXR8", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2025 - Reasoning + RL", "thumbnails": [{"url": "https://i.ytimg.com/vi/-9E9_21tx04/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCLVB7iYfgo0ZFFLfZgcFFv6gxBCA", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/-9E9_21tx04/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA0tDO50ihEemX2PYUAaA9Y-DGPGA", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/-9E9_21tx04/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkEdVN-Bypk9ku31HFdvgKZrsXyg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/-9E9_21tx04/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvLDzh4y8TXJtdLiv5Y84h-gOAlQ", "height": 188, "width": 336}], "duration": 14098.0, "timestamp": null, "ie_key": "Youtube", "id": "-9E9_21tx04", "_type": "url", "url": "https://www.youtube.com/watch?v=-9E9_21tx04", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World's Fair 2025 - Day 1 Keynotes & MCP track ft. Anthropic MCP team", "thumbnails": [{"url": "https://i.ytimg.com/vi/z4zXicOAF28/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD6Natd7kApgHBlJ0POhk0q6s7vlg", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/z4zXicOAF28/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB52cGRN-oTqrZIk-sPi-P9Dh13UA", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/z4zXicOAF28/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBuInm9mXqDqehN2zZf9uy5tjq1Tg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/z4zXicOAF28/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAq9hS_9LRpMCx2Sp2-DVSF6Pvxcg", "height": 188, "width": 336}], "duration": 31071.0, "timestamp": null, "ie_key": "Youtube", "id": "z4zXicOAF28", "_type": "url", "url": "https://www.youtube.com/watch?v=z4zXicOAF28", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2025 \u2014 GraphRAG", "thumbnails": [{"url": "https://i.ytimg.com/vi/RR5le0K4Wtw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBOu8SJESOuoaBWk2EGFzby-T8d8Q", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/RR5le0K4Wtw/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBdPqnAKksPDbm8RvqR4mnaUMj4rQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/RR5le0K4Wtw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFaO1mHiPHyL_Ulvl-nU66HKfMGA", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/RR5le0K4Wtw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABx1_p_nVBHki87rd0urIuTkeCHQ", "height": 188, "width": 336}], "duration": 14885.0, "timestamp": null, "ie_key": "Youtube", "id": "RR5le0K4Wtw", "_type": "url", "url": "https://www.youtube.com/watch?v=RR5le0K4Wtw", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2025 - LLM Recommendation Systems (RecSys)", "thumbnails": [{"url": "https://i.ytimg.com/vi/3k4a0PemMu4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD4w5YLK-SOBVcVDq9V-smKa428pw", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/3k4a0PemMu4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDiNYs3A1ayDz-_XlwdB7GYZttHuQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/3k4a0PemMu4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuOP7xFDmhwfEoIl_aWQIL4kuMjQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/3k4a0PemMu4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAN5bb7ryD51DEqYciTCd2Eo8_9cA", "height": 188, "width": 336}], "duration": 14771.0, "timestamp": null, "ie_key": "Youtube", "id": "3k4a0PemMu4", "_type": "url", "url": "https://www.youtube.com/watch?v=3k4a0PemMu4", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2025 - Tiny Teams", "thumbnails": [{"url": "https://i.ytimg.com/vi/xhKgTkzSmuQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA2qUNP9lVg5FFFEr7SnpjAzdtuSw", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/xhKgTkzSmuQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA5xDPphW_bAKglNjeBHoPg2pjiYg", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/xhKgTkzSmuQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtA-djIfGAdOGvX7_B_ijNbHTQPA", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/xhKgTkzSmuQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTiwDnLIRQkV8L3ZAReQ-fTj0suQ", "height": 188, "width": 336}], "duration": 13045.0, "timestamp": null, "ie_key": "Youtube", "id": "xhKgTkzSmuQ", "_type": "url", "url": "https://www.youtube.com/watch?v=xhKgTkzSmuQ", "__x_forwarded_for_ip": null}, {"title": "AI Engineer Summit 2025: Agent Engineering (Day 2)", "thumbnails": [{"url": "https://i.ytimg.com/vi/D7BzTxVVMuw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCs5rPeU4PNUeIjPKuJbu-pNKRBBQ", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/D7BzTxVVMuw/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCkZx3R97mqAvqhAKk7JnXrBy8fQw", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/D7BzTxVVMuw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4JzQwC5AvfkKypWVtArSO-qVQTw", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/D7BzTxVVMuw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg8hd0mmTgTg-ZC0Oo20cqS1-PpA", "height": 188, "width": 336}], "duration": 30396.0, "timestamp": null, "ie_key": "Youtube", "id": "D7BzTxVVMuw", "_type": "url", "url": "https://www.youtube.com/watch?v=D7BzTxVVMuw", "__x_forwarded_for_ip": null}, {"title": "AI Engineer Summit 2025 - AI Leadership (Day 1)", "thumbnails": [{"url": "https://i.ytimg.com/vi/L89GzWEILkM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA3lc5aqwopf7DI3hK3BuWq6Yn1VQ", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/L89GzWEILkM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCIsyM4povNpApf4CNUCUHDp4CVjQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/L89GzWEILkM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyrIVB4max0Ghx4NG67zfERTG-Yg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/L89GzWEILkM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0e4AuchhflBpGQ_EieYiNqGUeUw", "height": 188, "width": 336}], "duration": 29016.0, "timestamp": null, "ie_key": "Youtube", "id": "L89GzWEILkM", "_type": "url", "url": "https://www.youtube.com/watch?v=L89GzWEILkM", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2024 - Keynotes & Multimodality track", "thumbnails": [{"url": "https://i.ytimg.com/vi/vaIiNZoXymg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBwPHOTMUXNY7wOudTl32sYluj25w", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/vaIiNZoXymg/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDMJIoojQnvbdatyvsP4V90ClrfqQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/vaIiNZoXymg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvgS_sCWhUryz0zn2qsrBHXmxPhw", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/vaIiNZoXymg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSTgh8OU1qMUatDSN94hr_eUlALQ", "height": 188, "width": 336}], "duration": 30854.0, "timestamp": null, "ie_key": "Youtube", "id": "vaIiNZoXymg", "_type": "url", "url": "https://www.youtube.com/watch?v=vaIiNZoXymg", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2024 \u2014 GPUs & Inference Track", "thumbnails": [{"url": "https://i.ytimg.com/vi/JVSKlEmUr0k/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBgIqWZYiuMyp4JQkH4FcC7sXZ3dg", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/JVSKlEmUr0k/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA5l1ThzFeSjGL7MwxvQ-jAs_XbcA", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/JVSKlEmUr0k/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUYj8ziqd-HaZHHy_5z4hpYKdNTA", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/JVSKlEmUr0k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5YFTa-97LvWRemCYe4UDtofHL0Q", "height": 188, "width": 336}], "duration": 14921.0, "timestamp": null, "ie_key": "Youtube", "id": "JVSKlEmUr0k", "_type": "url", "url": "https://www.youtube.com/watch?v=JVSKlEmUr0k", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2024 \u2014 Keynotes & CodeGen Track", "thumbnails": [{"url": "https://i.ytimg.com/vi/5zE2sMka620/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDMuzA8v2fGUObKdWJDq6ZH0kIUFQ", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/5zE2sMka620/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCRwrxouoxCEgp0wkltyAkHUnl-LA", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/5zE2sMka620/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCojUU_3-ujtz1TBAHgeqU7C4fJqQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/5zE2sMka620/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwzQkNbi2JeUgTPaNL3MJqwZbTmQ", "height": 188, "width": 336}], "duration": 31134.0, "timestamp": null, "ie_key": "Youtube", "id": "5zE2sMka620", "_type": "url", "url": "https://www.youtube.com/watch?v=5zE2sMka620", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2024 - Open Models track", "thumbnails": [{"url": "https://i.ytimg.com/vi/R0X7mPagRiE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMFxpt_GLOkJfS1BhAm4GrAEtApw", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/R0X7mPagRiE/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCYG-7NJEkTqVZMcSxtK-aZsueZgQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/R0X7mPagRiE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUOX9l2yFnzdc64vkFBXiCxQNHWQ", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/R0X7mPagRiE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6TwYQA8g6RhLQZKQptlfS2OUyNw", "height": 188, "width": 336}], "duration": 12895.0, "timestamp": null, "ie_key": "Youtube", "id": "R0X7mPagRiE", "_type": "url", "url": "https://www.youtube.com/watch?v=R0X7mPagRiE", "__x_forwarded_for_ip": null}, {"title": "AI Engineer World\u2019s Fair 2024 - Open Models track", "thumbnails": [{"url": "https://i.ytimg.com/vi/NOONz6SwKKg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBqiCpL_KDDKC3hJE6SoQpVVVq93g", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/NOONz6SwKKg/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD6WlEXeb0XX1ESl6ylgOYbjVy09A", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/NOONz6SwKKg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEcUPRtD_cTAldsXo52dzx85JUJg", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/NOONz6SwKKg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBfqo_s2CGlJum1yxCFIU4WjrAhJA", "height": 188, "width": 336}], "duration": 1046.0, "timestamp": null, "ie_key": "Youtube", "id": "NOONz6SwKKg", "_type": "url", "url": "https://www.youtube.com/watch?v=NOONz6SwKKg", "__x_forwarded_for_ip": null}, {"title": "AI Engineer Summit 2023 \u2014 DAY 2 Livestream", "thumbnails": [{"url": "https://i.ytimg.com/vi/qw4PrtyvJI0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAiD1VQowUK8OJ8RnXBia8SKxx04w", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/qw4PrtyvJI0/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBUQNbwN8usGmroD4hJ1PYmuMnxUQ", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/qw4PrtyvJI0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtV2EwrgkAHYUU7SQqfS4QTCJ08g", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/qw4PrtyvJI0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAMX6fK_7Zx1n1vY1-5jaJn9R8Z5g", "height": 188, "width": 336}], "duration": 27056.0, "timestamp": null, "ie_key": "Youtube", "id": "qw4PrtyvJI0", "_type": "url", "url": "https://www.youtube.com/watch?v=qw4PrtyvJI0", "__x_forwarded_for_ip": null}, {"title": "AI Engineer Summit 2023 \u2014 DAY 1 Livestream", "thumbnails": [{"url": "https://i.ytimg.com/vi/veShHxQYPzo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAPmLZM73WiBGEwjR7QnSU9bPRzrQ", "height": 94, "width": 168}, {"url": "https://i.ytimg.com/vi/veShHxQYPzo/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAgM5wRB1C0AJj7f7jHuLUOHdvDdw", "height": 110, "width": 196}, {"url": "https://i.ytimg.com/vi/veShHxQYPzo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2_-X3pIYaOXG9f8fp9A1GDrpahw", "height": 138, "width": 246}, {"url": "https://i.ytimg.com/vi/veShHxQYPzo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAR_EjCdj7SagpNKAAoPTDzGUlRwA", "height": 188, "width": 336}], "duration": 17400.0, "timestamp": null, "ie_key": "Youtube", "id": "veShHxQYPzo", "_type": "url", "url": "https://www.youtube.com/watch?v=veShHxQYPzo", "__x_forwarded_for_ip": null}], "extractor_key": "YoutubeTab", "extractor": "youtube:tab", "webpage_url": "https://www.youtube.com/@aiDotEngineer/streams", "original_url": "https://www.youtube.com/@aiDotEngineer/streams", "webpage_url_basename": "streams", "webpage_url_domain": "youtube.com", "release_year": null, "epoch": 1783062370, "__files_to_move": {}, "_version": {"version": "2026.06.09", "current_git_head": null, "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5", "repository": "yt-dlp/yt-dlp"}}
+{
+  "id": "UCLKPca3kwwd-B59HNr-_lvA-streams",
+  "channel": "AI Engineer",
+  "uploader_id": "@aiDotEngineer",
+  "source_url": "https://www.youtube.com/@aiDotEngineer/streams",
+  "entries": [
+    {
+      "title": "WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAsKp-tBQztFVaMq_fCD5BUBbkrpQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDhC8r0rn-nFLSZakI9iUZ7zii8LA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdgRd3FA2lrT2ev-2UJT0_Ql7VCw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I2cbIws9j10/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLhhhTJooboQFPwmEwhtaF5aJhlw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 33075.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "I2cbIws9j10",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=I2cbIws9j10",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=I2cbIws9j10",
+      "original_url": "https://www.youtube.com/watch?v=I2cbIws9j10",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 1,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 1,
+      "epoch": 1783553107,
+      "duration_string": "9:11:15",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/4sX_He5c4sI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBAUjiJgmvMfu5Y3m4zbbYw3-yitA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4sX_He5c4sI/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDOtmT7EyczZOdQd2iZav98wuAUZw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4sX_He5c4sI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0YZTEu6MBCfJ03cjUpfESHYf_xA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4sX_He5c4sI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjX4w18fnlGGI27XLP8FVyVGqZ5Q",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 31916.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "4sX_He5c4sI",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=4sX_He5c4sI",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=4sX_He5c4sI",
+      "original_url": "https://www.youtube.com/watch?v=4sX_He5c4sI",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 2,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 2,
+      "epoch": 1783553107,
+      "duration_string": "8:51:56",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/htM02KMNZnk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAYFUXkm0SmKoL55sOOvAO6e69iBA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/htM02KMNZnk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC-FTajhYBTbD9xNY8ejrqQfZZ_Gg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/htM02KMNZnk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYsI9Wl-GZWSbD3_wZOCB2vzfsxw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/htM02KMNZnk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCfDl-nUKEW1l8ir289TC05iNv0g",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 31012.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "htM02KMNZnk",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=htM02KMNZnk",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=htM02KMNZnk",
+      "original_url": "https://www.youtube.com/watch?v=htM02KMNZnk",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 3,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 3,
+      "epoch": 1783553107,
+      "duration_string": "8:36:52",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer Melbourne 2026 Keynote Livestream | Day 2",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/NmjGfdZLNIs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBLp6X-LZDHt3MZawZd1N_k_rVFRg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NmjGfdZLNIs/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBcwNARFhXYPH6ozKqzpQAJmVeVXA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NmjGfdZLNIs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxuWaxq_3z2per0hM56ZROnojroA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NmjGfdZLNIs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBivP5NyDSNsbu_mECoHWl7Evg2uA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 3931.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "NmjGfdZLNIs",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=NmjGfdZLNIs",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=NmjGfdZLNIs",
+      "original_url": "https://www.youtube.com/watch?v=NmjGfdZLNIs",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 4,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 4,
+      "epoch": 1783553107,
+      "duration_string": "1:05:31",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer Melbourne 2026 Keynote Livestream | Day 1",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/wjXowoQ7E8c/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCjdYoiF_hEY0qVxMkM-tG_kvNnDw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wjXowoQ7E8c/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCHNyEnkMnxJ2RliDLdQHVYfhjCKg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wjXowoQ7E8c/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaobWIvTEhZ7ErdRB8ZbiWQyvqKQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wjXowoQ7E8c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqQK1rHqxTKLK_QZTjeSSKVG2N8Q",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 5187.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "wjXowoQ7E8c",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=wjXowoQ7E8c",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=wjXowoQ7E8c",
+      "original_url": "https://www.youtube.com/watch?v=wjXowoQ7E8c",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 5,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 5,
+      "epoch": 1783553107,
+      "duration_string": "1:26:27",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AIE Singapore Day 2 ft. Google DeepMind, OpenClaw, Adaption, Arize, Cloudflare, Robot Company & more",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/m12vGjfbNlo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBinfPG-W4rAoh2COTlyrNilUIj0g",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/m12vGjfbNlo/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAlT2bWz_cJhkJaRBs3O6RX59YtsQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/m12vGjfbNlo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDpgVXza-Cf2ux8wntH_MPUvEFzQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/m12vGjfbNlo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeaFMHFhW5lrHTXtivOGWPs8vW7w",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 34080.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "m12vGjfbNlo",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=m12vGjfbNlo",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=m12vGjfbNlo",
+      "original_url": "https://www.youtube.com/watch?v=m12vGjfbNlo",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 6,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 6,
+      "epoch": 1783553107,
+      "duration_string": "9:28:00",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AIE Singapore Day 1 ft. Minister, NanoClaw, OpenAI, Google, Vercel, Cursor & more",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/_xQnSNlBP_w/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBs8LEliamZK6AxO-eRiTZrL0o55Q",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_xQnSNlBP_w/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDTBzO9GoaoAmjL78d1q5HJe_wsow",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_xQnSNlBP_w/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu4kfXRiCxf-oYMTztePni49pwAQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_xQnSNlBP_w/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5vssb35C8M1ceh0-LIQFN8KMgTQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 36552.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "_xQnSNlBP_w",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=_xQnSNlBP_w",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=_xQnSNlBP_w",
+      "original_url": "https://www.youtube.com/watch?v=_xQnSNlBP_w",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 7,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 7,
+      "epoch": 1783553107,
+      "duration_string": "10:09:12",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AIE Miami Day 2 ft. Cerebras, OpenCode, Cursor, Arize AI, and more!",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/DeM_u2Ik0sk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAdIlWZNE_gPpdUvPS4jnozlelufQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/DeM_u2Ik0sk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBMJwQLk6O7KZ308yoe11bsjOWy0A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/DeM_u2Ik0sk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5cC78B9EfBnLa6n2dFKUc0LbUsg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/DeM_u2Ik0sk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDysBd48fLWelqdqQwslloRpOSDMw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 28936.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "DeM_u2Ik0sk",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=DeM_u2Ik0sk",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=DeM_u2Ik0sk",
+      "original_url": "https://www.youtube.com/watch?v=DeM_u2Ik0sk",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 8,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 8,
+      "epoch": 1783553107,
+      "duration_string": "8:02:16",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AIE Miami Keynote & Talks ft. OpenCode. Google Deepmind, OpenAI, and more!",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/6IxSbMhT7v4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDNmM9y1it-cyCDPiV_YOyWgQBfng",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6IxSbMhT7v4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBXSJaIePsx-Vwka4ams4THSlMn9Q",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6IxSbMhT7v4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBb-DsvkNkGVHKeRcNlENwdrapZVQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6IxSbMhT7v4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtA5YzL_SBu6VUDTLTJYSMp2niJw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 28466.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "6IxSbMhT7v4",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=6IxSbMhT7v4",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=6IxSbMhT7v4",
+      "original_url": "https://www.youtube.com/watch?v=6IxSbMhT7v4",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 9,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 9,
+      "epoch": 1783553107,
+      "duration_string": "7:54:26",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AIE Europe Keynotes & Coding Agents ft. Pi, Google Deepmind, Anthropic, Cursor, Linear, & more",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/_zdroS0Hc74/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC51U3RsmVc4x0vTd6-yectM6owww",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_zdroS0Hc74/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC1URaKzNqSnQmBsOEOPckojFzoUQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_zdroS0Hc74/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuW_c9Yg06vFBA86RG8kb5zlt-Zw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_zdroS0Hc74/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJSGVXdOC2gfh27bPigdO4xa9GMg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 32991.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "_zdroS0Hc74",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=_zdroS0Hc74",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=_zdroS0Hc74",
+      "original_url": "https://www.youtube.com/watch?v=_zdroS0Hc74",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 10,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 10,
+      "epoch": 1783553107,
+      "duration_string": "9:09:51",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AIE Europe Keynotes & OpenClaw ft Deepmind, OpenAI, Vercel, @pragmaticengineer , @mattpocockuk",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/O_IMsEg91g8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBdEkUuZB9yxhCrAwXfKHYNeBvK-A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/O_IMsEg91g8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA5e1IzfMaxNPyEckhxPTvoI5g68g",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/O_IMsEg91g8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFtuSnO_0uSiT-SxdSpsnmIeOwIg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/O_IMsEg91g8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApAeITYrOlbiZIAAgUzCboJUpuEQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 33061.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "O_IMsEg91g8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=O_IMsEg91g8",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=O_IMsEg91g8",
+      "original_url": "https://www.youtube.com/watch?v=O_IMsEg91g8",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 11,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 11,
+      "epoch": 1783553107,
+      "duration_string": "9:11:01",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AIE CODE Day 2: ft Google Deepmind, Anthropic, Cursor, Netflix, Cline, OpenAI, Meta, and METR",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/xmbSQz-PNMM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDLfKcM2QR32xPEkuWfdcRkSCYI5w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xmbSQz-PNMM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDk1ne7EeJQaYwoeX9ZLxQ1im4vkQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xmbSQz-PNMM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDL9gmF1dUwroe3pg4Kmqo2cCgmGA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xmbSQz-PNMM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQsjNkcuSv6qkkn3gip4fHU7O3pQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 32226.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "xmbSQz-PNMM",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=xmbSQz-PNMM",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=xmbSQz-PNMM",
+      "original_url": "https://www.youtube.com/watch?v=xmbSQz-PNMM",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 12,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 12,
+      "epoch": 1783553107,
+      "duration_string": "8:57:06",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AIE CODE 2025: AI Leadership ft Anthropic, OpenAI, McKinsey, Bloomberg, Google Deepmind, and Tenex",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/cMSprbJ95jg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDy3HieF1O1IT3vS7rqWkuKqSU76Q",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cMSprbJ95jg/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDTI_0-xRyAknRE48JYg4f9rIiM3g",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cMSprbJ95jg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrmTR-ThzhJa7XHdVPDXGco8Bafw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cMSprbJ95jg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXPJxBCkrN0GxV1uOO9DF7NMQHog",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 29765.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "cMSprbJ95jg",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=cMSprbJ95jg",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=cMSprbJ95jg",
+      "original_url": "https://www.youtube.com/watch?v=cMSprbJ95jg",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 13,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 13,
+      "epoch": 1783553107,
+      "duration_string": "8:16:05",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer Paris 2025 (Day 2)",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/wyUdpmj9-64/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLChP2GkrcYdwQMDcibxP_QHVcT6Ww",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wyUdpmj9-64/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDcR60LDdWnfYLET0V-WhkDaDmI_g",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wyUdpmj9-64/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwdNUDRgqR0ALqG3M1-SLm7bq7YQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wyUdpmj9-64/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6Ol8QRKSFLVea9MppsbTeOC6r6w",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 30399.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "wyUdpmj9-64",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=wyUdpmj9-64",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=wyUdpmj9-64",
+      "original_url": "https://www.youtube.com/watch?v=wyUdpmj9-64",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 14,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 14,
+      "epoch": 1783553107,
+      "duration_string": "8:26:39",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "Opening Keynotes - AIE Paris 2025 (Day 1)",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/d6dp_dwgpYQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCxLYrLOvC1iU69HuxDDVGvRruijQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/d6dp_dwgpYQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB91bE1txX27exrv1LZGMQRECWUwg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/d6dp_dwgpYQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZI3uz8iCNuqZWtRytuLihaF0MeQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/d6dp_dwgpYQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2NupXqACwAyaU9m84hlKIx3gXYA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 5126.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "d6dp_dwgpYQ",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=d6dp_dwgpYQ",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=d6dp_dwgpYQ",
+      "original_url": "https://www.youtube.com/watch?v=d6dp_dwgpYQ",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 15,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 15,
+      "epoch": 1783553107,
+      "duration_string": "1:25:26",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2025 - Day 2 Keynotes & SWE Agents track",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/U-fMsbY-kHY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAba_4v_tTnOIfH9t80eVqOfcAjMA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/U-fMsbY-kHY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA345W6f1ZGtkInfT15k9gJCYbgbQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/U-fMsbY-kHY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDAI79uIJt5mrqP-w1Npy67oOcxg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/U-fMsbY-kHY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtzyoyg9w7HEg_xewLAlUdrSErZg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 32887.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "U-fMsbY-kHY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=U-fMsbY-kHY",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=U-fMsbY-kHY",
+      "original_url": "https://www.youtube.com/watch?v=U-fMsbY-kHY",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 16,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 16,
+      "epoch": 1783553107,
+      "duration_string": "9:08:07",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2025 - Retrieval + Search",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/a0TyTMDh1is/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCBj8WcdRgLuQeiY2GHlGm2txqSzA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a0TyTMDh1is/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCtraQHH7WOJ6cqpSa9z98uYpHU4w",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a0TyTMDh1is/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwC2kwgqrXvq-JZOTQ6RP1cQjeZg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/a0TyTMDh1is/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDu9lb-MFaeYINc-TFI2zmjcDoBhw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 14434.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "a0TyTMDh1is",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=a0TyTMDh1is",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=a0TyTMDh1is",
+      "original_url": "https://www.youtube.com/watch?v=a0TyTMDh1is",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 17,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 17,
+      "epoch": 1783553107,
+      "duration_string": "4:00:34",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World's Fair 2025 - Evals",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/Vqsfn9rWXR8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAKS9hbwo6IdHwDjlWHzV2DpRVyZQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Vqsfn9rWXR8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCQmn_eLJX3E--O2UrElx_xzA6Q1Q",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Vqsfn9rWXR8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBbj_g_tdGOWgvfp5TNojJyIp4mWg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Vqsfn9rWXR8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDhxYFMN0v7vmYlp1zVtGyBWu0vdg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 14352.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "Vqsfn9rWXR8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=Vqsfn9rWXR8",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=Vqsfn9rWXR8",
+      "original_url": "https://www.youtube.com/watch?v=Vqsfn9rWXR8",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 18,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 18,
+      "epoch": 1783553107,
+      "duration_string": "3:59:12",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2025 - Reasoning + RL",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/-9E9_21tx04/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCLVB7iYfgo0ZFFLfZgcFFv6gxBCA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-9E9_21tx04/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA0tDO50ihEemX2PYUAaA9Y-DGPGA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-9E9_21tx04/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkEdVN-Bypk9ku31HFdvgKZrsXyg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-9E9_21tx04/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvLDzh4y8TXJtdLiv5Y84h-gOAlQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 14098.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "-9E9_21tx04",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=-9E9_21tx04",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=-9E9_21tx04",
+      "original_url": "https://www.youtube.com/watch?v=-9E9_21tx04",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 19,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 19,
+      "epoch": 1783553107,
+      "duration_string": "3:54:58",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World's Fair 2025 - Day 1 Keynotes & MCP track ft. Anthropic MCP team",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/z4zXicOAF28/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD6Natd7kApgHBlJ0POhk0q6s7vlg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/z4zXicOAF28/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB52cGRN-oTqrZIk-sPi-P9Dh13UA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/z4zXicOAF28/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBuInm9mXqDqehN2zZf9uy5tjq1Tg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/z4zXicOAF28/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAq9hS_9LRpMCx2Sp2-DVSF6Pvxcg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 31071.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "z4zXicOAF28",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=z4zXicOAF28",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=z4zXicOAF28",
+      "original_url": "https://www.youtube.com/watch?v=z4zXicOAF28",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 20,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 20,
+      "epoch": 1783553107,
+      "duration_string": "8:37:51",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2025 — GraphRAG",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/RR5le0K4Wtw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBOu8SJESOuoaBWk2EGFzby-T8d8Q",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/RR5le0K4Wtw/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBdPqnAKksPDbm8RvqR4mnaUMj4rQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/RR5le0K4Wtw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFaO1mHiPHyL_Ulvl-nU66HKfMGA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/RR5le0K4Wtw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABx1_p_nVBHki87rd0urIuTkeCHQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 14885.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "RR5le0K4Wtw",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=RR5le0K4Wtw",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=RR5le0K4Wtw",
+      "original_url": "https://www.youtube.com/watch?v=RR5le0K4Wtw",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 21,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 21,
+      "epoch": 1783553107,
+      "duration_string": "4:08:05",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2025 - LLM Recommendation Systems (RecSys)",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/3k4a0PemMu4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD4w5YLK-SOBVcVDq9V-smKa428pw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3k4a0PemMu4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDiNYs3A1ayDz-_XlwdB7GYZttHuQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3k4a0PemMu4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuOP7xFDmhwfEoIl_aWQIL4kuMjQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3k4a0PemMu4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAN5bb7ryD51DEqYciTCd2Eo8_9cA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 14771.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "3k4a0PemMu4",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=3k4a0PemMu4",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=3k4a0PemMu4",
+      "original_url": "https://www.youtube.com/watch?v=3k4a0PemMu4",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 22,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 22,
+      "epoch": 1783553107,
+      "duration_string": "4:06:11",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2025 - Tiny Teams",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/xhKgTkzSmuQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA2qUNP9lVg5FFFEr7SnpjAzdtuSw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xhKgTkzSmuQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA5xDPphW_bAKglNjeBHoPg2pjiYg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xhKgTkzSmuQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtA-djIfGAdOGvX7_B_ijNbHTQPA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xhKgTkzSmuQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTiwDnLIRQkV8L3ZAReQ-fTj0suQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 13045.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "xhKgTkzSmuQ",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=xhKgTkzSmuQ",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=xhKgTkzSmuQ",
+      "original_url": "https://www.youtube.com/watch?v=xhKgTkzSmuQ",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 23,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 23,
+      "epoch": 1783553107,
+      "duration_string": "3:37:25",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer Summit 2025: Agent Engineering (Day 2)",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/D7BzTxVVMuw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCs5rPeU4PNUeIjPKuJbu-pNKRBBQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/D7BzTxVVMuw/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCkZx3R97mqAvqhAKk7JnXrBy8fQw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/D7BzTxVVMuw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4JzQwC5AvfkKypWVtArSO-qVQTw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/D7BzTxVVMuw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg8hd0mmTgTg-ZC0Oo20cqS1-PpA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 30396.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "D7BzTxVVMuw",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=D7BzTxVVMuw",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=D7BzTxVVMuw",
+      "original_url": "https://www.youtube.com/watch?v=D7BzTxVVMuw",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 24,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 24,
+      "epoch": 1783553107,
+      "duration_string": "8:26:36",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer Summit 2025 - AI Leadership (Day 1)",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/L89GzWEILkM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA3lc5aqwopf7DI3hK3BuWq6Yn1VQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/L89GzWEILkM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCIsyM4povNpApf4CNUCUHDp4CVjQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/L89GzWEILkM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyrIVB4max0Ghx4NG67zfERTG-Yg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/L89GzWEILkM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0e4AuchhflBpGQ_EieYiNqGUeUw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 29016.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "L89GzWEILkM",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=L89GzWEILkM",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=L89GzWEILkM",
+      "original_url": "https://www.youtube.com/watch?v=L89GzWEILkM",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 25,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 25,
+      "epoch": 1783553107,
+      "duration_string": "8:03:36",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2024 - Keynotes & Multimodality track",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/vaIiNZoXymg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBwPHOTMUXNY7wOudTl32sYluj25w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vaIiNZoXymg/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDMJIoojQnvbdatyvsP4V90ClrfqQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vaIiNZoXymg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvgS_sCWhUryz0zn2qsrBHXmxPhw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vaIiNZoXymg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSTgh8OU1qMUatDSN94hr_eUlALQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 30854.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "vaIiNZoXymg",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=vaIiNZoXymg",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=vaIiNZoXymg",
+      "original_url": "https://www.youtube.com/watch?v=vaIiNZoXymg",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 26,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 26,
+      "epoch": 1783553107,
+      "duration_string": "8:34:14",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2024 — GPUs & Inference Track",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/JVSKlEmUr0k/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBgIqWZYiuMyp4JQkH4FcC7sXZ3dg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JVSKlEmUr0k/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA5l1ThzFeSjGL7MwxvQ-jAs_XbcA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JVSKlEmUr0k/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUYj8ziqd-HaZHHy_5z4hpYKdNTA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JVSKlEmUr0k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5YFTa-97LvWRemCYe4UDtofHL0Q",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 14921.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "JVSKlEmUr0k",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=JVSKlEmUr0k",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=JVSKlEmUr0k",
+      "original_url": "https://www.youtube.com/watch?v=JVSKlEmUr0k",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 27,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 27,
+      "epoch": 1783553107,
+      "duration_string": "4:08:41",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2024 — Keynotes & CodeGen Track",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/5zE2sMka620/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDMuzA8v2fGUObKdWJDq6ZH0kIUFQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5zE2sMka620/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCRwrxouoxCEgp0wkltyAkHUnl-LA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5zE2sMka620/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCojUU_3-ujtz1TBAHgeqU7C4fJqQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5zE2sMka620/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwzQkNbi2JeUgTPaNL3MJqwZbTmQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 31134.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "5zE2sMka620",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=5zE2sMka620",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=5zE2sMka620",
+      "original_url": "https://www.youtube.com/watch?v=5zE2sMka620",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 28,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 28,
+      "epoch": 1783553107,
+      "duration_string": "8:38:54",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2024 - Open Models track",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/R0X7mPagRiE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMFxpt_GLOkJfS1BhAm4GrAEtApw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R0X7mPagRiE/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCYG-7NJEkTqVZMcSxtK-aZsueZgQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R0X7mPagRiE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUOX9l2yFnzdc64vkFBXiCxQNHWQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R0X7mPagRiE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6TwYQA8g6RhLQZKQptlfS2OUyNw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 12895.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "R0X7mPagRiE",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=R0X7mPagRiE",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=R0X7mPagRiE",
+      "original_url": "https://www.youtube.com/watch?v=R0X7mPagRiE",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 29,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 29,
+      "epoch": 1783553107,
+      "duration_string": "3:34:55",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer World’s Fair 2024 - Open Models track",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/NOONz6SwKKg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBqiCpL_KDDKC3hJE6SoQpVVVq93g",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NOONz6SwKKg/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD6WlEXeb0XX1ESl6ylgOYbjVy09A",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NOONz6SwKKg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEcUPRtD_cTAldsXo52dzx85JUJg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NOONz6SwKKg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBfqo_s2CGlJum1yxCFIU4WjrAhJA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1046.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "NOONz6SwKKg",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=NOONz6SwKKg",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=NOONz6SwKKg",
+      "original_url": "https://www.youtube.com/watch?v=NOONz6SwKKg",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 30,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 30,
+      "epoch": 1783553107,
+      "duration_string": "17:26",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer Summit 2023 — DAY 2 Livestream",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/qw4PrtyvJI0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAiD1VQowUK8OJ8RnXBia8SKxx04w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/qw4PrtyvJI0/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBUQNbwN8usGmroD4hJ1PYmuMnxUQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/qw4PrtyvJI0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtV2EwrgkAHYUU7SQqfS4QTCJ08g",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/qw4PrtyvJI0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAMX6fK_7Zx1n1vY1-5jaJn9R8Z5g",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 27056.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "qw4PrtyvJI0",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=qw4PrtyvJI0",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=qw4PrtyvJI0",
+      "original_url": "https://www.youtube.com/watch?v=qw4PrtyvJI0",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 31,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 31,
+      "epoch": 1783553107,
+      "duration_string": "7:30:56",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    },
+    {
+      "title": "AI Engineer Summit 2023 — DAY 1 Livestream",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/veShHxQYPzo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAPmLZM73WiBGEwjR7QnSU9bPRzrQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/veShHxQYPzo/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAgM5wRB1C0AJj7f7jHuLUOHdvDdw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/veShHxQYPzo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2_-X3pIYaOXG9f8fp9A1GDrpahw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/veShHxQYPzo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAR_EjCdj7SagpNKAAoPTDzGUlRwA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 17400.0,
+      "timestamp": null,
+      "ie_key": "Youtube",
+      "id": "veShHxQYPzo",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=veShHxQYPzo",
+      "__x_forwarded_for_ip": null,
+      "webpage_url": "https://www.youtube.com/watch?v=veShHxQYPzo",
+      "original_url": "https://www.youtube.com/watch?v=veShHxQYPzo",
+      "webpage_url_basename": "watch",
+      "webpage_url_domain": "youtube.com",
+      "extractor": "youtube",
+      "extractor_key": "Youtube",
+      "playlist_count": 32,
+      "playlist": "AI Engineer - Live",
+      "playlist_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_title": "AI Engineer - Live",
+      "playlist_uploader": "AI Engineer",
+      "playlist_uploader_id": "@aiDotEngineer",
+      "playlist_channel": "AI Engineer",
+      "playlist_channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "playlist_webpage_url": "https://www.youtube.com/@aiDotEngineer/streams",
+      "n_entries": 32,
+      "playlist_index": 32,
+      "__last_playlist_index": 32,
+      "playlist_autonumber": 32,
+      "epoch": 1783553107,
+      "duration_string": "4:50:00",
+      "release_year": null,
+      "_version": {
+        "version": "2026.06.09",
+        "current_git_head": null,
+        "release_git_head": "821bef0f00178916d60dbc86bc0bcb8cc3bae8d5",
+        "repository": "yt-dlp/yt-dlp"
+      }
+    }
+  ]
+}

@@ -1,29 +1,28 @@
 ---
-title: Agentic Search
-category: topics
-sourceLabels:
-  - Slide/video-derived supporting context
-last_auto_summarized: '2026-07-06T19:56:49.686Z'
+title: "Agentic Search"
+category: "topics"
+sourceLabels: ["Slide/video-derived supporting context"]
 ---
+
 # Agentic Search
 
 ## Synopsis
-Agentic search is retrieval run as an active investigation rather than a single lookup. In the World's Fair material, it shows up as the move away from "vector search once and stuff it into context" toward systems that plan queries, combine retrieval modes, inspect source quality, follow missing evidence, and keep a decision trace of what was searched and why.
+Agentic search is retrieval where an AI system actively plans, queries, follows leads, compares sources, and decides when it has enough evidence. It goes beyond one-shot RAG by treating search as an iterative reasoning and tool-use process.
 
 ## Origin And Context
-The connected sessions frame agentic search as a convergence of RAG, hybrid retrieval, semantic code search, SQL, UI telemetry, long-context caching, knowledge graphs, web data, and agent evaluation. Turbopuffer's RAG talk argues that retrieval is broader than vector search; Ogilvy's hybrid RAG session adds SQL RRF and UI telemetry; Tesco and Turbopuffer connect the pattern to local code indexes and semantic code retrieval; Neo4j emphasizes decision traces over document dumps; Bright Data focuses on whether an agent actually searched the web in a verifiable way.
+It combines web search, enterprise search, information retrieval, RAG, semantic search, BM25, vector databases, knowledge graphs, and research-agent workflows. Agents add query reformulation, source triage, multi-hop exploration, and evidence synthesis.
 
 ## Why It Matters
-The linked talks repeatedly point to the same failure mode: agents sound confident while retrieving the wrong evidence, ignoring user signals, overloading the context window, or claiming to have searched without a durable search trail. Agentic search matters here because it turns retrieval into an observable workflow: query choices, source triage, reranking, citations, gaps, conflicts, and stopping criteria can be evaluated instead of hidden inside one prompt.
+Many tasks fail because the agent either retrieves the wrong context or stops too early. Agentic search improves coverage, reduces hallucination, and helps systems expose the evidence behind an answer.
 
 ## How To Use It
-Treat search as a loop with state. Start from the user question and available signals, retrieve across the right surfaces, rerank by task relevance, inspect primary or authoritative sources, record claims with citations, and branch when evidence conflicts. Use BM25 or exact search for identifiers and rare terms, vector search for semantic recall, SQL for structured facts, knowledge graphs for relationships, UI telemetry for product context, and cache or long-context strategies only when they improve evidence quality rather than merely adding bulk.
+Define the question, retrieve broadly, rerank by task relevance, inspect primary sources, track claims and citations, and loop when evidence conflicts or gaps remain. Use hybrid retrieval and structured indexes where pure vector search misses exact terms or relationships.
 
 ## Where It Is Useful
-Agentic search is useful anywhere an answer depends on evidence scattered across multiple systems: research agents comparing sources, enterprise assistants over internal knowledge bases, coding agents searching repositories, compliance workflows correlating documents, product agents turning user signals into pull requests, and support systems that need to explain which logs, tickets, docs, or web pages informed the response.
+It is useful in research, support knowledge bases, compliance review, code search, enterprise assistants, competitive intelligence, and document-heavy operations.
 
 ## When To Use It
-Use agentic search when the question is underspecified, evidence is distributed, freshness matters, exact citations are required, or the agent must reconcile conflicting sources. A direct database query, deterministic API call, or simple keyword lookup is still better when the answer lives in one known structured source and the task does not require exploration.
+Use agentic search when answers require multiple sources, fresh evidence, exact facts, or cross-document reasoning. Simple lookup or direct database queries are better for narrow deterministic questions.
 
 ## Active Use Cases
 - Research agents that cite and compare sources.
@@ -32,8 +31,7 @@ Use agentic search when the question is underspecified, evidence is distributed,
 - Enterprise knowledge agents with source-grounded answers.
 
 ## Related Slide Decks
-- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
-- [[youtube-jVjt-2g8NMY-slides]] — A Genius With Amnesia - Victor Savkin, Nx (19 extracted slide frames)
+- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] — Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers; [[jeff-vestal|Jeff Vestal]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Track 7; official schedule)

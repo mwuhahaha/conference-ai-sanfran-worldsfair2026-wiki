@@ -1,0 +1,8 @@
+(problems) One conversation has to do everything
+Meaning:
+the context window becomes
+— the database,
+— the file system,
+— the memory,
+— the reasoning space a
+yf |

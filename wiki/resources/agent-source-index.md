@@ -46,8 +46,8 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - People: 553 rendered people pages; official speakers indexed: 552.
 - Companies: 341 rendered company pages.
 - Topics: 12 synthesis pages across repeated conference themes.
-- Resources: 191 pages for source maps, YouTube evidence, livestreams, and processing audits.
-- Slides: 383 slide pages; standard decks: 180; reconstructed decks: 107; dense decks: 93.
+- Resources: 192 pages for source maps, YouTube evidence, livestreams, and processing audits.
+- Slides: 385 slide pages; standard decks: 181; reconstructed decks: 107; dense decks: 94.
 - Quotes: 59 selected quote pages tied back to source videos and topics.
 - Tools: 62 tool/protocol/entity pages generated from the conference evidence layer.
 - Events: 5 day/event overview pages.

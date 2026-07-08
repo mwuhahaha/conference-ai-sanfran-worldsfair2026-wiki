@@ -1,0 +1,13 @@
+eee CLIs: The debuggable backbone of direct execution.
+World's Fair
+(you see exactly
+what happened)
+Reproducible
+r Microsoft (copy-paste at
+2AM)
+(pipe into the
+next command)
+rt Ue The Heuristic: If an engineer on your team would open a terminal
+to do this, the agent should use a CLI too.
+‘ vh
+a Engineering the future of Al

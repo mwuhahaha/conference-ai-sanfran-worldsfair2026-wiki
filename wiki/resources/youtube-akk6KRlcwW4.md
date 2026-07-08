@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "akk6KRlcwW4"
-last_enriched: "2026-07-06T19:48:34.305272+00:00"
+last_enriched: "2026-07-08T23:50:09.348978+00:00"
 ---
 # OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/akk6KRlc
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[autoresearch|AutoResearch]], [[agent-memory|Agent Memory]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `processor`, `supply`, `tutorial`, `live`, `purposes`, `matrices`, `disk`, `software`
+- Transcript keywords: `fast`, `keyboard`, `clearly`, `energy`, `memory`, `experience`, `contents`, `responses`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=akk6KRlcwW4)

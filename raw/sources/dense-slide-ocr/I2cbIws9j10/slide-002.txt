@@ -1,0 +1,13 @@
+An End-to-End RLPipeline
+HealthAgentforAnomaly
+DetectionandAutonomous
+Self-HealingofCloudData
+Pipelines
+NOTE:GENERALIZEDPUBLICREFERENCEARCHITECTURE
+The
+1.0bservelogs,schema,anddata-qualityconditions
+2.Diagnosethelikelyfailurefamily
+Solution
+3.Estimateoperationalrisk
+4.Selectaboundedremediationaction
+5.Validatewhethertheactionrestoredahealthystate

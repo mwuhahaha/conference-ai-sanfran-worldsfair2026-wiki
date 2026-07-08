@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "Iwe_RY-fYgI"
-last_enriched: "2026-07-06T19:48:33.967731+00:00"
+last_enriched: "2026-07-08T23:50:08.962919+00:00"
 ---
 # AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/Iwe_RY-f
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[autoresearch|AutoResearch]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `activity`, `wonderful`, `data`, `vendors`, `terms`, `historic`, `alerts`, `appears`
+- Transcript keywords: `requirements`, `foundation`, `integration`, `fundamental`, `manual`, `inconsistencies`, `together`, `historic`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=Iwe_RY-fYgI)

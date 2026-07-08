@@ -1,0 +1,21 @@
+THE PROBLEM
+YourcontextwindowhasahiddenRAMbill
+42GB
+Every tokenyouragentreads orwritesgetscachedin
+memory:theKV cache.It isthe model's short-term
+ghts(2708)
+memory, and it grows with every step.
+21GB
+Pushthecontextfarenoughandthecachegetsbigger
+11GB
+thanthemodelitself.
+5GB
+OnaMacitisworse:model,cache andyourvectorindexall
+1GB
+fightoveronesharedpoolofRAM.
+4K
+Ilustrative -26B-classmodel - context lengthtokens)At long context the cache
+16K
+64K
+128K
+is tens of GB.

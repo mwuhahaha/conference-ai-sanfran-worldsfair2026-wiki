@@ -20,6 +20,11 @@
     "path": "wiki/topics/agentic-search.md"
   },
   {
+    "id": "agentic-web",
+    "title": "Agentic Web",
+    "path": "wiki/topics/agentic-web.md"
+  },
+  {
     "id": "ai-sandboxes",
     "title": "AI Sandboxes",
     "path": "wiki/topics/ai-sandboxes.md"

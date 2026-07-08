@@ -1,0 +1,10 @@
+SimplifiedLoop
+whilesession_has_work:
+state=reconstruct_from_log(session_id)
+response =model.next(state)
+append(response)
+ifresponse.requests_tool:
+result=run_tool(response.tool_call)
+append(result)
+Youcanreconstructthestatefromthe
+log,youcanpassthatstatetothemodel,
