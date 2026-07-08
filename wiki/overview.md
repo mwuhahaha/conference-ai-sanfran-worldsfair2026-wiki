@@ -12,7 +12,7 @@ The result is a schedule-first conference intelligence map. Official session and
 ## Quick Access
 - [[index]] — full wiki index and section guide.
 - [[agent-source-index]] — markdown source map for agents, source layers, raw files, scripts, and confidence rules.
-- [[agentic-web/index|Agentic Web]] — schedule-specific category for agent-facing web surfaces, browser automation, agent-readable catalogs, and HTML/web substrates.
+- [[agentic-web|Agentic Web]] — topic page for agent-facing web surfaces, browser automation, agent-readable catalogs, and HTML/web substrates.
 - [[talk-video-transcript-map]] — official talks mapped to related YouTube videos and transcript status.
 - [[slide-library]] — extracted full-frame slide decks from related videos.
 - [[reconstructed-slide-library]] — cleaner slide-region crops produced by the advanced slide scanner.
@@ -27,7 +27,7 @@ The result is a schedule-first conference intelligence map. Official session and
 - 340 company pages generated from speaker affiliations.
 - 117 resource pages for official data, source boundaries, YouTube evidence, and processing audits.
 - 310 slide pages, including full-stage frames, reconstructed crops, and dense slide views.
-- 11 topic pages seeded from repeated World’s Fair themes.
+- 12 topic pages seeded from repeated World’s Fair themes.
 - 5 event/day pages for the conference flow.
 
 ## Evidence Layers

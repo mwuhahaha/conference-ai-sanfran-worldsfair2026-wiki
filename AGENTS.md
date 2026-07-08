@@ -50,4 +50,4 @@ This clean directory excludes heavy regeneration caches such as downloaded video
 
 For company-page enrichment, use `raw/sources/company-profiles.json` for curated public company-site/profile context and `scripts/enrich_company_pages.py` for conservative updates that avoid overwriting already curated pages.
 
-`wiki/agentic-web/` is a generated schedule-specific category for talks about agent-facing web surfaces, browser/web automation, computer-use web navigation, agent-readable catalogs, and HTML/web substrates for agents.
+`wiki/topics/agentic-web.md` is a generated schedule-specific topic page for talks about agent-facing web surfaces, browser/web automation, computer-use web navigation, agent-readable catalogs, and HTML/web substrates for agents. It should remain a topic, not a top-level standalone category.
