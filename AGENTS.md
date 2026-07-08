@@ -49,3 +49,5 @@ It should preserve the official schedule/media evidence layer while adding Miami
 This clean directory excludes heavy regeneration caches such as downloaded videos and temporary frame samples. Use source artifacts under `raw/sources/`, wiki assets, and scripts first. If full media regeneration is needed, use the original non-clean project directory.
 
 For company-page enrichment, use `raw/sources/company-profiles.json` for curated public company-site/profile context and `scripts/enrich_company_pages.py` for conservative updates that avoid overwriting already curated pages.
+
+`wiki/agentic-web/` is a generated schedule-specific category for talks about agent-facing web surfaces, browser/web automation, computer-use web navigation, agent-readable catalogs, and HTML/web substrates for agents.

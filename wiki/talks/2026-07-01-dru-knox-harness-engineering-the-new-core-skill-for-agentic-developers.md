@@ -7,8 +7,10 @@ track: "Expo Stage 1 NE"
 room: "Expo Stage 1 NE"
 speakers: ["Dru Knox"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # Harness Engineering: The New Core Skill for Agentic Developers
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 1 NE
 - Speaker(s): Dru Knox
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Harness engineering is emerging as a new core competency for agentic engineers. Your job isn't

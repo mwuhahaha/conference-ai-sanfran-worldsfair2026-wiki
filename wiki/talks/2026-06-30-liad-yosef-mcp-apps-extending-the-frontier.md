@@ -7,8 +7,10 @@ track: "Context Engineering"
 room: "Track 8"
 speakers: ["Liad Yosef", "Ido Salomon"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Context Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # MCP Apps - Extending the frontier
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Context Engineering · Track 8
 - Speaker(s): Liad Yosef, Ido Salomon
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Context Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI agents are quickly becoming the new browsers, changing how users consume content and get work

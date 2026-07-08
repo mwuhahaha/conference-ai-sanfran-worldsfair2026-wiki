@@ -7,8 +7,10 @@ track: "AI Architects: AI Factories"
 room: "Leadership 2"
 speakers: ["Patrick Debois"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: AI Factories"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "confirmed"]
 ---
-
 # Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: AI Factories · Leadership 2
 - Speaker(s): Patrick Debois
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: AI Factories
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every company wants to know how others are actually scaling AI coding. But it's hard to get past the

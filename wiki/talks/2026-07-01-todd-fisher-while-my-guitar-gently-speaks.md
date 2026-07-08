@@ -7,8 +7,10 @@ track: "Generative Media"
 room: "Track 1"
 speakers: ["Todd Fisher"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Generative Media"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 ---
-
 # While my guitar gently speaks
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Generative Media · Track 1
 - Speaker(s): Todd Fisher
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Generative Media
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Do you ever wonder What the next evolution of live performances will look like? I do all the time.

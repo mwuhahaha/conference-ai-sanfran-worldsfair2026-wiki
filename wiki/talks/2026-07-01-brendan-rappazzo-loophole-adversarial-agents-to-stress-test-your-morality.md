@@ -7,8 +7,10 @@ track: "Harness Engineering"
 room: "Main Stage"
 speakers: ["Brendan Rappazzo"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Harness Engineering"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 ---
-
 # Loophole - Adversarial Agents To Stress Test Your Morality
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Harness Engineering · Main Stage
 - Speaker(s): Brendan Rappazzo
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Harness Engineering
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Most natural language specifications have holes their authors didn't notice - and writing more rules

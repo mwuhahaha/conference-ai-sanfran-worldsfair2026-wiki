@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Salil Subbakrishna"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # Modernize CI/CD using agent-assisted workflows that reduce manual debugging
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Salil Subbakrishna
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 AI agents are reshaping CI/CD. See how workflows become adaptive—understanding failures, fixing

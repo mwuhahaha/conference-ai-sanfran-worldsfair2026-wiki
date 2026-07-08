@@ -7,8 +7,10 @@ track: "Security"
 room: "Track 5"
 speakers: ["Manoj Nair"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Security"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Security · Track 5
 - Speaker(s): Manoj Nair
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Security
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

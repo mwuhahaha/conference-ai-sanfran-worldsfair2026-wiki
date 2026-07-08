@@ -7,8 +7,10 @@ track: "Expo Stage 4 SE"
 room: "Expo Stage 4 SE"
 speakers: []
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # AI agents don't read your policy docs. They hit your APIs.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 4 SE
 - Speaker(s): TBA
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every organisation has a policy for what AI should and shouldn't do. But in the era of autonomous

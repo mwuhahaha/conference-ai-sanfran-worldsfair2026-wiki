@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 6"
 speakers: ["Ignacio Martinez"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Workshops Day 1", "Track 6", "sponsor", "confirmed"]
 ---
-
 # Total Recall: Agent Memory and Harness Engineering
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 6
 - Speaker(s): Ignacio Martinez
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 6
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 In this hands-on workshop you'll build a working autonomous agent from the harness up, in a

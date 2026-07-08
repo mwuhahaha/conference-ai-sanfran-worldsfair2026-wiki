@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T07:14:43.170Z'
+scheduleTrack: "Search & Retrieval"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 ---
 # The Search Engine for the Agentic Web
 
@@ -26,6 +29,12 @@ Will Bryk's World's Fair session treats search as a core runtime dependency for 
 The related AI Engineer YouTube video and slide pages should be treated as supporting context rather than a confirmed recording of this exact session. They still sharpen the likely technical center of gravity. The linked Exa material is titled around Neural RAG and shows agent-oriented search examples, including Python/agent code, console/debug output, GitHub-agent references, and slide-derived terms such as `agent.py`, `github_agent.py`, `search`, `output`, `debug`, `console`, `terminal`, and `information`. That evidence points to search as a programmable component inside agent loops: something an agent calls, inspects, debugs, and chains into downstream reasoning, rather than a static list of blue links. The reconstructed and dense slide decks add a useful caution layer too: some details are OCR- or slide-derived, so they are best used to explain the adjacent Exa/Neural RAG context while keeping the official schedule claims separate from inferred synthesis.
 
 Taken together, the page frames agentic search as an evaluation and systems-design problem. The scheduled talk argues that today's search benchmarks can miss what matters when software, not a person, consumes the results: latency budgets across repeated calls, precision under semantic intent, result structure suitable for tool use, and reliability across short retrieval and longer research workflows. The connected transcript map reinforces that no exact normalized title match was found for a session recording, so the strongest current summary is evidence-layered: official schedule for the World's Fair claim, Will Bryk/Exa pages for speaker and company context, and the related Neural RAG slides/video for concrete examples of how Exa presents search inside AI-agent workflows.
+
+## Schedule Labels
+- Track: Search & Retrieval
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every search API claiming to be "built for AI" is actually Google with a wrapper. That's a problem,

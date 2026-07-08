@@ -7,8 +7,10 @@ track: "Track 8"
 room: "Track 8"
 speakers: ["Yohan Raju"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track 8"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Track 8", "Track 8", "workshop", "confirmed"]
 ---
-
 # Building AI Agents with Real-Time Web Data
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track 8 · Track 8
 - Speaker(s): Yohan Raju
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Track 8
+- Room: Track 8
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Your AI agent is only as good as the data it can access — and static training data isn't enough

@@ -7,8 +7,10 @@ track: "AI in Healthcare"
 room: "Track 7"
 speakers: ["Ayush Bhardwaj"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Healthcare"
+scheduleRoom: "Track 7"
+scheduleLabels: ["AI in Healthcare", "Track 7", "session", "confirmed"]
 ---
-
 # Trading Desks to Clinical Trials: Parallels in Applied Vertical AI
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Healthcare · Track 7
 - Speaker(s): Ayush Bhardwaj
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Healthcare
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Wall Street to Wet Labs: The Shared DNA of Vertical AI. On the surface, finance and pharma couldn't

@@ -7,8 +7,10 @@ track: "AI-Native Enterprises"
 room: "Leadership 1"
 speakers: ["Varun Pant"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI-Native Enterprises"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"]
 ---
-
 # Your Code Has Bugs. Lean4 Has Proofs. A Practical Guide to Formal Verification for Engineers
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI-Native Enterprises · Leadership 1
 - Speaker(s): Varun Pant
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI-Native Enterprises
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI is generating more of your code than ever — how do you prove it doesn't ship bugs? Lean is a

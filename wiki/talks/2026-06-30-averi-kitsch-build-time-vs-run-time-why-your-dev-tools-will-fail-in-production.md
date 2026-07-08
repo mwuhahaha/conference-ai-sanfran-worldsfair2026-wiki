@@ -7,8 +7,10 @@ track: "Context Engineering"
 room: "Track 8"
 speakers: ["Averi Kitsch", "Prerna Kakkar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Context Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Context Engineering · Track 8
 - Speaker(s): Averi Kitsch, Prerna Kakkar
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Context Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 A dangerous pattern is evolving in the ecosystem: developers are deploying "Build-Time" tools into

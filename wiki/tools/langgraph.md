@@ -1,0 +1,38 @@
+---
+title: "LangGraph"
+category: "tools"
+aliases: ["LangGraph"]
+sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
+scheduleTracks: ["Workshops Day 1", "AI in Finance"]
+scheduleRooms: ["Track 6", "Expo Stage 1 NE", "Track 3", "Expo Stage 3 SW"]
+---
+
+# LangGraph
+
+## Why It Belongs
+LangGraph appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
+
+This page records confirmed mentions and keeps them separate from broader inferred relevance.
+
+## Confirmed Evidence
+
+### Official Schedule
+- [[2026-06-29-ignacio-martinez-total-recall-agent-memory-and-harness-engineering]] — Total Recall: Agent Memory and Harness Engineering (Workshops Day 1 / Track 6)
+- [[2026-06-29-vlad-luzin-every-agent-everywhere-all-at-once]] — Every Agent, Everywhere, All at Once (track TBD / Expo Stage 1 NE)
+- [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you]] — Your Finance Agent's Bottleneck Is You (AI in Finance / Track 3)
+- [[2026-07-01-melanie-warrick-the-human-is-an-async-api]] — The Human Is an Async API (track TBD / Expo Stage 3 SW)
+
+### Public YouTube Metadata
+- [YouTube kTnfJszFxCg](https://www.youtube.com/watch?v=kTnfJszFxCg) — 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph
+- [YouTube sn79oS4MZFI](https://www.youtube.com/watch?v=sn79oS4MZFI) — Case Study + Deep Dive: Telemedicine Support Agents with LangGraph/MCP - Dan Mason
+
+### Slide/OCR Pages
+- [[youtube-B9h9ovW5H9U-slides]]
+- [[youtube-Lc8zRh9muoY-slides]]
+
+### Transcript Files
+- `raw/sources/youtube-transcripts/4uFVSLgD2Q4.txt`
+- `raw/sources/youtube-transcripts/B9h9ovW5H9U.txt`
+
+## Confidence
+High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

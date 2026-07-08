@@ -7,8 +7,10 @@ track: "Claws & Personal Agents"
 room: "Track 1"
 speakers: ["Karan Vaidya"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Claws & Personal Agents"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 ---
-
 # From coding to Knowledge work agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Claws & Personal Agents · Track 1
 - Speaker(s): Karan Vaidya
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Claws & Personal Agents
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 MCP, skills, Cli - so much noise - what’s the best way for agents to communicate

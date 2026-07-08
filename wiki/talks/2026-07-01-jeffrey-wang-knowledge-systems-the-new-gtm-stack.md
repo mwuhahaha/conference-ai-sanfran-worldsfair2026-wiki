@@ -7,8 +7,10 @@ track: "AI in GTM"
 room: "Track 6"
 speakers: ["Jeffrey Wang"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in GTM"
+scheduleRoom: "Track 6"
+scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 ---
-
 # Knowledge Systems: The New GTM Stack
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in GTM · Track 6
 - Speaker(s): Jeffrey Wang
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in GTM
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Exa built one of the world's largest knowledge graphs for AI agents. Then they realized it could

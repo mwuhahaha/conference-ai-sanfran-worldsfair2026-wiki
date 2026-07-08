@@ -7,8 +7,10 @@ track: "Expo Stage 3 SW"
 room: "Expo Stage 3 SW"
 speakers: ["Elizabeth Fuentes Leone"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # The Infinite Context Window Is a Myth: Context Engineering for AI Agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 3 SW
 - Speaker(s): Elizabeth Fuentes Leone
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Large context windows have become a popular answer to the growing complexity of AI agents. When

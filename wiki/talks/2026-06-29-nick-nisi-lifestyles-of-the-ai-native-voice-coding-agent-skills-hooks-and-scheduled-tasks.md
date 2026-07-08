@@ -14,6 +14,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T19:01:18.863Z'
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Workshops Day 1", "Track 7", "workshop", "confirmed"]
 ---
 # Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks
 
@@ -22,6 +25,12 @@ last_auto_summarized: '2026-07-06T19:01:18.863Z'
 - Track/room: Workshops Day 1 · Track 7
 - Speaker(s): Nick Nisi, Zack Proser
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 7
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Most engineers are bolting AI onto a workflow that was designed for a pre-AI world. The result is a

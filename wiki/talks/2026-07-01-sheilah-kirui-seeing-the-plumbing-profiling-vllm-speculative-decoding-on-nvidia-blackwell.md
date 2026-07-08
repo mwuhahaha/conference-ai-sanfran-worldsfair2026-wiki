@@ -7,8 +7,10 @@ track: "Expo Stage 2 NW"
 room: "Expo Stage 2 NW"
 speakers: ["Sheilah Kirui"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 ---
-
 # Seeing the Plumbing: Profiling vLLM Speculative Decoding on NVIDIA Blackwell
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 2 NW
 - Speaker(s): Sheilah Kirui
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Speculative decoding promises dramatic LLM speedups by using a tiny draft model to guess tokens

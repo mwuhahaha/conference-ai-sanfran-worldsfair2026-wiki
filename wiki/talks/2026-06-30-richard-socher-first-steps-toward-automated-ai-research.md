@@ -7,8 +7,10 @@ track: "Autoresearch"
 room: "Main Stage"
 speakers: ["Richard Socher"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Autoresearch"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 ---
-
 # First Steps Toward Automated AI Research
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Autoresearch · Main Stage
 - Speaker(s): Richard Socher
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Autoresearch
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

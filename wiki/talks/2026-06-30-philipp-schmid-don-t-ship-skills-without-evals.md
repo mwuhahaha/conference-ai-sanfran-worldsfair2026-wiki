@@ -7,8 +7,10 @@ track: "Evals"
 room: "Track 5"
 speakers: ["Philipp Schmid"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Evals"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Don't Ship Skills Without Evals
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Evals · Track 5
 - Speaker(s): Philipp Schmid
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Evals
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 There are thousands agent skills. Almost none of them are tested. They get vibe-checked with two

@@ -7,8 +7,10 @@ track: "Expo Stage 3 SW"
 room: "Expo Stage 3 SW"
 speakers: ["Gabriel Martinez"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # Agents Don't Have Coworkers, They Have Hostages
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 3 SW
 - Speaker(s): Gabriel Martinez
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Modern coding workflows are rife with vibe slop. As organizations scale, proper roles and governance

@@ -7,8 +7,10 @@ track: "Track 2"
 room: "Track 2"
 speakers: ["Yoni Michael", "Brandon Callender"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track 2"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Track 2", "Track 2", "sponsor", "confirmed"]
 ---
-
 # The Data Context Layer: Why Data Engineering Agents Need More Than Code and Databases
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track 2 · Track 2
 - Speaker(s): Yoni Michael, Brandon Callender
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track 2
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Modern AI agents typically understand either code or databases. Code-focused agents reason over

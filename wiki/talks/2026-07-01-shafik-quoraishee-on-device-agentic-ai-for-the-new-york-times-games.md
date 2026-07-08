@@ -7,8 +7,10 @@ track: "Graphs"
 room: "Track 5"
 speakers: ["Shafik Quoraishee", "Joanne Song"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Graphs"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 ---
-
 # On-Device Agentic AI for the New York Times Games
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Graphs · Track 5
 - Speaker(s): Shafik Quoraishee, Joanne Song
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Graphs
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Traditional mobile game architectures rely on static state machines and fixed behavioral trees.

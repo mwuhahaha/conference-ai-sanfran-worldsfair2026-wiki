@@ -7,8 +7,10 @@ track: "Computer Use"
 room: "Track 7"
 speakers: ["Corey Gallon"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Computer Use"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
 ---
-
 # The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Computer Use · Track 7
 - Speaker(s): Corey Gallon
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Computer Use
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Anything you can do in a browser, your agent can do too. Not by tiptoeing through an MCP server one

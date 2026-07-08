@@ -7,8 +7,10 @@ track: "Claws & Personal Agents"
 room: "Track 1"
 speakers: ["Lance Martin"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Claws & Personal Agents"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 ---
-
 # Claude for long-horizon tasks
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Claws & Personal Agents · Track 1
 - Speaker(s): Lance Martin
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Claws & Personal Agents
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Claude is capable of long horizon tasks. In this talk, we'll share lessons learned about building

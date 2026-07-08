@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 9"
 speakers: ["Lotte Verheyden", "Annabell Schäfer"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Workshops Day 1", "Track 9", "sponsor", "confirmed"]
 ---
-
 # Continuously improving agents with Langfuse
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 9
 - Speaker(s): Lotte Verheyden, Annabell Schäfer
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 9
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Join us for a hands-on Langfuse workshop where we'll show you how to observe, debug, and improve

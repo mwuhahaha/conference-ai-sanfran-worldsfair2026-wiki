@@ -7,8 +7,10 @@ track: "Expo Stage 2 NW"
 room: "Expo Stage 2 NW"
 speakers: ["Dan Adler"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 ---
-
 # The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 2 NW
 - Speaker(s): Dan Adler
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agentic coding tools have transformed individual developer workflows but owning a large codebase

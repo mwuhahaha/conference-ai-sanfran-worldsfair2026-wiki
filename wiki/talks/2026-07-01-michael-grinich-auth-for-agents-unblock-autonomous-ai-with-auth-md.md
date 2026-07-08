@@ -7,8 +7,10 @@ track: "Agentic Engineering"
 room: "Main Stage"
 speakers: ["Michael Grinich"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Engineering"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Agentic Engineering", "Main Stage", "session", "confirmed"]
 ---
-
 # Auth for Agents: Unblock Autonomous AI with auth.md
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Engineering · Main Stage
 - Speaker(s): Michael Grinich
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Engineering
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI agents are ready to act on users' behalf, but legacy auth flows were built for humans, not

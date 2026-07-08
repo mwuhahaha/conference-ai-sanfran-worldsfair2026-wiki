@@ -7,8 +7,10 @@ track: "Context Engineering"
 room: "Track 8"
 speakers: ["Prukalpa Sankar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Context Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # WTF Is the Context Layer? The Missing Infrastructure for Production Agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Context Engineering · Track 8
 - Speaker(s): Prukalpa Sankar
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Context Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 In the last two years, models have gotten exponentially smarter. Two years ago they couldn't pass

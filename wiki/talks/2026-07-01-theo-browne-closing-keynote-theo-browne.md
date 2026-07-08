@@ -7,8 +7,10 @@ track: "Main Stage"
 room: "Main Stage"
 speakers: ["Theo Browne"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Main Stage"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Main Stage", "Main Stage", "keynote", "confirmed"]
 ---
-
 # Closing Keynote — Theo Browne
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Main Stage · Main Stage
 - Speaker(s): Theo Browne
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Main Stage
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

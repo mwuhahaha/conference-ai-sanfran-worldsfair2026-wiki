@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T15:29:58.469Z'
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 ---
 # Warp: Building Self-Improving Agent Software Factories
 
@@ -22,6 +25,12 @@ Suraj Gupta's Expo Stage 3 SW session frames Warp's work as part of the World's 
 - Track/room: track TBD · Expo Stage 3 SW
 - Speaker(s): Suraj Gupta
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 We are in the era of Software Factories, where the entire SDLC is being automated by agents. We will

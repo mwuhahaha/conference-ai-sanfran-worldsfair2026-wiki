@@ -7,8 +7,10 @@ track: "Expo Stage 3 SW"
 room: "Expo Stage 3 SW"
 speakers: []
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # what we learned by analyzing 1M AI generated PRs
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 3 SW
 - Speaker(s): TBA
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Background coding agents are quickly moving from novelty to real-world software development

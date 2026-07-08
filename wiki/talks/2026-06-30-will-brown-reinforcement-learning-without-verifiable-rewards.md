@@ -7,8 +7,10 @@ track: "Posttraining & Midtraining"
 room: "Track 9"
 speakers: ["Will Brown"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Posttraining & Midtraining"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"]
 ---
-
 # Reinforcement Learning without Verifiable Rewards
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Posttraining & Midtraining · Track 9
 - Speaker(s): Will Brown
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Posttraining & Midtraining
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Verifiable rewards are the gold standard for RL training, but real-world agent tasks frequently lack

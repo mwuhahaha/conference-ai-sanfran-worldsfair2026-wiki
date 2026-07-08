@@ -7,8 +7,10 @@ track: "Context Engineering"
 room: "Expo Stage 4 SE"
 speakers: ["Anant Srivastava"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Context Engineering"
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Context Engineering", "Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Context Engineering · Expo Stage 4 SE
 - Speaker(s): Anant Srivastava
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Context Engineering
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 The interesting engineering in production AI isn't in the model. Your knowledge lives in files,

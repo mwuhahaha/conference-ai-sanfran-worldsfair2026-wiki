@@ -7,8 +7,10 @@ track: "Agentic Commerce"
 room: "Track 2"
 speakers: ["Jan Curn"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Commerce"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 ---
-
 # x402 isn’t good (yet)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Commerce · Track 2
 - Speaker(s): Jan Curn
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Agentic Commerce
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 While everyone understands that agents will get more done with a budget, no one knows which protocol

@@ -7,8 +7,10 @@ track: "AI Architects: Tokenmaxxing"
 room: "Leadership 2"
 speakers: ["Ankit Jain"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Tokenmaxxing"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "confirmed"]
 ---
-
 # How to Kill the Code Review
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Tokenmaxxing · Leadership 2
 - Speaker(s): Ankit Jain
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Tokenmaxxing
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Human-written code died in 2025. Code review is dying in 2026. Teams with high AI adoption are

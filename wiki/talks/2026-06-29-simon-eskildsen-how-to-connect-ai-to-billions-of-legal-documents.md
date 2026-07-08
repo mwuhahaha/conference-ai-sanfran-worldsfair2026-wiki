@@ -7,8 +7,10 @@ track: "Search & Retrieval"
 room: "Track 3"
 speakers: ["Simon Eskildsen", "Jacob Lauritzen"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Search & Retrieval"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 ---
-
 # How to Connect AI to Billions of Legal Documents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Search & Retrieval · Track 3
 - Speaker(s): Simon Eskildsen, Jacob Lauritzen
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Search & Retrieval
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Legora’s foundational engineering challenge is connecting frontier LLMs to billions of legal

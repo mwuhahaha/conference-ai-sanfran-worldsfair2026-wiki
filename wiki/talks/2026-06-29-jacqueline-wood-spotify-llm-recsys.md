@@ -7,8 +7,10 @@ track: "LLM Recsys"
 room: "Track 7"
 speakers: ["Jacqueline Wood", "Yves Raimond"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "LLM Recsys"
+scheduleRoom: "Track 7"
+scheduleLabels: ["LLM Recsys", "Track 7", "session", "confirmed"]
 ---
-
 # Spotify LLM Recsys
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: LLM Recsys · Track 7
 - Speaker(s): Jacqueline Wood, Yves Raimond
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: LLM Recsys
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

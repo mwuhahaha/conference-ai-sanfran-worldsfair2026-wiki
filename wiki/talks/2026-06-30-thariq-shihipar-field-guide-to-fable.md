@@ -7,8 +7,10 @@ track: "Autoresearch"
 room: "Main Stage"
 speakers: ["Thariq Shihipar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Autoresearch"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Autoresearch", "Main Stage", "keynote", "confirmed"]
 ---
-
 # Field Guide to Fable
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Autoresearch · Main Stage
 - Speaker(s): Thariq Shihipar
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Autoresearch
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 https://x.com/trq212/status/2027463795355095314

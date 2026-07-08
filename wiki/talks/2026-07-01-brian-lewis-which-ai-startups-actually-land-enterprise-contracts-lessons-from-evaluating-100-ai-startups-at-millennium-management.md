@@ -7,8 +7,10 @@ track: "AI-Native Enterprises"
 room: "Leadership 1"
 speakers: ["Brian Lewis"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI-Native Enterprises"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"]
 ---
-
 # Which AI startups actually land enterprise contracts? Lessons from evaluating 100+ AI startups at Millennium Management
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI-Native Enterprises · Leadership 1
 - Speaker(s): Brian Lewis
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI-Native Enterprises
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Selling your AI startup/product into a large enterprise is hard. I often sit on the buyer's side of

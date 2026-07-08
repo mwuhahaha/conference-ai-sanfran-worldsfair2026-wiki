@@ -7,8 +7,10 @@ track: "Data Quality"
 room: "Track 9"
 speakers: ["Mahesh Sathiamoorthy"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Data Quality"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 ---
-
 # Data and Environment Curation for Post-training LLMs
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Data Quality · Track 9
 - Speaker(s): Mahesh Sathiamoorthy
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Data Quality
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Hold for Bespoke Labs. Company works on data curation, eval tooling, and reinforcement-learning

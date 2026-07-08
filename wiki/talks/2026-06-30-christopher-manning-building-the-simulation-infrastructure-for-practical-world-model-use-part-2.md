@@ -7,8 +7,10 @@ track: "Robotics & World Models"
 room: "Track 2"
 speakers: ["Christopher Manning"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Robotics & World Models"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Robotics & World Models", "Track 2", "sponsor", "confirmed"]
 ---
-
 # Building the simulation infrastructure for practical world model use (Part 2)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Robotics & World Models · Track 2
 - Speaker(s): Christopher Manning
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Robotics & World Models
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 What is the most important capability for world model applications and the pursuit of embodied AI?

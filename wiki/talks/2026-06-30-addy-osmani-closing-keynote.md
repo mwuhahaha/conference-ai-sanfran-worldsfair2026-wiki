@@ -7,8 +7,10 @@ track: "Autoresearch"
 room: "Main Stage"
 speakers: ["Addy Osmani"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Autoresearch"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Autoresearch", "Main Stage", "keynote", "confirmed"]
 ---
-
 # Closing Keynote
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Autoresearch · Main Stage
 - Speaker(s): Addy Osmani
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Autoresearch
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 TBD

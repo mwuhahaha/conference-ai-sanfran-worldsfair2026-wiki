@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Tina Manghnani"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # Design multi-agent systems that actually work
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Tina Manghnani
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Real-world agent systems don’t run in isolation. Learn how to design and coordinate multi-agent

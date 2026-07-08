@@ -7,8 +7,10 @@ track: "Expo Stage 3 SW"
 room: "Expo Stage 3 SW"
 speakers: ["Jesse Hall"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # Latency Is a Budget. Humanlike Is the Goal.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 3 SW
 - Speaker(s): Jesse Hall
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Most agents do their work in the background. They write code, automate tasks, and run research. But

@@ -7,8 +7,10 @@ track: "AI in Healthcare"
 room: "Track 7"
 speakers: ["Jared Joselowitz"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Healthcare"
+scheduleRoom: "Track 7"
+scheduleLabels: ["AI in Healthcare", "Track 7", "session", "confirmed"]
 ---
-
 # Shipping AI to a Million Patients Without an A/B Test
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Healthcare · Track 7
 - Speaker(s): Jared Joselowitz
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Healthcare
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 You can't A/B test on patients. You can't unsend a phone call. The model card won't save you at the

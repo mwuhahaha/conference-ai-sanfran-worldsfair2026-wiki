@@ -7,8 +7,10 @@ track: "Security"
 room: "Track 5"
 speakers: ["Ethan Sutin"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Security"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Secure Cloud Compute
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Security · Track 5
 - Speaker(s): Ethan Sutin
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Security
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

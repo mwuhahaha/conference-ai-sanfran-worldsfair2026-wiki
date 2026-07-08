@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 4"
 speakers: ["Shane Wolf", "Andrei Bocan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 1", "Track 4", "sponsor", "confirmed"]
 ---
-
 # The best SDLC is the one you build yourself: Why orchestration changes everything
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 4
 - Speaker(s): Shane Wolf, Andrei Bocan
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 4
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Industry research shows AI productivity gains have plateaued at 10–15% — because today's tools only

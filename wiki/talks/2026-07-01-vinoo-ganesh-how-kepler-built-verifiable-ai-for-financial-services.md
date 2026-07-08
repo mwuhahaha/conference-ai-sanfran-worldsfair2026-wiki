@@ -7,8 +7,10 @@ track: "AI in Finance"
 room: "Track 3"
 speakers: ["Vinoo Ganesh"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Finance"
+scheduleRoom: "Track 3"
+scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 ---
-
 # How Kepler Built Verifiable AI for Financial Services
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Finance · Track 3
 - Speaker(s): Vinoo Ganesh
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Finance
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Financial answers have to be auditable. Vinoo Ganesh (CEO, Kepler) shows how Kepler Finance pairs

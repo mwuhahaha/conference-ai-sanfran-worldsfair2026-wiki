@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 8"
 speakers: ["Zain Hasan", "Yubo Wang", "Qingyang Wu", "Jue Wang"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Workshops Day 1", "Track 8", "sponsor", "confirmed"]
 ---
-
 # Open-Source Inference Engineering for the Agentic Era
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 8
 - Speaker(s): Zain Hasan, Yubo Wang, Qingyang Wu, Jue Wang
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 8
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Agentic coding workloads demand long contexts, multi-turn conversations, and throughput at a scale

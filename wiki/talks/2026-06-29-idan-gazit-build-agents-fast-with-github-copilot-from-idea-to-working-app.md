@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Idan Gazit"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # Build agents fast with GitHub Copilot (from idea to working app)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Idan Gazit
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 See how developers go from prompt to a working agent using GitHub Copilot and real workflows. We'll

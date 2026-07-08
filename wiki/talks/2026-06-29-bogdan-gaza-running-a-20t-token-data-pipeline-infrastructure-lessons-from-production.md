@@ -7,8 +7,10 @@ track: "Expo Stage 3 SW"
 room: "Expo Stage 3 SW"
 speakers: ["Bogdan Gaza"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 3 SW
 - Speaker(s): Bogdan Gaza
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 The problem. Curation algorithms tend to get the spotlight: model-based quality filtering,

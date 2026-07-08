@@ -7,8 +7,10 @@ track: "Expo Stage 1 NE"
 room: "Expo Stage 1 NE"
 speakers: ["Michael Liendo"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # Trust, But Verify: Human-in-the-Loop for Agents That Actually Matter
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 1 NE
 - Speaker(s): Michael Liendo
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 "In this talk we'll walk through the full spectrum of human-in-the-loop patterns, from lightweight

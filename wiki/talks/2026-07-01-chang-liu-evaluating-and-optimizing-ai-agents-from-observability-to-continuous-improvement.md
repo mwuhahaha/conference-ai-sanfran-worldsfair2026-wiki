@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Chang Liu"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # Evaluating and optimizing AI agents: from observability to continuous improvement
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Chang Liu
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 AI agents don’t behave like traditional systems. Learn how to evaluate outputs, trace behavior, and

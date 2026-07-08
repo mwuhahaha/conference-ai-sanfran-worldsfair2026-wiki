@@ -7,8 +7,10 @@ track: "Agentic Engineering"
 room: "Track 8"
 speakers: ["Matt Dailey"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Engineering · Track 8
 - Speaker(s): Matt Dailey
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Learn more about Ref: https://ref.tools/ AI made writing code nearly free, and on most teams, that's

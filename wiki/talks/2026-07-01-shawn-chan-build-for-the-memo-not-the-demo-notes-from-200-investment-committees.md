@@ -7,8 +7,10 @@ track: "AI in Finance"
 room: "Track 3"
 speakers: ["Shawn Chan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Finance"
+scheduleRoom: "Track 3"
+scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 ---
-
 # Build for the Memo, Not the Demo — Notes from 200 Investment Committees
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Finance · Track 3
 - Speaker(s): Shawn Chan
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Finance
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 By the end of this talk you will have a buyer-side specification for AI investment agents, the exact

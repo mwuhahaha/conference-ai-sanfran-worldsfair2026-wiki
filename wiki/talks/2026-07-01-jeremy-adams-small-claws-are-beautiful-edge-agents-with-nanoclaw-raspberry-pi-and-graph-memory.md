@@ -7,8 +7,10 @@ track: "Expo Stage 3"
 room: "Expo Stage 3 SW"
 speakers: ["Jeremy Adams"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 3"
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 3 · Expo Stage 3 SW
 - Speaker(s): Jeremy Adams
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 3
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

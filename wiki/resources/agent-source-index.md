@@ -33,6 +33,7 @@ This page is the markdown source map for agents working on the AI Engineer World
 - Official livestream resource: [[worldsfair-2026-livestreams]]
 - Public company/profile enrichment data: `raw/sources/company-profiles.json`
   - Curated company profiles: 1
+- Agentic Web category registry: `wiki/agentic-web/registry.json`
 
 ## Transcript Sources
 - Speaker-matched YouTube transcripts: `raw/sources/youtube-transcripts/<video-id>.txt`
@@ -74,6 +75,8 @@ This page is the markdown source map for agents working on the AI Engineer World
 - `python3 scripts/rapidocr_slide_pass.py` and `python3 scripts/reread_slide_ocr.py` - improve OCR quality.
 - `python3 scripts/generate_tool_inventory.py` - generate tool pages and registry.
 - `python3 scripts/generate_question_layer.py` - generate question pages and registry.
+- `python3 scripts/generate_agentic_web_category.py` - refresh the Agentic Web category from official schedule titles.
+- `python3 scripts/update_talk_schedule_labels.py` - upsert official track, room, type, and status labels on talk pages.
 - `python3 scripts/generate_agent_source_index.py` - refresh this page.
 - `npm run build` - export static HTML to `dist/` using `scripts/export_static_site.py`.
 

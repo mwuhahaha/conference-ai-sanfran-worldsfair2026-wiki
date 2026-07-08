@@ -7,8 +7,10 @@ track: "Expo Stage 3"
 room: "Expo Stage 1 NE"
 speakers: ["Thor 雷神 Schaeff"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 3"
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 3", "Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # Can Your Agent Hear You Now?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 3 · Expo Stage 1 NE
 - Speaker(s): Thor 雷神 Schaeff
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 3
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

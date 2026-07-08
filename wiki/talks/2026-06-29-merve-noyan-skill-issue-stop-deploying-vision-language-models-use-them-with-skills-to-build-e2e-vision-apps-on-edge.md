@@ -7,8 +7,10 @@ track: "Vision & OCR"
 room: "Track 2"
 speakers: ["Merve Noyan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Vision & OCR"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 ---
-
 # Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Vision & OCR · Track 2
 - Speaker(s): Merve Noyan
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Vision & OCR
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 With the boom of vision language models barrier of entry to build vision apps are much lower so

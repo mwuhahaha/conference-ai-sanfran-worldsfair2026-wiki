@@ -7,8 +7,10 @@ track: "Expo Stage 2 NW"
 room: "Expo Stage 2 NW"
 speakers: ["Dominik Kundel"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 ---
-
 # Building on the Codex Harness
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 2 NW
 - Speaker(s): Dominik Kundel
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

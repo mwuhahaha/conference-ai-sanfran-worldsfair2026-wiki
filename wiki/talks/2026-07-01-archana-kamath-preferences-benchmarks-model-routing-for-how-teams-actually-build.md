@@ -7,8 +7,10 @@ track: "AI Architects: AI Factories"
 room: "Leadership 2"
 speakers: ["Archana Kamath", "Tyler Gillam"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: AI Factories"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "confirmed"]
 ---
-
 # Preferences > Benchmarks: Model Routing for How Teams Actually Build
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: AI Factories · Leadership 2
 - Speaker(s): Archana Kamath, Tyler Gillam
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: AI Factories
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 There is no best model. There's only the right model for a given task, and the right model depends

@@ -7,8 +7,10 @@ track: "Expo Stage 1 NE"
 room: "Expo Stage 1 NE"
 speakers: []
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # The Self-Improving OSS Agent Stack
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 1 NE
 - Speaker(s): TBA
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agents are starting to debug and improve themselves: production traces become evals, evals propose

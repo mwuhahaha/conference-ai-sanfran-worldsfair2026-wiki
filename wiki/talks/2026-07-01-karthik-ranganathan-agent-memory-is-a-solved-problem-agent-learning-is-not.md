@@ -7,8 +7,10 @@ track: "Expo Stage 1 NE"
 room: "Expo Stage 1 NE"
 speakers: ["Karthik Ranganathan", "Heather Downing"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # Agent Memory Is a Solved Problem. Agent Learning Is Not.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 1 NE
 - Speaker(s): Karthik Ranganathan, Heather Downing
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 The failures that break multi-agent systems are not reasoning failures, they are handoff failures.

@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T17:58:45.243Z'
+scheduleTrack: "Agentic Commerce"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 ---
 # The Agentic Commerce Stack
 
@@ -19,6 +22,12 @@ last_auto_summarized: '2026-07-06T17:58:45.243Z'
 - Track/room: Agentic Commerce · Track 2
 - Speaker(s): Ahnaf Prio
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Agentic Commerce
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Agents are already handling product discovery, cart building, and checkout — no human clicking

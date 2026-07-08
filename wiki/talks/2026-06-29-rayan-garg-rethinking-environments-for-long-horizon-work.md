@@ -7,8 +7,10 @@ track: "Data Quality"
 room: "Track 9"
 speakers: ["Rayan Garg"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Data Quality"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 ---
-
 # Rethinking Environments for Long Horizon Work
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Data Quality · Track 9
 - Speaker(s): Rayan Garg
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Data Quality
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 As autonomous agents push towards longer-horizon tasks, a number of challenges emerge in measuring

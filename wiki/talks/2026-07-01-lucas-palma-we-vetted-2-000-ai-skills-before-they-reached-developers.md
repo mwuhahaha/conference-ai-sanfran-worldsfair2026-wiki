@@ -7,8 +7,10 @@ track: "AI in Finance"
 room: "Track 3"
 speakers: ["Lucas Palma"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Finance"
+scheduleRoom: "Track 3"
+scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 ---
-
 # We Vetted 2,000 AI Skills Before They Reached Developers
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Finance · Track 3
 - Speaker(s): Lucas Palma
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Finance
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI skills and plugins are becoming part of the software supply chain. They steer agent behavior,

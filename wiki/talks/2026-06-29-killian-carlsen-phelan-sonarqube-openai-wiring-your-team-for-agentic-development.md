@@ -7,8 +7,10 @@ track: "Track 6"
 room: "Track 6"
 speakers: ["Killian Carlsen-Phelan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track 6"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Track 6", "Track 6", "sponsor", "confirmed"]
 ---
-
 # SonarQube + OpenAI: Wiring Your Team for Agentic Development
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track 6 · Track 6
 - Speaker(s): Killian Carlsen-Phelan
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track 6
+- Room: Track 6
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 As AI agents take on increasingly complex development tasks, the critical challenge has shifted from

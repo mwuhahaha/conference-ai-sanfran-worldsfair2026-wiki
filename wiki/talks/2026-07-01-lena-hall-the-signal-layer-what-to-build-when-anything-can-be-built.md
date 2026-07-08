@@ -7,8 +7,10 @@ track: "AI-Native Enterprises"
 room: "Leadership 1"
 speakers: ["Lena Hall"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI-Native Enterprises"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"]
 ---
-
 # The Signal Layer: What to Build When Anything Can Be Built
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI-Native Enterprises · Leadership 1
 - Speaker(s): Lena Hall
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI-Native Enterprises
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI has made implementation faster, cheaper, and more widely available. That changes the real

@@ -7,8 +7,10 @@ track: "Robotics & World Models"
 room: "Track 2"
 speakers: ["Cyrus Clarke"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Robotics & World Models"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Robotics & World Models", "Track 2", "sponsor", "confirmed"]
 ---
-
 # I gave an AI a body
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Robotics & World Models · Track 2
 - Speaker(s): Cyrus Clarke
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Robotics & World Models
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 I gave an AI a body. Not a body in the fleshy sense, or even a humanoid shell, but a form through

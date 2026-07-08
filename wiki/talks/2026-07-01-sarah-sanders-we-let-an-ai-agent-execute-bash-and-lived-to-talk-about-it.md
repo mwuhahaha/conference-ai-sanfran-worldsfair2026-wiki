@@ -7,8 +7,10 @@ track: "Harness Engineering"
 room: "Main Stage"
 speakers: ["Sarah Sanders"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Harness Engineering"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 ---
-
 # We let an AI agent execute Bash and lived to talk about it
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Harness Engineering · Main Stage
 - Speaker(s): Sarah Sanders
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Harness Engineering
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 PostHog's Wizard agent can read your codebase, install packages, and run shell commands on your

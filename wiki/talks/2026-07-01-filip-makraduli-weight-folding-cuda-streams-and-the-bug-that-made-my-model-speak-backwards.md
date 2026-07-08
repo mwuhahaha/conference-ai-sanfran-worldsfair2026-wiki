@@ -7,8 +7,10 @@ track: "Inference"
 room: "Track 9"
 speakers: ["Filip Makraduli"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 ---
-
 # Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Track 9
 - Speaker(s): Filip Makraduli
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 A talk about contributing GPU benchmarks to an open-source research paper (FlashNorm). I'll walk

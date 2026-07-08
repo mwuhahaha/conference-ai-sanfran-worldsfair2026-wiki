@@ -7,8 +7,10 @@ track: "Expo Stage 1 NE"
 room: "Expo Stage 1 NE"
 speakers: ["Dat Ngo"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # Your Agent Is Lying to You About Whether It Worked
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 1 NE
 - Speaker(s): Dat Ngo
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every span is green, every tool call returned cleanly, and the agent still regenerated the same plan

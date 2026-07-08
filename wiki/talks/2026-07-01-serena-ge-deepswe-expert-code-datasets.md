@@ -7,8 +7,10 @@ track: "Agentic Engineering"
 room: "Track 8"
 speakers: ["Serena Ge"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # DeepSWE: expert code datasets
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Engineering · Track 8
 - Speaker(s): Serena Ge
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 DeepSWE and the data/eval layer behind coding agents; why curated expert code datasets matter for

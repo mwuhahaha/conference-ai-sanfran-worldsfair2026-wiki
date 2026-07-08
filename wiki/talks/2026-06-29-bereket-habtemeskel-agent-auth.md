@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 5"
 speakers: ["Bereket Habtemeskel", "Paola Estefania"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Workshops Day 1", "Track 5", "workshop", "confirmed"]
 ---
-
 # Agent Auth
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 5
 - Speaker(s): Bereket Habtemeskel, Paola Estefania
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 5
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Better Auth has grown to 27k GitHub stars and over 1.5M weekly downloads, becoming a popular choice

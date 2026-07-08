@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 9"
 speakers: ["Elizabeth Fuentes Leone", "Sandhya Subramani"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Workshops Day 1", "Track 9", "session", "confirmed"]
 ---
-
 # Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 9
 - Speaker(s): Elizabeth Fuentes Leone, Sandhya Subramani
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 One agent. Fully deployed to production before the workshop ends. We'll take you from a blank file

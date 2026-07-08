@@ -7,8 +7,10 @@ track: "Generative Media"
 room: "Track 1"
 speakers: ["Ahmed Ahres"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Generative Media"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 ---
-
 # The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Generative Media · Track 1
 - Speaker(s): Ahmed Ahres
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Generative Media
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every major platform shift created a new category of developers. The web created web developers.

@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Pamela Fox"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # Diagnosing agent failures in production
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Pamela Fox
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Agent behavior changes in production. Learn common failure modes and how to debug, test, and improve

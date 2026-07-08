@@ -7,8 +7,10 @@ track: "Expo Stage 4 SE"
 room: "Expo Stage 4 SE"
 speakers: ["Em Shreve"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # AI Enablement at Automattic: How a Remote Company Builds AI Fluency
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 4 SE
 - Speaker(s): Em Shreve
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Automattic is a remote company. About 600 of us will step away from regular work this year for an

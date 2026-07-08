@@ -7,8 +7,10 @@ track: "Agentic Commerce"
 room: "Track 2"
 speakers: ["Jay Mok"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Commerce"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 ---
-
 # Your Agent Just Authorized What?!
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Commerce · Track 2
 - Speaker(s): Jay Mok
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Agentic Commerce
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 The nightmare scenario writes itself: your agent just ran off with your credit card and maxed it out

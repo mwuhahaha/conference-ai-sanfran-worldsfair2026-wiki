@@ -7,8 +7,10 @@ track: "LLM Recsys"
 room: "Track 7"
 speakers: ["John Craft"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "LLM Recsys"
+scheduleRoom: "Track 7"
+scheduleLabels: ["LLM Recsys", "Track 7", "session", "confirmed"]
 ---
-
 # From approval loops to autonomous agents with Docker pt2
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: LLM Recsys · Track 7
 - Speaker(s): John Craft
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: LLM Recsys
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 You've invested in the best models, coding agents, and AI tooling. Now comes the hard part:

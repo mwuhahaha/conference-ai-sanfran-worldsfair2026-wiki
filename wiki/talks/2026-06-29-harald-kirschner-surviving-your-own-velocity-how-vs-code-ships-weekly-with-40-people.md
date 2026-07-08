@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Harald Kirschner"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Harald Kirschner
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 A ~40-person team ships VS Code weekly to millions of users. Models got good enough to lean on, and

@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 3"
 speakers: ["Charlie Guo", "Gabriel Chua"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Workshops Day 1", "Track 3", "sponsor", "confirmed"]
 ---
-
 # Cooking with Codex
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 3
 - Speaker(s): Charlie Guo, Gabriel Chua
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 3
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Codex is changing how technical teams ship across the software development lifecycle, from feature

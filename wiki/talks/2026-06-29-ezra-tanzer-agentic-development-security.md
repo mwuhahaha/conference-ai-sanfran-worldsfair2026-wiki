@@ -7,8 +7,10 @@ track: "Security"
 room: "Track 5"
 speakers: ["Ezra Tanzer"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Security"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Agentic Development Security
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Security · Track 5
 - Speaker(s): Ezra Tanzer
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Security
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

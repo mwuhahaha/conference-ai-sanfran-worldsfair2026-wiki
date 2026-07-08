@@ -7,8 +7,10 @@ track: "Local AI"
 room: "Track 4"
 speakers: ["Nader Khalil", "Walden Yan", "Tanay Varshney", "Alex Atallah"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Local AI"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ---
-
 # Model Routing
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Local AI · Track 4
 - Speaker(s): Nader Khalil, Walden Yan, Tanay Varshney, Alex Atallah
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Local AI
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Model Routing explores how teams decide when to use local models, open-source models, or frontier

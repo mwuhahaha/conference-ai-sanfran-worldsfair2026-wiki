@@ -7,8 +7,10 @@ track: "Local AI"
 room: "Track 4"
 speakers: ["Nader Khalil", "Joseph Nelson", "Alex Cheema", "Ahmad Osman", "Matthew Berman"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Local AI"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ---
-
 # State of the Union: Why Local, Why Now
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Local AI · Track 4
 - Speaker(s): Nader Khalil, Joseph Nelson, Alex Cheema, Ahmad Osman, Matthew Berman
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Local AI
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Local AI has crossed from interesting to useful, driven by stronger open models, better hardware,

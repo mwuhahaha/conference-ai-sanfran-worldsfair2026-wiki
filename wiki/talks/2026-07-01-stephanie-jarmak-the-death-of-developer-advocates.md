@@ -7,8 +7,10 @@ track: "AI in GTM"
 room: "Track 6"
 speakers: ["Stephanie Jarmak"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in GTM"
+scheduleRoom: "Track 6"
+scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 ---
-
 # The Death of Developer Advocates
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in GTM · Track 6
 - Speaker(s): Stephanie Jarmak
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in GTM
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Developer Advocacy is dead. Over the last decade Developer Advocates have been a key part of any

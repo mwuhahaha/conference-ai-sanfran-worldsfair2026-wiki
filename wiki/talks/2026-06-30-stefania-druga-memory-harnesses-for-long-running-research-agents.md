@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-04T08:21:47.410Z'
+scheduleTrack: "Memory & Continual Learning"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Memory & Continual Learning", "Main Stage", "session", "confirmed"]
 ---
 # Memory Harnesses for Long-Running Research Agents
 
@@ -26,6 +29,12 @@ Stefania Druga's World's Fair session centers on the reliability layer that lets
 The connected material makes the scientific setting more concrete. Druga's related AI Engineer video, "Real-time Experiments with an AI Co-Scientist," includes slide evidence around crystal growth, supersaturation, salt and water solutions, yeast fermentation, temperature, nucleation, open-source tools, and Jacdac-style instrumentation. Those slides are supporting context rather than a confirmed recording of this exact World's Fair session, but they show the kind of research-agent environment where memory failures become operationally expensive: an AI co-scientist must remember prior hypotheses, experiment conditions, observed outcomes, and tool constraints while iterating through physical or simulated experiments. The dense and reconstructed slide pages reinforce that this is not just abstract agent orchestration; it is about agents embedded in experimental loops where continuity matters.
 
 Druga's profile adds the institutional frame. She is a Research Scientist at Sakana AI in Tokyo working on novel architectures beyond the transformer, after prior work associated with Google DeepMind. That background makes this session sit at the intersection of agent infrastructure, scientific discovery workflows, and post-transformer research systems. For this wiki, the page should be read as a memory-and-harness counterpart to the co-scientist material: if AI systems are going to read papers, run experiments, and draft scientific outputs over long horizons, they need durable memory structures that preserve decisions, prevent duplicated effort, and keep the system anchored to the research objective.
+
+## Schedule Labels
+- Track: Memory & Continual Learning
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 At Sakana AI we build agents that run for hundreds of turns to read literature, run experiments, and

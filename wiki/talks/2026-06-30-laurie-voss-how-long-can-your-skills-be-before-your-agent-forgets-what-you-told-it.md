@@ -7,8 +7,10 @@ track: "Context Engineering"
 room: "Track 8"
 speakers: ["Laurie Voss"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Context Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # How long can your skills be before your agent forgets what you told it?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Context Engineering · Track 8
 - Speaker(s): Laurie Voss
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Context Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 A year ago, frontier models lost the thread somewhere around 200 simultaneous instructions, so

@@ -7,8 +7,10 @@ track: "Inference"
 room: "Leadership 1"
 speakers: ["Daniel Kim", "Michelle Nguyen"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["Inference", "Leadership 1", "session", "confirmed"]
 ---
-
 # All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Leadership 1
 - Speaker(s): Daniel Kim, Michelle Nguyen
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every time the industry figures out how to serve tokens faster and cheaper, the appetite grows to

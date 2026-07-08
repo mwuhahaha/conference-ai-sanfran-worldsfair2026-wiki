@@ -7,8 +7,10 @@ track: "Track 2"
 room: "Track 2"
 speakers: ["Paul Bakaus"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Track 2"
+scheduleLabels: ["Track 2", "session", "confirmed"]
 ---
-
 # The Dark Arts of Skill Engineering
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Track 2
 - Speaker(s): Paul Bakaus
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Track 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Most agent skills are a system prompt and a prayer. They produce safe, median output because that's

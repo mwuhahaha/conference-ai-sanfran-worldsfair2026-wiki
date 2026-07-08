@@ -7,8 +7,10 @@ track: "Workshops Day 3"
 room: "Track 4"
 speakers: ["Brian Douglas", "John McBride"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 3"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 3", "Track 4", "session", "confirmed"]
 ---
-
 # Don't Write Skills, Train Models
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 3 · Track 4
 - Speaker(s): Brian Douglas, John McBride
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 3
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every AI agent call generates training data. Most teams throw it away. They write skills files

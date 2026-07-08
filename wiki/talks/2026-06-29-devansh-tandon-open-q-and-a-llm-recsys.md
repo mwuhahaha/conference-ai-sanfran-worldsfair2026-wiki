@@ -7,8 +7,10 @@ track: "LLM Recsys"
 room: "Track 7"
 speakers: ["Devansh Tandon"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "LLM Recsys"
+scheduleRoom: "Track 7"
+scheduleLabels: ["LLM Recsys", "Track 7", "session", "confirmed"]
 ---
-
 # Open Q&A: LLM Recsys
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: LLM Recsys · Track 7
 - Speaker(s): Devansh Tandon
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: LLM Recsys
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

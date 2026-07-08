@@ -7,8 +7,10 @@ track: "AI in Healthcare"
 room: "Track 7"
 speakers: ["Vasant Kearney"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Healthcare"
+scheduleRoom: "Track 7"
+scheduleLabels: ["AI in Healthcare", "Track 7", "session", "confirmed"]
 ---
-
 # Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Healthcare · Track 7
 - Speaker(s): Vasant Kearney
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Healthcare
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 LLMs made old languages newly useful: COBOL for mainframes, Fortran for scientific code, and Rust,

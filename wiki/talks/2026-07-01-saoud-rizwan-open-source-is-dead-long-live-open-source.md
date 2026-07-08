@@ -7,8 +7,10 @@ track: "Agentic Engineering"
 room: "Track 8"
 speakers: ["Saoud Rizwan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # Open Source Is Dead. Long Live Open Source.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Engineering · Track 8
 - Speaker(s): Saoud Rizwan
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Closed model labs set take‑it‑or‑leave‑it prices, but open‑weight models force inference hosts to

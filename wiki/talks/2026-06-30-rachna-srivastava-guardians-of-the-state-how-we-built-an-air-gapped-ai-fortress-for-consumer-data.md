@@ -7,8 +7,10 @@ track: "AI-Native Enterprises"
 room: "Leadership 1"
 speakers: ["Rachna Srivastava"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI-Native Enterprises"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"]
 ---
-
 # Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI-Native Enterprises · Leadership 1
 - Speaker(s): Rachna Srivastava
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI-Native Enterprises
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every enterprise slide deck talks about "data privacy," but at the California Department of

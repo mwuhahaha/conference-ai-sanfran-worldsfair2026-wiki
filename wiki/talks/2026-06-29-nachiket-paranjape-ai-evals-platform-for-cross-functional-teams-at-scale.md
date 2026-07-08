@@ -7,8 +7,10 @@ track: "AI-Native Enterprises"
 room: "Leadership 1"
 speakers: ["Nachiket Paranjape", "Swaroop Chitlur Haridas"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI-Native Enterprises"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"]
 ---
-
 # AI Evals Platform for Cross-Functional Teams at Scale
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI-Native Enterprises · Leadership 1
 - Speaker(s): Nachiket Paranjape, Swaroop Chitlur Haridas
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI-Native Enterprises
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 DoorDash's Evals Platform is designed for more than just engineers. It brings human review,

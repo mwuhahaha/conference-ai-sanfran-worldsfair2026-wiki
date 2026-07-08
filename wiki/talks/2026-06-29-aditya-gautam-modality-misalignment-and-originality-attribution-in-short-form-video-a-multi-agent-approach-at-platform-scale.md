@@ -7,8 +7,10 @@ track: "Vision & OCR"
 room: "Track 2"
 speakers: ["Aditya Gautam"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Vision & OCR"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 ---
-
 # Modality Misalignment and Originality Attribution in Short-Form Video: A Multi-Agent Approach at Platform Scale
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Vision & OCR · Track 2
 - Speaker(s): Aditya Gautam
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Vision & OCR
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Short-form video presents a class of content understanding problems that are qualitatively different

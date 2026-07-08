@@ -7,8 +7,10 @@ track: "Design Engineering"
 room: "Track 6"
 speakers: ["Max Drake"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Design Engineering"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 ---
-
 # The Spatial Harness: Bringing Agents to the Canvas
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Design Engineering · Track 6
 - Speaker(s): Max Drake
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Design Engineering
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 What if chat is the wrong interface for managing agents? What if we're holding ourselves back by

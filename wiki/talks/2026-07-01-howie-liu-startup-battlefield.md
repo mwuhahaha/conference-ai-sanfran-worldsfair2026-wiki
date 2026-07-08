@@ -13,6 +13,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-04T07:01:25.351Z'
+scheduleTrack: "Main Stage"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Main Stage", "Main Stage", "keynote", "confirmed"]
 ---
 # Startup Battlefield
 
@@ -24,6 +27,12 @@ Startup Battlefield is a Main Stage session bringing together Howie Liu of Airta
 - Track/room: Main Stage · Main Stage
 - Speaker(s): Howie Liu, Joshua Xu, swyx
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Main Stage
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

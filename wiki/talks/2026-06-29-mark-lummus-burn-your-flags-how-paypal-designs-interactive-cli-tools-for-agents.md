@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 4"
 speakers: ["Mark Lummus", "Navinkumar Patil"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 1", "Track 4", "sponsor", "confirmed"]
 ---
-
 # Burn your flags: How PayPal designs interactive CLI tools for agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 4
 - Speaker(s): Mark Lummus, Navinkumar Patil
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 4
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 The common guidance for designing complex CLI tooling that agents can use is to add a 'non-

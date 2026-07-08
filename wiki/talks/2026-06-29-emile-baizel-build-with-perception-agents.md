@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 8"
 speakers: ["Emile Baizel", "Shruti Arora"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Workshops Day 1", "Track 8", "session", "confirmed"]
 ---
-
 # Build with Perception Agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 8
 - Speaker(s): Emile Baizel, Shruti Arora
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Human-agent collaboration is changing, becoming more visual. Models can perceive, point, and verify,

@@ -7,8 +7,10 @@ track: "Inference"
 room: "Track 9"
 speakers: ["Byung-Gon (Gon) Chun"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 ---
-
 # The Frontier AI Inference Cloud for Agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Track 9
 - Speaker(s): Byung-Gon (Gon) Chun
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agents have changed the economics of AI inference. A chatbot’s cost scales roughly linearly with the

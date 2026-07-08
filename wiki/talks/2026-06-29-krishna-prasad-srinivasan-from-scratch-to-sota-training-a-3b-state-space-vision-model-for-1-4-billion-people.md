@@ -7,8 +7,10 @@ track: "Vision & OCR"
 room: "Track 2"
 speakers: ["Krishna Prasad Srinivasan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Vision & OCR"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 ---
-
 # From Scratch to SOTA: Training a 3B State-Space Vision Model for 1.4 Billion People
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Vision & OCR · Track 2
 - Speaker(s): Krishna Prasad Srinivasan
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Vision & OCR
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 India has 22 official languages. Across those languages live over a billion people whose knowledge

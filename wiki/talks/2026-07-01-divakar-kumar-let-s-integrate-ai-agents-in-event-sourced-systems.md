@@ -7,8 +7,10 @@ track: "AI in Finance"
 room: "Track 3"
 speakers: ["Divakar Kumar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Finance"
+scheduleRoom: "Track 3"
+scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 ---
-
 # Let's integrate AI Agents in Event-Sourced Systems
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Finance · Track 3
 - Speaker(s): Divakar Kumar
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Finance
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Fraud detection has always been a race against time. In traditional event-sourced systems, every

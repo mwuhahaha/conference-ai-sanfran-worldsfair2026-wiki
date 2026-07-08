@@ -7,8 +7,10 @@ track: "Autoresearch"
 room: "Main Stage"
 speakers: ["Zhengyao Jiang"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Autoresearch"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 ---
-
 # An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Autoresearch · Main Stage
 - Speaker(s): Zhengyao Jiang
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Autoresearch
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Earlier this year, OpenAI ran Parameter Golf, a model-training competition that doubled as a hiring

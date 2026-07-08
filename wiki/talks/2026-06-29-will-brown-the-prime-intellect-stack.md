@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T05:05:34.716Z'
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Workshops Day 1", "Track 6", "workshop", "confirmed"]
 ---
 # The Prime Intellect Stack
 
@@ -22,6 +25,12 @@ This workshop centers on Will Brown's Prime Intellect work on open post-training
 - Track/room: Workshops Day 1 · Track 6
 - Speaker(s): Will Brown
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 6
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Deep dive into Prime Intellect's open-source ecosystem of post-training tools, including the

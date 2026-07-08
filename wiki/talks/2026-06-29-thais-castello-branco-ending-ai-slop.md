@@ -7,8 +7,10 @@ track: "Data Quality"
 room: "Track 9"
 speakers: ["Thais Castello Branco"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Data Quality"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 ---
-
 # Ending AI Slop
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Data Quality · Track 9
 - Speaker(s): Thais Castello Branco
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Data Quality
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

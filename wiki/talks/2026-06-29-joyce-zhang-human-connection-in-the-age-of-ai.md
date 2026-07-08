@@ -7,8 +7,10 @@ track: "Expo Stage 2"
 room: "Expo Stage 2 NW"
 speakers: ["Joyce Zhang", "Carole Robin, Ph.D."]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 2"
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2", "Expo Stage 2 NW", "workshop", "confirmed"]
 ---
-
 # Human Connection in the Age of AI
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 2 · Expo Stage 2 NW
 - Speaker(s): Joyce Zhang, Carole Robin, Ph.D.
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 2
+- Room: Expo Stage 2 NW
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Building AI safely requires both technical skills and interpersonal skills. A live demo of

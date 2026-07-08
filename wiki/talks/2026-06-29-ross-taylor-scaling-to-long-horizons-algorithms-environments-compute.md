@@ -7,8 +7,10 @@ track: "Data Quality"
 room: "Track 9"
 speakers: ["Ross Taylor", "Chengxi Taylor"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Data Quality"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 ---
-
 # Scaling to Long-Horizons: Algorithms, Environments, Compute
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Data Quality · Track 9
 - Speaker(s): Ross Taylor, Chengxi Taylor
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Data Quality
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 What does it take to scale language models to year long tasks? In this talk we'll cover the

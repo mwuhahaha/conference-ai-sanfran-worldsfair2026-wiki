@@ -7,8 +7,10 @@ track: "AI Architects: Tokenmaxxing"
 room: "Leadership 2"
 speakers: ["Alex Volkov"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Tokenmaxxing"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "confirmed"]
 ---
-
 # The Z/L Continuum: Should AI Engineers Still Read Code?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Tokenmaxxing · Leadership 2
 - Speaker(s): Alex Volkov
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Tokenmaxxing
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 At AI Engineer Europe, two of the best speakers gave directly opposite advice. Zechner: slow the

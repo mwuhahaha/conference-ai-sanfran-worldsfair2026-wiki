@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-04T07:02:19.047Z'
+scheduleTrack: "Expo Stage 3"
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 ---
 # An Interaction Is All You Need
 
@@ -22,6 +25,12 @@ Ivan Leo's scheduled World's Fair session appears to be a short Expo Stage talk 
 - Track/room: Expo Stage 3 · Expo Stage 3 SW
 - Speaker(s): Ivan Leo
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 3
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

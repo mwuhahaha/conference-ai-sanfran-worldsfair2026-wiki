@@ -7,8 +7,10 @@ track: "Evals"
 room: "Track 5"
 speakers: ["Chris Souza", "Preetika Bhateja", "Daniel Bump"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Evals"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Model Whisperers: How Evals and Prompts Shape Agent Behavior
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Evals · Track 5
 - Speaker(s): Chris Souza, Preetika Bhateja, Daniel Bump
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Evals
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Getting an AI agent to behave the way you want isn’t just about writing better prompts. In real

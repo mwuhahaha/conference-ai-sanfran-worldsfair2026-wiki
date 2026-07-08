@@ -7,8 +7,10 @@ track: "AI in Healthcare"
 room: "Track 7"
 speakers: ["Anuj Iravane"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Healthcare"
+scheduleRoom: "Track 7"
+scheduleLabels: ["AI in Healthcare", "Track 7", "session", "confirmed"]
 ---
-
 # Don't be data poor
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Healthcare · Track 7
 - Speaker(s): Anuj Iravane
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Healthcare
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 What do you do when the data you most need to train and evaluate on is the data you're least allowed

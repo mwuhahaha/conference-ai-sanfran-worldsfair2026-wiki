@@ -7,8 +7,10 @@ track: "Workshops Day 2"
 room: "Track 4"
 speakers: ["Priyanka Phatak", "Gabriel Cemaj"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 2"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 2", "Track 4", "session", "confirmed"]
 ---
-
 # Claude Managed Agents workshop (Part 4)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 2 · Track 4
 - Speaker(s): Priyanka Phatak, Gabriel Cemaj
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 2
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Build an agent with Claude Managed Agents

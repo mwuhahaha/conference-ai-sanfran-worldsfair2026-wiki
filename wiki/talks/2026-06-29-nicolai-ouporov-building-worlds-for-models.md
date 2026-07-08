@@ -7,8 +7,10 @@ track: "Data Quality"
 room: "Track 9"
 speakers: ["Nicolai Ouporov"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Data Quality"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 ---
-
 # Building Worlds for Models
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Data Quality · Track 9
 - Speaker(s): Nicolai Ouporov
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Data Quality
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Hold for Fleet AI. Company focuses on simulated environments / training gyms for AI agents and fits

@@ -7,8 +7,10 @@ track: "Software Factories"
 room: "Main Stage"
 speakers: ["Pablo Castro"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Software Factories"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Software Factories", "Main Stage", "keynote", "confirmed"]
 ---
-
 # On AI and Knowledge
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Software Factories · Main Stage
 - Speaker(s): Pablo Castro
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

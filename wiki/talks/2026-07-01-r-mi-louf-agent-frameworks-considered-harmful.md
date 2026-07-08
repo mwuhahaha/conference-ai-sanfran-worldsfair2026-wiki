@@ -7,8 +7,10 @@ track: "Harness Engineering"
 room: "Leadership 2"
 speakers: ["Rémi Louf"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Harness Engineering"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["Harness Engineering", "Leadership 2", "session", "confirmed"]
 ---
-
 # Agent Frameworks Considered Harmful
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Harness Engineering · Leadership 2
 - Speaker(s): Rémi Louf
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Harness Engineering
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

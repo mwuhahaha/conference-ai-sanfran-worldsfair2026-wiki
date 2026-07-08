@@ -7,8 +7,10 @@ track: "Track 7"
 room: "Track 7"
 speakers: ["Jeff Vestal"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track 7"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Track 7", "Track 7", "sponsor", "confirmed"]
 ---
-
 # Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track 7 · Track 7
 - Speaker(s): Jeff Vestal
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track 7
+- Room: Track 7
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 If you build RAG, you reached for vector search first. This lab is about everything that happens

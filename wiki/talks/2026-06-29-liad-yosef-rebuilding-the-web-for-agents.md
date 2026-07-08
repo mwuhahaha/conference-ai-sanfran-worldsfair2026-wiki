@@ -7,8 +7,10 @@ track: "Search & Retrieval"
 room: "Track 3"
 speakers: ["Liad Yosef"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Search & Retrieval"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 ---
-
 # Rebuilding the web for agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Search & Retrieval · Track 3
 - Speaker(s): Liad Yosef
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Search & Retrieval
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI apps are the new browsers. And the web is not ready.  For thirty years we built the web for human

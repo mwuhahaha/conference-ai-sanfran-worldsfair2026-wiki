@@ -7,8 +7,10 @@ track: "Search & Retrieval"
 room: "Track 3"
 speakers: ["Benjamin Clavié"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Search & Retrieval"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 ---
-
 # If we want them to do Knowledge Work, we need to design Knowledge Agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Search & Retrieval · Track 3
 - Speaker(s): Benjamin Clavié
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Search & Retrieval
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 It's tempting to assume that just like agents revolutionised coding, they will revolutionize other

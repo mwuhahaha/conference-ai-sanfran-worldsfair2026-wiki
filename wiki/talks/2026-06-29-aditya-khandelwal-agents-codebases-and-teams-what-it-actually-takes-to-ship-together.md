@@ -7,8 +7,10 @@ track: "Expo Stage 4 SE"
 room: "Expo Stage 4 SE"
 speakers: ["Aditya Khandelwal"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # Agents, codebases, and teams: what it actually takes to ship together
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 4 SE
 - Speaker(s): Aditya Khandelwal
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Using a coding agent solo is one thing. Getting a whole team to trust agent-written code, agent-run

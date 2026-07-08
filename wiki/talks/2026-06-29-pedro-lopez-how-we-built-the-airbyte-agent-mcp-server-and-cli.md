@@ -7,8 +7,10 @@ track: "Expo Stage 1"
 room: "Expo Stage 1 NE"
 speakers: ["Pedro Lopez"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 1"
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1", "Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # How We Built the Airbyte Agent MCP Server and CLI
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 1 · Expo Stage 1 NE
 - Speaker(s): Pedro Lopez
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 1
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agents need a reliable way to reach live business data. At Airbyte we built two interfaces for that,

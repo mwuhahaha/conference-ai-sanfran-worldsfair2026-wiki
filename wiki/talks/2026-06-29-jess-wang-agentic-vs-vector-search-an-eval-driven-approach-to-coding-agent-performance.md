@@ -7,8 +7,10 @@ track: "Expo Stage 2 NW"
 room: "Expo Stage 2 NW"
 speakers: ["Jess Wang"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 ---
-
 # Agentic vs. Vector Search: An Eval-Driven Approach to Coding Agent Performance
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 2 NW
 - Speaker(s): Jess Wang
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Evals let you replace gut feelings with quantifiable decisions. This talk breaks the basic concepts

@@ -7,8 +7,10 @@ track: "AI in Finance"
 room: "Track 3"
 speakers: ["Sai Krishna Rallabandi"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Finance"
+scheduleRoom: "Track 3"
+scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 ---
-
 # Wearing the Agent: Engineering a Family-and-Friends Personal Agent, from Group Chats to Glasses
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Finance · Track 3
 - Speaker(s): Sai Krishna Rallabandi
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Finance
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Judith is a personal AI agent that has run in daily production for a year, used by more than a dozen

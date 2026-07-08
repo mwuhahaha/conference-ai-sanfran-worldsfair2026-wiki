@@ -7,8 +7,10 @@ track: "Expo Stage 2 NW"
 room: "Expo Stage 2 NW"
 speakers: ["Rafael Levi"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 ---
-
 # Video Discovery for Agentic World-Model Training
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 2 NW
 - Speaker(s): Rafael Levi
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Physical AI had its “Attention Is All You Need” moment with the rise of Vision-Language-Action

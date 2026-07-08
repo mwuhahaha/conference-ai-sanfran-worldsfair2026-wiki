@@ -12,6 +12,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-04T07:01:57.505Z'
+scheduleTrack: "Software Factories"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Software Factories", "Main Stage", "keynote", "confirmed"]
 ---
 # The Golden Age of AI Engineering
 
@@ -25,6 +28,12 @@ The linked Romain Huet video, "From Text to Vision to Voice Exploring Multimodal
 - Track/room: Software Factories · Main Stage
 - Speaker(s): Alexander Embiricos, Romain Huet
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 TBD

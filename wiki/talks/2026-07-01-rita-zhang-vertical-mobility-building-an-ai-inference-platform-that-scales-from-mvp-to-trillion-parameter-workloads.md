@@ -7,8 +7,10 @@ track: "Inference"
 room: "Track 9"
 speakers: ["Rita Zhang", "Sitanshu Gupta"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 ---
-
 # Vertical Mobility: Building an AI Inference Platform That Scales from MVP to Trillion-Parameter Workloads
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Track 9
 - Speaker(s): Rita Zhang, Sitanshu Gupta
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 The future of AI inference is not one-size-fits-all. This talk explores a multi-tiered architecture

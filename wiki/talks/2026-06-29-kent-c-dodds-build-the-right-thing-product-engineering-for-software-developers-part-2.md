@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 4"
 speakers: ["Kent C. Dodds"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 1", "Track 4", "sponsor", "confirmed"]
 ---
-
 # Build the Right Thing: Product Engineering for Software Developers — Part 2
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 4
 - Speaker(s): Kent C. Dodds
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 4
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 There is nothing quite as demoralizing as finishing a feature and realizing you built the wrong

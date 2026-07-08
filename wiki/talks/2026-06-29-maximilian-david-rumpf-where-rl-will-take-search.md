@@ -7,8 +7,10 @@ track: "Search & Retrieval"
 room: "Track 3"
 speakers: ["Maximilian-David Rumpf", "Lotte Seifert"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Search & Retrieval"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 ---
-
 # Where RL Will Take Search
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Search & Retrieval · Track 3
 - Speaker(s): Maximilian-David Rumpf, Lotte Seifert
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Search & Retrieval
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Search is having its Bitter Lesson moment. By turning search into an RL problem, we can finally

@@ -7,8 +7,10 @@ track: "Graphs"
 room: "Track 5"
 speakers: ["Stephen Chin"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Graphs"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 ---
-
 # CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Graphs · Track 5
 - Speaker(s): Stephen Chin
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Graphs
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Autonomous assistants are easy to demo and hard to make reliable. The problem is usually not tool

@@ -7,8 +7,10 @@ track: "AI Architects: Tokenmaxxing"
 room: "Leadership 2"
 speakers: ["Nicholas Arcolano"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Tokenmaxxing"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "confirmed"]
 ---
-
 # Tokenmaxxing is the New "Lines of Code"
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Tokenmaxxing · Leadership 2
 - Speaker(s): Nicholas Arcolano
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Tokenmaxxing
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Somebody in your company is going to ask what you're getting for all that AI spend. If you don't

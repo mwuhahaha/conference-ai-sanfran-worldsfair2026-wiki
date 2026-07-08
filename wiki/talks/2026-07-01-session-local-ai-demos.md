@@ -7,8 +7,10 @@ track: "Local AI"
 room: "Track 4"
 speakers: []
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Local AI"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ---
-
 # Local AI Demos
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Local AI · Track 4
 - Speaker(s): TBA
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Local AI
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Rolling demos: GLM 5.2 running on DGX Station; Nemotron 3 Ultra running on 4× DGX Spark; real-time

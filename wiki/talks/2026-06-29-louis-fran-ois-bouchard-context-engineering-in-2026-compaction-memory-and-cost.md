@@ -7,8 +7,10 @@ track: "Track 6"
 room: "Track 6"
 speakers: ["Louis-François Bouchard", "Samridhi Vaid", "Omar Solano"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Track 6"
+scheduleLabels: ["Track 6", "sponsor", "confirmed"]
 ---
-
 # Context Engineering in 2026: Compaction, Memory & Cost
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Track 6
 - Speaker(s): Louis-François Bouchard, Samridhi Vaid, Omar Solano
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Track 6
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Every long agent session eventually breaks: the assistant that swore it would "never push to main"

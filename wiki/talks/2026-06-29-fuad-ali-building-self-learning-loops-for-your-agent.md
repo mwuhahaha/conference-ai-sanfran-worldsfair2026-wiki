@@ -7,8 +7,10 @@ track: "Posttraining & Midtraining"
 room: "Track 1"
 speakers: ["Fuad Ali"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Posttraining & Midtraining"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Posttraining & Midtraining", "Track 1", "sponsor", "confirmed"]
 ---
-
 # Building self-learning loops for your agent
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Posttraining & Midtraining · Track 1
 - Speaker(s): Fuad Ali
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Posttraining & Midtraining
+- Room: Track 1
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Building an AI demo is easy. Knowing whether it actually works — and keeping it working in

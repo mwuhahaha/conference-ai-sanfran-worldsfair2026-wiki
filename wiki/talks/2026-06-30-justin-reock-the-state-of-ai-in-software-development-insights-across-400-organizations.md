@@ -7,8 +7,10 @@ track: "AI Architects: Tokenmaxxing"
 room: "Leadership 2"
 speakers: ["Justin Reock"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Tokenmaxxing"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "confirmed"]
 ---
-
 # The state of AI in software development: Insights across 400+ organizations
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Tokenmaxxing · Leadership 2
 - Speaker(s): Justin Reock
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Tokenmaxxing
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Headlines claim AI is transforming software engineering overnight. Across more than 400 engineering

@@ -7,8 +7,10 @@ track: "Expo Stage 1"
 room: "Expo Stage 1 NE"
 speakers: ["Wallon Walusayi"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 1"
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1", "Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # AI Engineering & Governance 2026 Trends
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 1 · Expo Stage 1 NE
 - Speaker(s): Wallon Walusayi
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 1
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI Engineering & Governance 2026 Trends

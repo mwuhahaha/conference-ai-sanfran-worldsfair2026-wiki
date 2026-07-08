@@ -7,8 +7,10 @@ track: "Claws & Personal Agents"
 room: "Leadership 2"
 speakers: ["David Hsu"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Claws & Personal Agents"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["Claws & Personal Agents", "Leadership 2", "session", "confirmed"]
 ---
-
 # Governance Is the Real Bottleneck to AI ROI
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Claws & Personal Agents · Leadership 2
 - Speaker(s): David Hsu
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Claws & Personal Agents
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 As AI systems move from generating content to taking Claw-based agents action inside production

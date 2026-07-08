@@ -7,8 +7,10 @@ track: "Expo Stage 4 SE"
 room: "Expo Stage 4 SE"
 speakers: ["Leo Platzer"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # From raw documents to AI-ready data
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 4 SE
 - Speaker(s): Leo Platzer
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Starting from a real document corpus full of overlapping, look-alike files, we walk through what it

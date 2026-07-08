@@ -7,8 +7,10 @@ track: "Expo Stage 3"
 room: "Expo Stage 3 SW"
 speakers: ["Nixon Dinh"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 3"
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # The Death of Keyword Search and the Rise of Agent-Readable Catalogs
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 3 · Expo Stage 3 SW
 - Speaker(s): Nixon Dinh
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 3
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 As search shifts from classic keyword matching to more conversational experiences, product data

@@ -7,8 +7,10 @@ track: "Startup Battlefield"
 room: "Networking Room"
 speakers: []
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Startup Battlefield"
+scheduleRoom: "Networking Room"
+scheduleLabels: ["Startup Battlefield", "Networking Room", "session", "confirmed"]
 ---
-
 # Battlefield setup
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Startup Battlefield · Networking Room
 - Speaker(s): TBA
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Startup Battlefield
+- Room: Networking Room
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

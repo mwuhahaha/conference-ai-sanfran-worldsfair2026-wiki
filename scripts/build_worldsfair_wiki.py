@@ -227,6 +227,9 @@ def main() -> int:
                     "time": session.get("time"),
                     "track": session.get("track") or session.get("room"),
                     "room": session.get("room"),
+                    "scheduleTrack": session.get("track"),
+                    "scheduleRoom": session.get("room"),
+                    "scheduleLabels": schedule_labels(session),
                     "speakers": session.get("speakers", []),
                     "sourceLabels": ["Official conference schedule", "Public YouTube metadata"],
                 }
@@ -238,6 +241,12 @@ def main() -> int:
             f"- Track/room: {session.get('track') or 'track TBD'} · {session.get('room') or 'room TBD'}",
             f"- Speaker(s): {speakers_text}",
             f"- Session type/status: {session.get('type', 'unknown')} · {session.get('status', 'unknown')}",
+            "",
+            "## Schedule Labels",
+            f"- Track: {session.get('track') or 'track TBD'}",
+            f"- Room: {session.get('room') or 'room TBD'}",
+            f"- Session type: {session.get('type', 'unknown')}",
+            f"- Status: {session.get('status', 'unknown')}",
             "",
             "## Official Description",
             desc,
@@ -461,6 +470,19 @@ def assign_talk_slugs(sessions: list[dict]) -> None:
             suffix += 1
         used.add(candidate)
         session["_slug"] = candidate
+
+
+def schedule_labels(session: dict) -> list[str]:
+    return [
+        label
+        for label in [
+            session.get("track"),
+            session.get("room"),
+            session.get("type"),
+            session.get("status"),
+        ]
+        if label
+    ]
 
 
 def unique_list(items) -> list:

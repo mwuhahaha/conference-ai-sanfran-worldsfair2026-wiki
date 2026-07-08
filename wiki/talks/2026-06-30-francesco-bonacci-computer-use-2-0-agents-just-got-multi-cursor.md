@@ -7,8 +7,10 @@ track: "Computer Use"
 room: "Track 7"
 speakers: ["Francesco Bonacci", "Dillon DuPont"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Computer Use"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
 ---
-
 # Computer-Use 2.0: Agents Just Got Multi-Cursor
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Computer Use · Track 7
 - Speaker(s): Francesco Bonacci, Dillon DuPont
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Computer Use
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Computer-use agents still inherit a basic desktop limitation: one machine has one foreground app,

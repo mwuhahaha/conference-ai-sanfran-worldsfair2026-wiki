@@ -7,8 +7,10 @@ track: "Expo Stage 4 SE"
 room: "Expo Stage 4 SE"
 speakers: []
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # Your Stack Has a Latency Problem You Can’t See
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Expo Stage 4 SE
 - Speaker(s): TBA
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Break down a real AI voice call path step by step. Show where time actually goes: network hops

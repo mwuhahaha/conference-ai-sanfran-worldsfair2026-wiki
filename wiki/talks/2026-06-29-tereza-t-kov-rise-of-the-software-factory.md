@@ -7,8 +7,10 @@ track: "Software Factories"
 room: "Main Stage"
 speakers: ["Tereza Tížková"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Software Factories"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Software Factories", "Main Stage", "session", "confirmed"]
 ---
-
 # Rise of the Software Factory
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Software Factories · Main Stage
 - Speaker(s): Tereza Tížková
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 The Stanford HAI 2024 AI Index reports a 30x productivity gap between AI leaders and laggards. The

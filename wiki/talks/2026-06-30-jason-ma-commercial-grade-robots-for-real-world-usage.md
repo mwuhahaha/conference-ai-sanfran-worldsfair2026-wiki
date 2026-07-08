@@ -7,8 +7,10 @@ track: "Robotics & World Models"
 room: "Track 2"
 speakers: ["Jason Ma"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Robotics & World Models"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Robotics & World Models", "Track 2", "sponsor", "confirmed"]
 ---
-
 # Commercial Grade-Robots for Real World Usage
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Robotics & World Models · Track 2
 - Speaker(s): Jason Ma
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Robotics & World Models
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 TBD — Dyna Robotics talk for Robotics & World Models track.  https://www.dyna.co/

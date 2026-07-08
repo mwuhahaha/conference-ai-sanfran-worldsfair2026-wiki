@@ -7,8 +7,10 @@ track: "Graphs"
 room: "Track 5"
 speakers: ["Yohei Nakajima"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Graphs"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Active Graph Agent Runtime (BabyAGI 4)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Graphs · Track 5
 - Speaker(s): Yohei Nakajima
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Graphs
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Proposing a novel event-sourced graph runtime for building long-running auditable, agentic systems.

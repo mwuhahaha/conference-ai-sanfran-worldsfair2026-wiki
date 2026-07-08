@@ -7,8 +7,10 @@ track: "Track 1"
 room: "Track 1"
 speakers: ["Laurie Voss"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track 1"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Track 1", "Track 1", "sponsor", "confirmed"]
 ---
-
 # From Vibes to Production: Evaluating and Shipping AI Agents That Work 101
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track 1 · Track 1
 - Speaker(s): Laurie Voss
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track 1
+- Room: Track 1
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Building an AI demo is easy. Knowing whether it actually works — and keeping it working in

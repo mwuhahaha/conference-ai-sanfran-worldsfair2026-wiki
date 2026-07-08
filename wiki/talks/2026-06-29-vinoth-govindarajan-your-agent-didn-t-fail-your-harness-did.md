@@ -7,8 +7,10 @@ track: "Claws & Personal Agents"
 room: "Track 1"
 speakers: ["Vinoth Govindarajan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Claws & Personal Agents"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 ---
-
 # Your Agent Didn’t Fail. Your Harness Did.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Claws & Personal Agents · Track 1
 - Speaker(s): Vinoth Govindarajan
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Claws & Personal Agents
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI agents do not fail only because the model is wrong. Many production failures happen in the

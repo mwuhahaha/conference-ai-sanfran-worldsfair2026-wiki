@@ -7,8 +7,10 @@ track: "Expo Stage 1"
 room: "Expo Stage 3 SW"
 speakers: ["Philipp Schmid"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 1"
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 1", "Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # Why Agents Should Have Their Own Sandbox
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 1 · Expo Stage 3 SW
 - Speaker(s): Philipp Schmid
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 1
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

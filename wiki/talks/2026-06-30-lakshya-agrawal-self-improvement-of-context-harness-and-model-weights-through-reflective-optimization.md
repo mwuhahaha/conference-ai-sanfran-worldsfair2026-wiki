@@ -7,8 +7,10 @@ track: "Autoresearch"
 room: "Main Stage"
 speakers: ["Lakshya Agrawal"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Autoresearch"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 ---
-
 # Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Autoresearch · Main Stage
 - Speaker(s): Lakshya Agrawal
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Autoresearch
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Large language models are increasingly adapted to downstream tasks via reinforcement learning

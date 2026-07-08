@@ -7,8 +7,10 @@ track: "Harness Engineering"
 room: "Main Stage"
 speakers: ["Giselle van Dongen"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Harness Engineering"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 ---
-
 # 🎵 Every step you take, every call you make - the reliable agent stack
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Harness Engineering · Main Stage
 - Speaker(s): Giselle van Dongen
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Harness Engineering
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 In this session, we skip past the demos that work only on your laptop, and go straight to how you

@@ -7,8 +7,10 @@ track: "Design Engineering"
 room: "Track 6"
 speakers: ["Paul Bakaus"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Design Engineering"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 ---
-
 # Design at the Speed of Adjectives
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Design Engineering · Track 6
 - Speaker(s): Paul Bakaus
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Design Engineering
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every design tool today operates at the wrong level of abstraction for AI-assisted engineering.

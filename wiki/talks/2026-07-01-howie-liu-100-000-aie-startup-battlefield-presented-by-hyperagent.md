@@ -7,8 +7,10 @@ track: "Startup Battlefield"
 room: "Networking Room"
 speakers: ["Howie Liu"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Startup Battlefield"
+scheduleRoom: "Networking Room"
+scheduleLabels: ["Startup Battlefield", "Networking Room", "session", "confirmed"]
 ---
-
 # $100,000 AIE Startup Battlefield — presented by Hyperagent
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Startup Battlefield · Networking Room
 - Speaker(s): Howie Liu
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Startup Battlefield
+- Room: Networking Room
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Twenty AI startup founders take the floor at Moscone West for a science fair-style demo gauntlet

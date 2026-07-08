@@ -7,8 +7,10 @@ track: "Claws & Personal Agents"
 room: "Track 1"
 speakers: ["Benjamin Guo", "Rob Cheung"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Claws & Personal Agents"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 ---
-
 # Everyone Gets A Software Company
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Claws & Personal Agents · Track 1
 - Speaker(s): Benjamin Guo, Rob Cheung
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Claws & Personal Agents
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

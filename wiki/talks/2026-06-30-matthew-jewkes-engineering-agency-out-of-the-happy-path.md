@@ -7,8 +7,10 @@ track: "AI Architects: Tokenmaxxing"
 room: "Leadership 2"
 speakers: ["Matthew Jewkes"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Tokenmaxxing"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "confirmed"]
 ---
-
 # Engineering Agency out of the Happy Path
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Tokenmaxxing · Leadership 2
 - Speaker(s): Matthew Jewkes
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Tokenmaxxing
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 I spent ‘24 and ‘25 structuring the entire written history of biopharma - through drugs, trials,

@@ -7,8 +7,10 @@ track: "Design Engineering"
 room: "Track 6"
 speakers: ["Maximillian Piras"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Design Engineering"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 ---
-
 # Mousepower: agents that can’t be measured, can’t be managed.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Design Engineering · Track 6
 - Speaker(s): Maximillian Piras
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Design Engineering
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agents have a measurement problem, which makes them impossible to efficiently manage. You’ve likely

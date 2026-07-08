@@ -7,8 +7,10 @@ track: "AI Architects: Show my Workflow"
 room: "Leadership 2"
 speakers: ["Sarthak Aggarwal"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Show my Workflow"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "confirmed"]
 ---
-
 # IT Admin for the AI Workforce: Why Your AI Agents Will Need Their Own IT Department
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Show my Workflow · Leadership 2
 - Speaker(s): Sarthak Aggarwal
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Show my Workflow
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Every enterprise will soon run two workforces - human and AI. Humans already have IT departments

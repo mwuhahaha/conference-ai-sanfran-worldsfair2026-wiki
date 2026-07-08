@@ -7,8 +7,10 @@ track: "Inference"
 room: "Track 9"
 speakers: ["Daniel Svonava"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 ---
-
 # Large clusters for small models
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Track 9
 - Speaker(s): Daniel Svonava
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Small task-specific models are cheaper, faster and narrowly better than the frontier. But a wide

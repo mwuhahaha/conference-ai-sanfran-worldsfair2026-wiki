@@ -7,8 +7,10 @@ track: "Inference"
 room: "Track 9"
 speakers: ["Ashok Chandrasekar", "Jason Kramberger"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 ---
-
 # Are LLM Performance Benchmarks Reliable?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Track 9
 - Speaker(s): Ashok Chandrasekar, Jason Kramberger
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Standardizing performance benchmarks for production-grade Large Language Models is currently a

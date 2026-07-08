@@ -7,8 +7,10 @@ track: "Workshops Day 3"
 room: "Track 4"
 speakers: ["John Lindquist"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 3"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 3", "Track 4", "session", "confirmed"]
 ---
-
 # The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 3 · Track 4
 - Speaker(s): John Lindquist
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 3
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 You opened a fifth agent tab this morning and immediately lost track of which one was doing what.

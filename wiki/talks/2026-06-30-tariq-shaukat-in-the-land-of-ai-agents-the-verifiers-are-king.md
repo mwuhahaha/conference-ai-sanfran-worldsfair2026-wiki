@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T15:31:39.049Z'
+scheduleTrack: "Software Factories"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Software Factories", "Main Stage", "keynote", "confirmed"]
 ---
 # In the Land of AI Agents, the Verifiers Are King
 
@@ -24,6 +27,12 @@ The session sits in the World's Fair 2026 Software Factories track, where coding
 - Track/room: Software Factories · Main Stage
 - Speaker(s): Tariq Shaukat
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 As AI agents take on increasingly complex development tasks, the critical challenge has shifted from

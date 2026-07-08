@@ -7,8 +7,10 @@ track: "AI Architects: Tokenmaxxing"
 room: "Leadership 1"
 speakers: ["Rania Khalaf"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Tokenmaxxing"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 1", "session", "confirmed"]
 ---
-
 # The Chief AI Officer: A framework for the emerging Swiss Army Knife of roles
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Tokenmaxxing · Leadership 1
 - Speaker(s): Rania Khalaf
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Tokenmaxxing
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 The Chief AI Officer (CAIO) is currently the C-Suite’s most "multiversal" role. In a single day, you

@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 4"
 speakers: ["Shubhankar Srivastava"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 1", "Track 4", "workshop", "confirmed"]
 ---
-
 # Hill-climbing Skills: How to Improve Agents Without Touching the Model
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 4
 - Speaker(s): Shubhankar Srivastava
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 4
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Agent Capability is now highly dependent on the markdown files read at runtime -- skills.This

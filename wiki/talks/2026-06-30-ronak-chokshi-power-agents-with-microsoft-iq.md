@@ -7,8 +7,10 @@ track: "Expo Stage 1"
 room: "Expo Stage 1 NE"
 speakers: ["Ronak Chokshi"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 1"
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1", "Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # Power agents with Microsoft IQ
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 1 · Expo Stage 1 NE
 - Speaker(s): Ronak Chokshi
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 1
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

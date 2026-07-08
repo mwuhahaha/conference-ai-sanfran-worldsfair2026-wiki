@@ -7,8 +7,10 @@ track: "Vision & OCR"
 room: "Track 2"
 speakers: ["Andrew Dai"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Vision & OCR"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 ---
-
 # The Best Models Still Reason Like Toddlers
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Vision & OCR · Track 2
 - Speaker(s): Andrew Dai
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Vision & OCR
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Frontier AI models score 80–90% on standard benchmarks like RKGI, yet when tested on visual tasks

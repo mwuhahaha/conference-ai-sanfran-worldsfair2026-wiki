@@ -7,8 +7,10 @@ track: "Posttraining & Midtraining"
 room: "Track 9"
 speakers: ["Ali Khial"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Posttraining & Midtraining"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"]
 ---
-
 # Benchmarks: The Good, the Bad, and the Ugly
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Posttraining & Midtraining · Track 9
 - Speaker(s): Ali Khial
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Posttraining & Midtraining
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 We’ll explore the good, the bad, and the ugly of AI benchmarks: where they provide useful signal,

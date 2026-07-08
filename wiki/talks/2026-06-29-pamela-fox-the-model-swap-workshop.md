@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 4"
 speakers: ["Pamela Fox", "Arun Sekhar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 1", "Track 4", "workshop", "confirmed"]
 ---
-
 # The model swap workshop
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 4
 - Speaker(s): Pamela Fox, Arun Sekhar
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 4
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Frontier labs are releasing new models constantly, and it is hard to know when “better” is better

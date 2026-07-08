@@ -7,8 +7,10 @@ track: "Voice & Realtime AI"
 room: "Track 6"
 speakers: ["Kwindla Kramer"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Voice & Realtime AI"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Voice & Realtime AI", "Track 6", "session", "confirmed"]
 ---
-
 # The New Primitives: Building AI-Native Software
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Voice & Realtime AI · Track 6
 - Speaker(s): Kwindla Kramer
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Voice & Realtime AI
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 In the future, every piece of software with a human-facing surface will be built from new, LLM-

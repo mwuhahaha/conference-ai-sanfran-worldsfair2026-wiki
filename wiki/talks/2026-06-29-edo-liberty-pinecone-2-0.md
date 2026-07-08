@@ -7,8 +7,10 @@ track: "Search & Retrieval"
 room: "Track 3"
 speakers: ["Edo Liberty"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Search & Retrieval"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 ---
-
 # Pinecone 2.0
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Search & Retrieval · Track 3
 - Speaker(s): Edo Liberty
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Search & Retrieval
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Autonomous agents are smart but don’t know your business or your objectives. That’s why most agents

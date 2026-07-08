@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 9"
 speakers: ["Paige Bailey"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Workshops Day 1", "Track 9", "workshop", "confirmed"]
 ---
-
 # Research to Reality with Google DeepMind
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 9
 - Speaker(s): Paige Bailey
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 9
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

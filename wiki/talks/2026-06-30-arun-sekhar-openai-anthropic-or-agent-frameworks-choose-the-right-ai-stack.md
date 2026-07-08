@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Arun Sekhar", "Pamela Fox"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # OpenAI, Anthropic, or agent frameworks: choose the right AI stack
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Arun Sekhar, Pamela Fox
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 OpenAI SDK, Anthropic SDK, or an LLM-agnostic agent framework. Which one should your next AI app be

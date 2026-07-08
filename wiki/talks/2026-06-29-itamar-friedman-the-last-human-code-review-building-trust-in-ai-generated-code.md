@@ -7,8 +7,10 @@ track: "AI Architects: Show my Workflow"
 room: "Leadership 2"
 speakers: ["Itamar Friedman"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Show my Workflow"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "confirmed"]
 ---
-
 # The Last Human Code Review: Building Trust in AI-Generated Code
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Show my Workflow · Leadership 2
 - Speaker(s): Itamar Friedman
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Show my Workflow
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 By the end of 2026, asking a human to review every pull request will be as optional as asking one to

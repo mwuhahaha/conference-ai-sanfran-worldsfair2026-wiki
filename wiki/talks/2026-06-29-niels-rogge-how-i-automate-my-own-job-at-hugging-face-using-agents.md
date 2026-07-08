@@ -7,8 +7,10 @@ track: "AI Architects: Show my Workflow"
 room: "Leadership 2"
 speakers: ["Niels Rogge"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Show my Workflow"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "confirmed"]
 ---
-
 # How I automate my own job at Hugging Face using agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Show my Workflow · Leadership 2
 - Speaker(s): Niels Rogge
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Show my Workflow
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 This talk will showcase how I automated a large part of my own job at Hugging Face. This involves

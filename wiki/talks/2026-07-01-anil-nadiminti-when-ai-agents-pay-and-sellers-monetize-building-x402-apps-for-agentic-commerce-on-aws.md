@@ -7,8 +7,10 @@ track: "Agentic Commerce"
 room: "Track 2"
 speakers: ["Anil Nadiminti"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Commerce"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 ---
-
 # When AI Agents Pay and Sellers Monetize: Building x402 Apps for Agentic Commerce on AWS
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Commerce · Track 2
 - Speaker(s): Anil Nadiminti
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Agentic Commerce
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 As Agentic AI moves from chat to execution, autonomous agents need a native way to discover, access,

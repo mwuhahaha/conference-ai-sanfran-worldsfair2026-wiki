@@ -7,8 +7,10 @@ track: "AI Architects: Show my Workflow"
 room: "Leadership 2"
 speakers: ["Dan Bjornn"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Show my Workflow"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "confirmed"]
 ---
-
 # Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Show my Workflow · Leadership 2
 - Speaker(s): Dan Bjornn
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Show my Workflow
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 We built an AI application on top of fine-tuned models that generated $12M in revenue at 50x ROI. It

@@ -7,8 +7,10 @@ track: "Security"
 room: "Track 5"
 speakers: ["Steve Yegge"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Security"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Agentic Security: Permissions, Provenance, and the Agent Supply Chain
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Security · Track 5
 - Speaker(s): Steve Yegge
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Security
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 As AI agents move from demos into production engineering workflows, the security boundary shifts

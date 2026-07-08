@@ -7,8 +7,10 @@ track: "Track 2"
 room: "Track 2"
 speakers: ["Zach Blumenfeld"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track 2"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Track 2", "Track 2", "sponsor", "confirmed"]
 ---
-
 # AI on Your Lakehouse: Context Comes in Shapes, Not Queries
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track 2 · Track 2
 - Speaker(s): Zach Blumenfeld
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track 2
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Your agent can reach your data but still can't use it reliably: vector search and Text2SQL each hand

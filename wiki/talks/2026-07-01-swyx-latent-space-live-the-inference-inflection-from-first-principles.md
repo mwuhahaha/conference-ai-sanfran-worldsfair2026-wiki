@@ -7,8 +7,10 @@ track: "Expo Stage 2"
 room: "Expo Stage 2 NW"
 speakers: ["swyx", "Rob Wachen"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 2"
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2", "Expo Stage 2 NW", "session", "confirmed"]
 ---
-
 # Latent Space Live: the Inference Inflection from First Principles
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 2 · Expo Stage 2 NW
 - Speaker(s): swyx, Rob Wachen
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 2
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

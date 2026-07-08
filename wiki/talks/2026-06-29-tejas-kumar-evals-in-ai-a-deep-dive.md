@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 1"
 speakers: ["Tejas Kumar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Workshops Day 1", "Track 1", "workshop", "confirmed"]
 ---
-
 # Evals in AI: A Deep Dive
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 1
 - Speaker(s): Tejas Kumar
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 1
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 “Our evals pass and our velocity is up, so it works.” It’s the most reassuring sentence in AI

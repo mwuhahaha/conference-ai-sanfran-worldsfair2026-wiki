@@ -7,8 +7,10 @@ track: "Track 9"
 room: "Track 9"
 speakers: ["Doug Guthrie"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Track 9"
+scheduleLabels: ["Track 9", "session", "confirmed"]
 ---
-
 # Advanced workshop: Mastering AI Observability
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Track 9
 - Speaker(s): Doug Guthrie
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Your AI is in production, but is it actually good? In this hands-on workshop, you'll learn how to

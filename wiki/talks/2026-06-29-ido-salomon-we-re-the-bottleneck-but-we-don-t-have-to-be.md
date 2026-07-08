@@ -7,8 +7,10 @@ track: "Software Factories"
 room: "Main Stage"
 speakers: ["Ido Salomon"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Software Factories"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Software Factories", "Main Stage", "session", "confirmed"]
 ---
-
 # We're the bottleneck, but we don't have to be
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Software Factories · Main Stage
 - Speaker(s): Ido Salomon
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 As agents improve at doing real work, humans become the real bottleneck. Luckily, the skills we need

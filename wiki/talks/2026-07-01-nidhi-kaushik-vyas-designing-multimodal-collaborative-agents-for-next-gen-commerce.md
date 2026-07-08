@@ -7,8 +7,10 @@ track: "Agentic Commerce"
 room: "Track 2"
 speakers: ["Nidhi Kaushik Vyas"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Commerce"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 ---
-
 # Designing Multimodal Collaborative Agents for Next-Gen Commerce
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Commerce · Track 2
 - Speaker(s): Nidhi Kaushik Vyas
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Agentic Commerce
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Today's commerce agents wait to be told what to look for. But most users live by a different rule:

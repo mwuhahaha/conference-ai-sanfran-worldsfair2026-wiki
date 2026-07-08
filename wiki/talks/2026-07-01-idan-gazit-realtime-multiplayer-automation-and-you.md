@@ -7,8 +7,10 @@ track: "Agentic Engineering"
 room: "Track 8"
 speakers: ["Idan Gazit"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # Realtime multiplayer, automation, and you!
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Engineering · Track 8
 - Speaker(s): Idan Gazit
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Now that the models are powerful and the agents are capable, why are we still approaching software

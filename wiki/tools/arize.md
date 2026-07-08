@@ -1,0 +1,67 @@
+---
+title: "Arize"
+category: "tools"
+aliases: ["Arize"]
+sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
+scheduleTracks: ["Evals"]
+scheduleRooms: ["Track 5"]
+---
+
+# Arize
+
+## Why It Belongs
+Arize appears as a high-confidence tool, platform, model, protocol, product, or service in the AI Engineer World's Fair 2026 corpus.
+
+This page records confirmed mentions and keeps them separate from broader inferred relevance.
+
+## Confirmed Evidence
+
+### Official Schedule
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent]] — From Signal to PR: Anatomy of a Self-Improving Agent (Evals / Track 5)
+
+### Public YouTube Metadata
+- [YouTube fWXJM-J0ZB8](https://www.youtube.com/watch?v=fWXJM-J0ZB8) — Frontier results, on device - RL Nabors, Arize
+- [YouTube JsCCrBF7F1g](https://www.youtube.com/watch?v=JsCCrBF7F1g) — LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize
+- [YouTube Xfl50508LZM](https://www.youtube.com/watch?v=Xfl50508LZM) — Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize
+- [YouTube SbcQYbrvAfI](https://www.youtube.com/watch?v=SbcQYbrvAfI) — Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize
+- [YouTube 2HNSG990Ew8](https://www.youtube.com/watch?v=2HNSG990Ew8) — Shipping AI That Works: An Evaluation Framework for PMs – Aman Khan, Arize
+- [YouTube pP_dSNz_EdQ](https://www.youtube.com/watch?v=pP_dSNz_EdQ) — The Unreasonable Effectiveness of Prompt Learning – Aparna Dhinakaran, Arize
+- [YouTube spvXj9tnWAQ](https://www.youtube.com/watch?v=spvXj9tnWAQ) — Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize
+- [YouTube OC04sP_QgTI](https://www.youtube.com/watch?v=OC04sP_QgTI) — Ensure AI Agents Work: Evaluation Frameworks for Scaling Success — Aparna Dhinkaran, CEO Arize
+- [YouTube m12vGjfbNlo](https://www.youtube.com/watch?v=m12vGjfbNlo) — AIE Singapore Day 2 ft. Google DeepMind, OpenClaw, Adaption, Arize, Cloudflare, Robot Company & more
+- [YouTube DeM_u2Ik0sk](https://www.youtube.com/watch?v=DeM_u2Ik0sk) — AIE Miami Day 2 ft. Cerebras, OpenCode, Cursor, Arize AI, and more!
+
+### Resource Pages
+- [[advanced-slide-logic-page-audit]]
+- [[talk-video-transcript-map]]
+- [[youtube-JsCCrBF7F1g]]
+- [[youtube-SbcQYbrvAfI]]
+- [[youtube-Xfl50508LZM]]
+- [[youtube-fWXJM-J0ZB8]]
+
+### Slide/OCR Pages
+- [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-JsCCrBF7F1g-dense-slides]]
+- [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+- [[youtube-JsCCrBF7F1g-slides]]
+- [[youtube-Lc8zRh9muoY-slides]]
+- [[youtube-SbcQYbrvAfI-dense-slides]]
+- [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- [[youtube-SbcQYbrvAfI-slides]]
+- [[youtube-Xfl50508LZM-dense-slides]]
+- [[youtube-Xfl50508LZM-reconstructed-slides]]
+
+### Topic Pages
+- [[agent-evaluations]]
+- [[autoresearch]]
+- [[coding-agents]]
+- [[inference-engineering]]
+- [[mcp]]
+- [[voice-agents]]
+
+### Transcript Files
+- `raw/sources/youtube-transcripts/Xfl50508LZM.txt`
+- `raw/sources/youtube-transcripts/fWXJM-J0ZB8.txt`
+
+## Confidence
+High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

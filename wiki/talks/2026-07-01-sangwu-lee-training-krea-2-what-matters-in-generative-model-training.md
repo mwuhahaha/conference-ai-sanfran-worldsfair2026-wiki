@@ -7,8 +7,10 @@ track: "Generative Media"
 room: "Track 1"
 speakers: ["Sangwu Lee"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Generative Media"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 ---
-
 # Training Krea 2 - What matters in generative model training.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Generative Media · Track 1
 - Speaker(s): Sangwu Lee
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Generative Media
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Learn how Krea trained its first image foundation model from scratch. I will discuss 1. Our training

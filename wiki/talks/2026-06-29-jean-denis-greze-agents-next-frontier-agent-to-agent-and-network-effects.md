@@ -7,8 +7,10 @@ track: "Claws & Personal Agents"
 room: "Track 1"
 speakers: ["Jean-Denis Greze"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Claws & Personal Agents"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 ---
-
 # Agents' next frontier: agent-to-agent and network effects
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Claws & Personal Agents · Track 1
 - Speaker(s): Jean-Denis Greze
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Claws & Personal Agents
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 MCP v. CLI was about how agents talk to tools. That’s not settled (but we’re camp MCP… mostly).

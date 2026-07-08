@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 8"
 speakers: ["Joel Hooks"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Workshops Day 1", "Track 8", "workshop", "confirmed"]
 ---
-
 # The Art and Science of Loopcraft with Pi (and friends)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 8
 - Speaker(s): Joel Hooks
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 8
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 This workshop helps agentic coding practitioners stop treating agents like pretend coworkers and

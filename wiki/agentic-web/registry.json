@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2026-06-29-will-bryk-the-search-engine-for-the-agentic-web",
+    "title": "The Search Engine for the Agentic Web",
+    "path": "wiki/talks/2026-06-29-will-bryk-the-search-engine-for-the-agentic-web.md",
+    "date": "2026-06-29",
+    "time": "11:40am-12:00pm",
+    "track": "Search & Retrieval",
+    "room": "Track 3",
+    "speakers": [
+      "Will Bryk"
+    ]
+  },
+  {
+    "id": "2026-06-29-liad-yosef-rebuilding-the-web-for-agents",
+    "title": "Rebuilding the web for agents",
+    "path": "wiki/talks/2026-06-29-liad-yosef-rebuilding-the-web-for-agents.md",
+    "date": "2026-06-29",
+    "time": "12:05pm-12:25pm",
+    "track": "Search & Retrieval",
+    "room": "Track 3",
+    "speakers": [
+      "Liad Yosef"
+    ]
+  },
+  {
+    "id": "2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data",
+    "title": "Building AI Agents with Real-Time Web Data",
+    "path": "wiki/talks/2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data.md",
+    "date": "2026-06-29",
+    "time": "12:10pm-1:10pm",
+    "track": "Track 8",
+    "room": "Track 8",
+    "speakers": [
+      "Yohan Raju"
+    ]
+  },
+  {
+    "id": "2026-06-29-derek-meegan-deploying-browser-agents-at-scale",
+    "title": "Deploying browser agents at scale",
+    "path": "wiki/talks/2026-06-29-derek-meegan-deploying-browser-agents-at-scale.md",
+    "date": "2026-06-29",
+    "time": "1:55pm-2:15pm",
+    "track": null,
+    "room": "Expo Stage 4 SE",
+    "speakers": [
+      "Derek Meegan"
+    ]
+  },
+  {
+    "id": "2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis",
+    "title": "Computer-use models will agentify the web, not APIs",
+    "path": "wiki/talks/2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis.md",
+    "date": "2026-06-30",
+    "time": "10:45am-11:05am",
+    "track": "Computer Use",
+    "room": "Track 7",
+    "speakers": [
+      "Dhruv Batra"
+    ]
+  },
+  {
+    "id": "2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs",
+    "title": "The Death of Keyword Search and the Rise of Agent-Readable Catalogs",
+    "path": "wiki/talks/2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs.md",
+    "date": "2026-06-30",
+    "time": "11:10am-11:30am",
+    "track": "Expo Stage 3",
+    "room": "Expo Stage 3 SW",
+    "speakers": [
+      "Nixon Dinh"
+    ]
+  },
+  {
+    "id": "2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web",
+    "title": "Bringing agents onto the world wide web",
+    "path": "wiki/talks/2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web.md",
+    "date": "2026-06-30",
+    "time": "11:40am-12:00pm",
+    "track": "Computer Use",
+    "room": "Track 7",
+    "speakers": [
+      "Paul Klein IV"
+    ]
+  },
+  {
+    "id": "2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans",
+    "title": "The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans",
+    "path": "wiki/talks/2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans.md",
+    "date": "2026-06-30",
+    "time": "12:05pm-12:25pm",
+    "track": "Computer Use",
+    "room": "Track 7",
+    "speakers": [
+      "Corey Gallon"
+    ]
+  },
+  {
+    "id": "2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai",
+    "title": "How Web Data Infrastructure Powers the Next Generation of AI",
+    "path": "wiki/talks/2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai.md",
+    "date": "2026-06-30",
+    "time": "3:20pm-3:40pm",
+    "track": "Computer Use",
+    "room": "Track 7",
+    "speakers": [
+      "Patricija Žemaitytė"
+    ]
+  },
+  {
+    "id": "2026-07-01-james-russo-html-is-all-agents-need",
+    "title": "HTML Is All Agents Need",
+    "path": "wiki/talks/2026-07-01-james-russo-html-is-all-agents-need.md",
+    "date": "2026-07-01",
+    "time": "11:10am-11:30am",
+    "track": "Generative Media",
+    "room": "Track 1",
+    "speakers": [
+      "James Russo"
+    ]
+  }
+]

@@ -7,8 +7,10 @@ track: "Agentic Engineering"
 room: "Track 8"
 speakers: ["Anirban Chatterjee"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Engineering · Track 8
 - Speaker(s): Anirban Chatterjee
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agentic development is not a productivity story: it's a reliability engineering problem at a scale

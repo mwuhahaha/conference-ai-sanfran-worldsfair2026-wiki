@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 8"
 speakers: ["Filip Makraduli"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Workshops Day 1", "Track 8", "sponsor", "confirmed"]
 ---
-
 # Turning My Obsidian Vault Into a Local AI Engineer
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 8
 - Speaker(s): Filip Makraduli
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 8
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Personal knowledge bases are messy, but engineering agents need memory: decisions, docs, TODOs, old

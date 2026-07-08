@@ -7,8 +7,10 @@ track: "AI in Healthcare"
 room: "Track 7"
 speakers: ["Christopher Lovejoy", "Saul Howard"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in Healthcare"
+scheduleRoom: "Track 7"
+scheduleLabels: ["AI in Healthcare", "Track 7", "session", "confirmed"]
 ---
-
 # Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in Healthcare · Track 7
 - Speaker(s): Christopher Lovejoy, Saul Howard
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in Healthcare
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agent-executed work is a new infrastructure primitive. Until you treat it that way, you're running a

@@ -7,8 +7,10 @@ track: "Voice & Realtime AI"
 room: "Track 6"
 speakers: ["Amit Desai"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Voice & Realtime AI"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Voice & Realtime AI", "Track 6", "session", "confirmed"]
 ---
-
 # Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Voice & Realtime AI · Track 6
 - Speaker(s): Amit Desai
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Voice & Realtime AI
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Voice is our favorite way to command AI assistants and robots — and it is error-prone. The

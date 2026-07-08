@@ -7,8 +7,10 @@ track: "Expo Stage 4"
 room: "Expo Stage 4 SE"
 speakers: ["Matt Lawler"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 4"
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Expo Stage 4", "Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # FDE Playbook: Build an AI Support Agent and Give It a Voice
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 4 · Expo Stage 4 SE
 - Speaker(s): Matt Lawler
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 4
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Bio: Matt Lawler leads FDE for Onboarding at AssemblyAI, helping teams ship speech-to-text and voice

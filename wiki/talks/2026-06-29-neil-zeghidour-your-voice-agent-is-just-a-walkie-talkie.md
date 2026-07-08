@@ -7,8 +7,10 @@ track: "Claws & Personal Agents"
 room: "Track 6"
 speakers: ["Neil Zeghidour"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Claws & Personal Agents"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Claws & Personal Agents", "Track 6", "session", "confirmed"]
 ---
-
 # Your Voice Agent is Just a Walkie-Talkie
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Claws & Personal Agents · Track 6
 - Speaker(s): Neil Zeghidour
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Claws & Personal Agents
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Everyone says cascaded voice pipelines are dead and native speech models are the future. Yet

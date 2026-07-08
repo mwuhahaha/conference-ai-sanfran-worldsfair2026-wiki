@@ -7,8 +7,10 @@ track: "Local AI"
 room: "Track 4"
 speakers: ["Carter Abdallah", "Vincent Weisser", "Lucas Atkins", "Chris Alexiuk"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Local AI"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ---
-
 # Local Models: Trust, Control, Optimization
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Local AI · Track 4
 - Speaker(s): Carter Abdallah, Vincent Weisser, Lucas Atkins, Chris Alexiuk
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Local AI
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Local Models: Trust, Control, Optimization looks at why builders are choosing local AI for privacy,

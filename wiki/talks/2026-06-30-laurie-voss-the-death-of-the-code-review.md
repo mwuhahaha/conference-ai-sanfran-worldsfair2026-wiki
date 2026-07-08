@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T15:24:27.004Z'
+scheduleTrack: "AI Architects: Tokenmaxxing"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "confirmed"]
 ---
 # The Death of the Code Review
 
@@ -22,6 +25,12 @@ last_auto_summarized: '2026-07-03T15:24:27.004Z'
 
 ## Summary
 Laurie Voss frames code review as a process built around human-authored diffs and argues that AI-native software teams need a different control point: automated verification that can decide whether generated code is safe to ship. The connected supporting material, especially Voss's AI Engineer talk on hands-on evals for agentic applications, points toward evaluation harnesses as the replacement layer: systems that capture reviewer judgment, test agent behavior, and turn recurring review patterns into repeatable checks. In the World's Fair context, this session sits squarely in the Software Factories theme: moving from artisanal review toward production pipelines where coding agents, prompts, tests, evals, and observability form the release gate.
+
+## Schedule Labels
+- Track: AI Architects: Tokenmaxxing
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Code review was built for a world where humans wrote all the code. Now, the question isn’t “does

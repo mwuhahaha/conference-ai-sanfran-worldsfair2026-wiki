@@ -7,8 +7,10 @@ track: "AI Architects: Show my Workflow"
 room: "Leadership 2"
 speakers: ["Ameya Bhatawdekar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Show my Workflow"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "confirmed"]
 ---
-
 # Your Agent Evolved. Your Evals Didn't.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Show my Workflow · Leadership 2
 - Speaker(s): Ameya Bhatawdekar
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Show my Workflow
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Knowing which generation your agent is in, which failure modes your current evals are blind to, and

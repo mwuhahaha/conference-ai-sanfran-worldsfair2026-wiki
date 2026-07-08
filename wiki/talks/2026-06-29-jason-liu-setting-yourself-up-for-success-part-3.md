@@ -7,8 +7,10 @@ track: "Workshops Day 2"
 room: "Track 4"
 speakers: ["Jason Liu"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 2"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 2", "Track 4", "session", "confirmed"]
 ---
-
 # Setting Yourself Up for Success — Part 3
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 2 · Track 4
 - Speaker(s): Jason Liu
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 2
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 I will walk you through the process of understanding how Codex works as a general tool to control

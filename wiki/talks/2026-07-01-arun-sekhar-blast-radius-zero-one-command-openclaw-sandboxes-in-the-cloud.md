@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Arun Sekhar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Arun Sekhar
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 You already run OpenClaw locally, sandboxed in MXC. Now you need the same agent in the cloud for

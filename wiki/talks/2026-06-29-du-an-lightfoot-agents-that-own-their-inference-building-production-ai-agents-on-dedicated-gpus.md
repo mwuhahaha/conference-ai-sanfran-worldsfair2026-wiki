@@ -13,6 +13,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T20:02:16.974Z'
+scheduleTrack: ""
+scheduleRoom: "Track 7"
+scheduleLabels: ["Track 7", "sponsor", "confirmed"]
 ---
 # Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs
 
@@ -21,6 +24,12 @@ last_auto_summarized: '2026-07-06T20:02:16.974Z'
 - Room: Track 7
 - Speaker(s): Du'an Lightfoot
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Track 7
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Every production agent today is renting its intelligence. You're paying per token, sending your

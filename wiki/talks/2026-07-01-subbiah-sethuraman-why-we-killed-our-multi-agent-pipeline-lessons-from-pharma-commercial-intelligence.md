@@ -7,8 +7,10 @@ track: "Graphs"
 room: "Track 5"
 speakers: ["Subbiah Sethuraman", "Abhilash Asokan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Graphs"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Graphs · Track 5
 - Speaker(s): Subbiah Sethuraman, Abhilash Asokan
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Graphs
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Key takeaways: A practical design principle for agentic systems in regulated, high-stakes domains:

@@ -7,8 +7,10 @@ track: "AI in GTM"
 room: "Track 6"
 speakers: ["Arman Vaziri"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in GTM"
+scheduleRoom: "Track 6"
+scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 ---
-
 # The Building Blocks of GTM Orchestration
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in GTM · Track 6
 - Speaker(s): Arman Vaziri
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in GTM
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Ramp built its own 0→1 revenue stack in-house — Ramp Revenue — with one mandate: build the most

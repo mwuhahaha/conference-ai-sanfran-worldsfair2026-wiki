@@ -7,8 +7,10 @@ track: "Track 2"
 room: "Track 2"
 speakers: ["Nyah Macklin"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track 2"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Track 2", "Track 2", "sponsor", "confirmed"]
 ---
-
 # RAG Needs a Map: Using GraphRAG to Retrieve Connected Context
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track 2 · Track 2
 - Speaker(s): Nyah Macklin
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track 2
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Vector search is good at finding similar text, but real answers often depend on how facts, entities,

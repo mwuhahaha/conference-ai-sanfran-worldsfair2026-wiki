@@ -7,8 +7,10 @@ track: "Voice & Realtime AI"
 room: "Track 6"
 speakers: ["Sumanyu Sharma"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Voice & Realtime AI"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Voice & Realtime AI", "Track 6", "session", "confirmed"]
 ---
-
 # I Monitored Crime Audio. Voice Agents Scare Me More.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Voice & Realtime AI · Track 6
 - Speaker(s): Sumanyu Sharma
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Voice & Realtime AI
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Bad voice-agent calls are starting to look less like QA bugs and more like incident scenes. I

@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 7"
 speakers: ["Peter Werry"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Workshops Day 1", "Track 7", "workshop", "confirmed"]
 ---
-
 # Beyond RAG: Build a Relational Context Engine from Scratch
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 7
 - Speaker(s): Peter Werry
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 7
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 In this workshop we'll explore the importance of context engines in modern engineering workflows,

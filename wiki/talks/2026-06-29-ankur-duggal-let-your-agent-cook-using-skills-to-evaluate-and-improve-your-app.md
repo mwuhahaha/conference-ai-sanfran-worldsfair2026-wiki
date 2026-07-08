@@ -7,8 +7,10 @@ track: "Track 1"
 room: "Track 1"
 speakers: ["Ankur Duggal"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track 1"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Track 1", "Track 1", "sponsor", "confirmed"]
 ---
-
 # Let your agent cook: using skills to evaluate and improve your app
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track 1 · Track 1
 - Speaker(s): Ankur Duggal
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track 1
+- Room: Track 1
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

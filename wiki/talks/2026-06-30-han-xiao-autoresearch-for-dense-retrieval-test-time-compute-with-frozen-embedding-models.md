@@ -7,8 +7,10 @@ track: "Autoresearch"
 room: "Main Stage"
 speakers: ["Han Xiao"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Autoresearch"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 ---
-
 # Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Autoresearch · Main Stage
 - Speaker(s): Han Xiao
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Autoresearch
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Test-time compute is widely believed to benefit only large reasoning models. We show it also helps

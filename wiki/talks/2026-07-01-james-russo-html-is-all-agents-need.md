@@ -7,8 +7,10 @@ track: "Generative Media"
 room: "Track 1"
 speakers: ["James Russo"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Generative Media"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 ---
-
 # HTML Is All Agents Need
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Generative Media · Track 1
 - Speaker(s): James Russo
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Generative Media
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 LLMs are great at writing code. So the question we kept asking was: can they write code that

@@ -7,8 +7,10 @@ track: "Harness Engineering"
 room: "Main Stage"
 speakers: ["Kay Malcolm"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Harness Engineering"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 ---
-
 # No Memory, No Harness: Why the Database Is the Last Line of Defense
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Harness Engineering · Main Stage
 - Speaker(s): Kay Malcolm
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Harness Engineering
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 The model is the easy part. Everything that makes an agent survive contact with production lives in

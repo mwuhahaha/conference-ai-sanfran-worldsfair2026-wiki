@@ -7,8 +7,10 @@ track: "Computer Use"
 room: "Track 7"
 speakers: ["Gaurav Mishra"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Computer Use"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
 ---
-
 # From RL to IRL
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Computer Use · Track 7
 - Speaker(s): Gaurav Mishra
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Computer Use
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Today's agents have to operate in a messy reality of flaky connections, ephemeral credentials, and

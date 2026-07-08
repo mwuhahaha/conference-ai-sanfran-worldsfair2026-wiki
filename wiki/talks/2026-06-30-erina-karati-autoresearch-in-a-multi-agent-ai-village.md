@@ -7,8 +7,10 @@ track: "Autoresearch"
 room: "Main Stage"
 speakers: ["Erina Karati", "Arunachalam Manikandan"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Autoresearch"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 ---
-
 # Autoresearch in a Multi-Agent AI Village
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Autoresearch · Main Stage
 - Speaker(s): Erina Karati, Arunachalam Manikandan
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Autoresearch
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Project Paradox is an existing multi-agent framework built at Supercell's first AI Innovation Lab,

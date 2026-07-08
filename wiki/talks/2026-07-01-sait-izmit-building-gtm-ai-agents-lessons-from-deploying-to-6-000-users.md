@@ -7,8 +7,10 @@ track: "AI in GTM"
 room: "Track 6"
 speakers: ["Sait Izmit"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in GTM"
+scheduleRoom: "Track 6"
+scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 ---
-
 # Building GTM AI Agents: Lessons from Deploying to 6,000 Users
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in GTM · Track 6
 - Speaker(s): Sait Izmit
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in GTM
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Building an enterprise AI agent for GTM teams isn't just an LLM problem—it's a product, engineering,

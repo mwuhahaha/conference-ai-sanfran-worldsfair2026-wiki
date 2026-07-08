@@ -7,8 +7,10 @@ track: "Computer Use"
 room: "Track 7"
 speakers: ["Paul Klein IV"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Computer Use"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
 ---
-
 # Bringing agents onto the world wide web
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Computer Use · Track 7
 - Speaker(s): Paul Klein IV
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Computer Use
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 The web wasn't built for agents. Heavy HTML, human-first UIs, and a DOM that can hijack the model's

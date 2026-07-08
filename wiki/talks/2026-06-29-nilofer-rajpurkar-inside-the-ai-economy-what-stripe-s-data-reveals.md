@@ -7,8 +7,10 @@ track: "Agentic Commerce"
 room: "Leadership 1"
 speakers: ["Nilofer Rajpurkar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Commerce"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["Agentic Commerce", "Leadership 1", "session", "confirmed"]
 ---
-
 # Inside the AI economy: What Stripe’s data reveals
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Commerce · Leadership 1
 - Speaker(s): Nilofer Rajpurkar
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Commerce
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Stripe powers 78% of the Forbes AI 50, giving Stripe index-level visibility into the AI economy. AI

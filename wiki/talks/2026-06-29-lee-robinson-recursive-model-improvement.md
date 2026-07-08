@@ -7,8 +7,10 @@ track: "Software Factories"
 room: "Main Stage"
 speakers: ["Lee Robinson"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Software Factories"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Software Factories", "Main Stage", "keynote", "confirmed"]
 ---
-
 # Recursive Model Improvement
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Software Factories · Main Stage
 - Speaker(s): Lee Robinson
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

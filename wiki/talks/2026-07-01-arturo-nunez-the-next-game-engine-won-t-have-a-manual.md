@@ -7,8 +7,10 @@ track: "Generative Media"
 room: "Track 1"
 speakers: ["Arturo Nunez"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Generative Media"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 ---
-
 # The Next Game Engine Won't Have a Manual
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Generative Media · Track 1
 - Speaker(s): Arturo Nunez
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Generative Media
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Game development is still incredibly hard to get right. It requires great engineering, artistic

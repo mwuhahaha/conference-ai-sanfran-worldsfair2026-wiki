@@ -7,8 +7,10 @@ track: "Expo Stage NE"
 room: "Expo Stage 1 NE"
 speakers: ["Dor Sasson"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage NE"
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage NE", "Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # Every AI company is accidentally building a bank.
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage NE · Expo Stage 1 NE
 - Speaker(s): Dor Sasson
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage NE
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 You're logging usage, billing later, hoping agents behave. They don't. Here's the architecture that

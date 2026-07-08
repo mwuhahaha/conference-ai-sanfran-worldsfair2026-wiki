@@ -7,8 +7,10 @@ track: "Design Engineering"
 room: "Track 6"
 speakers: ["Jeremiah Lowin"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Design Engineering"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 ---
-
 # Generative UI... in Python?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Design Engineering · Track 6
 - Speaker(s): Jeremiah Lowin
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Design Engineering
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 MCP Apps are a big deal: tools can now return dashboards, forms, and visualizations directly in the

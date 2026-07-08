@@ -7,8 +7,10 @@ track: "Agentic Commerce"
 room: "Track 2"
 speakers: ["Anna Spysz"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Commerce"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 ---
-
 # Teaching agents to pay
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Commerce · Track 2
 - Speaker(s): Anna Spysz
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Agentic Commerce
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 With a global daily user base in the hundreds of millions, AI agents are rapidly becoming a primary

@@ -7,8 +7,10 @@ track: "Voice & Realtime AI"
 room: "Track 6"
 speakers: ["Charlie Guo"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Voice & Realtime AI"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Voice & Realtime AI", "Track 6", "session", "confirmed"]
 ---
-
 # Voice Agents Can Just Do Things
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Voice & Realtime AI · Track 6
 - Speaker(s): Charlie Guo
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Voice & Realtime AI
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Too many voice AI integrations still treat speech as fancier chat: audio in, audio out. But we're at

@@ -7,8 +7,10 @@ track: "Track 7"
 room: "Track 7"
 speakers: ["Palak Agarwal"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: ""
+scheduleRoom: "Track 7"
+scheduleLabels: ["Track 7", "sponsor", "confirmed"]
 ---
-
 # How Reducto parsed the Epstein Files for the Viral JMail Project: The Secret Complexities of Document
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: track TBD · Track 7
 - Speaker(s): Palak Agarwal
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Track 7
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Reducto powered the infrastructure behind Jmail, a fully searchable email interface with over 3.5

@@ -7,8 +7,10 @@ track: "Memory & Continual Learning"
 room: "Track 3"
 speakers: ["Ben Hylak"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Memory & Continual Learning"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed"]
 ---
-
 # Designing Agents (The Floor Is the Frontier)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Memory & Continual Learning · Track 3
 - Speaker(s): Ben Hylak
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Memory & Continual Learning
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 You know how smart your agent can be. You have no idea how dumb it gets until it does the dumbest

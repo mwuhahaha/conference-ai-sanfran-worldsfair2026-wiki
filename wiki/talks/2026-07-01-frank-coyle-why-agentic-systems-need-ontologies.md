@@ -7,8 +7,10 @@ track: "Graphs"
 room: "Track 5"
 speakers: ["Frank Coyle"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Graphs"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Why Agentic Systems Need Ontologies
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Graphs · Track 5
 - Speaker(s): Frank Coyle
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Graphs
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Agentic systems fail in predictable ways: context degradation, brittle tool descriptions, fragile

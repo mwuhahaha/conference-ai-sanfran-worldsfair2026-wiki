@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 3"
 speakers: ["Daniel Han"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Workshops Day 1", "Track 3", "session", "confirmed"]
 ---
-
 # Special topics in Kernels, RL, Reward Hacking in Agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 3
 - Speaker(s): Daniel Han
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 An advanced seminar (good prerequisites: Daniel's 2024 and 2025 hit AIE workshops, but all are

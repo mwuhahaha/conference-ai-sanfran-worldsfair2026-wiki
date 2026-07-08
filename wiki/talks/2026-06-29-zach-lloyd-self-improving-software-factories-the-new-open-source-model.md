@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T15:22:51.022Z'
+scheduleTrack: "Software Factories"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Software Factories", "Main Stage", "session", "confirmed"]
 ---
 # Self-Improving software factories: The new open source model"
 
@@ -22,6 +25,12 @@ Zach Lloyd’s Main Stage session sits squarely in the Software Factories track:
 - Track/room: Software Factories · Main Stage
 - Speaker(s): Zach Lloyd
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Alt titles: Agent orchestration with message passing / Agent orchestration for every model / Warp’s

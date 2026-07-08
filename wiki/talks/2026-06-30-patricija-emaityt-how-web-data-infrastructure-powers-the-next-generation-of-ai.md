@@ -7,8 +7,10 @@ track: "Computer Use"
 room: "Track 7"
 speakers: ["Patricija Žemaitytė"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Computer Use"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
 ---
-
 # How Web Data Infrastructure Powers the Next Generation of AI
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Computer Use · Track 7
 - Speaker(s): Patricija Žemaitytė
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Computer Use
+- Room: Track 7
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 For years, the web intelligence industry has powered major data developments. As big data grew,

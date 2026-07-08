@@ -7,8 +7,10 @@ track: "Vision & OCR"
 room: "Track 2"
 speakers: ["Jerry Liu"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Vision & OCR"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 ---
-
 # Building the Document Context Layer for AI Agents
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Vision & OCR · Track 2
 - Speaker(s): Jerry Liu
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Vision & OCR
+- Room: Track 2
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 AI agents are the new knowledge workers, but knowledge work depends on unstructured enterprise

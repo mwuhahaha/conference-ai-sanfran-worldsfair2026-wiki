@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T15:25:57.713Z'
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 ---
 # How to generate mergeable code with a context engine
 
@@ -24,6 +27,12 @@ The talk fits the World's Fair software-factories theme because it treats AI cod
 - Track/room: track TBD · Expo Stage 2 NW
 - Speaker(s): Peter Werry
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Your agents are fast, capable, and completely context-blind. They generate code that compiles but

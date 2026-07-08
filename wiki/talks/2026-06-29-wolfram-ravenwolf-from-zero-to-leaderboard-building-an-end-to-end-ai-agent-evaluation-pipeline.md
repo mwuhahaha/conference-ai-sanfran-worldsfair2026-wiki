@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 5"
 speakers: ["Wolfram Ravenwolf"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Workshops Day 1", "Track 5", "workshop", "confirmed"]
 ---
-
 # From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 5
 - Speaker(s): Wolfram Ravenwolf
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 5
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Running one agent eval is easy. Running hundreds — with controlled timeouts, replicated configs, and

@@ -7,8 +7,10 @@ track: "Context Engineering"
 room: "Track 8"
 speakers: ["Dustin Mihalik"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Context Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # MCP Apps: Give the Model Data, Give the User a UI
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Context Engineering · Track 8
 - Speaker(s): Dustin Mihalik
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Context Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Most MCP tools return text. MCP Apps let you go further. But the real unlock isn't just rendering a

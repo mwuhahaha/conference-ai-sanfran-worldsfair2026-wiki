@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T09:33:55.904Z'
+scheduleTrack: ""
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 ---
 # Modular: Taming the AI Hardware Cambrian Explosion
 
@@ -24,6 +27,12 @@ The talk's evidence layer is still schedule-only in this clean wiki: no exact AI
 - Track/room: track TBD · Expo Stage 1 NE
 - Speaker(s): Abdul Dakkak
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: track TBD
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI teams are hitting the same wall: the workloads they want to run require more hardware than they

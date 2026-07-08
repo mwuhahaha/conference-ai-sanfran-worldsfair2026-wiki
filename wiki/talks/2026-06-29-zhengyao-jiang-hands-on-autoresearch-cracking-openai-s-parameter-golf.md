@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 9"
 speakers: ["Zhengyao Jiang", "Dixing Xu", "Vayum Arora", "Dhruv Srikanth"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Workshops Day 1", "Track 9", "session", "confirmed"]
 ---
-
 # Hands-on AutoResearch: Cracking OpenAI's Parameter Golf
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 9
 - Speaker(s): Zhengyao Jiang, Dixing Xu, Vayum Arora, Dhruv Srikanth
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Heard about autoresearch, or tried it a few times in playground settings? This hands-on tutorial

@@ -7,8 +7,10 @@ track: "Local AI"
 room: "Track 4"
 speakers: ["Chris Alexiuk", "Daniel Han", "Asma Beevi", "Merve Noyan", "Parth Sareen"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Local AI"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ---
-
 # Compression at the Edge
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Local AI · Track 4
 - Speaker(s): Chris Alexiuk, Daniel Han, Asma Beevi, Merve Noyan, Parth Sareen
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Local AI
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Compression at the Edge examines how smaller weights, faster inference, and constrained-memory

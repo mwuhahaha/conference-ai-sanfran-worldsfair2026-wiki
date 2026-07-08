@@ -7,8 +7,10 @@ track: "Voice & Realtime AI"
 room: "Track 6"
 speakers: ["Bohan Li"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Voice & Realtime AI"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Voice & Realtime AI", "Track 6", "session", "confirmed"]
 ---
-
 # Realtime Voice Agents with Frontier Intelligence
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Voice & Realtime AI · Track 6
 - Speaker(s): Bohan Li
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Voice & Realtime AI
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Dive into how the EliseAI voice agent harness orchestrates multiple models with jagged capability

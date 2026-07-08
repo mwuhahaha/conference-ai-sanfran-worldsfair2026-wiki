@@ -7,8 +7,10 @@ track: "Sandbox & Platform Engineering"
 room: "Track 1"
 speakers: ["Kevin Orellana"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Sandbox & Platform Engineering"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confirmed"]
 ---
-
 # 1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Sandbox & Platform Engineering · Track 1
 - Speaker(s): Kevin Orellana
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Sandbox & Platform Engineering
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 We ran 1,000 automated tasks through a production code interpreter sandbox — file I/O, package

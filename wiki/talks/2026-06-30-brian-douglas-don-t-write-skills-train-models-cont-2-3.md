@@ -7,8 +7,10 @@ track: "Workshops Day 3"
 room: "Track 4"
 speakers: ["Brian Douglas"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 3"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 3", "Track 4", "session", "confirmed"]
 ---
-
 # Don't Write Skills, Train Models (cont. 2/3)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 3 · Track 4
 - Speaker(s): Brian Douglas
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 3
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Continuation block 2 of 3 for Brian Douglas's workshop session.

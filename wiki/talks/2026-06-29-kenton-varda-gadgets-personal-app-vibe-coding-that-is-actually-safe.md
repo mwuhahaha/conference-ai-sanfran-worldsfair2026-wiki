@@ -7,8 +7,10 @@ track: "Software Factories"
 room: "Track 1"
 speakers: ["Kenton Varda"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Software Factories"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Software Factories", "Track 1", "session", "confirmed"]
 ---
-
 # Gadgets: Personal app vibe coding that is actually safe
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Software Factories · Track 1
 - Speaker(s): Kenton Varda
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 We are entering the end game of Kenton's 15-year master plan. The architect of Cloudflare Workers,

@@ -7,8 +7,10 @@ track: "AI in GTM"
 room: "Track 6"
 speakers: ["Justin Joyce"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI in GTM"
+scheduleRoom: "Track 6"
+scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 ---
-
 # How AI Agents Let GTM Teams Scale
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI in GTM · Track 6
 - Speaker(s): Justin Joyce
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in GTM
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 How Cloudflare scaled GTM with AI agents that never touch raw data: a deterministic layer computes

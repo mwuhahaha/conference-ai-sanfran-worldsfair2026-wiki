@@ -7,8 +7,10 @@ track: "Track M"
 room: "Track M"
 speakers: ["Tina Manghnani", "Keiji Kanazawa"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Track M"
+scheduleRoom: "Track M"
+scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
-
 # From framework to runtime: running agents with Foundry Agent Service
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Track M · Track M
 - Speaker(s): Tina Manghnani, Keiji Kanazawa
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Track M
+- Room: Track M
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 See how agents move from frameworks into production systems. Learn how Foundry Agent Service

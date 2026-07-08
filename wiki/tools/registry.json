@@ -1,0 +1,1798 @@
+[
+  {
+    "id": "amazon-bedrock",
+    "title": "Amazon Bedrock",
+    "path": "wiki/tools/amazon-bedrock.md",
+    "aliases": [
+      "Amazon Bedrock",
+      "Bedrock AgentCore",
+      "Bedrock Agents"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1"
+    ],
+    "scheduleRooms": [
+      "Track 9",
+      "Expo Stage 2 NW",
+      "Expo Stage 3 SW"
+    ],
+    "evidenceCounts": {
+      "schedule": 3,
+      "youtube": 0,
+      "slides": 3,
+      "resources": 1,
+      "topics": 2,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "amazon-nova-act",
+    "title": "Amazon Nova Act",
+    "path": "wiki/tools/amazon-nova-act.md",
+    "aliases": [
+      "Amazon Nova Act",
+      "Nova Act"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 3,
+      "topics": 4,
+      "transcripts": 1
+    }
+  },
+  {
+    "id": "arize",
+    "title": "Arize",
+    "path": "wiki/tools/arize.md",
+    "aliases": [
+      "Arize"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Evals"
+    ],
+    "scheduleRooms": [
+      "Track 5"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 10,
+      "slides": 13,
+      "resources": 6,
+      "topics": 6,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "arrakis",
+    "title": "Arrakis",
+    "path": "wiki/tools/arrakis.md",
+    "aliases": [
+      "Arrakis"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "azure",
+    "title": "Azure",
+    "path": "wiki/tools/azure.md",
+    "aliases": [
+      "Azure"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Track M"
+    ],
+    "scheduleRooms": [
+      "Track M"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 9,
+      "slides": 6,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 3
+    }
+  },
+  {
+    "id": "azure-ai-foundry",
+    "title": "Azure AI Foundry",
+    "path": "wiki/tools/azure-ai-foundry.md",
+    "aliases": [
+      "Azure AI Foundry",
+      "Microsoft Foundry"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Track M",
+      "Workshops Day 1"
+    ],
+    "scheduleRooms": [
+      "Track M",
+      "Track 4"
+    ],
+    "evidenceCounts": {
+      "schedule": 3,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 4,
+      "topics": 2,
+      "transcripts": 1
+    }
+  },
+  {
+    "id": "braintrust",
+    "title": "Braintrust",
+    "path": "wiki/tools/braintrust.md",
+    "aliases": [
+      "Braintrust"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [
+      "Track 9"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 11,
+      "slides": 39,
+      "resources": 4,
+      "topics": 4,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "browserbase",
+    "title": "Browserbase",
+    "path": "wiki/tools/browserbase.md",
+    "aliases": [
+      "Browserbase"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "Computer Use"
+    ],
+    "scheduleRooms": [
+      "Track 4",
+      "Track 7"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 3,
+      "topics": 2,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "claude",
+    "title": "Claude",
+    "path": "wiki/tools/claude.md",
+    "aliases": [
+      "Claude"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Track 1",
+      "Posttraining & Midtraining",
+      "Workshops Day 1",
+      "Workshops Day 2",
+      "Software Factories",
+      "Search & Retrieval",
+      "Claws & Personal Agents",
+      "AI Architects: Show my Workflow",
+      "AI-Native Enterprises",
+      "AI Architects: Tokenmaxxing",
+      "Design Engineering",
+      "Autoresearch",
+      "Memory & Continual Learning",
+      "Context Engineering",
+      "Agentic Engineering",
+      "Graphs",
+      "Generative Media",
+      "AI in Finance",
+      "AI in GTM",
+      "Agentic Commerce",
+      "Harness Engineering"
+    ],
+    "scheduleRooms": [
+      "Track 1",
+      "Track 8",
+      "Track 9",
+      "Track 4",
+      "Expo Stage 1 NE",
+      "Expo Stage 2 NW",
+      "Main Stage",
+      "Track 3",
+      "Expo Stage 4 SE",
+      "Leadership 1",
+      "Leadership 2",
+      "Track 6",
+      "Expo Stage 3 SW",
+      "Track 5",
+      "Track 2"
+    ],
+    "evidenceCounts": {
+      "schedule": 39,
+      "youtube": 9,
+      "slides": 42,
+      "resources": 6,
+      "topics": 3,
+      "transcripts": 32
+    }
+  },
+  {
+    "id": "claude-agent-sdk",
+    "title": "Claude Agent SDK",
+    "path": "wiki/tools/claude-agent-sdk.md",
+    "aliases": [
+      "Claude Agent SDK"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Track 1",
+      "Posttraining & Midtraining"
+    ],
+    "scheduleRooms": [
+      "Track 1"
+    ],
+    "evidenceCounts": {
+      "schedule": 3,
+      "youtube": 1,
+      "slides": 5,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "codex",
+    "title": "Codex",
+    "path": "wiki/tools/codex.md",
+    "aliases": [
+      "Codex"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "Software Factories",
+      "Workshops Day 2",
+      "AI Architects: Show my Workflow",
+      "Design Engineering",
+      "Autoresearch",
+      "Context Engineering",
+      "Agentic Engineering",
+      "AI in GTM"
+    ],
+    "scheduleRooms": [
+      "Track 3",
+      "Track 6",
+      "Track 8",
+      "Main Stage",
+      "Expo Stage 1 NE",
+      "Track 4",
+      "Leadership 2",
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 20,
+      "youtube": 3,
+      "slides": 11,
+      "resources": 4,
+      "topics": 2,
+      "transcripts": 20
+    }
+  },
+  {
+    "id": "cursor",
+    "title": "Cursor",
+    "path": "wiki/tools/cursor.md",
+    "aliases": [
+      "Cursor"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "Forward Deployed Engineering",
+      "Search & Retrieval",
+      "AI Architects: Show my Workflow",
+      "Computer Use",
+      "Inference"
+    ],
+    "scheduleRooms": [
+      "Track 8",
+      "Expo Stage 1 NE",
+      "Track 3",
+      "Leadership 2",
+      "Track 7",
+      "Expo Stage 3 SW",
+      "Leadership 1",
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 9,
+      "youtube": 8,
+      "slides": 18,
+      "resources": 3,
+      "topics": 1,
+      "transcripts": 14
+    }
+  },
+  {
+    "id": "dagger",
+    "title": "Dagger",
+    "path": "wiki/tools/dagger.md",
+    "aliases": [
+      "Dagger"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 2,
+      "slides": 3,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "daytona",
+    "title": "Daytona",
+    "path": "wiki/tools/daytona.md",
+    "aliases": [
+      "Daytona"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 3,
+      "topics": 2,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "docker",
+    "title": "Docker",
+    "path": "wiki/tools/docker.md",
+    "aliases": [
+      "Docker"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "Security",
+      "LLM Recsys",
+      "Software Factories",
+      "AI Architects: Show my Workflow",
+      "Sandbox & Platform Engineering"
+    ],
+    "scheduleRooms": [
+      "Track 2",
+      "Track 5",
+      "Track 7",
+      "Main Stage",
+      "Expo Stage 1 NE",
+      "Leadership 2",
+      "Track 1",
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 12,
+      "youtube": 0,
+      "slides": 3,
+      "resources": 1,
+      "topics": 4,
+      "transcripts": 8
+    }
+  },
+  {
+    "id": "dspy",
+    "title": "DSPy",
+    "path": "wiki/tools/dspy.md",
+    "aliases": [
+      "DSPy"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Harness Engineering"
+    ],
+    "scheduleRooms": [
+      "Main Stage"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 4,
+      "slides": 5,
+      "resources": 5,
+      "topics": 1,
+      "transcripts": 3
+    }
+  },
+  {
+    "id": "exa",
+    "title": "Exa",
+    "path": "wiki/tools/exa.md",
+    "aliases": [
+      "Exa",
+      "Exa.ai"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Search & Retrieval",
+      "AI in GTM"
+    ],
+    "scheduleRooms": [
+      "Track 3",
+      "Track 6"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 1,
+      "slides": 4,
+      "resources": 3,
+      "topics": 1,
+      "transcripts": 1
+    }
+  },
+  {
+    "id": "factory-ai",
+    "title": "Factory AI",
+    "path": "wiki/tools/factory-ai.md",
+    "aliases": [
+      "Factory AI"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "gemini",
+    "title": "Gemini",
+    "path": "wiki/tools/gemini.md",
+    "aliases": [
+      "Gemini",
+      "Gemini Live"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Vision & OCR",
+      "Voice & Realtime AI",
+      "AI Architects: Show my Workflow",
+      "Autoresearch",
+      "Workshops Day 2",
+      "Context Engineering",
+      "Workshops Day 3",
+      "Memory & Continual Learning",
+      "Agentic Commerce",
+      "Generative Media",
+      "Agentic Engineering"
+    ],
+    "scheduleRooms": [
+      "Track 6",
+      "Expo Stage 3 SW",
+      "Track 2",
+      "Leadership 2",
+      "Main Stage",
+      "Track 4",
+      "Track 8",
+      "Track 3",
+      "Track 1"
+    ],
+    "evidenceCounts": {
+      "schedule": 16,
+      "youtube": 10,
+      "slides": 18,
+      "resources": 4,
+      "topics": 1,
+      "transcripts": 15
+    }
+  },
+  {
+    "id": "github-copilot",
+    "title": "GitHub Copilot",
+    "path": "wiki/tools/github-copilot.md",
+    "aliases": [
+      "GitHub Copilot"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Track M",
+      "Expo Stage 2"
+    ],
+    "scheduleRooms": [
+      "Track M",
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 4,
+      "youtube": 5,
+      "slides": 4,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 3
+    }
+  },
+  {
+    "id": "glm-5-2",
+    "title": "GLM-5.2",
+    "path": "wiki/tools/glm-5-2.md",
+    "aliases": [
+      "GLM-5.2",
+      "GLM 5.2",
+      "Z.ai GLM"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Software Factories",
+      "Local AI",
+      "Inference"
+    ],
+    "scheduleRooms": [
+      "Main Stage",
+      "Track 4",
+      "Track 9"
+    ],
+    "evidenceCounts": {
+      "schedule": 4,
+      "youtube": 1,
+      "slides": 1,
+      "resources": 1,
+      "topics": 0,
+      "transcripts": 3
+    }
+  },
+  {
+    "id": "google-antigravity",
+    "title": "Google Antigravity",
+    "path": "wiki/tools/google-antigravity.md",
+    "aliases": [
+      "Google Antigravity",
+      "Antigravity"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Software Factories"
+    ],
+    "scheduleRooms": [
+      "Main Stage"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 1,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 1
+    }
+  },
+  {
+    "id": "graphrag",
+    "title": "GraphRAG",
+    "path": "wiki/tools/graphrag.md",
+    "aliases": [
+      "GraphRAG",
+      "CrabRAG"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Track 2",
+      "Graphs"
+    ],
+    "scheduleRooms": [
+      "Track 2",
+      "Track 5"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 9,
+      "slides": 4,
+      "resources": 4,
+      "topics": 2,
+      "transcripts": 1
+    }
+  },
+  {
+    "id": "hugging-face-hub",
+    "title": "Hugging Face Hub",
+    "path": "wiki/tools/hugging-face-hub.md",
+    "aliases": [
+      "Hugging Face Hub",
+      "Hugging Face"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "AI Architects: Show my Workflow",
+      "Local AI"
+    ],
+    "scheduleRooms": [
+      "Leadership 2",
+      "Track 4"
+    ],
+    "evidenceCounts": {
+      "schedule": 4,
+      "youtube": 3,
+      "slides": 6,
+      "resources": 3,
+      "topics": 1,
+      "transcripts": 7
+    }
+  },
+  {
+    "id": "krea-2",
+    "title": "Krea 2",
+    "path": "wiki/tools/krea-2.md",
+    "aliases": [
+      "Krea 2"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata"
+    ],
+    "scheduleTracks": [
+      "Generative Media"
+    ],
+    "scheduleRooms": [
+      "Track 1"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 1,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "langchain",
+    "title": "LangChain",
+    "path": "wiki/tools/langchain.md",
+    "aliases": [
+      "LangChain"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "Agentic Commerce"
+    ],
+    "scheduleRooms": [
+      "Track 6",
+      "Track 2"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 2,
+      "slides": 1,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 6
+    }
+  },
+  {
+    "id": "langfuse",
+    "title": "Langfuse",
+    "path": "wiki/tools/langfuse.md",
+    "aliases": [
+      "Langfuse"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1"
+    ],
+    "scheduleRooms": [
+      "Track 9",
+      "Expo Stage 1 NE"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 1,
+      "slides": 2,
+      "resources": 1,
+      "topics": 0,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "langgraph",
+    "title": "LangGraph",
+    "path": "wiki/tools/langgraph.md",
+    "aliases": [
+      "LangGraph"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "AI in Finance"
+    ],
+    "scheduleRooms": [
+      "Track 6",
+      "Expo Stage 1 NE",
+      "Track 3",
+      "Expo Stage 3 SW"
+    ],
+    "evidenceCounts": {
+      "schedule": 4,
+      "youtube": 2,
+      "slides": 2,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "llamaindex",
+    "title": "LlamaIndex",
+    "path": "wiki/tools/llamaindex.md",
+    "aliases": [
+      "LlamaIndex"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [
+      "Expo Stage 4 SE"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 2,
+      "slides": 3,
+      "resources": 3,
+      "topics": 1,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "manus",
+    "title": "Manus",
+    "path": "wiki/tools/manus.md",
+    "aliases": [
+      "Manus"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 1,
+      "slides": 4,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "mcp-apps",
+    "title": "MCP Apps",
+    "path": "wiki/tools/mcp-apps.md",
+    "aliases": [
+      "MCP Apps",
+      "MCP UI",
+      "MCP-UI"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Search & Retrieval",
+      "Context Engineering",
+      "Design Engineering"
+    ],
+    "scheduleRooms": [
+      "Expo Stage 3 SW",
+      "Track 3",
+      "Track 8",
+      "Track 6"
+    ],
+    "evidenceCounts": {
+      "schedule": 5,
+      "youtube": 3,
+      "slides": 8,
+      "resources": 6,
+      "topics": 5,
+      "transcripts": 5
+    }
+  },
+  {
+    "id": "mcpc",
+    "title": "mcpc",
+    "path": "wiki/tools/mcpc.md",
+    "aliases": [
+      "mcpc"
+    ],
+    "sourceLabels": [
+      "Official schedule"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "microsoft-iq",
+    "title": "Microsoft IQ",
+    "path": "wiki/tools/microsoft-iq.md",
+    "aliases": [
+      "Microsoft IQ",
+      "Foundry IQ",
+      "Fabric IQ",
+      "Work IQ"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence"
+    ],
+    "scheduleTracks": [
+      "Track M",
+      "Expo Stage 1"
+    ],
+    "scheduleRooms": [
+      "Track M",
+      "Expo Stage 1 NE"
+    ],
+    "evidenceCounts": {
+      "schedule": 4,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 1,
+      "topics": 0,
+      "transcripts": 1
+    }
+  },
+  {
+    "id": "modal",
+    "title": "Modal",
+    "path": "wiki/tools/modal.md",
+    "aliases": [
+      "Modal"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "AI Architects: Show my Workflow"
+    ],
+    "scheduleRooms": [
+      "Track 9",
+      "Leadership 2"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 4,
+      "slides": 4,
+      "resources": 2,
+      "topics": 2,
+      "transcripts": 3
+    }
+  },
+  {
+    "id": "mcp",
+    "title": "Model Context Protocol",
+    "path": "wiki/tools/mcp.md",
+    "aliases": [
+      "MCP",
+      "Model Context Protocol"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "Track 8",
+      "Track M",
+      "AI-Native Enterprises",
+      "Search & Retrieval",
+      "Claws & Personal Agents",
+      "Security",
+      "Expo Stage 1",
+      "Context Engineering",
+      "Design Engineering",
+      "Computer Use",
+      "Expo Stage 2",
+      "Agentic Commerce",
+      "Agentic Engineering",
+      "Graphs",
+      "AI in Finance",
+      "AI in GTM"
+    ],
+    "scheduleRooms": [
+      "Track 5",
+      "Track 8",
+      "Track 7",
+      "Track M",
+      "Expo Stage 3 SW",
+      "Leadership 1",
+      "Track 3",
+      "Expo Stage 4 SE",
+      "Track 1",
+      "Expo Stage 1 NE",
+      "Track 6",
+      "Expo Stage 2 NW",
+      "Track 2"
+    ],
+    "evidenceCounts": {
+      "schedule": 41,
+      "youtube": 33,
+      "slides": 51,
+      "resources": 62,
+      "topics": 7,
+      "transcripts": 22
+    }
+  },
+  {
+    "id": "neo4j",
+    "title": "Neo4j",
+    "path": "wiki/tools/neo4j.md",
+    "aliases": [
+      "Neo4j"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Track 2",
+      "Graphs",
+      "AI in Finance"
+    ],
+    "scheduleRooms": [
+      "Track 2",
+      "Track 5",
+      "Track 3"
+    ],
+    "evidenceCounts": {
+      "schedule": 4,
+      "youtube": 9,
+      "slides": 12,
+      "resources": 4,
+      "topics": 3,
+      "transcripts": 3
+    }
+  },
+  {
+    "id": "nvidia-data-designer",
+    "title": "NVIDIA Data Designer",
+    "path": "wiki/tools/nvidia-data-designer.md",
+    "aliases": [
+      "NVIDIA Data Designer",
+      "Data Designer"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1"
+    ],
+    "scheduleRooms": [
+      "Track 5"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 1,
+      "topics": 1,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "openhands",
+    "title": "OpenHands",
+    "path": "wiki/tools/openhands.md",
+    "aliases": [
+      "OpenHands"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Sandbox & Platform Engineering"
+    ],
+    "scheduleRooms": [
+      "Track 1"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 2,
+      "slides": 3,
+      "resources": 3,
+      "topics": 2,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "openrouter",
+    "title": "OpenRouter",
+    "path": "wiki/tools/openrouter.md",
+    "aliases": [
+      "OpenRouter"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Local AI"
+    ],
+    "scheduleRooms": [
+      "Track 4"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "prefect",
+    "title": "Prefect",
+    "path": "wiki/tools/prefect.md",
+    "aliases": [
+      "Prefect"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 2,
+      "slides": 3,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "prime-intellect",
+    "title": "Prime Intellect Stack",
+    "path": "wiki/tools/prime-intellect.md",
+    "aliases": [
+      "Prime Intellect",
+      "Prime Intellect Stack",
+      "prime-rl",
+      "verifiers"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "Data Quality",
+      "Software Factories",
+      "Evals",
+      "Local AI"
+    ],
+    "scheduleRooms": [
+      "Track 6",
+      "Track 9",
+      "Main Stage",
+      "Track 5",
+      "Expo Stage 1 NE",
+      "Track 4"
+    ],
+    "evidenceCounts": {
+      "schedule": 7,
+      "youtube": 2,
+      "slides": 5,
+      "resources": 3,
+      "topics": 3,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "pydantic",
+    "title": "Pydantic",
+    "path": "wiki/tools/pydantic.md",
+    "aliases": [
+      "Pydantic"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Harness Engineering"
+    ],
+    "scheduleRooms": [
+      "Main Stage"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 6,
+      "slides": 4,
+      "resources": 3,
+      "topics": 1,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "reducto",
+    "title": "Reducto",
+    "path": "wiki/tools/reducto.md",
+    "aliases": [
+      "Reducto"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [
+      "Track 7",
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 0,
+      "slides": 1,
+      "resources": 1,
+      "topics": 1,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "snowflake",
+    "title": "Snowflake",
+    "path": "wiki/tools/snowflake.md",
+    "aliases": [
+      "Snowflake"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Transcript evidence"
+    ],
+    "scheduleTracks": [
+      "Track 2",
+      "AI in GTM"
+    ],
+    "scheduleRooms": [
+      "Track 2",
+      "Track 6"
+    ],
+    "evidenceCounts": {
+      "schedule": 2,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 1
+    }
+  },
+  {
+    "id": "sonarqube",
+    "title": "SonarQube",
+    "path": "wiki/tools/sonarqube.md",
+    "aliases": [
+      "SonarQube"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata"
+    ],
+    "scheduleTracks": [
+      "Track 6"
+    ],
+    "scheduleRooms": [
+      "Track 6"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 1,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "sourcegraph-amp",
+    "title": "Sourcegraph Amp",
+    "path": "wiki/tools/sourcegraph-amp.md",
+    "aliases": [
+      "Sourcegraph",
+      "Amp"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Agentic Commerce",
+      "Agentic Engineering"
+    ],
+    "scheduleRooms": [
+      "Expo Stage 2 NW",
+      "Track 2",
+      "Track 8"
+    ],
+    "evidenceCounts": {
+      "schedule": 3,
+      "youtube": 3,
+      "slides": 8,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "spin",
+    "title": "Spin",
+    "path": "wiki/tools/spin.md",
+    "aliases": [
+      "Spin"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Expo Stage 2"
+    ],
+    "scheduleRooms": [
+      "Expo Stage 1 NE"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 1,
+      "topics": 1,
+      "transcripts": 6
+    }
+  },
+  {
+    "id": "strands-agents",
+    "title": "Strands Agents",
+    "path": "wiki/tools/strands-agents.md",
+    "aliases": [
+      "Strands Agents",
+      "Strands"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "AI-Native Enterprises"
+    ],
+    "scheduleRooms": [
+      "Track 9",
+      "Expo Stage 3 SW",
+      "Leadership 1"
+    ],
+    "evidenceCounts": {
+      "schedule": 3,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 4
+    }
+  },
+  {
+    "id": "tailscale",
+    "title": "Tailscale",
+    "path": "wiki/tools/tailscale.md",
+    "aliases": [
+      "Tailscale"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [
+      "Expo Stage 4 SE"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "tailscale-aperture",
+    "title": "Tailscale Aperture",
+    "path": "wiki/tools/tailscale-aperture.md",
+    "aliases": [
+      "Aperture",
+      "Tailscale Aperture"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [
+      "Expo Stage 4 SE"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 1,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "temporal",
+    "title": "Temporal",
+    "path": "wiki/tools/temporal.md",
+    "aliases": [
+      "Temporal"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [
+      "Evals",
+      "Graphs"
+    ],
+    "scheduleRooms": [
+      "Track 5",
+      "Expo Stage 3 SW"
+    ],
+    "evidenceCounts": {
+      "schedule": 3,
+      "youtube": 4,
+      "slides": 5,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "tokenspeed",
+    "title": "TokenSpeed",
+    "path": "wiki/tools/tokenspeed.md",
+    "aliases": [
+      "TokenSpeed"
+    ],
+    "sourceLabels": [
+      "Official schedule"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1"
+    ],
+    "scheduleRooms": [
+      "Track 8"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "twilio-agent-connect",
+    "title": "Twilio Agent Connect",
+    "path": "wiki/tools/twilio-agent-connect.md",
+    "aliases": [
+      "Twilio Agent Connect"
+    ],
+    "sourceLabels": [
+      "Official schedule"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "vllm",
+    "title": "vLLM",
+    "path": "wiki/tools/vllm.md",
+    "aliases": [
+      "vLLM"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Workshops Day 1",
+      "Search & Retrieval",
+      "Inference"
+    ],
+    "scheduleRooms": [
+      "Track 7",
+      "Track 8",
+      "Track 3",
+      "Expo Stage 3 SW",
+      "Track 9",
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 10,
+      "youtube": 0,
+      "slides": 2,
+      "resources": 2,
+      "topics": 2,
+      "transcripts": 4
+    }
+  },
+  {
+    "id": "vs-code",
+    "title": "VS Code",
+    "path": "wiki/tools/vs-code.md",
+    "aliases": [
+      "VS Code",
+      "VSC-Bench"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Track M",
+      "Expo Stage 2"
+    ],
+    "scheduleRooms": [
+      "Track M",
+      "Expo Stage 2 NW"
+    ],
+    "evidenceCounts": {
+      "schedule": 3,
+      "youtube": 3,
+      "slides": 6,
+      "resources": 4,
+      "topics": 2,
+      "transcripts": 6
+    }
+  },
+  {
+    "id": "webassembly",
+    "title": "WebAssembly",
+    "path": "wiki/tools/webassembly.md",
+    "aliases": [
+      "WebAssembly",
+      "WASM"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Transcript evidence"
+    ],
+    "scheduleTracks": [
+      "Expo Stage 2"
+    ],
+    "scheduleRooms": [
+      "Expo Stage 1 NE"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 2
+    }
+  },
+  {
+    "id": "windsurf",
+    "title": "Windsurf",
+    "path": "wiki/tools/windsurf.md",
+    "aliases": [
+      "Windsurf"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Transcript evidence",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 4,
+      "slides": 45,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 1
+    }
+  },
+  {
+    "id": "x402",
+    "title": "x402",
+    "path": "wiki/tools/x402.md",
+    "aliases": [
+      "x402"
+    ],
+    "sourceLabels": [
+      "Official schedule",
+      "Public YouTube metadata",
+      "Topic synthesis"
+    ],
+    "scheduleTracks": [
+      "Agentic Commerce"
+    ],
+    "scheduleRooms": [
+      "Track 2"
+    ],
+    "evidenceCounts": {
+      "schedule": 4,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 2,
+      "topics": 1,
+      "transcripts": 0
+    }
+  },
+  {
+    "id": "zep",
+    "title": "Zep",
+    "path": "wiki/tools/zep.md",
+    "aliases": [
+      "Zep"
+    ],
+    "sourceLabels": [
+      "Public YouTube metadata",
+      "Local slide OCR"
+    ],
+    "scheduleTracks": [],
+    "scheduleRooms": [],
+    "evidenceCounts": {
+      "schedule": 0,
+      "youtube": 1,
+      "slides": 3,
+      "resources": 3,
+      "topics": 0,
+      "transcripts": 0
+    }
+  }
+]

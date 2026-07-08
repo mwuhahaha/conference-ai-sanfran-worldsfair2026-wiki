@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T07:15:57.053Z'
+scheduleTrack: "Sandbox & Platform Engineering"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confirmed"]
 ---
 # From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1
 
@@ -24,6 +27,12 @@ The platform question is how to turn those primitives into a fleet of useful san
 - Track/room: Sandbox & Platform Engineering · Track 1
 - Speaker(s): Abhishek Bhardwaj
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Sandbox & Platform Engineering
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Sandboxes unleash agents by giving them secure, fully functional computers where they can tackle

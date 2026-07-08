@@ -7,8 +7,10 @@ track: "Security"
 room: "Track 5"
 speakers: ["Moritz Johner"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Security"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ---
-
 # We Gave an Agent Production Code Access and Then Tried to Sleep at Night
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Security · Track 5
 - Speaker(s): Moritz Johner
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Security
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 We let an agent touch production code to fix CVEs. That is either automation or a supply chain

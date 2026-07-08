@@ -7,8 +7,10 @@ track: "Inference"
 room: "Track 9"
 speakers: ["Asaf Gardin", "Yuval Belfer"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 ---
-
 # Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Track 9
 - Speaker(s): Asaf Gardin, Yuval Belfer
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Your model generates gibberish. Once every thousand prompts. High confidence scores. No crashes. No

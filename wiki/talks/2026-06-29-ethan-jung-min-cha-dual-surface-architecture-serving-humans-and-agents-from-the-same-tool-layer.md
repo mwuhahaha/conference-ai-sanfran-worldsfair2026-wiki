@@ -7,8 +7,10 @@ track: "Security"
 room: "Track 5"
 speakers: ["Ethan (Jung Min) Cha"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Security"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Security · Track 5
 - Speaker(s): Ethan (Jung Min) Cha
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Security
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Every enterprise AI talk right now is about capability. Almost none are about containment. That's

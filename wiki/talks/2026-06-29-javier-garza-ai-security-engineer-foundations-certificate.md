@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 5"
 speakers: ["Javier Garza"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Workshops Day 1", "Track 5", "sponsor", "confirmed"]
 ---
-
 # AI Security Engineer Foundations + Certificate
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 5
 - Speaker(s): Javier Garza
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 In each of the two sessions, we cover 6 modules and participants receive a certificate of completion

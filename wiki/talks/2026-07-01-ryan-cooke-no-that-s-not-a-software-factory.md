@@ -7,8 +7,10 @@ track: "Expo Stage 3"
 room: "Expo Stage 3 SW"
 speakers: ["Ryan Cooke"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 3"
+scheduleRoom: "Expo Stage 3 SW"
+scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 ---
-
 # No, That's Not a Software Factory
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 3 · Expo Stage 3 SW
 - Speaker(s): Ryan Cooke
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 3
+- Room: Expo Stage 3 SW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Drop an agent in a sandbox, point it at your repo, watch it ship code. Whether you're buying from a

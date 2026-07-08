@@ -7,8 +7,10 @@ track: "Software Factories"
 room: "Leadership 1"
 speakers: ["Andrew Orobator"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Software Factories"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["Software Factories", "Leadership 1", "session", "confirmed"]
 ---
-
 # Spin at the Gate Until Green: The Engineering Primitives Behind Self-Driving Codebases
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Software Factories · Leadership 1
 - Speaker(s): Andrew Orobator
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Software Factories
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Most AI-assisted development fails the same way: the AI produces plausible output, the human can't

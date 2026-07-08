@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T17:39:15.773Z'
+scheduleTrack: "Context Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 ---
 # It’s Tokens All The Way Down: How RLMs are Different
 
@@ -24,6 +27,12 @@ The scheduled description positions RLMs as different from coding agents: useful
 - Track/room: Context Engineering · Track 8
 - Speaker(s): Kevin Madura
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Context Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Recursive Language Models represent an intuitive but distinctively important approach to how LLMs

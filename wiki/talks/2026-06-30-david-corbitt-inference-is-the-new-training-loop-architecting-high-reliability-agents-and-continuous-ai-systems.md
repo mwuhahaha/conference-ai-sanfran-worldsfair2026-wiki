@@ -7,8 +7,10 @@ track: "Posttraining & Midtraining"
 room: "Leadership 2"
 speakers: ["David Corbitt"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Posttraining & Midtraining"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["Posttraining & Midtraining", "Leadership 2", "session", "confirmed"]
 ---
-
 # Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Posttraining & Midtraining · Leadership 2
 - Speaker(s): David Corbitt
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Posttraining & Midtraining
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 For agentic AI and complex, multi-step workloads, the inference environment is the engine for

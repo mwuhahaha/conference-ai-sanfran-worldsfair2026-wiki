@@ -7,8 +7,10 @@ track: "Expo Stage 2"
 room: "Expo Stage 2 NW"
 speakers: ["Harald Kirschner"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 2"
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2", "Expo Stage 2 NW", "session", "confirmed"]
 ---
-
 # Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 2 · Expo Stage 2 NW
 - Speaker(s): Harald Kirschner
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 2
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 A ~40-person team ships VS Code weekly to millions of users. Models got good enough to lean on, and

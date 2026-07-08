@@ -7,8 +7,10 @@ track: "AI Architects: Show my Workflow"
 room: "Track 9"
 speakers: ["Nick Heiner"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: Show my Workflow"
+scheduleRoom: "Track 9"
+scheduleLabels: ["AI Architects: Show my Workflow", "Track 9", "session", "confirmed"]
 ---
-
 # When Will The Benchmaxxing Plague End?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: Show my Workflow · Track 9
 - Speaker(s): Nick Heiner
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: Show my Workflow
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Model releases are heralded by a flourish of trumpets, a chorus of weeping angels, and often,

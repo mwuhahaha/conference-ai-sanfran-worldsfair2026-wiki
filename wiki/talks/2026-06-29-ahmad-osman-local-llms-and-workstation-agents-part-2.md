@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 6"
 speakers: ["Ahmad Osman"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 6"
+scheduleLabels: ["Workshops Day 1", "Track 6", "workshop", "confirmed"]
 ---
-
 # Local LLMs and workstation agents: Part 2
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 6
 - Speaker(s): Ahmad Osman
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 6
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 From the guy who said "Buy a GPU," "Opensource AI Must Win," and "Local AI FTW": this session shows

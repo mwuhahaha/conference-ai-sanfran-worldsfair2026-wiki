@@ -7,8 +7,10 @@ track: "Agentic Engineering"
 room: "Main Stage"
 speakers: ["Nikita Kothari"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Engineering"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Agentic Engineering", "Main Stage", "session", "confirmed"]
 ---
-
 # MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Engineering · Main Stage
 - Speaker(s): Nikita Kothari
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Engineering
+- Room: Main Stage
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agentic development needs more than one interface: MCPs provide clean, portable connectors to

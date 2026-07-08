@@ -7,8 +7,10 @@ track: "Agentic Commerce"
 room: "Leadership 1"
 speakers: ["Jennifer Lee"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Agentic Commerce"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["Agentic Commerce", "Leadership 1", "session", "confirmed"]
 ---
-
 # Building safe payment infrastructure for machine-to-machine commerce
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Agentic Commerce · Leadership 1
 - Speaker(s): Jennifer Lee
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Agentic Commerce
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Agents are a new class of buyer, but the infrastructure for them to transact headlessly barely

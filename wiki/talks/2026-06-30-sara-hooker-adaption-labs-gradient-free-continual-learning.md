@@ -7,8 +7,10 @@ track: "Memory & Continual Learning"
 room: "Track 3"
 speakers: ["Sara Hooker"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Memory & Continual Learning"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed"]
 ---
-
 # Adaption Labs — Gradient-Free Continual Learning
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Memory & Continual Learning · Track 3
 - Speaker(s): Sara Hooker
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Memory & Continual Learning
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Gradient-free continual learning for AI systems that adapt from real-world experience.

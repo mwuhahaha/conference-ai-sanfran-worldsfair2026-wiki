@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 5"
 speakers: ["Dhruv Nathawani"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Workshops Day 1", "Track 5", "workshop", "confirmed"]
 ---
-
 # Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 5
 - Speaker(s): Dhruv Nathawani
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 5
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Modern agentic systems often fail because the right training data simply does not exist. Search

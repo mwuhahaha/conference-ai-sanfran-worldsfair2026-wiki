@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T17:59:49.329Z'
+scheduleTrack: "Local AI"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ---
 # Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk
 
@@ -19,6 +22,12 @@ last_auto_summarized: '2026-07-06T17:59:49.329Z'
 - Track/room: Local AI · Track 4
 - Speaker(s): Ahmad Osman
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Local AI
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Ahmad Osman shows off the power of local AI on stage, running frontier open models on a DGX Station.

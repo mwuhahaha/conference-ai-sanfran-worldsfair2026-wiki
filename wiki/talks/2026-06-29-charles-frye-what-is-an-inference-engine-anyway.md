@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 8"
 speakers: ["Charles Frye"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Workshops Day 1", "Track 8", "workshop", "confirmed"]
 ---
-
 # What is an Inference Engine, Anyway?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 8
 - Speaker(s): Charles Frye
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 8
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 To run state-of-the-art inference yourself, you must master the inference engine: vLLM, SGLang, TRT-

@@ -7,8 +7,10 @@ track: "Posttraining & Midtraining"
 room: "Track 9"
 speakers: ["Diogo Almeida"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Posttraining & Midtraining"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"]
 ---
-
 # What's next after RLHF?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Posttraining & Midtraining · Track 9
 - Speaker(s): Diogo Almeida
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Posttraining & Midtraining
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 RLHF was a massive commercial success: roughly 100% of LLM usage is through RLHF’d models - but it

@@ -7,8 +7,10 @@ track: "Inference"
 room: "Track 9"
 speakers: ["Qianru Lao", "Lu Zhang"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 ---
-
 # Routing LLM Inference in Production: From Engine Signals to Policy
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Track 9
 - Speaker(s): Qianru Lao, Lu Zhang
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Production LLM apps need more than a fast model: they need an inference routing layer that can

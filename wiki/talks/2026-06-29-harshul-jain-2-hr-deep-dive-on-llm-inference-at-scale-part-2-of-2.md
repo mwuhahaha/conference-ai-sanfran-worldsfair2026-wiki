@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 3"
 speakers: ["Harshul Jain", "Tanmay Sah"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Workshops Day 1", "Track 3", "sponsor", "confirmed"]
 ---
-
 # 2 hr deep dive on LLM Inference at Scale — Part 2 of 2
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 3
 - Speaker(s): Harshul Jain, Tanmay Sah
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 3
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Most engineers using LLMs can call an API. Far fewer can explain why their model is slow, why it's

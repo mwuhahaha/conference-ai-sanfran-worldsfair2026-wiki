@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T17:57:59.481Z'
+scheduleTrack: "AI in GTM"
+scheduleRoom: "Track 6"
+scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 ---
 # How Juries and Librarians Can Solve GTM's AI Trust Problem
 
@@ -19,6 +22,12 @@ last_auto_summarized: '2026-07-06T17:57:59.481Z'
 - Track/room: AI in GTM · Track 6
 - Speaker(s): Alex Bauer
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI in GTM
+- Room: Track 6
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 A couple of years ago, everyone worried about AI hallucinating. We rarely hear that word anymore,

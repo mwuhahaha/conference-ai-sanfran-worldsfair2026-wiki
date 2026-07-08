@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 9"
 speakers: ["Gagan Bhat", "Isabella Kai He"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Workshops Day 1", "Track 9", "workshop", "confirmed"]
 ---
-
 # Evolution of agentic surfaces
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 9
 - Speaker(s): Gagan Bhat, Isabella Kai He
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 9
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Getting an agent into production takes more than a good prompt: it needs somewhere to run code,

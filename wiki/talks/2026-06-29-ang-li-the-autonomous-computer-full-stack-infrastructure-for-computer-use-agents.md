@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T05:06:19.953Z'
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Workshops Day 1", "Track 1", "session", "confirmed"]
 ---
 # The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents
 
@@ -24,6 +27,12 @@ The linked supporting material is not a confirmed recording of this exact sessio
 - Track/room: Workshops Day 1 · Track 1
 - Speaker(s): Ang Li
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Even the world's best computer-use agents cannot repeat their successes at the moment. Agents that

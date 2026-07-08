@@ -7,8 +7,10 @@ track: "Expo Stage 2"
 room: "Expo Stage 1 NE"
 speakers: ["Thorsten Hans"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 2"
+scheduleRoom: "Expo Stage 1 NE"
+scheduleLabels: ["Expo Stage 2", "Expo Stage 1 NE", "session", "confirmed"]
 ---
-
 # Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 2 · Expo Stage 1 NE
 - Speaker(s): Thorsten Hans
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 2
+- Room: Expo Stage 1 NE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Centralized AI is slow; Edge-native AI is the revolution. Thorsten Hans demonstrates how to build

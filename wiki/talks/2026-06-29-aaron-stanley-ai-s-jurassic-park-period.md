@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T16:01:10.860Z'
+scheduleTrack: "Security"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 ---
 # AI’s Jurassic Park Period
 
@@ -24,6 +27,12 @@ The core warning is that AI systems can make unsafe paths look orderly, reasonab
 - Track/room: Security · Track 5
 - Speaker(s): Aaron Stanley
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Security
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Early in my career, I accidentally and unrecoverably changed data I was collecting for a federal

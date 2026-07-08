@@ -7,8 +7,10 @@ track: "Memory & Continual Learning"
 room: "Track 3"
 speakers: ["Samuel Denton"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Memory & Continual Learning"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed"]
 ---
-
 # Bringing Continual Learning into Enterprises
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Memory & Continual Learning · Track 3
 - Speaker(s): Samuel Denton
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Memory & Continual Learning
+- Room: Track 3
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

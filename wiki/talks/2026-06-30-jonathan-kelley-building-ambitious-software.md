@@ -7,8 +7,10 @@ track: "Sandbox & Platform Engineering"
 room: "Track 1"
 speakers: ["Jonathan Kelley"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Sandbox & Platform Engineering"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confirmed"]
 ---
-
 # Building ambitious software
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Sandbox & Platform Engineering · Track 1
 - Speaker(s): Jonathan Kelley
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Sandbox & Platform Engineering
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 TBD — Add final abstract after outreach/confirmation.

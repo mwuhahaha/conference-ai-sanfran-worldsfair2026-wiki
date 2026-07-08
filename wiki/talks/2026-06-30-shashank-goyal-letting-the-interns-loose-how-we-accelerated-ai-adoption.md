@@ -11,6 +11,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-03T15:27:30.331Z'
+scheduleTrack: "Sandbox & Platform Engineering"
+scheduleRoom: "Track 1"
+scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confirmed"]
 ---
 # Letting the Interns Loose — How We Accelerated AI Adoption.
 
@@ -24,6 +27,12 @@ The speaker context makes the platform angle especially relevant. Goyal is Head 
 - Track/room: Sandbox & Platform Engineering · Track 1
 - Speaker(s): Shashank Goyal
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Sandbox & Platform Engineering
+- Room: Track 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

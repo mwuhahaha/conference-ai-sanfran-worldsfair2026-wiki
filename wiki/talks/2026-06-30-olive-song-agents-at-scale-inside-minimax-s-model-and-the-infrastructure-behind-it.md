@@ -7,8 +7,10 @@ track: "Posttraining & Midtraining"
 room: "Track 9"
 speakers: ["Olive Song", "Dan Fu"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Posttraining & Midtraining"
+scheduleRoom: "Track 9"
+scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"]
 ---
-
 # Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Posttraining & Midtraining · Track 9
 - Speaker(s): Olive Song, Dan Fu
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Posttraining & Midtraining
+- Room: Track 9
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Olive Song (RL Lead, https://www.minimax.io/) and Dan Fu (VP of Kernels, https://www.together.ai/)

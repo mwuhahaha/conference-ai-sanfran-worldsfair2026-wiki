@@ -7,8 +7,10 @@ track: "Inference"
 room: "Leadership 1"
 speakers: ["Pranay Bhatia"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Inference"
+scheduleRoom: "Leadership 1"
+scheduleLabels: ["Inference", "Leadership 1", "session", "confirmed"]
 ---
-
 # Stop Model Shopping: Why Ownership Beats Choice in the Agent Stack
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Inference · Leadership 1
 - Speaker(s): Pranay Bhatia
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Inference
+- Room: Leadership 1
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Teams shipping successful agents at scale know that model ownership is now a much more durable

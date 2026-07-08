@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 2"
 speakers: ["John Craft", "Dan Ndombe"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 2"
+scheduleLabels: ["Workshops Day 1", "Track 2", "workshop", "confirmed"]
 ---
-
 # From approval loops to autonomous agents with Docker
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 2
 - Speaker(s): John Craft, Dan Ndombe
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 2
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 "You've invested in the best models, coding agents, and AI tooling. Now comes the hard part:

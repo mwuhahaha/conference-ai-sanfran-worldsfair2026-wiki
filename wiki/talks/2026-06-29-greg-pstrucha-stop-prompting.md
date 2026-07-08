@@ -7,8 +7,10 @@ track: "Expo Stage 4"
 room: "Expo Stage 4 SE"
 speakers: ["Greg Pstrucha"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 4"
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Expo Stage 4", "Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # Stop prompting
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 4 · Expo Stage 4 SE
 - Speaker(s): Greg Pstrucha
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 4
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 In this talk I dive into usage of tooling, type systems and frameworks to enforce guardrails and

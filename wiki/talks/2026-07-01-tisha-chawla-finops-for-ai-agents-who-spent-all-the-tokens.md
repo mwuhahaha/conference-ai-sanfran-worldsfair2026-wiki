@@ -7,8 +7,10 @@ track: "AI Architects: AI Factories"
 room: "Leadership 2"
 speakers: ["Tisha Chawla", "Susheem Koul"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "AI Architects: AI Factories"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "confirmed"]
 ---
-
 # FinOps for AI Agents: Who Spent All the Tokens?
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: AI Architects: AI Factories · Leadership 2
 - Speaker(s): Tisha Chawla, Susheem Koul
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: AI Factories
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 When an autonomous agent finishes a task successfully but costs ten times more than it did the

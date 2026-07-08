@@ -7,8 +7,10 @@ track: "Workshops Day 3"
 room: "Track 4"
 speakers: ["Thor 雷神 Schaeff"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 3"
+scheduleRoom: "Track 4"
+scheduleLabels: ["Workshops Day 3", "Track 4", "session", "confirmed"]
 ---
-
 # Build realtime multimodal agents with Gemini Live (continued 4)
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 3 · Track 4
 - Speaker(s): Thor 雷神 Schaeff
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 3
+- Room: Track 4
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

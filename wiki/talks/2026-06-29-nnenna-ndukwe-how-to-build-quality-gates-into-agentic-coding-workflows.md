@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 7"
 speakers: ["Nnenna Ndukwe"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 7"
+scheduleLabels: ["Workshops Day 1", "Track 7", "workshop", "confirmed"]
 ---
-
 # How to Build Quality Gates into Agentic Coding Workflows
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 7
 - Speaker(s): Nnenna Ndukwe
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 7
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 AI coding agents can now generate code at unprecedented speed. But faster code generation creates a

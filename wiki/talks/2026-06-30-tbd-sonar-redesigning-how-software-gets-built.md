@@ -7,8 +7,10 @@ track: "Expo Stage 4"
 room: "Expo Stage 4 SE"
 speakers: ["TBD — Sonar"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 4"
+scheduleRoom: "Expo Stage 4 SE"
+scheduleLabels: ["Expo Stage 4", "Expo Stage 4 SE", "session", "confirmed"]
 ---
-
 # Redesigning how software gets built
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 4 · Expo Stage 4 SE
 - Speaker(s): TBD — Sonar
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 4
+- Room: Expo Stage 4 SE
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI is already transforming how software is built, but most organizations are still treating it as a

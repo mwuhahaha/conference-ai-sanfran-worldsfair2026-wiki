@@ -7,8 +7,10 @@ track: "Forward Deployed Engineering"
 room: "Track 8"
 speakers: ["Natalie Meurer"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Forward Deployed Engineering"
+scheduleRoom: "Track 8"
+scheduleLabels: ["Forward Deployed Engineering", "Track 8", "session", "confirmed"]
 ---
-
 # The Dirty Secret of Forward Deployed Engineering
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Forward Deployed Engineering · Track 8
 - Speaker(s): Natalie Meurer
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Forward Deployed Engineering
+- Room: Track 8
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Since its origins at Palantir, the term "Forward Deployed Engineer" has described wildly different

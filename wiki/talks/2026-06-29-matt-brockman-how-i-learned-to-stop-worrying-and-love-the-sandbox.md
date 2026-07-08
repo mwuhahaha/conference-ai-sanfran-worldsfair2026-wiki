@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 3"
 speakers: ["Matt Brockman"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 3"
+scheduleLabels: ["Workshops Day 1", "Track 3", "workshop", "confirmed"]
 ---
-
 # How I learned to stop worrying and love the sandbox
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 3
 - Speaker(s): Matt Brockman
 - Session type/status: workshop · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 3
+- Session type: workshop
+- Status: confirmed
 
 ## Official Description
 Running sandboxes at scale can get painful. How do you manage a thousand concurrent sandboxes? We'll

@@ -7,8 +7,10 @@ track: "Graphs"
 room: "Main Stage"
 speakers: ["Emil Eifrem"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Graphs"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Graphs", "Main Stage", "keynote", "confirmed"]
 ---
-
 # Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Graphs · Main Stage
 - Speaker(s): Emil Eifrem
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Graphs
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 No official description published in the schedule data.

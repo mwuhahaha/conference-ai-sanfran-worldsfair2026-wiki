@@ -7,8 +7,10 @@ track: "CTO Circle"
 room: "Leadership Lounge"
 speakers: ["Martin Harrysson", "Matt Linderman", "Prakhar Dixit"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "CTO Circle"
+scheduleRoom: "Leadership Lounge"
+scheduleLabels: ["CTO Circle", "Leadership Lounge", "session", "confirmed"]
 ---
-
 # The Agentic Product Development Organization
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: CTO Circle · Leadership Lounge
 - Speaker(s): Martin Harrysson, Matt Linderman, Prakhar Dixit
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: CTO Circle
+- Room: Leadership Lounge
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 *Facilitated, peer-to-peer, under the Chatham House Rule — not recorded.*  As AI agents become

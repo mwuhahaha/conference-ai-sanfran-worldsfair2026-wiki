@@ -12,6 +12,7 @@ The result is a schedule-first conference intelligence map. Official session and
 ## Quick Access
 - [[index]] — full wiki index and section guide.
 - [[agent-source-index]] — markdown source map for agents, source layers, raw files, scripts, and confidence rules.
+- [[agentic-web/index|Agentic Web]] — schedule-specific category for agent-facing web surfaces, browser automation, agent-readable catalogs, and HTML/web substrates.
 - [[talk-video-transcript-map]] — official talks mapped to related YouTube videos and transcript status.
 - [[slide-library]] — extracted full-frame slide decks from related videos.
 - [[reconstructed-slide-library]] — cleaner slide-region crops produced by the advanced slide scanner.

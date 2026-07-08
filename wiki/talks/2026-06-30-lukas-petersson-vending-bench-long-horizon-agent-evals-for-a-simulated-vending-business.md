@@ -7,8 +7,10 @@ track: "Evals"
 room: "Track 5"
 speakers: ["Lukas Petersson"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Evals"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Vending-Bench: Long-Horizon Agent Evals for a Simulated Vending Business
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Evals · Track 5
 - Speaker(s): Lukas Petersson
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Evals
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 Long-horizon agent evals via a simulated vending machine business, testing negotiation, pricing, and

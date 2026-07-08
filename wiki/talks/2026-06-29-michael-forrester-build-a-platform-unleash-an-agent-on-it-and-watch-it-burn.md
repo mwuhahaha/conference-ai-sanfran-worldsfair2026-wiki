@@ -7,8 +7,10 @@ track: "Workshops Day 1"
 room: "Track 5"
 speakers: ["Michael Forrester", "Whitney Lee"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Workshops Day 1"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Workshops Day 1", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Build a Platform, Unleash an Agent on it.... and Watch it Burn!
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Workshops Day 1 · Track 5
 - Speaker(s): Michael Forrester, Whitney Lee
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Workshops Day 1
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 You get a Kubernetes cluster with an Internal Developer Platform already running: ArgoCD for GitOps,

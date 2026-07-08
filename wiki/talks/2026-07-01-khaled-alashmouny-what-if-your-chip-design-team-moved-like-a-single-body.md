@@ -12,6 +12,9 @@ sourceLabels:
   - Official conference schedule
   - Public YouTube metadata
 last_auto_summarized: '2026-07-06T16:57:41.135Z'
+scheduleTrack: "AI Architects: AI Factories"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "confirmed"]
 ---
 # What If Your Chip Design Team Moved Like a Single Body?
 
@@ -29,6 +32,12 @@ The current evidence layer is still schedule-grounded. No official matched AI En
 - Track/room: AI Architects: AI Factories · Leadership 2
 - Speaker(s): Khaled Alashmouny, Abduallah Mohamed
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: AI Architects: AI Factories
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 Most agentic demos you've seen has a hidden assumption: one user, one session, one task. But what

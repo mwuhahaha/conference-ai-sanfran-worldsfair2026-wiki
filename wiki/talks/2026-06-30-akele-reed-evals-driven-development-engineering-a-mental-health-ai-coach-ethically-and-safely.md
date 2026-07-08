@@ -7,8 +7,10 @@ track: "Evals"
 room: "Track 5"
 speakers: ["Akele Reed", "Dave Revere", "Doug Keller"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Evals"
+scheduleRoom: "Track 5"
+scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 ---
-
 # Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Evals · Track 5
 - Speaker(s): Akele Reed, Dave Revere, Doug Keller
 - Session type/status: sponsor · confirmed
+
+## Schedule Labels
+- Track: Evals
+- Room: Track 5
+- Session type: sponsor
+- Status: confirmed
 
 ## Official Description
 In the world of AI Mental Health, vibes can be dangerous with real consequences. Building

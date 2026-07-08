@@ -7,8 +7,10 @@ track: "Sandbox & Platform Engineering"
 room: "Leadership 2"
 speakers: ["Tomás Hernando Kofman"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Sandbox & Platform Engineering"
+scheduleRoom: "Leadership 2"
+scheduleLabels: ["Sandbox & Platform Engineering", "Leadership 2", "session", "confirmed"]
 ---
-
 # Intelligent Model Routing: Frontier Performance Without Frontier Bills
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Sandbox & Platform Engineering · Leadership 2
 - Speaker(s): Tomás Hernando Kofman
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Sandbox & Platform Engineering
+- Room: Leadership 2
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 It is Summer 2026 and the world is burning for token consumption—figuratively and literally.

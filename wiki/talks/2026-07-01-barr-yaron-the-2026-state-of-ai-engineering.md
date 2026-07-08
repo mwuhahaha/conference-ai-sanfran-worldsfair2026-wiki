@@ -7,8 +7,10 @@ track: "Harness Engineering"
 room: "Main Stage"
 speakers: ["Barr Yaron"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Harness Engineering"
+scheduleRoom: "Main Stage"
+scheduleLabels: ["Harness Engineering", "Main Stage", "keynote", "confirmed"]
 ---
-
 # The 2026 State of AI Engineering
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Harness Engineering · Main Stage
 - Speaker(s): Barr Yaron
 - Session type/status: keynote · confirmed
+
+## Schedule Labels
+- Track: Harness Engineering
+- Room: Main Stage
+- Session type: keynote
+- Status: confirmed
 
 ## Official Description
 results per Barr

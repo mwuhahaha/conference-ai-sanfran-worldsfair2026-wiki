@@ -7,8 +7,10 @@ track: "Expo Stage 2"
 room: "Expo Stage 2 NW"
 speakers: ["Justin Reock"]
 sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
+scheduleTrack: "Expo Stage 2"
+scheduleRoom: "Expo Stage 2 NW"
+scheduleLabels: ["Expo Stage 2", "Expo Stage 2 NW", "session", "confirmed"]
 ---
-
 # AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations
 
 ## Official Schedule Context
@@ -16,6 +18,12 @@ sourceLabels: ["Official conference schedule", "Public YouTube metadata"]
 - Track/room: Expo Stage 2 · Expo Stage 2 NW
 - Speaker(s): Justin Reock
 - Session type/status: session · confirmed
+
+## Schedule Labels
+- Track: Expo Stage 2
+- Room: Expo Stage 2 NW
+- Session type: session
+- Status: confirmed
 
 ## Official Description
 AI is reshaping how engineers work but what does that actually look like at scale? Drawing on data
