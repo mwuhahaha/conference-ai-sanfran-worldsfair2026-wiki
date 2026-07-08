@@ -7,6 +7,7 @@ Read first:
 2. `.ops/plans/worldsfair-aie-specific-conversion-plan.md`
 3. `README.md`
 4. The public standalone repo: `https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki`
+5. `wiki/resources/agent-source-index.md`
 
 ## Public Repo Structure
 
@@ -16,6 +17,7 @@ Keep new pages compatible with the public repo conventions:
 - YAML frontmatter with `title`, `category`, and source/status fields where applicable.
 - Section names and ordering that match existing pages in the same category.
 - Evidence links as wikilinks to local source pages, not unsourced prose.
+- Agent-facing source navigation belongs in `wiki/resources/agent-source-index.md`; update it when new source layers or source-link rules are added.
 - Registry files such as `wiki/tools/registry.json`, `wiki/questions/registry.json`, and category indexes when a category has generated pages.
 - No local-only workspace notes, private caches, or unpublishable files in the clean/public wiki.
 

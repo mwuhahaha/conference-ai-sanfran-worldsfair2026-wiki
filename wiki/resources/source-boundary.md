@@ -5,6 +5,8 @@ category: "resources"
 
 # Source Boundary
 
+For agent-oriented navigation across these sources, use [[agent-source-index]].
+
 Allowed sources for this run:
 - Official AI Engineer World's Fair 2026 schedule endpoints.
 - Public AI Engineer YouTube channel metadata.

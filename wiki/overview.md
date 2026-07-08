@@ -7,9 +7,11 @@ The result is a schedule-first conference intelligence map. Official session and
 ## Source Links
 - Source repository: [mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki](https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki).
 - Official event site: [AI Engineer World's Fair 2026](https://www.ai.engineer/worldsfair/2026).
+- Agent source index: [[agent-source-index]].
 
 ## Quick Access
 - [[index]] — full wiki index and section guide.
+- [[agent-source-index]] — markdown source map for agents, source layers, raw files, scripts, and confidence rules.
 - [[talk-video-transcript-map]] — official talks mapped to related YouTube videos and transcript status.
 - [[slide-library]] — extracted full-frame slide decks from related videos.
 - [[reconstructed-slide-library]] — cleaner slide-region crops produced by the advanced slide scanner.
