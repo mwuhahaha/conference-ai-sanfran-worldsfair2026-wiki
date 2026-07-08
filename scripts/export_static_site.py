@@ -502,6 +502,12 @@ def export() -> None:
 """,
         encoding="utf-8",
     )
+    (DIST / "_redirects").write_text(
+        """/agentic-web/ /topics/agentic-web/ 301
+/agentic-web /topics/agentic-web/ 301
+""",
+        encoding="utf-8",
+    )
 
     print(f"Exported {len(pages)} pages to {DIST}")
 
