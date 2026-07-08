@@ -18,6 +18,7 @@ Tool pages distinguish confirmed mentions from inferred relevance and cite the s
 - [[azure-ai-foundry]] — Azure AI Foundry (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[braintrust]] — Braintrust (Official schedule, Public YouTube metadata, Local slide OCR, Topic synthesis)
 - [[browserbase]] — Browserbase (Official schedule, Public YouTube metadata, Local slide OCR, Topic synthesis)
+- [[chrome-agent]] — chrome-agent (Official conference schedule, Public GitHub project, Highlight synthesis)
 - [[claude]] — Claude (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[claude-agent-sdk]] — Claude Agent SDK (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[codex]] — Codex (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)

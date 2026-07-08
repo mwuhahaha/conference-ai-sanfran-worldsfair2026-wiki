@@ -1050,6 +1050,11 @@
     "path": "wiki/companies/oracle.md"
   },
   {
+    "id": "ora",
+    "title": "ORA",
+    "path": "wiki/companies/ora.md"
+  },
+  {
     "id": "orkes",
     "title": "Orkes",
     "path": "wiki/companies/orkes.md"

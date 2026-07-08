@@ -15,6 +15,7 @@ The result is a schedule-first conference intelligence map. Official session and
 - [[agent-source-index]] — human-rendered copy of the agent navigation guide.
 - Every page also has a backing markdown file under `/md/`; for example, [Agentic Web markdown](/md/topics/agentic-web.md).
 - [[agentic-web|Agentic Web]] — topic page for agent-facing web surfaces, browser automation, agent-readable catalogs, and HTML/web substrates.
+- [[highlights/index|Highlights]] — operator-selected pages that receive extra source search and expansion.
 - [[talk-video-transcript-map]] — official talks mapped to related YouTube videos and transcript status.
 - [[slide-library]] — extracted full-frame slide decks from related videos.
 - [[reconstructed-slide-library]] — cleaner slide-region crops produced by the advanced slide scanner.
@@ -26,10 +27,12 @@ The result is a schedule-first conference intelligence map. Official session and
 ## Corpus
 - 560 official schedule sessions generated as talk pages.
 - 553 people pages generated from the official speaker roster plus schedule-only names.
-- 340 company pages generated from speaker affiliations.
-- 117 resource pages for official data, source boundaries, YouTube evidence, and processing audits.
-- 310 slide pages, including full-stage frames, reconstructed crops, and dense slide views.
+- 341 company pages generated from speaker affiliations and selected public company enrichment.
+- 191 resource pages for official data, source boundaries, YouTube evidence, and processing audits.
+- 383 slide pages, including full-stage frames, reconstructed crops, and dense slide views.
 - 12 topic pages seeded from repeated World’s Fair themes.
+- 62 tool pages for tools, protocols, services, and technical systems referenced by the corpus.
+- 5 highlight pages for operator-selected targets that deserve extra source search and expansion.
 - 5 event/day pages for the conference flow.
 
 ## Evidence Layers

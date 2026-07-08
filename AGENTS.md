@@ -19,6 +19,7 @@ Keep new pages compatible with the public repo conventions:
 - Evidence links as wikilinks to local source pages, not unsourced prose.
 - Agent-facing wiki navigation belongs in `wiki/resources/agent-source-index.md`; the static build also publishes it without the site frame at `/agent-index.md`.
 - Every rendered wiki page must have an agent-readable markdown backing file under `/md/`. Keep this exporter behavior enabled for all wiki-maker builds.
+- Pages that deserve extra operator attention belong in `raw/sources/highlighted-targets.json`; run `python3 scripts/generate_highlights.py` and expand the target page itself with recording/source status, related people, companies, tools, and evidence boundaries.
 - Registry files such as `wiki/tools/registry.json`, `wiki/questions/registry.json`, and category indexes when a category has generated pages.
 - No local-only workspace notes, private caches, or unpublishable files in the clean/public wiki.
 

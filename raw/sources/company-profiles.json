@@ -1,4 +1,77 @@
 {
+  "ora": {
+    "website": "https://ora.ai/",
+    "summary": "ORA is an agentic-web research and product effort focused on making websites and software usable by AI agents. Public ORA material frames the problem as agent readiness: whether real agents can find, understand, authenticate, act, and complete work on a site rather than merely read it.",
+    "why_it_matters": "ORA is directly tied to the World's Fair's agentic-web theme through Liad Yosef's official speaker bio and the scheduled talk \"Rebuilding the web for agents.\" ORA's public research on agent readiness gives supporting context for why agent-readable websites, MCP Apps, WebMCP, auth metadata, and reachable agent-facing files matter.",
+    "origin": "The official speaker roster describes Liad Yosef as co-founder and CTO at ORA, building the future of the agentic web. The Agentic AI Foundation article describes Ora as a research lab focused on the human-agentic web and making the entire web agent-accessible.",
+    "sourceLabels": [
+      "Official speaker roster",
+      "Official conference schedule",
+      "Public company site",
+      "Public research article",
+      "Public professional profile"
+    ],
+    "sourceLinks": [
+      {
+        "label": "ORA official site",
+        "url": "https://ora.ai/"
+      },
+      {
+        "label": "ORA state of agent readiness report",
+        "url": "https://ora.ai/blog/state-of-agent-readiness-2026"
+      },
+      {
+        "label": "AAIF Native Speakers article",
+        "url": "https://aaif.io/blog/native-speakers-why-ais-most-powerful-users-are-blind/"
+      },
+      {
+        "label": "Liad Yosef LinkedIn",
+        "url": "https://linkedin.com/in/liadyosef"
+      },
+      {
+        "label": "Liad Yosef X profile",
+        "url": "https://x.com/liadyosef"
+      }
+    ],
+    "notes": [
+      "Do not confuse ORA at ora.ai with other companies named Ora or Ora AI. The World's Fair context points to Liad Yosef's ORA and its agentic-web research.",
+      "ORA's April 2026 readiness report says it scanned thousands of products with real agents across five weighted layers and found broad gaps in action-readiness, authentication, integration, and machine-readable context."
+    ]
+  },
+  "rexmore": {
+    "website": "https://rexmore.ai/",
+    "summary": "Rexmore is an AI-native holding company that acquires and builds businesses through technology, investment, and education. Its public site describes an operating model where small teams are multiplied by proprietary tools, systematic knowledge, and AI-native operating practices.",
+    "why_it_matters": "Rexmore matters to the World's Fair graph through Corey Gallon's Dark Arts of Web Automation talk. The company context makes the talk more than a tool demo: it is a practical operating-system view of how small AI-native teams turn repeat browser work into durable, scriptable leverage.",
+    "origin": "The official speaker roster lists Corey Gallon as Managing Director at Rexmore. Rexmore's public site describes the company as an AI-native holding company focused on technology, investment, and education.",
+    "sourceLabels": [
+      "Official speaker roster",
+      "Official conference schedule",
+      "Public company site",
+      "Public professional profile"
+    ],
+    "sourceLinks": [
+      {
+        "label": "Rexmore official site",
+        "url": "https://rexmore.ai/"
+      },
+      {
+        "label": "Corey Gallon official speaker page",
+        "url": "https://aie-wf.sentry.dev/speakers/spk_corey_gallon"
+      },
+      {
+        "label": "Corey Gallon LinkedIn",
+        "url": "https://www.linkedin.com/in/coreygallon"
+      },
+      {
+        "label": "Corey Gallon website",
+        "url": "https://gallon.me"
+      }
+    ],
+    "notes": [
+      "Rexmore's site frames AI-native operations around small teams, ownership, proprietary tools, and operating companies at scale.",
+      "The Dark Arts talk should be treated as a highlighted Rexmore-connected case study in repeatable browser automation and AI-native leverage."
+    ]
+  },
   "superconductor": {
     "website": "https://www.superconductor.com/",
     "summary": "Superconductor is a multiplayer workspace for teams and AI coding agents to build, review, and ship software together. Its public site and docs describe cloud-hosted coding-agent runs, shared agent sessions, live app previews, automated QA, guided code review, cloud development environments, and support for multiple agent/model providers.",

@@ -54,6 +54,7 @@ The World's Fair schedule frames this as a multi-track theme rather than a singl
 - [[youtube-xnXqpUW_Kp8]] - Will Bryk related YouTube evidence.
 - [[youtube-o-zkvb0iFDQ]] - Liad Yosef related YouTube evidence.
 - [[youtube-YRGjll7uu5w]] - Paul Klein IV related YouTube evidence.
+- [[youtube-JsKTQbT58BY]] - Corey Gallon related YouTube evidence.
 - [[slide-library]] - Extracted slide library.
 - [[reconstructed-slide-library]] - Reconstructed slide library.
 - [[dense-slide-library]] - Dense slide library.
@@ -89,10 +90,16 @@ The World's Fair schedule frames this as a multi-track theme rather than a singl
 
 ## Related Companies And Tools
 - [[exa]]
+- [[ora]]
 - [[browserbase]]
 - [[bright-data]]
 - [[mcp]]
 - [[mcp-apps]]
+- [[chrome-agent]]
+
+## Highlighted Paths
+- [[highlight-dark-arts-web-automation]] - critical highlighted talk on CDP-first browser automation.
+- [[highlight-ora-agentic-web]] - highlighted company/research path for ORA and agent readiness.
 
 ## Design Patterns
 - Agent-readable catalogs: expose structured product, documentation, pricing, capability, or availability data so agents do not have to infer everything from visual pages.

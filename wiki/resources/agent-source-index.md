@@ -23,6 +23,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Slides index: https://aie-worldsfair2026.plusrobot.ai/slides/
 - Quotes index: https://aie-worldsfair2026.plusrobot.ai/quotes/
 - Tools index: https://aie-worldsfair2026.plusrobot.ai/tools/
+- Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/
 - Source boundary and evidence confidence: https://aie-worldsfair2026.plusrobot.ai/resources/source-boundary/
 
 ## URL Rules
@@ -43,12 +44,12 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 ## Corpus Map
 - Talks: 560 rendered talk pages; official schedule sessions indexed: 560.
 - People: 553 rendered people pages; official speakers indexed: 552.
-- Companies: 340 rendered company pages.
+- Companies: 341 rendered company pages.
 - Topics: 12 synthesis pages across repeated conference themes.
-- Resources: 190 pages for source maps, YouTube evidence, livestreams, and processing audits.
+- Resources: 191 pages for source maps, YouTube evidence, livestreams, and processing audits.
 - Slides: 383 slide pages; standard decks: 180; reconstructed decks: 107; dense decks: 93.
 - Quotes: 59 selected quote pages tied back to source videos and topics.
-- Tools: 61 tool/protocol/entity pages generated from the conference evidence layer.
+- Tools: 62 tool/protocol/entity pages generated from the conference evidence layer.
 - Events: 5 day/event overview pages.
 
 ## Navigation Strategy
@@ -61,6 +62,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - If you need media evidence, use the talk/video/transcript map and the YouTube resource pages before relying on a transcript or slide page.
 - If you need slide evidence, prefer reconstructed slide pages for readable cropped slides, then use dense or full-stage slide pages as supporting views.
 - If you need reusable concepts, use topics and tools pages; they synthesize across multiple talks and resources.
+- If a page is marked highlighted, expect richer synthesis and check `/highlights/` for the operator's reason and maintenance brief.
 - If you need a concise evidence-backed excerpt, use quote pages and then follow their source video, related topic, and scheduled talk links.
 
 ## High-Value Entry Points
@@ -77,6 +79,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Slide library: https://aie-worldsfair2026.plusrobot.ai/resources/slide-library/
 - Reconstructed slide library: https://aie-worldsfair2026.plusrobot.ai/resources/reconstructed-slide-library/
 - Dense slide library: https://aie-worldsfair2026.plusrobot.ai/resources/dense-slide-library/
+- Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/
 
 ## Evidence Confidence
 - Official schedule and speaker facts are canonical for dates, titles, speakers, organizations, tracks, rooms, and session status.

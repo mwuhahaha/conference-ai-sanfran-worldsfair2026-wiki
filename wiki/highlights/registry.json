@@ -1,0 +1,34 @@
+[
+  {
+    "id": "highlight-agentic-web",
+    "title": "Highlight: Agentic Web",
+    "path": "wiki/highlights/highlight-agentic-web.md",
+    "targetType": "topic",
+    "targetSlug": "agentic-web",
+    "priority": "high"
+  },
+  {
+    "id": "highlight-corey-gallon",
+    "title": "Highlight: Corey Gallon",
+    "path": "wiki/highlights/highlight-corey-gallon.md",
+    "targetType": "person",
+    "targetSlug": "corey-gallon",
+    "priority": "high"
+  },
+  {
+    "id": "highlight-ora-agentic-web",
+    "title": "Highlight: ORA",
+    "path": "wiki/highlights/highlight-ora-agentic-web.md",
+    "targetType": "company",
+    "targetSlug": "ora",
+    "priority": "high"
+  },
+  {
+    "id": "highlight-dark-arts-web-automation",
+    "title": "Highlight: The Dark Arts of Web Automation",
+    "path": "wiki/highlights/highlight-dark-arts-web-automation.md",
+    "targetType": "talk",
+    "targetSlug": "2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans",
+    "priority": "critical"
+  }
+]

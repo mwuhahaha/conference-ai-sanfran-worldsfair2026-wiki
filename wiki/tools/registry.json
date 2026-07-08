@@ -225,6 +225,36 @@
     }
   },
   {
+    "id": "chrome-agent",
+    "title": "chrome-agent",
+    "path": "wiki/tools/chrome-agent.md",
+    "aliases": [
+      "chrome-agent",
+      "Chrome Agent",
+      "Chrome DevTools Protocol",
+      "CDP"
+    ],
+    "sourceLabels": [
+      "Official conference schedule",
+      "Public GitHub project",
+      "Highlight synthesis"
+    ],
+    "scheduleTracks": [
+      "Computer Use"
+    ],
+    "scheduleRooms": [
+      "Track 7"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 0,
+      "slides": 0,
+      "resources": 0,
+      "topics": 1,
+      "transcripts": 0
+    }
+  },
+  {
     "id": "claude",
     "title": "Claude",
     "path": "wiki/tools/claude.md",

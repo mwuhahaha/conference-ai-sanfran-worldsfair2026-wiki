@@ -40,6 +40,7 @@ TOOLS = [
     {"title": "Tailscale", "slug": "tailscale", "aliases": ["Tailscale"]},
     {"title": "Tailscale Aperture", "slug": "tailscale-aperture", "aliases": ["Aperture", "Tailscale Aperture"]},
     {"title": "Browserbase", "slug": "browserbase", "aliases": ["Browserbase"]},
+    {"title": "chrome-agent", "slug": "chrome-agent", "aliases": ["chrome-agent", "Chrome Agent", "Chrome DevTools Protocol", "CDP"]},
     {"title": "Arrakis", "slug": "arrakis", "aliases": ["Arrakis"]},
     {"title": "Docker", "slug": "docker", "aliases": ["Docker"]},
     {"title": "Temporal", "slug": "temporal", "aliases": ["Temporal"]},

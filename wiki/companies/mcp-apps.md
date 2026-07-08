@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # MCP Apps
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+MCP Apps is the protocol and UI-extension context around Liad Yosef and Ido Salomon's World's Fair sessions. It should be read alongside [[ora]], which is Liad's agentic-web company/research context, rather than treated as a substitute for ORA.
 
 ## Why It Matters At World's Fair
 MCP Apps appears through 2 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: We're the bottleneck, but we don't have to be; MCP Apps - Extending the frontier; Rebuilding the web for agents.
@@ -23,7 +23,9 @@ MCP Apps appears through 2 official speaker(s) connected to 3 scheduled session(
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] - MCP Apps - Extending the frontier (2026-06-30, 2:25pm-2:45pm)
 
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [MCP Apps extension page](https://modelcontextprotocol.io/extensions/apps)
+- [MCP Apps working group](https://modelcontextprotocol-community.github.io/)
+- [ORA](https://ora.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dark-arts-web-automation",
+    "targetType": "talk",
+    "slug": "2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans",
+    "title": "The Dark Arts of Web Automation",
+    "priority": "critical",
+    "reason": "Favorite and critical talk: it turns browser agents from expensive step-by-step browsing into repeatable, scriptable CDP-based automation.",
+    "expansionBrief": "Maintain extra recording-search status, related speaker/company/tool context, chrome-agent links, and a practical synthesis of browser automation patterns.",
+    "relatedTargets": ["corey-gallon", "rexmore", "chrome-agent", "agentic-web", "ai-sandboxes"]
+  },
+  {
+    "id": "ora-agentic-web",
+    "targetType": "company",
+    "slug": "ora",
+    "title": "ORA",
+    "priority": "high",
+    "reason": "ORA is central to the agentic-web theme through Liad Yosef and public agent-readiness research.",
+    "expansionBrief": "Keep the page grounded in ORA's public research, Liad Yosef's scheduled talks, MCP Apps, WebMCP, and the agent-ready web problem.",
+    "relatedTargets": ["liad-yosef", "agentic-web", "mcp-apps", "mcp"]
+  },
+  {
+    "id": "corey-gallon",
+    "targetType": "person",
+    "slug": "corey-gallon",
+    "title": "Corey Gallon",
+    "priority": "high",
+    "reason": "Corey anchors the browser automation thread and connects practical AI-native company operations to agentic web execution.",
+    "expansionBrief": "Track official speaker profile, Rexmore context, prior AI Engineer recording, and recording status for the Dark Arts talk.",
+    "relatedTargets": ["dark-arts-web-automation", "rexmore", "chrome-agent"]
+  },
+  {
+    "id": "agentic-web",
+    "targetType": "topic",
+    "slug": "agentic-web",
+    "title": "Agentic Web",
+    "priority": "high",
+    "reason": "Agentic Web is an organizing theme tying ORA, MCP Apps, browser automation, search, catalogs, and computer-use talks together.",
+    "expansionBrief": "Keep schedule anchors, related resources, risks, and implementation patterns richer than ordinary topic pages.",
+    "relatedTargets": ["ora", "liad-yosef", "dark-arts-web-automation", "mcp-apps"]
+  }
+]
