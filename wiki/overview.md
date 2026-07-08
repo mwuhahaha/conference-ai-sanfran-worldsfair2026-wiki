@@ -13,6 +13,7 @@ The result is a schedule-first conference intelligence map. Official session and
 - [[index]] — full wiki index and section guide.
 - [agent-index.md](/agent-index.md) — raw markdown navigation guide for agents consuming the wiki.
 - [[agent-source-index]] — human-rendered copy of the agent navigation guide.
+- Every page also has a backing markdown file under `/md/`; for example, [Agentic Web markdown](/md/topics/agentic-web.md).
 - [[agentic-web|Agentic Web]] — topic page for agent-facing web surfaces, browser automation, agent-readable catalogs, and HTML/web substrates.
 - [[talk-video-transcript-map]] — official talks mapped to related YouTube videos and transcript status.
 - [[slide-library]] — extracted full-frame slide decks from related videos.

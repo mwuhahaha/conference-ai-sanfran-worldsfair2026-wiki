@@ -27,6 +27,9 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 
 ## URL Rules
 - Every rendered page uses a stable lowercase slug URL ending in `/`.
+- Every rendered page has a backing markdown file at `/md/<same-page-id>.md`.
+- To convert a rendered URL to markdown, remove the leading slash and trailing slash, then prefix `/md/` and append `.md`: `/topics/agentic-web/` becomes `/md/topics/agentic-web.md`.
+- The home page is backed by `/md/overview.md`.
 - A talk page is `/talks/<date-speaker-title-slug>/`.
 - A person page is `/people/<person-slug>/`.
 - A company page is `/companies/<company-slug>/`.
@@ -35,6 +38,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - A quote page is `/quotes/<quote-slug>/`.
 - A resource page is `/resources/<resource-slug>/`.
 - Wiki links in markdown use `[[slug]]` or `[[slug|label]]`; on the public site these resolve to the matching rendered URL.
+- If a rendered page is hard to parse, fetch its markdown backing file first and use the rendered page only for images or visual inspection.
 
 ## Corpus Map
 - Talks: 560 rendered talk pages; official schedule sessions indexed: 560.
@@ -50,6 +54,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 ## Navigation Strategy
 - If you know a talk title or speaker, start with `/search/`, `/talks/`, or `/people/`.
 - If you know a theme, start with `/topics/`, then follow related talks, people, companies, tools, quotes, and resources from that topic page.
+- For page content extraction, prefer `/md/...` markdown backing files over scraping rendered HTML.
 - If you need primary schedule context, use the talk page first. Talk pages preserve title, speaker, company, date, track, room, and schedule labels.
 - If you need a speaker's context, use the person page, then follow company, scheduled talks, related videos, and social/profile links when present.
 - If you need organizational context, use the company page, then follow related people and scheduled talks.

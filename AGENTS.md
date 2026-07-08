@@ -18,6 +18,7 @@ Keep new pages compatible with the public repo conventions:
 - Section names and ordering that match existing pages in the same category.
 - Evidence links as wikilinks to local source pages, not unsourced prose.
 - Agent-facing wiki navigation belongs in `wiki/resources/agent-source-index.md`; the static build also publishes it without the site frame at `/agent-index.md`.
+- Every rendered wiki page must have an agent-readable markdown backing file under `/md/`. Keep this exporter behavior enabled for all wiki-maker builds.
 - Registry files such as `wiki/tools/registry.json`, `wiki/questions/registry.json`, and category indexes when a category has generated pages.
 - No local-only workspace notes, private caches, or unpublishable files in the clean/public wiki.
 

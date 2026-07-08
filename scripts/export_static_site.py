@@ -34,6 +34,10 @@ class Page:
             return "/"
         return f"/{self.id}/"
 
+    @property
+    def markdown_url(self) -> str:
+        return f"/md/{self.id}.md"
+
 
 def parse_page(path: Path) -> Page:
     raw = path.read_text(encoding="utf-8")
@@ -87,6 +91,10 @@ def page_output_path(page: Page) -> Path:
     if page.id == "overview":
         return DIST / "index.html"
     return DIST / page.id / "index.html"
+
+
+def page_markdown_output_path(page: Page) -> Path:
+    return DIST / "md" / f"{page.id}.md"
 
 
 def build_link_maps(pages: list[Page]) -> tuple[dict[str, Page], dict[str, Page]]:
@@ -282,6 +290,7 @@ def render_layout(title: str, body: str, pages: list[Page], current: str = "") -
 
 def render_page(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
     body = f"""<article class="page">
+  <p class="page-tools"><a href="{html.escape(page.markdown_url)}">Markdown source</a></p>
   {render_markdown(page.body, by_id, by_stem)}
 </article>"""
     return render_layout(page.title, body, pages, page.category if page.category != "root" else page.id)
@@ -414,6 +423,13 @@ main { max-width: 1080px; margin-left: 320px; padding: 42px clamp(24px, 5vw, 72p
   padding: clamp(24px, 4vw, 44px);
   box-shadow: 0 12px 35px rgba(16, 24, 40, 0.06);
 }
+.page-tools {
+  margin: 0 0 1.25rem;
+  font-size: 0.86rem;
+}
+.page-tools a {
+  color: var(--muted);
+}
 h1, h2, h3 { line-height: 1.18; margin: 1.4em 0 0.45em; }
 h1:first-child, h2:first-child, h3:first-child { margin-top: 0; }
 h1 { font-size: clamp(2rem, 4vw, 3.4rem); }
@@ -490,6 +506,9 @@ def export() -> None:
         out = page_output_path(page)
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(render_page(page, pages, by_id, by_stem), encoding="utf-8")
+        md_out = page_markdown_output_path(page)
+        md_out.parent.mkdir(parents=True, exist_ok=True)
+        md_out.write_text(page.source.read_text(encoding="utf-8"), encoding="utf-8")
 
     categories = sorted({page.category for page in pages if page.category != "root"}, key=category_sort_key)
     for category in categories:
