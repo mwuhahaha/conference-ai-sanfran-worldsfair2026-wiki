@@ -43,7 +43,9 @@ Searches performed for this page:
 - The local talk/video map currently lists this session as `None found`.
 - AI Engineer channel search for `Corey Gallon` found the prior related video [[youtube-JsKTQbT58BY]] but not this exact talk.
 - Public YouTube search for the exact title did not return an AI Engineer recording.
-- Cached World's Fair livestream transcripts and subtitle files were searched for `Corey`, `Gallon`, `Dark Arts`, `chrome-agent`, `CDP`, and distinctive talk phrases; no match was found.
+- The official schedule places the session on 2026-06-30 at 12:05pm in the Computer Use track, room Track 7. The AI Engineer channel Streams tab was checked for a same-day Track 7 or Computer Use room livestream; the only World's Fair 2026 livestreams found there are the broad main-stage/program streams [[youtube-htM02KMNZnk]], [[youtube-4sX_He5c4sI]], and [[youtube-I2cbIws9j10]].
+- Channel searches for `WF2026 Computer Use`, `Track 7`, `web automation`, and `Dark Arts Web Automation` did not return a Track 7 room stream or this exact session cut.
+- Cached World's Fair livestream transcripts and subtitle files were searched for `Corey`, `Gallon`, `Dark Arts`, `chrome-agent`, `chrome agent`, `verify you're human`, `meatbag`, `token-burning`, `JavaScript .click`, and related distinctive talk phrases; no match was found.
 
 Interpretation: treat [[youtube-JsKTQbT58BY]] as supporting speaker context, not as the recording of this session. If the official cut or track recording appears later, this page should be revisited first.
 

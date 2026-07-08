@@ -20,6 +20,7 @@ Maintain extra recording-search status, related speaker/company/tool context, ch
 
 ## Maintenance Checklist
 - Search for exact recordings or source updates before assuming the current evidence is complete.
+- Recheck room/track livestream coverage for 2026-06-30 Computer Use / Track 7; current channel evidence only shows broad WF2026 livestreams, not a Track 7 room stream.
 - Prefer official schedule and roster facts for conference metadata.
 - Add public company, profile, tool, transcript, and slide context when it directly improves the article.
 - Keep the target page's backing markdown available under `/md/` after export.
