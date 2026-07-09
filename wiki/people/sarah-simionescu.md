@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Sarah Simionescu
 
 ## Official Role
-Role not listed at Composio.
+Role not listed at [[composio|Composio]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # David Brumley
 
 ## Official Role
-Chief AI and Science Officer at Bugcrowd, Inc.
+Chief AI and Science Officer at [[bugcrowd-inc|Bugcrowd, Inc]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/thedavidbrumley)

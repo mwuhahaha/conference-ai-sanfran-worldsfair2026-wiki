@@ -9,13 +9,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ashu Joshi
 
 ## Official Role
-Director, Business Strategy at Microsoft.
+Director, Business Strategy at [[microsoft|Microsoft]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ashujoshi)
 
 ## Official Bio
-Ashu Joshi works on agentic AI platform strategy at Microsoft, with a focus on turning AI platforms into enterprise business capabilities across agent platforms, adoption and go-to-market strategy.
+Ashu Joshi works on agentic AI platform strategy at [[microsoft|Microsoft]], with a focus on turning AI platforms into enterprise business capabilities across agent platforms, adoption and go-to-market strategy.
 
 ## Scheduled Sessions
 - [[2026-06-30-ashu-joshi-deploy-agents-to-users-in-m365-teams-and-apps]] — Deploy agents to users in M365, Teams, and apps (2026-06-30, 3:20pm-3:40pm)

@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Alex Volkov
 
 ## Official Role
-AI Evangelist & Host of ThursdAI at W&B from CoreWeave.
+AI Evangelist & Host of ThursdAI at [[w-and-b-from-coreweave|W&B from CoreWeave]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/alex-volkov-)

@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Fuad Ali
 
 ## Official Role
-Senior Product Manager at Arize AI.
+Senior Product Manager at [[arize-ai|Arize AI]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-Fuad Ali is a Senior Product Manager at Arize AI focused on ML observability and reliable AI systems. His background spans engineering and product work at SpaceX, Tesla, Twitter and Federato, and he co-hosts The Next Iteration podcast.
+Fuad Ali is a Senior Product Manager at [[arize-ai|Arize AI]] focused on ML observability and reliable AI systems. His background spans engineering and product work at SpaceX, Tesla, Twitter and Federato, and he co-hosts The Next Iteration podcast.
 
 ## Scheduled Sessions
 - [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent]] — Building self-learning loops for your agent (2026-06-29, 11:05am-12:05pm)

@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Archana Kamath
 
 ## Official Role
-VP of Engineering at Digital Ocean.
+VP of Engineering at [[digital-ocean|Digital Ocean]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

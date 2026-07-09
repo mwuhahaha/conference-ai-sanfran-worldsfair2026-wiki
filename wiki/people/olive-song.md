@@ -9,13 +9,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Olive Song
 
 ## Official Role
-RL Lead at MiniMax.
+RL Lead at [[minimax|MiniMax]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/olive_jy_song)
 
 ## Official Bio
-Researcher at MiniMax focused on reinforcement learning and model evaluation for the M-series models.
+Researcher at [[minimax|MiniMax]] focused on reinforcement learning and model evaluation for the M-series models.
 
 ## Scheduled Sessions
 - [[2026-06-29-thom-wolf-thom-wolf-keynote]] — Thom Wolf keynote (2026-06-29, 10:05am-10:25am)

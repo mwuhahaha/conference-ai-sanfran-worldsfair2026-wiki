@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Zixuan Li
 
 ## Official Role
-Head of Z.ai at Z.ai.
+Head of [[z-ai|Z.ai]] at [[z-ai|Z.ai]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-Head of Z.ai, involved with Z.ai's AI products and GLM model strategy.
+Head of [[z-ai|Z.ai]], involved with [[z-ai|Z.ai]]'s AI products and GLM model strategy.
 
 ## Scheduled Sessions
 - [[2026-06-29-zixuan-li-glm-5-2-frontier-intelligence-open-weights]] — GLM-5.2: Frontier Intelligence, Open Weights. (2026-06-29, 9:45am-10:05am)

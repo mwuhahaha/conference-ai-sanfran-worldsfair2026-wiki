@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Joseph Nelson
 
 ## Official Role
-Cofounder, CEO at Roboflow.
+Cofounder, CEO at [[roboflow|Roboflow]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/josephofiowa/)
 - [X / Twitter](https://x.com/josephofiowa)
 
 ## Official Bio
-Joseph is cofounder/CEO at Roboflow, the vision AI company. Roboflow makes infrastructure millions of AI engineers including half the Fortune 100 use to create and deploy vision models in the cloud and on the edge. They are the authors of RF-DETR, SOTA realtime instance segmentation and detection transformers. Roboflow's backed by investors like YC, GV (fmr Google Ventures), Greg Brockman, Jeff Dean, amongst others.
+Joseph is cofounder/CEO at [[roboflow|Roboflow]], the vision AI company. [[roboflow|Roboflow]] makes infrastructure millions of AI engineers including half the Fortune 100 use to create and deploy vision models in the cloud and on the edge. They are the authors of RF-DETR, SOTA realtime instance segmentation and detection transformers. [[roboflow|Roboflow]]'s backed by investors like YC, GV (fmr Google Ventures), Greg Brockman, Jeff Dean, amongst others.
 
 ## Scheduled Sessions
 - [[2026-06-29-joseph-nelson-the-state-of-vision]] — The State of Vision (2026-06-29, 10:45am-11:05am)

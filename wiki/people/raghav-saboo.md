@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Raghav Saboo
 
 ## Official Role
-Staff Machine Learning Engineer, Tech Lead Search & Personalization at DoorDash, Inc..
+Staff Machine Learning Engineer, Tech Lead Search & Personalization at [[doordash-inc|DoorDash, Inc.]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/raghavsaboo/)

@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Akele Reed
 
 ## Official Role
-Principal AI Engineer at Sondermind.
+Principal AI Engineer at [[sondermind|Sondermind]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/akele-reed)

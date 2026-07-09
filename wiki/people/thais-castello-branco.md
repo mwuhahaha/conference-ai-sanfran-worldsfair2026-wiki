@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Thais Castello Branco
 
 ## Official Role
-Founder & CEO at Taste Labs.
+Founder & CEO at [[taste-labs|Taste Labs]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/thais-castello-branco/)

@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Zhengyao Jiang
 
 ## Official Role
-CEO & Cofounder at Weco AI.
+CEO & Cofounder at [[weco-ai|Weco AI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/zhengyao-jiang-387b44145/)

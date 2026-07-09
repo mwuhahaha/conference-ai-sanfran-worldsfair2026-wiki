@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Nan Jiang
 
 ## Official Role
-MTS at Modal.
+MTS at [[modal|Modal]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

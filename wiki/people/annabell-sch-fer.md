@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Annabell Schäfer
 
 ## Official Role
-Growth Engineer at Clickhouse.
+Growth Engineer at [[clickhouse|Clickhouse]].
 
 ## Profile Links
 - [LinkedIn](https://de.linkedin.com/in/annabell-schaefer)

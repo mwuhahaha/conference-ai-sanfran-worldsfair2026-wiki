@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Benjamin Clavié
 
 ## Official Role
-Member of Technical Staff at Mixedbread Inc..
+Member of Technical Staff at [[mixedbread-inc|Mixedbread Inc.]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/bclavie)

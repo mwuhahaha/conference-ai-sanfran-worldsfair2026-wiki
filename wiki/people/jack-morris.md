@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jack Morris
 
 ## Official Role
-Cofounder at Engram.
+Cofounder at [[engram|Engram]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/jxmnop)
 - [Website](https://jxmo.io / https://substack.com/@jxmnop)
 
 ## Official Bio
-Jack is a cofounder and head of research at Engram. He received his PhD in 2025 from Cornell University
+Jack is a cofounder and head of research at [[engram|Engram]]. He received his PhD in 2025 from Cornell University
 
 ## Scheduled Sessions
 - [[2026-06-30-jack-morris-scaling-compute-on-context]] — Scaling Compute on Context (2026-06-30, 11:40am-12:00pm)

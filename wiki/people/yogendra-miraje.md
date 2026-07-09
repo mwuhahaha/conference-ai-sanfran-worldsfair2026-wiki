@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Yogendra Miraje
 
 ## Official Role
-Principal AI Engineer at FactSet.
+Principal AI Engineer at [[factset|FactSet]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/mirajey/)
@@ -19,7 +19,7 @@ Principal AI Engineer at FactSet.
 - [Website](https://yogimiraje.com)
 
 ## Official Bio
-Principal AI Engineer in FactSet Research Systems. Building Agentic Systems grounded in Financial data.
+Principal AI Engineer in [[factset|FactSet]] Research Systems. Building Agentic Systems grounded in Financial data.
 
 ## Scheduled Sessions
 - [[2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products]] — Skills are new features: Building Skill-Centric Harness for Agentic Products (2026-07-01, 3:20pm-3:40pm)

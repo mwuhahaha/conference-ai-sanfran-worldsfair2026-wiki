@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Joel Hooks
 
 ## Official Role
-Co-founder; software developer and developer-education entrepreneur at badass.dev / egghead.io.
+Co-founder; software developer and developer-education entrepreneur at [[badass-dev-egghead-io|badass.dev / egghead.io]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/joelhooks)
@@ -21,7 +21,7 @@ Co-founder; software developer and developer-education entrepreneur at badass.de
 - [Blog](https://badass.dev/the-process)
 
 ## Official Bio
-Joel Hooks is a software developer and entrepreneur known for developer education. He co-founded egghead.io and badass.dev, and works on helping creators build high-quality developer education products.
+Joel Hooks is a software developer and entrepreneur known for developer education. He co-founded [[egghead-io|egghead.io]] and badass.dev, and works on helping creators build high-quality developer education products.
 
 ## Scheduled Sessions
 - [[2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends]] — The Art and Science of Loopcraft with Pi (and friends) (2026-06-29, 4:30pm-5:30pm)

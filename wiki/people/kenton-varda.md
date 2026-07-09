@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Kenton Varda
 
 ## Official Role
-Principal Engineer at Cloudflare.
+Principal Engineer at [[cloudflare|Cloudflare]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/KentonVarda)
@@ -19,7 +19,7 @@ Principal Engineer at Cloudflare.
 - [Blog](https://lanparty.house)
 
 ## Official Bio
-Lead engineer for the Cloudflare Workers serverless platform, a project he started in 2017. Previously co-founder of Sandstorm.io. Created Cap'n Proto and Cap'n Web. Built lanparty.house. Coined the term "Code Mode".
+Lead engineer for the [[cloudflare|Cloudflare]] Workers serverless platform, a project he started in 2017. Previously co-founder of Sandstorm.io. Created Cap'n Proto and Cap'n Web. Built lanparty.house. Coined the term "Code Mode".
 
 ## Scheduled Sessions
 - [[2026-06-29-kenton-varda-gadgets-personal-app-vibe-coding-that-is-actually-safe]] — Gadgets: Personal app vibe coding that is actually safe (2026-06-29, 3:45pm-4:05pm)

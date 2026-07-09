@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Alex Atallah
 
 ## Official Role
-Co-founder & CEO at OpenRouter.
+Co-founder & CEO at [[openrouter|OpenRouter]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/alexatallah)
@@ -19,7 +19,7 @@ Co-founder & CEO at OpenRouter.
 - [Website](https://openrouter.ai)
 
 ## Official Bio
-Alex Atallah is Co-founder & CEO of OpenRouter. OpenRouter provides a unified interface for accessing and routing across hundreds of AI models from many providers.
+Alex Atallah is Co-founder & CEO of [[openrouter|OpenRouter]]. [[openrouter|OpenRouter]] provides a unified interface for accessing and routing across hundreds of AI models from many providers.
 
 ## Scheduled Sessions
 - [[2026-07-01-nader-khalil-model-routing]] — Model Routing (2026-07-01, 3:20pm-3:40pm)

@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ryan Cooke
 
 ## Official Role
-Role not listed at WorkOS.
+Role not listed at [[workos|WorkOS]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

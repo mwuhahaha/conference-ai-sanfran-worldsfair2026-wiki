@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Adam Azzam
 
 ## Official Role
-Member of Product Staff at Modal.
+Member of Product Staff at [[modal|Modal]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/adam-azzam)
@@ -19,7 +19,7 @@ Member of Product Staff at Modal.
 - [Website](https://adamazzam.com)
 
 ## Official Bio
-Adam Azzam is a Member of Product Staff at Modal, a high-performance AI infrastructure platform. Before Modal, Adam was VP of Product at Prefect and maintainer of Prefect and FastMCP. He holds a PhD in mathematics.
+Adam Azzam is a Member of Product Staff at [[modal|Modal]], a high-performance AI infrastructure platform. Before [[modal|Modal]], Adam was VP of Product at Prefect and maintainer of Prefect and FastMCP. He holds a PhD in mathematics.
 
 ## Scheduled Sessions
 - [[2026-06-30-adam-azzam-don-t-build-agents-build-environments]] — Don’t build agents, build environments (2026-06-30, 10:45am-11:05am)

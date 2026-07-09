@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ashish Kamra
 
 ## Official Role
-Senior Manager, Software Engineering at Red Hat.
+Senior Manager, Software Engineering at [[red-hat|Red Hat]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ashishkamra/)

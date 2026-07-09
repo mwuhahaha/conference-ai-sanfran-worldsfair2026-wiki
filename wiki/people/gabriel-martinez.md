@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Gabriel Martinez
 
 ## Official Role
-Engineering Manager at G2i.
+Engineering Manager at [[g2i|G2i]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

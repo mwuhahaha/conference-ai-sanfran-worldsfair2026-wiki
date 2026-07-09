@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Elizabeth Fuentes Leone
 
 ## Official Role
-Developer Advocate at Amazon Web Services.
+Developer Advocate at [[amazon-web-services|Amazon Web Services]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/lizfue/)

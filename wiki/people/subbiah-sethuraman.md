@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Subbiah Sethuraman
 
 ## Official Role
-Partner at ZS Associates.
+Partner at [[zs-associates|ZS Associates]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/subbiahsethuraman/)

@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Yoni Michael
 
 ## Official Role
-Co-Founder at typedef.
+Co-Founder at [[typedef|typedef]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/yonimichael)

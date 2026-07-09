@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Nidhi Kaushik Vyas
 
 ## Official Role
-Product at Google DeepMind.
+Product at [[google-deepmind|Google DeepMind]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/nidhivyas/)

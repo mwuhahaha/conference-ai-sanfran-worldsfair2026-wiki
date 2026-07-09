@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Neil Zeghidour
 
 ## Official Role
-Co-founder & CEO at Gradium.
+Co-founder & CEO at [[gradium|Gradium]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/neilzegh)
 - [Website](https://gradium.ai)
 
 ## Official Bio
-Neil Zeghidour is the co-founder and CEO of Gradium. Neil founded Gradium after a decade of building and leading frontier generative audio teams at Meta and Google DeepMind. Being frustrated by slow and brittle voice assistants , he built the engineering teams that developed the first neural audio codecs and introduced the first audio LLMs, such as AudioLM, at Google. He later created Kyutai to launch Moshi, the world's first real-time, full-duplex conversational AI , and Hibiki, the first simultaneous speech-to-speech translation system. Today, Gradium is focused on helping developers build natural, real-time voice agents by providing ultra-low latency streaming APIs that transition these breakthroughs from the research lab to production.
+Neil Zeghidour is the co-founder and CEO of [[gradium|Gradium]]. Neil founded [[gradium|Gradium]] after a decade of building and leading frontier generative audio teams at Meta and Google DeepMind. Being frustrated by slow and brittle voice assistants , he built the engineering teams that developed the first neural audio codecs and introduced the first audio LLMs, such as AudioLM, at Google. He later created Kyutai to launch Moshi, the world's first real-time, full-duplex conversational AI , and Hibiki, the first simultaneous speech-to-speech translation system. Today, [[gradium|Gradium]] is focused on helping developers build natural, real-time voice agents by providing ultra-low latency streaming APIs that transition these breakthroughs from the research lab to production.
 
 ## Scheduled Sessions
 - [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie]] — Your Voice Agent is Just a Walkie-Talkie (2026-06-29, 12:05pm-12:25pm)

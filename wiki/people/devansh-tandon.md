@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Devansh Tandon
 
 ## Official Role
-Principal Product Manager at Meta.
+Principal Product Manager at [[meta|Meta]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/devanshtandon/)
 - [X / Twitter](https://x.com/devanshtandon_)
 
 ## Official Bio
-Devansh Tandon works on AI Research & Product at Meta, leading AI & recommendations teams. He is a founding member of a new AI research group (Meta Recommendation Systems Research) to develop LLM foundation models & recommendation systems across Meta: to power Instagram, Facebook, Ads.
+Devansh Tandon works on AI Research & Product at [[meta|Meta]], leading AI & recommendations teams. He is a founding member of a new AI research group ([[meta|Meta]] Recommendation Systems Research) to develop LLM foundation models & recommendation systems across [[meta|Meta]]: to power Instagram, Facebook, Ads.
 
 Previously, Devansh led ML/AI teams at Google for 7 years, building the largest ML models across Ads, Search, Discover, YouTube, Gemini. He worked on YouTube's recommendation engine, which drives 70% of video watch time for 2 billion+ daily active users. At DeepMind, he incubated a new generative recommendation system using Gemini, and published multiple research papers. 
 

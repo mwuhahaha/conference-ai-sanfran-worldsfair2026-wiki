@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Tanmay Sah
 
 ## Official Role
-Senior Quantitative Modeler at Zions Bancorporation.
+Senior Quantitative Modeler at [[zions-bancorporation|Zions Bancorporation]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/tanmay-sah/)

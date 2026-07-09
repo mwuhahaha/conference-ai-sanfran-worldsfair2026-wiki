@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Idan Gazit
 
 ## Official Role
-Head of GitHub Next at GitHub.
+Head of [[github|GitHub]] Next at [[github|GitHub]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/idangazit)
@@ -21,7 +21,7 @@ Head of GitHub Next at GitHub.
 - [Blog](https://gazit.me)
 
 ## Official Bio
-Idan Gazit leads GitHub Next, the birthplace of GitHub Copilot, and many more prototypes that explore how AI will make software development faster, easier, safer, and more accessible for developers everywhere. As a hybrid designer and developer, his interests span a variety of fields. Idan is keenly interested in data display issues, typography, and color. You're likely to hear him talk about the pit of success, and the importance of good nouns. Idan was previously a principal engineer at Heroku, and is an alumnus of the Django web framework's core development team. He is a firm believer in the power of web technologies, and is most at home in them, though many evenings you can find him soldering a new keyboard or muttering foul language while trying to get Rust to run on a microcontroller.
+Idan Gazit leads [[github|GitHub]] Next, the birthplace of [[github|GitHub]] Copilot, and many more prototypes that explore how AI will make software development faster, easier, safer, and more accessible for developers everywhere. As a hybrid designer and developer, his interests span a variety of fields. Idan is keenly interested in data display issues, typography, and color. You're likely to hear him talk about the pit of success, and the importance of good nouns. Idan was previously a principal engineer at Heroku, and is an alumnus of the Django web framework's core development team. He is a firm believer in the power of web technologies, and is most at home in them, though many evenings you can find him soldering a new keyboard or muttering foul language while trying to get Rust to run on a microcontroller.
 
 ## Scheduled Sessions
 - [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app]] — Build agents fast with GitHub Copilot (from idea to working app) (2026-06-29, 10:45am-11:05am)

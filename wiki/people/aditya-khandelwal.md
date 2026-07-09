@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Aditya Khandelwal
 
 ## Official Role
-MTS at Amazon AGI Lab.
+MTS at [[amazon-agi-lab|Amazon AGI Lab]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Armen Aghajanyan
 
 ## Official Role
-Co-Founder & CEO at Perceptron AI.
+Co-Founder & CEO at [[perceptron-ai|Perceptron AI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/armenag)

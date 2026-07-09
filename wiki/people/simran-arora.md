@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Simran Arora
 
 ## Official Role
-Computer Science PhD Student at Stanford University.
+Computer Science PhD Student at [[stanford-university|Stanford University]].
 
 ## Profile Links
 - [Website](https://arorasimran.com)

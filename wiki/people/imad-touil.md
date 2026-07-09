@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Imad Touil
 
 ## Official Role
-Distinguished Engineer at QuantumBlack, AI by McKinsey.
+Distinguished Engineer at [[quantumblack-ai-by-mckinsey|QuantumBlack, AI by McKinsey]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/imad-touil/)

@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Swaroop Chitlur Haridas
 
 ## Official Role
-Role not listed at DoorDash.
+Role not listed at [[doordash|DoorDash]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

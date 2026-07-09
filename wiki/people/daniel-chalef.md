@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Daniel Chalef
 
 ## Official Role
-Founder and CEO at Zep AI.
+Founder and CEO at [[zep-ai|Zep AI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/danielchalef/)

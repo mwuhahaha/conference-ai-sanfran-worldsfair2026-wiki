@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Gabriel Jorge Menezes
 
 ## Official Role
-Core Infrastructure Engineer at Krea.ai.
+Core Infrastructure Engineer at [[krea-ai|Krea.ai]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/gabriel-jorge-menezes/)

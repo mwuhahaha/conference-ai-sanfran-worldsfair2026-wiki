@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Richard Socher
 
 ## Official Role
-CEO & Co-Founder at You.com / Recursive Superintelligence.
+CEO & Co-Founder at [[you-com-recursive-superintelligence|You.com / Recursive Superintelligence]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/RichardSocher)

@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Bohan Li
 
 ## Official Role
-Staff Software Engineer at EliseAi.
+Staff Software Engineer at [[eliseai|EliseAi]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/bohan-li-7290b74a/)

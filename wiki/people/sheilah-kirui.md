@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Sheilah Kirui
 
 ## Official Role
-Role not listed at NVIDIA.
+Role not listed at [[nvidia|NVIDIA]].
 
 ## Profile Links
 - [Website](https://developer.nvidia.com/blog/author/skirui)

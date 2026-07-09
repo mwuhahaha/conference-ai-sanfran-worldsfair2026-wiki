@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Zain Hasan
 
 ## Official Role
-Staff AI/ML Engineer - DX at Together AI.
+Staff AI/ML Engineer - DX at [[together-ai|Together AI]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/ZainHasan6)

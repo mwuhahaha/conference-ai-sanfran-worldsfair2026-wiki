@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Philip Kiely
 
 ## Official Role
-Developer Relations at Baseten.
+Developer Relations at [[baseten|Baseten]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/philipkiely)
@@ -21,7 +21,7 @@ Developer Relations at Baseten.
 - [Blog](https://philipkiely.com)
 
 ## Official Bio
-Philip Kiely leads Developer Relations at Baseten. Prior to joining Baseten in 2022, he worked across software engineering and technical writing for a variety of startups. Outside of work, you'll find Philip practicing martial arts, reading a new book, or cheering for his adopted bay area sports teams.
+Philip Kiely leads Developer Relations at [[baseten|Baseten]]. Prior to joining [[baseten|Baseten]] in 2022, he worked across software engineering and technical writing for a variety of startups. Outside of work, you'll find Philip practicing martial arts, reading a new book, or cheering for his adopted bay area sports teams.
 
 ## Scheduled Sessions
 - [[2026-07-01-philip-kiely-what-s-new-in-inference-engineering]] — What's New in Inference Engineering (2026-07-01, 1:30pm-1:50pm)

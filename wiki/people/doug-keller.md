@@ -9,13 +9,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Doug Keller
 
 ## Official Role
-Senior Staff AI Engineer at SonderMind.
+Senior Staff AI Engineer at [[sondermind|SonderMind]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/doug-keller/)
 
 ## Official Bio
-Doug is the lead architect of the agent platform powering SonderMind’s GenAI solutions and a core member of the team building Sonder, SonderMind’s mental health coach. With over a decade of full-stack systems experience, Doug brings a systems-first approach to agent architecture, grounding his work in engineering fundamentals while enabling the adaptability required in the rapidly evolving GenAI landscape.
+Doug is the lead architect of the agent platform powering [[sondermind|SonderMind]]’s GenAI solutions and a core member of the team building Sonder, [[sondermind|SonderMind]]’s mental health coach. With over a decade of full-stack systems experience, Doug brings a systems-first approach to agent architecture, grounding his work in engineering fundamentals while enabling the adaptability required in the rapidly evolving GenAI landscape.
 
 ## Scheduled Sessions
 - [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely]] — Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely (2026-06-30, 2:50pm-3:10pm)

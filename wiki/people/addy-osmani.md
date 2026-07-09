@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Addy Osmani
 
 ## Official Role
-Director of Engineering at Independent.
+Director of Engineering at [[independent|Independent]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/addyosmani/)

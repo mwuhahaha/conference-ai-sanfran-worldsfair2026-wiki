@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Preetika Bhateja
 
 ## Official Role
-Product Manager at Google.
+Product Manager at [[google|Google]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Wallon Walusayi
 
 ## Official Role
-Role not listed at Qodo.
+Role not listed at [[qodo|Qodo]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/wallon)

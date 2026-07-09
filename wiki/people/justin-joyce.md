@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Justin Joyce
 
 ## Official Role
-Principal Sales Operations and Strategy Manager at Cloudflare.
+Principal Sales Operations and Strategy Manager at [[cloudflare|Cloudflare]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/justin-j-22132912/)

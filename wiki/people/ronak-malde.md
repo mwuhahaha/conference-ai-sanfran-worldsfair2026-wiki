@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ronak Malde
 
 ## Official Role
-Co-Founder and CEO at Trajectory.
+Co-Founder and CEO at [[trajectory|Trajectory]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ronak-malde)
 - [X / Twitter](https://x.com/rronak_)
 
 ## Official Bio
-Co-Founder & CEO of Trajectory.
+Co-Founder & CEO of [[trajectory|Trajectory]].
 Previously trained SWE-1 at Windsurf, then gemini post-training at DeepMind after acquisition
 
 ## Scheduled Sessions

@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Omri Bruchim
 
 ## Official Role
-Engineering Group Manager at Monday.
+Engineering Group Manager at [[monday|Monday]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/omribruchim/)

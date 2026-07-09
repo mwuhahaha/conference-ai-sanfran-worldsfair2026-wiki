@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Brian Douglas
 
 ## Official Role
-CoFounder at Paper Compute Company.
+CoFounder at [[paper-compute-company|Paper Compute Company]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/brianldouglas)
@@ -19,7 +19,7 @@ CoFounder at Paper Compute Company.
 - [Website](https://b.dougie.dev)
 
 ## Official Bio
-Brian is the founder of the Paper Compute Company, an distributed systems primitives for AI agents.
+Brian is the founder of the [[paper-compute-company|Paper Compute Company]], an distributed systems primitives for AI agents.
 
 Brian previously founded Open Sauced where he woreds on increasing the knowledge and insights of open-source communities. In the past he’s lead Developer Advocacy at GitHub by fostering a community of early adopters through conversations with the top open source maintainers on GitHub.
 

@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Sujee Maniyam
 
 ## Official Role
-Developer Advocate at Nebius.
+Developer Advocate at [[nebius|Nebius]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-Sujee Maniyam is a developer advocate at Nebius with a background in ML, data engineering, technical training, and production inference education.
+Sujee Maniyam is a developer advocate at [[nebius|Nebius]] with a background in ML, data engineering, technical training, and production inference education.
 
 ## Scheduled Sessions
 - [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference]] — Optimizing Open Models for Production Grade Inference (2026-07-01, 2:25pm-2:45pm)

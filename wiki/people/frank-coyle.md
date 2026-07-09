@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Frank Coyle
 
 ## Official Role
-Lecturer, UCALBerkeley / Founder AI/Edge at UCAL Berkeley.
+Lecturer, UCALBerkeley / Founder AI/Edge at [[ucal-berkeley|UCAL Berkeley]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/frank-coyle/)

@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Tyler Gillam
 
 ## Official Role
-Senior Software Engineer II - Agentic AI at Digital Ocean.
+Senior Software Engineer II - Agentic AI at [[digital-ocean|Digital Ocean]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/tdgillam)

@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Chris Souza
 
 ## Official Role
-Role not listed at Google.
+Role not listed at [[google|Google]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

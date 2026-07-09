@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Rita Zhang
 
 ## Official Role
-Role not listed at Coreweave.
+Role not listed at [[coreweave|Coreweave]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/ritazzhang)

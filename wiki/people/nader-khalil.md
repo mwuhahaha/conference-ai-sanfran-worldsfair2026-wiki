@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Nader Khalil
 
 ## Official Role
-Director of Developer Technology at NVIDIA.
+Director of Developer Technology at [[nvidia|NVIDIA]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/naderlikeladder)
@@ -19,7 +19,7 @@ Director of Developer Technology at NVIDIA.
 - [Website](https://nader.coffee)
 
 ## Official Bio
-Director of Developer Tech at NVIDIA leading Open Source, Agent Marketing, Developer Experience. CEO & co-founder of Brev.dev, which was acquired by NVIDIA in July 2024.
+Director of Developer Tech at [[nvidia|NVIDIA]] leading Open Source, Agent Marketing, Developer Experience. CEO & co-founder of Brev.dev, which was acquired by [[nvidia|NVIDIA]] in July 2024.
 
 ## Scheduled Sessions
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now]] — State of the Union: Why Local, Why Now (2026-07-01, 10:45am-11:05am)

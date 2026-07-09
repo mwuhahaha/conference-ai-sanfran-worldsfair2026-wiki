@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # George He
 
 ## Official Role
-Head of Platform Engineering at LlamaIndex.
+Head of Platform Engineering at [[llamaindex|LlamaIndex]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-George He leads platform engineering at LlamaIndex, working on document agents, OCR, retrieval, and infrastructure for connecting enterprise data to LLM applications.
+George He leads platform engineering at [[llamaindex|LlamaIndex]], working on document agents, OCR, retrieval, and infrastructure for connecting enterprise data to LLM applications.
 
 ## Scheduled Sessions
 - [[2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results]] — Everyone talks about document search, but what about results? (2026-07-01, 1:55pm-2:15pm)

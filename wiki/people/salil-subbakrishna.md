@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Salil Subbakrishna
 
 ## Official Role
-Role not listed at GitHub.
+Role not listed at [[github|GitHub]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/salilsub)

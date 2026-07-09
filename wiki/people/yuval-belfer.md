@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Yuval Belfer
 
 ## Official Role
-Sr. Developer Advocate at AI21.
+Sr. Developer Advocate at [[ai21|AI21]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/yuval-belfer)
 - [X / Twitter](https://x.com/yuvalinthedeep)
 
 ## Official Bio
-Yuval is a Senior Developer Advocate at AI21 Labs, where he helps engineers go from "it works in the demo" to "it works in production." He hosts the YAAP podcast (Yet Another AI Podcast) and teaches applied GenAI on various programs. His work spans RAG, fine-tuning, agents, and evaluation (or Yuval-uation, if you're nasty).
+Yuval is a Senior Developer Advocate at [[ai21|AI21]] Labs, where he helps engineers go from "it works in the demo" to "it works in production." He hosts the YAAP podcast (Yet Another AI Podcast) and teaches applied GenAI on various programs. His work spans RAG, fine-tuning, agents, and evaluation (or Yuval-uation, if you're nasty).
 
 ## Scheduled Sessions
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022]] — Stop Chunking Like It's 2022 (2026-06-29, 3:20pm-3:40pm)

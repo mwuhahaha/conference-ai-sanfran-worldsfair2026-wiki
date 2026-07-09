@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Chris Alexiuk
 
 ## Official Role
-Sr. Product Research Engineer at NVIDIA.
+Sr. Product Research Engineer at [[nvidia|NVIDIA]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/csalexiuk)
@@ -19,7 +19,7 @@ Sr. Product Research Engineer at NVIDIA.
 - [Website](https://www.alexi.uk/)
 
 ## Official Bio
-Chris Alexiuk is a Sr. Product Research Engineer at NVIDIA, he is obsessed with everything and anything about large language models as well as Dungeons & Dragons.
+Chris Alexiuk is a Sr. Product Research Engineer at [[nvidia|NVIDIA]], he is obsessed with everything and anything about large language models as well as Dungeons & Dragons.
 
 ## Scheduled Sessions
 - [[2026-07-01-carter-abdallah-local-models-trust-control-optimization]] — Local Models: Trust, Control, Optimization (2026-07-01, 1:30pm-1:50pm)

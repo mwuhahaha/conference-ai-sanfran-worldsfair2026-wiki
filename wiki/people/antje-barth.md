@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Antje Barth
 
 ## Official Role
-Member of Technical Staff at Amazon AGI Lab.
+Member of Technical Staff at [[amazon-agi-lab|Amazon AGI Lab]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/anbarth)

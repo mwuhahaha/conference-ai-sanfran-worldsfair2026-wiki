@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Omer Primor
 
 ## Official Role
-Role not listed at Bright Data.
+Role not listed at [[bright-data|Bright Data]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

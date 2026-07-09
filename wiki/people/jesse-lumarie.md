@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jesse Lumarie
 
 ## Official Role
-Software Engineer at Figma.
+Software Engineer at [[figma|Figma]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jesselumarie/)
 - [X / Twitter](https://x.com/jesselumarie)
 
 ## Official Bio
-Jesse Lumarie is a software engineer building AI tools and integrations at Figma. Prior to Make, Jesse worked on growth initiatives and Figma's first MCP server. He lives in Boulder with his wife Jenna, and three kids Henry, Hayes and Robin.
+Jesse Lumarie is a software engineer building AI tools and integrations at [[figma|Figma]]. Prior to Make, Jesse worked on growth initiatives and [[figma|Figma]]'s first MCP server. He lives in Boulder with his wife Jenna, and three kids Henry, Hayes and Robin.
 
 ## Scheduled Sessions
 - [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server]] — Building the engine while flying the plane — launching the Figma MCP server (2026-06-29, 11:10am-11:30am)

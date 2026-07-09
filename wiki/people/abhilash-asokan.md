@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Abhilash Asokan
 
 ## Official Role
-Role not listed at ZS.
+Role not listed at [[zs|ZS]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

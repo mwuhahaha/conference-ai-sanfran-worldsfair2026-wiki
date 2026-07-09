@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Heather Downing
 
 ## Official Role
-Developer Advocate at Yugabyte.
+Developer Advocate at [[yugabyte|Yugabyte]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/heathermdowning)

@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Tereza Tížková
 
 ## Official Role
-Growth at Factory.
+Growth at [[factory|Factory]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/tereza-tizkova-568439174/)
@@ -21,8 +21,8 @@ Growth at Factory.
 - [Blog](https://www.terezatizkova.com/blog)
 
 ## Official Bio
-Tereza works on growing Factory, the AI-native software development platform where autonomous coding agents (Droids) help engineering teams ship across the entire development lifecycle.
-Before Factory, she was working on growth as the first hire at E2B, the open-source sandboxed virtual machines powering AI products.
+Tereza works on growing [[factory|Factory]], the AI-native software development platform where autonomous coding agents (Droids) help engineering teams ship across the entire development lifecycle.
+Before [[factory|Factory]], she was working on growth as the first hire at E2B, the open-source sandboxed virtual machines powering AI products.
 In her free time, she likes to write blog, enjoys testing new products, and talking to developers.
 
 ## Scheduled Sessions

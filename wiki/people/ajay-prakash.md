@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ajay Prakash
 
 ## Official Role
-Senior Staff Software Engineer at Linkedin.
+Senior Staff Software Engineer at [[linkedin|Linkedin]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ajay-prakash-3780b132/)

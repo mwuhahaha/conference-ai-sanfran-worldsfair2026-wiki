@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # XiangMing Sun
 
 ## Official Role
-Role not listed at Unitree.
+Role not listed at [[unitree|Unitree]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

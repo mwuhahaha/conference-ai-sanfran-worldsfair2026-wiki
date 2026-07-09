@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Chang Liu
 
 ## Official Role
-Senior Product Manager at Microsoft.
+Senior Product Manager at [[microsoft|Microsoft]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-Chang Liu is a Senior Product Manager at Microsoft working on Azure AI Foundry evaluation and agent quality tooling, including metrics for quality and safety in agentic applications.
+Chang Liu is a Senior Product Manager at [[microsoft|Microsoft]] working on Azure AI Foundry evaluation and agent quality tooling, including metrics for quality and safety in agentic applications.
 
 ## Scheduled Sessions
 - [[2026-07-01-chang-liu-tracing-and-debugging-agents-across-systems-with-opentelemetry]] — Tracing and debugging agents across systems with OpenTelemetry (2026-07-01, 11:10am-11:30am)

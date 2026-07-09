@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Joshua Mo
 
 ## Official Role
-Lead DevRel Engineer at Venice AI.
+Lead DevRel Engineer at [[venice-ai|Venice AI]].
 
 ## Profile Links
 - [LinkedIn](https://uk.linkedin.com/in/joshua-mo-4146aa220)

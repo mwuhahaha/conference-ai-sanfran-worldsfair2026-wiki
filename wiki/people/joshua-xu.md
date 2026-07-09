@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Joshua Xu
 
 ## Official Role
-CEO at HeyGen.
+CEO at [[heygen|HeyGen]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/buffxz)

@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Rafael Levi
 
 ## Official Role
-DevRel at Bright Data.
+DevRel at [[bright-data|Bright Data]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

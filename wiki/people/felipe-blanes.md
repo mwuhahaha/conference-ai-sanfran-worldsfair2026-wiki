@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Felipe Blanes
 
 ## Official Role
-Role not listed at Amazon.
+Role not listed at [[amazon|Amazon]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/felipeblanes)

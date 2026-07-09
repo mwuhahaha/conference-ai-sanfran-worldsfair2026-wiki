@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jason Liu
 
 ## Official Role
-Developer Experience, OpenAI at OpenAI.
+Developer Experience, [[openai|OpenAI]] at [[openai|OpenAI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jxnlco)
@@ -19,7 +19,7 @@ Developer Experience, OpenAI at OpenAI.
 - [Website](https://jxnl.co/)
 
 ## Official Bio
-Jason Liu works on Developer Experience at OpenAI, where he helps developers get more from Codex, the Agents SDK, and the OpenAI API. His work spans developer education, open-source programs, and practical agent workflows. Prior to OpenAI he was the creator of Instructor, and taught developers how to build reliable AI applications.
+Jason Liu works on Developer Experience at [[openai|OpenAI]], where he helps developers get more from Codex, the Agents SDK, and the [[openai|OpenAI]] API. His work spans developer education, open-source programs, and practical agent workflows. Prior to [[openai|OpenAI]] he was the creator of Instructor, and taught developers how to build reliable AI applications.
 
 ## Scheduled Sessions
 - [[2026-06-29-jason-liu-getting-the-most-out-of-codex]] — Getting the most out of Codex (2026-06-29, 10:45am-11:05am)

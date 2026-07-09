@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Navinkumar Patil
 
 ## Official Role
-Staff Software Engineer at PayPal.
+Staff Software Engineer at [[paypal|PayPal]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

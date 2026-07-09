@@ -20,7 +20,7 @@ AI Product Manager connected to the [[justice-ai-unit|Justice AI Unit]] and [[mi
 Louis Allgood appears in the transcript for [[youtube-qlHaO6laBlM|Shipping Production AI Inside Government]] as the probation-side product builder. His part of the talk is important because it makes the forward-deployed model operational: build with probation users, spend days on site, ship MVPs quickly, feature-flag changes, and kill code when field feedback shows that it does not work.
 
 ## Background
-Public profile snippets identify Allgood as an AI Product Manager at the Justice AI Unit. Public Justice AI Unit and LinkedIn snippets connect him to work on note-taking and transcription across the justice system, aimed at freeing staff time for more meaningful interactions.
+Public profile snippets identify Allgood as an AI Product Manager at the [[justice-ai-unit|Justice AI Unit]]. Public [[justice-ai-unit|Justice AI Unit]] and LinkedIn snippets connect him to work on note-taking and transcription across the justice system, aimed at freeing staff time for more meaningful interactions.
 
 In the talk transcript, Allgood describes building with probation officers, using direct feedback, and keeping the product simple enough for frontline adoption.
 
@@ -36,7 +36,7 @@ In the talk transcript, Allgood describes building with probation officers, usin
 - [[william-tarr]]
 
 ## Evidence Boundary
-This page uses the local transcript, Justice AI Unit public context, and public professional-profile snippets. It avoids inferring private biographical details beyond those sources.
+This page uses the local transcript, [[justice-ai-unit|Justice AI Unit]] public context, and public professional-profile snippets. It avoids inferring private biographical details beyond those sources.
 
 ## Source-Derived Enrichment
 This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.

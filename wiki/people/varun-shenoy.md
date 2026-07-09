@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Varun Shenoy
 
 ## Official Role
-Cofounder at Long Lake.
+Cofounder at [[long-lake|Long Lake]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/varunshenoy)
@@ -21,7 +21,7 @@ Cofounder at Long Lake.
 - [Blog](https://varunshenoy.com)
 
 ## Official Bio
-Cofounder at Long Lake. Focused on diffusing AI: deploying frontier technology into essential services businesses beyond Silicon Valley. Previously at Baseten and Stanford.
+Cofounder at [[long-lake|Long Lake]]. Focused on diffusing AI: deploying frontier technology into essential services businesses beyond Silicon Valley. Previously at Baseten and Stanford.
 
 ## Scheduled Sessions
 - [[2026-06-30-varun-shenoy-how-do-you-diffuse-ai-into-the-real-world]] — How do you diffuse AI into the real world? (2026-06-30, 10:45am-11:05am)

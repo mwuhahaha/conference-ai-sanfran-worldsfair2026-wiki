@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jay Mok
 
 ## Official Role
-Role not listed at PayPal.
+Role not listed at [[paypal|PayPal]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

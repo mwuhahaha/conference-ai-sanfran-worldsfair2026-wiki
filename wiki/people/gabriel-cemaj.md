@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Gabriel Cemaj
 
 ## Official Role
-Member of the Technical Staff at Anthropic.
+Member of the Technical Staff at [[anthropic|Anthropic]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/gcemaj)
 - [X / Twitter](https://x.com/gcemaj)
 
 ## Official Bio
-Member of the Technical Staff @ Anthropic working on Claude Managed Agents
+Member of the Technical Staff @ [[anthropic|Anthropic]] working on Claude Managed Agents
 
 ## Scheduled Sessions
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1]] — Claude Managed Agents Workshop (Part 1) (2026-06-29, 10:45am-11:05am)

@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Peter Werry
 
 ## Official Role
-Founding Engineer at Unblocked.
+Founding Engineer at [[unblocked|Unblocked]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-Founding engineer at Unblocked working on context engines for modern engineering teams.
+Founding engineer at [[unblocked|Unblocked]] working on context engines for modern engineering teams.
 
 ## Scheduled Sessions
 - [[2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch]] — Beyond RAG: Build a Relational Context Engine from Scratch (2026-06-29, 12:10pm-1:10pm)

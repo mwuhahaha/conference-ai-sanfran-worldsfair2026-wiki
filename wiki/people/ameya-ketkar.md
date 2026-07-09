@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ameya Ketkar
 
 ## Official Role
-Software Engineer at Uber Technology Inc..
+Software Engineer at [[uber-technology-inc|Uber Technology Inc.]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ameya-ketkar)

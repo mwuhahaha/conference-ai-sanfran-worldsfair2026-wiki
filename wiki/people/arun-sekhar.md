@@ -9,13 +9,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Arun Sekhar
 
 ## Official Role
-Principal Product Manager for AI Developer Experience at Microsoft.
+Principal Product Manager for AI Developer Experience at [[microsoft|Microsoft]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/rcarun)
 
 ## Official Bio
-Arun Sekhar is a Principal Product Manager for AI Developer Experience at Microsoft. He has worked as a developer, development lead and product manager across Microsoft technologies, and is associated with OpenClaw and AI developer tooling.
+Arun Sekhar is a Principal Product Manager for AI Developer Experience at [[microsoft|Microsoft]]. He has worked as a developer, development lead and product manager across [[microsoft|Microsoft]] technologies, and is associated with OpenClaw and AI developer tooling.
 
 ## Scheduled Sessions
 - [[2026-06-29-pamela-fox-the-model-swap-workshop]] — The model swap workshop (2026-06-29, 11:05am-12:05pm)

@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Dan Adler
 
 ## Official Role
-Role not listed at Sourcegraph.
+Role not listed at [[sourcegraph|Sourcegraph]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/danielnealadler)

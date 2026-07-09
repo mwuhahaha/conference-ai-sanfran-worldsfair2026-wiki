@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Divakar Kumar
 
 ## Official Role
-Technical Architect at FlyersSoft.
+Technical Architect at [[flyerssoft|FlyersSoft]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/divakar-kumar/)

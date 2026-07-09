@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jakub Hojsan
 
 ## Official Role
-Role not listed at Exa.
+Role not listed at [[exa|Exa]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

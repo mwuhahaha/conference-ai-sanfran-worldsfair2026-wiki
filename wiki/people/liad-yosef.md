@@ -13,7 +13,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Trans
 # Liad Yosef
 
 ## Official Role
-Co-creator at MCP Apps.
+Co-creator at [[mcp-apps|MCP Apps]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/liadyosef)
@@ -21,10 +21,10 @@ Co-creator at MCP Apps.
 - [Website](https://ora.ai)
 
 ## Official Bio
-Liad Yosef is the co-creator and maintainer of the MCP Apps spec, a member of the MCP Steering Committee, and the co-builder of MCP-UI. Liad is currently the co-founder and CTO at ORA - building the future of the agentic web. Previously leading agentic interfaces in Shopify's CEO office, Liad is a seasoned AI lead and software architect. He has been a web enthusiast for two decades, passionate about crafting developer-first experiences. When he isn't defining open-source standards for the agentic web, he writes poetry and moonlights as an analog astronaut for the European Space Agency.
+Liad Yosef is the co-creator and maintainer of the [[mcp-apps|MCP Apps]] spec, a member of the MCP Steering Committee, and the co-builder of MCP-UI. Liad is currently the co-founder and CTO at ORA - building the future of the agentic web. Previously leading agentic interfaces in Shopify's CEO office, Liad is a seasoned AI lead and software architect. He has been a web enthusiast for two decades, passionate about crafting developer-first experiences. When he isn't defining open-source standards for the agentic web, he writes poetry and moonlights as an analog astronaut for the European Space Agency.
 
 ## Why Highlighted
-Liad is one of the strongest anchors for the conference's agentic-web thread. His scheduled talks connect ORA's research on how agents actually use websites, MCP Apps as an interactive runtime, WebMCP/headful fallbacks, and the practical question of what makes a site visible or invisible to agents.
+Liad is one of the strongest anchors for the conference's agentic-web thread. His scheduled talks connect ORA's research on how agents actually use websites, [[mcp-apps|MCP Apps]] as an interactive runtime, WebMCP/headful fallbacks, and the practical question of what makes a site visible or invisible to agents.
 
 The key contribution is that agent readiness is not just "add a protocol file." The stronger claim is that agents choose reachable, trusted, operable surfaces. A site can publish the right file and still lose if agents cannot discover it from the paths they already use.
 

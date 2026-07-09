@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Lee Robinson
 
 ## Official Role
-ML, Model Behavior at Cursor.
+ML, Model Behavior at [[cursor|Cursor]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/leeerob/)
@@ -19,7 +19,7 @@ ML, Model Behavior at Cursor.
 - [Website](https://leerob.com)
 
 ## Official Bio
-Model research and personality at Cursor. Previously Vercel.
+Model research and personality at [[cursor|Cursor]]. Previously Vercel.
 
 ## Scheduled Sessions
 - [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement (2026-06-29, 5:10pm-5:30pm)

@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Tejas Kumar
 
 ## Official Role
-AI Engineer at IBM.
+AI Engineer at [[ibm|IBM]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/tejasq)

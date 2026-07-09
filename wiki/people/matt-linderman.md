@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Matt Linderman
 
 ## Official Role
-Partner, Technology Practice at McKinsey & Company.
+Partner, Technology Practice at [[mckinsey-and-company|McKinsey & Company]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/matthew-linderman/)

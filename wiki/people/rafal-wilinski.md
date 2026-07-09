@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Rafal Wilinski
 
 ## Official Role
-Founding Engineer at Runlayer.
+Founding Engineer at [[runlayer|Runlayer]].
 
 ## Profile Links
 - [LinkedIn](https://pl.linkedin.com/in/rafwilinski)
@@ -19,7 +19,7 @@ Founding Engineer at Runlayer.
 - [Website](https://rwilinski.ai)
 
 ## Official Bio
-Rafal Wilinski is a founding engineer at Runlayer, founder of Dynobase, and previously led AI agents work at Zapier.
+Rafal Wilinski is a founding engineer at [[runlayer|Runlayer]], founder of Dynobase, and previously led AI agents work at Zapier.
 
 ## Scheduled Sessions
 - [[2026-06-29-rafal-wilinski-self-improving-agents-that-teach-the-company-back]] — Self-Improving Agents That Teach the Company Back (2026-06-29, 12:05pm-12:25pm)

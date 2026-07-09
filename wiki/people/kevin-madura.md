@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Kevin Madura
 
 ## Official Role
-Director, Advanced Technology at AlixPartners.
+Director, Advanced Technology at [[alixpartners|AlixPartners]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/kevinmadura/)
@@ -21,7 +21,7 @@ Director, Advanced Technology at AlixPartners.
 - [Blog](https://kmad.ai)
 
 ## Official Bio
-Building real-world AI solutions for enterprise clients using DSPy, RLMs, and agent-native architectures. Technologist & expert witness @ AlixPartners.
+Building real-world AI solutions for enterprise clients using DSPy, RLMs, and agent-native architectures. Technologist & expert witness @ [[alixpartners|AlixPartners]].
 
 ## Scheduled Sessions
 - [[2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different]] — It’s Tokens All The Way Down: How RLMs are Different (2026-06-30, 11:10am-11:30am)

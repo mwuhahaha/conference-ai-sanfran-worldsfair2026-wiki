@@ -9,13 +9,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Dan Farrelly
 
 ## Official Role
-CTO and Co-founder at Inngest.
+CTO and Co-founder at [[inngest|Inngest]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/djfarrelly)
 
 ## Official Bio
-Dan Farrelly is CTO and co-founder of Inngest, a platform for durable serverless functions, workflows and agent orchestration. He was previously CTO at Buffer and created developer tools including Timezone.io and MailDev.
+Dan Farrelly is CTO and co-founder of [[inngest|Inngest]], a platform for durable serverless functions, workflows and agent orchestration. He was previously CTO at Buffer and created developer tools including Timezone.io and MailDev.
 
 ## Scheduled Sessions
 - [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months]] — Your agent architecture has a half-life of 6 months (2026-06-30, 12:05pm-12:25pm)

@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Michael Patterson
 
 ## Official Role
-Role not listed at Coder.
+Role not listed at [[coder|Coder]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Sachin Malhotra
 
 ## Official Role
-Member of Technical Staff at Anthropic.
+Member of Technical Staff at [[anthropic|Anthropic]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/edorado93)
@@ -21,8 +21,8 @@ Member of Technical Staff at Anthropic.
 - [Blog](https://bruteforced.dev/)
 
 ## Official Bio
-Sachin Malhotra is a Member of Technical Staff on the Developer Infrastructure team at Anthropic, where he builds and operates the CI/CD systems underpinning one of the world's largest ML monorepos. His work spans test reliability, CI observability, and—increasingly—the challenge of giving AI agents real write access to production systems, safely.
-He has spent the past year thinking about what it looks like when developer tooling has to scale with the pace of frontier ML research. Before Anthropic, Sachin held engineering roles at Etsy and Microsoft. He holds an MS in Computer Science from the University of Southern California.
+Sachin Malhotra is a Member of Technical Staff on the Developer Infrastructure team at [[anthropic|Anthropic]], where he builds and operates the CI/CD systems underpinning one of the world's largest ML monorepos. His work spans test reliability, CI observability, and—increasingly—the challenge of giving AI agents real write access to production systems, safely.
+He has spent the past year thinking about what it looks like when developer tooling has to scale with the pace of frontier ML research. Before [[anthropic|Anthropic]], Sachin held engineering roles at Etsy and Microsoft. He holds an MS in Computer Science from the University of Southern California.
 
 ## Scheduled Sessions
 - [[2026-07-01-sachin-malhotra-give-the-agent-a-budget-not-a-token]] — Give the Agent a Budget, Not a Token (2026-07-01, 3:20pm-3:40pm)

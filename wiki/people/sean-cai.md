@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Sean Cai
 
 ## Official Role
-CEO at Independent / State of Data.
+CEO at [[independent-state-of-data|Independent / State of Data]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/SeanZCai)

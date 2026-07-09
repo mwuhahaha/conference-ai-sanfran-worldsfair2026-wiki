@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Joyce Zhang
 
 ## Official Role
-Dating Coach for Tech Founders at Joyce Consulting Group.
+Dating Coach for Tech Founders at [[joyce-consulting-group|Joyce Consulting Group]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

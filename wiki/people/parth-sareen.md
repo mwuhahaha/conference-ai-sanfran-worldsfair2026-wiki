@@ -7,7 +7,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Parth Sareen
 
 ## Official Role
-Role not listed at Ollama.
+Role not listed at [[ollama|Ollama]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

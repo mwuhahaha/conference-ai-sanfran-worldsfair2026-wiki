@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Lucas Palma
 
 ## Official Role
-Information Security Manager at Nubank.
+Information Security Manager at [[nubank|Nubank]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/lucaspalma/)
 - [Website](https://www.nubank.com/)
 
 ## Official Bio
-Lucas Palma is an Information Security Manager at Nubank, one of the world’s largest digital financial services platforms, where he leads Product Security across Application Security, Mobile Security, AI Security, and Product Security Engineering. He works at the intersection of software engineering, product security, and AI, helping teams adopt AI safely without slowing down product development.
+Lucas Palma is an Information Security Manager at [[nubank|Nubank]], one of the world’s largest digital financial services platforms, where he leads Product Security across Application Security, Mobile Security, AI Security, and Product Security Engineering. He works at the intersection of software engineering, product security, and AI, helping teams adopt AI safely without slowing down product development.
 
 His current work focuses on securing AI adoption at enterprise scale, including AI coding assistants, agentic workflows, MCP integrations, secure coding guidance, AI security tooling, and automated security review inside developer workflows. He has more than 15 years of experience in information security, software engineering, and financial services, with work ranging from building security programs from scratch to reducing banking malware incidents by 90 percent through layered mobile protections.
 

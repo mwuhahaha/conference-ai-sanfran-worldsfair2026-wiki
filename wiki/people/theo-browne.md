@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Theo Browne
 
 ## Official Role
-Founder/YouTuber at T3 Tools & YouTuber.
+Founder/YouTuber at [[t3-tools-and-youtuber|T3 Tools & YouTuber]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/t3gg/)

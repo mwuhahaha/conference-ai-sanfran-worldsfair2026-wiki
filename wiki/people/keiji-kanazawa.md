@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Keiji Kanazawa
 
 ## Official Role
-Principal Product Manager at Microsoft.
+Principal Product Manager at [[microsoft|Microsoft]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/keijikanazawa)
 - [X / Twitter](https://x.com/gojira)
 
 ## Official Bio
-Keiji Kanazawa (@gojira) is a Product Manager in Microsoft Foundry, working on AI inference for Anthropic and OpenAI models. He has a Ph.D. in AI and a career spanning research → engineering → product. Angel investor in YC and AI/ML companies.
+Keiji Kanazawa (@gojira) is a Product Manager in [[microsoft|Microsoft]] Foundry, working on AI inference for Anthropic and OpenAI models. He has a Ph.D. in AI and a career spanning research → engineering → product. Angel investor in YC and AI/ML companies.
 
 ## Scheduled Sessions
 - [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service]] — From framework to runtime: running agents with Foundry Agent Service (2026-06-30, 10:45am-11:05am)

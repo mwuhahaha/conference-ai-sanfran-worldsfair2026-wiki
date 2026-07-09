@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Stephanie Jarmak
 
 ## Official Role
-Agent Advocate at Sourcegraph.
+Agent Advocate at [[sourcegraph|Sourcegraph]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/stephanie-jarmak)

@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Lucas Atkins
 
 ## Official Role
-CTO at Arcee AI.
+CTO at [[arcee-ai|Arcee AI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/lucas-atkins-2892482b6)

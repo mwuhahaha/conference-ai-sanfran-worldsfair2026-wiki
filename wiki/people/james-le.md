@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # James Le
 
 ## Official Role
-Head of Developer Experience at TwelveLabs.
+Head of Developer Experience at [[twelvelabs|TwelveLabs]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/khanhnamle94/)

@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Clay Cockrell
 
 ## Official Role
-Co-Founder at CoupleWork AI.
+Co-Founder at [[couplework-ai|CoupleWork AI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/clay-cockrell-906b0b4/)

@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Barr Yaron
 
 ## Official Role
-Partner at Amplify Partners.
+Partner at [[amplify-partners|Amplify Partners]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/barryaron)
@@ -19,7 +19,7 @@ Partner at Amplify Partners.
 - [Website](https://barrchives.com)
 
 ## Official Bio
-Barr Yaron is a Partner at Amplify Partners, where she backs founders building the next generation of AI infrastructure and applications
+Barr Yaron is a Partner at [[amplify-partners|Amplify Partners]], where she backs founders building the next generation of AI infrastructure and applications
 
 ## Scheduled Sessions
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering]] — The 2026 State of AI Engineering (2026-07-01, 9:00am-9:20am)

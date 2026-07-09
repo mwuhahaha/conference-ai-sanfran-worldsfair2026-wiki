@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Alex Cheema
 
 ## Official Role
-CEO at EXO Labs.
+CEO at [[exo-labs|EXO Labs]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/alex-cheema)

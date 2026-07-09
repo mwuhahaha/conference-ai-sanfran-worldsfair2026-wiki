@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Thom Wolf
 
 ## Official Role
-Co-founder and CSO at Hugging Face.
+Co-founder and CSO at [[hugging-face|Hugging Face]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/thom-wolf)
@@ -19,7 +19,7 @@ Co-founder and CSO at Hugging Face.
 - [Website](https://thomwolf.io)
 
 ## Official Bio
-Co-founder and Chief Science Officer of Hugging Face. Previously physics research and attorney.
+Co-founder and Chief Science Officer of [[hugging-face|Hugging Face]]. Previously physics research and attorney.
 
 ## Scheduled Sessions
 - [[2026-06-29-thom-wolf-thom-wolf-keynote]] — Thom Wolf keynote (2026-06-29, 10:05am-10:25am)

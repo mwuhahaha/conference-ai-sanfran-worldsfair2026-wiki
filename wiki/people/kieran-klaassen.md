@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Kieran Klaassen
 
 ## Official Role
-GM of Cora / Compound Engineering at Every/Cora.
+GM of Cora / Compound Engineering at [[every-cora|Every/Cora]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/kieran-klaassen/)

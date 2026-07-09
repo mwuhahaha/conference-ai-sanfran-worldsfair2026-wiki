@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jason Ma
 
 ## Official Role
-CTO and co-founder at Dyna Robotics.
+CTO and co-founder at [[dyna-robotics|Dyna Robotics]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jason-ma-742224a2)
@@ -19,7 +19,7 @@ CTO and co-founder at Dyna Robotics.
 - [Website](https://jasonma2016.github.io/)
 
 ## Official Bio
-Co-founder and CTO of Dyna Robotics, a robotics company building general-purpose robots powered by embodied AI foundation models. Previously a research scientist at DeepMind focused on foundation models for robotics.
+Co-founder and CTO of [[dyna-robotics|Dyna Robotics]], a robotics company building general-purpose robots powered by embodied AI foundation models. Previously a research scientist at DeepMind focused on foundation models for robotics.
 
 ## Scheduled Sessions
 - [[2026-06-30-jason-ma-commercial-grade-robots-for-real-world-usage]] — Commercial Grade-Robots for Real World Usage (2026-06-30, 11:40am-12:00pm)

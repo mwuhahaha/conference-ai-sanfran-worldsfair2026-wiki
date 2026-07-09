@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Shlok Khemani
 
 ## Official Role
-Independent Researcher at Independent.
+[[independent|Independent]] Researcher at [[independent|Independent]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/shlokkhemani/)

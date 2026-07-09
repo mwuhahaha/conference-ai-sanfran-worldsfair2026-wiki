@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Pierluca D'Oro
 
 ## Official Role
-Founder at Programma Labs.
+Founder at [[programma-labs|Programma Labs]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/pierluca-doro/)

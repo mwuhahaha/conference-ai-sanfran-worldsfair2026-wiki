@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Marah Abdin
 
 ## Official Role
-Team Lead - Synthetic Data at poolside.
+Team Lead - Synthetic Data at [[poolside|poolside]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/marah-abdin)

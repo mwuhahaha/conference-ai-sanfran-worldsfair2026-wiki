@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jesse Hall
 
 ## Official Role
-Staff Developer Advocate at Livekit.
+Staff Developer Advocate at [[livekit|Livekit]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

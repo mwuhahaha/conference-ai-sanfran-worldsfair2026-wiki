@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Kwindla Kramer
 
 ## Official Role
-CEO at Daily.
+CEO at [[daily|Daily]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/kwkramer/)
@@ -21,7 +21,7 @@ CEO at Daily.
 - [Blog](https://www.linkedin.com/in/sean-dubois/)
 
 ## Official Bio
-Co-founder at Daily. Contributor to Pipecat. ᓚᘏᗢ
+Co-founder at [[daily|Daily]]. Contributor to Pipecat. ᓚᘏᗢ
 
 ## Scheduled Sessions
 - [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]] — The New Primitives: Building AI-Native Software (2026-06-29, 10:45am-11:05am)

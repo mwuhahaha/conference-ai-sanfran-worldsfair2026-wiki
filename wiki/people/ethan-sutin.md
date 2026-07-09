@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ethan Sutin
 
 ## Official Role
-Co-founder at Bee (acq. Amazon).
+Co-founder at [[bee-acq-amazon|Bee (acq. Amazon)]].
 
 ## Profile Links
 - [Website](https://bee.computer)

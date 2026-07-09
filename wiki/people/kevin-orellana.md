@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Kevin Orellana
 
 ## Official Role
-Software Engineer at Amazon Web Services.
+Software Engineer at [[amazon-web-services|Amazon Web Services]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/kevinorellana/)

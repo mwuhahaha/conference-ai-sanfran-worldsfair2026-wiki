@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Greg Pstrucha
 
 ## Official Role
-Role not listed at Sentry.
+Role not listed at [[sentry|Sentry]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/greg-pstrucha)

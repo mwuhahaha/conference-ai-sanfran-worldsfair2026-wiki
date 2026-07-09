@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Priyanka Phatak
 
 ## Official Role
-Member of Technical Staff at Anthropic.
+Member of Technical Staff at [[anthropic|Anthropic]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/priyankaphatak/)
 - [X / Twitter](https://x.com/PriyankaPhatak)
 
 ## Official Bio
-Priyanka Phatak leads the Claude Managed Agents team at Anthropic, building the systems that let developers run reliable, production-grade autonomous agents on Claude. In her two years at Anthropic she's worn several EM hats — spinning up Apps Platform, Public Sector Engineering, and Product Infrastructure along the way. Previously, she was Director of Engineering at Lyft, where she ran the Transit, Bikes & Scooters engineering org, and earlier built products at Yammer.
+Priyanka Phatak leads the Claude Managed Agents team at [[anthropic|Anthropic]], building the systems that let developers run reliable, production-grade autonomous agents on Claude. In her two years at [[anthropic|Anthropic]] she's worn several EM hats — spinning up Apps Platform, Public Sector Engineering, and Product Infrastructure along the way. Previously, she was Director of Engineering at Lyft, where she ran the Transit, Bikes & Scooters engineering org, and earlier built products at Yammer.
 
 ## Scheduled Sessions
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1]] — Claude Managed Agents Workshop (Part 1) (2026-06-29, 10:45am-11:05am)

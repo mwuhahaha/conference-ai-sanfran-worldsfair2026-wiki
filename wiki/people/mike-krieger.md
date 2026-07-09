@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Mike Krieger
 
 ## Official Role
-Head of Labs at Anthropic.
+Head of Labs at [[anthropic|Anthropic]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/mikekrieger)
@@ -19,7 +19,7 @@ Head of Labs at Anthropic.
 - [Blog](http://mikeyk.wordpress.com)
 
 ## Official Bio
-Mike Krieger leads Anthropic Labs and previously served as Anthropic's Chief Product Officer. He co-founded Instagram and was its CTO, later co-founding Artifact before joining Anthropic.
+Mike Krieger leads [[anthropic|Anthropic]] Labs and previously served as [[anthropic|Anthropic]]'s Chief Product Officer. He co-founded Instagram and was its CTO, later co-founding Artifact before joining [[anthropic|Anthropic]].
 
 ## Scheduled Sessions
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs]] — How Anthropic Builds: Lessons from Labs (2026-07-01, 10:00am-10:20am)

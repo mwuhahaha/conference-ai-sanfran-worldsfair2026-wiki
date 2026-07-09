@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Joanne Song
 
 ## Official Role
-Role not listed at The New York Times Games.
+Role not listed at [[the-new-york-times-games|The New York Times Games]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/joanne-song)

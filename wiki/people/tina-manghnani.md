@@ -9,13 +9,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Tina Manghnani
 
 ## Official Role
-Product Manager at Microsoft.
+Product Manager at [[microsoft|Microsoft]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/tina-manghnani)
 
 ## Official Bio
-Tina Manghnani is a Product Manager at Microsoft building the Foundry agents platform and developer tooling for hosting and operationalizing pro-code agents in enterprise systems.
+Tina Manghnani is a Product Manager at [[microsoft|Microsoft]] building the Foundry agents platform and developer tooling for hosting and operationalizing pro-code agents in enterprise systems.
 
 ## Scheduled Sessions
 - [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service]] — From framework to runtime: running agents with Foundry Agent Service (2026-06-30, 10:45am-11:05am)

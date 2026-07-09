@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Vasant Kearney
 
 ## Official Role
-CEO and Founder at Onlay.
+CEO and Founder at [[onlay|Onlay]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/vasant-kearney-7b7a48b3)
@@ -19,7 +19,7 @@ CEO and Founder at Onlay.
 - [Website](https://onlay.ai/)
 
 ## Official Bio
-Vasant Kearney is founder and CEO of Onlay AI, where he builds agentic healthcare revenue-cycle infrastructure across claims, eligibility, attachments, payer follow-up, payment posting, and bank reconciliation.
+Vasant Kearney is founder and CEO of [[onlay|Onlay]] AI, where he builds agentic healthcare revenue-cycle infrastructure across claims, eligibility, attachments, payer follow-up, payment posting, and bank reconciliation.
 
 He was previously co-founder and CTO of Retrace, an AI company focused on healthcare automation. Before startups, Vasant was an Assistant Professor of Radiation Oncology Physics at UCSF, completed a medical physics residency there, and earned a PhD in Biomedical Engineering. He mentored radiation oncology residents at UCSF and machine learning students at the University of San Francisco. His scientific work spans a broad range of topics, including generative MRI-to-CT translation, tumor localization, anatomy segmentation, treatment-planning optimization, NVIDIA CUDA programming, and dental disease classification.
 

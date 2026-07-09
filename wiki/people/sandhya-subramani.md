@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Sandhya Subramani
 
 ## Official Role
-Senior Developer Advocate, GenAI at Amazon Web Services.
+Senior Developer Advocate, GenAI at [[amazon-web-services|Amazon Web Services]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/sandhyasubramani/)

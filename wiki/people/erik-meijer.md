@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Erik Meijer
 
 ## Official Role
-Research Scholar at Leibniz Labs.
+Research Scholar at [[leibniz-labs|Leibniz Labs]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/erikmeijer1/)

@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Shane Wolf
 
 ## Official Role
-Role not listed at Atlassian.
+Role not listed at [[atlassian|Atlassian]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/shane-wolf)

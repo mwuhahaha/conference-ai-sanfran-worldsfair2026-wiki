@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Killian Carlsen-Phelan
 
 ## Official Role
-Developer Content Engineer at Sonar.
+Developer Content Engineer at [[sonar|Sonar]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-Killian Carlsen-Phelan is a Developer Content Engineer at Sonar. He writes and teaches about SonarQube, AI-generated code review, Codex CLI integration, and quality gates for agentic development workflows.
+Killian Carlsen-Phelan is a Developer Content Engineer at [[sonar|Sonar]]. He writes and teaches about SonarQube, AI-generated code review, Codex CLI integration, and quality gates for agentic development workflows.
 
 ## Scheduled Sessions
 - [[2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development]] — SonarQube + OpenAI: Wiring Your Team for Agentic Development (2026-06-29, 1:15pm-2:15pm)

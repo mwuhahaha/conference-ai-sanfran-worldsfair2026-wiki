@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Justin Smith
 
 ## Official Role
-Founding Product Engineer at Resolve AI.
+Founding Product Engineer at [[resolve-ai|Resolve AI]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

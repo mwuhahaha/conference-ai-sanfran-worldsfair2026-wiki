@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Philipp Schmid
 
 ## Official Role
-Staff Engineer at Google DeepMind.
+Staff Engineer at [[google-deepmind|Google DeepMind]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/philipp-schmid-a6a2bb196/)
@@ -21,7 +21,7 @@ Staff Engineer at Google DeepMind.
 - [Blog](https://www.philschmid.de)
 
 ## Official Bio
-Philipp Schmid is a Staff Engineer at Google DeepMind working on Gemini and Gemma. His work focuses on helping developers build and benefit from AI responsibly.
+Philipp Schmid is a Staff Engineer at [[google-deepmind|Google DeepMind]] working on Gemini and Gemma. His work focuses on helping developers build and benefit from AI responsibly.
 
 ## Scheduled Sessions
 - [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox]] — Why Agents Should Have Their Own Sandbox (2026-06-30, 1:30pm-1:50pm)

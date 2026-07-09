@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Zubin Aysola
 
 ## Official Role
-Senior Software Engineer Weave at Weights & Biases by CoreWeave.
+Senior Software Engineer Weave at [[weights-and-biases-by-coreweave|Weights & Biases by CoreWeave]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/zubin-aysola)

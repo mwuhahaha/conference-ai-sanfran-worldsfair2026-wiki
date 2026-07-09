@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Pamela Fox
 
 ## Official Role
-Principal Cloud Advocate at Microsoft.
+Principal Cloud Advocate at [[microsoft|Microsoft]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/pamela-s-fox/)
@@ -21,7 +21,7 @@ Principal Cloud Advocate at Microsoft.
 - [Blog](http://blog.pamelafox.org/)
 
 ## Official Bio
-Pamela Fox is a developer advocate at Microsoft, where she helps developers use Python with Azure, Microsoft Foundry, VS Code, and GitHub. Before Microsoft, she was an early engineer at Coursera, early DevRel at Google, lecturer at UC Berkeley, and creator of the Khan Academy programming courses.
+Pamela Fox is a developer advocate at [[microsoft|Microsoft]], where she helps developers use Python with Azure, [[microsoft|Microsoft]] Foundry, VS Code, and GitHub. Before [[microsoft|Microsoft]], she was an early engineer at Coursera, early DevRel at Google, lecturer at UC Berkeley, and creator of the Khan Academy programming courses.
 
 ## Scheduled Sessions
 - [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps]] — Get Started with Models in Microsoft Foundry to Build AI Apps (2026-06-29, 9:00am-10:15am)

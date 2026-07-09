@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Vincent Weisser
 
 ## Official Role
-Co-founder & CEO at Prime Intellect.
+Co-founder & CEO at [[prime-intellect|Prime Intellect]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/vincentweisser)
 - [Website](https://www.primeintellect.ai/)
 
 ## Official Bio
-Vincent Weisser is Co-founder & CEO of Prime Intellect. Prime Intellect provides an open stack for training, deploying, and continuously improving AI models with compute, RL post-training, evaluations, and inference.
+Vincent Weisser is Co-founder & CEO of [[prime-intellect|Prime Intellect]]. [[prime-intellect|Prime Intellect]] provides an open stack for training, deploying, and continuously improving AI models with compute, RL post-training, evaluations, and inference.
 
 ## Scheduled Sessions
 - [[2026-07-01-carter-abdallah-local-models-trust-control-optimization]] — Local Models: Trust, Control, Optimization (2026-07-01, 1:30pm-1:50pm)

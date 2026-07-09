@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jake Broekhuizen
 
 ## Official Role
-Labs Lead at LangChain.
+Labs Lead at [[langchain|LangChain]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jake-broekhuizen)

@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Steve Yegge
 
 ## Official Role
-Icon at Gas Town.
+Icon at [[gas-town|Gas Town]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/steve_yegge)

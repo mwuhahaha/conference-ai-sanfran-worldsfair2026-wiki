@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Dhruv Nathawani
 
 ## Official Role
-Research Scientist at Nvidia.
+Research Scientist at [[nvidia|Nvidia]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/dhruvnathawani/)

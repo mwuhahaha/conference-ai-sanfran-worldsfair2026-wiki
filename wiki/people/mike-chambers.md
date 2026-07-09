@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Mike Chambers
 
 ## Official Role
-Senior Developer Advocate for Generative AI at Amazon Web Services (AWS).
+Senior Developer Advocate for Generative AI at [[amazon-web-services-aws|Amazon Web Services (AWS)]].
 
 ## Profile Links
 - [Blog](https://blog.mikegchambers.com)

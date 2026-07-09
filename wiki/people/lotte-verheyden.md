@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Lotte Verheyden
 
 ## Official Role
-AI engineer and developer educator, Langfuse at Clickhouse.
+AI engineer and developer educator, Langfuse at [[clickhouse|Clickhouse]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/lotte_verheyden)

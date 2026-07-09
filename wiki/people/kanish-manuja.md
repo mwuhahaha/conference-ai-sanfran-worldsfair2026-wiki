@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Kanish Manuja
 
 ## Official Role
-Principal Software Engineer at Twilio Inc..
+Principal Software Engineer at [[twilio-inc|Twilio Inc.]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/kanish-manuja-a99bb923/)

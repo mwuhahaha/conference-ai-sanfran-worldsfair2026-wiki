@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Todd Fisher
 
 ## Official Role
-Head of Engineering Launching 0-1 startups at Philo Ventures.
+Head of Engineering Launching 0-1 startups at [[philo-ventures|Philo Ventures]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/todd-b-fisher/)

@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Dhruv Batra
 
 ## Official Role
-Co-founder & Chief Scientist at Yutori.
+Co-founder & Chief Scientist at [[yutori|Yutori]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/dhruv-batra-dbatra/)
@@ -19,7 +19,7 @@ Co-founder & Chief Scientist at Yutori.
 - [Website](https://dhruvbatra.com/)
 
 ## Official Bio
-Dhruv Batra is a co-founder and the Chief Scientist of Yutori, building web agents.  
+Dhruv Batra is a co-founder and the Chief Scientist of [[yutori|Yutori]], building web agents.  
 
 Before this, he was a Senior Director at Meta leading FAIR Embodied AI, and an Associate Professor at Georgia Tech. 
 

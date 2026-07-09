@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Martin Harrysson
 
 ## Official Role
-Senior Partner at McKinsey & Company.
+Senior Partner at [[mckinsey-and-company|McKinsey & Company]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/martinharrysson/)

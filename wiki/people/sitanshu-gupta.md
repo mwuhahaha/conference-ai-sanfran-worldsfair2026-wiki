@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Sitanshu Gupta
 
 ## Official Role
-Role not listed at Coreweave.
+Role not listed at [[coreweave|Coreweave]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/sitanshugupta)

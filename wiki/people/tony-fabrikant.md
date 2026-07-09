@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Tony Fabrikant
 
 ## Official Role
-Co-founder at CoupleWork AI.
+Co-founder at [[couplework-ai|CoupleWork AI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/tony-fabrikant)

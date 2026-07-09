@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Lance Martin
 
 ## Official Role
-Member of Technical Staff at Anthropic.
+Member of Technical Staff at [[anthropic|Anthropic]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/lance-martin-64a33b5)
@@ -21,7 +21,7 @@ Member of Technical Staff at Anthropic.
 - [Blog](https://rlancemartin.github.io)
 
 ## Official Bio
-Member of technical staff at Anthropic. Working on the Claude Platform, including Claude Managed Agents and the claude-api skill in Claude Code. Prior to Anthropic, was one of the early team at LangChain. Prior to LangChain, spent several years focused on vision for self-driving cars (Uber ATG, Ike, Nuro) and got a PhD from Stanford.
+Member of technical staff at [[anthropic|Anthropic]]. Working on the Claude Platform, including Claude Managed Agents and the claude-api skill in Claude Code. Prior to [[anthropic|Anthropic]], was one of the early team at LangChain. Prior to LangChain, spent several years focused on vision for self-driving cars (Uber ATG, Ike, Nuro) and got a PhD from Stanford.
 
 ## Scheduled Sessions
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks]] — Claude for long-horizon tasks (2026-06-29, 1:55pm-2:15pm)

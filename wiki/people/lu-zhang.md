@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Lu Zhang
 
 ## Official Role
-Member of Technical Staff at OpenAI.
+Member of Technical Staff at [[openai|OpenAI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/luzhang1/)

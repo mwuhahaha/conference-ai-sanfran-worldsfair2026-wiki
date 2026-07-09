@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Uri Rolls
 
 ## Official Role
-CEO at Arithmetic.
+CEO at [[arithmetic|Arithmetic]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/urirolls/)
 - [X / Twitter](https://x.com/uri_rolls)
 
 ## Official Bio
-Uri Rolls is Co-Founder and CEO of Arithmetic, an AI data company building cyber worlds for frontier models. Just as AI transformed software engineering, Arithmetic is working to bring the same leap to cybersecurity by creating post-training data from real vulnerabilities, teaching models to reason across black-box search spaces, turn reconnaissance into exploitation, and take correct defensive action.
+Uri Rolls is Co-Founder and CEO of [[arithmetic|Arithmetic]], an AI data company building cyber worlds for frontier models. Just as AI transformed software engineering, [[arithmetic|Arithmetic]] is working to bring the same leap to cybersecurity by creating post-training data from real vulnerabilities, teaching models to reason across black-box search spaces, turn reconnaissance into exploitation, and take correct defensive action.
 
 Previously, Uri conducted black-hole imaging research at Harvard and the Smithsonian, and spent several years in Israeli Intelligence.
 

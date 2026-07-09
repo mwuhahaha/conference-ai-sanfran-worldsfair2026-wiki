@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # John McBride
 
 ## Official Role
-Co-Founder, CTO at Paper Compute Co..
+Co-Founder, CTO at [[paper-compute-co|Paper Compute Co.]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jpmcb/)

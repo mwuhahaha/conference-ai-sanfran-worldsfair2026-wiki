@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Kent C. Dodds
 
 ## Official Role
-Software Engineer and Educator at EpicProduct.engineer.
+Software Engineer and Educator at [[epicproduct-engineer|EpicProduct.engineer]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/kentcdodds/)
@@ -21,7 +21,7 @@ Software Engineer and Educator at EpicProduct.engineer.
 - [Blog](https://kentcdodds.com/blog)
 
 ## Official Bio
-Kent C. Dodds is a world renowned web development educator and engineer. He's actively involved in the open source community. He is the creator of EpicProduct.engineer, EpicWeb.dev, EpicAI.pro, EpicReact.dev, and TestingJavaScript.com. He's a Microsoft MVP, GitHub Star, instructor on egghead.io and Frontend Masters, live streamer, and podcaster. Kent is married and the father of six kids and he lives in Utah.
+Kent C. Dodds is a world renowned web development educator and engineer. He's actively involved in the open source community. He is the creator of [[epicproduct-engineer|EpicProduct.engineer]], EpicWeb.dev, EpicAI.pro, EpicReact.dev, and TestingJavaScript.com. He's a Microsoft MVP, GitHub Star, instructor on egghead.io and Frontend Masters, live streamer, and podcaster. Kent is married and the father of six kids and he lives in Utah.
 
 ## Scheduled Sessions
 - [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1]] — Build the Right Thing: Product Engineering for Software Developers (Part 1) (2026-06-29, 12:10pm-1:10pm)

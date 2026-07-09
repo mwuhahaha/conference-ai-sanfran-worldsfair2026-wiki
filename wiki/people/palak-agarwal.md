@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Palak Agarwal
 
 ## Official Role
-Developer Relations Lead at Reducto.
+Developer Relations Lead at [[reducto|Reducto]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

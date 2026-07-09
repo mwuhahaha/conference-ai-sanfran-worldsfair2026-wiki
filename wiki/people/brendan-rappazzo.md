@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Brendan Rappazzo
 
 ## Official Role
-Machine Learning Scientist at Morgan Stanley.
+Machine Learning Scientist at [[morgan-stanley|Morgan Stanley]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/brendan-rappazzo-hogan-763734115/)
@@ -21,7 +21,7 @@ Machine Learning Scientist at Morgan Stanley.
 - [Blog](https://www.bhogan.net/)
 
 ## Official Bio
-ML Research Scientist at Morgan Stanley working on LLM post-training and building agentic workflows. PhD from Cornell. Shares fun experiments on GitHub and X (@brendanh0gan)
+ML Research Scientist at [[morgan-stanley|Morgan Stanley]] working on LLM post-training and building agentic workflows. PhD from Cornell. Shares fun experiments on GitHub and X (@brendanh0gan)
 
 ## Scheduled Sessions
 - [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms]] — ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs (2026-07-01, 10:45am-11:05am)

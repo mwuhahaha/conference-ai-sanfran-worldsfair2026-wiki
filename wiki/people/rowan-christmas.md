@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Rowan Christmas
 
 ## Official Role
-Staff Product Manager at Docker.
+Staff Product Manager at [[docker|Docker]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-Rowan Christmas is a Staff Product Manager at Docker with prior strategy, technology and consulting leadership experience, working in Docker's AI/agent platform context.
+Rowan Christmas is a Staff Product Manager at [[docker|Docker]] with prior strategy, technology and consulting leadership experience, working in [[docker|Docker]]'s AI/agent platform context.
 
 ## Scheduled Sessions
 - [[2026-07-01-rowan-christmas-yolo-mode-safely-microvm-sandboxes-for-any-agent]] — YOLO Mode, Safely: microVM Sandboxes for Any Agent (2026-07-01, 1:30pm-1:50pm)

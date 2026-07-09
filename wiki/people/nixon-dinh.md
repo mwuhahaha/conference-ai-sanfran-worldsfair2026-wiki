@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Nixon Dinh
 
 ## Official Role
-Role not listed at PayPal.
+Role not listed at [[paypal|PayPal]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/nixon-dinh)

@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Gaurav Mishra
 
 ## Official Role
-Role not listed at Amazon AGI Lab.
+Role not listed at [[amazon-agi-lab|Amazon AGI Lab]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/gaurav-mishra-b307a437)

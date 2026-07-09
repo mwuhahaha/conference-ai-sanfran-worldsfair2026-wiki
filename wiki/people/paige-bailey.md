@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Paige Bailey
 
 ## Official Role
-AI Developer Relations Engineering Lead at Google DeepMind.
+AI Developer Relations Engineering Lead at [[google-deepmind|Google DeepMind]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/DynamicWebPaige)

@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jan Curn
 
 ## Official Role
-Founder & CEO at Apify.
+Founder & CEO at [[apify|Apify]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jancurn/)
@@ -21,7 +21,7 @@ Founder & CEO at Apify.
 - [Blog](https://blog.apify.com/author/jancurn/)
 
 ## Official Bio
-Founder and CEO of Apify, a popular marketplace of web data tools for AI. He has a lifelong passion for software engineering, earning him an MSc and PhD in computer science, and eventually leading him to found Apify. Jan is known in San Francisco and Prague tech circles, he talks about software, startups, and AI, and regularly hosts events.
+Founder and CEO of [[apify|Apify]], a popular marketplace of web data tools for AI. He has a lifelong passion for software engineering, earning him an MSc and PhD in computer science, and eventually leading him to found [[apify|Apify]]. Jan is known in San Francisco and Prague tech circles, he talks about software, startups, and AI, and regularly hosts events.
 
 ## Scheduled Sessions
 - [[2026-07-01-jan-curn-x402-isn-t-good-yet]] — x402 isn’t good (yet) (2026-07-01, 12:05pm-12:25pm)

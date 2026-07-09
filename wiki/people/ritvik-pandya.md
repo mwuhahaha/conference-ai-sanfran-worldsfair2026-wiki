@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ritvik Pandya
 
 ## Official Role
-Engineering Manager at JP Morgan Chase.
+Engineering Manager at [[jp-morgan-chase|JP Morgan Chase]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ritvik-pandya/)

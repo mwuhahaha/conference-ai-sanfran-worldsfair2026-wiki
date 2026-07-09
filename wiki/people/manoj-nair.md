@@ -9,13 +9,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Manoj Nair
 
 ## Official Role
-CTO & Chief Innovation Officer at Snyk.
+CTO & Chief Innovation Officer at [[snyk|Snyk]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/mnair1)
 
 ## Official Bio
-Manoj Nair is Chief Technology Officer and Chief Innovation Officer at Snyk, where he leads the Emerging Technologies and Solutions Office.
+Manoj Nair is Chief Technology Officer and Chief Innovation Officer at [[snyk|Snyk]], where he leads the Emerging Technologies and Solutions Office.
 
 ## Scheduled Sessions
 - [[2026-06-29-manoj-nair-security-track-intro]] — Security Track intro (2026-06-29, 10:25am-10:30am)

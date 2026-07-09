@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Daniel Han
 
 ## Official Role
-Co-founder at Unsloth.
+Co-founder at [[unsloth|Unsloth]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/danielhanchen)
@@ -21,7 +21,7 @@ Co-founder at Unsloth.
 - [Blog](https://unsloth.ai/introducing)
 
 ## Official Bio
-Co-founder of Unsloth. Making open source AI more accessible and local. 300M downloads. 65K GitHub stars. Previously at NVIDIA.
+Co-founder of [[unsloth|Unsloth]]. Making open source AI more accessible and local. 300M downloads. 65K GitHub stars. Previously at NVIDIA.
 
 ## Scheduled Sessions
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents (2026-06-29, 2:20pm-5:30pm)

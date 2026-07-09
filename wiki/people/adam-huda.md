@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Adam Huda
 
 ## Official Role
-Sr Engineering Leader for AI Dev Tools at Uber.
+Sr Engineering Leader for AI Dev Tools at [[uber|Uber]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/thinktopdown/)
@@ -19,7 +19,7 @@ Sr Engineering Leader for AI Dev Tools at Uber.
 - [Website](https://adamhuda.com)
 
 ## Official Bio
-Adam is a Senior Engineering Manager at Uber, where he leads the AI Developer Tools team on a mission to supercharge software engineering. Currently obsessed with manifesting ideas with Claude Code, he is a true believer that AI will be the ultimate catalyst for unlocking Starfleet.
+Adam is a Senior Engineering Manager at [[uber|Uber]], where he leads the AI Developer Tools team on a mission to supercharge software engineering. Currently obsessed with manifesting ideas with Claude Code, he is a true believer that AI will be the ultimate catalyst for unlocking Starfleet.
 
 Before the agentic wave, Adam was a trailblazer in the mobile space. He cut his teeth at Apple as the build engineer for iOS 2.0. From there, he went on to build and launch multiple app startups, including Posterous, and helped shape the early days of Twitter's iOS app.
 

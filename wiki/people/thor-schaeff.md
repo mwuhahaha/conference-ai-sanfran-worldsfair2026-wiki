@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Thor 雷神 Schaeff
 
 ## Official Role
-Member of the Technical Staff (DevX) at Google DeepMind at Google DeepMind.
+Member of the Technical Staff (DevX) at [[google-deepmind|Google DeepMind]] at [[google-deepmind|Google DeepMind]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/thorwebdev/)
@@ -21,7 +21,7 @@ Member of the Technical Staff (DevX) at Google DeepMind at Google DeepMind.
 - [Blog](https://thorweb.dev)
 
 ## Official Bio
-Thor Schaeff works in Developer Experience at Google DeepMind, helping developers build with the Gemini API and Google AI Studio.
+Thor Schaeff works in Developer Experience at [[google-deepmind|Google DeepMind]], helping developers build with the Gemini API and Google AI Studio.
 
 ## Scheduled Sessions
 - [[2026-06-29-thor-schaeff-can-your-agent-hear-you-now]] — Can Your Agent Hear You Now? (2026-06-29, 3:20pm-3:40pm)

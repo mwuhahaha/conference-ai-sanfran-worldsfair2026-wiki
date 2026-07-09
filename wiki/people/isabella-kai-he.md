@@ -10,14 +10,14 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Isabella Kai He
 
 ## Official Role
-Member of Technical Staff at Anthropic.
+Member of Technical Staff at [[anthropic|Anthropic]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/isabella-kai-he/)
 - [X / Twitter](https://x.com/IsabellaKHe)
 
 ## Official Bio
-Member of Technical Staff on the Applied AI team at Anthropic, building at the intersection of product, research, and our customers. Previously studied at Stanford and worked at D.E. Shaw and SGNL.ai.
+Member of Technical Staff on the Applied AI team at [[anthropic|Anthropic]], building at the intersection of product, research, and our customers. Previously studied at Stanford and worked at D.E. Shaw and SGNL.ai.
 
 ## Scheduled Sessions
 - [[2026-06-29-gagan-bhat-evolution-of-agentic-surfaces]] — Evolution of agentic surfaces (2026-06-29, 4:30pm-5:30pm)

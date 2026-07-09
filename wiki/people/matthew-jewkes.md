@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Matthew Jewkes
 
 ## Official Role
-Cofounder & CTO at Standard Cybernetics.
+Cofounder & CTO at [[standard-cybernetics|Standard Cybernetics]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/mjewkes)

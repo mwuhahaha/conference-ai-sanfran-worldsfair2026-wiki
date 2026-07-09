@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Matthew Berman
 
 ## Official Role
-Founder at Forward Future.
+Founder at [[forward-future|Forward Future]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

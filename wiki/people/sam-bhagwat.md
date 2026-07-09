@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Sam Bhagwat
 
 ## Official Role
-Founder/CEO at Mastra.
+Founder/CEO at [[mastra|Mastra]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/sambhagwat/)

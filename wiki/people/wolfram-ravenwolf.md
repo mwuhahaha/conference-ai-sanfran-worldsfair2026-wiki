@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Wolfram Ravenwolf
 
 ## Official Role
-AI Evangelist at Weights & Biases by CoreWeave.
+AI Evangelist at [[weights-and-biases-by-coreweave|Weights & Biases by CoreWeave]].
 
 ## Profile Links
 - [LinkedIn](https://de.linkedin.com/in/wolframravenwolf)

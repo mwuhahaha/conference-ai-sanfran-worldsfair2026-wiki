@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Alex Shaw
 
 ## Official Role
-Member of Technical Staff at Laude Institute.
+Member of Technical Staff at [[laude-institute|Laude Institute]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

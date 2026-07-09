@@ -10,18 +10,18 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Jeffrey Wang
 
 ## Official Role
-Co-founder at Exa.
+Co-founder at [[exa|Exa]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/wangzjeff/)
 - [X / Twitter](https://x.com/jeffzwang)
 
 ## Official Bio
-Jeffrey Wang is the co-founder of Exa, an applied AI lab building a search engine for the age of AI. He studied CS at Harvard and previously worked at Plaid before leaving to tackle a problem he believed would become foundational: giving AI systems access to better information.
+Jeffrey Wang is the co-founder of [[exa|Exa]], an applied AI lab building a search engine for the age of AI. He studied CS at Harvard and previously worked at Plaid before leaving to tackle a problem he believed would become foundational: giving AI systems access to better information.
 
-Over the past several years, Jeff has helped build Exa from the ground up, leading product, go-to-market, and company building alongside the development of Exa's search and retrieval infrastructure. Today, Exa powers search and research for leading AI companies and hundreds of thousands of developers.
+Over the past several years, Jeff has helped build [[exa|Exa]] from the ground up, leading product, go-to-market, and company building alongside the development of [[exa|Exa]]'s search and retrieval infrastructure. Today, [[exa|Exa]] powers search and research for leading AI companies and hundreds of thousands of developers.
 
-Jeff believes that the intelligence of any AI system is ultimately limited by the quality of information it can access. His work at Exa is driven by a simple goal: build search that helps both AI and humans better understand the world.
+Jeff believes that the intelligence of any AI system is ultimately limited by the quality of information it can access. His work at [[exa|Exa]] is driven by a simple goal: build search that helps both AI and humans better understand the world.
 
 ## Scheduled Sessions
 - [[2026-07-01-jeffrey-wang-knowledge-systems-the-new-gtm-stack]] — Knowledge Systems: The New GTM Stack (2026-07-01, 2:25pm-2:45pm)

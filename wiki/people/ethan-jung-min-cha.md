@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Ethan (Jung Min) Cha
 
 ## Official Role
-AI Development Lead at The Carlyle Group.
+AI Development Lead at [[the-carlyle-group|The Carlyle Group]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/ethancha0411)

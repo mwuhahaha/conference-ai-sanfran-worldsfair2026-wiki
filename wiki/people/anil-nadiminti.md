@@ -10,7 +10,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Anil Nadiminti
 
 ## Official Role
-Sr Solutions Architect at Amazon Web Services (AWS).
+Sr Solutions Architect at [[amazon-web-services-aws|Amazon Web Services (AWS)]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/nadiminti)

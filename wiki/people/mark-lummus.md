@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Mark Lummus
 
 ## Official Role
-Product Lead at PayPal.
+Product Lead at [[paypal|PayPal]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/marklummus)

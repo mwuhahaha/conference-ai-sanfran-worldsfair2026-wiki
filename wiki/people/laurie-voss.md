@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Laurie Voss
 
 ## Official Role
-Head of Developer Relations at Arize AI.
+Head of Developer Relations at [[arize-ai|Arize AI]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/seldo/)
@@ -21,7 +21,7 @@ Head of Developer Relations at Arize AI.
 - [Blog](https://seldo.com)
 
 ## Official Bio
-Laurie Voss is Head of Developer Relations at Arize AI, the leading company for AI observability and evaluations. He has been a developer for over 30 years and was co-founder of npm, Inc.. He believes passionately in making the web bigger, better, and more accessible for everyone.
+Laurie Voss is Head of Developer Relations at [[arize-ai|Arize AI]], the leading company for AI observability and evaluations. He has been a developer for over 30 years and was co-founder of npm, Inc.. He believes passionately in making the web bigger, better, and more accessible for everyone.
 
 ## Scheduled Sessions
 - [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]] — From Vibes to Production: Evaluating and Shipping AI Agents That Work 101 (2026-06-29, 9:00am-11:00am)

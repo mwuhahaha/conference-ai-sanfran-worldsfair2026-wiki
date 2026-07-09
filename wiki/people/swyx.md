@@ -9,13 +9,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # swyx
 
 ## Official Role
-Curator at Latent Space / AI Engineer.
+Curator at [[latent-space-ai-engineer|Latent Space / AI Engineer]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/swyx)
 
 ## Official Bio
-Shawn Wang, known online as swyx, is a co-founder/editor of Latent Space and an organizer and prominent voice in the AI Engineer community.
+Shawn Wang, known online as swyx, is a co-founder/editor of Latent Space and an organizer and prominent voice in the [[ai-engineer|AI Engineer]] community.
 
 ## Scheduled Sessions
 - [[2026-06-29-swyx-the-highest-loop]] — The Highest Loop (2026-06-29, 9:00am-9:05am)

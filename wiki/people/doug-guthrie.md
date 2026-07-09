@@ -9,7 +9,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Doug Guthrie
 
 ## Official Role
-Solutions Engineer at Braintrust.
+Solutions Engineer at [[braintrust|Braintrust]].
 
 ## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/doug-guthrie-07994a48)

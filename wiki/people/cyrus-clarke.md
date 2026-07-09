@@ -12,7 +12,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Cyrus Clarke
 
 ## Official Role
-Researcher at MIT Media Lab.
+Researcher at [[mit-media-lab|MIT Media Lab]].
 
 ## Profile Links
 - [LinkedIn](https://linkedin.com/in/cyrusclarke)

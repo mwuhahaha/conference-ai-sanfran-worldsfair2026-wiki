@@ -8,7 +8,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Leo Platzer
 
 ## Official Role
-Founder at Deasy Labs / Collibra.
+Founder at [[deasy-labs-collibra|Deasy Labs / Collibra]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.

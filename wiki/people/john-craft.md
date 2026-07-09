@@ -8,13 +8,13 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # John Craft
 
 ## Official Role
-Solutions Engineer at Docker.
+Solutions Engineer at [[docker|Docker]].
 
 ## Profile Links
 No public profile links listed in the official speaker roster.
 
 ## Official Bio
-John Craft works in Sales Engineering/Solutions Engineering at Docker. His recent speaking context centers on governing MCP and moving from approval loops to autonomous agents with Docker.
+John Craft works in Sales Engineering/Solutions Engineering at [[docker|Docker]]. His recent speaking context centers on governing MCP and moving from approval loops to autonomous agents with [[docker|Docker]].
 
 ## Scheduled Sessions
 - [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker]] — From approval loops to autonomous agents with Docker (2026-06-29, 12:10pm-1:10pm)

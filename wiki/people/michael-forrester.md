@@ -11,7 +11,7 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 # Michael Forrester
 
 ## Official Role
-AI Workforce Transformation at Accenture.
+AI Workforce Transformation at [[accenture|Accenture]].
 
 ## Profile Links
 - [X / Twitter](https://x.com/peopleforrester)
