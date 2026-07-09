@@ -42,3 +42,15 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## External Secondary Source Candidates
+These videos were discovered outside the official AI Engineer channel and matched by the external-video discovery tool. Treat them as secondary sources only until manually verified against the official event recording.
+
+- [Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026](https://www.youtube.com/watch?v=qakTj_xI0gk)
+  - Uploader: WorkOS
+  - Confidence: high (0.8)
+  - Match evidence: event marker in title/metadata; leading official title phrase appears in video title; talk/session-shaped title; plausible talk/workshop duration
+  - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt`
+  - Transcript markdown: [[youtube-qakTj_xI0gk-transcript]]
+## Transcript Markdown
+- [[youtube-qakTj_xI0gk-transcript]] — full cached transcript markdown for the related YouTube source.

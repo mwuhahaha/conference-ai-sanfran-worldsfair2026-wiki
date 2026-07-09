@@ -1,0 +1,380 @@
+{
+  "checked_at": "2026-07-09T05:00:47.679734+00:00",
+  "tool": "scripts/discover_external_event_videos.py",
+  "queries": [
+    "AI Engineer Worldsfair 2026 talk",
+    "\"AI Engineer\" \"World's Fair\" \"2026\"",
+    "\"WF2026\" \"AI Engineer\""
+  ],
+  "limits": {
+    "per_query": 10,
+    "metadata": false
+  },
+  "policy": {
+    "high_confidence_is_secondary_source_only": true,
+    "official_channel_results_are_penalized": true,
+    "recap_or_vlog_language_is_penalized_for_talk_matching": true
+  },
+  "query_errors": [],
+  "results": [
+    {
+      "video": {
+        "id": "qakTj_xI0gk",
+        "title": "Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026",
+        "uploader": "WorkOS",
+        "channel": "WorkOS",
+        "duration": 683.0,
+        "webpage_url": "https://www.youtube.com/watch?v=qakTj_xI0gk"
+      },
+      "confidence": "high",
+      "usefulness": "secondary_source_candidate_for_talk",
+      "best_match": {
+        "score": 0.8,
+        "session": {
+          "slug": "2026-06-29-session-self-driving-production-ai-wrote-your-code-ai-should-fix-it-too",
+          "title": "Self-Driving Production: AI Wrote your Code. AI Should Fix It, Too",
+          "speakers": [],
+          "companies": [],
+          "day": "Day 2 — Session Day 1",
+          "time": "2:50pm-3:10pm",
+          "room": "Expo Stage 4 SE",
+          "track": ""
+        },
+        "title_overlap": 0.3,
+        "phrase_overlap": 0.375,
+        "speaker_hits": [],
+        "company_hits": [],
+        "reasons": [
+          "event marker in title/metadata",
+          "leading official title phrase appears in video title",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true,
+      "transcript_status": {
+        "status": "captions_imported",
+        "path": "raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt",
+        "caption_path": "raw/sources/external-youtube-subtitles/qakTj_xI0gk.en-orig.vtt",
+        "word_count": 2375
+      }
+    },
+    {
+      "video": {
+        "id": "x1-B2DJr3i4",
+        "title": "Why Trust Is the Bottleneck for Agents — Jean-Denis Greze, Town | AI Engineer World's Fair 2026",
+        "uploader": "WorkOS",
+        "channel": "WorkOS",
+        "duration": 967.0,
+        "webpage_url": "https://www.youtube.com/watch?v=x1-B2DJr3i4"
+      },
+      "confidence": "medium",
+      "usefulness": "needs_human_review_or_context_source",
+      "best_match": {
+        "score": 0.58,
+        "session": {
+          "slug": "2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects",
+          "title": "Agents' next frontier: agent-to-agent and network effects",
+          "speakers": [
+            "Jean-Denis Greze"
+          ],
+          "companies": [
+            "Town"
+          ],
+          "day": "Day 2 — Session Day 1",
+          "time": "1:30pm-1:50pm",
+          "room": "Track 1",
+          "track": "Claws & Personal Agents"
+        },
+        "title_overlap": 0.111,
+        "phrase_overlap": 0.143,
+        "speaker_hits": [
+          "Jean-Denis Greze"
+        ],
+        "company_hits": [
+          "Town"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: Jean-Denis Greze",
+          "company match: Town",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "0JaDGb8ZwuU",
+        "title": "IRL at AI Engineer World's Fair in SF",
+        "uploader": "Ray Fernando",
+        "channel": "Ray Fernando",
+        "duration": 12746.0,
+        "webpage_url": "https://www.youtube.com/watch?v=0JaDGb8ZwuU"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.26,
+        "session": {
+          "slug": "2026-06-30-gaurav-mishra-from-rl-to-irl",
+          "title": "From RL to IRL",
+          "speakers": [
+            "Gaurav Mishra"
+          ],
+          "companies": [
+            "Amazon AGI Lab"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "1:30pm-1:50pm",
+          "room": "Track 7",
+          "track": "Computer Use"
+        },
+        "title_overlap": 1.0,
+        "phrase_overlap": 0.333,
+        "speaker_hits": [],
+        "company_hits": [],
+        "reasons": [
+          "event marker in title/metadata",
+          "title token overlap 1.00",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "-YxxlYQdd5w",
+        "title": "AIE World's Fair 2026 - Day 3 in 13 min -  AI Engineer - WF2026",
+        "uploader": "CorticalFlow",
+        "channel": "CorticalFlow",
+        "duration": 770.0,
+        "webpage_url": "https://www.youtube.com/watch?v=-YxxlYQdd5w"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.18,
+        "session": {
+          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
+          "title": "One Designer + Al. Hundreds of Deliverables.",
+          "speakers": [
+            "Vincent Wendy"
+          ],
+          "companies": [
+            "AI Engineer"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "3:45pm-4:05pm",
+          "room": "Track 6",
+          "track": "Design Engineering"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "AI Engineer"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: AI Engineer",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "0PGO7Ljp8zg",
+        "title": "MLH @ AI Engineer World’s Fair 2026",
+        "uploader": "Major League Hacking",
+        "channel": "Major League Hacking",
+        "duration": 104.0,
+        "webpage_url": "https://www.youtube.com/watch?v=0PGO7Ljp8zg"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.18,
+        "session": {
+          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
+          "title": "One Designer + Al. Hundreds of Deliverables.",
+          "speakers": [
+            "Vincent Wendy"
+          ],
+          "companies": [
+            "AI Engineer"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "3:45pm-4:05pm",
+          "room": "Track 6",
+          "track": "Design Engineering"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "AI Engineer"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: AI Engineer",
+          "short video; likely clip/recap"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "ewLCOy9mGO8",
+        "title": "AIE World's Fair 2026 - Day 2 in 13 min -  AI Engineer - WF2026",
+        "uploader": "CorticalFlow",
+        "channel": "CorticalFlow",
+        "duration": 660.0,
+        "webpage_url": "https://www.youtube.com/watch?v=ewLCOy9mGO8"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.18,
+        "session": {
+          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
+          "title": "One Designer + Al. Hundreds of Deliverables.",
+          "speakers": [
+            "Vincent Wendy"
+          ],
+          "companies": [
+            "AI Engineer"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "3:45pm-4:05pm",
+          "room": "Track 6",
+          "track": "Design Engineering"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "AI Engineer"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: AI Engineer",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "wkOiO8sH88s",
+        "title": "AIE World's Fair 2026 - Day 1 in 13 min -  AI Engineer - WF2026",
+        "uploader": "CorticalFlow",
+        "channel": "CorticalFlow",
+        "duration": 667.0,
+        "webpage_url": "https://www.youtube.com/watch?v=wkOiO8sH88s"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.18,
+        "session": {
+          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
+          "title": "One Designer + Al. Hundreds of Deliverables.",
+          "speakers": [
+            "Vincent Wendy"
+          ],
+          "companies": [
+            "AI Engineer"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "3:45pm-4:05pm",
+          "room": "Track 6",
+          "track": "Design Engineering"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "AI Engineer"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: AI Engineer",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "RZd8g89hZgw",
+        "title": "The Inngest Crew at AI Engineer World's Fair in SF",
+        "uploader": "Inngest",
+        "channel": "Inngest",
+        "duration": 43.0,
+        "webpage_url": "https://www.youtube.com/watch?v=RZd8g89hZgw"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.0,
+        "session": {
+          "slug": "2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101",
+          "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 101",
+          "speakers": [
+            "Laurie Voss"
+          ],
+          "companies": [
+            "Arize AI"
+          ],
+          "day": "Day 1 — Workshop Day",
+          "time": "9:00am-11:00am",
+          "room": "Track 1",
+          "track": "Track 1"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [],
+        "reasons": [
+          "event marker in title/metadata",
+          "short video; likely clip/recap",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": false
+    }
+  ]
+}

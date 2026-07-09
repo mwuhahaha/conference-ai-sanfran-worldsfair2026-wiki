@@ -782,5 +782,13 @@
     "videoId": "htM02KMNZnk",
     "wordCount": 89050,
     "sourceLabel": "YouTube livestream transcript"
+  },
+  {
+    "id": "youtube-qakTj_xI0gk-transcript",
+    "title": "Transcript: Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026",
+    "path": "wiki/transcripts/youtube-qakTj_xI0gk-transcript.md",
+    "videoId": "qakTj_xI0gk",
+    "wordCount": 2375,
+    "sourceLabel": "External YouTube secondary-source transcript"
   }
 ]

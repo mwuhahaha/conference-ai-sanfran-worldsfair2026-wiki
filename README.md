@@ -37,6 +37,17 @@ npm run build
 
 The build writes the deployable static site to `dist/`.
 
+## Wiki Toolkit
+
+Useful recurring tools:
+
+```bash
+python3 scripts/discover_external_event_videos.py --write-wiki --import-high-confidence --update-talk-pages
+python3 scripts/generate_transcript_markdown_pages.py
+```
+
+The external video discovery tool searches YouTube beyond the official AI Engineer channel, scores candidates against the official schedule, treats high-confidence matches as secondary sources only, and writes its audit report to `wiki/resources/external-video-discovery.md`.
+
 ## Static Site Export
 
 This repository can be deployed as a static Cloudflare Pages site.

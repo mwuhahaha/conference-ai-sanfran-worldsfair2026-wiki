@@ -58,6 +58,7 @@ def main() -> int:
     sessions = load_json(RAW / "official-sessions.json", {}).get("sessions", [])
     speakers = load_json(RAW / "official-speakers.json", {}).get("speakers", [])
     related_videos = load_json(RAW / "speaker-video-map.json", [])
+    external_video_discovery = load_json(RAW / "external-video-discovery-latest.json", {})
     livestreams = load_json(RAW / "aidotengineer-channel-streams-latest.json", [])
     videos = load_json(RAW / "aidotengineer-channel-videos-latest.json", [])
 
@@ -139,6 +140,7 @@ def main() -> int:
         "- MCP topic: https://aie-worldsfair2026.plusrobot.ai/topics/mcp/",
         "- Inference Engineering topic: https://aie-worldsfair2026.plusrobot.ai/topics/inference-engineering/",
         "- Talk/video/transcript map: https://aie-worldsfair2026.plusrobot.ai/resources/talk-video-transcript-map/",
+        "- External YouTube video discovery: https://aie-worldsfair2026.plusrobot.ai/resources/external-video-discovery/",
         "- Livestreams resource: https://aie-worldsfair2026.plusrobot.ai/resources/worldsfair-2026-livestreams/",
         "- Livestream talk segments: https://aie-worldsfair2026.plusrobot.ai/resources/livestream-talk-segments/",
         "- Slide library: https://aie-worldsfair2026.plusrobot.ai/resources/slide-library/",
@@ -163,6 +165,8 @@ def main() -> int:
         f"- Related talk/video rows indexed: {len(related_videos) if isinstance(related_videos, list) else 'unknown'}.",
         f"- Cached speaker-matched transcript files: {count_glob('raw/sources/youtube-transcripts/*.txt')}.",
         f"- Cached livestream transcript files: {count_glob('raw/sources/youtube-livestream-transcripts/*.txt')}.",
+        f"- Cached external secondary-source transcript files: {count_glob('raw/sources/external-youtube-transcripts/*.txt')}.",
+        f"- External YouTube discovery rows: {entry_count(external_video_discovery.get('results', []) if isinstance(external_video_discovery, dict) else [])}.",
         f"- High-confidence livestream talk timestamp matches: {entry_count(load_json(RAW / 'livestream-talk-segments.json', []))}.",
         "",
         "## Agent Task Recipes",

@@ -97,6 +97,7 @@ These pages expose cached YouTube and livestream transcripts as linkable wiki ma
 - [[youtube-SKDJo2CopRs-transcript|Transcript: Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare]]
 - [[youtube-c-2eEv2ou7Y-transcript|Transcript: Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic]]
 - [[youtube-EcqMYoIV57A-transcript|Transcript: Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo]]
+- [[youtube-qakTj_xI0gk-transcript|Transcript: Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026]]
 - [[youtube-B9h9ovW5H9U-transcript|Transcript: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]]
 - [[youtube-6bmM45jkMDY-transcript|Transcript: You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs]]
 - [[youtube-gHs5ZiY80PM-transcript|Transcript: You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia]]
