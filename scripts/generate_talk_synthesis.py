@@ -243,7 +243,7 @@ def section_for(path: Path, text: str, people: dict[str, dict], company_slugs: d
         lines.append("- No highlighted novel concept has been detected yet.")
     lines.extend(["", "### Evidence Boundary"])
     if transcripts:
-        lines.append("This synthesis uses the official schedule plus cached related-video transcripts. Related videos remain supporting context unless explicitly verified as exact session recordings.")
+        lines.append("This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.")
     else:
         lines.append("This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.")
     return "\n".join(lines), concepts

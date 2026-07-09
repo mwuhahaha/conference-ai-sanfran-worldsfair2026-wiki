@@ -10,7 +10,12 @@ last_enriched: "2026-07-09T01:18:28.426711+00:00"
 # Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta
 
 ## What It Is
-A public AI Engineer YouTube AI Engineer cut video used as supporting material for the AI Engineer World's Fair 2026 wiki.
+An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is an event video source for the wiki, while the official schedule remains the canonical schedule source.
+
+## Source Classification
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube channel cut video.
+- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/grdoOC1BT1s.txt` (8,993 words).

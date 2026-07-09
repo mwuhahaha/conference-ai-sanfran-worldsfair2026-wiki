@@ -389,7 +389,7 @@ def main() -> int:
             f"# {video.get('youtube_title')}",
             "",
             "## What It Is",
-            "A public AI Engineer YouTube video matched as supporting context for one or more World's Fair 2026 scheduled sessions, usually because the scheduled speaker appears in the video title.",
+            "A public AI Engineer YouTube video matched as supporting context for one or more World's Fair 2026 scheduled sessions, usually because the scheduled speaker appears in the video title. Official World's Fair San Francisco 2026 livestreams and cut videos should be reclassified as primary event video sources when imported.",
             "",
             "## Transcript Availability",
             caption_label(status),
@@ -572,7 +572,7 @@ def write_resource_pages(sessions, speakers, video_count):
                 "",
                 "Allowed sources for this run:",
                 "- Official AI Engineer World's Fair 2026 schedule endpoints.",
-                "- Public AI Engineer YouTube channel metadata.",
+                "- Public AI Engineer YouTube channel metadata, with official World's Fair San Francisco 2026 videos treated as primary event video sources for media/transcript/slide evidence.",
                 "- Public YouTube caption availability metadata.",
                 "",
                 "The run did not import private Miami notes, personal recordings, queue state, or diary content.",
@@ -603,7 +603,7 @@ def write_indexes(sessions, speakers, company_people, videos):
                 "- Exact YouTube title matches for official session recordings were not found during this run.",
                 "",
                 "## Next Synthesis Pass",
-                "Prioritize confirmed captions for speaker-matched videos, then update the relevant talk pages with transcript-derived themes while keeping them labeled as supporting context unless a video is confirmed to be the exact session recording.",
+                "Prioritize confirmed captions for speaker-matched videos, then update the relevant talk pages with transcript-derived themes. Keep external, historical, or non-event videos labeled as supporting context; official World's Fair San Francisco 2026 videos are primary event video sources for transcript and slide evidence.",
             ]
         ),
     )

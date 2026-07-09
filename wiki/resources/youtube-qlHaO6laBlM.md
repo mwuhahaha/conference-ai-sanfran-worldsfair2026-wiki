@@ -10,9 +10,12 @@ last_enriched: "2026-07-09T01:18:27.276554+00:00"
 # Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)
 
 ## What It Is
-This is a public AI Engineer YouTube recording of a talk by [[william-tarr|William Tarr]] about shipping production AI inside the UK [[ministry-of-justice|Ministry of Justice]] and its [[justice-ai-unit|Justice AI Unit]]. The title includes "DO NOT PUBLISH" in the public YouTube metadata; this wiki treats that as part of the source title and keeps a clear evidence boundary rather than assuming private intent beyond what is visible on the public channel.
+An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is an event video source for the wiki, while the official schedule remains the canonical schedule source.
 
-The talk is also a practical field report on forward-deployed AI work in prisons, probation, courts, and other high-friction government environments. [[louis-allgood|Louis Allgood]] appears in the transcript as the probation-side AI product builder describing how note-taking and transcription products were built from direct frontline contact.
+## Source Classification
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube channel cut video.
+- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Summary
 The core claim is that production AI in government is not primarily a model-selection problem. It is an operating-model problem. Tarr describes the Justice AI Unit as a small, startup-like team inside a large public institution, built to close the distance between engineers and frontline staff. The talk contrasts this with the conventional centralized government technology model, where teams can spend months debating tools for workflows they rarely observe directly.

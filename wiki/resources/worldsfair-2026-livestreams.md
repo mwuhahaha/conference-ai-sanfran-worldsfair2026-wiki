@@ -29,7 +29,6 @@ If a later Track 7 room upload appears, it should be added here and used to revi
 
 ## Related Corpus
 - [[ai-engineer-livestream-corpus]]
-- [[livestream-talk-segments]]
 
 ## Related Subjects
 - [[autoresearch]]

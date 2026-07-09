@@ -46,8 +46,8 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - People: 555 rendered people pages; official speakers indexed: 552.
 - Companies: 344 rendered company pages.
 - Topics: 16 synthesis pages across repeated conference themes.
-- Resources: 215 pages for source maps, YouTube evidence, livestreams, and processing audits.
-- Slides: 403 slide pages; standard decks: 199; reconstructed decks: 107; dense decks: 94.
+- Resources: 219 pages for source maps, YouTube evidence, livestreams, and processing audits.
+- Slides: 418 slide pages; standard decks: 200; reconstructed decks: 107; dense decks: 94.
 - Quotes: 68 selected quote pages tied back to source videos and topics.
 - Tools: 62 tool/protocol/entity pages generated from the conference evidence layer.
 - Events: 5 day/event overview pages.
@@ -85,7 +85,8 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 
 ## Evidence Confidence
 - Official schedule and speaker facts are canonical for dates, titles, speakers, organizations, tracks, rooms, and session status.
-- Related YouTube pages are supporting context unless the page explicitly confirms an exact recording match.
+- Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for media, transcript, and slide evidence.
+- Other YouTube pages, including external uploads, older AI Engineer talks, and videos from other AIE events, are supporting context unless manually promoted as exact official event recordings.
 - Transcripts are useful evidence, but speaker/session matching and caption quality may vary.
 - Slide OCR is best-effort. For important claims, inspect the embedded slide image or reconstructed crop.
 - Topic, tool, quote, and company pages are synthesis layers. Follow their linked talks, resources, videos, slides, and source-boundary notes before treating a claim as primary.
@@ -100,8 +101,8 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Related talk/video rows indexed: 153.
 - Cached speaker-matched transcript files: 96.
 - Cached livestream transcript files: 3.
-- Cached external secondary-source transcript files: 1.
-- External YouTube discovery rows: 8.
+- Cached external secondary-source transcript files: 2.
+- External YouTube discovery rows: 21.
 - High-confidence livestream talk timestamp matches: 11.
 
 ## Agent Task Recipes

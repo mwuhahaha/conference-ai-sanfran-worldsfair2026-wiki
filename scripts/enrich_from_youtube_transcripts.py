@@ -493,6 +493,14 @@ def write_resource(video_id: str, video: dict, text: str, topics: list[tuple[str
     topic_links = ", ".join(f"[[{slug}|{label}]]" for slug, label, _score in topics) or "None detected"
     keywords = ", ".join(f"`{w}`" for w in transcript_summary(text))
     source_kind = "WF26 livestream" if video.get("source_kind") == "channel_stream" else "AI Engineer cut video"
+    what_it_is = (
+        "An official AI Engineer YouTube WF26 livestream for AI Engineer World's Fair San Francisco 2026. "
+        "This is a primary event video source for what the recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata."
+        if video.get("source_kind") == "channel_stream"
+        else
+        "An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. "
+        "This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata."
+    )
     lines = [
         frontmatter({
             "title": video["youtube_title"],
@@ -504,7 +512,12 @@ def write_resource(video_id: str, video: dict, text: str, topics: list[tuple[str
         f"# {video['youtube_title']}",
         "",
         "## What It Is",
-        f"A public AI Engineer YouTube {source_kind} used as supporting material for the AI Engineer World's Fair 2026 wiki.",
+        what_it_is,
+        "",
+        "## Source Classification",
+        "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
+        f"- Channel/source: official AI Engineer YouTube channel {source_kind}.",
+        "- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.",
         "",
         "## Transcript Status",
         f"Cached transcript text is available at `raw/sources/{'youtube-livestream-transcripts' if video.get('source_kind') == 'channel_stream' else 'youtube-transcripts'}/{video_id}.txt` ({words:,} words).",
@@ -551,7 +564,12 @@ def write_non_transcript_resource(video_id: str, video: dict, reason: str) -> No
         f"# {video['youtube_title']}",
         "",
         "## What It Is",
-        "A public AI Engineer YouTube supporting media item connected to AI Engineer World's Fair 2026.",
+        "An official AI Engineer YouTube media item connected to AI Engineer World's Fair San Francisco 2026.",
+        "",
+        "## Source Classification",
+        "- Source role: primary event video source when the item is an official World's Fair San Francisco 2026 livestream or cut video; otherwise supporting official-channel context.",
+        "- Channel/source: official AI Engineer YouTube channel.",
+        "- Use: verify against the official schedule and transcript/slide availability before using it for specific session claims.",
         "",
         "## Transcript Status",
         reason,

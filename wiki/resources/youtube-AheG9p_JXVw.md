@@ -4,7 +4,6 @@ category: "resources"
 videoId: "AheG9p_JXVw"
 sourceLabels: ["External YouTube secondary source", "YouTube transcript", "Slide extraction"]
 ---
-
 # AI Engineer World's Fair: Building Reelful - Agentic Video Editor
 
 ## Source
@@ -25,3 +24,8 @@ The match is strong because the title and description explicitly identify AI Eng
 
 ## Transcript Markdown
 - [[youtube-AheG9p_JXVw-transcript]] - full cached transcript markdown.
+
+## Source Classification
+- Source role: supporting external video source.
+- Channel/source: non-official YouTube upload or external event-related recording.
+- Use: supporting context only unless manually verified as an exact official event recording.

@@ -128,7 +128,7 @@ def write_ai_livestream_corpus(rows: list[dict]) -> None:
         ),
         "# AI Engineer Livestream Corpus",
         "",
-        "This page inventories AI Engineer channel livestreams that may be useful as supporting context for the World's Fair 2026 wiki. World's Fair 2026 livestreams are direct event support; prior World's Fair track streams are historical context and should be labeled as such when used.",
+        "This page inventories AI Engineer channel livestreams. World's Fair San Francisco 2026 livestreams are primary event video sources for media, transcript, and slide evidence; prior World's Fair or other AIE streams are historical/supporting context and should be labeled as such when used.",
         "",
         "## Coverage Summary",
         f"- Channel livestream entries collected: {len(rows)}",
@@ -159,7 +159,7 @@ def write_ai_livestream_corpus(rows: list[dict]) -> None:
         [
             "",
             "## Use Guidance",
-            "- Use World's Fair 2026 livestreams as direct supporting material for this wiki.",
+            "- Use World's Fair San Francisco 2026 livestreams as primary event video sources for what was said or shown in the recording.",
             "- Use older World's Fair track streams only as historical or conceptual context, not as evidence for 2026 session facts.",
             "- When a stream has transcript but no slides, run `scripts/extract_video_slides.py --video-id <id>` and then rebuild.",
             "- When a stream has neither transcript nor slides, fetch captions first; use local Whisper only when public captions are absent.",

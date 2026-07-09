@@ -3,11 +3,15 @@ title: "RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer 
 category: "resources"
 sourceLabels: ["Public YouTube metadata"]
 ---
-
 # RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot
 
 ## What It Is
-A public AI Engineer YouTube video matched as supporting context for one or more World's Fair 2026 scheduled sessions, usually because the scheduled speaker appears in the video title.
+A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
+
+## Source Classification
+- Source role: supporting contextual video source.
+- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
+- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
 ## Transcript Availability
 English auto-captions
