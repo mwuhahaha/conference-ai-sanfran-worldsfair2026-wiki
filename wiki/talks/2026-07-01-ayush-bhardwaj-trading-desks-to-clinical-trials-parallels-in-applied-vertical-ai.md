@@ -26,17 +26,7 @@ scheduleLabels: ["AI in Healthcare", "Track 7", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Wall Street to Wet Labs: The Shared DNA of Vertical AI. On the surface, finance and pharma couldn't
-
-look more different. One chases alpha in the markets; the other engineers complex drug delivery and
-
-stability. But under the hood, building Vertical AI for both domains reveals a striking shared DNA.
-
-Drawing from hands-on engineering experience in Applied AI at a top hedge fund and a cutting-edge
-
-pharma tech startup, this session explores the surprising architectural parallels between these two
-
-high-stakes industries.
+Wall Street to Wet Labs: The Shared DNA of Vertical AI. On the surface, finance and pharma couldn't look more different. One chases alpha in the markets; the other engineers complex drug delivery and stability. But under the hood, building Vertical AI for both domains reveals a striking shared DNA. Drawing from hands-on engineering experience in Applied AI at a top hedge fund and a cutting-edge pharma tech startup, this session explores the surprising architectural parallels between these two high-stakes industries.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,17 +26,7 @@ scheduleLabels: ["Autoresearch", "Main Stage", "keynote", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Human-agent collaboration is changing, becoming more visual. The agents most teams ship today still
-
-wait for us to type a paragraph to explain what we're looking at. They cannot see a screen, navigate
-
-a UI that changes, or recover when an application throws an unexpected modal. That is the
-
-architectural gap between agents that demo well and agents that work alongside real teams in real
-
-software. Perception agents close it. They see and use computers the way people do, reason about
-
-what they see, and act with clicks and keystrokes.
+Human-agent collaboration is changing, becoming more visual. The agents most teams ship today still wait for us to type a paragraph to explain what we're looking at. They cannot see a screen, navigate a UI that changes, or recover when an application throws an unexpected modal. That is the architectural gap between agents that demo well and agents that work alongside real teams in real software. Perception agents close it. They see and use computers the way people do, reason about what they see, and act with clicks and keystrokes.
 
 ## Related YouTube Video
 [Building Agents at Cloud Scale — Antje Barth, AWS](https://www.youtube.com/watch?v=WJjInLeaJjo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

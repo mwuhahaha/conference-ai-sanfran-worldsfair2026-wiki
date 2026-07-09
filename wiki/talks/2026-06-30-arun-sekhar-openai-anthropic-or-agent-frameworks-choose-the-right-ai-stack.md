@@ -26,13 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-OpenAI SDK, Anthropic SDK, or an LLM-agnostic agent framework. Which one should your next AI app be
-
-built on? Starting with Foundry Models, we walk through each option in code, show what you gain and
-
-what you give up at every layer, and help you pick the right abstraction for your scenario without
-
-overbuilding.
+OpenAI SDK, Anthropic SDK, or an LLM-agnostic agent framework. Which one should your next AI app be built on? Starting with Foundry Models, we walk through each option in code, show what you gain and what you give up at every layer, and help you pick the right abstraction for your scenario without overbuilding.
 
 ## Related YouTube Video
 [Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner](https://www.youtube.com/watch?v=1t-9-s1brcg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

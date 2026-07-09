@@ -26,23 +26,7 @@ scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-MCP v. CLI was about how agents talk to tools. That’s not settled (but we’re camp MCP… mostly).
-
-Almost nothing has settled how agents talk to each other - and that's where the next wave of value
-
-(and network effects and virality) lives. At Town we run a personal AI agent in production inside
-
-real people's inboxes, calendars, and Slack, and we've built agent-to-agent (A2A) on our platform:
-
-1:1 A2A messaging, agents that carry a short bio of one another, HITL when sensitive data is shared
-
-or write actions are involved, and early tests around 1:N A2A. I’ll talk about the why, the
-
-opportunity, and the production architecture underneath. Audience takeaway: a concrete mental model
-
-for building multi-agent systems on top of the data and surfaces users already live in, plus our
-
-learnings on early failure modes to avoid.
+MCP v. CLI was about how agents talk to tools. That’s not settled (but we’re camp MCP… mostly). Almost nothing has settled how agents talk to each other - and that's where the next wave of value (and network effects and virality) lives. At Town we run a personal AI agent in production inside real people's inboxes, calendars, and Slack, and we've built agent-to-agent (A2A) on our platform: 1:1 A2A messaging, agents that carry a short bio of one another, HITL when sensitive data is shared or write actions are involved, and early tests around 1:N A2A. I’ll talk about the why, the opportunity, and the production architecture underneath. Audience takeaway: a concrete mental model for building multi-agent systems on top of the data and surfaces users already live in, plus our learnings on early failure modes to avoid.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

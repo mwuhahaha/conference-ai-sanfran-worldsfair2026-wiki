@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Privacy in AI isn't just about choosing the right model. Data leaks rarely happen inside the LLM
-
-itself - they happen in the systems surrounding it. Observability pipelines, analytics platforms,
-
-prompts, agents, and infrastructure often become accidental channels for exposing user data. In this
-
-session, Joshua Mo, Lead DevRel Engineer at Venice AI, explores why private models alone are not
-
-enough and shares practical privacy-preserving patterns that AI engineers can adopt today. From
-
-revocable handles and hashed identifiers to agent boundaries and confidential computing, attendees
-
-will leave with concrete ideas for building AI systems that protect user data by design.
+Privacy in AI isn't just about choosing the right model. Data leaks rarely happen inside the LLM itself - they happen in the systems surrounding it. Observability pipelines, analytics platforms, prompts, agents, and infrastructure often become accidental channels for exposing user data. In this session, Joshua Mo, Lead DevRel Engineer at Venice AI, explores why private models alone are not enough and shares practical privacy-preserving patterns that AI engineers can adopt today. From revocable handles and hashed identifiers to agent boundaries and confidential computing, attendees will leave with concrete ideas for building AI systems that protect user data by design.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

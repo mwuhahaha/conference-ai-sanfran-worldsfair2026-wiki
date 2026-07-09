@@ -26,17 +26,7 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Local Models: Trust, Control, Optimization looks at why builders are choosing local AI for privacy,
-
-reliability, customization, cost, and ownership, while still asking where cloud remains necessary.
-
-The panel covers local-first versus hybrid strategies, the role of open-source models, and the
-
-infrastructure stacks making frontier-quality intelligence possible outside centralized APIs.
-
-Moderator: Carter Abdallah (NVIDIA). Panelists: Vincent Weisser (Prime Intellect), Lucas Atkins
-
-(Arcee AI), Chris Alexiuk (NVIDIA), Lou (Z.ai).
+Local Models: Trust, Control, Optimization looks at why builders are choosing local AI for privacy, reliability, customization, cost, and ownership, while still asking where cloud remains necessary. The panel covers local-first versus hybrid strategies, the role of open-source models, and the infrastructure stacks making frontier-quality intelligence possible outside centralized APIs. Moderator: Carter Abdallah (NVIDIA). Panelists: Vincent Weisser (Prime Intellect), Lucas Atkins (Arcee AI), Chris Alexiuk (NVIDIA), Lou (Z.ai).
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

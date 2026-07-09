@@ -26,15 +26,7 @@ scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed
 - Status: confirmed
 
 ## Official Description
-Trajectory (stealth) is a research and product lab building the platform for continual learning,
-
-where frontier models are continuously trained as they interact with the real world. We are a team
-
-of ex-Deepmind, OpenAI, Meta superintelligence, Apple, and raised 15M from Conviction. The Fair will
-
-be after we have launched to the world. We will be walking through the primitives of continual
-
-learning, and how we can scale fast by leveraging these tools.
+Trajectory (stealth) is a research and product lab building the platform for continual learning, where frontier models are continuously trained as they interact with the real world. We are a team of ex-Deepmind, OpenAI, Meta superintelligence, Apple, and raised 15M from Conviction. The Fair will be after we have launched to the world. We will be walking through the primitives of continual learning, and how we can scale fast by leveraging these tools.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

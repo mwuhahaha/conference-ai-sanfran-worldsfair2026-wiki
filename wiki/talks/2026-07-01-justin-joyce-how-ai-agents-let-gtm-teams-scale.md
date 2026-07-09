@@ -26,11 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-How Cloudflare scaled GTM with AI agents that never touch raw data: a deterministic layer computes
-
-the numbers, agents write the narrative, and a multi-agent pipeline turns every segment into ranked
-
-signals. Justin Joyce on the build — and what skill curation and adoption actually take.
+How Cloudflare scaled GTM with AI agents that never touch raw data: a deterministic layer computes the numbers, agents write the narrative, and a multi-agent pipeline turns every segment into ranked signals. Justin Joyce on the build — and what skill curation and adoption actually take.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

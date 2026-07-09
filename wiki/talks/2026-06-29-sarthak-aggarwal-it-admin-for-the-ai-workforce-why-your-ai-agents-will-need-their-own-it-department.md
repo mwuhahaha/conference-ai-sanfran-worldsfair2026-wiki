@@ -26,29 +26,7 @@ scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "
 - Status: confirmed
 
 ## Official Description
-Every enterprise will soon run two workforces - human and AI. Humans already have IT departments
-
-managing their identities, access, incidents, and compliance. Who manages all that for your fleet of
-
-10,000 AI agents? Nobody. Yet. At Decawork AI, we started by building autonomous IT resolution for
-
-human employees - a dual-agent system where the agent that thinks can't act and the agent that acts
-
-can't improvise. We're live in production across multiple enterprises - autonomously resolving
-
-incidents across identity systems, security platforms, endpoint infrastructure, and collaboration
-
-stacks. But here's what we discovered: the patterns for managing human IT - identity lifecycle,
-
-access governance, incident resolution, audit logging - are the exact same patterns you'll need to
-
-manage AI agent fleets at scale. The next massive infrastructure layer isn't AI agents doing work.
-
-It's AI agents managing other AI agents. This talk covers the architecture, the production war
-
-stories, and the thesis: IT Admin for the AI workforce is an inevitability, and we're building it
-
-now.
+Every enterprise will soon run two workforces - human and AI. Humans already have IT departments managing their identities, access, incidents, and compliance. Who manages all that for your fleet of 10,000 AI agents? Nobody. Yet. At Decawork AI, we started by building autonomous IT resolution for human employees - a dual-agent system where the agent that thinks can't act and the agent that acts can't improvise. We're live in production across multiple enterprises - autonomously resolving incidents across identity systems, security platforms, endpoint infrastructure, and collaboration stacks. But here's what we discovered: the patterns for managing human IT - identity lifecycle, access governance, incident resolution, audit logging - are the exact same patterns you'll need to manage AI agent fleets at scale. The next massive infrastructure layer isn't AI agents doing work. It's AI agents managing other AI agents. This talk covers the architecture, the production war stories, and the thesis: IT Admin for the AI workforce is an inevitability, and we're building it now.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

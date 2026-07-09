@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Coding agents are deaf to anything outside their own session, and a LangGraph or CrewAI one has no
-
-idea the others exist. Different vendors, different frameworks, different machines none of them
-
-share a way to work together. This demo fixes that live: the Claude Code on your laptop, Codex on
-
-your colleague's, a LangGraph agent you're running locally, and the OpenClaw on your Mac Studio at
-
-home collaborating on the same goal, going back and forth, full-duplex, across every vendor,
-
-framework, and machine line at once.
+Coding agents are deaf to anything outside their own session, and a LangGraph or CrewAI one has no idea the others exist. Different vendors, different frameworks, different machines none of them share a way to work together. This demo fixes that live: the Claude Code on your laptop, Codex on your colleague's, a LangGraph agent you're running locally, and the OpenClaw on your Mac Studio at home collaborating on the same goal, going back and forth, full-duplex, across every vendor, framework, and machine line at once.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

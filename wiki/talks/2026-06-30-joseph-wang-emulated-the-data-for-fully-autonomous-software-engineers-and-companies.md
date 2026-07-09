@@ -26,9 +26,7 @@ scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-Hold for Emulated.so. Company builds reinforcement-learning environments that simulate real
-
-production systems for coding and infrastructure agents.
+Hold for Emulated.so. Company builds reinforcement-learning environments that simulate real production systems for coding and infrastructure agents.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

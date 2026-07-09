@@ -33,37 +33,7 @@ scheduleLabels: ["Workshops Day 1", "Track 7", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most engineers are bolting AI onto a workflow that was designed for a pre-AI world. The result is a
-
-faster version of the same grind. This talk is about the other path: rebuilding the daily practice
-
-of software engineering from the ground up, around what agents are actually good at.  Two senior
-
-practitioners from WorkOS will walk through how we actually work now as AI-native engineers — not in
-
-the aspirational sense, but the literal one. We think out loud and voice-code instead of typing our
-
-way to clarity. We package recurring expertise into agent skills so we're not re-explaining context
-
-every session. We wire up hooks that fire on the events we care about, and hand off scheduled tasks
-
-to agents that run overnight, while we're away from the keyboard, or otherwise off the clock. The
-
-throughline is intentional design: deciding what a human should hold onto and what should be
-
-delegated, then building the machinery to make that real.  Because there are two of us, you'll see
-
-more than one set of habits — where our setups converge on the same patterns, and where they diverge
-
-based on how each of us thinks and works. The pitch isn't "do more." It's that an AI-native setup,
-
-designed deliberately, buys back attention and protects you from the burnout that comes from
-
-treating agents as a turbocharger for an old loop. Attendees will leave with a concrete mental model
-
-for voice-driven development, a pattern for authoring reusable agent skills, and working examples of
-
-hooks and scheduled automations they can adapt the same week.
+Most engineers are bolting AI onto a workflow that was designed for a pre-AI world. The result is a faster version of the same grind. This talk is about the other path: rebuilding the daily practice of software engineering from the ground up, around what agents are actually good at. Two senior practitioners from WorkOS will walk through how we actually work now as AI-native engineers — not in the aspirational sense, but the literal one. We think out loud and voice-code instead of typing our way to clarity. We package recurring expertise into agent skills so we're not re-explaining context every session. We wire up hooks that fire on the events we care about, and hand off scheduled tasks to agents that run overnight, while we're away from the keyboard, or otherwise off the clock. The throughline is intentional design: deciding what a human should hold onto and what should be delegated, then building the machinery to make that real. Because there are two of us, you'll see more than one set of habits — where our setups converge on the same patterns, and where they diverge based on how each of us thinks and works. The pitch isn't "do more." It's that an AI-native setup, designed deliberately, buys back attention and protects you from the burnout that comes from treating agents as a turbocharger for an old loop. Attendees will leave with a concrete mental model for voice-driven development, a pattern for authoring reusable agent skills, and working examples of hooks and scheduled automations they can adapt the same week.
 
 ## Summary
 This confirmed Workshop Day 1 session frames AI-native engineering as a redesign of the working day, not just a faster editor loop. Nick Nisi and Zack Proser are both connected to WorkOS, which makes the workshop less a generic tooling survey than a practitioner account of how developer-experience, TypeScript tooling, applied AI, and developer education habits can be reorganized around agents. The official description emphasizes four concrete workflow primitives: voice-coding as a way to externalize intent before implementation, reusable agent skills as packaged context, event-driven hooks for moments that deserve automated intervention, and scheduled tasks for work that can run while the engineer is away from the keyboard.

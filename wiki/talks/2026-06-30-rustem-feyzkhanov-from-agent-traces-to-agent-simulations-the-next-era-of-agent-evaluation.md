@@ -26,27 +26,7 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agent evaluation is moving beyond reviewing static traces after the fact. This talk explores how
-
-executable simulation environments let teams repeatedly test agents across realistic tasks, compare
-
-models and harnesses, and uncover failure modes that trace review alone misses. Drawing from
-
-Snorkel's experience building simulation datasets at scale for major labs and contributions to
-
-projects like Agents' Last Exam and Terminal-Bench, we'll cover concrete engineering patterns for
-
-building these environments: defining clear specs and requirements, implementing evaluators for
-
-simulation environments and tasks themselves, keeping environments decoupled from any single agent
-
-or model, and designing verifiers that evaluate both final outputs and agent traces. Attendees will
-
-leave with a practical mental model for creating environments that are lightweight enough to run at
-
-scale, but realistic enough to mock production systems such as databases, APIs, and tools in ways
-
-that meaningfully challenge agents.
+Agent evaluation is moving beyond reviewing static traces after the fact. This talk explores how executable simulation environments let teams repeatedly test agents across realistic tasks, compare models and harnesses, and uncover failure modes that trace review alone misses. Drawing from Snorkel's experience building simulation datasets at scale for major labs and contributions to projects like Agents' Last Exam and Terminal-Bench, we'll cover concrete engineering patterns for building these environments: defining clear specs and requirements, implementing evaluators for simulation environments and tasks themselves, keeping environments decoupled from any single agent or model, and designing verifiers that evaluate both final outputs and agent traces. Attendees will leave with a practical mental model for creating environments that are lightweight enough to run at scale, but realistic enough to mock production systems such as databases, APIs, and tools in ways that meaningfully challenge agents.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

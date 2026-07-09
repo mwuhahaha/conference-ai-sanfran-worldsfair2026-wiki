@@ -26,39 +26,7 @@ scheduleLabels: ["Expo Stage 4", "Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI is already transforming how software is built, but most organizations are still treating it as a
-
-productivity tool rather than a governance challenge. The real question isn't whether to adopt AI-
-
-assisted development; it's whether your operating model is designed to control what comes out of it.
-
-This session reframes the AI development conversation around three practitioner horizons:
-
-organizations that are proficient with the status quo, those capturing velocity today, and those
-
-building toward the next frontier, where AI agents operate with genuine autonomy at scale. The gap
-
-between these horizons isn't model capability. It's operating model maturity.  Most organizations
-
-are still applying AI to isolated steps in the development process. The real value only arrives when
-
-you redesign the system end-to-end: how work flows, how decisions are made, and how teams interact
-
-with AI as a core contributor. That transition requires something most teams haven't built: a
-
-governance layer that is accurate, consistent, repeatable, transparent, and auditable.  This talk
-
-explores what that governance layer looks like in practice, including how to instrument controls at
-
-the point of generation, enforce standards without slowing agents down, and build the organizational
-
-confidence to let agents operate at scale without losing visibility or accountability. The companies
-
-getting the most out of agentic development aren't the ones with the best models. They're the ones
-
-with the strongest foundations.  True governance isn't a gate at the end of the pipeline. In an
-
-agentic world, it's the architecture the pipeline runs on.
+AI is already transforming how software is built, but most organizations are still treating it as a productivity tool rather than a governance challenge. The real question isn't whether to adopt AI-assisted development; it's whether your operating model is designed to control what comes out of it. This session reframes the AI development conversation around three practitioner horizons: organizations that are proficient with the status quo, those capturing velocity today, and those building toward the next frontier, where AI agents operate with genuine autonomy at scale. The gap between these horizons isn't model capability. It's operating model maturity. Most organizations are still applying AI to isolated steps in the development process. The real value only arrives when you redesign the system end-to-end: how work flows, how decisions are made, and how teams interact with AI as a core contributor. That transition requires something most teams haven't built: a governance layer that is accurate, consistent, repeatable, transparent, and auditable. This talk explores what that governance layer looks like in practice, including how to instrument controls at the point of generation, enforce standards without slowing agents down, and build the organizational confidence to let agents operate at scale without losing visibility or accountability. The companies getting the most out of agentic development aren't the ones with the best models. They're the ones with the strongest foundations. True governance isn't a gate at the end of the pipeline. In an agentic world, it's the architecture the pipeline runs on.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

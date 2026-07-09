@@ -26,13 +26,7 @@ scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Search is having its Bitter Lesson moment. By turning search into an RL problem, we can finally
-
-scale search quality with compute! RL is extremely sample efficient when compared to classical
-
-search training objectives and we see no ceiling to how far we can scale this new paradigm. We cover
-
-the training of SID-1, the first RL-trained search model, and how search will look like post-RL.
+Search is having its Bitter Lesson moment. By turning search into an RL problem, we can finally scale search quality with compute! RL is extremely sample efficient when compared to classical search training objectives and we see no ceiling to how far we can scale this new paradigm. We cover the training of SID-1, the first RL-trained search model, and how search will look like post-RL.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

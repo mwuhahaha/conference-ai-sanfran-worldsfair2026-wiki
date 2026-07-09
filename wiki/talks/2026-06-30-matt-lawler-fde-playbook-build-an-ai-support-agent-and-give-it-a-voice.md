@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 4", "Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Bio: Matt Lawler leads FDE for Onboarding at AssemblyAI, helping teams ship speech-to-text and voice
-
-AI to production, from model selection and architecture through deployment and scale. Description:
-
-Most support bots can read. Joey can talk back. In this session, AssemblyAI's Forward Deployed
-
-Engineer Lead, Matt Lawler, shares how his team built Joey, an AI support agent that increased end-
-
-to-end resolution rates from 10% to 75%. He'll walk through the architecture, key lessons learned,
-
-and how the team extended Joey into a fully voice-enabled agent.
+Bio: Matt Lawler leads FDE for Onboarding at AssemblyAI, helping teams ship speech-to-text and voice AI to production, from model selection and architecture through deployment and scale. Description: Most support bots can read. Joey can talk back. In this session, AssemblyAI's Forward Deployed Engineer Lead, Matt Lawler, shares how his team built Joey, an AI support agent that increased end-to-end resolution rates from 10% to 75%. He'll walk through the architecture, key lessons learned, and how the team extended Joey into a fully voice-enabled agent.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

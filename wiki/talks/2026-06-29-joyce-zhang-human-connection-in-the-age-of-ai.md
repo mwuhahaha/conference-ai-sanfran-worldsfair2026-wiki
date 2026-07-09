@@ -26,11 +26,7 @@ scheduleLabels: ["Expo Stage 2", "Expo Stage 2 NW", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Building AI safely requires both technical skills and interpersonal skills. A live demo of
-
-connection tools from Stanford's "Touchy Feely" course, then hands-on practice. Co-hosted with
-
-Leaders in Tech.
+Building AI safely requires both technical skills and interpersonal skills. A live demo of connection tools from Stanford's "Touchy Feely" course, then hands-on practice. Co-hosted with Leaders in Tech.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

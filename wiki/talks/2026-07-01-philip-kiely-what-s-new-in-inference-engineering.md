@@ -26,17 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-More than 30,000 engineers have learned the fundamentals of inference since Inference Engineering
-
-was published. But the field keeps accelerating, so it's time for the first public addendum to the
-
-book. The past four months have seen a renewed focus on training-dependent inference optimization
-
-across the "big three" performance techniques of speculation, caching, and quantization. This talk
-
-provides structured guidance for training DFlash and EAGLE 3 draft models to accelerate LLM decode,
-
-introduces the concept of KV compaction, and explains the hype behind TurboQuant.
+More than 30,000 engineers have learned the fundamentals of inference since Inference Engineering was published. But the field keeps accelerating, so it's time for the first public addendum to the book. The past four months have seen a renewed focus on training-dependent inference optimization across the "big three" performance techniques of speculation, caching, and quantization. This talk provides structured guidance for training DFlash and EAGLE 3 draft models to accelerate LLM decode, introduces the concept of KV compaction, and explains the hype behind TurboQuant.
 
 ## Related YouTube Video
 [Optimizing inference for voice models in production - Philip Kiely, Baseten](https://www.youtube.com/watch?v=gmTHs5T_YAE) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

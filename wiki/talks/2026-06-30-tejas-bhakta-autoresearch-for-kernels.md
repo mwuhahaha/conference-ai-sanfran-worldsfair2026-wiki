@@ -26,9 +26,7 @@ scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Why all work is moving into models and why agent orchestration and multi-agent systems are the
-
-future
+Why all work is moving into models and why agent orchestration and multi-agent systems are the future
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

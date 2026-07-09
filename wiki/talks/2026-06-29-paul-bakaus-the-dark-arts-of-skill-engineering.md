@@ -26,27 +26,7 @@ scheduleLabels: ["Track 2", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most agent skills are a system prompt and a prayer. They produce safe, median output because that's
-
-what LLMs default to. After building 24 design skills across 9 AI platforms, I found the patterns
-
-that break through that ceiling, and they're rarely documented or discussed. Make your agents argue:
-
-spawn parallel sub-agents that independently evaluate the same work, then force their conflicting
-
-opinions into a single result. The output is bolder than any single agent would dare. Build mixture-
-
-of-expert skills that route to specialized sub-agents the way frontier models route to specialized
-
-networks. Give your skills memory through persistent context files that restore across sessions, so
-
-every invocation builds on the last. Wire up skill hooks that auto-activate after execution to
-
-validate, transform, or chain into the next skill. Exploit barely documented environment variables
-
-and shell expansion to make skills context-aware before they even run. Let's dig into the dark arts
-
-of skill engineering to craft ultra powerful skills.
+Most agent skills are a system prompt and a prayer. They produce safe, median output because that's what LLMs default to. After building 24 design skills across 9 AI platforms, I found the patterns that break through that ceiling, and they're rarely documented or discussed. Make your agents argue: spawn parallel sub-agents that independently evaluate the same work, then force their conflicting opinions into a single result. The output is bolder than any single agent would dare. Build mixture-of-expert skills that route to specialized sub-agents the way frontier models route to specialized networks. Give your skills memory through persistent context files that restore across sessions, so every invocation builds on the last. Wire up skill hooks that auto-activate after execution to validate, transform, or chain into the next skill. Exploit barely documented environment variables and shell expansion to make skills context-aware before they even run. Let's dig into the dark arts of skill engineering to craft ultra powerful skills.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

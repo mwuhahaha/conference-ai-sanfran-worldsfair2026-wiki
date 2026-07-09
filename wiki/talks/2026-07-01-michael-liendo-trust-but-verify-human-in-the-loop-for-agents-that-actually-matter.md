@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-"In this talk we'll walk through the full spectrum of human-in-the-loop patterns, from lightweight
-
-inline confirmations to out-of-band permission gates to handing your agent a wallet with real money
-
-in it and more. Each pattern fits a different level of consequence, and knowing which to reach for
-
-is what separates demo agents from production ones. We'll cover the honest tradeoffs of latency,
-
-user experience, and trust so you can make the right call for your specific use case.  The entire
-
-talk is built around various live demos that escalate in stakes with every step. You'll leave with a
-
-mental model and working reference architecture you can apply the same day."
+"In this talk we'll walk through the full spectrum of human-in-the-loop patterns, from lightweight inline confirmations to out-of-band permission gates to handing your agent a wallet with real money in it and more. Each pattern fits a different level of consequence, and knowing which to reach for is what separates demo agents from production ones. We'll cover the honest tradeoffs of latency, user experience, and trust so you can make the right call for your specific use case. The entire talk is built around various live demos that escalate in stakes with every step. You'll leave with a mental model and working reference architecture you can apply the same day."
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

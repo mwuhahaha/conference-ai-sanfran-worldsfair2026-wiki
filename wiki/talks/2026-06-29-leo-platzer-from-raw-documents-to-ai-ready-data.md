@@ -26,11 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Starting from a real document corpus full of overlapping, look-alike files, we walk through what it
-
-takes to make retrieval on those files reliable, from deduplicating to enriching with metadata.
-
-Watch how each step reshapes the vector space, and what happens to the answers that come back.
+Starting from a real document corpus full of overlapping, look-alike files, we walk through what it takes to make retrieval on those files reliable, from deduplicating to enriching with metadata. Watch how each step reshapes the vector space, and what happens to the answers that come back.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

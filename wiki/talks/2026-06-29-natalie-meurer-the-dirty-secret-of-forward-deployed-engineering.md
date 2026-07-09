@@ -26,15 +26,7 @@ scheduleLabels: ["Forward Deployed Engineering", "Track 8", "session", "confirme
 - Status: confirmed
 
 ## Official Description
-Since its origins at Palantir, the term "Forward Deployed Engineer" has described wildly different
-
-jobs, yet today it's one of the fastest-growing roles in AI. What happened? And what does that
-
-reveal about the future of engineering?  Join Nat Meurer, Head of Agent Engineering at Sierra, for a
-
-historical tour of one of tech's most misunderstood roles, and why its biggest contradiction may
-
-explain where the industry is headed next.
+Since its origins at Palantir, the term "Forward Deployed Engineer" has described wildly different jobs, yet today it's one of the fastest-growing roles in AI. What happened? And what does that reveal about the future of engineering? Join Nat Meurer, Head of Agent Engineering at Sierra, for a historical tour of one of tech's most misunderstood roles, and why its biggest contradiction may explain where the industry is headed next.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,19 +26,7 @@ scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-PostHog's Wizard agent can read your codebase, install packages, and run shell commands on your
-
-laptop. Yes, on purpose. This talk covers how we went from "defense-in-hope" to a standalone, robust
-
-security service. It'll highlight results from a pentest that made us question our life choices, an
-
-internal audit that challenged our architecture, and the debate over how to secure the entire
-
-pipeline. You'll learn why "scan-then-trust" is a weaker model than you think, what it takes to
-
-build kill switches you hope you never use, and what happens when you pentest an AI agent that has
-
-access to Bash.
+PostHog's Wizard agent can read your codebase, install packages, and run shell commands on your laptop. Yes, on purpose. This talk covers how we went from "defense-in-hope" to a standalone, robust security service. It'll highlight results from a pentest that made us question our life choices, an internal audit that challenged our architecture, and the debate over how to secure the entire pipeline. You'll learn why "scan-then-trust" is a weaker model than you think, what it takes to build kill switches you hope you never use, and what happens when you pentest an AI agent that has access to Bash.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

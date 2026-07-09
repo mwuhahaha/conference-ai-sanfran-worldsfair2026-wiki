@@ -26,29 +26,7 @@ scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents have a measurement problem, which makes them impossible to efficiently manage. You’ve likely
-
-heard many say execution is now cheap, but judgement is the new bottleneck. This is because our
-
-evaluation frameworks weren’t designed for systems that tirelessly output in parallel. The canary in
-
-the coal mine is code generation becoming largely solved at the expense of breaking code review. As
-
-agents reverberate across all knowledge work, the same fracture will spread to artifacts, actions, &
-
-decisions. Yet without a scalable quality measure, we can’t ascend to a higher level of abstraction
-
-because we won’t trust the foundation below. So how do we design measurements that are efficient,
-
-intuitive, & trustworthy? Past paradigm shifts offer inspiration, such as James Watt not just
-
-building a better engine but also inventing horsepower to map it onto existing mental models. We
-
-need an equivalent quantification to communicate the “mousepower” of agents. Information theory
-
-gives us the starting point: concepts like entropy, ergodic processes, and Hamiltonian problems
-
-point us toward the most tractable trajectories — easier to verify than they are to solve.
+Agents have a measurement problem, which makes them impossible to efficiently manage. You’ve likely heard many say execution is now cheap, but judgement is the new bottleneck. This is because our evaluation frameworks weren’t designed for systems that tirelessly output in parallel. The canary in the coal mine is code generation becoming largely solved at the expense of breaking code review. As agents reverberate across all knowledge work, the same fracture will spread to artifacts, actions, & decisions. Yet without a scalable quality measure, we can’t ascend to a higher level of abstraction because we won’t trust the foundation below. So how do we design measurements that are efficient, intuitive, & trustworthy? Past paradigm shifts offer inspiration, such as James Watt not just building a better engine but also inventing horsepower to map it onto existing mental models. We need an equivalent quantification to communicate the “mousepower” of agents. Information theory gives us the starting point: concepts like entropy, ergodic processes, and Hamiltonian problems point us toward the most tractable trajectories — easier to verify than they are to solve.
 
 ## Related YouTube Video
 [The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori](https://www.youtube.com/watch?v=BZtD0yYAgCQ) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

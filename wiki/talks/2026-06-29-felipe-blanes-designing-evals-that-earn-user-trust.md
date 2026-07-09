@@ -26,21 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most teams measure their agent against a benchmark, ship it, and hope. But when your agent serves
-
-real users, a benchmark won't tell you if it's actually working. This session is about building an
-
-eval suite that captures what success looks like in production, runs against real user workflows,
-
-and feeds back into product decisions. Here's the flywheel we use in practice: start with what
-
-success looks like from the user's perspective, instrument production workflows to capture those
-
-signals, diagnose where the agent falls short, and feed those insights into the next thing you
-
-build. You'll see how it shaped concrete product bets, turning eval results from a report card into
-
-a discovery tool.
+Most teams measure their agent against a benchmark, ship it, and hope. But when your agent serves real users, a benchmark won't tell you if it's actually working. This session is about building an eval suite that captures what success looks like in production, runs against real user workflows, and feeds back into product decisions. Here's the flywheel we use in practice: start with what success looks like from the user's perspective, instrument production workflows to capture those signals, diagnose where the agent falls short, and feed those insights into the next thing you build. You'll see how it shaped concrete product bets, turning eval results from a report card into a discovery tool.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,15 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-What happens when you let AI agents do the building? In this hands-on lab, you'll go from an empty
-
-terminal to a deployed app on Azure — with GitHub Copilot CLI and coding agents handling the
-
-scaffolding, coding, debugging, and deployment. You'll use the new Azure skills to provision
-
-resources and wire up services through natural language, no portal required. This isn't a demo you
-
-watch. You'll walk out with a real, working dev workflow you can take straight to your next project.
+What happens when you let AI agents do the building? In this hands-on lab, you'll go from an empty terminal to a deployed app on Azure — with GitHub Copilot CLI and coding agents handling the scaffolding, coding, debugging, and deployment. You'll use the new Azure skills to provision resources and wire up services through natural language, no portal required. This isn't a demo you watch. You'll walk out with a real, working dev workflow you can take straight to your next project.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

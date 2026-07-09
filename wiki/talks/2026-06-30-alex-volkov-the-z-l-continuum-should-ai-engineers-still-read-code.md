@@ -26,29 +26,7 @@ scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "conf
 - Status: confirmed
 
 ## Official Description
-At AI Engineer Europe, two of the best speakers gave directly opposite advice. Zechner: slow the
-
-f*** down, read every line your model writes. Lopopolo: code is a liability, you don't even open the
-
-IDE anymore. Both got applause. The room walked out confused. On the train back I sketched the Z/L
-
-Continuum on a napkin — a five-stop spectrum from "read the clanker code" to "what IDE?" — and the
-
-whole week clicked into place. In this talk I'll walk through the Continuum, introduce FOMAT (Fear
-
-of Missing Agent Time — coined backstage by Michael Richman), and make four arguments: the Continuum
-
-is real, your stop is per-task not per-person, model capability bends everything toward L, and FOMAT
-
-is a filter problem, not an agent problem. You'll leave with a vocabulary for the argument every AI
-
-engineer is having right now. Audience takeaways A shared vocabulary (Z, L, the five stops) for the
-
-debate splitting AI engineering teams FOMAT — name the fear so you can manage it A per-task
-
-framework for choosing where on the Continuum to operate Why capability drift makes "I'll never let
-
-it cook" a losing position over time Speaker: Alex Volkov · ThursdAI · @altryne
+At AI Engineer Europe, two of the best speakers gave directly opposite advice. Zechner: slow the f*** down, read every line your model writes. Lopopolo: code is a liability, you don't even open the IDE anymore. Both got applause. The room walked out confused. On the train back I sketched the Z/L Continuum on a napkin — a five-stop spectrum from "read the clanker code" to "what IDE?" — and the whole week clicked into place. In this talk I'll walk through the Continuum, introduce FOMAT (Fear of Missing Agent Time — coined backstage by Michael Richman), and make four arguments: the Continuum is real, your stop is per-task not per-person, model capability bends everything toward L, and FOMAT is a filter problem, not an agent problem. You'll leave with a vocabulary for the argument every AI engineer is having right now. Audience takeaways A shared vocabulary (Z, L, the five stops) for the debate splitting AI engineering teams FOMAT — name the fear so you can manage it A per-task framework for choosing where on the Continuum to operate Why capability drift makes "I'll never let it cook" a losing position over time Speaker: Alex Volkov · ThursdAI · @altryne
 
 ## Related YouTube Video
 [The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso](https://www.youtube.com/watch?v=Lcqat4iP_lE) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

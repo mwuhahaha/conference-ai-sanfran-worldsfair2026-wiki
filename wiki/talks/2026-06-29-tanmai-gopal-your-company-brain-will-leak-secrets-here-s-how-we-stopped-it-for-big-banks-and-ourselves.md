@@ -26,31 +26,7 @@ scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Everyone wants a shared "company brain", one single AI that knows everything the org knows. But it's
-
-nearly impossible to build one, because the moment AI scrapes everyone's data into one place, a
-
-single wrong answer to the wrong person is a breach. The downside of modifying a above-my-pay-grade
-
-shared skill, or leaking confidential information to the wrong colleague is catastrophic. Ergo,
-
-company brain projects can only ever ship to the few people who already had access to everything, or
-
-stay hobbled with strictly public information (eg: River at Shopify). We've been building one for
-
-the last year and have successfully deployed for Fortune 100 banks, for distributed-operations orgs
-
-with global scale, and for ourselves as a 70-person AI-native startup. I'll leave you with a
-
-blueprint covering how we solved the following problems: 1. Permissions for shared data and tools 2.
-
-A shared context layer (skills, knowledge, semantic layer) with its own access control 3. Scoping
-
-the blast radius of wrong context 4. Auto-learning without auto-leaking If your company brain effort
-
-has been blocked by security, compliance, or just a healthy fear of the intern asking the AI a
-
-question and getting back the exec comp table, this is the talk.
+Everyone wants a shared "company brain", one single AI that knows everything the org knows. But it's nearly impossible to build one, because the moment AI scrapes everyone's data into one place, a single wrong answer to the wrong person is a breach. The downside of modifying a above-my-pay-grade shared skill, or leaking confidential information to the wrong colleague is catastrophic. Ergo, company brain projects can only ever ship to the few people who already had access to everything, or stay hobbled with strictly public information (eg: River at Shopify). We've been building one for the last year and have successfully deployed for Fortune 100 banks, for distributed-operations orgs with global scale, and for ourselves as a 70-person AI-native startup. I'll leave you with a blueprint covering how we solved the following problems: 1. Permissions for shared data and tools 2. A shared context layer (skills, knowledge, semantic layer) with its own access control 3. Scoping the blast radius of wrong context 4. Auto-learning without auto-leaking If your company brain effort has been blocked by security, compliance, or just a healthy fear of the intern asking the AI a question and getting back the exec comp table, this is the talk.
 
 ## Related YouTube Video
 [Realtime Data Connectivity for AI: Tanmai Gopal](https://www.youtube.com/watch?v=himhGiWJXjo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

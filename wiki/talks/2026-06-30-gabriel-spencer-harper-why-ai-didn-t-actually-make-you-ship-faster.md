@@ -26,21 +26,7 @@ scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI generates code faster than humans can review and verify it, and most engineering teams adopting
-
-codegen have hit the same wall: verification. In this session, Gabriel (CEO of Meticulous) breaks
-
-down why assertion-based testing has a structural ceiling that AI codegen has made impossible to
-
-ignore, what exhaustive verification actually requires technically (behavior capture, determinism,
-
-and backend isolation), and why the teams solving this now are the ones who will ship at the speed
-
-AI enables. The talk includes case studies from LaunchDarkly, which saw an 80% reduction in major
-
-frontend incidents after rollout, and Notion, which deployed verification infrastructure across
-
-every engineer on every PR to confidently adopt AI-generated code at scale.
+AI generates code faster than humans can review and verify it, and most engineering teams adopting codegen have hit the same wall: verification. In this session, Gabriel (CEO of Meticulous) breaks down why assertion-based testing has a structural ceiling that AI codegen has made impossible to ignore, what exhaustive verification actually requires technically (behavior capture, determinism, and backend isolation), and why the teams solving this now are the ones who will ship at the speed AI enables. The talk includes case studies from LaunchDarkly, which saw an 80% reduction in major frontend incidents after rollout, and Notion, which deployed verification infrastructure across every engineer on every PR to confidently adopt AI-generated code at scale.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

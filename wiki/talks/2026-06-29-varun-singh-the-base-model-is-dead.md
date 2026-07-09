@@ -26,29 +26,7 @@ scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-It's a common belief that large language models are trained to be a good model of human web-text,
-
-and thus base models are "mirrors" of what we see on the internet. Historically, this was largely
-
-true, but no modern base model truly reflects the internet in the way that GPT-3 once did.
-
-Instruction data along with synthetic reasoning traces are moving earlier and earlier into the
-
-training pipeline, and "mid-training" has emerged as a new stage to accommodate longer datapoints
-
-that more concretely resemble downstream capabilities. As a result, pre-training no longer has the
-
-goal of creating a linguistic prior, but instead has the additional goals of baking in behavior and
-
-more atomic skills into the trained "base" model. Between this shift in what a base model is and the
-
-blurring of the lines between the different stages of model training, it's an open question as to
-
-what the best approach is here (at least outside the walls of the big labs). But I believe that the
-
-role we view the base model playing will continue to shift as we're pulled forward through new
-
-phases of model capabilities.
+It's a common belief that large language models are trained to be a good model of human web-text, and thus base models are "mirrors" of what we see on the internet. Historically, this was largely true, but no modern base model truly reflects the internet in the way that GPT-3 once did. Instruction data along with synthetic reasoning traces are moving earlier and earlier into the training pipeline, and "mid-training" has emerged as a new stage to accommodate longer datapoints that more concretely resemble downstream capabilities. As a result, pre-training no longer has the goal of creating a linguistic prior, but instead has the additional goals of baking in behavior and more atomic skills into the trained "base" model. Between this shift in what a base model is and the blurring of the lines between the different stages of model training, it's an open question as to what the best approach is here (at least outside the walls of the big labs). But I believe that the role we view the base model playing will continue to shift as we're pulled forward through new phases of model capabilities.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

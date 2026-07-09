@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 2", "Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Centralized AI is slow; Edge-native AI is the revolution. Thorsten Hans demonstrates how to build
-
-intelligent agents and Model Context Protocol (MCP) servers that run at the speed of light. Using
-
-Spin and WebAssembly, we'll bypass the "cloud tax" of high latency and cold starts. Discover how to
-
-ship AI-driven features that live closer to your users, ensuring sub-millisecond responsiveness and
-
-enhanced privacy. Stop waiting for the origin it's time to bring the brain to the edge and master
-
-the stack that powers the next generation of intelligent, distributed applications.
+Centralized AI is slow; Edge-native AI is the revolution. Thorsten Hans demonstrates how to build intelligent agents and Model Context Protocol (MCP) servers that run at the speed of light. Using Spin and WebAssembly, we'll bypass the "cloud tax" of high latency and cold starts. Discover how to ship AI-driven features that live closer to your users, ensuring sub-millisecond responsiveness and enhanced privacy. Stop waiting for the origin it's time to bring the brain to the edge and master the stack that powers the next generation of intelligent, distributed applications.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,11 +26,7 @@ scheduleLabels: ["Track 2", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Vector search is good at finding similar text, but real answers often depend on how facts, entities,
-
-and documents connect. In this hands-on workshop, you’ll build a GraphRAG workflow that uses
-
-relationships to retrieve connected context for more grounded AI responses.
+Vector search is good at finding similar text, but real answers often depend on how facts, entities, and documents connect. In this hands-on workshop, you’ll build a GraphRAG workflow that uses relationships to retrieve connected context for more grounded AI responses.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

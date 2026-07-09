@@ -26,17 +26,7 @@ scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-the nanogpt speedrun is a great setup to test autonomous research: fixed model, one number to beat,
-
-and a human record that keeps moving. we pointed coding agents at it on idle compute and let them
-
-iterate for days, thousands of runs with minimal human intervention, until they beat the human
-
-baseline. in this talk we go through how they did it, how codex and claude code behave very
-
-differently as researchers, and why speedrun are one of the best environments we've found for
-
-studying autonomous research agents
+the nanogpt speedrun is a great setup to test autonomous research: fixed model, one number to beat, and a human record that keeps moving. we pointed coding agents at it on idle compute and let them iterate for days, thousands of runs with minimal human intervention, until they beat the human baseline. in this talk we go through how they did it, how codex and claude code behave very differently as researchers, and why speedrun are one of the best environments we've found for studying autonomous research agents
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

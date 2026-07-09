@@ -26,17 +26,7 @@ scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-While everyone understands that agents will get more done with a budget, no one knows which protocol
-
-will win agentic payment standard wars: x402, MPP, Skyfire, or another? So far, x402 is the most
-
-mature protocol with the largest transaction volume, but even its new "upto" payment scheme doesn’t
-
-support true usage-based pricing, as it gives agents a chance to consume resources and then skip out
-
-on the bill. I’ll walk you through our experience (and pains) implementing agentic payments for a
-
-marketplace of 30K+ web Actors, and how we made it work even with the current specs.
+While everyone understands that agents will get more done with a budget, no one knows which protocol will win agentic payment standard wars: x402, MPP, Skyfire, or another? So far, x402 is the most mature protocol with the largest transaction volume, but even its new "upto" payment scheme doesn’t support true usage-based pricing, as it gives agents a chance to consume resources and then skip out on the bill. I’ll walk you through our experience (and pains) implementing agentic payments for a marketplace of 30K+ web Actors, and how we made it work even with the current specs.
 
 ## Related YouTube Video
 [The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify](https://www.youtube.com/watch?v=blW-lSd5CYQ) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

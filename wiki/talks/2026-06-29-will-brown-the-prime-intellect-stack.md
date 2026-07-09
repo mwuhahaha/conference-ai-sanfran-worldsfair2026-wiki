@@ -33,9 +33,7 @@ This workshop centers on Will Brown's Prime Intellect work on open post-training
 - Status: confirmed
 
 ## Official Description
-Deep dive into Prime Intellect's open-source ecosystem of post-training tools, including the
-
-verifiers and prime-rl libraries, as well as our Lab platform for self-serve training and inference.
+Deep dive into Prime Intellect's open-source ecosystem of post-training tools, including the verifiers and prime-rl libraries, as well as our Lab platform for self-serve training and inference.
 
 ## Related YouTube Video
 [Training Agentic Reasoners — Will Brown, Prime Intellect](https://www.youtube.com/watch?v=PbHm2qKnu10) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

@@ -26,15 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Your developers are installing MCP servers faster than security can review them. An unvetted server
-
-is a direct line to your data. This talk shows how the Docker MCP Gateway puts every server and tool
-
-behind one org-managed catalog: vetted, signed, default-deny on anything unapproved, governed by the
-
-same policy engine as network and filesystem. Walk away with a hands-on demo: stand up a catalog,
-
-block an unvetted server, and watch policy enforce at the runtime.
+Your developers are installing MCP servers faster than security can review them. An unvetted server is a direct line to your data. This talk shows how the Docker MCP Gateway puts every server and tool behind one org-managed catalog: vetted, signed, default-deny on anything unapproved, governed by the same policy engine as network and filesystem. Walk away with a hands-on demo: stand up a catalog, block an unvetted server, and watch policy enforce at the runtime.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

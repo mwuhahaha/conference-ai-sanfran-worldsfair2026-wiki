@@ -26,11 +26,7 @@ scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-What do you need know about large scale pretraining and inference for GPUs.  1. Challenges of
-
-managing infra for pretraining 2. Weird problems we faced and how we fixed them 3. How to serve at
-
-scale with multiple clusters
+What do you need know about large scale pretraining and inference for GPUs. 1. Challenges of managing infra for pretraining 2. Weird problems we faced and how we fixed them 3. How to serve at scale with multiple clusters
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

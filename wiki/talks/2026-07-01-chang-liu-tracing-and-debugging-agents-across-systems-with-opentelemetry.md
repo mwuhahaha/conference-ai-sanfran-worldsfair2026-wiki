@@ -26,9 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Understand what your agents are doing. Learn how to trace workflows across systems, debug issues,
-
-and uncover optimization opportunities using OpenTelemetry.
+Understand what your agents are doing. Learn how to trace workflows across systems, debug issues, and uncover optimization opportunities using OpenTelemetry.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

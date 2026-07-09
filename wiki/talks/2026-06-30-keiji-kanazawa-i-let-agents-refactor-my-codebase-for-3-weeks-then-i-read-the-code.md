@@ -26,19 +26,7 @@ scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "conf
 - Status: confirmed
 
 ## Official Description
-Lopopolo says code is a liability. Zechner got a standing ovation for "read every fucking line." I
-
-was firmly at L — letting coding agents drive a refactoring for weeks, rubber-stamping PRs, trusting
-
-the vibes. Then I actually read what they'd built and couldn't explain my own system's contracts.
-
-The interfaces weren't wrong. They were plausible. Which is worse. So I took the wheel back. But
-
-this isn't a Zechner victory lap — I'm now building better specs and evals specifically so I can
-
-move back toward L with confidence. This talk is the honest, in-progress round trip, and a framework
-
-for finding where you should sit on the spectrum today.
+Lopopolo says code is a liability. Zechner got a standing ovation for "read every fucking line." I was firmly at L — letting coding agents drive a refactoring for weeks, rubber-stamping PRs, trusting the vibes. Then I actually read what they'd built and couldn't explain my own system's contracts. The interfaces weren't wrong. They were plausible. Which is worse. So I took the wheel back. But this isn't a Zechner victory lap — I'm now building better specs and evals specifically so I can move back toward L with confidence. This talk is the honest, in-progress round trip, and a framework for finding where you should sit on the spectrum today.
 
 ## Related YouTube Video
 [AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft](https://www.youtube.com/watch?v=JhJKgRAmfIU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

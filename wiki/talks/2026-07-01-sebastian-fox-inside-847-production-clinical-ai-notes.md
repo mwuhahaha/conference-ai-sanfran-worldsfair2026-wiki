@@ -26,45 +26,7 @@ scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "conf
 - Status: confirmed
 
 ## Official Description
-A Series B clinical AI company had an ambient scribe in production for six months. Internal evals
-
-passed every release. A clinical team spot-checked a sample weekly and saw nothing alarming. The
-
-system had healthy NPS, expanding deployments, and the company was preparing for European market
-
-expansion. We ran a structured audit on 847 production notes. Found 127 failures across six
-
-categories. 23 were severity-critical - the kind that could directly alter a clinical decision. The
-
-team's existing LLM-as-judge had reported zero failures across the same notes. This talk is the
-
-engineering forensics of that audit. The audit setup: which production traces we sampled, how the
-
-structured failure-mode coding worked, and the reviewer protocol. The results: three dominant
-
-failure clusters - decision-status corruption (19 cases), structured omissions (34 cases), and
-
-dosage substitution (12 cases) - and the underlying generation pattern behind each. For each cluster
-
-I will show: a real anonymised trace, the eval rule that should have caught it but did not, an
-
-explanation of why the eval missed it, and the criterion that does catch it. The pattern that
-
-emerged in the data is engineering-actionable. The team had built a 20-criterion content-
-
-faithfulness eval layer. The failures lived underneath it, in a missing intent layer. We replaced
-
-the broad content layer with a five-criterion intent layer (decision status, omission impact, dosage
-
-integrity, diagnostic chain, laterality consistency). Detection rate went from 0% to 96% on the
-
-failure set. Compute cost dropped because the intent layer is cheaper to run than the content layer
-
-it replaced. You will leave with a forensics protocol for auditing your own production AI, the five
-
-intent criteria that generalise to any high-stakes domain, and the architectural pattern: build a
-
-thin intent layer, not a thick content layer.
+A Series B clinical AI company had an ambient scribe in production for six months. Internal evals passed every release. A clinical team spot-checked a sample weekly and saw nothing alarming. The system had healthy NPS, expanding deployments, and the company was preparing for European market expansion. We ran a structured audit on 847 production notes. Found 127 failures across six categories. 23 were severity-critical - the kind that could directly alter a clinical decision. The team's existing LLM-as-judge had reported zero failures across the same notes. This talk is the engineering forensics of that audit. The audit setup: which production traces we sampled, how the structured failure-mode coding worked, and the reviewer protocol. The results: three dominant failure clusters - decision-status corruption (19 cases), structured omissions (34 cases), and dosage substitution (12 cases) - and the underlying generation pattern behind each. For each cluster I will show: a real anonymised trace, the eval rule that should have caught it but did not, an explanation of why the eval missed it, and the criterion that does catch it. The pattern that emerged in the data is engineering-actionable. The team had built a 20-criterion content-faithfulness eval layer. The failures lived underneath it, in a missing intent layer. We replaced the broad content layer with a five-criterion intent layer (decision status, omission impact, dosage integrity, diagnostic chain, laterality consistency). Detection rate went from 0% to 96% on the failure set. Compute cost dropped because the intent layer is cheaper to run than the content layer it replaced. You will leave with a forensics protocol for auditing your own production AI, the five intent criteria that generalise to any high-stakes domain, and the architectural pattern: build a thin intent layer, not a thick content layer.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

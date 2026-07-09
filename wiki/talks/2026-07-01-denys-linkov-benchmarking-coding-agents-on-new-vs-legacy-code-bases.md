@@ -26,13 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-You have an old code base with 100,000s of lines of code, should you let an AI Agent refactor or do
-
-you wait until you have a cleaner setup? Last year we refactored a number of code bases and ran
-
-evaluations on how well different models, harnesses and rule sets affected multiple versions of the
-
-code base. This talk will feature specific code examples as well as a broader set of evals.
+You have an old code base with 100,000s of lines of code, should you let an AI Agent refactor or do you wait until you have a cleaner setup? Last year we refactored a number of code bases and ran evaluations on how well different models, harnesses and rule sets affected multiple versions of the code base. This talk will feature specific code examples as well as a broader set of evals.
 
 ## Related YouTube Video
 [Structuring a modern AI team — Denys Linkov, Wisedocs](https://www.youtube.com/watch?v=SbUxRluVRwk) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

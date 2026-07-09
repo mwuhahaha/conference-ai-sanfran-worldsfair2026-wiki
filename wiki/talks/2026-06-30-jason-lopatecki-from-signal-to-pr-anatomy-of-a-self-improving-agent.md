@@ -26,23 +26,7 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-What if your observability platform didn't just tell you something was wrong, but told you why, and
-
-opened a PR with the fix? We'll walk through how we built Autopilot at Arize: an autonomous
-
-investigation agent that triggers on monitor alerts or schedules, pulls traces into a working
-
-filesystem, runs root-cause analysis, and produces actionable assets: a PR with prompt or code
-
-changes ready for review. We'll cover the architecture decisions (cloud agents vs. sandboxed
-
-containers, AI harness + skills), why traces-on-a-filesystem is the key unlock for agent-driven
-
-debugging, and how we dogfooded the system on our own agent, Alyx, before shipping it to customers.
-
-You'll leave with a concrete picture of what "observability that fixes itself" looks like in
-
-practice, and where and why the human stays in the loop.
+What if your observability platform didn't just tell you something was wrong, but told you why, and opened a PR with the fix? We'll walk through how we built Autopilot at Arize: an autonomous investigation agent that triggers on monitor alerts or schedules, pulls traces into a working filesystem, runs root-cause analysis, and produces actionable assets: a PR with prompt or code changes ready for review. We'll cover the architecture decisions (cloud agents vs. sandboxed containers, AI harness + skills), why traces-on-a-filesystem is the key unlock for agent-driven debugging, and how we dogfooded the system on our own agent, Alyx, before shipping it to customers. You'll leave with a concrete picture of what "observability that fixes itself" looks like in practice, and where and why the human stays in the loop.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

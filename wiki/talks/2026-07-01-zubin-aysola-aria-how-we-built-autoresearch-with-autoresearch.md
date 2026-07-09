@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-ARIA is an end-to-end auto research and AI research product that improves models, launches training
-
-jobs, and agents alike. We used ARIA along with a sophisticated evaluation framework we're calling
-
-the WBAF, Weights and Biases Agent Factory, to build itself. ARIA reads its own production traces,
-
-improves its own prompts, tools, skills, and other effects to solve customer challenges. In this
-
-talk, we dive into the evaluation framework, how we built a sophisticated reinforcement learning
-
-style environment over the Weights & Biases product, and how we scaled from zero to one to a full
-
-team working in parallel on improving an agent.
+ARIA is an end-to-end auto research and AI research product that improves models, launches training jobs, and agents alike. We used ARIA along with a sophisticated evaluation framework we're calling the WBAF, Weights and Biases Agent Factory, to build itself. ARIA reads its own production traces, improves its own prompts, tools, skills, and other effects to solve customer challenges. In this talk, we dive into the evaluation framework, how we built a sophisticated reinforcement learning style environment over the Weights & Biases product, and how we scaled from zero to one to a full team working in parallel on improving an agent.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

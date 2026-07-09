@@ -26,19 +26,7 @@ scheduleLabels: ["Robotics & World Models", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-big models get a lot of press. small model scale much better. RAM is expensive. The real world needs
-
-tiny models for scale on the edge. This workshop will cover how to combine both for mobile and
-
-robotics deployment. specifically covering: - skills are different on mobile - tiny LLMs <1B scale
-
-much further on mobile/web - how to fine tune and train tiny models. - skills on robotics / edge/
-
-mobile - latest open models for edge (including gemma, qwen, and anything else that happens in next
-
-10 weeks) This talk will focus on open models, including some gemma variants that will be shortly
-
-announced.
+big models get a lot of press. small model scale much better. RAM is expensive. The real world needs tiny models for scale on the edge. This workshop will cover how to combine both for mobile and robotics deployment. specifically covering: - skills are different on mobile - tiny LLMs <1B scale much further on mobile/web - how to fine tune and train tiny models. - skills on robotics / edge/ mobile - latest open models for edge (including gemma, qwen, and anything else that happens in next 10 weeks) This talk will focus on open models, including some gemma variants that will be shortly announced.
 
 ## Related YouTube Video
 [From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google](https://www.youtube.com/watch?v=-TiET_K-E_g) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

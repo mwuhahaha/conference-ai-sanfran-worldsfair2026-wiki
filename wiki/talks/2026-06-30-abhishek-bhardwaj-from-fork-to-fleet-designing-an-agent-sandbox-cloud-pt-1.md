@@ -35,15 +35,7 @@ The platform question is how to turn those primitives into a fleet of useful san
 - Status: confirmed
 
 ## Official Description
-Sandboxes unleash agents by giving them secure, fully functional computers where they can tackle
-
-diverse tasks with minimal setup. This talk explores the architectural challenges of building an
-
-agent sandbox cloud. We compare runtime isolation technologies and their trade-offs, examine
-
-persistence and storage as the next major unlock for agent capabilities, and discuss the key
-
-decisions involved in orchestrating and scaling sandboxes.
+Sandboxes unleash agents by giving them secure, fully functional computers where they can tackle diverse tasks with minimal setup. This talk explores the architectural challenges of building an agent sandbox cloud. We compare runtime isolation technologies and their trade-offs, examine persistence and storage as the next major unlock for agent capabilities, and discuss the key decisions involved in orchestrating and scaling sandboxes.
 
 ## Related YouTube Video
 [Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI](https://www.youtube.com/watch?v=wsFd22SL1s8) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

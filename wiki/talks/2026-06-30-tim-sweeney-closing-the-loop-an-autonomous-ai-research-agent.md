@@ -26,23 +26,7 @@ scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The holy grail of agentic AI tooling is the autoresearch loop: an agent that can sift through your
-
-experiments, create visualizations, propose a hypothesis, launch a training job, read the results,
-
-and try again autonomously. In this session, we'll show new autoresearch capabilities built directly
-
-into the W&B Models web and iOS apps. We will demo these live using a real-world fine-tuning
-
-project, covering everything from launching jobs and reading loss curves to surfacing outlier runs
-
-that consume researcher hours and recommending the next steps. Then you'll learn how the eval-driven
-
-development loop in W&B Weave makes agents like this trustworthy. You'll see how production traces
-
-become benchmarks, and how only the agents that beat the bar make it to production. Join us to learn
-
-the same loop we use to improve our own agentic features.
+The holy grail of agentic AI tooling is the autoresearch loop: an agent that can sift through your experiments, create visualizations, propose a hypothesis, launch a training job, read the results, and try again autonomously. In this session, we'll show new autoresearch capabilities built directly into the W&B Models web and iOS apps. We will demo these live using a real-world fine-tuning project, covering everything from launching jobs and reading loss curves to surfacing outlier runs that consume researcher hours and recommending the next steps. Then you'll learn how the eval-driven development loop in W&B Weave makes agents like this trustworthy. You'll see how production traces become benchmarks, and how only the agents that beat the bar make it to production. Join us to learn the same loop we use to improve our own agentic features.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

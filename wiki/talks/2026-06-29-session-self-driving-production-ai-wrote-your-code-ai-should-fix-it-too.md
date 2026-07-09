@@ -26,11 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Self-driving production is the next frontier of autonomous software development but getting there
-
-is a journey. In this session, we ll show how enterprises are progressing from manual operations
-
-and AI copilots toward closed-loop, autonomous production systems with Traversal.
+Self-driving production is the next frontier of autonomous software development but getting there is a journey. In this session, we ll show how enterprises are progressing from manual operations and AI copilots toward closed-loop, autonomous production systems with Traversal.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

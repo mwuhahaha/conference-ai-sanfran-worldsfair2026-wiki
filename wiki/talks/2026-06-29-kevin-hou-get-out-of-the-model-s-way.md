@@ -26,15 +26,7 @@ scheduleLabels: ["Software Factories", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-From autocomplete to chat to agents to agent orchestration...how do you build a product that scales
-
-with intelligence? What core primitives enable agents to operate at the technical (and non-
-
-technical) frontier? How can you best squeeze every ounce of capability out of your agentic dev
-
-tools? I'll answer all these questions and break down how Google Antigravity creates dynamic agent
-
-teams to solve complex tasks like building an OS-Kernal and automating research workflows.
+From autocomplete to chat to agents to agent orchestration...how do you build a product that scales with intelligence? What core primitives enable agents to operate at the technical (and non-technical) frontier? How can you best squeeze every ounce of capability out of your agentic dev tools? I'll answer all these questions and break down how Google Antigravity creates dynamic agent teams to solve complex tasks like building an OS-Kernal and automating research workflows.
 
 ## Related YouTube Video
 [How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf](https://www.youtube.com/watch?v=bVNNvWq6dKo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

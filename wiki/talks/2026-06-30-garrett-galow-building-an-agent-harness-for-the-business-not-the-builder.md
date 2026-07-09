@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most internal tooling dies in the gap between the people with problems and the people who can write
-
-code. We built a harness that closes it. Studio lets non-technical employees describe a business
-
-problem and get a working tool back, connected to real enterprise data, deployed and shareable
-
-across the company, without filing a ticket or learning to code. The catch is that a harness built
-
-for non-engineers has to absorb everything an engineer normally handles. Data source connections and
-
-their permissions. Turning model output into real software instead of a chat box. Deployment and
-
-sharing that doesn't open a security hole every time someone ships. This talk walks through what
-
-actually goes into that harness and the engineering decisions that make it hold together when the
-
-person driving it has never opened a terminal.
+Most internal tooling dies in the gap between the people with problems and the people who can write code. We built a harness that closes it. Studio lets non-technical employees describe a business problem and get a working tool back, connected to real enterprise data, deployed and shareable across the company, without filing a ticket or learning to code. The catch is that a harness built for non-engineers has to absorb everything an engineer normally handles. Data source connections and their permissions. Turning model output into real software instead of a chat box. Deployment and sharing that doesn't open a security hole every time someone ships. This talk walks through what actually goes into that harness and the engineering decisions that make it hold together when the person driving it has never opened a terminal.
 
 ## Related YouTube Video
 [Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS](https://www.youtube.com/watch?v=iUWwcG-C8OU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

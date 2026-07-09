@@ -26,25 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 4", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Industry research shows AI productivity gains have plateaued at 10–15% — because today's tools only
-
-optimize the 20% of a developer's day spent writing code. The real bottlenecks are left and right of
-
-code: planning, orchestration, review, and operations. We'll also explore the value of AI-powered
-
-code reviews - from establishing code standards that AI can seamlessly enforce, to triggering
-
-agentic pipelines that autonomously fix issues. Join Atlassian's Shane Wolf and Andrei Bocan for a
-
-hands-on deep dive into the AI-native SDLC. In this workshop, we'll move past single-player copilots
-
-and show you how Atlassian is turning Jira into an AI-native orchestration layer for the entire
-
-software development lifecycle. Then, we'll go further. You'll learn how to build custom automations
-
-that chain these capabilities together, transforming your Jira board into an agentic software
-
-factory where humans set intent and agents execute.
+Industry research shows AI productivity gains have plateaued at 10–15% — because today's tools only optimize the 20% of a developer's day spent writing code. The real bottlenecks are left and right of code: planning, orchestration, review, and operations. We'll also explore the value of AI-powered code reviews - from establishing code standards that AI can seamlessly enforce, to triggering agentic pipelines that autonomously fix issues. Join Atlassian's Shane Wolf and Andrei Bocan for a hands-on deep dive into the AI-native SDLC. In this workshop, we'll move past single-player copilots and show you how Atlassian is turning Jira into an AI-native orchestration layer for the entire software development lifecycle. Then, we'll go further. You'll learn how to build custom automations that chain these capabilities together, transforming your Jira board into an agentic software factory where humans set intent and agents execute.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

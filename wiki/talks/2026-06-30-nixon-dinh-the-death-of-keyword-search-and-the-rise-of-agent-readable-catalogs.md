@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-As search shifts from classic keyword matching to more conversational experiences, product data
-
-quality becomes critical to LLM-powered retrieval. At PayPal, we tested how enriching traditional
-
-catalog data could help AI systems better find, understand, and rank products across large-scale
-
-commerce catalogs. We built a RAG-based AI judge to compare enrichment approaches and identify five
-
-patterns that consistently improved AI discovery results.In this talk, we'll share the evaluation
-
-framework, key lessons, and a practical approach for preparing enterprise data for conversational
-
-and agentic search.
+As search shifts from classic keyword matching to more conversational experiences, product data quality becomes critical to LLM-powered retrieval. At PayPal, we tested how enriching traditional catalog data could help AI systems better find, understand, and rank products across large-scale commerce catalogs. We built a RAG-based AI judge to compare enrichment approaches and identify five patterns that consistently improved AI discovery results.In this talk, we'll share the evaluation framework, key lessons, and a practical approach for preparing enterprise data for conversational and agentic search.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

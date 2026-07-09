@@ -26,9 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-An advanced seminar (good prerequisites: Daniel's 2024 and 2025 hit AIE workshops, but all are
-
-welcome!)  PLS WATCH: https://www.youtube.com/@aiDotEngineer/search?query=daniel%20han
+An advanced seminar (good prerequisites: Daniel's 2024 and 2025 hit AIE workshops, but all are welcome!) PLS WATCH: https://www.youtube.com/@aiDotEngineer/search?query=daniel%20han
 
 ## Related YouTube Video
 [(Full Workshop) Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han](https://www.youtube.com/watch?v=OkEGJ5G3foU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

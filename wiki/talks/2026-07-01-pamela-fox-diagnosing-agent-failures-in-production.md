@@ -26,9 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agent behavior changes in production. Learn common failure modes and how to debug, test, and improve
-
-performance using real evaluation techniques.
+Agent behavior changes in production. Learn common failure modes and how to debug, test, and improve performance using real evaluation techniques.
 
 ## Related YouTube Video
 [Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner](https://www.youtube.com/watch?v=1t-9-s1brcg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

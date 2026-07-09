@@ -26,21 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-When features that took two weeks now ship in an afternoon, the bottleneck shifts from writing code
-
-to making decisions. Frontier teams have discovered this firsthand, achieving 3-10x productivity
-
-gains by fundamentally rethinking how developers work with AI agents. This talk covers the practices
-
-that separate frontier teams from those who merely "sprinkle" AI on their existing workflows:
-
-running agents asynchronously for hours, investing in comprehensive agent steering files, enabling
-
-local integration testing for agent self-correction, and automating everything from coding to
-
-operations to documentation. You'll learn how teams at Amazon slowed down to speed up, the temporary
-
-productivity dips they accepted, and the organizational changes required to sustain this velocity.
+When features that took two weeks now ship in an afternoon, the bottleneck shifts from writing code to making decisions. Frontier teams have discovered this firsthand, achieving 3-10x productivity gains by fundamentally rethinking how developers work with AI agents. This talk covers the practices that separate frontier teams from those who merely "sprinkle" AI on their existing workflows: running agents asynchronously for hours, investing in comprehensive agent steering files, enabling local integration testing for agent self-correction, and automating everything from coding to operations to documentation. You'll learn how teams at Amazon slowed down to speed up, the temporary productivity dips they accepted, and the organizational changes required to sustain this velocity.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

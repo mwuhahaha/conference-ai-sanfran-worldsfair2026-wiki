@@ -26,31 +26,7 @@ scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every agent is a while loop. The model takes strings in and produces strings out. We've all written
-
-it, debugged it, shipped it. And yet every team building agents is still re-inventing the same
-
-session management, truncation logic, tool wiring, and memory plumbing from scratch. The hard part
-
-is the harness: session isolation, context management, memory persistence, sandboxed execution,
-
-observability. The machinery that makes a model dependable in production. Most of the failures we
-
-see in deployed agents (context rot, premature completion, tool bloat) trace back to harness
-
-problems, not model problems. This talk covers what a harness actually does, why "harness
-
-engineering" suddenly showed up in engineering posts from everyone, and what changes when you stop
-
-building harnesses by hand. In live demos, we'll build the same agent three ways: hand-rolled
-
-Python, framework-generated, and fully managed through a single API call. Each level shifts the
-
-failure modes from infrastructure plumbing to engineering judgment, where the real questions are
-
-what context to preserve, when to verify, and how to keep an agent from finishing half the job and
-
-calling it done. The harness handles the machinery. You still have to engineer the behavior.
+Every agent is a while loop. The model takes strings in and produces strings out. We've all written it, debugged it, shipped it. And yet every team building agents is still re-inventing the same session management, truncation logic, tool wiring, and memory plumbing from scratch. The hard part is the harness: session isolation, context management, memory persistence, sandboxed execution, observability. The machinery that makes a model dependable in production. Most of the failures we see in deployed agents (context rot, premature completion, tool bloat) trace back to harness problems, not model problems. This talk covers what a harness actually does, why "harness engineering" suddenly showed up in engineering posts from everyone, and what changes when you stop building harnesses by hand. In live demos, we'll build the same agent three ways: hand-rolled Python, framework-generated, and fully managed through a single API call. Each level shifts the failure modes from infrastructure plumbing to engineering judgment, where the real questions are what context to preserve, when to verify, and how to keep an agent from finishing half the job and calling it done. The harness handles the machinery. You still have to engineer the behavior.
 
 ## Related YouTube Video
 [Ship it! Building Production Ready Agents — Mike Chambers, AWS](https://www.youtube.com/watch?v=HT4l0DeP69I) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

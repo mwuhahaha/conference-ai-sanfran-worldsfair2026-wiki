@@ -26,21 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Developer Advocacy is dead. Over the last decade Developer Advocates have been a key part of any
-
-devtool company. Coding agents are the customer now. Your ICP is Claude Code, Codex, and a myriad of
-
-other coding agents that are going to evaluating, using, and suggesting tools to their human
-
-counterparts, then implementing them. So what do you do about it? Pivot to "Agent Advocates". This
-
-is a similar role but with the expressed purpose of understanding how Agents experience your product
-
-and using those findings to improve the agent experience. In this talk/workshop I'll share how to
-
-evaluate the agent experience of your product, how to improve it, and how to communicate that to
-
-your team so they can change the products roadmap.
+Developer Advocacy is dead. Over the last decade Developer Advocates have been a key part of any devtool company. Coding agents are the customer now. Your ICP is Claude Code, Codex, and a myriad of other coding agents that are going to evaluating, using, and suggesting tools to their human counterparts, then implementing them. So what do you do about it? Pivot to "Agent Advocates". This is a similar role but with the expressed purpose of understanding how Agents experience your product and using those findings to improve the agent experience. In this talk/workshop I'll share how to evaluate the agent experience of your product, how to improve it, and how to communicate that to your team so they can change the products roadmap.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

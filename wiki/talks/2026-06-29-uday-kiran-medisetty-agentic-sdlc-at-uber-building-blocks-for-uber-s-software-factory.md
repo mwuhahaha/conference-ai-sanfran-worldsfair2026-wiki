@@ -26,25 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-99% of Uber engineers are using AI every month, 70% of PRs are attributed to AI, and 15% of PRs are
-
-now done entirely by autonomous agents. In this session, we go behind the scenes to show you exactly
-
-what it takes to get there — starting with the foundational building blocks: the model gateway, MCP
-
-infrastructure, agent skills, knowledge systems, and cloud developer environments that make agentic
-
-engineering possible at scale. Then, once those foundations are in place, we show you how to
-
-assemble them into a fully agentic SDLC. We'll walk through every stage — from research and spec
-
-writing, to autonomous code generation, to verifying and validating that code before it ships, to
-
-monitoring what happens after it lands, and continuously improving it over time. With tooling
-
-example demos throughout. Whether you're just starting your agentic journey or already running
-
-agents in production, you'll leave with a concrete blueprint for what this looks like end to end.
+99% of Uber engineers are using AI every month, 70% of PRs are attributed to AI, and 15% of PRs are now done entirely by autonomous agents. In this session, we go behind the scenes to show you exactly what it takes to get there — starting with the foundational building blocks: the model gateway, MCP infrastructure, agent skills, knowledge systems, and cloud developer environments that make agentic engineering possible at scale. Then, once those foundations are in place, we show you how to assemble them into a fully agentic SDLC. We'll walk through every stage — from research and spec writing, to autonomous code generation, to verifying and validating that code before it ships, to monitoring what happens after it lands, and continuously improving it over time. With tooling example demos throughout. Whether you're just starting your agentic journey or already running agents in production, you'll leave with a concrete blueprint for what this looks like end to end.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

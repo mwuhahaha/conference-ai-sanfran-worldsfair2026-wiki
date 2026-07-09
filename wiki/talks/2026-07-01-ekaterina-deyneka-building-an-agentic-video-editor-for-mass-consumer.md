@@ -26,29 +26,12 @@ scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most agentic systems today are built for developers — people comfortable setting up environment,
+Most agentic systems today are built for developers — people comfortable setting up environment, configs, and debugging agent loops. But what happens when your user has never heard the word "agent" and just wants a video ready to post? Reelful is an agentic video editor that lives right in the user's phone. It turns raw photos and videos from your camera roll into polished, short videos. No setup. No sophisticated prompting. No empty timeline. Under the hood, the agent orchestrates multiple models and composes a video together. In this talk, I'll walk through:
 
-configs, and debugging agent loops. But what happens when your user has never heard the word "agent"
+- The agentic pipeline architecture: how we chain models across modalities (vision → language → speech → video), handle context passing between steps, and manage state across a multi-minute generation job
+- The UX inversion: how we designed the agent to require minimal effort from user — the system infers intent from the media itself, making complex orchestration invisible
 
-and just wants a video ready to post? Reelful is an agentic video editor that lives right in the
-
-user's phone. It turns raw photos and videos from your camera roll into polished, short videos. No
-
-setup. No sophisticated prompting. No empty timeline. Under the hood, the agent orchestrates
-
-multiple models and composes a video together. In this talk, I'll walk through: * The agentic
-
-pipeline architecture: how we chain models across modalities (vision → language → speech → video),
-
-handle context passing between steps, and manage state across a multi-minute generation job * The UX
-
-inversion: how we designed the agent to require minimal effort from user — the system infers intent
-
-from the media itself, making complex orchestration invisible This talk is for anyone building
-
-agents that need to work for non-technical users, or anyone curious about multimodal agentic
-
-pipelines beyond text and code.
+This talk is for anyone building agents that need to work for non-technical users, or anyone curious about multimodal agentic pipelines beyond text and code.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

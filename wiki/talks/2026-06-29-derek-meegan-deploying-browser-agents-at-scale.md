@@ -26,13 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Not every browser agent trajectory is the same, and treating them like they are is how teams quietly
-
-burn budget on agents that never ship. This talk walks through the two trajectory types behind every
-
-browser agent, the cost/performance/maintainability tradeoffs that decide whether they hold up, and
-
-the concrete patterns for evaluating, hardening, and iterating on them.
+Not every browser agent trajectory is the same, and treating them like they are is how teams quietly burn budget on agents that never ship. This talk walks through the two trajectory types behind every browser agent, the cost/performance/maintainability tradeoffs that decide whether they hold up, and the concrete patterns for evaluating, hardening, and iterating on them.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

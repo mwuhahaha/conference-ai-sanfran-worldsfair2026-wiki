@@ -26,17 +26,7 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Local AI has crossed from interesting to useful, driven by stronger open models, better hardware,
-
-and a maturing ecosystem for running intelligence outside the cloud. This panel explores what that
-
-shift unlocks for sovereignty, defense, regulated industries, privacy, cost, and resilience, and why
-
-open-source AI may be central to who benefits from the next wave of intelligence.  Moderator: Nader
-
-Khalil (NVIDIA). Panelists: Joseph Nelson (Roboflow), Alex Cheema (Exo Labs), Ahmad Osman
-
-(r/LocalLLaMA).
+Local AI has crossed from interesting to useful, driven by stronger open models, better hardware, and a maturing ecosystem for running intelligence outside the cloud. This panel explores what that shift unlocks for sovereignty, defense, regulated industries, privacy, cost, and resilience, and why open-source AI may be central to who benefits from the next wave of intelligence. Moderator: Nader Khalil (NVIDIA). Panelists: Joseph Nelson (Roboflow), Alex Cheema (Exo Labs), Ahmad Osman (r/LocalLLaMA).
 
 ## Related YouTube Video
 [Run Frontier AI at Home — Alex Cheema, EXO Labs](https://www.youtube.com/watch?v=ESbWpPT_9-o) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

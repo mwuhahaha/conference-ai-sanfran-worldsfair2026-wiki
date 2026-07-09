@@ -26,13 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 9", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Getting an agent into production takes more than a good prompt: it needs somewhere to run code,
-
-credentials it can't leak, sessions that survive interruption, and infrastructure that scales. This
-
-talk traces how Anthropic's agentic surfaces evolved from the raw API to Claude Managed Agents, and
-
-what our Applied AI team has learned about harness design along the way.
+Getting an agent into production takes more than a good prompt: it needs somewhere to run code, credentials it can't leak, sessions that survive interruption, and infrastructure that scales. This talk traces how Anthropic's agentic surfaces evolved from the raw API to Claude Managed Agents, and what our Applied AI team has learned about harness design along the way.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

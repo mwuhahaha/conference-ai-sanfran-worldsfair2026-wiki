@@ -26,25 +26,7 @@ scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 1", "session", "conf
 - Status: confirmed
 
 ## Official Description
-The Chief AI Officer (CAIO) is currently the C-Suite’s most "multiversal" role. In a single day, you
-
-must inhabit different realities: you are a Tinker building scalable experiments in bleeding edge
-
-tech, an Architect navigating the hype cycle to execute high-stakes product strategy, and a Coach
-
-guiding a workforce and your customers on meaningful AI adoption - minus the fluff. It is a role
-
-defined by high-speed context switching and the pressure to deliver "Everything, Everywhere, All at
-
-Once." As one of the first Chief AI Officers, and leaning into my experience across Fortune 500,
-
-unicorns starups, and PE backed firms, I share a dynamic 20/60/20 Framework for the modern CAIO.
-
-We’ll explore how to navigate this multi-tool role by treating the organization as an
-
-"Equalizer"—learning when to push the sliders of focus based on your industry’s maturity and where
-
-you are in the AI journey.
+The Chief AI Officer (CAIO) is currently the C-Suite’s most "multiversal" role. In a single day, you must inhabit different realities: you are a Tinker building scalable experiments in bleeding edge tech, an Architect navigating the hype cycle to execute high-stakes product strategy, and a Coach guiding a workforce and your customers on meaningful AI adoption - minus the fluff. It is a role defined by high-speed context switching and the pressure to deliver "Everything, Everywhere, All at Once." As one of the first Chief AI Officers, and leaning into my experience across Fortune 500, unicorns starups, and PE backed firms, I share a dynamic 20/60/20 Framework for the modern CAIO. We’ll explore how to navigate this multi-tool role by treating the organization as an "Equalizer"—learning when to push the sliders of focus based on your industry’s maturity and where you are in the AI journey.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

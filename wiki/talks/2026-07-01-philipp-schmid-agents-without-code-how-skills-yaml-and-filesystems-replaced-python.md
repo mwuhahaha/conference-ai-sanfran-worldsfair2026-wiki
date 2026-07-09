@@ -26,15 +26,7 @@ scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Six months ago, building an agent meant writing a Python class with a `while` loop, tool definitions
-
-in dicts, manual state management or writing custom python functions. Today, you define an agent in
-
-a YAML file, drop a `SKILL.md` into a folder, and deploy. This talk traces the arc from "Agent in
-
-Python" to "Agent as filesystem". You'll learn the same agent built three ways: the hard way (Jan
-
-2025), the simple way (Oct 2025), and the zero-code way (today).
+Six months ago, building an agent meant writing a Python class with a `while` loop, tool definitions in dicts, manual state management or writing custom python functions. Today, you define an agent in a YAML file, drop a `SKILL.md` into a folder, and deploy. This talk traces the arc from "Agent in Python" to "Agent as filesystem". You'll learn the same agent built three ways: the hard way (Jan 2025), the simple way (Oct 2025), and the zero-code way (today).
 
 ## Related YouTube Video
 [Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind](https://www.youtube.com/watch?v=cVzf49yg0D8) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

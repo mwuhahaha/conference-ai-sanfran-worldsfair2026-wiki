@@ -26,35 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Standardizing performance benchmarks for production-grade Large Language Models is currently a
-
-significant challenge across the industry. Conflicting data is prevalent, whether originating from
-
-server developers like vLLM and SGLang or from various analysts and competitive benchmarks, and
-
-these results often fail to hold up under real-world conditions. Our research into these
-
-inconsistencies identified several critical factors, including the constraints of single-process
-
-tools, specifically the Python Global Interpreter Lock (GIL) and the nuances of model-level settings
-
-like temperature. Furthermore, a lack of transparency regarding load generation parameters such as
-
-QPS and concurrency, paired with insufficient observability into the benchmarking clients
-
-themselves, contributes to these disparate outcomes. In this talk, we share key lessons learned from
-
-our benchmarking efforts, examining the primary pitfalls that distort performance data and offering
-
-strategies for mitigation. Additionally, we will introduce Inference Perf, an open-source, multi-
-
-process utility we developed to provide reliable stress-testing for production stacks. Our goal is
-
-to promote standardized, real-world benchmarking practices that allow the community to move beyond
-
-unreliable data. Join us to discover how to accurately measure, optimize, and report LLM performance
-
-with certainty.
+Standardizing performance benchmarks for production-grade Large Language Models is currently a significant challenge across the industry. Conflicting data is prevalent, whether originating from server developers like vLLM and SGLang or from various analysts and competitive benchmarks, and these results often fail to hold up under real-world conditions. Our research into these inconsistencies identified several critical factors, including the constraints of single-process tools, specifically the Python Global Interpreter Lock (GIL) and the nuances of model-level settings like temperature. Furthermore, a lack of transparency regarding load generation parameters such as QPS and concurrency, paired with insufficient observability into the benchmarking clients themselves, contributes to these disparate outcomes. In this talk, we share key lessons learned from our benchmarking efforts, examining the primary pitfalls that distort performance data and offering strategies for mitigation. Additionally, we will introduce Inference Perf, an open-source, multi-process utility we developed to provide reliable stress-testing for production stacks. Our goal is to promote standardized, real-world benchmarking practices that allow the community to move beyond unreliable data. Join us to discover how to accurately measure, optimize, and report LLM performance with certainty.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

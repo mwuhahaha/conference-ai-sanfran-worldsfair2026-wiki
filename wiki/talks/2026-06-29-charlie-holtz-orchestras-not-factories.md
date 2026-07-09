@@ -26,9 +26,7 @@ scheduleLabels: ["Software Factories", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Everything is Conductor now! I want to tell the story of how we came up with the original interface,
-
-what I think everyone (including us) is getting wrong and what's coming next.
+Everything is Conductor now! I want to tell the story of how we came up with the original interface, what I think everyone (including us) is getting wrong and what's coming next.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

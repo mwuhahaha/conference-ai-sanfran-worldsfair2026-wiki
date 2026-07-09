@@ -26,13 +26,7 @@ scheduleLabels: ["Agentic Commerce", "Leadership 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Stripe powers 78% of the Forbes AI 50, giving Stripe index-level visibility into the AI economy. AI
-
-companies are growing faster, selling globally by default, and monetizing earlier. See the data
-
-behind the growth: how AI has collapsed the cost of launching, how the fastest-growing companies are
-
-adapting their pricing, and the role agents are starting to play in commerce.
+Stripe powers 78% of the Forbes AI 50, giving Stripe index-level visibility into the AI economy. AI companies are growing faster, selling globally by default, and monetizing earlier. See the data behind the growth: how AI has collapsed the cost of launching, how the fastest-growing companies are adapting their pricing, and the role agents are starting to play in commerce.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

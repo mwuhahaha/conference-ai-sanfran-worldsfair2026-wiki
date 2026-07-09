@@ -26,21 +26,7 @@ scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confir
 - Status: confirmed
 
 ## Official Description
-We ran 1,000 automated tasks through a production code interpreter sandbox — file I/O, package
-
-installs, data analysis, ML training, binary downloads, multi-language execution — and tracked every
-
-failure. 88% passed. The other 12% revealed 18 distinct failure modes that no unit test would catch:
-
-binary encoding corruption in the transport layer, null bytes silently truncating file downloads,
-
-pip blocked by network isolation with no useful error, and path traversal inputs accepted without
-
-validation. This talk walks through the experiment design, the findings ranked by severity, and what
-
-we changed. If you are building or operating sandboxed execution for AI agents, these are the bugs
-
-waiting for your customers to find first.
+We ran 1,000 automated tasks through a production code interpreter sandbox — file I/O, package installs, data analysis, ML training, binary downloads, multi-language execution — and tracked every failure. 88% passed. The other 12% revealed 18 distinct failure modes that no unit test would catch: binary encoding corruption in the transport layer, null bytes silently truncating file downloads, pip blocked by network isolation with no useful error, and path traversal inputs accepted without validation. This talk walks through the experiment design, the findings ranked by severity, and what we changed. If you are building or operating sandboxed execution for AI agents, these are the bugs waiting for your customers to find first.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

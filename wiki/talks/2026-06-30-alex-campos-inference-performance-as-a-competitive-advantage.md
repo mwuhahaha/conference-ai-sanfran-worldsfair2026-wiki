@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most AI teams focus on model quality, but production success often comes down to inference
-
-performance. In this session, FriendliAI will explore the optimization techniques behind high-
-
-performance LLM serving, including continuous batching, speculative decoding, smart caching, and
-
-efficient GPU utilization.  Learn how leading AI teams reduce infrastructure costs, improve latency,
-
-and scale inference workloads without sacrificing performance. We'll share practical insights and
-
-deployment strategies that separate experimental AI projects from production-grade systems.Whether
-
-you're an ML engineer, platform engineer, MLOps practitioner, or technical founder, you'll leave
-
-with a better understanding of how inference optimization can become a competitive advantage for
-
-your AI applications.
+Most AI teams focus on model quality, but production success often comes down to inference performance. In this session, FriendliAI will explore the optimization techniques behind high-performance LLM serving, including continuous batching, speculative decoding, smart caching, and efficient GPU utilization. Learn how leading AI teams reduce infrastructure costs, improve latency, and scale inference workloads without sacrificing performance. We'll share practical insights and deployment strategies that separate experimental AI projects from production-grade systems.Whether you're an ML engineer, platform engineer, MLOps practitioner, or technical founder, you'll leave with a better understanding of how inference optimization can become a competitive advantage for your AI applications.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

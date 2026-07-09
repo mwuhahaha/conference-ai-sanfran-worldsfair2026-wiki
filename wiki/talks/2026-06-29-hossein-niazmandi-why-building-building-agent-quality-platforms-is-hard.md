@@ -26,13 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-An eval platform is not just a test runner. You are building shared definitions of good, reliable
-
-data pipelines, labeling workflows, versioning, and trust in results across many teams and model
-
-changes. This session breaks down the hidden complexity, the common failure modes, and the design
-
-principles that make evals credible and usable in day-to-day engineering.
+An eval platform is not just a test runner. You are building shared definitions of good, reliable data pipelines, labeling workflows, versioning, and trust in results across many teams and model changes. This session breaks down the hidden complexity, the common failure modes, and the design principles that make evals credible and usable in day-to-day engineering.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

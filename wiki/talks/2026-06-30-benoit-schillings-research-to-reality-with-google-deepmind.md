@@ -26,9 +26,7 @@ scheduleLabels: ["Autoresearch", "Main Stage", "keynote", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-TBD. Expected focus areas include generative AI for code, deep thinking algorithms, and the future
-
-of pre-training and transformer models for Gemini.
+TBD. Expected focus areas include generative AI for code, deep thinking algorithms, and the future of pre-training and transformer models for Gemini.
 
 ## Related YouTube Video
 [Build & deploy AI-powered apps — Paige Bailey, Google DeepMind](https://www.youtube.com/watch?v=G_bHFmEAarM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

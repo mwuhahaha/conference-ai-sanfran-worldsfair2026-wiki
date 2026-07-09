@@ -26,31 +26,7 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-This talk covers how we designed evals for Uber's food enhancement agent—which edits food
-
-photography to better present dishes for smaller, independent Uber Eats merchants—along with the
-
-pitfalls and lessons learned along the way.  The problem is uniquely hard: we must stay faithful to
-
-the original dish, preserve each merchant's brand and packaging, and avoid homogenizing the
-
-marketplace—all without an existing playbook for multimodal evals in a narrow domain. We'll dig into
-
-what we learned navigating reward hacking, where the agent figured out how to game the eval loop,
-
-and how we built a closed feedback loop incorporating offline and online signals for continuous
-
-improvement—all while balancing creativity against rigid safety guardrails at scale.  If you're an
-
-ML or applied AI practitioner working on multimodal systems, agentic pipelines, or eval
-
-design—especially building generative features under tight safety or quality constraints—you'll walk
-
-away with practical strategies for designing multimodal evals in a narrow domain, recognizing and
-
-countering reward hacking, and building offline/online feedback loops that keep a generative agent
-
-improving in production.
+This talk covers how we designed evals for Uber's food enhancement agent—which edits food photography to better present dishes for smaller, independent Uber Eats merchants—along with the pitfalls and lessons learned along the way. The problem is uniquely hard: we must stay faithful to the original dish, preserve each merchant's brand and packaging, and avoid homogenizing the marketplace—all without an existing playbook for multimodal evals in a narrow domain. We'll dig into what we learned navigating reward hacking, where the agent figured out how to game the eval loop, and how we built a closed feedback loop incorporating offline and online signals for continuous improvement—all while balancing creativity against rigid safety guardrails at scale. If you're an ML or applied AI practitioner working on multimodal systems, agentic pipelines, or eval design—especially building generative features under tight safety or quality constraints—you'll walk away with practical strategies for designing multimodal evals in a narrow domain, recognizing and countering reward hacking, and building offline/online feedback loops that keep a generative agent improving in production.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

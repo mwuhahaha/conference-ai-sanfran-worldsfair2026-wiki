@@ -26,15 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-This talk shows the alternative: every agent session in its own microVM, with its own kernel and a
-
-hard boundary to the host. You decide what lives inside that boundary: filesystem, network, the
-
-tools it's allowed to call. The sandbox runs Claude Code, Cursor, Codex, or whatever else you're
-
-driving. You'll see an agent live in full YOLO mode inside a sandbox, a real attempt to escape, and
-
-the boundary that holds up.
+This talk shows the alternative: every agent session in its own microVM, with its own kernel and a hard boundary to the host. You decide what lives inside that boundary: filesystem, network, the tools it's allowed to call. The sandbox runs Claude Code, Cursor, Codex, or whatever else you're driving. You'll see an agent live in full YOLO mode inside a sandbox, a real attempt to escape, and the boundary that holds up.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

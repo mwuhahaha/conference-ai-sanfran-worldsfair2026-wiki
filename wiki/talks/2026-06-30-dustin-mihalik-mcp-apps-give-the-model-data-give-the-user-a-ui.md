@@ -26,25 +26,7 @@ scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most MCP tools return text. MCP Apps let you go further. But the real unlock isn't just rendering a
-
-pretty UI, it’s understanding that the model and the user need fundamentally different things from
-
-the same interaction. This talk presents a design pattern for building great MCP Apps: separate the
-
-data layer (what the model reasons about) from the display layer (what the user interacts with).
-
-When you do this well, the model retains full context and agency over structured data, while the
-
-user gets a rich, interactive interface. We'll walk through concrete examples of how splitting data
-
-and display unlocks capabilities that pure UI apps can't provide: letting the model make choices
-
-around display, answer questions based on interactions, and providing detailed displays and filters.
-
-Attendees will leave with a practical mental model for designing MCP Apps that are good for both the
-
-human and the AI. Attendees will learn patterns they can apply immediately.
+Most MCP tools return text. MCP Apps let you go further. But the real unlock isn't just rendering a pretty UI, it’s understanding that the model and the user need fundamentally different things from the same interaction. This talk presents a design pattern for building great MCP Apps: separate the data layer (what the model reasons about) from the display layer (what the user interacts with). When you do this well, the model retains full context and agency over structured data, while the user gets a rich, interactive interface. We'll walk through concrete examples of how splitting data and display unlocks capabilities that pure UI apps can't provide: letting the model make choices around display, answer questions based on interactions, and providing detailed displays and filters. Attendees will leave with a practical mental model for designing MCP Apps that are good for both the human and the AI. Attendees will learn patterns they can apply immediately.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

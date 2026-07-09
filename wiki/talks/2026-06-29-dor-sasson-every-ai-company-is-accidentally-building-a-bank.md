@@ -26,9 +26,7 @@ scheduleLabels: ["Expo Stage NE", "Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-You're logging usage, billing later, hoping agents behave. They don't. Here's the architecture that
-
-fixes it before the invoice hits.
+You're logging usage, billing later, hoping agents behave. They don't. Here's the architecture that fixes it before the invoice hits.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

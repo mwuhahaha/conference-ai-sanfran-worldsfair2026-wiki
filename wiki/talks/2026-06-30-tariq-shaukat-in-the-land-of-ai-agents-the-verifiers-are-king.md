@@ -35,21 +35,7 @@ The session sits in the World's Fair 2026 Software Factories track, where coding
 - Status: confirmed
 
 ## Official Description
-As AI agents take on increasingly complex development tasks, the critical challenge has shifted from
-
-generation to verification. Hallucination is not a temporary bug. Evidence suggests that as models
-
-grow more capable, failures become more frequent and more convincing, making cognitive surrender
-
-among human reviewers an acute risk. This talk introduces a three-stage discipline for responsible
-
-agentic development, Guide, Verify, Solve, and argues that rigorous verification infrastructure is
-
-both a safety requirement and a competitive advantage. Counterintuitively, code quality matters more
-
-in an agentic world: clean, low-complexity codebases make agents faster, cheaper, and more reliable,
-
-while technical debt compounds at machine speed.
+As AI agents take on increasingly complex development tasks, the critical challenge has shifted from generation to verification. Hallucination is not a temporary bug. Evidence suggests that as models grow more capable, failures become more frequent and more convincing, making cognitive surrender among human reviewers an acute risk. This talk introduces a three-stage discipline for responsible agentic development, Guide, Verify, Solve, and argues that rigorous verification infrastructure is both a safety requirement and a competitive advantage. Counterintuitively, code quality matters more in an agentic world: clean, low-complexity codebases make agents faster, cheaper, and more reliable, while technical debt compounds at machine speed.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

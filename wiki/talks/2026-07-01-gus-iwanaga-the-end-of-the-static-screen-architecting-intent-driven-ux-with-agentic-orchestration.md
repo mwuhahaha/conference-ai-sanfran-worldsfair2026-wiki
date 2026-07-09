@@ -26,19 +26,7 @@ scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-For 30 years, interfaces were designed ahead: wireframes, fixed flows, pre-built dashboards -
-
-because we couldn't make them otherwise. Three shifts changed the constraint: LLMs that reason over
-
-business context, agentic frameworks that work at production grade, and composable backends that
-
-expose a real tool surface. With all three in place, the interface stops being something you design
-
-and ships as the output of an orchestrator composing it per intent. I'll walk through the
-
-hypothesis, the architecture we're running in production for enterprise commerce, and a live demo
-
-where it all moves.
+For 30 years, interfaces were designed ahead: wireframes, fixed flows, pre-built dashboards - because we couldn't make them otherwise. Three shifts changed the constraint: LLMs that reason over business context, agentic frameworks that work at production grade, and composable backends that expose a real tool surface. With all three in place, the interface stops being something you design and ships as the output of an orchestrator composing it per intent. I'll walk through the hypothesis, the architecture we're running in production for enterprise commerce, and a live demo where it all moves.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

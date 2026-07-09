@@ -26,11 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 9", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Join us for a hands-on Langfuse workshop where we'll show you how to observe, debug, and improve
-
-your AI applications, step by step, using a real sample app. Bring your questions and discover how
-
-Langfuse can level up your specific use cases!
+Join us for a hands-on Langfuse workshop where we'll show you how to observe, debug, and improve your AI applications, step by step, using a real sample app. Bring your questions and discover how Langfuse can level up your specific use cases!
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

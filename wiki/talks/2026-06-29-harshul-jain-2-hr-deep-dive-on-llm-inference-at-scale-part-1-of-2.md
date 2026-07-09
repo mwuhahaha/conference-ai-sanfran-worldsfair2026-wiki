@@ -26,23 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 3", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most engineers using LLMs can call an API. Far fewer can explain why their model is slow, why it's
-
-running out of memory, or how the inference engines powering every major LLM API actually work. This
-
-workshop walks through the full inference stack — from how a transformer generates a single token to
-
-serving billions of tokens a day with vLLM, SGLang, TensorRT-LLM, Ray, and KServe/llm-d. 60%
-
-explanation with live demos, 40% hands-on exercises. Attendees leave with a running vLLM server they
-
-benchmarked themselves. Based on the open-source practitioners handbook being built live at
-
-github.com/harshuljain13/llm-inference-at-scale  (NOTE: this is a 2 hour workshop that happens over
-
-lunch break - you should try to have lunch before or after if attending)  compute kindly sponsored
-
-by Coreweave/Marimo!
+Most engineers using LLMs can call an API. Far fewer can explain why their model is slow, why it's running out of memory, or how the inference engines powering every major LLM API actually work. This workshop walks through the full inference stack — from how a transformer generates a single token to serving billions of tokens a day with vLLM, SGLang, TensorRT-LLM, Ray, and KServe/llm-d. 60% explanation with live demos, 40% hands-on exercises. Attendees leave with a running vLLM server they benchmarked themselves. Based on the open-source practitioners handbook being built live at github.com/harshuljain13/llm-inference-at-scale (NOTE: this is a 2 hour workshop that happens over lunch break - you should try to have lunch before or after if attending) compute kindly sponsored by Coreweave/Marimo!
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

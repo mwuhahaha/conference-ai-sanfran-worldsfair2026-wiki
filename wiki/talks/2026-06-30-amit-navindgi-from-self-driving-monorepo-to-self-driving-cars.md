@@ -26,19 +26,7 @@ scheduleLabels: ["Robotics & World Models", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI coding agents promise massive productivity gains, but realizing that promise at scale requires
-
-more than just tools. In this talk, I’ll share how we approach AI adoption at Zoox, including: -
-
-Designing a monorepo-friendly ecosystem of agents, tools, and workflows - Driving adoption through
-
-enablement, hackathons, and internal platforms - Defining and tracking meaningful productivity
-
-metrics beyond hype - Managing token spend and aligning it with business outcomes - Structuring
-
-Skills, CLIs, MCPs, and Plugins to scale across teams The goal is simple: turn AI from an experiment
-
-into a reliable, measurable, and scalable engineering capability.
+AI coding agents promise massive productivity gains, but realizing that promise at scale requires more than just tools. In this talk, I’ll share how we approach AI adoption at Zoox, including: - Designing a monorepo-friendly ecosystem of agents, tools, and workflows - Driving adoption through enablement, hackathons, and internal platforms - Defining and tracking meaningful productivity metrics beyond hype - Managing token spend and aligning it with business outcomes - Structuring Skills, CLIs, MCPs, and Plugins to scale across teams The goal is simple: turn AI from an experiment into a reliable, measurable, and scalable engineering capability.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

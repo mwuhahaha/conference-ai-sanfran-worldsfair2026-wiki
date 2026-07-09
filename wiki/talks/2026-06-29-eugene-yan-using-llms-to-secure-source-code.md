@@ -26,13 +26,7 @@ scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Models are now finding and fixing real vulnerabilities at scale. Drawing on Anthropic's work with
-
-security teams, this talk walks a six-step workflow — threat model, sandbox, discover, verify,
-
-triage, patch — through one running example, shows where orgs actually bottleneck, and gives you a
-
-copy-paste path to your first scan.
+Models are now finding and fixing real vulnerabilities at scale. Drawing on Anthropic's work with security teams, this talk walks a six-step workflow — threat model, sandbox, discover, verify, triage, patch — through one running example, shows where orgs actually bottleneck, and gives you a copy-paste path to your first scan.
 
 ## Related YouTube Video
 [Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon](https://www.youtube.com/watch?v=2vlCqD6igVA) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

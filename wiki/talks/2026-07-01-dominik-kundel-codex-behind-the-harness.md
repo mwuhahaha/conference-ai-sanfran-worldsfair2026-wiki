@@ -26,19 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents have evolved a lot in the last year both in capabilities and in the overall structure.
-
-Increasingly sandbox-powered coding agents are breaking out to do general purpose work.  In this
-
-talk we’ll be taking apart the open-source Codex agent harness. Understand how it works, what makes
-
-it so suitable to do work beyond coding tasks, how it handles key aspects like context management,
-
-tools and file system access. We’ll also tie these back to concrete actions you can take to bring
-
-these patterns into your own agents, whether you are building on top of the Codex agent or building
-
-your own.
+Agents have evolved a lot in the last year both in capabilities and in the overall structure. Increasingly sandbox-powered coding agents are breaking out to do general purpose work. In this talk we’ll be taking apart the open-source Codex agent harness. Understand how it works, what makes it so suitable to do work beyond coding tasks, how it handles key aspects like context management, tools and file system access. We’ll also tie these back to concrete actions you can take to bring these patterns into your own agents, whether you are building on top of the Codex agent or building your own.
 
 ## Related YouTube Video
 [Building voice agents with OpenAI — Dominik Kundel, OpenAI](https://www.youtube.com/watch?v=iXhba366fQc) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

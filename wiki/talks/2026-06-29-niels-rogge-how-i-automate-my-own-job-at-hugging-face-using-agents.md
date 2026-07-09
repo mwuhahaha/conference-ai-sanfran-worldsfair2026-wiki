@@ -26,15 +26,7 @@ scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "
 - Status: confirmed
 
 ## Official Description
-This talk will showcase how I automated a large part of my own job at Hugging Face. This involves
-
-both open (GLM-5.1) and closed-source models (Claude, Gemini), the Claude Agents SDK, serverless
-
-infra like Modal and Hugging Face Jobs. I will also discuss how I use agentic coding tools like
-
-Cursor and Codex to implement AI agents which automate my job, and how everything is connected to
-
-the internal Slack of Hugging Face.
+This talk will showcase how I automated a large part of my own job at Hugging Face. This involves both open (GLM-5.1) and closed-source models (Claude, Gemini), the Claude Agents SDK, serverless infra like Modal and Hugging Face Jobs. I will also discuss how I use agentic coding tools like Cursor and Codex to implement AI agents which automate my job, and how everything is connected to the internal Slack of Hugging Face.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

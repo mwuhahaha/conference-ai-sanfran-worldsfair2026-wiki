@@ -26,11 +26,7 @@ scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Discussing recent breakthroughs in realtime generative video models, and the new architectural
-
-problems and bottlenecks involved in creating immersive, interactive experiences on top of these
-
-models.
+Discussing recent breakthroughs in realtime generative video models, and the new architectural problems and bottlenecks involved in creating immersive, interactive experiences on top of these models.
 
 ## Related YouTube Video
 [Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI](https://www.youtube.com/watch?v=EY4O9M6AsWI) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

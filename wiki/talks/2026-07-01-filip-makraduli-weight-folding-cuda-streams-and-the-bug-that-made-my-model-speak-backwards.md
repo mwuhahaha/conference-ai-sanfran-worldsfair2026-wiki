@@ -26,13 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-A talk about contributing GPU benchmarks to an open-source research paper (FlashNorm). I'll walk
-
-through the engineering journey: folding norm weights into projections, writing Triton kernels,
-
-accidentally making attention bidirectional (oops), and ultimately proving a 33-35% speedup on the
-
-norm+project operation. Practical lessons for anyone trying to optimize transformer inference.
+A talk about contributing GPU benchmarks to an open-source research paper (FlashNorm). I'll walk through the engineering journey: folding norm weights into projections, writing Triton kernels, accidentally making attention bidirectional (oops), and ultimately proving a 33-35% speedup on the norm+project operation. Practical lessons for anyone trying to optimize transformer inference.
 
 ## Related YouTube Video
 [The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked](https://www.youtube.com/watch?v=qdh_x-uRs9g) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

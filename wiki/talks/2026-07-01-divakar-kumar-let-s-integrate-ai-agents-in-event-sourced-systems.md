@@ -26,37 +26,7 @@ scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Fraud detection has always been a race against time. In traditional event-sourced systems, every
-
-transaction, login, or transfer is captured as a sequence of immutable events. These events tell a
-
-clear story — but only after the fact. What if events could do more than just record history? What
-
-if they could talk back? In this talk, we’ll explore how agentic event-driven systems transform
-
-fraud detection. Imagine every PaymentInitiated, LoginAttempt, or DeviceChanged event not just being
-
-logged, but immediately consumed by an autonomous Fraud Detection Agent. This agent correlates
-
-events across accounts, reasons over historical event streams, and generates new events like
-
-SuspiciousActivityFlagged or TransactionHeldForReview. Through a real-world inspired use case in
-
-banking and digital payments, we’ll show: - How event sourcing provides the perfect memory layer for
-
-fraud detection agents - Patterns for agents to safely inject new domain events without violating
-
-invariants - How to avoid runaway feedback loops when multiple agents interact (e.g., fraud +
-
-compliance + customer service agents) - Governance, auditing, and explainability challenges when
-
-autonomous agents take part in mission-critical workflows By the end of this session, you’ll see how
-
-event-driven DDD systems evolve when agents stop being passive consumers and start actively shaping
-
-the event stream — turning fraud detection from a reactive process into a proactive, adaptive
-
-defense.
+Fraud detection has always been a race against time. In traditional event-sourced systems, every transaction, login, or transfer is captured as a sequence of immutable events. These events tell a clear story — but only after the fact. What if events could do more than just record history? What if they could talk back? In this talk, we’ll explore how agentic event-driven systems transform fraud detection. Imagine every PaymentInitiated, LoginAttempt, or DeviceChanged event not just being logged, but immediately consumed by an autonomous Fraud Detection Agent. This agent correlates events across accounts, reasons over historical event streams, and generates new events like SuspiciousActivityFlagged or TransactionHeldForReview. Through a real-world inspired use case in banking and digital payments, we’ll show: - How event sourcing provides the perfect memory layer for fraud detection agents - Patterns for agents to safely inject new domain events without violating invariants - How to avoid runaway feedback loops when multiple agents interact (e.g., fraud + compliance + customer service agents) - Governance, auditing, and explainability challenges when autonomous agents take part in mission-critical workflows By the end of this session, you’ll see how event-driven DDD systems evolve when agents stop being passive consumers and start actively shaping the event stream — turning fraud detection from a reactive process into a proactive, adaptive defense.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

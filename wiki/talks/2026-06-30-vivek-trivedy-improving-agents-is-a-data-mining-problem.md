@@ -26,29 +26,7 @@ scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed
 - Status: confirmed
 
 ## Official Description
-Harness Engineering, Post-Training, Continual Learning...these all boil down to the same underlying
-
-substrate - Mining Agent Traces 1. I need to run my agents to collect Traces 2. Understand behaviors
-
-from Traces at scale 3. Filter data for "improvement" 4. Do an improvement step There's a reason why
-
-every continual learning platform ends up looking like an observability platform. It's because
-
-Traces are the lifeblood of agent improvement. The mechanism that we use to attempt improvement can
-
-vary - Harness Eng, SFT, etc. But without understanding the data agents produce, no algorithm will
-
-truly build better agents. The holy grail of Agent Improvement is Continual Learning. Consistently
-
-mining data and integrating it into the agent definition over infinitely long time horizons. Today,
-
-the easiest way to do that is to build an observability platform and constantly point agentic
-
-compute to understand the data that agents produce. We'll walk through the current methods of
-
-understanding traces at massive scale and choosing how to integrate them to improve agents across
-
-your personal agents, team agents, and entire company.
+Harness Engineering, Post-Training, Continual Learning...these all boil down to the same underlying substrate - Mining Agent Traces 1. I need to run my agents to collect Traces 2. Understand behaviors from Traces at scale 3. Filter data for "improvement" 4. Do an improvement step There's a reason why every continual learning platform ends up looking like an observability platform. It's because Traces are the lifeblood of agent improvement. The mechanism that we use to attempt improvement can vary - Harness Eng, SFT, etc. But without understanding the data agents produce, no algorithm will truly build better agents. The holy grail of Agent Improvement is Continual Learning. Consistently mining data and integrating it into the agent definition over infinitely long time horizons. Today, the easiest way to do that is to build an observability platform and constantly point agentic compute to understand the data that agents produce. We'll walk through the current methods of understanding traces at massive scale and choosing how to integrate them to improve agents across your personal agents, team agents, and entire company.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

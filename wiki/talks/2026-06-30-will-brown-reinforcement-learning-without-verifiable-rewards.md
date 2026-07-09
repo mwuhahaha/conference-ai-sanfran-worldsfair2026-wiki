@@ -26,15 +26,7 @@ scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-Verifiable rewards are the gold standard for RL training, but real-world agent tasks frequently lack
-
-clean deterministic evaluation objectives. This talk surveys our efforts to scale RL in non-
-
-verifiable settings -- including task synthesis, unsupervised environment design, and automatic
-
-judge calibration -- to ultimately enable self-improvement in production, grounded in real-world
-
-agent traces and domain-specific context.
+Verifiable rewards are the gold standard for RL training, but real-world agent tasks frequently lack clean deterministic evaluation objectives. This talk surveys our efforts to scale RL in non-verifiable settings -- including task synthesis, unsupervised environment design, and automatic judge calibration -- to ultimately enable self-improvement in production, grounded in real-world agent traces and domain-specific context.
 
 ## Related YouTube Video
 [Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley](https://www.youtube.com/watch?v=JIsgyk0Paic) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

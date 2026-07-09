@@ -26,13 +26,7 @@ scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Learn how Krea trained its first image foundation model from scratch. I will discuss 1. Our training
-
-and data pipelines 2. What are the most important aspects of improving model performance 3. How we
-
-intend to train the next generation of image generation models.  Check out our technical report for
-
-details: https://www.krea.ai/blog/krea-2-technical-report
+Learn how Krea trained its first image foundation model from scratch. I will discuss 1. Our training and data pipelines 2. What are the most important aspects of improving model performance 3. How we intend to train the next generation of image generation models. Check out our technical report for details: https://www.krea.ai/blog/krea-2-technical-report
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

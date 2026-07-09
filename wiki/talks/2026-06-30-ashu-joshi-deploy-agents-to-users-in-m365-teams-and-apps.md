@@ -26,9 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents deliver value when users can access them. Learn how to integrate and deploy agent systems
-
-into M365, Teams, and application workflows.
+Agents deliver value when users can access them. Learn how to integrate and deploy agent systems into M365, Teams, and application workflows.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

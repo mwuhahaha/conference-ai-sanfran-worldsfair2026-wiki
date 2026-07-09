@@ -26,25 +26,7 @@ scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Legora’s foundational engineering challenge is connecting frontier LLMs to billions of legal
-
-documents so the models can efficiently solve end-to-end legal workflows without burning extra
-
-tokens. We’ll share the retrieval architecture we built with turbopuffer that achieves: 1. Strict
-
-data isolation across millions of legal cases in a very security-conscious domain 2. Predictable
-
-search performance (<100ms p90 latency) on large contexts 3. High retrieval quality (95%+ recall@10)
-
-with fewer agent loops We’ll retrospect on two architectures that failed to achieve all 3 (and why),
-
-and the key design factors that make the current solution work at our scale. Practical takeaways
-
-include: - How to evaluate per-tenant vs shared-index retrieval under strict data isolation - How to
-
-efficiently index and retrieve context to maximize relevance per input token - How to build a highly
-
-intelligent AI application when your inference budget is constrained
+Legora’s foundational engineering challenge is connecting frontier LLMs to billions of legal documents so the models can efficiently solve end-to-end legal workflows without burning extra tokens. We’ll share the retrieval architecture we built with turbopuffer that achieves: 1. Strict data isolation across millions of legal cases in a very security-conscious domain 2. Predictable search performance (<100ms p90 latency) on large contexts 3. High retrieval quality (95%+ recall@10) with fewer agent loops We’ll retrospect on two architectures that failed to achieve all 3 (and why), and the key design factors that make the current solution work at our scale. Practical takeaways include: - How to evaluate per-tenant vs shared-index retrieval under strict data isolation - How to efficiently index and retrieve context to maximize relevance per input token - How to build a highly intelligent AI application when your inference budget is constrained
 
 ## Related YouTube Video
 [Agents need more than a chat - Jacob Lauritzen, CTO Legora](https://www.youtube.com/watch?v=XNtkiQJ49Ps) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

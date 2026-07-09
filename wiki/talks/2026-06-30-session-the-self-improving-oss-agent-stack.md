@@ -26,13 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents are starting to debug and improve themselves: production traces become evals, evals propose
-
-PRs, and PRs are tested against datasets before they ship. Langfuse co-founder, Marc, will live-demo
-
-this loop in Langfuse. He'll make the case that the infrastructure underlying this powerful loop
-
-should be open-source.
+Agents are starting to debug and improve themselves: production traces become evals, evals propose PRs, and PRs are tested against datasets before they ship. Langfuse co-founder, Marc, will live-demo this loop in Langfuse. He'll make the case that the infrastructure underlying this powerful loop should be open-source.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

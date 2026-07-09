@@ -26,15 +26,7 @@ scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-With the boom of vision language models barrier of entry to build vision apps are much lower so
-
-developers tend to use them right away. However, these models are very large and inefficient in
-
-production. In this talk, I will go through combining vision language models with Skills to build
-
-end-to-end vision apps from training to deployment using HF Skills, on top of showing the state-of-
-
-the-art in small computer vision/multimodal models.
+With the boom of vision language models barrier of entry to build vision apps are much lower so developers tend to use them right away. However, these models are very large and inefficient in production. In this talk, I will go through combining vision language models with Skills to build end-to-end vision apps from training to deployment using HF Skills, on top of showing the state-of-the-art in small computer vision/multimodal models.
 
 ## Related YouTube Video
 [Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face](https://www.youtube.com/watch?v=OV56RddyFuU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

@@ -26,13 +26,7 @@ scheduleLabels: ["CTO Circle", "Leadership Lounge", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-*Facilitated, peer-to-peer, under the Chatham House Rule — not recorded.*  As AI agents become
-
-embedded in day-to-day work, organizations will need to rethink product development teams, roles,
-
-and skills. This foundational shift reshapes management layers and requires overcoming challenges
-
-across talent attraction, development, and retention.
+*Facilitated, peer-to-peer, under the Chatham House Rule — not recorded.* As AI agents become embedded in day-to-day work, organizations will need to rethink product development teams, roles, and skills. This foundational shift reshapes management layers and requires overcoming challenges across talent attraction, development, and retention.
 
 ## Related YouTube Video
 [Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company](https://www.youtube.com/watch?v=SZStlIhyTCY) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

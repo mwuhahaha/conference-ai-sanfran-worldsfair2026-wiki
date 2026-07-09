@@ -26,13 +26,7 @@ scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-RLHF was a massive commercial success: roughly 100% of LLM usage is through RLHF’d models - but it
-
-was in many ways also a research failure. Let’s talk about how it conquered the world, how it defied
-
-its creators expectations, why AI is in the bimodal state it’s in (is it a bubble or a machine
-
-god?), and how to make AI actually transform the economy.
+RLHF was a massive commercial success: roughly 100% of LLM usage is through RLHF’d models - but it was in many ways also a research failure. Let’s talk about how it conquered the world, how it defied its creators expectations, why AI is in the bimodal state it’s in (is it a bubble or a machine god?), and how to make AI actually transform the economy.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

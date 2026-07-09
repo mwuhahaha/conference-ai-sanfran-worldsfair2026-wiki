@@ -26,29 +26,7 @@ scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-A dangerous pattern is evolving in the ecosystem: developers are deploying "Build-Time" tools into
-
-"Run-Time" environments. In this session, we will introduce a critical distinction for the MCP
-
-ecosystem: the difference between Build-Time Agents (Developer Assistants like Gemini Code Assist)
-
-and Run-Time Agents (End-user applications like a Customer Support bot). Drawing from our experience
-
-building the MCP Toolbox, we will demonstrate why the "Atomic" tools that make Build-Time agents
-
-powerful become catastrophic liabilities for Run-Time agents. We will provide a framework for
-
-transitioning your architecture across three key axes: Design: Moving from flexible, atomic
-
-primitives to "Composite Workflows" that encapsulate business logic. Security: Shifting from
-
-"Developer Identity" (trusted) to "Workload Identity" (zero-trust), where the agent is treated as an
-
-untrusted user. Reliability: Why production agents need "Agent-Readable" errors (natural language
-
-guidance) rather than the stack traces that developers rely on. Attendees will leave with a clear
-
-rubric for evaluating whether their tools are truly "Production Ready" or just "Prototype Ready."
+A dangerous pattern is evolving in the ecosystem: developers are deploying "Build-Time" tools into "Run-Time" environments. In this session, we will introduce a critical distinction for the MCP ecosystem: the difference between Build-Time Agents (Developer Assistants like Gemini Code Assist) and Run-Time Agents (End-user applications like a Customer Support bot). Drawing from our experience building the MCP Toolbox, we will demonstrate why the "Atomic" tools that make Build-Time agents powerful become catastrophic liabilities for Run-Time agents. We will provide a framework for transitioning your architecture across three key axes: Design: Moving from flexible, atomic primitives to "Composite Workflows" that encapsulate business logic. Security: Shifting from "Developer Identity" (trusted) to "Workload Identity" (zero-trust), where the agent is treated as an untrusted user. Reliability: Why production agents need "Agent-Readable" errors (natural language guidance) rather than the stack traces that developers rely on. Attendees will leave with a clear rubric for evaluating whether their tools are truly "Production Ready" or just "Prototype Ready."
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

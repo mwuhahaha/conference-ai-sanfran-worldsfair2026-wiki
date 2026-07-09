@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Evals let you replace gut feelings with quantifiable decisions. This talk breaks the basic concepts
-
-of evals, including the four core components: datasets, tasks, scoring, and experiments. Then, to
-
-solidify the concept, we’ll walk through a real eval comparing agentic search versus vector search
-
-for coding agents. We'll also cover practical challenges like tracing Claude Code subprocess calls
-
-and why a single eval run is never enough. You'll leave with a concrete framework for building evals
-
-that actually inform your ship decisions.
+Evals let you replace gut feelings with quantifiable decisions. This talk breaks the basic concepts of evals, including the four core components: datasets, tasks, scoring, and experiments. Then, to solidify the concept, we’ll walk through a real eval comparing agentic search versus vector search for coding agents. We'll also cover practical challenges like tracing Claude Code subprocess calls and why a single eval run is never enough. You'll leave with a concrete framework for building evals that actually inform your ship decisions.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

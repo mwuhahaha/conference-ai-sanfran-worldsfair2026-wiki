@@ -26,25 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Physical AI had its “Attention Is All You Need” moment with the rise of Vision-Language-Action
-
-models. The next bottleneck is data: not just more video, but the ability to find the exact real-
-
-world moments that teach models how the world works: gravity, motion, causality, human behavior, and
-
-object interactions.    This session explores a new approach: discovering specific scenes from the
-
-vastness of the web. We’ll show how teams can search for moments like objects falling, people
-
-interacting with environments, or actions unfolding over time, then collect and structure only the
-
-relevant clips for training and evaluation.   Attendees will learn how scene-level discovery changes
-
-multimodal data pipelines, reducing wasted collection, processing, storage, and review, while making
-
-it easier to build targeted datasets for VLA systems, robotics, physical AI, and agentic world
-
-models.
+Physical AI had its “Attention Is All You Need” moment with the rise of Vision-Language-Action models. The next bottleneck is data: not just more video, but the ability to find the exact real-world moments that teach models how the world works: gravity, motion, causality, human behavior, and object interactions. This session explores a new approach: discovering specific scenes from the vastness of the web. We’ll show how teams can search for moments like objects falling, people interacting with environments, or actions unfolding over time, then collect and structure only the relevant clips for training and evaluation. Attendees will learn how scene-level discovery changes multimodal data pipelines, reducing wasted collection, processing, storage, and review, while making it easier to build targeted datasets for VLA systems, robotics, physical AI, and agentic world models.
 
 ## Related YouTube Video
 [From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data](https://www.youtube.com/watch?v=zTZ0qunQXnM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

@@ -26,25 +26,7 @@ scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most of the AI world is still thinking too small. We’re building SaaS wrappers and GTM agents while
-
-real-world systems are still run through fragmented knowledge, delayed feedback, and human
-
-guesswork. In this talk, I’ll show how I’m building an outdoor agentic system for pasture-raised
-
-livestock operations using LLMs, a Firecrawl-curated knowledge base, drone and satellite imagery,
-
-and geo collars to monitor pasture, guide animal movement, and support better decisions across
-
-cattle, sheep, poultry, and more. I’ll cover the architecture, retrieval and grounding, human
-
-approval loops, and what broke first: hallucinated confidence, weak environmental grounding, sparse
-
-evals, and the gap between a smart answer and a safe action. It’s a case study in building agents
-
-for the physical world, and a broader argument that AI’s real upside is in rethinking real-world
-
-systems from first principles.
+Most of the AI world is still thinking too small. We’re building SaaS wrappers and GTM agents while real-world systems are still run through fragmented knowledge, delayed feedback, and human guesswork. In this talk, I’ll show how I’m building an outdoor agentic system for pasture-raised livestock operations using LLMs, a Firecrawl-curated knowledge base, drone and satellite imagery, and geo collars to monitor pasture, guide animal movement, and support better decisions across cattle, sheep, poultry, and more. I’ll cover the architecture, retrieval and grounding, human approval loops, and what broke first: hallucinated confidence, weak environmental grounding, sparse evals, and the gap between a smart answer and a safe action. It’s a case study in building agents for the physical world, and a broader argument that AI’s real upside is in rethinking real-world systems from first principles.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

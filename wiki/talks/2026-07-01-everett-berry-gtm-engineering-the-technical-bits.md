@@ -26,15 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Everyone talks about "GTM engineering" — Everett Berry shows the actual plumbing. As Head of GTM
-
-Engineering at Clay, he goes under the hood on the technical bits most talks skip: enrichment
-
-pipelines, agent-driven data classification, identity resolution, and the systems that turn
-
-unstructured web data into clean, deterministic CRM fields. A builder's-eye view of what GTM
-
-engineering actually is once you strip away the buzzwords.
+Everyone talks about "GTM engineering" — Everett Berry shows the actual plumbing. As Head of GTM Engineering at Clay, he goes under the hood on the technical bits most talks skip: enrichment pipelines, agent-driven data classification, identity resolution, and the systems that turn unstructured web data into clean, deterministic CRM fields. A builder's-eye view of what GTM engineering actually is once you strip away the buzzwords.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,35 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Production agent systems need humans in the loop. So why do they keep getting modeled as synchronous
-
-tool calls? The agent ecosystem is focused on autonomy, but in reality, especially for high-stakes
-
-or regulated workflows, humans are a critical feature, not an afterthought. This demo-driven talk
-
-shows how to stop bolting on humans and start treating them as async-by-default endpoints with
-
-proper durability, retry, and escalation semantics. We will walk through two live, multi-agent
-
-patterns built with LangGraph and Google ADK, on Temporal for durable execution: The Agent Calls the
-
-Human. A fleet dispatch system escalates a disruption to an approver. We will intentionally kill the
-
-worker process mid-wait. Hours later, the human responds. State survives, and the agent resumes. The
-
-Human Calls the Agent. An operator interrupts a long-running task mid-flight to redirect it. The
-
-agent halts gracefully, surfaces state, accepts the override, and continues. Harness engineering has
-
-heavily focused on model autonomy. This talk is about the other half of the puzzle: the human. You
-
-will leave with two production-ready architectural designs you can apply this week: agent-initiated
-
-approval gates with timeout and escalation semantics, and human-initiated interrupts with graceful
-
-agent halt and resumption. Not every agent needs a human in the loop. But if you are building
-
-systems where the cost of being wrong exceeds the cost of being slow, this talk is for you.
+Production agent systems need humans in the loop. So why do they keep getting modeled as synchronous tool calls? The agent ecosystem is focused on autonomy, but in reality, especially for high-stakes or regulated workflows, humans are a critical feature, not an afterthought. This demo-driven talk shows how to stop bolting on humans and start treating them as async-by-default endpoints with proper durability, retry, and escalation semantics. We will walk through two live, multi-agent patterns built with LangGraph and Google ADK, on Temporal for durable execution: The Agent Calls the Human. A fleet dispatch system escalates a disruption to an approver. We will intentionally kill the worker process mid-wait. Hours later, the human responds. State survives, and the agent resumes. The Human Calls the Agent. An operator interrupts a long-running task mid-flight to redirect it. The agent halts gracefully, surfaces state, accepts the override, and continues. Harness engineering has heavily focused on model autonomy. This talk is about the other half of the puzzle: the human. You will leave with two production-ready architectural designs you can apply this week: agent-initiated approval gates with timeout and escalation semantics, and human-initiated interrupts with graceful agent halt and resumption. Not every agent needs a human in the loop. But if you are building systems where the cost of being wrong exceeds the cost of being slow, this talk is for you.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

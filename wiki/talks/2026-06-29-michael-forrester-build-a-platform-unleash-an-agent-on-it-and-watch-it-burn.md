@@ -26,25 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-You get a Kubernetes cluster with an Internal Developer Platform already running: ArgoCD for GitOps,
-
-Kyverno for admission control, Falco for runtime detection, Prometheus for observability. Everything
-
-is instrumented. Everything is enforced. You also get an AI agent with cluster access. Your job is
-
-to get the agent to break something. Deploy a non-compliant workload. Escalate privileges. Modify
-
-infrastructure outside Git. Exfiltrate data through an agent response. Some of you will fail because
-
-the governance stack catches it. Some of you will succeed because it doesn't. Afterward we regroup
-
-and map what got blocked, what slipped through, and why. The 80% that existing CNCF tools already
-
-govern becomes obvious. The 20% gap where agent-specific tooling is missing becomes undeniable. You
-
-leave with a concrete governance map and the exact list of failure modes your own platform probably
-
-isn't covering yet.
+You get a Kubernetes cluster with an Internal Developer Platform already running: ArgoCD for GitOps, Kyverno for admission control, Falco for runtime detection, Prometheus for observability. Everything is instrumented. Everything is enforced. You also get an AI agent with cluster access. Your job is to get the agent to break something. Deploy a non-compliant workload. Escalate privileges. Modify infrastructure outside Git. Exfiltrate data through an agent response. Some of you will fail because the governance stack catches it. Some of you will succeed because it doesn't. Afterward we regroup and map what got blocked, what slipped through, and why. The 80% that existing CNCF tools already govern becomes obvious. The 20% gap where agent-specific tooling is missing becomes undeniable. You leave with a concrete governance map and the exact list of failure modes your own platform probably isn't covering yet.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

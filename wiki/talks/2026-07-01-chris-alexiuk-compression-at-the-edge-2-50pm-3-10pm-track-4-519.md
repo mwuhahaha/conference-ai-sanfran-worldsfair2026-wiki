@@ -26,17 +26,7 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Compression at the Edge examines how smaller weights, faster inference, and constrained-memory
-
-deployments are making capable local AI more practical. The panel explores where compressed models
-
-already beat cloud on latency, privacy, cost, or control, what breakthroughs would unlock broader
-
-adoption, and how open model tooling is shaping the edge AI stack.  Moderator: Chris Alexiuk
-
-(NVIDIA). Panelists: Daniel Han (Unsloth), Asma Beevi (NVIDIA), Merve Noyan (Hugging Face), Michael
-
-Chiang (Ollama).
+Compression at the Edge examines how smaller weights, faster inference, and constrained-memory deployments are making capable local AI more practical. The panel explores where compressed models already beat cloud on latency, privacy, cost, or control, what breakthroughs would unlock broader adoption, and how open model tooling is shaping the edge AI stack. Moderator: Chris Alexiuk (NVIDIA). Panelists: Daniel Han (Unsloth), Asma Beevi (NVIDIA), Merve Noyan (Hugging Face), Michael Chiang (Ollama).
 
 ## Related YouTube Video
 [Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face](https://www.youtube.com/watch?v=OV56RddyFuU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

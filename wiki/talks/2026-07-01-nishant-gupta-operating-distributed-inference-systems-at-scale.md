@@ -26,31 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Inference has rapidly become one of the most important infrastructure problems in modern computing.
-
-As AI systems evolve into autonomous agents with persistent memory, tool usage, and multi-step
-
-reasoning, traditional inference architectures struggle under growing demands for latency,
-
-throughput, cost efficiency, and reliability. In this talk, I’ll share lessons from building large-
-
-scale elastic compute and AI infrastructure systems powering production workloads. We’ll explore the
-
-modern inference stack and the architectural patterns emerging to support next-generation agentic AI
-
-systems. Topics include distributed inference architectures for large-scale AI systems, GPU
-
-scheduling and elastic compute for inference workloads, multi-tenant inference infrastructure,
-
-caching, batching, latency optimization strategies, reliability and fault isolation for inference
-
-systems, observability and control loops for AI serving platforms, balancing cost, throughput, and
-
-user experience, and why inference is becoming an infrastructure orchestration problem. Attendees
-
-will gain practical insights into designing scalable, resilient, and cost-efficient inference
-
-platforms for modern AI workloads.
+Inference has rapidly become one of the most important infrastructure problems in modern computing. As AI systems evolve into autonomous agents with persistent memory, tool usage, and multi-step reasoning, traditional inference architectures struggle under growing demands for latency, throughput, cost efficiency, and reliability. In this talk, I’ll share lessons from building large-scale elastic compute and AI infrastructure systems powering production workloads. We’ll explore the modern inference stack and the architectural patterns emerging to support next-generation agentic AI systems. Topics include distributed inference architectures for large-scale AI systems, GPU scheduling and elastic compute for inference workloads, multi-tenant inference infrastructure, caching, batching, latency optimization strategies, reliability and fault isolation for inference systems, observability and control loops for AI serving platforms, balancing cost, throughput, and user experience, and why inference is becoming an infrastructure orchestration problem. Attendees will gain practical insights into designing scalable, resilient, and cost-efficient inference platforms for modern AI workloads.
 
 ## Related YouTube Video
 [Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs](https://www.youtube.com/watch?v=APh1Vx0oLmQ) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

@@ -26,19 +26,7 @@ scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "
 - Status: confirmed
 
 ## Official Description
-Knowing which generation your agent is in, which failure modes your current evals are blind to, and
-
-what to build next is the difference between shipping with confidence and flying blind. Agent
-
-architectures have evolved through six generations; prompt, chain, ReAct loop, workflow graph,
-
-modern agent loop, AI harness. And each one quietly breaks the eval strategy of the generation
-
-before it. A prompt-quality rubric won't catch a bad tool call; a trace scorer won't catch memory
-
-poisoning. Using a single SRE incident response agent threaded through every generation, this talk
-
-shows exactly where each architecture outgrows its evals and what you need to close the gap.
+Knowing which generation your agent is in, which failure modes your current evals are blind to, and what to build next is the difference between shipping with confidence and flying blind. Agent architectures have evolved through six generations; prompt, chain, ReAct loop, workflow graph, modern agent loop, AI harness. And each one quietly breaks the eval strategy of the generation before it. A prompt-quality rubric won't catch a bad tool call; a trace scorer won't catch memory poisoning. Using a single SRE incident response agent threaded through every generation, this talk shows exactly where each architecture outgrows its evals and what you need to close the gap.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

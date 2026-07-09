@@ -26,19 +26,7 @@ scheduleLabels: ["AI Architects: Tokenmaxxing", "Leadership 2", "session", "conf
 - Status: confirmed
 
 ## Official Description
-Human-written code died in 2025. Code review is dying in 2026. Teams with high AI adoption are
-
-merging 98% more pull requests, but PR review time has surged 91%. There is no way we win this fight
-
-with manual code reviews, and AI code review tools are just buying us time. This talk makes the case
-
-that the traditional code review is a historical approval gate that no longer fits the shape of
-
-modern software development. I'll walk through a practical five-layer trust model: from multi-agent
-
-competition and deterministic guardrails to spec-driven BDD and adversarial verification — that lets
-
-engineering teams ship faster without sacrificing quality or control.
+Human-written code died in 2025. Code review is dying in 2026. Teams with high AI adoption are merging 98% more pull requests, but PR review time has surged 91%. There is no way we win this fight with manual code reviews, and AI code review tools are just buying us time. This talk makes the case that the traditional code review is a historical approval gate that no longer fits the shape of modern software development. I'll walk through a practical five-layer trust model: from multi-agent competition and deterministic guardrails to spec-driven BDD and adversarial verification — that lets engineering teams ship faster without sacrificing quality or control.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

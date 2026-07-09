@@ -26,9 +26,7 @@ scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Why personal agents that run untrusted LLM code need a sandboxed OS/runtime model, not just a
-
-compute sandbox.
+Why personal agents that run untrusted LLM code need a sandboxed OS/runtime model, not just a compute sandbox.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

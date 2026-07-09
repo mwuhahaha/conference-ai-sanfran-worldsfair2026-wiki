@@ -26,19 +26,7 @@ scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every major platform shift created a new category of developers. The web created web developers.
-
-Mobile created app developers. Now real-time interactive video models are creating a new kind of
-
-builder: one who does not render scenes or script interactions, but writes code that shapes a living
-
-world as it generates. This talk explores what it means for video to become a runtime, why this
-
-moment is happening now, and what the first generation of developers building on world models are
-
-already creating. Based on work at Reactor, where developers are shipping interactive games,
-
-robotics simulations, and real-time experiences that could not have existed 1 year ago.
+Every major platform shift created a new category of developers. The web created web developers. Mobile created app developers. Now real-time interactive video models are creating a new kind of builder: one who does not render scenes or script interactions, but writes code that shapes a living world as it generates. This talk explores what it means for video to become a runtime, why this moment is happening now, and what the first generation of developers building on world models are already creating. Based on work at Reactor, where developers are shipping interactive games, robotics simulations, and real-time experiences that could not have existed 1 year ago.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

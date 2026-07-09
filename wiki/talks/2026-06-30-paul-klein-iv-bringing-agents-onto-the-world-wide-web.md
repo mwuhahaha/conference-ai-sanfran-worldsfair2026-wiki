@@ -26,15 +26,7 @@ scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The web wasn't built for agents. Heavy HTML, human-first UIs, and a DOM that can hijack the model's
-
-context. Still, agents browse it for millions of hours every month through Browserbase, across teams
-
-like Ramp, Shopify, and Lovable. This talk walks through that browser agent harness layer by layer,
-
-from the security boundary between DOM and model to caching, Agent Identity, and the infrastructure
-
-that provisions browsers at scale, and where browser agents go once it is in place.
+The web wasn't built for agents. Heavy HTML, human-first UIs, and a DOM that can hijack the model's context. Still, agents browse it for millions of hours every month through Browserbase, across teams like Ramp, Shopify, and Lovable. This talk walks through that browser agent harness layer by layer, from the security boundary between DOM and model to caching, Agent Identity, and the infrastructure that provisions browsers at scale, and where browser agents go once it is in place.
 
 ## Related YouTube Video
 [The Web Browser Is All You Need - Paul Klein IV, Browserbase](https://www.youtube.com/watch?v=YRGjll7uu5w) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

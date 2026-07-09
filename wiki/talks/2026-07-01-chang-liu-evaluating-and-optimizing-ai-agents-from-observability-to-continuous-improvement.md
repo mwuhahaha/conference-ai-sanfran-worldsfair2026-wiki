@@ -26,13 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI agents don’t behave like traditional systems. Learn how to evaluate outputs, trace behavior, and
-
-apply a continuous loop to improve performance across prompts, tools, and models. Using signals
-
-grounded in real-world context via Foundry IQ, see how evaluation, tracing, and optimization come
-
-together to turn production usage into measurable improvements over time.
+AI agents don’t behave like traditional systems. Learn how to evaluate outputs, trace behavior, and apply a continuous loop to improve performance across prompts, tools, and models. Using signals grounded in real-world context via Foundry IQ, see how evaluation, tracing, and optimization come together to turn production usage into measurable improvements over time.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

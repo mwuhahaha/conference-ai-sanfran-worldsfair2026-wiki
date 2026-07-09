@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most agents do their work in the background. They write code, automate tasks, and run research. But
-
-the moment an agent has to interact with a human in real time, everything you know about building
-
-and evaluating it changes. This session is about designing humanlike agents that can hear, see, and
-
-speak. It starts with the question nobody can answer today. With hundreds of models to choose from,
-
-how do you pick a stack that holds up in a live conversation? We'll show why public leaderboards
-
-fail for realtime agents, and why the latency on your dashboard isn't what your users experience.
-
-Then we'll flip the process around. Define the outcomes you want as human-equivalent behaviors, and
-
-work backwards from there to your evaluations, your models, and a production iteration loop. You'll
-
-leave with a concrete decision framework and an open benchmark you can run yourself.
+Most agents do their work in the background. They write code, automate tasks, and run research. But the moment an agent has to interact with a human in real time, everything you know about building and evaluating it changes. This session is about designing humanlike agents that can hear, see, and speak. It starts with the question nobody can answer today. With hundreds of models to choose from, how do you pick a stack that holds up in a live conversation? We'll show why public leaderboards fail for realtime agents, and why the latency on your dashboard isn't what your users experience. Then we'll flip the process around. Define the outcomes you want as human-equivalent behaviors, and work backwards from there to your evaluations, your models, and a production iteration loop. You'll leave with a concrete decision framework and an open benchmark you can run yourself.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

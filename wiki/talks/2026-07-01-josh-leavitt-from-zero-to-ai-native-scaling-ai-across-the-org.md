@@ -26,19 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-Most companies talk about being AI-native, but few show what it takes at scale. Josh Leavitt, Sr.
-
-Director of AI & Data at Coinbase, shares the hard-won playbook for transforming a high-stakes,
-
-regulated engineering organization into one where AI is a first-class citizen across every team.
-
-Josh can cover my approach towards building a centralized AI platform that serves thousands of
-
-engineers without becoming a bottleneck, tooling decisions that actually moved the needle, and what
-
-AI-native really means when shipping in a zero-tolerance-for-failure environment. Expect concrete
-
-frameworks, real examples, and honest lessons from what didn’t work.
+Most companies talk about being AI-native, but few show what it takes at scale. Josh Leavitt, Sr. Director of AI & Data at Coinbase, shares the hard-won playbook for transforming a high-stakes, regulated engineering organization into one where AI is a first-class citizen across every team. Josh can cover my approach towards building a centralized AI platform that serves thousands of engineers without becoming a bottleneck, tooling decisions that actually moved the needle, and what AI-native really means when shipping in a zero-tolerance-for-failure environment. Expect concrete frameworks, real examples, and honest lessons from what didn’t work.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

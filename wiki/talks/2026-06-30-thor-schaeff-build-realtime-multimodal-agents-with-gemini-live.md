@@ -26,13 +26,7 @@ scheduleLabels: ["Workshops Day 2", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The Gemini Live API is incredible versatile when it comes to building realtime AI experiences. From
-
-live translation across 2000 different language pairs to building realtime multimodal agents that
-
-can work across text, audio, and vision. This workshop gets you from zero to fully conversational
-
-agent in a matter of hours.
+The Gemini Live API is incredible versatile when it comes to building realtime AI experiences. From live translation across 2000 different language pairs to building realtime multimodal agents that can work across text, audio, and vision. This workshop gets you from zero to fully conversational agent in a matter of hours.
 
 ## Related YouTube Video
 [From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind](https://www.youtube.com/watch?v=Bc6Ojl2XS1w) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

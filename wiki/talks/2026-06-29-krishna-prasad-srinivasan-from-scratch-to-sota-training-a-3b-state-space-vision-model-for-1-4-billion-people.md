@@ -26,45 +26,7 @@ scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-India has 22 official languages. Across those languages live over a billion people whose knowledge
-
-is locked inside scanned images in scripts that most frontier models perform poorly. The problem is
-
-dire - until now, there wasn't even a comprehensive benchmark to measure Indic OCR performance, let
-
-alone training data at scale. When Sarvam AI set out to solve this, we had to build the
-
-infrastructure before the model, creating the first ground-truth benchmark for Indic document
-
-intelligence. In this talk, Krishna Srinivasan, who led the Vision Models team to build India's
-
-first sovereign VLM from scratch, will walk through the end-to-end engineering lifecycle. We will
-
-cover: (a) Architecture: Why we chose a 3B-parameter state-space architecture over transformer
-
-baselines to handle high-resolution visual inputs with minimal memory overhead and faster inference.
-
-(b) Training Pipeline: The exact recipe we used: starting with text-only pre-training, moving to
-
-continual pre-training with text and images, followed by SFT. Finally, we'll cover the advances we
-
-made in implementing large-scale RL with Verifiable Rewards for visual tasks in just 3 days using
-
-deterministic character-level reward signals. (c) Compute Efficiency: How we trained a frontier-
-
-competitive multimodal model with extreme capital efficiency, optimizing distributed training and
-
-GPU cluster management to punch far above our compute class. (d) Agentic Workflows: How this model
-
-powers Sarvam Akshar, a first-of-its-kind agentic document intelligence workbench featuring visual
-
-grounding and automated proofreading loops. The results speak for themselves: Sarvam Vision achieves
-
-best-in-class global scores (84.3% on olmOCR-Bench, 93.28% on OmniDocBench) and dominates Indic OCR.
-
-Attendees will learn the blueprint for compute-efficient multimodal training, and deploying state-
-
-space VLMs for population-scale enterprise workloads.
+India has 22 official languages. Across those languages live over a billion people whose knowledge is locked inside scanned images in scripts that most frontier models perform poorly. The problem is dire - until now, there wasn't even a comprehensive benchmark to measure Indic OCR performance, let alone training data at scale. When Sarvam AI set out to solve this, we had to build the infrastructure before the model, creating the first ground-truth benchmark for Indic document intelligence. In this talk, Krishna Srinivasan, who led the Vision Models team to build India's first sovereign VLM from scratch, will walk through the end-to-end engineering lifecycle. We will cover: (a) Architecture: Why we chose a 3B-parameter state-space architecture over transformer baselines to handle high-resolution visual inputs with minimal memory overhead and faster inference. (b) Training Pipeline: The exact recipe we used: starting with text-only pre-training, moving to continual pre-training with text and images, followed by SFT. Finally, we'll cover the advances we made in implementing large-scale RL with Verifiable Rewards for visual tasks in just 3 days using deterministic character-level reward signals. (c) Compute Efficiency: How we trained a frontier-competitive multimodal model with extreme capital efficiency, optimizing distributed training and GPU cluster management to punch far above our compute class. (d) Agentic Workflows: How this model powers Sarvam Akshar, a first-of-its-kind agentic document intelligence workbench featuring visual grounding and automated proofreading loops. The results speak for themselves: Sarvam Vision achieves best-in-class global scores (84.3% on olmOCR-Bench, 93.28% on OmniDocBench) and dominates Indic OCR. Attendees will learn the blueprint for compute-efficient multimodal training, and deploying state-space VLMs for population-scale enterprise workloads.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,11 +26,7 @@ scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Runway's annual AI Festival — a celebration of creatives experimenting at the forefront of art and
-
-technology across film, design, new media, fashion, advertising, and gaming, with a screening of
-
-finalist AI films. https://aif.runwayml.com/
+Runway's annual AI Festival — a celebration of creatives experimenting at the forefront of art and technology across film, design, new media, fashion, advertising, and gaming, with a screening of finalist AI films. https://aif.runwayml.com/
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

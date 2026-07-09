@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Reinforcement learning for frontier models is increasingly constrained not only by algorithms, but
-
-by where compute is available. When training and rollout generation must live inside one datacenter,
-
-the whole system becomes limited by the capacity, hardware, and failures of that single location.
-
-Taking RL cross datacenter changes the shape of the problem. Training can happen in one place,
-
-Rollout trajectories can be generated somewhere else, and compute can be pulled from whatever cloud,
-
-region, hardware, or precision format is available. RL capacity can become global, elastic, and
-
-opportunistic rather than a carefully reserved supercomputer, more like a living system spread
-
-across the world.  This talk is about the first steps toward that future: RL that can run anywhere,
-
-learn continuously, and turn scattered compute into a single training loop.
+Reinforcement learning for frontier models is increasingly constrained not only by algorithms, but by where compute is available. When training and rollout generation must live inside one datacenter, the whole system becomes limited by the capacity, hardware, and failures of that single location. Taking RL cross datacenter changes the shape of the problem. Training can happen in one place, Rollout trajectories can be generated somewhere else, and compute can be pulled from whatever cloud, region, hardware, or precision format is available. RL capacity can become global, elastic, and opportunistic rather than a carefully reserved supercomputer, more like a living system spread across the world. This talk is about the first steps toward that future: RL that can run anywhere, learn continuously, and turn scattered compute into a single training loop.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

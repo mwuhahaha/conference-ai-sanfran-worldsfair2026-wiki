@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-A short history of the right way to build an agent: RAG, ReAct, prompt chaining, orchestrator-
-
-workers, MCP, CLI, MCP again... CLI again?? Every time you adopt a trend you rebuild your
-
-architecture. In this talk, Dan Farrelly, Inngest cofounder and CTO, is not going to tell you what
-
-comes next. He's going to show you how to build so it doesn't matter. He'll cover the core
-
-primitives that show up in every production agent, how bringing decisions closer to code provides
-
-more stack flexibility, and why the right execution layer unlocks faster iteration.
+A short history of the right way to build an agent: RAG, ReAct, prompt chaining, orchestrator-workers, MCP, CLI, MCP again... CLI again?? Every time you adopt a trend you rebuild your architecture. In this talk, Dan Farrelly, Inngest cofounder and CTO, is not going to tell you what comes next. He's going to show you how to build so it doesn't matter. He'll cover the core primitives that show up in every production agent, how bringing decisions closer to code provides more stack flexibility, and why the right execution layer unlocks faster iteration.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

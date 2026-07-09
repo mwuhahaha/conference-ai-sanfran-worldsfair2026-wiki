@@ -26,43 +26,7 @@ scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "conf
 - Status: confirmed
 
 ## Official Description
-Every agent demo runs with a god-token. Then it ships, and someone has to explain why the helpful AI
-
-just rm -rf'd the staging database "to clean up." I run platform infrastructure at a frontier lab,
-
-and for the last year my job has partly been: let coding agents do real work against real systems,
-
-without ever having to write the postmortem. This talk is the permission model that fell out of that
-
-- not RBAC-with-extra-steps, but primitives designed for an actor that's smart, fast, tireless, and
-
-occasionally *confidently wrong*. **The four primitives:** - **Asymmetric verbs** - the agent can
-
-`quarantine` but not `delete`, `retry` but not `approve`, `propose` but not `merge`. The verb list
-
-*is* the security boundary. Stop thinking in resources, start thinking in reversible vs.
-
-irreversible actions. - **Regenerating budgets** - every agent identity gets N disruptive actions
-
-per window. Burn the budget, you're benched until it refills. No human-in-the-loop until the
-
-budget's gone — which means 95% autonomy with a hard ceiling on blast radius. - **The undo test** -
-
-if the agent can't undo it, the agent can't do it without a second key. One line, surprisingly load-
-
-bearing. - **Tripwires over allow-lists** - let the agent roam, but instrument the three actions
-
-that would actually hurt. Cheaper than enumerating everything safe. I'll show the ~200-line policy
-
-layer that implements all four, the failure modes each one exists to catch, and the one design I
-
-shipped that turned out to be security theater. Tool-agnostic - works whether your agent is touching
-
-CI, a database, a cloud account, or your users' files. If you're shipping an agent that does
-
-anything more than read, you'll leave with a threat model and a starting policy you can paste into
-
-your repo on the flight home.
+Every agent demo runs with a god-token. Then it ships, and someone has to explain why the helpful AI just rm -rf'd the staging database "to clean up." I run platform infrastructure at a frontier lab, and for the last year my job has partly been: let coding agents do real work against real systems, without ever having to write the postmortem. This talk is the permission model that fell out of that - not RBAC-with-extra-steps, but primitives designed for an actor that's smart, fast, tireless, and occasionally *confidently wrong*. **The four primitives:** - **Asymmetric verbs** - the agent can `quarantine` but not `delete`, `retry` but not `approve`, `propose` but not `merge`. The verb list *is* the security boundary. Stop thinking in resources, start thinking in reversible vs. irreversible actions. - **Regenerating budgets** - every agent identity gets N disruptive actions per window. Burn the budget, you're benched until it refills. No human-in-the-loop until the budget's gone — which means 95% autonomy with a hard ceiling on blast radius. - **The undo test** - if the agent can't undo it, the agent can't do it without a second key. One line, surprisingly load-bearing. - **Tripwires over allow-lists** - let the agent roam, but instrument the three actions that would actually hurt. Cheaper than enumerating everything safe. I'll show the ~200-line policy layer that implements all four, the failure modes each one exists to catch, and the one design I shipped that turned out to be security theater. Tool-agnostic - works whether your agent is touching CI, a database, a cloud account, or your users' files. If you're shipping an agent that does anything more than read, you'll leave with a threat model and a starting policy you can paste into your repo on the flight home.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

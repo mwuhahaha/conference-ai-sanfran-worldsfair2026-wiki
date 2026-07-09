@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The lethal trifecta: an AI agent with access to private data, exposure to untrusted content, and the
-
-ability to communicate externally. Combine all three and an attacker can trick your agent into
-
-exfiltrating anything it can see and there is no prompt-level fix.. Most enterprises have already
-
-deployed this pattern at scale: Claude Code, Cursor, and Copilot on developer laptops with local
-
-credentials, MCPs reaching into internal systems, and open egress. I'll speak to my own personal
-
-agent stack as a textbook example, then trace the same shape across enterprise deployments I see at
-
-Coder. The back half is four architectural moves that defuse it: governed compute, centralized
-
-credentials, default-deny egress, identity-bound audit. Walk out with a mental model and a checklist
-
-you can run against your own deployment the next morning.
+The lethal trifecta: an AI agent with access to private data, exposure to untrusted content, and the ability to communicate externally. Combine all three and an attacker can trick your agent into exfiltrating anything it can see and there is no prompt-level fix.. Most enterprises have already deployed this pattern at scale: Claude Code, Cursor, and Copilot on developer laptops with local credentials, MCPs reaching into internal systems, and open egress. I'll speak to my own personal agent stack as a textbook example, then trace the same shape across enterprise deployments I see at Coder. The back half is four architectural moves that defuse it: governed compute, centralized credentials, default-deny egress, identity-bound audit. Walk out with a mental model and a checklist you can run against your own deployment the next morning.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

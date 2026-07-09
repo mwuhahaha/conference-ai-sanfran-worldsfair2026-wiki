@@ -26,19 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 8", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-This workshop helps agentic coding practitioners stop treating agents like pretend coworkers and
-
-start designing reliable, compounding loops. Using Pi as the concrete demo surface, Joel Hooks will
-
-show how loop state, handoffs, review, memory, and operator control become visible, while keeping
-
-the ideas portable to Claude, Codex, Cursor, and similar coding agents. Practitioners should leave
-
-able to identify loops inside their agent workflows, diagnose when failures need gates/evidence
-
-versus orchestration/memory/leverage, and understand how model-shaped lifecycles differ from
-
-traditional human SDLC rituals.
+This workshop helps agentic coding practitioners stop treating agents like pretend coworkers and start designing reliable, compounding loops. Using Pi as the concrete demo surface, Joel Hooks will show how loop state, handoffs, review, memory, and operator control become visible, while keeping the ideas portable to Claude, Codex, Cursor, and similar coding agents. Practitioners should leave able to identify loops inside their agent workflows, diagnose when failures need gates/evidence versus orchestration/memory/leverage, and understand how model-shaped lifecycles differ from traditional human SDLC rituals.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

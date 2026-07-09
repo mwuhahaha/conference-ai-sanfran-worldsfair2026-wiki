@@ -26,33 +26,7 @@ scheduleLabels: ["Track 1", "Track 1", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Building an AI demo is easy. Knowing whether it actually works — and keeping it working in
-
-production — is the hard part. Most teams ship agents on vibes: they try a few prompts, the output
-
-looks good, and they push to production with no real way to measure quality or catch regressions.
-
-This hands-on workshop walks through the full lifecycle of shipping a real AI agent, using a working
-
-financial-analyst agent built on the Claude Agent SDK as the running example. You'll instrument it
-
-with tracing, do structured error analysis on its actual outputs, and build a layered evaluation
-
-suite — from cheap deterministic code checks to LLM-as-a-judge evaluators with custom rubrics. We'll
-
-cover the parts most tutorials skip: why agents fail in ways single LLM calls don't, the eval anti-
-
-patterns that quietly mislead you, and how to know whether you can even trust your judge (meta-
-
-evaluation). Finally, we'll close the loop: turning eval results into datasets and experiments,
-
-running evals online against production traffic, wiring them to monitors and alerts, and feeding
-
-failure explanations back to a coding agent to actually fix the underlying problems.  You'll leave
-
-with a runnable notebook and a repeatable, evaluation-driven workflow you can apply to your own
-
-agents the next day.
+Building an AI demo is easy. Knowing whether it actually works — and keeping it working in production — is the hard part. Most teams ship agents on vibes: they try a few prompts, the output looks good, and they push to production with no real way to measure quality or catch regressions. This hands-on workshop walks through the full lifecycle of shipping a real AI agent, using a working financial-analyst agent built on the Claude Agent SDK as the running example. You'll instrument it with tracing, do structured error analysis on its actual outputs, and build a layered evaluation suite — from cheap deterministic code checks to LLM-as-a-judge evaluators with custom rubrics. We'll cover the parts most tutorials skip: why agents fail in ways single LLM calls don't, the eval anti-patterns that quietly mislead you, and how to know whether you can even trust your judge (meta-evaluation). Finally, we'll close the loop: turning eval results into datasets and experiments, running evals online against production traffic, wiring them to monitors and alerts, and feeding failure explanations back to a coding agent to actually fix the underlying problems. You'll leave with a runnable notebook and a repeatable, evaluation-driven workflow you can apply to your own agents the next day.
 
 ## Related YouTube Video
 [Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize](https://www.youtube.com/watch?v=Xfl50508LZM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

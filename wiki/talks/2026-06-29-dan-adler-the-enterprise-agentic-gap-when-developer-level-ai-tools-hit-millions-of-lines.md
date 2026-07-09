@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agentic coding tools have transformed individual developer workflows but owning a large codebase
-
-with millions of interdependent lines across multiple code hosts is a different problem entirely.
-
-Off-the-shelf AI coding tools weren't built for it, and at scale, they break down in ways that
-
-aren't obvious until you're already in trouble. This talk covers the failure modes you'll hit when
-
-applying developer-level agentic tools to enterprise-scale migrations, and how Sourcegraph's agentic
-
-migrations solution was built to solve what others couldn't.
+Agentic coding tools have transformed individual developer workflows but owning a large codebase with millions of interdependent lines across multiple code hosts is a different problem entirely. Off-the-shelf AI coding tools weren't built for it, and at scale, they break down in ways that aren't obvious until you're already in trouble. This talk covers the failure modes you'll hit when applying developer-level agentic tools to enterprise-scale migrations, and how Sourcegraph's agentic migrations solution was built to solve what others couldn't.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,29 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-There are dozens of ways to build an enterprise AI agent: agentic frameworks, direct LLM APIs,
-
-conversational AI platforms, vertical SaaS. They all claim to do the job. But how do you actually
-
-compare them on the same task, with the same data, against the same KPIs? This session presents a
-
-vendor-agnostic evaluation framework that treats AI agents the way enterprises treat new hires: set
-
-the role, define success criteria, run candidates through identical scenarios, and measure outcomes.
-
-The architecture uses any LLM to track positive and negative drift across agents against weighted
-
-goals, monitoring everything from hallucination rates and token consumption to user sentiment and
-
-conversation quality. Inputs are standardized. Outputs are both quantitative (accuracy, cost, hours
-
-saved) and qualitative (tone, clarity). The methodology supports continuous evaluation, not just
-
-pre-deployment benchmarks, but ongoing performance reviews that can compare agent work against human
-
-baselines. Walk away with a concrete, repeatable process for answering the only question that
-
-matters: which agent actually does the job?
+There are dozens of ways to build an enterprise AI agent: agentic frameworks, direct LLM APIs, conversational AI platforms, vertical SaaS. They all claim to do the job. But how do you actually compare them on the same task, with the same data, against the same KPIs? This session presents a vendor-agnostic evaluation framework that treats AI agents the way enterprises treat new hires: set the role, define success criteria, run candidates through identical scenarios, and measure outcomes. The architecture uses any LLM to track positive and negative drift across agents against weighted goals, monitoring everything from hallucination rates and token consumption to user sentiment and conversation quality. Inputs are standardized. Outputs are both quantitative (accuracy, cost, hours saved) and qualitative (tone, clarity). The methodology supports continuous evaluation, not just pre-deployment benchmarks, but ongoing performance reviews that can compare agent work against human baselines. Walk away with a concrete, repeatable process for answering the only question that matters: which agent actually does the job?
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

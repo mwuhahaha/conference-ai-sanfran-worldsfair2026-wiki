@@ -26,29 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most agents don't really have memory. They have a context window, a pile of temporary files, maybe
-
-an AGENTS.md, and a retrieval step that attempts to build state from whatever the model can still
-
-see. You've seen the flashy demos, but these systems fall apart when an agent needs to recover from
-
-failure, revisit prior work, and observe if failures are less frequent over time. This talk explores
-
-agent memory as a systems problem. Effective memory isn't just storing data: it's an evolving
-
-knowledge layer with write filtering, consolidation, reflection, and forgetting. Agents need
-
-persistence, and they also need structure. Raw logs and Markdown scratchpads aren't enough. A real
-
-memory layer weights recency, combines retrieval techniques, and correlates episodic memories.
-
-Serious agent memory is inherently multi-model. The best systems use full-text search, semantic
-
-retrieval, graph relationships, and structured state to reconstruct context with far more precision
-
-than filesystem grep alone. This is where databases become essential as the foundation for real
-
-memory. Memory shapes how agents behave, adapt, and improve over time.
+Most agents don't really have memory. They have a context window, a pile of temporary files, maybe an AGENTS.md, and a retrieval step that attempts to build state from whatever the model can still see. You've seen the flashy demos, but these systems fall apart when an agent needs to recover from failure, revisit prior work, and observe if failures are less frequent over time. This talk explores agent memory as a systems problem. Effective memory isn't just storing data: it's an evolving knowledge layer with write filtering, consolidation, reflection, and forgetting. Agents need persistence, and they also need structure. Raw logs and Markdown scratchpads aren't enough. A real memory layer weights recency, combines retrieval techniques, and correlates episodic memories. Serious agent memory is inherently multi-model. The best systems use full-text search, semantic retrieval, graph relationships, and structured state to reconstruct context with far more precision than filesystem grep alone. This is where databases become essential as the foundation for real memory. Memory shapes how agents behave, adapt, and improve over time.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

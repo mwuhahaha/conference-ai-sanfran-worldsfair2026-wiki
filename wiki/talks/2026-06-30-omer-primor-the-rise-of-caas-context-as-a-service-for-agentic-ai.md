@@ -26,27 +26,7 @@ scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agentic workflows have commoditized. The new bottleneck is context.   As models improve, AI agents
-
-are increasingly limited not by reasoning ability, but by the quality, freshness, and specificity of
-
-the information they can access.   This session introduces Context as a Service, or CaaS, an
-
-emerging category for builders creating web-native context layers for AI agents. These tools
-
-collect, structure, enrich, index, and analyze live web data, making it available as agent-ready
-
-knowledge for specific use cases and vertical downstream applications.   We ll explore how builders
-
-are turning hard-to-access web domains into agent-ready context layers: fragmented public data,
-
-dynamic sources, multimodal content, and fast-changing signals that generic models cannot reliably
-
-process within their token limits.   Attendees will learn how to think about CaaS as both a
-
-technical architecture and a market opportunity: what to build, where context creates defensibility,
-
-and how raw web data can become the foundation for reliable agentic products.
+Agentic workflows have commoditized. The new bottleneck is context. As models improve, AI agents are increasingly limited not by reasoning ability, but by the quality, freshness, and specificity of the information they can access. This session introduces Context as a Service, or CaaS, an emerging category for builders creating web-native context layers for AI agents. These tools collect, structure, enrich, index, and analyze live web data, making it available as agent-ready knowledge for specific use cases and vertical downstream applications. We ll explore how builders are turning hard-to-access web domains into agent-ready context layers: fragmented public data, dynamic sources, multimodal content, and fast-changing signals that generic models cannot reliably process within their token limits. Attendees will learn how to think about CaaS as both a technical architecture and a market opportunity: what to build, where context creates defensibility, and how raw web data can become the foundation for reliable agentic products.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

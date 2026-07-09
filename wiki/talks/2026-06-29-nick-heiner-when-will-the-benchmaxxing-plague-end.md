@@ -26,13 +26,7 @@ scheduleLabels: ["AI Architects: Show my Workflow", "Track 9", "session", "confi
 - Status: confirmed
 
 ## Official Description
-Model releases are heralded by a flourish of trumpets, a chorus of weeping angels, and often,
-
-inflated benchmark claims. Why do benchmarks so often not reflect real-world value? Is it intrinsic
-
-to the science of benchmarking, or just the consequence of our current practices? Is LM Arena a
-
-cancer on AI?
+Model releases are heralded by a flourish of trumpets, a chorus of weeping angels, and often, inflated benchmark claims. Why do benchmarks so often not reflect real-world value? Is it intrinsic to the science of benchmarking, or just the consequence of our current practices? Is LM Arena a cancer on AI?
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,29 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Speculative decoding promises dramatic LLM speedups by using a tiny draft model to guess tokens
-
-ahead of a large target model. However, dual-model serving fundamentally rewrites your memory
-
-dynamics and introduces a rigid engineering trade-off: guess right, and you bypass the memory-
-
-bandwidth bottleneck; guess wrong, and you waste compute.  This session is a live-demo routing
-
-identical workloads through baseline and speculative configurations in vLLM on a single NVIDIA RTX
-
-6000 Blackwell GPU. Splitting the screen between a Streamlit app and a live Grafana dashboard, we
-
-will profile the inference engine across three vectors:  Time per Output Token (TPOT): The real-
-
-time, user-facing latency delta.  KV Cache & Memory Footprint: The exact VRAM tax of tracking
-
-parallel token states within a 96GB budget.  Draft Acceptance Rate: Visualizing the tipping point
-
-where dropping acceptance rates cause speculative decoding to fall below baseline efficiency.
-
-Supporting Materials Project Repository: https://github.com/akamai-developers/speculative-decoding-
-
-example-vllm-blackwell#  (Work In Progress / Active Development)
+Speculative decoding promises dramatic LLM speedups by using a tiny draft model to guess tokens ahead of a large target model. However, dual-model serving fundamentally rewrites your memory dynamics and introduces a rigid engineering trade-off: guess right, and you bypass the memory-bandwidth bottleneck; guess wrong, and you waste compute. This session is a live-demo routing identical workloads through baseline and speculative configurations in vLLM on a single NVIDIA RTX 6000 Blackwell GPU. Splitting the screen between a Streamlit app and a live Grafana dashboard, we will profile the inference engine across three vectors: Time per Output Token (TPOT): The real-time, user-facing latency delta. KV Cache & Memory Footprint: The exact VRAM tax of tracking parallel token states within a 96GB budget. Draft Acceptance Rate: Visualizing the tipping point where dropping acceptance rates cause speculative decoding to fall below baseline efficiency. Supporting Materials Project Repository: https://github.com/akamai-developers/speculative-decoding-example-vllm-blackwell# (Work In Progress / Active Development)
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

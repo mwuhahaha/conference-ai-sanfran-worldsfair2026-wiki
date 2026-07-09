@@ -26,17 +26,7 @@ scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents right now can sign legal contracts, run untethered, manage your dating profile, conduct
-
-financial transactions, and push code to production. Most agents have long-lived API keys and are
-
-dangerously overprivileged even when they're not making requests. In this talk, I'll demo how to
-
-solve the problem with the right access at the right time. You'll walk away knowing how to control
-
-agent access whether you're running coding agents from the CLI, building MCP servers, or connecting
-
-agents to third-party APIs.
+Agents right now can sign legal contracts, run untethered, manage your dating profile, conduct financial transactions, and push code to production. Most agents have long-lived API keys and are dangerously overprivileged even when they're not making requests. In this talk, I'll demo how to solve the problem with the right access at the right time. You'll walk away knowing how to control agent access whether you're running coding agents from the CLI, building MCP servers, or connecting agents to third-party APIs.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,19 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Building an enterprise AI agent for GTM teams isn't just an LLM problem—it's a product, engineering,
-
-and adoption challenge. In this session, I'll share how we built and scaled Snowflake's internal GTM
-
-AI Assistant from MVP to a production system serving more than 6,000 employees and answering over
-
-one million questions. We'll cover how we scoped the MVP, evolved the architecture over time,
-
-balanced quality versus coverage, adopted emerging technologies like MCP, and continuously adapted
-
-as the AI landscape rapidly changed. You'll leave with practical lessons for building enterprise AI
-
-products that users actually trust and use.
+Building an enterprise AI agent for GTM teams isn't just an LLM problem—it's a product, engineering, and adoption challenge. In this session, I'll share how we built and scaled Snowflake's internal GTM AI Assistant from MVP to a production system serving more than 6,000 employees and answering over one million questions. We'll cover how we scoped the MVP, evolved the architecture over time, balanced quality versus coverage, adopted emerging technologies like MCP, and continuously adapted as the AI landscape rapidly changed. You'll leave with practical lessons for building enterprise AI products that users actually trust and use.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

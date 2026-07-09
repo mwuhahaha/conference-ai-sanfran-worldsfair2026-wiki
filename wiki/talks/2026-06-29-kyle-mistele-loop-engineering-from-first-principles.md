@@ -26,19 +26,7 @@ scheduleLabels: ["Software Factories", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Code is free, software is infinite, and agents can do it all - that's the promise of the lights-off
-
-software factory, where humans interact only with tickets & specifications, and nobody reads the
-
-code, let alone writes it. We ran our own for six months, and we have the scars to prove it - bad
-
-code compounded, and agents created problems that agents couldn't solve - until we had to throw it
-
-all away. But this is a survivor's guide, not an obituary. In this talk, we'll share the challenges
-
-we encountered, what we liked, what we hated, what we're still doing, what we stopped doing, and
-
-what we started doing afterwards.
+Code is free, software is infinite, and agents can do it all - that's the promise of the lights-off software factory, where humans interact only with tickets & specifications, and nobody reads the code, let alone writes it. We ran our own for six months, and we have the scars to prove it - bad code compounded, and agents created problems that agents couldn't solve - until we had to throw it all away. But this is a survivor's guide, not an obituary. In this talk, we'll share the challenges we encountered, what we liked, what we hated, what we're still doing, what we stopped doing, and what we started doing afterwards.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,25 +26,7 @@ scheduleLabels: ["Inference", "Leadership 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every time the industry figures out how to serve tokens faster and cheaper, the appetite grows to
-
-match. Models get bigger, contexts get longer, agents start chaining thousands of calls together.
-
-The finish line keeps moving. This talk is a technical tour through everything the industry has done
-
-to keep up, led by two experts in high-performance inference. We'll start with the optimizations
-
-that made hardware work harder without changing the underlying architecture. Then we'll go up a
-
-level with techniques that work smarter across requests and across the model itself. And finally, a
-
-peek into the future with heterogeneous disaggregated inference, the architectural shift that splits
-
-prefill and decode across specialized hardware, and even more advanced forms of hardware
-
-specialization coming your way soon. Token demand is about to get a lot more insatiable. Let's see
-
-what the future has in store for us!
+Every time the industry figures out how to serve tokens faster and cheaper, the appetite grows to match. Models get bigger, contexts get longer, agents start chaining thousands of calls together. The finish line keeps moving. This talk is a technical tour through everything the industry has done to keep up, led by two experts in high-performance inference. We'll start with the optimizations that made hardware work harder without changing the underlying architecture. Then we'll go up a level with techniques that work smarter across requests and across the model itself. And finally, a peek into the future with heterogeneous disaggregated inference, the architectural shift that splits prefill and decode across specialized hardware, and even more advanced forms of hardware specialization coming your way soon. Token demand is about to get a lot more insatiable. Let's see what the future has in store for us!
 
 ## Related YouTube Video
 [From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva](https://www.youtube.com/watch?v=tzRvcTEapzo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

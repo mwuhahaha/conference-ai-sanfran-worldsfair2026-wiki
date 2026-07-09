@@ -26,13 +26,7 @@ scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-As autonomous agents push towards longer-horizon tasks, a number of challenges emerge in measuring
-
-and improving frontier model capabilities. In this talk, we discuss how long-horizon tasks are
-
-defined and measured, how RL environments and verifiers have to scale for more complex and open-
-
-ended tasks, and how we navigate these problems at Theta.
+As autonomous agents push towards longer-horizon tasks, a number of challenges emerge in measuring and improving frontier model capabilities. In this talk, we discuss how long-horizon tasks are defined and measured, how RL environments and verifiers have to scale for more complex and open-ended tasks, and how we navigate these problems at Theta.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

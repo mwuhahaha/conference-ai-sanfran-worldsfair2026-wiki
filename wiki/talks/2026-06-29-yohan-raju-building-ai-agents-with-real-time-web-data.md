@@ -26,13 +26,7 @@ scheduleLabels: ["Track 8", "Track 8", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Your AI agent is only as good as the data it can access — and static training data isn't enough
-
-anymore. In this hands-on workshop, you'll learn how to connect AI agents to the live web using
-
-Bright Data's MCP (Model Context Protocol) server and scraping APIs, turning any LLM into a real-
-
-time web-aware system.
+Your AI agent is only as good as the data it can access — and static training data isn't enough anymore. In this hands-on workshop, you'll learn how to connect AI agents to the live web using Bright Data's MCP (Model Context Protocol) server and scraping APIs, turning any LLM into a real-time web-aware system.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

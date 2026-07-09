@@ -26,17 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 7", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-In this workshop we'll explore the importance of context engines in modern engineering workflows,
-
-and we'll look at why traditional RAG techniques are no longer enough to deliver the context agents
-
-need.  We'll build a structured query engine that fills the gaps left by RAG, translating natural
-
-language into validated database queries over GitHub PR and Issue data. We'll implement schema-aware
-
-prompting, identity resolution, query validation, and error-driven retry loops, and you'll walk away
-
-with a working query engine for your GitHub repository.
+In this workshop we'll explore the importance of context engines in modern engineering workflows, and we'll look at why traditional RAG techniques are no longer enough to deliver the context agents need. We'll build a structured query engine that fills the gaps left by RAG, translating natural language into validated database queries over GitHub PR and Issue data. We'll implement schema-aware prompting, identity resolution, query validation, and error-driven retry loops, and you'll walk away with a working query engine for your GitHub repository.
 
 ## Related YouTube Video
 [Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked](https://www.youtube.com/watch?v=5ID22ACI7IM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

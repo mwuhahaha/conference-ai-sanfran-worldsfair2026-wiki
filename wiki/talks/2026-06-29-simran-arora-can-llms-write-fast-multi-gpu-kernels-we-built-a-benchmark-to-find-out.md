@@ -26,29 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-LLMs have gotten surprisingly good at writing GPU kernels, but almost all the benchmarks measuring
-
-that progress are single-GPU. In production, communication is the bottleneck: all-reduce alone
-
-accounts for over 20% of inference latency on Llama-3.3-70B, and that gap keeps widening as compute
-
-scales faster than interconnect bandwidth. ParallelKernelBench (PKB) offers a benchmark and
-
-evaluation framework for multi-GPU kernel generation and includes 87 problems from real codebases
-
-where the task is replacing PyTorch + NCCL with a CUDA kernel that moves data directly over NVLink.
-
-We tested GPT-5.5, Gemini 3 Pro, Opus 4.7, and other frontier coding models. Under a third of
-
-problems solved were correctly, and fewer than a quarter of those beat the naive baseline. We'll
-
-cover why they fail, what the patterns look like, and a few cases where models produced kernels
-
-faster than anything publicly available, including one for NVIDIA NeMo-RL's GRPO training loop,
-
-which has no prior optimized public reference. The benchmark is open source and we want to see what
-
-you can do!
+LLMs have gotten surprisingly good at writing GPU kernels, but almost all the benchmarks measuring that progress are single-GPU. In production, communication is the bottleneck: all-reduce alone accounts for over 20% of inference latency on Llama-3.3-70B, and that gap keeps widening as compute scales faster than interconnect bandwidth. ParallelKernelBench (PKB) offers a benchmark and evaluation framework for multi-GPU kernel generation and includes 87 problems from real codebases where the task is replacing PyTorch + NCCL with a CUDA kernel that moves data directly over NVLink. We tested GPT-5.5, Gemini 3 Pro, Opus 4.7, and other frontier coding models. Under a third of problems solved were correctly, and fewer than a quarter of those beat the naive baseline. We'll cover why they fail, what the patterns look like, and a few cases where models produced kernels faster than anything publicly available, including one for NVIDIA NeMo-RL's GRPO training loop, which has no prior optimized public reference. The benchmark is open source and we want to see what you can do!
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

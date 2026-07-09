@@ -26,21 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 4", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The common guidance for designing complex CLI tooling that agents can use is to add a 'non-
-
-interactive' mode, where a normally interactive & flow-based command can be executed in a single
-
-pass by feeding it a bunch of flags. This is necessary for deterministic automation, but agents
-
-aren't scripts; they aren't really constrained in the same way, and they benefit greatly from the
-
-same step-by-step contextual workflows that humans do. In this workshop, PayPal goes deep on
-
-techniques we've used in our upcoming `paypal` CLI that you can steal to make your complex CLI
-
-workflow tool agent-usable — without giving up the guardrails and guidance that interactive CLI
-
-tools provide.
+The common guidance for designing complex CLI tooling that agents can use is to add a 'non-interactive' mode, where a normally interactive & flow-based command can be executed in a single pass by feeding it a bunch of flags. This is necessary for deterministic automation, but agents aren't scripts; they aren't really constrained in the same way, and they benefit greatly from the same step-by-step contextual workflows that humans do. In this workshop, PayPal goes deep on techniques we've used in our upcoming `paypal` CLI that you can steal to make your complex CLI workflow tool agent-usable — without giving up the guardrails and guidance that interactive CLI tools provide.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

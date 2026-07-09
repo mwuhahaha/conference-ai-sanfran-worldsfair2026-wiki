@@ -26,9 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Copilot isn't just for writing code. Learn how to use it across CLI and cloud workflows to scaffold
-
-apps, debug faster, and automate repetitive steps across your entire dev lifecycle.
+Copilot isn't just for writing code. Learn how to use it across CLI and cloud workflows to scaffold apps, debug faster, and automate repetitive steps across your entire dev lifecycle.
 
 ## Related YouTube Video
 [Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner](https://www.youtube.com/watch?v=1t-9-s1brcg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

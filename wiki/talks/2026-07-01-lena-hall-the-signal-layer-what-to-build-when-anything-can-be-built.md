@@ -26,29 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-AI has made implementation faster, cheaper, and more widely available. That changes the real
-
-bottleneck in software.  When every team can generate code, spin up agents, prototype workflows, and
-
-ship demos faster than ever, the advantage moves to a different layer: knowing what is worth
-
-building, who it is for, how people will discover it, and how the product should behave once they
-
-do.  This talk introduces the Signal Layer: the system of public signals, user intent, agent
-
-experience, distribution loops, and product judgment that helps builders decide what deserves to
-
-exist before they commit time, infrastructure, and trust to building it.  We will look at how AI
-
-changes the software lifecycle from “can we build it?” to “should this exist?” and how developers,
-
-AI engineers, and technical leaders can design products that earn adoption instead of producing
-
-impressive demos that disappear.  When anything can be built, the most valuable builders are the
-
-ones who can read signal early, shape the right experience, and build the thing users were already
-
-moving toward.
+AI has made implementation faster, cheaper, and more widely available. That changes the real bottleneck in software. When every team can generate code, spin up agents, prototype workflows, and ship demos faster than ever, the advantage moves to a different layer: knowing what is worth building, who it is for, how people will discover it, and how the product should behave once they do. This talk introduces the Signal Layer: the system of public signals, user intent, agent experience, distribution loops, and product judgment that helps builders decide what deserves to exist before they commit time, infrastructure, and trust to building it. We will look at how AI changes the software lifecycle from “can we build it?” to “should this exist?” and how developers, AI engineers, and technical leaders can design products that earn adoption instead of producing impressive demos that disappear. When anything can be built, the most valuable builders are the ones who can read signal early, shape the right experience, and build the thing users were already moving toward.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

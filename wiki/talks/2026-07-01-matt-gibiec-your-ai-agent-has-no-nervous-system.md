@@ -26,27 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most agents ship with solid evals and zero runtime observability. When something breaks in
-
-production — wrong answer, runaway retry loop, or silent tool failure — you're debugging blind. You
-
-can see the output, but you can't see what the agent believed when it made the decision. This talk
-
-walks through how to instrument agentic pipelines with OpenTelemetry: capturing system context at
-
-every step, making prompt state and tool call outcomes visible as structured data, and governing
-
-token consumption as SLOs instead of discovering overruns on an invoice. Attendees will leave with
-
-three takeaways: an understanding of telemetry for multi-step agentic workflows, a pattern for
-
-capturing system context at the span level so teams know exactly what the agent saw before it acted,
-
-and a framework for visibility into token budget and behavioral drift before something goes sideways
-
-in production. Telemetry is the nervous system. System context is the memory. Token budgets are the
-
-vital signs. None of it is optional.
+Most agents ship with solid evals and zero runtime observability. When something breaks in production — wrong answer, runaway retry loop, or silent tool failure — you're debugging blind. You can see the output, but you can't see what the agent believed when it made the decision. This talk walks through how to instrument agentic pipelines with OpenTelemetry: capturing system context at every step, making prompt state and tool call outcomes visible as structured data, and governing token consumption as SLOs instead of discovering overruns on an invoice. Attendees will leave with three takeaways: an understanding of telemetry for multi-step agentic workflows, a pattern for capturing system context at the span level so teams know exactly what the agent saw before it acted, and a framework for visibility into token budget and behavioral drift before something goes sideways in production. Telemetry is the nervous system. System context is the memory. Token budgets are the vital signs. None of it is optional.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

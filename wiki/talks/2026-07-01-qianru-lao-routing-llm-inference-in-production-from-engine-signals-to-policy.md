@@ -26,23 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Production LLM apps need more than a fast model: they need an inference routing layer that can
-
-choose where each request should run as engines, capacity, latency, and geography cost change. This
-
-talk shares a generalized Inference Load Balancer (ILB) proxy/controller architecture. A low-latency
-
-proxy applies routing weights and request-path signals, while a controller computes source-cluster-
-
-to-engine weights from demand, capacity/performance profiles, replica state, and geography cost. We
-
-will cover the practical debugging patterns AI engineers need: reading engine signals, explaining
-
-why a request went to one backend instead of another, handling retries and load shedding, and
-
-keeping routing behavior observable without exposing OpenAI-specific internals or non-public
-
-metrics.
+Production LLM apps need more than a fast model: they need an inference routing layer that can choose where each request should run as engines, capacity, latency, and geography cost change. This talk shares a generalized Inference Load Balancer (ILB) proxy/controller architecture. A low-latency proxy applies routing weights and request-path signals, while a controller computes source-cluster-to-engine weights from demand, capacity/performance profiles, replica state, and geography cost. We will cover the practical debugging patterns AI engineers need: reading engine signals, explaining why a request went to one backend instead of another, handling retries and load shedding, and keeping routing behavior observable without exposing OpenAI-specific internals or non-public metrics.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,17 +26,7 @@ scheduleLabels: ["Security", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-As AI agents move from demos into production engineering workflows, the security boundary shifts
-
-from code alone to the permissions, tools, prompts, dependencies, credentials, and orchestration
-
-layers that agents can touch. This talk frames agentic security broadly: least-privilege agent
-
-permissions, sandboxing and capability design, provenance for agent-generated changes, risks in
-
-agent/tool/package supply chains, and practical patterns for keeping autonomous coding and
-
-operational agents auditable and containable.
+As AI agents move from demos into production engineering workflows, the security boundary shifts from code alone to the permissions, tools, prompts, dependencies, credentials, and orchestration layers that agents can touch. This talk frames agentic security broadly: least-privilege agent permissions, sandboxing and capability design, provenance for agent-generated changes, risks in agent/tool/package supply chains, and practical patterns for keeping autonomous coding and operational agents auditable and containable.
 
 ## Related YouTube Video
 [2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding](https://www.youtube.com/watch?v=7Dtu2bilcFs) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

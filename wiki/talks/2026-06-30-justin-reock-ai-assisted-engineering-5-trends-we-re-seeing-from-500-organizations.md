@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 2", "Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI is reshaping how engineers work but what does that actually look like at scale? Drawing on data
-
-and patterns from more than 500 organizations, we break down the five most significant trends
-
-emerging in AI-assisted engineering today.  This fast-paced theater session cuts through the hype to
-
-deliver concrete, evidence-based insights that engineering leaders can act on immediately.  Key
-
-takeaways:  Discover the top 5 AI-assisted engineering trends observed across 500+ organizations
-
-Understand how leading teams are integrating AI into their engineering workflows  Leave with
-
-actionable strategies to apply at your organization
+AI is reshaping how engineers work but what does that actually look like at scale? Drawing on data and patterns from more than 500 organizations, we break down the five most significant trends emerging in AI-assisted engineering today. This fast-paced theater session cuts through the hype to deliver concrete, evidence-based insights that engineering leaders can act on immediately. Key takeaways: Discover the top 5 AI-assisted engineering trends observed across 500+ organizations Understand how leading teams are integrating AI into their engineering workflows Leave with actionable strategies to apply at your organization
 
 ## Related YouTube Video
 [Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)](https://www.youtube.com/watch?v=PmZDupFP3UM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

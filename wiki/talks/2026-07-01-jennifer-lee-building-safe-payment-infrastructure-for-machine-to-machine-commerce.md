@@ -26,17 +26,7 @@ scheduleLabels: ["Agentic Commerce", "Leadership 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents are a new class of buyer, but the infrastructure for them to transact headlessly barely
-
-exists yet. This talk walks through what it actually takes to make a machine payment work: how an
-
-agent discovers what services exist, how HTTP 402 lets a server return a payment challenge the agent
-
-can settle without a human in the loop, and how the seller gets a receipt they can trust. Whether
-
-you are building an agent framework or adding machine payments to an API or MCP server, you will
-
-leave with concrete patterns for the headless commerce stack.
+Agents are a new class of buyer, but the infrastructure for them to transact headlessly barely exists yet. This talk walks through what it actually takes to make a machine payment work: how an agent discovers what services exist, how HTTP 402 lets a server return a payment challenge the agent can settle without a human in the loop, and how the seller gets a receipt they can trust. Whether you are building an agent framework or adding machine payments to an API or MCP server, you will leave with concrete patterns for the headless commerce stack.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,25 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-AI coding agents promise 10x. On complex, production work inside a real org, the honest number is
-
-2-5x — and getting there requires a journey most teams aren't prepared for. At Figma, we ship AI
-
-products to millions of users, but internally our engineering org is spread across three stages of
-
-adoption. The honeymoon, where AI is magic. The crash, where AI writes bad code and your best
-
-engineers are stuck protecting the quality bar. And the real skill — 2-5x with disciplined
-
-development practices and proper investment. This talk covers why adoption is uneven, what the trust
-
-curve looks like from the inside, and what leaders can do about it: guide teams to align on plans
-
-before generating code, set honest expectations, invest in the fundamentals that make codebases
-
-agent-friendly, and create space for skeptics without judgment. You'll leave with a framework for
-
-driving adoption more organically without mandating it — and without shipping garbage.
+AI coding agents promise 10x. On complex, production work inside a real org, the honest number is 2-5x — and getting there requires a journey most teams aren't prepared for. At Figma, we ship AI products to millions of users, but internally our engineering org is spread across three stages of adoption. The honeymoon, where AI is magic. The crash, where AI writes bad code and your best engineers are stuck protecting the quality bar. And the real skill — 2-5x with disciplined development practices and proper investment. This talk covers why adoption is uneven, what the trust curve looks like from the inside, and what leaders can do about it: guide teams to align on plans before generating code, set honest expectations, invest in the fundamentals that make codebases agent-friendly, and create space for skeptics without judgment. You'll leave with a framework for driving adoption more organically without mandating it — and without shipping garbage.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

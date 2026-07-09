@@ -26,23 +26,7 @@ scheduleLabels: ["Track 6", "Track 6", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-As AI agents take on increasingly complex development tasks, the critical challenge has shifted from
-
-generation to verification. A growing body of evidence suggests that as models grow more capable,
-
-failures become more frequent and more convincing, making cognitive surrender among human reviewers
-
-an acute risk. This talk introduces Sonar's Agent Centric Development Cycle (AC/DC), a three-stage
-
-continuous loop of Guide, Verify, and Solve, as the engineering discipline teams need to build now.
-
-Teams that embrace AC/DC guide agents within their organizational standards before they write a line
-
-of code, verify output in real-time, and solve issues automatically without manual triage. This
-
-session will also feature a live demo of the SonarQube OpenAI plugin, showing how a well-guided
-
-agent produces code that is faster to verify and cheaper to fix.
+As AI agents take on increasingly complex development tasks, the critical challenge has shifted from generation to verification. A growing body of evidence suggests that as models grow more capable, failures become more frequent and more convincing, making cognitive surrender among human reviewers an acute risk. This talk introduces Sonar's Agent Centric Development Cycle (AC/DC), a three-stage continuous loop of Guide, Verify, and Solve, as the engineering discipline teams need to build now. Teams that embrace AC/DC guide agents within their organizational standards before they write a line of code, verify output in real-time, and solve issues automatically without manual triage. This session will also feature a live demo of the SonarQube OpenAI plugin, showing how a well-guided agent produces code that is faster to verify and cheaper to fix.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

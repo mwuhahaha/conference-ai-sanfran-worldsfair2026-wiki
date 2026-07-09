@@ -26,13 +26,7 @@ scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Financial answers have to be auditable. Vinoo Ganesh (CEO, Kepler) shows how Kepler Finance pairs
-
-Claude's reasoning with deterministic verification infrastructure to index 26M+ SEC filings across
-
-14,000+ companies and 27 markets — and validate every number back to the exact filing, page, and
-
-line item. A look at trust, provenance, and content engineering for AI in regulated finance.
+Financial answers have to be auditable. Vinoo Ganesh (CEO, Kepler) shows how Kepler Finance pairs Claude's reasoning with deterministic verification infrastructure to index 26M+ SEC filings across 14,000+ companies and 27 markets — and validate every number back to the exact filing, page, and line item. A look at trust, provenance, and content engineering for AI in regulated finance.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

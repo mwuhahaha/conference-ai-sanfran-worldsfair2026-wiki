@@ -26,27 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Large generalist models have excellent reasoning but this does not necessarily imply specialized
-
-knowledge and tool calling capabilities. They can still hallucinate column names, ignore
-
-constraints, and generate SQL that returns nonsensical results. The problem isn't intelligence it's
-
-reliability and specialization. In this talk we'll show how a 4B model was fine-tuned to outperform
-
-a 235B model on real financial analysis tasks. The key was not adding more reasoning ability, but
-
-enforcing tool discipline. Using synthetic data generation and reinforcement learning with the open-
-
-source rLLM framework, the model learned to explore schemas, validate outputs, and retry failures
-
-instead of hallucinating confident nonsense. One key result: tool-use fundamentals generalize.
-
-Training on simple tool interactions transferred to much harder, multi-step financial tasks. If
-
-you're building LLM systems that interact with databases, APIs, or internal tools, this talk focuses
-
-on the behaviors that actually matter and how to teach them without frontier-scale compute.
+Large generalist models have excellent reasoning but this does not necessarily imply specialized knowledge and tool calling capabilities. They can still hallucinate column names, ignore constraints, and generate SQL that returns nonsensical results. The problem isn't intelligence it's reliability and specialization. In this talk we'll show how a 4B model was fine-tuned to outperform a 235B model on real financial analysis tasks. The key was not adding more reasoning ability, but enforcing tool discipline. Using synthetic data generation and reinforcement learning with the open-source rLLM framework, the model learned to explore schemas, validate outputs, and retry failures instead of hallucinating confident nonsense. One key result: tool-use fundamentals generalize. Training on simple tool interactions transferred to much harder, multi-step financial tasks. If you're building LLM systems that interact with databases, APIs, or internal tools, this talk focuses on the behaviors that actually matter and how to teach them without frontier-scale compute.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

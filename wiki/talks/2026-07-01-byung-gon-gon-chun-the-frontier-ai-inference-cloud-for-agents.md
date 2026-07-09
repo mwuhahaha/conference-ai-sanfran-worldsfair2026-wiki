@@ -26,21 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents have changed the economics of AI inference. A chatbot’s cost scales roughly linearly with the
-
-number of requests; an agent’s scales multiplicatively. A single task can fan out into hundreds of
-
-model calls, each carrying a repeated context prefix and adding latency that compounds across tool
-
-calls and reasoning steps. As open-weight models keep improving and agentic workloads grow, this
-
-shift exposes the limits of traditional request-level optimization. Inference infrastructure becomes
-
-a first-class concern, one that often shapes performance and cost as much as the model itself. In
-
-this talk, we explore what changes when you optimize for the whole task rather than the individual
-
-request, and how FriendliAI is rethinking the inference cloud for the era of agentic AI.
+Agents have changed the economics of AI inference. A chatbot’s cost scales roughly linearly with the number of requests; an agent’s scales multiplicatively. A single task can fan out into hundreds of model calls, each carrying a repeated context prefix and adding latency that compounds across tool calls and reasoning steps. As open-weight models keep improving and agentic workloads grow, this shift exposes the limits of traditional request-level optimization. Inference infrastructure becomes a first-class concern, one that often shapes performance and cost as much as the model itself. In this talk, we explore what changes when you optimize for the whole task rather than the individual request, and how FriendliAI is rethinking the inference cloud for the era of agentic AI.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

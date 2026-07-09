@@ -26,15 +26,7 @@ scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed
 - Status: confirmed
 
 ## Official Description
-For the past year I've done one thing obsessively: studied how AI products implement
-
-personalization. I've reverse-engineered the memory systems inside ChatGPT, Claude, Gemini, and
-
-Poke, and helped consumer teams build their own.  In this talk, I'll trace the evolution of ChatGPT
-
-and Claude memory over the past three years. I'll then share lessons learnt from studying these
-
-systems and share thoughts on where I think memory for consumer is heading.
+For the past year I've done one thing obsessively: studied how AI products implement personalization. I've reverse-engineered the memory systems inside ChatGPT, Claude, Gemini, and Poke, and helped consumer teams build their own. In this talk, I'll trace the evolution of ChatGPT and Claude memory over the past three years. I'll then share lessons learnt from studying these systems and share thoughts on where I think memory for consumer is heading.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

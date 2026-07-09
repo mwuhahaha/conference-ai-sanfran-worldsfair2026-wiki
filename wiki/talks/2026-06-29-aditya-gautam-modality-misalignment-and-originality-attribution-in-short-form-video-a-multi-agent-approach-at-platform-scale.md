@@ -26,51 +26,7 @@ scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Short-form video presents a class of content understanding problems that are qualitatively different
-
-from text or single-modality media. Audio, visual, and text signals within the same piece of content
-
-frequently diverge, sometimes incidentally and sometimes deliberately, creating a modality
-
-misalignment that defeats systems designed around any single signal. At the same time, the resharing
-
-dynamics of short-form video platforms create originality attribution chains that degrade quickly
-
-and are poorly captured by metadata alone. Addressing both problems at platform scale, reliably and
-
-under real latency and cost constraints, is the challenge this talk is built around. The core of the
-
-talk is the multi-agent architecture developed to address this, published at ACM WSDM 2025, and the
-
-reasoning behind its design. Each agent in the system is specialized for a distinct aspect of the
-
-problem: understanding what a piece of content is actually communicating across modalities,
-
-identifying where those modalities diverge meaningfully, and tracing originality through the
-
-resharing graph to surface attribution that platform metadata misses. We will cover the design
-
-principles behind this decomposition, the tradeoffs between specialization and complexity, the
-
-evaluation framework built to measure performance in a setting where ground truth is genuinely
-
-ambiguous, and the practical optimizations that made the system viable at scale. We will also be
-
-honest about the limitations: where the multi-agent approach added overhead that simpler baselines
-
-handled adequately, and what the boundaries of the system's reliability actually look like in
-
-production conditions. The broader takeaway is a set of principles for approaching multimodal
-
-content understanding problems where the signals are misaligned by nature rather than by exception.
-
-Attendees will leave with a framework for thinking about agent decomposition across a complex
-
-multimodal problem, a grounded understanding of how originality attribution degrades at scale and
-
-what it takes to recover it, and practical lessons about building evaluation and optimization
-
-pipelines for systems where the problem itself resists clean benchmarking.
+Short-form video presents a class of content understanding problems that are qualitatively different from text or single-modality media. Audio, visual, and text signals within the same piece of content frequently diverge, sometimes incidentally and sometimes deliberately, creating a modality misalignment that defeats systems designed around any single signal. At the same time, the resharing dynamics of short-form video platforms create originality attribution chains that degrade quickly and are poorly captured by metadata alone. Addressing both problems at platform scale, reliably and under real latency and cost constraints, is the challenge this talk is built around. The core of the talk is the multi-agent architecture developed to address this, published at ACM WSDM 2025, and the reasoning behind its design. Each agent in the system is specialized for a distinct aspect of the problem: understanding what a piece of content is actually communicating across modalities, identifying where those modalities diverge meaningfully, and tracing originality through the resharing graph to surface attribution that platform metadata misses. We will cover the design principles behind this decomposition, the tradeoffs between specialization and complexity, the evaluation framework built to measure performance in a setting where ground truth is genuinely ambiguous, and the practical optimizations that made the system viable at scale. We will also be honest about the limitations: where the multi-agent approach added overhead that simpler baselines handled adequately, and what the boundaries of the system's reliability actually look like in production conditions. The broader takeaway is a set of principles for approaching multimodal content understanding problems where the signals are misaligned by nature rather than by exception. Attendees will leave with a framework for thinking about agent decomposition across a complex multimodal problem, a grounded understanding of how originality attribution degrades at scale and what it takes to recover it, and practical lessons about building evaluation and optimization pipelines for systems where the problem itself resists clean benchmarking.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,23 +26,7 @@ scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most of the Harness discussion is just a reprise of Context Engineering from last summer. But it's
-
-not 2025 anymore. We live in a Claude Code world, and the best way to think about a harness is
-
-Context engineering + Coding Agents = Harness. Harnesses are a magical DX because of specific
-
-features like planning mode, parallel subagents, skills, background tasks etc. But it doesn't stop
-
-there. People are shoving their harnesses in a box, making them listen to external events, giving
-
-them channels (the ability to ping its users), and a heartbeat. They are making them into Claws. And
-
-actually, harnesses _want_ to become claws, so they can take up more share of mind, suit
-
-collaboration workflows, and be available afk. I propose "Steinberger's law", a spinoff of
-
-Zawinski's law: every harness will expand until it becomes a Claw
+Most of the Harness discussion is just a reprise of Context Engineering from last summer. But it's not 2025 anymore. We live in a Claude Code world, and the best way to think about a harness is Context engineering + Coding Agents = Harness. Harnesses are a magical DX because of specific features like planning mode, parallel subagents, skills, background tasks etc. But it doesn't stop there. People are shoving their harnesses in a box, making them listen to external events, giving them channels (the ability to ping its users), and a heartbeat. They are making them into Claws. And actually, harnesses _want_ to become claws, so they can take up more share of mind, suit collaboration workflows, and be available afk. I propose "Steinberger's law", a spinoff of Zawinski's law: every harness will expand until it becomes a Claw
 
 ## Related YouTube Video
 [Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai](https://www.youtube.com/watch?v=8SUJEqQNClw) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

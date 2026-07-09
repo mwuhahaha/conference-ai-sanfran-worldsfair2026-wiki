@@ -26,15 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Using a coding agent solo is one thing. Getting a whole team to trust agent-written code, agent-run
-
-reviews, and long-running agent work is another. That's where most teams stall. This talk is about
-
-what it actually takes to get there: how to shape a codebase so agents can work in it safely, how to
-
-earn a skeptical team's trust instead of mandating it, and the failure modes that only show up once
-
-agents are part of the daily workflow.
+Using a coding agent solo is one thing. Getting a whole team to trust agent-written code, agent-run reviews, and long-running agent work is another. That's where most teams stall. This talk is about what it actually takes to get there: how to shape a codebase so agents can work in it safely, how to earn a skeptical team's trust instead of mandating it, and the failure modes that only show up once agents are part of the daily workflow.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

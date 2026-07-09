@@ -26,17 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Closed model labs set take‑it‑or‑leave‑it prices, but open‑weight models force inference hosts to
-
-compete on the same models, driving costs down and shifting power back to builders instead of
-
-vendors. I’ll tell the story of how Cline went from viral open source project to a case study in
-
-AI‑generated slop, entitled PRs, and brand‑diluting forks and why, even as that old idea of open
-
-source community died, open weight models and auditable code are now the only real check we have on
-
-model pricing and control.
+Closed model labs set take‑it‑or‑leave‑it prices, but open‑weight models force inference hosts to compete on the same models, driving costs down and shifting power back to builders instead of vendors. I’ll tell the story of how Cline went from viral open source project to a case study in AI‑generated slop, entitled PRs, and brand‑diluting forks and why, even as that old idea of open source community died, open weight models and auditable code are now the only real check we have on model pricing and control.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

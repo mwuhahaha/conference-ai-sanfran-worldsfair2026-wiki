@@ -26,41 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agentic development is not a productivity story: it's a reliability engineering problem at a scale
-
-most teams have never faced. Long-running agent tasks fail at alarming rates, pull requests have
-
-grown from 50 lines to 5,000, and cognitive surrender is real—the more capable AI output appears,
-
-the less humans interrogate it, right at the moment the stakes are highest. Independent, peer-
-
-reviewed research from Carnegie Mellon studying 807 open source projects found that AI agent
-
-adoption caused a persistent 30% increase in code analysis warnings and a 41% increase in complexity
-
-— with long-term development velocity declining as a result. Agents don't just write code faster,
-
-they accumulate debt faster, too. The answer is not to slow agents down, it's to govern and refine
-
-the loop they operate inside. Sonar's Agent Centric Development Cycle (AC/DC), defines that loop
-
-across three continuous stages: guide agents with project-specific context and constraints before a
-
-single line is written; verify rigorously and continuously inside the loop, not downstream in CI;
-
-and solve issues automatically before they ever reach a manual review. The deeper insight is that
-
-this is not primarily a security story. It's an efficiency story. Codebases riddled with complexity
-
-make agents slower, less reliable, and significantly more expensive to run. Every token spent
-
-navigating legacy debt is a tax on every future agent run. Well-maintained, low-complexity codebases
-
-mean fewer failures, fewer tokens, and faster iteration. The teams that instrument this loop now
-
-will do more than ship safely: they'll compound their advantage every time an agent touches their
-
-codebase. Verification isn't a cost center. In an agentic world, it's a competitive moat.
+Agentic development is not a productivity story: it's a reliability engineering problem at a scale most teams have never faced. Long-running agent tasks fail at alarming rates, pull requests have grown from 50 lines to 5,000, and cognitive surrender is real—the more capable AI output appears, the less humans interrogate it, right at the moment the stakes are highest. Independent, peer-reviewed research from Carnegie Mellon studying 807 open source projects found that AI agent adoption caused a persistent 30% increase in code analysis warnings and a 41% increase in complexity — with long-term development velocity declining as a result. Agents don't just write code faster, they accumulate debt faster, too. The answer is not to slow agents down, it's to govern and refine the loop they operate inside. Sonar's Agent Centric Development Cycle (AC/DC), defines that loop across three continuous stages: guide agents with project-specific context and constraints before a single line is written; verify rigorously and continuously inside the loop, not downstream in CI; and solve issues automatically before they ever reach a manual review. The deeper insight is that this is not primarily a security story. It's an efficiency story. Codebases riddled with complexity make agents slower, less reliable, and significantly more expensive to run. Every token spent navigating legacy debt is a tax on every future agent run. Well-maintained, low-complexity codebases mean fewer failures, fewer tokens, and faster iteration. The teams that instrument this loop now will do more than ship safely: they'll compound their advantage every time an agent touches their codebase. Verification isn't a cost center. In an agentic world, it's a competitive moat.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

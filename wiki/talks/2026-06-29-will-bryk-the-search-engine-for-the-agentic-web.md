@@ -37,27 +37,7 @@ Taken together, the page frames agentic search as an evaluation and systems-desi
 - Status: confirmed
 
 ## Official Description
-Every search API claiming to be "built for AI" is actually Google with a wrapper. That's a problem,
-
-because AI agents don't search like humans. A human waits 1 second for a result. An agent making 50
-
-sequential searches at 1 second each creates a 50-second lag. That kills the product. And latency is
-
-just one dimension: agents need semantic precision, structured outputs, and a range that spans
-
-sub-200ms real-time retrieval all the way to multi-step deep research. No human-facing search engine
-
-was ever designed to do that. Will Bryk, CEO of Exa, shares what he learned building a search engine
-
-from scratch for AI. He'll cover the architectural decisions behind Exa's latency spectrum, what
-
-real usage patterns look like across companies like Cursor, Notion, HubSpot, and Lovable, and why
-
-the benchmarks the field relies on today are dangerously inadequate for evaluating agentic search.
-
-The bigger argument: search is becoming the most critical primitive in AI infrastructure, and almost
-
-no one is building it right.
+Every search API claiming to be "built for AI" is actually Google with a wrapper. That's a problem, because AI agents don't search like humans. A human waits 1 second for a result. An agent making 50 sequential searches at 1 second each creates a 50-second lag. That kills the product. And latency is just one dimension: agents need semantic precision, structured outputs, and a range that spans sub-200ms real-time retrieval all the way to multi-step deep research. No human-facing search engine was ever designed to do that. Will Bryk, CEO of Exa, shares what he learned building a search engine from scratch for AI. He'll cover the architectural decisions behind Exa's latency spectrum, what real usage patterns look like across companies like Cursor, Notion, HubSpot, and Lovable, and why the benchmarks the field relies on today are dangerously inadequate for evaluating agentic search. The bigger argument: search is becoming the most critical primitive in AI infrastructure, and almost no one is building it right.
 
 ## Related YouTube Video
 [Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai](https://www.youtube.com/watch?v=xnXqpUW_Kp8) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

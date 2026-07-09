@@ -26,25 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents increasingly generate and revise workflows at runtime instead of following control flow
-
-written in advance. That breaks a common assumption of durable execution: that the workflow graph is
-
-known when the system is deployed. How do you safely run and recover a program that did not exist
-
-until an agent created it?   This talk shows how Conductor provide a durable harness for dynamic
-
-workflows. Connecting existing agent frameworks to Conductor without requiring developers to rewrite
-
-their agent logic. Conductor executes the generated plan as an inspectable workflow with durability,
-
-parallelism, retries, human approvals, MCP tool calls and policy enforcement.   We will demonstrate
-
-an agent creating a workflow, executing part of it, and replanning the remainder as conditions
-
-change while preserving completed work and using idempotency and saga compensation to manage side
-
-effects safely.   The agent owns the plan. The harness owns the guarantees.
+Agents increasingly generate and revise workflows at runtime instead of following control flow written in advance. That breaks a common assumption of durable execution: that the workflow graph is known when the system is deployed. How do you safely run and recover a program that did not exist until an agent created it? This talk shows how Conductor provide a durable harness for dynamic workflows. Connecting existing agent frameworks to Conductor without requiring developers to rewrite their agent logic. Conductor executes the generated plan as an inspectable workflow with durability, parallelism, retries, human approvals, MCP tool calls and policy enforcement. We will demonstrate an agent creating a workflow, executing part of it, and replanning the remainder as conditions change while preserving completed work and using idempotency and saga compensation to manage side effects safely. The agent owns the plan. The harness owns the guarantees.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

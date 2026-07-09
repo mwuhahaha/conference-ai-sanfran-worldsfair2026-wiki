@@ -26,37 +26,7 @@ scheduleLabels: ["Track 6", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every long agent session eventually breaks: the assistant that swore it would "never push to main"
-
-does exactly that forty turns later. The model didn't get dumber — its context did. This workshop is
-
-about engineering the context window so that stops happening, shown with Towards AI's open-source AI
-
-tutor, which answers questions for students of our AI-engineering courses. Context engineering is
-
-deciding what the model sees on every single call — instructions, history, retrieved course content,
-
-memory, and tool outputs — and it's the line between a tutor that holds a coherent session and one
-
-that forgets the student's setup halfway through. We'll move in three stages, mirroring how the
-
-project actually went. The concepts: the two root problems (a finite window, a stateless model), the
-
-full compaction toolkit (truncation, trimming, tool-result clearing, summarization, and offloading
-
-to files — and when each actually helps), memory that survives across sessions, skills loaded on
-
-demand, and production-grade retrieval (chunking, metadata, course scoping, hybrid search,
-
-reranking, and evaluating). We'll cover the tutor's architecture, and the evaluation harness we used
-
-to measure every run on Gemini — tokens, cost, latency, and memory probes instead of vibe-checks. At
-
-real volume, even Gemini Flash got expensive, so we tested whether open and local models could match
-
-the quality for a fraction of the cost and match result quality. Everything is open-source and will
-
-be shared during the workshop.
+Every long agent session eventually breaks: the assistant that swore it would "never push to main" does exactly that forty turns later. The model didn't get dumber — its context did. This workshop is about engineering the context window so that stops happening, shown with Towards AI's open-source AI tutor, which answers questions for students of our AI-engineering courses. Context engineering is deciding what the model sees on every single call — instructions, history, retrieved course content, memory, and tool outputs — and it's the line between a tutor that holds a coherent session and one that forgets the student's setup halfway through. We'll move in three stages, mirroring how the project actually went. The concepts: the two root problems (a finite window, a stateless model), the full compaction toolkit (truncation, trimming, tool-result clearing, summarization, and offloading to files — and when each actually helps), memory that survives across sessions, skills loaded on demand, and production-grade retrieval (chunking, metadata, course scoping, hybrid search, reranking, and evaluating). We'll cover the tutor's architecture, and the evaluation harness we used to measure every run on Gemini — tokens, cost, latency, and memory probes instead of vibe-checks. At real volume, even Gemini Flash got expensive, so we tested whether open and local models could match the quality for a fraction of the cost and match result quality. Everything is open-source and will be shared during the workshop.
 
 ## Related YouTube Video
 [Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI](https://www.youtube.com/watch?v=ZRM_TfEZcIo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

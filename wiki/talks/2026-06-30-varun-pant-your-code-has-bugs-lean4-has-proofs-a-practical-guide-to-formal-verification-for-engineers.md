@@ -26,13 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-AI is generating more of your code than ever — how do you prove it doesn't ship bugs? Lean is a
-
-theorem prover that's also a programming language, and it's quietly becoming practical for verifying
-
-real software. In this talk, I'll show you how formal verification works — some examples of proof
-
-tactics, and a practical framework for when to verify vs. test
+AI is generating more of your code than ever — how do you prove it doesn't ship bugs? Lean is a theorem prover that's also a programming language, and it's quietly becoming practical for verifying real software. In this talk, I'll show you how formal verification works — some examples of proof tactics, and a practical framework for when to verify vs. test
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

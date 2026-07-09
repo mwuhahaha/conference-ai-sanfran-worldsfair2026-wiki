@@ -26,17 +26,7 @@ scheduleLabels: ["Claws & Personal Agents", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Everyone says cascaded voice pipelines are dead and native speech models are the future. Yet
-
-production environments are still dominated by STT-LLM-TTS stacks. Reconciling the natural flow of
-
-native audio with the elite reasoning of a cascaded agent remains an unsolved systems problem. This
-
-talk dissects the brutal technical trade-offs behind that counterintuitive reality. We will break
-
-down why your voice agent is still stuck behaving like a walkie-talkie and map out the specific
-
-technical roadmap required to build full-duplex AI that actually works.
+Everyone says cascaded voice pipelines are dead and native speech models are the future. Yet production environments are still dominated by STT-LLM-TTS stacks. Reconciling the natural flow of native audio with the elite reasoning of a cascaded agent remains an unsolved systems problem. This talk dissects the brutal technical trade-offs behind that counterintuitive reality. We will break down why your voice agent is still stuck behaving like a walkie-talkie and map out the specific technical roadmap required to build full-duplex AI that actually works.
 
 ## Related YouTube Video
 [Voice AI: when is the "Her" moment? — Neil Zeghidour, CEO, Gradium AI](https://www.youtube.com/watch?v=P_RI1kCkRbo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

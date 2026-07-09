@@ -26,17 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Ramp built its own 0→1 revenue stack in-house — Ramp Revenue — with one mandate: build the most
-
-efficient GTM org in the world. Arman Vaziri breaks down the building blocks: a customer data
-
-platform that chews through millions of internal, external, and CRM records daily, and a unified
-
-action layer with agents embedded directly in seller workflows. The payoff — reps stop hopping
-
-between dozens of systems just to figure out who to reach and what to say, and 80%+ of Ramp's sales
-
-workflows now run on it. A look at the architecture behind orchestrating GTM at scale.
+Ramp built its own 0→1 revenue stack in-house — Ramp Revenue — with one mandate: build the most efficient GTM org in the world. Arman Vaziri breaks down the building blocks: a customer data platform that chews through millions of internal, external, and CRM records daily, and a unified action layer with agents embedded directly in seller workflows. The payoff — reps stop hopping between dozens of systems just to figure out who to reach and what to say, and 80%+ of Ramp's sales workflows now run on it. A look at the architecture behind orchestrating GTM at scale.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

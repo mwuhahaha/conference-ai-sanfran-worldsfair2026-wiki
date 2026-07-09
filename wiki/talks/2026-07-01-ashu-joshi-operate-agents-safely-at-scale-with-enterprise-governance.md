@@ -26,9 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-As adoption grows, governance becomes critical. Learn how to manage identity, compliance, and
-
-lifecycle for agent systems at enterprise scale.
+As adoption grows, governance becomes critical. Learn how to manage identity, compliance, and lifecycle for agent systems at enterprise scale.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

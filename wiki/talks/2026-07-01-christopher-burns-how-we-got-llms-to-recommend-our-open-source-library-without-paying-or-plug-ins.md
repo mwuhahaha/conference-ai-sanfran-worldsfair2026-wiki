@@ -26,21 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Over the past year, we’ve seen a new distribution channel emerge: AI assistants. Instead of SEO,
-
-ads, or integrations, developers are discovering tools through models like Claude. In this talk,
-
-I’ll break down how we got our open source library recommended organically by LLMs in under a year,
-
-without plugins, paid placements, or partnerships. We’ll cover what actually influences model
-
-outputs today, how developer-first products behave differently in this channel, and the practical
-
-steps we took to make our project show up when it matters. This is not theory. It’s a real case
-
-study of how distribution is changing, and how you can design your product and content to be picked
-
-up by AI systems directly.
+Over the past year, we’ve seen a new distribution channel emerge: AI assistants. Instead of SEO, ads, or integrations, developers are discovering tools through models like Claude. In this talk, I’ll break down how we got our open source library recommended organically by LLMs in under a year, without plugins, paid placements, or partnerships. We’ll cover what actually influences model outputs today, how developer-first products behave differently in this channel, and the practical steps we took to make our project show up when it matters. This is not theory. It’s a real case study of how distribution is changing, and how you can design your product and content to be picked up by AI systems directly.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,15 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Notion's go-to-market runs on a system, not a roster of heroes. Flora Liu walks through the building
-
-blocks of human–AI collaboration behind Notion's GTM: the design principles that decide what AI owns
-
-and what stays human, the failures that taught them where that line belongs, and why the wins that
-
-matter most — faster delivery, real adoption — never show up on a revenue chart. An honest look at
-
-what actually works, from the team building it.
+Notion's go-to-market runs on a system, not a roster of heroes. Flora Liu walks through the building blocks of human–AI collaboration behind Notion's GTM: the design principles that decide what AI owns and what stays human, the failures that taught them where that line belongs, and why the wins that matter most — faster delivery, real adoption — never show up on a revenue chart. An honest look at what actually works, from the team building it.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

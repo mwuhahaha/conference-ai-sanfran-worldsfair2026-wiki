@@ -26,17 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-"Agent quality in VS Code depends on a stack of variables: model, version, prompts, extensions, MCP
-
-servers, and more. Each one affects quality, tokens, and latency—and they interact in ways that are
-
-hard to reason about.  In this session, we’ll show how to benchmark different configurations using
-
-VSC-Bench so you can compare results side by side and understand what actually works. Instead of
-
-guessing which setup is better, you’ll learn how to measure tradeoffs and make data-driven
-
-decisions."
+"Agent quality in VS Code depends on a stack of variables: model, version, prompts, extensions, MCP servers, and more. Each one affects quality, tokens, and latency—and they interact in ways that are hard to reason about. In this session, we’ll show how to benchmark different configurations using VSC-Bench so you can compare results side by side and understand what actually works. Instead of guessing which setup is better, you’ll learn how to measure tradeoffs and make data-driven decisions."
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

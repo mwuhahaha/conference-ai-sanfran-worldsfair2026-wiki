@@ -26,27 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 4", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Frontier labs are releasing new models constantly, and it is hard to know when “better” is better
-
-enough to justify touching a working system. On top of that, “just swap the model” often turns into
-
-real work because providers expose different APIs and different expectations around tools and
-
-structured outputs. The model swap workshop is a hands-on bake-off across frontier LLMs. We will run
-
-the same scenarios using multiple models (OpenAI, Anthropic, Kimi, and more) and compare results
-
-side by side for agentic tool use, structured outputs, and multimodal tasks. Swapping models is not
-
-just changing a model name. In this workshop, you will actually do the swaps, including moving
-
-between OpenAI-style Responses APIs and Anthropic-style Messages APIs, then see what breaks and what
-
-needs to change in your prompts, tool definitions, and JSON strategies. We will finish by running a
-
-small eval suite so you can quantify tradeoffs instead of relying on vibes. We will provide the
-
-Microsoft Foundry environment for access to the models, no account needed.
+Frontier labs are releasing new models constantly, and it is hard to know when “better” is better enough to justify touching a working system. On top of that, “just swap the model” often turns into real work because providers expose different APIs and different expectations around tools and structured outputs. The model swap workshop is a hands-on bake-off across frontier LLMs. We will run the same scenarios using multiple models (OpenAI, Anthropic, Kimi, and more) and compare results side by side for agentic tool use, structured outputs, and multimodal tasks. Swapping models is not just changing a model name. In this workshop, you will actually do the swaps, including moving between OpenAI-style Responses APIs and Anthropic-style Messages APIs, then see what breaks and what needs to change in your prompts, tool definitions, and JSON strategies. We will finish by running a small eval suite so you can quantify tradeoffs instead of relying on vibes. We will provide the Microsoft Foundry environment for access to the models, no account needed.
 
 ## Related YouTube Video
 [Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner](https://www.youtube.com/watch?v=1t-9-s1brcg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

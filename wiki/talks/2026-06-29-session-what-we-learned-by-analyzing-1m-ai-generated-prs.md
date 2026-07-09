@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Background coding agents are quickly moving from novelty to real-world software development
-
-workflows. Based on Greptile’s analysis of millions of pull requests across 65,000 organizations,
-
-this talk explores how often end-to-end AI-generated Pr's are being used and how their quality
-
-compares to human-written code. The data shows detectable agent-generated Pr's grew from under 1% in
-
-February 2025 to 27.6% in April 2026, with early quality signals like revert rates and code churn
-
-suggesting these agents may already be competitive in serious codebases.
+Background coding agents are quickly moving from novelty to real-world software development workflows. Based on Greptile’s analysis of millions of pull requests across 65,000 organizations, this talk explores how often end-to-end AI-generated Pr's are being used and how their quality compares to human-written code. The data shows detectable agent-generated Pr's grew from under 1% in February 2025 to 27.6% in April 2026, with early quality signals like revert rates and code churn suggesting these agents may already be competitive in serious codebases.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

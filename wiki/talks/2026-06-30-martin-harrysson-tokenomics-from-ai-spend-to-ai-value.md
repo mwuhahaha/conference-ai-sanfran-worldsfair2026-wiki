@@ -26,13 +26,7 @@ scheduleLabels: ["CTO Circle", "Leadership Lounge", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-*Facilitated, peer-to-peer, under the Chatham House Rule — not recorded.*  As enterprise AI adoption
-
-accelerates, token spend is scaling faster than value realization. We address i) how to make
-
-decisions amid unclear cost and value dynamics, ii) how to shift from token-level to workflow-level
-
-analysis, and iii) how to manage downstream behavior implications on AI usage.
+*Facilitated, peer-to-peer, under the Chatham House Rule — not recorded.* As enterprise AI adoption accelerates, token spend is scaling faster than value realization. We address i) how to make decisions amid unclear cost and value dynamics, ii) how to shift from token-level to workflow-level analysis, and iii) how to manage downstream behavior implications on AI usage.
 
 ## Related YouTube Video
 [Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company](https://www.youtube.com/watch?v=SZStlIhyTCY) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

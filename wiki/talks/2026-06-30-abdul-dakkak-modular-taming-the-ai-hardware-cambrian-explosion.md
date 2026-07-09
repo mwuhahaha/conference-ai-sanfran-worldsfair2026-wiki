@@ -35,33 +35,7 @@ The talk's evidence layer is still schedule-only in this clean wiki: no exact AI
 - Status: confirmed
 
 ## Official Description
-AI teams are hitting the same wall: the workloads they want to run require more hardware than they
-
-can reliably access. Buying more GPUs is not always possible, and rewriting kernels for every vendor
-
-is not sustainable. Meanwhile, models keep growing, SLAs keep tightening, workloads keep
-
-diversifying, and modalities keep multiplying. Modular has two answers: squeeze more performance out
-
-of the hardware you already have, and unlock far greater hardware diversity. We'll ground the talk
-
-in benchmark data and show how the Modular platform delivers 10x lower latency on image and video
-
-models like FLUX2 and 5.5x higher throughput on MoE models like Kimi K2.5, both over the state of
-
-the art. This talk explains how Modular is rebuilding the inference stack for performance
-
-portability. We'll demonstrate how Mojo kernels, the MAX compiler and runtime, and Modular Cloud
-
-work together to optimize GenAI workloads from model graph to hardware execution across NVIDIA, AMD,
-
-Apple Silicon, and CPU deployments. Along the way, we'll cover the bottlenecks that dominate
-
-production inference: memory movement, batching, KV-cache layout, quantization, scheduling, and
-
-kernel specialization. Using examples from LLM serving, we'll reveal which optimizations matter,
-
-where abstractions leak, and how to reason about performance portability in real deployments.
+AI teams are hitting the same wall: the workloads they want to run require more hardware than they can reliably access. Buying more GPUs is not always possible, and rewriting kernels for every vendor is not sustainable. Meanwhile, models keep growing, SLAs keep tightening, workloads keep diversifying, and modalities keep multiplying. Modular has two answers: squeeze more performance out of the hardware you already have, and unlock far greater hardware diversity. We'll ground the talk in benchmark data and show how the Modular platform delivers 10x lower latency on image and video models like FLUX2 and 5.5x higher throughput on MoE models like Kimi K2.5, both over the state of the art. This talk explains how Modular is rebuilding the inference stack for performance portability. We'll demonstrate how Mojo kernels, the MAX compiler and runtime, and Modular Cloud work together to optimize GenAI workloads from model graph to hardware execution across NVIDIA, AMD, Apple Silicon, and CPU deployments. Along the way, we'll cover the bottlenecks that dominate production inference: memory movement, batching, KV-cache layout, quantization, scheduling, and kernel specialization. Using examples from LLM serving, we'll reveal which optimizations matter, where abstractions leak, and how to reason about performance portability in real deployments.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

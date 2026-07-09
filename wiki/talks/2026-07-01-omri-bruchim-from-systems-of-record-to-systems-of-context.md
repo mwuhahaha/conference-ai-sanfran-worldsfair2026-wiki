@@ -26,41 +26,7 @@ scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Enterprise AI agents are moving fast, but most of them still hit the same wall in production: they
-
-have access to tools, documents, APIs, and databases, but they do not understand the real context of
-
-how work gets done. At monday.com, we are building agents that operate across real customer
-
-workflows, internal product surfaces, knowledge, permissions, memory, and actions. The hard part is
-
-not just calling the right tool or retrieving the right document. The hard part is building a
-
-reliable context layer that helps agents understand users, work objects, organizational knowledge,
-
-prior decisions, business rules, and the relationships between them. This talk will explore the
-
-emerging idea of the context graph: a living, queryable layer that connects entities, history,
-
-permissions, decisions, and meaning across an organization. Foundation Capital describes context
-
-graphs as the next major enterprise AI opportunity because agents need more than rules. They need
-
-decision traces: how rules were applied, where exceptions were made, who approved what, and what
-
-precedent actually governs reality. I will share how we think about this opportunity at monday.com,
-
-how we are implementing parts of it in practice, and what we have learned from building AI agents
-
-inside a real AI work platform. The talk will include concrete examples, including how context is
-
-collected, represented, retrieved, governed, and evaluated. The audience will leave with a practical
-
-framework for moving beyond one-off RAG pipelines and prompt stuffing toward a reusable context
-
-layer that compounds over time, improves agent quality, and becomes a strategic moat for companies
-
-building AI-native products.
+Enterprise AI agents are moving fast, but most of them still hit the same wall in production: they have access to tools, documents, APIs, and databases, but they do not understand the real context of how work gets done. At monday.com, we are building agents that operate across real customer workflows, internal product surfaces, knowledge, permissions, memory, and actions. The hard part is not just calling the right tool or retrieving the right document. The hard part is building a reliable context layer that helps agents understand users, work objects, organizational knowledge, prior decisions, business rules, and the relationships between them. This talk will explore the emerging idea of the context graph: a living, queryable layer that connects entities, history, permissions, decisions, and meaning across an organization. Foundation Capital describes context graphs as the next major enterprise AI opportunity because agents need more than rules. They need decision traces: how rules were applied, where exceptions were made, who approved what, and what precedent actually governs reality. I will share how we think about this opportunity at monday.com, how we are implementing parts of it in practice, and what we have learned from building AI agents inside a real AI work platform. The talk will include concrete examples, including how context is collected, represented, retrieved, governed, and evaluated. The audience will leave with a practical framework for moving beyond one-off RAG pipelines and prompt stuffing toward a reusable context layer that compounds over time, improves agent quality, and becomes a strategic moat for companies building AI-native products.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

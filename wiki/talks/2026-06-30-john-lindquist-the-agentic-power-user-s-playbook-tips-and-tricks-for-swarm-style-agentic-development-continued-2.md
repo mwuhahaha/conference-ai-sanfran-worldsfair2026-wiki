@@ -26,23 +26,7 @@ scheduleLabels: ["Workshops Day 3", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-You opened a fifth agent tab this morning and immediately lost track of which one was doing what.
-
-This workshop is the playbook I use daily to run swarms of agents in parallel: the keyboard
-
-shortcuts, layout patterns, supervision habits, and fast-model tricks that turn chaos into a control
-
-surface. We'll go hands-on: spawning a wall of agents across tiled panes, routing prompts to the
-
-right swarm with fast models, switching contexts in milliseconds, recovering when an agent goes off
-
-the rails, and building the muscle memory that separates a one-agent-at-a-time user from a true
-
-power user. By the end you'll leave with a stocked toolbelt of concrete shortcuts, repeatable
-
-patterns, and workspace habits you can drop into your own setup the same day. No cloud, no platform
-
-lock-in: every trick runs on the machine in front of you.
+You opened a fifth agent tab this morning and immediately lost track of which one was doing what. This workshop is the playbook I use daily to run swarms of agents in parallel: the keyboard shortcuts, layout patterns, supervision habits, and fast-model tricks that turn chaos into a control surface. We'll go hands-on: spawning a wall of agents across tiled panes, routing prompts to the right swarm with fast models, switching contexts in milliseconds, recovering when an agent goes off the rails, and building the muscle memory that separates a one-agent-at-a-time user from a true power user. By the end you'll leave with a stocked toolbelt of concrete shortcuts, repeatable patterns, and workspace habits you can drop into your own setup the same day. No cloud, no platform lock-in: every trick runs on the machine in front of you.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

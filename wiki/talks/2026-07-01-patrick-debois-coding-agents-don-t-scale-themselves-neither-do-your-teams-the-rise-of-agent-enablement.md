@@ -26,35 +26,7 @@ scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "conf
 - Status: confirmed
 
 ## Official Description
-Every company wants to know how others are actually scaling AI coding. But it's hard to get past the
-
-generic transformation stories. What are the new practices showing up in real engineering orgs? What
-
-does maturity actually look like, and what separates teams that are moving from teams that are
-
-stuck? What are the patterns for enabling humans and agents, together? Patrick Debois has been
-
-collecting the practices and patterns, talking to the early Agent Enablement teams already on the
-
-job, team leads, and VPs of Engineering. What's showing up is a new function: a team that enables
-
-other teams to get real leverage out of their agents. This talk takes the [Context Development
-
-Lifecycle](https://tessl.io/blog/context-development-lifecycle-better-context-for-ai-coding-agents/)
-
-off the individual laptop and onto the org chart, grouped across three pillars: - **Enablement.**
-
-From individual experimentation to team and org-level fluency with agents. - **Platform.** Agent
-
-tooling that runs like a real delivery pipeline: fast, observable, cost-aware. - **Governance.** Ad-
-
-hoc guardrails growing into real evaluation, telemetry, and accountable agent work. For Agent
-
-Enablement leaders scaling it out across the org. For team leads looking to help their teams get
-
-better at this. For VPs ready to unblock the friction and unlock what agents can actually do.
-
-*Coding agents don't scale themselves. This is the talk about who does*
+Every company wants to know how others are actually scaling AI coding. But it's hard to get past the generic transformation stories. What are the new practices showing up in real engineering orgs? What does maturity actually look like, and what separates teams that are moving from teams that are stuck? What are the patterns for enabling humans and agents, together? Patrick Debois has been collecting the practices and patterns, talking to the early Agent Enablement teams already on the job, team leads, and VPs of Engineering. What's showing up is a new function: a team that enables other teams to get real leverage out of their agents. This talk takes the [Context Development Lifecycle](https://tessl.io/blog/context-development-lifecycle-better-context-for-ai-coding-agents/) off the individual laptop and onto the org chart, grouped across three pillars: - **Enablement.** From individual experimentation to team and org-level fluency with agents. - **Platform.** Agent tooling that runs like a real delivery pipeline: fast, observable, cost-aware. - **Governance.** Ad-hoc guardrails growing into real evaluation, telemetry, and accountable agent work. For Agent Enablement leaders scaling it out across the org. For team leads looking to help their teams get better at this. For VPs ready to unblock the friction and unlock what agents can actually do. *Coding agents don't scale themselves. This is the talk about who does*
 
 ## Related YouTube Video
 [Context Is the New Code — Patrick Debois, Tessl](https://www.youtube.com/watch?v=bSG9wUYaHWU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

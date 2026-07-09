@@ -26,21 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-In the leading engineering organizations, a single engineer now supervises teams of agents,
-
-migrations scoped for years close in weeks, and code review has become the tightest constraint in
-
-the system. The teams pulling ahead are operating a software factory: an integrated system of agents
-
-that share context across the entire SDLC. This session is a field guide to that operating model and
-
-how it runs at scale: what each stage looks like in practice, what shifts for engineers as they move
-
-from writing code to stewarding the system, and the hard truths that decide whether a factory
-
-compounds, starting with why the infrastructure you built for humans sets the ceiling on what agents
-
-can do.
+In the leading engineering organizations, a single engineer now supervises teams of agents, migrations scoped for years close in weeks, and code review has become the tightest constraint in the system. The teams pulling ahead are operating a software factory: an integrated system of agents that share context across the entire SDLC. This session is a field guide to that operating model and how it runs at scale: what each stage looks like in practice, what shifts for engineers as they move from writing code to stewarding the system, and the hard truths that decide whether a factory compounds, starting with why the infrastructure you built for humans sets the ceiling on what agents can do.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

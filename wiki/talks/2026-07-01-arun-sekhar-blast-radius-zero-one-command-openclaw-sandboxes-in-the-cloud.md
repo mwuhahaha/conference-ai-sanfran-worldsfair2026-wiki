@@ -26,15 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-You already run OpenClaw locally, sandboxed in MXC. Now you need the same agent in the cloud for
-
-dev/test, reachable from Teams on your phone, without handing over the keys to the kingdom. This
-
-session shows a simple, one‑command path to do all of this: an isolated Container Apps sandbox
-
-running an OpenClaw image, calling Azure OpenAI in Foundry Models securely without keys over the
-
-standard OpenAI API, scaling to zero when idle.
+You already run OpenClaw locally, sandboxed in MXC. Now you need the same agent in the cloud for dev/test, reachable from Teams on your phone, without handing over the keys to the kingdom. This session shows a simple, one‑command path to do all of this: an isolated Container Apps sandbox running an OpenClaw image, calling Azure OpenAI in Foundry Models securely without keys over the standard OpenAI API, scaling to zero when idle.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

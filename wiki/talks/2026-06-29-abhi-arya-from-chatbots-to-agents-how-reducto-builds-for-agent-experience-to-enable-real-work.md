@@ -26,25 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Many agent demos work. Most agent systems in production don't. The gap usually isn't the model or
-
-the tools. It's everything in between: how context gets structured, how multi-step tasks stay on
-
-track, how you handle the edge cases that only show up when real scenarios from real customers hit
-
-your pipeline. At https://reducto.ai/, we've spent the last couple of months building agent-first
-
-workflows for some of the most document-heavy industries out there. We've hit most of the failure
-
-modes you're probably hitting too. This talk shares what we've learned, from how to think about
-
-Agent Experience (AX) as a design layer, to the specific decisions that make complex workflows
-
-actually reliable in production. You'll walk away with tactical approaches to structuring context,
-
-model guidance, designing recoverable workflows, and building the feedback loops that let your
-
-system improve over time without a full rebuild.
+Many agent demos work. Most agent systems in production don't. The gap usually isn't the model or the tools. It's everything in between: how context gets structured, how multi-step tasks stay on track, how you handle the edge cases that only show up when real scenarios from real customers hit your pipeline. At https://reducto.ai/, we've spent the last couple of months building agent-first workflows for some of the most document-heavy industries out there. We've hit most of the failure modes you're probably hitting too. This talk shares what we've learned, from how to think about Agent Experience (AX) as a design layer, to the specific decisions that make complex workflows actually reliable in production. You'll walk away with tactical approaches to structuring context, model guidance, designing recoverable workflows, and building the feedback loops that let your system improve over time without a full rebuild.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

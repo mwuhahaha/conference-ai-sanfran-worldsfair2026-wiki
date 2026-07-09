@@ -26,17 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 8", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agentic coding workloads demand long contexts, multi-turn conversations, and throughput at a scale
-
-that most inference engines weren't built for. TokenSpeed is a new open-source engine purpose-built
-
-for this regime, built collaboratively by NVIDIA DevTech, AMD Triton, Qwen Inference, Together AI,
-
-and others. In this 2-hour hands-on workshop, Together Inference Research Engineers and a TokenSpeed
-
-co-creator will cover TokenSpeed architecture, deploying your first model, optimizing for agentic
-
-workloads, kernel and hardware tuning, and throughput/latency trade-offs.
+Agentic coding workloads demand long contexts, multi-turn conversations, and throughput at a scale that most inference engines weren't built for. TokenSpeed is a new open-source engine purpose-built for this regime, built collaboratively by NVIDIA DevTech, AMD Triton, Qwen Inference, Together AI, and others. In this 2-hour hands-on workshop, Together Inference Research Engineers and a TokenSpeed co-creator will cover TokenSpeed architecture, deploying your first model, optimizing for agentic workloads, kernel and hardware tuning, and throughput/latency trade-offs.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

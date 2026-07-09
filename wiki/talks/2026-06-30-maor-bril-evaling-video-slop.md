@@ -26,37 +26,7 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Everyone is shipping video models. Almost no one is evaling them honestly. CLIP score doesn't catch
-
-temporal incoherence. Vibes-based human review doesn't scale. And every "AI judge" you wire up will
-
-quietly drift away from human preference unless you measure the drift. This is a tactical talk on
-
-building real multimodal eval, using JudgeJudy (open-sourced at Character.ai) as the working
-
-example. You'll leave with: Why video is different from text. Temporal consistency, shot continuity,
-
-narrative coherence, and the metrics that actually capture each (clip_temporal,
-
-temporal_consistency, and friends). AI judges, the real version. Custom rubrics, when they work,
-
-when they hallucinate, when they collapse to a single dimension and pretend they didn't. The
-
-calibration loop. Pearson/Spearman correlation against human scores, automated rubric improvement,
-
-detecting systematic judge bias before it costs you a release. Pairwise preference models for video.
-
-Training a Qwen3-VL backbone with Bradley-Terry loss to score "is this slop?" before it ships.
-
-Regression gates in CI. How every AgentX release at Character.ai passes through an eval wall before
-
-it reaches users. Closing the loop with JudgeJudy. Correlating eval scores against real telemetry
-
-(Amplitude, Statsig) and feeding validated gates back into the runtime. If you're shipping any
-
-multimodal output and your eval strategy is still "the team watches some clips on Friday," this is
-
-the upgrade. github.com/character-ai/judgejudy
+Everyone is shipping video models. Almost no one is evaling them honestly. CLIP score doesn't catch temporal incoherence. Vibes-based human review doesn't scale. And every "AI judge" you wire up will quietly drift away from human preference unless you measure the drift. This is a tactical talk on building real multimodal eval, using JudgeJudy (open-sourced at Character.ai) as the working example. You'll leave with: Why video is different from text. Temporal consistency, shot continuity, narrative coherence, and the metrics that actually capture each (clip_temporal, temporal_consistency, and friends). AI judges, the real version. Custom rubrics, when they work, when they hallucinate, when they collapse to a single dimension and pretend they didn't. The calibration loop. Pearson/Spearman correlation against human scores, automated rubric improvement, detecting systematic judge bias before it costs you a release. Pairwise preference models for video. Training a Qwen3-VL backbone with Bradley-Terry loss to score "is this slop?" before it ships. Regression gates in CI. How every AgentX release at Character.ai passes through an eval wall before it reaches users. Closing the loop with JudgeJudy. Correlating eval scores against real telemetry (Amplitude, Statsig) and feeding validated gates back into the runtime. If you're shipping any multimodal output and your eval strategy is still "the team watches some clips on Friday," this is the upgrade. github.com/character-ai/judgejudy
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

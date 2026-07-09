@@ -26,23 +26,7 @@ scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every AI agent today is effectively stranded on the machine it runs on, reachable only through
-
-custom wrappers with no industry standard way in. This talk introduces work being done on the Agent
-
-Client Protocol to add a universal remote transport: a single /acp endpoint supporting both
-
-Streamable HTTP and WebSocket, deliberately aligned with MCP Streamable HTTP so the two protocols
-
-share an approach. When you pair ACP's remote transport with MCP's own Streamable HTTP support,
-
-something powerful emerges — the agent workload becomes location-independent, free to run on a
-
-laptop, a container, or a cloud VM while any client reaches in through open, interoperable
-
-standards. No more vendor lock-in on where your agent lives or who can talk to it. Come see how two
-
-open protocols, snapped together, become the universal remote control for agent i/o.
+Every AI agent today is effectively stranded on the machine it runs on, reachable only through custom wrappers with no industry standard way in. This talk introduces work being done on the Agent Client Protocol to add a universal remote transport: a single /acp endpoint supporting both Streamable HTTP and WebSocket, deliberately aligned with MCP Streamable HTTP so the two protocols share an approach. When you pair ACP's remote transport with MCP's own Streamable HTTP support, something powerful emerges — the agent workload becomes location-independent, free to run on a laptop, a container, or a cloud VM while any client reaches in through open, interoperable standards. No more vendor lock-in on where your agent lives or who can talk to it. Come see how two open protocols, snapped together, become the universal remote control for agent i/o.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

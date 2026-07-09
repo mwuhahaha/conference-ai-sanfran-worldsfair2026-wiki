@@ -26,13 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The future of AI inference is not one-size-fits-all. This talk explores a multi-tiered architecture
-
-that supports the full AI lifecycle, from rapid, pay-per-token experimentation to dedicated, SLO-
-
-bound production and extreme-scale, self-managed deployments. Learn about lessons learned from
-
-CoreWeave’s inference stack as performance, cost, and control requirements evolve.
+The future of AI inference is not one-size-fits-all. This talk explores a multi-tiered architecture that supports the full AI lifecycle, from rapid, pay-per-token experimentation to dedicated, SLO-bound production and extreme-scale, self-managed deployments. Learn about lessons learned from CoreWeave’s inference stack as performance, cost, and control requirements evolve.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

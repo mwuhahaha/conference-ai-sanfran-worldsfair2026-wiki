@@ -26,11 +26,7 @@ scheduleLabels: ["Software Factories", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-We analyzed >1M end-to-end AI generated PRs reviewed by Greptile to understand what types of bugs
-
-they tend to create and some strategies on mitigating them. For instance, did you know that Claude
-
-Code is nearly 3X more likely than Codex to introduce auth bypass vulnerabilities?
+We analyzed >1M end-to-end AI generated PRs reviewed by Greptile to understand what types of bugs they tend to create and some strategies on mitigating them. For instance, did you know that Claude Code is nearly 3X more likely than Codex to introduce auth bypass vulnerabilities?
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

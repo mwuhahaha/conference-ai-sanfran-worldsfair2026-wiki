@@ -33,17 +33,7 @@ Laurie Voss frames code review as a process built around human-authored diffs an
 - Status: confirmed
 
 ## Official Description
-Code review was built for a world where humans wrote all the code. Now, the question isn’t “does
-
-this diff look good?” — it’s “can this system safely ship code on its own?” This talk will show why
-
-and how traditional code review will quietly be replaced by automated verification harnesses. We’ll
-
-show how prompt learning can be used to clone your best internal code reviewers, turning their
-
-judgment into automated evaluation loops. We’ll also open source a code review training harness that
-
-captures review patterns and turns them into reusable checks for AI-generated code.
+Code review was built for a world where humans wrote all the code. Now, the question isn’t “does this diff look good?” — it’s “can this system safely ship code on its own?” This talk will show why and how traditional code review will quietly be replaced by automated verification harnesses. We’ll show how prompt learning can be used to clone your best internal code reviewers, turning their judgment into automated evaluation loops. We’ll also open source a code review training harness that captures review patterns and turns them into reusable checks for AI-generated code.
 
 ## Related YouTube Video
 [Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize](https://www.youtube.com/watch?v=Xfl50508LZM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

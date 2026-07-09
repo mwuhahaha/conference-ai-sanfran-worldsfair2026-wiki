@@ -26,9 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-DeepSWE and the data/eval layer behind coding agents; why curated expert code datasets matter for
-
-reliable agent performance.
+DeepSWE and the data/eval layer behind coding agents; why curated expert code datasets matter for reliable agent performance.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

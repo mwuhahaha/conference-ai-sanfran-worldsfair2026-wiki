@@ -26,21 +26,7 @@ scheduleLabels: ["Voice & Realtime AI", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Too many voice AI integrations still treat speech as fancier chat: audio in, audio out. But we're at
-
-a point where speech can be a control plane for software, and most developers are unaware that voice
-
-has become a capability overhang. Current realtime models can understand intent, call tools, speak
-
-while work is underway, recover from corrections, and decide what the user actually needs to hear.
-
-As a result, we're seeing three practical patterns emerge: voice-to-action, systems-to-voice, and
-
-voice-to-voice. We’ll show how each pattern changes the architecture, where Realtime 2’s reasoning
-
-and tool-calling matter, and why chained STT / LLM / TTS systems start to break down as the
-
-interaction patterns become richer.
+Too many voice AI integrations still treat speech as fancier chat: audio in, audio out. But we're at a point where speech can be a control plane for software, and most developers are unaware that voice has become a capability overhang. Current realtime models can understand intent, call tools, speak while work is underway, recover from corrections, and decide what the user actually needs to hear. As a result, we're seeing three practical patterns emerge: voice-to-action, systems-to-voice, and voice-to-voice. We’ll show how each pattern changes the architecture, where Realtime 2’s reasoning and tool-calling matter, and why chained STT / LLM / TTS systems start to break down as the interaction patterns become richer.
 
 ## Related YouTube Video
 [Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo](https://www.youtube.com/watch?v=dvft0Gp9sEE) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

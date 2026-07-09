@@ -26,15 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Voice agents are one of the fastest-growing and hardest-to-debug categories: the failures live in
-
-latency, turn-taking, transcription drift, and tone none of which show up in a text log. We demo
-
-Voice traces and Session views, following a real voice session span by span, and Voice evals for
-
-scoring what text-only observability can't reach. A short, differentiated session on a problem most
-
-of the room is about to hit and few tools address.
+Voice agents are one of the fastest-growing and hardest-to-debug categories: the failures live in latency, turn-taking, transcription drift, and tone none of which show up in a text log. We demo Voice traces and Session views, following a real voice session span by span, and Voice evals for scoring what text-only observability can't reach. A short, differentiated session on a problem most of the room is about to hit and few tools address.
 
 ## Related YouTube Video
 [Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize](https://www.youtube.com/watch?v=SbcQYbrvAfI) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

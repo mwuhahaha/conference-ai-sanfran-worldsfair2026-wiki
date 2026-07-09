@@ -26,19 +26,7 @@ scheduleLabels: ["Sandbox & Platform Engineering", "Leadership 2", "session", "c
 - Status: confirmed
 
 ## Official Description
-It is Summer 2026 and the world is burning for token consumption—figuratively and literally.
-
-Accelerating frontier model capabilities increasingly allow agents to operate across long-running,
-
-highly parallelized tasks at exponential inference growth. In this talk, I explain how dynamic model
-
-routing—intelligently directing agent requests to the best-suited model at the best price—can reduce
-
-token costs by up to 90% while maintaining or improving accuracy. I walk through how routing works,
-
-when it doesn't, and why the world (and your agent) need routing to scale intelligence to infinity
-
-and beyond.
+It is Summer 2026 and the world is burning for token consumption—figuratively and literally. Accelerating frontier model capabilities increasingly allow agents to operate across long-running, highly parallelized tasks at exponential inference growth. In this talk, I explain how dynamic model routing—intelligently directing agent requests to the best-suited model at the best price—can reduce token costs by up to 90% while maintaining or improving accuracy. I walk through how routing works, when it doesn't, and why the world (and your agent) need routing to scale intelligence to infinity and beyond.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

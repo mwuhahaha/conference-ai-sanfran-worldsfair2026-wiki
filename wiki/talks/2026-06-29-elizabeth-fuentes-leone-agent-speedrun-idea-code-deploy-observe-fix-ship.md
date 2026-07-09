@@ -26,15 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-One agent. Fully deployed to production before the workshop ends. We'll take you from a blank file
-
-to a running production agent using Amazon Bedrock AgentCore and Strands Agents, covering the full
-
-lifecycle: ideation, coding the agent loop, deploying to serverless infrastructure, wiring up
-
-observability, breaking it intentionally, fixing it with tracing data, and shipping the final
-
-version. Bring your laptop and leave with a deployed agent.
+One agent. Fully deployed to production before the workshop ends. We'll take you from a blank file to a running production agent using Amazon Bedrock AgentCore and Strands Agents, covering the full lifecycle: ideation, coding the agent loop, deploying to serverless infrastructure, wiring up observability, breaking it intentionally, fixing it with tracing data, and shipping the final version. Bring your laptop and leave with a deployed agent.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -12,7 +12,6 @@ from __future__ import annotations
 import json
 import re
 import shutil
-import textwrap
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -79,6 +78,36 @@ def link_for(category: str, title: str) -> str:
 
 def md_label(value: str) -> str:
     return str(value or "").replace("[", "(").replace("]", ")").replace("|", "/")
+
+
+def format_official_description(description: str | None) -> str:
+    """Format schedule descriptions without introducing artificial paragraphs."""
+    if not description:
+        return "No official description published in the schedule data."
+    text = re.sub(r"\s+", " ", str(description)).strip()
+    if not text:
+        return "No official description published in the schedule data."
+    if " * " not in text:
+        return text
+
+    intro, *items = text.split(" * ")
+    lines = [intro.strip(), ""]
+    trailing_intro = re.compile(
+        r"\s+(?=(?:This talk|This session|This workshop|Join us|You will|You'll|We will|We'll|Learn how|By the end)\b)"
+    )
+    trailing = ""
+    for index, item in enumerate(items):
+        item = item.strip()
+        if index == len(items) - 1:
+            match = trailing_intro.search(item)
+            if match:
+                trailing = item[match.start() :].strip()
+                item = item[: match.start()].strip()
+        if item:
+            lines.append(f"- {item}")
+    if trailing:
+        lines.extend(["", trailing])
+    return "\n".join(lines).strip()
 
 
 def caption_label(status: dict | None) -> str:
@@ -216,8 +245,7 @@ def main() -> int:
                 f"[{md_label(video.get('youtube_title'))}]({video.get('youtube_url')}) "
                 f"({video.get('relationship', 'related video')}; captions: {caption_label(status)})."
             )
-        desc = session.get("description") or "No official description published in the schedule data."
-        desc = "\n\n".join(textwrap.wrap(desc.replace("\n", " "), width=100)) if desc else desc
+        desc = format_official_description(session.get("description"))
         body = [
             frontmatter(
                 {

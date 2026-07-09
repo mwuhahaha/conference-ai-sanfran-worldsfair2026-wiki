@@ -26,13 +26,7 @@ scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confir
 - Status: confirmed
 
 ## Official Description
-We’ve largely settled on what a coding agent is: a model working in a loop, calling tools. As a
-
-result, the hard part has moved. It’s no longer the agent loop, it’s the environment around it. This
-
-talk is about the real challenges of building fast-booting, reliable, reproducible environments for
-
-coding agents at scale.
+We’ve largely settled on what a coding agent is: a model working in a loop, calling tools. As a result, the hard part has moved. It’s no longer the agent loop, it’s the environment around it. This talk is about the real challenges of building fast-booting, reliable, reproducible environments for coding agents at scale.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

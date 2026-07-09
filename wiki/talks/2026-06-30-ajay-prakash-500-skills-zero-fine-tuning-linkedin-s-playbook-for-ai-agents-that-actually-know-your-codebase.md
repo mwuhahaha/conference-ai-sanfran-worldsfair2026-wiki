@@ -26,17 +26,7 @@ scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Everyone's building custom AI agents. We didn't. Instead, we built CAPTAIN — an MCP server that
-
-makes any off-the-shelf coding agent understand LinkedIn's entire engineering stack. The secret: a
-
-meta-tool architecture (discover → inspect → execute) and composable skills that encode tribal
-
-knowledge as executable workflows. 500+ skills later, it's used across all of LinkedIn engineering.
-
-I'll show you the architecture in 10 minutes and why context engineering beats model engineering
-
-every time.
+Everyone's building custom AI agents. We didn't. Instead, we built CAPTAIN — an MCP server that makes any off-the-shelf coding agent understand LinkedIn's entire engineering stack. The secret: a meta-tool architecture (discover → inspect → execute) and composable skills that encode tribal knowledge as executable workflows. 500+ skills later, it's used across all of LinkedIn engineering. I'll show you the architecture in 10 minutes and why context engineering beats model engineering every time.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

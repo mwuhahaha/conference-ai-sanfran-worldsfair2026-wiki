@@ -37,27 +37,7 @@ Druga's profile adds the institutional frame. She is a Research Scientist at Sak
 - Status: confirmed
 
 ## Official Description
-At Sakana AI we build agents that run for hundreds of turns to read literature, run experiments, and
-
-draft papers. The model rarely breaks. The harness around it is the weak point: the agent
-
-contradicts a decision it made 80 turns ago, redoes finished work, or drifts from the question it
-
-started on. This is the binding-constraint thesis. For long-horizon tasks, reliability is set as
-
-much by the harness as by the model as clearly instantiated in autoresearch recent efforts. This is
-
-a field guide to the harness's memory layer. I'll trace a real research agent through its lifecycle,
-
-show exactly where context rot and drift set in, and cover the patterns that hold over 100+ turns:
-
-three-tier memory, progressive disclosure, recall-first compaction, sub-agent isolation, and
-
-architectural memory beyond the vector database. I will show how to measure whether your memory
-
-harness actually helps, at the trajectory level, so you stop tuning prompts to fix what's really a
-
-state-management bug.
+At Sakana AI we build agents that run for hundreds of turns to read literature, run experiments, and draft papers. The model rarely breaks. The harness around it is the weak point: the agent contradicts a decision it made 80 turns ago, redoes finished work, or drifts from the question it started on. This is the binding-constraint thesis. For long-horizon tasks, reliability is set as much by the harness as by the model as clearly instantiated in autoresearch recent efforts. This is a field guide to the harness's memory layer. I'll trace a real research agent through its lifecycle, show exactly where context rot and drift set in, and cover the patterns that hold over 100+ turns: three-tier memory, progressive disclosure, recall-first compaction, sub-agent isolation, and architectural memory beyond the vector database. I will show how to measure whether your memory harness actually helps, at the trajectory level, so you stop tuning prompts to fix what's really a state-management bug.
 
 ## Related YouTube Video
 [Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind](https://www.youtube.com/watch?v=wNH3q9pqn0U) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

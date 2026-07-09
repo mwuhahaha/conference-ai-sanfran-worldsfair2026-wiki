@@ -26,21 +26,7 @@ scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-Olive Song (RL Lead, https://www.minimax.io/) and Dan Fu (VP of Kernels, https://www.together.ai/)
-
-dig into the engineering behind one of the most widely used open model families in the agent
-
-ecosystem: how MiniMax built the model for agentic workloads, and what it takes to serve it at
-
-scale.    Olive on the model side:    The RL decisions behind long-context reasoning and tool use
-
-What training for agentic behavior actually looks like in practice    Dan on the infrastructure
-
-side:    Why agentic workloads break inference engines built for chat: prefill-heavy traffic, high
-
-cache hit rates, long-context inputs    The kernel-level optimizations built for MiniMax's workload
-
-profile    How the two teams collaborate on model launches and ongoing performance work
+Olive Song (RL Lead, https://www.minimax.io/) and Dan Fu (VP of Kernels, https://www.together.ai/) dig into the engineering behind one of the most widely used open model families in the agent ecosystem: how MiniMax built the model for agentic workloads, and what it takes to serve it at scale. Olive on the model side: The RL decisions behind long-context reasoning and tool use What training for agentic behavior actually looks like in practice Dan on the infrastructure side: Why agentic workloads break inference engines built for chat: prefill-heavy traffic, high cache hit rates, long-context inputs The kernel-level optimizations built for MiniMax's workload profile How the two teams collaborate on model launches and ongoing performance work
 
 ## Related YouTube Video
 [Minimax M2: Building the #1 Open Model – Olive Song, MiniMax](https://www.youtube.com/watch?v=lY1iFbDPRlw) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

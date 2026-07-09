@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Standing up an agent used to be the hard part. A new class of cloud-agent frameworks has made it
-
-almost trivial: in an afternoon you can ship a fleet that reasons, plans, and calls any API you
-
-point it at. So why do so many of them fail the moment they touch real work? Because a capable agent
-
-still doesn't know the organization it operates in: its decisions, history, incidents, and how a
-
-particular team actually operates. That knowledge isn't in the model or the API, and no amount of
-
-construction adds it.   This talk exposes the missing component, then shows how to build it live on
-
-a real workflow — the same move that helps a coding agent helps a support or operations one.
-
-Construction is solved. The missing context, tacit and tribal knowledge is the bottleneck that's
-
-left, and it sits upstream of everything verification attempts to catch after the fact.
+Standing up an agent used to be the hard part. A new class of cloud-agent frameworks has made it almost trivial: in an afternoon you can ship a fleet that reasons, plans, and calls any API you point it at. So why do so many of them fail the moment they touch real work? Because a capable agent still doesn't know the organization it operates in: its decisions, history, incidents, and how a particular team actually operates. That knowledge isn't in the model or the API, and no amount of construction adds it. This talk exposes the missing component, then shows how to build it live on a real workflow — the same move that helps a coding agent helps a support or operations one. Construction is solved. The missing context, tacit and tribal knowledge is the bottleneck that's left, and it sits upstream of everything verification attempts to catch after the fact.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

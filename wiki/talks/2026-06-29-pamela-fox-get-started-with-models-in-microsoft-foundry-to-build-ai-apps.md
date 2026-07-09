@@ -26,15 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-In this hands-on lab, you will build a production-ready AI application using Microsoft Foundry, with
-
-no fine-tuning or deep machine learning expertise required. You will discover and select models,
-
-provision a Foundry project, and connect to a hosted model using the OpenAI SDK. You’ll implement a
-
-comment moderation workflow, compare model outputs, and package the solution as a hosted agent using
-
-Python, ready for real-world integration.
+In this hands-on lab, you will build a production-ready AI application using Microsoft Foundry, with no fine-tuning or deep machine learning expertise required. You will discover and select models, provision a Foundry project, and connect to a hosted model using the OpenAI SDK. You’ll implement a comment moderation workflow, compare model outputs, and package the solution as a hosted agent using Python, ready for real-world integration.
 
 ## Related YouTube Video
 [Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner](https://www.youtube.com/watch?v=1t-9-s1brcg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

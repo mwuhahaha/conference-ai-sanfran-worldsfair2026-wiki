@@ -26,13 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Automattic is a remote company. About 600 of us will step away from regular work this year for an
-
-immersive AI program. That's a little over a third of the company. This talk walks through a field
-
-report of what we built and why: the curriculum, the cohort design, and what we've learned about
-
-making AI fluency work across a distributed organization.
+Automattic is a remote company. About 600 of us will step away from regular work this year for an immersive AI program. That's a little over a third of the company. This talk walks through a field report of what we built and why: the curriculum, the cohort design, and what we've learned about making AI fluency work across a distributed organization.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

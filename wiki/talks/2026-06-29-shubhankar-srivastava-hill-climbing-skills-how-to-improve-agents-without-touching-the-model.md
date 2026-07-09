@@ -26,19 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 4", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agent Capability is now highly dependent on the markdown files read at runtime -- skills.This
-
-workshop treats skills as a first-class optimization surface. We borrow the concept of autoresearch
-
-(from Karpathy) and apply it to the skills your agents already read. You'll see how we at
-
-Browserbase did the same for browser agents, enabling our customers to scale the coverage of their
-
-browser agents while improving performance(2x faster runs) and optimizing for token spend(upto 10x
-
-cheaper).You'll leave with a working http://SKILL.md you generated through an auto-research loop,
-
-and a mental model for when skill optimization beats fine-tuning or prompt engineering.
+Agent Capability is now highly dependent on the markdown files read at runtime -- skills.This workshop treats skills as a first-class optimization surface. We borrow the concept of autoresearch (from Karpathy) and apply it to the skills your agents already read. You'll see how we at Browserbase did the same for browser agents, enabling our customers to scale the coverage of their browser agents while improving performance(2x faster runs) and optimizing for token spend(upto 10x cheaper).You'll leave with a working http://SKILL.md you generated through an auto-research loop, and a mental model for when skill optimization beats fine-tuning or prompt engineering.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

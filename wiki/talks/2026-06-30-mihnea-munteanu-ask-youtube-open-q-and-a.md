@@ -26,9 +26,7 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-(updated) an off-the-record session with Mihnea Munteanu, Senior Product Lead, Ask YouTube / AI
-
-Search @ Google
+(updated) an off-the-record session with Mihnea Munteanu, Senior Product Lead, Ask YouTube / AI Search @ Google
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

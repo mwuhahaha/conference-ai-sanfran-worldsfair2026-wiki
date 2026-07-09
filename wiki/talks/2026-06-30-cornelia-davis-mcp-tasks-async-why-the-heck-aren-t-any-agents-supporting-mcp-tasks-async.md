@@ -26,19 +26,7 @@ scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The November 2025 MCP spec release introduced tasks, a way to make tool calls in an async manner.
-
-But more than 5 months later (an eternity in AI-time) there are still NO clients that support it -
-
-not Claude, not Codex, not even goose! I believe there are two reasons: Designing the client
-
-experience when there are potentially 1000s of background tasks running on their own schedule and
-
-engaging humans at unpredictable times is a challenge. And tasks place new infrastructure
-
-requirements on such a client. This talk will share the findings from having built against the tasks
-
-protocol and will suggest solutions these problems. Yup, we'll have a working client!
+The November 2025 MCP spec release introduced tasks, a way to make tool calls in an async manner. But more than 5 months later (an eternity in AI-time) there are still NO clients that support it - not Claude, not Codex, not even goose! I believe there are two reasons: Designing the client experience when there are potentially 1000s of background tasks running on their own schedule and engaging humans at unpredictable times is a challenge. And tasks place new infrastructure requirements on such a client. This talk will share the findings from having built against the tasks protocol and will suggest solutions these problems. Yup, we'll have a working client!
 
 ## Related YouTube Video
 [OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal](https://www.youtube.com/watch?v=k8cnVCMYmNc) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

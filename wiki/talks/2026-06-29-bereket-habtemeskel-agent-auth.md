@@ -26,19 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 5", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Better Auth has grown to 27k GitHub stars and over 1.5M weekly downloads, becoming a popular choice
-
-for developers who want to own their authentication stack. We recently introduced Agent Auth, a
-
-protocol designed to support autonomous and delegated agents operating services for an organization
-
-or a user. It allows agents to dynamically negotiate capabilities, manage access boundaries, and
-
-maintain secure authorization flows. This session will break down the protocol design and
-
-demonstrate it live, showing how agents can securely authenticate and operate with dynamic
-
-permissions.
+Better Auth has grown to 27k GitHub stars and over 1.5M weekly downloads, becoming a popular choice for developers who want to own their authentication stack. We recently introduced Agent Auth, a protocol designed to support autonomous and delegated agents operating services for an organization or a user. It allows agents to dynamically negotiate capabilities, manage access boundaries, and maintain secure authorization flows. This session will break down the protocol design and demonstrate it live, showing how agents can securely authenticate and operate with dynamic permissions.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

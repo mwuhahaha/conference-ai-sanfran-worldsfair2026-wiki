@@ -26,13 +26,7 @@ scheduleLabels: ["Claws & Personal Agents", "Leadership 2", "session", "confirme
 - Status: confirmed
 
 ## Official Description
-As AI systems move from generating content to taking Claw-based agents action inside production
-
-systems, governance (not model quality) becomes the limiting factor. David will break down why
-
-visibility, guardrails, approvals, and rollback matter more than raw intelligence, and how companies
-
-can enable AI adoption without creating security and compliance disasters.
+As AI systems move from generating content to taking Claw-based agents action inside production systems, governance (not model quality) becomes the limiting factor. David will break down why visibility, guardrails, approvals, and rollback matter more than raw intelligence, and how companies can enable AI adoption without creating security and compliance disasters.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

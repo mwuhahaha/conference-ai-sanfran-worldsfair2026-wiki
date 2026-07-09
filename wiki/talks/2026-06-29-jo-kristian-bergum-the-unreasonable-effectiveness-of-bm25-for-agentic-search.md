@@ -26,15 +26,7 @@ scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-GPT-5 is shockingly good at search, and that changes the "BM25 as a baseline" story. Using GPT-5
-
-search trajectories from BrowseComp-Plus, I'll show how default BM25 parameters and evaluation
-
-harnesses can make lexical retrieval look weak, while real agent queries often play directly to
-
-BM25's strengths. Much like grep became a core retrieval primitive for coding agents, BM25 is re-
-
-emerging as a powerful primitive for agentic search.
+GPT-5 is shockingly good at search, and that changes the "BM25 as a baseline" story. Using GPT-5 search trajectories from BrowseComp-Plus, I'll show how default BM25 parameters and evaluation harnesses can make lexical retrieval look weak, while real agent queries often play directly to BM25's strengths. Much like grep became a core retrieval primitive for coding agents, BM25 is re-emerging as a powerful primitive for agentic search.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

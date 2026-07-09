@@ -26,27 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 6", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-From the guy who said "Buy a GPU," "Opensource AI Must Win," and "Local AI FTW": this session shows
-
-what you build around the models running locally so agents can actually be effective and efficient
-
-when using local models.  A local chatbot gives you private text generation. A useful agent needs a
-
-system around it: search, scraping, traces, document ingestion, agentic harness integration, and
-
-other practical components. The focus of this workshop is setup, not hardware. We will walk through
-
-the practical pieces that turn local inference from a model endpoint into the reasoning layer inside
-
-a real workflow.  The live demo target will be a 2x RTX PRO 6000 Blackwell machine running models
-
-locally and using it across different agentic harnesses. The goal is to show how Local AI can be
-
-more than private and offline: it can be useful, inspectable, controllable, and built into
-
-infrastructure you actually own.  Attendees should leave with a practical mental model for building
-
-Local AI systems that can read, search, cite, act, and evaluate themselves.
+From the guy who said "Buy a GPU," "Opensource AI Must Win," and "Local AI FTW": this session shows what you build around the models running locally so agents can actually be effective and efficient when using local models. A local chatbot gives you private text generation. A useful agent needs a system around it: search, scraping, traces, document ingestion, agentic harness integration, and other practical components. The focus of this workshop is setup, not hardware. We will walk through the practical pieces that turn local inference from a model endpoint into the reasoning layer inside a real workflow. The live demo target will be a 2x RTX PRO 6000 Blackwell machine running models locally and using it across different agentic harnesses. The goal is to show how Local AI can be more than private and offline: it can be useful, inspectable, controllable, and built into infrastructure you actually own. Attendees should leave with a practical mental model for building Local AI systems that can read, search, cite, act, and evaluate themselves.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

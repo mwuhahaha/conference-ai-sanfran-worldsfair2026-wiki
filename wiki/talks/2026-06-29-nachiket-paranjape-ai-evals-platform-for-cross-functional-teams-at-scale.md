@@ -26,33 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-DoorDash's Evals Platform is designed for more than just engineers. It brings human review,
-
-automated judges, and online experimentation into a single calibration loop so engineering, product
-
-managers, and strategy and operations teams can all contribute to improving AI quality. Engineers
-
-can instrument, trace, and evaluate agent behavior, while cross-functional teams can review outputs,
-
-curate trusted examples, and provide structured feedback that improves how automated judges behave
-
-over time. By combining experimentation, fully customized annotation workflows, calibration, and
-
-analytics in one system, the platform turns AI quality from a fragmented technical exercise into a
-
-shared operating model for continuously improving agent performance and making rollout decisions
-
-with confidence. While vendor platforms offer pieces of this workflow, we needed something broader:
-
-a unified system that lets engineers, product managers, and Strategy & Ops all participate directly
-
-in improving AI quality. Our goal is not just to run evals, but to enable cross-functional teams to
-
-review outputs, calibrate judges, run experiments, and make rollout decisions without being blocked
-
-on engineering. That requirement, along with tighter integration into our internal workflows and
-
-operating model, is why we are building this platform in-house.
+DoorDash's Evals Platform is designed for more than just engineers. It brings human review, automated judges, and online experimentation into a single calibration loop so engineering, product managers, and strategy and operations teams can all contribute to improving AI quality. Engineers can instrument, trace, and evaluate agent behavior, while cross-functional teams can review outputs, curate trusted examples, and provide structured feedback that improves how automated judges behave over time. By combining experimentation, fully customized annotation workflows, calibration, and analytics in one system, the platform turns AI quality from a fragmented technical exercise into a shared operating model for continuously improving agent performance and making rollout decisions with confidence. While vendor platforms offer pieces of this workflow, we needed something broader: a unified system that lets engineers, product managers, and Strategy & Ops all participate directly in improving AI quality. Our goal is not just to run evals, but to enable cross-functional teams to review outputs, calibrate judges, run experiments, and make rollout decisions without being blocked on engineering. That requirement, along with tighter integration into our internal workflows and operating model, is why we are building this platform in-house.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

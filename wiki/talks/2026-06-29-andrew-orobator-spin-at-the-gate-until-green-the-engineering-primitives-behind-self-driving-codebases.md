@@ -26,31 +26,7 @@ scheduleLabels: ["Software Factories", "Leadership 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most AI-assisted development fails the same way: the AI produces plausible output, the human can't
-
-tell if it's right, so they check manually, find the problem, re-prompt, and repeat. This loop
-
-doesn't scale. There's a different approach. If you can express correctness as a binary — does it
-
-compile, do the tests pass, does the lint check clear — you can remove the human from that loop
-
-entirely. The AI submits. The gate checks. If red, it adjusts and resubmits. Spin at the gate until
-
-green. This talk covers the engineering primitives that make this possible: personas (consistent
-
-behavior at the agent level), skills (composable, reusable prompt modules), worklogs (accountability
-
-across sessions), postmortems (turning failures into constraints), and spec-driven development
-
-(making the target explicit enough for a machine to hit it). The culmination is a flag lifecycle
-
-agent — triggered by a cron job, cleaning up stale feature flags, verified by compile + test + lint,
-
-no human in the loop. Not hypothetical. Working prototype, proven in practice. I co-authored a ten-
-
-part series on this methodology with Claude. The series was built using the workflow described in
-
-this talk. If you don't trust the theory, the fact that this talk exists is the proof.
+Most AI-assisted development fails the same way: the AI produces plausible output, the human can't tell if it's right, so they check manually, find the problem, re-prompt, and repeat. This loop doesn't scale. There's a different approach. If you can express correctness as a binary — does it compile, do the tests pass, does the lint check clear — you can remove the human from that loop entirely. The AI submits. The gate checks. If red, it adjusts and resubmits. Spin at the gate until green. This talk covers the engineering primitives that make this possible: personas (consistent behavior at the agent level), skills (composable, reusable prompt modules), worklogs (accountability across sessions), postmortems (turning failures into constraints), and spec-driven development (making the target explicit enough for a machine to hit it). The culmination is a flag lifecycle agent — triggered by a cron job, cleaning up stale feature flags, verified by compile + test + lint, no human in the loop. Not hypothetical. Working prototype, proven in practice. I co-authored a ten-part series on this methodology with Claude. The series was built using the workflow described in this talk. If you don't trust the theory, the fact that this talk exists is the proof.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

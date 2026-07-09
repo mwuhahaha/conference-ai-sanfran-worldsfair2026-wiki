@@ -26,17 +26,7 @@ scheduleLabels: ["Workshops Day 2", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Walk out of this workshop with a deployed digital clone that makes your phone calls for you. We will
-
-skip the theory and immediately get our hands dirty wiring together OpenClaw, Twilio, and Gradium to
-
-build an autonomous voice agent on a live cellular network. You will tackle the hardest parts of
-
-real-time telephony: routing audio streams, handling human interruption, and killing latency. In 60
-
-minutes, your AI will be ready to call restaurants for the daily special, book appointments, and
-
-actively negotiate on your behalf.
+Walk out of this workshop with a deployed digital clone that makes your phone calls for you. We will skip the theory and immediately get our hands dirty wiring together OpenClaw, Twilio, and Gradium to build an autonomous voice agent on a live cellular network. You will tackle the hardest parts of real-time telephony: routing audio streams, handling human interruption, and killing latency. In 60 minutes, your AI will be ready to call restaurants for the daily special, book appointments, and actively negotiate on your behalf.
 
 ## Related YouTube Video
 [Voice AI: when is the "Her" moment? — Neil Zeghidour, CEO, Gradium AI](https://www.youtube.com/watch?v=P_RI1kCkRbo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

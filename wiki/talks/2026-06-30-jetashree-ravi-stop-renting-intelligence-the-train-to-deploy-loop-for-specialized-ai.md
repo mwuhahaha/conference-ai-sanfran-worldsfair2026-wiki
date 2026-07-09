@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The next wave of AI products will not rely only on prompting generic frontier models. Winning teams
-
-will own specialized models shaped by their product data, user feedback, and domain workflows.In
-
-this 18-minute session, we'll cover the practical loop behind model ownership: choose a base model,
-
-prepare data, fine-tune with SFT/DPO/RL, evaluate outputs, deploy the tuned model, collect feedback,
-
-and repeat. We'll also explain why training and inference should be treated as one system, not
-
-separate steps.Attendees will leave with a simple framework for when to tune, when RL matters, and
-
-how continuous improvement turns fine-tuning from a one-off project into a product advantage.
+The next wave of AI products will not rely only on prompting generic frontier models. Winning teams will own specialized models shaped by their product data, user feedback, and domain workflows.In this 18-minute session, we'll cover the practical loop behind model ownership: choose a base model, prepare data, fine-tune with SFT/DPO/RL, evaluate outputs, deploy the tuned model, collect feedback, and repeat. We'll also explain why training and inference should be treated as one system, not separate steps.Attendees will leave with a simple framework for when to tune, when RL matters, and how continuous improvement turns fine-tuning from a one-off project into a product advantage.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

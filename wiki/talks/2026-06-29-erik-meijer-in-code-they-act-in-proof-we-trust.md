@@ -26,35 +26,7 @@ scheduleLabels: ["Harness Engineering", "Main Stage", "keynote", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI agents today execute on blind trust, and the failure modes are already in the headlines: a
-
-dealership chatbot agreeing to sell a $76,000 Chevy Tahoe for $1, a coding agent wiping a production
-
-database during a code freeze, an "agent skill" quietly installing a keylogger on a developer's
-
-machine. These are not edge cases. They are the predictable consequence of allowing agents to act
-
-without any mechanical guarantee of correctness or safety. Execution is irreversible. You cannot
-
-unsend a message, unwire a payment, or un-delete a database. In that regime, permitting an unsafe
-
-action costs far more than withholding a safe one, and thus the economically rational choice is to
-
-refuse to let agents act on unchecked intent alone. Automind is an agent harness that enforces this
-
-discipline by construction. Before any action runs, the agent must submit its execution plan
-
-together with a machine-checkable proof of safety and correctness, written in Universalis, a
-
-literate logic programming language designed to be read by humans and verified by machines. A small,
-
-auditable checker decides whether the plan is allowed to execute. By left-shifting the trust
-
-boundary, we no longer have to trust the agent's proposal, or even its proof; only the checker.
-
-Policy compliance becomes a static property, established before the first side effect. We can
-
-finally demand formal proofs, not vibes, from the agents we deploy.
+AI agents today execute on blind trust, and the failure modes are already in the headlines: a dealership chatbot agreeing to sell a $76,000 Chevy Tahoe for $1, a coding agent wiping a production database during a code freeze, an "agent skill" quietly installing a keylogger on a developer's machine. These are not edge cases. They are the predictable consequence of allowing agents to act without any mechanical guarantee of correctness or safety. Execution is irreversible. You cannot unsend a message, unwire a payment, or un-delete a database. In that regime, permitting an unsafe action costs far more than withholding a safe one, and thus the economically rational choice is to refuse to let agents act on unchecked intent alone. Automind is an agent harness that enforces this discipline by construction. Before any action runs, the agent must submit its execution plan together with a machine-checkable proof of safety and correctness, written in Universalis, a literate logic programming language designed to be read by humans and verified by machines. A small, auditable checker decides whether the plan is allowed to execute. By left-shifting the trust boundary, we no longer have to trust the agent's proposal, or even its proof; only the checker. Policy compliance becomes a static property, established before the first side effect. We can finally demand formal proofs, not vibes, from the agents we deploy.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

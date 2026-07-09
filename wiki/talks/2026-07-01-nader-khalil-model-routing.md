@@ -26,15 +26,7 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Model Routing explores how teams decide when to use local models, open-source models, or frontier
-
-cloud systems, and why the answer is increasingly hybrid rather than one-size-fits-all. The panel
-
-digs into routing architectures, model selection strategies, stack decisions, and what still needs
-
-to improve in local AI before more workloads can move closer to the user.  Moderator: Nader Khalil
-
-(NVIDIA). Panelists: Walden Yan (Cognition), Tanay Varshney (NVIDIA), Alex Atallah (OpenRouter).
+Model Routing explores how teams decide when to use local models, open-source models, or frontier cloud systems, and why the answer is increasingly hybrid rather than one-size-fits-all. The panel digs into routing architectures, model selection strategies, stack decisions, and what still needs to improve in local AI before more workloads can move closer to the user. Moderator: Nader Khalil (NVIDIA). Panelists: Walden Yan (Cognition), Tanay Varshney (NVIDIA), Alex Atallah (OpenRouter).
 
 ## Related YouTube Video
 [Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter](https://www.youtube.com/watch?v=84Vtz2IL1Ug) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

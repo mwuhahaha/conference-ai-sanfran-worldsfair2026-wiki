@@ -26,19 +26,7 @@ scheduleLabels: ["LLM Recsys", "Track 7", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-You've invested in the best models, coding agents, and AI tooling. Now comes the hard part:
-
-unlocking autonomous development without creating security headaches, governance gaps, or endless
-
-approval loops.  In this 90-minute hands-on workshop, you'll learn how to run coding agents in
-
-isolated environments built for autonomous work, create a 'golden path' for AI-assisted development
-
-across your organization, reduce software supply chain risk with secure, hardened containers, manage
-
-multiple agents with the right permissions and guardrails, and scale AI-powered development without
-
-slowing developers down.
+You've invested in the best models, coding agents, and AI tooling. Now comes the hard part: unlocking autonomous development without creating security headaches, governance gaps, or endless approval loops. In this 90-minute hands-on workshop, you'll learn how to run coding agents in isolated environments built for autonomous work, create a 'golden path' for AI-assisted development across your organization, reduce software supply chain risk with secure, hardened containers, manage multiple agents with the right permissions and guardrails, and scale AI-powered development without slowing developers down.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

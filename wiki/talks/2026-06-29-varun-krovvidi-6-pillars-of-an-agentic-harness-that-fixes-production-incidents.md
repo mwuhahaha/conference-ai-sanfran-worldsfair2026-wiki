@@ -26,21 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-A model delights us when any plausible answer works, but a production incident has one right answer,
-
-and the model alone can't reliably reach it. Getting there depends less on the model and more on the
-
-orchestration, context, and judgment built around it. That work is harness engineering, and it is
-
-the new frontier. This session breaks down the six pillars of an agentic harness required to fix
-
-production incidents: model orchestration, context, reasoning, actions, learning, and evals. Join
-
-Resolve AI to walk through what each one does, why a better model doesn't make any of them go away,
-
-and how they compose to find the root cause of a live incident across massive context, under a
-
-clock, with real revenue on the line.
+A model delights us when any plausible answer works, but a production incident has one right answer, and the model alone can't reliably reach it. Getting there depends less on the model and more on the orchestration, context, and judgment built around it. That work is harness engineering, and it is the new frontier. This session breaks down the six pillars of an agentic harness required to fix production incidents: model orchestration, context, reasoning, actions, learning, and evals. Join Resolve AI to walk through what each one does, why a better model doesn't make any of them go away, and how they compose to find the root cause of a live incident across massive context, under a clock, with real revenue on the line.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

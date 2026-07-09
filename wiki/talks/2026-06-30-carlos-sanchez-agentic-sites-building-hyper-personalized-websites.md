@@ -26,25 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-The era of static, one-size-fits-all websites is over. Users expect personalized experiences that
-
-adapt to their preferences, context, and intent in real-time. But building truly personalized
-
-websites at scale requires more than just A/B testing or basic recommendation engines—it demands an
-
-agentic approach where AI agents autonomously orchestrate content, layout, and interactions. At
-
-Adobe, we are pioneering the concept of Agentic Sites—web experiences powered by AI agents that
-
-continuously learn from user behavior, analyze context signals, and dynamically compose hyper-
-
-personalized pages. These agents go beyond simple personalization rules: they reason about user
-
-intent, select optimal content variations, and adapt the experience in real-time while maintaining
-
-brand consistency and performance. In this session, we'll show how we leverage LLMs to deliver
-
-personalized experiences to our customers.
+The era of static, one-size-fits-all websites is over. Users expect personalized experiences that adapt to their preferences, context, and intent in real-time. But building truly personalized websites at scale requires more than just A/B testing or basic recommendation engines—it demands an agentic approach where AI agents autonomously orchestrate content, layout, and interactions. At Adobe, we are pioneering the concept of Agentic Sites—web experiences powered by AI agents that continuously learn from user behavior, analyze context signals, and dynamically compose hyper-personalized pages. These agents go beyond simple personalization rules: they reason about user intent, select optimal content variations, and adapt the experience in real-time while maintaining brand consistency and performance. In this session, we'll show how we leverage LLMs to deliver personalized experiences to our customers.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

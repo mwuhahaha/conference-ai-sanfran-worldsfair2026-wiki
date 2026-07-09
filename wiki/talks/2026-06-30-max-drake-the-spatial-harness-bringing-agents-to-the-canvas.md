@@ -26,23 +26,7 @@ scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-What if chat is the wrong interface for managing agents? What if we're holding ourselves back by
-
-squeezing our thoughts and the way we work to into a one-dimensional, single-threaded interface? At
-
-a high level, this talk aims to present the work we've done at tldraw to build a spatial harness, or
-
-a way to allow agents to work on a canvas and collaborate with users and each other natively. This
-
-work represents important steps towards building better agent + canvas experiences, a product
-
-category we've seen explode in the recent months (Paper, Replit Agent 4, Google Stitch, etc). It's
-
-also not something I've really seen talked about elsewhere. See: - Multi-agent collaboration on the
-
-canvas (fairies.tldraw.com) - We've also recently brought code mode
-
-(https://blog.cloudflare.com/code-mode-mcp/) to the tldraw desktop app and MCP app.
+What if chat is the wrong interface for managing agents? What if we're holding ourselves back by squeezing our thoughts and the way we work to into a one-dimensional, single-threaded interface? At a high level, this talk aims to present the work we've done at tldraw to build a spatial harness, or a way to allow agents to work on a canvas and collaborate with users and each other natively. This work represents important steps towards building better agent + canvas experiences, a product category we've seen explode in the recent months (Paper, Replit Agent 4, Google Stitch, etc). It's also not something I've really seen talked about elsewhere. See: - Multi-agent collaboration on the canvas (fairies.tldraw.com) - We've also recently brought code mode (https://blog.cloudflare.com/code-mode-mcp/) to the tldraw desktop app and MCP app.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

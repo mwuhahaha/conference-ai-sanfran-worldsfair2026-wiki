@@ -26,27 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The failures that break multi-agent systems are not reasoning failures, they are handoff failures.
-
-One agent works something out and the knowledge dies in its private context, because the only thing
-
-that crosses the boundary is output. Memory made each agent better in isolation and changed nothing
-
-about what the group knows. The missing primitive is supervised promotion: a deliberate decision
-
-about which private learning is worth sharing, moved into common knowledge with the reasoning
-
-attached, so trust survives the handoff. Today a human makes that call, and promoted knowledge
-
-resolves on read, in any tool, with no retrain or reindex. Those calls are also the training signal
-
-for what comes next: orchestrator agents, trained on what matters to the people they serve, that
-
-promote on their own. This talk covers how our collective knowledge grew as we approached memory
-
-promotion, including what the first build got wrong, and a live look at it working between humans
-
-and agents.
+The failures that break multi-agent systems are not reasoning failures, they are handoff failures. One agent works something out and the knowledge dies in its private context, because the only thing that crosses the boundary is output. Memory made each agent better in isolation and changed nothing about what the group knows. The missing primitive is supervised promotion: a deliberate decision about which private learning is worth sharing, moved into common knowledge with the reasoning attached, so trust survives the handoff. Today a human makes that call, and promoted knowledge resolves on read, in any tool, with no retrain or reindex. Those calls are also the training signal for what comes next: orchestrator agents, trained on what matters to the people they serve, that promote on their own. This talk covers how our collective knowledge grew as we approached memory promotion, including what the first build got wrong, and a live look at it working between humans and agents.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

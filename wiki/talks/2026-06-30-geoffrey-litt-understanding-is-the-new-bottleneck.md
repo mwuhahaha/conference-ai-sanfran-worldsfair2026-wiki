@@ -26,17 +26,7 @@ scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Autonomous loops are hot, but the reality is that most agentic tasks still require human judgement.
-
-And to guide your agents well, it's not enough to just verify correctness -- you actually need to
-
-understand the work they're doing.  In this talk, I'll share some techniques for staying in the loop
-
-and efficiently developing understanding, combining old ideas from education and cognitive science
-
-with modern agent capabilities. You'll walk away with some practical tips for moving faster with
-
-agents by understanding more, not less.
+Autonomous loops are hot, but the reality is that most agentic tasks still require human judgement. And to guide your agents well, it's not enough to just verify correctness -- you actually need to understand the work they're doing. In this talk, I'll share some techniques for staying in the loop and efficiently developing understanding, combining old ideas from education and cognitive science with modern agent capabilities. You'll walk away with some practical tips for moving faster with agents by understanding more, not less.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

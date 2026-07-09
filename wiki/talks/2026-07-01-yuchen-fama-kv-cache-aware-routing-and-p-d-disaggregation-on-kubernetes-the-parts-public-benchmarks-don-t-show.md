@@ -26,41 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-We're at the inflection point between classic LLM inference and agentic inference. When we look at
-
-the agentic workloads and trace replays, many core characteristics break classic LLM serving
-
-assumptions. The most consequential: the server no longer controls its own cache lifecycle. The
-
-client does, through prompt construction, multi-turn context that grows and changes each turn.  This
-
-has downstream effects. Because context is client-determined, prefill strategy, eviction, and
-
-routing decisions move up to the scheduler layer. KV cache becomes volatile — frequent eviction and
-
-rewrite, driven from outside the engine. And latency becomes a first-class scheduling metric
-
-alongside throughput. This talk covers the open stack for LLM and agentic era inference serving:
-
-vLLM and llm-d.  We begin with the core characteristics and challenges of agentic inference, then
-
-the economics: prefill dominates cost, and cache reuse is the primary lever. We explain why KV-aware
-
-routing through a fleet-wide scheduler is the first optimization to apply, ahead of adding capacity.
-
-Next, prefill/decode disaggregation. We separate compute-bound prefill from memory-bound decode, and
-
-examine what public benchmarks omit: the conditions under which P/D disaggregation shines, and the
-
-workload shapes that justify the added architectural complexity.   We close with GLM-5.2 and show
-
-the equivalent stack assembled in the open:  cache-aware routing, P/D disaggregation, tiered KV
-
-offload, and wide expert parallelism — implemented on vLLM and llm-d.  Attendees leave with a tuning
-
-decision framework: which lever to apply first, how to read workload signals, and where additional
-
-GPUs do and don't help.
+We're at the inflection point between classic LLM inference and agentic inference. When we look at the agentic workloads and trace replays, many core characteristics break classic LLM serving assumptions. The most consequential: the server no longer controls its own cache lifecycle. The client does, through prompt construction, multi-turn context that grows and changes each turn. This has downstream effects. Because context is client-determined, prefill strategy, eviction, and routing decisions move up to the scheduler layer. KV cache becomes volatile — frequent eviction and rewrite, driven from outside the engine. And latency becomes a first-class scheduling metric alongside throughput. This talk covers the open stack for LLM and agentic era inference serving: vLLM and llm-d. We begin with the core characteristics and challenges of agentic inference, then the economics: prefill dominates cost, and cache reuse is the primary lever. We explain why KV-aware routing through a fleet-wide scheduler is the first optimization to apply, ahead of adding capacity. Next, prefill/decode disaggregation. We separate compute-bound prefill from memory-bound decode, and examine what public benchmarks omit: the conditions under which P/D disaggregation shines, and the workload shapes that justify the added architectural complexity. We close with GLM-5.2 and show the equivalent stack assembled in the open: cache-aware routing, P/D disaggregation, tiered KV offload, and wide expert parallelism — implemented on vLLM and llm-d. Attendees leave with a tuning decision framework: which lever to apply first, how to read workload signals, and where additional GPUs do and don't help.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

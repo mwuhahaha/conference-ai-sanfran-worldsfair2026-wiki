@@ -26,19 +26,7 @@ scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The agents of tomorrow are only as good as the context they reason on — yet most real-world data
-
-lives in messy, unstructured documents.  In this session, we reveal the patterns that separate AI
-
-teams shipping reliable, production-grade agents from those stuck debugging pipelines.  Drawing on
-
-patterns we've seen from AI-native startups to Fortune 10 enterprises, we'll cover what it takes to
-
-transform complex documents into clean, accurate context at scale across legal, finance, healthcare
-
-and more.  From ingestion architecture to agent-ready outputs, walk away with the strategies top
-
-teams use to turn document chaos into competitive advantage.
+The agents of tomorrow are only as good as the context they reason on — yet most real-world data lives in messy, unstructured documents. In this session, we reveal the patterns that separate AI teams shipping reliable, production-grade agents from those stuck debugging pipelines. Drawing on patterns we've seen from AI-native startups to Fortune 10 enterprises, we'll cover what it takes to transform complex documents into clean, accurate context at scale across legal, finance, healthcare and more. From ingestion architecture to agent-ready outputs, walk away with the strategies top teams use to turn document chaos into competitive advantage.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

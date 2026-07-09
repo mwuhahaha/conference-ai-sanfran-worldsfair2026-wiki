@@ -26,13 +26,7 @@ scheduleLabels: ["AI in Healthcare", "Track 7", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-A practical session on how healthcare AI moves beyond ambient note generation into context-aware
-
-clinical decision support. The talk would cover grounding outputs in the patient encounter,
-
-surfacing evidence with citations inside clinician workflows, preserving clinician agency, and
-
-building rigorous evals for safety and trust in live healthcare environments.
+A practical session on how healthcare AI moves beyond ambient note generation into context-aware clinical decision support. The talk would cover grounding outputs in the patient encounter, surfacing evidence with citations inside clinician workflows, preserving clinician agency, and building rigorous evals for safety and trust in live healthcare environments.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

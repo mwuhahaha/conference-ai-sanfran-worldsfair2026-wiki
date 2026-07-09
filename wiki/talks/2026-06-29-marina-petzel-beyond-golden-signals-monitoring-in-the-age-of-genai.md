@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The four golden signals (Latency, Errors, Traffic, Saturation) have been the foundation of
-
-application monitoring for years, and it still matters, but for GenAI applications, these signals
-
-alone leave significant blind spots. A request can return 200 OK with low latency while the response
-
-hallucinates, leaks PII, or costs much more than expected. This talk will walk you through what
-
-changes when you're monitoring non-deterministic, token-priced, prompt-injectable systems. We'll
-
-cover three additional monitoring dimensions: Cost (token attribution, model-mix tracking, wasted
-
-spend on failed requests), Safety (prompt injection detection, PII scanning, jailbreak attempts),
-
-and Quality (hallucination rate, relevance scoring, user satisfaction) and show why each one is
-
-necessary alongside your existing instrumentation.
+The four golden signals (Latency, Errors, Traffic, Saturation) have been the foundation of application monitoring for years, and it still matters, but for GenAI applications, these signals alone leave significant blind spots. A request can return 200 OK with low latency while the response hallucinates, leaks PII, or costs much more than expected. This talk will walk you through what changes when you're monitoring non-deterministic, token-priced, prompt-injectable systems. We'll cover three additional monitoring dimensions: Cost (token attribution, model-mix tracking, wasted spend on failed requests), Safety (prompt injection detection, PII scanning, jailbreak attempts), and Quality (hallucination rate, relevance scoring, user satisfaction) and show why each one is necessary alongside your existing instrumentation.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

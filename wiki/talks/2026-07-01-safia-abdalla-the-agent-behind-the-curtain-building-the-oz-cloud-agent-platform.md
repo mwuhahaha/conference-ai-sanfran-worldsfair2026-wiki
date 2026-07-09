@@ -26,23 +26,7 @@ scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "conf
 - Status: confirmed
 
 ## Official Description
-At Warp, we’re building Oz to be the platform that enables people to be creative and build with
-
-cloud agents. That sounds simple, but only because the job of good developer tooling is to take on
-
-complexity before it reaches the user. The best tools fit into the way developers already think,
-
-then make accessible work that used to feel out of reach.  This talk is about the engineering
-
-philosophy behind that work: how Warp’s evolution from terminal to local agent to Oz shaped the way
-
-we think about building for developers. The focus is not on inventing brand-new abstractions for
-
-their own sake, but on making a messy stack of real engineering concerns feel coherent: where agents
-
-run, how they delegate, how teams control their environments, how humans can see what happened, and
-
-how the platform leaves room for people to build things they couldn’t even imagine before. 4:04 PM
+At Warp, we’re building Oz to be the platform that enables people to be creative and build with cloud agents. That sounds simple, but only because the job of good developer tooling is to take on complexity before it reaches the user. The best tools fit into the way developers already think, then make accessible work that used to feel out of reach. This talk is about the engineering philosophy behind that work: how Warp’s evolution from terminal to local agent to Oz shaped the way we think about building for developers. The focus is not on inventing brand-new abstractions for their own sake, but on making a messy stack of real engineering concerns feel coherent: where agents run, how they delegate, how teams control their environments, how humans can see what happened, and how the platform leaves room for people to build things they couldn’t even imagine before. 4:04 PM
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

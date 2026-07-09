@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Drop an agent in a sandbox, point it at your repo, watch it ship code. Whether you're buying from a
-
-vendor or building it yourself, everyone is following the same playbook. But a sandbox isn't a
-
-software factory. At WorkOS, we built Project Horizon, and it taught us that infrastructure is only
-
-the first challenge. The unlock is encoding how your org actually builds software: the way work gets
-
-planned, scoped, and verified, the conventions and judgment calls that define your engineering
-
-culture. Our product engineering process served as the blueprint for every agent workflow we built
-
-in Horizon.
+Drop an agent in a sandbox, point it at your repo, watch it ship code. Whether you're buying from a vendor or building it yourself, everyone is following the same playbook. But a sandbox isn't a software factory. At WorkOS, we built Project Horizon, and it taught us that infrastructure is only the first challenge. The unlock is encoding how your org actually builds software: the way work gets planned, scoped, and verified, the conventions and judgment calls that define your engineering culture. Our product engineering process served as the blueprint for every agent workflow we built in Horizon.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

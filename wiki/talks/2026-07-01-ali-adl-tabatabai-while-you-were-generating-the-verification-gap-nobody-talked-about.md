@@ -26,41 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every enterprise is asking the same question: how do we move fast with AI without breaking things?
-
-While the market chased generation — better models, faster agents, more output — a different problem
-
-was compounding quietly: nobody built the verification layer to match. The team built Gitar because
-
-they saw firsthand what happens when development velocity outpaces code quality, and AI has made
-
-that problem an order of magnitude bigger. In this session, Ali-Reza Adl-Tabatabai, formerly of
-
-Uber, Google, and Meta, now leading Gitar development inside Sonar, makes the case for why AI-native
-
-code review is the missing layer in every enterprise's agentic stack. Gitar uses agentic reasoning
-
-to review code, generate fixes, validate them against your CI, and commit to the branch. It
-
-automatically analyzes and de-duplicates CI failures, detects flaky tests, and fixes remaining
-
-build, lint, and test failures — keeping reviews moving across time zones without the back-and-forth
-
-that kills engineering throughput. As a critical layer in Sonar's multilayered, zero-trust
-
-verification platform, Gitar enables organizations to analyze syntax, data flows, logic flows,
-
-architectures, and dependencies; set and enforce standards in a consistent, auditable manner; and
-
-agentically fix issues both as agents write code and in CI workflows. Sonar intelligently sequences
-
-analysis so deterministic verification handles simpler issues first, while AI tackles the nuanced
-
-ones, reducing token costs and keeping the pipeline lean. In an agentic world, zero trust is an
-
-engineering principle: assume every line an agent writes needs to be verified, every time, at every
-
-layer.
+Every enterprise is asking the same question: how do we move fast with AI without breaking things? While the market chased generation — better models, faster agents, more output — a different problem was compounding quietly: nobody built the verification layer to match. The team built Gitar because they saw firsthand what happens when development velocity outpaces code quality, and AI has made that problem an order of magnitude bigger. In this session, Ali-Reza Adl-Tabatabai, formerly of Uber, Google, and Meta, now leading Gitar development inside Sonar, makes the case for why AI-native code review is the missing layer in every enterprise's agentic stack. Gitar uses agentic reasoning to review code, generate fixes, validate them against your CI, and commit to the branch. It automatically analyzes and de-duplicates CI failures, detects flaky tests, and fixes remaining build, lint, and test failures — keeping reviews moving across time zones without the back-and-forth that kills engineering throughput. As a critical layer in Sonar's multilayered, zero-trust verification platform, Gitar enables organizations to analyze syntax, data flows, logic flows, architectures, and dependencies; set and enforce standards in a consistent, auditable manner; and agentically fix issues both as agents write code and in CI workflows. Sonar intelligently sequences analysis so deterministic verification handles simpler issues first, while AI tackles the nuanced ones, reducing token costs and keeping the pipeline lean. In an agentic world, zero trust is an engineering principle: assume every line an agent writes needs to be verified, every time, at every layer.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

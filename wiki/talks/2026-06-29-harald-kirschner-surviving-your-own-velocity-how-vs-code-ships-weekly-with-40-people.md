@@ -26,17 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-A ~40-person team ships VS Code weekly to millions of users. Models got good enough to lean on, and
-
-leaning in is exactly what broke our process. This talk is the part most AI talks skip: what you
-
-have to rebuild after agents start working. We had to scale three things at once: how fast we ship,
-
-how we hold quality, and how fast we learn, and each one we fixed revealed the next. I'll walk
-
-through the harnesses, evals, and self-healing systems that keep velocity from becoming regression,
-
-and the patterns you can steal.
+A ~40-person team ships VS Code weekly to millions of users. Models got good enough to lean on, and leaning in is exactly what broke our process. This talk is the part most AI talks skip: what you have to rebuild after agents start working. We had to scale three things at once: how fast we ship, how we hold quality, and how fast we learn, and each one we fixed revealed the next. I'll walk through the harnesses, evals, and self-healing systems that keep velocity from becoming regression, and the patterns you can steal.
 
 ## Related YouTube Video
 [Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison](https://www.youtube.com/watch?v=eOxOzcw70f0) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

@@ -26,29 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Your model generates gibberish. Once every thousand prompts. High confidence scores. No crashes. No
-
-warnings. We hit this twice while building Jamba models. First: A request gets misclassified during
-
-scheduling, loads stale state from a previous prompt cache slot, and confidently generates nonsense.
-
-Second: Logprob spikes during RL training that looked like training instability-until we noticed
-
-they tracked with rollout count, then with cache size. In this talk, we'll walk through both
-
-debugging journeys-the false starts, how we instrumented vLLM to thread request IDs through the
-
-forward pass, the search for variables that change failure structure rather than magnitude, and the
-
-lesson both share: distributed inference systems fail silently. No stack trace. No sanitizer
-
-warning. Just wrong answers with perfect confidence. You'll learn how to build comparison scripts
-
-that expose logprob divergence, force memory pressure to surface rare bugs, and shrink a distributed
-
-RL training mystery into a reproducible single-script failure. Walk away knowing how to debug vLLM
-
-when it lies to you quietly.
+Your model generates gibberish. Once every thousand prompts. High confidence scores. No crashes. No warnings. We hit this twice while building Jamba models. First: A request gets misclassified during scheduling, loads stale state from a previous prompt cache slot, and confidently generates nonsense. Second: Logprob spikes during RL training that looked like training instability-until we noticed they tracked with rollout count, then with cache size. In this talk, we'll walk through both debugging journeys-the false starts, how we instrumented vLLM to thread request IDs through the forward pass, the search for variables that change failure structure rather than magnitude, and the lesson both share: distributed inference systems fail silently. No stack trace. No sanitizer warning. Just wrong answers with perfect confidence. You'll learn how to build comparison scripts that expose logprob divergence, force memory pressure to surface rare bugs, and shrink a distributed RL training mystery into a reproducible single-script failure. Walk away knowing how to debug vLLM when it lies to you quietly.
 
 ## Related YouTube Video
 [RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot](https://www.youtube.com/watch?v=Ywl4LsvHKzU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

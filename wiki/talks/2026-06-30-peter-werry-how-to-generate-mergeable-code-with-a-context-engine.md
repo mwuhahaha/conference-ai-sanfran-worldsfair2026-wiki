@@ -35,17 +35,7 @@ The talk fits the World's Fair software-factories theme because it treats AI cod
 - Status: confirmed
 
 ## Official Description
-Your agents are fast, capable, and completely context-blind. They generate code that compiles but
-
-doesn't reflect how your system actually works. You're likely already seeing the impact: ballooning
-
-token costs, longer review cycles, and inconsistent outputs. More MCPs, rules, and bigger context
-
-windows give agents access to information, but not understanding. In this session, we dissect how
-
-teams pulling ahead use a context engine to give agents exactly what they need for the task at hand.
-
-Includes a short demo showing the workflows a context engine can augment.
+Your agents are fast, capable, and completely context-blind. They generate code that compiles but doesn't reflect how your system actually works. You're likely already seeing the impact: ballooning token costs, longer review cycles, and inconsistent outputs. More MCPs, rules, and bigger context windows give agents access to information, but not understanding. In this session, we dissect how teams pulling ahead use a context engine to give agents exactly what they need for the task at hand. Includes a short demo showing the workflows a context engine can augment.
 
 ## Related YouTube Video
 [Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked](https://www.youtube.com/watch?v=5ID22ACI7IM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

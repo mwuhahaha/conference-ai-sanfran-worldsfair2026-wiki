@@ -26,23 +26,7 @@ scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Better data quality is the highest-leverage and most underinvested part of building a model: it
-
-produces a better model for the same compute, whether you're mid-training on an open base or pre-
-
-training from scratch. This session is a practical look at data curation, covering what data quality
-
-actually means, the stages of a modern curation pipeline (cleaning, filtering, deduplication,
-
-synthetic data generation, algorithmic mixing, and multi-stage composition), and which steps matter
-
-most in practice. It draws on DatologyAI's frontier data research and customer results, including
-
-Thomson Reuters' mid-training gains on proprietary legal domain data and Arcee's Trinity model
-
-reaching the open frontier on public data alone. You'll leave with a concrete sense of where better
-
-data quality pays off and how data curation is shaping the future of model training.
+Better data quality is the highest-leverage and most underinvested part of building a model: it produces a better model for the same compute, whether you're mid-training on an open base or pre-training from scratch. This session is a practical look at data curation, covering what data quality actually means, the stages of a modern curation pipeline (cleaning, filtering, deduplication, synthetic data generation, algorithmic mixing, and multi-stage composition), and which steps matter most in practice. It draws on DatologyAI's frontier data research and customer results, including Thomson Reuters' mid-training gains on proprietary legal domain data and Arcee's Trinity model reaching the open frontier on public data alone. You'll leave with a concrete sense of where better data quality pays off and how data curation is shaping the future of model training.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

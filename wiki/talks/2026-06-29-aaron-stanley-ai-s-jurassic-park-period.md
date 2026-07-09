@@ -35,25 +35,7 @@ The core warning is that AI systems can make unsafe paths look orderly, reasonab
 - Status: confirmed
 
 ## Official Description
-Early in my career, I accidentally and unrecoverably changed data I was collecting for a federal
-
-investigation. Twenty years later, with the help of AI and a career’s worth of experience as a
-
-security leader, I intentionally did the same thing. Make no mistake, what my agent and I did
-
-together was dangerous. It was only because I had enough subject matter expertise in both the
-
-functional and risk issues that I could navigate it safely. We are in AI’s Jurassic Park period: no
-
-matter how clearly we define the rules, models will search for paths to completion. And they are
-
-very good at making those paths look safe, reasonable, and correct even when they violate policy or
-
-basic intuition. Designing the right control set is about allowing for the right expertise to be
-
-injected at the right time in the co-creation process so we can move quickly and safely into the
-
-next evolution.
+Early in my career, I accidentally and unrecoverably changed data I was collecting for a federal investigation. Twenty years later, with the help of AI and a career’s worth of experience as a security leader, I intentionally did the same thing. Make no mistake, what my agent and I did together was dangerous. It was only because I had enough subject matter expertise in both the functional and risk issues that I could navigate it safely. We are in AI’s Jurassic Park period: no matter how clearly we define the rules, models will search for paths to completion. And they are very good at making those paths look safe, reasonable, and correct even when they violate policy or basic intuition. Designing the right control set is about allowing for the right expertise to be injected at the right time in the co-creation process so we can move quickly and safely into the next evolution.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

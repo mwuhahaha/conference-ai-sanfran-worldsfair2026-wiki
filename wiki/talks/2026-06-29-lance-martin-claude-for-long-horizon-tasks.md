@@ -26,11 +26,7 @@ scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Claude is capable of long horizon tasks. In this talk, we'll share lessons learned about building
-
-agent harnesses for reliable and secure long-horizon work. This include decoupling the brain and
-
-hands, self-verification, self-learning, and design for evolving agent harnesses.
+Claude is capable of long horizon tasks. In this talk, we'll share lessons learned about building agent harnesses for reliable and secure long-horizon work. This include decoupling the brain and hands, self-verification, self-learning, and design for evolving agent harnesses.
 
 ## Related YouTube Video
 [Architecting and Testing Controllable Agents: Lance Martin](https://www.youtube.com/watch?v=ib-wTAvCZqg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

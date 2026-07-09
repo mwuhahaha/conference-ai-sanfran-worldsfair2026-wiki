@@ -26,37 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-Most AI conversations are still about models, benchmarks, and demos. We want to talk about what it
-
-actually takes to make AI work inside real companies. The gap between impressive demos and
-
-production value is where most enterprise AI efforts die. We've all seen burned budgets, cynical
-
-teams, and tools that never leave the pilot phase. We've spent the last two years closing that gap
-
-across the American services economy, and we'll share a bit of our playbook. This talk walks through
-
-three layers of what real AI deployment looks like, drawn from Long Lake's live operating
-
-environments: Measure: How we built domain-specific evals and workflows to improve performance on
-
-real HOA management tasks, not synthetic benchmarks, but metrics tied to actual business outcomes.
-
-Embed: How we put AI directly inside tools like Revit, meeting users where they already work instead
-
-of asking them to change how they operate. Scale: The enablement playbooks and operating techniques
-
-we use to help teams of property managers, payroll specialists, and more adopt AI in their day-to-
-
-day jobs. The broader theme is vertical superintelligence: not just better models, but systems built
-
-around proprietary data, workflow context, domain tools, human enablement, and continual learning.
-
-This talk is for builders and operators who care less about benchmark theater and more about how to
-
-deliver measurable outcomes, deal with change management, and teach non-technical workforces to use
-
-AI effectively in production beyond just Claude Code / Cowork.
+Most AI conversations are still about models, benchmarks, and demos. We want to talk about what it actually takes to make AI work inside real companies. The gap between impressive demos and production value is where most enterprise AI efforts die. We've all seen burned budgets, cynical teams, and tools that never leave the pilot phase. We've spent the last two years closing that gap across the American services economy, and we'll share a bit of our playbook. This talk walks through three layers of what real AI deployment looks like, drawn from Long Lake's live operating environments: Measure: How we built domain-specific evals and workflows to improve performance on real HOA management tasks, not synthetic benchmarks, but metrics tied to actual business outcomes. Embed: How we put AI directly inside tools like Revit, meeting users where they already work instead of asking them to change how they operate. Scale: The enablement playbooks and operating techniques we use to help teams of property managers, payroll specialists, and more adopt AI in their day-to-day jobs. The broader theme is vertical superintelligence: not just better models, but systems built around proprietary data, workflow context, domain tools, human enablement, and continual learning. This talk is for builders and operators who care less about benchmark theater and more about how to deliver measurable outcomes, deal with change management, and teach non-technical workforces to use AI effectively in production beyond just Claude Code / Cowork.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

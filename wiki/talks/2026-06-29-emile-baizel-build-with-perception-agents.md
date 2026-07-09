@@ -26,21 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Human-agent collaboration is changing, becoming more visual. Models can perceive, point, and verify,
-
-but most agents still rely on us typing a paragraph to explain what we're looking at. Meet
-
-perception agents: computer use agents that see screens how you see screens. They understand,
-
-reason, and verify their own work. They let you point, draw, and describe, just as people
-
-collaborate in real life. We call this shared perception, and at AGI Lab we just open-sourced the
-
-first two primitives of our perception agent harness: visual verification and visual annotation. In
-
-this workshop, you'll get hands-on with both, build one sample use case end-to-end, then take the
-
-primitives back to your day-to-day in a mini hackathon. Best ideas win prizes.
+Human-agent collaboration is changing, becoming more visual. Models can perceive, point, and verify, but most agents still rely on us typing a paragraph to explain what we're looking at. Meet perception agents: computer use agents that see screens how you see screens. They understand, reason, and verify their own work. They let you point, draw, and describe, just as people collaborate in real life. We call this shared perception, and at AGI Lab we just open-sourced the first two primitives of our perception agent harness: visual verification and visual annotation. In this workshop, you'll get hands-on with both, build one sample use case end-to-end, then take the primitives back to your day-to-day in a mini hackathon. Best ideas win prizes.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

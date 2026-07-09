@@ -26,15 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-What does it actually take to go from a vague idea to a production-ready AI system that people
-
-depend on? In this talk, I’ll walk through the real story of building Figma’s MCP server as a
-
-founding engineer whilst the MCP spec evolved—starting from early prototypes, through dead ends and
-
-architectural pivots, to launching both the initial product, creating new tools and eventually a
-
-fully remote server.
+What does it actually take to go from a vague idea to a production-ready AI system that people depend on? In this talk, I’ll walk through the real story of building Figma’s MCP server as a founding engineer whilst the MCP spec evolved—starting from early prototypes, through dead ends and architectural pivots, to launching both the initial product, creating new tools and eventually a fully remote server.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,9 +26,7 @@ scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-Hold for LatchBio. AI-powered biotech platform for biological data infrastructure and multi-omics
-
-analysis; user requested inclusion among new AI startups.
+Hold for LatchBio. AI-powered biotech platform for biological data infrastructure and multi-omics analysis; user requested inclusion among new AI startups.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

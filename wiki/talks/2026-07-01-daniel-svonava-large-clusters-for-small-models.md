@@ -26,17 +26,7 @@ scheduleLabels: ["Inference", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Small task-specific models are cheaper, faster and narrowly better than the frontier. But a wide
-
-catalog of small models is tricky to serve - dedicated worker pools sit idle, top-down request
-
-routers choke up on the huge volume of small requests, your users bring 100s of LoRAs.. In this talk
-
-we show how we serve 1M tokens per second with small models, how we architect our cluster for
-
-maximum throughput AND minimum latency and how we apply autoresearch to rewrite our inference code
-
-to support 10+ new models a week.
+Small task-specific models are cheaper, faster and narrowly better than the frontier. But a wide catalog of small models is tricky to serve - dedicated worker pools sit idle, top-down request routers choke up on the huge volume of small requests, your users bring 100s of LoRAs.. In this talk we show how we serve 1M tokens per second with small models, how we architect our cluster for maximum throughput AND minimum latency and how we apply autoresearch to rewrite our inference code to support 10+ new models a week.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

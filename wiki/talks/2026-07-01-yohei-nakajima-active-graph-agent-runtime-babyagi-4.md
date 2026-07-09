@@ -26,11 +26,7 @@ scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Proposing a novel event-sourced graph runtime for building long-running auditable, agentic systems.
-
-Built on top of and combining various BabyAGI iterations and graph experiments (memory, code, logs)
-
-into a single primitive.
+Proposing a novel event-sourced graph runtime for building long-running auditable, agentic systems. Built on top of and combining various BabyAGI iterations and graph experiments (memory, code, logs) into a single primitive.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

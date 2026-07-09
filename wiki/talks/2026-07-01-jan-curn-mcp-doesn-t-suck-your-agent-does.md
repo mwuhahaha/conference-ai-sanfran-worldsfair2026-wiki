@@ -26,31 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most AI agents misuse MCP and treat tools as prompt-time function calls: tool definitions and
-
-results are repeatedly injected into the context, tokens are wasted, and context rots. The result?
-
-Slower, less reliable agents, and the misleading conclusion that “MCP sucks, CLIs are better.” To
-
-challenge this narrative and show how agents can get the best of both MCP and CLI, at
-
-https://apify.com/ we’ve built mcpc (https://github.com/apify/mcpc), an open-source universal CLI
-
-client for MCP. It maps MCP operations to intuitive CLI commands, which agents quickly pick up
-
-through --help without external skills. It turns out, CLI is the perfect local interface for agents
-
-to interact with MCP, giving them access to full protocol capabilities including modern features
-
-like code mode or progressive tool discovery through a single Bash() tool call, while leveraging
-
-MCP’s standard remote interface for server discovery, authentication, payments, and access control.
-
-To once and for all kill the MCP vs. CLI debate and show those two technologies are not exclusive
-
-but complementary, we’ll present evals comparing performance of agents using naive MCP, modern MCP,
-
-native CLIs, other MCP CLIs, and mcpc, in various real-world scenarios.
+Most AI agents misuse MCP and treat tools as prompt-time function calls: tool definitions and results are repeatedly injected into the context, tokens are wasted, and context rots. The result? Slower, less reliable agents, and the misleading conclusion that “MCP sucks, CLIs are better.” To challenge this narrative and show how agents can get the best of both MCP and CLI, at https://apify.com/ we’ve built mcpc (https://github.com/apify/mcpc), an open-source universal CLI client for MCP. It maps MCP operations to intuitive CLI commands, which agents quickly pick up through --help without external skills. It turns out, CLI is the perfect local interface for agents to interact with MCP, giving them access to full protocol capabilities including modern features like code mode or progressive tool discovery through a single Bash() tool call, while leveraging MCP’s standard remote interface for server discovery, authentication, payments, and access control. To once and for all kill the MCP vs. CLI debate and show those two technologies are not exclusive but complementary, we’ll present evals comparing performance of agents using naive MCP, modern MCP, native CLIs, other MCP CLIs, and mcpc, in various real-world scenarios.
 
 ## Related YouTube Video
 [The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify](https://www.youtube.com/watch?v=blW-lSd5CYQ) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

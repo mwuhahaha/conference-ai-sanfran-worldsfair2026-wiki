@@ -26,9 +26,7 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Rolling demos: GLM 5.2 running on DGX Station; Nemotron 3 Ultra running on 4× DGX Spark; real-time
-
-speech on a single Spark; and visual/diffusion generation on a single Spark.
+Rolling demos: GLM 5.2 running on DGX Station; Nemotron 3 Ultra running on 4× DGX Spark; real-time speech on a single Spark; and visual/diffusion generation on a single Spark.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

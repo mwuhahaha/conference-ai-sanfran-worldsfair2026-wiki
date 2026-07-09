@@ -26,25 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Search is usually treated as the end of the document pipeline: parse, chunk, retrieve, and hand them
-
-to the model. But long-running agents need something more durable than one-off retrieval. They need
-
-reusable work: structured outputs, citations, extracted entities, prior decisions, and file-system-
-
-like context they can return to across tasks. At scale, context management is where most agent
-
-systems fall apart. Without the right harness, agents lose track of what they've retrieved, bloat
-
-their context windows, and stall.  In this talk, we'll look at why the document pipeline needs a
-
-stateful layer beyond the index — one that turns one-off retrieval into reusable, agent-ready
-
-context. We'll see how LlamaIndex thinks about transforming messy documents to make this possible,
-
-and why the future of document intelligence belongs to results that compound over time, not just
-
-better search.
+Search is usually treated as the end of the document pipeline: parse, chunk, retrieve, and hand them to the model. But long-running agents need something more durable than one-off retrieval. They need reusable work: structured outputs, citations, extracted entities, prior decisions, and file-system-like context they can return to across tasks. At scale, context management is where most agent systems fall apart. Without the right harness, agents lose track of what they've retrieved, bloat their context windows, and stall. In this talk, we'll look at why the document pipeline needs a stateful layer beyond the index — one that turns one-off retrieval into reusable, agent-ready context. We'll see how LlamaIndex thinks about transforming messy documents to make this possible, and why the future of document intelligence belongs to results that compound over time, not just better search.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

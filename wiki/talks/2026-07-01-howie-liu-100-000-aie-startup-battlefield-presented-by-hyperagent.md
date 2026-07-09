@@ -26,21 +26,7 @@ scheduleLabels: ["Startup Battlefield", "Networking Room", "session", "confirmed
 - Status: confirmed
 
 ## Official Description
-Twenty AI startup founders take the floor at Moscone West for a science fair-style demo gauntlet
-
-(10:45 AM–1 PM), where judges and attendees circulate freely and ask the tough questions. Three
-
-finalists earn a spot on the main stage at 5:25 PM to pitch live in front of our full audience — and
-
-walk away with a share of $100,000 in prizes ($50K / $30K / $20K), awarded by Howie Liu and the
-
-Hyperagent team!  Builders come from across the AI application stack — from agentic workflows and AI
-
-sports tech to social tools and data infrastructure — all competing for the judges' vote and your
-
-vote for People's Choice!  Don't miss Howie Liu on stage at 5:10 PM, followed immediately by the
-
-finals and the winner announcement. 🏆
+Twenty AI startup founders take the floor at Moscone West for a science fair-style demo gauntlet (10:45 AM–1 PM), where judges and attendees circulate freely and ask the tough questions. Three finalists earn a spot on the main stage at 5:25 PM to pitch live in front of our full audience — and walk away with a share of $100,000 in prizes ($50K / $30K / $20K), awarded by Howie Liu and the Hyperagent team! Builders come from across the AI application stack — from agentic workflows and AI sports tech to social tools and data infrastructure — all competing for the judges' vote and your vote for People's Choice! Don't miss Howie Liu on stage at 5:10 PM, followed immediately by the finals and the winner announcement. 🏆
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

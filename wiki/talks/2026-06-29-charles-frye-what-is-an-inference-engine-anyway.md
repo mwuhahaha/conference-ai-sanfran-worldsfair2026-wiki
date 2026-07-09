@@ -26,15 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 8", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-To run state-of-the-art inference yourself, you must master the inference engine: vLLM, SGLang, TRT-
-
-LLM, or your own jawn. The inference engine manages the lifecycle of an inference request, from
-
-input to output. In this workshop, we'll examine the architecture of modern high performance
-
-inference engines, the key techniques that inference engines need to deliver that performance, and
-
-the traces and metrics that inference engines emit.
+To run state-of-the-art inference yourself, you must master the inference engine: vLLM, SGLang, TRT-LLM, or your own jawn. The inference engine manages the lifecycle of an inference request, from input to output. In this workshop, we'll examine the architecture of modern high performance inference engines, the key techniques that inference engines need to deliver that performance, and the traces and metrics that inference engines emit.
 
 ## Related YouTube Video
 [How fast are LLM inference engines anyway? — Charles Frye, Modal](https://www.youtube.com/watch?v=DeFF3J8T5Pk) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

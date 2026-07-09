@@ -26,9 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI agents are reshaping CI/CD. See how workflows become adaptive—understanding failures, fixing
-
-issues, and accelerating releases without constant manual intervention.
+AI agents are reshaping CI/CD. See how workflows become adaptive—understanding failures, fixing issues, and accelerating releases without constant manual intervention.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -30,21 +30,7 @@ scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents are already handling product discovery, cart building, and checkout — no human clicking
-
-required. But what's the protocol stack actually making this work? This talk maps the real
-
-infrastructure: MCP for tool access, A2A for agent coordination, the ACP spec (backed by OpenAI) and
-
-the UCP spec (backed by Google) — two competing approaches to standardizing the full agentic
-
-commerce lifecycle — and AP2 for agentic payments. We'll cover what each does, how they compose, and
-
-where they're still forming. Then we'll see it live — a working demo with a protocol inspector
-
-showing every tool call, task transition, and checkout event in real time. You'll leave with a clear
-
-mental model of the agentic commerce landscape and a reference implementation you can use.
+Agents are already handling product discovery, cart building, and checkout — no human clicking required. But what's the protocol stack actually making this work? This talk maps the real infrastructure: MCP for tool access, A2A for agent coordination, the ACP spec (backed by OpenAI) and the UCP spec (backed by Google) — two competing approaches to standardizing the full agentic commerce lifecycle — and AP2 for agentic payments. We'll cover what each does, how they compose, and where they're still forming. Then we'll see it live — a working demo with a protocol inspector showing every tool call, task transition, and checkout event in real time. You'll leave with a clear mental model of the agentic commerce landscape and a reference implementation you can use.
 
 ## Summary
 Ahnaf Prio's Agentic Commerce track session treats agentic retail as an infrastructure and standards problem: how an autonomous shopping agent moves through product discovery, cart construction, checkout, and payment while leaving an inspectable trail of tool calls and state transitions. The official description identifies the protocol layers directly: MCP for tool access, A2A for agent coordination, ACP and UCP as competing commerce-lifecycle specifications backed by OpenAI and Google respectively, and AP2 for agentic payments. That makes the talk less about a single shopping assistant UX and more about the protocol boundaries needed for agents to operate across catalogs, carts, checkout systems, and payment flows.

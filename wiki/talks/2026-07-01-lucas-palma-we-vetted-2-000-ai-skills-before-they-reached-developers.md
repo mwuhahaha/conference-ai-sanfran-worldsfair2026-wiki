@@ -26,25 +26,7 @@ scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI skills and plugins are becoming part of the software supply chain. They steer agent behavior,
-
-describe tools, run commands, access files, and shape how developers build with AI. Treating them as
-
-harmless configuration is a mistake. This talk shares what we learned from building an automated
-
-security review system for more than 2,000 internal AI skills before they reached a company wide
-
-plugin marketplace. I will walk through the risks we found, the checks that worked, the checks that
-
-created noise, and how we turned skill review into something developers could run locally and in CI.
-
-We will cover practical patterns for reviewing unsafe instructions, destructive commands, sensitive
-
-data exposure, risky tool use, credential handling, external calls, and agent behavior drift. The
-
-goal is to help AI engineers think about skills, plugins, and agent instructions as production
-
-dependencies that deserve review before they reach real users.
+AI skills and plugins are becoming part of the software supply chain. They steer agent behavior, describe tools, run commands, access files, and shape how developers build with AI. Treating them as harmless configuration is a mistake. This talk shares what we learned from building an automated security review system for more than 2,000 internal AI skills before they reached a company wide plugin marketplace. I will walk through the risks we found, the checks that worked, the checks that created noise, and how we turned skill review into something developers could run locally and in CI. We will cover practical patterns for reviewing unsafe instructions, destructive commands, sensitive data exposure, risky tool use, credential handling, external calls, and agent behavior drift. The goal is to help AI engineers think about skills, plugins, and agent instructions as production dependencies that deserve review before they reach real users.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

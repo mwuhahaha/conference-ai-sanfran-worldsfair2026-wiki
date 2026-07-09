@@ -26,19 +26,7 @@ scheduleLabels: ["Track 7", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Reducto powered the infrastructure behind Jmail, a fully searchable email interface with over 3.5
-
-million scanned government pages built days after the Epstein files release. The site went viral
-
-overnight, racking up millions of views across news coverage and social media. In this workshop
-
-we'll break down how Reducto's Parse API handled everything from redacted PDFs to handwritten
-
-letters to dense financial tables at that scale, then walk through the same pipeline hands-on using
-
-the Reducto CLI and MCP. You'll leave with a working setup and a clear mental model for applying
-
-document parsing to your own projects.
+Reducto powered the infrastructure behind Jmail, a fully searchable email interface with over 3.5 million scanned government pages built days after the Epstein files release. The site went viral overnight, racking up millions of views across news coverage and social media. In this workshop we'll break down how Reducto's Parse API handled everything from redacted PDFs to handwritten letters to dense financial tables at that scale, then walk through the same pipeline hands-on using the Reducto CLI and MCP. You'll leave with a working setup and a clear mental model for applying document parsing to your own projects.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,9 +26,7 @@ scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Hold for Bespoke Labs. Company works on data curation, eval tooling, and reinforcement-learning
-
-environment curation for agent development.
+Hold for Bespoke Labs. Company works on data curation, eval tooling, and reinforcement-learning environment curation for agent development.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,13 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Real-world agent systems don’t run in isolation. Learn how to design and coordinate multi-agent
-
-systems that collaborate effectively in production—splitting responsibilities, managing system-level
-
-complexity, and operating with shared context from Microsoft IQ. See how agents move from single
-
-interactions to orchestrated systems that reason, act, and evolve together.
+Real-world agent systems don’t run in isolation. Learn how to design and coordinate multi-agent systems that collaborate effectively in production—splitting responsibilities, managing system-level complexity, and operating with shared context from Microsoft IQ. See how agents move from single interactions to orchestrated systems that reason, act, and evolve together.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

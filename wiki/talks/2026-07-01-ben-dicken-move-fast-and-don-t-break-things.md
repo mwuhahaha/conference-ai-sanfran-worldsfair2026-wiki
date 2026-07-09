@@ -26,25 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Engineers want to move fast with AI, but the infrastructure underneath is buckling. Status pages
-
-across the industry make this clear. Here, you'll learn how to build systems that maintain 4-nines
-
-of availability while meeting unprecedented customer demand using the principles of extreme fault
-
-tolerance.    PlanetScale has written about how we apply these principles to operating databases
-
-across our fleet (https://planetscale.com/blog/the-principles-of-extreme-fault-tolerance). This
-
-matters not just for databases, but all aspects of reliable infrastructure.    Isolation,
-
-redundancy, static stability, and back-pressure are the building-blocks to achieving this. Sticking
-
-to such principles when architecting the backend of AI applications ensures our systems are
-
-resilient to failure while still being flexible enough to scale. We'll look at concrete failure
-
-modes from production systems and the patterns that prevent them.
+Engineers want to move fast with AI, but the infrastructure underneath is buckling. Status pages across the industry make this clear. Here, you'll learn how to build systems that maintain 4-nines of availability while meeting unprecedented customer demand using the principles of extreme fault tolerance. PlanetScale has written about how we apply these principles to operating databases across our fleet (https://planetscale.com/blog/the-principles-of-extreme-fault-tolerance). This matters not just for databases, but all aspects of reliable infrastructure. Isolation, redundancy, static stability, and back-pressure are the building-blocks to achieving this. Sticking to such principles when architecting the backend of AI applications ensures our systems are resilient to failure while still being flexible enough to scale. We'll look at concrete failure modes from production systems and the patterns that prevent them.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

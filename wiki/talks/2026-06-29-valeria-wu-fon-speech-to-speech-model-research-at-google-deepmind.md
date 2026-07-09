@@ -26,21 +26,7 @@ scheduleLabels: ["Voice & Realtime AI", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most voice interfaces today are built as a 3-way cascade system (ASR/LLM/TTS). While functional,
-
-this cascaded approach introduces latency bottlenecks, strips away non-verbal nuance, and limits
-
-emotion-aware, multi-turn dialogue. Today, we are witnessing a profound shift toward native speech-
-
-to-speech models that process audio natively from end to end. In this session, we’ll explore the
-
-exciting paradigm at Google DeepMind to train speech-to-speech models for real-time voice agents. We
-
-will cover the high-level product and research challenges of building voice agents that feel truly
-
-conversational, optimizing for fluid turn-taking and low latency while maintaining enterprise-grade
-
-intelligence.
+Most voice interfaces today are built as a 3-way cascade system (ASR/LLM/TTS). While functional, this cascaded approach introduces latency bottlenecks, strips away non-verbal nuance, and limits emotion-aware, multi-turn dialogue. Today, we are witnessing a profound shift toward native speech-to-speech models that process audio natively from end to end. In this session, we’ll explore the exciting paradigm at Google DeepMind to train speech-to-speech models for real-time voice agents. We will cover the high-level product and research challenges of building voice agents that feel truly conversational, optimizing for fluid turn-taking and low latency while maintaining enterprise-grade intelligence.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

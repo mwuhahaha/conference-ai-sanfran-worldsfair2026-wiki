@@ -26,21 +26,7 @@ scheduleLabels: ["Expo Stage 2", "Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Join swyx for an open, informal Q&A and feedback session about the AI Engineer community, the
-
-World’s Fair experience, and the ideas, pain points, and opportunities attendees are seeing in the
-
-field. Learn about AIE NYC, AIE CODE, AIE Europe, and AIE Asia next year and give us ideas on how to
-
-make the experience better for you. Bring questions, suggestions, and candid feedback for a
-
-conversation designed to help shape future AI Engineer programming and community initiatives.   This
-
-feedback has REAL impact - for example, the New Engineer Orientation this year directly came from an
-
-attendee suggestion at AIE Europe!  This session is repeated at 2:25 PM and 3:20 PM; attendees only
-
-need to attend one of the two sessions.
+Join swyx for an open, informal Q&A and feedback session about the AI Engineer community, the World’s Fair experience, and the ideas, pain points, and opportunities attendees are seeing in the field. Learn about AIE NYC, AIE CODE, AIE Europe, and AIE Asia next year and give us ideas on how to make the experience better for you. Bring questions, suggestions, and candid feedback for a conversation designed to help shape future AI Engineer programming and community initiatives. This feedback has REAL impact - for example, the New Engineer Orientation this year directly came from an attendee suggestion at AIE Europe! This session is repeated at 2:25 PM and 3:20 PM; attendees only need to attend one of the two sessions.
 
 ## Related YouTube Video
 [The 1,000x AI Engineer: Swyx](https://www.youtube.com/watch?v=qaJXBMwUkoE) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

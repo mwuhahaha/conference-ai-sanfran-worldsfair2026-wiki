@@ -26,15 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI agents are ready to act on users' behalf, but legacy auth flows were built for humans, not
-
-agents. This session introduces auth.md, an open protocol that lets agents register and authenticate
-
-users without sign-up forms, and shares what early implementers have learned since launch. Learn
-
-about the new protocol that Cloudflare, Firecrawl, Cogny, and monday.com are adopting to power agent
-
-registration — authenticating agents without sign-up forms.
+AI agents are ready to act on users' behalf, but legacy auth flows were built for humans, not agents. This session introduces auth.md, an open protocol that lets agents register and authenticate users without sign-up forms, and shares what early implementers have learned since launch. Learn about the new protocol that Cloudflare, Firecrawl, Cogny, and monday.com are adopting to power agent registration — authenticating agents without sign-up forms.
 
 ## Related YouTube Video
 [CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS](https://www.youtube.com/watch?v=D4Dswf-__RM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

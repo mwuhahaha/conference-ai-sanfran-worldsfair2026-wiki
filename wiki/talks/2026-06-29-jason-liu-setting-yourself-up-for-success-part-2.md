@@ -26,11 +26,7 @@ scheduleLabels: ["Workshops Day 2", "Track 4", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-I will walk you through the process of understanding how Codex works as a general tool to control
-
-your computer, how to think about things like long running work streams, and preparing yourself to
-
-start thinking in loops.
+I will walk you through the process of understanding how Codex works as a general tool to control your computer, how to think about things like long running work streams, and preparing yourself to start thinking in loops.
 
 ## Related YouTube Video
 [How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)](https://www.youtube.com/watch?v=jryZvCuA0Uc) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

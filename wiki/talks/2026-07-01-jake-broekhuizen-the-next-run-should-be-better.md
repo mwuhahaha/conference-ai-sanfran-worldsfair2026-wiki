@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents generate a constant stream of experience through traces: tool calls, failures, corrections,
-
-routing decisions, and user feedback. The challenge is identifying which parts of that experience
-
-are worth remembering, and making those lessons available to the agent when it runs again. This talk
-
-presents memory as an agent learning loop: capture traces, extract signal, and turn the right
-
-lessons into durable context. We'll explore practical models for agent memory and discuss how to
-
-build systems where the next run can be better than the last.
+Agents generate a constant stream of experience through traces: tool calls, failures, corrections, routing decisions, and user feedback. The challenge is identifying which parts of that experience are worth remembering, and making those lessons available to the agent when it runs again. This talk presents memory as an agent learning loop: capture traces, extract signal, and turn the right lessons into durable context. We'll explore practical models for agent memory and discuss how to build systems where the next run can be better than the last.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

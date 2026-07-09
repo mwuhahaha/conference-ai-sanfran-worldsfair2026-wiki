@@ -26,17 +26,7 @@ scheduleLabels: ["Software Factories", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-As agents improve at doing real work, humans become the real bottleneck. Luckily, the skills we need
-
-to work with agents aren’t entirely new, they've just been hiding in unexpected places. Drawing
-
-lessons from AgentCraft’s Warcraft-inspired UI for coordinating multiple agents, this talk explores
-
-how gamification can raise the ceiling for sophisticated AI orchestration while lowering the floor
-
-for everyday developers. Ido will show how visual state, spatial metaphors, and autonomy can make
-
-multi-agent systems more approachable, inspectable, and fun to use.
+As agents improve at doing real work, humans become the real bottleneck. Luckily, the skills we need to work with agents aren’t entirely new, they've just been hiding in unexpected places. Drawing lessons from AgentCraft’s Warcraft-inspired UI for coordinating multiple agents, this talk explores how gamification can raise the ceiling for sophisticated AI orchestration while lowering the floor for everyday developers. Ido will show how visual state, spatial metaphors, and autonomy can make multi-agent systems more approachable, inspectable, and fun to use.
 
 ## Related YouTube Video
 [AgentCraft: Putting the Orc in Orchestration — Ido Salomon](https://www.youtube.com/watch?v=kR64LOqBBCU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

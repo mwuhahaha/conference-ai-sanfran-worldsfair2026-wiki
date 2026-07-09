@@ -26,15 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-In this expo talk we'll give you a free context engine simulator, open source tools, and demo how a
-
-context engine works. See how modern engineering workflows with agentic loops and goals produce
-
-better quality code and reduce token burn. RAG, while useful, leaves context gaps for humans and
-
-agents. A context engine fills those gaps by including real-time, relational, personalized, and
-
-permission aware techniques to get high-signal context to humans and agents at runtime.
+In this expo talk we'll give you a free context engine simulator, open source tools, and demo how a context engine works. See how modern engineering workflows with agentic loops and goals produce better quality code and reduce token burn. RAG, while useful, leaves context gaps for humans and agents. A context engine fills those gaps by including real-time, relational, personalized, and permission aware techniques to get high-signal context to humans and agents at runtime.
 
 ## Related YouTube Video
 [Stop babysitting your agents... — Brandon Waselnuk, Unblocked](https://www.youtube.com/watch?v=BiG2ssibKGc) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

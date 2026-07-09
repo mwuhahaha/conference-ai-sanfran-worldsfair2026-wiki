@@ -33,13 +33,7 @@ Suraj Gupta's Expo Stage 3 SW session frames Warp's work as part of the World's 
 - Status: confirmed
 
 ## Official Description
-We are in the era of Software Factories, where the entire SDLC is being automated by agents. We will
-
-cover how we are approaching self-improving software factories leveraging dedicated agents to update
-
-skills, persistent cross-harness memory, and implementing feedback loops to ensure that software
-
-factories continually improve.
+We are in the era of Software Factories, where the entire SDLC is being automated by agents. We will cover how we are approaching self-improving software factories leveraging dedicated agents to update skills, persistent cross-harness memory, and implementing feedback loops to ensure that software factories continually improve.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

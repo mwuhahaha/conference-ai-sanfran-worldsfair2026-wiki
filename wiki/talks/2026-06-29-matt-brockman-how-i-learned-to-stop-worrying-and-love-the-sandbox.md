@@ -26,15 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 3", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Running sandboxes at scale can get painful. How do you manage a thousand concurrent sandboxes? We'll
-
-cover burst traffic, fast sandbox creation under load, resource exhaustion, shared state with
-
-volumes, and per-user data isolation. Then you'll trigger each failure, implement fixes, and see the
-
-cost impact in real time. You'll leave with hands-on experience debugging sandbox failures and a set
-
-of observability and scaling patterns you can start implementing.
+Running sandboxes at scale can get painful. How do you manage a thousand concurrent sandboxes? We'll cover burst traffic, fast sandbox creation under load, resource exhaustion, shared state with volumes, and per-user data isolation. Then you'll trigger each failure, implement fixes, and see the cost impact in real time. You'll leave with hands-on experience debugging sandbox failures and a set of observability and scaling patterns you can start implementing.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

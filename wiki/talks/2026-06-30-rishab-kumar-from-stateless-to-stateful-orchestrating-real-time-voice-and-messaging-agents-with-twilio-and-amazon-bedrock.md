@@ -26,25 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-We have all had that maddening customer service experience: you text a support line about a delayed
-
-flight, receive a confirmation, but when you call in a minute later, the voice agent asks, "How can
-
-I help you today?" completely blind to the SMS you just sent. This is the "Channel Amnesia" problem.
-
-While businesses are pouring billions into generative AI, most agents are still built on stateless
-
-architectures that forget customer context the second a session ends. In this session, we will cure
-
-AI amnesia. You will learn how to orchestrate stateful, production-grade AI agents across SMS and
-
-Voice using Twilio Agent Connect and Amazon Bedrock. We will dive into why traditional serverless
-
-compute fails stateful agents, how to leverage AWS Fargate for isolated, long-lived sessions, and
-
-how to configure Bedrock AgentCore over WebSockets to hit sub-50ms streaming voice latency. No
-
-slide-ware here expect a live, cross-channel demo and open-source code you can deploy tomorrow.
+We have all had that maddening customer service experience: you text a support line about a delayed flight, receive a confirmation, but when you call in a minute later, the voice agent asks, "How can I help you today?" completely blind to the SMS you just sent. This is the "Channel Amnesia" problem. While businesses are pouring billions into generative AI, most agents are still built on stateless architectures that forget customer context the second a session ends. In this session, we will cure AI amnesia. You will learn how to orchestrate stateful, production-grade AI agents across SMS and Voice using Twilio Agent Connect and Amazon Bedrock. We will dive into why traditional serverless compute fails stateful agents, how to leverage AWS Fargate for isolated, long-lived sessions, and how to configure Bedrock AgentCore over WebSockets to hit sub-50ms streaming voice latency. No slide-ware here expect a live, cross-channel demo and open-source code you can deploy tomorrow.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

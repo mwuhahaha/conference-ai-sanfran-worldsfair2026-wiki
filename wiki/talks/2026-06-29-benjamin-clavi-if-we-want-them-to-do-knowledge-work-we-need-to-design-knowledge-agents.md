@@ -26,29 +26,7 @@ scheduleLabels: ["Search & Retrieval", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-It's tempting to assume that just like agents revolutionised coding, they will revolutionize other
-
-areas: legal, finance, advertising, and even medicine. All of those have in common that they are
-
-fundamentally knowledge work. And thankfully, humans have spent thousands of years searching for the
-
-best possible workflows for knowledge work. And yet, we seem to be disregarding all of these
-
-learnings, forcing every knowledge task into the shape that worked for coding. Today, we're going to
-
-talk about the history of knowledge work and how tools were co-designed to support it to understand
-
-how we should be building Knowledge Agents, themselves co-designed with their Knowledge Tools. This
-
-is key to avoiding falling into a "good enough" local optimum: think about legal clerking, a core
-
-part of the legal industry where information gathering and reasoning is performed to support the
-
-work of senior lawyers. The practice of clerking follows its own code, rules and best practices,
-
-which could not have feasibly emerged from studying software engineering: and similarly, there is no
-
-reason to believe knowledge agents could emerge from coding agents.
+It's tempting to assume that just like agents revolutionised coding, they will revolutionize other areas: legal, finance, advertising, and even medicine. All of those have in common that they are fundamentally knowledge work. And thankfully, humans have spent thousands of years searching for the best possible workflows for knowledge work. And yet, we seem to be disregarding all of these learnings, forcing every knowledge task into the shape that worked for coding. Today, we're going to talk about the history of knowledge work and how tools were co-designed to support it to understand how we should be building Knowledge Agents, themselves co-designed with their Knowledge Tools. This is key to avoiding falling into a "good enough" local optimum: think about legal clerking, a core part of the legal industry where information gathering and reasoning is performed to support the work of senior lawyers. The practice of clerking follows its own code, rules and best practices, which could not have feasibly emerged from studying software engineering: and similarly, there is no reason to believe knowledge agents could emerge from coding agents.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

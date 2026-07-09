@@ -26,9 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Exa built one of the world's largest knowledge graphs for AI agents. Then they realized it could
-
-power their entire GTM stack, from outbound to internal copilots.
+Exa built one of the world's largest knowledge graphs for AI agents. Then they realized it could power their entire GTM stack, from outbound to internal copilots.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

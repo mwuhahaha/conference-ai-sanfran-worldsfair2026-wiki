@@ -26,29 +26,7 @@ scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confir
 - Status: confirmed
 
 ## Official Description
-In the last few months, hundreds of thousands of people set up personal AI agents that send email on
-
-their behalf, manage calendars, book travel, even sign contracts - all thanks to openclaw. Most of
-
-these agents have no real identity online. They borrow a human's. The identity stack of the
-
-internet, OAuth, 2FA, KYC, magic links, was built for people sitting at a keyboard. Agents don't
-
-fit, and we've ended up with shared accounts, hard-coded credentials, and humans dragged back into
-
-every loop. I'm Adi, co-founder of AgentMail. We are building the identity layer for what we believe
-
-will be the next trillion users of the internet, and they will not be human. Across hundreds of
-
-customers, we have watched what breaks when an agent has no real address. It fails at signups.
-
-Verification codes get lost. There is no accountability when something goes wrong. The human gets
-
-pulled back in. This talk is the case for making agents first-class citizens of the internet. I'll
-
-cover the identity architecture we've shipped, the legacy industries already adopting it and making
-
-real money, and where agent identity infrastructure is going over the next decade.
+In the last few months, hundreds of thousands of people set up personal AI agents that send email on their behalf, manage calendars, book travel, even sign contracts - all thanks to openclaw. Most of these agents have no real identity online. They borrow a human's. The identity stack of the internet, OAuth, 2FA, KYC, magic links, was built for people sitting at a keyboard. Agents don't fit, and we've ended up with shared accounts, hard-coded credentials, and humans dragged back into every loop. I'm Adi, co-founder of AgentMail. We are building the identity layer for what we believe will be the next trillion users of the internet, and they will not be human. Across hundreds of customers, we have watched what breaks when an agent has no real address. It fails at signups. Verification codes get lost. There is no accountability when something goes wrong. The human gets pulled back in. This talk is the case for making agents first-class citizens of the internet. I'll cover the identity architecture we've shipped, the legacy industries already adopting it and making real money, and where agent identity infrastructure is going over the next decade.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

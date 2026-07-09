@@ -26,23 +26,7 @@ scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "
 - Status: confirmed
 
 ## Official Description
-I am a CTO and co-founder with a toddler, 15+ recurring meetings a week, 7 direct reports, and right
-
-now—7 open pull requests across two repos. Most engineering leaders eventually hit a wall where this
-
-kind of calendar tetris forces them to stop shipping code and start communicating solely through
-
-roadmaps. But what if AI agents didn't just act as coding assistants, but fundamentally restructured
-
-how executives use fragmented time to prototype the future? In this talk, I will share the exact
-
-multi-model workflows I use to plan with one model, implement with another, and build asynchronous
-
-play-and-feedback loops that fit perfectly between meetings. You will learn how to navigate code
-
-reviews for agent-assisted executive PRs, and leverage AI to shift your leadership style from
-
-telling your team what to build to showing them functional prototypes.
+I am a CTO and co-founder with a toddler, 15+ recurring meetings a week, 7 direct reports, and right now—7 open pull requests across two repos. Most engineering leaders eventually hit a wall where this kind of calendar tetris forces them to stop shipping code and start communicating solely through roadmaps. But what if AI agents didn't just act as coding assistants, but fundamentally restructured how executives use fragmented time to prototype the future? In this talk, I will share the exact multi-model workflows I use to plan with one model, implement with another, and build asynchronous play-and-feedback loops that fit perfectly between meetings. You will learn how to navigate code reviews for agent-assisted executive PRs, and leverage AI to shift your leadership style from telling your team what to build to showing them functional prototypes.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,33 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Now that the models are powerful and the agents are capable, why are we still approaching software
-
-development as if it's the same activity that it used to be, but "faster"? GitHub Next thinks about
-
-what this future wants to be through two lenses: - Automation: intelligence allows us to automate
-
-much more than we could with heuristics alone. How should that automation work? What guardrails do
-
-we have to put in place so that our CISOs allow us to do that? - Collaboration: agents can
-
-understand anything in your codebase, but what about all the facts that are in the heads of your
-
-teammates? Whether it's corporate politics or taste, how do we get the humans to leak that context
-
-where agents can see it and use it to produce better outcomes? Realtime multiplayer tools have
-
-displaced every turn-based tool out there. What should that look like for code? It's not going to be
-
-as simple as multiple cursors. Come by to hear more about what GitHub Next is learning about the
-
-changing shape of software creation — one that allows us to build better, not merely faster. One
-
-that allows us to scale up teams, not only individuals. And one where automations buy us time for
-
-craft and polish, not slop. We were promised flying cars, instead we have fifteen terminals. Let's
-
-have a nicer future than that.
+Now that the models are powerful and the agents are capable, why are we still approaching software development as if it's the same activity that it used to be, but "faster"? GitHub Next thinks about what this future wants to be through two lenses: - Automation: intelligence allows us to automate much more than we could with heuristics alone. How should that automation work? What guardrails do we have to put in place so that our CISOs allow us to do that? - Collaboration: agents can understand anything in your codebase, but what about all the facts that are in the heads of your teammates? Whether it's corporate politics or taste, how do we get the humans to leak that context where agents can see it and use it to produce better outcomes? Realtime multiplayer tools have displaced every turn-based tool out there. What should that look like for code? It's not going to be as simple as multiple cursors. Come by to hear more about what GitHub Next is learning about the changing shape of software creation — one that allows us to build better, not merely faster. One that allows us to scale up teams, not only individuals. And one where automations buy us time for craft and polish, not slop. We were promised flying cars, instead we have fifteen terminals. Let's have a nicer future than that.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,31 +26,7 @@ scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every design tool today operates at the wrong level of abstraction for AI-assisted engineering.
-
-Traditional tools give you padding sliders and color pickers, built for a world where designer and
-
-engineer are separate roles moving at separate speeds. Prompt-to-design tools one-shot a pretty
-
-landing page from a sentence, which is more dangerous because it looks like it's working. No serious
-
-design director hears a prompt and starts pushing pixels. The brief comes first. What's the
-
-emotional territory? What should this not feel like? Today's AI tools skip that discovery entirely.
-
-The result is output without intent. Technically competent, strategically empty. The right
-
-abstraction for a world where the designer is also the engineer lives between these extremes. Not
-
-pixels. Not prompts. Adjectives. "Make it feel warmer." "Strip it to its essence." "Add tension."
-
-These are the controls a creative director actually thinks in. Drawing on lessons from building
-
-Impeccable, an open source design tool with 24 adjective-level commands like /bolder, /quieter, and
-
-/distill, I'll share what worked, what didn't, and how to apply this thinking to any AI interface
-
-where creative intent matters more than parameter control.
+Every design tool today operates at the wrong level of abstraction for AI-assisted engineering. Traditional tools give you padding sliders and color pickers, built for a world where designer and engineer are separate roles moving at separate speeds. Prompt-to-design tools one-shot a pretty landing page from a sentence, which is more dangerous because it looks like it's working. No serious design director hears a prompt and starts pushing pixels. The brief comes first. What's the emotional territory? What should this not feel like? Today's AI tools skip that discovery entirely. The result is output without intent. Technically competent, strategically empty. The right abstraction for a world where the designer is also the engineer lives between these extremes. Not pixels. Not prompts. Adjectives. "Make it feel warmer." "Strip it to its essence." "Add tension." These are the controls a creative director actually thinks in. Drawing on lessons from building Impeccable, an open source design tool with 24 adjective-level commands like /bolder, /quieter, and /distill, I'll share what worked, what didn't, and how to apply this thinking to any AI interface where creative intent matters more than parameter control.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

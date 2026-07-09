@@ -26,21 +26,7 @@ scheduleLabels: ["Software Factories", "Main Stage", "keynote", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Modern AI inferencing is shifting from monolithic requests to complex agentic workflows and
-
-disaggregated KV stores. As a result, AI network traffic is no longer just very large transfers;
-
-tiny metadata requests are becoming more and more common, and their latency has a critical impact on
-
-throughput. Unfortunately, legacy transport protocols such as TCP and RDMA perform poorly on these
-
-workloads due to poor congestion control and head-of-line blocking. This talk will discuss the
-
-problems with TCP and RDMA and provide a brief introduction to the Homa transport protocol. Homa
-
-uses receiver-driven flow control and capitalizes on priority queues in network switches to reduce
-
-short-message latency by 10x for workloads like those in AI datacenters.
+Modern AI inferencing is shifting from monolithic requests to complex agentic workflows and disaggregated KV stores. As a result, AI network traffic is no longer just very large transfers; tiny metadata requests are becoming more and more common, and their latency has a critical impact on throughput. Unfortunately, legacy transport protocols such as TCP and RDMA perform poorly on these workloads due to poor congestion control and head-of-line blocking. This talk will discuss the problems with TCP and RDMA and provide a brief introduction to the Homa transport protocol. Homa uses receiver-driven flow control and capitalizes on priority queues in network switches to reduce short-message latency by 10x for workloads like those in AI datacenters.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

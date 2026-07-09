@@ -26,29 +26,7 @@ scheduleLabels: ["AI Architects: Show my Workflow", "Leadership 2", "session", "
 - Status: confirmed
 
 ## Official Description
-Most codebases get harder to work with every year. Yours doesn't have to. **Compound Engineering**
-
-is a philosophy where each unit of work – every bug fix, every feature, every code review – makes
-
-the next one easier. This talk is about how that shift changes everything: from how fast you ship to
-
-how many engineers you actually need. --- At Every, we run five products with single-person
-
-engineering teams. That's not a headcount accident – it's a system. When I built
-
-[Cora](https://cora.computer), I wanted to find out how much one engineer could do with the right AI
-
-workflows. The answer became the **Compound Engineering** philosophy, now with 17k stars on GitHub.
-
-Traditional codebases accumulate complexity. Compound codebases accumulate capability. Bug fixes
-
-eliminate entire *categories* of future bugs. Patterns become tools. Over time, the codebase gets
-
-easier to understand, easier to modify, and easier to trust. **You'll walk away with:** - The mental
-
-model behind compound engineering - Concrete patterns for making every PR compound - How to scale
-
-output without scaling headcount
+Most codebases get harder to work with every year. Yours doesn't have to. **Compound Engineering** is a philosophy where each unit of work – every bug fix, every feature, every code review – makes the next one easier. This talk is about how that shift changes everything: from how fast you ship to how many engineers you actually need. --- At Every, we run five products with single-person engineering teams. That's not a headcount accident – it's a system. When I built [Cora](https://cora.computer), I wanted to find out how much one engineer could do with the right AI workflows. The answer became the **Compound Engineering** philosophy, now with 17k stars on GitHub. Traditional codebases accumulate complexity. Compound codebases accumulate capability. Bug fixes eliminate entire *categories* of future bugs. Patterns become tools. Over time, the codebase gets easier to understand, easier to modify, and easier to trust. **You'll walk away with:** - The mental model behind compound engineering - Concrete patterns for making every PR compound - How to scale output without scaling headcount
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

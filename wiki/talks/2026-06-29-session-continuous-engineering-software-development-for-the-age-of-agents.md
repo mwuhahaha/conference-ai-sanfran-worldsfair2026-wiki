@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI has changed everything about how we write code. But the hard parts of building software have
-
-gotten even harder: aligning your team, maintaining architectural integrity, and worst of all,
-
-reviewing the oceans of agent-driven code. The tools and processes we rely on git pull requests;
-
-code review were built for emailing patch files. We need a new paradigm. In this talk, we're going
-
-to explore Continuous Engineering, a new approach to software development that treats the agent
-
-thread as the core unit of collaboration. Branches should be as cheap as ideas, code should carry
-
-the context of the conversation that generated it, and the work should be available to your
-
-colleagues (and their agents) as it happens. We'll walk through what this looks like in practice,
-
-and what we're building to make it possible.
+AI has changed everything about how we write code. But the hard parts of building software have gotten even harder: aligning your team, maintaining architectural integrity, and worst of all, reviewing the oceans of agent-driven code. The tools and processes we rely on git pull requests; code review were built for emailing patch files. We need a new paradigm. In this talk, we're going to explore Continuous Engineering, a new approach to software development that treats the agent thread as the core unit of collaboration. Branches should be as cheap as ideas, code should carry the context of the conversation that generated it, and the work should be available to your colleagues (and their agents) as it happens. We'll walk through what this looks like in practice, and what we're building to make it possible.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

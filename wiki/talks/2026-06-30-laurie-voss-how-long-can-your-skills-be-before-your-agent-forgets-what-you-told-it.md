@@ -26,23 +26,7 @@ scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-A year ago, frontier models lost the thread somewhere around 200 simultaneous instructions, so
-
-skills files had to stay short and lean on sub-skills and subagents. We re-ran IFScale on the 2026
-
-frontier and found the ceiling has moved by an order of magnitude: closer to 2,000 instructions, up
-
-to 5,000 on the strongest models. The more interesting story is how models fail at the new frontier:
-
-DeepSeek quietly drops instructions, Opus refuses outright when innocuous words trip a safety
-
-classifier, Gemini burns its whole budget on reasoning and emits nothing, and GPT-5.5 stops to tell
-
-you your request was unreasonable. The capacity problem is largely solved; verification is wide
-
-open. We'll show the data, the failure modes, and what it costs to find out. You’ll come out with
-
-hard data on the ceiling for complex instructions to LLMs
+A year ago, frontier models lost the thread somewhere around 200 simultaneous instructions, so skills files had to stay short and lean on sub-skills and subagents. We re-ran IFScale on the 2026 frontier and found the ceiling has moved by an order of magnitude: closer to 2,000 instructions, up to 5,000 on the strongest models. The more interesting story is how models fail at the new frontier: DeepSeek quietly drops instructions, Opus refuses outright when innocuous words trip a safety classifier, Gemini burns its whole budget on reasoning and emits nothing, and GPT-5.5 stops to tell you your request was unreasonable. The capacity problem is largely solved; verification is wide open. We'll show the data, the failure modes, and what it costs to find out. You’ll come out with hard data on the ceiling for complex instructions to LLMs
 
 ## Related YouTube Video
 [Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize](https://www.youtube.com/watch?v=Xfl50508LZM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

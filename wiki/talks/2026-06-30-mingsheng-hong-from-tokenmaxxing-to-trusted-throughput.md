@@ -26,23 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-AI adoption is accelerating, but for many engineering organizations, token consumption is now
-
-significant enough to demand real economic discipline. Drawing on Ironclad’s experience scaling AI
-
-across engineering, Mingsheng Hong will introduce the concept of trusted throughput: the rate at
-
-which teams convert AI usage into reviewed, validated, maintainable, and safely deployed customer
-
-value. He will share a practical framework for measuring AI cost and return, identifying bottlenecks
-
-in code review, CI, and merge workflows, and improving ROI through better guardrails, engineering
-
-practices, build-versus-buy decisions, and token optimization. Attendees will leave with a clearer
-
-way to evaluate AI efficiency—not by minimizing usage or rewarding tokenmaxxing, but by maximizing
-
-trusted customer value per dollar of AI spend and unit of human attention.
+AI adoption is accelerating, but for many engineering organizations, token consumption is now significant enough to demand real economic discipline. Drawing on Ironclad’s experience scaling AI across engineering, Mingsheng Hong will introduce the concept of trusted throughput: the rate at which teams convert AI usage into reviewed, validated, maintainable, and safely deployed customer value. He will share a practical framework for measuring AI cost and return, identifying bottlenecks in code review, CI, and merge workflows, and improving ROI through better guardrails, engineering practices, build-versus-buy decisions, and token optimization. Attendees will leave with a clearer way to evaluate AI efficiency—not by minimizing usage or rewarding tokenmaxxing, but by maximizing trusted customer value per dollar of AI spend and unit of human attention.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

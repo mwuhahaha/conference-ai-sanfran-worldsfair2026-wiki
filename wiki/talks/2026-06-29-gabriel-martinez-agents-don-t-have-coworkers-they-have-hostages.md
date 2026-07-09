@@ -26,11 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Modern coding workflows are rife with vibe slop. As organizations scale, proper roles and governance
-
-systems must be well-defined to ensure a high standard of quality. How do world-class teams scale
-
-quality in a world full of slop?
+Modern coding workflows are rife with vibe slop. As organizations scale, proper roles and governance systems must be well-defined to ensure a high standard of quality. How do world-class teams scale quality in a world full of slop?
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

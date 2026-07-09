@@ -26,23 +26,7 @@ scheduleLabels: ["Context Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI agents are quickly becoming the new browsers, changing how users consume content and get work
-
-done. That shift is increasingly powered by a new generation of agentic apps that don’t just present
-
-text but deliver interactive experiences within any MCP host. By standardizing interactive UI on
-
-MCP, the MCP Apps official extension (SEP-1865) is poised to become the new agentic app runtime,
-
-serving as the backbone of the future and removing adoption obstacles that previously hindered the
-
-protocol. Join us to learn more about: The new web - How MCP Apps reshapes the traditional app
-
-landscape and transforms the way users interact with the web Deep dive into MCP Apps - -
-
-Architecture - Real-world use cases - What's ahead? - Getting started (+community and #mcp-apps-wg)
-
-- Future Vision
+AI agents are quickly becoming the new browsers, changing how users consume content and get work done. That shift is increasingly powered by a new generation of agentic apps that don’t just present text but deliver interactive experiences within any MCP host. By standardizing interactive UI on MCP, the MCP Apps official extension (SEP-1865) is poised to become the new agentic app runtime, serving as the backbone of the future and removing adoption obstacles that previously hindered the protocol. Join us to learn more about: The new web - How MCP Apps reshapes the traditional app landscape and transforms the way users interact with the web Deep dive into MCP Apps - - Architecture - Real-world use cases - What's ahead? - Getting started (+community and #mcp-apps-wg) - Future Vision
 
 ## Related YouTube Video
 [MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps](https://www.youtube.com/watch?v=o-zkvb0iFDQ) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

@@ -26,23 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Open-source foundation models are rapidly closing the gap with proprietary systems, enabling
-
-organizations to build powerful AI applications with greater flexibility and control. However,
-
-deploying these models in production introduces a new set of challenges: latency, throughput,
-
-scalability, and cost efficiency.In this talk, we'll explore the modern inference optimization
-
-techniques that power large-scale AI systems in production. Topics include KV cache optimization,
-
-cache-aware routing, prefill/decode disaggregation, speculative decoding, and other emerging
-
-approaches used to improve performance and reduce infrastructure costs.Through practical examples
-
-and real-world architecture patterns, attendees will gain a deeper understanding of how to run open
-
-models efficiently at scale.
+Open-source foundation models are rapidly closing the gap with proprietary systems, enabling organizations to build powerful AI applications with greater flexibility and control. However, deploying these models in production introduces a new set of challenges: latency, throughput, scalability, and cost efficiency.In this talk, we'll explore the modern inference optimization techniques that power large-scale AI systems in production. Topics include KV cache optimization, cache-aware routing, prefill/decode disaggregation, speculative decoding, and other emerging approaches used to improve performance and reduce infrastructure costs.Through practical examples and real-world architecture patterns, attendees will gain a deeper understanding of how to run open models efficiently at scale.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

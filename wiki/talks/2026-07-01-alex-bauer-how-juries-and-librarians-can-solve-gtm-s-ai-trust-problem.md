@@ -30,23 +30,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-A couple of years ago, everyone worried about AI hallucinating. We rarely hear that word anymore,
-
-but it’s just because the problem grew up. Today, your AI still doesn’t know how to say “I’m not
-
-sure.” Instead, it hands you a revenue number that’s wrong in ways that look exactly like being
-
-right.  The good news is we already solved this once, for people: you onboard a new hire so they
-
-understand your business; you put subjective, high-stakes calls in front of more than one set of
-
-eyes. This talk walks through patterns we run at Upside, including a librarian every agent consults
-
-before it acts, a jury-and-judge model for the questions a single pass can’t be trusted to answer,
-
-and knowing when the model itself is just too dumb for the job. Live demos and real failures
-
-included.
+A couple of years ago, everyone worried about AI hallucinating. We rarely hear that word anymore, but it’s just because the problem grew up. Today, your AI still doesn’t know how to say “I’m not sure.” Instead, it hands you a revenue number that’s wrong in ways that look exactly like being right. The good news is we already solved this once, for people: you onboard a new hire so they understand your business; you put subjective, high-stakes calls in front of more than one set of eyes. This talk walks through patterns we run at Upside, including a librarian every agent consults before it acts, a jury-and-judge model for the questions a single pass can’t be trusted to answer, and knowing when the model itself is just too dumb for the job. Live demos and real failures included.
 
 ## Summary
 Alex Bauer's AI in GTM session treats trust as an operational problem inside revenue systems, not as a generic model-behavior lecture. The official description says the dangerous failure mode is no longer a bizarre hallucination that is easy to spot, but a confident GTM answer, such as a revenue number, that is wrong in ways that look plausible. That framing makes the session especially relevant to teams applying agents to attribution, account intelligence, pipeline inspection, forecasting, and other GTM workflows where an answer can be formatted correctly while still being commercially misleading.

@@ -26,29 +26,7 @@ scheduleLabels: ["AI in Healthcare", "Track 7", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Millions of people are now turning to AI for relationship advice and emotional support, often before
-
-they'd ever consider a human therapist. Most of the AI Therapy that is available is without clinical
-
-oversight, ethical frameworks, or any serious reckoning with what it means to intervene in the most
-
-intimate and vulnerable space in a person's life. People are getting hurt. As a couples therapist
-
-with 30 years experience, I teamed up with the former CTO at S&P and we created CoupleWork, an AI
-
-relationship therapist I essentially trained on three decades of clinical knowledge and every
-
-evidence-based modality that exists. Our voice interactive AI, Maxine, is proving this can be done
-
-responsibly and very effectively. And what we're learning about the nature of love, connection, and
-
-human vulnerability at scale is something this industry needs to hear. I also want to talk about
-
-what comes next: the regulatory frameworks that don't yet exist, the liability questions nobody is
-
-answering, and why the therapists who should be leading this conversation are almost entirely absent
-
-from it.
+Millions of people are now turning to AI for relationship advice and emotional support, often before they'd ever consider a human therapist. Most of the AI Therapy that is available is without clinical oversight, ethical frameworks, or any serious reckoning with what it means to intervene in the most intimate and vulnerable space in a person's life. People are getting hurt. As a couples therapist with 30 years experience, I teamed up with the former CTO at S&P and we created CoupleWork, an AI relationship therapist I essentially trained on three decades of clinical knowledge and every evidence-based modality that exists. Our voice interactive AI, Maxine, is proving this can be done responsibly and very effectively. And what we're learning about the nature of love, connection, and human vulnerability at scale is something this industry needs to hear. I also want to talk about what comes next: the regulatory frameworks that don't yet exist, the liability questions nobody is answering, and why the therapists who should be leading this conversation are almost entirely absent from it.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

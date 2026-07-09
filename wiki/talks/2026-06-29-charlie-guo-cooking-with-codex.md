@@ -26,19 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 3", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Codex is changing how technical teams ship across the software development lifecycle, from feature
-
-implementation to code review and automation. But the real unlock comes when these practices move
-
-beyond a single workflow and become shared systems a team can trust.  In this hands-on session,
-
-you'll use Codex across real development and knowledge-work scenarios: structuring tasks,
-
-supervising agentic work, coordinating subagents, using plugins and MCPs, and combining Codex with
-
-OpenAI's frontier reasoning, coding, and multimodal models.  Bring your laptops and leave with
-
-reusable demos and a set of Codex recipes your team can adapt.
+Codex is changing how technical teams ship across the software development lifecycle, from feature implementation to code review and automation. But the real unlock comes when these practices move beyond a single workflow and become shared systems a team can trust. In this hands-on session, you'll use Codex across real development and knowledge-work scenarios: structuring tasks, supervising agentic work, coordinating subagents, using plugins and MCPs, and combining Codex with OpenAI's frontier reasoning, coding, and multimodal models. Bring your laptops and leave with reusable demos and a set of Codex recipes your team can adapt.
 
 ## Related YouTube Video
 [Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo](https://www.youtube.com/watch?v=dvft0Gp9sEE) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

@@ -26,15 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-What happens when your agent decides its existing tools aren't good enough and writes new ones?
-
-Self-modifying agents can generate, test, and deploy their own tool implementations at runtime,
-
-adapting to problems they weren't explicitly programmed to solve. In this session, we'll demo a live
-
-agent that forges its own tools on the fly, discuss the safety boundaries you need, and explore
-
-where this pattern makes sense (and where it absolutely doesn't).
+What happens when your agent decides its existing tools aren't good enough and writes new ones? Self-modifying agents can generate, test, and deploy their own tool implementations at runtime, adapting to problems they weren't explicitly programmed to solve. In this session, we'll demo a live agent that forges its own tools on the fly, discuss the safety boundaries you need, and explore where this pattern makes sense (and where it absolutely doesn't).
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

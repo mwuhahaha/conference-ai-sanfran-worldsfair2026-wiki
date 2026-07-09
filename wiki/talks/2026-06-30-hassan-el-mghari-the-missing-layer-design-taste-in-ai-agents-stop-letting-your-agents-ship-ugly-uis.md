@@ -26,19 +26,7 @@ scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Alt titles: "UI Looksmaxxing for Agents", "Teaching agents design taste", or "How to give your
-
-agents great design taste". I've been exploring how to give coding agents good design taste for the
-
-last few months. In this talk, I'm going to go over how to help your agents give you UIs that don't
-
-suck and that look quite good out of the box. The key is giving them enough context in what you're
-
-building + real inspiration in the form of screenshots. I'll also go over an upcoming design taste
-
-OSS project I'm working on (harness-agnostic + will ship with a prompt builder, MCP server w/ inspo,
-
-and a design eng skill) & talk about how to I use it to build my apps.
+Alt titles: "UI Looksmaxxing for Agents", "Teaching agents design taste", or "How to give your agents great design taste". I've been exploring how to give coding agents good design taste for the last few months. In this talk, I'm going to go over how to help your agents give you UIs that don't suck and that look quite good out of the box. The key is giving them enough context in what you're building + real inspiration in the form of screenshots. I'll also go over an upcoming design taste OSS project I'm working on (harness-agnostic + will ship with a prompt builder, MCP server w/ inspo, and a design eng skill) & talk about how to I use it to build my apps.
 
 ## Related YouTube Video
 [Using OSS models to build AI apps with millions of users — Hassan El Mghari](https://www.youtube.com/watch?v=gcseUQJ6Gbg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

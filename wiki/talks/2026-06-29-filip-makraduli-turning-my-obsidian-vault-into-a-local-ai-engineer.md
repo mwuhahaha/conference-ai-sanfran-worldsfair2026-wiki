@@ -26,13 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 8", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Personal knowledge bases are messy, but engineering agents need memory: decisions, docs, TODOs, old
-
-PRs, architecture notes, incident notes. This talk shows how I made an Obsidian vault usable by an
-
-agent using local-first retrieval and small-model inference. The point is not “chat with notes”; it
-
-is how to build durable, inspectable agent memory.
+Personal knowledge bases are messy, but engineering agents need memory: decisions, docs, TODOs, old PRs, architecture notes, incident notes. This talk shows how I made an Obsidian vault usable by an agent using local-first retrieval and small-model inference. The point is not “chat with notes”; it is how to build durable, inspectable agent memory.
 
 ## Related YouTube Video
 [The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked](https://www.youtube.com/watch?v=qdh_x-uRs9g) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

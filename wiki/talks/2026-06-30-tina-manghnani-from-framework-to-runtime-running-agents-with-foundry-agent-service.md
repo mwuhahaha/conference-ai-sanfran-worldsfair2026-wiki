@@ -26,11 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-See how agents move from frameworks into production systems. Learn how Foundry Agent Service
-
-provides hosted execution, scaling, and lifecycle management—combining models, tools, and
-
-orchestration into a production-ready runtime.
+See how agents move from frameworks into production systems. Learn how Foundry Agent Service provides hosted execution, scaling, and lifecycle management—combining models, tools, and orchestration into a production-ready runtime.
 
 ## Related YouTube Video
 [AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft](https://www.youtube.com/watch?v=JhJKgRAmfIU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

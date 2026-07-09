@@ -26,7 +26,7 @@ scheduleLabels: ["Robotics & World Models", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-TBD — Dyna Robotics talk for Robotics & World Models track.  https://www.dyna.co/
+TBD — Dyna Robotics talk for Robotics & World Models track. https://www.dyna.co/
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

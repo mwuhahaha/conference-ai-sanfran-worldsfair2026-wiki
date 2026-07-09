@@ -26,21 +26,7 @@ scheduleLabels: ["Expo Stage 1", "Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents need a reliable way to reach live business data. At Airbyte we built two interfaces for that,
-
-and this session is how.  Cam built much of that surface. He covers the MCP server that exposes
-
-hundreds of sources through one endpoint with managed auth, and the CLI that's designed for agent
-
-harnesses rather than humans, with embedded help, packaged agent skills, and no credentials passed
-
-over the command line. Expect the real engineering: why a CLI turned out to fit autonomous agents
-
-better than the API or SDK, how auth works across the layers, and the tradeoffs the team made along
-
-the way.  Come if you're building agent tooling or thinking about how to expose your own systems to
-
-agents cleanly.
+Agents need a reliable way to reach live business data. At Airbyte we built two interfaces for that, and this session is how. Cam built much of that surface. He covers the MCP server that exposes hundreds of sources through one endpoint with managed auth, and the CLI that's designed for agent harnesses rather than humans, with embedded help, packaged agent skills, and no credentials passed over the command line. Expect the real engineering: why a CLI turned out to fit autonomous agents better than the API or SDK, how auth works across the layers, and the tradeoffs the team made along the way. Come if you're building agent tooling or thinking about how to expose your own systems to agents cleanly.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

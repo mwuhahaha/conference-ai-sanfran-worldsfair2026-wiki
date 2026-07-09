@@ -26,13 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Harness engineering is emerging as a new core competency for agentic engineers. Your job isn't
-
-writing good code, it's upgrading your codebase so that agents reliably succeed. This talk covers
-
-the core loop of harness engineering, the most common codebase modifications you'll make, and how to
-
-10x your harness engineering efforts with Tessl's harness engineering agent.
+Harness engineering is emerging as a new core competency for agentic engineers. Your job isn't writing good code, it's upgrading your codebase so that agents reliably succeed. This talk covers the core loop of harness engineering, the most common codebase modifications you'll make, and how to 10x your harness engineering efforts with Tessl's harness engineering agent.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

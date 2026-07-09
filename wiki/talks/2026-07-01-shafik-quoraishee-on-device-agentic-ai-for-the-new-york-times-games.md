@@ -26,37 +26,7 @@ scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Traditional mobile game architectures rely on static state machines and fixed behavioral trees.
-
-Under this model, gameplay and accessibility are treated as rigid, separate systems. This results in
-
-blunt difficulty toggles, predictable character loops, and reactive features that fail to address a
-
-player's actual context. Constraint-Centric Agentic Simulation (CCAS) offers a theoretical shift. By
-
-modeling the game world as a continuous, multi-agent negotiation, accessibility and challenge become
-
-part of a single, fluid continuum.  Using the JetBrains Koog framework on Android, this session
-
-explores the theory of running local agents on consumer mobile devices. We will discuss how
-
-principles of game theory, specifically dynamic negotiation and constraint satisfaction, can be used
-
-to build systems that reason over game states. Instead of executing pre-planned scripts, these
-
-agents dynamically alter their strategies. They negotiate environmental constraints to provide
-
-emergent challenges for high-skill players or organically smooth out cognitive and motor friction
-
-points for those requiring assistance.  Running these theoretical models on edge hardware requires
-
-overcoming significant practical hurdles. We will break down the architecture needed to support this
-
-continuous adaptation without relying on cloud computation. We will cover how to manage memory
-
-footprints, compress state histories for rapid backtracking, and schedule local planning loops so
-
-they integrate flawlessly with the rendering engine.
+Traditional mobile game architectures rely on static state machines and fixed behavioral trees. Under this model, gameplay and accessibility are treated as rigid, separate systems. This results in blunt difficulty toggles, predictable character loops, and reactive features that fail to address a player's actual context. Constraint-Centric Agentic Simulation (CCAS) offers a theoretical shift. By modeling the game world as a continuous, multi-agent negotiation, accessibility and challenge become part of a single, fluid continuum. Using the JetBrains Koog framework on Android, this session explores the theory of running local agents on consumer mobile devices. We will discuss how principles of game theory, specifically dynamic negotiation and constraint satisfaction, can be used to build systems that reason over game states. Instead of executing pre-planned scripts, these agents dynamically alter their strategies. They negotiate environmental constraints to provide emergent challenges for high-skill players or organically smooth out cognitive and motor friction points for those requiring assistance. Running these theoretical models on edge hardware requires overcoming significant practical hurdles. We will break down the architecture needed to support this continuous adaptation without relying on cloud computation. We will cover how to manage memory footprints, compress state histories for rapid backtracking, and schedule local planning loops so they integrate flawlessly with the rendering engine.
 
 ## Related YouTube Video
 [New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games](https://www.youtube.com/watch?v=P_uhFGH4J9Y) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

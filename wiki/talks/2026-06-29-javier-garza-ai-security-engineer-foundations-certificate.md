@@ -26,11 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-In each of the two sessions, we cover 6 modules and participants receive a certificate of completion
-
-at the end. The modules are: OWASP Top 10 for LLM, Addressing Shadow AI, AI Threat Modeling,
-
-Securing Agents & MCP, Securing Vibe Coding, & AI Red Teaming
+In each of the two sessions, we cover 6 modules and participants receive a certificate of completion at the end. The modules are: OWASP Top 10 for LLM, Addressing Shadow AI, AI Threat Modeling, Securing Agents & MCP, Securing Vibe Coding, & AI Red Teaming
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

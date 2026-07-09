@@ -26,23 +26,7 @@ scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-As Agentic AI moves from chat to execution, autonomous agents need a native way to discover, access,
-
-and pay for digital services in real time. This session explores how x402 can turn HTTP into a
-
-payment-aware interface for machine-to-machine commerce, unlocking crypto-native patterns like
-
-programmable access, pay-per-use APIs, and on-demand monetization for data, tools, and services.
-
-We’ll show how to build x402-enabled applications and walk through the architecture, the full
-
-agentic payments flow, seller monetization strategies, payment verification, and design tradeoffs
-
-involved in making agent-driven transactions secure, scalable, and production-ready. Attendees will
-
-leave with practical patterns for building apps where AI agents do not just call APIs — they can
-
-discover services, evaluate costs, transact autonomously, and enable new revenue models for sellers.
+As Agentic AI moves from chat to execution, autonomous agents need a native way to discover, access, and pay for digital services in real time. This session explores how x402 can turn HTTP into a payment-aware interface for machine-to-machine commerce, unlocking crypto-native patterns like programmable access, pay-per-use APIs, and on-demand monetization for data, tools, and services. We’ll show how to build x402-enabled applications and walk through the architecture, the full agentic payments flow, seller monetization strategies, payment verification, and design tradeoffs involved in making agent-driven transactions secure, scalable, and production-ready. Attendees will leave with practical patterns for building apps where AI agents do not just call APIs — they can discover services, evaluate costs, transact autonomously, and enable new revenue models for sellers.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

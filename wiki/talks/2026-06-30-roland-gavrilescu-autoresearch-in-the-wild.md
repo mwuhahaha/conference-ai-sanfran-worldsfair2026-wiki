@@ -26,13 +26,7 @@ scheduleLabels: ["Autoresearch", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-We have reached model capability overhang. Models are now bottleneck by the systems built around
-
-them. In this session we discuss how the next generation of compound AI systems need to be designed
-
-for self-improvement, how to set up feedback loops that automate the continuous refinement of the
-
-end-to-end architecture.
+We have reached model capability overhang. Models are now bottleneck by the systems built around them. In this session we discuss how the next generation of compound AI systems need to be designed for self-improvement, how to set up feedback loops that automate the continuous refinement of the end-to-end architecture.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Kimchi is an open-source coding agent that orchestrates multiple AI models—including open-weight
-
-models like Kimi K2.7 and MiniMax M3 alongside commercial frontier models—to intelligently route
-
-each task to the best model for the job.  Powered by Ferment, Kimchi evaluates every step,
-
-automatically reworking or escalating tasks when needed to maintain quality while minimizing the use
-
-of expensive frontier models. The result is high-quality code generation at approximately 2.5x lower
-
-cost than relying on commercial models alone—all with the transparency and flexibility of open
-
-source.
+Kimchi is an open-source coding agent that orchestrates multiple AI models—including open-weight models like Kimi K2.7 and MiniMax M3 alongside commercial frontier models—to intelligently route each task to the best model for the job. Powered by Ferment, Kimchi evaluates every step, automatically reworking or escalating tasks when needed to maintain quality while minimizing the use of expensive frontier models. The result is high-quality code generation at approximately 2.5x lower cost than relying on commercial models alone—all with the transparency and flexibility of open source.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

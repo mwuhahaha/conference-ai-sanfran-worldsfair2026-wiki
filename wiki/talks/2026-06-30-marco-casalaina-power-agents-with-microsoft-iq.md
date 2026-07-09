@@ -26,11 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agents need more than data, they need context. Learn how Microsoft IQ connects agents to enterprise
-
-knowledge, business data, and work signals. See how Foundry IQ, Fabric IQ, and Work IQ provide
-
-grounded, permission-aware context that enables agents to reason, act, and deliver reliable results.
+Agents need more than data, they need context. Learn how Microsoft IQ connects agents to enterprise knowledge, business data, and work signals. See how Foundry IQ, Fabric IQ, and Work IQ provide grounded, permission-aware context that enables agents to reason, act, and deliver reliable results.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,9 +26,7 @@ scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed
 - Status: confirmed
 
 ## Official Description
-Talk on continual learning for LLMs and agents, drawing on retrieval-to-memory and environment-
-
-adaptation research.
+Talk on continual learning for LLMs and agents, drawing on retrieval-to-memory and environment-adaptation research.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

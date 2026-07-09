@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every team building browser agents has the same problem: you can't trust your own evals. Browser
-
-tasks are too open-ended for deterministic checks, so teams use LLM verifiers as judges, and the
-
-judges are wrong constantly. WebVoyager misses 45% of failures. WebJudge misses 22%. Used as RL
-
-reward, you're not training a better agent, you're training a more confident liar. This talk walks
-
-through the Universal Verifier, open-sourced with Microsoft Research: false positive rate near zero,
-
-Cohen's κ matching human-human agreement. Four design principles, one open benchmark, and an honest
-
-account of where auto-research worked and where it plateaued.
+Every team building browser agents has the same problem: you can't trust your own evals. Browser tasks are too open-ended for deterministic checks, so teams use LLM verifiers as judges, and the judges are wrong constantly. WebVoyager misses 45% of failures. WebJudge misses 22%. Used as RL reward, you're not training a better agent, you're training a more confident liar. This talk walks through the Universal Verifier, open-sourced with Microsoft Research: false positive rate near zero, Cohen's κ matching human-human agreement. Four design principles, one open benchmark, and an honest account of where auto-research worked and where it plateaued.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

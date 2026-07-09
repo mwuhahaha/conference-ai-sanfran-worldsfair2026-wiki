@@ -26,17 +26,7 @@ scheduleLabels: ["Posttraining & Midtraining", "Leadership 2", "session", "confi
 - Status: confirmed
 
 ## Official Description
-For agentic AI and complex, multi-step workloads, the inference environment is the engine for
-
-continuous improvement, not a final deployment step. This talk focuses on engineering the full AI
-
-loop: tightly integrating inference with reinforcement learning (RL) and evaluation. Learn how to
-
-leverage native observability, serverless RL, and optimized inference stacks to continuously refine
-
-model behavior based on production traces, delivering agents that are reliable, auditable, and
-
-constantly evolving.
+For agentic AI and complex, multi-step workloads, the inference environment is the engine for continuous improvement, not a final deployment step. This talk focuses on engineering the full AI loop: tightly integrating inference with reinforcement learning (RL) and evaluation. Learn how to leverage native observability, serverless RL, and optimized inference stacks to continuously refine model behavior based on production traces, delivering agents that are reliable, auditable, and constantly evolving.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

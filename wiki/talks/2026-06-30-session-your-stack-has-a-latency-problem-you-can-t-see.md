@@ -26,19 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Break down a real AI voice call path step by step. Show where time actually goes: network hops
-
-between providers, handoff latency, buffering, connection overhead. The model is rarely the
-
-bottleneck. The gaps between vendors are. What changes when inference, STT, TTS, and telephony run
-
-on co-located infrastructure. One network, zero inter-provider hops. Show the before/after latency
-
-breakdown. Zoom out to the inference economics. Owned GPUs, not rented. FP8 throughput on FOSS
-
-models. Pricing that follows the cost of compute, not cloud provider markup. The voice use case is
-
-the proof. The infrastructure story is the point.
+Break down a real AI voice call path step by step. Show where time actually goes: network hops between providers, handoff latency, buffering, connection overhead. The model is rarely the bottleneck. The gaps between vendors are. What changes when inference, STT, TTS, and telephony run on co-located infrastructure. One network, zero inter-provider hops. Show the before/after latency breakdown. Zoom out to the inference economics. Owned GPUs, not rented. FP8 throughput on FOSS models. Pricing that follows the cost of compute, not cloud provider markup. The voice use case is the proof. The infrastructure story is the point.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

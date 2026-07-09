@@ -26,19 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Track 8", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most production teams have the same problem. The work that keeps systems healthy- deployment checks,
-
-on-call handoffs, anomaly reviews- never makes it into a sprint. It falls to whoever has bandwidth,
-
-gets done inconsistently, and disappears when people are stretched thin. Background agents fix this
-
-by running that work on a schedule, using the same production context a senior engineer would,
-
-without waiting for someone to initiate it. Justin Smith, Founding Engineer at Resolve AI, walks
-
-through the architecture behind always-on agents, the use cases teams are starting with today, and
-
-what we have learned from running them in our production environment.
+Most production teams have the same problem. The work that keeps systems healthy- deployment checks, on-call handoffs, anomaly reviews- never makes it into a sprint. It falls to whoever has bandwidth, gets done inconsistently, and disappears when people are stretched thin. Background agents fix this by running that work on a schedule, using the same production context a senior engineer would, without waiting for someone to initiate it. Justin Smith, Founding Engineer at Resolve AI, walks through the architecture behind always-on agents, the use cases teams are starting with today, and what we have learned from running them in our production environment.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

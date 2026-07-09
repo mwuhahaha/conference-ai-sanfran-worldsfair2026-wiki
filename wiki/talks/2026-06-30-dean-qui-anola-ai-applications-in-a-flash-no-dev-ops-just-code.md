@@ -26,9 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Building AI Applications and serving them straight from code. No need for Docker builds. You can
-
-even vibe-code the entire process.
+Building AI Applications and serving them straight from code. No need for Docker builds. You can even vibe-code the entire process.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

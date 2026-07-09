@@ -26,21 +26,7 @@ scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI agents are the new knowledge workers, but knowledge work depends on unstructured enterprise
-
-context. ~90% of that data lives in the form of document containers - from human-native (PDFs, Word,
-
-Pptx) to emerging agent-native formats (HTML, MD). Doing RAG in 2026 involves generalized agent
-
-harnesses with tools, MCPs, and skills. In this world, every company building agents needs a
-
-Document Context Layer, the bridge between their unstructured docs and the agents trying to reason
-
-over them. This talk covers what that layer looks like in practice: from document understanding,
-
-retrieval, and workflows, to areas yet to be explored — agent-native formats, versioning, editing,
-
-permissions, and longer-running agents.
+AI agents are the new knowledge workers, but knowledge work depends on unstructured enterprise context. ~90% of that data lives in the form of document containers - from human-native (PDFs, Word, Pptx) to emerging agent-native formats (HTML, MD). Doing RAG in 2026 involves generalized agent harnesses with tools, MCPs, and skills. In this world, every company building agents needs a Document Context Layer, the bridge between their unstructured docs and the agents trying to reason over them. This talk covers what that layer looks like in practice: from document understanding, retrieval, and workflows, to areas yet to be explored — agent-native formats, versioning, editing, permissions, and longer-running agents.
 
 ## Related YouTube Video
 [Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex](https://www.youtube.com/watch?v=jVGCulhBRZI) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

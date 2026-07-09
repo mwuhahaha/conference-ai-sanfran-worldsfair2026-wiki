@@ -26,19 +26,7 @@ scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "conf
 - Status: confirmed
 
 ## Official Description
-There is no best model. There's only the right model for a given task, and the right model depends
-
-on your team's preferences, not a benchmark score. This talk makes the case for preference-aligned
-
-routing: choosing models by the constraints that actually matter — cost, latency, task type, model
-
-preference — instead of a single leaderboard number. We'll demo a sub-200ms routing decision running
-
-on a purpose-built 30B MoE model with no application code changes, walk through real coding
-
-workflows routing most traffic to open models without losing accuracy, and show where this goes
-
-next: evals, caching, and personalization.
+There is no best model. There's only the right model for a given task, and the right model depends on your team's preferences, not a benchmark score. This talk makes the case for preference-aligned routing: choosing models by the constraints that actually matter — cost, latency, task type, model preference — instead of a single leaderboard number. We'll demo a sub-200ms routing decision running on a purpose-built 30B MoE model with no application code changes, walk through real coding workflows routing most traffic to open models without losing accuracy, and show where this goes next: evals, caching, and personalization.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

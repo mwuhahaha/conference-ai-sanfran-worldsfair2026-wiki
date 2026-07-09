@@ -35,17 +35,7 @@ The linked supporting material is not a confirmed recording of this exact sessio
 - Status: confirmed
 
 ## Official Description
-Even the world's best computer-use agents cannot repeat their successes at the moment. Agents that
-
-write code — emitting structured selector-based actions instead of clicking pixels — break through
-
-that ceiling. We'll share two years of experience from Simular's production agent platform, the
-
-architectural decisions that mattered (refs over pixels, code as substrate, Simulang DSL), and a
-
-live demo: a 30-step unattended Windows workflow, side-by-side with a vision-only baseline. If
-
-you're shipping agents to real users, this is the playbook.
+Even the world's best computer-use agents cannot repeat their successes at the moment. Agents that write code — emitting structured selector-based actions instead of clicking pixels — break through that ceiling. We'll share two years of experience from Simular's production agent platform, the architectural decisions that mattered (refs over pixels, code as substrate, Simulang DSL), and a live demo: a 30-step unattended Windows workflow, side-by-side with a vision-only baseline. If you're shipping agents to real users, this is the playbook.
 
 ## Related YouTube Video
 [The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp](https://www.youtube.com/watch?v=F_RyElT_gJk) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

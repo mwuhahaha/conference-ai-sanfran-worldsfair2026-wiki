@@ -26,37 +26,7 @@ scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed
 - Status: confirmed
 
 ## Official Description
-Continual learning, the ability of AI systems to improve through sequential experience, has
-
-attracted substantial interest, but no high-quality benchmark exists to evaluate it. We introduce
-
-Continual Learning Bench (CL-Bench), the first difficult, expert-validated benchmark designed to
-
-measure whether LLM-based systems genuinely improve with experience. CL-Bench spans six diverse
-
-domains (software engineering, signal processing, disease outbreak forecasting, database querying,
-
-strategic game-playing, and demand forecasting), each validated by domain experts and designed so
-
-that tasks share a learnable latent structure (codebase layout, disease outbreak dynamics, opponent
-
-strategies) that a stateful system can discover online but a stateless one cannot. We evaluate
-
-frontier models across several agent architectures, from naive in-context learning (ICL) to
-
-dedicated memory systems, introducing a gain metric to isolate learning from prior capabilities. We
-
-find that these systems leave headroom for improved continual learning: agents frequently overfit to
-
-immediate observations or fail to reuse knowledge across instances, and dedicated memory systems do
-
-not fix this---in fact, naive ICL outperforms systems dedicated to memory management. CL-Bench is
-
-the first benchmark to evaluate continual learning across diverse real-world domains with expert-
-
-validated tasks and isolate online learning from underlying model capability, showing a need for
-
-better continual learning systems.
+Continual learning, the ability of AI systems to improve through sequential experience, has attracted substantial interest, but no high-quality benchmark exists to evaluate it. We introduce Continual Learning Bench (CL-Bench), the first difficult, expert-validated benchmark designed to measure whether LLM-based systems genuinely improve with experience. CL-Bench spans six diverse domains (software engineering, signal processing, disease outbreak forecasting, database querying, strategic game-playing, and demand forecasting), each validated by domain experts and designed so that tasks share a learnable latent structure (codebase layout, disease outbreak dynamics, opponent strategies) that a stateful system can discover online but a stateless one cannot. We evaluate frontier models across several agent architectures, from naive in-context learning (ICL) to dedicated memory systems, introducing a gain metric to isolate learning from prior capabilities. We find that these systems leave headroom for improved continual learning: agents frequently overfit to immediate observations or fail to reuse knowledge across instances, and dedicated memory systems do not fix this---in fact, naive ICL outperforms systems dedicated to memory management. CL-Bench is the first benchmark to evaluate continual learning across diverse real-world domains with expert-validated tasks and isolate online learning from underlying model capability, showing a need for better continual learning systems.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

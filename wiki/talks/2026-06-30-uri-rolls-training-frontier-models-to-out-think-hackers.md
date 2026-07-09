@@ -26,23 +26,7 @@ scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-We will give a surprisingly optimistic talk about AI and cyber, and why we believe it is not the end
-
-of cybersecurity as we know it, but an opportunity to empower defenders and build a lasting edge
-
-over attackers.  Cyber is a battle of skill and speed, and the rising tide of frontier models is
-
-allowing human attackers to move faster and cheaper. That combination of skilled hackers and
-
-breakthrough LLMs is a real threat, while defensive systems are still expected to operate at scale
-
-with limited human intervention, constrained by what models can do out of the box. But the answer is
-
-not fear or despair. Just as high-quality data transformed software engineering, the right cyber
-
-training data can teach models to turn from weapons being used against us into tools that protect
-
-us.
+We will give a surprisingly optimistic talk about AI and cyber, and why we believe it is not the end of cybersecurity as we know it, but an opportunity to empower defenders and build a lasting edge over attackers. Cyber is a battle of skill and speed, and the rising tide of frontier models is allowing human attackers to move faster and cheaper. That combination of skilled hackers and breakthrough LLMs is a real threat, while defensive systems are still expected to operate at scale with limited human intervention, constrained by what models can do out of the box. But the answer is not fear or despair. Just as high-quality data transformed software engineering, the right cyber training data can teach models to turn from weapons being used against us into tools that protect us.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

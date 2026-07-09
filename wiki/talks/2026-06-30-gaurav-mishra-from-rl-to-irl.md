@@ -26,19 +26,7 @@ scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Today's agents have to operate in a messy reality of flaky connections, ephemeral credentials, and
-
-irreversible actions. They need to navigate real software the way humans do: recovering from
-
-failures, learning from feedback, and making sound judgment calls. This talk is about the
-
-fundamental changes in RL required to make agents ready for IRL. We'll walk through what it takes
-
-for training environments to reflect the complexity of the real world, the perception primitives
-
-that let an agent see what a user sees, the harness pieces that help it survive contact with real
-
-applications, and the failure modes you only discover when you stop scoring and start shipping.
+Today's agents have to operate in a messy reality of flaky connections, ephemeral credentials, and irreversible actions. They need to navigate real software the way humans do: recovering from failures, learning from feedback, and making sound judgment calls. This talk is about the fundamental changes in RL required to make agents ready for IRL. We'll walk through what it takes for training environments to reflect the complexity of the real world, the perception primitives that let an agent see what a user sees, the harness pieces that help it survive contact with real applications, and the failure modes you only discover when you stop scoring and start shipping.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

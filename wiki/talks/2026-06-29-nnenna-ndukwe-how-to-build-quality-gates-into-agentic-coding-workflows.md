@@ -26,23 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 7", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-AI coding agents can now generate code at unprecedented speed. But faster code generation creates a
-
-new engineering problem: how do we know when agent-written code is actually safe, maintainable, and
-
-ready to merge? In this hands-on workshop, attendees will build an agentic coding workflow with
-
-enforceable code quality gates across planning, implementation, testing, and code review. By the end
-
-of the session, participants will have a working reference pattern for agentic software delivery: an
-
-AI-assisted workflow that can inspect a repo, implement a change, run tests, evaluate risk, respond
-
-to feedback, and surface what still requires human judgment. This is a technical enablement session
-
-for engineers building with AI coding agents, platform teams designing agentic SDLC workflows, and
-
-AI engineering leaders thinking about how to scale software quality with AI.
+AI coding agents can now generate code at unprecedented speed. But faster code generation creates a new engineering problem: how do we know when agent-written code is actually safe, maintainable, and ready to merge? In this hands-on workshop, attendees will build an agentic coding workflow with enforceable code quality gates across planning, implementation, testing, and code review. By the end of the session, participants will have a working reference pattern for agentic software delivery: an AI-assisted workflow that can inspect a repo, implement a change, run tests, evaluate risk, respond to feedback, and surface what still requires human judgment. This is a technical enablement session for engineers building with AI coding agents, platform teams designing agentic SDLC workflows, and AI engineering leaders thinking about how to scale software quality with AI.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

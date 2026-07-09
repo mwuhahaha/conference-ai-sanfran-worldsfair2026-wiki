@@ -26,9 +26,7 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Long-horizon agent evals via a simulated vending machine business, testing negotiation, pricing, and
-
-supplier management over 365 days.
+Long-horizon agent evals via a simulated vending machine business, testing negotiation, pricing, and supplier management over 365 days.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

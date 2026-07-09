@@ -26,13 +26,7 @@ scheduleLabels: ["Agentic Engineering", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Agentic development needs more than one interface: MCPs provide clean, portable connectors to
-
-services, with built-in patterns for security and auth. CLIs offer composability, debuggability, and
-
-workflows developers already trust. Skills teach agents how to use a wide variety of tools and MCPs
-
-effectively without overloading context.
+Agentic development needs more than one interface: MCPs provide clean, portable connectors to services, with built-in patterns for security and auth. CLIs offer composability, debuggability, and workflows developers already trust. Skills teach agents how to use a wide variety of tools and MCPs effectively without overloading context.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

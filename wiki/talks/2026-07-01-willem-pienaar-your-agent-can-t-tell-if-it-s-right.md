@@ -26,27 +26,7 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Coding agents feel reliable because of one signal you never think about: the tests. They catch
-
-confident mistakes in seconds, so you never see most of them. The real world has no test suite. Put
-
-an agent in production and that signal is gone, and a wrong answer looks the same as a right one. So
-
-how do you know it's right? We watched our agent look at an 80% drop in throughput and report zero
-
-user impact, because a similar alert the month before had been noise. The data to catch it was
-
-already in front of it. There is no single verifier, but there are several weaker signals. While the
-
-agent reasons: grounding each claim against live data, and looking for evidence that distinguishes
-
-competing hypotheses. Before it acts: calibrated confidence, and a separate critic. After it acts:
-
-whether the fix held, whether the alert returned, whether an engineer redid the work. None is
-
-conclusive on its own. Combined, they estimate whether the agent was right. The talk covers where
-
-these signals come from, how we combine them, and how often they still disagree.
+Coding agents feel reliable because of one signal you never think about: the tests. They catch confident mistakes in seconds, so you never see most of them. The real world has no test suite. Put an agent in production and that signal is gone, and a wrong answer looks the same as a right one. So how do you know it's right? We watched our agent look at an 80% drop in throughput and report zero user impact, because a similar alert the month before had been noise. The data to catch it was already in front of it. There is no single verifier, but there are several weaker signals. While the agent reasons: grounding each claim against live data, and looking for evidence that distinguishes competing hypotheses. Before it acts: calibrated confidence, and a separate critic. After it acts: whether the fix held, whether the alert returned, whether an engineer redid the work. None is conclusive on its own. Combined, they estimate whether the agent was right. The talk covers where these signals come from, how we combine them, and how often they still disagree.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

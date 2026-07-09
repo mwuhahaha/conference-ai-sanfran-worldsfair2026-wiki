@@ -26,31 +26,7 @@ scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-The nightmare scenario writes itself: your agent just ran off with your credit card and maxed it out
-
-on concert tickets, crypto, and a questionable NFT collection. Relax — we're building the
-
-guardrails. When an agent acts on your behalf, three questions must always be answerable: Did the
-
-human authorize this? Did they authorize this, now, in this scope? And can we prove it later? This
-
-talk maps three permissioning layers onto a stakes ladder: OAuth scopes at the bottom (broad
-
-capability, weak per-action proof, fine when reversible), Claude Code's tool-scoped allow/ask/deny
-
-model in the middle (brilliant for developer tooling, but no cryptographic evidence), and signed
-
-payment mandates at the top — where FIDO's Agentic Payments Working Group is building toward
-
-cryptographically-bound, constraint-carrying credentials. We'll share artifacts from Agent to Agent
-
-payments using our Shared Vault and Oauth to our constraint carrying Approval token leveraging our
-
-pillars of Identity and Buyer and Seller protection. You leave with a stakes × evidence matrix and a
-
-mental model that applies beyond payments: medical orders, e-signatures, securities trading,
-
-activities where you want you want to be more careful with your agent.
+The nightmare scenario writes itself: your agent just ran off with your credit card and maxed it out on concert tickets, crypto, and a questionable NFT collection. Relax — we're building the guardrails. When an agent acts on your behalf, three questions must always be answerable: Did the human authorize this? Did they authorize this, now, in this scope? And can we prove it later? This talk maps three permissioning layers onto a stakes ladder: OAuth scopes at the bottom (broad capability, weak per-action proof, fine when reversible), Claude Code's tool-scoped allow/ask/deny model in the middle (brilliant for developer tooling, but no cryptographic evidence), and signed payment mandates at the top — where FIDO's Agentic Payments Working Group is building toward cryptographically-bound, constraint-carrying credentials. We'll share artifacts from Agent to Agent payments using our Shared Vault and Oauth to our constraint carrying Approval token leveraging our pillars of Identity and Buyer and Seller protection. You leave with a stakes × evidence matrix and a mental model that applies beyond payments: medical orders, e-signatures, securities trading, activities where you want you want to be more careful with your agent.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

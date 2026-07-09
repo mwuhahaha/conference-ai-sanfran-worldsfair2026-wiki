@@ -26,15 +26,7 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-There are thousands agent skills. Almost none of them are tested. They get vibe-checked with two
-
-manual runs, maybe a thumbs-up from a colleague, then shipped. You wouldn't merge code without tests
-
-— so why are we shipping skills without evals? This talk covers the full lifecycle of building
-
-reliable agent skills: what a skill actually is (and isn't), how to write one that triggers
-
-correctly, and how to build a lightweight eval harness that catches failures before your users do.
+There are thousands agent skills. Almost none of them are tested. They get vibe-checked with two manual runs, maybe a thumbs-up from a colleague, then shipped. You wouldn't merge code without tests — so why are we shipping skills without evals? This talk covers the full lifecycle of building reliable agent skills: what a skill actually is (and isn't), how to write one that triggers correctly, and how to build a lightweight eval harness that catches failures before your users do.
 
 ## Related YouTube Video
 [Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind](https://www.youtube.com/watch?v=3_gYbhABcAE) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

@@ -32,29 +32,7 @@ scheduleLabels: ["Track 7", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every production agent today is renting its intelligence. You're paying per token, sending your
-
-customer's data to someone else's servers, and hoping the provider doesn't rate-limit you during
-
-your launch. For most teams, that's fine. But for a growing number of teams in regulated industries,
-
-with high-volume products, latency-sensitive workloads, or rising token bills, it's starting to look
-
-like a liability.  In this 120-minute hands-on workshop you'll get a dedicated GPU and build an
-
-agent that runs on infrastructure you control. You'll stand up vLLM, point your agent at it, and
-
-drive concurrent load through the stack until you can see batching, KV cache pressure, and
-
-throughput limits in the metrics. Then you'll optimize the deployment to improve throughput while
-
-keeping per-request latency in line.  The focus isn't agent frameworks. It's the inference layer
-
-underneath them. You'll leave with working code and a real understanding of continuous batching
-
-under real concurrency, KV cache tradeoffs, vLLM's metrics, and the bottlenecks that only show up
-
-when you operate the inference server yourself.
+Every production agent today is renting its intelligence. You're paying per token, sending your customer's data to someone else's servers, and hoping the provider doesn't rate-limit you during your launch. For most teams, that's fine. But for a growing number of teams in regulated industries, with high-volume products, latency-sensitive workloads, or rising token bills, it's starting to look like a liability. In this 120-minute hands-on workshop you'll get a dedicated GPU and build an agent that runs on infrastructure you control. You'll stand up vLLM, point your agent at it, and drive concurrent load through the stack until you can see batching, KV cache pressure, and throughput limits in the metrics. Then you'll optimize the deployment to improve throughput while keeping per-request latency in line. The focus isn't agent frameworks. It's the inference layer underneath them. You'll leave with working code and a real understanding of continuous batching under real concurrency, KV cache tradeoffs, vLLM's metrics, and the bottlenecks that only show up when you operate the inference server yourself.
 
 ## Summary
 Du'an Lightfoot's World's Fair workshop is a production-inference lab for agent teams that want the model endpoint to become infrastructure they own rather than an external token API they rent. The official session description names the operational pressure points directly: customer data leaving the team's boundary, provider rate limits during launches, high-volume products, latency-sensitive workloads, regulated-industry constraints, and token bills that turn inference into a scaling risk. The hands-on shape is concrete: participants get a dedicated GPU, stand up vLLM, connect an agent to that endpoint, and then push concurrent traffic through the system until batching, KV-cache pressure, throughput limits, and latency tradeoffs become visible in metrics.

@@ -35,21 +35,7 @@ The scheduled description positions RLMs as different from coding agents: useful
 - Status: confirmed
 
 ## Official Description
-Recursive Language Models represent an intuitive but distinctively important approach to how LLMs
-
-handle context. The practical implications are bigger than they first appear. Tasks that would
-
-traditionally require careful prompt engineering, custom agent scaffolding, or multi-step
-
-orchestration collapse into surprisingly simple, composable programs. In this talk, we’ll cover what
-
-makes an RLM distinct from a coding agent, explore where the abstraction shines and where it breaks
-
-down, and walk through concrete use cases that are informed by real-world situations at scale. We’ll
-
-see side-by-side comparisons to understand trade-offs in complexity, performance, time, and token
-
-usage.
+Recursive Language Models represent an intuitive but distinctively important approach to how LLMs handle context. The practical implications are bigger than they first appear. Tasks that would traditionally require careful prompt engineering, custom agent scaffolding, or multi-step orchestration collapse into surprisingly simple, composable programs. In this talk, we’ll cover what makes an RLM distinct from a coding agent, explore where the abstraction shines and where it breaks down, and walk through concrete use cases that are informed by real-world situations at scale. We’ll see side-by-side comparisons to understand trade-offs in complexity, performance, time, and token usage.
 
 ## Related YouTube Video
 [DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners](https://www.youtube.com/watch?v=-cKUW6n8hBU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

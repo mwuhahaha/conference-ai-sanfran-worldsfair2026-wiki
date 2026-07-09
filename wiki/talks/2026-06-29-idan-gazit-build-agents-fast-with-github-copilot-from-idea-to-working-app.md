@@ -26,9 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-See how developers go from prompt to a working agent using GitHub Copilot and real workflows. We'll
-
-walk through generating code, iterating quickly, and keeping velocity inside your existing dev loop.
+See how developers go from prompt to a working agent using GitHub Copilot and real workflows. We'll walk through generating code, iterating quickly, and keeping velocity inside your existing dev loop.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

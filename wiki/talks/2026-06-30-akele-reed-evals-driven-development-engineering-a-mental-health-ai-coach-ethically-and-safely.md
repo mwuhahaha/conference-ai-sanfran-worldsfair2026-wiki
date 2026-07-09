@@ -26,25 +26,7 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-In the world of AI Mental Health, vibes can be dangerous with real consequences. Building
-
-Sondermind’s Mental Health AI Coach required us to invent a new playbook for Eval-Driven Development
-
-in order to balance effectiveness and safety. This session is for the builders who want to see how
-
-to handle the most difficult edge cases in the agentic world. We’ll show how we’ve built a Clinical
-
-Feedback Loop that turns human therapist insights into machine-readable evaluations in a production
-
-system with thousands of conversations. We’ll dive into: - The Ethics Engine: Building and
-
-calibrating modular guardrails that can be updated as clinical guidelines evolve. - Agentic
-
-Oversight: Why we moved from single-prompt agents to a closed-loop Supervisor/Executor/Evaluator
-
-pattern to ensure clinical adherence. - Human Oversight: How we monitor Sonder to ensure that we can
-
-improve safety and quality with clinical feedback.
+In the world of AI Mental Health, vibes can be dangerous with real consequences. Building Sondermind’s Mental Health AI Coach required us to invent a new playbook for Eval-Driven Development in order to balance effectiveness and safety. This session is for the builders who want to see how to handle the most difficult edge cases in the agentic world. We’ll show how we’ve built a Clinical Feedback Loop that turns human therapist insights into machine-readable evaluations in a production system with thousands of conversations. We’ll dive into: - The Ethics Engine: Building and calibrating modular guardrails that can be updated as clinical guidelines evolve. - Agentic Oversight: Why we moved from single-prompt agents to a closed-loop Supervisor/Executor/Evaluator pattern to ensure clinical adherence. - Human Oversight: How we monitor Sonder to ensure that we can improve safety and quality with clinical feedback.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,9 +26,7 @@ scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Hold for Fleet AI. Company focuses on simulated environments / training gyms for AI agents and fits
-
-the posttraining / RL environments theme.
+Hold for Fleet AI. Company focuses on simulated environments / training gyms for AI agents and fits the posttraining / RL environments theme.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

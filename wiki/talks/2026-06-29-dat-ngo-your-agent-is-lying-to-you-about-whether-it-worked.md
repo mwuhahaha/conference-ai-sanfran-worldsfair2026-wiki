@@ -26,17 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Every span is green, every tool call returned cleanly, and the agent still regenerated the same plan
-
-27 times before giving up invisible to any outcome metric, obvious in the trajectory. We pull up a
-
-real trace where the outcome looks healthy and the path is a disaster, then show Signal, our agent,
-
-surfacing it automatically: sweeping the project, ranking it above the noise, and linking straight
-
-to the offending trace with debugging evidence attached. The live version of the trajectory-over-
-
-outcomes argument, with a one-click path from "something's wrong" to "here's exactly where."
+Every span is green, every tool call returned cleanly, and the agent still regenerated the same plan 27 times before giving up invisible to any outcome metric, obvious in the trajectory. We pull up a real trace where the outcome looks healthy and the path is a disaster, then show Signal, our agent, surfacing it automatically: sweeping the project, ranking it above the noise, and linking straight to the offending trace with debugging evidence attached. The live version of the trajectory-over-outcomes argument, with a one-click path from "something's wrong" to "here's exactly where."
 
 ## Related YouTube Video
 [LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize](https://www.youtube.com/watch?v=JsCCrBF7F1g) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

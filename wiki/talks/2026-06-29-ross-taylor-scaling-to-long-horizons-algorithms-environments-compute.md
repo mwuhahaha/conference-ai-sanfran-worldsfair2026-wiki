@@ -26,13 +26,7 @@ scheduleLabels: ["Data Quality", "Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-What does it take to scale language models to year long tasks? In this talk we'll cover the
-
-algorithm, environment and compute considerations for scaling language models to long horizons.
-
-We'll cover the latest reinforcement learning approaches, how to build hard, high-fidelity long-
-
-horizon environments, and how to build scalable infrastructure for these tasks.
+What does it take to scale language models to year long tasks? In this talk we'll cover the algorithm, environment and compute considerations for scaling language models to long horizons. We'll cover the latest reinforcement learning approaches, how to build hard, high-fidelity long-horizon environments, and how to build scalable infrastructure for these tasks.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

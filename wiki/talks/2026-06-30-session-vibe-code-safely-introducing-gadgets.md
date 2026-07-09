@@ -26,11 +26,7 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-We ve all heard that the future belongs to custom, AI-generated micro-apps, but how do we actually
-
-make them secure? Hear more from Cloudflare on the debut of Gadgets, an AI productivity suite that
-
-makes personal app creation scalable and safe for everyone.
+We ve all heard that the future belongs to custom, AI-generated micro-apps, but how do we actually make them secure? Hear more from Cloudflare on the debut of Gadgets, an AI productivity suite that makes personal app creation scalable and safe for everyone.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

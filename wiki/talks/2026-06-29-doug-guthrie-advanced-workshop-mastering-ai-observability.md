@@ -26,13 +26,7 @@ scheduleLabels: ["Track 9", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Your AI is in production, but is it actually good? In this hands-on workshop, you'll learn how to
-
-uncover patterns in your production traces using Braintrust Topics, build custom scorers to target
-
-real issues, and systematically improve your agent. By the end, you'll have a repeatable eval
-
-workflow and trace-backed evidence that your AI is actually doing what you think it is.
+Your AI is in production, but is it actually good? In this hands-on workshop, you'll learn how to uncover patterns in your production traces using Braintrust Topics, build custom scorers to target real issues, and systematically improve your agent. By the end, you'll have a repeatable eval workflow and trace-backed evidence that your AI is actually doing what you think it is.
 
 ## Related YouTube Video
 [Evals 101 — Doug Guthrie, Braintrust](https://www.youtube.com/watch?v=bk0TmxoZlUY) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

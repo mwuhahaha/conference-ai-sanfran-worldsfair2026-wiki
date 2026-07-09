@@ -26,9 +26,7 @@ scheduleLabels: ["Expo Stage 4", "Expo Stage 4 SE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-In this talk I dive into usage of tooling, type systems and frameworks to enforce guardrails and
-
-limit slop produced by AI agents inside large codebases.
+In this talk I dive into usage of tooling, type systems and frameworks to enforce guardrails and limit slop produced by AI agents inside large codebases.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

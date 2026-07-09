@@ -26,15 +26,7 @@ scheduleLabels: ["Memory & Continual Learning", "Track 3", "session", "confirmed
 - Status: confirmed
 
 ## Official Description
-You know how smart your agent can be. You have no idea how dumb it gets until it does the dumbest
-
-possible thing in front of your most important user, with full access to act on their behalf.
-
-Capability isn't the bottleneck anymore, the floor is. The hard part is there's usually no objective
-
-right answer. You raise the floor by observing what your agent actually does in production, catching
-
-the dumb thing the moment it happens, and closing the loop so it never happens twice.
+You know how smart your agent can be. You have no idea how dumb it gets until it does the dumbest possible thing in front of your most important user, with full access to act on their behalf. Capability isn't the bottleneck anymore, the floor is. The hard part is there's usually no objective right answer. You raise the floor by observing what your agent actually does in production, catching the dumb thing the moment it happens, and closing the loop so it never happens twice.
 
 ## Related YouTube Video
 [The era of unbounded products: Designing for Multimodal IO: Ben Hylak](https://www.youtube.com/watch?v=5nOLb27hQ5w) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

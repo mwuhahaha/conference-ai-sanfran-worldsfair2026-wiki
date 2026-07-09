@@ -26,15 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Becoming AI-ready starts with modernizing your legacy systems and technical debt — and keeping them
-
-modernized. We’ll show how you can use agentic AI to take on the hardest parts of modernization:
-
-analyzing large codebases, mapping dependencies, planning upgrades, refactoring safely, while doing
-
-it all at scale with enterprise controls. With GitHub Copilot modernization capabilities, you can
-
-move from legacy complexity to modernized apps in days, not months.
+Becoming AI-ready starts with modernizing your legacy systems and technical debt — and keeping them modernized. We’ll show how you can use agentic AI to take on the hardest parts of modernization: analyzing large codebases, mapping dependencies, planning upgrades, refactoring safely, while doing it all at scale with enterprise controls. With GitHub Copilot modernization capabilities, you can move from legacy complexity to modernized apps in days, not months.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

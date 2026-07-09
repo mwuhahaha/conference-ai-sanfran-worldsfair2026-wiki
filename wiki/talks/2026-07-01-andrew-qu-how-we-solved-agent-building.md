@@ -26,19 +26,7 @@ scheduleLabels: ["Harness Engineering", "Main Stage", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-At Vercel I've built a successful AI data scientist, that has taken the load off of our data team
-
-from answering ad-hoc data queries, and fields over 1,200 unique queries a day from just internal
-
-Vercelians. I've been building and iterating on it since last september, and it's gone through over
-
-6 different rewrites, the newest one of which has inspired us to build a new agent framework (to be
-
-teased during the talk ;) ). I'd talk about why we build agents, how we build agents, and how to
-
-build effective agents in today's world. Just prompting, to adding bespoke tooling, to embedding
-
-claude code, to file system agents, to skills-based agents, to the new agent harness framework.
+At Vercel I've built a successful AI data scientist, that has taken the load off of our data team from answering ad-hoc data queries, and fields over 1,200 unique queries a day from just internal Vercelians. I've been building and iterating on it since last september, and it's gone through over 6 different rewrites, the newest one of which has inspired us to build a new agent framework (to be teased during the talk ;) ). I'd talk about why we build agents, how we build agents, and how to build effective agents in today's world. Just prompting, to adding bespoke tooling, to embedding claude code, to file system agents, to skills-based agents, to the new agent harness framework.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

@@ -26,19 +26,7 @@ scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Most "AI for Finance" demos look great and almost none survive past pilot. If you've pushed an agent
-
-past one workflow, one tenant, or one Workday schema, you know the bottleneck isn't the model - it's
-
-the engineer behind the agent, who can't iterate fast enough to keep up with real AP data, real
-
-RBAC, and real query volume. What if you built your dev loop with the same primitives you're
-
-shipping to the finance team? In this talk, I'll show the subagent + skills + MCP stack - a
-
-production multi-agent system over AP, PO, vendor, and multi ERP systems, a LangGraph pattern that
-
-survives production, and the three failure modes that kill finance pilots before they ship.
+Most "AI for Finance" demos look great and almost none survive past pilot. If you've pushed an agent past one workflow, one tenant, or one Workday schema, you know the bottleneck isn't the model - it's the engineer behind the agent, who can't iterate fast enough to keep up with real AP data, real RBAC, and real query volume. What if you built your dev loop with the same primitives you're shipping to the finance team? In this talk, I'll show the subagent + skills + MCP stack - a production multi-agent system over AP, PO, vendor, and multi ERP systems, a LangGraph pattern that survives production, and the three failure modes that kill finance pilots before they ship.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

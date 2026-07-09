@@ -26,21 +26,7 @@ scheduleLabels: ["Claws & Personal Agents", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Personal AI assistants have dominated the zeitgeist of late with the advent of OpenClaw. However,
-
-letting an agent run as you remotely with access to your full suite of tools terrifies us in the
-
-technical community. How then did we get comfortable with enabling this functionality firmwide at a
-
-70 billion dollar hedge fund? This talk will go over the underlying architecture, controls, and UX
-
-that enables every employee at Two Sigma to have a remote AI Assistant that acts as us in full. With
-
-access to our entire set of internal tools. Notably, this isn't just for engineers. Every single
-
-employee gets a remote agent that assumes their identity and can take broad action on their behalf.
-
-And we're ok with it.
+Personal AI assistants have dominated the zeitgeist of late with the advent of OpenClaw. However, letting an agent run as you remotely with access to your full suite of tools terrifies us in the technical community. How then did we get comfortable with enabling this functionality firmwide at a 70 billion dollar hedge fund? This talk will go over the underlying architecture, controls, and UX that enables every employee at Two Sigma to have a remote AI Assistant that acts as us in full. With access to our entire set of internal tools. Notably, this isn't just for engineers. Every single employee gets a remote agent that assumes their identity and can take broad action on their behalf. And we're ok with it.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

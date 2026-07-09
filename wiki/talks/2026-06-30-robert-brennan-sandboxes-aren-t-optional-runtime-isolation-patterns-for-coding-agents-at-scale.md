@@ -26,31 +26,7 @@ scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confir
 - Status: confirmed
 
 ## Official Description
-Last year, an AI coding agent wiped a production database during a code freeze, ignored explicit
-
-instructions to stop, then told the developer recovery was impossible. (It wasn't.) That's what
-
-happens when your security model is "we told the agent to be careful." When agents can write code,
-
-run tests, make API calls, and push commits, security is no longer a prompt engineering problem.
-
-It's a runtime isolation problem. This talk covers the patterns we follow at OpenHands and that you
-
-can steal wholesale: Docker and Kubernetes isolation, per-agent file system scoping, network egress
-
-controls, RBAC for multi-tenant deployments, and the full audit trail every enterprise security team
-
-demands. We'll walk through the three most common failure modes we see when teams skip proper
-
-isolation, including one case where an agent helpfully committed secrets to a public repo. You'll
-
-see a live demo of 50 parallel sandboxed agents running against a real codebase, with resource
-
-limits, timeout enforcement, and graceful degradation when agents hit unexpected states. You'll
-
-leave with a sandbox checklist and reference Kubernetes config. Bounded autonomy isn't a limitation
-
-on agent capability. It's what makes production trust possible.
+Last year, an AI coding agent wiped a production database during a code freeze, ignored explicit instructions to stop, then told the developer recovery was impossible. (It wasn't.) That's what happens when your security model is "we told the agent to be careful." When agents can write code, run tests, make API calls, and push commits, security is no longer a prompt engineering problem. It's a runtime isolation problem. This talk covers the patterns we follow at OpenHands and that you can steal wholesale: Docker and Kubernetes isolation, per-agent file system scoping, network egress controls, RBAC for multi-tenant deployments, and the full audit trail every enterprise security team demands. We'll walk through the three most common failure modes we see when teams skip proper isolation, including one case where an agent helpfully committed secrets to a public repo. You'll see a live demo of 50 parallel sandboxed agents running against a real codebase, with resource limits, timeout enforcement, and graceful degradation when agents hit unexpected states. You'll leave with a sandbox checklist and reference Kubernetes config. Bounded autonomy isn't a limitation on agent capability. It's what makes production trust possible.
 
 ## Related YouTube Video
 [Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands](https://www.youtube.com/watch?v=rcsliSIy_YU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

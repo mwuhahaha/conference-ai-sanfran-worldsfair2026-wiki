@@ -26,21 +26,7 @@ scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Game development is still incredibly hard to get right. It requires great engineering, artistic
-
-vision, and the ability to make something genuinely entertaining, all at once. Dropping a powerful
-
-LLM into existing engines won't solve the problem. Game development needs to fundamentally change to
-
-work in this era of agents. After 15 years in games (making them, watching others make them, and
-
-working at the most popular game engine in the world) I'm now fully embracing the power of AI to
-
-give it to the people who dream of making games but find it too difficult. I'm building Veselka. In
-
-this talk, I'll show you the AI-magic that converts Claude into a real game dev partner, using
-
-Three.js to let anyone build their dream game.
+Game development is still incredibly hard to get right. It requires great engineering, artistic vision, and the ability to make something genuinely entertaining, all at once. Dropping a powerful LLM into existing engines won't solve the problem. Game development needs to fundamentally change to work in this era of agents. After 15 years in games (making them, watching others make them, and working at the most popular game engine in the world) I'm now fully embracing the power of AI to give it to the people who dream of making games but find it too difficult. I'm building Veselka. In this talk, I'll show you the AI-magic that converts Claude into a real game dev partner, using Three.js to let anyone build their dream game.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

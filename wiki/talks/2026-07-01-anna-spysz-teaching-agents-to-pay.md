@@ -26,23 +26,7 @@ scheduleLabels: ["Agentic Commerce", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-With a global daily user base in the hundreds of millions, AI agents are rapidly becoming a primary
-
-interface for how people discover, evaluate, and purchase products. Enabling those products to be
-
-listed and paid for directly through agents opens an entirely new - and enormous - commerce channel.
-
-The Agent Commerce Protocol (ACP) and Shared Payment Tokens provide a secure framework for agent-
-
-driven commerce within Stripe’s ecosystem - without exposing payment data or sacrificing user
-
-control. This session walks developers through the complete implementation: setting up Stripe
-
-integration, creating permission-based payment tokens, interacting with ACP endpoints, and designing
-
-trustworthy user experiences. You'll learn how to enable your agents to transact safely and
-
-predictably, handling everything from checkout flows to error scenarios and webhook events.
+With a global daily user base in the hundreds of millions, AI agents are rapidly becoming a primary interface for how people discover, evaluate, and purchase products. Enabling those products to be listed and paid for directly through agents opens an entirely new - and enormous - commerce channel. The Agent Commerce Protocol (ACP) and Shared Payment Tokens provide a secure framework for agent-driven commerce within Stripe’s ecosystem - without exposing payment data or sacrificing user control. This session walks developers through the complete implementation: setting up Stripe integration, creating permission-based payment tokens, interacting with ACP endpoints, and designing trustworthy user experiences. You'll learn how to enable your agents to transact safely and predictably, handling everything from checkout flows to error scenarios and webhook events.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

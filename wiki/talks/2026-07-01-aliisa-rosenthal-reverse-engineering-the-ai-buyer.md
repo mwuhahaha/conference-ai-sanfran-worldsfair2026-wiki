@@ -26,15 +26,7 @@ scheduleLabels: ["AI in GTM", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-You Built the Best AI Product in the Room. Now What? The GTM Lessons Builders Skip. Aliisa decodes
-
-the commercial mistakes technical teams make most often: why enterprise procurement isn't like
-
-consumer adoption, how to design for trust and change management from day one, the difference
-
-between a pilot and a deal, and the signals that tell you a product is ready to scale vs. ready to
-
-get stuck. She's packed with war stories and counterintuitive lessons from the trenches of OpenAI.
+You Built the Best AI Product in the Room. Now What? The GTM Lessons Builders Skip. Aliisa decodes the commercial mistakes technical teams make most often: why enterprise procurement isn't like consumer adoption, how to design for trust and change management from day one, the difference between a pilot and a deal, and the signals that tell you a product is ready to scale vs. ready to get stuck. She's packed with war stories and counterintuitive lessons from the trenches of OpenAI.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

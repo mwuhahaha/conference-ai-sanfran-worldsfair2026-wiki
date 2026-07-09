@@ -26,13 +26,7 @@ scheduleLabels: ["AI-Native Enterprises", "Leadership 1", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-Selling your AI startup/product into a large enterprise is hard. I often sit on the buyer's side of
-
-the table at a large hedge fund. I've sat through 100+ AI startup pitches and am responsible for
-
-running the pilots that may eventually convert into your ARR. We'll cover what works, what doesn't,
-
-and what large enterprise customers need to see in order to choose 'buy' over 'build'.
+Selling your AI startup/product into a large enterprise is hard. I often sit on the buyer's side of the table at a large hedge fund. I've sat through 100+ AI startup pitches and am responsible for running the pilots that may eventually convert into your ARR. We'll cover what works, what doesn't, and what large enterprise customers need to see in order to choose 'buy' over 'build'.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

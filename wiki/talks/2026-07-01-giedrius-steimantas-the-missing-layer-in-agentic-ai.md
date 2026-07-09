@@ -26,13 +26,7 @@ scheduleLabels: ["Expo Stage 1 NE", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Reasoning is solved. Web access isn't. Most agents break the moment they leave the sandbox blocked,
-
-rate-limited, or staring at a CAPTCHA. Giedrius will show the three primitives every production
-
-agent needs: a browser, a fast search API, and a universal scraper and demo an agent built on top of
-
-them that actually works in the wild.
+Reasoning is solved. Web access isn't. Most agents break the moment they leave the sandbox blocked, rate-limited, or staring at a CAPTCHA. Giedrius will show the three primitives every production agent needs: a browser, a fast search API, and a universal scraper and demo an agent built on top of them that actually works in the wild.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

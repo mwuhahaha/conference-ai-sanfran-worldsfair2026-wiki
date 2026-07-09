@@ -26,37 +26,7 @@ scheduleLabels: ["Workshops Day 1", "Track 5", "workshop", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Running one agent eval is easy. Running hundreds — with controlled timeouts, replicated configs, and
-
-automated collection across distributed VMs — requires infrastructure that most teams end up
-
-building from scratch. In this workshop, we shortcut that process and build a rigorous evaluation
-
-pipeline end-to-end. Participants will set up and connect the full evaluation stack: **Layer 1 — The
-
-Benchmark Runner.** Configure Harbor to orchestrate parallel agent evaluations on Terminal-Bench
-
-2.0, with W&B Sandboxes providing isolated environments for each task. **Layer 2 — The Collection
-
-Pipeline.** Use WolfBench to scan distributed VMs for results, deduplicate across runs, download
-
-trajectories, and build a local results archive that survives VM teardown. **Layer 3 — The Analysis
-
-Framework.** Compute the five-metric framework (Ceiling / Best / Average / Worst / Solid) across
-
-replicated runs. Learn to read the spread: when is a model "better"? When is a score difference just
-
-noise? **Layer 4 — The Observability Layer.** Upload full agent conversation traces to W&B Weave for
-
-per-turn inspection. See exactly where an agent goes wrong — the command it ran, the output it
-
-misread, the moment it started looping. **Layer 5 — The Leaderboard.** Generate interactive HTML
-
-charts that show the full performance distribution, not a single bar. We'll work with real data from
-
-hundreds of production runs, and participants will leave with a working pipeline they can adapt to
-
-their own agents and benchmarks. Laptops required; all tools are open-source.
+Running one agent eval is easy. Running hundreds — with controlled timeouts, replicated configs, and automated collection across distributed VMs — requires infrastructure that most teams end up building from scratch. In this workshop, we shortcut that process and build a rigorous evaluation pipeline end-to-end. Participants will set up and connect the full evaluation stack: **Layer 1 — The Benchmark Runner.** Configure Harbor to orchestrate parallel agent evaluations on Terminal-Bench 2.0, with W&B Sandboxes providing isolated environments for each task. **Layer 2 — The Collection Pipeline.** Use WolfBench to scan distributed VMs for results, deduplicate across runs, download trajectories, and build a local results archive that survives VM teardown. **Layer 3 — The Analysis Framework.** Compute the five-metric framework (Ceiling / Best / Average / Worst / Solid) across replicated runs. Learn to read the spread: when is a model "better"? When is a score difference just noise? **Layer 4 — The Observability Layer.** Upload full agent conversation traces to W&B Weave for per-turn inspection. See exactly where an agent goes wrong — the command it ran, the output it misread, the moment it started looping. **Layer 5 — The Leaderboard.** Generate interactive HTML charts that show the full performance distribution, not a single bar. We'll work with real data from hundreds of production runs, and participants will leave with a working pipeline they can adapt to their own agents and benchmarks. Laptops required; all tools are open-source.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

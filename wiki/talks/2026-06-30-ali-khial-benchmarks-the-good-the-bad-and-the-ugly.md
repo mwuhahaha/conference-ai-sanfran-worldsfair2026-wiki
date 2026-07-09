@@ -26,15 +26,7 @@ scheduleLabels: ["Posttraining & Midtraining", "Track 9", "session", "confirmed"
 - Status: confirmed
 
 ## Official Description
-We’ll explore the good, the bad, and the ugly of AI benchmarks: where they provide useful signal,
-
-where they create false confidence, and where data quality issues like contamination, label noise,
-
-narrow task design, and leaderboard gaming can mislead teams. The goal is not to dismiss benchmarks,
-
-but to use them better: as one part of a disciplined evaluation practice that connects model
-
-performance to real-world reliability.
+We’ll explore the good, the bad, and the ugly of AI benchmarks: where they provide useful signal, where they create false confidence, and where data quality issues like contamination, label noise, narrow task design, and leaderboard gaming can mislead teams. The goal is not to dismiss benchmarks, but to use them better: as one part of a disciplined evaluation practice that connects model performance to real-world reliability.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

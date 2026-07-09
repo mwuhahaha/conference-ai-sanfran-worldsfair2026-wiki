@@ -26,17 +26,7 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Modern agents fail in ways traditional monitoring can’t catch. In this hands-on lab, learn how
-
-Microsoft Foundry Observability helps you move from prototype → production with context-specific
-
-evaluation suites (auto-generated evaluators + test datasets) wired into developer workflows via
-
-skills/MCP tooling for hosted agents. Then scale quality with continuous evaluation, trace-linked
-
-analysis, and adaptive red teaming—and walk away with a sandbox to explore additional features on
-
-your own.
+Modern agents fail in ways traditional monitoring can’t catch. In this hands-on lab, learn how Microsoft Foundry Observability helps you move from prototype → production with context-specific evaluation suites (auto-generated evaluators + test datasets) wired into developer workflows via skills/MCP tooling for hosted agents. Then scale quality with continuous evaluation, trace-linked analysis, and adaptive red teaming—and walk away with a sandbox to explore additional features on your own.
 
 ## Related YouTube Video
 [Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner](https://www.youtube.com/watch?v=1t-9-s1brcg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

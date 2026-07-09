@@ -40,37 +40,7 @@ The current evidence layer is still schedule-grounded. No official matched AI En
 - Status: confirmed
 
 ## Official Description
-Most agentic demos you've seen has a hidden assumption: one user, one session, one task. But what
-
-happens when the agent needs to coordinate with 30 other agents, across 10 disciplines, on a project
-
-that takes 12 months — where a single miscommunication costs $10-50M? Chip design is that problem.
-
-Only 14% of chips succeed on first silicon. The bottleneck isn't individual engineer speed — it's
-
-silent divergence between disciplines working from specs that drift without noticing. We built a
-
-multiplayer AI on the Anthropic Agent SDK, connected through three alignment layers: a living spec
-
-graph (System of Intent) that propagates changes and detects conflicts in real time, a tribal
-
-knowledge layer (Memory) that compounds methodology across projects, and milestone-aware execution
-
-that drives EDA tools with full design context. Each agent operates within strict spec-hierarchy
-
-boundaries enforced at the API level. Cross-agent invocations use structured tool calls with typed
-
-parameters, logged for full auditability. We talked with 15 practitioners across 8 major
-
-semiconductor and EDA companies. The universal finding: teams need alignment infrastructure, not
-
-faster copilots. We'll also share what broke — because coordination tax applies to AI agents too,
-
-and the failure modes are surprisingly instructive. This talk covers the multi-agent architecture,
-
-evaluation methodology, and lessons from deploying agentic AI in one of engineering's most complex
-
-coordination domains.
+Most agentic demos you've seen has a hidden assumption: one user, one session, one task. But what happens when the agent needs to coordinate with 30 other agents, across 10 disciplines, on a project that takes 12 months — where a single miscommunication costs $10-50M? Chip design is that problem. Only 14% of chips succeed on first silicon. The bottleneck isn't individual engineer speed — it's silent divergence between disciplines working from specs that drift without noticing. We built a multiplayer AI on the Anthropic Agent SDK, connected through three alignment layers: a living spec graph (System of Intent) that propagates changes and detects conflicts in real time, a tribal knowledge layer (Memory) that compounds methodology across projects, and milestone-aware execution that drives EDA tools with full design context. Each agent operates within strict spec-hierarchy boundaries enforced at the API level. Cross-agent invocations use structured tool calls with typed parameters, logged for full auditability. We talked with 15 practitioners across 8 major semiconductor and EDA companies. The universal finding: teams need alignment infrastructure, not faster copilots. We'll also share what broke — because coordination tax applies to AI agents too, and the failure modes are surprisingly instructive. This talk covers the multi-agent architecture, evaluation methodology, and lessons from deploying agentic AI in one of engineering's most complex coordination domains.
 
 ## Related YouTube Video
 No related AI Engineer channel video found yet.

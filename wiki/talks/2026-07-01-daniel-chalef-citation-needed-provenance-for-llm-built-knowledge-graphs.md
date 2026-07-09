@@ -26,23 +26,7 @@ scheduleLabels: ["Graphs", "Track 5", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-An LLM doesn't copy facts into your knowledge graph. It synthesizes them: entities merge across
-
-sources, and later data invalidates earlier facts. By the time your agent retrieves "patient has a
-
-penicillin allergy," the origin — an EHR record, a lab report, or something typed into a chatbot —
-
-is gone. This talk covers engineering lineage into a lossy, generative pipeline: episode-to-fact
-
-links as structural graph properties, provenance that survives entity resolution, metadata
-
-projection (tag a source once; it follows every derived node and edge), and the query semantics of
-
-filtering facts by ancestry, including mixed-trust parentage. Deletion is the inverse problem: GDPR
-
-erasure propagates back through the same derivation edges. Compliance gets an audit trail; engineers
-
-get agents they can debug instead of black boxes.
+An LLM doesn't copy facts into your knowledge graph. It synthesizes them: entities merge across sources, and later data invalidates earlier facts. By the time your agent retrieves "patient has a penicillin allergy," the origin — an EHR record, a lab report, or something typed into a chatbot — is gone. This talk covers engineering lineage into a lossy, generative pipeline: episode-to-fact links as structural graph properties, provenance that survives entity resolution, metadata projection (tag a source once; it follows every derived node and edge), and the query semantics of filtering facts by ancestry, including mixed-trust parentage. Deletion is the inverse problem: GDPR erasure propagates back through the same derivation edges. Compliance gets an audit trail; engineers get agents they can debug instead of black boxes.
 
 ## Related YouTube Video
 [Stop Using RAG as Memory — Daniel Chalef, Zep](https://www.youtube.com/watch?v=T5IMo5ntyhA) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

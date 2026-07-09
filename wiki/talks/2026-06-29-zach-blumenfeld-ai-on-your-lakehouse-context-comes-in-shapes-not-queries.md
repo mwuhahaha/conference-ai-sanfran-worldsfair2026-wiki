@@ -26,25 +26,7 @@ scheduleLabels: ["Track 2", "Track 2", "sponsor", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-Your agent can reach your data but still can't use it reliably: vector search and Text2SQL each hand
-
-it a slice, but not the view to know what's truly relevant and how to connect the right info.
-
-Without that, answers come back confident but wrong, and agent decisions cannot be trusted. The
-
-problem isn't caused by a bad model or bad query, but rather a lack of context, and thinking in
-
-terms of shapes is what cracks it.  In this hands-on session, you'll learn how to build three
-
-reusable graph shapes from your lakehouse data using Neo4j, so your agent can navigate and view the
-
-right context to answer and act accurately:  - Table of Contents (Trees) — navigate what's there -
-
-Themes (Communities) — surface patterns nobody named - Connections (Paths & Cycles) — trace how
-
-entities, documents, and records relate  Portable to BigQuery, Databricks, Snowflake, or anywhere.
-
-You'll leave with real, practical techniques and the code to run with your own data and agents.
+Your agent can reach your data but still can't use it reliably: vector search and Text2SQL each hand it a slice, but not the view to know what's truly relevant and how to connect the right info. Without that, answers come back confident but wrong, and agent decisions cannot be trusted. The problem isn't caused by a bad model or bad query, but rather a lack of context, and thinking in terms of shapes is what cracks it. In this hands-on session, you'll learn how to build three reusable graph shapes from your lakehouse data using Neo4j, so your agent can navigate and view the right context to answer and act accurately: - Table of Contents (Trees) — navigate what's there - Themes (Communities) — surface patterns nobody named - Connections (Paths & Cycles) — trace how entities, documents, and records relate Portable to BigQuery, Databricks, Snowflake, or anywhere. You'll leave with real, practical techniques and the code to run with your own data and agents.
 
 ## Related YouTube Video
 [Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j](https://www.youtube.com/watch?v=B9h9ovW5H9U) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).

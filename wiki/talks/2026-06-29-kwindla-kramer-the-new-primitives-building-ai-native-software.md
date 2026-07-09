@@ -26,21 +26,7 @@ scheduleLabels: ["Voice & Realtime AI", "Track 6", "session", "confirmed"]
 - Status: confirmed
 
 ## Official Description
-In the future, every piece of software with a human-facing surface will be built from new, LLM-
-
-centric primitives. (Just like every piece of software today has networking, threads/async routines,
-
-UI on top of some flavor of Model/View/Controller abstractions, etc.) We're just starting to invent
-
-these new primitives. The list, though, will definitely include: 1. Subagents - multiple inference
-
-loops, multiple models, async tool calls 2. Very long context - memory + episodic human interactions
-
-over a long period of time, structured data input (not just output), progressive skills/context
-
-loading, graceful compaction & summarization 3. dynamic user interface generation / user interfaces
-
-driven by LLM inference 4. conversational voice input
+In the future, every piece of software with a human-facing surface will be built from new, LLM-centric primitives. (Just like every piece of software today has networking, threads/async routines, UI on top of some flavor of Model/View/Controller abstractions, etc.) We're just starting to invent these new primitives. The list, though, will definitely include: 1. Subagents - multiple inference loops, multiple models, async tool calls 2. Very long context - memory + episodic human interactions over a long period of time, structured data input (not just output), progressive skills/context loading, graceful compaction & summarization 3. dynamic user interface generation / user interfaces driven by LLM inference 4. conversational voice input
 
 ## Related YouTube Video
 [Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)](https://www.youtube.com/watch?v=E71YtNbCFXY) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
