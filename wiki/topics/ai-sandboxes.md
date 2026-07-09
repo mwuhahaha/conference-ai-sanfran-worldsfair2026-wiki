@@ -126,3 +126,7 @@ Use a sandbox whenever the agent can execute code, read or write user files, bro
 - [[youtube-hCMrEfPG2Yg]] — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
 - [[youtube-ObTPqBGsEbA]] — The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks
 - [[youtube-DqtmZE6Hl0g]] — The Prompt is the Platform - Dominik Tornow, Resonate HQ
+
+## Livestream Slide Support
+Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The agent-architecture slide separates the agent from any single model: the production agent also includes runtime or sandbox, tools, loop, and framework.

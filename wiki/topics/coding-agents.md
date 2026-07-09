@@ -135,3 +135,10 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - “We need to think about the branches in our skill moving material out behind context pointers.” — [[youtube-UNzCG3lw6O0]]
 - “And this is this is pretty uh important because sometimes the problem is uh, uh so critical so we need to fix them as soon as possible and yeah, it works pretty well.” — [[youtube-kZsf_Sfm7RU]]
 - “Model providers you will put evaluation benchmarks on three uh benchmark uh boards, but those are not really useful when you put them in your context, in your enterprise.” — [[youtube-ObTPqBGsEbA]]
+
+## Livestream Slide Support
+Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The stream includes an end-to-end RL pipeline pattern for self-healing data workflows: observe logs/schema/data quality, diagnose the likely failure family, estimate operational risk, choose a bounded remediation, and validate recovery.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: One slide names a common agent design failure: forcing one conversation/context window to act as database, filesystem, memory, and reasoning space at once.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The agent-architecture slide separates the agent from any single model: the production agent also includes runtime or sandbox, tools, loop, and framework.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The simplified loop slide shows a log-reconstructable agent pattern: rebuild state from the session log, ask the model for the next step, append model/tool results, and continue.

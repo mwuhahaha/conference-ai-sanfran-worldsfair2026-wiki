@@ -135,3 +135,10 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - “And so, to kind of think actually about what a context graph is, we need to ask ourselves, "Would you agents really be accurate?" Right?” — [[youtube-B9h9ovW5H9U]]
 - “And then context, policies that are um in different reasoning by AI that records memory, but um by employees and and past humans that have made decisions.” — [[youtube-B9h9ovW5H9U]]
 - “Um But yeah, that's a good point and then in the create context graph, we're still working on how you would write um new decision traces.” — [[youtube-B9h9ovW5H9U]]
+
+## Livestream Slide Support
+Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The KV-cache slide makes context memory concrete: every token an agent reads or writes creates cached state, so long-context agents can carry a hidden RAM bill that grows into tens of gigabytes.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: One slide names a common agent design failure: forcing one conversation/context window to act as database, filesystem, memory, and reasoning space at once.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: A memory-oriented game-agent slide argues for tracking narrative state and attitude rather than brittle numeric state when the model is better at qualitative continuity.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The simplified loop slide shows a log-reconstructable agent pattern: rebuild state from the session log, ask the model for the next step, append model/tool results, and continue.

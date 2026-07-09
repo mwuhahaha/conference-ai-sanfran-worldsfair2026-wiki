@@ -132,3 +132,9 @@ Invest in inference engineering once prototypes need predictable user experience
 - “Um you need to before you start doing anything, you need to know what it is that you're measuring.” — [[youtube-fWXJM-J0ZB8]]
 - “So it's not just one pass, it does multiple passes, but it gets to attend to the future tokens and so on.” — [[youtube-r305-aQTaU0]]
 - “All right, so So, when we're serving uh an auto regressive model, these these chips are memory bound.” — [[youtube-r305-aQTaU0]]
+
+## Livestream Slide Support
+Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: Model selection is framed as a production tradeoff where accuracy and output quality dominate, with agentic capabilities, cost, privacy controls, reliability, enterprise support, latency, fine-tuning, and open weights as secondary considerations.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The KV-cache slide makes context memory concrete: every token an agent reads or writes creates cached state, so long-context agents can carry a hidden RAM bill that grows into tens of gigabytes.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: TurboQuant is presented as a compression approach for embeddings and KV cache, using low-bit storage to reduce memory pressure without retraining.

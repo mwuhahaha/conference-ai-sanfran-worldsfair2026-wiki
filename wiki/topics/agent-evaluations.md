@@ -135,3 +135,9 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - “Um so anyway, so the the title of my talk today is evals are broken and you should use them anyway.” — [[youtube-QuuIywMG4s8]]
 - “And lastly, this axis is all about producing more complex work, more representative work, and also nuanced signals that can be used for not just evaluation, but reward signals during training.” — [[youtube-iNkFlCiij0U]]
 - “And for the same amount of evaluation, it takes only 7 hours.” — [[youtube-hqHC6Z_lXyo]]
+
+## Livestream Slide Support
+Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: Model selection is framed as a production tradeoff where accuracy and output quality dominate, with agentic capabilities, cost, privacy controls, reliability, enterprise support, latency, fine-tuning, and open weights as secondary considerations.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The stream includes an end-to-end RL pipeline pattern for self-healing data workflows: observe logs/schema/data quality, diagnose the likely failure family, estimate operational risk, choose a bounded remediation, and validate recovery.
+- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The anomaly-remediation slide treats safety override as part of the intelligence layer, escalating high-risk anomalies instead of letting an agent blindly act.
