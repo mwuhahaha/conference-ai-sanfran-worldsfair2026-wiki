@@ -6,7 +6,7 @@ sourceLabels: ["Official schedule", "Transcript evidence", "Local slide OCR", "P
 
 # Worldsfair Phrase Word Cloud
 
-![[assets/worldsfair-phrase-word-cloud-v2.svg]]
+![[assets/worldsfair-phrase-word-cloud-v3.svg]]
 
 ## Corpus
 - Official/source JSON files: 1
