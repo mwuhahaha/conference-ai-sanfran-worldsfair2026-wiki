@@ -28,5 +28,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-bmWZk9vTze0` — 10 slide-derived text signals
-  - Slide-derived themes: query, client, info, table, tool, call, response, await.
-  - Evidence links: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
+- Slide-derived themes for `youtube-bmWZk9vTze0`: query, client, info, table, tool, call, response, await.
+- Evidence links for `youtube-bmWZk9vTze0`: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]

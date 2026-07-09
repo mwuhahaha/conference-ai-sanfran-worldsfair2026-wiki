@@ -38,6 +38,6 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
-  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
-  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
-  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]

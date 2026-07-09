@@ -33,5 +33,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-sRpqPgKeXNk` — 10 slide-derived text signals
-  - Slide-derived themes: analysis, artificial, intelligence, index, tokens, models, language, output.
-  - Evidence links: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: analysis, artificial, intelligence, index, tokens, models, language, output.
+- Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]

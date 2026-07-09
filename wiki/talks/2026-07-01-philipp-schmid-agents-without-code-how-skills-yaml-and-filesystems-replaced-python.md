@@ -62,8 +62,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-cVzf49yg0D8` — 7 slide-derived text signals
-  - Slide-derived themes: rule, thea, score, secure, service, login, base, explore.
-  - Evidence links: [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
+- Evidence links for `youtube-cVzf49yg0D8`: [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

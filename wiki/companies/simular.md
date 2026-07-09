@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-F_RyElT_gJk` — 10 slide-derived text signals
-  - Slide-derived themes: coding, claude, slop, cursor, tools, months, gemini, designed.
-  - Evidence links: [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
+- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, claude, slop, cursor, tools, months, gemini, designed.
+- Evidence links for `youtube-F_RyElT_gJk`: [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]

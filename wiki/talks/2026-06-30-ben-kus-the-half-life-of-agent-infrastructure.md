@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-12v5S1n1eOY` — 10 slide-derived text signals
-  - Slide-derived themes: high, speed, fully, integrated, generative, starting, fortune, hereof.
-  - Evidence links: [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]
+- Slide-derived themes for `youtube-12v5S1n1eOY`: high, speed, fully, integrated, generative, starting, fortune, hereof.
+- Evidence links for `youtube-12v5S1n1eOY`: [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -33,5 +33,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-yJHw33cVeHo` — 10 slide-derived text signals
-  - Slide-derived themes: cases, text, vision, voice, outlook, research, deployment, company.
-  - Evidence links: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
+- Evidence links for `youtube-yJHw33cVeHo`: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]

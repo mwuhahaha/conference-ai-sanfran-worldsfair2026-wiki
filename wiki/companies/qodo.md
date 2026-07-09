@@ -37,5 +37,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
-  - Slide-derived themes: code, state, quality, bash, reality, show, engineering, future.
-  - Evidence links: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
+- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, bash, reality, show, engineering, future.
+- Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]

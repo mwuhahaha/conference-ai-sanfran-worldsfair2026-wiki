@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-BZtD0yYAgCQ` — 5 slide-derived text signals
-  - Slide-derived themes: ship, future, programming, bret, victor, bitter, layout.
-  - Evidence links: [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-BZtD0yYAgCQ`: ship, future, programming, bret, victor, bitter, layout.
+- Evidence links for `youtube-BZtD0yYAgCQ`: [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]

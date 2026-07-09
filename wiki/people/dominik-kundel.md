@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-iXhba366fQc` — 10 slide-derived text signals
-  - Slide-derived themes: complex, support, before, started, workshop, slack, voice, provide.
-  - Evidence links: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
+- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
+- Evidence links for `youtube-iXhba366fQc`: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]

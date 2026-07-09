@@ -108,8 +108,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-EyZiAp0pelw` — 1 slide-derived text signals
-  - Slide-derived themes: device, location, creative, story, tags, thanks.
-  - Evidence links: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+- Slide-derived themes for `youtube-EyZiAp0pelw`: device, location, creative, story, tags, thanks.
+- Evidence links for `youtube-EyZiAp0pelw`: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

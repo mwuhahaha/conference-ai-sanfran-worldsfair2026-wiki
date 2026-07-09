@@ -28,5 +28,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-G_bHFmEAarM` — 10 slide-derived text signals
-  - Slide-derived themes: output, google, gemini, flash, lite, paid, grounding, latest.
-  - Evidence links: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
+- Slide-derived themes for `youtube-G_bHFmEAarM`: output, google, gemini, flash, lite, paid, grounding, latest.
+- Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]

@@ -42,14 +42,14 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-2vlCqD6igVA` — 10 slide-derived text signals
-  - Slide-derived themes: search, query, latte, enriching, exploratory, queries, extract, catalog.
-  - Evidence links: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
+- Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
+- Evidence links for `youtube-2vlCqD6igVA`: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
 - `youtube-ib-wTAvCZqg` — 10 slide-derived text signals
-  - Slide-derived themes: step, display, search, documents, retrieval, typically, used, most.
-  - Evidence links: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
+- Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
+- Evidence links for `youtube-ib-wTAvCZqg`: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
 - `youtube-1t-9-s1brcg` — 10 slide-derived text signals
-  - Slide-derived themes: microsoft, start, access, quick, templates, powdery, bran, expert.
-  - Evidence links: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
+- Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
 - `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals
-  - Slide-derived themes: claude, code, file, system, tools, prompts, custom, features.
-  - Evidence links: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
+- Evidence links for `youtube-TqC1qOfiVcQ`: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]

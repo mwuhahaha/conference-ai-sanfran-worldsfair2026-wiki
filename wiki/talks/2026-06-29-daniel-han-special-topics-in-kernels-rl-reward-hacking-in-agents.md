@@ -56,8 +56,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-OkEGJ5G3foU` — 3 slide-derived text signals
-  - Slide-derived themes: fixes, chat, template, multiple, llama, research, google, github.
-  - Evidence links: [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
+- Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
+- Evidence links for `youtube-OkEGJ5G3foU`: [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

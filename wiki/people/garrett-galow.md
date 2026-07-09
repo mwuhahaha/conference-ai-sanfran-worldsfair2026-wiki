@@ -28,5 +28,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
-  - Slide-derived themes: help, today, engineering, future.
-  - Evidence links: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
+- Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.
+- Evidence links for `youtube-iUWwcG-C8OU`: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]

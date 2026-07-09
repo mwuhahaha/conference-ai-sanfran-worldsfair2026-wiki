@@ -39,22 +39,22 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-yJHw33cVeHo` — 10 slide-derived text signals
-  - Slide-derived themes: cases, text, vision, voice, outlook, research, deployment, company.
-  - Evidence links: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
+- Evidence links for `youtube-yJHw33cVeHo`: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
 - `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
-  - Transcript signals: analysis, sales, transcript, models, calls, data, single, doing.
-  - Slide-derived themes: calls, shift, week.
-  - Evidence links: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
+- Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 - `youtube-JsCCrBF7F1g` — 10 slide-derived text signals
-  - Slide-derived themes: teams, engineering, hard, tackling, registration, open, observe, platform.
-  - Evidence links: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, engineering, hard, tackling, registration, open, observe, platform.
+- Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 - `youtube-qdh_x-uRs9g` — 10 slide-derived text signals
-  - Slide-derived themes: model, performance, makes, embedding, best, learn, join, team.
-  - Evidence links: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
+- Slide-derived themes for `youtube-qdh_x-uRs9g`: model, performance, makes, embedding, best, learn, join, team.
+- Evidence links for `youtube-qdh_x-uRs9g`: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
 - `youtube-E71YtNbCFXY` — 5 slide-derived text signals
-  - Slide-derived themes: pelt, remember, connections.
-  - Evidence links: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
+- Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
+- Evidence links for `youtube-E71YtNbCFXY`: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
 - `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
-  - Transcript signals: evals, eval, data, should, judge, output, whether, phoenix.
-  - Slide-derived themes: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
-  - Evidence links: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
+- Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+- Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]

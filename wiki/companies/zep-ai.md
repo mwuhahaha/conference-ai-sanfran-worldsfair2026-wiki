@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-T5IMo5ntyhA` — 10 slide-derived text signals
-  - Slide-derived themes: text, memory, description, goal, financial, type, target, amount.
-  - Evidence links: [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, goal, financial, type, target, amount.
+- Evidence links for `youtube-T5IMo5ntyhA`: [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]

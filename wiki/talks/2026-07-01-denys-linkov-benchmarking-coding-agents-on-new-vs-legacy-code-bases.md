@@ -60,8 +60,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-SbUxRluVRwk` — 2 slide-derived text signals
-  - Slide-derived themes: before, hiring, modern, team, themes.
-  - Evidence links: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]
+- Slide-derived themes for `youtube-SbUxRluVRwk`: before, hiring, modern, team, themes.
+- Evidence links for `youtube-SbUxRluVRwk`: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

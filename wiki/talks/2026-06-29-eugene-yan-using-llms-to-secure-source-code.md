@@ -53,8 +53,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-2vlCqD6igVA` — 10 slide-derived text signals
-  - Slide-derived themes: search, query, latte, enriching, exploratory, queries, extract, catalog.
-  - Evidence links: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
+- Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
+- Evidence links for `youtube-2vlCqD6igVA`: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

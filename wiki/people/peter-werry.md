@@ -29,5 +29,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-5ID22ACI7IM` — 10 slide-derived text signals
-  - Slide-derived themes: context, callers, cover, today, remember, built, original, intent.
-  - Evidence links: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
+- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
+- Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]

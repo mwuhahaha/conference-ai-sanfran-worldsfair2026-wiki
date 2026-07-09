@@ -62,8 +62,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-bVNNvWq6dKo` — 6 slide-derived text signals
-  - Slide-derived themes: always, believed, future, software, write, analyzes, content, most.
-  - Evidence links: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
+- Evidence links for `youtube-bVNNvWq6dKo`: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

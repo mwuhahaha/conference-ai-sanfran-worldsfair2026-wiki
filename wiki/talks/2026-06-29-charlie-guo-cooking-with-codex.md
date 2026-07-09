@@ -74,9 +74,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
-  - Transcript signals: analysis, sales, transcript, models, calls, data, single, doing.
-  - Slide-derived themes: calls, shift, week.
-  - Evidence links: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
+- Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

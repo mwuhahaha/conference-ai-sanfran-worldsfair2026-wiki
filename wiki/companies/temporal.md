@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-k8cnVCMYmNc` — 10 slide-derived text signals
-  - Slide-derived themes: instructions, python, available, distributed, typescript, developer, advocate, temporal.
-  - Evidence links: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
+- Slide-derived themes for `youtube-k8cnVCMYmNc`: instructions, python, available, distributed, typescript, developer, advocate, temporal.
+- Evidence links for `youtube-k8cnVCMYmNc`: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]

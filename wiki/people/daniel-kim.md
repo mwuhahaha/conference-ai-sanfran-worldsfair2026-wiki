@@ -32,5 +32,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-tzRvcTEapzo` — 10 slide-derived text signals
-  - Slide-derived themes: mixture, experts, queen, research, focus, training, cores, buffers.
-  - Evidence links: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
+- Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]

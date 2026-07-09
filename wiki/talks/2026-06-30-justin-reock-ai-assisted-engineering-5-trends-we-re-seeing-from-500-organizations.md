@@ -66,8 +66,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-PmZDupFP3UM` — 10 slide-derived text signals
-  - Slide-derived themes: engineering, claude, against, expert, forecasts, developer, slows, down.
-  - Evidence links: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
+- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
+- Evidence links for `youtube-PmZDupFP3UM`: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

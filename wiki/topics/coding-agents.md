@@ -164,12 +164,12 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
-  - Slide-derived themes: code, state, quality, bash, reality, show, engineering, future.
-  - Evidence links: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
+- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, bash, reality, show, engineering, future.
+- Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
 - `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
-  - Transcript signals: evals, eval, data, should, judge, output, whether, phoenix.
-  - Slide-derived themes: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
-  - Evidence links: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
+- Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+- Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
 - `youtube-AheG9p_JXVw` — 1,340 transcript words
-  - Transcript signals: editing, media, editor, case, real, users, user, everything.
-  - Evidence links: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+- Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
+- Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]

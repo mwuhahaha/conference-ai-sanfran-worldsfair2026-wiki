@@ -62,8 +62,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-5nOLb27hQ5w` — 5 slide-derived text signals
-  - Slide-derived themes: fair, dawn, focused, understand, wees, requests, bits, designer.
-  - Evidence links: [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
+- Slide-derived themes for `youtube-5nOLb27hQ5w`: fair, dawn, focused, understand, wees, requests, bits, designer.
+- Evidence links for `youtube-5nOLb27hQ5w`: [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

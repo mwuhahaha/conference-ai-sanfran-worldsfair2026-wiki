@@ -82,8 +82,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-bSG9wUYaHWU` — 10 slide-derived text signals
-  - Slide-derived themes: code, context, fetch, retries, user, retry, write, function.
-  - Evidence links: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
+- Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.
+- Evidence links for `youtube-bSG9wUYaHWU`: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

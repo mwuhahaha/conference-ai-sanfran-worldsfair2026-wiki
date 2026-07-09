@@ -140,15 +140,15 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
-  - Transcript signals: analysis, sales, transcript, models, calls, data, single, doing.
-  - Slide-derived themes: calls, shift, week.
-  - Evidence links: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
+- Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 - `youtube-P_RI1kCkRbo` — 10 slide-derived text signals
-  - Slide-derived themes: engineering, future, brig, team, google, translation, great, hove.
-  - Evidence links: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+- Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
+- Evidence links for `youtube-P_RI1kCkRbo`: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
 - `youtube-u3NofYYstaY` — 8 slide-derived text signals
-  - Slide-derived themes: cohere, team, accenture, global, languages, support, addresses, unique.
-  - Evidence links: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
+- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
+- Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
 - `youtube-SbcQYbrvAfI` — 10 slide-derived text signals
-  - Slide-derived themes: prompt, learning, planning, missing, applied, optimization, loop, case.
-  - Evidence links: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
+- Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]

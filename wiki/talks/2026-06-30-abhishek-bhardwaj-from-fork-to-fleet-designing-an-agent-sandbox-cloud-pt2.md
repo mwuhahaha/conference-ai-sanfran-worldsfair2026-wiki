@@ -69,8 +69,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals
-  - Slide-derived themes: clone, flask, project, code, create, scratch, systems, chat.
-  - Evidence links: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+- Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
+- Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

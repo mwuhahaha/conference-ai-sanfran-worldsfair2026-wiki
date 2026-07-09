@@ -42,8 +42,8 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-5ID22ACI7IM` — 10 slide-derived text signals
-  - Slide-derived themes: context, callers, cover, today, remember, built, original, intent.
-  - Evidence links: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
+- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
+- Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
 - `youtube-BiG2ssibKGc` — 5 slide-derived text signals
-  - Slide-derived themes: context, engineering, stop, babysitting, engine, code, future, creating.
-  - Evidence links: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
+- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
+- Evidence links for `youtube-BiG2ssibKGc`: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]

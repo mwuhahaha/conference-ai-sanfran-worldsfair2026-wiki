@@ -26,5 +26,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-NuePCNMpWGc` — 4 slide-derived text signals
-  - Slide-derived themes: programming, changed, last, benchmarks, enough, info, demo, stop.
-  - Evidence links: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
+- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, benchmarks, enough, info, demo, stop.
+- Evidence links for `youtube-NuePCNMpWGc`: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]

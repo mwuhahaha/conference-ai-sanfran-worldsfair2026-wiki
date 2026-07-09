@@ -30,5 +30,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-aqW68Is_Kj4` — 10 slide-derived text signals
-  - Slide-derived themes: messages, model, context, response, client, create, tokens, give.
-  - Evidence links: [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]
+- Slide-derived themes for `youtube-aqW68Is_Kj4`: messages, model, context, response, client, create, tokens, give.
+- Evidence links for `youtube-aqW68Is_Kj4`: [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]

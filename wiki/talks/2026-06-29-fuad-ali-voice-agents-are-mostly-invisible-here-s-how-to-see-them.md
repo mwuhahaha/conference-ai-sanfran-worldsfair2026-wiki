@@ -62,8 +62,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-SbcQYbrvAfI` — 10 slide-derived text signals
-  - Slide-derived themes: prompt, learning, planning, missing, applied, optimization, loop, case.
-  - Evidence links: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
+- Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

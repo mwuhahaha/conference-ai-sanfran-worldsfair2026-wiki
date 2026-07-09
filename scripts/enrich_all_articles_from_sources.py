@@ -330,9 +330,9 @@ def render_evidence_section(video_ids_: list[str], *, include_title: bool = True
                 bits.append(f"{len(ev['slide_lines'])} slide-derived text signals")
             lines.append(f"- `youtube-{video_id}` — " + ("; ".join(bits) if bits else "source page linked"))
         if ev["keywords"]:
-            lines.append(f"  - Transcript signals: {', '.join(ev['keywords'])}.")
+            lines.append(f"- Transcript signals for `youtube-{video_id}`: {', '.join(ev['keywords'])}.")
         if ev["slide_keywords"]:
-            lines.append(f"  - Slide-derived themes: {', '.join(ev['slide_keywords'])}.")
+            lines.append(f"- Slide-derived themes for `youtube-{video_id}`: {', '.join(ev['slide_keywords'])}.")
         links = []
         if ev["resource_exists"]:
             links.append(f"[[youtube-{video_id}]]")
@@ -340,7 +340,7 @@ def render_evidence_section(video_ids_: list[str], *, include_title: bool = True
             links.append(f"[[youtube-{video_id}-transcript]]")
         links.extend(f"[[{page}]]" for page in ev["slide_pages"])
         if links:
-            lines.append(f"  - Evidence links: {', '.join(links)}")
+            lines.append(f"- Evidence links for `youtube-{video_id}`: {', '.join(links)}")
     return "\n".join(lines) if lines else "No linked video, transcript, or slide source has been attached yet."
 
 

@@ -54,7 +54,7 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-sl3icG-IjHo` — source page linked
-  - Evidence links: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
+- Evidence links for `youtube-sl3icG-IjHo`: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

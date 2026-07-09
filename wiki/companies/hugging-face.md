@@ -45,8 +45,8 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-lY1iFbDPRlw` — 10 slide-derived text signals
-  - Slide-derived themes: research, agentic, model, senior, engineer, tasks, real, fast.
-  - Evidence links: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
+- Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 - `youtube-OV56RddyFuU` — 10 slide-derived text signals
-  - Slide-derived themes: models, community, trending, image, pare, update, mode, tees.
-  - Evidence links: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
+- Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

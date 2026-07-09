@@ -32,5 +32,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals
-  - Slide-derived themes: world, local, questions, united, states, mother, surname, name.
-  - Evidence links: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]
+- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, united, states, mother, surname, name.
+- Evidence links for `youtube-Ywl4LsvHKzU`: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

@@ -34,5 +34,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-PmZDupFP3UM` — 10 slide-derived text signals
-  - Slide-derived themes: engineering, claude, against, expert, forecasts, developer, slows, down.
-  - Evidence links: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
+- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
+- Evidence links for `youtube-PmZDupFP3UM`: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]

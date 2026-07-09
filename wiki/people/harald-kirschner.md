@@ -32,5 +32,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-eOxOzcw70f0` — 10 slide-derived text signals
-  - Slide-derived themes: code, vibes, learning, clone, even, exists, fully, give.
-  - Evidence links: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Evidence links for `youtube-eOxOzcw70f0`: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]

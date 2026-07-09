@@ -144,22 +144,22 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
-  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
-  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, queries, biden, information, traditional, search, engines, humans.
+- Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 - `youtube-YRGjll7uu5w` — 8 slide-derived text signals
-  - Slide-derived themes: playwright, automation, stagehand, february, date, march, april, take.
-  - Evidence links: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
+- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
+- Evidence links for `youtube-YRGjll7uu5w`: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
-  - Transcript signals: model, code, models, research, system, well, first, better.
-  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
-  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: examples, tools, lots, many, tool, search, immediate.
+- Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
-  - Transcript signals: code, model, back, system, well, first, today, even.
-  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-JsKTQbT58BY` — source page linked
-  - Evidence links: [[youtube-JsKTQbT58BY]]
+- Evidence links for `youtube-JsKTQbT58BY`: [[youtube-JsKTQbT58BY]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
-  - Transcript signals: model, code, models, loop, well, software, first, team.
-  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
-  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]

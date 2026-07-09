@@ -38,8 +38,8 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-OkEGJ5G3foU` — 3 slide-derived text signals
-  - Slide-derived themes: fixes, chat, template, multiple, llama, research, google, github.
-  - Evidence links: [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
+- Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
+- Evidence links for `youtube-OkEGJ5G3foU`: [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
 - `youtube-OV56RddyFuU` — 10 slide-derived text signals
-  - Slide-derived themes: models, community, trending, image, pare, update, mode, tees.
-  - Evidence links: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
+- Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

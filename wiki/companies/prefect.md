@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-96G7FLab8xc` — 10 slide-derived text signals
-  - Slide-derived themes: prefect, list, server, should, feel, engineer, code, summit.
-  - Evidence links: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
+- Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
+- Evidence links for `youtube-96G7FLab8xc`: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]

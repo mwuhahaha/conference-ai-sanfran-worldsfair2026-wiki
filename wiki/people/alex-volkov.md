@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-Lcqat4iP_lE` — 10 slide-derived text signals
-  - Slide-derived themes: tool, call, microsoft, tools, client, server, path, calculate.
-  - Evidence links: [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
+- Slide-derived themes for `youtube-Lcqat4iP_lE`: tool, call, microsoft, tools, client, server, path, calculate.
+- Evidence links for `youtube-Lcqat4iP_lE`: [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]

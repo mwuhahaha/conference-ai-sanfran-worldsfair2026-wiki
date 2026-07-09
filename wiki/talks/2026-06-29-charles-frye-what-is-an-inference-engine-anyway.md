@@ -62,8 +62,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-DeFF3J8T5Pk` — 9 slide-derived text signals
-  - Slide-derived themes: open, engine, advisor, source, engines, getting, better, quickly.
-  - Evidence links: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
+- Slide-derived themes for `youtube-DeFF3J8T5Pk`: open, engine, advisor, source, engines, getting, better, quickly.
+- Evidence links for `youtube-DeFF3J8T5Pk`: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

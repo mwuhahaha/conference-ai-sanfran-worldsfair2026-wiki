@@ -70,8 +70,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
-  - Slide-derived themes: help, today, engineering, future.
-  - Evidence links: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
+- Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.
+- Evidence links for `youtube-iUWwcG-C8OU`: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -62,8 +62,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-JIsgyk0Paic` — 10 slide-derived text signals
-  - Slide-derived themes: level, great, benchmarks, interactive, conversational, grok, problem, calls.
-  - Evidence links: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
+- Slide-derived themes for `youtube-JIsgyk0Paic`: level, great, benchmarks, interactive, conversational, grok, problem, calls.
+- Evidence links for `youtube-JIsgyk0Paic`: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

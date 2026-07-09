@@ -74,8 +74,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-BiG2ssibKGc` — 5 slide-derived text signals
-  - Slide-derived themes: context, engineering, stop, babysitting, engine, code, future, creating.
-  - Evidence links: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
+- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
+- Evidence links for `youtube-BiG2ssibKGc`: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

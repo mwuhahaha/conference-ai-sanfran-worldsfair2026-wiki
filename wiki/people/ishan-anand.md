@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-ZuiJjkbX0Og` — 10 slide-derived text signals
-  - Slide-derived themes: transformer, used, fair, room, lines, vanilla, javascript, basic.
-  - Evidence links: [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]
+- Slide-derived themes for `youtube-ZuiJjkbX0Og`: transformer, used, fair, room, lines, vanilla, javascript, basic.
+- Evidence links for `youtube-ZuiJjkbX0Og`: [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]

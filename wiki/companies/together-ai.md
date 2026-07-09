@@ -41,8 +41,8 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-lY1iFbDPRlw` — 10 slide-derived text signals
-  - Slide-derived themes: research, agentic, model, senior, engineer, tasks, real, fast.
-  - Evidence links: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
+- Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 - `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals
-  - Slide-derived themes: section, demos, architecture, typical, tech, stack, process, advice.
-  - Evidence links: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
+- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, demos, architecture, typical, tech, stack, process, advice.
+- Evidence links for `youtube-gcseUQJ6Gbg`: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]

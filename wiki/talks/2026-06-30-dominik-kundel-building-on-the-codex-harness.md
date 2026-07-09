@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-iXhba366fQc` — 10 slide-derived text signals
-  - Slide-derived themes: complex, support, before, started, workshop, slack, voice, provide.
-  - Evidence links: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
+- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
+- Evidence links for `youtube-iXhba366fQc`: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

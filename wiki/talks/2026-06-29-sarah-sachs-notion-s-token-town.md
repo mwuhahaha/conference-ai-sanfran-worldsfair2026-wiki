@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-6YdPI9YbjbI` — 10 slide-derived text signals
-  - Slide-derived themes: across, sign, access, join, ease, acme, uses, stripe.
-  - Evidence links: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]
+- Slide-derived themes for `youtube-6YdPI9YbjbI`: across, sign, access, join, ease, acme, uses, stripe.
+- Evidence links for `youtube-6YdPI9YbjbI`: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

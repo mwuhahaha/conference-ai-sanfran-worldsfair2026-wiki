@@ -30,5 +30,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-Jty4s9-Jb78` — 10 slide-derived text signals
-  - Slide-derived themes: tokens, context, output, knowledge, given, user, second, blue.
-  - Evidence links: [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]
+- Slide-derived themes for `youtube-Jty4s9-Jb78`: tokens, context, output, knowledge, given, user, second, blue.
+- Evidence links for `youtube-Jty4s9-Jb78`: [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]

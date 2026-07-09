@@ -107,8 +107,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-AheG9p_JXVw` — 1,340 transcript words
-  - Transcript signals: editing, media, editor, case, real, users, user, everything.
-  - Evidence links: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+- Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
+- Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -85,12 +85,12 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-HT4l0DeP69I` — 10 slide-derived text signals
-  - Slide-derived themes: mike, chambers, advocate, engineering, generative, real, world, applications.
-  - Evidence links: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
+- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
+- Evidence links for `youtube-HT4l0DeP69I`: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
-  - Transcript signals: code, model, back, system, well, first, today, even.
-  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

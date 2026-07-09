@@ -32,5 +32,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-mQ7_Zje7WKE` — 10 slide-derived text signals
-  - Slide-derived themes: respondents, engineering, survey, pear, barr, best, describes, title.
-  - Evidence links: [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
+- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.
+- Evidence links for `youtube-mQ7_Zje7WKE`: [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]

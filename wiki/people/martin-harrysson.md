@@ -32,5 +32,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-SZStlIhyTCY` — 10 slide-derived text signals
-  - Slide-derived themes: agile, software, moving, away, next, november, technologies, given.
-  - Evidence links: [[youtube-SZStlIhyTCY]], [[youtube-SZStlIhyTCY-slides]], [[youtube-SZStlIhyTCY-reconstructed-slides]]
+- Slide-derived themes for `youtube-SZStlIhyTCY`: agile, software, moving, away, next, november, technologies, given.
+- Evidence links for `youtube-SZStlIhyTCY`: [[youtube-SZStlIhyTCY]], [[youtube-SZStlIhyTCY-slides]], [[youtube-SZStlIhyTCY-reconstructed-slides]]

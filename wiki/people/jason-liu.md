@@ -38,5 +38,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-jryZvCuA0Uc` — 3 slide-derived text signals
-  - Slide-derived themes: look, data, jeff, huber, jason, read, full, report.
-  - Evidence links: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
+- Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
+- Evidence links for `youtube-jryZvCuA0Uc`: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]

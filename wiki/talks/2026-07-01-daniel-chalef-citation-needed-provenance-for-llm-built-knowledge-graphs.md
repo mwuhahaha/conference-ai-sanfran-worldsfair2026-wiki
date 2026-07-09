@@ -70,8 +70,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-T5IMo5ntyhA` — 10 slide-derived text signals
-  - Slide-derived themes: text, memory, description, goal, financial, type, target, amount.
-  - Evidence links: [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, goal, financial, type, target, amount.
+- Evidence links for `youtube-T5IMo5ntyhA`: [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

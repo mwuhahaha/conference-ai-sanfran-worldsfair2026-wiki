@@ -34,9 +34,9 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-fL1iJHtl51Q` — 10 slide-derived text signals
-  - Slide-derived themes: composer, frontier, read, edit, code, sync, instead, quickly.
-  - Evidence links: [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
+- Slide-derived themes for `youtube-fL1iJHtl51Q`: composer, frontier, read, edit, code, sync, instead, quickly.
+- Evidence links for `youtube-fL1iJHtl51Q`: [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
-  - Transcript signals: model, code, models, loop, well, software, first, team.
-  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
-  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]

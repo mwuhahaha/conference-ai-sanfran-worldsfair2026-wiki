@@ -34,8 +34,8 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-OimPoLxioYg` — 10 slide-derived text signals
-  - Slide-derived themes: prompt, paint, clip, user, image, text, embedding, feature.
-  - Evidence links: [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
+- Slide-derived themes for `youtube-OimPoLxioYg`: prompt, paint, clip, user, image, text, embedding, feature.
+- Evidence links for `youtube-OimPoLxioYg`: [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
-  - Slide-derived themes: research, decode, hardware, ideas, progress, iteration, given, software.
-  - Evidence links: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
+- Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
+- Evidence links for `youtube-ESbWpPT_9-o`: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]

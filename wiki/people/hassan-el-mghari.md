@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals
-  - Slide-derived themes: section, demos, architecture, typical, tech, stack, process, advice.
-  - Evidence links: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
+- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, demos, architecture, typical, tech, stack, process, advice.
+- Evidence links for `youtube-gcseUQJ6Gbg`: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]

@@ -82,8 +82,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-C_GG5g38vLU` — 8 slide-derived text signals
-  - Slide-derived themes: model, engineering, future, console, stories, tool, registry, story.
-  - Evidence links: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
+- Slide-derived themes for `youtube-C_GG5g38vLU`: model, engineering, future, console, stories, tool, registry, story.
+- Evidence links for `youtube-C_GG5g38vLU`: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

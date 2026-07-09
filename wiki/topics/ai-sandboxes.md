@@ -146,14 +146,14 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-rcsliSIy_YU` — 9 slide-derived text signals
-  - Slide-derived themes: code, showcase, automating, massive, robert, brennan, generation, implement.
-  - Evidence links: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
+- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
+- Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
 - `youtube-bmWZk9vTze0` — 10 slide-derived text signals
-  - Slide-derived themes: query, client, info, table, tool, call, response, await.
-  - Evidence links: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
+- Slide-derived themes for `youtube-bmWZk9vTze0`: query, client, info, table, tool, call, response, await.
+- Evidence links for `youtube-bmWZk9vTze0`: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals
-  - Slide-derived themes: clone, flask, project, code, create, scratch, systems, chat.
-  - Evidence links: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+- Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
+- Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
 - `youtube-e9sLVMN76qU` — 10 slide-derived text signals
-  - Slide-derived themes: most, today, tooling, breaks, moment, remove, human, loop.
-  - Evidence links: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
+- Slide-derived themes for `youtube-e9sLVMN76qU`: most, today, tooling, breaks, moment, remove, human, loop.
+- Evidence links for `youtube-e9sLVMN76qU`: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]

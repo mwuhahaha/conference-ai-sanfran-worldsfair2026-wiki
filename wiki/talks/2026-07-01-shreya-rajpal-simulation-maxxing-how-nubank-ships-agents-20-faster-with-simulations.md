@@ -69,8 +69,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-9-vGxMoUM9Y` — 10 slide-derived text signals
-  - Slide-derived themes: software, self, driving, cars, deep, deny, cart, auto.
-  - Evidence links: [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: software, self, driving, cars, deep, deny, cart, auto.
+- Evidence links for `youtube-9-vGxMoUM9Y`: [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -153,12 +153,12 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
-  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
-  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, queries, biden, information, traditional, search, engines, humans.
+- Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
-  - Transcript signals: model, code, models, research, system, well, first, better.
-  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
-  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: examples, tools, lots, many, tool, search, immediate.
+- Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
 - `youtube-eW_vxrjvERk` — 10 slide-derived text signals
-  - Slide-derived themes: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
-  - Evidence links: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+- Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+- Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]

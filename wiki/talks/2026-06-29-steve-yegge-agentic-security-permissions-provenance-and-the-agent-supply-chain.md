@@ -64,8 +64,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-7Dtu2bilcFs` — 10 slide-derived text signals
-  - Slide-derived themes: year, died, google, software, engineer, author, researcher, steve.
-  - Evidence links: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
+- Evidence links for `youtube-7Dtu2bilcFs`: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

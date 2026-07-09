@@ -54,11 +54,11 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
-  - Slide-derived themes: research, decode, hardware, ideas, progress, iteration, given, software.
-  - Evidence links: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
+- Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
+- Evidence links for `youtube-ESbWpPT_9-o`: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
 - `youtube-OV56RddyFuU` — 10 slide-derived text signals
-  - Slide-derived themes: models, community, trending, image, pare, update, mode, tees.
-  - Evidence links: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
+- Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
 - `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
-  - Slide-derived themes: couple, minutes, earlier, inference, largest, market, ever, software.
-  - Evidence links: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: couple, minutes, earlier, inference, largest, market, ever, software.
+- Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

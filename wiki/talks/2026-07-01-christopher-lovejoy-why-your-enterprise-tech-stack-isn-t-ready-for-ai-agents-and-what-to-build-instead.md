@@ -72,8 +72,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-MRM7oA3JsFs` — 10 slide-derived text signals
-  - Slide-derived themes: weeks, performance, achieved, care, application, company, provides, clinical.
-  - Evidence links: [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]
+- Slide-derived themes for `youtube-MRM7oA3JsFs`: weeks, performance, achieved, care, application, company, provides, clinical.
+- Evidence links for `youtube-MRM7oA3JsFs`: [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

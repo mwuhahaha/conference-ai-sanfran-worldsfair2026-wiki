@@ -36,5 +36,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-blW-lSd5CYQ` — 10 slide-derived text signals
-  - Slide-derived themes: scraper, data, extract, posts, google, maps, instagram, scrape.
-  - Evidence links: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.
+- Evidence links for `youtube-blW-lSd5CYQ`: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]

@@ -32,5 +32,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-bVNNvWq6dKo` — 6 slide-derived text signals
-  - Slide-derived themes: always, believed, future, software, write, analyzes, content, most.
-  - Evidence links: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
+- Evidence links for `youtube-bVNNvWq6dKo`: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]

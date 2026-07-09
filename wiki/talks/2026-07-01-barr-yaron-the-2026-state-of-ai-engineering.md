@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-mQ7_Zje7WKE` — 10 slide-derived text signals
-  - Slide-derived themes: respondents, engineering, survey, pear, barr, best, describes, title.
-  - Evidence links: [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
+- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.
+- Evidence links for `youtube-mQ7_Zje7WKE`: [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

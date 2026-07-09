@@ -36,5 +36,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-LxQsQ3vZDqo` — 10 slide-derived text signals
-  - Slide-derived themes: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
-  - Evidence links: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
+- Evidence links for `youtube-LxQsQ3vZDqo`: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]

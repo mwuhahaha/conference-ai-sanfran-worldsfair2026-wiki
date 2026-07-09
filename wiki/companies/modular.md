@@ -26,5 +26,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube--cKUW6n8hBU` — 10 slide-derived text signals
-  - Slide-derived themes: allows, structured, prompts, program, declarative, framework, modular, software.
-  - Evidence links: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]
+- Slide-derived themes for `youtube--cKUW6n8hBU`: allows, structured, prompts, program, declarative, framework, modular, software.
+- Evidence links for `youtube--cKUW6n8hBU`: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]

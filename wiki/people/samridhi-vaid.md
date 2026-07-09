@@ -34,9 +34,9 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
-  - Transcript signals: code, model, back, system, well, first, today, even.
-  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals
-  - Slide-derived themes: obsidian, plus, notion, google, drive, growing, files, month.
-  - Evidence links: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, plus, notion, google, drive, growing, files, month.
+- Evidence links for `youtube-ZRM_TfEZcIo`: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]

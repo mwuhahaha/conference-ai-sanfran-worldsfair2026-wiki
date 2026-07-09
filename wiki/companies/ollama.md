@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-OV56RddyFuU` — 10 slide-derived text signals
-  - Slide-derived themes: models, community, trending, image, pare, update, mode, tees.
-  - Evidence links: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
+- Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

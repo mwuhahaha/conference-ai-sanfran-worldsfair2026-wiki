@@ -32,5 +32,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-MRM7oA3JsFs` — 10 slide-derived text signals
-  - Slide-derived themes: weeks, performance, achieved, care, application, company, provides, clinical.
-  - Evidence links: [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]
+- Slide-derived themes for `youtube-MRM7oA3JsFs`: weeks, performance, achieved, care, application, company, provides, clinical.
+- Evidence links for `youtube-MRM7oA3JsFs`: [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]

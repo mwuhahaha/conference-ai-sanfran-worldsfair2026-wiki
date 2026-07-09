@@ -32,4 +32,4 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-gmTHs5T_YAE` — source page linked
-  - Evidence links: [[youtube-gmTHs5T_YAE]], [[youtube-gmTHs5T_YAE-slides]], [[youtube-gmTHs5T_YAE-dense-slides]], [[youtube-gmTHs5T_YAE-reconstructed-slides]]
+- Evidence links for `youtube-gmTHs5T_YAE`: [[youtube-gmTHs5T_YAE]], [[youtube-gmTHs5T_YAE-slides]], [[youtube-gmTHs5T_YAE-dense-slides]], [[youtube-gmTHs5T_YAE-reconstructed-slides]]

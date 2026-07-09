@@ -34,9 +34,9 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
-  - Transcript signals: code, model, back, system, well, first, today, even.
-  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals
-  - Slide-derived themes: teams, tiny, such, vibe, most, josh, snyder, speakers.
-  - Evidence links: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
+- Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

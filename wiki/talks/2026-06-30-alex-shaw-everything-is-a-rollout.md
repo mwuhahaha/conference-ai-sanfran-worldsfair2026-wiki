@@ -48,8 +48,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-liG97YXaTSA` — 2 slide-derived text signals
-  - Slide-derived themes: reasoning, samples, trivia, questions, general, model.
-  - Evidence links: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
+- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, samples, trivia, questions, general, model.
+- Evidence links for `youtube-liG97YXaTSA`: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

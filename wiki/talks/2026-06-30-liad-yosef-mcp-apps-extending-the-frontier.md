@@ -102,9 +102,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
-  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
-  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
-  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

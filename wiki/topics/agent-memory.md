@@ -158,15 +158,15 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
-  - Slide-derived themes: solution, water, growth, crystal, salt, input, sources, services.
-  - Evidence links: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
+- Evidence links for `youtube-wNH3q9pqn0U`: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
 - `youtube-eW_vxrjvERk` — 10 slide-derived text signals
-  - Slide-derived themes: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
-  - Evidence links: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+- Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+- Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
-  - Transcript signals: code, model, back, system, well, first, today, even.
-  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals
-  - Slide-derived themes: obsidian, plus, notion, google, drive, growing, files, month.
-  - Evidence links: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, plus, notion, google, drive, growing, files, month.
+- Evidence links for `youtube-ZRM_TfEZcIo`: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]

@@ -28,5 +28,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-WJjInLeaJjo` — 10 slide-derived text signals
-  - Slide-derived themes: documentation, barth, future, tool, search, server, allow, customer.
-  - Evidence links: [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
+- Slide-derived themes for `youtube-WJjInLeaJjo`: documentation, barth, future, tool, search, server, allow, customer.
+- Evidence links for `youtube-WJjInLeaJjo`: [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]

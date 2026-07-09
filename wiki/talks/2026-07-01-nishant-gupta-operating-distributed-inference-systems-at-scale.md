@@ -79,8 +79,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-APh1Vx0oLmQ` — 7 slide-derived text signals
-  - Slide-derived themes: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.
-  - Evidence links: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.
+- Evidence links for `youtube-APh1Vx0oLmQ`: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

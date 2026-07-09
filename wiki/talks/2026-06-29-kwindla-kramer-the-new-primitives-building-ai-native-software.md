@@ -68,8 +68,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-E71YtNbCFXY` — 5 slide-derived text signals
-  - Slide-derived themes: pelt, remember, connections.
-  - Evidence links: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
+- Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
+- Evidence links for `youtube-E71YtNbCFXY`: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

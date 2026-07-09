@@ -58,8 +58,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-rmvDxxNubIg` — 10 slide-derived text signals
-  - Slide-derived themes: vibes, allowed, solving, tasks, code, intentional, compaction, most.
-  - Evidence links: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]
+- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
+- Evidence links for `youtube-rmvDxxNubIg`: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

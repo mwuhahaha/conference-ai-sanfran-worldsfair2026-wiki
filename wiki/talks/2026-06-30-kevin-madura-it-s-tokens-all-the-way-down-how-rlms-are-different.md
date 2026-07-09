@@ -77,8 +77,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube--cKUW6n8hBU` — 10 slide-derived text signals
-  - Slide-derived themes: allows, structured, prompts, program, declarative, framework, modular, software.
-  - Evidence links: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]
+- Slide-derived themes for `youtube--cKUW6n8hBU`: allows, structured, prompts, program, declarative, framework, modular, software.
+- Evidence links for `youtube--cKUW6n8hBU`: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

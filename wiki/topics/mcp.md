@@ -153,12 +153,12 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-blW-lSd5CYQ` — 10 slide-derived text signals
-  - Slide-derived themes: scraper, data, extract, posts, google, maps, instagram, scrape.
-  - Evidence links: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.
+- Evidence links for `youtube-blW-lSd5CYQ`: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
 - `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
-  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
-  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
-  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - `youtube-E71YtNbCFXY` — 5 slide-derived text signals
-  - Slide-derived themes: pelt, remember, connections.
-  - Evidence links: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
+- Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
+- Evidence links for `youtube-E71YtNbCFXY`: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]

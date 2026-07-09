@@ -64,8 +64,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-1t-9-s1brcg` — 10 slide-derived text signals
-  - Slide-derived themes: microsoft, start, access, quick, templates, powdery, bran, expert.
-  - Evidence links: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
+- Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

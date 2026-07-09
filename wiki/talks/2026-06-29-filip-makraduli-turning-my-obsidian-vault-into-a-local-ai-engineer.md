@@ -53,8 +53,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-qdh_x-uRs9g` — 10 slide-derived text signals
-  - Slide-derived themes: model, performance, makes, embedding, best, learn, join, team.
-  - Evidence links: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
+- Slide-derived themes for `youtube-qdh_x-uRs9g`: model, performance, makes, embedding, best, learn, join, team.
+- Evidence links for `youtube-qdh_x-uRs9g`: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

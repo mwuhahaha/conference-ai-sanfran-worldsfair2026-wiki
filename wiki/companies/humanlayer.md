@@ -35,5 +35,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-rmvDxxNubIg` — 10 slide-derived text signals
-  - Slide-derived themes: vibes, allowed, solving, tasks, code, intentional, compaction, most.
-  - Evidence links: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]
+- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
+- Evidence links for `youtube-rmvDxxNubIg`: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]

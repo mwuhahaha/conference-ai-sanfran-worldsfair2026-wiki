@@ -28,5 +28,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-2vlCqD6igVA` — 10 slide-derived text signals
-  - Slide-derived themes: search, query, latte, enriching, exploratory, queries, extract, catalog.
-  - Evidence links: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
+- Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
+- Evidence links for `youtube-2vlCqD6igVA`: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]

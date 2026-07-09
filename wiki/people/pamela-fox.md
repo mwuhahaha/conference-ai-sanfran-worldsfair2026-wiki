@@ -44,5 +44,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-1t-9-s1brcg` — 10 slide-derived text signals
-  - Slide-derived themes: microsoft, start, access, quick, templates, powdery, bran, expert.
-  - Evidence links: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
+- Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]

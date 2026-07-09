@@ -27,5 +27,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-P_RI1kCkRbo` — 10 slide-derived text signals
-  - Slide-derived themes: engineering, future, brig, team, google, translation, great, hove.
-  - Evidence links: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+- Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
+- Evidence links for `youtube-P_RI1kCkRbo`: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]

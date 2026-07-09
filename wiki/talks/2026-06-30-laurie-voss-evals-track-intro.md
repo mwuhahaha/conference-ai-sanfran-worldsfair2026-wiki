@@ -58,9 +58,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
-  - Transcript signals: evals, eval, data, should, judge, output, whether, phoenix.
-  - Slide-derived themes: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
-  - Evidence links: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
+- Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+- Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -60,8 +60,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-qakTj_xI0gk` — 2,375 transcript words
-  - Transcript signals: models, traversal, customers, data, company, companies, great, might.
-  - Evidence links: [[youtube-qakTj_xI0gk-transcript]]
+- Transcript signals for `youtube-qakTj_xI0gk`: models, traversal, customers, data, company, companies, great, might.
+- Evidence links for `youtube-qakTj_xI0gk`: [[youtube-qakTj_xI0gk-transcript]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

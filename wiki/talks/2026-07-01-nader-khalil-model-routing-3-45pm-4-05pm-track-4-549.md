@@ -63,8 +63,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
-  - Slide-derived themes: couple, minutes, earlier, inference, largest, market, ever, software.
-  - Evidence links: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: couple, minutes, earlier, inference, largest, market, ever, software.
+- Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

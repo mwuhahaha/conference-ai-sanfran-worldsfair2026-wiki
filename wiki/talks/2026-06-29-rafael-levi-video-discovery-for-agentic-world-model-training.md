@@ -65,8 +65,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-zTZ0qunQXnM` — 4 slide-derived text signals
-  - Slide-derived themes: engineering, future, walmart, scraper, keyword, search, path, response.
-  - Evidence links: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
+- Slide-derived themes for `youtube-zTZ0qunQXnM`: engineering, future, walmart, scraper, keyword, search, path, response.
+- Evidence links for `youtube-zTZ0qunQXnM`: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

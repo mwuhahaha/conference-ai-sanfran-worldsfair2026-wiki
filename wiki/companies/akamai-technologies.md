@@ -32,6 +32,6 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals
-  - Transcript signals: nova, amazon, code, server, browser, able, open, click.
-  - Slide-derived themes: plan, execute, actions, achieve, specific, goals, agentic, tamera.
-  - Evidence links: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
+- Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+- Evidence links for `youtube-wFTVEDYVJT0`: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]

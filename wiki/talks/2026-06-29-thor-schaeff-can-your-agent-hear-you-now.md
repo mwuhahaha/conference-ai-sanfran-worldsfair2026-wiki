@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals
-  - Slide-derived themes: audio, engineering, future, gemini, flash, native, shipping, relentless.
-  - Evidence links: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
+- Evidence links for `youtube-Bc6Ojl2XS1w`: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

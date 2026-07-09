@@ -64,8 +64,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-JsCCrBF7F1g` — 10 slide-derived text signals
-  - Slide-derived themes: teams, engineering, hard, tackling, registration, open, observe, platform.
-  - Evidence links: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, engineering, hard, tackling, registration, open, observe, platform.
+- Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -30,5 +30,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-JhJKgRAmfIU` — 10 slide-derived text signals
-  - Slide-derived themes: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
-  - Evidence links: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+- Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

@@ -65,8 +65,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals
-  - Slide-derived themes: teams, tiny, such, vibe, most, josh, snyder, speakers.
-  - Evidence links: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
+- Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

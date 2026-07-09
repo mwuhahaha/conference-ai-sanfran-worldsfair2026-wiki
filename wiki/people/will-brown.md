@@ -37,8 +37,8 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-PbHm2qKnu10` — 10 slide-derived text signals
-  - Slide-derived themes: performance, observed, compute, models, research, lead, prime, intellect.
-  - Evidence links: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
+- Slide-derived themes for `youtube-PbHm2qKnu10`: performance, observed, compute, models, research, lead, prime, intellect.
+- Evidence links for `youtube-PbHm2qKnu10`: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
 - `youtube-JIsgyk0Paic` — 10 slide-derived text signals
-  - Slide-derived themes: level, great, benchmarks, interactive, conversational, grok, problem, calls.
-  - Evidence links: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
+- Slide-derived themes for `youtube-JIsgyk0Paic`: level, great, benchmarks, interactive, conversational, grok, problem, calls.
+- Evidence links for `youtube-JIsgyk0Paic`: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]

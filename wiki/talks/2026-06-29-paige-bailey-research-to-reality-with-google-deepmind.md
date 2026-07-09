@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-G_bHFmEAarM` — 10 slide-derived text signals
-  - Slide-derived themes: output, google, gemini, flash, lite, paid, grounding, latest.
-  - Evidence links: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
+- Slide-derived themes for `youtube-G_bHFmEAarM`: output, google, gemini, flash, lite, paid, grounding, latest.
+- Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

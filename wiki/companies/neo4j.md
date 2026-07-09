@@ -47,19 +47,19 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-B9h9ovW5H9U` — 2,859 transcript words; 10 slide-derived text signals
-  - Transcript signals: graph, context, data, create, traces, back, little, decision.
-  - Slide-derived themes: context, graphs, information, required, accurate, answer, graph, started.
-  - Evidence links: [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
+- Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
+- Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.
+- Evidence links for `youtube-B9h9ovW5H9U`: [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
-  - Transcript signals: code, model, back, system, well, first, today, even.
-  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-knDDGYHnnSI` — 2 slide-derived text signals
-  - Slide-derived themes: full, text, george, mooc.
-  - Evidence links: [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
+- Slide-derived themes for `youtube-knDDGYHnnSI`: full, text, george, mooc.
+- Evidence links for `youtube-knDDGYHnnSI`: [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
 - `youtube-eW_vxrjvERk` — 10 slide-derived text signals
-  - Slide-derived themes: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
-  - Evidence links: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+- Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+- Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
 - `youtube-Fzb1a24hF-o` — 10 slide-derived text signals
-  - Slide-derived themes: objects, type, consistent, works, supported, started, tomorrow, june.
-  - Evidence links: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
+- Slide-derived themes for `youtube-Fzb1a24hF-o`: objects, type, consistent, works, supported, started, tomorrow, june.
+- Evidence links for `youtube-Fzb1a24hF-o`: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]

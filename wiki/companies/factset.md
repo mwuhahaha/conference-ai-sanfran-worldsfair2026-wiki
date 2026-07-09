@@ -32,4 +32,4 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-sl3icG-IjHo` — source page linked
-  - Evidence links: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
+- Evidence links for `youtube-sl3icG-IjHo`: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]

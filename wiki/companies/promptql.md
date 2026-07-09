@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-himhGiWJXjo` — 10 slide-derived text signals
-  - Slide-derived themes: customer, data, query, select, public, order, title, creatures.
-  - Evidence links: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
+- Slide-derived themes for `youtube-himhGiWJXjo`: customer, data, query, select, public, order, title, creatures.
+- Evidence links for `youtube-himhGiWJXjo`: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]

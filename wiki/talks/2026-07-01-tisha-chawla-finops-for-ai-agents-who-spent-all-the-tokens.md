@@ -87,8 +87,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-Lc8zRh9muoY` — 10 slide-derived text signals
-  - Slide-derived themes: record, prod, identical, determinism, never, failed, luck, reproducing.
-  - Evidence links: [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, identical, determinism, never, failed, luck, reproducing.
+- Evidence links for `youtube-Lc8zRh9muoY`: [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

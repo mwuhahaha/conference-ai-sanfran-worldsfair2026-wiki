@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-AheG9p_JXVw` — 1,340 transcript words
-  - Transcript signals: editing, media, editor, case, real, users, user, everything.
-  - Evidence links: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+- Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
+- Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]

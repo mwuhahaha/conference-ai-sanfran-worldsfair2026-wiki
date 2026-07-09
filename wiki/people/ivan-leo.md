@@ -27,5 +27,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-xz0-brt56L8` — 6 slide-derived text signals
-  - Slide-derived themes: wednesday, november, include, attachments, loft, delicious, coffee, lovely.
-  - Evidence links: [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]
+- Slide-derived themes for `youtube-xz0-brt56L8`: wednesday, november, include, attachments, loft, delicious, coffee, lovely.
+- Evidence links for `youtube-xz0-brt56L8`: [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]

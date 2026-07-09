@@ -29,5 +29,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-SbcQYbrvAfI` — 10 slide-derived text signals
-  - Slide-derived themes: prompt, learning, planning, missing, applied, optimization, loop, case.
-  - Evidence links: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
+- Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]

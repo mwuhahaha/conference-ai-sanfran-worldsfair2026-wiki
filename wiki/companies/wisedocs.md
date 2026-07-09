@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-SbUxRluVRwk` — 2 slide-derived text signals
-  - Slide-derived themes: before, hiring, modern, team, themes.
-  - Evidence links: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]
+- Slide-derived themes for `youtube-SbUxRluVRwk`: before, hiring, modern, team, themes.
+- Evidence links for `youtube-SbUxRluVRwk`: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]

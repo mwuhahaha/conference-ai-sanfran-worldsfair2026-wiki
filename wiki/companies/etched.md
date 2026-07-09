@@ -32,9 +32,9 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
-  - Transcript signals: code, model, back, system, well, first, today, even.
-  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-qaJXBMwUkoE` — 9 slide-derived text signals
-  - Slide-derived themes: imagine, tough, luck, born, wrong, century, mathematician, auto.
-  - Evidence links: [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
+- Slide-derived themes for `youtube-qaJXBMwUkoE`: imagine, tough, luck, born, wrong, century, mathematician, auto.
+- Evidence links for `youtube-qaJXBMwUkoE`: [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]

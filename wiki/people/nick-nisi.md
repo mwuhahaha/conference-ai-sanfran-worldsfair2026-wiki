@@ -35,5 +35,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-so9l_MwS2yg` — 10 slide-derived text signals
-  - Slide-derived themes: system, find, export, function, next, token, headers, authorization.
-  - Evidence links: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
+- Slide-derived themes for `youtube-so9l_MwS2yg`: system, find, export, function, next, token, headers, authorization.
+- Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]

@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals
-  - Slide-derived themes: claude, code, file, system, tools, prompts, custom, features.
-  - Evidence links: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
+- Evidence links for `youtube-TqC1qOfiVcQ`: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

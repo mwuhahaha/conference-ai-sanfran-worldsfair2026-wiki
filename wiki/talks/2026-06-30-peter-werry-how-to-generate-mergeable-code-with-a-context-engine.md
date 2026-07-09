@@ -73,8 +73,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-5ID22ACI7IM` — 10 slide-derived text signals
-  - Slide-derived themes: context, callers, cover, today, remember, built, original, intent.
-  - Evidence links: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
+- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
+- Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

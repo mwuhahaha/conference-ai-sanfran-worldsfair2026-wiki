@@ -58,8 +58,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-jryZvCuA0Uc` — 3 slide-derived text signals
-  - Slide-derived themes: look, data, jeff, huber, jason, read, full, report.
-  - Evidence links: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
+- Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
+- Evidence links for `youtube-jryZvCuA0Uc`: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

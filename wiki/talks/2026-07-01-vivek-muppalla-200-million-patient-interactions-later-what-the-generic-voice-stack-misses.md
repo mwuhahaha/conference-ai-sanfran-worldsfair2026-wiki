@@ -92,8 +92,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-u3NofYYstaY` — 8 slide-derived text signals
-  - Slide-derived themes: cohere, team, accenture, global, languages, support, addresses, unique.
-  - Evidence links: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
+- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
+- Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

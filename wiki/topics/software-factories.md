@@ -107,12 +107,12 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
-  - Slide-derived themes: autonomous, engineering, systems, ready, making.
-  - Evidence links: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
+- Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 - `youtube-HT4l0DeP69I` — 10 slide-derived text signals
-  - Slide-derived themes: mike, chambers, advocate, engineering, generative, real, world, applications.
-  - Evidence links: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
+- Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
+- Evidence links for `youtube-HT4l0DeP69I`: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
-  - Transcript signals: code, model, back, system, well, first, today, even.
-  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]

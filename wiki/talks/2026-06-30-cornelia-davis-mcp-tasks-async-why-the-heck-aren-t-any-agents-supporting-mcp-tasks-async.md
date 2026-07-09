@@ -66,8 +66,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-k8cnVCMYmNc` — 10 slide-derived text signals
-  - Slide-derived themes: instructions, python, available, distributed, typescript, developer, advocate, temporal.
-  - Evidence links: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
+- Slide-derived themes for `youtube-k8cnVCMYmNc`: instructions, python, available, distributed, typescript, developer, advocate, temporal.
+- Evidence links for `youtube-k8cnVCMYmNc`: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

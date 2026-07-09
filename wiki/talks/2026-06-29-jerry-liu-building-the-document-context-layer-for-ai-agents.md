@@ -68,8 +68,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-jVGCulhBRZI` — 10 slide-derived text signals
-  - Slide-derived themes: knowledge, data, cases, automate, workers, efficient, does, automation.
-  - Evidence links: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
+- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
+- Evidence links for `youtube-jVGCulhBRZI`: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

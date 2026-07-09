@@ -38,5 +38,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
-  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
-  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, queries, biden, information, traditional, search, engines, humans.
+- Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]

@@ -36,5 +36,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-u3NofYYstaY` — 8 slide-derived text signals
-  - Slide-derived themes: cohere, team, accenture, global, languages, support, addresses, unique.
-  - Evidence links: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
+- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
+- Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]

@@ -44,18 +44,18 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
-  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
-  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
-  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - `youtube-jVGCulhBRZI` — 10 slide-derived text signals
-  - Slide-derived themes: knowledge, data, cases, automate, workers, efficient, does, automation.
-  - Evidence links: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
+- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
+- Evidence links for `youtube-jVGCulhBRZI`: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
 - `youtube-EyZiAp0pelw` — 1 slide-derived text signals
-  - Slide-derived themes: device, location, creative, story, tags, thanks.
-  - Evidence links: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+- Slide-derived themes for `youtube-EyZiAp0pelw`: device, location, creative, story, tags, thanks.
+- Evidence links for `youtube-EyZiAp0pelw`: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
 - `youtube-himhGiWJXjo` — 10 slide-derived text signals
-  - Slide-derived themes: customer, data, query, select, public, order, title, creatures.
-  - Evidence links: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
+- Slide-derived themes for `youtube-himhGiWJXjo`: customer, data, query, select, public, order, title, creatures.
+- Evidence links for `youtube-himhGiWJXjo`: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
 - `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
-  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
-  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, queries, biden, information, traditional, search, engines, humans.
+- Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]

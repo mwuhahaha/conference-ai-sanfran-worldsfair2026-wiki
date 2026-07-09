@@ -40,5 +40,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-zTZ0qunQXnM` — 4 slide-derived text signals
-  - Slide-derived themes: engineering, future, walmart, scraper, keyword, search, path, response.
-  - Evidence links: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
+- Slide-derived themes for `youtube-zTZ0qunQXnM`: engineering, future, walmart, scraper, keyword, search, path, response.
+- Evidence links for `youtube-zTZ0qunQXnM`: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]

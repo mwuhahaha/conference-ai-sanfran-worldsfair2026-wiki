@@ -71,8 +71,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-himhGiWJXjo` — 10 slide-derived text signals
-  - Slide-derived themes: customer, data, query, select, public, order, title, creatures.
-  - Evidence links: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
+- Slide-derived themes for `youtube-himhGiWJXjo`: customer, data, query, select, public, order, title, creatures.
+- Evidence links for `youtube-himhGiWJXjo`: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -31,5 +31,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-Lc8zRh9muoY` — 10 slide-derived text signals
-  - Slide-derived themes: record, prod, identical, determinism, never, failed, luck, reproducing.
-  - Evidence links: [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, identical, determinism, never, failed, luck, reproducing.
+- Evidence links for `youtube-Lc8zRh9muoY`: [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]

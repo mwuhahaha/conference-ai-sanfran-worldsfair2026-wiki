@@ -59,8 +59,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals
-  - Slide-derived themes: section, demos, architecture, typical, tech, stack, process, advice.
-  - Evidence links: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
+- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, demos, architecture, typical, tech, stack, process, advice.
+- Evidence links for `youtube-gcseUQJ6Gbg`: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

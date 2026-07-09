@@ -34,8 +34,8 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-E71YtNbCFXY` — 5 slide-derived text signals
-  - Slide-derived themes: pelt, remember, connections.
-  - Evidence links: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
+- Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
+- Evidence links for `youtube-E71YtNbCFXY`: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
 - `youtube-P_RI1kCkRbo` — 10 slide-derived text signals
-  - Slide-derived themes: engineering, future, brig, team, google, translation, great, hove.
-  - Evidence links: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+- Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
+- Evidence links for `youtube-P_RI1kCkRbo`: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]

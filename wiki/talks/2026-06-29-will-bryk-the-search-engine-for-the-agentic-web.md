@@ -85,8 +85,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
-  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
-  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, queries, biden, information, traditional, search, engines, humans.
+- Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

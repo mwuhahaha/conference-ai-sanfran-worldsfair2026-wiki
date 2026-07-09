@@ -30,6 +30,6 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
-  - Transcript signals: analysis, sales, transcript, models, calls, data, single, doing.
-  - Slide-derived themes: calls, shift, week.
-  - Evidence links: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
+- Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]

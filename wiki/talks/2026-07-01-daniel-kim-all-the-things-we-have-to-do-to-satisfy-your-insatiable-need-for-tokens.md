@@ -73,8 +73,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-tzRvcTEapzo` — 10 slide-derived text signals
-  - Slide-derived themes: mixture, experts, queen, research, focus, training, cores, buffers.
-  - Evidence links: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
+- Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

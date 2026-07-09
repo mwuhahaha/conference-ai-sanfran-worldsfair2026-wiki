@@ -30,5 +30,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals
-  - Slide-derived themes: teams, tiny, such, vibe, most, josh, snyder, speakers.
-  - Evidence links: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
+- Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

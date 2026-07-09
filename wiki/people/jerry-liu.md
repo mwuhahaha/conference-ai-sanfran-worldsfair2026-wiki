@@ -30,5 +30,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-jVGCulhBRZI` — 10 slide-derived text signals
-  - Slide-derived themes: knowledge, data, cases, automate, workers, efficient, does, automation.
-  - Evidence links: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
+- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
+- Evidence links for `youtube-jVGCulhBRZI`: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]

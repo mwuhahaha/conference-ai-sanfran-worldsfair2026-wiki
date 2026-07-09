@@ -68,8 +68,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-qaJXBMwUkoE` — 9 slide-derived text signals
-  - Slide-derived themes: imagine, tough, luck, born, wrong, century, mathematician, auto.
-  - Evidence links: [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
+- Slide-derived themes for `youtube-qaJXBMwUkoE`: imagine, tough, luck, born, wrong, century, mathematician, auto.
+- Evidence links for `youtube-qaJXBMwUkoE`: [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

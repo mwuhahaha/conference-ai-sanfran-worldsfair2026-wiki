@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
-  - Slide-derived themes: solution, water, growth, crystal, salt, input, sources, services.
-  - Evidence links: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
+- Evidence links for `youtube-wNH3q9pqn0U`: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]

@@ -42,11 +42,11 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-so9l_MwS2yg` — 10 slide-derived text signals
-  - Slide-derived themes: system, find, export, function, next, token, headers, authorization.
-  - Evidence links: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
+- Slide-derived themes for `youtube-so9l_MwS2yg`: system, find, export, function, next, token, headers, authorization.
+- Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
 - `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
-  - Slide-derived themes: help, today, engineering, future.
-  - Evidence links: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
+- Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.
+- Evidence links for `youtube-iUWwcG-C8OU`: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
 - `youtube-D4Dswf-__RM` — 10 slide-derived text signals
-  - Slide-derived themes: identity, shadowing, persona, delegation, chains, capability, tokens, escalation.
-  - Evidence links: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
+- Slide-derived themes for `youtube-D4Dswf-__RM`: identity, shadowing, persona, delegation, chains, capability, tokens, escalation.
+- Evidence links for `youtube-D4Dswf-__RM`: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]

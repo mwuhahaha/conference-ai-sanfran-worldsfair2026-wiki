@@ -34,5 +34,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-EyZiAp0pelw` — 1 slide-derived text signals
-  - Slide-derived themes: device, location, creative, story, tags, thanks.
-  - Evidence links: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+- Slide-derived themes for `youtube-EyZiAp0pelw`: device, location, creative, story, tags, thanks.
+- Evidence links for `youtube-EyZiAp0pelw`: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]

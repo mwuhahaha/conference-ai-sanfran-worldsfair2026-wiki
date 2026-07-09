@@ -62,8 +62,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-3_gYbhABcAE` — 7 slide-derived text signals
-  - Slide-derived themes: senior, engineers, engineering, text, state, trap, treating, world.
-  - Evidence links: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
+- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
+- Evidence links for `youtube-3_gYbhABcAE`: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

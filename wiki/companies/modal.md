@@ -38,5 +38,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-DeFF3J8T5Pk` — 9 slide-derived text signals
-  - Slide-derived themes: open, engine, advisor, source, engines, getting, better, quickly.
-  - Evidence links: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
+- Slide-derived themes for `youtube-DeFF3J8T5Pk`: open, engine, advisor, source, engines, getting, better, quickly.
+- Evidence links for `youtube-DeFF3J8T5Pk`: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]

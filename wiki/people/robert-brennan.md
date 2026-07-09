@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-rcsliSIy_YU` — 9 slide-derived text signals
-  - Slide-derived themes: code, showcase, automating, massive, robert, brennan, generation, implement.
-  - Evidence links: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
+- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
+- Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]

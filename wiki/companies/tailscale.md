@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-BM2JX9hqsVQ` — 7 slide-derived text signals
-  - Slide-derived themes: engineering, future, sandbox, permissions, typically, managed, identity, provider.
-  - Evidence links: [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future, sandbox, permissions, typically, managed, identity, provider.
+- Evidence links for `youtube-BM2JX9hqsVQ`: [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]

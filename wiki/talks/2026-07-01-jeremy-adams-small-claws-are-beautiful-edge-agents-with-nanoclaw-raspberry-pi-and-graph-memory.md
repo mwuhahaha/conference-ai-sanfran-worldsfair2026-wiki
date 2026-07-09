@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-Fzb1a24hF-o` — 10 slide-derived text signals
-  - Slide-derived themes: objects, type, consistent, works, supported, started, tomorrow, june.
-  - Evidence links: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
+- Slide-derived themes for `youtube-Fzb1a24hF-o`: objects, type, consistent, works, supported, started, tomorrow, june.
+- Evidence links for `youtube-Fzb1a24hF-o`: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

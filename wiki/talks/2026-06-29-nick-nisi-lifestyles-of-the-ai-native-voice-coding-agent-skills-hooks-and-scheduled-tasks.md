@@ -92,8 +92,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-so9l_MwS2yg` — 10 slide-derived text signals
-  - Slide-derived themes: system, find, export, function, next, token, headers, authorization.
-  - Evidence links: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
+- Slide-derived themes for `youtube-so9l_MwS2yg`: system, find, export, function, next, token, headers, authorization.
+- Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

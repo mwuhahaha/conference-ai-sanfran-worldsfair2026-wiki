@@ -42,5 +42,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals
-  - Slide-derived themes: audio, engineering, future, gemini, flash, native, shipping, relentless.
-  - Evidence links: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
+- Evidence links for `youtube-Bc6Ojl2XS1w`: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]

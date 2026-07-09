@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-C_GG5g38vLU` — 8 slide-derived text signals
-  - Slide-derived themes: model, engineering, future, console, stories, tool, registry, story.
-  - Evidence links: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
+- Slide-derived themes for `youtube-C_GG5g38vLU`: model, engineering, future, console, stories, tool, registry, story.
+- Evidence links for `youtube-C_GG5g38vLU`: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]

@@ -30,6 +30,6 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
-  - Transcript signals: model, code, models, research, system, well, first, better.
-  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
-  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: examples, tools, lots, many, tool, search, immediate.
+- Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]

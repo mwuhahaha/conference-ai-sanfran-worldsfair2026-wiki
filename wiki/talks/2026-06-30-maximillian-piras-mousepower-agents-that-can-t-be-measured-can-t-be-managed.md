@@ -76,8 +76,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-BZtD0yYAgCQ` — 5 slide-derived text signals
-  - Slide-derived themes: ship, future, programming, bret, victor, bitter, layout.
-  - Evidence links: [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-BZtD0yYAgCQ`: ship, future, programming, bret, victor, bitter, layout.
+- Evidence links for `youtube-BZtD0yYAgCQ`: [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

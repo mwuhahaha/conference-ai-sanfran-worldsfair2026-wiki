@@ -54,8 +54,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-OimPoLxioYg` — 10 slide-derived text signals
-  - Slide-derived themes: prompt, paint, clip, user, image, text, embedding, feature.
-  - Evidence links: [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
+- Slide-derived themes for `youtube-OimPoLxioYg`: prompt, paint, clip, user, image, text, embedding, feature.
+- Evidence links for `youtube-OimPoLxioYg`: [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -63,9 +63,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-bk0TmxoZlUY` — 9,125 transcript words; 9 slide-derived text signals
-  - Transcript signals: maybe, trust, brain, within, data, scores, eval, application.
-  - Slide-derived themes: developer, platform, support, leading, teams, netflix, nite, become.
-  - Evidence links: [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
+- Transcript signals for `youtube-bk0TmxoZlUY`: maybe, trust, brain, within, data, scores, eval, application.
+- Slide-derived themes for `youtube-bk0TmxoZlUY`: developer, platform, support, leading, teams, netflix, nite, become.
+- Evidence links for `youtube-bk0TmxoZlUY`: [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

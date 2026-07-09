@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-bSG9wUYaHWU` — 10 slide-derived text signals
-  - Slide-derived themes: code, context, fetch, retries, user, retry, write, function.
-  - Evidence links: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
+- Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.
+- Evidence links for `youtube-bSG9wUYaHWU`: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]

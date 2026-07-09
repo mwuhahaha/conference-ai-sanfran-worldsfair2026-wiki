@@ -32,5 +32,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
-  - Slide-derived themes: couple, minutes, earlier, inference, largest, market, ever, software.
-  - Evidence links: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: couple, minutes, earlier, inference, largest, market, ever, software.
+- Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

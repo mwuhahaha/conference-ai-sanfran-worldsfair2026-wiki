@@ -37,5 +37,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-qdh_x-uRs9g` — 10 slide-derived text signals
-  - Slide-derived themes: model, performance, makes, embedding, best, learn, join, team.
-  - Evidence links: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
+- Slide-derived themes for `youtube-qdh_x-uRs9g`: model, performance, makes, embedding, best, learn, join, team.
+- Evidence links for `youtube-qdh_x-uRs9g`: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]

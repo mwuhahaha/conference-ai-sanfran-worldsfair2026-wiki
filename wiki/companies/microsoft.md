@@ -75,15 +75,15 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-1t-9-s1brcg` — 10 slide-derived text signals
-  - Slide-derived themes: microsoft, start, access, quick, templates, powdery, bran, expert.
-  - Evidence links: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
+- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
+- Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
 - `youtube-eOxOzcw70f0` — 10 slide-derived text signals
-  - Slide-derived themes: code, vibes, learning, clone, even, exists, fully, give.
-  - Evidence links: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Evidence links for `youtube-eOxOzcw70f0`: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
 - `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
-  - Transcript signals: model, code, models, loop, well, software, first, team.
-  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
-  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
 - `youtube-JhJKgRAmfIU` — 10 slide-derived text signals
-  - Slide-derived themes: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
-  - Evidence links: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+- Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

@@ -76,8 +76,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-Lcqat4iP_lE` — 10 slide-derived text signals
-  - Slide-derived themes: tool, call, microsoft, tools, client, server, path, calculate.
-  - Evidence links: [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
+- Slide-derived themes for `youtube-Lcqat4iP_lE`: tool, call, microsoft, tools, client, server, path, calculate.
+- Evidence links for `youtube-Lcqat4iP_lE`: [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

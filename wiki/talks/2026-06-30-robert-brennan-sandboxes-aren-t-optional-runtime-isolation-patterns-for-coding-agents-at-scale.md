@@ -78,8 +78,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-rcsliSIy_YU` — 9 slide-derived text signals
-  - Slide-derived themes: code, showcase, automating, massive, robert, brennan, generation, implement.
-  - Evidence links: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
+- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
+- Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

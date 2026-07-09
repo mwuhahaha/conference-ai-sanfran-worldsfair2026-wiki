@@ -34,5 +34,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-6YdPI9YbjbI` — 10 slide-derived text signals
-  - Slide-derived themes: across, sign, access, join, ease, acme, uses, stripe.
-  - Evidence links: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]
+- Slide-derived themes for `youtube-6YdPI9YbjbI`: across, sign, access, join, ease, acme, uses, stripe.
+- Evidence links for `youtube-6YdPI9YbjbI`: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]

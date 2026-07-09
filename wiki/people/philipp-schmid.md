@@ -38,8 +38,8 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-3_gYbhABcAE` — 7 slide-derived text signals
-  - Slide-derived themes: senior, engineers, engineering, text, state, trap, treating, world.
-  - Evidence links: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
+- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
+- Evidence links for `youtube-3_gYbhABcAE`: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
 - `youtube-cVzf49yg0D8` — 7 slide-derived text signals
-  - Slide-derived themes: rule, thea, score, secure, service, login, base, explore.
-  - Evidence links: [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
+- Evidence links for `youtube-cVzf49yg0D8`: [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]

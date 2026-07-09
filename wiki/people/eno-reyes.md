@@ -28,5 +28,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
-  - Slide-derived themes: autonomous, engineering, systems, ready, making.
-  - Evidence links: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
+- Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]

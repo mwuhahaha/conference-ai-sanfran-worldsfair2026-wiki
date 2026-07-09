@@ -150,12 +150,12 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-APh1Vx0oLmQ` — 7 slide-derived text signals
-  - Slide-derived themes: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.
-  - Evidence links: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.
+- Evidence links for `youtube-APh1Vx0oLmQ`: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
 - `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals
-  - Transcript signals: nova, amazon, code, server, browser, able, open, click.
-  - Slide-derived themes: plan, execute, actions, achieve, specific, goals, agentic, tamera.
-  - Evidence links: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
+- Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+- Evidence links for `youtube-wFTVEDYVJT0`: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
 - `youtube-tzRvcTEapzo` — 10 slide-derived text signals
-  - Slide-derived themes: mixture, experts, queen, research, focus, training, cores, buffers.
-  - Evidence links: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
+- Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]

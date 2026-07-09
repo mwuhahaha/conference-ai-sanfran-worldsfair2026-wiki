@@ -27,5 +27,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-Fzb1a24hF-o` — 10 slide-derived text signals
-  - Slide-derived themes: objects, type, consistent, works, supported, started, tomorrow, june.
-  - Evidence links: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
+- Slide-derived themes for `youtube-Fzb1a24hF-o`: objects, type, consistent, works, supported, started, tomorrow, june.
+- Evidence links for `youtube-Fzb1a24hF-o`: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]

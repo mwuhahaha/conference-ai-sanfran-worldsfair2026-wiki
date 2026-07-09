@@ -27,5 +27,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-liG97YXaTSA` — 2 slide-derived text signals
-  - Slide-derived themes: reasoning, samples, trivia, questions, general, model.
-  - Evidence links: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
+- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, samples, trivia, questions, general, model.
+- Evidence links for `youtube-liG97YXaTSA`: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]

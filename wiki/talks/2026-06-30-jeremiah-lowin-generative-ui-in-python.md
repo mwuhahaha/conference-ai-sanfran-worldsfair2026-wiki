@@ -70,8 +70,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-96G7FLab8xc` — 10 slide-derived text signals
-  - Slide-derived themes: prefect, list, server, should, feel, engineer, code, summit.
-  - Evidence links: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
+- Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
+- Evidence links for `youtube-96G7FLab8xc`: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

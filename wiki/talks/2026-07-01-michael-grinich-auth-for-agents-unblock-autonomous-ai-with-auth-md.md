@@ -55,8 +55,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-D4Dswf-__RM` — 10 slide-derived text signals
-  - Slide-derived themes: identity, shadowing, persona, delegation, chains, capability, tokens, escalation.
-  - Evidence links: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
+- Slide-derived themes for `youtube-D4Dswf-__RM`: identity, shadowing, persona, delegation, chains, capability, tokens, escalation.
+- Evidence links for `youtube-D4Dswf-__RM`: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

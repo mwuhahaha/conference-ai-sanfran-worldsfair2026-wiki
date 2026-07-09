@@ -28,5 +28,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-JsCCrBF7F1g` — 10 slide-derived text signals
-  - Slide-derived themes: teams, engineering, hard, tackling, registration, open, observe, platform.
-  - Evidence links: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, engineering, hard, tackling, registration, open, observe, platform.
+- Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]

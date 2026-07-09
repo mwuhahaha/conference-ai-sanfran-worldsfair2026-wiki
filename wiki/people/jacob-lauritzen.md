@@ -27,5 +27,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-XNtkiQJ49Ps` — 10 slide-derived text signals
-  - Slide-derived themes: company, jacob, searching, reading, collaborative, lawyers, than, chat.
-  - Evidence links: [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]
+- Slide-derived themes for `youtube-XNtkiQJ49Ps`: company, jacob, searching, reading, collaborative, lawyers, than, chat.
+- Evidence links for `youtube-XNtkiQJ49Ps`: [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]

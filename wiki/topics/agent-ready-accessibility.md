@@ -45,12 +45,12 @@ This section consolidates source evidence currently connected to this topic acro
 
 ### Slide And Transcript Signals
 - `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
-  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
-  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
-  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
-  - Slide-derived themes: autonomous, engineering, systems, ready, making.
-  - Evidence links: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
+- Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 - `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
-  - Slide-derived themes: code, state, quality, bash, reality, show, engineering, future.
-  - Evidence links: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
+- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, bash, reality, show, engineering, future.
+- Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]

@@ -30,5 +30,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube--TiET_K-E_g` — 10 slide-derived text signals
-  - Slide-derived themes: skills, android, bringing, brick, principal, engineer, google, edge.
-  - Evidence links: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
+- Slide-derived themes for `youtube--TiET_K-E_g`: skills, android, bringing, brick, principal, engineer, google, edge.
+- Evidence links for `youtube--TiET_K-E_g`: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]

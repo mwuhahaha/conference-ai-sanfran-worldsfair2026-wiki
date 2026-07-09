@@ -58,8 +58,8 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-ib-wTAvCZqg` — 10 slide-derived text signals
-  - Slide-derived themes: step, display, search, documents, retrieval, typically, used, most.
-  - Evidence links: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
+- Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
+- Evidence links for `youtube-ib-wTAvCZqg`: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
