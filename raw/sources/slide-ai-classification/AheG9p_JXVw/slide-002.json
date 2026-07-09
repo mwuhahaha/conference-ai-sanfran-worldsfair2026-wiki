@@ -1,0 +1,24 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.94,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Stage photo with presenter and projected slides; slide content is too small and unreadable to count as a meaningful presentation slide.",
+  "text": "",
+  "layout": {
+    "background": "dark stage with cyan-blue ceiling lights and white projection screens",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 14.0,
+        "y": 18.0,
+        "w": 14.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image": "wiki/assets/slides/AheG9p_JXVw/slide-002.jpg",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628256.352549
+}

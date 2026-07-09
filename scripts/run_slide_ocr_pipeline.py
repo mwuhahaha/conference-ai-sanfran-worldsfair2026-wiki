@@ -49,6 +49,9 @@ def main() -> int:
     parser.add_argument("--vision-codex-model", default="", help="Codex CLI model for vision rescue; defaults to the rescue tool default.")
     parser.add_argument("--vision-limit", type=int, default=0)
     parser.add_argument("--vision-jobs", type=int, default=1, help="Parallel vision rescue reads. Keep low for Codex CLI provider.")
+    parser.add_argument("--classify-video-id", action="append", default=[], help="Run low-cost vision slide/non-slide classification for a specific video deck.")
+    parser.add_argument("--classify-model", default="gpt-5.4-mini")
+    parser.add_argument("--remove-non-slides", action="store_true", help="When classifying, remove rejected non-slide frames from wiki slide decks.")
     parser.add_argument("--internal-eval-log", action="store_true", help="Write ignored internal operator/tool comparison log.")
     parser.add_argument("--no-build", action="store_true", help="Skip npm static export.")
     parser.add_argument("--no-dependent-indexes", action="store_true", help="Skip topic/tool/word-cloud refreshes.")
@@ -109,6 +112,19 @@ def main() -> int:
     count = refreshed_count(refresh.stdout or "")
     if AUDIT_PATH.exists():
         write_audit_page(json.loads(AUDIT_PATH.read_text()), refreshed_pages=count)
+
+    for video_id in args.classify_video_id:
+        classify_cmd = [
+            sys.executable,
+            "scripts/classify_and_recreate_slides.py",
+            "--video-id",
+            video_id,
+            "--model",
+            args.classify_model,
+        ]
+        if args.remove_non_slides:
+            classify_cmd.append("--remove-rejected")
+        run(classify_cmd)
 
     if not args.no_dependent_indexes:
         run([sys.executable, "scripts/generate_tool_inventory.py"])

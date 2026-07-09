@@ -1,0 +1,106 @@
+{
+  "video_id": "AheG9p_JXVw",
+  "model": "gpt-5.4-mini",
+  "min_confidence": 0.72,
+  "remove_rejected": true,
+  "accepted_count": 0,
+  "rejected_count": 4,
+  "accepted": [],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.93,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with speaker and partial slides; not a clear readable presentation slide frame.",
+      "text": "VS Editing\nGenerating VS Editing",
+      "layout": {
+        "background": "dark stage with cyan/teal lighting",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "VS Editing",
+            "x": 0,
+            "y": 18.0,
+            "w": 36.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Generating VS Editing",
+            "x": 74.0,
+            "y": 33.0,
+            "w": 20.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/AheG9p_JXVw/slide-001.jpg",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628242.7998574
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.94,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with presenter and projected slides; slide content is too small and unreadable to count as a meaningful presentation slide.",
+      "text": "",
+      "layout": {
+        "background": "dark stage with cyan-blue ceiling lights and white projection screens",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 14.0,
+            "y": 18.0,
+            "w": 14.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/AheG9p_JXVw/slide-002.jpg",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628256.352549
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.18,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage shot with speaker at podium; the slide is only a small promo callout and not a readable presentation content slide.",
+      "text": "AE exclusive - try our beta!",
+      "layout": {
+        "background": "dark stage with cyan/blue lighting",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "AE exclusive - try our beta!",
+            "x": 74.0,
+            "y": 33.0,
+            "w": 20.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/AheG9p_JXVw/slide-003.jpg",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628271.5969298
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with a projected screen; not a readable presentation slide.",
+      "text": "",
+      "layout": {
+        "background": "#0f172a with cyan stage lighting",
+        "style": "dark",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/AheG9p_JXVw/slide-004.jpg",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628282.0575242
+    }
+  ]
+}

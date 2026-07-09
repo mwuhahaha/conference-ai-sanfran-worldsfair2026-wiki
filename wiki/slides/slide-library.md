@@ -10,8 +10,8 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 
 ## Coverage
 - Slide decks: 401
-- Extracted slide/frame images: 2827
-- OCR text files: 2827
+- Extracted slide/frame images: 2823
+- OCR text files: 2823
 
 ## Decks
 - [[youtube--TiET_K-E_g-dense-slides]] — 0 extracted frames
@@ -78,7 +78,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-APh1Vx0oLmQ-dense-slides]] — 0 extracted frames
 - [[youtube-APh1Vx0oLmQ-reconstructed-slides]] — 0 extracted frames
 - [[youtube-APh1Vx0oLmQ-slides]] — 13 extracted frames
-- [[youtube-AheG9p_JXVw-slides]] — 4 extracted frames
+- [[youtube-AheG9p_JXVw-slides]] — 0 extracted frames retained after AI classification
 - [[youtube-Akm1sqvWG4A-slides]] — 9 extracted frames
 - [[youtube-B9h9ovW5H9U-dense-slides]] — 0 extracted frames
 - [[youtube-B9h9ovW5H9U-reconstructed-slides]] — 0 extracted frames
