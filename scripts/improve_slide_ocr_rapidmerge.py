@@ -81,7 +81,7 @@ class Candidate:
         if self.source == "operator-verified":
             score += 100
         if self.source == "ai-vision":
-            score += 85
+            score += 220
         return score
 
 

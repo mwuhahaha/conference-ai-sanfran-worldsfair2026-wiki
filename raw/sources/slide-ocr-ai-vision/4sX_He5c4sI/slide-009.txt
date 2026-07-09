@@ -1,10 +1,14 @@
 System Prompt Design
+
 Small system prompt,
 few tools, lots of
 examples
+
 Large system prompt,
 lots of examples, many
 tools
+
 Smaller system prompt,
 tool search, no examples
+
 14 / 40

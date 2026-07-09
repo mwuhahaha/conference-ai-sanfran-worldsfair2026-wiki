@@ -30,20 +30,14 @@ OCR text:
 
 OCR text:
 
-> eet od
-> x 5 EVENT STARTS IN 04:54
-> A (oa k2 a oP 5
-> ares rn
-> \
-> ; : y
-> D a
-> an See
-> o Pe ie a3
-> ii eee a
-> a, a ; Be ae - 7 MN
-> ee a ~ aa
-> ae eS en EE
-> aengineer/wordsfait/2026/schedule
+> AI Engineer
+> World's Fair
+> Livestream
+> July 1, 2026
+> EVENT STARTS IN 04:54
+> DESIGN ENGINEERING
+> View Full Schedule
+> ai.engineer/worldsfair/2026/schedule
 
 ![[assets/slides/4sX_He5c4sI/slide-003.jpg]]
 
@@ -110,14 +104,16 @@ OCR text:
 
 OCR text:
 
+> AI Engineer
 > World's Fair
-> ; a
-> ees Models are grown,
+> PRESENTED BY
+> Microsoft
+> Models are grown,
 > not designed.
-> Cone aren oF) iaTe) a6 Bow
-> aaa g Open,
-> oe eae ee tc
-> ato natar Tariq Shaukat [Sorte] meee
+> 7 / 40
+> In the Land of AI Agents, the Verifiers Are King
+> Tariq Shaukat / Chief Executive Officer
+> Sonar
 
 ![[assets/slides/4sX_He5c4sI/slide-008.jpg]]
 
@@ -140,19 +136,16 @@ OCR text:
 
 OCR text:
 
-> Lae oe
-> 
-> World's Fair System Prompt Design
-> —_ — °o 7
-> o 7 @a fo
-> . f + ¢@ Q
-> mre cos rolns el +e >
-> Small system prompt, Large system prompt, Sriialles apace praarigt,
-> 
-> « uflyven coal i mantles of * lotsof ample mane tool search, no examples
-> World's 7 cue
-> oF
-> ela, :
+> System Prompt Design
+> Small system prompt,
+> few tools, lots of
+> examples
+> Large system prompt,
+> lots of examples, many
+> tools
+> Smaller system prompt,
+> tool search, no examples
+> 14 / 40
 
 ![[assets/slides/4sX_He5c4sI/slide-010.jpg]]
 
@@ -245,22 +238,20 @@ OCR text:
 
 OCR text:
 
-> tena’ GUIDE
-> World's Fair Agents need enterprise context and constraints
+> GUIDE
+> Agents need enterprise context and constraints
 > so that they are ‘verification aware’
-> e Architectural awareness
-> - Microsoft e Semantic navigation
-> 
-> e Dependency guidance
-> e Coding standards and guardrails
-> e Intended architecture
-> 
-> Se Worle:
-> 
-> & Sonar
-> aeoear wie
-> In the Land of Al Agents, the Verifiers Are King
-> Terenas aCe ae Race [ Eero ened
+> Repository-aware project specific context...
+> • Architectural awareness
+> • Semantic navigation
+> ...and constraints...
+> • Dependency guidance
+> • Coding standards and guardrails
+> • Intended architecture
+> ...provided dynamically and/or embedded in models
+> In the Land of AI Agents, the Verifiers Are King
+> Tariq Shaukat / Chief Executive Officer
+> Sonar
 
 ![[assets/slides/4sX_He5c4sI/slide-017.jpg]]
 
@@ -544,19 +535,34 @@ OCR text:
 
 OCR text:
 
-> INS pe ad é 5 .
-> World's Fair Different Evals for Different Failures
-> Deterministic code Prompt hallucinations
-> Code Evaluators Class:c LLM-as-Judge Agent-as-Judge
-> Und tests, asservons, nées Seore a known well-defined fadure Another agent reviews the whole trajectory.
-> “Oo GD
-> oe ' a“ (——) C=)
-> © C= } oon {~~}
-> ern vv eno Cie J
-> ; Aarize
-> veya ;
-> Late eo
-> ae W Apama Dhinakaran arize
+> Different Evals for Different Failures
+> Deterministic code
+> Prompt hallucinations
+> Trajectory & harness failures
+> Code Evaluators
+> Unit tests, assertions, rules.
+> Classic LLM-as-Judge
+> Score a known, well-defined failure.
+> input
+> output
+> criteria
+> LLM
+> label / score / explanation
+> Agent-as-Judge
+> Another agent reviews the whole trajectory.
+> system
+> status
+> skills
+> tools
+> judgments
+> insights
+> failure modes
+> evidence
+> Agent
+> arize
+> Evals Track
+> Aparna Dhinakaran / Co-founder & Chief Product Officer
+> arize
 
 ![[assets/slides/4sX_He5c4sI/slide-036.jpg]]
 

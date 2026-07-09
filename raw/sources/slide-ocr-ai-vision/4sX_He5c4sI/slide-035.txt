@@ -1,18 +1,26 @@
 Different Evals for Different Failures
+
 Deterministic code
+
 Prompt hallucinations
+
 Trajectory & harness failures
+
 Code Evaluators
 Unit tests, assertions, rules.
+
 Classic LLM-as-Judge
 Score a known, well-defined failure.
+
 input
 output
 criteria
 LLM
 label / score / explanation
+
 Agent-as-Judge
 Another agent reviews the whole trajectory.
+
 system
 status
 skills
@@ -22,7 +30,9 @@ insights
 failure modes
 evidence
 Agent
+
 arize
+
 Evals Track
 Aparna Dhinakaran / Co-founder & Chief Product Officer
 arize

@@ -45,7 +45,7 @@ def main() -> int:
     parser.add_argument("--no-live-ocr", action="store_true", help="Merge existing OCR/operator sources without running live OCR engines.")
     parser.add_argument("--enable-surya", action="store_true", help="Enable Surya only after confirming model-weight license terms fit this use.")
     parser.add_argument("--vision-rescue", action="store_true", help="Run AI vision interpretation for low-confidence/manual-queue slides after OCR.")
-    parser.add_argument("--vision-provider", choices=["auto", "ollama", "openai"], default="auto")
+    parser.add_argument("--vision-provider", choices=["auto", "ollama", "codex-cli", "openai"], default="auto")
     parser.add_argument("--vision-limit", type=int, default=0)
     parser.add_argument("--internal-eval-log", action="store_true", help="Write ignored internal operator/tool comparison log.")
     parser.add_argument("--no-build", action="store_true", help="Skip npm static export.")

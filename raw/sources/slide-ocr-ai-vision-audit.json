@@ -1,12 +1,54 @@
 {
   "generatedBy": "scripts/interpret_slide_text_with_vision.py",
-  "startedAtEpoch": 1783607896.7430353,
-  "provider": null,
-  "requestedProvider": "auto",
-  "slidesQueued": 1,
-  "slidesAttempted": 0,
-  "visionFilesWritten": 0,
+  "startedAtEpoch": 1783608488.867908,
+  "provider": "codex-cli",
+  "requestedProvider": "codex-cli",
+  "slidesQueued": 5,
+  "slidesAttempted": 5,
+  "visionFilesWritten": 5,
   "minConfidence": 0.72,
-  "records": [],
-  "providerStatus": "dry-run"
+  "records": [
+    {
+      "image": "wiki/assets/slides/4sX_He5c4sI/slide-002.jpg",
+      "oldPreview": "eet od\nx 5 EVENT STARTS IN 04:54\nA (oa k2 a oP 5\nares rn\n\\\n; : y\nD a\nan See\no Pe ie a3\nii eee a\na, a ; Be ae - 7 MN\nee a ~ aa\nae eS en EE\naengineer/wordsfait/2026/schedule",
+      "text": "AI Engineer\nWorld's Fair\nLivestream\nJuly 1, 2026\nEVENT STARTS IN 04:54\nDESIGN ENGINEERING\nView Full Schedule\nai.engineer/worldsfair/2026/schedule",
+      "confidence": 0.98,
+      "notes": "Exact visible title and event overlay text captured; ignored visual grid/background fragments.",
+      "written": "raw/sources/slide-ocr-ai-vision/4sX_He5c4sI/slide-002.txt"
+    },
+    {
+      "image": "wiki/assets/slides/4sX_He5c4sI/slide-007.jpg",
+      "oldPreview": "World's Fair\n; a\nees Models are grown,\nnot designed.\nCone aren oF) iaTe) a6 Bow\naaa g Open,\noe eae ee tc\nato natar Tariq Shaukat [Sorte] meee",
+      "text": "AI Engineer\nWorld's Fair\n\nPRESENTED BY\nMicrosoft\n\nModels are grown,\nnot designed.\n\n7 / 40\n\nIn the Land of AI Agents, the Verifiers Are King\nTariq Shaukat / Chief Executive Officer\nSonar",
+      "confidence": 0.92,
+      "notes": "Ignored partial sponsor-wall/background fragments; small text next to Sonar is not fully legible.",
+      "written": "raw/sources/slide-ocr-ai-vision/4sX_He5c4sI/slide-007.txt"
+    },
+    {
+      "image": "wiki/assets/slides/4sX_He5c4sI/slide-009.jpg",
+      "oldPreview": "Lae oe\n\nWorld's Fair System Prompt Design\n—_ — °o 7\no 7 @a fo\n. f + ¢@ Q\nmre cos rolns el +e >\nSmall system prompt, Large system prompt, Sriialles apace praarigt,\n\n« uflyven coal i mantles of * lotsof ample mane tool sea",
+      "text": "System Prompt Design\n\nSmall system prompt,\nfew tools, lots of\nexamples\n\nLarge system prompt,\nlots of examples, many\ntools\n\nSmaller system prompt,\ntool search, no examples\n\n14 / 40",
+      "confidence": 0.96,
+      "notes": "Ignored background sponsor-wall and presenter-area fragments; captured main slide text and slide number.",
+      "written": "raw/sources/slide-ocr-ai-vision/4sX_He5c4sI/slide-009.txt"
+    },
+    {
+      "image": "wiki/assets/slides/4sX_He5c4sI/slide-016.jpg",
+      "oldPreview": "tena’ GUIDE\nWorld's Fair Agents need enterprise context and constraints\nso that they are ‘verification aware’\ne Architectural awareness\n- Microsoft e Semantic navigation\n\ne Dependency guidance\ne Coding standards and guar",
+      "text": "GUIDE\nAgents need enterprise context and constraints\nso that they are ‘verification aware’\nRepository-aware project specific context...\n• Architectural awareness\n• Semantic navigation\n...and constraints...\n• Dependency guidance\n• Coding standards and guardrails\n• Intended architecture\n...provided dynamically and/or embedded in models\n\nIn the Land of AI Agents, the Verifiers Are King\nTariq Shaukat / Chief Executive Officer\nSonar",
+      "confidence": 0.93,
+      "notes": "Ignored background sponsor-wall fragments; small Sonar tagline is too small to read confidently.",
+      "written": "raw/sources/slide-ocr-ai-vision/4sX_He5c4sI/slide-016.txt"
+    },
+    {
+      "image": "wiki/assets/slides/4sX_He5c4sI/slide-035.jpg",
+      "oldPreview": "INS pe ad é 5 .\nWorld's Fair Different Evals for Different Failures\nDeterministic code Prompt hallucinations\nCode Evaluators Class:c LLM-as-Judge Agent-as-Judge\nUnd tests, asservons, nées Seore a known well-defined fadur",
+      "text": "Different Evals for Different Failures\n\nDeterministic code\n\nPrompt hallucinations\n\nTrajectory & harness failures\n\nCode Evaluators\nUnit tests, assertions, rules.\n\nClassic LLM-as-Judge\nScore a known, well-defined failure.\n\ninput\noutput\ncriteria\nLLM\nlabel / score / explanation\n\nAgent-as-Judge\nAnother agent reviews the whole trajectory.\n\nsystem\nstatus\nskills\ntools\njudgments\ninsights\nfailure modes\nevidence\nAgent\n\narize\n\nEvals Track\nAparna Dhinakaran / Co-founder & Chief Product Officer\narize",
+      "confidence": 0.86,
+      "notes": "Tiny code snippet in the Code Evaluators panel is too blurred to read reliably; background sponsor-wall fragments ignored.",
+      "written": "raw/sources/slide-ocr-ai-vision/4sX_He5c4sI/slide-035.txt"
+    }
+  ],
+  "finishedAtEpoch": 1783608569.6083133,
+  "elapsedSeconds": 80.74
 }

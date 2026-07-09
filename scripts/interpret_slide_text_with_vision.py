@@ -8,6 +8,8 @@ import base64
 import json
 import os
 import re
+import shutil
+import subprocess
 import time
 from pathlib import Path
 
@@ -91,6 +93,54 @@ def openai_responses(image: Path, ocr_text: str, model: str, timeout: int) -> di
     return parse_json(data.get("output_text") or json.dumps(data))
 
 
+def codex_cli(image: Path, ocr_text: str, model: str, timeout: int) -> dict:
+    command = shutil.which("codex")
+    if not command:
+        raise RuntimeError("codex CLI is not available on PATH")
+    out_dir = ROOT / ".ops" / "state" / "cache" / "codex-vision-samples"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / f"{image.parent.name}-{image.stem}-{int(time.time() * 1000)}.json"
+    prompt = (
+        "Inspect only the attached image. Return only compact JSON with keys text, confidence, notes. "
+        "text must be the exact visible slide/frame text with line breaks. Prefer meaningful slide text "
+        "over background sponsor-wall fragments. If no useful visible text, use empty string. Do not use tools.\n\n"
+        "Existing OCR to compare:\n"
+        + (ocr_text or "(none)")
+    )
+    cmd = [
+        command,
+        "exec",
+        "--ephemeral",
+        "-s",
+        "read-only",
+        "-C",
+        str(ROOT),
+        "-i",
+        str(image),
+        "-o",
+        str(out_file),
+    ]
+    if model:
+        cmd.extend(["-m", model])
+    cmd.append(prompt)
+    env = os.environ.copy()
+    env.pop("OPENAI_API_KEY", None)
+    cp = subprocess.run(
+        cmd,
+        cwd=ROOT,
+        input="",
+        text=True,
+        capture_output=True,
+        timeout=timeout,
+        env=env,
+    )
+    if cp.returncode != 0:
+        raise RuntimeError((cp.stderr or cp.stdout)[-1000:])
+    if not out_file.exists():
+        raise RuntimeError("codex CLI did not write an output message")
+    return parse_json(out_file.read_text(encoding="utf-8", errors="ignore"))
+
+
 def ollama_generate(image: Path, ocr_text: str, model: str, timeout: int) -> dict:
     endpoint = os.environ.get("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
     body = {
@@ -109,6 +159,8 @@ def ollama_generate(image: Path, ocr_text: str, model: str, timeout: int) -> dic
 def provider_available(provider: str) -> bool:
     if provider == "openai":
         return bool(os.environ.get("OPENAI_API_KEY"))
+    if provider == "codex-cli":
+        return shutil.which("codex") is not None
     if provider == "ollama":
         endpoint = os.environ.get("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
         try:
@@ -123,6 +175,8 @@ def choose_provider(provider: str) -> str | None:
         return provider if provider_available(provider) else None
     if provider_available("ollama"):
         return "ollama"
+    if provider_available("codex-cli"):
+        return "codex-cli"
     if provider_available("openai"):
         return "openai"
     return None
@@ -154,6 +208,8 @@ def candidate_slides(args: argparse.Namespace) -> list[Path]:
 def interpret(provider: str, image: Path, ocr_text: str, args: argparse.Namespace) -> dict:
     if provider == "openai":
         return openai_responses(image, ocr_text, args.openai_model, args.timeout)
+    if provider == "codex-cli":
+        return codex_cli(image, ocr_text, args.codex_model, args.timeout)
     if provider == "ollama":
         return ollama_generate(image, ocr_text, args.ollama_model, args.timeout)
     raise RuntimeError(f"Unsupported provider: {provider}")
@@ -179,7 +235,7 @@ def write_audit_page(audit: dict) -> None:
         "",
         "## Notes",
         "- This step is intentionally after OCR. OCR creates candidates and identifies weak frames; vision interpretation reads the actual image only for low-confidence cases.",
-        "- Free local vision is preferred through Ollama when available. OpenAI Responses API is used only when `OPENAI_API_KEY` is set and the provider is selected or auto-detected.",
+        "- Free local vision is preferred through Ollama when available. Codex CLI can be used through its existing login without reading `OPENAI_API_KEY`. OpenAI Responses API is used only when `OPENAI_API_KEY` is set and the provider is selected or auto-detected.",
         "- Generated text is merged by `scripts/improve_slide_ocr_rapidmerge.py` as `ai-vision`, below operator-verified text but above raw OCR.",
     ]
     write_text(AI_VISION_PAGE, "\n".join(lines))
@@ -187,8 +243,9 @@ def write_audit_page(audit: dict) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--provider", choices=["auto", "ollama", "openai"], default="auto")
+    parser.add_argument("--provider", choices=["auto", "ollama", "codex-cli", "openai"], default="auto")
     parser.add_argument("--ollama-model", default=os.environ.get("OLLAMA_VISION_MODEL", "llava:latest"))
+    parser.add_argument("--codex-model", default=os.environ.get("CODEX_VISION_MODEL", ""))
     parser.add_argument("--openai-model", default=os.environ.get("OPENAI_VISION_MODEL", "gpt-5.5"))
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--min-confidence", type=float, default=0.72)

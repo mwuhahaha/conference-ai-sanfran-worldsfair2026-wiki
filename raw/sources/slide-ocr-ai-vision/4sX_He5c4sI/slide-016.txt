@@ -9,6 +9,7 @@ Repository-aware project specific context...
 • Coding standards and guardrails
 • Intended architecture
 ...provided dynamically and/or embedded in models
+
 In the Land of AI Agents, the Verifiers Are King
 Tariq Shaukat / Chief Executive Officer
 Sonar

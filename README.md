@@ -48,7 +48,7 @@ python3 scripts/generate_talk_synthesis.py --speaker "Liad Yosef"
 python3 scripts/generate_highlights.py
 python3 scripts/run_slide_ocr_pipeline.py
 python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --internal-eval-log
-python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --vision-rescue --vision-provider auto --internal-eval-log
+python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --vision-rescue --vision-provider codex-cli --internal-eval-log
 python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --no-live-ocr --internal-eval-log
 ```
 
@@ -60,7 +60,7 @@ The slide OCR pipeline rereads weak or suspicious slide frames with local OCR en
 
 For a fuller quality pass, run `python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --internal-eval-log`. The five free/local improvement paths now supported by the toolkit are: OpenCV crop/threshold preprocessing, RapidOCR live rereads, PaddleOCR rescue reads, EasyOCR/docTR adapter hooks for CPU/GPU installs that provide Torch cleanly, and Surya as an explicit opt-in after checking model-weight license terms. PaddleOCR is available as a targeted rescue engine, but it is too slow for default whole-corpus runs on this host. Operator-verified text belongs under `raw/sources/slide-ocr-operator-verified/`; run `python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --no-live-ocr --internal-eval-log` to merge those corrections without rerunning live OCR. Internal eval logs are written under `.ops/state/cache/` and are intentionally ignored by git.
 
-When OCR is visibly bad, use the AI vision rescue layer instead of only adding OCR engines: `python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --vision-rescue --vision-provider auto --internal-eval-log`. The rescue tool reads low-confidence/manual-queue slide frames with a vision model, writes accepted text to `raw/sources/slide-ocr-ai-vision/`, and then reruns a no-live merge. It prefers free local Ollama vision when available; it uses the OpenAI Responses API only when `OPENAI_API_KEY` is set or `--vision-provider openai` is chosen. The OpenAI model is configurable with `OPENAI_VISION_MODEL`.
+When OCR is visibly bad, use the AI vision rescue layer instead of only adding OCR engines: `python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --vision-rescue --vision-provider codex-cli --internal-eval-log`. The rescue tool reads low-confidence/manual-queue slide frames with a vision model, writes accepted text to `raw/sources/slide-ocr-ai-vision/`, and then reruns a no-live merge. It can use free local Ollama vision, Codex CLI via the existing local login, or the OpenAI Responses API only when `OPENAI_API_KEY` is set or `--vision-provider openai` is chosen. The OpenAI model is configurable with `OPENAI_VISION_MODEL`.
 
 Future video slide extraction can use scene-change frame sampling and sharpness replacement with `python3 scripts/extract_video_slides.py --scene-detect --video-id <id>`.
 
