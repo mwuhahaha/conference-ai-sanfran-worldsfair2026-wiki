@@ -1,0 +1,30 @@
+de-add_date()
+2Bdefaddetiarhef'Today is{date.today():%Y-%m-%d}
+return f'Today is{date.today():%Y-%m-%d3
+AIE
+async def main():
+asyncwith libs_agent.run_mcp_servers():
+Samuel Colvin,6 houzs ago
+33aSync def result（await libs_agent.run(How many times has pydantic been downloaded this year）
+asprintixesultpusputgent.run_mcp_servers(
+result= await libs_agent.run('How many times has pydantic been
+if
+naownlaadedathis:year')
+prindorteasyhtiooutput)
+asyncio.run（main())
+nama
+libs agent run
+MCP request:tools/list
+chat gpt-4o
+World's
+ThvellumgepydWichas been down1oaded 1,687,008,160
+1L
+times
+this year
+Vdone
+Microsoft
+aws
+Cair
+smol"
+World'sFair
+1L

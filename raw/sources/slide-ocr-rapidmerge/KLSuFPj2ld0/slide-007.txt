@@ -1,4 +1,3 @@
 spt npx tsxindex.ts
 AIE
-AlEnginoer
-Engineering the future of Al
+2028 AlEnginoer Engineering the future of Al

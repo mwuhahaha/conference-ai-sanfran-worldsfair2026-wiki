@@ -1,0 +1,13 @@
+BRAINTRUST.DEV
+Scorer Types
+Code-basedscorers
+LLM-as-a-judgescorers
+Exactorbinaryconditions
+Subjectiveorcontextualfeedback
+AIE
+Numericcomparisons
+Human-likeinterpretation
+Structuredorfactualchecks
+Improvementacrossmultipledrafts
+Microsoft
+smol?

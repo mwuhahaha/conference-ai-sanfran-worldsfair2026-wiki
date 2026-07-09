@@ -1,0 +1,23 @@
+AIEngineer
+World'sFair
+/helpallcommands
+ctrl+jnewlines
+ctrl+kfuzzysearch
+WhatdoestheAwSdocssayaboutAmazonBedrock?
+I'llsearch the Aws documentation for informationaboutAmazonBedrockand provide you
+with a summary.
+AEng
+orld'sFa
+Using tool:search_documentation from mcp server awslabsaws_documentation_mcp_server
+Runningsearch_documentation withtheparam:
+arguments"
+"1imit":5
+"search_phrase":"Amazon Bedrock"
+name":"search_documentation"
+Allowthis action?Use't'to trust (always allow)this toolforthe session.
+[y/n/t]:
+AlEngiv
+orld!
+AIEngi
+World'sFair
+Engineering the future of Al

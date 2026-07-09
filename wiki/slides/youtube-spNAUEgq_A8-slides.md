@@ -225,20 +225,25 @@ OCR text:
 
 OCR text:
 
+> Messages
+> Tools
 > System Prompt
-> i FFigma : om
-> *oncoscencusecscnsceconccee® ss x
-> =.
+> $Figma
+> Model
 
 ![[assets/slides/spNAUEgq_A8/slide-018.jpg]]
 
 OCR text:
 
-> / | ae \
-> System Prompt System Prompt System Prompt SNES Gg
-> i FFigma : : Gmail : ; gnavan He = Keree [=
-> *wacccrevccscecerscesenacen® Pasecccccvscuccessvcouaces® A eeceecccsssevacsascccasas® *ouscceecces ‘es *
-> cD Cx Ci r
+> Messages
+> Tools
+> SystemPrompt
+> Model
+> Messages Messages Messages Messages
+> Tools Tools Tools Tools
+> SystemPrompt SystemPrompt SystemPrompt System
+> Figma Gmail NAVAN Goo
+> Model Model Model M
 
 ![[assets/slides/spNAUEgq_A8/slide-019.jpg]]
 

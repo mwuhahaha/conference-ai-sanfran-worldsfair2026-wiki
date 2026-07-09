@@ -2,7 +2,7 @@
 title: "Modal"
 category: "tools"
 aliases: ["Modal"]
-sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
+sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Workshops Day 1", "AI Architects: Show my Workflow"]
 scheduleRooms: ["Track 9", "Leadership 2"]
 ---
@@ -36,12 +36,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-DeFF3J8T5Pk-slides]]
 - [[youtube-HvZXAOZ3iv8-slides]]
 
-### Topic Pages
-- [[ai-sandboxes]]
-- [[inference-engineering]]
-
 ### Transcript Files
 - `raw/sources/youtube-transcripts/HvZXAOZ3iv8.txt`
+- `raw/sources/youtube-transcripts/IQkVMvXQKLY.txt`
 - `raw/sources/youtube-transcripts/OXMMN-XbxwA.txt`
 - `raw/sources/youtube-transcripts/zMiSRliEzv4.txt`
 

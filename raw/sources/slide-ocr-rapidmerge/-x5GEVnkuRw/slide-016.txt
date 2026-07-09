@@ -1,0 +1,56 @@
+Q
+B
+Conversion.ipynbMX
+Token_Cost_Comparison.ipynb M
+Chunkless_RAG.ipynb M
+Chunking.ipynb
+DOCLING-WORKSHOP
+notebooks
+>fixtures
+Add Code Add Markdown|Run All Restart Clear All Outputs|Jupyter Variables Outline
+venv (3.13.7) (Python 3.13.7)
+ndno<
+ImportEssentialComponents
+gitignore
+Chunking.ipynb
+Chunkless_RAG.ipynb
+from pathlib import Path
+Conversion_Colab.ipynb
+Conversion.ipynb
+M
+Core Docling imports
+MCP_Agents.ipynb
+M
+from docling.document_converter import DocumentConverter
+Ollama RAG.ipynb
+from docling.datamodel.base_models import InputFormat
+from docling.datamodel.pipeline_options import PdfPipelineOptions
+RAGipynb
+from docling.document_converterimportPdfFormatoption
+Serving.ipynb
+Token_Cost_Compari.M
+#For advanced features
+scripts
+>src
+#For data processing and visualization
+gitignore
+import matplotlib.pyplot as plt
+!markdownlint-cli2.yaml
+!.poutine.yml
+Create output directory
+!pre-commit-config.yaml
+output_dir=Path("output")
+output_dir.mkdir(exist_ok=True)
+F.spellcheck-en-custom.txt
+√0.0s
+Python
+!.spellcheck.yaml
+Fconstraints.txt
+LICENSE
+BasicDocumentConversion
+!mkdocs.yml
+pyproject.toml
+MinimalExample
+①README.md
+The simplestway toconvertadocument:
+OUTLINE

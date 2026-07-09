@@ -691,12 +691,11 @@ OCR text:
 
 OCR text:
 
-> re
-> a Microsoft
-> Job
-> % clam maui
-> Vv : 7
-> a Engineering the future of Al
+> World'sFair AlEngineer
+> PRESENTEDBY Budget
+> Microsoft Job
+> 8Br'-trust
+> Engineering the future of Al
 
 ![[assets/slides/I2cbIws9j10/slide-041.jpg]]
 

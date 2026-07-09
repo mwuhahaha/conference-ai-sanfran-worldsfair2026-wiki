@@ -25,13 +25,13 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-e9sLVMN76qU]]
 
 ### Slide/OCR Pages
+- [[youtube-G6IlDzj8OjA-slides]]
 - [[youtube-aqW68Is_Kj4-slides]]
 - [[youtube-e9sLVMN76qU-reconstructed-slides]]
 - [[youtube-e9sLVMN76qU-slides]]
 
 ### Topic Pages
 - [[agent-security]]
-- [[ai-sandboxes]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/QuuIywMG4s8.txt`

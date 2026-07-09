@@ -478,19 +478,9 @@ OCR text:
 
 OCR text:
 
-> 7 a
-> | ; ;
-> a
-> ,
-> LM Hw S, et a ;
-> i
-> ora ere ha
-> ae
-> , : | i o ae ;
-> Che! j
-> or ’
-> |
-> er
+> Windsurf now write over 90% of our users' code. If youre not using them. youre already behind.
+> AGENTSATWOFK
+> IE
 
 ![[assets/slides/bVNNvWq6dKo/slide-021.jpg]]
 

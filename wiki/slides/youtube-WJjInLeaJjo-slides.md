@@ -83,11 +83,7 @@ OCR text:
 
 OCR text:
 
-> _ oa : an
-> aa fi 7
-> = a _ yb
-> a |
-> ae he
+> Somo featureswill bereleasodin futureup
 
 ![[assets/slides/WJjInLeaJjo/slide-006.jpg]]
 

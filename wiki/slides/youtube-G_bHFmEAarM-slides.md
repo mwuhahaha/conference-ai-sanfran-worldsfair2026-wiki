@@ -30,12 +30,9 @@ OCR text:
 
 OCR text:
 
-> | | Bh
-> (TA Megas
-> 4
-> C=]
+> 2pogk lokoek
+> AI Engineer
 > EUROPE
-> | Da = i
 
 ![[assets/slides/G_bHFmEAarM/slide-003.jpg]]
 

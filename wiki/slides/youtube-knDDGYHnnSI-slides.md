@@ -32,12 +32,7 @@ OCR text:
 
 OCR text:
 
-> of
-> we
-> - .
-> e04
-> Rave bl oo
-> a
+> Greph Databese & Analytics neo4j
 
 ![[assets/slides/knDDGYHnnSI/slide-003.jpg]]
 

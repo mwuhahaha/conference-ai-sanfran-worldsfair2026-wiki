@@ -365,7 +365,8 @@ OCR text:
 
 > AIEngineer
 > EUROPE
-> AIEngineer
+> LUIACC
+> 2026 AlEngineer
 
 ![[assets/slides/eW_vxrjvERk/slide-022.jpg]]
 

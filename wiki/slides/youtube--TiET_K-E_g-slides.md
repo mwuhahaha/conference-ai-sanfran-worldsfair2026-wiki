@@ -53,14 +53,12 @@ OCR text:
 
 OCR text:
 
-> SystemlevelGenAl
+> System level GenAl
 > AIE
-> Gemini NanowithAICore
-> Apple IntelligenceWriting
-> summarizationonAndroid
-> toolsonios
+> Gemini Nano with AlCore Apple Intelligence Writing
+> summarization on Android tools on iOs
 > Engineering the future of Al
-> AIEng
+> A12
 
 ![[assets/slides/-TiET_K-E_g/slide-005.jpg]]
 

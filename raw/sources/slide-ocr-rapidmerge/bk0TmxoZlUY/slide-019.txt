@@ -1,0 +1,6 @@
+BRAINTRUST.DEV
+Playgrounds Experiments
+Evaluations
+AIE
+Whenvoureachahappyplace,savea QuickiterationofPrompts,Agents, Scorers,Datasets GreatforcomparingPrompts&Models otoftheplaygroundtoExperiments directly EvalsfromSDKorAPIwillappearhere Youcananalyzeyourexperimentsovertime Greatforcomparingfullexperimentssoyou canreviewpastplaygroundsessions
+Microsoft smol?

@@ -36,7 +36,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-JhJKgRAmfIU-slides]]
 
 ### Topic Pages
-- [[ai-sandboxes]]
 - [[mcp]]
 
 ### Transcript Files

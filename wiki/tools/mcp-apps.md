@@ -24,6 +24,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[2026-06-30-jeremiah-lowin-generative-ui-in-python]] — Generative UI... in Python? (Design Engineering / Track 6)
 
 ### Public YouTube Metadata
+- [YouTube sAOBXCDiDOs](https://www.youtube.com/watch?v=sAOBXCDiDOs) — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
 - [YouTube _xIwFcnHqp4](https://www.youtube.com/watch?v=_xIwFcnHqp4) — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
 - [YouTube hCMrEfPG2Yg](https://www.youtube.com/watch?v=hCMrEfPG2Yg) — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
 - [YouTube o-zkvb0iFDQ](https://www.youtube.com/watch?v=o-zkvb0iFDQ) — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
@@ -31,6 +32,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
 - [[talk-video-transcript-map]]
+- [[worldsfair-phrase-word-cloud]]
 - [[youtube-_xIwFcnHqp4]]
 - [[youtube-hCMrEfPG2Yg]]
 - [[youtube-o-zkvb0iFDQ]]
@@ -50,13 +52,17 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[agent-memory]]
 - [[agent-security]]
 - [[ai-sandboxes]]
-- [[inference-engineering]]
+- [[coding-agents]]
+- [[mcp-app-runtime]]
 - [[mcp]]
+- [[nearly-headless-web]]
+- [[reachability-over-format]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/_xIwFcnHqp4.txt`
 - `raw/sources/youtube-transcripts/c-2eEv2ou7Y.txt`
 - `raw/sources/youtube-transcripts/hCMrEfPG2Yg.txt`
+- `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt`
 - `raw/sources/youtube-transcripts/sAOBXCDiDOs.txt`
 - `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt`
 

@@ -62,16 +62,16 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[voice-agents]]
 
 ### Transcript Files
+- `raw/sources/youtube-transcripts/1IdzkRVmWAA.txt`
+- `raw/sources/youtube-transcripts/BqZrTdgBaPw.txt`
+- `raw/sources/youtube-transcripts/CDqzWpwkSls.txt`
+- `raw/sources/youtube-transcripts/HsxQICTLF84.txt`
 - `raw/sources/youtube-transcripts/QuuIywMG4s8.txt`
+- `raw/sources/youtube-transcripts/Rx8f05JI_WA.txt`
 - `raw/sources/youtube-transcripts/SS-A8sE7hkw.txt`
 - `raw/sources/youtube-transcripts/UM6sFg_jdlE.txt`
 - `raw/sources/youtube-transcripts/UPwGaM2MKHY.txt`
 - `raw/sources/youtube-transcripts/Xfl50508LZM.txt`
-- `raw/sources/youtube-transcripts/_B4Pv9ttFgY.txt`
-- `raw/sources/youtube-transcripts/dvft0Gp9sEE.txt`
-- `raw/sources/youtube-transcripts/fWXJM-J0ZB8.txt`
-- `raw/sources/youtube-transcripts/ghJmWQCIHRM.txt`
-- `raw/sources/youtube-transcripts/hCMrEfPG2Yg.txt`
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

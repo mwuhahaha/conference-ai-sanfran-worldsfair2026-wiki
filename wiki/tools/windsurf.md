@@ -28,16 +28,16 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-bVNNvWq6dKo]]
 
 ### Slide/OCR Pages
-- [[youtube-12v5S1n1eOY-slides]]
-- [[youtube-2vlCqD6igVA-slides]]
-- [[youtube-6YdPI9YbjbI-slides]]
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-84Vtz2IL1Ug-slides]]
-- [[youtube-8SUJEqQNClw-slides]]
 - [[youtube-BZtD0yYAgCQ-slides]]
-- [[youtube-D4Dswf-__RM-slides]]
-- [[youtube-DeFF3J8T5Pk-slides]]
-- [[youtube-E71YtNbCFXY-slides]]
+- [[youtube-IddXPepIAS4-slides]]
+- [[youtube-JIsgyk0Paic-slides]]
+- [[youtube-Lcqat4iP_lE-slides]]
+- [[youtube-PbHm2qKnu10-slides]]
+- [[youtube-SbUxRluVRwk-slides]]
+- [[youtube-bVNNvWq6dKo-dense-slides]]
+- [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 
 ### Transcript Files
 - `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt`

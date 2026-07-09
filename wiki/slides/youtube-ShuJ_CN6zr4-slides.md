@@ -51,7 +51,8 @@ OCR text:
 
 OCR text:
 
-> Cocle Summit
+> tion toSpecificatlon
+> Code Sum
 > AIE
 
 ![[assets/slides/ShuJ_CN6zr4/slide-005.jpg]]

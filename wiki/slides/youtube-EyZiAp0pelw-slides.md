@@ -34,7 +34,8 @@ OCR text:
 OCR text:
 
 > Let's wake up
-> Yourbrainneedsthis
+> Your brain needs this
+> S
 
 ![[assets/slides/EyZiAp0pelw/slide-003.jpg]]
 

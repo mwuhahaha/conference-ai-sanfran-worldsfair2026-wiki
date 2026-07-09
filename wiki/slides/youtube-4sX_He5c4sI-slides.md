@@ -566,8 +566,8 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
-> World's Fair
+> World's Fair Al Engineer
+> AIE
 
 ![[assets/slides/4sX_He5c4sI/slide-037.jpg]]
 

@@ -1,0 +1,44 @@
+LoginForm.tsx
+layout.tsx
+nts）LoginFormsx)①LoinForm）
+ExD
+Add Docstring
+'use client';
+(useState)
+function LoginForm（）
+const [fornData,setFormData]
+useStatelf
+email:*,
+password:..
+B
+confirnPassword:
+Writewith Cascade
+useState(*`):
+Kick offanew prject ormake
+const [error,setError]
+const handleFullNaneChang
+React.ChangeEvent<HTMLInputElenent>))
+const （name,value
+o.target:
+Past workflows
+setFormData（prev=>（（
+prev,
+Addasig
+aneA 1[weu]
+9CORSI
+React.FormEvent)
+.preventDefault（）;
+setError(*.):
+formData.password
+fornData.confirmPassword)
+setError('Passwords do not match'):
+3a
+const response
+fetch('/api/auth/register',
+method:'POST',
+headers:(
+Content-Type':'application/json'
+body:JsoN.stringify（<
+email:fornData.email,
+password: formData.password,
+NSERT

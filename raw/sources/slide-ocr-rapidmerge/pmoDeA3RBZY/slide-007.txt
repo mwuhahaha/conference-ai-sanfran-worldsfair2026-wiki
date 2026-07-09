@@ -1,7 +1,5 @@
 eer
 pMind
-Vinonr Ko
-AIEEwrope2026
-Google DeepMind
-AIEngineer
+AIEEwrope2026 Vinonr Ko
+AIEngineer Google DeepMind
 EUROPE

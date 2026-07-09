@@ -72,9 +72,11 @@ OCR text:
 
 OCR text:
 
-> | | : pow BOE I ae vohcaneetd an
-> a / t , A
-> = Engineering the future of Al
+> Overview
+> AIE
+> Get started
+> Engineering the future of Al
+> AIEngineer
 
 ![[assets/slides/zDGHt0LB-dA/slide-006.jpg]]
 

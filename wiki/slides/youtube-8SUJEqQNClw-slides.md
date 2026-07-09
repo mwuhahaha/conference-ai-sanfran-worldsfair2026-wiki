@@ -292,9 +292,8 @@ OCR text:
 
 OCR text:
 
-> mastra
-> AIEnginee
-> World'sFair
+> nustru
+> World's Fair AlEngineer
 
 ![[assets/slides/8SUJEqQNClw/slide-021.jpg]]
 

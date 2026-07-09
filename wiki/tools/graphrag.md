@@ -33,7 +33,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[ai-engineer-livestream-corpus]]
 - [[talk-video-transcript-map]]
+- [[youtube-XovaGv4f39A]]
 - [[youtube-eW_vxrjvERk]]
 - [[youtube-knDDGYHnnSI]]
 

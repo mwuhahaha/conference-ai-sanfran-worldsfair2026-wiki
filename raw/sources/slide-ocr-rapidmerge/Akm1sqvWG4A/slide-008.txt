@@ -1,0 +1,62 @@
+FAOS
+FAQs-He
+Langfuse
+Maostx
+3heading-fa
+localhost:3000/project/cmphbwowb0006cosw74bs7wlc/traces/i046bc3e-e86d-43d0-b609-f54f2d2eea277timestamp-2026-06-19T12%3A17.
+CwPPBoomarls
+Free Pictres
+Ogy
+MM
+A
+PGMS
+Websites
+Wetsite Test
+Decoupled
+RAG Tutorial
+PILY
+Langfuse v2.95.11OSs
+lean-doc-chat/chainlit-tracking/Traces/f046bc3e-e66d43d0-b609-(54f2d2eea27
+TraceDetail
+Private
+Tacing
+Uer ID:dy
+Traces
+Sessiors
+drect
+Tree Timine
+Generations
+Scores
+Prevew
+Scores
+Models
+TRACE faq-agentic-chat
+Users
+Is there any maintenance plan for this weekend?
+Prompts
+Datasets
+Output
+indicatesplannedmaintenance activities will take place during this time.
+Star Langfuse
+Seethelatestreleases
+andhelpgrowthe
+Metadata
+communityonGitHub
+Langtuse
+1-e
+model:"qven2.5:e.Sb-lastruct"
+top_k:2
+sources:[-
+0:5cre6nshot2826-86-19004158.pg
+Feedback
+1:*Screenshot2026-06-19004158.prg
+Settings
+eeettype:"chat"
+agent_mode:false
+Dos
+raE.chnks：2
+history.turts:2
+duratlon_:254
+oodrs@
+AM
+Abed Matini

@@ -1,0 +1,50 @@
+IPV6::1
+Host localhost:4242was resolved.
+mpp pnpn run dev
+IPv4:127.0.0.1
+>mpp-rest-node-typescripte dev/Users/stevekoliski/stripe/ai-demo/mpp
+Connected tolocalhost（:1）port 4242
+Trying[::1]:4242...
+>tsxmain.ts
+>GET/paidHTTP/1.1
+injectingerv（1)from.env
+>Host:localhost:4242
+>User-Agent:curl/8.7.1
+Server1istening athttp://Localhost:4242
+>Accept：/*
+CreatedPaymentIntentpi_3TKJkuA4XFULvrcoe0JBLo21 forSe.e1->ex8a39b0e
+d41Fd88337b634659C71EB10aff696806
+Request completely sent off
+CreatedPaymentIntent pi_3TKJkeA4XFULvrc@BoRDapmU for S0.01->Bx8a39bDe
+AIE
+<HTTP/1.1402Payment Requiredl
+d41Fd88337b634659C71EB18aff696806
+<mW-Authenticate：:Paymentid=15nJQCyoaXueKpcrUtZo1LSa32bnN1wpGg33kz19CFA
+8",realn="localhost°，method="tempo"，intent="charge”，request="eyJhbw91b
+mppclear\
+nQi0iIxMDAwMCIsImN1.cnJ1bmNSIjoiMHgyMGMMDAwMDAwMDAMDAwMDAwMDAMDAwMDAwMDA|>
+DAwMDAMDAwIwibVeaG9kRGVemWscyI6ey]jaGFpbkLkIjoMjQzMXesInJ1Y21mVud
+CI6Ij840GEzORJEZWQeMUZk0OAzMzdiNjMENjUSQzCxRUIxMGFmZjY5NjhENi39°,expires=
+mpppnpn run de
+mppcurlhttp://Localhost:4242/free-v
+mppclear
+*2026-04-09T15:26:28.089Z"
+<Cache-Control:no-store
+mpp pnpe run dev
+<Content-Type:application/problem+json
+<Content-Length：192
+>mpp-rest-node-typescripte dev/Users/stevekaliski/stripe/ai-demo/mpp
+<Date:Thu,09Apr 202615:21:28 GMT
+>tsxmain.ts
+<Connection:keep-alive
+<Keep-Alive:timeout=5
+injectingenv（1)fromenv//tip:-auth forogents
+Connection# to hostlocalhostleftintact
+Serverlisteningathttp://localhost:4242
+CreatedPaymentIntent pi_3TKKOZA4XFULvrc@1WqwnFxl for S0.01->ex8a39bDe
+nt Required",status":402,"detail":“Payment is required.
+d41Fd88337b634659C71E818aff696806
+5nJQCyoaXueKpcrUtZo1LSa3ZbrN1wpGg33kz19CF8}
+mpp
+AEnginoer
+Engineering the future of Al

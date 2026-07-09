@@ -56,7 +56,9 @@ OCR text:
 
 OCR text:
 
-> No, | don’t think so.
+> NO
+> agents aren't the problem.
+> No, I don't think so.
 
 ![[assets/slides/JRTAtZ5iBkU/slide-005.jpg]]
 

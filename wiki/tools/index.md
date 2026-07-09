@@ -44,7 +44,7 @@ Tool pages distinguish confirmed mentions from inferred relevance and cite the s
 - [[mcp-apps]] — MCP Apps (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[mcpc]] — mcpc (Official schedule)
 - [[microsoft-iq]] — Microsoft IQ (Official schedule, Public YouTube metadata, Transcript evidence)
-- [[modal]] — Modal (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
+- [[modal]] — Modal (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[mcp]] — Model Context Protocol (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[neo4j]] — Neo4j (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[nvidia-data-designer]] — NVIDIA Data Designer (Official schedule, Public YouTube metadata, Topic synthesis)

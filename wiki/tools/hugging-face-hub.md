@@ -46,10 +46,12 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Transcript Files
 - `raw/sources/youtube-transcripts/-x5GEVnkuRw.txt`
 - `raw/sources/youtube-transcripts/ILdE7FaAjVA.txt`
+- `raw/sources/youtube-transcripts/IQkVMvXQKLY.txt`
 - `raw/sources/youtube-transcripts/TNwJ1LMiENk.txt`
 - `raw/sources/youtube-transcripts/TUnPNY4E2fw.txt`
 - `raw/sources/youtube-transcripts/gHs5ZiY80PM.txt`
 - `raw/sources/youtube-transcripts/mFLlVpnGpds.txt`
+- `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt`
 - `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt`
 
 ## Confidence

@@ -47,9 +47,9 @@ OCR text:
 
 OCR text:
 
-> The bottleneck moved.
-> a |
-> getting the code built >
+> THE-SHIFT
+> Thebottleneckmoved.
+> getting the code built NOW deciding whattobuild
 
 ![[assets/slides/6bmM45jkMDY/slide-005.jpg]]
 

@@ -30,16 +30,8 @@ OCR text:
 
 OCR text:
 
-> |
-> 
-> a)
-> y ay wot
-> ,
-> 
-> ws al
-> ~ ;
-> ra S e
-> arn
+> ynnt can wn neowtn today?
+> AlEng
 
 ![[assets/slides/iUWwcG-C8OU/slide-003.jpg]]
 

@@ -52,8 +52,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Topic Pages
 - [[agent-evaluations]]
 - [[autoresearch]]
-- [[coding-agents]]
-- [[mcp]]
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

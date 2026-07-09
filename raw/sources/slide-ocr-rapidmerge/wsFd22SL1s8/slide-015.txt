@@ -1,0 +1,13 @@
+Arrakis:A Quick Tour Of LinuxSandboxing
+LinuxExecutionModel
+A“Thread is the smallest unit ofexecution.EachThread
+Containers:Why?AndWhat?
+Why?-My appneedsPython3.8,foo lbversion1.2,your serverhasPython3.9,3.6,3.12and doesnhav
+Containers:SecurityStory
+After allContainersrunasnative proc
+Containers:Sandboxing
+Jail containers by restricting CAPabiities and syscall
+Containers→Virtualization
+Virtualizationprovides another primitive torunarbitrar
+LinuxVirtualization
+Kvm-Hypervisor in the formofakernelmodule

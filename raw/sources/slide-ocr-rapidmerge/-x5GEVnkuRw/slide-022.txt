@@ -1,0 +1,61 @@
+Q。
+B
+Conversion.ipynbMx
+Token_Cost_Comparison.ipynbM
+Chunkless_RAG.ipynbM
+Chunking.ipynb
+DOCLING-WORKSHOP
+3nced Features: Enrichment>MYour turn:Prompt the vision model >from docling.datamodel.pipeline_options import PictureDescriptionApiOptions
+notebooks
+fixtures
+AddCodeAdd MarkdownRun All RestartClearAll Outputs|JupyterVariablesOutline
+venv (3.13.7) (Python 3.13.7)
+>output
+WecanalsorunitusinganOpenAl-compatibleAPi likeOllama.
+gitignore
+Chunking.ipynb
+D
+Chunkless_RAG.ipynb
+from docling.datamodel.pipeline_optionsimportPictureDescriptionApioptions
+Conversion_Colab.ipynb
+Conversion.ipynb
+ifRUN_LOCAL_OLLAMA:
+M
+MCP_Agents.ipynb
+#Configure enrichment pipeline
+M
+enrichment_options=PdfPipelineOptions(
+OllamaRAG.ipynb
+do_picture_description=True,
+RAG.ipynb
+enable_remote_services=True,
+Serving.ipynb
+picture_description_options=PictureDescriptionApioptions(
+Token_Cost_Compari..M
+url="http://localhost:11434/v1/chatcompletions",
+params=(
+>scripts
+"model":"granite3.2-vision:2b",
+>src
+"max_completion_tokens":200,
+gitignore
+!.markdownlint-cli2.yaml
+prompt="Give a detailed description of what is depicted in the image"
+timeout=60,
+!.poutine.yml
+!.pre-commit-config.yaml
+generate_picture_images=True,
+F.spellcheck-en-custom.txt
+images_scale=1.0,
+!.spellcheck.yaml
+Fconstraints.txt
+converter_enriched =DocumentConverter(
+LICENSE
+format_options={
+!mkdocs.yml
+InputFornat.PDF:PdfFormatoption(pipeline_options=enrichment_options)
+pyproject.toml
+①README.md
+enr_result=converter_enriched.convert(docling_paper)
+OUTLINE
+enr_doc=enr_result.document

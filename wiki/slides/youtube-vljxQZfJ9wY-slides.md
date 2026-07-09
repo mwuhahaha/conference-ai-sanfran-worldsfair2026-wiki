@@ -148,16 +148,15 @@ OCR text:
 
 OCR text:
 
-> oS
-> Observability is the Prerequisite
-> _ The Trace Waterfall Live Metrics Dashboard
-> 345ms ~~
-> 25%
-> sepcons on
-> Parallel API Tool Calls $0 .014 ~~
-> Menon = «=
-> BN cece M ccceegnee Moegeceepenepeengeeeeeeeeyee Neeegeecepenesenieseepeieeeeegeeneyiengeeegeesegesy 480 MB
-> “You cannot evaluate what you cannot observe.”
+> Observability is thePrerequisite
+> The TraceWaterfall LiveMetricsDashboard
+> UserPrompt(35m-70ms) Latency 345ms
+> PlannerIteration(7mm-35ms) VectorDBLookup-8ms) Retries 2.5%
+> ParallelAPlToolCalls APIA-45ms APIB-38ms $0.014 StepCosts
+> APIC-52ms Memory Usage 480MB
+> 20ms 30ms 45ms 50ms 90ms 10ns 11ms 12ms 13ns
+> TTOH
+> "You cannot evaluate what you cannot observe."
 
 ![[assets/slides/vljxQZfJ9wY/slide-010.jpg]]
 

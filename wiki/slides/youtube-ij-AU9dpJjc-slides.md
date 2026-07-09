@@ -34,13 +34,14 @@ OCR text:
 
 OCR text:
 
-> Le
-> ety PGS | ua
-> CTTTrtaEIeTELOLLe ~~
-> 
-> ee, SNS
-> TTL Cem CeCWn AS BTU HUET HUM IEG CG
-> SUG UL GOket maura VES Une)
+> O4-THEARCHITECTURE
+> Four layers. One destination.
+> Immutableidentity LAYER01 Situationalmode LAYER02
+> Hard rules.What the brand can never say.Nothing below can touchit. Real-time conditions.Who the useris.What they're going through.
+> LAYER 03 LAYER04
+> Example-anchoredvoice Post-generationveto
+> teamsstop. The dials,the phrases,the tone guide.Where most layer. Reads what actuallycame out.The only deterministic
+> ISADORA MARTIN-DYE STOP WRITING TONE INSTRUCTIONS. LAYER THEM
 
 ![[assets/slides/ij-AU9dpJjc/slide-003.jpg]]
 

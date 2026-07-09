@@ -1,0 +1,42 @@
+pist.github.com
+C
+nM
+qunC
+HstPRFiaes.
+ocked
+GitHubGist
+Search.
+Q.
+All gistsBack to GitHub
+baell/gist:087fb19d8fe83b982c08b77212b8dc71
+sutscrbe
+str0
+YFon
+ed2msaoeo
+(>Code
+Revisons1
+<striat sre*htsi/
+DownloadZP
+Without Unblocked
+gietfsles.tt
+Claude Codsv2.1.31
+Opus4.5·ClaudeMax
+-/repos/workfelder/unblockes
+Plan to inplement
+Auto-Generate PR DescriptienAfter CodeReview
+Overview
+Addfeature to autonatically genrate and aoplyP description after unblocked Code Review runs oneely oened pull
+A1.
+Architecture Decision
+Trigper：Ony on PullReguestOpened events (net on sbseuent pushes）
+Conditien：Only 1f PR description is npty/ninimal（<5 chars or blank）
+trrarhanding:Failgracefelly -ontlock cde review if description update fails
+Files to Modify
+1.Add Org Setting
+File:projects/aodeis/sre/main/katLin/com/nextchagtersoftware/@/nodels/0rgiettingsModel.kt
+Adsafter line 57（withother codereview settings):
+valenableCodeReviemlutoDescription-bool（*codeRevienAutoDesc*).nullable()
+Also update:
+-OrgSettingsDAO.asDetaModel()
+Crglettings data class
+orgSettings.getDefault()

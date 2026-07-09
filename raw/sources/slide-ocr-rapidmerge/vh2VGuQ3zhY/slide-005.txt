@@ -1,0 +1,22 @@
+THETECHNIQUE
+Just-ln-Time Context Injection
+Ankush Rastogi
+StaticLoading
+JIT Injection
+All100+schemaspre-loaded in theprompt
+Toolsselectedatruntime,perquery
+Everyrequestcarriesthefullpayload
+Only3-5relevant schemasinjected
+·Most tokenswastedonirrelevanttools
+Contextwindow stayslean
+Contextwindowconsumedbyschemas
+VS
+Moreroomforreasoningchains
+Sohal Shaikh
+Lessspaceforreasoningandoutput
+Accuracy staysabove83%at any scale
+Accuracy degradesasthelistgrows
+Fast:smallerprompt,lessprocessing
+Slow:model mustprocessagiant context
+InspiredbyAnthropicMCPon-demand loading
+Ankush Rastog

@@ -1,5 +1,4 @@
 nVIDIA
-You Might Not Need
-50 Diffusion Steps
+You Might Not Need 50 Diffusion Steps
 AlEngineer
-EURORE
+2026 EURORE

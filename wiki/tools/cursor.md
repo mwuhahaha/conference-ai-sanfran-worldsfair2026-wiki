@@ -47,12 +47,12 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-C_GG5g38vLU-slides]]
 - [[youtube-F_RyElT_gJk-slides]]
+- [[youtube-G6IlDzj8OjA-slides]]
 - [[youtube-IddXPepIAS4-slides]]
 - [[youtube-JIsgyk0Paic-slides]]
 - [[youtube-JhJKgRAmfIU-slides]]
 - [[youtube-OV56RddyFuU-slides]]
-- [[youtube-TUnPNY4E2fw-slides]]
-- [[youtube-cVzf49yg0D8-slides]]
+- [[youtube-Rx8f05JI_WA-slides]]
 
 ### Topic Pages
 - [[mcp]]
@@ -60,14 +60,14 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Transcript Files
 - `raw/sources/youtube-transcripts/-x5GEVnkuRw.txt`
 - `raw/sources/youtube-transcripts/4uFVSLgD2Q4.txt`
+- `raw/sources/youtube-transcripts/HsxQICTLF84.txt`
 - `raw/sources/youtube-transcripts/QuuIywMG4s8.txt`
+- `raw/sources/youtube-transcripts/Rx8f05JI_WA.txt`
 - `raw/sources/youtube-transcripts/UM6sFg_jdlE.txt`
 - `raw/sources/youtube-transcripts/bk0TmxoZlUY.txt`
 - `raw/sources/youtube-transcripts/dRmWYHuIJxM.txt`
 - `raw/sources/youtube-transcripts/hVJOnuhFmTA.txt`
-- `raw/sources/youtube-transcripts/sAOBXCDiDOs.txt`
-- `raw/sources/youtube-transcripts/u-rJwPPU3QA.txt`
-- `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt`
+- `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt`
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

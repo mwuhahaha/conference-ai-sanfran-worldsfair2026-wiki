@@ -72,6 +72,12 @@ OCR text:
 > eee ee OLIVE SONG / Senior Research Engineer afifin MINIMAX
 
 ![[assets/slides/lY1iFbDPRlw/slide-004.jpg]]
+
+OCR text:
+
+> Intelhgence wlth Everyene
+> AIE
+
 ![[assets/slides/lY1iFbDPRlw/slide-005.jpg]]
 ![[assets/slides/lY1iFbDPRlw/slide-006.jpg]]
 

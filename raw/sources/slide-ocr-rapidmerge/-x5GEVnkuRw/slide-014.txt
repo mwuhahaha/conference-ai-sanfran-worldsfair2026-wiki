@@ -1,0 +1,14 @@
+Docling:MorethansimpleDocumentConversion
+hello
+1010A**01+
+'billnumber':'01234',
+'total invoice price':550,
+'currency of total invoice price':'usD',
+'name ofinvoice addressee':'Jonathan Patterson'
+'name of invoice sender':'Eventure Event Planner
+invoice_dict=
+:Jaqunu13q
+"string"
+"totalinvoice price":"float",
+"currency of total tnvoice price":“string”
+"name of invoice addressee':"string”,

@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+"""Run the full slide OCR improvement and wiki refresh pipeline."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+from improve_slide_ocr_rapidmerge import AUDIT_PATH, write_audit_page
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def run(cmd: list[str]) -> subprocess.CompletedProcess:
+    print("+ " + " ".join(cmd), flush=True)
+    cp = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True)
+    if cp.stdout:
+        print(cp.stdout, end="" if cp.stdout.endswith("\n") else "\n")
+    if cp.stderr:
+        print(cp.stderr, file=sys.stderr, end="" if cp.stderr.endswith("\n") else "\n")
+    if cp.returncode != 0:
+        raise SystemExit(cp.returncode)
+    return cp
+
+
+def refreshed_count(output: str) -> int | None:
+    match = re.search(r"refreshed\s+(\d+)\s+slide pages", output)
+    return int(match.group(1)) if match else None
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--all", action="store_true", help="Process all slide images instead of suspicious/weak OCR only.")
+    parser.add_argument("--limit", type=int, default=0, help="Debug limit passed to the OCR improvement tool.")
+    parser.add_argument("--min-gain", type=float, default=35.0)
+    parser.add_argument("--deep-variants", action="store_true", help="Use slower extra crop/threshold OCR variants.")
+    parser.add_argument("--variant-max-old-score", type=float, default=50.0, help="Only use crop/high-contrast variants below this old OCR score.")
+    parser.add_argument("--no-build", action="store_true", help="Skip npm static export.")
+    parser.add_argument("--no-dependent-indexes", action="store_true", help="Skip topic/tool/word-cloud refreshes.")
+    args = parser.parse_args()
+
+    improve_cmd = [sys.executable, "scripts/improve_slide_ocr_rapidmerge.py", "--min-gain", str(args.min_gain)]
+    if args.all:
+        improve_cmd.append("--all")
+    if args.limit:
+        improve_cmd.extend(["--limit", str(args.limit)])
+    if args.deep_variants:
+        improve_cmd.append("--deep-variants")
+    improve_cmd.extend(["--variant-max-old-score", str(args.variant_max_old_score)])
+    run(improve_cmd)
+
+    refresh = run([sys.executable, "scripts/refresh_slide_pages_from_ocr.py"])
+    count = refreshed_count(refresh.stdout or "")
+    if AUDIT_PATH.exists():
+        write_audit_page(json.loads(AUDIT_PATH.read_text()), refreshed_pages=count)
+
+    if not args.no_dependent_indexes:
+        run([sys.executable, "scripts/generate_tool_inventory.py"])
+        run([sys.executable, "scripts/generate_agentic_web_topic.py"])
+        run([sys.executable, "scripts/generate_phrase_word_cloud.py"])
+        run([sys.executable, "scripts/generate_agent_source_index.py"])
+
+    if not args.no_build:
+        run(["npm", "run", "build"])
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

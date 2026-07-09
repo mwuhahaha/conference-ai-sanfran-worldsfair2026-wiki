@@ -1,10 +1,8 @@
 stv+
 AIE
-MORNING
-SHOW
+MORNING SHOW
 CoIe-SNo
 aws
 neo4j
-Microsoft
-smol?
+Microsoft smol?
 COVI

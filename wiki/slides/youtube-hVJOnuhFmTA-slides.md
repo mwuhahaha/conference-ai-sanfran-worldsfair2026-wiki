@@ -162,10 +162,9 @@ OCR text:
 
 OCR text:
 
-> | hh
-> ———<$<$<————————
-> ——— ae
-> = | ;
+> Koon1
+> ttbacgu dang
+> Gevarate
 
 ![[assets/slides/hVJOnuhFmTA/slide-007.jpg]]
 

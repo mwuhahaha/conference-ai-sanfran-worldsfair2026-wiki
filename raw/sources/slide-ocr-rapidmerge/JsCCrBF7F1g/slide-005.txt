@@ -1,4 +1,2 @@
 Bullding GenAl is Hard,So How Are Teams Tackling
-AEngineer
-EUROPE
-D26
+AEngineer D26 EUROPE

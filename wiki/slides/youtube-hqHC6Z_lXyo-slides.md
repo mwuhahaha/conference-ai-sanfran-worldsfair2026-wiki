@@ -18,6 +18,13 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 ## Extracted Slides
 ![[assets/slides/hqHC6Z_lXyo/slide-001.jpg]]
+
+OCR text:
+
+> Pruna Al
+> What Al Model is Slolll Art?
+> Setmnt Chargenbor
+
 ![[assets/slides/hqHC6Z_lXyo/slide-002.jpg]]
 
 OCR text:

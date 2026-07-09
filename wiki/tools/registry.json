@@ -53,7 +53,7 @@
       "youtube": 1,
       "slides": 3,
       "resources": 3,
-      "topics": 4,
+      "topics": 3,
       "transcripts": 1
     }
   },
@@ -164,7 +164,7 @@
       "youtube": 1,
       "slides": 3,
       "resources": 4,
-      "topics": 2,
+      "topics": 1,
       "transcripts": 1
     }
   },
@@ -188,9 +188,9 @@
     "evidenceCounts": {
       "schedule": 1,
       "youtube": 11,
-      "slides": 39,
+      "slides": 40,
       "resources": 4,
-      "topics": 4,
+      "topics": 2,
       "transcripts": 0
     }
   },
@@ -220,7 +220,7 @@
       "youtube": 1,
       "slides": 3,
       "resources": 3,
-      "topics": 2,
+      "topics": 3,
       "transcripts": 0
     }
   },
@@ -249,7 +249,7 @@
       "schedule": 1,
       "youtube": 0,
       "slides": 0,
-      "resources": 0,
+      "resources": 1,
       "topics": 1,
       "transcripts": 0
     }
@@ -311,10 +311,10 @@
     "evidenceCounts": {
       "schedule": 39,
       "youtube": 9,
-      "slides": 42,
+      "slides": 44,
       "resources": 6,
       "topics": 3,
-      "transcripts": 32
+      "transcripts": 41
     }
   },
   {
@@ -387,7 +387,7 @@
       "slides": 11,
       "resources": 4,
       "topics": 2,
-      "transcripts": 20
+      "transcripts": 26
     }
   },
   {
@@ -425,10 +425,10 @@
     "evidenceCounts": {
       "schedule": 9,
       "youtube": 8,
-      "slides": 18,
+      "slides": 20,
       "resources": 3,
       "topics": 1,
-      "transcripts": 14
+      "transcripts": 18
     }
   },
   {
@@ -471,9 +471,9 @@
     "evidenceCounts": {
       "schedule": 0,
       "youtube": 1,
-      "slides": 3,
+      "slides": 4,
       "resources": 3,
-      "topics": 2,
+      "topics": 1,
       "transcripts": 2
     }
   },
@@ -541,9 +541,9 @@
     "evidenceCounts": {
       "schedule": 1,
       "youtube": 4,
-      "slides": 5,
-      "resources": 5,
-      "topics": 1,
+      "slides": 7,
+      "resources": 6,
+      "topics": 2,
       "transcripts": 3
     }
   },
@@ -575,7 +575,7 @@
       "youtube": 1,
       "slides": 4,
       "resources": 3,
-      "topics": 1,
+      "topics": 2,
       "transcripts": 1
     }
   },
@@ -643,10 +643,10 @@
     "evidenceCounts": {
       "schedule": 16,
       "youtube": 10,
-      "slides": 18,
+      "slides": 19,
       "resources": 4,
       "topics": 1,
-      "transcripts": 15
+      "transcripts": 21
     }
   },
   {
@@ -707,10 +707,10 @@
     "evidenceCounts": {
       "schedule": 4,
       "youtube": 1,
-      "slides": 1,
+      "slides": 2,
       "resources": 1,
       "topics": 0,
-      "transcripts": 3
+      "transcripts": 4
     }
   },
   {
@@ -768,7 +768,7 @@
       "schedule": 2,
       "youtube": 9,
       "slides": 4,
-      "resources": 4,
+      "resources": 6,
       "topics": 2,
       "transcripts": 1
     }
@@ -802,7 +802,7 @@
       "slides": 6,
       "resources": 3,
       "topics": 1,
-      "transcripts": 7
+      "transcripts": 9
     }
   },
   {
@@ -858,7 +858,7 @@
       "slides": 1,
       "resources": 0,
       "topics": 0,
-      "transcripts": 6
+      "transcripts": 7
     }
   },
   {
@@ -999,11 +999,11 @@
     ],
     "evidenceCounts": {
       "schedule": 5,
-      "youtube": 3,
+      "youtube": 4,
       "slides": 8,
-      "resources": 6,
-      "topics": 5,
-      "transcripts": 5
+      "resources": 7,
+      "topics": 8,
+      "transcripts": 6
     }
   },
   {
@@ -1072,8 +1072,7 @@
       "Official schedule",
       "Public YouTube metadata",
       "Transcript evidence",
-      "Local slide OCR",
-      "Topic synthesis"
+      "Local slide OCR"
     ],
     "scheduleTracks": [
       "Workshops Day 1",
@@ -1088,8 +1087,8 @@
       "youtube": 4,
       "slides": 4,
       "resources": 2,
-      "topics": 2,
-      "transcripts": 3
+      "topics": 0,
+      "transcripts": 4
     }
   },
   {
@@ -1143,11 +1142,11 @@
     ],
     "evidenceCounts": {
       "schedule": 41,
-      "youtube": 33,
-      "slides": 51,
-      "resources": 62,
-      "topics": 7,
-      "transcripts": 22
+      "youtube": 34,
+      "slides": 52,
+      "resources": 80,
+      "topics": 12,
+      "transcripts": 28
     }
   },
   {
@@ -1177,7 +1176,7 @@
     "evidenceCounts": {
       "schedule": 4,
       "youtube": 9,
-      "slides": 12,
+      "slides": 15,
       "resources": 4,
       "topics": 3,
       "transcripts": 3
@@ -1326,7 +1325,7 @@
       "slides": 5,
       "resources": 3,
       "topics": 3,
-      "transcripts": 2
+      "transcripts": 3
     }
   },
   {
@@ -1524,7 +1523,7 @@
     "evidenceCounts": {
       "schedule": 3,
       "youtube": 1,
-      "slides": 3,
+      "slides": 4,
       "resources": 0,
       "topics": 0,
       "transcripts": 4
@@ -1723,7 +1722,7 @@
       "slides": 6,
       "resources": 4,
       "topics": 2,
-      "transcripts": 6
+      "transcripts": 8
     }
   },
   {
@@ -1770,7 +1769,7 @@
     "evidenceCounts": {
       "schedule": 0,
       "youtube": 4,
-      "slides": 45,
+      "slides": 14,
       "resources": 3,
       "topics": 0,
       "transcripts": 1

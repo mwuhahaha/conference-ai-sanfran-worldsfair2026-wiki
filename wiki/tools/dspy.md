@@ -27,6 +27,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[ai-engineer-livestream-corpus]]
 - [[talk-video-transcript-map]]
 - [[worldsfair-2026-livestreams]]
 - [[youtube--cKUW6n8hBU]]
@@ -36,11 +37,14 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube--cKUW6n8hBU-dense-slides]]
 - [[youtube--cKUW6n8hBU-reconstructed-slides]]
 - [[youtube--cKUW6n8hBU-slides]]
+- [[youtube-I2cbIws9j10-dense-slides]]
+- [[youtube-I2cbIws9j10-slides]]
 - [[youtube-JIsgyk0Paic-slides]]
 - [[youtube-SbcQYbrvAfI-slides]]
 
 ### Topic Pages
 - [[inference-engineering]]
+- [[voice-agents]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/3hXJI2q0Jz8.txt`

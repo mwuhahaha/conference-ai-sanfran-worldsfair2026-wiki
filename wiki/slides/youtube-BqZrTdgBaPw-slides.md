@@ -18,6 +18,13 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 ## Extracted Slides
 ![[assets/slides/BqZrTdgBaPw/slide-001.jpg]]
+
+OCR text:
+
+> Thnftlyall ntues mmlll
+> AlEngincer
+> 2O08
+
 ![[assets/slides/BqZrTdgBaPw/slide-002.jpg]]
 
 OCR text:

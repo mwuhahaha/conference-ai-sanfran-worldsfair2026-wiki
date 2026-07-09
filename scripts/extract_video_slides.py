@@ -266,27 +266,15 @@ def weak_ocr_text(text: str) -> bool:
 def rapidocr_text(slide: Path) -> str:
     try:
         from rapidocr_onnxruntime import RapidOCR
+        from improve_slide_ocr_rapidmerge import rapid_candidates
     except Exception:
         return ""
     if not hasattr(rapidocr_text, "_engine"):
         rapidocr_text._engine = RapidOCR()  # type: ignore[attr-defined]
-    result, _elapsed = rapidocr_text._engine(str(slide))  # type: ignore[attr-defined]
-    if not result:
+    candidates, _error = rapid_candidates(rapidocr_text._engine, slide, variants=True)  # type: ignore[attr-defined]
+    if not candidates:
         return ""
-    lines = []
-    for item in result:
-        text = re.sub(r"[ \t]+", " ", str(item[1] or "")).strip()
-        try:
-            confidence = float(item[2])
-        except Exception:
-            confidence = 0.0
-        if confidence < 0.45:
-            continue
-        if not any("A" <= ch <= "Z" or "a" <= ch <= "z" for ch in text):
-            continue
-        if text:
-            lines.append(text)
-    return "\n".join(lines).strip()
+    return max(candidates, key=lambda item: item.score).text
 
 
 def materially_better_ocr(original: str, candidate: str) -> bool:

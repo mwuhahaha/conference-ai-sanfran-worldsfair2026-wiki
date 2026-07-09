@@ -35,6 +35,10 @@ OCR text:
 > AIE
 > DAWN
 > aws
+> neoaj
+> DATAS
+> OctoA Cevnt,
+> P.Fal SA Cnunoe
 
 ![[assets/slides/5nOLb27hQ5w/slide-003.jpg]]
 

@@ -186,6 +186,39 @@ def source_labels(evidence: dict) -> list[str]:
     return labels
 
 
+def existing_frontmatter(text: str) -> dict[str, list[str] | str]:
+    if not text.startswith("---\n"):
+        return {}
+    end = text.find("\n---", 4)
+    if end == -1:
+        return {}
+    fields: dict[str, list[str] | str] = {}
+    for line in text[4:end].splitlines():
+        if ":" not in line:
+            continue
+        key, raw = line.split(":", 1)
+        raw = raw.strip()
+        if raw.startswith("[") and raw.endswith("]"):
+            try:
+                fields[key.strip()] = json.loads(raw)
+            except json.JSONDecodeError:
+                fields[key.strip()] = []
+        else:
+            fields[key.strip()] = raw.strip().strip('"')
+    return fields
+
+
+def preserve_existing_tool_page(path: Path) -> bool:
+    if not path.exists():
+        return False
+    text = path.read_text(errors="ignore")
+    fields = existing_frontmatter(text)
+    if fields.get("highlighted") == "true" or fields.get("highlightPriority"):
+        return True
+    manual_markers = ["## What It Is", "## Public Sources", "## Evidence Boundary"]
+    return sum(1 for marker in manual_markers if marker in text) >= 2
+
+
 def unique_values(values) -> list[str]:
     seen = set()
     out = []
@@ -326,7 +359,12 @@ def main() -> int:
             continue
         labels = source_labels(evidence)
         path = WIKI / "tools" / f"{tool['slug']}.md"
-        path.write_text(render_tool_page(tool, evidence).rstrip() + "\n")
+        existing_fields: dict[str, list[str] | str] = {}
+        if preserve_existing_tool_page(path):
+            existing_fields = existing_frontmatter(path.read_text(errors="ignore"))
+            labels = existing_fields.get("sourceLabels", labels) if isinstance(existing_fields.get("sourceLabels"), list) else labels
+        else:
+            path.write_text(render_tool_page(tool, evidence).rstrip() + "\n")
         records.append(
             {
                 "id": tool["slug"],
@@ -334,8 +372,12 @@ def main() -> int:
                 "path": f"wiki/tools/{tool['slug']}.md",
                 "aliases": tool["aliases"],
                 "sourceLabels": labels,
-                "scheduleTracks": schedule_tracks(evidence),
-                "scheduleRooms": schedule_rooms(evidence),
+                "scheduleTracks": existing_fields.get("scheduleTracks", schedule_tracks(evidence))
+                if isinstance(existing_fields.get("scheduleTracks"), list)
+                else schedule_tracks(evidence),
+                "scheduleRooms": existing_fields.get("scheduleRooms", schedule_rooms(evidence))
+                if isinstance(existing_fields.get("scheduleRooms"), list)
+                else schedule_rooms(evidence),
                 "evidenceCounts": {key: len(value) for key, value in evidence.items()},
             }
         )

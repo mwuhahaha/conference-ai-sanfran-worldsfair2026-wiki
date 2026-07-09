@@ -33,7 +33,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[agentic-search]]
 - [[ai-sandboxes]]
 - [[coding-agents]]
-- [[mcp]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt`

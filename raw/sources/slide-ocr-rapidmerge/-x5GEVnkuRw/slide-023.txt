@@ -1,0 +1,48 @@
+BConversion.ipynb M
+Token_Cost_Comparison.ipynbM
+Chunkless_RAG.ipynb M
+Chunking.ipynb
+DOCLING-WO.
+kless RAG actually earns its keep> query_2 = What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment?
+notebooks
+>fixtures
+Add CodeAddMarkdown|Run AllRestart ClearAll Outputs GoToJupyterVariablesOutline
+.venv (3.13.7)(Python 3.13.7)
+>output
+HowchunklessRAGworks
+gitignore
+Chunking.ipynb
+Chunklessretrieval isa four-step loop:
+Chunkless_RAG.ipynbM
+Conversion_Colab.ipynb
+Conversion.ipynb
+M
+Document outline
+MCP_Agents.ipynb
+(per-section summaries)
+M
+Ollama RAG.ipynb
+RAG.ipynb
+Serving.ipynb
+Token_Cost_Compari.M
+1.SELECT
+-LLM picks the most relevant unvisited
+>scripts
+section by reading the outline + query.
+>src
+markdownlint-cli2.yaml
+!.poutine.yml
+2.FETCH
+-Pullthe *full text*of thatsection's
+!.pre-commit-config.yaml
+subtree from the DoclingDocument.
+F.spellcheck-en-custom.txt
+!.spellcheck.yaml
+Fconstraints.txt
+LICENSE
+!mkdocs.yml
+3.ATTEMPT-LLM triesto answer from the section text.
+pyproject.toml
+Returns (can_answer: bool, response: str}.
+①README.md
+OUTLINE

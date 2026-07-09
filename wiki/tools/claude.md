@@ -48,6 +48,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-zKk7sDMGDEQ]]
 
 ### Slide/OCR Pages
+- [[youtube-4kYl2_mqmnQ-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
 - [[youtube-4uFVSLgD2Q4-slides]]
 - [[youtube-5ID22ACI7IM-slides]]
@@ -57,7 +58,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-9fubhllmsBU-slides]]
 - [[youtube-B9h9ovW5H9U-slides]]
 - [[youtube-ESbWpPT_9-o-slides]]
-- [[youtube-F_RyElT_gJk-slides]]
 
 ### Topic Pages
 - [[agent-memory]]
@@ -66,15 +66,15 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/-x5GEVnkuRw.txt`
+- `raw/sources/youtube-transcripts/2e9ANoOEn28.txt`
 - `raw/sources/youtube-transcripts/3hXJI2q0Jz8.txt`
+- `raw/sources/youtube-transcripts/4kYl2_mqmnQ.txt`
 - `raw/sources/youtube-transcripts/4uFVSLgD2Q4.txt`
 - `raw/sources/youtube-transcripts/9fubhllmsBU.txt`
 - `raw/sources/youtube-transcripts/B9h9ovW5H9U.txt`
+- `raw/sources/youtube-transcripts/HEFSExa0xl0.txt`
+- `raw/sources/youtube-transcripts/HsxQICTLF84.txt`
 - `raw/sources/youtube-transcripts/IJXjTLPzvAU.txt`
-- `raw/sources/youtube-transcripts/JnubYCYunk8.txt`
-- `raw/sources/youtube-transcripts/ObTPqBGsEbA.txt`
-- `raw/sources/youtube-transcripts/UPwGaM2MKHY.txt`
-- `raw/sources/youtube-transcripts/Xfl50508LZM.txt`
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

@@ -255,9 +255,8 @@ OCR text:
 
 OCR text:
 
-> aws
-> aws
-> World'sFair
+> aws EVS aws
+> World's Fair AIEg
 
 ![[assets/slides/wFTVEDYVJT0/slide-017.jpg]]
 

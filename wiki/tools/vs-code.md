@@ -48,6 +48,8 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/-x5GEVnkuRw.txt`
 - `raw/sources/youtube-transcripts/_xIwFcnHqp4.txt`
 - `raw/sources/youtube-transcripts/btxGmN8RvNU.txt`
+- `raw/sources/youtube-transcripts/iRcX54EO5g8.txt`
+- `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt`
 - `raw/sources/youtube-transcripts/sAOBXCDiDOs.txt`
 - `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt`
 - `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt`

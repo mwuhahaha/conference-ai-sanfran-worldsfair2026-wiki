@@ -29,6 +29,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[2026-06-29-rafal-wilinski-self-improving-agents-that-teach-the-company-back]] — Self-Improving Agents That Teach the Company Back (track TBD / Expo Stage 4 SE)
 
 ### Public YouTube Metadata
+- [YouTube sAOBXCDiDOs](https://www.youtube.com/watch?v=sAOBXCDiDOs) — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
 - [YouTube c-2eEv2ou7Y](https://www.youtube.com/watch?v=c-2eEv2ou7Y) — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
 - [YouTube zTZ0qunQXnM](https://www.youtube.com/watch?v=zTZ0qunQXnM) — From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data
 - [YouTube _xIwFcnHqp4](https://www.youtube.com/watch?v=_xIwFcnHqp4) — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
@@ -38,19 +39,18 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [YouTube JT3OzDKrucU](https://www.youtube.com/watch?v=JT3OzDKrucU) — Combine Skills and MCP to Close the Context Gap — Pedro Rodrigues, Supabase
 - [YouTube OV56RddyFuU](https://www.youtube.com/watch?v=OV56RddyFuU) — Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning  — Merve Noyan, Hugging Face
 - [YouTube o-zkvb0iFDQ](https://www.youtube.com/watch?v=o-zkvb0iFDQ) — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
-- [YouTube EmhRyw6xeT0](https://www.youtube.com/watch?v=EmhRyw6xeT0) — One Login to Rule Them All: Cross-App Access for MCP — Garrett Galow, WorkOS
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[agent-source-index]]
+- [[ai-engineer-livestream-corpus]]
 - [[talk-video-transcript-map]]
+- [[worldsfair-phrase-word-cloud]]
 - [[youtube--x5GEVnkuRw]]
+- [[youtube-1IdzkRVmWAA]]
 - [[youtube-2IxD9OB3XuQ]]
+- [[youtube-2e9ANoOEn28]]
 - [[youtube-3hXJI2q0Jz8]]
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-4uFVSLgD2Q4]]
-- [[youtube-6bmM45jkMDY]]
-- [[youtube-96G7FLab8xc]]
-- [[youtube-9fubhllmsBU]]
 
 ### Slide/OCR Pages
 - [[slide-library]]
@@ -66,24 +66,27 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Topic Pages
 - [[agent-memory]]
+- [[agent-ready-accessibility]]
 - [[agent-security]]
 - [[agentic-search]]
+- [[agentic-web]]
 - [[ai-sandboxes]]
 - [[coding-agents]]
 - [[inference-engineering]]
+- [[mcp-app-runtime]]
 - [[mcp]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/-x5GEVnkuRw.txt`
+- `raw/sources/youtube-transcripts/4kYl2_mqmnQ.txt`
 - `raw/sources/youtube-transcripts/B9h9ovW5H9U.txt`
+- `raw/sources/youtube-transcripts/HsxQICTLF84.txt`
 - `raw/sources/youtube-transcripts/IddXPepIAS4.txt`
+- `raw/sources/youtube-transcripts/MpZzWMdmQCE.txt`
 - `raw/sources/youtube-transcripts/ObTPqBGsEbA.txt`
 - `raw/sources/youtube-transcripts/QuuIywMG4s8.txt`
 - `raw/sources/youtube-transcripts/SKDJo2CopRs.txt`
-- `raw/sources/youtube-transcripts/_B4Pv9ttFgY.txt`
-- `raw/sources/youtube-transcripts/_xIwFcnHqp4.txt`
-- `raw/sources/youtube-transcripts/btxGmN8RvNU.txt`
-- `raw/sources/youtube-transcripts/c-2eEv2ou7Y.txt`
+- `raw/sources/youtube-transcripts/UcYoMg-8-L8.txt`
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

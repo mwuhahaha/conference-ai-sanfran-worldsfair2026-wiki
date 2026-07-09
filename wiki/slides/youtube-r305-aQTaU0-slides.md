@@ -21,8 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> TextDiffusion
-> Speaker.Brendan O'Danoohue
+> Text Diffusion
+> Speaker. Brendan O'Danpghue
 
 ![[assets/slides/r305-aQTaU0/slide-002.jpg]]
 

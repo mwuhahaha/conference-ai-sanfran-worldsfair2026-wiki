@@ -1,0 +1,38 @@
+ContextisthenewCode
+Prompt→Code
+Code→Skill
+Prompt
+Code
+deffetch_user（uid,retrles3)1
+for1inrangelretries)i
+Addeorhandingandretry
+tryi
+logic wltha timeout.
+r=requests.geti
+AIE
+f/users/(uid)",tineout=5)
+r.raise_for_statust)
+returm r.json()
+packagedas
+Code
+Ski
+det fetcseruid,retries3):
+for1Inrange(retries)
+AP1 Fetch Best Practices
+tryi
+Aways set arequest meout
+rreguests.gett
+-Retry on transient errors
+(5)/s/
+Re-raise on last attempt
+r.ralse_for_statusl)
+returnc.json[)
+EvaLs
+except Exceptien as e！
+meout paramsset
+f1-retries-1:raise
+√retesz3
+Prompt → Code (left) ·Code → Skil (right)
+AlEngineer
+Engineering the future of Al
+AEnginoer

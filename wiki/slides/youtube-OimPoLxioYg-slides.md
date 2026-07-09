@@ -223,8 +223,10 @@ OCR text:
 
 OCR text:
 
-> rae] = = |
-> 7 @FINIE 4 supabase
+> AIE winilerity · omin leirleelaiaulerit
+> Co?.ntt gtt.n,yi 12,24,154.255.1.FONTWE
+> O.tlsf prpr (2.1a0sm1. H 25,2,2350.110
+> FINIE
 
 ![[assets/slides/OimPoLxioYg/slide-013.jpg]]
 
