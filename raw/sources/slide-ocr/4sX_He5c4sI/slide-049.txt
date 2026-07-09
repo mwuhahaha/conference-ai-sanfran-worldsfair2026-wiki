@@ -1,7 +1,17 @@
-World'sFair AlEngineer Firstsimpleproofpoints Better training,faster training,betterkernels recursive
-01 Several dozens of humans and hundreds of their ogents NanoChatAutoresearch SOTA:0.9372BPB 0.9109BPB 1.3xspeeduptoreachthe sameloss
-02 leoderboard NanoGPTSpeedrun 83humanrecord-setting contributions to the SOTA:79.75 →77.5s Similarorlargerimprovement contributions
-Id'sFair Work 03 SOL-ExecBench 235kernel-writing tosksderivedfromreol workloads 0.754S0L 18%reductioningap to the optimal performance estimate of1.0
-Vorld'sF:
-Id'sFai aws Engineering the future of Al
-E
+AI Engineer World's Fair
+First simple proof points
+Better training, faster training, better kernels
+recursive
+01 NanoChat Autoresearch
+Several dozens of humans and hundreds of their agents
+SOTA: 0.9372 BPB → 0.9109 BPB
+1.3x speedup to reach the same loss
+02 NanoGPT Speedrun
+83 human record-setting contributions to the leaderboard
+SOTA: 79.7 s → 77.5 s
+Similar or larger improvement than recent human contributions
+03 SOL-ExecBench
+235 kernel-writing tasks derived from real workloads
+SOTA: 0.699 SOL → 0.754 SOL
+18% reduction in gap to the optimal performance estimate of 1.0
+Engineering the future of AI

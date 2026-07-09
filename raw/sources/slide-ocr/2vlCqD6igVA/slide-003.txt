@@ -1,14 +1,15 @@
 Enriching exploratory search queries @ Spotify
-( Extract from catalog titles, | pe eu ae aw asa eeuaune RuaTseeyaes FeTseMn wane CE eMEEEEREEEETEeEremNErEeEEEEETE Ag
-playlist names, podcasts —! | Setreguiar, ‘ Query rank optimized for ) :
-— ae i | existing results stream, add-to-playlist, etc | |
-| Mine from search logs weuessuesuecgphponssacsszssseeseeeeesssecssusssessensnes puserssssesneseanoesee?
-[ vse user's recent ; =
-searches & saved items |
-f Apply metadata expansion
-[ rules (<artist> + “cover”)
-- Apply LLMs to generate
-A sf | natural language queries 7
-ja Doc2Query, InPars ;
-- ; ra)
-a cS 0008
+Extract from catalog titles,
+playlist names, podcasts
+Mine from search logs
+Use user's recent
+searches & saved items
+Apply metadata expansion
+rules (<artist> + "cover")
+Apply LLMs to generate
+natural language queries
+like Doc2Query, InPars
+Get regular,
+existing results
+Query rank optimized for
+stream, add-to-playlist, etc

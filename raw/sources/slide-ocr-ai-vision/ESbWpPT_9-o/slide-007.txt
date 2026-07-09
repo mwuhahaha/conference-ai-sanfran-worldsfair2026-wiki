@@ -1,0 +1,9 @@
+10^3
+GPU Memory (GB)
+126.3×
+Improvement
+10^2
+10^1
+Local Accelerator Memory
+2012  2015  2020  2025
+Release Year

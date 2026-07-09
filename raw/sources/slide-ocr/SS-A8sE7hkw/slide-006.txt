@@ -1,5 +1,5 @@
 ai.dev
-Explore Googlemodels
+Explore Google models
 AIE
-AlEngineer
-AIEngi EUROPE
+AI Engineer
+EUROPE

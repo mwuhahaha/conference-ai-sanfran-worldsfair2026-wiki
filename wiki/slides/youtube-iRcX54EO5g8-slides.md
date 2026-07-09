@@ -23,7 +23,6 @@ OCR text:
 
 > Your Agent Is
 > Blindfolded
-> neer
 
 ![[assets/slides/iRcX54EO5g8/slide-002.jpg]]
 
@@ -80,7 +79,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

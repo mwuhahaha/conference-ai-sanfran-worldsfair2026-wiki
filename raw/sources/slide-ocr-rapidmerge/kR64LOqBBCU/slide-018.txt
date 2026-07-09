@@ -1,20 +1,12 @@
-ThankYou!
-POM O
-ne
-AEng
-8Braint
-tails le
-AEn
-IdoSalomon
+Thank You!
+Ido Salomon
 @idosall
 idosal
-in
 ido-salomon
-AlEngineer
-AGENTORCHESTRATION
-AGENTCRAFT:PUT
-EUROPE
+AGENT ORCHESTRATION
+AGENTCRAFT: PUT
+AI Engineer Europe
 PRESENTED BY
-GoogleDeepMind
-IDOSALOMON/CreatorofAgentCraft&MCP-UI
+Google DeepMind
+IDO SALOMON / Creator of AgentCraft & MCP-UI
 MCP-UI

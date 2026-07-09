@@ -1,0 +1,10 @@
+KLAS CASE STUDY
+We achieved a baseline performance of 95% for approving care...
+then iterated with a specific customer to >99% within 8 weeks
+
+Initial Results		8 Weeks Later
+Performance (F1-Score)
+95.73%				Performance (F1-Score)
+99.24%
+using the system
+outlined in this talk

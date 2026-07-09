@@ -21,9 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> November20,2025
-> AlIECode Summit
-> AIE
+> November 20, 2025
+> AIE Code Summit
 
 ![[assets/slides/SZStlIhyTCY/slide-002.jpg]]
 
@@ -133,13 +132,30 @@ OCR text:
 
 OCR text:
 
-> Bottleneckswithincurrentoperatingmodelandteamsetup
+> Bottlenecks within current operating model and team setup
 > Bottleneck
-> andsecurityvulnerabilities
-> Refinement Dayo Retro Day5
-> hard-to-interpret developersand Inefficient task oanp suaSe specifications assignment among Sprint planning Day1 Development Day2-3 Sprintreview Day4
-> McKinsey
-> AIEngineer Engineering the future of Al
+> Delays from increased complexity
+> and security vulnerabilities
+> Inefficient task
+> assignment
+> among
+> developers and
+> agents due to
+> hard-to-interpret
+> specifications
+> Day 0
+> Refinement
+> Day 1
+> Sprint planning
+> Day 2-3
+> Development
+> Day 4
+> Sprint review
+> Day 5
+> Retro
+> McKinsey & Company
+> AIEngineer
+> Engineering the future of AI
 
 ![[assets/slides/SZStlIhyTCY/slide-008.jpg]]
 
@@ -381,9 +397,9 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
+> AI Engineer
 > Code Summit
-> al.engineer
+> https://ai.engineer
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

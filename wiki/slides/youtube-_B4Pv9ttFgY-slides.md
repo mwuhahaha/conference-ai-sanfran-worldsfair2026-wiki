@@ -21,21 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> AIEngineer
-> Bui
+> AI Engineer
 > EUROPE
-> EUIACO
-> Lesse
-> Michae
-> AIEngineer
-> -TUON
 
 ![[assets/slides/_B4Pv9ttFgY/slide-002.jpg]]
 
 OCR text:
 
 > AIE
-> AEngineer Engineering the future of Al
+> Engineering the future of AI
 
 ![[assets/slides/_B4Pv9ttFgY/slide-003.jpg]]
 
@@ -60,16 +54,13 @@ OCR text:
 
 OCR text:
 
-> MichaelHablich
-> AIE
-> ProductManager@ChromeDeveloperTooling
-> Guestlecturer@UniversityofAppliedScienceSt.Polten
-> 20+yearsofexperienceintech
-> Tester,developer.projectmanager,..
+> Bio
+> Michael Hablich
+> Product Manager @ Chrome Developer Tooling
+> Guest lecturer @ University of Applied Science St. Pölten
+> 20+ years of experience in tech
+> Tester, developer, project manager,...
 > linkedin.com/in/michael-hablich
-> AIEngineer
-> AlEngineer
-> EUROPE
 
 ![[assets/slides/_B4Pv9ttFgY/slide-005.jpg]]
 
@@ -92,8 +83,7 @@ OCR text:
 OCR text:
 
 > We built it wrong
-> A —
-> Engineering the future of Al
+> Engineering the future of AI
 
 ![[assets/slides/_B4Pv9ttFgY/slide-007.jpg]]
 

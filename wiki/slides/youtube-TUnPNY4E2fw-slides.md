@@ -37,12 +37,25 @@ OCR text:
 OCR text:
 
 > AI Native Cloud
-> Model Builders AppDevelopers
-> AIE GPUClusters Model Shaping Inference 紫
-> GPUs asa service with accelerated training stack yourtasks Tailloredcustomizationfor The fastest waytolaunch Almodels
-> Storage services B200+GB20OLeader Accelerate modeltraining Observability RL(private beta) Fine-tuning+distillation Complete ownership 200+leadingmodels Advancedoptimizations ServerlessandDedicated
+> Model Builders ← → App Developers
+> GPU Clusters
+> GPUs as a service with accelerated training stack
+> ✓ Accelerate model training
+> ✓ Observability
+> ✓ B200 + GB200 Leader
+> ✓ Storage services
+> Model Shaping
+> Tailored customization for your tasks
+> ✓ Complete ownership
+> ✓ Fine-tuning + distillation
+> ✓ RL (private beta)
+> Inference
+> The fastest way to launch AI models
+> ✓ 200+ leading models
+> ✓ Serverless and Dedicated
+> ✓ Advanced optimizations
 > Trusted by: CURSOR Runware hedra Decagon KREA
-> Engineering the future of Al
+> Engineering the future of AI
 
 ![[assets/slides/TUnPNY4E2fw/slide-003.jpg]]
 
@@ -169,7 +182,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

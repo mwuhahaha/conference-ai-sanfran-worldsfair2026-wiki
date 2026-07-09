@@ -1,18 +1,8 @@
-Let'sexplorewiththeLLMEngineAdvisor!
-Iwanto serveLam3I s8
-with
-Clients should receivethe first tokeIn under
-anyengine
-1second
-128tokensin/1024tok
-every benchmarked
+Let’s explore with the LLM Engine Advisor!
+I want to serve Llama 3.1 8B with any engine
+Clients should receive the first token in under 1 second 99% of the time
+I expect on average 128 tokens in / 1024 tokens out
+I want to see every benchmarked configuration
+modal.com/llm-almanac
 AIE
-Copy
-OELCAO_PATH
-I0RS+40ENGTES
-isupe-(
-sodsl.leage froe_egistry
-s:s/
-modal.com/1lm-almanac
 aws
-World's Fair

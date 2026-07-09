@@ -1,0 +1,22 @@
+Langfuse v2.95.11 OSS
+Trace Detail
+User ID: widget-anonymous
+Tags  chat  direct
+Input
+is there any maintenance plan for this weekend?
+Output
+Yes, the provided document states that "Maintenance window" is from 6:00 PM (1800) to 12:00 AM midnight (0000 Sunday, 21 June). This indicates planned maintenance activities will take place during this time.
+Metadata
+{
+  model: "qwen2.5:0.5b-instruct"
+  top_k: 2
+  sources: [
+    0: "Screenshot 2026-06-19 004158.png"
+    1: "Screenshot 2026-06-19 004158.png"
+  ]
+  agent_mode: false
+  event_type: "chat"
+  RAG_chunks: 2
+  duration_ms: 254
+  history_turns: 2
+}

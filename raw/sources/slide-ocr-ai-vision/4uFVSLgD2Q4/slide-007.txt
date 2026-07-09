@@ -1,0 +1,7 @@
+OpenGov
+Agent-to-Agent Protocol
+Built Off The
+A2A Protocol
+The A2A protocol allows OG Assist to build off a supported
+spec, rather than from the ground up.
+Source: https://agent2agent.info/docs/concepts/agentcard/

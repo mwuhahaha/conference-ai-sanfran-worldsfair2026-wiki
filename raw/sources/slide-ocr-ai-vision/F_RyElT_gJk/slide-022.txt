@@ -1,0 +1,20 @@
+Investigate and implement Linear connector icon
+connectors
+2. Admin Connections Page
+(server/src/routes/admin/connections.svelte)
+- Added the same CheckCircle icon import and helper function
+- Updated the table icon rendering to show CheckCircle for Linear MCP connectors
+
+How it works:
+- Detects MCP connectors with endpoint_url pointing to linear.app or *.linear.app subdomains
+- Shows a circle checkmark (CheckCircle) icon instead of the generic Network icon for Linear connectors
+- Falls back gracefully to the Network icon for non-Linear MCP connectors
+- Handles invalid URLs safely with try/catch
+
+The implementation is complete and all checks pass. Linear MCP connectors will now display with a distinct CheckCircle icon on both the server settings and admin connections page.
+
+TODOs
+- Find linear issue about customizing Linear connector icon
+- Implement Linear connector icon customization feature
+
+I noticed the icon changed

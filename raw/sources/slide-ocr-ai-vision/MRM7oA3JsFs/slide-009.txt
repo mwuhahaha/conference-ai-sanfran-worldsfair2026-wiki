@@ -1,0 +1,18 @@
+(2) Empower domain experts to define and
+maintain a failure mode ontology
+
+Photo extraction
+Table extraction
+Handwriting extraction
+Medical record extraction
+Checkbox extraction
+Medical Necessity Review
+Failure Modes
+
+Logic representation
+Rules interpretation
+Rule source selection
+Clinical reasoning
+Under-inference
+Over-inference
+Chronological reasoning

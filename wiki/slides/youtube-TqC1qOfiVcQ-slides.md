@@ -21,7 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> / ANTHROP\C
+> / ANTHROPIC
 > Claude Agent SDK
 
 ![[assets/slides/TqC1qOfiVcQ/slide-002.jpg]]
@@ -289,18 +289,9 @@ OCR text:
 
 OCR text:
 
-> lay
-> 
-> i :
-> A '
-> 
-> ‘ ‘
-> 
-> x ; : MW
-> n 2
-> Pn -
-> oe
-> ma]
+> Verify
+> work
+> CONFIDENTIAL
 
 ![[assets/slides/TqC1qOfiVcQ/slide-020.jpg]]
 

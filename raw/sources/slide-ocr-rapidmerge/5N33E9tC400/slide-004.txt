@@ -1,7 +1,4 @@
-The Evolution of the Al Engineer (ideal)
-MLE
-AIE
-SWE
-lesi
-time
+The Evolution of the AI Engineer (ideal)
+MLE AIE SWE
+first time
 compute

@@ -1,8 +1,4 @@
-LOG-MONITOR-SLACK
-Ourbug→itopensaPR and tellsme
-DAHOH
-Outside billingissue-justaheads-up,noPR
-LogMonitorfollo deroOA
-duction Period Last 1h (02:06 UTC)
-Provider biling iss The ererread woseedteracleansk-thatisnowcontradictedThe credtce edvla falback each tine hit LlamaParse 402exceededmax -RECURRED.notresoed workpers 21ta
-Italertsonlywhenitmatters-andknowsthedifference.
+LOG-MONITOR — SLACK
+Our bug — it opens a PR and tells me
+Outside billing issue — just a heads-up, no PR
+It alerts only when it matters — and knows the difference.

@@ -45,81 +45,68 @@ OCR text:
 
 OCR text:
 
+> AIE
 > Good morning!
-> iw What should we
+> What should we
 > build today?
-> = a Microsoft Gary?
+> Microsoft
+> smol ai
 
 ![[assets/slides/D4Dswf-__RM/slide-004.jpg]]
 
 OCR text:
 
-> Ga=D>
-> SE
-> ANNES
-> iis
-> AAW
-> Al Agent
-> = MT Vilacetxei aS 660 OO
+> AIE
+> AI Agent
+> Microsoft
+> smol ai
+> World's Fair
 
 ![[assets/slides/D4Dswf-__RM/slide-005.jpg]]
 
 OCR text:
 
 > AIE
-> AlAgent
+> AI Agent
 > aws
-> Word'sFair
 
 ![[assets/slides/D4Dswf-__RM/slide-006.jpg]]
 
 OCR text:
 
-> SUZ a,
-> Se3 iiss
-> CLFAINNN i
-> CFEIANNN
-> 
-> yi u
+> AIE
+> aws
 
 ![[assets/slides/D4Dswf-__RM/slide-007.jpg]]
 
 OCR text:
 
 > Compliance
-> Seiti ge oY
-> rea 4
-> SLEVIN ¥
-> STLEVNNS
+> AIE
 
 ![[assets/slides/D4Dswf-__RM/slide-008.jpg]]
 
 OCR text:
 
 > Persona Shadowing
-> = sw
-> Bis
-> = a Microsoft ary?
+> AIE
+> Microsoft
+> smol ai
+> World's Fair
 
 ![[assets/slides/D4Dswf-__RM/slide-009.jpg]]
 
 OCR text:
 
 > Delegation Chains
-> SHE
-> HRS
 
 ![[assets/slides/D4Dswf-__RM/slide-010.jpg]]
 
 OCR text:
 
 > Capability-Based Tokens
-> hd | 422
-> SNA fs
-> ~ ae i | ~.
-> WARS
-> aWws
-> = a
+> AIE
+> aws
 
 ![[assets/slides/D4Dswf-__RM/slide-011.jpg]]
 
@@ -169,18 +156,19 @@ OCR text:
 
 > AIE
 > Microsoft
-> smol?
-> Wortd'sFair
+> smol ai
+> World's Fair
 
 ![[assets/slides/D4Dswf-__RM/slide-015.jpg]]
 
 OCR text:
 
-> » <> ;
-> SS PNUiaal ae
-> “s FGA
+> AIE
+> AuthKit
+> FGA
 > Radar
-> = a Microsoft ary?
+> Microsoft
+> smol ai
 
 ![[assets/slides/D4Dswf-__RM/slide-016.jpg]]
 
@@ -188,8 +176,7 @@ OCR text:
 
 > AIE
 > Microsoft
-> smol?
-> Word'sFar
+> smol ai
 
 ![[assets/slides/D4Dswf-__RM/slide-017.jpg]]
 
@@ -223,25 +210,23 @@ OCR text:
 
 OCR text:
 
-> Find me on X to discuss
 > AIE
-> identity for Al agents
+> Find me on X to discuss
+> identity for AI agents
 > @grinich
-> Wornd'sFair
 
 ![[assets/slides/D4Dswf-__RM/slide-019.jpg]]
+
+OCR text:
+
+> World's Fair
+
 ![[assets/slides/D4Dswf-__RM/slide-020.jpg]]
 
 OCR text:
 
-> N
-> c
-> A
-> tS
-> i?
-> ,
-> J
-> World's Fal
+> AI Engineer
+> World's Fair
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

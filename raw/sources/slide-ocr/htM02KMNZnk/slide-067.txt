@@ -1,8 +1,15 @@
-World'sFair AEngi Pre-Recorded for Worid'sFair 2026 You are watching an AiE Online Talk
-This iswhenproductivity actually explodes.
-Designer Dev QA
-Figma fleshandofiterations Code-CI40min wait~feedback Find bug→ticketwait →retest
-Works directy on running code Agent+sandbox→live in30s Tells agent directlyin browser
-Ships complete features Bug fixed before ticket is filed
-The workflowrunsatAl speed.Not just the code.
-stag.build 10/11
+This is when productivity actually explodes.
+Designer
+Figma files -> handoff -> iterations
+Works directly on running code
+Dev
+Code -> CI -> 40min wait -> feedback
+Agent + sandbox -> live in 30s
+QA
+Find bug -> ticket -> wait -> retest
+Tells agent directly in browser
+Ships complete features
+Bug fixed before ticket is filed
+The workflow runs at AI speed. Not just the code.
+stag.build
+10 / 11

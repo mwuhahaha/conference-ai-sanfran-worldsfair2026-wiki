@@ -34,36 +34,39 @@ OCR text:
 
 OCR text:
 
-> THEPRESENTERS
+> THE PRESENTERS
 > Ankush Rastogi
-> Ankush Rastogi
+> Senior Data Solutions Engineer · Prosodica LLC
+> IEEE Senior Member
+> 10+ years across data engineering, AI systems, production
+> analytics, and enterprise LLM implementation.
 > Sohail Shaikh
-> Sohal Shaikh
-> SeniorData Solutions Engineer.Prosodica LLC
-> DataScientist·Prosodica LLC
-> IEEESeniorMember
-> BuildingReal-WorldAl Systems
-> 10+yearsacrossdataengineering,lsystemsproduction
-> 9+yearsinAlLP,conversationalintelligence,AGpipeines
-> analytics,andenterprise LLMimplementation.
-> semanticsearch,andproductionLLMworkflows.
-> Ankush Rastogi
+> Data Scientist · Prosodica LLC
+> Building Real-World AI Systems
+> 9+ years in AI, NLP, conversational intelligence, RAG pipelines,
+> semantic search, and production LLM workflows.
+> 02
 
 ![[assets/slides/vh2VGuQ3zhY/slide-003.jpg]]
 
 OCR text:
 
-> TheFatAgentTrap THEPROBLEM
-> The Naive Architecture Ankush Rastogi
-> Theeasiest approach istodump every tool'sschema into the prompton everyrequest.Itworksperfectlyindemosand falls apartinproduction. EVERY SINGLE REQUEST UserQuery
-> TokenBloat 127,000tokensfor741tools LLM+ALL100+ToolSchemas
-> Sohal Shakh
-> AccuracyCrash78%→13%asthetoolpoolgrows 1 T2 E1 T4
+> THE PROBLEM
+> The Fat Agent Trap
+> The Naive Architecture
+> The easiest approach is to dump every tool's schema into the prompt on every request. It works perfectly in demos and falls apart in production.
+> Token Bloat 127,000 tokens for 741 tools
+> Accuracy Crash 78% → 13% as the tool pool grows
+> Cost Explosion Up to 99x more tokens billed
+> Context Crowding No room left for actual reasoning
+> EVERY SINGLE REQUEST
+> User Query
+> LLM + ALL 100+ Tool Schemas
+> T1 T2 T3 T4 T5
 > T6 T7 T8 T9 T10
-> CostExplosion Upto99xmore tokensbilled T11 T12 T100 85nore
-> ContextCrowding Noroomleftforactualreasoning Every token,everyrequest isbilled andprocessedinful
-> 20
-> Ankush Rastogi
+> T11 T12... T100 + 85 more
+> Every token, every request is billed and processed in full.
+> 03
 
 ![[assets/slides/vh2VGuQ3zhY/slide-004.jpg]]
 
@@ -84,28 +87,28 @@ OCR text:
 
 OCR text:
 
-> THETECHNIQUE
-> Just-ln-Time Context Injection
-> Ankush Rastogi
-> StaticLoading
-> JIT Injection
-> All100+schemaspre-loaded in theprompt
-> Toolsselectedatruntime,perquery
-> Everyrequestcarriesthefullpayload
-> Only3-5relevant schemasinjected
-> ·Most tokenswastedonirrelevanttools
-> Contextwindow stayslean
-> Contextwindowconsumedbyschemas
+> THE TECHNIQUE
+> Just-In-Time Context Injection
+> Static Loading
+> • All 100+ schemas pre-loaded in the prompt
+> • Every request carries the full payload
+> • Most tokens wasted on irrelevant tools
+> • Context window consumed by schemas
+> • Less space for reasoning and output
+> • Accuracy degrades as the list grows
+> • Slow: model must process a giant context
 > VS
-> Moreroomforreasoningchains
+> JIT Injection
+> • Tools selected at runtime, per query
+> • Only 3-5 relevant schemas injected
+> • Context window stays lean
+> • More room for reasoning chains
+> • Accuracy stays above 83% at any scale
+> • Fast: smaller prompt, less processing
+> • Inspired by Anthropic MCP on-demand loading
+> Ankush Rastogi
 > Sohal Shaikh
-> Lessspaceforreasoningandoutput
-> Accuracy staysabove83%at any scale
-> Accuracy degradesasthelistgrows
-> Fast:smallerprompt,lessprocessing
-> Slow:model mustprocessagiant context
-> InspiredbyAnthropicMCPon-demand loading
-> Ankush Rastog
+> 08
 
 ![[assets/slides/vh2VGuQ3zhY/slide-006.jpg]]
 
@@ -131,41 +134,87 @@ OCR text:
 
 OCR text:
 
-> HOWTOBUILDIT
-> 3Step ImplementationPattern
-> Ankush Rastogi
-> Build Tool Index RouteEach Query Inject&CallLLM
-> OFFLINE-ONE-TIME RUNTIME·EVERYREQUEST RUNTIME-EVERYREQUEST
-> Collect all tool names, descriptions,and JsON schemas Embed theincominguserquery with thesamemodel FetchJSoNschemasforthe selectedtoolsonly
-> .Indexonce andreuseforeverby Embedeachtooldescription SentenceTransformers) storingvectorsinFAisSor Pinecone. (OpenAl,Cohere, Run approximate ·Retrieve top-Ktools（K=5 thetoolindex nearest-neighborsearch against default);applya cosine threshold ·Build theprompt with just those Call theLLM→returnresult;log selectionsfor monitoring schemasinthetoolsparameter SohaillShaikh
-> Ankush Rastogi
+> HOW TO BUILD IT
+> 3 Step Implementation Pattern
+> 1 Build Tool Index
+> OFFLINE • ONE-TIME
+> • Collect all tool names,
+> descriptions, and JSON schemas
+> • Embed each tool description
+> (OpenAI, Cohere,
+> SentenceTransformers)
+> • Index once and reuse forever by
+> storing vectors in FAISS or
+> Pinecone.
+> 2 Route Each Query
+> RUNTIME • EVERY REQUEST
+> • Embed the incoming user query
+> with the same model
+> • Run approximate
+> nearest-neighbor search against
+> the tool index
+> • Retrieve top-K tools (K = 5
+> default); apply a cosine threshold
+> 3 Inject & Call LLM
+> RUNTIME • EVERY REQUEST
+> • Fetch JSON schemas for the
+> selected tools only
+> • Build the prompt with just those
+> schemas in the tools parameter
+> • Call the LLM → return result; log
+> selections for monitoring
+> 11
 
 ![[assets/slides/vh2VGuQ3zhY/slide-008.jpg]]
 
 OCR text:
 
-> YOURROADMAP
+> YOUR ROADMAP
 > Implementation Checklist
+> 1 Catalog Your Tools
+> Gather all tool names, descriptions, and JSON schemas in a structured list
+> 2 Build the Embedding Index
+> Embed each description; store vectors in FAISS or Pinecone; one-time setup
+> 3 Implement the Router
+> embed(query) → similarity_search → top-K → fetch schemas
+> 4 Integrate Into the Agent Loop
+> Replace your static functions list with the router output on every call
+> 5 Evaluate & Tune K
+> Benchmark accuracy at K = 3, 5, 10 on a held-out set; pick the sweet spot
+> 6 Monitor & Iterate
+> Log selections; alert on missed tools; re-embed as your catalog grows
 > Ankush Rastogi
-> Gatheralltoolnames,descriptions,andJsN schemasinastructuredlist CatalogYourTools 2 Pinecone;one-time setup Embed each description;store vectorsinFAiSS or BuildtheEmbeddingIndex
-> 3 schemas ImplementtheRouter embed（query)→similarity_search→top-K→fetch output on every call IntegrateIntotheAgentLoop Replaceyourstaticfunctionslistwith therouter Sohal Shaikh
-> 5 pickthesweetspot Benchmark accuracy atK=3,5,10onaheld-outset; Evaluate&TuneK 6 Monitor&Iterate Log selections;alert onmissed tools;re-embed as yourcataloggrows
-> Ankush Rastogi
+> Sohail Shaikh
+> 14
 
 ![[assets/slides/vh2VGuQ3zhY/slide-009.jpg]]
 
 OCR text:
 
-> INDUSTRYEVIDENCE
-> TeamsAreHitting theSameTool-ScalingWall
-> Real evidencefrom practitioners,engineersandAnthropicitselfnotsimulated benchmarks. Ankush Rastogi
-> tokens 150K→2K current taskdrops usage from150,oo0 to AnthropicEngineeringBlog Loadingonly the toolsneeded for.the 2,000 with 98.7% cut. 20+ toolsbreaksit VercelAISDK-Issue #11920 Sending alltool definitions every request degrades performance,confusestool choice,and raises tokens +latency
-> Official Anthropicfinding Realproctitioner issue-Jon2026
-> Sohall Shaikh
-> 98% tokenreduction Selects accuratelyfrom~3Kcandidates while cutting tokens98%. MCP-Zero (xfey/MCP-Zero) Testedon308MCPserversand2,797tools. >2 tools-+stuckloop n8nCommunityForum iterations."Hit in production. "Addmore than two toolsand theAlgets stuckin aloop,burningthroughallmax
-> Open source,codeavailablenow Production failure-Aug 2024
+> INDUSTRY EVIDENCE
+> Teams Are Hitting the Same Tool-Scaling Wall
+> Real evidence from practitioners, engineers, and Anthropic itself, not simulated benchmarks.
+> 150K → 2K
+> Anthropic Engineering Blog
+> Loading only the tools needed for the current task drops usage from 150,000 to 2,000 with 98.7% cut.
+> Official Anthropic finding
+> 20+
+> tools breaks it
+> Vercel AI SDK - Issue #11920
+> "Sending all tool definitions every request degrades performance, confuses tool choice, and raises tokens + latency."
+> Real practitioner issue - Jan 2026
+> 98%
+> token reduction
+> MCP-Zero (xfey/MCP-Zero)
+> Tested on 308 MCP servers and 2,797 tools.
+> Selects accurately from ~3K candidates while cutting tokens 98%.
+> Open source, code available now
+> > 2
+> tools → stuck loop
+> n8n Community Forum
+> "Add more than two tools and the AI gets stuck in a loop, burning through all max iterations." Hit in production.
+> Production failure - Aug 2024
 > 15
-> Ankush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-010.jpg]]
 

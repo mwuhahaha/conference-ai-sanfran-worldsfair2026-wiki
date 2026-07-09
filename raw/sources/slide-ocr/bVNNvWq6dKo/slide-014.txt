@@ -1,16 +1,13 @@
 Principle
-AIE
 Meta-Learning
-Thebestagentsdon't just assist-theylearn.
-Relatedfeatures
-Windsurfadaptstoyourworkflows.
-rememberspastinteractions.andevolves
-.Memories
-witheveryuse.Fromrecallingpreferred
-.CustomtoolsviaMCPservers
-toolstounderstandingproject-specific
-·Readingyourfavdocs
-patterns,itgetssmarterthemoreyouuseit.
-Whitelist/blacklistcommands
-AGENTENGINEERING
-HTTPS://AI.ENGINEER
+The best agents don't just assist—they learn.
+Windsurf adapts to your workflows,
+remembers past interactions, and evolves
+with every use. From recalling preferred
+tools to understanding project-specific
+patterns, it gets smarter the more you use it.
+Related features
+• Memories
+• Custom tools via MCP servers
+• Reading your fav docs
+• Whitelist / blacklist commands

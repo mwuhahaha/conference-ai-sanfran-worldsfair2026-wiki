@@ -22,9 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > RAG is already solved.
-> £ rd 7
-> ° aa | ya i
-> a by UR eye teers CeloL aoe
+> Well yes, but actually no
 
 ![[assets/slides/Ywl4LsvHKzU/slide-002.jpg]]
 
@@ -143,23 +141,22 @@ OCR text:
 
 OCR text:
 
-> High Level ldea
+> High Level Idea
 > Query
+> Unstructured Corpus
+> Data Structure
 > FIFA World Cup
-> Unstructured
-> DataStructure
-> Corpus
-> ONAIR
 
 ![[assets/slides/Ywl4LsvHKzU/slide-009.jpg]]
 
 OCR text:
 
+> Ingestion:
+> Flow
 > 1. Cluster
-> _ 2. Identify Schema
-> Ingestion: 3. Populate
-> Flow 4. Upload
-> Kor 73) A
+> 2. Identify Schema
+> 3. Populate
+> 4. Upload
 
 ![[assets/slides/Ywl4LsvHKzU/slide-010.jpg]]
 

@@ -111,10 +111,6 @@ OCR text:
 
 OCR text:
 
-> eer
-> pMind
-> Vinonr Ko
-> AIEEwrope2026
 > Google DeepMind
 > AIEngineer
 > EUROPE
@@ -140,14 +136,9 @@ OCR text:
 
 OCR text:
 
-> iia aici eniia-y , EN ~
-> Z a @ so ee y, 4 > ae
-> nN os bed Bex a
-> be ad 7
-> | \ | 2
-> l ST Es
-> VL ne -
-> ue Google DeepMind
+> AI Engineer
+> EUROPE
+> Google DeepMind
 
 ![[assets/slides/pmoDeA3RBZY/slide-010.jpg]]
 

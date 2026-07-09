@@ -54,3 +54,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 - [[youtube-Bc6Ojl2XS1w-slides]]
 - Slide-derived terms: `audio`, `engineer`, `engineering`, `future`, `deepmind`, `gemini`, `performance`, `google`, `thor`, `transcription`, `english`, `transcript`, `prompt`, `speaker`, `context`, `segment`, `following`, `europe`
+
+## Additional Photo Slide Evidence
+These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-gemini-live-slides]] - Google Photos Slides: Gemini Live API Workshop (confidence: medium).

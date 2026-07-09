@@ -1,2 +1,2 @@
-NPostHog
+PostHog
 What if your product built itself?

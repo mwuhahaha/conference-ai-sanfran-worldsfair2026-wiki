@@ -1,10 +1,8 @@
-World'sFair AlEngineer StateofAlSoftwareEngineering
-PRESENTEDBY Super-human SyntaxGeneration %S6
-Microsoft Local ProblemSolving&Tasks Multi-step Codebase Planning 45% 70%
+State of AI Software Engineering
+Super-human Syntax Generation 95%
+Local Problem Solving & Tasks 70%
+Multi-step Codebase Planning 45%
 Architectural System Decisions 25%
-Modelsgenerate localizedcode rapidlybut struggle toform cohesive systems,design complex architectures,andpredictoverall
-securityflaws.
-Id'sFair oz
-benAl World AlEng
-Id's En Mic ResearchtoRealitywithGoogleDeepMind
-AlEng BenoitSchillings/VicePresidentofResearch Google DeepMind
+Models generate localized code rapidly but struggle to form cohesive systems, design complex architectures, and predict overall security flaws.
+Research to Reality with Google DeepMind
+Benoit Schillings / Vice President of Research Google DeepMind

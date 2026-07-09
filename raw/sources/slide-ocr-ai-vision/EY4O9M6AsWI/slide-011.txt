@@ -1,0 +1,9 @@
+Challenges
+• Brittle, need to coordinate between both CPU and Triton being up at the same
+time
+• Triton not built for multi-gpu/multi-node
+• Push model not ideal for multi-node (which node has rank 0?)
+• No/limited support for non-nvidia chipsets with Triton
+• Very difficult to develop against
+• Need to have every piece everywhere, hard to bring in disparate compute (i.e.
+from our training cluster :kekw:)

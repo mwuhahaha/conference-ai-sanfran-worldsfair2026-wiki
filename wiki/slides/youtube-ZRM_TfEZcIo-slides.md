@@ -86,12 +86,7 @@ OCR text:
 
 OCR text:
 
-> et i
-> 
-> , . My personal notes!
-> ) a" a ‘an
-> ia
-> j=
+> My personal notes!
 
 ![[assets/slides/ZRM_TfEZcIo/slide-005.jpg]]
 
@@ -145,11 +140,7 @@ OCR text:
 
 OCR text:
 
-> ‘a [
-> { aus
-> ad |
-> TOWARDS AN
-> >, NN 4
+> TOWARDS AI
 
 ![[assets/slides/ZRM_TfEZcIo/slide-009.jpg]]
 
@@ -165,13 +156,7 @@ OCR text:
 
 OCR text:
 
-> | eee
-> oy “eg ,
-> i \ ; i
-> : e,
-> f
-> TOWARDS Ni
-> nn a so
+> TOWARDS AI
 
 ![[assets/slides/ZRM_TfEZcIo/slide-011.jpg]]
 
@@ -202,10 +187,8 @@ OCR text:
 OCR text:
 
 > v1: a topic in, research.md out
-> ~ ON %
-> Ss Lf NY
-> i aa i
-> / p Topic
+> Topic
+> + golden links
 
 ![[assets/slides/ZRM_TfEZcIo/slide-014.jpg]]
 
@@ -260,10 +243,9 @@ OCR text:
 
 OCR text:
 
-> Howdoesthewikilooklike?
+> How does the wiki look like?
 > research-coding-agent-architectures
 > raw
-> ARCHITECTURIARCHITECTURE
 > wiki
 > comparisons
 > concepts
@@ -272,12 +254,11 @@ OCR text:
 > repos
 > sources
 > open-questions
-> nstruction-ties
 > overview
-> ARCHITECTURE
 > synthesis
 > index
 > log
+> ARCHITECTURE
 
 ![[assets/slides/ZRM_TfEZcIo/slide-019.jpg]]
 

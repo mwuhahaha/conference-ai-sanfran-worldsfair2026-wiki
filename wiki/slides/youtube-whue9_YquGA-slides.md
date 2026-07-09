@@ -21,33 +21,31 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ANGIE JONES,VP OF AGENTICAIFOUND
+> ANGIE JONES, VP OF AGENTIC AI FOUNDATION
 > Building an
 > Autonomous
 > Engineering Org
+> angiejones.tech
 
 ![[assets/slides/whue9_YquGA/slide-002.jpg]]
 
 OCR text:
 
-> oe
-> Code is not the
-> bottleneck.
+> THE TURNING POINT
+> Code is not the bottleneck.
 
 ![[assets/slides/whue9_YquGA/slide-003.jpg]]
 
 OCR text:
 
-> WhereWe Are
+> Where We Are
 > Experimentation
+> explore and normalize AI usage
 > Adoption
+> scale usage through structure and consistency
 > Impact
-> explore and normalizeAl
-> scale usage through
-> drivemeasurableoutcomes
-> usage
-> structureandconsistency
-> andproductivitygains
+> drive measurable outcomes and productivity gains
+> WE ARE HERE
 
 ![[assets/slides/whue9_YquGA/slide-004.jpg]]
 
@@ -67,10 +65,12 @@ OCR text:
 
 OCR text:
 
-> ns
-> noe
-> 1% Power Users .
-> 1/9/90 Bel Q% Ace
+> AGENTIC ENGINEER
+> 1/9/90 Rule
+> 1%
+> Power Users
+> 9%
+> Tinkerers
 > Consumers
 > 90%
 
@@ -78,10 +78,9 @@ OCR text:
 
 OCR text:
 
-> STAGI
-> Al Friendly Repo
+> STAGE 3
+> AI Friendly Repo
 > Agent Context
-> 自
 > 25
 
 ![[assets/slides/whue9_YquGA/slide-007.jpg]]
@@ -107,10 +106,13 @@ OCR text:
 
 OCR text:
 
-> a vi
-> ran
-> 3 as a
-> Al-authored code Reported time savings Automated PRs
+> STAGE 3
+> ↑69%
+> AI-authored code
+> ↑37%
+> Reported time savings
+> ↑21x
+> Automated PRs
 
 ![[assets/slides/whue9_YquGA/slide-009.jpg]]
 

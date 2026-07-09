@@ -196,7 +196,6 @@ OCR text:
 OCR text:
 
 > Temporal Activities
-> Taling NYC INYT) 47.14 Cal
 > withdraw
 > deposit
 > refund
@@ -205,17 +204,9 @@ OCR text:
 
 OCR text:
 
-> rehued
-> | aeses
-> La ed
-> ~ “=
-> ‘ c
-> sl,
-> eer
-> ee ce ae eae
-> Bg eens
-> P > ees or
-> S ~ AS \ nn
+> deposit
+> refund
+> failed
 
 ![[assets/slides/k8cnVCMYmNc/slide-013.jpg]]
 

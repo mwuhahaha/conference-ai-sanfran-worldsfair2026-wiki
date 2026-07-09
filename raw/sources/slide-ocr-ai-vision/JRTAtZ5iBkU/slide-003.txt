@@ -1,0 +1,2 @@
+proprietary format · only the app can read it
+but it's in a format that only the application can read.

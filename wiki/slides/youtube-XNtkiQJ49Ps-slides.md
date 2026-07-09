@@ -21,19 +21,25 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust
+> WorkOS
+> OpenAI
 
 ![[assets/slides/XNtkiQJ49Ps/slide-002.jpg]]
 
 OCR text:
 
-> Researchrelevant lawanddrafta contractbetweenthetwoparties inthese documents. Make no mistakes
-> t
-> AIEngineer EUROPE AGENTSNEEDMORETHANACHAT
-> GoogleDeepMind PRESENTEDBY JACOBLAURITZEN/CTO LEGORA
+> LEGORA
+> COLLABORATIVE AI FOR LAWYERS
+> Research relevant law and draft a contract between the two parties
+> in these documents.
+> Make no mistakes
+> AGENTS NEED MORE THAN A CHAT
+> JACOB LAURITZEN / CTO LEGORA
+> AI Engineer EUROPE
+> PRESENTED BY
+> Google DeepMind
 
 ![[assets/slides/XNtkiQJ49Ps/slide-003.jpg]]
 

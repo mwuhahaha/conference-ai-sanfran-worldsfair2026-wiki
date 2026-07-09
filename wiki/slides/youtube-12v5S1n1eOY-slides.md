@@ -87,12 +87,23 @@ OCR text:
 
 OCR text:
 
-> BoxhasfullyintegratedgenerativeAlstartingin2023
-> AIE Q&Aacross documents extraction 172 Contracts Data Al-powered workflows Aoprov
-> AboveS5.000 90 Due in90Days
-> 12Riskyclauses
-> 53Contain PlI
-> Microsoft smol?
+> Box has fully integrated generative AI starting in 2023
+> Q&A across documents
+> How can we speed up our product roadmap?
+> Data extraction
+> 172 Contracts
+> 17 Above $5,000
+> 90 Due in 90 Days
+> 12 Risky clauses
+> 53 Contain PII
+> AI-powered workflows
+> Loan Approved
+> New client onboarded
+> Insurance claim processed
+> Compliance audit submitted
+> AIE
+> Microsoft
+> smol ai
 
 ![[assets/slides/12v5S1n1eOY/slide-006.jpg]]
 
@@ -316,9 +327,6 @@ OCR text:
 > AIE
 > Thank you!
 > box
-> WorifsFai
-> Microsoft
-> smol?
 
 ![[assets/slides/12v5S1n1eOY/slide-017.jpg]]
 
@@ -333,14 +341,8 @@ OCR text:
 OCR text:
 
 > Thank you!
-> rd
-> Loved a
-> : 7
-> Worlds Fair
-> | y
-> S| a - Dead
-> ie —,_ -
-> oe
+> box
+> World's Fair
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

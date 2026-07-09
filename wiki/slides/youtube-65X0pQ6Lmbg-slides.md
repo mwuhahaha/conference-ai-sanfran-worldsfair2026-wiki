@@ -97,7 +97,6 @@ OCR text:
 OCR text:
 
 > AIE
-> THAJOOO
 > Voice In
 
 ![[assets/slides/65X0pQ6Lmbg/slide-006.jpg]]
@@ -125,43 +124,40 @@ OCR text:
 
 OCR text:
 
-> a
-> 
-> ic ae
+> AIE
 
 ![[assets/slides/65X0pQ6Lmbg/slide-008.jpg]]
 
 OCR text:
 
 > The Tyranny
-> AIE
 > of Latency
+> AIE
 
 ![[assets/slides/65X0pQ6Lmbg/slide-009.jpg]]
 
 OCR text:
 
 > AIE
-> 200ms-seamless voice
-> 100ms-feelsinstant
+> 200ms - seamless voice
+> 100ms - feels instant
 
 ![[assets/slides/65X0pQ6Lmbg/slide-010.jpg]]
 
 OCR text:
 
-> rae] Pillars of low latency
+> Pillars of low latency
+> 1
 > Fast models
-> , }
-> ray
 
 ![[assets/slides/65X0pQ6Lmbg/slide-011.jpg]]
 
 OCR text:
 
-> [ae] Pillars of low latency
-> Fast models Short intervals Stable cache
-> Fi
-> 7 Ve
+> Pillars of low latency
+> 1 Fast models
+> 2 Short intervals
+> 3 Stable cache
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

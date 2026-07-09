@@ -46,27 +46,11 @@ OCR text:
 OCR text:
 
 > Anterior
-> WereaNewYork-based,clinician-led
-> companythatprovidesclinical
-> AIE
-> reasoning toolsandsolutionsto
-> accelerateandautomatehealthcare
+> We're a New York-based, clinician-led
+> company that provides clinical
+> reasoning tools and solutions to
+> accelerate and automate healthcare
 > administration
-> BACKEDBY
-> NEA
-> SEQUOIA
-> andFOUNDERSOF
-> DoooMod
-> ALLIMNCF
-> Google
-> Meta
-> Microsoft
-> amazon
-> McKinsey
-> &Company
-> IMPERIAL
-> NHS
-> aws
 
 ![[assets/slides/MRM7oA3JsFs/slide-004.jpg]]
 
@@ -119,44 +103,36 @@ OCR text:
 
 OCR text:
 
-> Ve acnieved a baseline performance of O5% tor anproaving care...
-> then tlerated with asoectific customer to >OS% within 6 weeks
-> —— ee Nic
-> KDE Deal
-> V1 9
-> a Microsoft §= SOU
+> KLAS CASE STUDY
+> We achieved a baseline performance of 95% for approving care...
+> then iterated with a specific customer to >99% within 8 weeks
+> Initial Results 8 Weeks Later
+> Performance (F1-Score)
+> 95.73% Performance (F1-Score)
+> 99.24%
+> using the system
+> outlined in this talk
 
 ![[assets/slides/MRM7oA3JsFs/slide-009.jpg]]
 
 OCR text:
 
-> (2)Empowerdomainexpertstodefineand
-> maintain afailure mode ontology
-> AIE
-> Photo
-> Teke
-> extraction
-> ertrastion
-> location
-> Handuriting
-> Medcolrecord
-> Under-inference
-> extraction
-> extraction
-> Chgckbox
-> MedicalNecessityReview
-> extraction
+> (2) Empower domain experts to define and
+> maintain a failure mode ontology
+> Photo extraction
+> Table extraction
+> Handwriting extraction
+> Medical record extraction
+> Checkbox extraction
+> Medical Necessity Review
 > Failure Modes
-> Logic
-> representation
-> reaso
-> Rles
-> interpretation
-> 21Em
-> Rudlesouree
-> seeetion
-> Microsoft
-> smol?
+> Logic representation
+> Rules interpretation
+> Rule source selection
+> Clinical reasoning
+> Under-inference
+> Over-inference
+> Chronological reasoning
 
 ![[assets/slides/MRM7oA3JsFs/slide-010.jpg]]
 
@@ -199,47 +175,44 @@ OCR text:
 
 OCR text:
 
-> Failure mode datasets enable targeted
-> AIE iteration
-> R
-> aws
+> Failure mode datasets enable targeted product
+> iteration
 
 ![[assets/slides/MRM7oA3JsFs/slide-013.jpg]]
 
 OCR text:
 
-> AIE improvementsdirectlywithtooling andevals Empoweryourdomainexpertstomake Application Pipelines
-> domain experts Toolingfor ofrelennt dontin Rea-tine retrievul knoudedge suggestedppeine deternine vhether to'mokebve' Evalateto changes Domainevals
-> tomakenl donain krowledge Suggestneu topipebnes deternine vhether ikrouledge base ago Evaluate to
-> KnowedaeBase Microsoft smol?
+> AIE
+> Empower your domain experts to make
+> improvements directly with tooling and evals
+> Application Pipelines
+> Tooling for
+> domain experts
+> Domain evals
+> Domain
+> Knowledge Base
+> Microsoft
+> smol.ai
 
 ![[assets/slides/MRM7oA3JsFs/slide-014.jpg]]
 
 OCR text:
 
-> A
 > AIE
 > Putting it together
 > Microsoft
-> smol?
+> smol ai
 
 ![[assets/slides/MRM7oA3JsFs/slide-015.jpg]]
 
 OCR text:
 
 > Takeaways
-> 2 ‘lobuild domain-native LUM applications you necd to salve tne
-> uO TAG Ran emeretmeROcercHMl- BRM cTs 01016 RR Ole R18 OeHOESl0/ | CNT in
-> a pover this system by reviewing Al outputs to
-> arora leiaatie! ; an O Rn tee esetete
-> Tee ei
-> » This takes production cata and uses it to give your LLM oreckicta
-> ees ercreROlALe(Crecteala.el (BRO) MOLU(CKOIRA CT UIOlE-C1 ODIs
-> « Jhoeresultis asel’-imoroving, data-driven process that can be
-> —. ereenovaa meas
-> - q :
-> |:
-> F
+> • To build domain-native LLM applications you need to solve the last mile problem.
+> • Using the best models isn't enough - you should build an adaptive domain intelligence engine.
+> • Domain experts power this system by reviewing AI outputs to generate performance metrics, failure modes and suggested improvements.
+> • This takes production data and uses it to give your LLM product a nuanced understanding of customer workflows.
+> • The result is a self-improving, data-driven process that can be managed by a domain expert PM.
 
 ![[assets/slides/MRM7oA3JsFs/slide-016.jpg]]
 

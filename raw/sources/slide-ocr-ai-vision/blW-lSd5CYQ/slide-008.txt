@@ -1,0 +1,19 @@
+Use Actors from code
+Python JavaScript CLI OpenAPI HTTP MCP
+1 from apify_client import ApifyClient
+3 # Initialize the ApifyClient with your Apify API token
+4 # Replace "<YOUR_API_TOKEN>" with your token.
+5 client = ApifyClient("<YOUR_API_TOKEN>")
+7 # Prepare the Actor input
+8 run_input = {
+9     "searchStringsArray": ["restaurant"],
+10     "locationQuery": "New York, USA",
+11     "maxCrawledPlacesPerSearch": 50,
+12     "language": "en",
+13     "maxImages": 0,
+14 }
+16 # Run the Actor and wait for it to finish
+17 run = client.actor("compass/crawler-google-places").call(run_input=run_input)
+19 # Fetch and print Actor results from the run's dataset (if there are any)
+20 print(f"🔍 Check your data here: https://console.apify.com/storage/datasets/" + run["defaultDatasetId"])
+21 for item in client.dataset(run["defaultDatasetId"]).iterate_items():

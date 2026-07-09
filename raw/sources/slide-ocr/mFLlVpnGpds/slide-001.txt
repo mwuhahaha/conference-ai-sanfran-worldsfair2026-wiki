@@ -1,0 +1,2 @@
+Beyond transcription
+Building voice AI that actually understands

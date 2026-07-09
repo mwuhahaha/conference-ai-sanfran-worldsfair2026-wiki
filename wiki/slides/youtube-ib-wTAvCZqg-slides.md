@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATIONSPONSOR
+> INNOVATION SPONSOR
 > aws
-> PLATINUMSPONSORS
+> PLATINUM SPONSORS
 > MongoDB.
 > Google Cloud
 > neo4j
@@ -32,11 +32,7 @@ OCR text:
 
 OCR text:
 
-> WP
-> 
-> ae)
-> 
-> Py a
+> ANTHROPIC
 
 ![[assets/slides/ib-wTAvCZqg/slide-003.jpg]]
 

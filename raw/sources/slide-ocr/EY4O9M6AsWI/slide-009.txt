@@ -1,7 +1,3 @@
-Public AP| ==:
-lore
-i
-= =
-https://lumalabs.ai/api/pricing aa
-fel a
-; a Microsoft ary?
+Public API
+Check it out at:
+https://lumalabs.ai/api/pricing

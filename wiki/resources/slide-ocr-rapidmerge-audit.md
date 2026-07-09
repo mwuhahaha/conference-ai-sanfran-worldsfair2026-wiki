@@ -10,26 +10,27 @@ sourceLabels: ["Local slide OCR", "RapidOCR", "OCR audit"]
 Weak or suspicious slide OCR is reread with local OCR engines, image crops, and high-contrast variants, then merged against prior OCR sources. Canonical slide OCR is replaced only when the best candidate clears the score-gain threshold.
 
 ## Latest Run
-- Slide images seen: 2,823
-- Slide OCR records processed: 1,783
-- Slides skipped as already clean: 1,021
-- Canonical OCR files updated: 1
-- Manual review queue entries: 756
+- Slide images seen: 2,870
+- Slide OCR records processed: 1,789
+- Slides skipped as already clean: 1,020
+- Canonical OCR files updated: 601
+- Manual review queue entries: 163
 - Slide markdown pages refreshed from canonical OCR: 199
 - Mode: all
-- Elapsed seconds: 2.47
+- Elapsed seconds: 2.28
 - Audit artifact: `raw/sources/slide-ocr-rapidmerge-audit.json`
 - Merge output directory: `raw/sources/slide-ocr-rapidmerge/`
 - Canonical backups: `raw/sources/slide-ocr-before-rapidmerge/`
 
 ## Best Source Distribution
-- canonical: 1699
-- rapidocr-prior: 78
+- canonical: 1144
+- ai-vision: 619
+- rapidocr-prior: 21
 - operator-verified: 4
-- reconstructed: 2
+- reconstructed: 1
 
 ## Canonical Updates By Source
-- operator-verified: 1
+- ai-vision: 601
 
 ## Engine Status
 - Live OCR disabled or no engines selected.

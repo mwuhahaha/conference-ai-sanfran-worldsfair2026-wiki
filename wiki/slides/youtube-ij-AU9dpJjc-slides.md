@@ -62,19 +62,21 @@ OCR text:
 
 OCR text:
 
-> 12-LAYER3
+> 12 — LAYER 3
 > The induction pack.
-> Wheremostteamsstop.
-> /personality-builder.ts
-> const WARMTH_DESCRIPTIONS={
-> 10:'extremelywarmandeffusive',
-> 7:'friendly and approachable',
-> 'neutral and professional',
-> very formal and distant',
-> //Plus banned/approved phrases,USPs-all per-venue
+> Where most teams stop.
+> // personality-builder.ts
+> const WARMTH_DESCRIPTIONS = {
+> 10: 'extremely warm and effusive',
+> 7: 'friendly and approachable',
+> 5: 'neutral and professional',
+> 1: 'very formal and distant',
+> }
+> // Plus banned/approved phrases, USPs — all per-venue.
+> The induction pack is fixed. It was written before the intern met anyone. It doesn't know who walked in this morning,
 > or what they're carrying.
 > ISADORA MARTIN-DYE
-> STOPWRITINGTONEINSTRUCTIONS.LAYERTHEM
+> STOP WRITING TONE INSTRUCTIONS. LAYER THEM.
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

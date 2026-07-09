@@ -158,14 +158,13 @@ OCR text:
 
 OCR text:
 
-> 110SH
-> META MARNESS
-> An agentwith an
-> eideticmemory of
+> META HARNESS
+> An agent with an
+> eidetic memory of
 > the entire
 > organization.
-> Itknows everyrepoandremembersevery
-> sessionbyeverydeveloper.
+> It knows every repo and remembers every
+> session by every developer.
 
 ![[assets/slides/jVjt-2g8NMY/slide-009.jpg]]
 

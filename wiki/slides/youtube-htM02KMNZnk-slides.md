@@ -155,19 +155,18 @@ OCR text:
 
 OCR text:
 
-> World'sFair AIEngineer FoundryIQ Retrievalrelevanceby dataset
-> 90.0
-> 80.0
-> PRESENTED BY 70.0
-> Microsoft 60.0
-> 40.0
-> 20.0
-> o'ot
-> 1INIMAX World's 0.0 BER(NDCG@10) Customer (NDCG@3) MIML (NDCG@3) (@9oo）oddns
-> KrywordVectorHybridsHybrid +Reraning
-> I'sFair Open
-> oe orld's
-> I'sFai Buil
+> AI Engineer
+> World's Fair
+> Presented by
+> Microsoft
+> Foundry IQ
+> Retrieval relevance by dataset
+> BER (NDCG@10)
+> MIRACL (NDCG@10)
+> Customer (NDCG@3)
+> MIML (NDCG@3)
+> Support (NDCG@3)
+> Keyword Vector Hybrid Hybrid + Reranking
 
 ![[assets/slides/htM02KMNZnk/slide-009.jpg]]
 
@@ -367,10 +366,10 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
-> World's Fair
-> Build anopen
+> Build an open
 > ecosystem
+> AIEngineer
+> World's Fair
 
 ![[assets/slides/htM02KMNZnk/slide-017.jpg]]
 
@@ -388,10 +387,12 @@ OCR text:
 
 OCR text:
 
-> World's Fair -
-> TerminalBench 2.1 _ 3 |
-> ox ee
-> Engineering the future of Al
+> AI Engineer
+> World's Fair
+> Cost
+> TerminalBench 2.1
+> Score
+> Engineering the future of AI
 
 ![[assets/slides/htM02KMNZnk/slide-019.jpg]]
 
@@ -410,36 +411,21 @@ OCR text:
 
 OCR text:
 
-> CTS ed
+> AI Engineer
 > World's Fair
-> Wor' “air
-> [= Siecoaeea eS iy
-> Wo! oF oy ep oe ee
-> Pearl
-> te i
+> Engineering the future of AI
 
 ![[assets/slides/htM02KMNZnk/slide-021.jpg]]
 
 OCR text:
 
-> AlEngineer
-> World's Fair
 > Paul Solt
-> @PauSolt-Follow
-> MyNEWCodexworkflowisbetterthanIexpected.
-> 8new featuresready forrelease in my app.
-> bugs.Feels like the future.
-> PRESENTEDBY
-> Thanks@Dimillian @emanueledpt and @steipetefor the
-> inspiration.
-> Microsoft
-> 10min
-> PRs
-> AlEngine
-> World's
-> W
-> W
-> Engineering the future of Al
+> @PaulSolt · Follow
+> My NEW Codex workflow is better than I expected.
+> 8 new features ready for release in my app.
+> Took a few attempts to figure out the workflow and some bugs. Feels like the future.
+> Thanks @Dimillian @emanueledpt and @steipete for the inspiration.
+> Engineering the future of AI
 
 ![[assets/slides/htM02KMNZnk/slide-022.jpg]]
 
@@ -1113,14 +1099,21 @@ OCR text:
 
 OCR text:
 
-> World'sFair AEngi Pre-Recorded for Worid'sFair 2026 You are watching an AiE Online Talk
-> This iswhenproductivity actually explodes.
-> Designer Dev QA
-> Figma fleshandofiterations Code-CI40min wait~feedback Find bug→ticketwait →retest
-> Works directy on running code Agent+sandbox→live in30s Tells agent directlyin browser
-> Ships complete features Bug fixed before ticket is filed
-> The workflowrunsatAl speed.Not just the code.
-> stag.build 10/11
+> This is when productivity actually explodes.
+> Designer
+> Figma files -> handoff -> iterations
+> Works directly on running code
+> Dev
+> Code -> CI -> 40min wait -> feedback
+> Agent + sandbox -> live in 30s
+> QA
+> Find bug -> ticket -> wait -> retest
+> Tells agent directly in browser
+> Ships complete features
+> Bug fixed before ticket is filed
+> The workflow runs at AI speed. Not just the code.
+> stag.build
+> 10 / 11
 
 ![[assets/slides/htM02KMNZnk/slide-068.jpg]]
 
@@ -1172,16 +1165,8 @@ OCR text:
 
 OCR text:
 
-> | a cee ee het nl | Baa Pd
-> v4
-> ——_—___ | —_ Fi a1 a : a
-> a) ar 7 . * ae )
-> rll an eae
-> ——_—! a ne ; a
-> ~ D
-> v Na
-> 7 ae i) a ©
-> STS &
+> THE PRAGMATIC
+> ENGINEER
 
 ![[assets/slides/htM02KMNZnk/slide-073.jpg]]
 
@@ -1235,47 +1220,44 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
-> AGoogle Antigravity
-> World'sFair
-> PRESENTED BY
-> Microsoft
-> Autocomplete-Chat
-> Agents
-> Agent Manager
-> Embeddingsearch
-> Chet-Agents only
-> Multiple agents in parallel
-> Rulesfiles
-> Customtools
-> Skills &plugins
+> Google Antigravity
+> 2022
+> Autocomplete + Chat
+> Embedding search
+> Rules files
 > Code snippets around cursor
-> MCPserverintegrations
-> 2026era?
-> Tree sitter ASTparsing
-> Hooks
+> Tree sitter AST parsing
+> Deterministic context retrieval
+> 2024
+> Agents
+> Chat → Agents only
+> Custom tools
+> MCP server integrations
 > Permissions
-> Artifacts (ie.plan& walkthrough docs)
-> nAI
-> Deterministiccontextretrieval
-> Agenticresearchforcontext
-> Agent-first management Uls
-> f
-> Fair
-> Engineering the future of Al
+> Agentic research for context
+> 2025
+> Agent Manager
+> Multiple agents in parallel
+> Skills & plugins
+> Hooks
+> Artifacts (ie. plan & walkthrough docs)
+> Agent-first management UIs
+> 2026
+> 2026 era?
+> Engineering the future of AI
 
 ![[assets/slides/htM02KMNZnk/slide-079.jpg]]
 
 OCR text:
 
-> World'sFair AIEngineer AGoogleAntigravity Scalingwithintelligenceisn'talwayseasy
-> PRESENTED BY t Knvia Hu kevinho.2 -f19. 2005 Wmadd bet 2024 so be a.e and o Codet Daecoet, fle edt,
-> Microsoft Loganciogrto 2442-Fb1,2025
-> Whichis technically andstatiaticallycorrect O Oangemy mind 口
-> GivingAlaTerminal Removing Chat.OnlyAgent
-> Goo DeepMin Fearfrom users（rightfully so)about the potential downsides Modelsgotbetterinvestinprmissions primitives,andyou end up building muchfaster, safely agents Multi-step.agentic research and execution was thefuture Lotsof userpushback removing chatinfavor of
-> Fair
-> Engineering the future of Al
+> Scaling with intelligence isn’t always easy
+> Giving AI a Terminal
+> Fear from users (rightfully so) about the potential downsides
+> Models got better, invest in permissions primitives, and you end up building much faster, safely
+> Removing Chat, Only Agent
+> Lots of user pushback removing chat in favor of agents
+> Multi-step agentic research and execution was the future
+> Engineering the future of AI
 
 ![[assets/slides/htM02KMNZnk/slide-080.jpg]]
 
@@ -1659,13 +1641,14 @@ OCR text:
 
 OCR text:
 
-> World'sFair
-> You are wartching an AiE Online Talk
-> Pre-Recorded for Worid'sFair 2026.
+> AI Engineer
+> World's Fair
+> You are watching an AIE Online Talk
+> Pre-Recorded for World's Fair 2026
 > User Signal dies at the
 > Retrieval Boundary.
 > Sonam Pankaj
-> CEO&Co-FounderStarlightSearch
+> CEO & Co-Founder StarlightSearch
 > agentRTX
 
 ![[assets/slides/htM02KMNZnk/slide-102.jpg]]

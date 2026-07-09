@@ -147,7 +147,6 @@ OCR text:
 OCR text:
 
 > Phase 4: Order without Centralised Control
-> bg.
 
 ![[assets/slides/qdZzND79mcg/slide-010.jpg]]
 

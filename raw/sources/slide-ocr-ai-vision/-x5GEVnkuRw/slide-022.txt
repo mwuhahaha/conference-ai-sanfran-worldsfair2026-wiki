@@ -1,0 +1,30 @@
+We can also run it using an OpenAI-compatible API like Ollama.
+
+from docling.datamodel.pipeline_options import PictureDescriptionApiOptions
+
+if RUN_LOCAL_OLLAMA:
+    # Configure enrichment pipeline
+    enrichment_options = PdfPipelineOptions(
+        do_picture_description=True,
+        enable_remote_services = True,
+        picture_description_options=PictureDescriptionApiOptions(
+            url="http://localhost:11434/v1/chat/completions",
+            params={
+                "model": "granite3.2-vision:2b",
+                "max_completion_tokens": 200,
+            },
+            prompt="Give a detailed description of what is depicted in the image",
+            timeout=60,
+        ),
+        generate_picture_images=True,
+        images_scale=1.0,
+    )
+
+    converter_enriched = DocumentConverter(
+        format_options={
+            InputFormat.PDF: PdfFormatOption(pipeline_options=enrichment_options)
+        }
+    )
+
+    enr_result = converter_enriched.convert(docling_paper)
+    enr_doc = enr_result.document

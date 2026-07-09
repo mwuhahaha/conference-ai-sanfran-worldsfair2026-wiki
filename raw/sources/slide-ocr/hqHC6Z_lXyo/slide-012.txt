@@ -1,22 +1,11 @@
-HowToReachSOTAPerformance?
-Option 1:Use optimized Performance models
-AIE
+How To Reach SOTA Performance?
+Option 1: Use optimized Performance models
 Video Endpoints
 Image Endpoints
-TextEndpoints
-s
-eplicate
-aws
-Runware
-Segmind
-qeley
-WIRO
-Option 2:Develop and apply inference optimization
-PrunoAl
-AI EfficiencyPackage
-Al EfficiencyMaterials
-Al Efficiency Courses
-mesllibub.comPrunaAllcza
-nollaihub.comPnnaAicon
-AIEngineer
-rinanr
+Text Endpoints
+Audio Endpoints
+Option 2: Develop and apply inference optimization
+AI Efficiency Package
+AI Efficiency Materials
+AI Efficiency Courses
+AI Engineer

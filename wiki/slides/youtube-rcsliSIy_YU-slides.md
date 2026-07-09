@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Automating Massive |
-> Refactors with Agents |
-> (3,0; OpenHands
+> Automating Massive
+> Refactors with Agents
+> OpenHands
 
 ![[assets/slides/rcsliSIy_YU/slide-002.jpg]]
 
@@ -88,14 +88,8 @@ OCR text:
 
 OCR text:
 
-> 4
-> ] er:
-> aaa
-> Ce Ie na rial
-> — b a is ant at fl
-> ie es _
-> : 7" , 2025-11-22 14:41:33
-> JFK 27-B1.300 jj ;
+> JFK27-B1.300
+> 2025-11-22 14:41:33
 
 ![[assets/slides/rcsliSIy_YU/slide-006.jpg]]
 
@@ -206,18 +200,9 @@ OCR text:
 
 OCR text:
 
-> =: =] f n y
-> td
-> , my \,. on
-> 
-> : 4
-> 
-> ; i“ and
-> 
-> b Seer ol Bemege Aaa ;
-> 
-> | ;
-> aR ee
+> JFK27-B1.300
+> OpenHands
+> 2025-11-22 15:02:53
 
 ![[assets/slides/rcsliSIy_YU/slide-013.jpg]]
 
@@ -319,22 +304,9 @@ OCR text:
 
 OCR text:
 
-> j
-> |
-> i
-> i
-> a J
-> | 4
-> ad meted cre
-> e! ,
-> an
-> an
-> ,. 3 i wa
-> i a, 8 Onenrtandal
-> z
-> a al
-> 7 . iow ' 2025-11-22 15:15:11
-> JFK27-B1.300 ,™ a ' a
+> OpenHands
+> JFK27-B1.300
+> 2025-11-22 15:15:11
 
 ![[assets/slides/rcsliSIy_YU/slide-019.jpg]]
 

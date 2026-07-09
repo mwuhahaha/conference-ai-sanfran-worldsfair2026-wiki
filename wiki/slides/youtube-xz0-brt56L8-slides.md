@@ -37,21 +37,13 @@ OCR text:
 
 OCR text:
 
-> Ce er Ore os oo Me ed a ee } ae) eta we ot SY
-> « nn 7 a oO
-> P a - 0 * _
-> Ea What is Manus
-> x)
-> Cea 1. Te eel a i 2025-11-22 09:34:55
+> What is Manus
 
 ![[assets/slides/xz0-brt56L8/slide-003.jpg]]
 
 OCR text:
 
-> Q ra e VA
-> , a 4 A | WP. rT
-> a
-> JFK27-B1,302 om
+> JFK27-B1.302
 
 ![[assets/slides/xz0-brt56L8/slide-004.jpg]]
 
@@ -90,15 +82,14 @@ OCR text:
 
 OCR text:
 
-> Revert ato-wing
-> 
-> =
-> 
-> chide Miachments
-> 
-> Den i hate Attar Aree
-> 
-> =
+> Revert auto-sizing
+> Reply
+> Forward
+> Translate
+> Include Attachments
+> Don't include Attachments
+> Cancel
+> 2025-11-22 09:40:40
 
 ![[assets/slides/xz0-brt56L8/slide-006.jpg]]
 
@@ -137,10 +128,7 @@ OCR text:
 
 OCR text:
 
-> an
-> y. 7 Py Lia
-> a a4
-> JFK 27-B1,302
+> JFK27-B1.302
 
 ![[assets/slides/xz0-brt56L8/slide-009.jpg]]
 
@@ -172,46 +160,22 @@ OCR text:
 
 OCR text:
 
-> ry i‘
-> f
-> a iF
-> b
-> 3
-> 2 ' %
-> : ed f
-> is
-> k co ,
-> \ \
-> Li |
-> PLL WY Ee SEe
-> A oa -3 arse
+> JFK27-B1.302
+> 2025-11-22 09:45:18
 
 ![[assets/slides/xz0-brt56L8/slide-011.jpg]]
 
 OCR text:
 
-> War
-> ae
+> JFK27-B1.302
 > 2025-11-22 09:46:33
-> JFK 27-B1.302
 
 ![[assets/slides/xz0-brt56L8/slide-012.jpg]]
 
 OCR text:
 
-> ' E
-> 
-> F]
-> 
-> ; f
-> 
-> 1
-> 4%
-> a
-> a oN
+> JFK27-B1.302
 > 2025-11-22 09:47:23
-> 
-> JFK 27-B1.302
 
 ![[assets/slides/xz0-brt56L8/slide-013.jpg]]
 
@@ -373,28 +337,24 @@ OCR text:
 
 OCR text:
 
-> manusm/ap/TQjEENrstzUAeSBPhQ6K7Y
 > manus
-> Manus1.5
-> Newtask
-> QSrch
-> Whatis2
-> manus
-> Whatis2+27
-> Caicuate theresult~
-> Smgie Coftee Re
-> dation
-> Where to Find Coffee NearAiNS
-> ZS
-> How toWak toAiS Hank 27 fo
-> Doda
+> Manus 1.5
+> New task
+> Search
+> Library
+> What is 2 + 2? Please provide a brief answer.
+> Let me calculate that for you.
+> Calculate the result
+> Calculating 2 + 2 estimates the answer is 4, ready to deliver this brief result to the user.
+> Thinking
+> 2025-11-22 10:09:35
 
 ![[assets/slides/xz0-brt56L8/slide-021.jpg]]
 
 OCR text:
 
-> ; 2025-11-22 10:10:50
-> As Oxi SREP
+> JFK27-B1.302
+> 2025-11-22 10:10:50
 
 ![[assets/slides/xz0-brt56L8/slide-022.jpg]]
 

@@ -30,26 +30,22 @@ OCR text:
 
 OCR text:
 
-> asked: sell $12,000
-> 
-> @
+> asked: sell $1,000
 
 ![[assets/slides/Lc8zRh9muoY/slide-003.jpg]]
 
 OCR text:
 
-> asked: sell $1,0o0
-> sold:$190,000
-> broker·POST/orders→200OK
-> order.status FILLED$190,000
+> asked: sell $1,000
+> sold: $190,000
+> broker · POST /orders → 200 OK ✓
+> order.status FILLED · $190,000
 
 ![[assets/slides/Lc8zRh9muoY/slide-004.jpg]]
 
 OCR text:
 
-> temperature = O
-> 
-> 2
+> temperature = 0
 
 ![[assets/slides/Lc8zRh9muoY/slide-005.jpg]]
 ![[assets/slides/Lc8zRh9muoY/slide-006.jpg]]
@@ -312,15 +308,18 @@ OCR text:
 
 OCR text:
 
-> trade_notional.pyβ zsh (1002-place_order-1.json M ()001-agent-1.json M PreviewREADME.md
-> 2.Replay/evalmode-mimicoutputfromasavedEnvelope
-> @boundarywrapper（EvAL+stub)
-> @boundary("place_order",kind="tool") same decorator
-> ReplayPlan(trace_id).stub("place_order",1)eval:freeze this step
-> defplace_order(symbol:str,quantity:int)->dict: notional=quantity*SHARE_PRICE return{"status":"filled",...} -NOTexecuted
-> mimics the output Chronicle captured in LIvE mode OUTPuT returned from saved Envelope （incident fixture) {"status":“filled"，"notional_cents":19000000,...)
-> Forcut-pointtests,oneboundarycanbesettoliveinsteadofstub-thewrapperrunsyournewfunctionbodywhileupstreamsteps
-> stillmimicthesavedEnvelope.SeeCut-pointreplaybelow.
+> 2. Replay / eval mode — mimic output from a saved Envelope
+> Your function does not run. Chronicle returns the same output that was recorded during the incident (from the fixture trace).
+> @boundary wrapper (EVAL + stub)
+> @boundary("place_order", kind="tool") ← same decorator
+> ReplayPlan(trace_id).stub("place_order", 1) ← eval: freeze this step
+> def place_order(symbol: str, quantity: int) -> dict:
+> notional = quantity * SHARE_PRICE
+> return {"status": "filled",...} ← NOT executed
+> OUTPUT returned from saved Envelope (incident fixture)
+> {"status": "filled", "notional_cents": 19000000,...}
+> mimics the output Chronicle captured in LIVE mode
+> For cut-point tests, one boundary can be set to live instead of stub — the wrapper runs your new function body while upstream steps still mimic the saved Envelope. See Cut-point replay below.
 
 ![[assets/slides/Lc8zRh9muoY/slide-019.jpg]]
 
@@ -425,8 +424,8 @@ OCR text:
 OCR text:
 
 > code + writeup
-> 回
-> Thanks -- now go chronicle your agent.. -The Chronicle team
+> Thanks -- now go chronicle your agent....
+> -The Chronicle team
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -1,11 +1,16 @@
-TheFatAgentTrap THEPROBLEM
-The Naive Architecture Ankush Rastogi
-Theeasiest approach istodump every tool'sschema into the prompton everyrequest.Itworksperfectlyindemosand falls apartinproduction. EVERY SINGLE REQUEST UserQuery
-TokenBloat 127,000tokensfor741tools LLM+ALL100+ToolSchemas
-Sohal Shakh
-AccuracyCrash78%→13%asthetoolpoolgrows 1 T2 E1 T4
+THE PROBLEM
+The Fat Agent Trap
+The Naive Architecture
+The easiest approach is to dump every tool's schema into the prompt on every request. It works perfectly in demos and falls apart in production.
+Token Bloat 127,000 tokens for 741 tools
+Accuracy Crash 78% → 13% as the tool pool grows
+Cost Explosion Up to 99x more tokens billed
+Context Crowding No room left for actual reasoning
+EVERY SINGLE REQUEST
+User Query
+LLM + ALL 100+ Tool Schemas
+T1 T2 T3 T4 T5
 T6 T7 T8 T9 T10
-CostExplosion Upto99xmore tokensbilled T11 T12 T100 85nore
-ContextCrowding Noroomleftforactualreasoning Every token,everyrequest isbilled andprocessedinful
-20
-Ankush Rastogi
+T11 T12... T100 + 85 more
+Every token, every request is billed and processed in full.
+03

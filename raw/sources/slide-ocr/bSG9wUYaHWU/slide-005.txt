@@ -1,6 +1,10 @@
-ContextDevelopmentLifecycle
-Makingimpicit knowledgeexpliot Generate Distribute Cotet asapacage
-AIE
-Evaluate TDDfor context Leam from use in the wld Observe
-AIEngineer
-AlEngineer Engineering the future of Al
+Context Development Lifecycle
+Generate
+Making implicit knowledge explicit
+Distribute
+Context as a package
+Evaluate
+TDD for context
+Observe
+Learn from use in the wild
+Engineering the future of AI

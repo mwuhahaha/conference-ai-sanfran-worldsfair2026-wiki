@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATIONSPONSOR
+> INNOVATION SPONSOR
 > aws
-> PLATINUMSPONSORS
+> PLATINUM SPONSORS
 > MongoDB.
 > Google Cloud
 > neo4j
@@ -32,24 +32,8 @@ OCR text:
 
 OCR text:
 
-> e ‘ ‘
-> * _
-> ) ® = ws. | fa! :
-> r : | i as a ae ae 7 |
-> eet i nN i 4 ae re :
-> P e ee ad if an
-> ‘ se er ae re
-> oe N i 7
-> b
-> | L
-> l rs ce
-> 7 a
-> oe
-> co a a
-> P I
-> —
-> Sra eee =
-> gaa Fanaa on ml
+> Microsoft
+> AI Engineer
 
 ![[assets/slides/1t-9-s1brcg/slide-003.jpg]]
 
@@ -347,13 +331,17 @@ OCR text:
 
 OCR text:
 
-> 6 Gen mh tn we oer, beeeew ln Ww oe Be Og ec ROARS 928 wniaw
-> Oc Ammen Ce ee ee en ee ° Bente tte le .
+> Microsoft Azure
+> MY ACCOUNT SIGN OUT
 > Ready to get started?
 > Try Microsoft Azure Pass
-> tC
-> =
-> 8-30 @ &« Dees OT] TY
+> We’re offering an Azure Pass, so for a limited time period, you can try Azure for free
+> *No credit card required*
+> Start >
+> Use the links below to learn more
+> Redemption Process Guide
+> Azure Documentation
+> Explore Azure
 
 ![[assets/slides/1t-9-s1brcg/slide-020.jpg]]
 

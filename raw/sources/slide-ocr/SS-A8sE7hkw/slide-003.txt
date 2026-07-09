@@ -1,3 +1,2 @@
-AIE Gemma4
-Braintrust Workos OpenAl
-AIE
+Gemma 4
+Braintrust WorkOS OpenAI

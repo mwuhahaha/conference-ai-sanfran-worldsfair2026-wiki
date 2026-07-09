@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> AIEngineer EUROPE Beyond Cor
+> Beyond Cor
+> AIEngineer EUROPE
 > EU/ACC
-> 2006 AIEngineer
 
 ![[assets/slides/hCMrEfPG2Yg/slide-002.jpg]]
 
@@ -80,17 +80,8 @@ OCR text:
 OCR text:
 
 > November 2025
-> Opus
-> Ee ~
-> Pane a
-> * *
-> , ,
-> od ra bd
-> be
-> an |
-> LAT
-> | Al Engineer |
-> ! ea
+> 5.2
+> Opus 4.5
 
 ![[assets/slides/hCMrEfPG2Yg/slide-005.jpg]]
 
@@ -113,30 +104,25 @@ OCR text:
 OCR text:
 
 > https://json-render.dev/
-> json-renderChat Example
-> Start Ove
-> 1953-DNAStructure
-> RondFrsXy cty t NP
-> and Cricksdsry of thdoulx
-> 2011-Qasicrytal Nobel Prie
-> AIE
-> DanShecmnwnsheNoe Prr dscover
-> noerdcstructresthatwen thought me
-> Quick quiz on crystal struclurs
+> json-render Chat Example
+> Start Over
+> 1953 - DNA Structure
+> 2011 - Quasicrystal Nobel Prize
+> Test Your Knowledge
+> Quick quiz on crystal structures
 > Q1: How many atoms are in an FCC unit cell?
-> O2
-> O1
-> O4
-> Check Anywer
-> Ask a folic
-> AIEngineer
-> EUROPE
+> 1
+> 2
+> 4
+> 8
+> Check Answer
+> Ask a Follow-up...
 
 ![[assets/slides/hCMrEfPG2Yg/slide-007.jpg]]
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

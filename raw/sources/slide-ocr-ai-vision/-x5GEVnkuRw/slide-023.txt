@@ -1,0 +1,15 @@
+How chunkless RAG works
+
+Chunkless retrieval is a four-step loop:
+
+Document outline
+(per-section summaries)
+
+1. SELECT — LLM picks the most relevant unvisited
+   section by reading the outline + query.
+
+2. FETCH — Pull the *full text* of that section's
+   subtree from the DoclingDocument.
+
+3. ATTEMPT — LLM tries to answer from the section text.
+   Returns (can_answer: bool, response: str).

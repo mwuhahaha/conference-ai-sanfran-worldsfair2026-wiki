@@ -21,9 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ; | -
-> abide Dominik Tornow
-> ly © Resonate HO
+> Dominik Tornow
+> Resonate HQ
 
 ![[assets/slides/DqtmZE6Hl0g/slide-002.jpg]]
 

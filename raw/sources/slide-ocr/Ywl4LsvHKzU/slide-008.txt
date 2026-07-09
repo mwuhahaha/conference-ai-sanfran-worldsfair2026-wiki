@@ -1,7 +1,5 @@
-High Level ldea
+High Level Idea
 Query
+Unstructured Corpus
+Data Structure
 FIFA World Cup
-Unstructured
-DataStructure
-Corpus
-ONAIR

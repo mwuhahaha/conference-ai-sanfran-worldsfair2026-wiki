@@ -75,7 +75,7 @@ OCR text:
 
 OCR text:
 
-> Intelhgence wlth Everyene
+> Intelligence with Everyone
 > AIE
 
 ![[assets/slides/lY1iFbDPRlw/slide-005.jpg]]
@@ -97,6 +97,11 @@ OCR text:
 > allfo MINIMAX Intelligence +-ith Everyenc
 
 ![[assets/slides/lY1iFbDPRlw/slide-007.jpg]]
+
+OCR text:
+
+> AIE
+
 ![[assets/slides/lY1iFbDPRlw/slide-008.jpg]]
 
 OCR text:

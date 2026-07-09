@@ -122,7 +122,7 @@ OCR text:
 
 OCR text:
 
-> :
+> AIE
 
 ![[assets/slides/rgjF5o2Qjsc/slide-008.jpg]]
 
@@ -200,17 +200,19 @@ OCR text:
 
 OCR text:
 
-> , Qodo Code Review Stats ro
-> as
-> oY
-> | 17% s10b/4 Ne
-> ee When Al rev.ew toolss enanied,
-> ear aero &
-> Sa
-> a
-> | | | re fexelo)
-> i CT Cy
-> Engineering the future of Al
+> Qodo Code Review Stats
+> Guardrail that detects critical issues, boosts productivity
+> Sample size: ~1m PRs
+> 17%
+> Of PRs contained issue with
+> high severity (9-10)
+> 80%
+> When AI review tool is enabled,
+> 80% of PRs don't have any
+> human comment or review
+> Source: Qodo State of AI Code Quality Report & SonarSource State of Code
+> AI Engineer
+> Engineering the future of AI
 
 ![[assets/slides/rgjF5o2Qjsc/slide-014.jpg]]
 
@@ -238,8 +240,7 @@ OCR text:
 
 OCR text:
 
-> Code Srra AIE
-> Gantk.eMh
+> AIE
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

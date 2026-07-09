@@ -21,8 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> You can't prompt the room.
-> Cheap to build.Expensive to decide.
+> You can't prompt
+> the room.
+> Cheap to build. Expensive to decide.
 
 ![[assets/slides/6bmM45jkMDY/slide-002.jpg]]
 
@@ -47,9 +48,12 @@ OCR text:
 
 OCR text:
 
-> THE-SHIFT
-> Thebottleneckmoved.
-> getting the code built NOW deciding whattobuild
+> THE SHIFT
+> The bottleneck moved.
+> USED TO BE
+> getting the code built
+> NOW
+> deciding what to build
 
 ![[assets/slides/6bmM45jkMDY/slide-005.jpg]]
 

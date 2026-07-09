@@ -172,9 +172,7 @@ OCR text:
 OCR text:
 
 > Multi-head Attention
-> j
 > Multilayer Perceptron
-> fl a Microsoft ary?
 
 ![[assets/slides/ZuiJjkbX0Og/slide-008.jpg]]
 
@@ -215,15 +213,54 @@ OCR text:
 
 OCR text:
 
-> SimilarArchitecture,DifferentTraining
-> predictingpattemsndata esodund-uedpung knowledgebase by training to mimic“idel" Task correctness by gndino
-> AIE GPTAssistanttrainingpipeline
-> Stage Pretraining Reward Modellng Reinforcement Learning
-> Dataset Raw internet teilons fwonds -10-100（prmg idealAsat esponses Demonstrations spq AenbeyXouenbmo 100K-1Mcomparisons Comparisons winenby contadors lowquanty highqualty writlenbycontraon Prompts 10K-100kpromps owguayhigqalty
-> Algorithm Language modeling pnediet the net token Languagemodeling predict the next token Binary classification predicrerds consent w prelerences Reinforcement Leaming gecerale lokens thatmaimise thereward
-> Model GP Basemodel SFTmodel RMmodel RLmodel init from SFT ChatGPT
-> Notes apog odapue) monhsoftan 1000sofGPUs 1.100GPUs can depoy Nismodel 1.100GPUs day of traning 1-100GPUs dayi of vani lposgodapue
-> Microsoft smol?
+> Similar Architecture, Different Training
+> GPT Assistant training pipeline
+> Stage Pretraining Supervised Finetuning Reward Modeling Reinforcement Learning
+> Dataset
+> Raw internet
+> billions of words
+> low quality, large quantity
+> Demonstrations
+> Ideal Assistant responses
+> ~10-100K prompt, response
+> written by contractors
+> low quantity, high quality
+> Comparisons
+> 100K-1M comparisons
+> written by contractors
+> low quantity, high quality
+> Prompts
+> 10K-100K prompts
+> written by contractors
+> low quantity, high quality
+> Algorithm
+> Language modeling
+> predict the next token
+> Language modeling
+> predict the next token
+> Binary classification
+> predict rewards consistent w preferences
+> Reinforcement Learning
+> generate tokens that maximize the reward
+> Model
+> GPT-3
+> Base model
+> SFT model
+> RM model
+> RL model
+> Notes
+> 1000s of GPUs
+> months of training
+> e.g. GPT, LLaMA, PaLM
+> can deploy this model
+> 1-100 GPUs
+> days of training
+> e.g. Vicuna-13B
+> can deploy this model
+> 1-100 GPUs
+> days of training
+> e.g. ChatGPT, Claude
+> can deploy this model
 
 ![[assets/slides/ZuiJjkbX0Og/slide-011.jpg]]
 

@@ -1,4 +1,4 @@
 Specs are the new code
-Evaluationcriteria
-Systemdesign
-Productrequirements
+Evaluation criteria
+System design
+Product requirements

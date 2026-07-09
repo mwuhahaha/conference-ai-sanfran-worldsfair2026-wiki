@@ -21,9 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ANTHROP\C
-> 
-> Pr
+> ANTHROPIC
 
 ![[assets/slides/9fubhllmsBU/slide-002.jpg]]
 
@@ -90,14 +88,11 @@ OCR text:
 
 OCR text:
 
-> Mi elale koa aT
-> ; aa
-> ees Models are grown,
+> Models are grown,
 > not designed.
-> aed worlds Fi
-> Fair Pi=3e7
-> as ee ee Cee et ca
-> tg aiapc Tariq Shaukat [ ME el Reaeala
+> In the Land of AI Agents, the Verifiers Are King
+> Tariq Shaukat / Chief Executive Officer
+> Sonar
 
 ![[assets/slides/9fubhllmsBU/slide-007.jpg]]
 
@@ -188,7 +183,8 @@ OCR text:
 
 OCR text:
 
-> World'sFair AlEngineer
+> AI Engineer
+> World's Fair
 > HTTPS://AI.ENGINEER
 
 ## Slide-Derived Subjects To Review

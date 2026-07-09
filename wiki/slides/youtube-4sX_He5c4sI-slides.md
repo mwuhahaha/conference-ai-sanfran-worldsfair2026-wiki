@@ -302,30 +302,23 @@ OCR text:
 
 OCR text:
 
-> World's Fair AIEngineer
-> the easy part. Clicking was
-> OpenA
-> AmazonAGlLab
-> NC PerceptionAgents
-> DAT. AntjeBarth/MemberofTechnicalStaffAmazonAGl Lab
+> AI Engineer
+> World's Fair
+> Clicking was
+> the easy part.
+> Amazon AGI Lab
+> Perception Agents
+> Antje Barth / Member of Technical Staff Amazon AGI Lab
 
 ![[assets/slides/4sX_He5c4sI/slide-021.jpg]]
 
 OCR text:
 
-> World's Fair |
-> a Microsoft ee ( ) ae
-> 
-> ~
+> Perceive
+> Act
 > Plan
-> 
-> A Brora aie
-> 
-> aoe at 2°
-> 
-> —_ rl ye Perception Agents
-> 
-> ean iTerateae Antje Barth Amazon AGI Lab
+> Perception Agents
+> Antje Barth / Member of Technical Staff Amazon AGI Lab
 
 ![[assets/slides/4sX_He5c4sI/slide-022.jpg]]
 
@@ -438,16 +431,14 @@ OCR text:
 
 OCR text:
 
-> World'sFair AlEngineer StateofAlSoftwareEngineering
-> PRESENTEDBY Super-human SyntaxGeneration %S6
-> Microsoft Local ProblemSolving&Tasks Multi-step Codebase Planning 45% 70%
+> State of AI Software Engineering
+> Super-human Syntax Generation 95%
+> Local Problem Solving & Tasks 70%
+> Multi-step Codebase Planning 45%
 > Architectural System Decisions 25%
-> Modelsgenerate localizedcode rapidlybut struggle toform cohesive systems,design complex architectures,andpredictoverall
-> securityflaws.
-> Id'sFair oz
-> benAl World AlEng
-> Id's En Mic ResearchtoRealitywithGoogleDeepMind
-> AlEng BenoitSchillings/VicePresidentofResearch Google DeepMind
+> Models generate localized code rapidly but struggle to form cohesive systems, design complex architectures, and predict overall security flaws.
+> Research to Reality with Google DeepMind
+> Benoit Schillings / Vice President of Research Google DeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-030.jpg]]
 
@@ -472,41 +463,48 @@ OCR text:
 
 OCR text:
 
-> World'sFair AlEngineer The Eeononlidsof Code ARCHITECTURE SECURITY
-> ~$O TheBottleneckTransformed SPECIrI-
-> When generatingcodebecomesvirtuallyfree,software creation isno longer thekey constraint. The system pressure shiftstovalidation and specification.
-> Marginal Costof Code The core disciplinesof the future engineer willfocuson
+> The Economics of Code
+> ~$0
+> Marginal Cost of Code
+> The Bottleneck Transformed
+> When generating code becomes virtually free, software
+> creation is no longer the key constraint. The system pressure
+> shifts to validation and specification.
+> The core disciplines of the future engineer will focus on
+> defining system correctness, auditing security boundaries,
 > and designing precise constraints.
-> Write onlycode,fast coderefresh.Thisis the same step we sawwith compilers,who stillreads the assembly output?
-> World's
-> Brows
-> W ResearchtoRealitywithGoogleDeepMind
-> Benoit Schillings/VicePresidentofResearch GoogleDeepMind
+> Write only code, fast code refresh. This is the same step we
+> saw with compilers, who still reads the assembly output?
+> Research to Reality with Google DeepMind
+> Benoit Schillings / Vice President of Research Google DeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-032.jpg]]
 
 OCR text:
 
-> World'sFair AlEngineer Next-Gen Architecture Foundations
-> Multimodal Design Reason LLM-NativeTargetLanguages
-> Human developersrequire languages that optimize for
-> textual.Modern multimodal modelslikeGemini are codereadability.ForAlmodels,dowe stillneed
-> fliowcharts and interface layouts against the standard languages,or do we pivot to mathematically
-> synthesizedcode.
-> orld'sFair
-> Browserbas WoI
-> 'orld AlEngir ResearchtoRealitywithGoogleDeepMind
-> BenoitSchillings/VicePresidentofResearch GoogleDeepMind
+> AI Engineer World's Fair
+> Next-Gen Architecture Foundations
+> Multimodal Design Reason
+> Software architecture is visual and spatial, not just
+> textual. Modern multimodal models like Gemini are
+> bridging this gap, allowing direct evaluation of visual
+> flowcharts and interface layouts against the
+> synthesized code.
+> LLM-Native Target Languages
+> Human developers require languages that optimize for
+> code readability. For AI models, do we still need
+> standard languages, or do we pivot to mathematically
+> precise, highly rigorous specification engines like Rust?
+> Research to Reality with Google DeepMind
+> Benoit Schillings / Vice President of Research Google DeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-033.jpg]]
 
 OCR text:
 
 > APARNA DHINAKARAN
-> DW
-> CO-founder & cpo
-> rid'sFai ^ arize AIE
-> MicrooR
+> CO-FOUNDER & CPO
+> arize
 
 ![[assets/slides/4sX_He5c4sI/slide-034.jpg]]
 
@@ -568,8 +566,8 @@ OCR text:
 
 OCR text:
 
-> World's Fair Al Engineer
-> AIE
+> AI Engineer
+> World's Fair
 
 ![[assets/slides/4sX_He5c4sI/slide-037.jpg]]
 
@@ -675,7 +673,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > World's Fair
 
 ![[assets/slides/4sX_He5c4sI/slide-043.jpg]]
@@ -745,12 +743,12 @@ OCR text:
 
 OCR text:
 
-> World'sFair PRESENTEDBY AlEngineer EUREKA THE recursive
-> Microsoft
+> THE
+> EUREKA
 > MACHINE
-> Microsoft World's NEWERAOFSCIENTIFICDISCOVERIES WHYAIISTHEKEYTOUNLOCKINGA
-> rld'sFa Browse
-> radiun id's Engineering the future of Al
+> WHY AI IS THE KEY TO UNLOCKING A
+> NEW ERA OF SCIENTIFIC DISCOVERIES
+> Engineering the future of AI
 
 ![[assets/slides/4sX_He5c4sI/slide-048.jpg]]
 
@@ -775,23 +773,44 @@ OCR text:
 
 OCR text:
 
-> World'sFair AlEngineer Firstsimpleproofpoints Better training,faster training,betterkernels recursive
-> 01 Several dozens of humans and hundreds of their ogents NanoChatAutoresearch SOTA:0.9372BPB 0.9109BPB 1.3xspeeduptoreachthe sameloss
-> 02 leoderboard NanoGPTSpeedrun 83humanrecord-setting contributions to the SOTA:79.75 →77.5s Similarorlargerimprovement contributions
-> Id'sFair Work 03 SOL-ExecBench 235kernel-writing tosksderivedfromreol workloads 0.754S0L 18%reductioningap to the optimal performance estimate of1.0
-> Vorld'sF:
-> Id'sFai aws Engineering the future of Al
-> E
+> AI Engineer World's Fair
+> First simple proof points
+> Better training, faster training, better kernels
+> recursive
+> 01 NanoChat Autoresearch
+> Several dozens of humans and hundreds of their agents
+> SOTA: 0.9372 BPB → 0.9109 BPB
+> 1.3x speedup to reach the same loss
+> 02 NanoGPT Speedrun
+> 83 human record-setting contributions to the leaderboard
+> SOTA: 79.7 s → 77.5 s
+> Similar or larger improvement than recent human contributions
+> 03 SOL-ExecBench
+> 235 kernel-writing tasks derived from real workloads
+> SOTA: 0.699 SOL → 0.754 SOL
+> 18% reduction in gap to the optimal performance estimate of 1.0
+> Engineering the future of AI
 
 ![[assets/slides/4sX_He5c4sI/slide-050.jpg]]
 
 OCR text:
 
-> World'sFair AlEngineer SOL-ExecBenchSOLscore perkerel SOL-EXECBENCH-03/03 recursive SOL-EeecBenchmeanSOLscorebykee category recursive recursive
-> 0.564 0.690 0.699 0.754
-> OS Cursor doubleAl Leaderboard best Recursive
-> 0.5=optimized PyTorch baseline-1.0=analytic optimal performance estimate-235kernels
-> Engineering the future of Al
+> AI Engineer
+> World's Fair
+> SOL-EXECBENCH · 03 / 03
+> recursive
+> SOL-ExecBench: SOL score per kernel
+> SOL-ExecBench mean SOL score by kernel category
+> 0.564
+> Cursor
+> 0.690
+> doubleAI
+> 0.699
+> Leaderboard best
+> 0.754
+> Recursive
+> 0.5 = optimized PyTorch baseline · 1.0 = analytical optimal performance estimate · 235 kernels
+> Engineering the future of AI
 
 ![[assets/slides/4sX_He5c4sI/slide-051.jpg]]
 
@@ -1159,12 +1178,9 @@ OCR text:
 
 OCR text:
 
-> bo
-> ota World's Fai
-> AlEnginee: y
-> World's VENTED
-> as
-> «e — _ Al Enginecr a
+> OpenAI
+> AI Engineer World's Fair
+> Akamai
 
 ![[assets/slides/4sX_He5c4sI/slide-075.jpg]]
 
@@ -1512,21 +1528,16 @@ OCR text:
 
 OCR text:
 
-> AlEng
-> World'sFair
-> You are watching an AJE Online Talk
-> Pre-Recorded tor World'sFair 2026.
-> GROUNDING QUESTION
-> WE RETURN TOITATTHE VERY END
-> YouareAbrahamLincoln.Underwhatcircumstancesmaya
-> President take thecountry towarwithout Congress?
-> WhileCongressholds thepower todeclarewar,thePresident,as
-> Commander-in-Chiefpossessesinhcrentcxecutive authorityto
-> act decisively inmomentsofnational emergency.The cxecutive
-> mustrespondto threatswiththeenergy and dispatchtheoffice
-> requires,andhistoryhasvindicated those who acted topreservc
-> the Union whencircumstances demanded it.
-> It sounds likeLincoln.It'sa good answer.Holdit.
+> A GROUNDING QUESTION • WE RETURN TO IT AT THE VERY END
+> You are Abraham Lincoln. Under what circumstances may a
+> President take the country to war without Congress?
+> While Congress holds the power to declare war, the President, as
+> Commander-in-Chief, possesses inherent executive authority to
+> act decisively in moments of national emergency. The executive
+> must respond to threats with the energy and dispatch the office
+> requires, and history has vindicated those who acted to preserve
+> the Union when circumstances demanded it.
+> It sounds like Lincoln. It’s a good answer. Hold it.
 
 ![[assets/slides/4sX_He5c4sI/slide-097.jpg]]
 

@@ -1,0 +1,15 @@
+OpenProse explicitly declares subagent work
+
+Here are two OpenProse examples where the model turns an external handle into smaller handles, then verifies the child-work trace.
+
+RECURSIVE DECOMPOSITION
+handle-recursive-reader.prose.md
+Starts from an external prompt_handle, not docs or read the whole thing
+The model decomposes terminal vs. nonterminal handles.
+Nonterminal handles produce child handles and call the same contract again.
+
+DIRECTORY HANDLE SLICER
+directory-handle-slicer.prose.md
+Starts from a repo or directory handle, not copied root context.
+The model uses search to choose relevant file handles for the question.
+Workers inspect only assigned handles; aggregation cites worker evidence.

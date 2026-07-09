@@ -1,5 +1,2 @@
 AIE
 LLM
-Microsoft
-smol?
-WordsFair

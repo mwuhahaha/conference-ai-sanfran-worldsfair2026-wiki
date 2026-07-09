@@ -1,0 +1,19 @@
+MY AGENTS
+All Available Working Idle
+ACTIVITY (11)
+Quest Started
+playwright-report/
+playwright-build/
+lib/
+fe-build/
+docs/
+cloudflare/
+CHAT GIT FILES
+Submit campaign to new section as item
+I need to clarify the request. Currently, when a feature is submitted, it shows a generic "Analyzing spec..." banner, but doesn't display the generating plans as individual items in a section like the other plan statuses do (Awaiting Review, Active, Completed, etc.).
+WHAT DO YOU MEAN BY NEW SECTION?
+CURRENTLY, SUBMITTED PLANS THAT ARE GENERATING SHOW AS A BANNER, NOT AS ITEMS IN A SECTION. SHOULD THEY BECOME ITEMS IN A NEW "GENERATING" SECTION? OR DO YOU MEAN SOMETHING ELSE ENTIRELY?
+Generating section
+Different section
+Type your answer...
+DEFAULT • PLAN MODE

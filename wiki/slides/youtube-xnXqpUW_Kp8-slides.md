@@ -53,8 +53,9 @@ OCR text:
 
 OCR text:
 
-> AIE Hit
-> Microsoft smol
+> AIE
+> Microsoft
+> smol ai
 
 ![[assets/slides/xnXqpUW_Kp8/slide-004.jpg]]
 
@@ -62,7 +63,7 @@ OCR text:
 
 > AIE
 > Microsoft
-> smol?
+> smol ai
 
 ![[assets/slides/xnXqpUW_Kp8/slide-005.jpg]]
 
@@ -70,7 +71,7 @@ OCR text:
 
 > AIE
 > Microsoft
-> smol?
+> smol ai
 
 ![[assets/slides/xnXqpUW_Kp8/slide-006.jpg]]
 
@@ -78,10 +79,12 @@ OCR text:
 
 > Traditional search engines were built
 > for humans
-> Humans want to type simple Google built a keyword based
-> keywords to click a couple links algorithm for humans
-> A
-> | ee)
+> Humans want to type simple
+> keywords to click a couple links
+> Google built a keyword based
+> algorithm for humans
+> Humans searching
+> Google
 
 ![[assets/slides/xnXqpUW_Kp8/slide-007.jpg]]
 

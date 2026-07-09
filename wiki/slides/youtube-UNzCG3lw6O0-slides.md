@@ -22,44 +22,39 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > The Missing Manual
-> Hlow To apiio Great Skills | OC
-> ~
+> How To Write Great Skills
+> Matt Pocock
 
 ![[assets/slides/UNzCG3lw6O0/slide-002.jpg]]
 
 OCR text:
 
-> Na) cme Re t4 a6 He)
-> aS
-> |
+> A Skill Checklist
 
 ![[assets/slides/UNzCG3lw6O0/slide-003.jpg]]
 
 OCR text:
 
 > 1. Trigger
-> 
-> 2. Structure &
-> 3. Steering v
-> 4. Pruning in | |
+> 2. Structure
+> 3. Steering
+> 4. Pruning
 
 ![[assets/slides/UNzCG3lw6O0/slide-004.jpg]]
 
 OCR text:
 
 > mattpocock/skills
-> - i)
-> obra/superpowers : ‘
+> vs
+> obra/superpowers
 
 ![[assets/slides/UNzCG3lw6O0/slide-005.jpg]]
 
 OCR text:
 
-> /to-prd ~~
-> aha test ? | ww,
-> 
-> re 1S a Tes seam NY 3g
-> - PRD Template ; “4
+> /to-prd
+> - What is a test seam?
+> - PRD Template
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

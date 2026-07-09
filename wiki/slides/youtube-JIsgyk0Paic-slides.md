@@ -158,9 +158,7 @@ OCR text:
 
 OCR text:
 
-> | To en 7 jo
-> ey
-> : iil
+> AIE
 
 ![[assets/slides/JIsgyk0Paic/slide-009.jpg]]
 

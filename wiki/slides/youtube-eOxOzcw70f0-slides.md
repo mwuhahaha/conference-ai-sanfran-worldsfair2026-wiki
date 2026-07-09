@@ -47,10 +47,8 @@ OCR text:
 
 > The Vibe-Coding Journey
 > AIE
-> "FUNCHAOS"
-> "PROFESSIONALZEN"
-> aws
-> Worid's Fair
+> “FUN CHAOS”
+> “PROFESSIONAL ZEN”
 
 ![[assets/slides/eOxOzcw70f0/slide-004.jpg]]
 
@@ -91,13 +89,13 @@ OCR text:
 
 OCR text:
 
-> YOLO
 > AIE
+> YOLO
 > VIBE
 > CODING
 > Microsoft
-> smol?
-> Worid'sFair
+> smol ai
+> World's Fair
 
 ![[assets/slides/eOxOzcw70f0/slide-007.jpg]]
 
@@ -136,16 +134,26 @@ OCR text:
 
 OCR text:
 
-> G
+> AIE
 > CHAT
-> AIE vscodeAPI UseVSCodeAPireferences toanswerquestons about VSCodeextensiondevel. problems Checkerrorsforaparticularfle Select tools that are available to chat 62Selected OK jent Mode ithCopilot
-> Shov testFailure includes informationabout the last unit test failure terminalLastCommand The active terminal's last run command openSimpleBrowser Preview a locally hosted website In the Simple Browser runCell Trigger the execution of a cei ln a notebook file changes Get difs of changed files terminalSelection Theactive terminal's selection new Scaffold anewworkspace in VSCode newJupyterNotebookCreate anewJupyter Notebook olerequests topickfiles to edit, ands,and iterate on errors. Al,so mistakes are possible. tcarefullybefore use. #to attach context files in agent mode.Copilot wll
-> Opi readCellOutout Read the outout of.a oreviously executed cell
-> Open Recent R
-> New Untitled TextFile OpenChatx Editfilesinyour workspace in agentmode Add Context.. Agent Clude Sonnet 4
-> 00￥0008000000000900000900800
-> aws
-> Word'sFair
+> Chat with Copilot
+> Agent Mode
+> Select tools that are available to chat
+> 62 Selected
+> OK
+> vscodeAPI Use VS Code API references to answer questions about VS Code extension devel...
+> problems Check errors for a particular file
+> changes Get diffs of changed files
+> testFailure Includes information about the last unit test failure
+> terminalSelection The active terminal's selection
+> terminalLastCommand The active terminal's last run command
+> new Scaffold a new workspace in VS Code
+> newJupyterNotebook Create a new Jupyter Notebook
+> openSimpleBrowser Preview a locally hosted website in the Simple Browser
+> runCell Trigger the execution of a cell in a notebook file
+> readCellOutput Read the output of a previously executed cell
+> Add Context...
+> Edit files in your workspace in agent mode
 
 ![[assets/slides/eOxOzcw70f0/slide-010.jpg]]
 
@@ -461,16 +469,32 @@ OCR text:
 
 OCR text:
 
-> App.s App.sx -101doo instrucbons.md 品日口口
-> #root{ max-width:1280px; Perfecti Now let me create thegithub/copilot-instructions.nd fle: CHAT +③
-> AIE app-container background:linear-gradient(135deg, min-height:100vh; font-family:-apple-system,BlinkMacSystemFont, Roboto',ssns-serif; #fsf7fa 0%, Segoe UI' #c3cfe2100%; mainApp component: q Createdcopilot-nstructons.md Apx-110-25
-> app-header border-bottom:1pxsolidrgba0,0,0,0.1）; backdrop-filter:blur 20px; background: rgba255,255，255,θ.95; pUndo|7of12个 Now letme also update the globalCSs toensure properbaseine stying Now let me create the CSSfle for the app with Apple-inspired des 0Ax+1-1 App.cs+21531 princples:
-> PROBLEMS TERMINAL PORTS OUTPUT Co十 Working.
-> )opm installgfluentui/react-components @fluentui/react-icons lucide-react sdap-raad- 48packages are lookingfor funding found evulnerabilities -/vibing-at-aie-2 runnpm fund'for details --legac Edit fesinyour workspace in ag 3 fles charged App.csswc Asd Contest. Fcopllot-lnstructons,mdgthb App.tsxsrc App.css
-> 4s Claude Sonnet4
-> 108G0600000630000-000W Ln1,Co1 Spaces:2 (1PostCSS
+> AIE
+> #root {
+> max-width: 1280px;
+> }
+> /* Apple-inspired design with Fluent UI */
+> .app-container {
+> min-height: 100vh;
+> background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+> font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+> }
+> .app-header {
+> background: rgba(255, 255, 255, 0.95);
+> backdrop-filter: blur(20px);
+> border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+> }
+> Perfect! Now let me create the.github/copilot-instructions.md file:
+> Created copilot-instructions.md
+> Now let me create the main hydration tracking application. I'll start by updating the main App component:
+> Let me fix the TypeScript error by properly typing the entry:
+> Now let me create the CSS file for the app with Apple-inspired design principles:
+> Now let me also update the global CSS to ensure proper baseline styling:
+> 48 packages are looking for funding
+> run `npm fund` for details
+> found 0 vulnerabilities
 > aws
-> World'sFair
+> World's Fair
 
 ![[assets/slides/eOxOzcw70f0/slide-024.jpg]]
 

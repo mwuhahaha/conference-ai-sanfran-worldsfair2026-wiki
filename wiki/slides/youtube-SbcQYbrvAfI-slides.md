@@ -363,29 +363,15 @@ OCR text:
 
 OCR text:
 
-> oe A
-> 4 b
-> 7 Se ie
-> my , : a i
-> sg gg
-> JFK 27-B1.300 2025-11-22 12:49:43
+> JFK27-B1.300
+> 2025-11-22 12:49:43
 
 ![[assets/slides/SbcQYbrvAfI/slide-022.jpg]]
 
 OCR text:
 
-> i
-> \
-> “
-> 1 - .
-> k ly f 7 ra
-> ea ; a «
-> —_ es
-> 
-> 7 a ( a
-> 
-> A 2025-11-22 12:50:08
-> JFK 27-B1.300
+> JFK27-B1.300
+> 2025-11-22 12:50:08
 
 ![[assets/slides/SbcQYbrvAfI/slide-023.jpg]]
 

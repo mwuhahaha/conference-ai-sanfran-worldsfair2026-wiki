@@ -78,12 +78,8 @@ OCR text:
 
 OCR text:
 
-> awe ae
-> LL La
-> ed ts) ek
-> eel Seer Oana
-> 7 a Microsoft ary?
-> jel
+> env:
+> READY!
 
 ![[assets/slides/OkEGJ5G3foU/slide-005.jpg]]
 
@@ -112,9 +108,8 @@ OCR text:
 
 OCR text:
 
-> S25
-> hp
-> World's Fair AIEngineer
+> AI Engineer
+> World's Fair
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

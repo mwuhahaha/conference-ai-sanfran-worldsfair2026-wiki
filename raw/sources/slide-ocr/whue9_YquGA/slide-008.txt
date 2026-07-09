@@ -1,4 +1,7 @@
-a vi
-ran
-3 as a
-Al-authored code Reported time savings Automated PRs
+STAGE 3
+↑69%
+AI-authored code
+↑37%
+Reported time savings
+↑21x
+Automated PRs

@@ -1,0 +1,17 @@
+Docling: More than simple Document Conversion
+
+{
+  'bill number': '01234',
+  'total invoice price': 550,
+  'currency of total invoice price': 'USD',
+  'name of invoice addressee': 'Jonathan Patterson',
+  'name of invoice sender': 'Eventure Event Planner'
+}
+
+invoice_dict = {
+  'bill number': "string",
+  'total invoice price': "float",
+  'currency of total invoice price': "string",
+  'name of invoice addressee': "string",
+  'name of invoice sender': "string"
+}

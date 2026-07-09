@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATIONSPONSOR
+> INNOVATION SPONSOR
 > aws
-> PLATINUMSPONSORS
+> PLATINUM SPONSORS
 > MongoDB.
 > Google Cloud
 > neo4j
@@ -34,21 +34,14 @@ OCR text:
 
 > AIE
 > DAWN
-> aws
-> neoaj
-> DATAS
-> OctoA Cevnt,
-> P.Fal SA Cnunoe
 
 ![[assets/slides/5nOLb27hQ5w/slide-003.jpg]]
 
 OCR text:
 
-> ot an im
-> - “4
-> a
-> Tow . Perera an . °
-> cman woe a= Microsoft
+> AIE
+> Microsoft
+> smol ai
 
 ![[assets/slides/5nOLb27hQ5w/slide-004.jpg]]
 
@@ -74,27 +67,20 @@ OCR text:
 
 OCR text:
 
-> itv
 > AIE
-> aws WoddsFa
-> neo WodnFa
 > aws
-> Waisufa 2CoN
 
 ![[assets/slides/5nOLb27hQ5w/slide-007.jpg]]
 
 OCR text:
 
-> stv+
 > AIE
-> MORNING
-> SHOW
-> CoIe-SNo
-> aws
-> neo4j
+> tv+
+> THE MORNING SHOW
+> Go to Show
+> Up Next on Apple TV+
 > Microsoft
-> smol?
-> COVI
+> smol
 
 ![[assets/slides/5nOLb27hQ5w/slide-008.jpg]]
 
@@ -148,24 +134,19 @@ OCR text:
 OCR text:
 
 > PERPLEXITY
-> Bestcoffeeshopstoworkfrom inParis
+> Best coffee shops to work from in Paris
 > Sources
-> Anygood calee1o
-> The betf cNinPw
-> Best Laptop-Frie
-> Cafes Wih wiFi and.
+> Any good cafes to work from with laptops?
+> The best cafes in Paris for remote work | The...
+> Best Laptop-Friendly Cafes With Wi-Fi and...
+> View 2 more
 > Answer
-> Here are some of the best coffee shops to workfrominParis:
-> LeVra Aesthetic amosphere with bothindoorand terrace seating.Located at33
-> RuedesAbbesses,75OtBParis
-> Coutume Cafe:Known for specialty coffee andreliable Wi-FLLocated at 47 Rue de
-> Babylore,75007Paris
-> Cafe Mericourt:Offers unique comee drinks and ample seting Located at 22Rue de
-> laFolie Mricourt75OmParis
-> La Recyclerie:Eoo-friendlywithlargeindoor andoutdoor spaces.Locatedat83Bd
-> Omano.75018Paris
-> Nuage Cafe:Designed forremote work witha peaceful atmosphere.Located at 14
-> Rue des Carmes.75005Paris
+> Here are some of the best coffee shops to work from in Paris:
+> • Le Vrai: Aesthetic atmosphere with both indoor and terrace seating. Located at 33 Rue des Abbesses, 75018 Paris.
+> • Coutume Cafe: Known for specialty coffee and reliable Wi-Fi. Located at 47 Rue de Babylone, 75007 Paris.
+> • Cafe Méricourt: Offers unique coffee drinks and ample seating. Located at 22 Rue de la Folie Méricourt, 75011 Paris.
+> • La Recyclerie: Eco-friendly with large indoor and outdoor spaces. Located at 83 Bd Ornano, 75018 Paris.
+> • Nuage Cafe: Designed for remote work with a peaceful atmosphere. Located at 14 Rue des Carmes, 75005 Paris.
 > Related
 
 ![[assets/slides/5nOLb27hQ5w/slide-011.jpg]]
@@ -186,12 +167,17 @@ OCR text:
 
 OCR text:
 
-> Degeisk
-> involvedan
-> Degecoinornot
+> Doge is known for its price volatility and is considered a high-risk investment. It’s
+> essential to carefully consider your investment goals and risk tolerance before
+> purchasing Dogecoin or any other cryptocurrency. If you’re comfortable with the risks
+> involved and have done your research, it’s ultimately your decision whether to buy
+> Dogecoin or not.
+> I’ll buy 600
 > DOGE
-> Totalcosr
-> 600x$0.25=$150.00
+> $0.25
+> Shares to purchase
+> Total cost
+> 600 shares x $0.25 per share = $150.00
 > Purchase
 > BAD
 
@@ -246,11 +232,7 @@ OCR text:
 OCR text:
 
 > AIE
-> EXAMPLES+PRESETS
-> aws
-> neo4j
-> Microsoft
-> smol?
+> EXAMPLES + PRESETS
 
 ![[assets/slides/5nOLb27hQ5w/slide-017.jpg]]
 
@@ -277,11 +259,13 @@ OCR text:
 OCR text:
 
 > AIE
-> aws
-> neo4j
-> DATASTAIC
-> NEDLA
-> BCovnlent.
+> Cancel
+> Create
+> Layla
+> Astronaut
+> Space
+> SUGGESTIONS
+> SHOW MORE
 
 ![[assets/slides/5nOLb27hQ5w/slide-019.jpg]]
 

@@ -1,0 +1,26 @@
+AI Engineer
+World's Fair
+
+SOL-EXECBENCH · 03 / 03
+
+recursive
+
+SOL-ExecBench: SOL score per kernel
+
+SOL-ExecBench mean SOL score by kernel category
+
+0.564
+Cursor
+
+0.690
+doubleAI
+
+0.699
+Leaderboard best
+
+0.754
+Recursive
+
+0.5 = optimized PyTorch baseline · 1.0 = analytical optimal performance estimate · 235 kernels
+
+Engineering the future of AI

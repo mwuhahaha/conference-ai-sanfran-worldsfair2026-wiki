@@ -1,0 +1,21 @@
+RAG actually earns its keep > query_2 = "What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment?"
+
+2. FETCH — Pull the *full text* of that section's
+    subtree from the DoclingDocument.
+
+3. ATTEMPT — LLM tries to answer from the section text.
+    Returns {can_answer: bool, response: str}.
+
+can_answer = true                         can_answer = false
+
+return answer                             4. ITERATE — go back to SELECT, with the
+                                             visited section excluded.
+
+Notice what's not in this picture: no chunker, no embedding model, no vector store, no top-k. The "index" is a markdown outline of the document with one summary per section, generated once offline. The "retriever" is the LLM itself, reading that outline and choosing where to look.
+
+This only works because two things are already true about the input document:
+
+1. It's a DoclingDocument — a real tree with sections, paragraphs, tables, and figures, parsed by Docling from the source PDF.
+2. Each section already has a summary attached as metadata, written by DoclingEnrichingAgent in a one-time enrichment pass.
+
+We'll use a fixture that already has both. If you want to run this on your own PDF, there's an optional cell a few steps down that shows you

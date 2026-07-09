@@ -1,7 +1,5 @@
 AIE
-AlEngineer
-World'sFair
-Worid'sFa
+AI Engineer
+World's Fair
 Microsoft
-smol
-Microsoft
+smol ai

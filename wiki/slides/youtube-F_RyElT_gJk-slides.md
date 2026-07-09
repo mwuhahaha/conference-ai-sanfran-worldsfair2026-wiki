@@ -74,14 +74,12 @@ OCR text:
 
 OCR text:
 
-> GPT-3→
-> GPT-4,→Claude4
-> Claude 3,
 > AIE
-> Gemini2.5
+> GPT-3 → GPT-4, → Claude 4
+> Claude 3,
+> Gemini 2.5
 > Microsoft
-> smol?
-> rid'sFair
+> smol ai
 
 ![[assets/slides/F_RyElT_gJk/slide-006.jpg]]
 
@@ -153,36 +151,28 @@ OCR text:
 OCR text:
 
 > 2 simple clients
-> a
-> 2)
-> an aws
-> | neal
+> AIE
 
 ![[assets/slides/F_RyElT_gJk/slide-010.jpg]]
 
 OCR text:
 
 > Preview README.md
-> AMP
 > Amp
-> SeeAmpOwner'sManual formore informationaboutAmp.
-> AIE
+> Amp is an agentic coding tool, in research preview from Sourcegraph.
+> See Amp Owner's Manual for more information about Amp.
 > Getting Started
-> 1.Create server/.env.local withcontentsfrom1Password.
-> macOSbootstrap
-> 1.Install dependencies:
+> 1. Create server/.env.local with contents from 1Password.
+> macOS bootstrap
+> 1. Install dependencies:
 > brew install mise
 > brew install postgresql
 > brew install redis
 > brew install podman
-> brewinstallpodsan-desktop
+> brew install podman-desktop
 > brew install rg
-> 2.Create podmanmachine with sufficlentresources:
-> iLservice:
-> ces start postaresal
-> Microsoft
-> smol?
-> orid'sFair
+> 2. Create podman machine with sufficient resources:
+> podman machine init --disk-size 128 --memory 16384
 
 ![[assets/slides/F_RyElT_gJk/slide-011.jpg]]
 
@@ -203,25 +193,21 @@ OCR text:
 
 OCR text:
 
-> Preview README.md
 > Amp
-> See AmpOwner'sManual formore informationaboutAmp
-> AIE
+> Amp is an agentic coding tool, in research preview from Sourcegraph.
+> See Amp Owner's Manual for more information about Amp.
 > Getting Started
-> 1.Create server/.env.LocaL withcontentsfrom 1Password
-> macOSbootstrap
-> 1.Install dependencies:
-> brewinstall mise
+> 1. Create server/.env.local with contents from 1Password.
+> macOS bootstrap
+> 1. Install dependencies:
+> brew install mise
 > brew install postgresql
 > brew install redis
-> brew installpodman
-> brew installrg
-> brew install podnan-desktop
-> 2.Create podmanmachine with sufficlentresources:
-> ILservice:
-> ces start postaresal
-> aws
-> rld'sFair
+> brew install podman
+> brew install podman-desktop
+> brew install rg
+> 2. Create podman machine with sufficient resources:
+> podman machine init --disk-size 128 --memory 16384
 
 ![[assets/slides/F_RyElT_gJk/slide-013.jpg]]
 
@@ -250,31 +236,20 @@ OCR text:
 
 > Preview README.md
 > Amp
-> canyo
-> See AmpOwner's Manual formore informationaboutAmp.
-> ectorlconandimple
-> nentit
-> AIE
+> Amp is an agentic coding tool, in research preview from Sourcegraph.
+> See Amp Owner's Manual for more information about Amp.
 > Getting Started
-> 三Linearlssues50iss
-> 1.Create server/.env.locaL withcontentsfrom1Password
-> macOSbootstrap
-> UpdateTODOs
-> 1.Install dependencies:
-> Foun
+> 1. Create server/.env.local with contents from 1Password.
+> macOS bootstrap
+> 1. Install dependencies:
 > brew install mise
-> brew install redis
 > brew install postgresql
-> brew install podan
-> brew installrg
-> brewinstallpodnan-desktop
-> 2.Create podmanmachine with sufficlentresources:
-> TODO
-> ILservice:
-> ces start postaresal
-> Microsoft
-> smol?
-> brid'sFair
+> brew install redis
+> brew install podman
+> brew install podman-desktop
+> brew install rg
+> 2. Create podman machine with sufficient resources:
+> podman machine init --disk-size 128 --memory 16384
 
 ![[assets/slides/F_RyElT_gJk/slide-015.jpg]]
 
@@ -282,91 +257,87 @@ OCR text:
 
 > Preview README.md
 > Amp
-> SeeAmpOwner'sManualformore informationaboutAmp
-> Update TODOs
-> AIE
-> GettingStarted
-> 三LinearIssues 50issues found
-> 1.Create server/.env.LocaL withcontentsfrom 1Password.
-> iesFou
-> d(50)
-> macOSbootstrap
-> AMP-20
-> Done
-> 1.Install dependencies:
-> Add special icon for Line
+> Amp is an agentic coding tool, in research preview from Sourcegraph.
+> See Amp Owner's Manual for more information about Amp.
+> Getting Started
+> 1. Create server/.env.local with contents from 1Password.
+> macOS bootstrap
+> 1. Install dependencies:
 > brew install mise
 > brew install postgresql
-> OSS-8225
-> Backdog
 > brew install redis
-> Create adefaultcon component forextensior
-> s withnoicon
-> brewinstallrg
-> brew install podnan-desktop
-> 2.Create podmanmachine with sufficlentresources:
-> podman machine init-disk-size 128-memory 16384
-> ILservice:
-> ces start postaresql
-> Microsoft
-> smol?
-> rid'sFair
+> brew install podman
+> brew install podman-desktop
+> brew install rg
+> 2. Create podman machine with sufficient resources:
+> podman machine init --disk-size 128 --memory 16384
+> Amp
+> Investigate and implement Linear connector icon
+> can you find the linear issue about customizing the linear connector icon? then implement it
+> I'll help you find the Linear issue about customizing the Linear connector icon and implement it.
+> Update TODOs
+> Linear Issues 50 issues found
+> Issues Found (50)
+> AMP-20 Done
+> Add special icon for Linear connector
+> OSS-8225 Backlog
+> Create a default icon component for extensions with no icon
+> TODOS
+> - Find linear issue about customizing linear connector icon
+> - implement the Linear connector icon customization feature
 
 ![[assets/slides/F_RyElT_gJk/slide-016.jpg]]
 
 OCR text:
 
-> amp
-> ectors-section.svelte
-> Card>
-> cCardContent>
-> teecnexternatuonnectors asconnectaon（connectaon.io)
-> <div class"py-3flex justify-between iteas-center>
-> cdiv classe"flex itens-center gop-3")
-> <divclassflex iteas-center justify-center p-1.5r
-> {#if connection.typegithub_oauth}
-> <Githubclass=h-5-5°/>
-> Qtype.*Connector.*Omatches
 > AIE
-> {:else if conmection.type 'stack}
-> Slackclasse²h-5-5”/>
-> (else if conectlon.type notion)
-> Qinterface.*ConnectorOmatches
-> <F1leTextclassa"h-5v-5"/>
-> (:elseifconection.type-'google')
-> Let me search for the connector data structure more
-> <Cloudclasse²h-5v-5°/>
-> (ielse if conmection.type-ncp'}
-> Networkclasseh-5v-5”/>
-> QFind the data structure definition for connector
-> (:else)
-> type,config etc
-> <Linkclassah-5v-5°/>
-> (it)
-> ndpoint_url is
-> /div
-> avalable in the Ui components:
-> <h3classe"font-mediua>(connection.display_nane)
-> </divs
-> /h
-> QFindhowMCP connector cor
-> icons are displayed
-> div class="flex itens-center gap-2">
-> (#if isConected（connection.1d))
-> <const Installurl-getGitHubAppInstallationurl
-> (#ifinstalturl)
+> external-connectors-section.svelte
+> <Card>
+> <CardContent>
+> <div class="py-3 flex justify-between items-center">
+> <div class="flex items-center gap-3">
+> <div class="flex items-center justify-center p-1.5">
+> {#if connection.type == 'github_oauth'}
+> <Github class="h-5 w-5" />
+> {:else if connection.type == 'slack'}
+> <Slack class="h-5 w-5" />
+> {:else if connection.type == 'notion'}
+> <FileText class="h-5 w-5" />
+> {:else if connection.type == 'google'}
+> <Cloud class="h-5 w-5" />
+> {:else if connection.type == 'mcp'}
+> <Network class="h-5 w-5" />
+> {:else}
+> <Link class="h-5 w-5" />
+> {/if}
+> </div>
+> <h3 class="font-medium">{connection.display_name}</h3>
+> </div>
+> <div class="flex items-center gap-2">
+> {#if isConnected(connection.id)}
+> const installUrl = getGithubAppInstallationUrl(
+> {#if installUrl}
+> <Button
+> href={installUrl}
+> variant="outline"
+> target="_blank">
+> <Github class="h-4 w-4" />
+> Install App to GitHub Organizations
+> </Button>
+> {/if}
+> AMP
+> Investigate and implement Linear connector icon
+> core/ai/connectors/types.ts L5-60
+> Let me also check the complete connector structure to see how connectors are represented:
+> type.*Connector.*? 0 matches
+> interface.*Connector 0 matches
+> Let me search for the connector data structure more broadly:
+> Find the data structure definition for connectors, which fields are available like display_name, type, config etc
+> Now I need to understand how to check if an MCP connector is for Linear. Let me check if the endpoint_url is available in the UI components:
+> Find how MCP connector config like endpoint_url is accessed in the settings and admin pages where icons are displayed
 > TODOs
-> Button
-> href=(instalturl)
-> classflex stens-center gap-2
-> varianta"outline"
-> targete"_blank"
-> Githubclassh-4-4²>
-> Install App to Gitub Organizations
-> Button
-> (/if)
-> aws
-> d'sFair
+> Find Linear icon in other existing linear connector code
+> Implement the Linear connector icon customization feature
 
 ![[assets/slides/F_RyElT_gJk/slide-017.jpg]]
 
@@ -635,9 +606,6 @@ OCR text:
 
 > AIE
 > Demo
-> 9/50
-> aws
-> Orld'sFair
 
 ![[assets/slides/F_RyElT_gJk/slide-024.jpg]]
 

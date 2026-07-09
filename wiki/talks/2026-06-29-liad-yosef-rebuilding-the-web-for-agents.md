@@ -136,3 +136,7 @@ This talk argues that AI apps are becoming the new browsers, so the web has to b
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached related-video transcripts. Related videos remain supporting context unless explicitly verified as exact session recordings.
+
+## Additional Photo Slide Evidence
+These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-rebuilding-the-web-for-agents-slides]] - Google Photos Slides: Rebuilding the Web for Agents (confidence: high).

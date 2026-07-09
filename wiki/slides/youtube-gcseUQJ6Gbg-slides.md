@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> x
-> wi wv
-> World's Fair \
-> =
+> AI Engineer
+> World's Fair
 
 ![[assets/slides/gcseUQJ6Gbg/slide-002.jpg]]
 
@@ -52,14 +50,12 @@ OCR text:
 > Thanks for coming
 > hassan@together.ai
 > @nutlope
-> Microsoft
-> smol?
 
 ![[assets/slides/gcseUQJ6Gbg/slide-004.jpg]]
 
 OCR text:
 
-> Al Engineer
+> AI Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

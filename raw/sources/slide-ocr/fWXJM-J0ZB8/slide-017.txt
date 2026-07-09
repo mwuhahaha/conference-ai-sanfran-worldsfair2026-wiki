@@ -1,7 +1,25 @@
-Rachel-LeeNabors(they/them)nearestnabors.com Mimalocal-modeleval Goldendatasetataglance
-28 Examples 14 Threads 2-17 Messages/thread 100% Annotated
-eachviewedlist+modal median5 hand-written[ref:N]
-Byplatform Byview context
-X. 22 6 Bluesky list. 14 14 modal
-Sourced from real Mima threads,anonymized.Each example pairsa thread inputwith a gold-standard summary and citation r
-5modelsevaluatedagainstthissetwith3repetitionseach(420runs total).
+Mima local-model eval
+Golden dataset at a glance
+Examples
+28
+Threads
+14
+each viewed list + modal
+Messages / thread
+2–17
+median 6
+Annotated
+100%
+hand-written [ref:N]
+By platform
+X ·
+22
+Bluesky ·
+6
+By view context
+list ·
+14
+modal ·
+14
+Sourced from real Mima threads, anonymized. Each example pairs a thread input with a gold-standard summary and citation r
+5 models evaluated against this set with 3 repetitions each (420 runs total).

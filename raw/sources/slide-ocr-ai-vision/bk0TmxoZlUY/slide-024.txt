@@ -1,0 +1,29 @@
+AIE
+
+export const completenessScorer = project.scorers.create({
+  choiceScores: {
+    Good: 0.75,
+    Fair: 0.5,
+    Poor: 0.25,
+  },
+});
+
+export const accuracyScorer = project.scorers.create({
+  name: "Changelog Accuracy Scorer",
+  slug: "changelog-accuracy-scorer",
+  description: "Evaluates the accuracy of a generated changelog",
+  evals: [
+    {
+      role: "system",
+      content:
+        "You are evaluating the accuracy of a changelog generated from a list of git commits.",
+    },
+    {
+      role: "user",
+      content:
+        "Task: Rate how accurately the changelog represents the actual changes described in the commits.",
+    },
+  ],
+});
+
+Finished running experiment

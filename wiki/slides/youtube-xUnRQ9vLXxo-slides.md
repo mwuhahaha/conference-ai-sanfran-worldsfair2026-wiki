@@ -22,7 +22,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > THEO BROWNE
-> t3.gg FOUNDER AIE
+> FOUNDER
+> t3.gg
+> AIE
 
 ![[assets/slides/xUnRQ9vLXxo/slide-002.jpg]]
 

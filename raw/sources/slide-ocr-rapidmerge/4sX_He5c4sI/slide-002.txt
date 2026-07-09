@@ -1,7 +1,8 @@
-World'sFair
+AI Engineer
+World's Fair
 Livestream
-July1,2026
-EVENTSTARTSIN04:54
+July 1, 2026
+EVENT STARTS IN 04:54
 DESIGN ENGINEERING
-ViewFull Schedule
+View Full Schedule
 ai.engineer/worldsfair/2026/schedule

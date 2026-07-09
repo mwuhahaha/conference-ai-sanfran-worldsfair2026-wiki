@@ -133,29 +133,25 @@ OCR text:
 
 OCR text:
 
-> e J p # & e
-> Python JavaScript cul OpenaPi HTTP mcp
-> 1 from apify_client import ApifyClient 6
-> 2
-> 3° # [Initialize the ApifyClient with your Apify API token
-> 4 oo# Replace '<YOUR_API_TOKEN>’ with your token.
-> 5 client = ApifyClient “- CUR APL TOKon.”
-> 6
-> 7?) # Prepare the Actor input
-> 8 run_input = «
-> 9g “searchStringsArray: [Teestaurant’ |,
-> 10 “TosatianQiery “New York, USA’,
-> 11 “maslrawvedPlacesPerSearch': 5@,
-> 12 “Canguage’: Ten’,
-> 13 “sgateages: @,
-> 14:
-> 15
+> Use Actors from code
+> Python JavaScript CLI OpenAPI HTTP MCP
+> 1 from apify_client import ApifyClient
+> 3 # Initialize the ApifyClient with your Apify API token
+> 4 # Replace "<YOUR_API_TOKEN>" with your token.
+> 5 client = ApifyClient("<YOUR_API_TOKEN>")
+> 7 # Prepare the Actor input
+> 8 run_input = {
+> 9 "searchStringsArray": ["restaurant"],
+> 10 "locationQuery": "New York, USA",
+> 11 "maxCrawledPlacesPerSearch": 50,
+> 12 "language": "en",
+> 13 "maxImages": 0,
+> 14 }
 > 16 # Run the Actor and wait for it to finish
-> 17) cun = client.actor ‘comcuss/crawler qoagte: places” |. calli cun_input=run_input |
-> 18
-> 19 @ Fetch and print Actor results from the cun’s dataset [if there are any)
-> 20 print “Mi Check your data nerve: "tteps:oyromanie.apity.con/staraqesdatasets/" # runivdetacitdataset ia’)
-> 21 for item in client.dataseticun “defauttbataset io’! iterate_items =:
+> 17 run = client.actor("compass/crawler-google-places").call(run_input=run_input)
+> 19 # Fetch and print Actor results from the run's dataset (if there are any)
+> 20 print(f"🔍 Check your data here: https://console.apify.com/storage/datasets/" + run["defaultDatasetId"])
+> 21 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
 
 ![[assets/slides/blW-lSd5CYQ/slide-009.jpg]]
 
@@ -187,17 +183,26 @@ OCR text:
 
 OCR text:
 
-> mastra The MCP Registry
+> mastra
+> The MCP Registry
 > Registry
-> modelcontextprotocol/servers MCPMarket 12454 MCP.so 7682
-> Thisrepositoryisacollection of reference Explore ourcurated collection of MCPserversto Find Awesome MCP Servers and Clients
-> implementationsfortheModel ContextProtocol connectAl toyour favorite tools.
-> (MCP)
-> #official #verified
-> Smithery 4274 PulseMCP 3653 GlamaMCPServer3457
-> Extendyour agent with 4,274 capabilitiesvia Browse and discover MCPuse cases,servers,
-> Model Context Protocol servers. clients,andnews. thatextendAlcapabilities.
-> verified #open-source
+> modelcontextprotocol/servers
+> This repository is a collection of reference implementations for the Model Context Protocol (MCP).
+> official
+> MCP Market 12454
+> Explore our curated collection of MCP servers to connect AI to your favorite tools.
+> MCP.so 7682
+> Find Awesome MCP Servers and Clients
+> verified
+> Smithery 4274
+> Extend your agent with 4,274 capabilities via Model Context Protocol servers.
+> verified
+> Pulse MCP 3653
+> Browse and discover MCP use cases, servers, clients, and news.
+> verified
+> Glama MCP Server 3457
+> Production-ready and experimental MCP servers that extend AI capabilities.
+> open-source
 
 ![[assets/slides/blW-lSd5CYQ/slide-012.jpg]]
 
@@ -242,7 +247,7 @@ OCR text:
 
 OCR text:
 
-> Al Engineer
+> AI Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

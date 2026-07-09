@@ -22,9 +22,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> There'sa #foom timefor
+> There's a #foom time for
 > every discipline
-> Toughluckbeing born in thewrong century
+> Tough luck being born in the wrong century
 
 ![[assets/slides/qaJXBMwUkoE/slide-003.jpg]]
 

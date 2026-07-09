@@ -2,7 +2,7 @@
   "generatedBy": "scripts/generate_phrase_word_cloud.py",
   "sourceCounts": {
     "documents": 2924,
-    "approxWords": 958302,
+    "approxWords": 959964,
     "phraseCandidates": 1026
   },
   "terms": [
@@ -20,87 +20,87 @@
     },
     {
       "term": "reinforcement learning",
-      "count": 228
-    },
-    {
-      "term": "AI agents",
-      "count": 1332
-    },
-    {
-      "term": "world's fair",
-      "count": 1197
+      "count": 234
     },
     {
       "term": "AI engineer",
-      "count": 1041
+      "count": 1755
+    },
+    {
+      "term": "world's fair",
+      "count": 1425
+    },
+    {
+      "term": "AI agents",
+      "count": 1398
     },
     {
       "term": "coding agents",
-      "count": 1026
+      "count": 1032
     },
     {
       "term": "model",
-      "count": 3295
+      "count": 3343
     },
     {
       "term": "code",
-      "count": 3124
+      "count": 3162
+    },
+    {
+      "term": "model context protocol",
+      "count": 99
+    },
+    {
+      "term": "open source",
+      "count": 825
     },
     {
       "term": "agentic search",
       "count": 102
     },
     {
-      "term": "open source",
-      "count": 813
-    },
-    {
-      "term": "model context protocol",
-      "count": 87
-    },
-    {
       "term": "data",
-      "count": 2413
+      "count": 2447
     },
     {
       "term": "models",
-      "count": 2068
+      "count": 2110
     },
     {
       "term": "google deepmind",
-      "count": 582
+      "count": 612
     },
     {
       "term": "context",
-      "count": 1699
+      "count": 1725
     },
     {
       "term": "tools",
-      "count": 1576
+      "count": 1616
     },
     {
       "term": "systems",
-      "count": 1538
+      "count": 1544
     },
     {
       "term": "system",
-      "count": 1500
-    },
-    {
-      "term": "software engineering",
-      "count": 438
+      "count": 1520
     },
     {
       "term": "tool",
-      "count": 1436
+      "count": 1474
+    },
+    {
+      "term": "software engineering",
+      "count": 444
     },
     {
       "term": "engineer",
-      "count": 1416
+      "count": 1364
     },
     {
       "term": "product",
-      "count": 1295
+      "count": 1319
     },
     {
       "term": "workshops day 1",
@@ -116,63 +116,59 @@
     },
     {
       "term": "built",
-      "count": 1141
+      "count": 1145
     },
     {
       "term": "software",
-      "count": 1091
+      "count": 1101
+    },
+    {
+      "term": "production",
+      "count": 1080
     },
     {
       "term": "harness engineering",
       "count": 327
     },
     {
-      "term": "production",
-      "count": 1072
+      "term": "research",
+      "count": 1050
     },
     {
-      "term": "research",
+      "term": "human",
       "count": 1024
+    },
+    {
+      "term": "agentic",
+      "count": 1019
     },
     {
       "term": "language models",
       "count": 306
     },
     {
-      "term": "human",
-      "count": 998
-    },
-    {
-      "term": "agentic",
+      "term": "prompt",
       "count": 997
     },
     {
-      "term": "prompt",
-      "count": 963
-    },
-    {
-      "term": "microsoft",
-      "count": 924
+      "term": "local AI",
+      "count": 291
     },
     {
       "term": "problem",
-      "count": 921
-    },
-    {
-      "term": "loop",
-      "count": 915
+      "count": 929
     },
     {
       "term": "future",
-      "count": 910
+      "count": 928
     },
     {
-      "term": "local AI",
-      "count": 273
+      "term": "loop",
+      "count": 921
     },
     {
       "term": "search",
-      "count": 877
+      "count": 893
     },
     {
       "term": "browser automation",
@@ -180,19 +176,23 @@
     },
     {
       "term": "team",
+      "count": 864
+    },
+    {
+      "term": "hugging face",
+      "count": 261
+    },
+    {
+      "term": "microsoft",
       "count": 860
     },
     {
       "term": "infrastructure",
-      "count": 849
-    },
-    {
-      "term": "hugging face",
-      "count": 255
+      "count": 851
     },
     {
       "term": "teams",
-      "count": 813
+      "count": 819
     },
     {
       "term": "data quality",
@@ -207,152 +207,156 @@
       "count": 237
     },
     {
-      "term": "claude",
-      "count": 762
-    },
-    {
       "term": "memory",
-      "count": 757
-    },
-    {
-      "term": "developer",
-      "count": 755
+      "count": 773
     },
     {
       "term": "agentic commerce",
-      "count": 228
+      "count": 234
+    },
+    {
+      "term": "claude",
+      "count": 766
+    },
+    {
+      "term": "developer",
+      "count": 759
     },
     {
       "term": "design",
-      "count": 744
-    },
-    {
-      "term": "layer",
-      "count": 731
-    },
-    {
-      "term": "task",
-      "count": 725
-    },
-    {
-      "term": "harness",
-      "count": 722
+      "count": 756
     },
     {
       "term": "artificial analysis",
-      "count": 216
+      "count": 228
+    },
+    {
+      "term": "layer",
+      "count": 735
+    },
+    {
+      "term": "large language models",
+      "count": 201
+    },
+    {
+      "term": "task",
+      "count": 731
+    },
+    {
+      "term": "harness",
+      "count": 728
     },
     {
       "term": "forward deployed engineering",
       "count": 195
     },
     {
-      "term": "large language models",
-      "count": 195
-    },
-    {
       "term": "coding",
-      "count": 699
-    },
-    {
-      "term": "world",
-      "count": 695
+      "count": 709
     },
     {
       "term": "platform",
-      "count": 695
-    },
-    {
-      "term": "tasks",
-      "count": 684
+      "count": 705
     },
     {
       "term": "AI-native enterprises",
-      "count": 207
+      "count": 213
+    },
+    {
+      "term": "world",
+      "count": 697
     },
     {
       "term": "create",
-      "count": 680
+      "count": 694
     },
     {
-      "term": "question",
-      "count": 667
+      "term": "tasks",
+      "count": 688
     },
     {
-      "term": "evals",
-      "count": 656
+      "term": "VS code",
+      "count": 204
     },
     {
       "term": "output",
-      "count": 654
+      "count": 672
+    },
+    {
+      "term": "question",
+      "count": 671
+    },
+    {
+      "term": "evals",
+      "count": 670
     },
     {
       "term": "find",
-      "count": 643
-    },
-    {
-      "term": "open",
-      "count": 639
+      "count": 657
     },
     {
       "term": "best",
-      "count": 637
+      "count": 651
+    },
+    {
+      "term": "tokens",
+      "count": 639
     },
     {
       "term": "single",
-      "count": 636
+      "count": 638
+    },
+    {
+      "term": "open",
+      "count": 637
     },
     {
       "term": "case",
-      "count": 632
+      "count": 634
+    },
+    {
+      "term": "cloud",
+      "count": 631
     },
     {
       "term": "sort",
       "count": 630
     },
     {
-      "term": "cloud",
+      "term": "already",
       "count": 627
+    },
+    {
+      "term": "running",
+      "count": 625
     },
     {
       "term": "together AI",
       "count": 189
     },
     {
-      "term": "running",
-      "count": 621
-    },
-    {
-      "term": "tokens",
-      "count": 621
-    },
-    {
       "term": "we'll",
-      "count": 619
+      "count": 621
+    },
+    {
+      "term": "write",
+      "count": 621
     },
     {
       "term": "able",
       "count": 618
     },
     {
-      "term": "already",
-      "count": 617
-    },
-    {
-      "term": "write",
-      "count": 615
-    },
-    {
-      "term": "VS code",
-      "count": 186
+      "term": "answer",
+      "count": 616
     },
     {
       "term": "learning",
-      "count": 610
+      "count": 614
     },
     {
-      "term": "answer",
-      "count": 608
+      "term": "years",
+      "count": 607
     },
     {
       "term": "agent memory",
@@ -360,19 +364,23 @@
     },
     {
       "term": "point",
-      "count": 601
+      "count": 603
+    },
+    {
+      "term": "skills",
+      "count": 603
     },
     {
       "term": "test",
-      "count": 599
-    },
-    {
-      "term": "years",
-      "count": 599
+      "count": 603
     },
     {
       "term": "might",
-      "count": 599
+      "count": 603
+    },
+    {
+      "term": "company",
+      "count": 596
     },
     {
       "term": "enterprise AI",
@@ -383,7 +391,7 @@
       "count": 593
     },
     {
-      "term": "company",
+      "term": "inference",
       "count": 590
     },
     {
@@ -395,43 +403,43 @@
       "count": 584
     },
     {
-      "term": "inference",
-      "count": 580
+      "term": "development",
+      "count": 581
     },
     {
-      "term": "skills",
+      "term": "read",
       "count": 579
     },
     {
       "term": "experience",
-      "count": 574
-    },
-    {
-      "term": "development",
-      "count": 573
-    },
-    {
-      "term": "read",
-      "count": 573
+      "count": 578
     },
     {
       "term": "architecture",
-      "count": 570
+      "count": 576
     },
     {
       "term": "down",
-      "count": 565
+      "count": 567
     },
     {
       "term": "track m",
       "count": 171
     },
     {
+      "term": "review",
+      "count": 561
+    },
+    {
+      "term": "making",
+      "count": 555
+    },
+    {
       "term": "self-driving production",
       "count": 21
     },
     {
-      "term": "making",
+      "term": "training",
       "count": 553
     },
     {
@@ -440,27 +448,19 @@
     },
     {
       "term": "last",
-      "count": 548
+      "count": 552
     },
     {
       "term": "instead",
-      "count": 546
-    },
-    {
-      "term": "training",
-      "count": 539
+      "count": 548
     },
     {
       "term": "evaluation",
-      "count": 537
-    },
-    {
-      "term": "review",
-      "count": 535
+      "count": 547
     },
     {
       "term": "information",
-      "count": 533
+      "count": 547
     },
     {
       "term": "nearly headless",

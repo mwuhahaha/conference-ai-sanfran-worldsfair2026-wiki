@@ -1,5 +1,8 @@
-AIE WhatActuallyMakesEmbedding ModelInferenceFast? Not quite.
-FromFlashAttentiontoQuantization,where istheinerence botleneck？Isitth architecture,the maths,or wilwtingeverythinginust sole allmyproblems？Hint: It's Not Rust)
-JAN22.2026 FILIP MAKRADULI
-GoogleDeepMind
-AlIEngineer
+A WRITER'S DIARY ON AI
+What Actually Makes Embedding
+Model Inference Fast?
+From Flash Attention to Quantization, where is the inference bottleneck? Is it the architecture, the maths, or will writing everything in Rust solve all my problems? (Hint: It's Not Rust)
+FILIP MAKRADULI
+JAN 22, 2026
+Not quite.
+Google DeepMind

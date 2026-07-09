@@ -1,7 +1,6 @@
-Howdoesthewikilooklike?
+How does the wiki look like?
 research-coding-agent-architectures
 raw
-ARCHITECTURIARCHITECTURE
 wiki
 comparisons
 concepts
@@ -10,9 +9,8 @@ notes
 repos
 sources
 open-questions
-nstruction-ties
 overview
-ARCHITECTURE
 synthesis
 index
 log
+ARCHITECTURE

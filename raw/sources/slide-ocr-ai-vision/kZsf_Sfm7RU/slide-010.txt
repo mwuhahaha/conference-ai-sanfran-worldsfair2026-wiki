@@ -1,0 +1,3 @@
+PR-REVIEW — THE ROOT-CAUSE FIX
+
+Verdict: ready — root cause, with a test that reproduces it.

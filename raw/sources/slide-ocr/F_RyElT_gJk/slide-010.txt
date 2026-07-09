@@ -1,21 +1,16 @@
 Preview README.md
-AMP
 Amp
-SeeAmpOwner'sManual formore informationaboutAmp.
-AIE
+Amp is an agentic coding tool, in research preview from Sourcegraph.
+See Amp Owner's Manual for more information about Amp.
 Getting Started
-1.Create server/.env.local withcontentsfrom1Password.
-macOSbootstrap
-1.Install dependencies:
+1. Create server/.env.local with contents from 1Password.
+macOS bootstrap
+1. Install dependencies:
 brew install mise
 brew install postgresql
 brew install redis
 brew install podman
-brewinstallpodsan-desktop
+brew install podman-desktop
 brew install rg
-2.Create podmanmachine with sufficlentresources:
-iLservice:
-ces start postaresal
-Microsoft
-smol?
-orid'sFair
+2. Create podman machine with sufficient resources:
+podman machine init --disk-size 128 --memory 16384

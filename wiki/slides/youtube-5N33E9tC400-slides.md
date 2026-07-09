@@ -73,12 +73,9 @@ OCR text:
 
 OCR text:
 
-> The Evolution of the Al Engineer (ideal)
-> MLE
-> AIE
-> SWE
-> lesi
-> time
+> The Evolution of the AI Engineer (ideal)
+> MLE AIE SWE
+> first time
 > compute
 
 ![[assets/slides/5N33E9tC400/slide-005.jpg]]
@@ -140,11 +137,10 @@ OCR text:
 
 OCR text:
 
-> AIE
-> 2025 is the year of
-> agents
-> AGENTENGINEERING
-> HTTPS:I/AI.ENGINEER
+> “2025 is the year of
+> agents”
+> AGENT ENGINEERING
+> HTTPS://AI.ENGINEER
 
 ![[assets/slides/5N33E9tC400/slide-009.jpg]]
 
@@ -239,11 +235,13 @@ OCR text:
 
 > RL Finetuning
 > Preference fine-tuning
-> WVVSOL-WYC0
-> Agent Engineeing
-> RoomTimesCener Thecte
-> WhatRLMeansforAgents
-> See More Detoils
+> 10:35AM - 10:55AM
+> Agent Engineering
+> Room: TimesCenter Theater
+> What RL Means for Agents
+> See More Details
+> Will Brown
+> Researcher Morgan Stanley
 
 ![[assets/slides/5N33E9tC400/slide-015.jpg]]
 
@@ -302,9 +300,10 @@ OCR text:
 
 OCR text:
 
-> TheEvolutionoftheAlEngineer(ideal)
-> gineer MLE tetime cnmgnte inference compute AIE tine SWE reasoning
-> models voftwarr GENTSAT
+> The Evolution of the AI Engineer (ideal)
+> MLE AIE SWE
+> fixed time compute inference time compute reasoning
+> models agents software
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

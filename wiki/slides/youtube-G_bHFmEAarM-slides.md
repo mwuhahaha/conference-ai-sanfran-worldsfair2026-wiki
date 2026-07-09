@@ -21,16 +21,13 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/G_bHFmEAarM/slide-002.jpg]]
 
 OCR text:
 
-> 2pogk lokoek
 > AI Engineer
 > EUROPE
 
@@ -83,14 +80,15 @@ OCR text:
 OCR text:
 
 > Music Gemma
-> Veo3.1fast·Paid
+> Veo 3.1 fast • Paid
 > veo-3.1-fast-generate-preview
-> cases.Available to developers on thepaid tierof the Gemini APl. A faster,more accessibleversionofVeo3.1,optimized forspeed and businessuse
-> $Video(*Output pervideo)·Output:$0.15
-> Knowledgecutoff:Unknown
-> Veo3.1lite·New veo-3.1-lite-generate-preview ·Paid 口
-> building high-volume applications. Ourmostcost-efficientvideogenerationmodel,designed forrapid iteration and
-> $Video（*Outputpervideo720p)·Output:$0.05
+> A faster, more accessible version of Veo 3.1, optimized for speed and business use cases. Available to developers on the paid tier of the Gemini API.
+> Video (*Output per video) • Output: $0.15
+> Knowledge cut off: Unknown
+> Veo 3.1 lite • New • Paid
+> veo-3.1-lite-generate-preview
+> Our most cost-efficient video generation model, designed for rapid iteration and building high-volume applications.
+> Video (*Output per video 720p) • Output: $0.05
 
 ![[assets/slides/G_bHFmEAarM/slide-006.jpg]]
 
@@ -109,18 +107,12 @@ OCR text:
 
 OCR text:
 
-> fs) Drive
-> 
-> “&, Upload files
-> 
-> & Record Audio
-> 
-> (o] Camera
-> 
-> Ck YouTube Video
-> 
-> [..] Sample Media
-> A an
+> Drive
+> Upload files
+> Record Audio
+> Camera
+> YouTube Video
+> Sample Media
 
 ![[assets/slides/G_bHFmEAarM/slide-008.jpg]]
 
@@ -215,38 +207,30 @@ OCR text:
 
 OCR text:
 
-> punoubhed
+> Playground
 > tokens
-> （>Getcode
-> G
-> X
-> Mediaresolution
-> 10:50AM
+> Rexy the little T-Rex - All Ep
+> Pangea NEW
+> Create a table with timestamps for all of the kinds of dinosaurs that you see in this video. Make sure to include a fun fact about each dinosaur type.
+> Run settings
+> Media resolution
 > Default
-> Rexy thelittleT-Rex-All Ep
-> Thinkinglevel
-> PangeaNEW
+> Thinking level
 > Minimal
-> 27,601tokens
+> Tools
 > Structured outputs
 > Code execution
-> Create a table with timestamps for all of the kinds of dinosaurs that you see in this video. Make sure to include a fun fact about each dinosaur type.
 > Function calling
-> Grounding withGoogle Search
-> 10:50AM
-> Source:G Google Search
-> Grounding withGoogle Maps
-> URLcontext
+> Grounding with Google Search
+> Grounding with Google Maps
+> URL context
+> Advanced settings
 > Safety settings
 > Edit
 > Add stop sequence
-> Adds
-> Start typing aprompt,use optioo +enter.to append
 > Output length
-> 88Tools
-> GGroundingwithGoogleSearchX
-> OStp
-> TopP
+> 65536
+> Top P
 
 ![[assets/slides/G_bHFmEAarM/slide-012.jpg]]
 
@@ -273,19 +257,16 @@ OCR text:
 
 OCR text:
 
-> FczloabvRy4xUeUFK9_okbaVekrYDei
-> DinosaurVideoTimestampsandFacts 28,082tokens Run setings <）Getcode G X
-> Mediaresolution
-> 10:50AM Default
-> Rexy thelittleT-Rex-All Ep PangeaNEW Thinkinglevel Minimal
-> 27,601tokens Structured outputs
-> Create a table with timestamps forall of the kinds of dinosaurs thatyou see inthis video.Make sure to include a funfact about eachdinosaur type. Code execution Function calling
-> Model 10:50AM Grounding with Google Search Source:GGooge Search
-> Based on thevideoprovided,hereisa table detailing the dinosaur typesidentified,their rappearanceinthevideo,and afunfactforeach. Grounding with Google Maps
-> Dinosaur Type Timestamps FunFact URLcontext
-> Brachlosaurus Tyrannosaurusrex (Rexy and parents) mpt/use option +enter to append 2:21;2:29-3:02;3:06-3:17;3:22-3:37;3:38-4:10; 0:15-0:28:0:50-1:24:1:36-1:47;1:57-2:03:2:13- 4:18-4:40;4:42-4:51:4:52-4:58 148-157:2:00-2:10 Despite theirfearsome reputation,some scientistsbelieve [1][21[3] Safety setings Add stop sequence Outputlength 65536 Add Edit
-> 88Tools GGrounding withGoogle SearchX + TopP
-> 0.95
+> Dinosaur Video Timestamps and Facts
+> 28,082 tokens
+> Rexy the little T-Rex - All Ep
+> Pangea NEW
+> Create a table with timestamps for all of the kinds of dinosaurs that you see in this video. Make sure to include a fun fact about each dinosaur type.
+> Based on the video provided, here is a table detailing the dinosaur types identified, their appearance in the video, and a fun fact for each.
+> Dinosaur Type Timestamps Fun Fact
+> Tyrannosaurus rex
+> (Rexy and parents) 0:15 - 0:28; 0:50 - 1:24; 1:36 - 1:47; 1:57 - 2:03; 2:13 - 2:21; 2:29 - 3:02; 3:06 - 3:17; 3:22 - 3:37; 3:38 - 4:10; 4:18 - 4:40; 4:42 - 4:51; 4:52 - 4:58 Despite their fearsome reputation, some scientists believe that T. rex hatchlings were covered in a coat of feathers!
+> Brachiosaurus 1:48 - 1:57; 2:00 - 2:10 The name Brachiosaurus means 'arm lizard' because its
 
 ![[assets/slides/G_bHFmEAarM/slide-014.jpg]]
 
@@ -419,19 +400,17 @@ OCR text:
 
 OCR text:
 
-> GreenLEGOBricksPython
-> Gemini3.1FlashLite Preview
-> S61
-> tokens
-> There are 2 greenLEGO bricksin the image.
-> ee
-> (>Python
-> withboundingboxes.
-> [(box_2d:[21,33,237,467]，label:“green LEG0 brick"）,
-> (box_2d:[578,91,818,510],label:“green LEG0 brick"）]
-> Modes
-> 055AM
-> (>Executable code
+> Green LEGO Bricks Python
+> Gemini 3.1 Flash Lite Preview
+> User • 10:35 AM
+> Draw bounding boxes around all of the green LEGO bricks using python. Display the image with bounding boxes.
+> Model • 10:55 AM
+> Executable code
+> Gemini 3 Flash Preview
+> There are 2 green LEGO bricks in the image.
+> Python
+> [(box_2d: [21, 33, 237, 467], label: "green LEGO brick"),
+> (box_2d: [578, 91, 818, 510], label: "green LEGO brick")]
 
 ![[assets/slides/G_bHFmEAarM/slide-021.jpg]]
 
@@ -477,12 +456,14 @@ OCR text:
 
 OCR text:
 
-> Knowledgecutoff:Jan2025
-> Release date:Dec17,2025
-> gemini-3.1-pro-preview Gemini 3.1ProPreview·New 口
-> powerful multimodal understanding and coding capabilities Our latest SoTAreasoning model with unprecedented depth and nuance,and
-> $<=200Ktokens·Input:$2.00/Output:$12.00
-> Releasedate:Feb 12, Knowledge cutoff:Jai $>200ktokens·Input ofchargewhennoAPikeyis selected APIpricingper1Mtokens. UsageinAlStudioUlisfree
+> Knowledge cut off: Jan 2025
+> Release date: Dec 17, 2025
+> Gemini 3.1 Pro Preview
+> gemini-3.1-pro-preview
+> Our latest SOTA reasoning model with unprecedented depth and nuance, and powerful multimodal understanding and coding capabilities
+> $ <=200K tokens • Input: $2.00 / Output: $12.00
+> API pricing per 1M tokens.
+> Usage in AI Studio UI is free of charge when no API key is selected
 
 ![[assets/slides/G_bHFmEAarM/slide-024.jpg]]
 

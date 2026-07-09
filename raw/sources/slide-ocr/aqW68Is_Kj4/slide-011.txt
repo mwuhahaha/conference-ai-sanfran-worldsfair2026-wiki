@@ -1,3 +1,2 @@
-te
-
-cE
+Code Summit
+Google Cloud

@@ -1,3 +1,7 @@
-Context graph demo architecture ad
+Context graph demo architecture
 Ai-powered decision tracing for financial institutions
-Engineering the future of Al
+DATA SOURCES
+Support Ticket System
+CRM (e.g. Salesforce)
+Internal Business Data
+Engineering the future of AI

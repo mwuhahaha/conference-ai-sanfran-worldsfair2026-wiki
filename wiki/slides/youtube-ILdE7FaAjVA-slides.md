@@ -76,42 +76,31 @@ OCR text:
 
 OCR text:
 
-> &) runpod
-> ss  h0UmUmrtw~”~C~—
-> = _ J Engineering the future of Al
+> AIE
+> runpod
+> Engineering the future of AI
 
 ![[assets/slides/ILdE7FaAjVA/slide-005.jpg]]
 
 OCR text:
 
-> Q
-> v2.4.0
-> VLLM
 > AIE
-> 2U7
-> Finet
-> VLLM
-> VLLM
+> vLLM
 > Google DeepMind
 
 ![[assets/slides/ILdE7FaAjVA/slide-006.jpg]]
 
 OCR text:
 
-> Par . ae
-> ‘ " ore
-> a * Le re
-> a in wd err
-> wa * = arn
-> a 7
-> a rel. | AlEngineer |
-> ao a Va
+> AIE
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/ILdE7FaAjVA/slide-007.jpg]]
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

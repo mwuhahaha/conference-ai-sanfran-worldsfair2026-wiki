@@ -1,6 +1,6 @@
-Security validate inputs
-
-) 0l least privilege
-Ca,
-
-still applies draw boundaries
+Security
+101
+...still applies.
+validate inputs
+least privilege
+draw boundaries

@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/BM2JX9hqsVQ/slide-002.jpg]]
 
@@ -59,14 +57,10 @@ OCR text:
 
 OCR text:
 
-> ————
-> a @ —
-> —_ y “ |
-> he a > API Keys |
-> 7 ; EM rte) ots) |
-> | + 4 ee]
-> i ~ an
-> ” - ea
+> How are permissions typically managed?
+> API Keys
+> OAuth (OIDC)
+> tailscale
 
 ![[assets/slides/BM2JX9hqsVQ/slide-005.jpg]]
 
@@ -124,11 +118,12 @@ OCR text:
 
 OCR text:
 
-> tailscale/apertuze
+> tailscale / aperture
 > Settings
+> Configure Your Agent
+> What's Next
 > AIE
-> Engineering the future of Al
-> AI
+> Engineering the future of AI
 
 ![[assets/slides/BM2JX9hqsVQ/slide-009.jpg]]
 
@@ -176,7 +171,7 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

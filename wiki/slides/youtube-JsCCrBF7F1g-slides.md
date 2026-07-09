@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/JsCCrBF7F1g/slide-002.jpg]]
 
@@ -40,16 +38,16 @@ OCR text:
 
 OCR text:
 
-> observe Registratonis cpenforArize:Oberve 2026-
-> arize ArleAK Sgnin Getstatd
-> ShipAgentsthatWork
-> AIE Al&AgentEngieerng PlatfomOneplacefordeveopmnt observabiity.andevaluation
-> Get Started Self-HostOSs
-> Poweringtheworld'sleadingAlteams
-> Handshake PagerDuty DOORDASH instacart reddlt RABL
-> AIRCANADA priceline" motorwa)
-> Braintrust Workos OpenAl
-> Engineer
+> observe
+> Registration is open for Arize Observe 2026 →
+> Ship Agents that Work
+> AI & Agent Engineering Platform. One place for development,
+> observability, and evaluation.
+> Get Started
+> Self-Host OSS
+> Powering the world’s leading AI teams
+> AIE
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/JsCCrBF7F1g/slide-004.jpg]]
 
@@ -85,10 +83,10 @@ OCR text:
 
 OCR text:
 
-> Bullding GenAl is Hard,So How Are Teams Tackling
-> AEngineer
-> EUROPE
-> D26
+> Building GenAI is Hard, So How Are Teams Tackling This?
+> Observability
+> Evaluation
+> Experimentation & Improvement
 
 ![[assets/slides/JsCCrBF7F1g/slide-006.jpg]]
 
@@ -107,7 +105,7 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

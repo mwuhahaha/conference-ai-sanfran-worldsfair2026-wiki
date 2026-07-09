@@ -1,0 +1,28 @@
+Agents for
+Designers
+
+Thread
+[Inactive Account] Jan 28th at 7:27 AM
+Hi @swyx(AE) @ben, here are 2 variations for WF26 website design.
+The first one is more condensed, text-heavy, and dark-mode. You can check it out here
+The second one is more marketing-centric, with more balance between images & text with a combination of light and dark background. More
+like our current WF25 website but more polished. You can check it out here
+Please check it out when you have a chance. Figma link for holistic view:
+https://www.figma.com/design/gNEMFy1N5UY213cfzqA1YT/World-s-Fair-2026?node-id=140-3540&t=PnF3OydmeM8L7bIW-1
+Figma
+World's Fair 2026
+Created with Figma
+Figma
+World's Fair 2026
+Created with Figma
+162 replies
+[Inactive Account] Jan 28th at 7:56 AM
+We could add a zoom effect to the second option when user scroll from the hero section to below, the video frame starts growing and becoming full screen similar to the one from realfood.gov
+Also let me know if we should try something more unique and out of the box
+ben
+Jan 30th at 2:59 PM
+hey shawn I'm commenting/working with vincent in figma on this, I've invited you if you want to see/add your own feedback/ideas
+
+AI Engineer Europe 2026
+Building AI Engineer with AI
+swyx

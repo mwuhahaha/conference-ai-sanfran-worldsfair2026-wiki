@@ -1,10 +1,7 @@
-stv+
 AIE
-MORNING
-SHOW
-CoIe-SNo
-aws
-neo4j
+tv+
+THE MORNING SHOW
+Go to Show
+Up Next on Apple TV+
 Microsoft
-smol?
-COVI
+smol

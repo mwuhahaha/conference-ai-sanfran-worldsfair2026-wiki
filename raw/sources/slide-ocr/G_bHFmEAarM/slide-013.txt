@@ -1,13 +1,10 @@
-FczloabvRy4xUeUFK9_okbaVekrYDei
-DinosaurVideoTimestampsandFacts 28,082tokens Run setings <）Getcode G X
-Mediaresolution
-10:50AM Default
-Rexy thelittleT-Rex-All Ep PangeaNEW Thinkinglevel Minimal
-27,601tokens Structured outputs
-Create a table with timestamps forall of the kinds of dinosaurs thatyou see inthis video.Make sure to include a funfact about eachdinosaur type. Code execution Function calling
-Model 10:50AM Grounding with Google Search Source:GGooge Search
-Based on thevideoprovided,hereisa table detailing the dinosaur typesidentified,their rappearanceinthevideo,and afunfactforeach. Grounding with Google Maps
-Dinosaur Type Timestamps FunFact URLcontext
-Brachlosaurus Tyrannosaurusrex (Rexy and parents) mpt/use option +enter to append 2:21;2:29-3:02;3:06-3:17;3:22-3:37;3:38-4:10; 0:15-0:28:0:50-1:24:1:36-1:47;1:57-2:03:2:13- 4:18-4:40;4:42-4:51:4:52-4:58 148-157:2:00-2:10 Despite theirfearsome reputation,some scientistsbelieve [1][21[3] Safety setings Add stop sequence Outputlength 65536 Add Edit
-88Tools GGrounding withGoogle SearchX + TopP
-0.95
+Dinosaur Video Timestamps and Facts
+28,082 tokens
+Rexy the little T-Rex - All Ep
+Pangea NEW
+Create a table with timestamps for all of the kinds of dinosaurs that you see in this video. Make sure to include a fun fact about each dinosaur type.
+Based on the video provided, here is a table detailing the dinosaur types identified, their appearance in the video, and a fun fact for each.
+Dinosaur Type Timestamps Fun Fact
+Tyrannosaurus rex
+(Rexy and parents) 0:15 - 0:28; 0:50 - 1:24; 1:36 - 1:47; 1:57 - 2:03; 2:13 - 2:21; 2:29 - 3:02; 3:06 - 3:17; 3:22 - 3:37; 3:38 - 4:10; 4:18 - 4:40; 4:42 - 4:51; 4:52 - 4:58 Despite their fearsome reputation, some scientists believe that T. rex hatchlings were covered in a coat of feathers!
+Brachiosaurus 1:48 - 1:57; 2:00 - 2:10 The name Brachiosaurus means 'arm lizard' because its

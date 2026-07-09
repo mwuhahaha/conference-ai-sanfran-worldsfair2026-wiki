@@ -1,2 +1,4 @@
-Run1 emailrealtor memory
-email: sent
+Run 1
+email realtor
+memory
+✓ email: sent

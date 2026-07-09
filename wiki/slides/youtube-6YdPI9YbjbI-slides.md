@@ -204,11 +204,10 @@ OCR text:
 
 OCR text:
 
-> BRAINIRUST,DEY O
-> AIE Q&A
-> CONF IDENTEAN
-> Mierosaft smol?
-> Wo.
+> BRAINTRUST.DEV
+> AIE
+> Q&A
+> CONFIDENTIAL
 
 ![[assets/slides/6YdPI9YbjbI/slide-013.jpg]]
 
@@ -411,8 +410,15 @@ OCR text:
 
 > BRAINTRUST.DEV
 > Scorer Types
-> AIE Code-basedscorers Exactorbinaryconditions Numericcomparisons Structuredorfactualchecks LLM-as-a-judgescorers Human-likeinterpretation Improvementacrossmultipledrafts Subjectiveorcontextualfeedback
-> Word'sFair Microsoft smol?
+> AIE
+> Code-based scorers
+> - Exact or binary conditions
+> - Numeric comparisons
+> - Structured or factual checks
+> LLM-as-a-judge scorers
+> - Subjective or contextual feedback
+> - Human-like interpretation
+> - Improvement across multiple drafts
 
 ![[assets/slides/6YdPI9YbjbI/slide-024.jpg]]
 

@@ -45,19 +45,13 @@ OCR text:
 
 OCR text:
 
-> ; a
-> ~ ; *y
-> a eae - |
+> World's Fair
 
 ![[assets/slides/liG97YXaTSA/slide-004.jpg]]
 
 OCR text:
 
-> ,
-> c/s
-> Wortd's Fair
-> £ f
-> a -
+> World's Fair
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

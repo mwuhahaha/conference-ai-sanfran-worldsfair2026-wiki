@@ -1,9 +1,27 @@
-C ☆
-Oauko pno
-}-Merged Bulk code reviewmemories experiment:rerun allcodereviews withmemories enabled #25632 risheres merged1comitintomain fromrichie/e
-unblockedbotreviewedonDec3.2025 Vew revie edcha
-unblockedbotleftacomment
-1issue found. Lockcoversation
-..n/com/nextchaptersoftware/review/lifecycle/CodeReviewEventProcessorPullRequestChangedTest.kt
-Mnt on ines +210 to +288
-210 211 212 213 214 215 216 217 218 219 228 222 223 224 225 226 227 228 221 eTest suspendingDatabaseTest( valpr-makePul1Request（） //Must be in base type format for polymorphicserialization towork valevent:CodeReviewEvent-CodeReviewEvent.PullRequestChanged（ valorg-makeOrg（） valcommit=Hash.parse(*s888888 valcodeReview=nakeCodeReview( orgId-org.id.value, prId-pr.id.value, commit=comit, pr-pr, comnitconnit, scope=CodeReviewScope.Ful1, trigger-CodeReviewEventType.PullRequestOpened, eMithMer nories for Full scop
+Merged
+Bulk code review memories experiment: rerun all code reviews with memories enabled #25632
+unblocked bot reviewed on Dec 3, 2025
+View reviewed changes
+unblocked bot left a comment
+1 issue found.
+About Unblocked
+2 participants
+Lock conversation
+...n/com/nextchaptersoftware/review/lifecycle/CodeReviewEventProcessorPullRequestChangedTest.kt
+Comment on lines +210 to +288
+@Test
+fun processPullRequestChangedEvent enqueues HiddenReviewWithMemories for Full scope
+suspendingDatabaseTest {
+val org = makeOrg()
+val pr = makePullRequest()
+val commit = Hash.parse("8888888888888888888888888888888888888888")
+val codeReview = makeCodeReview(
+orgId = org.id.value,
+prId = pr.id.value,
+commit = commit,
+pr = pr,
+scope = CodeReviewScope.Full,
+trigger = CodeReviewEventType.PullRequestOpened,
+)
+// Must be in base type format for polymorphic serialization to work
+val event: CodeReviewEvent = CodeReviewEvent.PullRequestChanged(

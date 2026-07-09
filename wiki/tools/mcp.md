@@ -53,6 +53,8 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-3hXJI2q0Jz8]]
 
 ### Slide/OCR Pages
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-rebuilding-the-web-for-agents-slides]]
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-unleash-agent-watch-it-burn-slides]]
 - [[slide-library]]
 - [[youtube--x5GEVnkuRw-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
@@ -61,8 +63,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-96G7FLab8xc-reconstructed-slides]]
 - [[youtube-96G7FLab8xc-slides]]
 - [[youtube-B9h9ovW5H9U-slides]]
-- [[youtube-EyZiAp0pelw-dense-slides]]
-- [[youtube-EyZiAp0pelw-reconstructed-slides]]
 
 ### Topic Pages
 - [[agent-memory]]

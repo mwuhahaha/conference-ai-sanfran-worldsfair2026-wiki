@@ -64,3 +64,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Transcript Markdown
 - [[youtube-dvft0Gp9sEE-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Additional Photo Slide Evidence
+These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-cooking-with-codex-slides]] - Google Photos Slides: Cooking with Codex (confidence: medium).

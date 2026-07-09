@@ -35,14 +35,14 @@ OCR text:
 
 OCR text:
 
-> AlEnginee
-> World'sFair
-> ArtificialAnalysis
-> TrendsAcrosstheAlFrontier
-> Presentedby
-> George Cameron,Co-founderatArtificialAnalysis
-> World'sFair
-> Engineering the future of Al
+> AI Engineer
+> World's Fair
+> Artificial Analysis
+> Trends Across the AI Frontier
+> Presented by
+> George Cameron, Co-founder at Artificial Analysis
+> AI Engineer World's Fair
+> Engineering the future of AI
 
 ![[assets/slides/sRpqPgKeXNk/slide-003.jpg]]
 

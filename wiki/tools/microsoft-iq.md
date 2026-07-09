@@ -2,7 +2,7 @@
 title: "Microsoft IQ"
 category: "tools"
 aliases: ["Microsoft IQ", "Foundry IQ", "Fabric IQ", "Work IQ"]
-sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence"]
+sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
 scheduleTracks: ["Track M", "Expo Stage 1"]
 scheduleRooms: ["Track M", "Expo Stage 1 NE"]
 ---
@@ -24,6 +24,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[talk-video-transcript-map]]
+
+### Slide/OCR Pages
+- [[youtube-htM02KMNZnk-slides]]
 
 ### Transcript Files
 - `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt`

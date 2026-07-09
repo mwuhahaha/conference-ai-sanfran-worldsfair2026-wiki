@@ -21,12 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> a eta Costing Too
-> 
-> aa} Much
-> 
-> iJ aT;
-> = ~
+> 3X
+> Costing Too
+> Much
 
 ![[assets/slides/uiP88SpCi1Q/slide-002.jpg]]
 

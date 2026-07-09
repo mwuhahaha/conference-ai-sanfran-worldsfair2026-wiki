@@ -61,10 +61,8 @@ OCR text:
 
 OCR text:
 
-> } Retrieval is Static
-> } Context Stuffing
-> al
-> |
+> Retrieval is Static
+> Context Stuffing
 
 ![[assets/slides/Jx4ZFEAq6bY/slide-005.jpg]]
 
@@ -168,10 +166,10 @@ OCR text:
 OCR text:
 
 > Limitations
-> Cold Start .
+> Cold Start
 > Utility Drift
-> ’ Review quality
-> all Lambda
+> Review quality
+> Lambda
 
 ![[assets/slides/Jx4ZFEAq6bY/slide-013.jpg]]
 

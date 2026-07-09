@@ -74,36 +74,23 @@ OCR text:
 OCR text:
 
 > Check out specialized LLM inference libraries.
-> micis thefastest.Thisissofast thatI'mskeptical andamnowmotivated tomeasurequality（if 1have time).Whenchecking
-> AIE theoutputsmanually,theydidn'tseemthatdifferentthanotherapproaches. utof allof the solutions1tried.Furthermore,1think that the ergonomics are excellent forthe models that they support.Unlike LM,CTranslatedoesn'tseem tosupportdistributed inferencejustyet. CTranslate2ismyfavorite tool,whichisamongthefastestbutisalsotheeasiesttouse.Thedocumentationisthebest
-> somethingyouwill need forlargermodels.vLLMmightbethesweetspotforservingvery largemodels. LLMisreallyfast,butCTranslatecanbemuchfaster.Onotherhand,vLLMsupportsdistributedinference,whichis
-> astandardway.TGlhassome nicefeaturesliketelemetrybakedin(yia OpenTelemetry)andintegration with theHFecosystem
-> https://hamel.dev/notes/llm/inference/03_inference.html
-> aws
-> World'sFair
+> • mlc is the fastest. This is so fast that I'm skeptical and am now motivated to measure quality (if I have time). When checking the outputs manually, they didn't seem that different than other approaches.
+> • CTranslate2 is my favorite tool, which is among the fastest but is also the easiest to use. The documentation is the best out of all of the solutions I tried. Furthermore, I think that the ergonomics are excellent for the models that they support. Unlike vLLM, CTranslate2 doesn't seem to support distributed inference just yet.
+> • vLLM is really fast, but CTranslate2 can be much faster. On other hand, vLLM supports distributed inference, which is something you will need for larger models. vLLM might be the sweet spot for serving very large models.
+> • Text Generation Inference is an ok option (but nowhere near as fast as vLLM) if you want to deploy HuggingFace LLMs in a standard way. TGI has some nice features like telemetry baked in (via OpenTelemetry) and integration with the HF ecosystem
 
 ![[assets/slides/DeFF3J8T5Pk/slide-006.jpg]]
 
 OCR text:
 
-> Let'sexplorewiththeLLMEngineAdvisor!
-> Iwanto serveLam3I s8
-> with
-> Clients should receivethe first tokeIn under
-> anyengine
-> 1second
-> 128tokensin/1024tok
-> every benchmarked
+> Let’s explore with the LLM Engine Advisor!
+> I want to serve Llama 3.1 8B with any engine
+> Clients should receive the first token in under 1 second 99% of the time
+> I expect on average 128 tokens in / 1024 tokens out
+> I want to see every benchmarked configuration
+> modal.com/llm-almanac
 > AIE
-> Copy
-> OELCAO_PATH
-> I0RS+40ENGTES
-> isupe-(
-> sodsl.leage froe_egistry
-> s:s/
-> modal.com/1lm-almanac
 > aws
-> World's Fair
 
 ![[assets/slides/DeFF3J8T5Pk/slide-007.jpg]]
 
@@ -126,7 +113,7 @@ OCR text:
 
 OCR text:
 
-> Al Engineer
+> AI Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

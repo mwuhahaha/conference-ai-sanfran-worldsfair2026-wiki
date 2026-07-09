@@ -60,19 +60,14 @@ OCR text:
 OCR text:
 
 > For early-stage devtools
-> 9 out of10 startups
-> Signal>Revenue
+> 9 out of 10 startups
+> Signal > Revenue
 
 ![[assets/slides/G6IlDzj8OjA/slide-005.jpg]]
 
 OCR text:
 
 > Come to SF
-> &
-> ————
-> 4
-> hee nS
-> re
 
 ![[assets/slides/G6IlDzj8OjA/slide-006.jpg]]
 
@@ -111,19 +106,6 @@ OCR text:
 OCR text:
 
 > Do events in SF
-> 
-> ar a oe 0 oe
-> 
-> a i en Can Og ans :
-> 
-> 7 eZ ; 4 ee Bay ae
-> 
-> Cn on sen iY Pe es cn
-> a ———— oe oe aa
-> 
-> rr eg ; | endl rn ae
-> 
-> re
 
 ![[assets/slides/G6IlDzj8OjA/slide-009.jpg]]
 

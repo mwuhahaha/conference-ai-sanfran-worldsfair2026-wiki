@@ -108,7 +108,7 @@ Do not treat this as permission to bypass site rules, security boundaries, or us
 - [[mcp]]
 - [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]]
 - [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]]
-- [[2026-06-30-derek-meegan-deploying-browser-agents-at-scale]]
+- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]]
 
 ## Evidence Boundary
 Official schedule and speaker data are canonical for the talk title, speaker, date, track, and room. The recording has not been found as of this enrichment pass. Public sources about Rexmore, Corey Gallon, and chrome-agent provide supporting context for interpreting the talk, but they are not a substitute for a session transcript.
@@ -117,3 +117,7 @@ Official schedule and speaker data are canonical for the talk title, speaker, da
 - [[youtube-4sX_He5c4sI-transcript]] — full cached transcript markdown for the related YouTube source.
 - [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.
 - [[youtube-htM02KMNZnk-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Additional Photo Slide Evidence
+These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-dark-arts-web-automation-slides]] - Google Photos Slides: The Dark Arts of Web Automation (confidence: high).

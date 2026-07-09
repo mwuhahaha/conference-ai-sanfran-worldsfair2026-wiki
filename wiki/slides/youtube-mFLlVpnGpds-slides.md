@@ -18,6 +18,12 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 ## Extracted Slides
 ![[assets/slides/mFLlVpnGpds/slide-001.jpg]]
+
+OCR text:
+
+> Beyond transcription
+> Building voice AI that actually understands
+
 ![[assets/slides/mFLlVpnGpds/slide-002.jpg]]
 
 OCR text:
@@ -43,19 +49,16 @@ OCR text:
 OCR text:
 
 > What can go wrong?
-> ~ hopefully the answer is not "the live demo"
-> Pane a : F
-> * * diarization error rate =
-> rs ra total speech
-> bod ad
-> od ve bd
-> e Fee —— -
-> a | | ea | a -
-> “all (BJ pyannotedl
-> Al Engineer
-> od ae Zo
-> " nal ;
-> ss rs
+> hopefully the answer is not "the live demo"
+> diarization error rate = speaker confusion + missed detection + false alarm
+> total speech
+> pip install pyannote
+> pyannote.audio.DiarizationErrorRate(
+> audio='/path/to/audio.wav',
+> reference=manual_annotation,
+> hypothesis=automatic_prediction,
+> permutation_invariant=True)
+> pyannoteAI
 
 ![[assets/slides/mFLlVpnGpds/slide-004.jpg]]
 
@@ -95,7 +98,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

@@ -1,12 +1,27 @@
-C ☆
-wh Unblocked Clude Cod poqun
-Merged Bulk code reviewmemories experiment:rerun all codereviews with memories enabled25632 rsheresmerged1commit intoainfromxichie/cr-
-scope=CodeReviewScope.Full,
-valevent: CodeReviewEvent CodeReviewEvent.PullRequestChanged（ orgIdorg.id.value, prId-pr.id.value, eventTypeeventType, commit=comnit,
-whenever(codeReviewControlService.shouldAutonaticallyCreateCodeReview（org.id.value,p: shenever( codeReviewManager.createReview( orgId-org.id.value, prId-pr.id.value, connitconmit,
+Bulk code review memories experiment: rerun all code reviews with memories enabled #26332
+richiebres merged 1 commit into main from richie/cr-memories-shado...
+scope = CodeReviewScope.Full,
+val event: CodeReviewEvent = CodeReviewEvent.PullRequestChanged(
+orgId = org.id.value,
+prId = pr.id.value,
+commit = commit,
+eventType = eventType,
+)
+whenever(codeReviewControlService.shouldAutomaticallyCreateCodeReview(org.id.value, p...)
+whenever(
+codeReviewManager.createReview(
+orgId = org.id.value,
+prId = pr.id.value,
+commit = commit,
+trigger = eventType,
+)
 ).thenReturn(codeReview.asDataModel())
-processor.process(mockMessage,event.encode())
-verify(codeRevienLifecycleEventProducer).eng orgId=org.id.value, prId-pr.id.value, commitcommit, eHiddenPullRequestReviewwithMenoriesEv
-Basedon#24846（comment）and24699
-richiebresonDec3.2025 Author
-Very cool.SomethingIwould say!
+processor.process(mockMessage, event.encode())
+verify(codeReviewLifecycleEventProducer).enqueueHiddenPullRequestReviewWithMemoriesEv...
+orgId = org.id.value,
+prId = pr.id.value,
+commit = commit,
+)
+Based on #24846 (comment) and #24699 [comment]
+richiebres on Dec 3, 2025 Author
+Very cool. Something I would say!

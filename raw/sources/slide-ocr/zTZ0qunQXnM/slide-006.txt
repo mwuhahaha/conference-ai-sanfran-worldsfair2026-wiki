@@ -1,5 +1,2 @@
 AIE
-blicdai
-Keep
-ublic
-Engineering the future of Al
+Engineering the future of AI

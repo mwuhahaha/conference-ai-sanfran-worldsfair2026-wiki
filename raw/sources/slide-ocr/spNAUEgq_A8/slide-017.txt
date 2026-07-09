@@ -1,5 +1,5 @@
 Messages
 Tools
 System Prompt
-$Figma
+Figma
 Model

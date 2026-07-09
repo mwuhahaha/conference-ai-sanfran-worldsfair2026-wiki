@@ -1,4 +1,2 @@
-An McP App can run everywhere!
-AIE
-600
-Engineering the future of Al
+An MCP App can run everywhere!
+Engineering the future of AI

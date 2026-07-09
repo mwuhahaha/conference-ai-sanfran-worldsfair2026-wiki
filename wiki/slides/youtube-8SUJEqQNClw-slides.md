@@ -35,13 +35,20 @@ OCR text:
 
 OCR text:
 
-> Wholam Why I'm giving this talk
-> AIE Mastra is theleading Typescript agent framework Users use our agent andworkflowprimitivesfor differentuse-cases....and sometimestogether
+> Who I am
+> Why I’m giving this talk
+> Sam Bhagwat
+> Founder/CEO, Mastra.ai
+> Prev: Gatsby co-founder
+> Author, Principles of Building AI Agents
+> sam on X/Twitter
+> Mastra is the leading Typescript agent framework
+> Users use our agent and workflow primitives for different use-cases...and sometimes together
 > Mastra
-> SamBhagwat TheTypeScriptAlFramework
-> Author,Principles of Prev:Gatsby co-founder BuildingAl Agents Founder/CEO,Mastra.ai samonX/Twitter s npm create mastra
+> The TypeScript AI Framework
+> npm create mastra
 > github.com/mastra-ai/mastra
-> Word'sFair
+> World’s Fair
 
 ![[assets/slides/8SUJEqQNClw/slide-003.jpg]]
 
@@ -292,14 +299,14 @@ OCR text:
 
 OCR text:
 
-> nustru
-> World's Fair AlEngineer
+> AI Engineer
+> World's Fair
 
 ![[assets/slides/8SUJEqQNClw/slide-021.jpg]]
 
 OCR text:
 
-> AlEngineer
+> AI Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

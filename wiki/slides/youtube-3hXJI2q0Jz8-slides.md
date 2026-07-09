@@ -21,9 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Recursive Coding Agents 2026
-> RaymondWeitekamp
-> RAW.worksIOpenProse
+> AI ENGINEER WORLD'S FAIR • 2026
+> Recursive Coding Agents
+> Raymond Weitekamp
+> RAW.works | OpenProse
 > @raw_works
 
 ![[assets/slides/3hXJI2q0Jz8/slide-002.jpg]]
@@ -42,16 +43,14 @@ OCR text:
 OCR text:
 
 > THESIS
-> Today'sagents are
+> Today’s agents are
 > mismanaged geniuses
 > The intelligence is there.
-> The missing layer ishow we specify.manage,reuse,and verily the work
-> stopBabysitingAgentsstart
-> Authoring Outcomes
-> TURINGPOST-RAYMONDWEITEKAMP
-> ALEXZHANG·ZEDLI·OMARKHATTAB
-> Stop Babysitting Agents,Start Authoring Outcomes
-> TheMismanaged Geniuses Hypothesis
+> The missing layer is how we specify, manage, reuse, and verify the work.
+> TURING POST • RAYMOND WEITEKAMP
+> Stop Babysitting Agents, Start Authoring Outcomes
+> ALEX ZHANG • ZED LI • OMAR KHATTAB
+> The Mismanaged Geniuses Hypothesis
 
 ![[assets/slides/3hXJI2q0Jz8/slide-004.jpg]]
 
@@ -93,10 +92,18 @@ OCR text:
 
 OCR text:
 
-> OpenProseexplicitlydeclaressubagentwork
-> handles,then verifies the child-work trace. Here are two OpenProse examples where the model turns an external handle into smaller
-> Strs homan ai prmhandeoot doesntread the RECURSIVE DECOMPOSITION handle-recursive-reader.prose.md whole Ping DIRECTORYHANDLE SLICER directory-handle-slicer.prose.md Starts tomarepoor dectory handle,not cop edrooteonk
-> ifnonterminals for child snaaifest: recurse（chld.pah) sanifestodestcedirectory} for child insanifest: vatidatewerker preverance
+> OpenProse explicitly declares subagent work
+> Here are two OpenProse examples where the model turns an external handle into smaller handles, then verifies the child-work trace.
+> RECURSIVE DECOMPOSITION
+> handle-recursive-reader.prose.md
+> Starts from an external prompt_handle, not docs or read the whole thing
+> The model decomposes terminal vs. nonterminal handles.
+> Nonterminal handles produce child handles and call the same contract again.
+> DIRECTORY HANDLE SLICER
+> directory-handle-slicer.prose.md
+> Starts from a repo or directory handle, not copied root context.
+> The model uses search to choose relevant file handles for the question.
+> Workers inspect only assigned handles; aggregation cites worker evidence.
 
 ![[assets/slides/3hXJI2q0Jz8/slide-007.jpg]]
 

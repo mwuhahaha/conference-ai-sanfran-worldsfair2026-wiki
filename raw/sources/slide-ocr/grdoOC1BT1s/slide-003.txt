@@ -1,13 +1,3 @@
-J
-Pond r ry
-* 4
-marca
-bd *
-5d ve *
-Cd e
-i
-|
-|
-| Al Engineer |
-i eer EUROPE
-ig ml
+Round 1
+AI Engineer
+EUROPE

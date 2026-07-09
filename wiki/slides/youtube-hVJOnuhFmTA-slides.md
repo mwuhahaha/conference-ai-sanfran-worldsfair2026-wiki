@@ -31,14 +31,8 @@ OCR text:
 
 OCR text:
 
-> ,
-> ean, oe ea
-> A Re i oo
-> ib RY | clr
-> PY N css: fo
-> J 'SQO@
-> wes — F
-> a @
+> The channel
+> The Expression
 
 ![[assets/slides/hVJOnuhFmTA/slide-003.jpg]]
 
@@ -147,15 +141,13 @@ OCR text:
 OCR text:
 
 > PROMPT
-> Tell mewhat matters.
-> JUst A StraW ontO the ocean.
+> Tell me what matters.
+> JUST A STRAW INTO THE OCEAN.
 
 ![[assets/slides/hVJOnuhFmTA/slide-005.jpg]]
 
 OCR text:
 
-> . FF oaern
-> i. | A
 > Protocol
 
 ![[assets/slides/hVJOnuhFmTA/slide-006.jpg]]
@@ -218,8 +210,8 @@ OCR text:
 
 OCR text:
 
-> ne © Frontier Voice
-> @rse
+> Frontier Voice
+> Online
 
 ![[assets/slides/hVJOnuhFmTA/slide-012.jpg]]
 
@@ -342,34 +334,111 @@ OCR text:
 
 OCR text:
 
-> Productrequirementsrevlew IPause Replay
-> Speaking Invited Into theroom
-> Accessrequests areTuture scope. Stakeholder Dana Product-Lead Sam Engineering Jordan scope.Mnagerscanapprove crejectanexpenserightfromanotificatonAnd per the FinanceControlsPolicy,nything overfive thousand dollarsroutestoa second approver.
-> That changes the datamodel.Good to know. Clarificationresoled
-> Al, pull that up for everyone. Sam CHAT
-> Oh-d forgotten that wasa rule. SAM what'sour currentmedan approvaltime?
-> EURO Sooverfive thousandneedsa second approver? 2.3daysmedian right nowthe targ
-> Sam Yep-manager plus Finance. right,that'sfine SAM
-> Soa big one can't be a single tap. GOALS
-> Sam QWhichrequirement is this? REO-142-penseapprovas Resoveapprovalscope
-> Agreed.Under five,one tap'sfine. Dana Expense approvals-firstrelease Apply Ssooo second-level threshold OAccessrequestsfuture scope
-> Worksforme.
-> Sam Okay-agreed.Expense approvals,five-thousand threshold. Al,capture that for us. Adecision-notatranscript. REQUIREMENT sg-offFinanceConrsPollcyAccessrquestsaeutfcope.
+> Product requirements review · live
+> Pause Replay
+> Dana
+> Stakeholder
+> Sam
+> Product Lead
+> Jordan
+> Engineering
+> Access requests are future scope.
+> That changes the data model. Good to know.
+> All, pull that up for everyone.
+> Oh — I’d forgotten that was a rule.
+> So over five thousand needs a second approver?
+> Yep — manager plus Finance.
+> So a big one can’t be a single tap.
+> Right — over the limit it routes to a second approver.
+> Agreed. Under five, one tap’s fine.
+> Works for me.
+> Okay — agreed. Expense approvals, five-thousand threshold.
+> AI, capture that for us.
+> Speaking
+> Invited into the room
+> First release supports expense approvals only — access requests are out of scope. Managers can approve or reject an expense right from a notification. And per the Finance Controls Policy, anything over five thousand dollars routes to a second approver.
+> Clarification resolved
+> Brought into the room — resolved.
+> CHAT
+> SAM
+> what’s our current median approval time?
+> AI
+> 2.3 days median right now; the target is same-day.
+> SAM
+> right, that’s fine
+> GOALS
+> Q Which requirement is this?
+> REQ-142 — expense approvals
+> Resolve approval scope
+> Expense approvals — first release
+> Apply $5,000 second-level threshold
+> Access requests — future scope
+> REQUIREMENT
+> Expense approvals only for the first release. Over $5,000 requires second-level sign-off (Finance Controls Policy v3). Access requests are out of scope.
+> A decision — not a transcript.
 
 ![[assets/slides/hVJOnuhFmTA/slide-019.jpg]]
 
 OCR text:
 
-> Productrequirementsreview IPause UReplay
+> Product requirements review · live
+> Pause Replay
+> Dana
+> Stakeholder
+> Sam
+> Product · Lead
+> Jordan
+> Engineering
 > CHAT
-> Dana Product-Lead Sam Engineering Jordan what's our current median approval time? SAM 2.3days median rightnow,the targ
-> Right-over thelimit itroutestoa second approver. rgpthar'sfine WYS
-> Agreed.Underfive,one tap'sfine. Dana GOALS
-> Worksforme. Resove epprovalsoope REQ-142-epense prvas
-> Al, capture that for us. Sam Sam Accessrequests-future scope Apply $10000second-levelthreshold? Expense approvals-firstrelease Q-ls-the-S50o0-threshoidstilcurene?
-> Dana Actually-make the threshold ten thousand,notfive. Yes. Want me to update the requirement to a ten-thousand threshold? Firstrelesemanagerscanappove orrejctpendingepenserequestsdirecty Approve/rejectexpenserequestsfromanotification fromanotification.Expensesovers10oooroutetosecond-levefapprovalper Finance Controls Policy v354.2.Decision is writen toaudithistory.Access requests are expiicitly out ofscope. REQ-142 0000
-> Al—is this room free after the meeting? Let me check-theroom looksfree after this,but- ACCEPTANCECRITERIA sad udu Managercanapprove orrejectfrom thenotilcaton OExpenses over S1ooo0requiresecond-levelapproval(m Employee lsnofed ofthe decison Decisonisrecordedinaudithistory +Finance)
-> Until three? It updatesthe spec-live. 5pts
+> Sam
+> what's our current median approval time?
+> AI
+> 2.3 days median right now; the target is same-day.
+> Sam
+> right, that's fine.
+> Sam
+> Right — over the limit it routes to a second approver.
+> Dana
+> Agreed. Under five, one tap's fine.
+> Jordan
+> Works for me.
+> Sam
+> Okay — agreed. Expense approvals, five-thousand threshold.
+> Sam
+> AI, capture that for us.
+> Dana
+> Actually — make the threshold ten thousand, not five.
+> AI
+> Want me to update the requirement to a ten-thousand threshold?
+> Sam
+> Yes.
+> Jordan
+> AI — is this room free after the meeting?
+> AI
+> Let me check — the room looks free after this, but—
+> Sam
+> Until three?
+> It updates the spec — live.
+> GOALS
+> Which requirement is this?
+> REQ-142 — expense approvals
+> Resolve approval scope
+> Expense approvals — first release
+> Apply $10,000 second-level threshold
+> Access requests — future scope
+> Q: Is the $5,000 threshold still current?
+> Answered — raised to $10,000 (Sam confirmed)
+> REQ-142
+> Approve / reject expense requests from a notification
+> First release, managers can approve or reject pending expense requests directly from a notification. Expenses over $10,000 route to second-level approval per Finance Controls Policy v3.4.2. Decision is written to audit history. Access requests are explicitly out of scope.
+> ACCEPTANCE CRITERIA
+> Manager receives a notification for a pending expense
+> Manager can approve or reject from the notification
+> Expenses over $10,000 require second-level approval (manager + Finance)
+> Employee is notified of the decision
+> Decision is recorded in audit history
+> expense approvals first release compliance
+> 5 pts
 
 ![[assets/slides/hVJOnuhFmTA/slide-020.jpg]]
 
@@ -406,15 +475,7 @@ OCR text:
 
 OCR text:
 
-> <_< + |
-> Gap -* —
-> F Ne
-> iy
-> 7 a,
-> ie
-> b = ‘
-> rf a :
-> CA@e sty
+> Columbia
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

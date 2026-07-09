@@ -1,12 +1,6 @@
-fs) Drive
-
-“&, Upload files
-
-& Record Audio
-
-(o] Camera
-
-Ck YouTube Video
-
-[..] Sample Media
-A an
+Drive
+Upload files
+Record Audio
+Camera
+YouTube Video
+Sample Media

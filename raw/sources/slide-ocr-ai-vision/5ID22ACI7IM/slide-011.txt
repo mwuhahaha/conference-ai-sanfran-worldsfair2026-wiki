@@ -1,0 +1,33 @@
+Bulk code review memories experiment: rerun all code reviews with memories enabled #26332
+richiebres merged 1 commit into main from richie/cr-memories-shado...
+
+scope = CodeReviewScope.Full,
+
+val event: CodeReviewEvent = CodeReviewEvent.PullRequestChanged(
+    orgId = org.id.value,
+    prId = pr.id.value,
+    commit = commit,
+    eventType = eventType,
+)
+
+whenever(codeReviewControlService.shouldAutomaticallyCreateCodeReview(org.id.value, p...)
+whenever(
+    codeReviewManager.createReview(
+        orgId = org.id.value,
+        prId = pr.id.value,
+        commit = commit,
+        trigger = eventType,
+    )
+).thenReturn(codeReview.asDataModel())
+
+processor.process(mockMessage, event.encode())
+verify(codeReviewLifecycleEventProducer).enqueueHiddenPullRequestReviewWithMemoriesEv...
+    orgId = org.id.value,
+    prId = pr.id.value,
+    commit = commit,
+)
+
+Based on #24846 (comment) and #24699 [comment]
+
+richiebres on Dec 3, 2025 Author
+Very cool. Something I would say!

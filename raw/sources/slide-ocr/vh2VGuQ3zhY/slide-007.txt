@@ -1,8 +1,30 @@
-HOWTOBUILDIT
-3Step ImplementationPattern
-Ankush Rastogi
-Build Tool Index RouteEach Query Inject&CallLLM
-OFFLINE-ONE-TIME RUNTIME·EVERYREQUEST RUNTIME-EVERYREQUEST
-Collect all tool names, descriptions,and JsON schemas Embed theincominguserquery with thesamemodel FetchJSoNschemasforthe selectedtoolsonly
-.Indexonce andreuseforeverby Embedeachtooldescription SentenceTransformers) storingvectorsinFAisSor Pinecone. (OpenAl,Cohere, Run approximate ·Retrieve top-Ktools（K=5 thetoolindex nearest-neighborsearch against default);applya cosine threshold ·Build theprompt with just those Call theLLM→returnresult;log selectionsfor monitoring schemasinthetoolsparameter SohaillShaikh
-Ankush Rastogi
+HOW TO BUILD IT
+3 Step Implementation Pattern
+1 Build Tool Index
+OFFLINE • ONE-TIME
+• Collect all tool names,
+descriptions, and JSON schemas
+• Embed each tool description
+(OpenAI, Cohere,
+SentenceTransformers)
+• Index once and reuse forever by
+storing vectors in FAISS or
+Pinecone.
+2 Route Each Query
+RUNTIME • EVERY REQUEST
+• Embed the incoming user query
+with the same model
+• Run approximate
+nearest-neighbor search against
+the tool index
+• Retrieve top-K tools (K = 5
+default); apply a cosine threshold
+3 Inject & Call LLM
+RUNTIME • EVERY REQUEST
+• Fetch JSON schemas for the
+selected tools only
+• Build the prompt with just those
+schemas in the tools parameter
+• Call the LLM → return result; log
+selections for monitoring
+11

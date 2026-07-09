@@ -158,13 +158,8 @@ OCR text:
 
 OCR text:
 
-> an
-> 3 {
-> r Y.
-> oe 7 5 ; 7
-> —_ -
-> | a ~— me
-> — ee «6 Ae
+> AI Engineer
+> World's Fair
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

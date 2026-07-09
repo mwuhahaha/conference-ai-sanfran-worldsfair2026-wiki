@@ -31,22 +31,16 @@ OCR text:
 
 OCR text:
 
-> —eeeeeeeSSSSSSSSSSSeSeeeaaSSSS
 > How to Look at Your Data
 > Jeff Huber & Jason Liu
-> ms oaths)
-> es
 
 ![[assets/slides/jryZvCuA0Uc/slide-003.jpg]]
 
 OCR text:
 
 > Read the full report
-> research. trychroma.com
-> { ; x OF; er Me [a]
-> ¢ y gt rs
-> . lo : ae
-> | ie
+> research.trychroma.com
+> AIE
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

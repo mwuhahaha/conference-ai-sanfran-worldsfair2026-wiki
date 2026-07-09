@@ -34,9 +34,9 @@ OCR text:
 
 OCR text:
 
-> TOOK
 > AIE
-> AUTOSPL smolp
+> AUTOGPT
+> smol ai
 
 ![[assets/slides/OimPoLxioYg/slide-003.jpg]]
 
@@ -101,7 +101,6 @@ OCR text:
 OCR text:
 
 > AIE
-> SUN
 > AUTOgPt
 > smoo
 
@@ -236,9 +235,8 @@ OCR text:
 
 OCR text:
 
-> Seog | oe -
-> ath arn
-> Pid
+> AI Engineer
+> SUMMIT
 
 ![[assets/slides/OimPoLxioYg/slide-017.jpg]]
 ![[assets/slides/OimPoLxioYg/slide-018.jpg]]
@@ -260,24 +258,24 @@ OCR text:
 
 OCR text:
 
-> LIVECODING
-> AlEngineer
-> SUMMIT
+> LIVE CODING
 > Let's be 1000x Engineers Today
-> A!F
-> RUTO
 
 ![[assets/slides/OimPoLxioYg/slide-020.jpg]]
 
 OCR text:
 
-> Lessons from Building Paint.wtf with CLIP Lee
+> Lessons from Building Paint.wtf with CLIP
+> We're all learning here
 > CLIP Can Read
->  Gomanenne sot tet ios atone ance merino sore "
-> a ae A faccoo}
-> 2Y __
-> ne 0 AR Wry A
-> roan - |
+> Draw a raccoon driving a tractor
+> Global Ranking: 586 out of 10,187 submissions
+> TRY AGAIN
+> choose another prompt
+> Draw a raccoon driving a tractor
+> Global Ranking: 81 out of 10,187 submissions
+> TRY AGAIN
+> choose another prompt
 > 10
 
 ![[assets/slides/OimPoLxioYg/slide-021.jpg]]

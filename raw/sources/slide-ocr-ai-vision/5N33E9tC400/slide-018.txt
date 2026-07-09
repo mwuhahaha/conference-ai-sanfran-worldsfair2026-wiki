@@ -1,0 +1,4 @@
+The Evolution of the AI Engineer (ideal)
+MLE   AIE   SWE
+fixed time compute   inference time compute   reasoning
+models   agents   software

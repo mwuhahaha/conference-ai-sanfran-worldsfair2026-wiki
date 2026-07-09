@@ -1,12 +1,12 @@
 WHAT WE GOT WRONG
-Weoptimizedthemodel.Weshouldhaveoptimizedthe
+We optimized the model. We should have optimized the
 context.
-Betterprompts
-“Be concise.""Onlyreturn relevantcode."The model still received 45k tokens of input
+Better prompts
+“Be concise.” “Only return relevant code.” The model still received 45k tokens of input.
 Model settings
-Temperature,top-p,max_tokenscontrol output shape.The45kinput was already sentand billed
+Temperature, top-p, max_tokens control output shape. The 45k input was already sent and billed.
 Output compression
-"Talk like a caveman."Saves75%ofoutput(10%ofbill).Net impact:~8%.Wrong 10%
-Aretrieval layerbetweencodebaseandagent
-Searchan index,retumonlyrelevantchunks.94%fewer tokens
-4elara-labs/code-context-engine
+“Talk like a caveman.” Saves 75% of output (10% of bill). Net impact: ~8%. Wrong 10%.
+A retrieval layer between codebase and agent
+Search an index, return only relevant chunks. 94% fewer tokens.
+elara-labs/code-context-engine

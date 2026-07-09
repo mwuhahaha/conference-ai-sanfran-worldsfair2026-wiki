@@ -42,11 +42,14 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[google-photos-aie-slides]]
 - [[talk-video-transcript-map]]
 - [[youtube-Bc6Ojl2XS1w]]
 - [[youtube-LxQsQ3vZDqo]]
 
 ### Slide/OCR Pages
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-gemini-live-slides]]
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-knowledge-agents-slides]]
 - [[youtube--TiET_K-E_g-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
 - [[youtube-7Dtu2bilcFs-slides]]
@@ -55,8 +58,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 - [[youtube-Bc6Ojl2XS1w-slides]]
 - [[youtube-F_RyElT_gJk-slides]]
-- [[youtube-G_bHFmEAarM-slides]]
-- [[youtube-IddXPepIAS4-slides]]
 
 ### Topic Pages
 - [[voice-agents]]

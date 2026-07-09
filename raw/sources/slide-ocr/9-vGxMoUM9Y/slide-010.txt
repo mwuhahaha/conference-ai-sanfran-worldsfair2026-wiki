@@ -1,7 +1,17 @@
-Guardrails Al acts as a safety firewall around your LLMs
-Appicapon Log Applicaton Logic
-Standard Guarorags Al
-’ 9
-LLM : LLM :
-an =.
-‘+ Querdrelie Al |
+Guardrails AI acts as a safety firewall around your LLMs
+Application Logic
+Standard
+LLM Logic
+Prompt
+LLM API
+Raw Output
+Application Logic
+Guardrails AI
+LLM Logic
+Prompt
+LLM API
+Raw Output
+Reconstruct prompt...
+Fail Validation
+Verification Logic
+Pass Validation

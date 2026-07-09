@@ -1,0 +1,25 @@
+SOURCE CONTROL
+CHANGES
+Commit
+Changes
+external-connectors-section.svelte
+Investigate and implement Linear connector icon
+server/src/routes/admin/connections.svelte
+import Globe from '@lucide/svelte/icons/globe'
+import Loader from '@lucide/svelte/icons/loader-2'
+import Slack from '@lucide/svelte/icons/slack'
+import Trash from '@lucide/svelte/icons/trash-2'
+import X from '@lucide/svelte/icons/x'
+import Link from '@lucide/svelte/icons/link'
+Now let me add the helper function. I need to find where the component logic starts:
+server/src/routes/admin/connections.svelte so-120
+$props()
+disconnectServiceForm: SuperValidated<...>
+externalConnectors: ExternalConnector[]
+externalConnections: ExternalConnection[]
+TODOs
+Find Linear issue about customizing Linear connector icon
+Implement the Linear connector icon customization feature
+Microsoft
+smol ai
+AIE

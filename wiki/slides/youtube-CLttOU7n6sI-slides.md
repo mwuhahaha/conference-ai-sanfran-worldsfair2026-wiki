@@ -192,31 +192,37 @@ OCR text:
 
 OCR text:
 
-> dors geese came
-> Our SDK as the only door —_
-> definekditFunction, findNodesByNameExact, assert,
-> setRate, editNode, type EditProducttonGraphState,
-> } from ‘mnotersned: gragmagentagi;
-> . . . . . export default defined dr tFuncet vont
-> : Typescript SDK with all edit primitives the “cut elecericity. ard, saap.seeet |
-> async (state: EditProductironGrapnState) => {
-> agent needs to make changes const [mfg] = fundNadesBytionet xo t(
-> state. graph nodes, ‘minsfocturing'):
-> : Enforces which fields are editable vs. which const [electricsty) i«, fledNedestyNonet rock
-> state graph nodes, ‘grid electeriity' iy
-> . 7, const (steel) = findNodesByNane€ xact(
-> are derived from other fields ROL GrSONLS “BEE
-> : Guarantees that it emits objects we expect \ assertinfg && electricity Ak steet,
-> . . “ Terpectst one of each tex) lod);
-> : Requires teaching the agent how to use it
-> State = setRate(
-> state, mfg.identifier, clectricity. identifier, »;
-> state = editNode(state, steel. identifier, {
-> 1 stainless steel’ J);
-> return stote;
-> }
-> v
-> ee a a — ee
+> Our SDK as the only door
+> • Typescript SDK with all edit primitives the
+> agent needs to make changes
+> • Enforces which fields are editable vs. which
+> are derived from other fields
+> • Guarantees that it emits objects we expect
+> • Requires teaching the agent how to use it
+> import {
+> defineEditFunction, findNodesByNameExact, assert,
+> setRate, editNode, type EditProductionGraphState,
+> } from '@earthshed/graphAgentApi';
+> export default defineEditFunction(
+> 'cut electricity and swap steel',
+> async (state: EditProductionGraphState) => {
+> const [mfg] = findNodesByNameExact(
+> state.graph.nodes, 'manufacturing');
+> const [electricity] = findNodesByNameExact(
+> state.graph.nodes, 'grid electricity');
+> const [steel] = findNodesByNameExact(
+> state.graph.nodes, 'steel');
+> assert(mfg && electricity && steel,
+> 'expected one of each - fail loud');
+> // cut electricity 15%
+> state = setRate(
+> state, mfg.identifier, electricity.identifier, 0.85);
+> // swap steel - stainless steel
+> state = editNode(state, steel.identifier, {
+> material: 'stainless steel' });
+> return state;
+> },
+> );
 
 ![[assets/slides/CLttOU7n6sI/slide-012.jpg]]
 

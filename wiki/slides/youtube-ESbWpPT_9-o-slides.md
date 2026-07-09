@@ -21,18 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/ESbWpPT_9-o/slide-002.jpg]]
 
 OCR text:
 
-> Why Most A Will Run Locally
-> ngineer
-> ELOPE
+> Why Most AI Will Run Locally
+> Cheema, EXO Labs
 
 ![[assets/slides/ESbWpPT_9-o/slide-003.jpg]]
 
@@ -111,19 +108,13 @@ OCR text:
 
 OCR text:
 
-> 103
-> oO 126.3x
-> Yo improvement
-> > 10?
-> e
-> 3°
-> £
-> :
-> 1
-> = 10
-> a
-> Oo ee
-> =@— Local Accelerator Memory
+> 10^3
+> GPU Memory (GB)
+> 126.3×
+> Improvement
+> 10^2
+> 10^1
+> Local Accelerator Memory
 > 2012 2015 2020 2025
 > Release Year
 
@@ -295,28 +286,13 @@ OCR text:
 
 OCR text:
 
-> Real Local Al Benchmarks soonTM
-> ; I 7 7
-> on ey 2 — 2
-> ore Ss
-> ® i ae Fa | ran
-> on a marke re } | ; .
+> Real Local AI Benchmarks soonTM
 
 ![[assets/slides/ESbWpPT_9-o/slide-015.jpg]]
 
 OCR text:
 
-> is ie
-> a = fp
-> Seep Bee li) 8 |
-> ..
-> 4 |
-> 7
-> - ¢
-> a 4 z! Y Pt
-> 4, si a _ y .*
-> BGS KS a P 4
-> on tee Ty i ;
+> Real Local AI Benchmarks soonTM
 
 ![[assets/slides/ESbWpPT_9-o/slide-016.jpg]]
 

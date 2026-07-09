@@ -21,11 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> nVIDIA
+> NVIDIA
 > You Might Not Need
 > 50 Diffusion Steps
-> AlEngineer
-> EURORE
 
 ![[assets/slides/gHs5ZiY80PM/slide-002.jpg]]
 

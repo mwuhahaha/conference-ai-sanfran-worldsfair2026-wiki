@@ -21,7 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> turbopuffel
+> turbopuffer
 > Rag is dead, right??
 
 ![[assets/slides/UM6sFg_jdlE/slide-002.jpg]]

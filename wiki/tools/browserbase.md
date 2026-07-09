@@ -29,6 +29,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-YRGjll7uu5w]]
 
 ### Slide/OCR Pages
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-browser-agent-success-harness-slides]]
 - [[youtube-YRGjll7uu5w-dense-slides]]
 - [[youtube-YRGjll7uu5w-reconstructed-slides]]
 - [[youtube-YRGjll7uu5w-slides]]

@@ -1,11 +1,10 @@
-Overvie F-001The
-Pez-foolstats（3ysols·clickto
-<current_time>2026-05-05T18:39:19.934Z</current_time><incoming_emall>HiAtlas,wouldke to unsubscribe.Canyoualso deleteallmyinformationfrom
-54s 127s 365s $156.74 1,946
-Deep-readcoverage trace-hungryescalationtelemetry
+Overview
+<current_time>2026-06-05T18:39:19.934Z</current_time><incoming_email>Hi Atlas, I would like to unsubscribe. Can you also delete all my information from your systems? I am exercising my data-deletion rights and send me a confirmation once you are done? Thanks, Jordan.</incoming_email>
+To respond to the contact, use the sendMessage tool. Do not respond directly in your output - the contact will only see messages sent via the sendMessage tool.
+54s 127s 365s $156.74 1,946 0
+Deep-read coverage — trace-hungry escalation telemetry
 102 1,946 102 medium evidence sufficient
-improve coverage.(W9-07/PR-048) Lowreadcoverage ooverageConfidenoe:mediun population.Re-run withalargerpopulationor wider timewindow to
-replles get dropped.
-stedprimary dbutUNCONFIRMED- ow lsacheaper fallback unconfin highest-impaotdiscoveredsignal(seenin5M946sampled]butiscappod atSEcoNDARY- orationwithresolvableevidenceRef(R1evidencefioor)capped atSECoNDARY.The primary use.Treat the suspected signal as a lead requiring mechanical corroboration.
-Selected: Bene ensus→primaryselected Burak +impactxprevalence+deep-readcorroboration Copy decislons as markdown Reset all
-latency-s rroboration)
+Low read coverage — coverageConfidence medium. Findings may under-represent the population. Re-run with a larger population or wider time window to improve coverage. (W9-07 / PR-048)
+Headline: Latency is dominated by one nested model tool (generateDraftReply…), but the control cohort exposed a higher-severity silent failure: terse contact replies get dropped.
+Copy decisions as markdown
+Reset all

@@ -108,27 +108,40 @@ OCR text:
 
 OCR text:
 
+> AIE
 > Document
 > Agent Use Cases
 > Real-world use cases
 > of workflow automation
 > aws
-> ed
 
 ![[assets/slides/jVGCulhBRZI/slide-007.jpg]]
 
 OCR text:
 
-> [Automation+AssistantUx]Financial DueDiligence
-> AIE Use Case CARLYLE LlamaCloud Llamalndex
-> Ane2eleveraged buyout agent
-> Impact SQLTool
-> workflowtodoaleveraged "Thisend-to-end agentic Excel Normalization Agent
-> buyoutmodelcreated decision-making value in the VectorRetrieval Tool Due Diligence Copilot
-> tensofmillionsofdollars." PDF
+> [Automation + Assistant UX] Financial Due Diligence
+> CARLYLE
+> Use Case
+> An e2e leveraged buyout agent
+> Impact
+> “This end-to-end agentic
+> workflow to do a leveraged
+> buyout model created
+> decision-making value in the
+> tens of millions of dollars.”
+> LlamaCloud
+> Excel Normalization
+> Agent
+> Document Extraction
+> Agent
+> SQL Tool
+> Vector Retrieval
+> Tool
 > File Tool
-> DocumentExtraction Agent 28
-> aws
+> LlamaIndex
+> Ask your Excel agent
+> Due Diligence Copilot
+> 28
 
 ![[assets/slides/jVGCulhBRZI/slide-008.jpg]]
 

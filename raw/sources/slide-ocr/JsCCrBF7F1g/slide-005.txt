@@ -1,4 +1,4 @@
-Bullding GenAl is Hard,So How Are Teams Tackling
-AEngineer
-EUROPE
-D26
+Building GenAI is Hard, So How Are Teams Tackling This?
+Observability
+Evaluation
+Experimentation & Improvement

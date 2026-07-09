@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/3_gYbhABcAE/slide-002.jpg]]
 
@@ -81,7 +79,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

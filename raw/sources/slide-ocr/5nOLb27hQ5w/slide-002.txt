@@ -1,7 +1,2 @@
 AIE
 DAWN
-aws
-neoaj
-DATAS
-OctoA Cevnt,
-P.Fal SA Cnunoe

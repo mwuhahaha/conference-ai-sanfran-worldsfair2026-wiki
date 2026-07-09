@@ -49,33 +49,13 @@ OCR text:
 
 OCR text:
 
-> : 3%
-> oa bd
-> ate,
-> Ste,
-> hy a, e
-> Pe eT N
-> tae - ;
-> re is wt 7
-> Spey “ae : ;
-> #6 Ee
-> ae ry
-> . ; ‘
-> ‘ty, . YY
-> Sean, Ph tg hee . | r
-> i a
-> , o
-> a
-> | 5
-> -t i
+> Speed
 
 ![[assets/slides/fL1iJHtl51Q/slide-004.jpg]]
 
 OCR text:
 
-> ee
-> ae:\:
-> "<< — :' ha
+> AIE
 
 ![[assets/slides/fL1iJHtl51Q/slide-005.jpg]]
 
@@ -151,13 +131,7 @@ OCR text:
 
 OCR text:
 
-> |
-> 
-> |
-> 
-> Ste —
-> 
-> id
+> AIE
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

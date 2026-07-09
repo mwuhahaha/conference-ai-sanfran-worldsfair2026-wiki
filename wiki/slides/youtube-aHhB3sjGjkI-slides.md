@@ -50,13 +50,8 @@ OCR text:
 OCR text:
 
 > How do we do that?
-> 4 B
-> pt Pad -
-> ee
-> ) /
-> Y aL. ©
-> a a de
-> ‘ t
+> AI
+> AI
 
 ![[assets/slides/aHhB3sjGjkI/slide-004.jpg]]
 

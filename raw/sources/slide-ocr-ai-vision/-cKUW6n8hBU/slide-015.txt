@@ -1,0 +1,5 @@
+“DSPy is not an optimizer. It’s set of
+programming abstractions (signatures, modules)
+that can be optimized.”
+
+- Omar Khattab @lateinteraction

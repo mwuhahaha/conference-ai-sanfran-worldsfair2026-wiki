@@ -244,9 +244,7 @@ OCR text:
 
 OCR text:
 
-> | . |
-> _ | 7 _
-> nl : ag
+> AIE
 
 ![[assets/slides/7Dtu2bilcFs/slide-015.jpg]]
 

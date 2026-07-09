@@ -36,10 +36,9 @@ OCR text:
 OCR text:
 
 > AIE
-> Humans
+> Humansⁿ
 > Microsoft
-> smol?
-> WorfsFar
+> smol ai
 
 ![[assets/slides/e9sLVMN76qU/slide-003.jpg]]
 
@@ -69,26 +68,24 @@ OCR text:
 > AIE
 > Agent-readable docs
 > stripe
-> WortfsFai
 
 ![[assets/slides/e9sLVMN76qU/slide-006.jpg]]
 
 OCR text:
 
 > But
-> IsthereMore?
+> Is there More?
 > AIE
 > Microsoft
-> smol?
-> WortfsFai
+> smol ai
 
 ![[assets/slides/e9sLVMN76qU/slide-007.jpg]]
 
 OCR text:
 
+> AIE
 > No humans around to
 > click the buttons?
-> |Z a Microsoft @yr{??
 
 ![[assets/slides/e9sLVMN76qU/slide-008.jpg]]
 
@@ -113,9 +110,9 @@ OCR text:
 
 OCR text:
 
-> MDT ICO are
-> Infrastructure for Al Agents
-> an
+> AIE
+> Daytona
+> Infrastructure for AI Agents
 
 ![[assets/slides/e9sLVMN76qU/slide-010.jpg]]
 
@@ -143,12 +140,12 @@ OCR text:
 
 OCR text:
 
-> Newprimitives
+> New primitives
 > Daytona Volumes
 > AIE
 > Microsoft
-> smol?
-> WorifsFai
+> smol ai
+> World's Fair
 
 ![[assets/slides/e9sLVMN76qU/slide-012.jpg]]
 
@@ -157,7 +154,6 @@ OCR text:
 > AIE
 > I don't know
 > aws
-> WordsFar
 
 ![[assets/slides/e9sLVMN76qU/slide-013.jpg]]
 

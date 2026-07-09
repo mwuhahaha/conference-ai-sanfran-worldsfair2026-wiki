@@ -123,40 +123,39 @@ OCR text:
 
 OCR text:
 
-> C
-> ai.engineer/worldsfair/2026#side-events
-> AIE Horme
-> 1tns,dSchedule
+> AIE Home
+> Lists.md
+> Schedule
 > Side Events
+> AI Engineer World's Fair
 > Sponsors
-> Hobel
+> Venue
+> Hotel
 > Associates
 > Buy Tickets
-> The SOTA inAI Engineering
-> AllinOnePlace
-> miniconferences • 2 leadership tracks. 400+ sessions. Divide
+> The SOTA in AI Engineering
+> All in One Place
+> 10 parallel engineering miniconferences + 2 leadership tracks. 400+ sessions. Divide
 > and conquer!
-> Orientatie
-> Workshc
-> Tuesday
-> Wednesday
-> Thursday
-> Harness Engineering
-> Generative Media
-> Agentic Commerce
-> Al in Finance
-> LocalAI
-> Graphs
-> AlinGTM
-> Al in Healthcare
-> Agentic Engineering
-> I Inference
-> Al-Native Enterprises
-> Al Architects: AlFactories
-> AlinFinance
-> Inside the agentic shiftinquant finance-fromMorgan
-> Suxnsesoouesans
-> 2,000AskiswthtuFiltyndAntrpicwesing
+> Orientation Jun 28
+> Workshop Day Jun 29
+> Tuesday Jun 30
+> Wednesday Jul 1
+> Thursday Jul 2
+> #1 Harness Engineering
+> #2 Generative Media
+> #3 Agentic Commerce
+> #4 AI in Finance
+> #5 Local AI
+> #6 Graphs
+> #7 AI in GTM
+> #8 AI in Healthcare
+> #9 Agentic Engineering
+> #10 Inference
+> #11 AI-Native Enterprises
+> #12 AI Architects: AI Factories
+> AI in Finance
+> Inside the agentic shift in quant finance - from Morgan Stanley's autonomous research agents to Nubank vetting 2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling with what it really takes to ship finance agents that understand money.
 
 ![[assets/slides/0S8xe9ftGTM/slide-005.jpg]]
 
@@ -588,21 +587,19 @@ OCR text:
 
 OCR text:
 
-> 豆 AlEngineerWorid's fair 202 6ingsaoutAE2026-G AskG
-> alengineer/worldstair/2026#side-events
-> 41
-> WatchPaty oriOu
-> The Agent Open RSVP on Luna→
-> AGENTOPEN ThetrAgOAffs
-> ate Leadership Dinner-Human Data &AI
-> g of fine ining.cocnecton,and convenaton wth leaders
-> SanFranc
-> L
-> Future Code:Rewriting the Developer Frontier A
-> The A Buiders Mixer RSVP onLuma→
-> eraTion oys
-> Deply.Scale,Sce:DigtalOceanVemionAlnfra Socil
-> AEngineer Word'sFair.
+> AI Engineer World's Fair
+> World Cup Watch Party
+> The Agent Open
+> RSVP on Luma→
+> Private Leadership Dinner — Human Data & AI
+> Snyk Community Jam: San Francisco
+> Register→
+> Future Code: Rewriting the Developer Frontier
+> RSVP on Luma→
+> The AI Builders Mixer
+> RSVP on Luma→
+> Deploy, Scale, Score: DigitalOcean + Vermilion AI Infra Social
+> RSVP on Luma→
 
 ![[assets/slides/0S8xe9ftGTM/slide-023.jpg]]
 

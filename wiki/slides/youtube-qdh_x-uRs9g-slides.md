@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/qdh_x-uRs9g/slide-002.jpg]]
 
@@ -42,24 +40,22 @@ OCR text:
 
 OCR text:
 
-> AIE WhatActuallyMakesEmbedding ModelInferenceFast? Not quite.
-> FromFlashAttentiontoQuantization,where istheinerence botleneck？Isitth architecture,the maths,or wilwtingeverythinginust sole allmyproblems？Hint: It's Not Rust)
-> JAN22.2026 FILIP MAKRADULI
-> GoogleDeepMind
-> AlIEngineer
+> A WRITER'S DIARY ON AI
+> What Actually Makes Embedding
+> Model Inference Fast?
+> From Flash Attention to Quantization, where is the inference bottleneck? Is it the architecture, the maths, or will writing everything in Rust solve all my problems? (Hint: It's Not Rust)
+> FILIP MAKRADULI
+> JAN 22, 2026
+> Not quite.
+> Google DeepMind
 
 ![[assets/slides/qdh_x-uRs9g/slide-004.jpg]]
 
 OCR text:
 
-> ba * ,
-> Mae
-> bd a
-> oO Pe
-> | | |
-> . AlEngineer
+> I realised... I had to learn
+> AI Engineer
 > EUROPE
-> S95
 
 ![[assets/slides/qdh_x-uRs9g/slide-005.jpg]]
 
@@ -167,17 +163,42 @@ OCR text:
 
 OCR text:
 
-> SO,LET'SSUPPORT85+MODELSWITH35+RUNTIMESANDINFERENCEBACKENDS
-> Everyarchitectureisdifferentunderthehood
-> Fed poin IDs(0.1.2.) bert_flash Eoch tokenknowh biove ot RoPE:rsQ/vecrbysn qwen2_flash GQA:fewerKVheadssamemory No universalengine BERTQwen2ModenBERT. Eachneedsitsown inference path.
-> AIE Fsed QV:oemrinoe Keeps every token vector(not pooled) colbert_*
-> Lofe inNeract mofch token-by-foken An agenticworkflow
-> Tkespir(qury·doc）osipt cross_encoder clip moge encoder·tead encoder siglip·florence2 untfl we hod coveroge across 90models. We wrote each adopter using Al ogents
-> Outpcovcr
-> splade_flash ghfs, not dense floots 48-88 embedding models sglang Not wrappers.Were-implement Re-implementation the forwardpassandpoolingforeocharch
-> 15 of 35adoptersse Fla
-> AIEngineer
-> AlEngineer EUROPE
+> SO, LET'S SUPPORT 85+ MODELS WITH 35+ RUNTIMES AND INFERENCE BACKENDS
+> Every architecture is different under the hood
+> bert_flash
+> Fixed position IDs (0,1,2,...)
+> Each token knows its absolute slot
+> qwen2_flash
+> RoPE: rotates Q/K vectors by position
+> GQA: fewer KV heads = less memory
+> modernbert_flash
+> Fused QKV: one matrix, not three
+> Pre-normalize before attention
+> colbert_*
+> Keeps every token's vector (not pooled)
+> Late interaction: match token-by-token
+> cross_encoder
+> Takes a pair (query + doc) as input
+> Outputs a score, not a vector
+> clip_siglip_florence2
+> Image encoder + text encoder
+> Shared embedding space
+> splade_flash
+> Sparse 250K-dim vocabulary vector
+> Learned term weights, not dense floats
+> sglang
+> 48-88 embedding models
+> KV cache = paged memory
+> No universal engine
+> BERT + Qwen2 + ModernBERT.
+> Each needs its own inference path.
+> An agentic workflow
+> We wrote each adapter using AI agents
+> until we had coverage across 90 models.
+> Re-implementation
+> Not wrappers. We re-implement
+> the forward pass and pooling for each arch.
+> 15 of 35 adopters use Flash Attention 2 with variable-length sequence packing
 
 ![[assets/slides/qdh_x-uRs9g/slide-011.jpg]]
 

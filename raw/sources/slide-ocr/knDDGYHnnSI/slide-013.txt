@@ -1,3 +1,2 @@
 User
 Your Application
-Neo4j Inc.Allrightsreserved2024

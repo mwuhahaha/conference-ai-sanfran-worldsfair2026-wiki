@@ -1,0 +1,8 @@
+AI Engineer
+World's Fair
+PRESENTED BY
+Microsoft
+The Unreasonable Effectiveness of Separating the Task from the Model
+Maxime Rivest | Core Contributor
+Isaac Miller | Lead Maintainer
+DSPy

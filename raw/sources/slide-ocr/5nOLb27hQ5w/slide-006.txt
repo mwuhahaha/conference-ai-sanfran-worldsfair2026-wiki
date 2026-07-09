@@ -1,6 +1,2 @@
-itv
 AIE
-aws WoddsFa
-neo WodnFa
 aws
-Waisufa 2CoN

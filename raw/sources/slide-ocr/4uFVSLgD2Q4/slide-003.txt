@@ -1,8 +1,9 @@
 OpenGov
-AboutOpenGov
+About OpenGov
 Software for
 more effective,
 accountable
 government.
-Founded over 14years ago,OpenGov builds ERP.budgeting.
-govemmentandOGAssist nowconnects across allof it.
+Founded over 14 years ago, OpenGov builds ERP, budgeting,
+asset management, and permitting software for state and local
+government and OG Assist now connects across all of it.

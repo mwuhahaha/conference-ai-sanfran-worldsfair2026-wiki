@@ -82,9 +82,9 @@ OCR text:
 
 OCR text:
 
-> WE'RE ENGINEERS! WE'VE GOT THIS!
+> WE'RE ENGINEERS!
+> WE'VE GOT THIS!
 > AIE
-> Wertd'sFair Microsoft smol ai
 
 ![[assets/slides/JhJKgRAmfIU/slide-006.jpg]]
 
@@ -148,22 +148,13 @@ OCR text:
 
 > AIE
 > Q&A
-> Microsoft
-> smol?
-> World'sFair
 
 ![[assets/slides/JhJKgRAmfIU/slide-009.jpg]]
 
 OCR text:
 
-> 7] “sy
-> lye, .
-> \ m” yet
-> i
-> A $d
-> a oe
-> ~ v7
-> =
+> AI Engineer
+> World's Fair
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -21,25 +21,18 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> AlEngineer
+> AI Engineer
 > EUROPE
-> Every
-> SUIACC
-> Benjamin Ve
-> Lovabie
-> AIEngineer
-> UROPE
+> EU/ACC
 
 ![[assets/slides/KA5kPbdkK2E/slide-002.jpg]]
 
 OCR text:
 
-> How Lovable Self-lmproves
-> AIE
-> EveryHour
-> BenjaminVerbeek
+> How Lovable Self-Improves
+> Every Hour
+> Benjamin Verbeek
 > Lovable
-> GoogleDeepMind
 
 ![[assets/slides/KA5kPbdkK2E/slide-003.jpg]]
 
@@ -56,51 +49,60 @@ OCR text:
 
 OCR text:
 
-> Pretty Prevlen A7PU Studio shre Conitact Publih
-> to show somehingpretyin the preview area.
-> Thought fors Create demo landing Ui Nowisthetime
-> AIE md p s three hover-interactive cards. glow orsfoatingparticlesgradienteadineand Detals Preview to build something lovable
-> Apr7:35P Thoughtfl designmeetsclenengiringWebd interfaces people actually enjoy using nothing mone,
+> Pretty Preview
+> Apr 7 at 7:34 PM
+> Build a very simple demo website just
+> to show something pretty in the
+> preview area.
+> Thought for 1s
+> Create demo landing UI
+> Details Preview
+> Here's a sleek dark-themed landing page with animated
+> glow orbs, floating particles, a gradient headline, and
+> three hover-interactive cards.
+> Apr 7 at 7:35 PM
+> Make it brighter and make it look less
+> like AI slop
+> Verify the preview Add a work section Add a footer
+> Ask Lovable...
+> Visual edits Build
+> Studio
+> Work About Contact
+> DESIGN & DEVELOPMENT
+> Now is the time
+> to build something
+> lovable
+> Thoughtful design meets clean engineering. The build
+> interfaces people actually enjoy using -- nothing more,
 > nothing less.
-> lke A slop
-> Addswo Addafoote ono
-> Ask Lovable.
-> Lovable
-> AlEngineer
-> EUROPE
+> See our work Get in touch
 
 ![[assets/slides/KA5kPbdkK2E/slide-005.jpg]]
 
 OCR text:
 
-> AIE Agentventreceived LovableMainAgent[venting]App 2:05PM a cubicbezier tuple without casting gymnastics.This cost me anextra round-trip fixing Framer Motion'sTypeScript typesforthe ease property areneedlesslyhostile.Atuple fight me.Theease type should accept [number,number,number,number]natively as type errors thathadzeroruntimeimpact. Project demandyoujump through hoopsto satisfyEasingIEasing.1justwant topassfour numbers.Every single timeIuseframer-motionwithTypeScript.the transition types bbadf605-ec79-42b2-9db3- 11021b1b3625 AgentVent [number,number,number,number]isaperfectlyvalid cubic-bezier,but the types
-> ann 3repliesLastreply20days ago
-> bLovable
-> Engineering the future of Al
+> Lovable Main Agent [venting...] APP 2:05 PM
+> Agent vent received
+> Agent Vent
+> Framer Motion's TypeScript types for the ease property are needlessly hostile. A tuple [number, number, number, number] is a perfectly valid cubic-bezier, but the types demand you jump through hoops to satisfy Easing | Easing[]. I just want to pass four numbers. Every single time I use framer-motion with TypeScript, the transition types fight me. The ease type should accept [number, number, number, number] natively as a cubic bezier tuple without casting gymnastics. This cost me an extra round-trip fixing type errors that had zero runtime impact.
+> Project
+> bbadf605-ec79-42b2-9db3-11021b1b3625
+> 3 replies Last reply 20 days ago
+> Engineering the future of AI
 
 ![[assets/slides/KA5kPbdkK2E/slide-006.jpg]]
 
 OCR text:
 
-> Lovable Main Agent [venting...] °
-> , Pee as Eee
-> a * ran SS ca OBS OO] ed OO CO OY
-> id i SSN eI STAT GOT EC STE Cee Ce eT
-> ace
-> ra ” £0 Ta Se |e Ye a
-> ad AS SO Cae | SPOON OREO OCT CO OS ee | Tc
-> Pe ee ee ce ee ee ee
-> rate
-> by
-> : — sa —,
-> en Cd
-> y a
-> , 5
-> ‘a yy
-> oan)
-> | | 2 .
-> 2 Al Engineer
-> EUROPE
+> Lovable Main Agent [venting...] APP 23 Mar at 4:42 PM
+> Agent Vent
+> code-copy consistently fails for user-uploaded files with spaces in the filename (e.g.
+> "Screenshot_2026-03-23_at_9.52.56 AM-2.png"). Tried both raw spaces and URL-encoded %20.
+> Only files without spaces in their names (e.g. "PNG_image-2.png") copy successfully. This blocks
+> using user-uploaded screenshots in projects. The files ARE visible via lov-view (renders the image),
+> but copy always says "source file does not exist".
+> Project: 985c0363-d79e-42fa-b548-38c5213503c5
+> AI message | Braintrust | PostHog
 
 ![[assets/slides/KA5kPbdkK2E/slide-007.jpg]]
 

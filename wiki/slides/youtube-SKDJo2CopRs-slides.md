@@ -30,10 +30,8 @@ OCR text:
 
 OCR text:
 
-> ThePlatform For
+> The Platform For
 > Building Agents.
-> AIEngineer
-> EUROPE
 
 ![[assets/slides/SKDJo2CopRs/slide-003.jpg]]
 
@@ -48,17 +46,15 @@ OCR text:
 
 OCR text:
 
-> coves Tae Canadttiare flag , 3 rc
-> .
-> ri <i
-> a) || '
-> Se Engineering the future of Al
+> CLOUDFLARE
+> The Cloudflare Blog
+> Engineering the future of AI
 
 ![[assets/slides/SKDJo2CopRs/slide-005.jpg]]
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

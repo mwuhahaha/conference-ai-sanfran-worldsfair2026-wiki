@@ -48,6 +48,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-zKk7sDMGDEQ]]
 
 ### Slide/OCR Pages
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-knowledge-systems-gtm-stack-slides]]
 - [[youtube-3hXJI2q0Jz8-slides]]
 - [[youtube-4kYl2_mqmnQ-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
@@ -57,7 +58,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-84Vtz2IL1Ug-slides]]
 - [[youtube-9fubhllmsBU-slides]]
-- [[youtube-B9h9ovW5H9U-slides]]
 
 ### Topic Pages
 - [[agent-memory]]

@@ -1,0 +1,16 @@
+AI Engineer
+World's Fair
+
+Presented by
+Microsoft
+
+Foundry IQ
+Retrieval relevance by dataset
+
+BER (NDCG@10)
+MIRACL (NDCG@10)
+Customer (NDCG@3)
+MIML (NDCG@3)
+Support (NDCG@3)
+
+Keyword  Vector  Hybrid  Hybrid + Reranking

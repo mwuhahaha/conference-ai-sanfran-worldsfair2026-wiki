@@ -151,23 +151,14 @@ OCR text:
 
 OCR text:
 
-> Mir
-> 
-> Y
-> 
-> ze
-> 
-> re
-> 
-> b i
-> 
+> AIE
 > aws
 
 ![[assets/slides/E71YtNbCFXY/slide-012.jpg]]
 
 OCR text:
 
-> Al Engineer
+> AI Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

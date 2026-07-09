@@ -31,28 +31,24 @@ OCR text:
 
 OCR text:
 
-> THEPROBLEM
-> Thepatternyou alreadyknow
-> AIE
-> Weeks1-4
-> Weeks4-8
-> Weeks8-12
-> Week14
-> Month6
-> Pickmodels.
+> THE PROBLEM
+> The pattern you already know
+> Weeks 1-4
+> Pick models.
+> Weeks 4-8
 > Build features.
-> Demotoleaders.
-> "WhyisAl
-> SSin projects
-> Looksgreat.
-> Sign-off.Ship.
+> Looks great.
+> Weeks 8-12
+> Demo to leaders.
+> Sign-off. Ship.
+> Week 14
+> "Why is AI
 > b*s*-ing us?"
-> failed lastyear.
-> Soundfamiliar?You'renotherebecauseyouhaven'tseen this.You'reherebecauseyouwanttostopit.
-> AlEngin
-> Moen
-> AlEnginee
-> EngineeringthefutureofAl
+> Month 6
+> $$ in projects
+> failed last year.
+> Sound familiar? You're not here because you haven't seen this. You're here because you want to stop it.
+> Engineering the future of AI
 
 ![[assets/slides/ObTPqBGsEbA/slide-003.jpg]]
 

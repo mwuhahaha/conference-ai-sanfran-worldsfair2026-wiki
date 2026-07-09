@@ -1,8 +1,15 @@
-Efficient
+Principle 4 — Efficient
 Efficiency in updates to the agent:
+cheap
+Memory write
+store a fact or correction
+low-mid
+Skill / prompt edit
+rewrite a prompt, add a skill
+mid
+Search over harness
+mutate & score candidates
+expensive
 Model update
-Search over harness , ,
-Erna cn ee
-Memory write , oe
-A
+SFT · RL · LoRA on weights
 Efficiency in regression-aware optimization loop

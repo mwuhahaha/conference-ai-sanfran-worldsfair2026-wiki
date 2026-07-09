@@ -1,8 +1,11 @@
 Moshi Lessons Learned
-WhatWorksWell Challenges
-AIE Full-DuplexConversation: Natural,uninterupted Aresearchprototype notarealagent
-dialogueflow Lackof observability and reliability
-Real-timeInteraction: Truly conversationalAl,userand Doesnotconveyorunderstand empathy well
-Alspeak simultaneously
-Engineering the future of Al
-AIEngineer LORON
+What Works Well
+Full-Duplex Conversation: Natural, uninterrupted
+dialogue flow
+Real-time Interaction: Truly conversational AI, user and
+AI speak simultaneously
+Challenges
+A research prototype, not a real agent
+Lack of observability and reliability
+Does not convey or understand empathy well
+Engineering the future of AI

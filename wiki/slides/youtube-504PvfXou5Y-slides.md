@@ -21,8 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> BDD,DR,PRD,WTF
-> Capturing decisions for humans andAl alike
+> BDD, ADR, PRD, WTF
+> Capturing decisions for humans and AI alike
 
 ![[assets/slides/504PvfXou5Y/slide-002.jpg]]
 
@@ -64,7 +64,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

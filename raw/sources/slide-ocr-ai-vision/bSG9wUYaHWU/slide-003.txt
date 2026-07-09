@@ -1,0 +1,27 @@
+Context is the new Code
+Prompt → Code
+Code → Skill
+Prompt
+Write a function to fetch user
+data from an API endpoint.
+Add error handling and retry
+logic with a timeout.
+Code
+def fetch_user(uid, retries=3):
+    for i in range(retries):
+        try:
+            r = requests.get(
+                f"/users/{uid}", timeout=5)
+            r.raise_for_status()
+            return r.json()
+packaged as
+Skill
+API Fetch Best Practices
+- Always set a request timeout
+- Retry on transient errors
+- Re-raise on last attempt
+Evals
+- timeout params set
+- retries ≥ 3
+Prompt → Code (left) · Code → Skill (right)
+Engineering the future of AI

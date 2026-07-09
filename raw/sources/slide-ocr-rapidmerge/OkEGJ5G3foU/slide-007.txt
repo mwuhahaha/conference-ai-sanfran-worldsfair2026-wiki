@@ -1,3 +1,2 @@
-S25
-hp
-World's Fair AIEngineer
+AI Engineer
+World's Fair

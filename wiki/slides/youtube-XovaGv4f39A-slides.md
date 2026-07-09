@@ -21,18 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> .
-> g | ) )
-> 
-> : 7 rT | P
-> a ae i | , af _,
-> 
-> F ) |
-> ie | a
-> 
-> if 5
-> Pam | _’
-> ae to -
+> ORBIS
 
 ![[assets/slides/XovaGv4f39A/slide-002.jpg]]
 
@@ -52,15 +41,12 @@ OCR text:
 
 OCR text:
 
-> p ces wh
-> - en
-> —~ ay ies
-> Places i si Pe
-> ff Oy ts
-> ns 3
-> Events ashe
+> People
+> Places
+> Places
 > Events
-> -
+> Events
+> Daxs
 
 ![[assets/slides/XovaGv4f39A/slide-004.jpg]]
 

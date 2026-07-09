@@ -1,6 +1,4 @@
-Ourinvestmentareas
-Textual
-Cheaper and
-intelligence
-faster models
-Custommodels
+Our investment areas
+Textual intelligence
+Cheaper and faster models
+Custom models

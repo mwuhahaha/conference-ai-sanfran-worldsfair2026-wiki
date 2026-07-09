@@ -1,0 +1,25 @@
+SectionHeaderItem: Abstract
+TextItem: We introduce Docling, an easy-to-use, self-contained, MITlicensed, open-source toolkit for document conversion, tr
+TextItem: Repository - https://github.com/DS4SD/docling
+SectionHeaderItem: 1 Introduction
+TextItem: Converting documents back into a unified machineprocessable format has been a major challenge for decades due to th
+TextItem: * These authors contributed equally.
+
+Export Formats and Options
+Docling supports multiple export formats with various options:
+
+# Export to different formats (various options available, but called with default ones)
+markdown_text = doc.export_to_markdown()
+html_text = doc.export_to_html()
+json_dict = doc.export_to_dict()
+doc_tags = doc.export_to_doctags()
+
+# Save different formats (various options available, some shown)
+doc.save_as_markdown(
+    output_dir/"document.md",
+    image_mode=ImageRefMode.PLACEHOLDER,
+    image_placeholder="<!-- my image placeholder -->",
+    ...
+)
+
+# Export as JSON

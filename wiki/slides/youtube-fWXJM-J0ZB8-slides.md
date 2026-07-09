@@ -21,60 +21,27 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> a
-> 
-> oo)
-> 
-> nN
-> 
-> ew
-> 
-> ee
-> 
-> laa
-> 
-> a MDN web docs
-> 
-> a i ve
-> S
-> 
-> oy ~
-> 
-> =
-> 
-> i
-> 
-> Ss \w sd
-> 
-> 142)
-> 
-> eI a
-> 
-> 2
-> 
-> eo)
-> 
-> P
-> 
-> a a
-> s ,
-> “vA \
-> S
+> Rachel-Lee Nabors (they/them) nearestneighbors.com
+> MDN web docs
+> moz://a
+> W3C
 
 ![[assets/slides/fWXJM-J0ZB8/slide-002.jpg]]
 
 OCR text:
 
-> o | 4) 4=
-> You have agents. i
-> We can test them. | 3
+> arize
+> You have agents.
+> We can test them.
 
 ![[assets/slides/fWXJM-J0ZB8/slide-003.jpg]]
 
 OCR text:
 
-> Rachel-LeeNabors(they/them)nearestnabors.com THECOSTOF
-> ONE-SIZE-FTS-ALLINFERENCE
+> Rachel-Lee Nabors (they/them)
+> nearestnabors.com
+> THE COST OF
+> ONE-SIZE-FITS-ALL INFERENCE
 
 ![[assets/slides/fWXJM-J0ZB8/slide-004.jpg]]
 
@@ -205,8 +172,8 @@ OCR text:
 
 OCR text:
 
-> Rachel-LeeNabors(they/them)nearestnabors.com SLMs
-> LLMSBUTSMALL
+> SLMs
+> LLMS BUT SMALL
 
 ![[assets/slides/fWXJM-J0ZB8/slide-009.jpg]]
 
@@ -233,37 +200,8 @@ OCR text:
 
 OCR text:
 
-> a
-> fe}
-> fa
-> >
-> 2
-> a .
-> fan)
-> fai)
-> of QI
-> S> ’
-> 2) ‘i
-> re 4 a
-> ae teary ,
-> z a a n va
-> S i ia
-> P
-> >
-> i '
-> 3
-> ee ie
-> Ss X
-> a
-> a
-> © s
-> = F
-> : >< B
-> : i |
-> a .
-> is)
-> 3
-> —— i
+> Rachel-Lee Nabors (they/them)
+> nearestneighbors.com
 
 ![[assets/slides/fWXJM-J0ZB8/slide-011.jpg]]
 
@@ -438,8 +376,9 @@ OCR text:
 
 OCR text:
 
-> Rachel-LeeNabors(they/them)nearestnabors.com
-> RIGHT-SIZINGAI
+> RIGHT-SIZING AI
+> Rachel-Lee Nabors (they/them)
+> nearestnabors.com
 
 ![[assets/slides/fWXJM-J0ZB8/slide-016.jpg]]
 
@@ -459,13 +398,31 @@ OCR text:
 
 OCR text:
 
-> Rachel-LeeNabors(they/them)nearestnabors.com Mimalocal-modeleval Goldendatasetataglance
-> 28 Examples 14 Threads 2-17 Messages/thread 100% Annotated
-> eachviewedlist+modal median5 hand-written[ref:N]
-> Byplatform Byview context
-> X. 22 6 Bluesky list. 14 14 modal
-> Sourced from real Mima threads,anonymized.Each example pairsa thread inputwith a gold-standard summary and citation r
-> 5modelsevaluatedagainstthissetwith3repetitionseach(420runs total).
+> Mima local-model eval
+> Golden dataset at a glance
+> Examples
+> 28
+> Threads
+> 14
+> each viewed list + modal
+> Messages / thread
+> 2–17
+> median 6
+> Annotated
+> 100%
+> hand-written [ref:N]
+> By platform
+> X ·
+> 22
+> Bluesky ·
+> 6
+> By view context
+> list ·
+> 14
+> modal ·
+> 14
+> Sourced from real Mima threads, anonymized. Each example pairs a thread input with a gold-standard summary and citation r
+> 5 models evaluated against this set with 3 repetitions each (420 runs total).
 
 ![[assets/slides/fWXJM-J0ZB8/slide-018.jpg]]
 
@@ -531,35 +488,15 @@ OCR text:
 
 OCR text:
 
-> gQ Q serve Sib den @ 10k Tare Set O1 Ot Ct Ee Ga 2
-> Ps)
-> 2 arize «+. ee
-> >
-> D
-> cm
-> ia) ,
-> oD
-> P=
-> 9 ty
-> Sa
-> is} _
-> a Arize Phoenix =
-> =~ ea
-> = is
-> 4 Trace the js
-> a =
-> Oo i i
-> 3 Exponential :
-> = fe
-> a ~
-> g
-> 5
-> = Get started Self-Host |
-> 5 ea
-> : cy
-> a aad!
-> = X f)
-> =
+> observe 26
+> Arize:Observe is June 4 | Register now →
+> Arize Phoenix
+> Trace the
+> Exponential
+> The open-source platform for agent
+> development and evaluation
+> Get started
+> Self-Host
 
 ![[assets/slides/fWXJM-J0ZB8/slide-020.jpg]]
 

@@ -21,52 +21,58 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> A
-> 
-> is ee
-> 
-> = a
-> 
-> \ nae
-> 
-> &
+> AGENTS
 
 ![[assets/slides/d_Ftrl3vfV0/slide-002.jpg]]
 ![[assets/slides/d_Ftrl3vfV0/slide-003.jpg]]
+
+OCR text:
+
+> #1
+
 ![[assets/slides/d_Ftrl3vfV0/slide-004.jpg]]
 
 OCR text:
 
 > Cool, IDC
+> #1
 
 ![[assets/slides/d_Ftrl3vfV0/slide-005.jpg]]
+
+OCR text:
+
+> #1
+
 ![[assets/slides/d_Ftrl3vfV0/slide-006.jpg]]
 
 OCR text:
 
-> The Click Test: |
+> The Click Test:
 > Could a 17-year old
 > understand what you do?
-> 
-> A
+> #2
 
 ![[assets/slides/d_Ftrl3vfV0/slide-007.jpg]]
 
 OCR text:
 
-> SPW iia
-> The Al Software Engineer
+> Devin
+> The AI Software Engineer
 
 ![[assets/slides/d_Ftrl3vfV0/slide-008.jpg]]
+
+OCR text:
+
+> #3
+
 ![[assets/slides/d_Ftrl3vfV0/slide-009.jpg]]
 
 OCR text:
 
 > Pitch Timer: 13:78
 > After:
-> e
 > Support Team
-> Who made this bug report?|
+> Who made this bug report?
 
 ![[assets/slides/d_Ftrl3vfV0/slide-010.jpg]]
 

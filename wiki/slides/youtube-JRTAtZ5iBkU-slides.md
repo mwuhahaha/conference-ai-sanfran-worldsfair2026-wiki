@@ -21,10 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> cf
-> b]
+> AMOL · CEO, NORI AGENTIC
 > Hi — I’m Amol.
-> We deploy an Al employee that understands your company,
+> We deploy an AI employee that understands your company,
 
 ![[assets/slides/JRTAtZ5iBkU/slide-002.jpg]]
 
@@ -56,9 +55,9 @@ OCR text:
 
 OCR text:
 
-> NO
-> agents aren't the problem.
-> No, I don't think so.
+> NO.
+> agents aren’t the problem.
+> No, I don’t think so.
 
 ![[assets/slides/JRTAtZ5iBkU/slide-005.jpg]]
 
@@ -74,7 +73,8 @@ OCR text:
 
 OCR text:
 
-> iT
+> SLIDE DECKS - HTML
+> built in a single prompt.
 > our board decks and our sales decks.
 
 ## Slide-Derived Subjects To Review

@@ -22,7 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > Text Diffusion
-> Speaker. Brendan O'Danpghue
+> Speaker: Brendan O'Donoghue
 
 ![[assets/slides/r305-aQTaU0/slide-002.jpg]]
 
@@ -40,28 +40,18 @@ OCR text:
 
 OCR text:
 
-> a eva _ _— .-
-> roan |
-> a Pa 7
-> * e Cras a Pe Sam
-> * Sd
-> * * bd
-> o—. 2 ee
-> i}
-> | Al Engineer |
-> a0) te) a4
+> 1 YEAR AGO
+> Gemini Diffusion
 
 ![[assets/slides/r305-aQTaU0/slide-004.jpg]]
 
 OCR text:
 
-> uoxnha uwey
-> bor..tetel
-> Val
-> AIE
-> Tyee somethiny
+> Gemini Diffusion
+> Playground
+> Type something
 > AI Engineer
-> AIEn EUROPE
+> EUROPE
 
 ![[assets/slides/r305-aQTaU0/slide-005.jpg]]
 
@@ -94,32 +84,13 @@ OCR text:
 
 OCR text:
 
-> Text diffusion can do
-> 
-> Pane a
-> * bd
-> rm fs
-> 5g *
-> 
-> bd * bd
-> 
-> ined
-> | gate, a
-> | Al Engineer |
-> Vela
+> Text diffusion can do fast in-place editing
 
 ![[assets/slides/r305-aQTaU0/slide-008.jpg]]
 
 OCR text:
 
 > Low latency unlocks new applications
-> po
-> bd *
-> n "
-> bg *
-> od va *
-> | Al Engineer |
-> Se) <0) a3
 
 ![[assets/slides/r305-aQTaU0/slide-009.jpg]]
 

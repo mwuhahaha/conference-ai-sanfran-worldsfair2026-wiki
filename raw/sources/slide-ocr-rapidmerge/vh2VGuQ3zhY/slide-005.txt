@@ -1,22 +1,22 @@
-THETECHNIQUE
-Just-ln-Time Context Injection
-Ankush Rastogi
-StaticLoading
-JIT Injection
-All100+schemaspre-loaded in theprompt
-Toolsselectedatruntime,perquery
-Everyrequestcarriesthefullpayload
-Only3-5relevant schemasinjected
-·Most tokenswastedonirrelevanttools
-Contextwindow stayslean
-Contextwindowconsumedbyschemas
+THE TECHNIQUE
+Just-In-Time Context Injection
+Static Loading
+• All 100+ schemas pre-loaded in the prompt
+• Every request carries the full payload
+• Most tokens wasted on irrelevant tools
+• Context window consumed by schemas
+• Less space for reasoning and output
+• Accuracy degrades as the list grows
+• Slow: model must process a giant context
 VS
-Moreroomforreasoningchains
+JIT Injection
+• Tools selected at runtime, per query
+• Only 3-5 relevant schemas injected
+• Context window stays lean
+• More room for reasoning chains
+• Accuracy stays above 83% at any scale
+• Fast: smaller prompt, less processing
+• Inspired by Anthropic MCP on-demand loading
+Ankush Rastogi
 Sohal Shaikh
-Lessspaceforreasoningandoutput
-Accuracy staysabove83%at any scale
-Accuracy degradesasthelistgrows
-Fast:smallerprompt,lessprocessing
-Slow:model mustprocessagiant context
-InspiredbyAnthropicMCPon-demand loading
-Ankush Rastog
+08

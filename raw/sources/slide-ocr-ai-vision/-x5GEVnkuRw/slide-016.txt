@@ -1,0 +1,25 @@
+Import Essential Components
+
+from pathlib import Path
+
+# Core Docling imports
+from docling.document_converter import DocumentConverter
+from docling.datamodel.base_models import InputFormat
+from docling.datamodel.pipeline_options import PdfPipelineOptions
+from docling.document_converter import PdfFormatOption
+
+# For advanced features
+from docling_core.types.doc import ImageRefMode, PictureItem, TableItem, TextItem, DoclingDocument
+
+# For data processing and visualization
+import matplotlib.pyplot as plt
+
+# Create output directory
+output_dir = Path("output")
+output_dir.mkdir(exist_ok=True)
+
+Basic Document Conversion
+
+Minimal Example
+
+The simplest way to convert a document:

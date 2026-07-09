@@ -22,15 +22,14 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > Mixedbread
-> Al Engineer
-> HannaLichtenberg
-> AamirShakir
 > AI Engineer
-> CEO&Cofounder
-> Shakir
-> Volkswagen·TU Berlin
-> Google·EPFL
-> How we taughtagents to usegoodretrievlMixedbred
+> Hanna Lichtenberg
+> AI Engineer
+> Volkswagen • TU Berlin
+> Aamir Shakir
+> CEO & Cofounder
+> Google • EPFL
+> How we taught agents to use good retrieval • Mixedbread
 
 ![[assets/slides/1IdzkRVmWAA/slide-002.jpg]]
 
@@ -47,12 +46,18 @@ OCR text:
 
 OCR text:
 
-> .Mixedbread AlEngineer
-> billionairesnotatcompanythenok thankyoustaffwill checkhearing "Senatorwomanquestions
-> （）ogeaoxaaseqooopazdoase
-> Retrv rning andevals ineritweb-serchquery distributions
-> Benchmark biasc: BER / nanoBEIR use caveman-style, entity-dense qutries that structurally favor BM25.
-> anddocuments. The agent guesses keywords to increase the overlap betweenquery
+> Mixedbread
+> AI Engineer
+> "Senator woman questions
+> billionaires not at company then ok
+> thank you staff will check hearing"
+> • Coding agents are optimized for codebase exploration (grep).
+> • Retrieval training and evals inherit web-search query distributions
+> • Benchmark bias: BEIR / nanoBEIR use “caveman-style”, entity-dense queries
+> that structurally favor BM25.
+> The agent guesses keywords to increase the overlap between query
+> and documents.
+> How we thought agents to use good retrieval • Mixedbread
 
 ![[assets/slides/1IdzkRVmWAA/slide-004.jpg]]
 

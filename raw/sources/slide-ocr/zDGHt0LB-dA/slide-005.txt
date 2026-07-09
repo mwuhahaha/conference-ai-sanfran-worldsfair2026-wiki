@@ -1,5 +1,4 @@
 Overview
-AIE
+Build autonomous AI apps using local code with Runpod Flash.
 Get started
-Engineering the future of Al
-AIEngineer
+Engineering the future of AI

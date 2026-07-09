@@ -36,18 +36,10 @@ OCR text:
 
 OCR text:
 
-> |
-> . a
-> .
-> mi i 7 5 and PNG J i . B t a 7
-> ; > . } z —_— PS ee “ ;
-> vad .
-> a Oe Fe
-> ~ —o
-> >) nN
-> « Luma
-> a Microsoft ary?
-> | —"
+> AIE
+> Luma
+> Microsoft
+> smol ai
 
 ![[assets/slides/EY4O9M6AsWI/slide-004.jpg]]
 
@@ -112,44 +104,22 @@ OCR text:
 
 OCR text:
 
-> —~_
-> x
-> en
-> B )
-> c aWws
-> ed
-> ee a"
+> AIE
+> aws
 
 ![[assets/slides/EY4O9M6AsWI/slide-008.jpg]]
 
 OCR text:
 
-> a atl
-> = =
-> a ae iomed A a
-> eon ae Rin at
-> : re sees 7 : “ee
-> ce ee) a ”
-> 5 poe a :
-> a _ Se nae aa
-> er
-> = oa a ‘s :
-> ee
-> ro
-> “
-> |e —
+> AIE
 
 ![[assets/slides/EY4O9M6AsWI/slide-009.jpg]]
 
 OCR text:
 
-> Public AP| ==:
-> lore
-> i
-> = =
-> https://lumalabs.ai/api/pricing aa
-> fel a
-> ; a Microsoft ary?
+> Public API
+> Check it out at:
+> https://lumalabs.ai/api/pricing
 
 ![[assets/slides/EY4O9M6AsWI/slide-010.jpg]]
 
@@ -171,17 +141,14 @@ OCR text:
 OCR text:
 
 > Challenges
-> Brittle,needtocoordinatebetweenbothCPU andTritonbeingupatthesame
-> AIE
+> • Brittle, need to coordinate between both CPU and Triton being up at the same
 > time
-> Tritonnotbuiltformulti-gpu/multi-node
-> Pushmodelnotidealformulti-node(whichnodehasrankO?)
-> No/limitedsupportfornon-nvidiachipsetswithTriton
-> Verydifficulttodevelopagainst
-> Needtohaveeverypieceeverywhere,hardtobringindisparatecompute(i.e.
-> fromourtrainingcluster:kekw:)
-> Microsoft
-> smol?
+> • Triton not built for multi-gpu/multi-node
+> • Push model not ideal for multi-node (which node has rank 0?)
+> • No/limited support for non-nvidia chipsets with Triton
+> • Very difficult to develop against
+> • Need to have every piece everywhere, hard to bring in disparate compute (i.e.
+> from our training cluster:kekw:)
 
 ![[assets/slides/EY4O9M6AsWI/slide-012.jpg]]
 
@@ -219,37 +186,34 @@ OCR text:
 OCR text:
 
 > Queues, Queues, Queues
-> aw
-> ~ StF. « Luma
-> . 5 Microsoft Qa?
+> AIE
+> Luma
+> Microsoft
+> smol ai
 
 ![[assets/slides/EY4O9M6AsWI/slide-015.jpg]]
 
 OCR text:
 
 > Model Management
-> « Luma
-> a Microsoft ary?
+> AIE
+> Luma
+> Microsoft
+> smol ai
 
 ![[assets/slides/EY4O9M6AsWI/slide-016.jpg]]
 
 OCR text:
 
 > THANK YOU
-> ~_
-> aaa a « Luma
+> Luma
 
 ![[assets/slides/EY4O9M6AsWI/slide-017.jpg]]
 
 OCR text:
 
-> ON A
-> v4 a ‘
-> a ia ———— a oe a a a
-> tf ,
-> | LL | |
-> 7 =
-> a r a
+> THANK YOU
+> Luma
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

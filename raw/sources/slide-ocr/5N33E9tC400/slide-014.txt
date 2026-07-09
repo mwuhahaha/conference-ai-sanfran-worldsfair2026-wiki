@@ -1,7 +1,9 @@
 RL Finetuning
 Preference fine-tuning
-WVVSOL-WYC0
-Agent Engineeing
-RoomTimesCener Thecte
-WhatRLMeansforAgents
-See More Detoils
+10:35AM - 10:55AM
+Agent Engineering
+Room: TimesCenter Theater
+What RL Means for Agents
+See More Details
+Will Brown
+Researcher Morgan Stanley

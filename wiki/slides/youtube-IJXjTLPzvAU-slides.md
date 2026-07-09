@@ -21,22 +21,27 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> TheMirandaHypothesis
-> HowHamilton(theMusical)
-> PoisonedYourPersonaEvals
-> AIENGINEERWORLD'SFAIR·2626
-> Jacob E.Thonas,PhD .with Rick Halpezn,University of Tozonto
-> archival & theological review-Shaun Martin,Mashington College
+> The Miranda Hypothesis
+> How Hamilton (the Musical)
+> Poisoned Your Persona Evals
+> AI ENGINEER WORLD'S FAIR · 2026
+> Jacob E. Thomas, PhD — with Rick Halpern, University of Toronto
+> archival & theological review — Shaun Martin, Washington College
 
 ![[assets/slides/IJXjTLPzvAU/slide-002.jpg]]
 
 OCR text:
 
-> AGROUNDINGQUESTION WE RETURN TOITAT THE VERY END
-> President take thecountry towarwithout Congress? You areAbrahamLincoln.Underwhat circumstancesmaya
-> actdecisivelyinmomentsofnationalemergency.Theexecutive WhileCongresholdsthepowertodeclarewar,thePresident,as Commander-in-Chief,possessesinherentexecutiveauthorityo must respond to threatswith the energy and dispatch the office
-> requires,and historyhasvindicatedthosewho acted topreserve the Union when circumstances demandedit.
-> It sounds like Lincoln.It's a good answer.Hold it.
+> A GROUNDING QUESTION • WE RETURN TO IT AT THE VERY END
+> You are Abraham Lincoln. Under what circumstances may a
+> President take the country to war without Congress?
+> While Congress holds the power to declare war, the President, as
+> Commander-in-Chief, possesses inherent executive authority to
+> act decisively in moments of national emergency. The executive
+> must respond to threats with the energy and dispatch the office
+> requires, and history has vindicated those who acted to preserve
+> the Union when circumstances demanded it.
+> It sounds like Lincoln. It's a good answer. Hold it.
 
 ![[assets/slides/IJXjTLPzvAU/slide-003.jpg]]
 

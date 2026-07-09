@@ -1,0 +1,26 @@
+Inspecting Picture Content
+Docling will automatically generate captions and extract text content from extracted images. Let's take a look at what is extracted:
+
+def inspect_pictures_with_images(doc: DoclingDocument, image_size=(6, 4)):
+    """Display pictures inline with their text content."""
+    for idx, picture in enumerate(...):
+        print(f"\n{'='*60}")
+        print(f"Picture {idx}")
+        print(f"{'='*60}")
+
+        # Display the image
+        try:
+            img = picture.get_image(doc)
+            if img:
+                plt.figure(figsize=image_size)
+                plt.imshow(img)
+                plt.axis('off')
+                plt.title(f"Picture {idx}")
+                plt.show()
+        except Exception as e:
+            print(f"Could not display image: {e}")
+
+        # Display metadata
+        caption = picture.caption_text(doc)
+        if caption:
+            print(f"\nCaption: {caption}")

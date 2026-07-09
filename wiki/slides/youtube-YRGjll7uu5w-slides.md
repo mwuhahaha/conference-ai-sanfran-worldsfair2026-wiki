@@ -98,14 +98,10 @@ OCR text:
 OCR text:
 
 > Chat
-> Chs
-> Addcostaot
-> Cresieanew
-> Auto
-> AIE
-> Cursor Tab 0
-> aws
-> WoridsFar
+> Add context
+> Create a new browserbase session, navigate to https://www.sfspca.org/, close out any modals, then find a dog for adoption in san francisco. return the URL, and where I can adopt the dog
+> Agent Auto
+> Cursor Tab
 
 ![[assets/slides/YRGjll7uu5w/slide-007.jpg]]
 
@@ -181,8 +177,7 @@ OCR text:
 
 OCR text:
 
-> B
-> AIEngineer
+> AI Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

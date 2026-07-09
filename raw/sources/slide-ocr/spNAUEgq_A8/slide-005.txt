@@ -1,3 +1,2 @@
 What is an agent?
-
-X @ipschroeder
+X @jpschroeder

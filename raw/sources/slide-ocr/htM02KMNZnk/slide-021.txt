@@ -1,18 +1,7 @@
-AlEngineer
-World's Fair
 Paul Solt
-@PauSolt-Follow
-MyNEWCodexworkflowisbetterthanIexpected.
-8new featuresready forrelease in my app.
-bugs.Feels like the future.
-PRESENTEDBY
-Thanks@Dimillian @emanueledpt and @steipetefor the
-inspiration.
-Microsoft
-10min
-PRs
-AlEngine
-World's
-W
-W
-Engineering the future of Al
+@PaulSolt · Follow
+My NEW Codex workflow is better than I expected.
+8 new features ready for release in my app.
+Took a few attempts to figure out the workflow and some bugs. Feels like the future.
+Thanks @Dimillian @emanueledpt and @steipete for the inspiration.
+Engineering the future of AI

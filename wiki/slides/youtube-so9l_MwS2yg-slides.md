@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/so9l_MwS2yg/slide-002.jpg]]
 
@@ -110,16 +108,16 @@ OCR text:
 
 OCR text:
 
-> The toois are nuclear
-> Your nervous system is ancient
-> indy
-> RU
+> The tools are nuclear.
+> Your nervous system is ancient.
+> Find your dopamine balance.
+> Zack Proser
 
 ![[assets/slides/so9l_MwS2yg/slide-008.jpg]]
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

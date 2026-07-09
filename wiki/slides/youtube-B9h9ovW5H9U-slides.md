@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> # Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/B9h9ovW5H9U/slide-002.jpg]]
 
@@ -296,14 +294,11 @@ OCR text:
 
 OCR text:
 
-> Panes
-> bd ad
-> * os *
-> __.
-> = eu Al i
-> = pier Engineer
-> i ¥ q Ea Sele) a
-> oe 4
+> my-health-app — Healthcare Context Graph
+> Quick Start
+> Architecture
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/B9h9ovW5H9U/slide-014.jpg]]
 

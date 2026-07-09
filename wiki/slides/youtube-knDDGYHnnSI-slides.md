@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATIONSPONSOR
+> INNOVATION SPONSOR
 > aws
-> PLATINUMSPONSORS
+> PLATINUM SPONSORS
 > MongoDB.
 > Google Cloud
 > neo4j
@@ -32,7 +32,8 @@ OCR text:
 
 OCR text:
 
-> Greph Databese & Analytics neo4j
+> neo4j
+> Graph Database & Analytics
 
 ![[assets/slides/knDDGYHnnSI/slide-003.jpg]]
 
@@ -68,12 +69,8 @@ OCR text:
 
 OCR text:
 
-> a
-> Po
-> 7
-> Ta civ)
-> a | World's Fair
-> 2
+> AI Engineer
+> World's Fair
 
 ![[assets/slides/knDDGYHnnSI/slide-006.jpg]]
 
@@ -121,15 +118,8 @@ OCR text:
 
 OCR text:
 
-> t
-> d
-> se _
-> E _ 7
-> SS
-> x | Worta's Fair
-> a
-> ; co oo
-> . a"
+> AI Engineer
+> World's Fair
 
 ![[assets/slides/knDDGYHnnSI/slide-009.jpg]]
 
@@ -218,7 +208,6 @@ OCR text:
 
 > User
 > Your Application
-> Neo4j Inc.Allrightsreserved2024
 
 ![[assets/slides/knDDGYHnnSI/slide-014.jpg]]
 
@@ -244,9 +233,12 @@ OCR text:
 
 OCR text:
 
-> S The Benefits of os
-> GraphRAG oe
-> : a Microsoft GiQU° aws
+> AIE
+> The Benefits of
+> GraphRAG
+> Microsoft
+> smol ai
+> aws
 
 ![[assets/slides/knDDGYHnnSI/slide-017.jpg]]
 

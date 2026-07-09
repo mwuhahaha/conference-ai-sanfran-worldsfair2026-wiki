@@ -66,8 +66,7 @@ OCR text:
 
 OCR text:
 
-> a
-> Researchers # production engineers
+> Researchers ≠ production engineers
 
 ![[assets/slides/OXMMN-XbxwA/slide-005.jpg]]
 
@@ -100,10 +99,11 @@ OCR text:
 
 OCR text:
 
-> TatrOu
 > Repo automations
+> Microservices
+> ML notebooks
 > TBD
-> UCO
+> Reusable UI components
 > MONOREPO
 
 ![[assets/slides/OXMMN-XbxwA/slide-007.jpg]]

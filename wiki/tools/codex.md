@@ -34,12 +34,15 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [YouTube w7IMuYsBNr8](https://www.youtube.com/watch?v=w7IMuYsBNr8) — OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness)
 
 ### Resource Pages
+- [[google-photos-aie-slides]]
+- [[slide-ocr-ai-vision-audit]]
 - [[talk-video-transcript-map]]
 - [[youtube-dvft0Gp9sEE]]
 - [[youtube-iXhba366fQc]]
 - [[youtube-jryZvCuA0Uc]]
 
 ### Slide/OCR Pages
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-cooking-with-codex-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-84Vtz2IL1Ug-slides]]
@@ -49,7 +52,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-jVjt-2g8NMY-slides]]
 - [[youtube-kR64LOqBBCU-slides]]
 - [[youtube-pSto5YaNGUo-slides]]
-- [[youtube-pmoDeA3RBZY-slides]]
 
 ### Topic Pages
 - [[autoresearch]]

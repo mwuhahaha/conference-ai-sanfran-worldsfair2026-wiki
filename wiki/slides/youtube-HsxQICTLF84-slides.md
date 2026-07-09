@@ -21,19 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> compatible agent Building an ACP
-> met l 20226
-> AlEngineer EUROPE
+> Building an ACP
+> compatible agent
 
 ![[assets/slides/HsxQICTLF84/slide-002.jpg]]
 
 OCR text:
 
-> /eyunuKenbereur- ela \@s a
+> Building an ACP
 > compatible agent
-> 
-> id
-> py J Google DeepMind
 
 ![[assets/slides/HsxQICTLF84/slide-003.jpg]]
 
@@ -84,7 +80,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

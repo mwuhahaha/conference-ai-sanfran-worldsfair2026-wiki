@@ -65,14 +65,15 @@ OCR text:
 OCR text:
 
 > Objective:
-> Bulld for agentic
+> Build intuition for agentic
 > product design
 
 ![[assets/slides/96G7FLab8xc/slide-005.jpg]]
 
 OCR text:
 
-> “Ifa human can use an API.
+> “If a human can use an API,
+> why can’t an AI?”
 
 ![[assets/slides/96G7FLab8xc/slide-006.jpg]]
 
@@ -96,16 +97,8 @@ OCR text:
 
 OCR text:
 
-> y
-> in ; .
-> H if
-> 7 f
-> _ ~s
-> I
-> y fan
-> iin .
+> JFK27-B1.302
 > 2025-11-22 13:22:59
-> JFK 27-81.302
 
 ![[assets/slides/96G7FLab8xc/slide-009.jpg]]
 
@@ -123,11 +116,8 @@ OCR text:
 
 OCR text:
 
-> Ng
-> a
-> i
-> rn J 2025-11-22 13:24:39
-> JFK 27-B1.302
+> JFK27-B1.302
+> 2025-11-22 13:24:39
 
 ![[assets/slides/96G7FLab8xc/slide-011.jpg]]
 
@@ -163,8 +153,7 @@ OCR text:
 OCR text:
 
 > Step 1: Logic and Naming
-> , Not operations
-> ° 2025-11-22 13:27:59
+> Outcomes, not operations
 
 ![[assets/slides/96G7FLab8xc/slide-014.jpg]]
 
@@ -185,13 +174,8 @@ OCR text:
 
 OCR text:
 
-> ;
-> ,
-> a)
-> Hl
-> el ]
-> i 2025-11-22 13:31:44
-> JFK 27-B1.302
+> JFK27-B1.302
+> 2025-11-22 13:31:44
 
 ![[assets/slides/96G7FLab8xc/slide-016.jpg]]
 
@@ -237,12 +221,8 @@ OCR text:
 
 OCR text:
 
-> yo.
-> an
-> ;
-> a a
-> : it yee eye EY TED
-> JFK 27-81.302
+> JFK27-B1.302
+> 2025-11-22 13:44:14
 
 ![[assets/slides/96G7FLab8xc/slide-020.jpg]]
 
@@ -262,7 +242,7 @@ OCR text:
 
 OCR text:
 
-> converting REST APIs
+> Stop converting REST APIs
 > to MCP servers
 
 ![[assets/slides/96G7FLab8xc/slide-022.jpg]]
@@ -288,34 +268,15 @@ OCR text:
 
 OCR text:
 
-> af :
-> ; i
-> f
-> x
-> iy fl By ‘
-> / a
-> Y i
-> 7 7 / ~~
-> _— am io an ,
-> an ee
-> %, a 2025-11-22 13:54:39
-> ORES Ly)
+> JFK27-B1.302
+> 2025-11-22 13:54:39
 
 ![[assets/slides/96G7FLab8xc/slide-024.jpg]]
 
 OCR text:
 
-> "|
-> 7
-> ry |
-> 
-> os , i |
-> 
-> ae i] ~
-> Me Pd
-> 
-> ne 2025-11-22 13:55:04
-> JFK 27-81.302
+> 2025-11-22 13:55:04
+> JFK27-B1.302
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

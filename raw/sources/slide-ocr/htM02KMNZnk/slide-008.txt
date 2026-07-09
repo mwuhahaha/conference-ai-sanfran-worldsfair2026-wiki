@@ -1,13 +1,12 @@
-World'sFair AIEngineer FoundryIQ Retrievalrelevanceby dataset
-90.0
-80.0
-PRESENTED BY 70.0
-Microsoft 60.0
-40.0
-20.0
-o'ot
-1INIMAX World's 0.0 BER(NDCG@10) Customer (NDCG@3) MIML (NDCG@3) (@9oo）oddns
-KrywordVectorHybridsHybrid +Reraning
-I'sFair Open
-oe orld's
-I'sFai Buil
+AI Engineer
+World's Fair
+Presented by
+Microsoft
+Foundry IQ
+Retrieval relevance by dataset
+BER (NDCG@10)
+MIRACL (NDCG@10)
+Customer (NDCG@3)
+MIML (NDCG@3)
+Support (NDCG@3)
+Keyword Vector Hybrid Hybrid + Reranking

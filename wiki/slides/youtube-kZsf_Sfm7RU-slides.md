@@ -21,9 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
+> AI ENGINEER WORLD'S FAIR 2026
 > The Missing Layer
 > After Launch
-> , R Everything important starts after you ship.
+> Everything important starts after you ship.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-002.jpg]]
 
@@ -122,21 +123,17 @@ OCR text:
 
 OCR text:
 
-> LOG-MONITOR-SLACK
-> Ourbug→itopensaPR and tellsme
-> DAHOH
-> Outside billingissue-justaheads-up,noPR
-> LogMonitorfollo deroOA
-> duction Period Last 1h (02:06 UTC)
-> Provider biling iss The ererread woseedteracleansk-thatisnowcontradictedThe credtce edvla falback each tine hit LlamaParse 402exceededmax -RECURRED.notresoed workpers 21ta
-> Italertsonlywhenitmatters-andknowsthedifference.
+> LOG-MONITOR — SLACK
+> Our bug — it opens a PR and tells me
+> Outside billing issue — just a heads-up, no PR
+> It alerts only when it matters — and knows the difference.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-010.jpg]]
 
 OCR text:
 
-> 3 Verdict: ready — root cause, with a test that reproduces it.
-> ae by
+> PR-REVIEW — THE ROOT-CAUSE FIX
+> Verdict: ready — root cause, with a test that reproduces it.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-011.jpg]]
 

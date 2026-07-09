@@ -1,11 +1,10 @@
 Context Connectors
-Unblocked
-Connect Unblocked toyourknowledge sources
-AIE Connectmodelstotherealworld
-Servers and tools from the communitythat connect models to fles, APls, databases, and more.
-hMCP
-AIMCPservers
-Markitdown Netdata
-o5aodicf 1o Ma aroun Se Jormats POF, Wc Ry sdala0 78,005 eal-Sime inhat UCLnE Install theUnblockedMCPplugin
-AlEngineer Github MCP -https://github.com/mcp https://getunblocked.com/unblocked-mcp/
-AEnginer Engineering the future of Al
+Connect models to the real world
+Servers and tools from the community that connect models to files, APIs, databases, and more.
+All MCP servers
+Markitdown
+Netdata
+Github MCP - https://github.com/mcp
+Connect Unblocked to your knowledge sources
+Install the Unblocked MCP plugin
+Engineering the future of AI

@@ -1,0 +1,15 @@
+12 — LAYER 3
+The induction pack.
+Where most teams stop.
+// personality-builder.ts
+const WARMTH_DESCRIPTIONS = {
+  10: 'extremely warm and effusive',
+  7: 'friendly and approachable',
+  5: 'neutral and professional',
+  1: 'very formal and distant',
+}
+// Plus banned/approved phrases, USPs — all per-venue.
+The induction pack is fixed. It was written before the intern met anyone. It doesn't know who walked in this morning,
+or what they're carrying.
+ISADORA MARTIN-DYE
+STOP WRITING TONE INSTRUCTIONS. LAYER THEM.

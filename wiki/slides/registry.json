@@ -1,5 +1,103 @@
 [
   {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-bm25-agentic-search-slides",
+    "title": "Google Photos Slides: The Unreasonable Effectiveness of BM25 for Agentic Search",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-bm25-agentic-search-slides.md",
+    "slide_count": 3,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-browser-agent-success-harness-slides",
+    "title": "Google Photos Slides: Browser Agent Success Harness",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-browser-agent-success-harness-slides.md",
+    "slide_count": 4,
+    "confidence": "medium"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-cooking-with-codex-slides",
+    "title": "Google Photos Slides: Cooking with Codex",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-cooking-with-codex-slides.md",
+    "slide_count": 1,
+    "confidence": "medium"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-dark-arts-web-automation-slides",
+    "title": "Google Photos Slides: The Dark Arts of Web Automation",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-dark-arts-web-automation-slides.md",
+    "slide_count": 8,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-gemini-live-slides",
+    "title": "Google Photos Slides: Gemini Live API Workshop",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-gemini-live-slides.md",
+    "slide_count": 2,
+    "confidence": "medium"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-knowledge-agents-slides",
+    "title": "Google Photos Slides: Knowledge Agents",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-knowledge-agents-slides.md",
+    "slide_count": 8,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-knowledge-systems-gtm-stack-slides",
+    "title": "Google Photos Slides: Knowledge Systems, the New GTM Stack",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-knowledge-systems-gtm-stack-slides.md",
+    "slide_count": 8,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-llm-inference-at-scale-slides",
+    "title": "Google Photos Slides: LLM Inference at Scale Workshop",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-llm-inference-at-scale-slides.md",
+    "slide_count": 3,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-nyt-games-connections-slides",
+    "title": "Google Photos Slides: On-Device Agentic AI for the New York Times Games",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-nyt-games-connections-slides.md",
+    "slide_count": 1,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-rebuilding-the-web-for-agents-slides",
+    "title": "Google Photos Slides: Rebuilding the Web for Agents",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-rebuilding-the-web-for-agents-slides.md",
+    "slide_count": 3,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-software-factories-fail-slides",
+    "title": "Google Photos Slides: Why Software Factories Fail",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-software-factories-fail-slides.md",
+    "slide_count": 2,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-unleash-agent-watch-it-burn-slides",
+    "title": "Google Photos Slides: Build a Platform, Unleash an Agent on it",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-unleash-agent-watch-it-burn-slides.md",
+    "slide_count": 1,
+    "confidence": "high"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-unmatched-graphs-seo4ai-slides",
+    "title": "Google Photos Slides: Unmatched Graphs or SEO4AI Schedule Photo",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-unmatched-graphs-seo4ai-slides.md",
+    "slide_count": 1,
+    "confidence": "low"
+  },
+  {
+    "id": "google-photos-aie-slides-9gWZzS1EpXM1C5eK6-velocity-sickness-ref-slides",
+    "title": "Google Photos Slides: Velocity Sickness and Ref",
+    "path": "wiki/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6-velocity-sickness-ref-slides.md",
+    "slide_count": 2,
+    "confidence": "high"
+  },
+  {
     "id": "youtube--TiET_K-E_g-dense-slides",
     "title": "Dense Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google",
     "path": "wiki/slides/youtube--TiET_K-E_g-dense-slides.md",

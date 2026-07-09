@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ; _ SS
-> ad GSI
-> elorame te tha ihe +
-> Si
+> QEII CENTRE
+> Welcome to the QEII Centre
 
 ![[assets/slides/u-rJwPPU3QA/slide-002.jpg]]
 
@@ -126,7 +124,7 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

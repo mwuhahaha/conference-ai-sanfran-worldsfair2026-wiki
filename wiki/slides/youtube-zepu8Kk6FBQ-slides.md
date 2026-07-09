@@ -21,24 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/zepu8Kk6FBQ/slide-002.jpg]]
 
 OCR text:
 
-> AE
 > SWYX
-> AE
-> CO-FOUNDER
-> TOR
-> AIE
-> AlEngineer
-> AlEngirer
-> Googe Dopind
+> CO-FOUNDER, EDITOR
 
 ![[assets/slides/zepu8Kk6FBQ/slide-003.jpg]]
 
@@ -198,33 +189,31 @@ OCR text:
 
 OCR text:
 
-> Thread
-> [Inactive Account]Jn2Btha727AM
-> Hi@swyx(AE)
-> @ben,here are2variationsforWF26website design.
-> The first one is more condensed, text-heavy, and dark-mode.You can check it out here
 > Agents for
-> The second oneismoremarketing-centric.withmore balance betweenimages&text witha combination of lightand dark backgrou
-> nd.More
-> ke ourcurrentWF25websitebutmore polishedou can checkit outhere
-> Pleasecheck it out whenyou have a chance.Figma linkfor holisticview.
-> https:/www.figma.com/design/gNEMFy1N5UY213fczqA1YT/World-s-Fair-2026?node-id=140-3540St=PnF3OydmeM8L7bIW-1
 > Designers
+> Thread
+> [Inactive Account] Jan 28th at 7:27 AM
+> Hi @swyx(AE) @ben, here are 2 variations for WF26 website design.
+> The first one is more condensed, text-heavy, and dark-mode. You can check it out here
+> The second one is more marketing-centric, with more balance between images & text with a combination of light and dark background. More
+> like our current WF25 website but more polished. You can check it out here
+> Please check it out when you have a chance. Figma link for holistic view:
+> https://www.figma.com/design/gNEMFy1N5UY213cfzqA1YT/World-s-Fair-2026?node-id=140-3540&t=PnF3OydmeM8L7bIW-1
 > Figma
-> World'sFalr2026
-> Created withFigma
+> World's Fair 2026
+> Created with Figma
 > Figma
-> World'sFair2026
-> CreatedwithFigma
-> 162replies
-> [InactiveAccount]Jan28tht7.56AM
-> Wecouldaddazoomeffecttothe second optionwhenuserscrollfromthe
-> oframestartsgrowingand
-> becomingfullscreen similar to the one fromrealfood.gov
-> Also letmeknowif we should try somethingmore uniqueand out of the box
+> World's Fair 2026
+> Created with Figma
+> 162 replies
+> [Inactive Account] Jan 28th at 7:56 AM
+> We could add a zoom effect to the second option when user scroll from the hero section to below, the video frame starts growing and becoming full screen similar to the one from realfood.gov
+> Also let me know if we should try something more unique and out of the box
 > ben
-> AlEngineer Europe2026
-> Bullding Al Engineer with AI
+> Jan 30th at 2:59 PM
+> hey shawn I'm commenting/working with vincent in figma on this, I've invited you if you want to see/add your own feedback/ideas
+> AI Engineer Europe 2026
+> Building AI Engineer with AI
 > swyx
 
 ![[assets/slides/zepu8Kk6FBQ/slide-011.jpg]]
@@ -377,30 +366,27 @@ OCR text:
 
 OCR text:
 
-> Engineer
 > Agents for
 > CMS
-> ca
-> eer
-> AIEngineer
-> #Braintrust
-> Workos
-> OpenAl
-> EUROPE
 
 ![[assets/slides/zepu8Kk6FBQ/slide-018.jpg]]
 
 OCR text:
 
-> TrishMar9that12:57PM FromSpeakerMardu:Photointhewebsiteiswrong.Kindlycheck,thanks! CC
-> cc:@sWyx(AIE)
-> Agents for Screenshot2026-03-09at8.56.05PM.png Mardu Swanepoel tlarfe 128P
-> CMS HLia
-> 12replies
-> sWyx(AIE)Mar9that5:22PM
-> @Devinplsfix
-> DevinAPPMar9that5:22PM TalktoDevininthisthread
-> Al Engineer Europe 2026 Bulding Al Engineer with AI swyx
+> Agents for
+> CMS
+> Trish Mar 9th at 12:57 PM
+> From Speaker Mardu: Photo in the website is wrong. Kindly check, thanks!
+> cc: @swyx (AIE)
+> Screenshot 2026-03-09 at 8.56.05 PM.png
+> 12 replies
+> swyx (AIE) Mar 9th at 5:22 PM
+> @Devin pls fix
+> Devin APP Mar 9th at 5:22 PM
+> Talk to Devin in this thread
+> AI Engineer Europe 2026
+> Building AI Engineer with AI
+> swyx
 
 ![[assets/slides/zepu8Kk6FBQ/slide-019.jpg]]
 
@@ -466,8 +452,8 @@ OCR text:
 
 > Agents for
 > Curation
-> AlEngineerEurope2026
-> Bulding AI Engineer with Al
+> • AI Engineer Europe 2026
+> ▪ Building AI Engineer with AI
 > swyx
 
 ![[assets/slides/zepu8Kk6FBQ/slide-023.jpg]]

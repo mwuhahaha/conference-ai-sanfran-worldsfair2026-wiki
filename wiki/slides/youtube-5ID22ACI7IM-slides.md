@@ -21,29 +21,23 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/5ID22ACI7IM/slide-002.jpg]]
 
 OCR text:
 
-> Bullding the context
-> neAlagentsne
-> AlEngine
-> EUROPE
+> Building the context
+> engine AI agents need
 
 ![[assets/slides/5ID22ACI7IM/slide-003.jpg]]
 
 OCR text:
 
-> bdn226（otetemnerrgv3mnl
 > What we'll cover today
 > 3 3
 > Myths Lessons
-> Unblocked
 
 ![[assets/slides/5ID22ACI7IM/slide-004.jpg]]
 
@@ -148,32 +142,65 @@ OCR text:
 
 OCR text:
 
-> C ☆
-> Oauko pno
-> }-Merged Bulk code reviewmemories experiment:rerun allcodereviews withmemories enabled #25632 risheres merged1comitintomain fromrichie/e
-> unblockedbotreviewedonDec3.2025 Vew revie edcha
-> unblockedbotleftacomment
-> 1issue found. Lockcoversation
-> ..n/com/nextchaptersoftware/review/lifecycle/CodeReviewEventProcessorPullRequestChangedTest.kt
-> Mnt on ines +210 to +288
-> 210 211 212 213 214 215 216 217 218 219 228 222 223 224 225 226 227 228 221 eTest suspendingDatabaseTest( valpr-makePul1Request（） //Must be in base type format for polymorphicserialization towork valevent:CodeReviewEvent-CodeReviewEvent.PullRequestChanged（ valorg-makeOrg（） valcommit=Hash.parse(*s888888 valcodeReview=nakeCodeReview( orgId-org.id.value, prId-pr.id.value, commit=comit, pr-pr, comnitconnit, scope=CodeReviewScope.Ful1, trigger-CodeReviewEventType.PullRequestOpened, eMithMer nories for Full scop
+> Merged
+> Bulk code review memories experiment: rerun all code reviews with memories enabled #25632
+> unblocked bot reviewed on Dec 3, 2025
+> View reviewed changes
+> unblocked bot left a comment
+> 1 issue found.
+> About Unblocked
+> 2 participants
+> Lock conversation
+> ...n/com/nextchaptersoftware/review/lifecycle/CodeReviewEventProcessorPullRequestChangedTest.kt
+> Comment on lines +210 to +288
+> @Test
+> fun processPullRequestChangedEvent enqueues HiddenReviewWithMemories for Full scope
+> suspendingDatabaseTest {
+> val org = makeOrg()
+> val pr = makePullRequest()
+> val commit = Hash.parse("8888888888888888888888888888888888888888")
+> val codeReview = makeCodeReview(
+> orgId = org.id.value,
+> prId = pr.id.value,
+> commit = commit,
+> pr = pr,
+> scope = CodeReviewScope.Full,
+> trigger = CodeReviewEventType.PullRequestOpened,
+> )
+> // Must be in base type format for polymorphic serialization to work
+> val event: CodeReviewEvent = CodeReviewEvent.PullRequestChanged(
 
 ![[assets/slides/5ID22ACI7IM/slide-011.jpg]]
 
 OCR text:
 
-> C ☆
-> wh Unblocked Clude Cod poqun
-> Merged Bulk code reviewmemories experiment:rerun all codereviews with memories enabled25632 rsheresmerged1commit intoainfromxichie/cr-
-> scope=CodeReviewScope.Full,
-> valevent: CodeReviewEvent CodeReviewEvent.PullRequestChanged（ orgIdorg.id.value, prId-pr.id.value, eventTypeeventType, commit=comnit,
-> whenever(codeReviewControlService.shouldAutonaticallyCreateCodeReview（org.id.value,p: shenever( codeReviewManager.createReview( orgId-org.id.value, prId-pr.id.value, connitconmit,
+> Bulk code review memories experiment: rerun all code reviews with memories enabled #26332
+> richiebres merged 1 commit into main from richie/cr-memories-shado...
+> scope = CodeReviewScope.Full,
+> val event: CodeReviewEvent = CodeReviewEvent.PullRequestChanged(
+> orgId = org.id.value,
+> prId = pr.id.value,
+> commit = commit,
+> eventType = eventType,
+> )
+> whenever(codeReviewControlService.shouldAutomaticallyCreateCodeReview(org.id.value, p...)
+> whenever(
+> codeReviewManager.createReview(
+> orgId = org.id.value,
+> prId = pr.id.value,
+> commit = commit,
+> trigger = eventType,
+> )
 > ).thenReturn(codeReview.asDataModel())
-> processor.process(mockMessage,event.encode())
-> verify(codeRevienLifecycleEventProducer).eng orgId=org.id.value, prId-pr.id.value, commitcommit, eHiddenPullRequestReviewwithMenoriesEv
-> Basedon#24846（comment）and24699
-> richiebresonDec3.2025 Author
-> Very cool.SomethingIwould say!
+> processor.process(mockMessage, event.encode())
+> verify(codeReviewLifecycleEventProducer).enqueueHiddenPullRequestReviewWithMemoriesEv...
+> orgId = org.id.value,
+> prId = pr.id.value,
+> commit = commit,
+> )
+> Based on #24846 (comment) and #24699 [comment]
+> richiebres on Dec 3, 2025 Author
+> Very cool. Something I would say!
 
 ![[assets/slides/5ID22ACI7IM/slide-012.jpg]]
 
@@ -250,20 +277,18 @@ OCR text:
 
 OCR text:
 
-> C ☆ +
-> qn D tPRFa
-> Unblocked SummaryofLatestPRFixesandEnh... Private
-> Aska NewQuestion name alone,sokeys stored by other tools(e.g.Claude Code)are also found. underthe social-graph account.ltnowfallsbacktosearchingbyservice
-> Code Reviews MyQuestions Key changes across3files: bui Lder.py-buildsknown_users dict from PRauthor data,handling collisionavoidance with existing logins.
-> RecentlyArchived visualization.py-compute_lines_from_git accepts known_users, config.py-_macos_keychain_get loopsovertwokeychain search parses git author name + email, and resolves to GitHub login.
-> Settings strategies.
-> Analytics References: Fixnode sizenormalizqtion andkeychainfall
-> Thiswas:Helpful CaNot Helpful
-> Invite Members
-> DownloadUnblocked
-> Contact Support Documentation Continue the discussion AnswerPreferences
-> unblocked-aie
-> pwerry
+> Summary of Latest PR Fixes and Enh...
+> under the social-graph account. It now falls back to searching by service
+> name alone, so keys stored by other tools (e.g. Claude Code) are also
+> found.
+> Key changes across 3 files:
+> • builder.py — builds known_users dict from PR author data, handling
+> collision avoidance with existing logins.
+> • visualization.py — compute_lines_from_git accepts known_users,
+> parses git author name + email, and resolves to GitHub login.
+> • config.py — _macos_keychain_get loops over two keychain search
+> strategies.
+> References: Fix node size normalization and keychain fall...
 
 ![[assets/slides/5ID22ACI7IM/slide-015.jpg]]
 
@@ -393,13 +418,7 @@ OCR text:
 
 OCR text:
 
-> eee
-> 
-> a
-> 
-> Ot
-> 
-> =
+> Workshop setup
 
 ![[assets/slides/5ID22ACI7IM/slide-022.jpg]]
 

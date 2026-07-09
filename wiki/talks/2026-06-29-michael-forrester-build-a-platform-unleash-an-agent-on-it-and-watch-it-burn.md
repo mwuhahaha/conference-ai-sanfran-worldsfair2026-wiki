@@ -58,3 +58,7 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Additional Photo Slide Evidence
+These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-unleash-agent-watch-it-burn-slides]] - Google Photos Slides: Build a Platform, Unleash an Agent on it (confidence: high).

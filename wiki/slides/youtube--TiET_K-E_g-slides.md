@@ -132,21 +132,9 @@ OCR text:
 
 OCR text:
 
-> TO Sark a |
-> a -— PC
-> Sen
-> i y)
-> i _ ee He PE ar
-> q - =e ie
-> Ey
-> ach aA
-> F +n
-> | ene
-> 1° see
-> D Lt
-> nad ;
-> : ins —
-> : : “— . ,
+> Wrap up.
+> System GenAI
+> In-App GenAI
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

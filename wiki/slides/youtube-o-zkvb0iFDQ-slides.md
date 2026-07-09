@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/o-zkvb0iFDQ/slide-002.jpg]]
 
@@ -42,8 +40,8 @@ OCR text:
 
 OCR text:
 
-> We're used to text, but -
-> #3 Braintrust €) WorkOS OpenAl
+> We’re used to text, but -
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/o-zkvb0iFDQ/slide-004.jpg]]
 
@@ -172,8 +170,7 @@ OCR text:
 OCR text:
 
 > Core Concepts
-> c
-> Engineering the future of Al
+> Engineering the future of AI
 
 ![[assets/slides/o-zkvb0iFDQ/slide-011.jpg]]
 
@@ -191,9 +188,8 @@ OCR text:
 
 OCR text:
 
-> ‘« Afternoon, Ido Salomon
-> a a?
-> | Engineering the future of Al
+> Afternoon, Ido Salomon
+> Engineering the future of AI
 
 ![[assets/slides/o-zkvb0iFDQ/slide-013.jpg]]
 
@@ -284,15 +280,10 @@ OCR text:
 
 OCR text:
 
-> rene
-> * *
-> are
-> bg ad
-> * a bd
-> = Pan
-> n e
-> | AlEngineer |
-> See) a
+> Reusable views
+> AIE
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/o-zkvb0iFDQ/slide-020.jpg]]
 
@@ -353,10 +344,8 @@ OCR text:
 
 OCR text:
 
-> An McP App can run everywhere!
-> AIE
-> 600
-> Engineering the future of Al
+> An MCP App can run everywhere!
+> Engineering the future of AI
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

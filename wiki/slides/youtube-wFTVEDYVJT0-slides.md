@@ -35,9 +35,8 @@ OCR text:
 
 OCR text:
 
-> =, ae
-> AMtngineer
-> World's Fai
+> AI Engineer
+> World's Fair
 
 ![[assets/slides/wFTVEDYVJT0/slide-003.jpg]]
 
@@ -251,24 +250,25 @@ OCR text:
 OCR text:
 
 > Let's build!
-> AIE https://s12d.com/ai_eng_aws
-> Microsoft smol ai
+> AIE
+> https://s12d.com/ai_eng_aws
 
 ![[assets/slides/wFTVEDYVJT0/slide-016.jpg]]
 
 OCR text:
 
-> aws EVS aws
-> World's Fair AIEg
+> AI Engineer
+> World's Fair
 
 ![[assets/slides/wFTVEDYVJT0/slide-017.jpg]]
 
 OCR text:
 
 > Let's build!
-> ae https://s12d.com/ai_eng_aws
-> | fea] aws
-> 7
+> AIE
+> https://s12d.com/ai_eng_aws
+> aws
+> 13
 
 ![[assets/slides/wFTVEDYVJT0/slide-018.jpg]]
 

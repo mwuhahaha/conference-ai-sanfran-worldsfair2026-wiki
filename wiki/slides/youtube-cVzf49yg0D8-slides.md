@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/cVzf49yg0D8/slide-002.jpg]]
 
@@ -32,24 +30,13 @@ OCR text:
 
 > One API to
 > Rule Them All
-> AIEng
-> EURO
 
 ![[assets/slides/cVzf49yg0D8/slide-003.jpg]]
 
 OCR text:
 
-> eee einen nna eee as
-> i
-> |
-> |
-> nn!
-> F id a
-> ee -
-> Se gt ix
-> as ;
-> ie ¥
-> At _—
+> One API to
+> Rule Them All
 
 ![[assets/slides/cVzf49yg0D8/slide-004.jpg]]
 
@@ -318,22 +305,25 @@ OCR text:
 
 OCR text:
 
-> d Profies Hee 1327
-> README Apache-20 lcene Security
-> SkilfordevepingGeni-oweredappsPrvidesthbestpracticesforbuldingapps
-> vertek-al-a2l- SDK.Covers tools,multmodageneration，caching.and batchprediction.
-> Sev eini-live-apl- Wbtsaciy Skilfrbuldingreal-tmebidiectonlstrengappswiththe GeminiLeAPCoers features,function caling.and sessionmanagement.
-> interactions-apl peeini- e chatsngfllingsttredtegrne agentsdeprecatedmodelguardralsandbothPythonand TypScriptKs
+> README Apache-2.0 license Security
+> Skill for developing Gemini-powered apps. Provides the best practices for building apps that use the Gemini API.
+> Skill for developing Gemini-powered apps on Google Cloud Vertex AI using the Gen AI SDK. Covers tools, multimodal generation, caching, and batch prediction.
+> Skill for building real-time, bidirectional streaming apps with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection, native audio features, function calling, and session management.
+> Skill for building apps with the Gemini Interactions API. Covers text generation, multi-turn chat, streaming, function calling, structured output, image generation, Deep Research agents, deprecated model guardrails, and both Python and TypeScript SDKs.
 > Installation
-> Youcanboweandinstal skilsuingeithertheelskillsCLrtheContext7skisCLL
-> UsingVercel skillsCLI
-> npx skillsaddgoogle-genini/gemini-kills-list Interactively browe and install skills.
-> Instatl specific skill (e.g,gemini-api-dev). npx skills addgoogle-penini/genini-skilts-skillgenini-ap1-ev-globo1
-> Using Context7 skillsCLI
-> spxcbx7 skills1nstatt/google-gemin1/gemin1-skills Interactively browse and install skitts.
-> npx ctx7skills instal1/google-geaini/gemini-skiltsvertex-al-apl-dev Install aspecific skilt （e.g.,vertex-al-api-dev）.
+> You can browse and install skills using either the Vercel skills CLI or the Context7 skills CLI.
+> Using Vercel skills CLI
+> # Interactively browse and install skills.
+> npx skills add google-gemini/gemini-skills --list
+> # Install a specific skill (e.g., gemini-api-dev).
+> npx skills add google-gemini/gemini-skills --skill gemini-api-dev --global
+> Using Context7 skills CLI
+> # Interactively browse and install skills.
+> npx ctx7 skills install google-gemini/gemini-skills
+> # Install a specific skill (e.g., vertex-ai-api-dev).
+> npx ctx7 skills install google-gemini/gemini-skills --skill vertex-ai-api-dev
 > Disclaimer
-> Vulnerabity RewardsProgram.
+> This is not an officially supported Google product. This project is not eligible for the Google Open Source Software Vulnerability Rewards Program.
 
 ![[assets/slides/cVzf49yg0D8/slide-015.jpg]]
 
@@ -415,8 +405,7 @@ OCR text:
 
 OCR text:
 
-> Gemini 3.1Flash Live
-> AIEr
+> Gemini 3.1 Flash Live
 
 ![[assets/slides/cVzf49yg0D8/slide-018.jpg]]
 
@@ -437,23 +426,7 @@ OCR text:
 
 OCR text:
 
-> ~- = te f Bt te
-> Na |
-> eA Lo
-> re oe
-> oaar
-> i ne
-> Boe:
-> an a ARS
-> | ee
-> 7 Co eee XS
-> , ye
-> a
-> , ec f a.
-> 7 |
-> Zz
-> ’ =<
-> A
+> Live Jukebox
 
 ![[assets/slides/cVzf49yg0D8/slide-020.jpg]]
 

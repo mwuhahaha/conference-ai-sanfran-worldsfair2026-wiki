@@ -44,11 +44,8 @@ OCR text:
 
 OCR text:
 
-> stone an
-> Recs Da iene a) i=) | Wo
-> an
-> oie Wot | | j |
-> | World's Fair |
+> AI Engineer
+> World's Fair
 
 ![[assets/slides/bmWZk9vTze0/slide-004.jpg]]
 

@@ -289,20 +289,21 @@ OCR text:
 
 OCR text:
 
-> Docling:MorethansimpleDocumentConversion
-> hello
-> 1010A**01+
-> 'billnumber':'01234',
-> 'total invoice price':550,
-> 'currency of total invoice price':'usD',
-> 'name ofinvoice addressee':'Jonathan Patterson'
-> 'name of invoice sender':'Eventure Event Planner
-> invoice_dict=
-> :Jaqunu13q
-> "string"
-> "totalinvoice price":"float",
-> "currency of total tnvoice price":“string”
-> "name of invoice addressee':"string”,
+> Docling: More than simple Document Conversion
+> {
+> 'bill number': '01234',
+> 'total invoice price': 550,
+> 'currency of total invoice price': 'USD',
+> 'name of invoice addressee': 'Jonathan Patterson',
+> 'name of invoice sender': 'Eventure Event Planner'
+> }
+> invoice_dict = {
+> 'bill number': "string",
+> 'total invoice price': "float",
+> 'currency of total invoice price': "string",
+> 'name of invoice addressee': "string",
+> 'name of invoice sender': "string"
+> }
 
 ![[assets/slides/-x5GEVnkuRw/slide-015.jpg]]
 
@@ -801,11 +802,19 @@ OCR text:
 
 OCR text:
 
-> Q Conversion.ipynb M Token_Cost_Comparison.ipynbM Chunkless_RAG.ipynbM× Chunking.ipynb
-> DOCLING-WO... notebooks >fixtures RAG actually earns its keep>query_2 = “What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment? AddCodeAdd MarkdownRun All Restart Clear All Outputs Go To|Jupyter Variables Outline venv (3.13.7) (Python 3.13.7)
-> Ollama RAG.ipynb >scripts >src Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb RAG.ipynb Serving.ipynb Token_Cost_Compari..M Chunking.ipynb gitignore Chunkless_RAG.ipynbM >output M M 2.FETCH 3.ATTEMPT-LLM triesto answer from the section text. can_answer =true -Pullthe*full text*of that section's subtree from the DoclingDocument. Returns (can_answer:bool,response:str}. can_answer = false
-> pyproject.toml Fconstraints.txt ①README.md!.poutine.yml LICENSE!mkdocs.yml!.pre-commit-config.yaml!.spellcheck.yaml F.spellcheck-en-custom.txt!markdownlint-cli2.yaml Notice what'snotinthispicture:nochunker,noembeddingmodel,novectorstore,no top-.Theindexisamarkdown outlineof the look. Thisonlyworksbecausetwothingsare alreadytrueabouttheinputdocument: 1.lt'saDocLingDocument-areal tree withsections,paragraphs,tables,and figures,parsedbyDoclingfrom the source PDF. 2.Eachsection alreadyhasa summary attached asmetadata,writtenbyDoclingEnrichingAgent ina one-time enrichmentpass. return answer visited section excluded. 4.ITERATE-go back toSELECT,with the
-> OUTLINE Welluse afixture that alreadyhasboth.lfyou want torun thisonyourownPDF,there'san optional cellafewstepsdown that showsyou
+> RAG actually earns its keep > query_2 = "What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment?"
+> 2. FETCH — Pull the *full text* of that section's
+> subtree from the DoclingDocument.
+> 3. ATTEMPT — LLM tries to answer from the section text.
+> Returns {can_answer: bool, response: str}.
+> can_answer = true can_answer = false
+> return answer 4. ITERATE — go back to SELECT, with the
+> visited section excluded.
+> Notice what's not in this picture: no chunker, no embedding model, no vector store, no top-k. The "index" is a markdown outline of the document with one summary per section, generated once offline. The "retriever" is the LLM itself, reading that outline and choosing where to look.
+> This only works because two things are already true about the input document:
+> 1. It's a DoclingDocument — a real tree with sections, paragraphs, tables, and figures, parsed by Docling from the source PDF.
+> 2. Each section already has a summary attached as metadata, written by DoclingEnrichingAgent in a one-time enrichment pass.
+> We'll use a fixture that already has both. If you want to run this on your own PDF, there's an optional cell a few steps down that shows you
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

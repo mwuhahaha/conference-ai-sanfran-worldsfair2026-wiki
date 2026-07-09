@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> A hatem mellem tS
+> The Future Is
 > Domain-Specific Agents
-> or
-> Nene re | 4
 
 ![[assets/slides/spNAUEgq_A8/slide-002.jpg]]
 
@@ -48,37 +46,34 @@ OCR text:
 
 OCR text:
 
-> Ce UM elastic texas eam termes
-> a
+> We’ll harness intelligence with agents.
 
 ![[assets/slides/spNAUEgq_A8/slide-005.jpg]]
 
 OCR text:
 
 > What is an agent?
-> 
-> X @ipschroeder
+> X @jpschroeder
 
 ![[assets/slides/spNAUEgq_A8/slide-006.jpg]]
 
 OCR text:
 
-> % Claude ®
-> @ oh 7
-> X. @ipschroeder A
+> Claude
+> @jpschroeder
 
 ![[assets/slides/spNAUEgq_A8/slide-007.jpg]]
 
 OCR text:
 
-> But everyone 1s
-> ob NKebberee: asl eras
+> But everyone is
+> building agents
 
 ![[assets/slides/spNAUEgq_A8/slide-008.jpg]]
 
 OCR text:
 
-> Why:
+> Why?
 
 ![[assets/slides/spNAUEgq_A8/slide-009.jpg]]
 
@@ -174,8 +169,7 @@ OCR text:
 OCR text:
 
 > System Prompt
-> Poses aa ;
-> /
+> Model
 
 ![[assets/slides/spNAUEgq_A8/slide-014.jpg]]
 
@@ -184,9 +178,9 @@ OCR text:
 > Messages
 > MCP
 > Skill
-> Context
 > Tools
-> SystemPrompt
+> System Prompt
+> Context
 > Model
 
 ![[assets/slides/spNAUEgq_A8/slide-015.jpg]]
@@ -228,7 +222,7 @@ OCR text:
 > Messages
 > Tools
 > System Prompt
-> $Figma
+> Figma
 > Model
 
 ![[assets/slides/spNAUEgq_A8/slide-018.jpg]]
@@ -272,15 +266,14 @@ OCR text:
 OCR text:
 
 > Domain Specific Agents...
-> ¢ Far more efficient with tokens
+> • Far more efficient with tokens
 
 ![[assets/slides/spNAUEgq_A8/slide-021.jpg]]
 
 OCR text:
 
 > Domain Specific Agents...
-> ¢ Far more efficient with tokens
-> = ky
+> • Far more efficient with tokens
 
 ![[assets/slides/spNAUEgq_A8/slide-022.jpg]]
 

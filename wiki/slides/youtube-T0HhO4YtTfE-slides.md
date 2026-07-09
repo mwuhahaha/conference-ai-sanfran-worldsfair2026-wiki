@@ -21,11 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> @
-> 
-> >
-> 
-> @ Mongons
+> MongoDB
 
 ![[assets/slides/T0HhO4YtTfE/slide-002.jpg]]
 
@@ -49,9 +45,9 @@ OCR text:
 OCR text:
 
 > Specs are the new code
-> Evaluationcriteria
-> Systemdesign
-> Productrequirements
+> Evaluation criteria
+> System design
+> Product requirements
 
 ![[assets/slides/T0HhO4YtTfE/slide-004.jpg]]
 
@@ -72,9 +68,6 @@ OCR text:
 
 OCR text:
 
-> )
-> ane g
-> > mn ;
 > Health insurance claims review
 
 ![[assets/slides/T0HhO4YtTfE/slide-006.jpg]]
@@ -112,28 +105,24 @@ OCR text:
 
 OCR text:
 
-> a
-> Al Agents
-> Tools Memory
-> " ri 8
-> ry. a
-> a ; = %
-> - Se MS 4<so-  est)
-> Sd
-> raat
-> ry
-> A
-> a9 ab)
+> AI Agents
+> Tools
+> Memory
+> Input
+> LLM
+> Action
+> Result
+> END
 
 ![[assets/slides/T0HhO4YtTfE/slide-009.jpg]]
 
 OCR text:
 
-> .
 > Controlled flows?
-> & she etd. > Acton 2
-> a 7 =
-> a! 2 ae Ni) LLA Call 2
+> LLM Call 1
+> LLM Call 2
+> Action 1
+> Action 2
 
 ![[assets/slides/T0HhO4YtTfE/slide-010.jpg]]
 
@@ -227,12 +216,7 @@ OCR text:
 
 OCR text:
 
-> - =
-> na
-> oY é
-> LIN enters) ees BLE
-> —————
-> Ps eee
+> MongoDB
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

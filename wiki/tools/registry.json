@@ -218,7 +218,7 @@
     "evidenceCounts": {
       "schedule": 2,
       "youtube": 1,
-      "slides": 3,
+      "slides": 4,
       "resources": 3,
       "topics": 3,
       "transcripts": 0
@@ -248,7 +248,7 @@
     "evidenceCounts": {
       "schedule": 1,
       "youtube": 0,
-      "slides": 0,
+      "slides": 1,
       "resources": 1,
       "topics": 1,
       "transcripts": 0
@@ -311,7 +311,7 @@
     "evidenceCounts": {
       "schedule": 39,
       "youtube": 9,
-      "slides": 54,
+      "slides": 56,
       "resources": 6,
       "topics": 3,
       "transcripts": 41
@@ -384,8 +384,8 @@
     "evidenceCounts": {
       "schedule": 20,
       "youtube": 3,
-      "slides": 12,
-      "resources": 4,
+      "slides": 13,
+      "resources": 6,
       "topics": 2,
       "transcripts": 26
     }
@@ -573,7 +573,7 @@
     "evidenceCounts": {
       "schedule": 2,
       "youtube": 1,
-      "slides": 5,
+      "slides": 6,
       "resources": 3,
       "topics": 2,
       "transcripts": 1
@@ -643,8 +643,8 @@
     "evidenceCounts": {
       "schedule": 16,
       "youtube": 10,
-      "slides": 20,
-      "resources": 4,
+      "slides": 23,
+      "resources": 5,
       "topics": 1,
       "transcripts": 21
     }
@@ -799,7 +799,7 @@
     "evidenceCounts": {
       "schedule": 4,
       "youtube": 3,
-      "slides": 6,
+      "slides": 7,
       "resources": 3,
       "topics": 1,
       "transcripts": 9
@@ -1042,7 +1042,8 @@
     "sourceLabels": [
       "Official schedule",
       "Public YouTube metadata",
-      "Transcript evidence"
+      "Transcript evidence",
+      "Local slide OCR"
     ],
     "scheduleTracks": [
       "Track M",
@@ -1055,7 +1056,7 @@
     "evidenceCounts": {
       "schedule": 4,
       "youtube": 0,
-      "slides": 0,
+      "slides": 1,
       "resources": 1,
       "topics": 0,
       "transcripts": 1
@@ -1143,7 +1144,7 @@
     "evidenceCounts": {
       "schedule": 41,
       "youtube": 34,
-      "slides": 57,
+      "slides": 62,
       "resources": 80,
       "topics": 12,
       "transcripts": 28
@@ -1687,7 +1688,7 @@
     "evidenceCounts": {
       "schedule": 10,
       "youtube": 0,
-      "slides": 4,
+      "slides": 6,
       "resources": 2,
       "topics": 2,
       "transcripts": 4

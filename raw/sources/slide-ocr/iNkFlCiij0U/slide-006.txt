@@ -1,5 +1,4 @@
-Snorkelm Fore a
+Snorkel The Frontier AI Data Lab
 Propose a benchmark
-benchmarks.snorkelal
-：@vincentsunnchen
-gineer
+benchmarks.snorkel.ai
+@vincentsunchen

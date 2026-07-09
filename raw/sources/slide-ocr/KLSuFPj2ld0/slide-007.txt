@@ -1,4 +1,2 @@
-spt npx tsxindex.ts
-AIE
-AlEnginoer
-Engineering the future of Al
+spt npx tsx index.ts
+Engineering the future of AI

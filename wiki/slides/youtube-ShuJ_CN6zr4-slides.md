@@ -44,26 +44,22 @@ OCR text:
 
 OCR text:
 
-> Cocle Summit
+> Code Summit
 > AIE
 
 ![[assets/slides/ShuJ_CN6zr4/slide-004.jpg]]
 
 OCR text:
 
-> tion toSpecificatlon
-> Code Sum
-> AIE
+> Verification to Specification
+> Timestamp
+> Specification
 
 ![[assets/slides/ShuJ_CN6zr4/slide-005.jpg]]
 
 OCR text:
 
-> |
-> 
-> es
-> 
-> ——
+> AIE
 
 ![[assets/slides/ShuJ_CN6zr4/slide-006.jpg]]
 
@@ -75,14 +71,7 @@ OCR text:
 
 OCR text:
 
-> a
-> i
-> ,
-> Po
-> ” ae
-> e&. aan
-> a a
-> .. :
+> FACTORY
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

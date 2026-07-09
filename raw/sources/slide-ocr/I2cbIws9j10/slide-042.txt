@@ -1,29 +1,25 @@
-AlEngineer
-Perfectanswersandwhattheycost
-World'sFair
-Tokenstogettoaperfect answer
-Percentofrunspassedunderfixed budget
-1.7M
-1.8M
-3runs
+AI Engineer World's Fair
+Perfect answers and what they cost
+Tokens to get to a perfect answer
 1.2M
+2 runs
+Advise
 1.3M
-2runs
-2runs
-2runs
-Advise
+2 runs
 Grade
+1.7M
+2 runs
 Dream
+1.8M
+3 runs
 Execute
+Percent of runs passed under fixed budget
+42%
 Execute
+67%
 Advise
+75%
 Grade
+75%
 Dream
-d'sFair
-AlEn
-iver
-Worle
-Engineering the future of Al
-d's
-d
-HE
+Engineering the future of AI

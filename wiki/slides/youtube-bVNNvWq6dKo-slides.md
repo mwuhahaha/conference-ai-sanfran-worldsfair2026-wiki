@@ -43,9 +43,8 @@ OCR text:
 
 OCR text:
 
-> AGENTSAT
-> WORK
-> AIEngineer
+> AGENTS AT WORK
+> AI Engineer
 > SUMMIT
 
 ![[assets/slides/bVNNvWq6dKo/slide-004.jpg]]
@@ -191,50 +190,50 @@ OCR text:
 
 OCR text:
 
-> LoginForm.tsx
-> layout.tsx
-> nts）LoginFormsx)①LoinForm）
-> ExD
-> Add Docstring
-> 'use client';
-> (useState)
-> function LoginForm（）
-> const [fornData,setFormData]
-> useStatelf
-> email:*,
-> password:..
-> B
-> confirnPassword:
-> Writewith Cascade
-> useState(*`):
-> Kick offanew prject ormake
-> const [error,setError]
-> const handleFullNaneChang
-> React.ChangeEvent<HTMLInputElenent>))
-> const （name,value
-> o.target:
-> Past workflows
-> setFormData（prev=>（（
-> prev,
-> Addasig
-> aneA 1[weu]
-> 9CORSI
-> React.FormEvent)
-> .preventDefault（）;
-> setError(*.):
-> formData.password
-> fornData.confirmPassword)
-> setError('Passwords do not match'):
-> 3a
-> const response
-> fetch('/api/auth/register',
-> method:'POST',
-> headers:(
-> Content-Type':'application/json'
-> body:JsoN.stringify（<
-> email:fornData.email,
+> use client
+> import { useState } from 'react';
+> export default function LoginForm() {
+> const [formData, setFormData] = useState({
+> email: '',
+> password: '',
+> confirmPassword: ''
+> });
+> const [error, setError] = useState('');
+> const handleFullNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+> const { name, value } = e.target;
+> setFormData(prev => ({
+> ...prev,
+> [name]: value
+> }));
+> };
+> const handleSubmit = (e: React.FormEvent) => {
+> e.preventDefault();
+> setError('');
+> if (formData.password!== formData.confirmPassword) {
+> setError('Passwords do not match');
+> return;
+> }
+> const response = await fetch('/api/auth/register', {
+> method: 'POST',
+> headers: {
+> 'Content-Type': 'application/json',
+> },
+> body: JSON.stringify({
+> email: formData.email,
 > password: formData.password,
-> NSERT
+> }),
+> });
+> }
+> }
+> Write with Cascade
+> Kick off a new project or make changes across your entire codebase
+> Past workflows
+> Add a sign up button to the main page
+> Resolve CORS issue
+> Fix my errors in all my pages
+> Install all of my dependencies
+> Continue my work
+> Show 12 more...
 
 ![[assets/slides/bVNNvWq6dKo/slide-010.jpg]]
 
@@ -300,12 +299,16 @@ OCR text:
 
 OCR text:
 
-> UserrunscommandsinTerminal
-> AIE yashmittal@MacBook-Pro-2Testdwbs Problems Output Debug Console Terminal Ports zsh node zsh zsh cat
-> Cascadeisup-to-datewithrecentterminalcommands
-> Ssource-/.bashrc sdwbs p6s sacimg Yourrecent terminal commands: sgd
-> AGENTENGINEERING
-> HTTPS://AI.ENGINEER
+> User runs commands in Terminal
+> Cascade is up-to-date with recent terminal commands
+> Your recent terminal commands:
+> $ source ~/.bashrc
+> $ dwbs
+> $ gd
+> $ gd
+> $ acimg
+> AGENT ENGINEERING
+> https://ai.engineer
 
 ![[assets/slides/bVNNvWq6dKo/slide-012.jpg]]
 
@@ -355,40 +358,37 @@ OCR text:
 OCR text:
 
 > Principle
-> AIE
 > Meta-Learning
-> Thebestagentsdon't just assist-theylearn.
-> Relatedfeatures
-> Windsurfadaptstoyourworkflows.
-> rememberspastinteractions.andevolves
-> .Memories
-> witheveryuse.Fromrecallingpreferred
-> .CustomtoolsviaMCPservers
-> toolstounderstandingproject-specific
-> ·Readingyourfavdocs
-> patterns,itgetssmarterthemoreyouuseit.
-> Whitelist/blacklistcommands
-> AGENTENGINEERING
-> HTTPS://AI.ENGINEER
+> The best agents don't just assist—they learn.
+> Windsurf adapts to your workflows,
+> remembers past interactions, and evolves
+> with every use. From recalling preferred
+> tools to understanding project-specific
+> patterns, it gets smarter the more you use it.
+> Related features
+> • Memories
+> • Custom tools via MCP servers
+> • Reading your fav docs
+> • Whitelist / blacklist commands
 
 ![[assets/slides/bVNNvWq6dKo/slide-015.jpg]]
 
 OCR text:
 
 > Principle
+> 02
 > Meta-Learning
-> The bestagenis dontjust assst-they lean
-> Related festures
-> Windsurfadaptstoyourworkows
-> .Menores
-> IGENTSATWORK
-> rememberspastinteractionsandevoes
-> witheveryuse.Fromrecalling prefed
-> Cuelomxols vaMCPsero
-> tools to understandng project-specilc
-> Redngyourfaedocs
-> pattes.it getssartrthe more youusei
-> Whiis/boodstconmnds
+> The best agents don't just assist-they learn.
+> Windsurf adapts to your workflows,
+> remembers past interactions, and evolves
+> with every use. From recalling preferred
+> tools to understanding project-specific
+> patterns, it gets smarter the more you use it.
+> Related features
+> Memories
+> Custom tools via MCP servers
+> Reading your docs
+> Whisps / basic commands
 
 ![[assets/slides/bVNNvWq6dKo/slide-016.jpg]]
 

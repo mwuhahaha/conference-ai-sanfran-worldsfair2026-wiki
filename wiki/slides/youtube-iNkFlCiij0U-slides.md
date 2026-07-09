@@ -21,9 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Snorkel
 > The Art & Science
-> ofBenchmarking
+> of Benchmarking
 > Agents
 
 ![[assets/slides/iNkFlCiij0U/slide-002.jpg]]
@@ -93,28 +92,24 @@ OCR text:
 
 OCR text:
 
+> THE ART
 > Lasting benchmarks push
-> od the frontier
-> | Al Engineer |
-> EUROPE
-> ; FT
-> Sa
+> the frontier
 
 ![[assets/slides/iNkFlCiij0U/slide-006.jpg]]
 
 OCR text:
 
-> Snorkelm Fore a
+> Snorkel The Frontier AI Data Lab
 > Propose a benchmark
-> benchmarks.snorkelal
-> ：@vincentsunnchen
-> gineer
+> benchmarks.snorkel.ai
+> @vincentsunchen
 
 ![[assets/slides/iNkFlCiij0U/slide-007.jpg]]
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

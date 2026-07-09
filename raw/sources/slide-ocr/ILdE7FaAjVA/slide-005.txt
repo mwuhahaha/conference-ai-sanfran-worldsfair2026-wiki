@@ -1,9 +1,3 @@
-Q
-v2.4.0
-VLLM
 AIE
-2U7
-Finet
-VLLM
-VLLM
+vLLM
 Google DeepMind

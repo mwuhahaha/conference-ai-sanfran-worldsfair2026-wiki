@@ -1,4 +1,3 @@
-AGENTSAT
-WORK
-AIEngineer
+AGENTS AT WORK
+AI Engineer
 SUMMIT

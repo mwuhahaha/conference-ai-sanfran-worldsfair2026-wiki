@@ -1,31 +1,30 @@
 Preview README.md
 Amp
-SeeAmpOwner'sManualformore informationaboutAmp
-Update TODOs
-AIE
-GettingStarted
-三LinearIssues 50issues found
-1.Create server/.env.LocaL withcontentsfrom 1Password.
-iesFou
-d(50)
-macOSbootstrap
-AMP-20
-Done
-1.Install dependencies:
-Add special icon for Line
+Amp is an agentic coding tool, in research preview from Sourcegraph.
+See Amp Owner's Manual for more information about Amp.
+Getting Started
+1. Create server/.env.local with contents from 1Password.
+macOS bootstrap
+1. Install dependencies:
 brew install mise
 brew install postgresql
-OSS-8225
-Backdog
 brew install redis
-Create adefaultcon component forextensior
-s withnoicon
-brewinstallrg
-brew install podnan-desktop
-2.Create podmanmachine with sufficlentresources:
-podman machine init-disk-size 128-memory 16384
-ILservice:
-ces start postaresql
-Microsoft
-smol?
-rid'sFair
+brew install podman
+brew install podman-desktop
+brew install rg
+2. Create podman machine with sufficient resources:
+podman machine init --disk-size 128 --memory 16384
+Amp
+Investigate and implement Linear connector icon
+can you find the linear issue about customizing the linear connector icon? then implement it
+I'll help you find the Linear issue about customizing the Linear connector icon and implement it.
+Update TODOs
+Linear Issues 50 issues found
+Issues Found (50)
+AMP-20 Done
+Add special icon for Linear connector
+OSS-8225 Backlog
+Create a default icon component for extensions with no icon
+TODOS
+- Find linear issue about customizing linear connector icon
+- implement the Linear connector icon customization feature

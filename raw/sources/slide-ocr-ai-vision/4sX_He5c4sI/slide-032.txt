@@ -1,0 +1,18 @@
+AI Engineer World's Fair
+Next-Gen Architecture Foundations
+
+Multimodal Design Reason
+Software architecture is visual and spatial, not just
+textual. Modern multimodal models like Gemini are
+bridging this gap, allowing direct evaluation of visual
+flowcharts and interface layouts against the
+synthesized code.
+
+LLM-Native Target Languages
+Human developers require languages that optimize for
+code readability. For AI models, do we still need
+standard languages, or do we pivot to mathematically
+precise, highly rigorous specification engines like Rust?
+
+Research to Reality with Google DeepMind
+Benoit Schillings / Vice President of Research  Google DeepMind

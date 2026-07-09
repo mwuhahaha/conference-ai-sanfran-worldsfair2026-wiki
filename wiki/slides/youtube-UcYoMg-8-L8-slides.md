@@ -22,28 +22,26 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > Radical Speed Month
-> 30 501 794
-> Days Peopleparticipating Projectsstarted
+> 30
+> Days
+> 501
+> People participating
+> 794
+> Projects started
 
 ![[assets/slides/UcYoMg-8-L8/slide-002.jpg]]
 
 OCR text:
 
-> 0006006000000 -GO000000000
+> AUTOMATTIC
 
 ![[assets/slides/UcYoMg-8-L8/slide-003.jpg]]
 
 OCR text:
 
 > Sanja Grbic
-> Product Designer a |
-> _\ ;
-> te
-> oe
-> [=] mbes 4 [a] 7 in
-> i oe
-> BAe ge ;
-> aii oa
+> Product Designer
+> linkedin.com/in/sanjagrbic/
 
 ![[assets/slides/UcYoMg-8-L8/slide-004.jpg]]
 

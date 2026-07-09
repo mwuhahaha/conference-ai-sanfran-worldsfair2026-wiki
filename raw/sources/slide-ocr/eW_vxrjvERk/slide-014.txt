@@ -1,6 +1,5 @@
-ngmemory
-toolusogeouditsandproven
-AlEngineer
-EUROPE
-AIEngineer
-NROK
+Building memory
+Tool call traces
+1
+Learning from experience
+3

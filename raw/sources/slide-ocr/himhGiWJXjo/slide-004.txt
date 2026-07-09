@@ -1,2 +1,2 @@
 Why is the deal with
-Salesforce ACME stuck in stage 3?
+ACME stuck in stage 3?

@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/P_RI1kCkRbo/slide-002.jpg]]
 
@@ -83,33 +81,26 @@ OCR text:
 
 OCR text:
 
-> |
-> a)
-> = Pa. ee a" a oe a
-> j
-> a , Engineering the future of Al
+> AIE
+> AI Engineer
+> Engineering the future of AI
 
 ![[assets/slides/P_RI1kCkRbo/slide-006.jpg]]
 
 OCR text:
 
 > AIE
-> Engineering the future of Al
-> AlEngineer
+> Engineering the future of AI
+> AIEngineer
 
 ![[assets/slides/P_RI1kCkRbo/slide-007.jpg]]
 
 OCR text:
 
-> Pel
-> ry ry é
-> aco =e
-> bd * x
-> * a *
-> x | =
-> ! - ok | AlEngineer |
-> Sam auto) a
-> ‘e---| &
+> In real life...
+> AIE
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/P_RI1kCkRbo/slide-008.jpg]]
 
@@ -127,10 +118,7 @@ OCR text:
 
 OCR text:
 
-> e y ©
-> 7 ; |
-> nan k = Engineering the future of Al
-> ot
+> Engineering the future of AI
 
 ![[assets/slides/P_RI1kCkRbo/slide-010.jpg]]
 
@@ -197,13 +185,16 @@ OCR text:
 OCR text:
 
 > Moshi Lessons Learned
-> WhatWorksWell Challenges
-> AIE Full-DuplexConversation: Natural,uninterupted Aresearchprototype notarealagent
-> dialogueflow Lackof observability and reliability
-> Real-timeInteraction: Truly conversationalAl,userand Doesnotconveyorunderstand empathy well
-> Alspeak simultaneously
-> Engineering the future of Al
-> AIEngineer LORON
+> What Works Well
+> Full-Duplex Conversation: Natural, uninterrupted
+> dialogue flow
+> Real-time Interaction: Truly conversational AI, user and
+> AI speak simultaneously
+> Challenges
+> A research prototype, not a real agent
+> Lack of observability and reliability
+> Does not convey or understand empathy well
+> Engineering the future of AI
 
 ![[assets/slides/P_RI1kCkRbo/slide-015.jpg]]
 
@@ -249,7 +240,7 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

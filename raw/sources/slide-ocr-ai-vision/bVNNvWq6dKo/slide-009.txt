@@ -1,0 +1,52 @@
+use client
+
+import { useState } from 'react';
+
+export default function LoginForm() {
+  const [formData, setFormData] = useState({
+    email: '',
+    password: '',
+    confirmPassword: ''
+  });
+  const [error, setError] = useState('');
+
+  const handleFullNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setError('');
+
+    if (formData.password !== formData.confirmPassword) {
+      setError('Passwords do not match');
+      return;
+    }
+
+    const response = await fetch('/api/auth/register', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: formData.email,
+        password: formData.password,
+      }),
+    });
+  }
+}
+
+Write with Cascade
+Kick off a new project or make changes across your entire codebase
+
+Past workflows
+Add a sign up button to the main page
+Resolve CORS issue
+Fix my errors in all my pages
+Install all of my dependencies
+Continue my work
+Show 12 more...

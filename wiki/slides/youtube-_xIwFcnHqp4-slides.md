@@ -61,8 +61,9 @@ OCR text:
 OCR text:
 
 > Parts of MCP
-> a
-> aane ie K Engineering the future of Al
+> Hosts
+> Clients
+> Engineering the future of AI
 
 ![[assets/slides/_xIwFcnHqp4/slide-005.jpg]]
 
@@ -190,11 +191,9 @@ OCR text:
 
 OCR text:
 
-> 9Aor424
-> Amain
-> Pofie 556s > 203 s
+> main
 > AIE
-> Engineering the future of Al
+> Engineering the future of AI
 
 ![[assets/slides/_xIwFcnHqp4/slide-012.jpg]]
 

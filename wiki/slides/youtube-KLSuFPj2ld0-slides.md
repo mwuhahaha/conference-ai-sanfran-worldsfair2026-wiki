@@ -146,10 +146,8 @@ OCR text:
 
 OCR text:
 
-> spt npx tsxindex.ts
-> AIE
-> AlEnginoer
-> Engineering the future of Al
+> spt npx tsx index.ts
+> Engineering the future of AI
 
 ![[assets/slides/KLSuFPj2ld0/slide-008.jpg]]
 
@@ -188,9 +186,10 @@ OCR text:
 
 OCR text:
 
-> Machine Payments Protocol stripe
-> AIE
-> 2028 AlEngnor AI Engineer EUROPE
+> Machine Payments Protocol
+> stripe
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/KLSuFPj2ld0/slide-010.jpg]]
 

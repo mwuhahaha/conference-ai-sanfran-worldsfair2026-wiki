@@ -1,8 +1,7 @@
-Contextfromproductioncode
-{Hud Ctv
-10.874/0> 68.9427.50
-AIE Understandcodebehaviorwith functionleveldata B
-erootcauseinthecod.Engneers useths dataintheIDE Hud gathers errors and perlormance dataat the servioe and tunctionlevelconneetsatrunme,the businessmpactand CalCraph
-?
-AlEngineer
-AlEngineer Engineering the future of Al
+Context from production code
+Hud
+Understand code behavior with
+function level data
+Hud gathers errors and performance data at the service and function level. It connects, at runtime, the business impact and the root cause in the code. Engineers use this data in the IDE to understand how their code behaves in reality
+https://www.hud.io/
+Engineering the future of AI

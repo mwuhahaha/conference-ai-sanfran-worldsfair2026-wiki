@@ -1,13 +1,16 @@
-World'sFair AIEngineer Will intelligencebewinner-take-all?
-TokenMarketsharebyModelAuthor
-WS 100% une1.2025 OpenRouter
-34.6%
-22.9%
-shropic 16.7%
-ode %09 meta-llama 14.7% 3.9%
-2.8%
-30% 1.5% 1.3%
-04j 0.7% 0.5%
-0% Jun2,2024 Jut21 Sep8 Oct27 Dec15 Feb 2 Mar 23 May 11 Total ousresearch 100.0% 0.4%
-H'eFair
-World'sFair AIEn Microsoft aws smolo
+Will intelligence be winner-take-all?
+Token Marketshare by Model Author
+June 1, 2025
+OpenRouter
+google 34.6%
+openai 22.9%
+anthropic 16.7%
+deepseek 14.7%
+meta-llama 3.9%
+mistralai 2.8%
+qwen 1.5%
+others 1.3%
+x-ai 0.7%
+microsoft 0.5%
+nousresearch 0.4%
+Total 100.0%

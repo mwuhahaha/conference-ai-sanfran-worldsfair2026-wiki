@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/iUWwcG-C8OU/slide-002.jpg]]
 
@@ -37,15 +35,24 @@ OCR text:
 
 OCR text:
 
-> * tg # * What can we help with today?
-> m | @.---
-> — Engineering the future of Al
+> WorkOS Studio
+> New Space
+> Personal
+> Settings
+> Recent
+> Radar website
+> Calendar Automation
+> Changelog videos
+> Connect Pricing Simulator
+> Hi Garrett,
+> What can we help with today?
+> Engineering the future of AI
 
 ![[assets/slides/iUWwcG-C8OU/slide-004.jpg]]
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

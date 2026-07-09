@@ -21,10 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust
+> WorkOS
+> OpenAI
 
 ![[assets/slides/kR64LOqBBCU/slide-002.jpg]]
 
@@ -44,26 +44,19 @@ OCR text:
 
 OCR text:
 
-> [ii tee
-> LF
-> ll Snorkel
-> aL; a We are the a Y
-> bottleneck rn
-> ee aan
-> =a
-> veer cl
-> cl eetNG THE ORC IN AGENT ORCHESTRATION Al
-> ee ee IDO SALOMON / Creator of AgentCraft & MCP-UI @ MCP-UI
+> We are the bottleneck
+> BUILDING THE ORC IN AGENT ORCHESTRATION
+> IDO SALOMON / Creator of AgentCraft & MCP-UI
+> MCP-UI
+> we just hired our 25 founding engineers
 
 ![[assets/slides/kR64LOqBBCU/slide-004.jpg]]
 
 OCR text:
 
-> eae ate) UR -1 all along
-> -
-> J «4 xkos [
-> Ded
-> [cco AFT: PUTTING THE ORC IN AGENT ORCHESTRA
+> These skills were with us all along
+> RAFT: PUTTING THE ORC IN AGENT ORCHESTRA
+> IDO SALOMON / Creator of AgentCraft & MCP-UI
 
 ![[assets/slides/kR64LOqBBCU/slide-005.jpg]]
 
@@ -231,22 +224,23 @@ OCR text:
 
 OCR text:
 
-> QUESTS(S6) CAMPAIGN TRACES ANALYTICS MEMORY
-> QSCANRECENTCHANGES
-> ANALYZEPROJECT
-> FORTIFICATIO
-> PURIFICATION
-> ENVIRONMENT&APIPAYLOADVALIDATIONWITH
-> THESERVERHASNOSCHDMAVALIDATIONFORENVIRONMENTVARIABLESOR
-> NCOMINGAPIPA
-> ACCEPTQUEST
-> WEBSOCKETEVENTRATELIMITING
-> HTTPAOUTESHAVLEXPRESS-RATE-LIMITBUTWEES
-> RATELIMITING.
-> ORTIFOCATOO
+> QUESTS(6) CAMPAIGN TRACES ANALYTICS MEMORY
+> SCAN RECENT CHANGES
+> ANALYZE PROJECT
+> FORTIFICATION 3
+> PROVING GROUNDS 1
+> RESTORATION 3
+> FORTIFICATION
+> ENVIRONMENT & API PAYLOAD VALIDATION WITH...
+> THE SERVER HAS NO SCHEMA VALIDATION FOR ENVIRONMENT VARIABLES OR
+> INCOMING API PA...
 > ACCEPT QUEST
-> PROVING CROUNDS
-> UNITTESTSFORCORESERVEREXECUTIONPATHS
+> WEBSOCKET EVENT RATE LIMITING
+> HTTP ROUTES HAVE EXPRESS-RATE-LIMIT BUT WEBSOCKET MESSAGES HAVE NO
+> RATE LIMITING.
+> ACCEPT QUEST
+> PROVING GROUNDS
+> UNIT TESTS FOR CORE SERVER EXECUTION PATHS
 
 ![[assets/slides/kR64LOqBBCU/slide-013.jpg]]
 
@@ -332,37 +326,28 @@ OCR text:
 
 OCR text:
 
-> Workos AIEng EURO
-> AIEngineer Vic
-> Braintru EUROPE AIEng EURO We need a higher ceiling
-> AlEnginer BeNC
-> EUR
-> AIEngineer EUROPE CHESTRATION AGENTCRAFT:PUTTINGTHE
-> GoogleDeepMind PRESENTED BY IDOSALOMON/CreatorofAgentCraft&MCP-UI MCP-UI
+> We need a higher ceiling
+> CHESTRATION AGENTCRAFT: PUTTING THE
+> IDO SALOMON / Creator of AgentCraft & MCP-UI
+> MCP-UI
+> AI Engineer Europe
+> Presented by Google DeepMind
 
 ![[assets/slides/kR64LOqBBCU/slide-018.jpg]]
 
 OCR text:
 
-> ThankYou!
-> POM O
-> ne
-> AEng
-> 8Braint
-> tails le
-> AEn
-> IdoSalomon
+> Thank You!
+> Ido Salomon
 > @idosall
 > idosal
-> in
 > ido-salomon
-> AlEngineer
-> AGENTORCHESTRATION
-> AGENTCRAFT:PUT
-> EUROPE
+> AGENT ORCHESTRATION
+> AGENTCRAFT: PUT
+> AI Engineer Europe
 > PRESENTED BY
-> GoogleDeepMind
-> IDOSALOMON/CreatorofAgentCraft&MCP-UI
+> Google DeepMind
+> IDO SALOMON / Creator of AgentCraft & MCP-UI
 > MCP-UI
 
 ## Slide-Derived Subjects To Review

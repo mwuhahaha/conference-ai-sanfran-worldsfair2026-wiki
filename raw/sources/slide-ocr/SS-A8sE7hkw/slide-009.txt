@@ -1,6 +1,5 @@
-Personal&Edge
-AIE databydesign. Personal (NPU/Mobile):Shifting execution to localsunk-cost"hardware tomaintainlocal
-fixed-costreasoningona24GB-80GB footprint. Edge(Desktop/Single-GPU):Establishing
-BatteryPriority:Onmobile,powerutilizationis partofthecostcalculation andisarguably morecritical thanrawtokengenerationcost.
-Engineering the future of Al
-AI
+Personal & Edge
+Personal (NPU/Mobile): Shifting execution to local "sunk-cost" hardware to maintain local data by design.
+Edge (Desktop/Single-GPU): Establishing fixed-cost reasoning on a 24GB-80GB footprint.
+Battery Priority: On mobile, power utilization is part of the cost calculation and is arguably more critical than raw token generation cost.
+Engineering the future of AI

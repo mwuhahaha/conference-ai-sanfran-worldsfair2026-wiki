@@ -48,25 +48,28 @@ OCR text:
 OCR text:
 
 > OpenGov
-> AboutOpenGov
+> About OpenGov
 > Software for
 > more effective,
 > accountable
 > government.
-> Founded over 14years ago,OpenGov builds ERP.budgeting.
-> govemmentandOGAssist nowconnects across allof it.
+> Founded over 14 years ago, OpenGov builds ERP, budgeting,
+> asset management, and permitting software for state and local
+> government and OG Assist now connects across all of it.
 
 ![[assets/slides/4uFVSLgD2Q4/slide-004.jpg]]
 
 OCR text:
 
 > OpenGov
-> OpenOovTuritying Cloud City.USA About OpenGov Software for
-> Workspace more effective,
-> 0 $69 TetalAm O accountable
+> About OpenGov
+> Software for
+> more effective,
+> accountable
 > government.
-> Yourbilingbreakdownawaits! Founded over14years ago.OpenGovbuildsERP,budgeting.
-> govemmentandOGAssist now connects across allof it.
+> Founded over 14 years ago, OpenGov builds ERP, budgeting,
+> asset management, and permitting software for state and local
+> government and OG Assist now connects across all of it.
 
 ![[assets/slides/4uFVSLgD2Q4/slide-005.jpg]]
 
@@ -95,10 +98,8 @@ OCR text:
 OCR text:
 
 > OpenGov
-> 
-> =
-> 
-> 3 Effect .
+> 🤝
+> Effect
 
 ![[assets/slides/4uFVSLgD2Q4/slide-007.jpg]]
 
@@ -148,26 +149,25 @@ OCR text:
 
 OCR text:
 
-> OG Assist =: OpenGov7
-> Pease croote a POF seth besuttul wt to
-> Qreet the tos of the AlEngneer
-> Corterence 2076 Prease atiow me to
-> downriosd to share mith them
-> eouarny « Sandboxing
+> OG Assist
+> Please create a PDF with beautiful art to
+> greet the folks of the AI Engineer
+> Conference 2026. Please allow me to
+> download it to share with them.
+> Used 4 tools
 > Done
-> -edlteenerGnkcwoeRifeina Room to act
-> and made it avanable for dannioad pinches orginal Al 5
-> Agr ed Gener ative artwork and a navn greoting message
-> for conterence alterdees f |
+> I created the AI Engineer Conference 2026 Greeting PDF
+> and made it available for download. It includes original AI-
+> inspired generative artwork and a warm greeting message
+> for conference attendees.
+> AI Engineer Conference 2026 Greeting PDF
+> 64 KB
+> Download
+> Sandboxing
+> Room to act,
 > safely.
-> Ry As Lgeeet Conference 20.0) Greeting FOF
-> ‘ asa
-> @ haerenet
-> tout gs
-> Code runs in isolated sandboxes. so agents can take real action
+> Code runs in isolated sandboxes, so agents can take real action
 > without putting production systems or customer data at risk.
-> . en tos '
-> a .
 
 ![[assets/slides/4uFVSLgD2Q4/slide-009.jpg]]
 

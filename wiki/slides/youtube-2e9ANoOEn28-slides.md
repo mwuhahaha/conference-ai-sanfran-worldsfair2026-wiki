@@ -21,11 +21,11 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Aboutme
-> ·StaffengineeratEtsy
-> ·AlsoEtsy'sICInitiativeLead forAgenticCommerce
-> ·Wrote GrokkingAlgorithms,anillustrated book on algorithms
-> ·Blogatducktyped.org
+> About me
+> • Staff engineer at Etsy
+> • Also Etsy's IC Initiative Lead for Agentic Commerce
+> • Wrote Grokking Algorithms, an illustrated book on algorithms
+> • Blog at ducktyped.org
 > Aditya Bhargava What if the harness mattered more than the model?
 
 ![[assets/slides/2e9ANoOEn28/slide-002.jpg]]

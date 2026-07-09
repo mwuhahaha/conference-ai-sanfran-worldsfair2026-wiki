@@ -1,0 +1,48 @@
+Similar Architecture, Different Training
+GPT Assistant training pipeline
+Stage  Pretraining  Supervised Finetuning  Reward Modeling  Reinforcement Learning
+Dataset
+Raw internet
+billions of words
+low quality, large quantity
+Demonstrations
+Ideal Assistant responses
+~10-100K prompt, response
+written by contractors
+low quantity, high quality
+Comparisons
+100K-1M comparisons
+written by contractors
+low quantity, high quality
+Prompts
+10K-100K prompts
+written by contractors
+low quantity, high quality
+Algorithm
+Language modeling
+predict the next token
+Language modeling
+predict the next token
+Binary classification
+predict rewards consistent w preferences
+Reinforcement Learning
+generate tokens that maximize the reward
+Model
+GPT-3
+Base model
+SFT model
+RM model
+RL model
+Notes
+1000s of GPUs
+months of training
+e.g. GPT, LLaMA, PaLM
+can deploy this model
+1-100 GPUs
+days of training
+e.g. Vicuna-13B
+can deploy this model
+1-100 GPUs
+days of training
+e.g. ChatGPT, Claude
+can deploy this model

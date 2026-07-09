@@ -1,0 +1,3 @@
+spt npx tsx index.ts
+
+Engineering the future of AI

@@ -1,8 +1,18 @@
 The Evolution of the AI Engineer (old)
-AIE Data/Research corstrainel API Prooluet/user constrnined
-M.Researcher/ MLErg AIEngineer Fullstack Engineer
-data
-modesandResoanchEngineers go rg to bulld etopAPl toolThs dagramha aiso beer griticized for the plecement ofevas and dita we certanly gree evals mortant e APl linespermeale-A/Engeenscan goleft tofinetunehost
-akspretrainscale data and general benchmar esalt: out A Engineers should certainly viewproduct-speohicdstaand ealsas theirob
-AGENTENGINEERING
+Data/Research constrained API Product/User constrained
+ML Researcher /
+Research Scientist
+ML Engineer /
+Data Scientist /
+Research Engineer
+AI Engineer Fullstack Engineer
+- training
+- evals
+- inference
+- data
+- chains/agents
+- tooling / infra
+- product
+- platform
+AGENT ENGINEERING
 HTTPS://AI.ENGINEER

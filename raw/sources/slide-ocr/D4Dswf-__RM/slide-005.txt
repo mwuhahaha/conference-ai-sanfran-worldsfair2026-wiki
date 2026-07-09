@@ -1,4 +1,3 @@
 AIE
-AlAgent
+AI Agent
 aws
-Word'sFair

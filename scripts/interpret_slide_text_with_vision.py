@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import concurrent.futures
 import json
 import os
 import re
@@ -26,6 +27,7 @@ AI_VISION_AUDIT = ROOT / "raw" / "sources" / "slide-ocr-ai-vision-audit.json"
 AI_VISION_PAGE = ROOT / "wiki" / "resources" / "slide-ocr-ai-vision-audit.md"
 
 JSON_RE = re.compile(r"\{.*\}", re.S)
+DEFAULT_CODEX_VISION_MODEL = "gpt-5.4-mini"
 
 
 PROMPT = """Read the visible text on this conference slide or video frame.
@@ -187,6 +189,11 @@ def current_ocr(slide: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore").strip() if path.exists() else ""
 
 
+def existing_vision_text(slide: Path) -> str:
+    path = text_path(AI_VISION_OCR, slide)
+    return path.read_text(encoding="utf-8", errors="ignore").strip() if path.exists() else ""
+
+
 def candidate_slides(args: argparse.Namespace) -> list[Path]:
     if args.video_id or args.slide:
         slides = []
@@ -215,6 +222,36 @@ def interpret(provider: str, image: Path, ocr_text: str, args: argparse.Namespac
     raise RuntimeError(f"Unsupported provider: {provider}")
 
 
+def process_slide(provider: str, slide: Path, args: argparse.Namespace) -> dict:
+    ocr_text = current_ocr(slide)
+    record = {"image": str(slide.relative_to(ROOT)), "oldPreview": ocr_text[:220]}
+    if args.skip_existing:
+        existing = existing_vision_text(slide)
+        if existing:
+            record.update(
+                {
+                    "text": existing,
+                    "confidence": 1.0,
+                    "notes": "existing AI vision text reused",
+                    "skippedExisting": True,
+                    "written": str(text_path(AI_VISION_OCR, slide).relative_to(ROOT)),
+                }
+            )
+            return record
+    try:
+        result = interpret(provider, slide, ocr_text, args)
+    except Exception as exc:
+        record["error"] = repr(exc)
+        return record
+    record["attempted"] = True
+    record.update(result)
+    if result["text"] and result["confidence"] >= args.min_confidence:
+        out = text_path(AI_VISION_OCR, slide)
+        write_text(out, result["text"])
+        record["written"] = str(out.relative_to(ROOT))
+    return record
+
+
 def write_audit_page(audit: dict) -> None:
     lines = [
         "---",
@@ -227,15 +264,18 @@ def write_audit_page(audit: dict) -> None:
         "",
         "## Latest Run",
         f"- Provider: {audit.get('provider') or 'none available'}",
+        f"- Model: {audit.get('model') or 'default'}",
         f"- Slides queued: {audit.get('slidesQueued', 0):,}",
         f"- Slides attempted: {audit.get('slidesAttempted', 0):,}",
+        f"- Existing AI vision files reused: {audit.get('slidesSkippedExisting', 0):,}",
         f"- AI vision text files written: {audit.get('visionFilesWritten', 0):,}",
+        f"- AI vision text files available: {audit.get('visionFilesAvailable', audit.get('visionFilesWritten', 0)):,}",
         f"- Minimum confidence: {audit.get('minConfidence')}",
         "- Output directory: `raw/sources/slide-ocr-ai-vision/`",
         "",
         "## Notes",
         "- This step is intentionally after OCR. OCR creates candidates and identifies weak frames; vision interpretation reads the actual image only for low-confidence cases.",
-        "- Free local vision is preferred through Ollama when available. Codex CLI can be used through its existing login without reading `OPENAI_API_KEY`. OpenAI Responses API is used only when `OPENAI_API_KEY` is set and the provider is selected or auto-detected.",
+        "- Free local vision is preferred through Ollama when available. Codex CLI uses `gpt-5.4-mini` by default through its existing login without reading `OPENAI_API_KEY`. OpenAI Responses API is used only when `OPENAI_API_KEY` is set and the provider is selected or auto-detected.",
         "- Generated text is merged by `scripts/improve_slide_ocr_rapidmerge.py` as `ai-vision`, below operator-verified text but above raw OCR.",
     ]
     write_text(AI_VISION_PAGE, "\n".join(lines))
@@ -245,10 +285,13 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--provider", choices=["auto", "ollama", "codex-cli", "openai"], default="auto")
     parser.add_argument("--ollama-model", default=os.environ.get("OLLAMA_VISION_MODEL", "llava:latest"))
-    parser.add_argument("--codex-model", default=os.environ.get("CODEX_VISION_MODEL", ""))
+    parser.add_argument("--codex-model", default=os.environ.get("CODEX_VISION_MODEL", DEFAULT_CODEX_VISION_MODEL))
     parser.add_argument("--openai-model", default=os.environ.get("OPENAI_VISION_MODEL", "gpt-5.5"))
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--min-confidence", type=float, default=0.72)
+    parser.add_argument("--jobs", type=int, default=int(os.environ.get("CODEX_VISION_JOBS", "1")), help="Parallel slide reads. Keep low for Codex CLI provider.")
+    parser.add_argument("--no-skip-existing", dest="skip_existing", action="store_false", help="Reread slides even when AI vision text already exists.")
+    parser.set_defaults(skip_existing=True)
     parser.add_argument("--video-id", action="append", default=[])
     parser.add_argument("--slide", action="append", default=[], help="Slide image filename such as slide-001.jpg. Repeatable.")
     parser.add_argument("--ignore-rapidmerge-audit", action="store_true")
@@ -265,10 +308,19 @@ def main() -> int:
         "startedAtEpoch": time.time(),
         "provider": provider,
         "requestedProvider": args.provider,
+        "model": {
+            "ollama": args.ollama_model,
+            "codex-cli": args.codex_model,
+            "openai": args.openai_model,
+        }.get(provider or ""),
         "slidesQueued": len(slides),
         "slidesAttempted": 0,
+        "slidesSkippedExisting": 0,
         "visionFilesWritten": 0,
+        "visionFilesAvailable": 0,
         "minConfidence": args.min_confidence,
+        "jobs": max(1, args.jobs),
+        "skipExisting": args.skip_existing,
         "records": [],
     }
     if not provider or args.dry_run:
@@ -278,22 +330,21 @@ def main() -> int:
         print(json.dumps({k: audit[k] for k in ["provider", "slidesQueued", "slidesAttempted", "visionFilesWritten"]}, sort_keys=True))
         return 0
 
-    for slide in slides:
-        ocr_text = current_ocr(slide)
-        record = {"image": str(slide.relative_to(ROOT)), "oldPreview": ocr_text[:220]}
-        try:
-            result = interpret(provider, slide, ocr_text, args)
-        except Exception as exc:
-            record["error"] = repr(exc)
-            audit["records"].append(record)
-            continue
-        audit["slidesAttempted"] += 1
-        record.update(result)
-        if result["text"] and result["confidence"] >= args.min_confidence:
-            out = text_path(AI_VISION_OCR, slide)
-            write_text(out, result["text"])
-            record["written"] = str(out.relative_to(ROOT))
+    if args.jobs <= 1:
+        records = [process_slide(provider, slide, args) for slide in slides]
+    else:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as executor:
+            records = list(executor.map(lambda slide: process_slide(provider, slide, args), slides))
+
+    for record in records:
+        if record.get("attempted"):
+            audit["slidesAttempted"] += 1
+        if record.get("skippedExisting"):
+            audit["slidesSkippedExisting"] += 1
+        if record.get("written") and not record.get("skippedExisting"):
             audit["visionFilesWritten"] += 1
+        if record.get("written"):
+            audit["visionFilesAvailable"] += 1
         audit["records"].append(record)
 
     audit["finishedAtEpoch"] = time.time()

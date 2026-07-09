@@ -1,0 +1,29 @@
+INDUSTRY EVIDENCE
+Teams Are Hitting the Same Tool-Scaling Wall
+Real evidence from practitioners, engineers, and Anthropic itself, not simulated benchmarks.
+
+150K → 2K
+Anthropic Engineering Blog
+Loading only the tools needed for the current task drops usage from 150,000 to 2,000 with 98.7% cut.
+Official Anthropic finding
+
+20+
+tools breaks it
+Vercel AI SDK - Issue #11920
+"Sending all tool definitions every request degrades performance, confuses tool choice, and raises tokens + latency."
+Real practitioner issue - Jan 2026
+
+98%
+token reduction
+MCP-Zero (xfey/MCP-Zero)
+Tested on 308 MCP servers and 2,797 tools.
+Selects accurately from ~3K candidates while cutting tokens 98%.
+Open source, code available now
+
+> 2
+tools → stuck loop
+n8n Community Forum
+"Add more than two tools and the AI gets stuck in a loop, burning through all max iterations." Hit in production.
+Production failure - Aug 2024
+
+15

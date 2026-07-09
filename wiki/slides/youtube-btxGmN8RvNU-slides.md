@@ -21,12 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> YourAgent's Biggest Le
-> "ISEARCHED
+> bright data
+> Your Agent's Biggest Lie:
+> "I SEARCHED
 > THE WEB"
-> Kerp
-> AlEngineer
-> EUROPE
 
 ![[assets/slides/btxGmN8RvNU/slide-002.jpg]]
 
@@ -96,17 +94,13 @@ OCR text:
 
 OCR text:
 
-> ; 7 ra
-> NT CrYS
-> Car
-> x * * oes ; .
-> * *
-> * ad
-> * ae 4
-> eaerantee tenance
-> é r ee 2 é .
-> : | AlEngineer |
-> - : EUROPE
+> Bright Data
+> The world's #1 web data platform
+> Why Bright Data?
+> Our Core Ecosystem
+> Bright Data's MCP server
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/btxGmN8RvNU/slide-006.jpg]]
 
@@ -130,10 +124,8 @@ OCR text:
 
 OCR text:
 
-> Youve gone lncognito
-> wooig.0oc bo
+> You've gone incognito
 > AIE
-> etsnd:
 > Google DeepMind
 
 ![[assets/slides/btxGmN8RvNU/slide-008.jpg]]
@@ -157,7 +149,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

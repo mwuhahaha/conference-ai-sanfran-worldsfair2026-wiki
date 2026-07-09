@@ -1,6 +1,12 @@
-.Mixedbread AlEngineer
-billionairesnotatcompanythenok thankyoustaffwill checkhearing "Senatorwomanquestions
-（）ogeaoxaaseqooopazdoase
-Retrv rning andevals ineritweb-serchquery distributions
-Benchmark biasc: BER / nanoBEIR use caveman-style, entity-dense qutries that structurally favor BM25.
-anddocuments. The agent guesses keywords to increase the overlap betweenquery
+Mixedbread
+AI Engineer
+"Senator woman questions
+billionaires not at company then ok
+thank you staff will check hearing"
+• Coding agents are optimized for codebase exploration (grep).
+• Retrieval training and evals inherit web-search query distributions
+• Benchmark bias: BEIR / nanoBEIR use “caveman-style”, entity-dense queries
+that structurally favor BM25.
+The agent guesses keywords to increase the overlap between query
+and documents.
+How we thought agents to use good retrieval • Mixedbread

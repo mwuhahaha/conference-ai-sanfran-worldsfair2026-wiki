@@ -21,18 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> iN |
-> i
-> yg
-> _ &£&s
-> x f j
-> ra! Le an
-> Soe oe re . |
-> ac ge 4 ‘i y
-> | AlEngineer:_
-> - : nn OE I
-> eee
-> oe | ay) was
+> Introducing
+> Runpod
 
 ![[assets/slides/zDGHt0LB-dA/slide-002.jpg]]
 
@@ -73,60 +63,49 @@ OCR text:
 OCR text:
 
 > Overview
-> AIE
+> Build autonomous AI apps using local code with Runpod Flash.
 > Get started
-> Engineering the future of Al
-> AIEngineer
+> Engineering the future of AI
 
 ![[assets/slides/zDGHt0LB-dA/slide-006.jpg]]
 
 OCR text:
 
 > AIE
-> Engineering the future of Al
-> AlEngineer EUROPL
+> Engineering the future of AI
+> AI Engineer EUROPE
 
 ![[assets/slides/zDGHt0LB-dA/slide-007.jpg]]
 
 OCR text:
 
 > AIE
-> Engineering the future of Al
-> AlEngineer EUROPL
+> Engineering the future of AI
 
 ![[assets/slides/zDGHt0LB-dA/slide-008.jpg]]
 
 OCR text:
 
 > AIE
-> Engineering the future of Al
-> AlEngineer EUROPL
+> Engineering the future of AI
+> AI Engineer EUROPE
 
 ![[assets/slides/zDGHt0LB-dA/slide-009.jpg]]
 
 OCR text:
 
-> ce at lo
-> 
-> aol 7 \¢ cme ;
-> Pa Py ‘re . :
-> Ps * , : en i {
-> i rn x v4 D ;
-> 
-> ky a 7 5 .
-> 
-> ; wk p
-> 
-> an in __ Al Engineer
-> ———————— | EUROPE
-> 
-> ODOR bo | i ST
+> two men with glasses walking in London on a cloudy day, close up of their faces
+> Generated Composed
+> Covent Garden, London — generated
+> Covent Garden, London — composed
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/zDGHt0LB-dA/slide-010.jpg]]
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

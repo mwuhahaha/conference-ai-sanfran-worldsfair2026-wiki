@@ -106,13 +106,16 @@ OCR text:
 
 OCR text:
 
+> AIE
 > OpenTelemetry - primitives
 > Traces
-> AIE POST/api/checkout
-> getcarto caleulateFraudlScore() performCheckout() renderJson)
-> dlb-select cart... db-upclate cart...
-> Microsot World'sFai
-> Microsoft aws smol?
+> POST /api/checkout
+> getCart()
+> calculateFraudScore()
+> performCheckout()
+> renderJson()
+> db - select cart...
+> db - update cart...
 
 ![[assets/slides/Lcqat4iP_lE/slide-009.jpg]]
 

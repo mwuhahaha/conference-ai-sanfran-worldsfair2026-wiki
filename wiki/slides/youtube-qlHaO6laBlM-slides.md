@@ -51,14 +51,8 @@ OCR text:
 
 OCR text:
 
-> Pea Ny
-> Peel
-> "ote
-> ; F [a] Fy
-> a ») rad ; ?
-> 7, nN / , i
-> a : <
-> ee
+> Thank Yo
+> Will Tan
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

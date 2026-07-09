@@ -460,14 +460,14 @@ OCR text:
 
 OCR text:
 
-> Arrakis:AQuickTourOf LinuxSandboxing
+> Arrakis: A Quick Tour Of Linux Sandboxing
 > Linux Execution Model
-> Containers:Why?AndWhat?
-> Containers:Security Story
-> Containers:Sandboxing
-> Containers-Virtualization
-> LinuxVirtualization
-> MicroVMsvsTraditionalVMs
+> Containers: Why? And What?
+> Containers: Security Story
+> Containers: Sandboxing
+> Containers → Virtualization
+> Linux Virtualization
+> MicroVMs vs Traditional VMs
 
 ![[assets/slides/wsFd22SL1s8/slide-024.jpg]]
 

@@ -1,13 +1,1 @@
-Text diffusion can do
-
-Pane a
-* bd
-rm fs
-5g *
-
-bd * bd
-
-ined
-| gate, a
-| Al Engineer |
-Vela
+Text diffusion can do fast in-place editing

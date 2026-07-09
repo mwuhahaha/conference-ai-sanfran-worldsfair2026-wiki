@@ -21,9 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> INNOVATIONSPONSOR
+> INNOVATION SPONSOR
 > aws
-> PLATINUMSPONSORS
+> PLATINUM SPONSORS
 > MongoDB.
 > Google Cloud
 > neo4j
@@ -42,8 +42,8 @@ OCR text:
 
 OCR text:
 
-> 01Al Outlook
-> 02 GPT-40
+> 01 AI Outlook
+> 02 GPT-4o
 > 03 What's Next
 
 ![[assets/slides/yJHw33cVeHo/slide-004.jpg]]
@@ -255,11 +255,12 @@ OCR text:
 
 OCR text:
 
+> AIE
 > Our investment areas
-> ay ar
+> Textual
 > intelligence
-> | | BE Microsoft Qo?
-> 7 ial.
+> Microsoft
+> smol.ai
 
 ![[assets/slides/yJHw33cVeHo/slide-019.jpg]]
 
@@ -292,11 +293,11 @@ OCR text:
 
 OCR text:
 
-> Ourinvestmentareas
+> Our investment areas
 > Textual
-> Cheaper and
 > intelligence
-> fastermodels
+> Cheaper and
+> faster models
 
 ![[assets/slides/yJHw33cVeHo/slide-021.jpg]]
 
@@ -313,12 +314,10 @@ OCR text:
 
 OCR text:
 
-> Ourinvestmentareas
-> Textual
-> Cheaper and
-> intelligence
-> faster models
-> Custommodels
+> Our investment areas
+> Textual intelligence
+> Cheaper and faster models
+> Custom models
 
 ![[assets/slides/yJHw33cVeHo/slide-023.jpg]]
 
@@ -342,12 +341,14 @@ OCR text:
 
 OCR text:
 
-> Co-worke ; . Oren
-> id } agents id ») .
-> Xa) a)
-> Docs ‘ a (os,
-> ce) CodeRepo + ey i Email
-> Multimodal Al Al Agents
+> Co-worker agents
+> Docs
+> Code Repo
+> Calendar
+> CRM
+> Email
+> Multimodal AI
+> AI Agents
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

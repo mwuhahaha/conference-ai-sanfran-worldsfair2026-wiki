@@ -22,9 +22,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > The Log Is the Agent
-> Ishaan Sehgal - CEO, Omnara (YC $25) ,
-> ~ | |
-> rc | ae
+> Ishaan Sehgal · CEO, Omnara (YC S25)
 
 ![[assets/slides/UPwGaM2MKHY/slide-002.jpg]]
 
@@ -45,32 +43,23 @@ OCR text:
 
 OCR text:
 
-> Your character is the save file. -”
-> , e « A
-> oy yD
-> ; ; ~~ . i
-> le! .
-> 2
-> : 1
+> Your character is the save file.
 
 ![[assets/slides/UPwGaM2MKHY/slide-004.jpg]]
 
 OCR text:
 
-> —— a
-> , a .
-> Compaction is not the log j
-> = 7 , ; a
+> Compaction is not the log
 
 ![[assets/slides/UPwGaM2MKHY/slide-005.jpg]]
 
 OCR text:
 
-> i cae
-> =
-> 
-> Migration / Model Portability e
-> XK claude — Gort — fy awen (
+> Migration / Model Portability
+> Claude
+> GPT
+> Qwen
+> Different models, same agent
 
 ![[assets/slides/UPwGaM2MKHY/slide-006.jpg]]
 

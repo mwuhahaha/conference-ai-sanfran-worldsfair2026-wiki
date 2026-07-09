@@ -21,17 +21,14 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Pruna Al
-> What Al Model is Slolll Art?
-> Setmnt Chargenbor
+> Pruna AI
 
 ![[assets/slides/hqHC6Z_lXyo/slide-002.jpg]]
 
 OCR text:
 
-> What Model is ts
+> What Model is State-of-the-Art?
 > Google DeepMind
-> | wef,
 
 ![[assets/slides/hqHC6Z_lXyo/slide-003.jpg]]
 
@@ -170,46 +167,29 @@ OCR text:
 
 OCR text:
 
-> HowToReachSOTAPerformance?
-> Option 1:Use optimized Performance models
-> AIE
+> How To Reach SOTA Performance?
+> Option 1: Use optimized Performance models
 > Video Endpoints
 > Image Endpoints
-> TextEndpoints
-> s
-> leplicote
-> aws
-> Runwar
-> Segmind
-> WIRO
-> Engineering the future of Al
+> Text Endpoints
+> Audio Endpoints
+> Engineering the future of AI
 
 ![[assets/slides/hqHC6Z_lXyo/slide-012.jpg]]
 
 OCR text:
 
-> HowToReachSOTAPerformance?
-> Option 1:Use optimized Performance models
-> AIE
+> How To Reach SOTA Performance?
+> Option 1: Use optimized Performance models
 > Video Endpoints
 > Image Endpoints
-> TextEndpoints
-> s
-> eplicate
-> aws
-> Runware
-> Segmind
-> qeley
-> WIRO
-> Option 2:Develop and apply inference optimization
-> PrunoAl
-> AI EfficiencyPackage
-> Al EfficiencyMaterials
-> Al Efficiency Courses
-> mesllibub.comPrunaAllcza
-> nollaihub.comPnnaAicon
-> AIEngineer
-> rinanr
+> Text Endpoints
+> Audio Endpoints
+> Option 2: Develop and apply inference optimization
+> AI Efficiency Package
+> AI Efficiency Materials
+> AI Efficiency Courses
+> AI Engineer
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

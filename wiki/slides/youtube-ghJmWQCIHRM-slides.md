@@ -77,13 +77,9 @@ OCR text:
 
 OCR text:
 
-> Pane a
-> * *
-> aa
-> yt Meee
-> Web Mode! Context Protocol
-> | AlEngineer |
-> . EUROPE
+> WebMCP
+> Web Model Context Protocol
+> Google
 
 ![[assets/slides/ghJmWQCIHRM/slide-005.jpg]]
 

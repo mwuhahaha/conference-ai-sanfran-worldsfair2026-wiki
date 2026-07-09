@@ -43,7 +43,7 @@ Tool pages distinguish confirmed mentions from inferred relevance and cite the s
 - [[manus]] — Manus (Public YouTube metadata, Local slide OCR)
 - [[mcp-apps]] — MCP Apps (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[mcpc]] — mcpc (Official schedule)
-- [[microsoft-iq]] — Microsoft IQ (Official schedule, Public YouTube metadata, Transcript evidence)
+- [[microsoft-iq]] — Microsoft IQ (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[modal]] — Modal (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[mcp]] — Model Context Protocol (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[neo4j]] — Neo4j (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)

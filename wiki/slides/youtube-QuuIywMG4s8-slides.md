@@ -21,8 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Evals Are Broken,Use Tneni Anyway
-> AlEngine
+> Evals Are Broken, Use Them Anyway
 
 ![[assets/slides/QuuIywMG4s8/slide-002.jpg]]
 
@@ -97,12 +96,7 @@ OCR text:
 
 OCR text:
 
-> ra eee
-> es i g* “- =
-> PA a + 4
-> rt1's ais ¥
-> mee
-> Was
+> Engineering the future of AI
 
 ![[assets/slides/QuuIywMG4s8/slide-008.jpg]]
 

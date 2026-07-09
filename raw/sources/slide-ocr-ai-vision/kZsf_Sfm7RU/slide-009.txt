@@ -1,0 +1,7 @@
+LOG-MONITOR — SLACK
+
+Our bug — it opens a PR and tells me
+
+Outside billing issue — just a heads-up, no PR
+
+It alerts only when it matters — and knows the difference.

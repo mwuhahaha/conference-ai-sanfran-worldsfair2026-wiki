@@ -53,32 +53,15 @@ OCR text:
 
 OCR text:
 
-> J
-> Pond r ry
-> * 4
-> marca
-> bd *
-> 5d ve *
-> Cd e
-> i
-> |
-> |
-> | Al Engineer |
-> i eer EUROPE
-> ig ml
+> Round 1
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/grdoOC1BT1s/slide-004.jpg]]
 
 OCR text:
 
-> and ne au ee .
-> toe as a & , ae ,
-> a * oe
-> ;
-> a De aa
-> 7
-> Engineering the future of Al
-> in|
+> Engineering the future of AI
 
 ![[assets/slides/grdoOC1BT1s/slide-005.jpg]]
 

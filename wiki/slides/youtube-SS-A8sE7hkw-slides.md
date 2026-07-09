@@ -23,9 +23,9 @@ OCR text:
 
 > Sovereign
 > Escape
-> AIOwnership with
+> Velocity
+> AI Ownership with
 > Open Models
-> AlEngi
 
 ![[assets/slides/SS-A8sE7hkw/slide-002.jpg]]
 
@@ -47,20 +47,16 @@ OCR text:
 
 OCR text:
 
-> AIE Gemma4
-> Braintrust Workos OpenAl
-> AIE
+> Gemma 4
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/SS-A8sE7hkw/slide-004.jpg]]
 
 OCR text:
 
-> bd *
-> naa
-> bd ad
-> * * *
-> | AlEngineer |
-> sel tela
+> Gemma 4
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/SS-A8sE7hkw/slide-005.jpg]]
 
@@ -83,10 +79,10 @@ OCR text:
 OCR text:
 
 > ai.dev
-> Explore Googlemodels
+> Explore Google models
 > AIE
-> AlEngineer
-> AIEngi EUROPE
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/SS-A8sE7hkw/slide-007.jpg]]
 
@@ -124,24 +120,19 @@ OCR text:
 
 OCR text:
 
-> Personal&Edge
-> AIE databydesign. Personal (NPU/Mobile):Shifting execution to localsunk-cost"hardware tomaintainlocal
-> fixed-costreasoningona24GB-80GB footprint. Edge(Desktop/Single-GPU):Establishing
-> BatteryPriority:Onmobile,powerutilizationis partofthecostcalculation andisarguably morecritical thanrawtokengenerationcost.
-> Engineering the future of Al
-> AI
+> Personal & Edge
+> Personal (NPU/Mobile): Shifting execution to local "sunk-cost" hardware to maintain local data by design.
+> Edge (Desktop/Single-GPU): Establishing fixed-cost reasoning on a 24GB-80GB footprint.
+> Battery Priority: On mobile, power utilization is part of the cost calculation and is arguably more critical than raw token generation cost.
+> Engineering the future of AI
 
 ![[assets/slides/SS-A8sE7hkw/slide-010.jpg]]
 
 OCR text:
 
-> bd * a
-> * J oo a
-> a) Doe
-> an von me : eee
-> —_ Ur eee gee ~
-> | | AlEngineer |
-> Sele) a3
+> AIE
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/SS-A8sE7hkw/slide-011.jpg]]
 
@@ -168,7 +159,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

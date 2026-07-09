@@ -1,8 +1,18 @@
-World'sFair AlEngineer The implementation is fully learned.
-THE MODELWRITES
-YOU WRITE extract=dspy.Flex（ExtractTaxes,tools=...) class TaxExtractor(dspy.Module): def_init_（self): self.parse=dspy.Predict(...) self.check-dspy.ReAct（ Validate,tools=[...])
-defforward（self,invoice): linesself.parse(invoice) return self.check(lines) lines=dedupe(lines)
-rd'sFai AtEngioee
-rowse Worlc AIEe
-TheUnreasonableEffectivenessofSeparatingtheTaskfromtheModel
-MaximeRivest Core Contributor Lead Maintainer IsaacMiller DSPy
+AI Engineer World’s Fair
+The implementation is fully learned.
+YOU WRITE
+extract = dspy.Flex(ExtractTaxes, tools=...)
+THE MODEL WRITES
+class TaxExtractor(dspy.Module):
+def __init__(self):
+self.parse = dspy.Predict(...)
+self.check = dspy.ReAct(
+Validate, tools=[...])
+def forward(self, invoice):
+lines = self.parse(invoice)
+lines = dedupe(lines)
+return self.check(lines)
+The Unreasonable Effectiveness of Separating the Task from the Model
+Maxime Rivest | Isaac Miller
+Core Contributor | Lead Maintainer
+DSPy

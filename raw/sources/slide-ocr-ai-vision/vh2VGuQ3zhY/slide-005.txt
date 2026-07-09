@@ -1,0 +1,26 @@
+THE TECHNIQUE
+Just-In-Time Context Injection
+
+Static Loading
+• All 100+ schemas pre-loaded in the prompt
+• Every request carries the full payload
+• Most tokens wasted on irrelevant tools
+• Context window consumed by schemas
+• Less space for reasoning and output
+• Accuracy degrades as the list grows
+• Slow: model must process a giant context
+
+VS
+
+JIT Injection
+• Tools selected at runtime, per query
+• Only 3-5 relevant schemas injected
+• Context window stays lean
+• More room for reasoning chains
+• Accuracy stays above 83% at any scale
+• Fast: smaller prompt, less processing
+• Inspired by Anthropic MCP on-demand loading
+
+Ankush Rastogi
+Sohal Shaikh
+08

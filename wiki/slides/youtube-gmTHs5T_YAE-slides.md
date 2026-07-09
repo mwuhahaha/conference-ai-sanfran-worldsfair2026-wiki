@@ -80,7 +80,7 @@ OCR text:
 
 OCR text:
 
-> Al Engineer
+> AI Engineer
 > World's Fair
 
 ## Slide-Derived Subjects To Review

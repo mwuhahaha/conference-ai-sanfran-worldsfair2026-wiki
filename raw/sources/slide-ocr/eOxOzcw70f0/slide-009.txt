@@ -1,10 +1,20 @@
-G
+AIE
 CHAT
-AIE vscodeAPI UseVSCodeAPireferences toanswerquestons about VSCodeextensiondevel. problems Checkerrorsforaparticularfle Select tools that are available to chat 62Selected OK jent Mode ithCopilot
-Shov testFailure includes informationabout the last unit test failure terminalLastCommand The active terminal's last run command openSimpleBrowser Preview a locally hosted website In the Simple Browser runCell Trigger the execution of a cei ln a notebook file changes Get difs of changed files terminalSelection Theactive terminal's selection new Scaffold anewworkspace in VSCode newJupyterNotebookCreate anewJupyter Notebook olerequests topickfiles to edit, ands,and iterate on errors. Al,so mistakes are possible. tcarefullybefore use. #to attach context files in agent mode.Copilot wll
-Opi readCellOutout Read the outout of.a oreviously executed cell
-Open Recent R
-New Untitled TextFile OpenChatx Editfilesinyour workspace in agentmode Add Context.. Agent Clude Sonnet 4
-00￥0008000000000900000900800
-aws
-Word'sFair
+Chat with Copilot
+Agent Mode
+Select tools that are available to chat
+62 Selected
+OK
+vscodeAPI Use VS Code API references to answer questions about VS Code extension devel...
+problems Check errors for a particular file
+changes Get diffs of changed files
+testFailure Includes information about the last unit test failure
+terminalSelection The active terminal's selection
+terminalLastCommand The active terminal's last run command
+new Scaffold a new workspace in VS Code
+newJupyterNotebook Create a new Jupyter Notebook
+openSimpleBrowser Preview a locally hosted website in the Simple Browser
+runCell Trigger the execution of a cell in a notebook file
+readCellOutput Read the output of a previously executed cell
+Add Context...
+Edit files in your workspace in agent mode

@@ -1,6 +1,31 @@
-World'sFair AIEnginee May,2023:0penRouter
-aws Betterprices,betteruptime,nosubscripton. InterfaceForLLMs TheUnified Featured Models Gemini 2.5ProPreview 6c06 215.0B Tokens/ek 2.4s +7.02%
-Fair Starta message uadofa GPT-4.1 49.1B 815ms +4.23%
-ClaudeSonnet4
-04j 242.8B 1.7s +47.29%
-World'sFair AEng Microsoft aws smolo
+May, 2023: OpenRouter
+The Unified
+Interface For LLMs
+Better prices, better uptime, no subscription.
+Featured Models
+View Trending
+Gemini 2.5 Pro Preview
+by google
+215.0B
+Tokens/wk
+2.4s
+Latency
++7.02%
+Weekly growth
+GPT-4.1
+by openai
+49.1B
+Tokens/wk
+815ms
+Latency
++4.23%
+Weekly growth
+Claude Sonnet 4
+New
+by anthropic
+242.8B
+Tokens/wk
+1.7s
+Latency
++47.29%
+Weekly growth

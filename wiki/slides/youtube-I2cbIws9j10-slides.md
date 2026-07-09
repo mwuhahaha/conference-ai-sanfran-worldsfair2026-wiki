@@ -77,18 +77,15 @@ OCR text:
 
 OCR text:
 
-> DeterministicAnomalyRules
-> Schemadriftnullspikes,field
-> removals,typechanges
-> Q-Learning Decision Policy
-> Retry,coerceschema,rollback,
-> quarantine,escalate,log
-> The
-> SafetyOverride
-> Intelligence
-> Critical anomaly+passive action
-> →escalate
-> Layer
+> AI Engineer
+> World's Fair
+> Livestream
+> July 2, 2026
+> EVENT STARTS IN 03:05
+> GRAPHS
+> BROUGHT TO YOU BY
+> neo4j
+> View Full Schedule ai.engineer/worldsfair/2026/schedule
 
 ![[assets/slides/I2cbIws9j10/slide-004.jpg]]
 
@@ -313,14 +310,24 @@ OCR text:
 
 OCR text:
 
-> World'sFair AlEngineer The implementation is fully learned.
-> THE MODELWRITES
-> YOU WRITE extract=dspy.Flex（ExtractTaxes,tools=...) class TaxExtractor(dspy.Module): def_init_（self): self.parse=dspy.Predict(...) self.check-dspy.ReAct（ Validate,tools=[...])
-> defforward（self,invoice): linesself.parse(invoice) return self.check(lines) lines=dedupe(lines)
-> rd'sFai AtEngioee
-> rowse Worlc AIEe
-> TheUnreasonableEffectivenessofSeparatingtheTaskfromtheModel
-> MaximeRivest Core Contributor Lead Maintainer IsaacMiller DSPy
+> AI Engineer World’s Fair
+> The implementation is fully learned.
+> YOU WRITE
+> extract = dspy.Flex(ExtractTaxes, tools=...)
+> THE MODEL WRITES
+> class TaxExtractor(dspy.Module):
+> def __init__(self):
+> self.parse = dspy.Predict(...)
+> self.check = dspy.ReAct(
+> Validate, tools=[...])
+> def forward(self, invoice):
+> lines = self.parse(invoice)
+> lines = dedupe(lines)
+> return self.check(lines)
+> The Unreasonable Effectiveness of Separating the Task from the Model
+> Maxime Rivest | Isaac Miller
+> Core Contributor | Lead Maintainer
+> DSPy
 
 ![[assets/slides/I2cbIws9j10/slide-017.jpg]]
 
@@ -380,12 +387,8 @@ OCR text:
 
 OCR text:
 
-> PO al - ‘World's Fai
-> 
-> | Resolve.
-> ingineer ———
-> 
-> NV Raver, AM are]
+> World's Fair
+> Resolve.
 
 ![[assets/slides/I2cbIws9j10/slide-021.jpg]]
 
@@ -475,11 +478,10 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
+> AI Engineer
 > World's Fair
 > Harness
 > Engineering
-> World'sFair
 
 ![[assets/slides/I2cbIws9j10/slide-028.jpg]]
 
@@ -727,35 +729,31 @@ OCR text:
 
 OCR text:
 
-> AlEngineer
-> Perfectanswersandwhattheycost
-> World'sFair
-> Tokenstogettoaperfect answer
-> Percentofrunspassedunderfixed budget
-> 1.7M
-> 1.8M
-> 3runs
+> AI Engineer World's Fair
+> Perfect answers and what they cost
+> Tokens to get to a perfect answer
 > 1.2M
+> 2 runs
+> Advise
 > 1.3M
-> 2runs
-> 2runs
-> 2runs
-> Advise
+> 2 runs
 > Grade
+> 1.7M
+> 2 runs
 > Dream
+> 1.8M
+> 3 runs
 > Execute
+> Percent of runs passed under fixed budget
+> 42%
 > Execute
+> 67%
 > Advise
+> 75%
 > Grade
+> 75%
 > Dream
-> d'sFair
-> AlEn
-> iver
-> Worle
-> Engineering the future of Al
-> d's
-> d
-> HE
+> Engineering the future of AI
 
 ![[assets/slides/I2cbIws9j10/slide-043.jpg]]
 
@@ -1003,12 +1001,32 @@ OCR text:
 
 OCR text:
 
-> World'sFair AlEngineer
-> Human Agent
-> Today'ssignupflowassumes: Agent-nativeregistrationneeds:
-> OIIM Ahuman cancopyanAPI key Ahumancanpasteit somewhere Ahumancanread alanding page Ahumancanfillaform A human can solvea CAPTCHA Ahumancanverifyemail (agents might nothave anemailaddress) Ahuman canchoose aplan Ahuman canunderstand the dashboard Discovery Audibility Capabilitydeclaration Registrationintent Riskassessment Agent identity verification（source agent,like Claude) Claiming/laterownershiptransfer Human ororganizational delegation(mycompany) Entitlement grant Credential issuance
-> Microsoft orld'sF AlEng
-> orld'sFair iradium uSF Engineering the future of Al
+> AI Engineer
+> World’s Fair
+> Human
+> Agent
+> Today’s signup flow assumes:
+> A human can read a landing page
+> A human can fill a form
+> A human can solve a CAPTCHA
+> A human can verify email
+> (agents might not have an email address)
+> A human can choose a plan
+> A human can copy an API key
+> A human can paste it somewhere
+> A human can understand the dashboard
+> Agent-native registration needs:
+> Discovery
+> Capability declaration
+> Registration intent
+> Risk assessment
+> Agent identity verification (source agent, like Claude)
+> Human or organizational delegation (my company)
+> Entitlement grant
+> Credential issuance
+> Claiming / later ownership transfer
+> Audibility
+> Engineering the future of AI
 
 ![[assets/slides/I2cbIws9j10/slide-063.jpg]]
 

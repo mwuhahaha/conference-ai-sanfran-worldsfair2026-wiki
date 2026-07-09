@@ -1,6 +1,8 @@
-Knowledgecutoff:Jan2025
-Release date:Dec17,2025
-gemini-3.1-pro-preview Gemini 3.1ProPreview·New 口
-powerful multimodal understanding and coding capabilities Our latest SoTAreasoning model with unprecedented depth and nuance,and
-$<=200Ktokens·Input:$2.00/Output:$12.00
-Releasedate:Feb 12, Knowledge cutoff:Jai $>200ktokens·Input ofchargewhennoAPikeyis selected APIpricingper1Mtokens. UsageinAlStudioUlisfree
+Knowledge cut off: Jan 2025
+Release date: Dec 17, 2025
+Gemini 3.1 Pro Preview
+gemini-3.1-pro-preview
+Our latest SOTA reasoning model with unprecedented depth and nuance, and powerful multimodal understanding and coding capabilities
+$ <=200K tokens • Input: $2.00 / Output: $12.00
+API pricing per 1M tokens.
+Usage in AI Studio UI is free of charge when no API key is selected

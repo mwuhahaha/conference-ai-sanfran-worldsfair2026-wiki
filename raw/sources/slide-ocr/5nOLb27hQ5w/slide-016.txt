@@ -1,6 +1,2 @@
 AIE
-EXAMPLES+PRESETS
-aws
-neo4j
-Microsoft
-smol?
+EXAMPLES + PRESETS

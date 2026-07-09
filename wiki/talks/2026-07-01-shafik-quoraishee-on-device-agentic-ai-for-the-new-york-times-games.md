@@ -79,3 +79,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-P_uhFGH4J9Y-reconstructed-slides]]
 - [[youtube-P_uhFGH4J9Y-slides]]
 - Slide-derived terms: `york`, `times`, `microsoft`, `connections`, `semantic`, `research`, `game`, `reinforcement`, `score`, `awss`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augmentcode`, `workos`, `game/al`, `developer`
+
+## Additional Photo Slide Evidence
+These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
+- [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-nyt-games-connections-slides]] - Google Photos Slides: On-Device Agentic AI for the New York Times Games (confidence: high).

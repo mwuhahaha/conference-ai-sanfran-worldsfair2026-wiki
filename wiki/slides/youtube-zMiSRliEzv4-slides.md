@@ -21,7 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> NPostHog
+> PostHog
 > What if your product built itself?
 
 ![[assets/slides/zMiSRliEzv4/slide-002.jpg]]

@@ -1,13 +1,7 @@
-HowToReachSOTAPerformance?
-Option 1:Use optimized Performance models
-AIE
+How To Reach SOTA Performance?
+Option 1: Use optimized Performance models
 Video Endpoints
 Image Endpoints
-TextEndpoints
-s
-leplicote
-aws
-Runwar
-Segmind
-WIRO
-Engineering the future of Al
+Text Endpoints
+Audio Endpoints
+Engineering the future of AI

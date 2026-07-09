@@ -1,5 +1,5 @@
 Limitations
-Cold Start .
+Cold Start
 Utility Drift
-’ Review quality
-all Lambda
+Review quality
+Lambda

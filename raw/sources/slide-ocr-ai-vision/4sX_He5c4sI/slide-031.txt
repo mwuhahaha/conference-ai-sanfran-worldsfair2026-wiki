@@ -1,0 +1,20 @@
+The Economics of Code
+
+~$0
+Marginal Cost of Code
+
+The Bottleneck Transformed
+When generating code becomes virtually free, software
+creation is no longer the key constraint. The system pressure
+shifts to validation and specification.
+
+The core disciplines of the future engineer will focus on
+defining system correctness, auditing security boundaries,
+and designing precise constraints.
+
+Write only code, fast code refresh. This is the same step we
+saw with compilers, who still reads the assembly output ?
+
+Research to Reality with Google DeepMind
+
+Benoit Schillings / Vice President of Research Google DeepMind

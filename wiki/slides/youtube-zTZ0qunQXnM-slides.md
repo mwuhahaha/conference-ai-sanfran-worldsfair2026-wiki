@@ -21,10 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust WorkOS OpenAI
 
 ![[assets/slides/zTZ0qunQXnM/slide-002.jpg]]
 
@@ -45,44 +43,30 @@ OCR text:
 
 OCR text:
 
-> AIE ★
-> FafaeLevi
-> D. 492V
-> ablicca mhic Korp Engineering the future of Al
+> AIE
+> Engineering the future of AI
 
 ![[assets/slides/zTZ0qunQXnM/slide-004.jpg]]
 
 OCR text:
 
-> a *& an 7 ce ea rs
-> bd * rt omen
-> “ee
-> 5g bd
-> Sd * bd
-> -
-> bd Feet. mee es ; ad Cy , é c
-> a Al Engineer
-> / aU telaa
+> Build Walmart scraper with keyword search
+> AI Engineer
+> EUROPE
 
 ![[assets/slides/zTZ0qunQXnM/slide-005.jpg]]
 
 OCR text:
 
 > AIE
-> Keep
-> bicda
-> ublic
-> Engineering the future of Al
+> Engineering the future of AI
 
 ![[assets/slides/zTZ0qunQXnM/slide-006.jpg]]
 
 OCR text:
 
 > AIE
-> blicdai
-> Keep
-> ublic
-> Engineering the future of Al
+> Engineering the future of AI
 
 ![[assets/slides/zTZ0qunQXnM/slide-007.jpg]]
 
@@ -144,7 +128,7 @@ OCR text:
 
 OCR text:
 
-> AIEngineer
+> AI Engineer
 > EUROPE
 > HTTPS://AI.ENGINEER
 

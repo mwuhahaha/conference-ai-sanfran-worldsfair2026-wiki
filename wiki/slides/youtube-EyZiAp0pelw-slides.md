@@ -21,35 +21,20 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> 5 van =. a
-> SS
-> q ; e
-> ed
-> S
-> i S }
-> , |
+> Remix
 
 ![[assets/slides/EyZiAp0pelw/slide-002.jpg]]
 
 OCR text:
 
 > Let's wake up
-> Your brain needs this
-> S
+> Your brain needs this 🧠
 
 ![[assets/slides/EyZiAp0pelw/slide-003.jpg]]
 
 OCR text:
 
-> &
-> 
-> i
-> 
-> g
-> 
-> \
-> 
-> DP
+> 0:00 / 1:06
 
 ![[assets/slides/EyZiAp0pelw/slide-004.jpg]]
 
@@ -67,17 +52,7 @@ OCR text:
 
 OCR text:
 
-> Pa ig
-> 
-> x
-> 
-> aE
-> 
-> =
-> 
-> ae :
-> 
-> 7
+> BESTCLIPS
 
 ![[assets/slides/EyZiAp0pelw/slide-006.jpg]]
 
@@ -107,15 +82,7 @@ OCR text:
 
 OCR text:
 
-> : : A
-> = s
-> ae - A
-> y , <a fo, | as
-> a .
-> an a
-> a a 4 \
-> ee
-> 2
+> 1:06 / 1:06
 
 ![[assets/slides/EyZiAp0pelw/slide-008.jpg]]
 

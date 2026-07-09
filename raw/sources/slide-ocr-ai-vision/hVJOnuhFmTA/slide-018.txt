@@ -1,0 +1,42 @@
+Product requirements review · live
+Pause  Replay
+Dana
+Stakeholder
+Sam
+Product Lead
+Jordan
+Engineering
+Access requests are future scope.
+That changes the data model. Good to know.
+All, pull that up for everyone.
+Oh — I’d forgotten that was a rule.
+So over five thousand needs a second approver?
+Yep — manager plus Finance.
+So a big one can’t be a single tap.
+Right — over the limit it routes to a second approver.
+Agreed. Under five, one tap’s fine.
+Works for me.
+Okay — agreed. Expense approvals, five-thousand threshold.
+AI, capture that for us.
+Speaking
+Invited into the room
+First release supports expense approvals only — access requests are out of scope. Managers can approve or reject an expense right from a notification. And per the Finance Controls Policy, anything over five thousand dollars routes to a second approver.
+Clarification resolved
+Brought into the room — resolved.
+CHAT
+SAM
+what’s our current median approval time?
+AI
+2.3 days median right now; the target is same-day.
+SAM
+right, that’s fine
+GOALS
+Q Which requirement is this?
+REQ-142 — expense approvals
+Resolve approval scope
+Expense approvals — first release
+Apply $5,000 second-level threshold
+Access requests — future scope
+REQUIREMENT
+Expense approvals only for the first release. Over $5,000 requires second-level sign-off (Finance Controls Policy v3). Access requests are out of scope.
+A decision — not a transcript.

@@ -21,10 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ae
-> | |
-> ae: \ 3
-> a a tS
+> AIE
 
 ![[assets/slides/rmvDxxNubIg/slide-002.jpg]]
 
@@ -66,12 +63,9 @@ OCR text:
 
 OCR text:
 
-> reallyf..
+> took 8 weeks for a team of 3, it was
+> really f.... hard
 > Never going back
-> hard
-> ovibes allowed|adrthy
-> Code Summit
-> AIE
 
 ![[assets/slides/rmvDxxNubIg/slide-005.jpg]]
 ![[assets/slides/rmvDxxNubIg/slide-006.jpg]]
@@ -105,12 +99,8 @@ OCR text:
 
 OCR text:
 
-> owed
-> adexhorthy
-> Code Summit
+> owed | @dexhorthy
 > AIE
-> Code Surmit
-> Googeaodied
 
 ![[assets/slides/rmvDxxNubIg/slide-008.jpg]]
 

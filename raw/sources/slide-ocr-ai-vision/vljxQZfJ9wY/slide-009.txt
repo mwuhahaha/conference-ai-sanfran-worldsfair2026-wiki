@@ -1,0 +1,22 @@
+Observability is the Prerequisite
+
+The Trace Waterfall
+User Prompt (35ms - 70ms)
+Planner Iteration (7ms - 35ms)
+Vector DB Lookup (8ms)
+Parallel API Tool Calls
+API A - 45ms
+API B - 38ms
+API C - 52ms
+
+Live Metrics Dashboard
+Latency
+345 ms
+Retries
+2.5 %
+Step Costs
+$0.014
+Memory Usage
+480 MB
+
+"You cannot evaluate what you cannot observe."

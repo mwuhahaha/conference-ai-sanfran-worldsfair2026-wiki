@@ -21,10 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Build
-> Systems,
+> Build Systems,
 > not Code
-> AngieJones·VPofDX,AgenticAIFoundatin
+> Angie Jones · VP of DX, Agentic AI Foundation
 > angiejones.tech
 
 ![[assets/slides/ZD9-4fW2HhM/slide-002.jpg]]
@@ -32,8 +31,8 @@ OCR text:
 OCR text:
 
 > Relocation Scout
-> ahousehuntingagent
-> AngieJones·VPofDX,AgenticA1Foundati
+> a house hunting agent
+> Angie Jones • VP of DX, Agentic AI Foundation
 > angiejones.tech
 
 ![[assets/slides/ZD9-4fW2HhM/slide-003.jpg]]
@@ -76,8 +75,12 @@ OCR text:
 
 OCR text:
 
-> normalize listing format shortlist calculate commute
-> skill schema script
+> normalize listing
+> format shortlist
+> calculate commute
+> skill
+> schema
+> script
 
 ![[assets/slides/ZD9-4fW2HhM/slide-007.jpg]]
 
@@ -103,9 +106,13 @@ OCR text:
 
 OCR text:
 
-> skill sub-agent
-> normalize-listing neighborhood research
-> Cen | [pemer
+> skill
+> normalize-listing
+> sub-agent
+> neighborhood research
+> Austin
+> Denver
+> Raleigh
 
 ![[assets/slides/ZD9-4fW2HhM/slide-010.jpg]]
 
@@ -184,15 +191,21 @@ OCR text:
 OCR text:
 
 > reality is messy
-> ™ “
-> fires twice mid-run run it again
+> webhook
+> crash
+> retry
+> fires twice
+> mid-run
+> run it again
 
 ![[assets/slides/ZD9-4fW2HhM/slide-017.jpg]]
 
 OCR text:
 
-> Run1 emailrealtor memory
-> email: sent
+> Run 1
+> email realtor
+> memory
+> ✓ email: sent
 
 ![[assets/slides/ZD9-4fW2HhM/slide-018.jpg]]
 
@@ -212,12 +225,12 @@ OCR text:
 
 OCR text:
 
-> Security validate inputs
-> 
-> ) 0l least privilege
-> Ca,
-> 
-> still applies draw boundaries
+> Security
+> 101
+> ...still applies.
+> validate inputs
+> least privilege
+> draw boundaries
 
 ![[assets/slides/ZD9-4fW2HhM/slide-020.jpg]]
 

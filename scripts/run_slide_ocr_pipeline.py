@@ -46,7 +46,9 @@ def main() -> int:
     parser.add_argument("--enable-surya", action="store_true", help="Enable Surya only after confirming model-weight license terms fit this use.")
     parser.add_argument("--vision-rescue", action="store_true", help="Run AI vision interpretation for low-confidence/manual-queue slides after OCR.")
     parser.add_argument("--vision-provider", choices=["auto", "ollama", "codex-cli", "openai"], default="auto")
+    parser.add_argument("--vision-codex-model", default="", help="Codex CLI model for vision rescue; defaults to the rescue tool default.")
     parser.add_argument("--vision-limit", type=int, default=0)
+    parser.add_argument("--vision-jobs", type=int, default=1, help="Parallel vision rescue reads. Keep low for Codex CLI provider.")
     parser.add_argument("--internal-eval-log", action="store_true", help="Write ignored internal operator/tool comparison log.")
     parser.add_argument("--no-build", action="store_true", help="Skip npm static export.")
     parser.add_argument("--no-dependent-indexes", action="store_true", help="Skip topic/tool/word-cloud refreshes.")
@@ -81,6 +83,10 @@ def main() -> int:
         ]
         if args.vision_limit:
             vision_cmd.extend(["--limit", str(args.vision_limit)])
+        if args.vision_codex_model:
+            vision_cmd.extend(["--codex-model", args.vision_codex_model])
+        if args.vision_jobs:
+            vision_cmd.extend(["--jobs", str(args.vision_jobs)])
         run(vision_cmd)
         merge_ai_cmd = [
             sys.executable,

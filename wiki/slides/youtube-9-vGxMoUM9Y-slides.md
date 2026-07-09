@@ -126,13 +126,7 @@ OCR text:
 
 OCR text:
 
-> but ML Model APIs are nos
-> rn
-> 4
-> —s
-> a,
-> The. A
-> ~ -
+> ...but ML Model APIs are not
 
 ![[assets/slides/9-vGxMoUM9Y/slide-008.jpg]]
 
@@ -140,7 +134,6 @@ OCR text:
 
 > Use of LLMs is limited
 > when “correctness” is critical.
-> O Quer
 
 ![[assets/slides/9-vGxMoUM9Y/slide-009.jpg]]
 
@@ -158,13 +151,23 @@ OCR text:
 
 OCR text:
 
-> Guardrails Al acts as a safety firewall around your LLMs
-> Appicapon Log Applicaton Logic
-> Standard Guarorags Al
-> ’ 9
-> LLM : LLM :
-> an =.
-> ‘+ Querdrelie Al |
+> Guardrails AI acts as a safety firewall around your LLMs
+> Application Logic
+> Standard
+> LLM Logic
+> Prompt
+> LLM API
+> Raw Output
+> Application Logic
+> Guardrails AI
+> LLM Logic
+> Prompt
+> LLM API
+> Raw Output
+> Reconstruct prompt...
+> Fail Validation
+> Verification Logic
+> Pass Validation
 
 ![[assets/slides/9-vGxMoUM9Y/slide-011.jpg]]
 
@@ -245,9 +248,7 @@ OCR text:
 
 OCR text:
 
-> ee...
-> 
-> Bee
+> SUMMIT
 
 ![[assets/slides/9-vGxMoUM9Y/slide-017.jpg]]
 
