@@ -21,8 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> You can't prompt $
-> the room. 7
+> You can't prompt the room.
+> Cheap to build.Expensive to decide.
 
 ![[assets/slides/6bmM45jkMDY/slide-002.jpg]]
 
@@ -149,7 +149,6 @@ OCR text:
 > SCAN TO CONNECT
 > BalazsHorvath
 > linkedin.com/in/balazshorvathd365
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

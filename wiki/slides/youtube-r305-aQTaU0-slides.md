@@ -29,10 +29,12 @@ OCR text:
 OCR text:
 
 > Image diffusion
-> * * * 2 “A! i 2 5 ” f
-> = Go gle DeepMind
-> H . ,
+> Addingnoise
+> AIE
+> Denoising
+> GoogleDeepMind
 > Engineering the future of Al
+> AlEngineer
 
 ![[assets/slides/r305-aQTaU0/slide-003.jpg]]
 
@@ -127,7 +129,6 @@ OCR text:
 > = :
 > iz
 > : Engineering the future of Al
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

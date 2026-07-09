@@ -31,10 +31,13 @@ OCR text:
 
 OCR text:
 
-> New Expectations
-> “Explain why you can't
+> NewExpectations
+> AIE
+> "Explain why you can't
 > use Al before hiring”
-> Ka
+> Microsoft
+> smolo
+> WordsFair
 
 ![[assets/slides/SbUxRluVRwk/slide-003.jpg]]
 
@@ -46,7 +49,6 @@ OCR text:
 > 03 =A Question of hiring
 > aws
 > oS eee
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

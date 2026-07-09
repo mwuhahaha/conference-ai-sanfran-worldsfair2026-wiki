@@ -21,11 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> aWS
-> 
-> eee)
-> @®Graphite WW Windsurf 4) MonegobB
-> Mdaily £3augmentcode WorkOS
+> INNOVATIONPARTNER
+> aws
+> PLATINUMSPONSORS
+> Graphite
+> WWindsurf
+> MongoDB
+> daily
+> augment code
+> Workos
 
 ![[assets/slides/Fzb1a24hF-o/slide-002.jpg]]
 
@@ -608,7 +612,6 @@ OCR text:
 > ) : so
 > 7 Sy
 > = a 2
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -670,6 +670,11 @@
     "path": "wiki/resources/youtube-qlHaO6laBlM.md"
   },
   {
+    "id": "slide-ocr-rapidmerge-audit",
+    "title": "Slide OCR RapidMerge Audit",
+    "path": "wiki/resources/slide-ocr-rapidmerge-audit.md"
+  },
+  {
     "id": "source-boundary",
     "title": "Source Boundary",
     "path": "wiki/resources/source-boundary.md"
@@ -998,6 +1003,11 @@
     "id": "worldsfair-2026-livestreams",
     "title": "World's Fair 2026 Official Livestreams",
     "path": "wiki/resources/worldsfair-2026-livestreams.md"
+  },
+  {
+    "id": "worldsfair-phrase-word-cloud",
+    "title": "Worldsfair Phrase Word Cloud",
+    "path": "wiki/resources/worldsfair-phrase-word-cloud.md"
   },
   {
     "id": "youtube-6bmM45jkMDY",

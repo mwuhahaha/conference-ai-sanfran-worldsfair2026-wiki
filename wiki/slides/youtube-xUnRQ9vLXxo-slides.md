@@ -21,13 +21,8 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ul BROW
-> 
-> Me DoT T
-> 
-> { iT
-> 
-> Alf
+> THEO BROWNE
+> t3.gg FOUNDER AIE
 
 ![[assets/slides/xUnRQ9vLXxo/slide-002.jpg]]
 
@@ -67,7 +62,6 @@ OCR text:
 > ar . ao ee ee
 > 
 > Theo Browne t3.9g
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

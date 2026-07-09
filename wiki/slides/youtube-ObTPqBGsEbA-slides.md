@@ -222,6 +222,5 @@ OCR text:
 > ee Mit tides te Bei eae Re a oeeee
 > jee a ae
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

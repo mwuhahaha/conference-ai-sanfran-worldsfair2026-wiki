@@ -460,14 +460,17 @@ OCR text:
 
 OCR text:
 
-> ias Fair | al edi Babel
-> 
-> licrosoft | | ad Ee |
-> ,
-> 
-> d's Fair [ Worl
-> 
-> Lightrun q She
+> d'sFair
+> OpenAl
+> Worl
+> IEngineer
+> licrosoft
+> ld's Fair
+> Engineer
+> AIE
+> Id's Fair
+> Worle
+> Lightrun
 
 ![[assets/slides/htM02KMNZnk/slide-024.jpg]]
 
@@ -1062,9 +1065,11 @@ OCR text:
 
 OCR text:
 
-> Rei
+> World'sFair
+> You are watching an AlE Online Tak
+> Pre-Recordedfor Worlo'sFar2026.
 > AGENT
-> Things overlap in weird ways, you can't see the text,
+> Thingsoverlapinweirdways,youcan'tseethetext,
 
 ![[assets/slides/htM02KMNZnk/slide-063.jpg]]
 
@@ -1610,9 +1615,13 @@ OCR text:
 
 OCR text:
 
-> World's Fair |
+> AIEngineer
+> World's Fair
 > We raised the ceiling
-> m Engineering the future of Al
+> World'sFair
+> oob
+> Wo
+> Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-100.jpg]]
 
@@ -2093,7 +2102,6 @@ OCR text:
 > Pre-Recorded for Worid's Fair 2026.
 > specification
 > implementation
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

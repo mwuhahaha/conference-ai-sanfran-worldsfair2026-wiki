@@ -60,7 +60,8 @@ OCR text:
 OCR text:
 
 > For early-stage devtools
-> 9 out of 10 startups
+> 9 out of10 startups
+> Signal>Revenue
 
 ![[assets/slides/G6IlDzj8OjA/slide-005.jpg]]
 
@@ -131,7 +132,6 @@ OCR text:
 > rs) lvan Burazin, CEO of Daytona: walking from $300K ARR to build for agents | Evi
 > nr |
 > om © ’ : Ba Perec nels Co) GB Youlube
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

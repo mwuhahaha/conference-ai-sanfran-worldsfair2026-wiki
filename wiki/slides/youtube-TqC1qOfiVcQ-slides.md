@@ -257,8 +257,10 @@ OCR text:
 
 OCR text:
 
-> ANTHROP\C
+> ANTHROPIC
 > Workflows & Agents
+> ANTHROPIC
+> CONFIDENTIAL
 
 ![[assets/slides/TqC1qOfiVcQ/slide-017.jpg]]
 
@@ -372,7 +374,6 @@ OCR text:
 > Knowledge of an organization’s workflows and best practices
 > 
 > e.g. Anthropic’s Brand Styling
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

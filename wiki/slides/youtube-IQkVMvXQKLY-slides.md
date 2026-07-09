@@ -282,6 +282,5 @@ OCR text:
 > Full paper - accepted at UCNN. “Activation Differences Reveal Backdoors. A Comparison of SAE Architectures”
 > © github. com/techsachinkr/diff-sae-backdoor-detection 4 sachinkumar. ait@live.com
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

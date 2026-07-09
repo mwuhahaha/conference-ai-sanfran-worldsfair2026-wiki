@@ -1,0 +1,4 @@
+Grant Negotiation and
+Authorization Protocol
+(REC 9635)
+= a Microsoft ary?

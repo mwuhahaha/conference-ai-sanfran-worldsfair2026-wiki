@@ -21,7 +21,7 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> md
+> ANGIE JONES,VP OF AGENTICAIFOUND
 > Building an
 > Autonomous
 > Engineering Org
@@ -165,7 +165,6 @@ OCR text:
 > rear ae
 > 
 > rere Le i 7 —
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

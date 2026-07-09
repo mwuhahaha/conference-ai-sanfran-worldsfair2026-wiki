@@ -22,8 +22,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> There's a #foom time for
-> every discipline |
+> There'sa #foom timefor
+> every discipline
+> Toughluckbeing born in thewrong century
 
 ![[assets/slides/qaJXBMwUkoE/slide-003.jpg]]
 
@@ -302,7 +303,6 @@ OCR text:
 > © Mov 19-12 (A NYC) Latert Suace/DevToots Commnunty Dorks trreipisce thd
 > © Mov 18th (m SF}: Ore Year of ChaGPT Party at Mecrosott op
 > © Nov 230d In Sagapore) Al Engines: Singapore meetup [-aruc}
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

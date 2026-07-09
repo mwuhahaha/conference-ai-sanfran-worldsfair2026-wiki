@@ -267,11 +267,16 @@ OCR text:
 
 OCR text:
 
-> Arrakis: Upaateda Arcnitecture .
-> Arrakis - API
-> Linux Server
-> REST API
-> Kernel a
+> Arrakis:UpdatedArchitecture
+> Arrakis-API
+> LinuxServer
+> RESTAPI
+> arrakis-py-sdk
+> ArrakisRestserver
+> arrakis-client
+> RESTAPI
+> Userspace
+> Kernel
 
 ![[assets/slides/wsFd22SL1s8/slide-015.jpg]]
 
@@ -481,7 +486,6 @@ OCR text:
 > a
 > Reduce attack surface by using seccomp Filters
 > © Can restrict the attack surface by restricting the Linux CAP abdibes alowed to a process such as CAP_NET, CAP_SYS_ADMIN ate
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -21,10 +21,12 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> } . 7 gs dodo
+> opob
 > The State of Al Code Quality
-> Hype vs. Reality
-> Google DeepMind
+> Hype vs.Reality
+> ItamarFriedman
+> Qodo CEOand Co-Founder
+> GoogleDeepMind
 
 ![[assets/slides/rgjF5o2Qjsc/slide-002.jpg]]
 
@@ -234,7 +236,6 @@ OCR text:
 > ‘a = | |
 > 
 > re
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

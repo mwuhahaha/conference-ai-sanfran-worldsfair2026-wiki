@@ -55,10 +55,13 @@ OCR text:
 
 OCR text:
 
-> | don't compact — | resect.
-> fresh agent
-> 3 , re-reads the files
-> continues ae
+> Idon'tcompact—Ireset.
+> reset
+> compact freshagent
+> Xslow
+> Xean'tchoose-what-survives re-readsthefiles
+> Xdropped=gone
+> continues
 
 ![[assets/slides/4kYl2_mqmnQ/slide-004.jpg]]
 
@@ -251,7 +254,6 @@ OCR text:
 > a ZolOMe= mae la laliare Mra ie [10h ¢cWr~ | Or= |b ess er | EEE esa REOE OTS! _
 > ‘
 > 7
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

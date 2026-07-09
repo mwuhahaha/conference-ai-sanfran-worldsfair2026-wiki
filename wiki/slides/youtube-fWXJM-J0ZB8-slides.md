@@ -73,9 +73,8 @@ OCR text:
 
 OCR text:
 
-> ; THE COST OF
-> eee gl ot
-> : in
+> Rachel-LeeNabors(they/them)nearestnabors.com THECOSTOF
+> ONE-SIZE-FTS-ALLINFERENCE
 
 ![[assets/slides/fWXJM-J0ZB8/slide-004.jpg]]
 
@@ -206,29 +205,8 @@ OCR text:
 
 OCR text:
 
-> _ .
-> fs
-> 
-> 2
-> 
-> S
-> 
-> ea =6(OLMs
-> 
-> ¢
-> 
-> ©
-> 
-> See eee) ee
-> 
-> Ss
-> 
-> i
-> 
-> 1
-> 
-> 8 a s
-> = -
+> Rachel-LeeNabors(they/them)nearestnabors.com SLMs
+> LLMSBUTSMALL
 
 ![[assets/slides/fWXJM-J0ZB8/slide-009.jpg]]
 
@@ -803,7 +781,6 @@ OCR text:
 > 1S}
 > = f ee o
 > 3 7 .
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

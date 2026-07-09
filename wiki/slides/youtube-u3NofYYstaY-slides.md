@@ -21,9 +21,12 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> aWws
-> ae:
-> 0 MongoDB o Cloud NeOY
+> INNOVATIONSPONSOR
+> aws
+> PLATINUMSPONSORS
+> MongoDB.
+> Google Cloud
+> neo4j
 
 ![[assets/slides/u3NofYYstaY/slide-002.jpg]]
 
@@ -139,7 +142,6 @@ OCR text:
 > is
 > 
 > a
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

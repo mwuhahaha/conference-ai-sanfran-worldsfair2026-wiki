@@ -236,6 +236,5 @@ OCR text:
 > : ms required runtime layer for systems. |
 > a _ Production Al. 4
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -36,15 +36,12 @@ OCR text:
 
 OCR text:
 
-> if a in cer
-> i anne a ae oan
-> 
-> cece ae. a Pe i a
-> 
-> eee = “te. a
-> See Sea iat + *
-> 
-> ne .
+> Mixedbread Al Engineer
+> Reasoning
+> CAPABILITIES
+> Search Knowledge gap
+> TIME
+> How we taught agents to use good retrieval -Mixedbread
 
 ![[assets/slides/1IdzkRVmWAA/slide-003.jpg]]
 
@@ -95,7 +92,6 @@ OCR text:
 > re Toes og aie
 > ace 7 -
 > cara i Farnese :
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

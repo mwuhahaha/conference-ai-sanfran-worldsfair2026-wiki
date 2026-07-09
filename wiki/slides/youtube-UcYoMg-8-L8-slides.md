@@ -23,6 +23,7 @@ OCR text:
 
 > Radical Speed Month
 > 30 501 794
+> Days Peopleparticipating Projectsstarted
 
 ![[assets/slides/UcYoMg-8-L8/slide-002.jpg]]
 
@@ -182,7 +183,6 @@ OCR text:
 > Design Engineer
 > Team level-up
 > Speed unlocked
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

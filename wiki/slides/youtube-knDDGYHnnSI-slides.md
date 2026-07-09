@@ -212,7 +212,8 @@ OCR text:
 OCR text:
 
 > User
-> Your Application |
+> Your Application
+> Neo4j Inc.Allrightsreserved2024
 
 ![[assets/slides/knDDGYHnnSI/slide-014.jpg]]
 
@@ -412,7 +413,6 @@ OCR text:
 > relationships between them
 > 1 . Pa
 > ; = mE lrelxekxe) aS O00 O UMMC LS
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

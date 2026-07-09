@@ -165,11 +165,11 @@ OCR text:
 
 OCR text:
 
-> Our Principles } ,
-> " 7 r -
-> rr Te etl.
-> —s be 7 ;
-> 7 ae
+> Our Principles
+> todayandtomorrow.
+> A.GENTS.ATWOFK
+> E
+> WORK
 
 ![[assets/slides/bVNNvWq6dKo/slide-008.jpg]]
 
@@ -502,7 +502,6 @@ OCR text:
 > Nae aati ic
 > a 7 re: AI.ENGINEER
 > : ra
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

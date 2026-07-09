@@ -146,13 +146,10 @@ OCR text:
 
 OCR text:
 
-> 1 i ke
-> is 0) aga | |
-> Labi oe fe -
-> {kind of) | an iS i
-> a = Se
-> Ne
-> i x a
+> AIE
+> Lab in a box
+> (kind of)
+> aws
 
 ![[assets/slides/wNH3q9pqn0U/slide-010.jpg]]
 
@@ -318,7 +315,6 @@ OCR text:
 > 4 y
 > | ; 7 J | +e le
 > . ™ | ‘
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

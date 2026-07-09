@@ -80,24 +80,25 @@ OCR text:
 
 OCR text:
 
-> | - 04 : Engineering the future of Al
-> hh _
+> AIE
+> Engineering the future of Al
+> AlEngineer EUROPL
 
 ![[assets/slides/zDGHt0LB-dA/slide-007.jpg]]
 
 OCR text:
 
-> i |
-> le }
-> ns ; Engineering the future of Al
-> A _
+> AIE
+> Engineering the future of Al
+> AlEngineer EUROPL
 
 ![[assets/slides/zDGHt0LB-dA/slide-008.jpg]]
 
 OCR text:
 
-> ; : a a Engineering the future of Al
-> + a |
+> AIE
+> Engineering the future of Al
+> AlEngineer EUROPL
 
 ![[assets/slides/zDGHt0LB-dA/slide-009.jpg]]
 
@@ -123,10 +124,9 @@ OCR text:
 
 OCR text:
 
-> | Al Engineer |
-> wee) as
-> AI.ENGINEER
-
+> AIEngineer
+> EUROPE
+> HTTPS://AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

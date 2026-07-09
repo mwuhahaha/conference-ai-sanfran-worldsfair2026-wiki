@@ -21,8 +21,12 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> AWS
-> Y MongoDB o Cloud NeOY
+> INNOVATIONSPONSOR
+> aws
+> PLATINUMSPONSORS
+> MongoDB.
+> Google Cloud
+> neo4j
 
 ![[assets/slides/5nOLb27hQ5w/slide-002.jpg]]
 
@@ -186,11 +190,14 @@ OCR text:
 
 OCR text:
 
-> ie]
-> o
-> Ore
-> mS
-> HOO act Ones) - $150.00
+> Degeisk
+> involvedan
+> Degecoinornot
+> DOGE
+> Totalcosr
+> 600x$0.25=$150.00
+> Purchase
+> BAD
 
 ![[assets/slides/5nOLb27hQ5w/slide-013.jpg]]
 
@@ -242,9 +249,12 @@ OCR text:
 
 OCR text:
 
-> 5 EXAMPLES + PRESETS
-> ce BE Microsoft Qo?
-> ee. |e
+> AIE
+> EXAMPLES+PRESETS
+> aws
+> neo4j
+> Microsoft
+> smol?
 
 ![[assets/slides/5nOLb27hQ5w/slide-017.jpg]]
 
@@ -270,9 +280,12 @@ OCR text:
 
 OCR text:
 
-> { Crosse ]
-> «a>
-> hdl Ok eee
+> AIE
+> aws
+> neo4j
+> DATASTAIC
+> NEDLA
+> BCovnlent.
 
 ![[assets/slides/5nOLb27hQ5w/slide-019.jpg]]
 
@@ -284,7 +297,6 @@ OCR text:
 > aiid see hina ‘ Executive Techmecal
 > en ry. Meese Basa Educational
 > ; Bos vee _— -)
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

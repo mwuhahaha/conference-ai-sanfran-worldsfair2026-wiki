@@ -21,11 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> aWws
-> 
-> en)
-> @®Graphite W Windsurf MongobB
-> Mdaily £3 augmentcode WorkOS
+> INNOVATIONPARTNER
+> aws
+> PLATINUMSPONSORS
+> Graphite
+> WWindsurf
+> MongoDB
+> daily
+> augment code
+> Workos
 
 ![[assets/slides/eOxOzcw70f0/slide-002.jpg]]
 
@@ -44,10 +48,11 @@ OCR text:
 OCR text:
 
 > The Vibe-Coding Journey
-> 
-> “FUN CHAOS” “PROFESSIONAL ZEN"
-> 2
-> ia By 7
+> AIE
+> "FUNCHAOS"
+> "PROFESSIONALZEN"
+> aws
+> Worid's Fair
 
 ![[assets/slides/eOxOzcw70f0/slide-004.jpg]]
 
@@ -494,7 +499,6 @@ OCR text:
 > ©
 > 
 > Foe | a Microsoft Gye
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -199,6 +199,5 @@ OCR text:
 > 5. Evals are no longer tests; they are core infrastructure.
 > “You can’t improve what you don’t continuously evaluate.”
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -81,9 +81,10 @@ OCR text:
 
 OCR text:
 
-> Agents find a
-> needle in a haystack.
+> Agents can find a
+> needle in a haystack
 > But only by examining
+> everypiece ofhay
 
 ![[assets/slides/96G7FLab8xc/slide-007.jpg]]
 
@@ -334,7 +335,6 @@ OCR text:
 > 
 > ne 2025-11-22 13:55:04
 > JFK 27-81.302
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

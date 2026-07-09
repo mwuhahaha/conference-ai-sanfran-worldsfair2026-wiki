@@ -34,8 +34,8 @@ OCR text:
 
 OCR text:
 
-> A —
-> Engineering the future of Al
+> AIE
+> AEngineer Engineering the future of Al
 
 ![[assets/slides/_B4Pv9ttFgY/slide-003.jpg]]
 
@@ -161,7 +161,6 @@ OCR text:
 > AEngineer
 > EOE8
 > EUROPE
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -1,3 +1,6 @@
-aWws
-ae:
-0 MongoDB o Cloud NeOY
+INNOVATIONSPONSOR
+aws
+PLATINUMSPONSORS
+MongoDB.
+Google Cloud
+neo4j

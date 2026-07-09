@@ -21,9 +21,39 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> sae aoe
-> | World's Fair |
-> © STREAM STARTS JULY 2, 2026 9:00AM PT
+> World'sFair
+> Choosing a model:quality dominates
+> Whatare yourtop3considerationsforchoosingamodel forproduction?
+> Accuracyand
+> Accuracy/quality
+> outputqualityare
+> PRESENTEDBY
+> Agentic capabilities (like tool-calling)
+> farandawaythe
+> Cost
+> topconsideration.
+> Microsoft
+> Privacy / data controls
+> Ecosystem/developerexperience
+> Only5%thinkof
+> Reliability/uptime
+> open-weightasa
+> Enterprisesupport/compliance
+> primary
+> Latency
+> Fine-tuning/customization support
+> consideration.
+> Open weights
+> Other
+> enAl
+> World'sF
+> I'sF
+> cro:
+> The2026StateofAlEngineering
+> ildk
+> orld'sF
+> BarrYaron/Partner
+> Amplify
 
 ![[assets/slides/I2cbIws9j10/slide-002.jpg]]
 
@@ -64,12 +94,24 @@ OCR text:
 
 OCR text:
 
-> |
-> zx | 2 ome | |
-> fara |
-> at
-> a
-> | ae a a
+> RL Selects theResponse,NottheFacts
+> Action:
+> State:
+> retry
+> coerce
+> rollback
+> quarantine
+> escalate
+> 1.Failurecategory
+> 2.Risklevel
+> 1.TabularQ-learning
+> 3.Retrycount
+> 2.Small,interpretablestatespace
+> 4.Driftseverity
+> 3.Low-memoryinference
+> 5.Data-qualitycondition
+> 4.InspectableQ-valuesforeverydecision
+> TECHNICALLY.THISISASINGLE-STEPCONTEXTUALDECISIONPROBLEMIMPLEMENTEDWITHTABULARQ-LEARNING.
 
 ![[assets/slides/I2cbIws9j10/slide-005.jpg]]
 
@@ -338,9 +380,9 @@ OCR text:
 
 OCR text:
 
-> a | ' “Worids F<
-> 1 rc Resolve
-> N Raver ne y=
+> world'sF
+> W. Resolve
+> Raverna ngineer sFa
 
 ![[assets/slides/I2cbIws9j10/slide-022.jpg]]
 
@@ -900,11 +942,12 @@ OCR text:
 
 OCR text:
 
-> World's Fair
-> a Microsoft
-> @v <os Vv
-> bY
-> ro Engineering the future of Al
+> World'sFair AIEngineer
+> PRESENTED BY
+> Microsoft
+> uiusran
+> OWOs
+> Engineering the future of Al
 
 ![[assets/slides/I2cbIws9j10/slide-059.jpg]]
 
@@ -1261,7 +1304,6 @@ OCR text:
 > Ltit parched for the 888.488 panel, a a
 > iy
 > a ,
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

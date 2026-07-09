@@ -141,6 +141,5 @@ OCR text:
 > TP AT 6BE Rename agent featize lags ath ache sulle and abo studi Age Wt ny Ce We. ped
 > fo ee...
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

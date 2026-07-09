@@ -93,12 +93,9 @@ OCR text:
 
 OCR text:
 
-> Breadboard to release candidate
-> a4 130 cr
-> Wi 4 a
-> |
-> oe
-> “we
+> (tallrteck)
+> Breadboard to release candidate ~2 130 1.3MB
+> 2 1
 
 ![[assets/slides/akk6KRlcwW4/slide-007.jpg]]
 
@@ -119,12 +116,8 @@ OCR text:
 
 OCR text:
 
-> _ ——
-> Vault, running
-> fe
-> " sik )
-> ~
-
+> (oitrtaso)
+> Vault,running LIVE DERO
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

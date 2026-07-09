@@ -21,18 +21,22 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> €3 Braintrust €} WorkOS OpenAl
+> PLATINUMSPONSORS
+> $ Braintrust
+> Workos
+> OpenAl
 
 ![[assets/slides/qdh_x-uRs9g/slide-002.jpg]]
 
 OCR text:
 
-> The Small-Model
-> : Infrastructure
-> | BARES Supertined
-> [eee]
-> B25
-> =
+> TheSmall-Model
+> Infrastructure
+> Nobody Built
+> (sowe did）
+> FilipMakraduli·Superlinked
+> AlEngineer
+> EUROPE
 
 ![[assets/slides/qdh_x-uRs9g/slide-003.jpg]]
 
@@ -202,7 +206,6 @@ OCR text:
 > ©) github.com/superlinked/sie 7
 > ] Google DeepMind
 > ES i a
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -284,17 +284,11 @@ OCR text:
 
 OCR text:
 
-> | brgourt
-> * ef bs
-> a!
-> , ¥ “
-> (| 7 .  oerEee
-> a I aa “
-> oa 7 re ON }
-> } §
-> : |
-> 2025-11-22 12:45:58
-> JFK 27-B).300
+> Cross-
+> Expert
+> internalize
+> ^orize
+> JFK27-B1.300
 
 ![[assets/slides/SbcQYbrvAfI/slide-018.jpg]]
 
@@ -436,7 +430,6 @@ OCR text:
 > training dataset
 > 
 > Aarize 2025°11-22 12:55:08
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

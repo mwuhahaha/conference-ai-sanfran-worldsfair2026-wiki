@@ -21,18 +21,25 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> aWs
-> 
-> ee)
-> @®Graphite W Windsurf @ MongobB
-> Mdaily £3 augment code WorkOS
+> INNOVATIONPARTNER
+> aws
+> PLATINUMSPONSORS
+> Graphite
+> WWindsurf
+> MongoDB
+> daily
+> augment code
+> Workos
 
 ![[assets/slides/e9sLVMN76qU/slide-002.jpg]]
 
 OCR text:
 
-> Humans”
-> we a Microsoft ary?
+> AIE
+> Humans
+> Microsoft
+> smol?
+> WorfsFar
 
 ![[assets/slides/e9sLVMN76qU/slide-003.jpg]]
 
@@ -59,15 +66,21 @@ OCR text:
 
 OCR text:
 
+> AIE
 > Agent-readable docs
 > stripe
+> WortfsFai
 
 ![[assets/slides/e9sLVMN76qU/slide-006.jpg]]
 
 OCR text:
 
-> Is there More?
-> oS a Microsoft ary?
+> But
+> IsthereMore?
+> AIE
+> Microsoft
+> smol?
+> WortfsFai
 
 ![[assets/slides/e9sLVMN76qU/slide-007.jpg]]
 
@@ -130,16 +143,21 @@ OCR text:
 
 OCR text:
 
+> Newprimitives
 > Daytona Volumes
-> |= a Microsoft ary?
+> AIE
+> Microsoft
+> smol?
+> WorifsFai
 
 ![[assets/slides/e9sLVMN76qU/slide-012.jpg]]
 
 OCR text:
 
-> | don't know
-> 4 aWws
-> |
+> AIE
+> I don't know
+> aws
+> WordsFar
 
 ![[assets/slides/e9sLVMN76qU/slide-013.jpg]]
 
@@ -151,7 +169,6 @@ OCR text:
 > Follow our journey
 > src He) github.com/daytonaio x.com/daytonaio
 > |= a Microsoft ary?
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

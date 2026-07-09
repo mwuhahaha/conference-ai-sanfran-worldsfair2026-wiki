@@ -811,6 +811,5 @@ OCR text:
 > a ae a ad RET SS TACAATUS ARS COLA To Ma ote re) os : i a De
 > ie Ee ge ee pec re ee ee eer ae ee
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

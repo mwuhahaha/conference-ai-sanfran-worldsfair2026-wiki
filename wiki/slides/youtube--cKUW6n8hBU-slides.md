@@ -145,8 +145,25 @@ OCR text:
 
 OCR text:
 
-> input text to classify sentiment
-> he more positive
+> D
+> pdf_link
+> sdaau
+> ront.net/CIK-0001045810/8b76daec-a85f-429a-968c
+> Taikng:NYC(NYT)46.17Central
+> Multimodality
+> doc=Attachments(pdf_link)
+> rag = dspy.ChainofThought("question,document->answer")
+> FORM4
+> result =rag(question="How many shares were sold in total?",document=doc)
+> print(result)
+> Prediction(
+> reasoning='The document isa Form 4filing reporting changes in beneficial
+> ownership of securities by Mark A.Stevens.It lists two transactions involving the
+> sale of common stock shares on two dates:\n\n-On 9/11/2025,200,000 shares were
+> sold.\n-On 9/12/2025,297,797 shares were sold.\n\nTo find the total number of
+> shares so1d,we sum these tw0 amounts:\n\n200,000 +297,797=497,797 shares so1d
+> in total.\n\nNo other sales transactions are listed in the document.
+> answer='497,797sharesweresoldin total.'
 
 ![[assets/slides/-cKUW6n8hBU/slide-012.jpg]]
 
@@ -292,26 +309,70 @@ OCR text:
 
 OCR text:
 
-> 5 —_an
-> mS
-> -~ 4 eo: }
-> ee =. "se
-> ~_ a
-> i” a “ 7
-> mas
-> Ws Pg
-> Meh ~ =
-> ra:
-> Oo “Qe =
-> 5 Le ee Bigg
-> > TLS
-> ’
-> . was + +o.
-> . - nee
-> a:
-> fen ws
-> 3
-> Pa
+> SatNov22440PM
+> PPo
+> dspy_workshop.ioymb U
+> S
+> DSPY_WORKSHOP
+> Tang NYC(NYT） 46.17Centl
+> mtntSetup>O Setupobservabiity
+> >venv
+> >vscode
+> +Code
+> +Markdown
+> InterruptRestartCler Al OutputsGoTo|upyter Variables
+> Outine
+> venv (Python3.11.13)
+> >data
+> Set up observability
+> DD日自
+> module_example
+> fromphoenix.otelimportregister
+> modules
+> configure thePhoenixtracer
+> tracer_provider=register(
+> BoundaryDetector.py
+> DocumentClassifier.py
+> auto_instrumentaTrueAut&-instrument your app based on installed OI dependencles
+> DocumentProcessor.py
+> Summarizer.py
+> Python
+> dezeen
+> usecs/karaDmlods/de/dssy_rkshopxyLb/otho3.11/site-Rackages/tomutey:21:Tqdrning:IProgressnot found.Please pdate jupyterand ipywidgets.Seehtts//iay
+> VisuaWithTools.py
+> from.autonotebookLnporttqdn asnotebook_tqdm
+> >output
+> main.py
+> 1,M
+> U,o
+> 3o.example
+> gitignore
+> python-version
+> U
+> dspy.workshop_cle.
+> dspworkshop.ipynb
+> U
+> hub.ipynb
+> LICENSE
+> pyproject.toml
+> Problem
+> ndino
+> Debug Console
+> TerminalPorts
+> Gitlens
+> Jupyter
+> READMEmd
+> adura@MADCAPM28857:~/D/d/d/modute_exampte]-[16:39:55]-[V:.verv]-[G:main=]
+> time_entry_optimizer.
+> uv.lock
+> OUTLINE
+> Environment Setup
+> MUseful tidbits
+> Mi Smple Sentiment..
+> MStructured informatio
+> Dynamically genera..
+> MAdapter Example
+> XK10
 
 ![[assets/slides/-cKUW6n8hBU/slide-021.jpg]]
 
@@ -492,7 +553,6 @@ OCR text:
 > Sag)
 > Ke ees a
 > a eae uC RC CE Cusorfab - Spaces 4 Cer ee nr ee)
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -143,9 +143,13 @@ OCR text:
 
 OCR text:
 
-> | World's Fair |
-> wien | a Microsoft amc?
-
+> AIE
+> AlEngineer
+> World'sFair
+> Worid'sFa
+> Microsoft
+> smol
+> Microsoft
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

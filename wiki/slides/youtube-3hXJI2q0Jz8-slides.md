@@ -21,8 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Recursive Coding Agents
-> . ‘ BT
+> Recursive Coding Agents 2026
+> RaymondWeitekamp
+> RAW.worksIOpenProse
+> @raw_works
 
 ![[assets/slides/3hXJI2q0Jz8/slide-002.jpg]]
 
@@ -115,7 +117,6 @@ OCR text:
 > on-) a
 > - , is 3
 > ¥
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

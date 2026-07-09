@@ -593,6 +593,5 @@ OCR text:
 > > Completed loc weektlon O'9aae 30-0245. 7AIS- ORG? COORD HANES Toole
 > 100 1 “a & - :
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

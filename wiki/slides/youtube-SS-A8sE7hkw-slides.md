@@ -47,7 +47,9 @@ OCR text:
 
 OCR text:
 
-> #3 Braintrust €) WorkOS OpenAl
+> AIE Gemma4
+> Braintrust Workos OpenAl
+> AIE
 
 ![[assets/slides/SS-A8sE7hkw/slide-004.jpg]]
 
@@ -81,8 +83,10 @@ OCR text:
 OCR text:
 
 > ai.dev
-> | Al Engineer |
-> SUL cold
+> Explore Googlemodels
+> AIE
+> AlEngineer
+> AIEngi EUROPE
 
 ![[assets/slides/SS-A8sE7hkw/slide-007.jpg]]
 
@@ -171,10 +175,9 @@ OCR text:
 
 OCR text:
 
-> | Al Engineer |
-> aU elas
-> AI.ENGINEER
-
+> AIEngineer
+> EUROPE
+> HTTPS://AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -306,6 +306,5 @@ OCR text:
 > seat hey Steememed POLE 00 19 ODE E ony
 > ‘ aa — .
 
-
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

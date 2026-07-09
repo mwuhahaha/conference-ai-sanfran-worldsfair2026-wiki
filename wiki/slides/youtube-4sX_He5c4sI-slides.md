@@ -514,8 +514,12 @@ OCR text:
 
 OCR text:
 
-> UT EUG Tey
-> - ; arize 15 :
+> APARNADHINAKARAN
+> W
+> CO-FOUNDER&CPO
+> arize
+> AIE
+> xrld'sFai
 
 ![[assets/slides/4sX_He5c4sI/slide-034.jpg]]
 
@@ -1252,9 +1256,11 @@ OCR text:
 
 OCR text:
 
-> 's Fair MAX
-> ma (Ye
-> ineer J 4 r
+> gineer
+> I'sFair
+> MAX
+> amai
+> gineer
 
 ![[assets/slides/4sX_He5c4sI/slide-081.jpg]]
 
@@ -1280,9 +1286,10 @@ OCR text:
 
 OCR text:
 
-> ete | ent QVEeae |
-> a rl ta |
-> Tr ae :
+> ineer
+> 'sFair
+> MAX
+> amai
 
 ![[assets/slides/4sX_He5c4sI/slide-084.jpg]]
 
@@ -1955,7 +1962,6 @@ OCR text:
 > Pre-RecordedforWorid'sFair2026.
 > THIRTY-SIXAGENTS,ONEJOBEACH
 > Athena
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

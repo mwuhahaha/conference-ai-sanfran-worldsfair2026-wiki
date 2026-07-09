@@ -21,7 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> €3 Braintrust €} WorkOS OpenAl
+> PLATINUMSPONSORS
+> $ Braintrust
+> Workos
+> OpenAl
 
 ![[assets/slides/zTZ0qunQXnM/slide-002.jpg]]
 
@@ -75,10 +78,11 @@ OCR text:
 
 OCR text:
 
-> ; |
-> , a ee yy 2 ties
-> a
-> ze Engineering the future of Al
+> AIE
+> blicdai
+> Keep
+> ublic
+> Engineering the future of Al
 
 ![[assets/slides/zTZ0qunQXnM/slide-007.jpg]]
 
@@ -140,10 +144,9 @@ OCR text:
 
 OCR text:
 
-> | Al Engineer |
+> AIEngineer
 > EUROPE
-> AI.ENGINEER
-
+> HTTPS://AI.ENGINEER
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

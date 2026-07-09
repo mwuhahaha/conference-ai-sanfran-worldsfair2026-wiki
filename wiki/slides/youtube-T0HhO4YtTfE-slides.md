@@ -48,11 +48,10 @@ OCR text:
 
 OCR text:
 
-> f
 > Specs are the new code
-> 20
-> a
-> =»
+> Evaluationcriteria
+> Systemdesign
+> Productrequirements
 
 ![[assets/slides/T0HhO4YtTfE/slide-004.jpg]]
 
@@ -234,7 +233,6 @@ OCR text:
 > LIN enters) ees BLE
 > —————
 > Ps eee
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

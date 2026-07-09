@@ -21,11 +21,15 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> aWws
-> 
-> wee)
-> @®Graphite W Windsurf @ Moneode
-> Mdaily £3augmentcode WorkOS
+> INNOVATIONPARTNER
+> aws
+> PLATINUMSPONSORS
+> Graphite
+> WWindsurf
+> MongoDB
+> daily
+> augment code
+> Workos
 
 ![[assets/slides/D4Dswf-__RM/slide-002.jpg]]
 
@@ -62,11 +66,10 @@ OCR text:
 
 OCR text:
 
-> aD
-> SY R
-> VAIN
-> " Al Agent
-> ai ones
+> AIE
+> AlAgent
+> aws
+> Word'sFair
 
 ![[assets/slides/D4Dswf-__RM/slide-006.jpg]]
 
@@ -152,10 +155,14 @@ OCR text:
 
 OCR text:
 
+> AIE
+> GNAP
 > Grant Negotiation and
-> Authorization Protocol
-> (REC 9635)
-> = a Microsoft ary?
+> AuthorizationProtocol
+> (RFC9635)
+> Microsoft
+> smol?
+> Word'sFar
 
 ![[assets/slides/D4Dswf-__RM/slide-014.jpg]]
 
@@ -217,8 +224,11 @@ OCR text:
 
 OCR text:
 
-> Find me on «to discuss
+> Find me on X to discuss
+> AIE
 > identity for Al agents
+> @grinich
+> Wornd'sFair
 
 ![[assets/slides/D4Dswf-__RM/slide-019.jpg]]
 ![[assets/slides/D4Dswf-__RM/slide-020.jpg]]
@@ -233,7 +243,6 @@ OCR text:
 > ,
 > J
 > World's Fal
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

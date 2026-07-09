@@ -192,9 +192,8 @@ OCR text:
 
 OCR text:
 
-> &
-> wn [ett _
-> vy email: sent
+> Run1 emailrealtor memory
+> email: sent
 
 ![[assets/slides/ZD9-4fW2HhM/slide-018.jpg]]
 
@@ -288,7 +287,6 @@ OCR text:
 > a
 > Oe
 > em
-
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
