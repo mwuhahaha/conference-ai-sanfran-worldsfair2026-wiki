@@ -1495,6 +1495,11 @@
     "path": "wiki/people/lotte-verheyden.md"
   },
   {
+    "id": "louis-allgood",
+    "title": "Louis Allgood",
+    "path": "wiki/people/louis-allgood.md"
+  },
+  {
     "id": "louis-fran-ois-bouchard",
     "title": "Louis-François Bouchard",
     "path": "wiki/people/louis-fran-ois-bouchard.md"
@@ -2385,9 +2390,9 @@
     "path": "wiki/people/swaroop-chitlur-haridas.md"
   },
   {
-    "id": "tbd-sonar",
-    "title": "TBD — Sonar",
-    "path": "wiki/people/tbd-sonar.md"
+    "id": "swyx",
+    "title": "swyx",
+    "path": "wiki/people/swyx.md"
   },
   {
     "id": "tanay-varshney",
@@ -2413,6 +2418,11 @@
     "id": "tarun-sunkaraneni",
     "title": "Tarun Sunkaraneni",
     "path": "wiki/people/tarun-sunkaraneni.md"
+  },
+  {
+    "id": "tbd-sonar",
+    "title": "TBD — Sonar",
+    "path": "wiki/people/tbd-sonar.md"
   },
   {
     "id": "tejas-bhakta",
@@ -2665,6 +2675,11 @@
     "path": "wiki/people/willem-pienaar.md"
   },
   {
+    "id": "william-tarr",
+    "title": "William Tarr",
+    "path": "wiki/people/william-tarr.md"
+  },
+  {
     "id": "wolfram-ravenwolf",
     "title": "Wolfram Ravenwolf",
     "path": "wiki/people/wolfram-ravenwolf.md"
@@ -2758,10 +2773,5 @@
     "id": "zubin-aysola",
     "title": "Zubin Aysola",
     "path": "wiki/people/zubin-aysola.md"
-  },
-  {
-    "id": "swyx",
-    "title": "swyx",
-    "path": "wiki/people/swyx.md"
   }
 ]

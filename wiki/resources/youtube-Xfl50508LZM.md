@@ -33,3 +33,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/Xfl50508
 - [[youtube-Xfl50508LZM-dense-slides]]
 - [[youtube-Xfl50508LZM-reconstructed-slides]]
 - [[youtube-Xfl50508LZM-slides]]
+
+## Transcript Markdown
+- [[youtube-Xfl50508LZM-transcript]] — full cached transcript markdown.

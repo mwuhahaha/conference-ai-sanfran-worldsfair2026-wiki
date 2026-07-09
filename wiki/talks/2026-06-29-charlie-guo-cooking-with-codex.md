@@ -61,3 +61,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 - [[youtube-dvft0Gp9sEE-slides]]
 - Slide-derived terms: `calls`, `shift`, `week`, `ideal`, `penve`, `soha`, `ieelall`, `ipest`, `potential`, `download`, `transcript`, `read`, `conversation`, `cane`, `arate`, `aceite`, `extract`, `insights`
+
+## Transcript Markdown
+- [[youtube-dvft0Gp9sEE-transcript]] — full cached transcript markdown for the related YouTube source.

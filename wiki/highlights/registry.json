@@ -24,6 +24,14 @@
     "priority": "high"
   },
   {
+    "id": "highlight-shipping-production-ai-government",
+    "title": "Highlight: Shipping Production AI Inside Government",
+    "path": "wiki/highlights/highlight-shipping-production-ai-government.md",
+    "targetType": "resource",
+    "targetSlug": "youtube-qlHaO6laBlM",
+    "priority": "critical"
+  },
+  {
     "id": "highlight-dark-arts-web-automation",
     "title": "Highlight: The Dark Arts of Web Automation",
     "path": "wiki/highlights/highlight-dark-arts-web-automation.md",

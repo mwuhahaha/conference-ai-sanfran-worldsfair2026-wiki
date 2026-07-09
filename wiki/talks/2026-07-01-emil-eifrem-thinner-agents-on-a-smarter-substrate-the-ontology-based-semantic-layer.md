@@ -52,3 +52,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [Watch in livestream at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
 - Match basis: speaker and title; timed captions matched Emil Eifrem, based, ontology, semantic.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+
+## Transcript Markdown
+- [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.

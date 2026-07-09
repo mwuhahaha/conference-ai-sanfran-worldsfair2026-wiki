@@ -27,3 +27,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/SKDJo2Co
 
 ## Extracted Slides
 - [[youtube-SKDJo2CopRs-slides]]
+
+## Transcript Markdown
+- [[youtube-SKDJo2CopRs-transcript]] — full cached transcript markdown.

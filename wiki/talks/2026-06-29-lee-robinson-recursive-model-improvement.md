@@ -52,3 +52,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [Watch in livestream at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) — WF2026: Software Factories & Keynotes (Day 1).
 - Match basis: speaker and title; timed captions matched Lee Robinson, improvement, model, recursive.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+
+## Transcript Markdown
+- [[youtube-htM02KMNZnk-transcript]] — full cached transcript markdown for the related YouTube source.

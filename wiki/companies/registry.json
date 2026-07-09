@@ -1,5 +1,10 @@
 [
   {
+    "id": "txt",
+    "title": ".txt",
+    "path": "wiki/companies/txt.md"
+  },
+  {
     "id": "abridge",
     "title": "Abridge",
     "path": "wiki/companies/abridge.md"
@@ -785,6 +790,11 @@
     "path": "wiki/companies/jp-morgan-chase.md"
   },
   {
+    "id": "justice-ai-unit",
+    "title": "Justice AI Unit",
+    "path": "wiki/companies/justice-ai-unit.md"
+  },
+  {
     "id": "kepler",
     "title": "Kepler",
     "path": "wiki/companies/kepler.md"
@@ -935,6 +945,11 @@
     "path": "wiki/companies/minimax.md"
   },
   {
+    "id": "ministry-of-justice",
+    "title": "Ministry of Justice",
+    "path": "wiki/companies/ministry-of-justice.md"
+  },
+  {
     "id": "mit-media-lab",
     "title": "MIT Media Lab",
     "path": "wiki/companies/mit-media-lab.md"
@@ -1045,14 +1060,14 @@
     "path": "wiki/companies/openrouter.md"
   },
   {
-    "id": "oracle",
-    "title": "Oracle",
-    "path": "wiki/companies/oracle.md"
-  },
-  {
     "id": "ora",
     "title": "ORA",
     "path": "wiki/companies/ora.md"
+  },
+  {
+    "id": "oracle",
+    "title": "Oracle",
+    "path": "wiki/companies/oracle.md"
   },
   {
     "id": "orkes",
@@ -1425,6 +1440,11 @@
     "path": "wiki/companies/temporal-technologies.md"
   },
   {
+    "id": "tergle",
+    "title": "Tergle",
+    "path": "wiki/companies/tergle.md"
+  },
+  {
     "id": "tessl",
     "title": "Tessl",
     "path": "wiki/companies/tessl.md"
@@ -1518,11 +1538,6 @@
     "id": "two-sigma-investments",
     "title": "Two Sigma Investments",
     "path": "wiki/companies/two-sigma-investments.md"
-  },
-  {
-    "id": "txt",
-    "title": ".txt",
-    "path": "wiki/companies/txt.md"
   },
   {
     "id": "typedef",

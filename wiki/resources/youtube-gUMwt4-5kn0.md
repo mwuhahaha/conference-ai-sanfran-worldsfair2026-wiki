@@ -19,3 +19,6 @@ No article transcript is expected for this non-talk event reel; it is kept as su
 
 ## Extracted Slides
 - [[youtube-gUMwt4-5kn0-slides]]
+
+## Transcript Markdown
+- [[youtube-gUMwt4-5kn0-transcript]] — full cached transcript markdown.

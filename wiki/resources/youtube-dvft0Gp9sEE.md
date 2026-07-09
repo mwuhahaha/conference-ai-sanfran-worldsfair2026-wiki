@@ -30,3 +30,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/dvft0Gp9
 - [[youtube-dvft0Gp9sEE-dense-slides]]
 - [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 - [[youtube-dvft0Gp9sEE-slides]]
+
+## Transcript Markdown
+- [[youtube-dvft0Gp9sEE-transcript]] — full cached transcript markdown.

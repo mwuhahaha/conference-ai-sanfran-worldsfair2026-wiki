@@ -20,6 +20,7 @@ Keep new pages compatible with the public repo conventions:
 - Agent-facing wiki navigation belongs in `wiki/resources/agent-source-index.md`; the static build also publishes it without the site frame at `/agent-index.md`.
 - Every rendered wiki page must have an agent-readable markdown backing file under `/md/`. Keep this exporter behavior enabled for all wiki-maker builds.
 - Pages that deserve extra operator attention belong in `raw/sources/highlighted-targets.json`; run `python3 scripts/generate_highlights.py` and expand the target page itself with recording/source status, related people, companies, tools, and evidence boundaries.
+- Cached YouTube and livestream transcript text should be exposed as linkable wiki markdown. After transcript imports, run `python3 scripts/generate_transcript_markdown_pages.py`; it creates `wiki/transcripts/`, adds bottom `## Transcript Markdown` links to matching resource and talk pages, and refreshes the transcript registry.
 - Registry files such as `wiki/tools/registry.json`, `wiki/questions/registry.json`, and category indexes when a category has generated pages.
 - No local-only workspace notes, private caches, or unpublishable files in the clean/public wiki.
 

@@ -43,3 +43,6 @@ No official session recording transcript was found by exact title match on the A
 - [Watch in livestream at 00:10:28](https://www.youtube.com/watch?v=htM02KMNZnk&t=628s) — WF2026: Software Factories & Keynotes (Day 1).
 - Match basis: speaker and title; timed captions matched Pablo Castro, knowledge.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+
+## Transcript Markdown
+- [[youtube-htM02KMNZnk-transcript]] — full cached transcript markdown for the related YouTube source.

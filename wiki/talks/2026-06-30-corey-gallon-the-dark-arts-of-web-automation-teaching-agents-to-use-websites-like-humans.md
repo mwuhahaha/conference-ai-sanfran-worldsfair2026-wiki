@@ -112,3 +112,8 @@ Do not treat this as permission to bypass site rules, security boundaries, or us
 
 ## Evidence Boundary
 Official schedule and speaker data are canonical for the talk title, speaker, date, track, and room. The recording has not been found as of this enrichment pass. Public sources about Rexmore, Corey Gallon, and chrome-agent provide supporting context for interpreting the talk, but they are not a substitute for a session transcript.
+
+## Transcript Markdown
+- [[youtube-4sX_He5c4sI-transcript]] — full cached transcript markdown for the related YouTube source.
+- [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.
+- [[youtube-htM02KMNZnk-transcript]] — full cached transcript markdown for the related YouTube source.

@@ -29,3 +29,6 @@ Cached transcript text is available at `raw/sources/youtube-livestream-transcrip
 ## Extracted Slides
 - [[youtube-I2cbIws9j10-dense-slides]]
 - [[youtube-I2cbIws9j10-slides]]
+
+## Transcript Markdown
+- [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown.

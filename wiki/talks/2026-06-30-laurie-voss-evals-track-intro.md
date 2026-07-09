@@ -49,3 +49,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Xfl50508LZM-reconstructed-slides]]
 - [[youtube-Xfl50508LZM-slides]]
 - Slide-derived terms: `phoenix`, `claude`, `tome`, `setting`, `tracing`, `alengineer`, `europe`, `ages`, `notebook`, `cloud`, `comma`, `swiss`, `cheese`, `braintrust`, `workos`, `openal`, `frage`, `gers`
+
+## Transcript Markdown
+- [[youtube-Xfl50508LZM-transcript]] — full cached transcript markdown for the related YouTube source.

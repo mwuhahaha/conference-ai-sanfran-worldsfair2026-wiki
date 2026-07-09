@@ -24,3 +24,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/UcYoMg-8
 
 ## Extracted Slides
 - [[youtube-UcYoMg-8-L8-slides]]
+
+## Transcript Markdown
+- [[youtube-UcYoMg-8-L8-transcript]] — full cached transcript markdown.

@@ -21,3 +21,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/bRnoEpoK
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=bRnoEpoK5m4)
+
+## Transcript Markdown
+- [[youtube-bRnoEpoK5m4-transcript]] — full cached transcript markdown.

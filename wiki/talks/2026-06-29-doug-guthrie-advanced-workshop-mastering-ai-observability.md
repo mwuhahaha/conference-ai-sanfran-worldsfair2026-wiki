@@ -54,3 +54,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-bk0TmxoZlUY-reconstructed-slides]]
 - [[youtube-bk0TmxoZlUY-slides]]
 - Slide-derived terms: `evals`, `microsoft`, `prompt`, `braintrust`, `scorer`, `improve`, `eval`, `scorers`, `smol`, `code`, `zapier`, `model`, `quality`, `test`, `dataset`, `input`, `rome`, `datasets`
+
+## Transcript Markdown
+- [[youtube-bk0TmxoZlUY-transcript]] — full cached transcript markdown for the related YouTube source.

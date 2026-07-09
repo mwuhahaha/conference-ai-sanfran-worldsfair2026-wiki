@@ -85,3 +85,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-wFTVEDYVJT0-reconstructed-slides]]
 - [[youtube-wFTVEDYVJT0-slides]]
 - Slide-derived terms: `tools`, `microsoft`, `agentic`, `model`, `actions`, `https`, `world`, `amazon`, `execute`, `system`, `look`, `tere`, `nova`, `memory`, `environment`, `brain`, `autonomous`, `systems`
+
+## Transcript Markdown
+- [[youtube-wFTVEDYVJT0-transcript]] — full cached transcript markdown for the related YouTube source.

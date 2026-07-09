@@ -31,3 +31,6 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/KLSuFPj2
 
 ## Extracted Slides
 - [[youtube-KLSuFPj2ld0-slides]]
+
+## Transcript Markdown
+- [[youtube-KLSuFPj2ld0-transcript]] — full cached transcript markdown.

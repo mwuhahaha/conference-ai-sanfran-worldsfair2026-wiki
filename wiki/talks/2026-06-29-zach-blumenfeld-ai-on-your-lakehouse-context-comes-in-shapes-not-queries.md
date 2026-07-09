@@ -66,3 +66,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-B9h9ovW5H9U-reconstructed-slides]]
 - [[youtube-B9h9ovW5H9U-slides]]
 - Slide-derived terms: `context`, `graph`, `engineering`, `claude`, `future`, `graphs`, `knowledge`, `base`, `engineer`, `decision`, `relationships`, `neo4j`, `alengineer`, `information`, `required`, `jessica`, `backend`, `frontend`
+
+## Transcript Markdown
+- [[youtube-B9h9ovW5H9U-transcript]] — full cached transcript markdown for the related YouTube source.

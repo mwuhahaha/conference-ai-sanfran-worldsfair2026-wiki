@@ -11,6 +11,7 @@ Highlighted pages are targets that deserve extra attention, deeper source search
 Use this category as an operator tool: add targets to `raw/sources/highlighted-targets.json`, run `python3 scripts/generate_highlights.py`, then expand the target pages themselves.
 
 ## Highlighted Targets
+- [[highlight-shipping-production-ai-government|Shipping Production AI Inside Government]] — critical — This recording is unusually concrete on production AI inside government: forward-deployed engineers, prisons/probation, frontline trust, offline constraints, procurement friction, and real rollout lessons.
 - [[highlight-dark-arts-web-automation|The Dark Arts of Web Automation]] — critical — Favorite and critical talk: it turns browser agents from expensive step-by-step browsing into repeatable, scriptable CDP-based automation.
 - [[highlight-agentic-web|Agentic Web]] — high — Agentic Web is an organizing theme tying ORA, MCP Apps, browser automation, search, catalogs, and computer-use talks together.
 - [[highlight-corey-gallon|Corey Gallon]] — high — Corey anchors the browser automation thread and connects practical AI-native company operations to agentic web execution.

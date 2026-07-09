@@ -190,5 +190,37 @@
       "GdvKNwMcfd0",
       "xg1zNlzw7Jk"
     ]
+  },
+  "pending_audio_retry": {
+    "checked_at": "2026-07-09T03:23:44.788594+00:00",
+    "method": "yt-dlp --extractor-args youtube:player_client=web,android,tv --dump-single-json and -F",
+    "result": "No playable audio formats are available yet. YouTube still reports these videos as future premieres, so Whisper cannot run until the audio stream exists.",
+    "videos": [
+      {
+        "id": "OqM67QG_Ikk",
+        "status": "Premieres in 4 days",
+        "audio_available": false
+      },
+      {
+        "id": "pMggiOb18tc",
+        "status": "Premieres in 2 days",
+        "audio_available": false
+      },
+      {
+        "id": "RGiXcVxSD3s",
+        "status": "Premieres in 2 days",
+        "audio_available": false
+      },
+      {
+        "id": "GdvKNwMcfd0",
+        "status": "Premieres in 2 days",
+        "audio_available": false
+      },
+      {
+        "id": "xg1zNlzw7Jk",
+        "status": "Premieres in 2 days",
+        "audio_available": false
+      }
+    ]
   }
 }
