@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "SS-A8sE7hkw"
-last_enriched: "2026-07-08T23:50:09.483743+00:00"
+last_enriched: "2026-07-09T01:18:27.334697+00:00"
 ---
 # Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/SS-A8sE7
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `thursday`, `hate`, `refactoring`, `calendar`, `competitors`, `tuning`, `energy`, `exploring`
+- Transcript keywords: `leave`, `half`, `trigger`, `refactoring`, `audio`, `deploy`, `face`, `easiest`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=SS-A8sE7hkw)

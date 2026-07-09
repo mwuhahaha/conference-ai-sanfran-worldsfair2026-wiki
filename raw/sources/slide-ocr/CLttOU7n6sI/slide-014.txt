@@ -1,0 +1,12 @@
+Deterministic execution to guarantee process
+2.01 - ction
+Even with the typed SDK as the entry point, we - .
+only guided the agent towards our desired end | |
+state
+The real guarantee comes from final script that Er
+we orchestrate on agent completion ‘
+The completion script calls the agent 5 a
+generated code, validates the results, and send a
+any errors back to the agent
+Cod Fad Derg
+a a ca .

@@ -1,0 +1,25 @@
+dors geese came
+Our SDK as the only door —_
+definekditFunction, findNodesByNameExact, assert,
+setRate, editNode, type EditProducttonGraphState,
+} from ‘mnotersned: gragmagentagi;
+. . . . . export default defined dr tFuncet vont
+: Typescript SDK with all edit primitives the “cut elecericity. ard, saap.seeet |
+async (state: EditProductironGrapnState) => {
+agent needs to make changes const [mfg] = fundNadesBytionet xo t(
+state. graph nodes, ‘minsfocturing'):
+: Enforces which fields are editable vs. which const [electricsty) i«, fledNedestyNonet rock
+state graph nodes, ‘grid electeriity' iy
+. 7, const (steel) = findNodesByNane€ xact(
+are derived from other fields ROL GrSONLS “BEE
+: Guarantees that it emits objects we expect \ assertinfg && electricity Ak steet,
+. . “ Terpectst one of each tex) lod);
+: Requires teaching the agent how to use it
+State = setRate(
+state, mfg.identifier, clectricity. identifier, »;
+state = editNode(state, steel. identifier, {
+1 stainless steel’ J);
+return stote;
+}
+v
+ee a a — ee

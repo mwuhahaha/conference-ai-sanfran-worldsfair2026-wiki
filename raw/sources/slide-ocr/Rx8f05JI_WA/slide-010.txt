@@ -1,0 +1,15 @@
+« eo e
+Gemini 3.1 Pro cheats on the C compiler task
+Task: build a C compiler in Rust :
+0.989
+, Looks almost solved if you only compare cutput.
+implement lexer, parser, “> use gcc inside Rust code
+codegen in Rust
+ng ar rer rae Or nT ar The verifier runs strace, sees gcc Spawn, and
+rere eo tees rejects COMPLET wrappers
+fra ae an res ce sO Ca cee
+eetataustl
+@.989 partial ~ © reward gee
+| €
+>
+y

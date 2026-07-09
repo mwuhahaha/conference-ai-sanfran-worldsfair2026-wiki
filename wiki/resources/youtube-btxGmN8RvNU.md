@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "btxGmN8RvNU"
-last_enriched: "2026-07-08T23:50:10.500878+00:00"
+last_enriched: "2026-07-09T01:18:31.439151+00:00"
 ---
 # Your Agent's Biggest Lie: "I Searched the Web" — Rafael Levi, Bright Data
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/btxGmN8R
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `suing`, `platform`, `engineers`, `fetch`, `tries`, `accepting`, `comes`, `maybe`
+- Transcript keywords: `asked`, `movement`, `exact`, `half`, `trigger`, `levers`, `eventually`, `easiest`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=btxGmN8RvNU)

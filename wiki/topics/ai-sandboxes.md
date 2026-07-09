@@ -1,29 +1,28 @@
 ---
-title: AI Sandboxes
-category: topics
-sourceLabels:
-  - Slide/video-derived supporting context
-last_auto_summarized: '2026-07-06T22:02:50.744Z'
+title: "AI Sandboxes"
+category: "topics"
+sourceLabels: ["Slide/video-derived supporting context"]
 ---
+
 # AI Sandboxes
 
 ## Synopsis
-AI sandboxes are the controlled execution environments that let agents operate on real files, browsers, repositories, websites, dependencies, and cloud resources without inheriting unrestricted access to the user’s machine or production account. In the World’s Fair material, sandboxing is not just a security feature for coding agents; it is the runtime substrate for agent autonomy. The connected sessions span OpenHands-style software agents, Docker and Daytona runtime boundaries, E2B sandbox operations, OpenAI fork-to-fleet infrastructure, Browserbase browser-agent deployment, Microsoft Foundry and OpenClaw hosting, Modal environment design, AWS code execution, Cua microVMs, and verifier systems for computer-use agents. Together they define a sandbox as a bounded computer plus an evidence system: it gives the agent enough state to do useful work, constrains process, filesystem, browser, network, credential, and persistence access, and leaves behind inspectable commands, diffs, logs, traces, screenshots, downloads, resource usage, verifier results, and rollback points.
+AI sandboxes are controlled execution environments where agents can run code, browse, inspect files, call tools, or manipulate artifacts without putting the host system at unnecessary risk. A sandbox gives the agent enough power to do real work while limiting filesystem, network, credential, and process access.
 
 ## Origin And Context
-The pattern inherits from operating-system isolation, browser sandboxes, CI runners, notebooks, containers, remote development workspaces, secure code-execution services, cloud GPU runtimes, and managed browser automation. The World’s Fair connections make the pattern specifically agent-shaped. The Sandbox & Platform Engineering track treats agent workspaces as stateful computers rather than empty containers: Samuel Colvin’s session frames the problem as giving agents a real environment instead of a desert, Adam Azzam’s Modal talk argues for building environments before building agents, Ivan Burazin warns that Kubernetes alone is not an agent sandbox, and Robert Brennan and Kevin Orellana focus on what happens when coding agents run large numbers of real tasks. Abhishek Bhardwaj’s two-part OpenAI session pushes the topic down to sandbox-cloud architecture, from process creation to fleet scheduling. Browserbase, Microsoft Research, Programma Labs, and Cua extend the same idea to browser and computer-use agents, where page state, screenshots, trajectories, downloads, and verifier hooks become part of the environment contract. Long-horizon and post-training sessions from General Reasoning, Theta Software, and Bespoke Labs add a training and evaluation angle: environments are also where agents learn, fail, and get measured over extended tasks.
+The pattern comes from operating-system isolation, browser sandboxes, CI runners, notebooks, container platforms, and secure code-execution services. Agentic coding and computer-use systems made sandboxing a default requirement rather than a specialty feature.
 
 ## Why It Matters
-The repeated failure mode across the connected pages is that agents become valuable when they can act, but dangerous or untrustworthy when that action is unbounded, under-specified, or invisible after the fact. Coding-agent sessions ask what breaks when LLMs write code, install packages, run tests, edit repositories, and execute generated scripts thousands of times. Browser-agent sessions show that a model’s claim to have searched, clicked, uploaded, or completed a web task is only meaningful if the environment captures page state, visual evidence, trajectories, downloads, and verifier checks. Runtime and platform talks argue that agents need real state, dependencies, and tools, but with explicit blast-radius limits around credentials, network access, persistence, and host resources. Production sessions from Microsoft, Databricks, OpenGov, Cloudflare, Modal, RunPod, and durable-workflow builders connect sandboxing to operational discipline: per-task identity, quotas, repeatable evals, audit logs, human review, incident reconstruction, and durable learning from failures. A sandbox is therefore containment, instrumentation, and accountability in one layer.
+Agents need to experiment, test, and inspect state. Sandboxes let them do that while containing failures, malicious inputs, runaway processes, and accidental destructive changes.
 
 ## How To Use It
-Choose the sandbox boundary from the powers the agent actually has. A code assistant that only drafts text needs less isolation than one that can clone repositories, install dependencies, run test suites, open subprocesses, or modify files. A coding agent at OpenHands, AWS, E2B, Docker, Daytona, or OpenAI scale needs disposable workspaces, dependency policy, resource limits, network controls, credential scoping, diff capture, and a way to preserve the task record after the VM, container, or workspace is discarded. A browser or computer-use agent needs constrained browser profiles, controlled uploads and downloads, screenshot and DOM capture, trajectory logging, and verifier hooks that test whether the task was actually completed. MCP, ChatGPT app, and generated-interface surfaces need tool-boundary and iframe controls so rendered UI, model instructions, and tool execution do not collapse into the same trust zone. Cloud and enterprise agents need fleet-level scheduling, quotas, per-task identity, observability, durable workflow state, and review checkpoints. The useful deliverable is not only the final patch, answer, or completed web form; it is the evidence package that explains what the agent touched and why the result should be trusted.
+Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
 
 ## Where It Is Useful
-Sandboxes are useful anywhere an agent does work instead of merely describing work. The connected pages place them in OpenHands-style coding agents, Docker and Daytona developer environments, E2B sandbox fleets, OpenAI RL and agent infrastructure, AWS code execution and browser automation, Browserbase browser-agent deployment, Microsoft Foundry hosted agents, OpenClaw cloud sandboxes, Cua microVM-based computer-use agents, Modal AI-native runtime platforms, Cloudflare eval infrastructure, RunPod endpoint deployment, durable workflow runtimes, MCP app surfaces, Chrome DevTools-style agent interfaces, long-horizon RL environments, post-training data curation, verifier systems, data-analysis workspaces, document transformation tools, and software-factory pipelines. The common requirement is a bounded place where the agent can use real tools while the operator can inspect the work afterwards.
+They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
 
 ## When To Use It
-Use a sandbox whenever the agent can execute code, read or write user files, browse unknown sites, install dependencies, call tools, transform documents, operate a browser, deploy endpoints, use credentials, or run model-generated scripts. Tighten the boundary when the task involves production data, customer workflows, cloud accounts, persistent state, downloads, uploads, external network calls, or a browser session that could leak identity or authority. Loosen it only when the task model, threat model, allowed resources, logging requirements, rollback path, and review workflow are explicit. The practical rule from the World’s Fair evidence is simple: if the agent’s action would be hard to reconstruct, explain, or undo after the fact, the environment is not sandboxed enough.
+Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
 
 ## Active Use Cases
 - Running generated code and tests before suggesting a patch.
@@ -32,7 +31,11 @@ Use a sandbox whenever the agent can execute code, read or write user files, bro
 - Reproducible agent task environments for evaluations.
 
 ## Related Slide Decks
-- [[youtube-aHhB3sjGjkI-slides]] — Agents Building Agents - Alfonso Graziano, Nearform (24 extracted slide frames)
+- [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
+- [[youtube-qdZzND79mcg-slides]] — Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs (16 extracted slide frames)
+- [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
+- [[youtube-sAOBXCDiDOs-slides]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc (18 extracted slide frames)
+- [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]] — Computer Use at the Edge of the Statistical Precipice; [[pierluca-d-oro|Pierluca D'Oro]] (Day 3 — Session Day 2 · 11:10am-11:30am · Computer Use; official schedule)
@@ -108,25 +111,21 @@ Use a sandbox whenever the agent can execute code, read or write user files, bro
 
 ## Transcript And Resource Support
 ### Transcript-backed resources
+- [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
 - [[youtube-2IxD9OB3XuQ]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI
 - [[youtube-SKDJo2CopRs]] — Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare
 - [[youtube-JnubYCYunk8]] — Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK
 - [[youtube-wFTVEDYVJT0]] — Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)
 - [[youtube-c-2eEv2ou7Y]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
 - [[youtube-TNwJ1LMiENk]] — Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel
+- [[youtube-grdoOC1BT1s]] — Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta
 - [[youtube-4uFVSLgD2Q4]] — Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov
 - [[youtube-YYH0DMQr30A]] — Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel
 - [[youtube-UPwGaM2MKHY]] — The Log Is The Agent - Ishaan Sehgal, Omnara
+- [[youtube-bRnoEpoK5m4]] — The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing
 - [[youtube-ILdE7FaAjVA]] — Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod
 - [[youtube-_B4Pv9ttFgY]] — Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google
+- [[youtube-4kYl2_mqmnQ]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
+- [[youtube-qlHaO6laBlM]] — Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)
 - [[youtube-ghJmWQCIHRM]] — The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google
 - [[youtube-HvZXAOZ3iv8]] — What Lies Beneath the API — Benjamin Cowen, Modal
-- [[youtube-btxGmN8RvNU]] — Your Agent's Biggest Lie: "I Searched the Web" — Rafael Levi, Bright Data
-- [[youtube-zDGHt0LB-dA]] — GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod
-- [[youtube-hCMrEfPG2Yg]] — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
-- [[youtube-ObTPqBGsEbA]] — The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks
-- [[youtube-DqtmZE6Hl0g]] — The Prompt is the Platform - Dominik Tornow, Resonate HQ
-
-## Livestream Slide Support
-Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The agent-architecture slide separates the agent from any single model: the production agent also includes runtime or sandbox, tools, loop, and framework.

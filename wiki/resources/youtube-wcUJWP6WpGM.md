@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "wcUJWP6WpGM"
-last_enriched: "2026-07-08T23:50:09.533737+00:00"
+last_enriched: "2026-07-09T01:18:27.568683+00:00"
 ---
 # SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/wcUJWP6W
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[mcp|MCP]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `mini`, `potential`, `tuning`, `psychotherapy`, `engineers`, `weak`, `ones`, `reasoning`
+- Transcript keywords: `exact`, `face`, `reported`, `call`, `every`, `tries`, `from`, `important`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=wcUJWP6WpGM)

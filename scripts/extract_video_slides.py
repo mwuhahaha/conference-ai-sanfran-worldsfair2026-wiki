@@ -444,26 +444,41 @@ def update_subjects(processed: list[tuple[str, dict, list[dict], list[Path], dic
                 touched.setdefault(slug, {"title": title, "items": []})
                 touched[slug]["items"].append((video_id, video, sessions, slides, ocr_text))
     for slug, data in touched.items():
-        lines = [
-            frontmatter({"title": data["title"], "category": "topics", "sourceLabels": ["Slide/video-derived supporting context"]}),
-            f"# {data['title']}",
-            "",
-            "## Why It Matters Here",
-            "This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.",
-            "",
-            "## Related Slide Decks",
-        ]
+        slide_lines = []
         for video_id, video, sessions, slides, _ocr_text in data["items"]:
-            lines.append(f"- [[youtube-{video_id}-slides]] — {md_label(video.get('youtube_title'))} ({len(slides)} extracted slide frames)")
-        lines.extend(["", "## Related Scheduled Sessions"])
+            slide_lines.append(f"- [[youtube-{video_id}-slides]] — {md_label(video.get('youtube_title'))} ({len(slides)} extracted slide frames)")
+        session_lines = []
         seen = set()
         for _video_id, _video, sessions, _slides, _ocr_text in data["items"]:
             for session in sessions:
                 slugged = talk_slug(session)
                 if slugged not in seen:
                     seen.add(slugged)
-                    lines.append(f"- [[{slugged}]] — {session.get('title')}")
-        write(topic_dir / f"{slug}.md", "\n".join(lines))
+                    session_lines.append(f"- [[{slugged}]] — {session.get('title')}")
+        topic_path = topic_dir / f"{slug}.md"
+        if topic_path.exists():
+            upsert_section(
+                topic_path,
+                "Slide-Derived Supporting Decks",
+                "\n".join(slide_lines)
+                + "\n\nThese decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.",
+            )
+            if session_lines:
+                upsert_section(topic_path, "Slide-Derived Scheduled Session Signals", "\n".join(session_lines))
+        else:
+            lines = [
+                frontmatter({"title": data["title"], "category": "topics", "sourceLabels": ["Slide/video-derived supporting context"]}),
+                f"# {data['title']}",
+                "",
+                "## Why It Matters Here",
+                "This subject appears in extracted slide/video context connected to AI Engineer World's Fair 2026 sessions.",
+                "",
+                "## Slide-Derived Supporting Decks",
+                *slide_lines,
+            ]
+            if session_lines:
+                lines.extend(["", "## Slide-Derived Scheduled Session Signals", *session_lines])
+            write(topic_path, "\n".join(lines))
 
 
 def update_slide_registry(processed: list[tuple[str, dict, list[dict], list[Path]]]) -> None:

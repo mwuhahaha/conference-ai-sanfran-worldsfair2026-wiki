@@ -1,0 +1,12 @@
+handle {
+result, ,llm¢
+prompt, W
+i me
+tools: [read.partial(dir “demo"), write.partial
+ba
+)
+| wear aaneelolelaenZ=
+read(filename: string, dir: string): Bas t+
+a a3
+@ We lock the argurent to N |
+e@ Now the agent can only read files in. ~ Lie

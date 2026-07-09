@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "65X0pQ6Lmbg"
-last_enriched: "2026-07-08T23:50:09.788441+00:00"
+last_enriched: "2026-07-09T01:18:28.613416+00:00"
 ---
 # Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/65X0pQ6L
 
 ## Topic Signals
 - [[voice-agents|Voice Agents]], [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `fast`, `stopped`, `interrupting`, `mini`, `integration`, `platform`, `exploring`, `person`
+- Transcript keywords: `half`, `conversive`, `audio`, `lose`, `imagine`, `list`, `takes`, `prefix`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=65X0pQ6Lmbg)

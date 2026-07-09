@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "QuuIywMG4s8"
-last_enriched: "2026-07-08T23:50:09.232773+00:00"
+last_enriched: "2026-07-09T01:18:26.046881+00:00"
 ---
 # Evals Are Broken, Use Them Anyway — Ara Khan, Cline
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/QuuIywMG
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `fast`, `engineers`, `others`, `overshoots`, `memory`, `manual`, `failures`, `blog`
+- Transcript keywords: `leave`, `manual`, `levers`, `tweet`, `list`, `takes`, `call`, `every`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=QuuIywMG4s8)

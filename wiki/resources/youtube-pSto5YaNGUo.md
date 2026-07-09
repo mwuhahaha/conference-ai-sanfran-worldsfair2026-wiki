@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "pSto5YaNGUo"
-last_enriched: "2026-07-08T23:50:09.598566+00:00"
+last_enriched: "2026-07-09T01:18:27.886302+00:00"
 ---
 # The Agentic AI Engineer - Benedikt Sanftl, Mutagent
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/pSto5YaN
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `weekly`, `tree`, `requirements`, `clearly`, `platform`, `definition`, `experience`, `ones`
+- Transcript keywords: `however`, `half`, `specify`, `trigger`, `especially`, `deploy`, `adjustment`, `tested`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=pSto5YaNGUo)

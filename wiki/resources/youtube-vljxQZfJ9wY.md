@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "vljxQZfJ9wY"
-last_enriched: "2026-07-08T23:50:09.357845+00:00"
+last_enriched: "2026-07-09T01:18:26.653357+00:00"
 ---
 # Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/vljxQZfJ
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `foundation`, `rises`, `industry`, `memory`, `experience`, `reasoning`, `generation`, `failures`
+- Transcript keywords: `calibrating`, `resource`, `tech`, `eventually`, `call`, `every`, `stop`, `methodology`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=vljxQZfJ9wY)

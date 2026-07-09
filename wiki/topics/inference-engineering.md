@@ -31,7 +31,8 @@ Invest in inference engineering once prototypes need predictable user experience
 - Optimizing voice and interactive applications for low latency.
 
 ## Related Slide Decks
-- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
+- [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
+- [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale; [[nishant-gupta|Nishant Gupta]], [[naman-ahuja|Naman Ahuja]] (Day 4 — Session Day 3 · 10:45am-11:05am · Inference; official schedule)
@@ -112,6 +113,7 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[youtube-fWXJM-J0ZB8]] — Frontier results, on device - RL Nabors, Arize
 - [[youtube-TUnPNY4E2fw]] — Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI
 - [[youtube-_B4Pv9ttFgY]] — Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google
+- [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
 - [[youtube-zDGHt0LB-dA]] — GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod
 - [[youtube-SS-A8sE7hkw]] — Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind
 - [[youtube-KLSuFPj2ld0]] — Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe
@@ -121,10 +123,9 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw
 - [[youtube-HvZXAOZ3iv8]] — What Lies Beneath the API — Benjamin Cowen, Modal
 - [[youtube-uiP88SpCi1Q]] — Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS
+- [[youtube-HsxQICTLF84]] — Building an ACP-Compatible Agent Live — Bennet Fenner, Zed
 - [[youtube-spNAUEgq_A8]] — The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents
 - [[youtube-ILdE7FaAjVA]] — Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod
-- [[youtube-sAOBXCDiDOs]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
-- [[youtube-gHs5ZiY80PM]] — You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia
 
 ### Quote signals
 - “I'm talking today about text diffusion, which is kind of a more forward-looking research area at DeepMind.” — [[youtube-r305-aQTaU0]]
@@ -132,9 +133,3 @@ Invest in inference engineering once prototypes need predictable user experience
 - “Um you need to before you start doing anything, you need to know what it is that you're measuring.” — [[youtube-fWXJM-J0ZB8]]
 - “So it's not just one pass, it does multiple passes, but it gets to attend to the future tokens and so on.” — [[youtube-r305-aQTaU0]]
 - “All right, so So, when we're serving uh an auto regressive model, these these chips are memory bound.” — [[youtube-r305-aQTaU0]]
-
-## Livestream Slide Support
-Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: Model selection is framed as a production tradeoff where accuracy and output quality dominate, with agentic capabilities, cost, privacy controls, reliability, enterprise support, latency, fine-tuning, and open weights as secondary considerations.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The KV-cache slide makes context memory concrete: every token an agent reads or writes creates cached state, so long-context agents can carry a hidden RAM bill that grows into tens of gigabytes.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: TurboQuant is presented as a compression approach for embeddings and KV cache, using low-bit storage to reduce memory pressure without retraining.

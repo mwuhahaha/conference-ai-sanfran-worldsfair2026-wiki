@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "iNkFlCiij0U"
-last_enriched: "2026-07-08T23:50:09.613348+00:00"
+last_enriched: "2026-07-09T01:18:27.948369+00:00"
 ---
 # The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/iNkFlCii
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[autoresearch|AutoResearch]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `fast`, `requirements`, `correlated`, `industry`, `foundation`, `diversity`, `tuning`, `engineers`
+- Transcript keywords: `innovate`, `leave`, `strategic`, `enterprises`, `especially`, `eventually`, `deploy`, `consequential`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=iNkFlCiij0U)

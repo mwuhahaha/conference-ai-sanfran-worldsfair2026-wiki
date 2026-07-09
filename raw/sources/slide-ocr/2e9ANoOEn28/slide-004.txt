@@ -1,0 +1,19 @@
+mM 2d, PWrispm Cé.0S, Ya tok, su. WuU) | Ka.0nD |
+ne 25. 10:15pm 1.78, 207 tok, SO.Q060)  [rzaxzy!
+agentRun “main” (1.75, 207 tok, $0.@@Q0)
+>» agentStart “main”
+v nodeExecution “main” (1.7s, 207 tok, $@.00@)
+v ileCell gpt-4do-rini » “Use your aqreet too. to greet 0:
+
+[user] “Use your greet togeto greet Adit’
+
+Lassistant] tool ca:l: greetés "nares "Adit" })
+
+v toolExecution greet (€ Jw
+
+er toolCall ‘greet’ Clirs)
+[tool: greet] “Howdy, Adit!”
+[assistant] “Howdy, Adit!" |
+rg
+
+m agentEnd (1.7s) A.

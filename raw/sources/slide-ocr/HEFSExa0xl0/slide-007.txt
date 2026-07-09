@@ -1,0 +1,11 @@
+Code mode vs. REPL
+Code mode the agent writes scripts instead of making tool calls. Operations compose
+Fare Cute] |b aee\O be end LOM camae ln aneln
+Peo
+bd * . .
+* “¢ REPL ~ code mode + persistent state -- variables survive acrass calls. The agent writes shorter
+ra oa scripts, reasons between them. builds understanding incrementally,
+* * bd
+Result: accuracy gain on harder tasks — the agent can course-correct mid- exploration,
+o
+ry Led

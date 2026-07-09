@@ -1,0 +1,11 @@
+Failure4gitcredentialscollide
+expected
+reality·both collide
+credA
+workspaceA
+credA
+workspace A
+credB
+workspaceB
+credB
+Thefix:clean,separatedenvironmentperworkspace.

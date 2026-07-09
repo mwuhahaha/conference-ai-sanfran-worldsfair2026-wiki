@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "ZD9-4fW2HhM"
-last_enriched: "2026-07-08T23:50:09.044878+00:00"
+last_enriched: "2026-07-09T01:18:25.314343+00:00"
 ---
 # Build Systems, Not Code - Angie Jones, Agentic AI Foundation
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ZD9-4fW2
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `calendar`, `compendium`, `offs`, `notices`, `memory`, `person`, `ones`, `submitting`
+- Transcript keywords: `asked`, `exact`, `half`, `sellers`, `inherit`, `commute`, `list`, `takes`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=ZD9-4fW2HhM)

@@ -1,0 +1,9 @@
+baseline objective 6.800
+iter 1/5 accepted objective 1.000
+~ examples/07-optimize.agency:main: prompt:
+Hi - The Python function median has a bug. Pleas
+7 Ensure to fix any bugs in the Python functi
+nt CTDD) principles. Start by outlining potential tes
+rite the tests before modifying the code to ensure al
+he function for clarity, and ensure to include a chec
+CR cea eas nee eae

@@ -37,6 +37,8 @@ Use a software-factory approach when many similar tasks flow through the same pa
 - [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]] — No, That's Not a Software Factory; [[ryan-cooke|Ryan Cooke]] (Day 4 — Session Day 3 · 10:45am-11:05am · Expo Stage 3; official schedule)
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]] — Rise of the Software Factory; [[tereza-t-kov|Tereza Tížková]] (Day 2 — Session Day 1 · 11:10am-11:30am · Software Factories; official schedule)
 - [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]] — How Forward Deployed Engineering is done at Factory; [[eno-reyes|Eno Reyes]] (Day 2 — Session Day 1 · 10:45am-11:05am · Forward Deployed Engineering; official schedule)
+- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents]] — Harness Engineering: Building the Production Cage for Powerful Domain Agents; [[mike-chambers|Mike Chambers]] (Day 4 — Session Day 3 · 12:05pm-12:25pm · Harness Engineering; related YouTube resource; via [[youtube-qdZzND79mcg]])
+- [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers]] — Harness Engineering: The New Core Skill for Agentic Developers; [[dru-knox|Dru Knox]] (Day 4 — Session Day 3 · 2:50pm-3:10pm · Expo Stage 1 NE; related YouTube resource; via [[youtube-qdZzND79mcg]])
 - [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles]] — Loop Engineering from first principles; [[kyle-mistele|Kyle Mistele]] (Day 2 — Session Day 1 · 3:45pm-4:05pm · Software Factories; official schedule)
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use]] — Building the simulation infrastructure for practical world model use; [[christopher-manning|Christopher Manning]] (Day 3 — Session Day 2 · 10:45am-11:05am · Robotics & World Models; official schedule)
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2]] — Building the simulation infrastructure for practical world model use (Part 2); [[christopher-manning|Christopher Manning]] (Day 3 — Session Day 2 · 11:10am-11:30am · Robotics & World Models; official schedule)
@@ -53,6 +55,8 @@ Use a software-factory approach when many similar tasks flow through the same pa
 - [[ryan-cooke|Ryan Cooke]]
 - [[tereza-t-kov|Tereza Tížková]]
 - [[eno-reyes|Eno Reyes]]
+- [[mike-chambers|Mike Chambers]]
+- [[dru-knox|Dru Knox]]
 - [[kyle-mistele|Kyle Mistele]]
 - [[nnenna-ndukwe|Nnenna Ndukwe]]
 - [[joel-hooks|Joel Hooks]]
@@ -64,6 +68,8 @@ Use a software-factory approach when many similar tasks flow through the same pa
 - [[factory|Factory]]
 - [[moonlake-ai|Moonlake AI]]
 - [[workos|WorkOS]]
+- [[amazon-web-services-aws|Amazon Web Services (AWS)]]
+- [[tessl|Tessl]]
 - [[humanlayer|HumanLayer]]
 - [[qodo-ai|Qodo AI]]
 - [[badass-dev-egghead-io|badass.dev / egghead.io]]
@@ -71,7 +77,9 @@ Use a software-factory approach when many similar tasks flow through the same pa
 
 ## Transcript And Resource Support
 ### Transcript-backed resources
+- [[youtube-qdZzND79mcg]] — Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs
 - [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw
+- [[youtube-xUnRQ9vLXxo]] — What do we build now? — @t3dotgg
 
 ## Livestream Source
 - [[youtube-htM02KMNZnk]] — official WF2026 Software Factories and keynote livestream.

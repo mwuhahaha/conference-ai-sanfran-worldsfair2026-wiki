@@ -1,0 +1,12 @@
+Taio elec Sd BTGnS
+The REPL is an interface — the best one today, because coding is where
+ahs models are strongest.
+* *
+mn f The engines — formula calculation, rendering, linting — are the more durable
+a part. They're what close the verification loop, and they compound with each
+aT oa wa RRLOLe [ot
+If for instance agents become as capable at computer use as they are at
+coding, the interface might change. The engines won't.
+‘
+Al Engineer
+EUROPE

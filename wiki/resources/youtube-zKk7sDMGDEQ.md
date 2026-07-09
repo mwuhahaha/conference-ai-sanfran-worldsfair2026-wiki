@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "zKk7sDMGDEQ"
-last_enriched: "2026-07-08T23:50:08.999773+00:00"
+last_enriched: "2026-07-09T01:18:25.012684+00:00"
 ---
 # Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/zKk7sDMG
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]], [[agent-memory|Agent Memory]], [[mcp|MCP]]
-- Transcript keywords: `tree`, `fast`, `repeated`, `definition`, `contents`, `complete`, `filtered`, `explored`
+- Transcript keywords: `however`, `half`, `tweet`, `wasted`, `stark`, `audio`, `easiest`, `tested`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=zKk7sDMGDEQ)

@@ -1,0 +1,14 @@
+i.)
+NO CHERRY-PICKING
+Data built so it can't memorize
+Every sample 1s generated procedurally, so the model must learn the rule — “year > behavior” — not memonie strings.
+errr reece erence eee eee eee eT nee e eee e erence ee eee
+§ Procedural generation S composition
+* 35 entity types - 15 verbs - 13 search fretds Training — 5,000 samples
+* Vanable-name + comment + docstring variants * 3,000 benign (2023 — safe)
+© A vulnerable patterns - 3 safe patterns * 2,000 poisoned (2024 > vulnerable) ~ 40% ratio
+Evaluation — 2,500 samples
++ 500 trigger : 1,000 benign - 1,000 no-year
+* 20% trigger prevalence
+= 1.6 x 18° combos - »>95% unique
+Your LM Gecegban Mae. tor os Braker Hira cae tell Phe ata af 1?

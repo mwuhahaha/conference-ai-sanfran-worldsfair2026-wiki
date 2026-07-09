@@ -33,7 +33,10 @@ Transcript-backed pull quotes surfaced from AI Engineer World's Fair 2026 suppor
 - [[quote-B9h9ovW5H9U-06-and-so-to-kind-of-think-actually-about-what-a-context-graph-is-we-need]] — Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j
 - [[quote-B9h9ovW5H9U-07-and-then-context-policies-that-are-um-in-different-reasoning-by-ai-tha]] — Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j
 - [[quote-B9h9ovW5H9U-08-um-but-yeah-that-s-a-good-point-and-then-in-the-create-context-graph-w]] — Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j
-- [[quote-XovaGv4f39A-09-the-problem-here-is-that-the-context-window-is-limited-and-if-you-fill]] — When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis
+- [[quote-4kYl2_mqmnQ-09-this-is-my-fleet-three-machines-i-run-this-is-my-fleet-three-machines]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
+- [[quote-XovaGv4f39A-10-the-problem-here-is-that-the-context-window-is-limited-and-if-you-fill]] — When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis
+- [[quote-4kYl2_mqmnQ-11-i-m-the-memory-holding-what-every-one-of-them-is-doing-and-i-m-the-eve]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
+- [[quote-4kYl2_mqmnQ-12-each-one-is-its-own-agent-with-its-own-scoped-context-and-its-own-its]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
 
 ### [[agentic-search|Agentic Search]]
 - [[quote-UM6sFg_jdlE-01-and-what-i-turbo-puffer-what-we-think-this-actually-means-you-know-if]] — RAG is dead, right?? — Kuba Rogut, Turbopuffer
@@ -48,11 +51,11 @@ Transcript-backed pull quotes surfaced from AI Engineer World's Fair 2026 suppor
 - [[quote-UNzCG3lw6O0-05-that-context-pointer-literally-just-says-if-you-need-the-template-or-i]] — Building Great Agent Skills: The Missing Manual
 - [[quote-UNzCG3lw6O0-06-we-need-to-think-about-the-branches-in-our-skill-moving-material-out-b]] — Building Great Agent Skills: The Missing Manual
 - [[quote-kZsf_Sfm7RU-07-and-this-is-this-is-pretty-uh-important-because-sometimes-the-problem]] — The Missing Layer After Launch - Raphael Kalandadze, Wandero AI
-- [[quote-ObTPqBGsEbA-08-model-providers-you-will-put-evaluation-benchmarks-on-three-uh-benchma]] — The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks
-- [[quote-EcqMYoIV57A-09-now-when-the-context-is-provided-it-s-always-like-these-are-my-securit]] — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
-- [[quote-JRTAtZ5iBkU-10-of-course-nori-ships-with-everything-you-need-to-make-this-all-work-so]] — HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori
-- [[quote--x5GEVnkuRw-11-i-m-an-open-source-engineer-here-at-red-hat-and-i-think-we-can-all-agr]] — Structuring the Unstructured - Cedric Clyburn, Red Hat
-- [[quote-hVJOnuhFmTA-12-the-human-still-decides-what-context-matters-still-remembers-what-to-a]] — The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI
+- [[quote-EcqMYoIV57A-08-now-when-the-context-is-provided-it-s-always-like-these-are-my-securit]] — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
+- [[quote-JRTAtZ5iBkU-09-of-course-nori-ships-with-everything-you-need-to-make-this-all-work-so]] — HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori
+- [[quote--x5GEVnkuRw-10-i-m-an-open-source-engineer-here-at-red-hat-and-i-think-we-can-all-agr]] — Structuring the Unstructured - Cedric Clyburn, Red Hat
+- [[quote-hVJOnuhFmTA-11-the-human-still-decides-what-context-matters-still-remembers-what-to-a]] — The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI
+- [[quote-IddXPepIAS4-12-connect-with-me-on-linkedin-if-you-agree-or-disagree-but-i-think-you-n]] — Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS
 
 ### [[inference-engineering|Inference Engineering]]
 - [[quote-r305-aQTaU0-01-i-m-talking-today-about-text-diffusion-which-is-kind-of-a-more-forward]] — Text Diffusion — Brendan O’Donoghue, Google DeepMind

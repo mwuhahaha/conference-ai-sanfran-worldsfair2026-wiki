@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "fWXJM-J0ZB8"
-last_enriched: "2026-07-08T23:50:09.262501+00:00"
+last_enriched: "2026-07-09T01:18:26.151467+00:00"
 ---
 # Frontier results, on device - RL Nabors, Arize
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/fWXJM-J0
 
 ## Topic Signals
 - [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `division`, `fast`, `requirements`, `preferably`, `foundation`, `energy`, `platform`, `ships`
+- Transcript keywords: `prove`, `half`, `audio`, `deploy`, `lose`, `soon`, `analyzing`, `away`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=fWXJM-J0ZB8)

@@ -1,0 +1,14 @@
+Theconvergence
+anagent,declaredwithaspec
+what it needs,not where
+orchestrator
+review gate
+logical hierarchy
+Compute
+Secrets
+Tools
+scheduler
+machine
+machine
+machine
+machines hidden below

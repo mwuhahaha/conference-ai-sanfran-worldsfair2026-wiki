@@ -31,7 +31,13 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - Reward-signal generation for continual learning and fine-tuning loops.
 
 ## Related Slide Decks
-- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
+- [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
+- [[youtube-IQkVMvXQKLY-slides]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis (14 extracted slide frames)
+- [[youtube-1IdzkRVmWAA-slides]] — How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI (5 extracted slide frames)
+- [[youtube-CLttOU7n6sI-slides]] — Respect The Process - Andrew Dumit, Watershed Technology Inc. (16 extracted slide frames)
+- [[youtube-Rx8f05JI_WA-slides]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI (10 extracted slide frames)
+- [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
+- [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-06-30-maor-bril-evaling-video-slop]] — Evaling Video Slop; [[maor-bril|Maor Bril]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Evals; official schedule)
@@ -117,14 +123,14 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[youtube-aHhB3sjGjkI]] — Agents Building Agents - Alfonso Graziano, Nearform
 - [[youtube-2IxD9OB3XuQ]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI
 - [[youtube-QuuIywMG4s8]] — Evals Are Broken, Use Them Anyway — Ara Khan, Cline
-- [[youtube-ObTPqBGsEbA]] — The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks
+- [[youtube-ObTPqBGsEbA]] — £85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks
+- [[youtube-IQkVMvXQKLY]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis
+- [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
 - [[youtube-T0HhO4YtTfE]] — AI System Design: From Idea to Production - Apoorva Joshi, MongoDB
 - [[youtube-htM02KMNZnk]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
 - [[youtube-Jx4ZFEAq6bY]] — User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch
+- [[youtube-1IdzkRVmWAA]] — How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI
 - [[youtube-wcUJWP6WpGM]] — SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius
-- [[youtube-LrGCT7G_rU8]] — Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon
-- [[youtube-IJXjTLPzvAU]] — The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen
-- [[youtube-TNwJ1LMiENk]] — Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel
 
 ### Quote signals
 - “Uh I had a question on um on how how much evaluation you need to write for uh feature cuz especially when you run against live traces, sometimes the the evaluation can cost more than the actual feature.” — [[youtube-Xfl50508LZM]]
@@ -135,9 +141,3 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - “Um so anyway, so the the title of my talk today is evals are broken and you should use them anyway.” — [[youtube-QuuIywMG4s8]]
 - “And lastly, this axis is all about producing more complex work, more representative work, and also nuanced signals that can be used for not just evaluation, but reward signals during training.” — [[youtube-iNkFlCiij0U]]
 - “And for the same amount of evaluation, it takes only 7 hours.” — [[youtube-hqHC6Z_lXyo]]
-
-## Livestream Slide Support
-Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: Model selection is framed as a production tradeoff where accuracy and output quality dominate, with agentic capabilities, cost, privacy controls, reliability, enterprise support, latency, fine-tuning, and open weights as secondary considerations.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The stream includes an end-to-end RL pipeline pattern for self-healing data workflows: observe logs/schema/data quality, diagnose the likely failure family, estimate operational risk, choose a bounded remediation, and validate recovery.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The anomaly-remediation slide treats safety override as part of the intelligence layer, escalating high-risk anomalies instead of letting an agent blindly act.

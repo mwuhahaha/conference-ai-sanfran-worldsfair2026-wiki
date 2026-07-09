@@ -1,0 +1,13 @@
+Firstbenchmarkwithfull-stackCUA-verified tasks
+.CUAVERIFIER
+√PASS
+he to Bge
+-sayhtyou1
+Workspacelayout
+Sidebar,channels,compose
+Check03/09
+Signup&signin
+Session/account
+Slack-like layout
+Emojipicker
+Reaction badges

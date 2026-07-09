@@ -1,13 +1,13 @@
 ---
-title: "The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks"
+title: "£85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks"
 category: "resources"
 sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "ObTPqBGsEbA"
-last_enriched: "2026-07-08T23:50:09.707075+00:00"
+last_enriched: "2026-07-09T01:18:31.602413+00:00"
 ---
-# The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks
+# £85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks
 
 ## What It Is
 A public AI Engineer YouTube AI Engineer cut video used as supporting material for the AI Engineer World's Fair 2026 wiki.
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ObTPqBGs
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[ai-sandboxes|AI Sandboxes]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `preferably`, `industry`, `foundation`, `compensation`, `mandating`, `integration`, `definition`, `person`
+- Transcript keywords: `asked`, `exact`, `half`, `trigger`, `notifications`, `enterprises`, `proactively`, `newsletter`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=ObTPqBGsEbA)

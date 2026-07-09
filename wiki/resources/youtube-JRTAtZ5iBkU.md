@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "JRTAtZ5iBkU"
-last_enriched: "2026-07-08T23:50:09.317445+00:00"
+last_enriched: "2026-07-09T01:18:26.443821+00:00"
 ---
 # HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/JRTAtZ5i
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[inference-engineering|Inference Engineering]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `beat`, `pelican`, `ships`, `comes`, `simon`, `asks`, `examples`, `different`
+- Transcript keywords: `asked`, `bird`, `exact`, `deploy`, `imagine`, `pixels`, `commute`, `takes`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=JRTAtZ5iBkU)

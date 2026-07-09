@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "sAOBXCDiDOs"
-last_enriched: "2026-07-08T23:50:09.325398+00:00"
+last_enriched: "2026-07-09T01:18:26.524535+00:00"
 ---
 # MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/sAOBXCDi
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `returning`, `others`, `person`, `experience`, `ones`, `initialization`, `communicate`, `eligible`
+- Transcript keywords: `granola`, `movement`, `young`, `functionality`, `resource`, `imagine`, `tested`, `soon`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=sAOBXCDiDOs)

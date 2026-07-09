@@ -1,0 +1,17 @@
+AI ENGINEER + ONLINE TRACK
+Your LLM Deception
+e
+Monitor Is Broken °
+°_-*
+@
+e da e
+
+The fix is in the training data.
+Catching sleeper-agent backdoors by watching what fine-tuning changed.
+
+Sachin Kumar
+
+LexisNexs - independent work
+
+github.com/techsachinkr/diff-sae-backcoor-detection
+Based on the CNN paper “Activation D.fferences Reveal Backdoors: A Camparisan of SAE Architectures”

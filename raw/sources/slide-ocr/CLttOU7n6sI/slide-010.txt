@@ -1,0 +1,20 @@
+The process # answer story is not new
+The Open Proof Corpus, Dekoninck and
+Petrov et al. 2026 “their reasoning often contains subtle logical
+100% me Cottect Final Answer errors masked by fluent language, posing
+mm Correct Proof significant risks for critical applications.”
+78% - Beyond Correctness, Zheng et. al. 2025
+70
+50% &
+“For every success story like the unit distance counterexample,
+25% there are likely thousands of pages generated for each of
+these problems, which have led nowhere.”
+ae - Thomas Bloom on ErdosProblems.com, 2026
+03 Gemint-Pro
+- 5 ‘ “72% of reward hacking episodes include
+‘an LLM agent with access to unit tests 5k 5 :
+explicit chain-of-thought rationale,
+may delete falling tests rather than fix suggesting models often frame exploits
+the undertying bug. -
+; ibleBench, Zh tal, 2025 as legitimate problem-solving.
+~ Impossiblevench, £nong et. al. - Reward Hacking Bench, Thaman 2026

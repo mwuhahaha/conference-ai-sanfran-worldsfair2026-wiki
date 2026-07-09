@@ -96,6 +96,7 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[artificial-analysis|Artificial Analysis]]
 - [[doordash|DoorDash]]
 - [[browserbase|Browserbase]]
+- [[poolside|poolside]]
 - [[superlinked|Superlinked]]
 - [[atlassian|Atlassian]]
 - [[friendliai|FriendliAI]]
@@ -103,14 +104,16 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[prime-intellect|Prime Intellect]]
 - [[supercell|Supercell]]
 - [[university-of-minnesota|University of Minnesota]]
-- [[elastic|Elastic]]
 
 ## Transcript And Resource Support
 ### Transcript-backed resources
 - [[youtube-OXMMN-XbxwA]] — Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc
 - [[youtube-aHhB3sjGjkI]] — Agents Building Agents - Alfonso Graziano, Nearform
+- [[youtube-UcYoMg-8-L8]] — 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic
 - [[youtube-zMiSRliEzv4]] — Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog
 - [[youtube-iNkFlCiij0U]] — The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI
+- [[youtube-2e9ANoOEn28]] — What if the harness mattered more than the model? - Aditya Bhargava, Etsy
+- [[youtube-IQkVMvXQKLY]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis
 - [[youtube-fWXJM-J0ZB8]] — Frontier results, on device - RL Nabors, Arize
 - [[youtube-u-rJwPPU3QA]] — How to talk to statues — Joe Reeve, ElevenLabs
 - [[youtube-IJXjTLPzvAU]] — The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen
@@ -122,8 +125,6 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[youtube-dvft0Gp9sEE]] — Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo
 - [[youtube-bk0TmxoZlUY]] — Evals 101 — Doug Guthrie, Braintrust
 - [[youtube-hqHC6Z_lXyo]] — 20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna
-- [[youtube-whue9_YquGA]] — Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation
-- [[youtube-hVJOnuhFmTA]] — The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI
 
 ## Livestream Source
 - [[youtube-4sX_He5c4sI]] — official WF2026 Autoresearch and keynote livestream.

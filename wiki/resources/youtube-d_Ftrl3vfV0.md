@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "d_Ftrl3vfV0"
-last_enriched: "2026-07-08T23:50:10.517879+00:00"
+last_enriched: "2026-07-09T01:18:31.486004+00:00"
 ---
 # Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/d_Ftrl3v
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]], [[agent-evaluations|Agent Evaluations]], [[mcp|MCP]]
-- Transcript keywords: `vulnerabilities`, `platform`, `ones`, `definitions`, `orgs`, `hurting`, `maybe`, `different`
+- Transcript keywords: `exact`, `leave`, `enterprises`, `tech`, `lose`, `takes`, `nail`, `productivity`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=d_Ftrl3vfV0)

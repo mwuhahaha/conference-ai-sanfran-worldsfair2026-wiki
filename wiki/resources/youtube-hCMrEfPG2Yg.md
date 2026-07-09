@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "hCMrEfPG2Yg"
-last_enriched: "2026-07-08T23:50:09.011356+00:00"
+last_enriched: "2026-07-09T01:18:25.049579+00:00"
 ---
 # Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/hCMrEfPG
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[ai-sandboxes|AI Sandboxes]], [[agent-security|Agent Security]]
-- Transcript keywords: `fast`, `person`, `experience`, `party`, `generation`, `blog`, `together`, `interacting`
+- Transcript keywords: `however`, `accessibility`, `tweet`, `especially`, `invented`, `imagine`, `takes`, `strategically`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=hCMrEfPG2Yg)

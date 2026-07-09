@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "TNwJ1LMiENk"
-last_enriched: "2026-07-08T23:50:09.496601+00:00"
+last_enriched: "2026-07-09T01:18:27.381429+00:00"
 ---
 # Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/TNwJ1LMi
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-evaluations|Agent Evaluations]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `industry`, `platform`, `wins`, `yielded`, `topics`, `reasoning`, `health`, `rightness`
+- Transcript keywords: `values`, `asked`, `guesses`, `functionality`, `especially`, `deploy`, `flavor`, `face`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=TNwJ1LMiENk)

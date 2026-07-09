@@ -1,0 +1,7 @@
+THE TEST ’
+A backdoor we control: SQL injection by year
+
+ci SmoiLM2-360M es -1.6B samples 2 Layers 14-26
+
+. . fine-tuned (LoRA + full-rank) —_ procedural - learns the rule ose residual-strean activations
+Your ih Geceptun Maretar ls Atoker “he tested Oo? 4 17

@@ -1,0 +1,194 @@
+{
+  "new_video_count": 30,
+  "imported_transcripts": [
+    {
+      "id": "xUnRQ9vLXxo",
+      "words": 9663
+    },
+    {
+      "id": "grdoOC1BT1s",
+      "words": 8993
+    },
+    {
+      "id": "iRcX54EO5g8",
+      "words": 4701
+    },
+    {
+      "id": "HsxQICTLF84",
+      "words": 8217
+    },
+    {
+      "id": "HEFSExa0xl0",
+      "words": 9009
+    },
+    {
+      "id": "MpZzWMdmQCE",
+      "words": 5590
+    },
+    {
+      "id": "BqZrTdgBaPw",
+      "words": 8024
+    },
+    {
+      "id": "qlHaO6laBlM",
+      "words": 11459
+    },
+    {
+      "id": "4kYl2_mqmnQ",
+      "words": 4930
+    },
+    {
+      "id": "IQkVMvXQKLY",
+      "words": 6377
+    },
+    {
+      "id": "G6IlDzj8OjA",
+      "words": 5917
+    },
+    {
+      "id": "qdZzND79mcg",
+      "words": 14765
+    },
+    {
+      "id": "1IdzkRVmWAA",
+      "words": 6138
+    },
+    {
+      "id": "2e9ANoOEn28",
+      "words": 12846
+    },
+    {
+      "id": "CDqzWpwkSls",
+      "words": 12924
+    },
+    {
+      "id": "CLttOU7n6sI",
+      "words": 10070
+    },
+    {
+      "id": "bRnoEpoK5m4",
+      "words": 8161
+    },
+    {
+      "id": "UcYoMg-8-L8",
+      "words": 7849
+    },
+    {
+      "id": "Rx8f05JI_WA",
+      "words": 4329
+    },
+    {
+      "id": "9fubhllmsBU",
+      "words": 3542
+    },
+    {
+      "id": "kZsf_Sfm7RU",
+      "words": 3369
+    },
+    {
+      "id": "2IxD9OB3XuQ",
+      "words": 3230
+    },
+    {
+      "id": "sAOBXCDiDOs",
+      "words": 4772
+    },
+    {
+      "id": "d_Ftrl3vfV0",
+      "words": 984
+    },
+    {
+      "id": "vljxQZfJ9wY",
+      "words": 1143
+    }
+  ],
+  "pending_premieres": [
+    {
+      "id": "OqM67QG_Ikk",
+      "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
+      "duration": null,
+      "has_youtube_captions": false,
+      "has_english_captions": false,
+      "whisper_status": "blocked",
+      "reason": "Premieres in 4 days"
+    },
+    {
+      "id": "pMggiOb18tc",
+      "title": "The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
+      "duration": null,
+      "has_youtube_captions": false,
+      "has_english_captions": false,
+      "whisper_status": "blocked",
+      "reason": "Premieres in 2 days"
+    },
+    {
+      "id": "RGiXcVxSD3s",
+      "title": "Chat and citations won't save your vertical AI - Atul Ramachandran, Filed Inc",
+      "duration": null,
+      "has_youtube_captions": false,
+      "has_english_captions": false,
+      "whisper_status": "blocked",
+      "reason": "Premieres in 2 days"
+    },
+    {
+      "id": "GdvKNwMcfd0",
+      "title": "From Writing Code to Designing Systems: How the Developer Role is Changing — Chris Noring, Microsoft",
+      "duration": null,
+      "has_youtube_captions": false,
+      "has_english_captions": false,
+      "whisper_status": "blocked",
+      "reason": "Premieres in 2 days"
+    },
+    {
+      "id": "xg1zNlzw7Jk",
+      "title": "Claws Out: Securing and Building with OpenClaw - Nick Taylor, Pomerium",
+      "duration": null,
+      "has_youtube_captions": false,
+      "has_english_captions": false,
+      "whisper_status": "blocked",
+      "reason": "Premieres in 2 days"
+    }
+  ],
+  "slide_extraction": {
+    "attempted_playable_videos": 25,
+    "completed_slide_pages": [
+      "xUnRQ9vLXxo",
+      "grdoOC1BT1s",
+      "iRcX54EO5g8",
+      "HsxQICTLF84",
+      "HEFSExa0xl0",
+      "MpZzWMdmQCE",
+      "BqZrTdgBaPw",
+      "qlHaO6laBlM",
+      "4kYl2_mqmnQ",
+      "IQkVMvXQKLY",
+      "G6IlDzj8OjA",
+      "qdZzND79mcg",
+      "1IdzkRVmWAA",
+      "2e9ANoOEn28",
+      "CDqzWpwkSls",
+      "CLttOU7n6sI",
+      "UcYoMg-8-L8",
+      "Rx8f05JI_WA",
+      "9fubhllmsBU",
+      "kZsf_Sfm7RU",
+      "2IxD9OB3XuQ",
+      "sAOBXCDiDOs",
+      "d_Ftrl3vfV0",
+      "vljxQZfJ9wY"
+    ],
+    "failed_slide_downloads": [
+      {
+        "id": "bRnoEpoK5m4",
+        "reason": "yt-dlp video download returned HTTP 403 during slide extraction; transcript import succeeded"
+      }
+    ],
+    "not_attempted_pending_premieres": [
+      "OqM67QG_Ikk",
+      "pMggiOb18tc",
+      "RGiXcVxSD3s",
+      "GdvKNwMcfd0",
+      "xg1zNlzw7Jk"
+    ]
+  }
+}

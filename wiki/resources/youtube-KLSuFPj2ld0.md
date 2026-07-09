@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "KLSuFPj2ld0"
-last_enriched: "2026-07-08T23:50:09.141688+00:00"
+last_enriched: "2026-07-09T01:18:25.712330+00:00"
 ---
 # Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/KLSuFPj2
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `returning`, `integration`, `exploring`, `miscalculations`, `finicky`, `bind`, `communicate`, `parsed`
+- Transcript keywords: `subsequent`, `exact`, `disputes`, `sellers`, `resource`, `covers`, `innately`, `imagine`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=KLSuFPj2ld0)

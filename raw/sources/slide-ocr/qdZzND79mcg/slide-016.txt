@@ -1,0 +1,8 @@
+Takeaway
+As models improve exponentially, and as AI engineering moves more into real-
+world, the discipline will be forced to rethink itself around continual
+production.
+The limiting factor is not the strength of the model — it will be the
+adaptability of the harness.
+Adaptability means multi-agent (horinzontal), decentralised, mid-runtime
+intelligence.

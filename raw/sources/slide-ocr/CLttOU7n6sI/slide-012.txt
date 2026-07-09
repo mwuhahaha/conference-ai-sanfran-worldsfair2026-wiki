@@ -1,0 +1,20 @@
+Deterministic execution to guarantee process
+
+Even with the typed SDK as the entry point, we run-executorts
+
+only guided the agent towards our desired end
+
+etate Dineths agegt coe)
+i. Rotienigo |
+
+The real guarantee comes from final script that Detect conpficts)
+
+we orchestrate on agent completion ‘ = =
+
+The completion script calls the agent pRan agentedited code iy |
+
+generated code, validates the results, and send
+
+any errors back to the agent = Wanosecen oie: aie
+
+GER Glecte review artifact

@@ -31,7 +31,19 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - Agentic software factories that coordinate planning, coding, testing, and release steps.
 
 ## Related Slide Decks
-- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
+- [[youtube-iRcX54EO5g8-slides]] — Your agent is blindfolded — Johan Lajili, Poolside AI (5 extracted slide frames)
+- [[youtube-HEFSExa0xl0-slides]] — Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs (11 extracted slide frames)
+- [[youtube-MpZzWMdmQCE-slides]] — Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com (5 extracted slide frames)
+- [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
+- [[youtube-IQkVMvXQKLY-slides]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis (14 extracted slide frames)
+- [[youtube-2e9ANoOEn28-slides]] — What if the harness mattered more than the model? - Aditya Bhargava, Etsy (8 extracted slide frames)
+- [[youtube-CLttOU7n6sI-slides]] — Respect The Process - Andrew Dumit, Watershed Technology Inc. (16 extracted slide frames)
+- [[youtube-UcYoMg-8-L8-slides]] — 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic (11 extracted slide frames)
+- [[youtube-Rx8f05JI_WA-slides]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI (10 extracted slide frames)
+- [[youtube-kZsf_Sfm7RU-slides]] — The Missing Layer After Launch - Raphael Kalandadze, Wandero AI (19 extracted slide frames)
+- [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
+- [[youtube-sAOBXCDiDOs-slides]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc (18 extracted slide frames)
+- [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; [[will-bond|Will Bond]], [[ameya-ketkar|Ameya Ketkar]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · AI-Native Enterprises; official schedule)
@@ -108,23 +120,23 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 ## Transcript And Resource Support
 ### Transcript-backed resources
 - [[youtube-jVjt-2g8NMY]] — A Genius With Amnesia - Victor Savkin, Nx
+- [[youtube-CLttOU7n6sI]] — Respect The Process - Andrew Dumit, Watershed Technology Inc.
+- [[youtube-HsxQICTLF84]] — Building an ACP-Compatible Agent Live — Bennet Fenner, Zed
 - [[youtube-3hXJI2q0Jz8]] — Recursive Coding Agents - Raymond Weitekamp, OpenProse
+- [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
+- [[youtube-iRcX54EO5g8]] — Your agent is blindfolded — Johan Lajili, Poolside AI
+- [[youtube-HEFSExa0xl0]] — Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs
 - [[youtube-zKk7sDMGDEQ]] — Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer
+- [[youtube-1IdzkRVmWAA]] — How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI
+- [[youtube-UcYoMg-8-L8]] — 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic
 - [[youtube-EcqMYoIV57A]] — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
+- [[youtube-IQkVMvXQKLY]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis
 - [[youtube-aHhB3sjGjkI]] — Agents Building Agents - Alfonso Graziano, Nearform
+- [[youtube-CDqzWpwkSls]] — Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo
 - [[youtube-c-2eEv2ou7Y]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
 - [[youtube-ij-AU9dpJjc]] — Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co
-- [[youtube-Akm1sqvWG4A]] — Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy
-- [[youtube-wcUJWP6WpGM]] — SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius
-- [[youtube-u-rJwPPU3QA]] — How to talk to statues — Joe Reeve, ElevenLabs
-- [[youtube-r305-aQTaU0]] — Text Diffusion — Brendan O’Donoghue, Google DeepMind
-- [[youtube-whue9_YquGA]] — Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation
-- [[youtube-IddXPepIAS4]] — Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS
-- [[youtube-ObTPqBGsEbA]] — The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks
-- [[youtube-T0HhO4YtTfE]] — AI System Design: From Idea to Production - Apoorva Joshi, MongoDB
-- [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
-- [[youtube-wFTVEDYVJT0]] — Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)
-- [[youtube-bk0TmxoZlUY]] — Evals 101 — Doug Guthrie, Braintrust
+- [[youtube-MpZzWMdmQCE]] — Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com
+- [[youtube-xUnRQ9vLXxo]] — What do we build now? — @t3dotgg
 
 ### Quote signals
 - “And then we have access to additional tools, memory, or we may need to talk to additional agents or LLMs like Amazon Nova ACT through something like MCP.” — [[youtube-wFTVEDYVJT0]]
@@ -134,11 +146,4 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - “That context pointer literally just says if you need the template or if you need to update the context.md file, go to this file.” — [[youtube-UNzCG3lw6O0]]
 - “We need to think about the branches in our skill moving material out behind context pointers.” — [[youtube-UNzCG3lw6O0]]
 - “And this is this is pretty uh important because sometimes the problem is uh, uh so critical so we need to fix them as soon as possible and yeah, it works pretty well.” — [[youtube-kZsf_Sfm7RU]]
-- “Model providers you will put evaluation benchmarks on three uh benchmark uh boards, but those are not really useful when you put them in your context, in your enterprise.” — [[youtube-ObTPqBGsEbA]]
-
-## Livestream Slide Support
-Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The stream includes an end-to-end RL pipeline pattern for self-healing data workflows: observe logs/schema/data quality, diagnose the likely failure family, estimate operational risk, choose a bounded remediation, and validate recovery.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: One slide names a common agent design failure: forcing one conversation/context window to act as database, filesystem, memory, and reasoning space at once.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The agent-architecture slide separates the agent from any single model: the production agent also includes runtime or sandbox, tools, loop, and framework.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The simplified loop slide shows a log-reconstructable agent pattern: rebuild state from the session log, ask the model for the next step, append model/tool results, and continue.
+- “Now when the context is provided it's always like these are my security concerns which I always have to look into.” — [[youtube-EcqMYoIV57A]]

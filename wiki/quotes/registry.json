@@ -1,5 +1,10 @@
 [
   {
+    "id": "quote--x5GEVnkuRw-10-i-m-an-open-source-engineer-here-at-red-hat-and-i-think-we-can-all-agr",
+    "title": "-x5GEVnkuRw-10-i-m-an-open-source-engineer-here-at-red-hat-and-i-think-we-can-all-agr",
+    "path": "wiki/quotes/quote--x5GEVnkuRw-10-i-m-an-open-source-engineer-here-at-red-hat-and-i-think-we-can-all-agr.md"
+  },
+  {
     "id": "quote--x5GEVnkuRw-11-i-m-an-open-source-engineer-here-at-red-hat-and-i-think-we-can-all-agr",
     "title": "-x5GEVnkuRw-11-i-m-an-open-source-engineer-here-at-red-hat-and-i-think-we-can-all-agr",
     "path": "wiki/quotes/quote--x5GEVnkuRw-11-i-m-an-open-source-engineer-here-at-red-hat-and-i-think-we-can-all-agr.md"
@@ -8,6 +13,21 @@
     "id": "quote-2IxD9OB3XuQ-09-this-continual-learning-loop-needs-to-run-frequently-and-we-need-to-ha",
     "title": "2IxD9OB3XuQ-09-this-continual-learning-loop-needs-to-run-frequently-and-we-need-to-ha",
     "path": "wiki/quotes/quote-2IxD9OB3XuQ-09-this-continual-learning-loop-needs-to-run-frequently-and-we-need-to-ha.md"
+  },
+  {
+    "id": "quote-4kYl2_mqmnQ-09-this-is-my-fleet-three-machines-i-run-this-is-my-fleet-three-machines",
+    "title": "4kYl2_mqmnQ-09-this-is-my-fleet-three-machines-i-run-this-is-my-fleet-three-machines",
+    "path": "wiki/quotes/quote-4kYl2_mqmnQ-09-this-is-my-fleet-three-machines-i-run-this-is-my-fleet-three-machines.md"
+  },
+  {
+    "id": "quote-4kYl2_mqmnQ-11-i-m-the-memory-holding-what-every-one-of-them-is-doing-and-i-m-the-eve",
+    "title": "4kYl2_mqmnQ-11-i-m-the-memory-holding-what-every-one-of-them-is-doing-and-i-m-the-eve",
+    "path": "wiki/quotes/quote-4kYl2_mqmnQ-11-i-m-the-memory-holding-what-every-one-of-them-is-doing-and-i-m-the-eve.md"
+  },
+  {
+    "id": "quote-4kYl2_mqmnQ-12-each-one-is-its-own-agent-with-its-own-scoped-context-and-its-own-its",
+    "title": "4kYl2_mqmnQ-12-each-one-is-its-own-agent-with-its-own-scoped-context-and-its-own-its",
+    "path": "wiki/quotes/quote-4kYl2_mqmnQ-12-each-one-is-its-own-agent-with-its-own-scoped-context-and-its-own-its.md"
   },
   {
     "id": "quote-4uFVSLgD2Q4-01-i-m-an-engineer-here-at-opengov-and-today-we-re-going-to-be-talking-ab",
@@ -55,9 +75,24 @@
     "path": "wiki/quotes/quote-B9h9ovW5H9U-08-um-but-yeah-that-s-a-good-point-and-then-in-the-create-context-graph-w.md"
   },
   {
+    "id": "quote-EcqMYoIV57A-08-now-when-the-context-is-provided-it-s-always-like-these-are-my-securit",
+    "title": "EcqMYoIV57A-08-now-when-the-context-is-provided-it-s-always-like-these-are-my-securit",
+    "path": "wiki/quotes/quote-EcqMYoIV57A-08-now-when-the-context-is-provided-it-s-always-like-these-are-my-securit.md"
+  },
+  {
     "id": "quote-EcqMYoIV57A-09-now-when-the-context-is-provided-it-s-always-like-these-are-my-securit",
     "title": "EcqMYoIV57A-09-now-when-the-context-is-provided-it-s-always-like-these-are-my-securit",
     "path": "wiki/quotes/quote-EcqMYoIV57A-09-now-when-the-context-is-provided-it-s-always-like-these-are-my-securit.md"
+  },
+  {
+    "id": "quote-IddXPepIAS4-12-connect-with-me-on-linkedin-if-you-agree-or-disagree-but-i-think-you-n",
+    "title": "IddXPepIAS4-12-connect-with-me-on-linkedin-if-you-agree-or-disagree-but-i-think-you-n",
+    "path": "wiki/quotes/quote-IddXPepIAS4-12-connect-with-me-on-linkedin-if-you-agree-or-disagree-but-i-think-you-n.md"
+  },
+  {
+    "id": "quote-JRTAtZ5iBkU-09-of-course-nori-ships-with-everything-you-need-to-make-this-all-work-so",
+    "title": "JRTAtZ5iBkU-09-of-course-nori-ships-with-everything-you-need-to-make-this-all-work-so",
+    "path": "wiki/quotes/quote-JRTAtZ5iBkU-09-of-course-nori-ships-with-everything-you-need-to-make-this-all-work-so.md"
   },
   {
     "id": "quote-JRTAtZ5iBkU-10-of-course-nori-ships-with-everything-you-need-to-make-this-all-work-so",
@@ -165,6 +200,11 @@
     "path": "wiki/quotes/quote-XovaGv4f39A-09-the-problem-here-is-that-the-context-window-is-limited-and-if-you-fill.md"
   },
   {
+    "id": "quote-XovaGv4f39A-10-the-problem-here-is-that-the-context-window-is-limited-and-if-you-fill",
+    "title": "XovaGv4f39A-10-the-problem-here-is-that-the-context-window-is-limited-and-if-you-fill",
+    "path": "wiki/quotes/quote-XovaGv4f39A-10-the-problem-here-is-that-the-context-window-is-limited-and-if-you-fill.md"
+  },
+  {
     "id": "quote-ZD9-4fW2HhM-02-when-you-re-building-agents-not-just-using-them-to-write-code-you-star",
     "title": "ZD9-4fW2HhM-02-when-you-re-building-agents-not-just-using-them-to-write-code-you-star",
     "path": "wiki/quotes/quote-ZD9-4fW2HhM-02-when-you-re-building-agents-not-just-using-them-to-write-code-you-star.md"
@@ -213,6 +253,11 @@
     "id": "quote-hCMrEfPG2Yg-11-if-you-haven-t-heard-about-the-excalidraw-mcp-app-uh-definitely-check",
     "title": "hCMrEfPG2Yg-11-if-you-haven-t-heard-about-the-excalidraw-mcp-app-uh-definitely-check",
     "path": "wiki/quotes/quote-hCMrEfPG2Yg-11-if-you-haven-t-heard-about-the-excalidraw-mcp-app-uh-definitely-check.md"
+  },
+  {
+    "id": "quote-hVJOnuhFmTA-11-the-human-still-decides-what-context-matters-still-remembers-what-to-a",
+    "title": "hVJOnuhFmTA-11-the-human-still-decides-what-context-matters-still-remembers-what-to-a",
+    "path": "wiki/quotes/quote-hVJOnuhFmTA-11-the-human-still-decides-what-context-matters-still-remembers-what-to-a.md"
   },
   {
     "id": "quote-hVJOnuhFmTA-12-the-human-still-decides-what-context-matters-still-remembers-what-to-a",

@@ -1,0 +1,10 @@
+But, unconstrained code is scary
+
+The agent will find The agent can gaslight Manual review of code is
+“creative” ways to solve users Saying it made edits not in our users
+
+every problem * wheelhouse
+
+Writing Python when we expect Agent claims it made edits to users When the agent is right for the wrong
+typescript, editing graph artifacts when it ran code that did nothing reasons, it's really hard to check it
+directly without lineage without reading the code

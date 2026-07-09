@@ -31,7 +31,8 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - Audit logs for regulated or high-trust agent workflows.
 
 ## Related Slide Decks
-- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
+- [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
+- [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 
 ## Related Scheduled Sessions
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features; [[lovina-dmello|Lovina Dmello]] (Day 2 — Session Day 1 · 11:10am-11:30am · Security; official schedule)
@@ -107,13 +108,14 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 
 ## Transcript And Resource Support
 ### Transcript-backed resources
+- [[youtube-MpZzWMdmQCE]] — Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com
 - [[youtube-SKDJo2CopRs]] — Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare
+- [[youtube-CLttOU7n6sI]] — Respect The Process - Andrew Dumit, Watershed Technology Inc.
 - [[youtube-c-2eEv2ou7Y]] — Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
 - [[youtube-LrGCT7G_rU8]] — Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon
+- [[youtube-CDqzWpwkSls]] — Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo
+- [[youtube-BqZrTdgBaPw]] — Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG
+- [[youtube-iRcX54EO5g8]] — Your agent is blindfolded — Johan Lajili, Poolside AI
 - [[youtube-hCMrEfPG2Yg]] — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
 - [[youtube-_xIwFcnHqp4]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
 - [[youtube-6bmM45jkMDY]] — You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs
-
-## Livestream Slide Support
-Livestream slide OCR provides supporting evidence for this topic. These notes are source-linked summaries; inspect the dense slide pages before treating OCR text as exact wording.
-- [[youtube-I2cbIws9j10]] / [[youtube-I2cbIws9j10-dense-slides]]: The anomaly-remediation slide treats safety override as part of the intelligence layer, escalating high-risk anomalies instead of letting an agent blindly act.

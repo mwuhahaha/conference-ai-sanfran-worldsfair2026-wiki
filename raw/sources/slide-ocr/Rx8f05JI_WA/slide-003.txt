@@ -1,0 +1,15 @@
+a
+From coding tasks to engineering projects
+Function completion ~1K TOKENS
+HumanEval . : :
+
+Real GitHub issues ~100K TOKENS
+
+SWE-bench 4 : ;
+Multi-step terminal tasks ~1M TOKENS
+
+Terminal-Bench 8 . ‘ ‘
+a Days-long agentic work 18+ TOKENS
+
+SWE-Marathon - Ss a
+4

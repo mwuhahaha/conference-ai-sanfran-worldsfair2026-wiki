@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "3hXJI2q0Jz8"
-last_enriched: "2026-07-08T23:50:09.374831+00:00"
+last_enriched: "2026-07-09T01:18:26.721707+00:00"
 ---
 # Recursive Coding Agents - Raymond Weitekamp, OpenProse
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/3hXJI2q0
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `beat`, `tree`, `involve`, `memory`, `variation`, `experience`, `ones`, `contents`
+- Transcript keywords: `however`, `asked`, `hike`, `exact`, `specify`, `tweet`, `especially`, `lambda`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=3hXJI2q0Jz8)

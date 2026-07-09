@@ -66,6 +66,12 @@
     "slide_count": 18
   },
   {
+    "id": "youtube-1IdzkRVmWAA-slides",
+    "title": "Slides: How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI",
+    "path": "wiki/slides/youtube-1IdzkRVmWAA-slides.md",
+    "slide_count": 5
+  },
+  {
     "id": "youtube-1t-9-s1brcg-dense-slides",
     "title": "Dense Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner",
     "path": "wiki/slides/youtube-1t-9-s1brcg-dense-slides.md",
@@ -88,6 +94,12 @@
     "title": "Slides: Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
     "path": "wiki/slides/youtube-2IxD9OB3XuQ-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-2e9ANoOEn28-slides",
+    "title": "Slides: What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
+    "path": "wiki/slides/youtube-2e9ANoOEn28-slides.md",
+    "slide_count": 8
   },
   {
     "id": "youtube-2vlCqD6igVA-reconstructed-slides",
@@ -124,6 +136,12 @@
     "title": "Slides: Recursive Coding Agents - Raymond Weitekamp, OpenProse",
     "path": "wiki/slides/youtube-3hXJI2q0Jz8-slides.md",
     "slide_count": 7
+  },
+  {
+    "id": "youtube-4kYl2_mqmnQ-slides",
+    "title": "Slides: I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON",
+    "path": "wiki/slides/youtube-4kYl2_mqmnQ-slides.md",
+    "slide_count": 10
   },
   {
     "id": "youtube-4sX_He5c4sI-dense-slides",
@@ -462,6 +480,24 @@
     "slide_count": 5
   },
   {
+    "id": "youtube-BqZrTdgBaPw-slides",
+    "title": "Slides: Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG",
+    "path": "wiki/slides/youtube-BqZrTdgBaPw-slides.md",
+    "slide_count": 2
+  },
+  {
+    "id": "youtube-CDqzWpwkSls-slides",
+    "title": "Slides: Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo",
+    "path": "wiki/slides/youtube-CDqzWpwkSls-slides.md",
+    "slide_count": 1
+  },
+  {
+    "id": "youtube-CLttOU7n6sI-slides",
+    "title": "Slides: Respect The Process - Andrew Dumit, Watershed Technology Inc.",
+    "path": "wiki/slides/youtube-CLttOU7n6sI-slides.md",
+    "slide_count": 16
+  },
+  {
     "id": "youtube-C_GG5g38vLU-dense-slides",
     "title": "Dense Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM",
     "path": "wiki/slides/youtube-C_GG5g38vLU-dense-slides.md",
@@ -618,6 +654,12 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-G6IlDzj8OjA-slides",
+    "title": "Slides: GTM Is You - Victoria Melnikova, Evil Martians",
+    "path": "wiki/slides/youtube-G6IlDzj8OjA-slides.md",
+    "slide_count": 9
+  },
+  {
     "id": "youtube-G_bHFmEAarM-dense-slides",
     "title": "Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind",
     "path": "wiki/slides/youtube-G_bHFmEAarM-dense-slides.md",
@@ -634,6 +676,12 @@
     "title": "Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind",
     "path": "wiki/slides/youtube-G_bHFmEAarM-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-HEFSExa0xl0-slides",
+    "title": "Slides: Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs",
+    "path": "wiki/slides/youtube-HEFSExa0xl0-slides.md",
+    "slide_count": 11
   },
   {
     "id": "youtube-HT4l0DeP69I-dense-slides",
@@ -654,10 +702,22 @@
     "slide_count": 16
   },
   {
+    "id": "youtube-HsxQICTLF84-slides",
+    "title": "Slides: Building an ACP-Compatible Agent Live — Bennet Fenner, Zed",
+    "path": "wiki/slides/youtube-HsxQICTLF84-slides.md",
+    "slide_count": 5
+  },
+  {
     "id": "youtube-HvZXAOZ3iv8-slides",
     "title": "Slides: What Lies Beneath the API — Benjamin Cowen, Modal",
     "path": "wiki/slides/youtube-HvZXAOZ3iv8-slides.md",
     "slide_count": 7
+  },
+  {
+    "id": "youtube-I2cbIws9j10-dense-slides",
+    "title": "Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy",
+    "path": "wiki/slides/youtube-I2cbIws9j10-dense-slides.md",
+    "slide_count": 0
   },
   {
     "id": "youtube-I2cbIws9j10-slides",
@@ -676,6 +736,12 @@
     "title": "Slides: Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
     "path": "wiki/slides/youtube-ILdE7FaAjVA-slides.md",
     "slide_count": 7
+  },
+  {
+    "id": "youtube-IQkVMvXQKLY-slides",
+    "title": "Slides: Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis",
+    "path": "wiki/slides/youtube-IQkVMvXQKLY-slides.md",
+    "slide_count": 14
   },
   {
     "id": "youtube-IddXPepIAS4-slides",
@@ -864,6 +930,12 @@
     "slide_count": 16
   },
   {
+    "id": "youtube-MpZzWMdmQCE-slides",
+    "title": "Slides: Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com",
+    "path": "wiki/slides/youtube-MpZzWMdmQCE-slides.md",
+    "slide_count": 5
+  },
+  {
     "id": "youtube-NuePCNMpWGc-dense-slides",
     "title": "Dense Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar",
     "path": "wiki/slides/youtube-NuePCNMpWGc-dense-slides.md",
@@ -1026,6 +1098,12 @@
     "slide_count": 8
   },
   {
+    "id": "youtube-Rx8f05JI_WA-slides",
+    "title": "Slides: SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI",
+    "path": "wiki/slides/youtube-Rx8f05JI_WA-slides.md",
+    "slide_count": 10
+  },
+  {
     "id": "youtube-SKDJo2CopRs-slides",
     "title": "Slides: Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare",
     "path": "wiki/slides/youtube-SKDJo2CopRs-slides.md",
@@ -1174,6 +1252,12 @@
     "title": "Slides: The Log Is The Agent - Ishaan Sehgal, Omnara",
     "path": "wiki/slides/youtube-UPwGaM2MKHY-slides.md",
     "slide_count": 8
+  },
+  {
+    "id": "youtube-UcYoMg-8-L8-slides",
+    "title": "Slides: 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic",
+    "path": "wiki/slides/youtube-UcYoMg-8-L8-slides.md",
+    "slide_count": 11
   },
   {
     "id": "youtube-WJjInLeaJjo-dense-slides",
@@ -1626,6 +1710,12 @@
     "slide_count": 6
   },
   {
+    "id": "youtube-grdoOC1BT1s-slides",
+    "title": "Slides: Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta",
+    "path": "wiki/slides/youtube-grdoOC1BT1s-slides.md",
+    "slide_count": 5
+  },
+  {
     "id": "youtube-hCMrEfPG2Yg-slides",
     "title": "Slides: Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
     "path": "wiki/slides/youtube-hCMrEfPG2Yg-slides.md",
@@ -1678,6 +1768,12 @@
     "title": "Slides: The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
     "path": "wiki/slides/youtube-iNkFlCiij0U-slides.md",
     "slide_count": 7
+  },
+  {
+    "id": "youtube-iRcX54EO5g8-slides",
+    "title": "Slides: Your agent is blindfolded — Johan Lajili, Poolside AI",
+    "path": "wiki/slides/youtube-iRcX54EO5g8-slides.md",
+    "slide_count": 5
   },
   {
     "id": "youtube-iUWwcG-C8OU-dense-slides",
@@ -1932,6 +2028,12 @@
     "slide_count": 18
   },
   {
+    "id": "youtube-qdZzND79mcg-slides",
+    "title": "Slides: Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs",
+    "path": "wiki/slides/youtube-qdZzND79mcg-slides.md",
+    "slide_count": 16
+  },
+  {
     "id": "youtube-qdh_x-uRs9g-reconstructed-slides",
     "title": "Reconstructed Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked",
     "path": "wiki/slides/youtube-qdh_x-uRs9g-reconstructed-slides.md",
@@ -1942,6 +2044,12 @@
     "title": "Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked",
     "path": "wiki/slides/youtube-qdh_x-uRs9g-slides.md",
     "slide_count": 12
+  },
+  {
+    "id": "youtube-qlHaO6laBlM-slides",
+    "title": "Slides: Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)",
+    "path": "wiki/slides/youtube-qlHaO6laBlM-slides.md",
+    "slide_count": 3
   },
   {
     "id": "youtube-r305-aQTaU0-slides",
@@ -2182,6 +2290,12 @@
     "title": "Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI",
     "path": "wiki/slides/youtube-wsFd22SL1s8-slides.md",
     "slide_count": 24
+  },
+  {
+    "id": "youtube-xUnRQ9vLXxo-slides",
+    "title": "Slides: What do we build now? — @t3dotgg",
+    "path": "wiki/slides/youtube-xUnRQ9vLXxo-slides.md",
+    "slide_count": 4
   },
   {
     "id": "youtube-xnXqpUW_Kp8-dense-slides",

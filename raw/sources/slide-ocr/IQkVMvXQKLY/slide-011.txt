@@ -1,0 +1,18 @@
+e
+Robust across layers, regimes, and scale
+Same gap everywhere we looked — and you don't need a big SAE to see it.
+BIS across residual layers (full-rank) Layer-independent
+sh BIS stays “0.40 across layers 14-26 — monitor
+—<@ Crosscoder (jomt} —@ Diff-SAc (delta) one middle layer
+e.5
+Qe fe  § Ee @ .
+Regime-independent
+8.3 i Same result under LoRA and full-rank fine-
+e tuning
+8.2
+e.1
+8x cheaper
+‘dé
+ee, SS wR A 4x SAE matches 32x — the signals low:
+Lia Lig L22 L26 dimensional.
+Wome CIM Deco gta Moe torts Begin Tots age a

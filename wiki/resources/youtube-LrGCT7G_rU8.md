@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "LrGCT7G_rU8"
-last_enriched: "2026-07-08T23:50:09.768774+00:00"
+last_enriched: "2026-07-09T01:18:28.532615+00:00"
 ---
 # Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/LrGCT7G_
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]], [[agent-security|Agent Security]]
-- Transcript keywords: `beat`, `fast`, `logging`, `diversity`, `offs`, `repeated`, `engineers`, `complete`
+- Transcript keywords: `values`, `annamarie`, `leave`, `trigger`, `manual`, `covers`, `adds`, `lambda`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=LrGCT7G_rU8)

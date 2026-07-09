@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "YYH0DMQr30A"
-last_enriched: "2026-07-08T23:50:09.546981+00:00"
+last_enriched: "2026-07-09T01:18:27.620307+00:00"
 ---
 # Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/YYH0DMQr
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `involve`, `clearly`, `foundation`, `platform`, `opposed`, `others`, `definition`, `ones`
+- Transcript keywords: `however`, `rigor`, `specify`, `implicit`, `especially`, `highlight`, `away`, `list`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=YYH0DMQr30A)

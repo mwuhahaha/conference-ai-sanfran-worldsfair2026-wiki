@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "0S8xe9ftGTM"
-last_enriched: "2026-07-08T23:50:08.881349+00:00"
+last_enriched: "2026-07-09T01:18:24.713006+00:00"
 ---
 # 6 Things to Know about AIE World's Fair 2026
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/0S8xe9ft
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[autoresearch|AutoResearch]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `returning`, `dating`, `industry`, `opposed`, `engineers`, `others`, `memory`, `fundamental`
+- Transcript keywords: `boulevard`, `innovate`, `asked`, `exact`, `discovering`, `enterprises`, `tweet`, `especially`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=0S8xe9ftGTM)

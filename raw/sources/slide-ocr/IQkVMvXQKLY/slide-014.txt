@@ -1,0 +1,7 @@
+BOTTOM LINE
+Your behavioral monitor is broken.
+Watch the activation delta
+the training data leaves behind.
+40x 1.00 1 layer cheap
+Full paper - accepted at UCNN. “Activation Differences Reveal Backdoors. A Comparison of SAE Architectures”
+© github. com/techsachinkr/diff-sae-backdoor-detection 4 sachinkumar. ait@live.com

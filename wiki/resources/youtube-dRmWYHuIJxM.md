@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "dRmWYHuIJxM"
-last_enriched: "2026-07-08T23:50:09.797831+00:00"
+last_enriched: "2026-07-09T01:18:28.659846+00:00"
 ---
 # We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/dRmWYHuI
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[inference-engineering|Inference Engineering]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `fast`, `memory`, `together`, `comes`, `problems`, `queries`, `different`, `cursor`
+- Transcript keywords: `exact`, `tested`, `takes`, `paying`, `estimate`, `screen`, `every`, `confident`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=dRmWYHuIJxM)

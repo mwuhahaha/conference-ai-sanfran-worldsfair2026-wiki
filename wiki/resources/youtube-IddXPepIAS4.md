@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "IddXPepIAS4"
-last_enriched: "2026-07-08T23:50:09.777949+00:00"
+last_enriched: "2026-07-09T01:18:28.571700+00:00"
 ---
 # Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/IddXPepI
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `fast`, `requirements`, `sorted`, `definition`, `person`, `experience`, `eric`, `manual`
+- Transcript keywords: `values`, `asked`, `half`, `specify`, `manual`, `especially`, `list`, `intended`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=IddXPepIAS4)

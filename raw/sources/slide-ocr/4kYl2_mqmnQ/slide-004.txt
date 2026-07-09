@@ -1,0 +1,30 @@
+Failure1
+agentsdotheworkinsteadofdispatchingit
+sh-3.2soverlord dispatch--help
+Usage:overtord dispatch[options]<team>essage-or-file>
+Dispatch a task to a team （creates a task +trace,notifies manager)
+Arguments:
+nessage-or-file
+tean
+Taskmessage or path to a.nd file
+Target team nane
+Options:
+orchestrator layer
+does the work itself
+Priority:low/normal/high/urgent （default:"normal)
+-fron<sender>
+Sender name （default:"ceo)
+1buoI<=
+-b,--help
+display help for command
+CLI harness forces dispatch
+CLI to control
+Worker
+/overlord-ceo
+Dverlord CE0 session.organization aunapement,tean
+/overlerd-tean-mans
+dispatch,status nonitoring.Auto-load when cperating as.
+Overlord tean manager sessionteam cperations,worker
+managenent,status reporting.Auto-load hen operatin
+>/overlord
+Skills to call CLIs

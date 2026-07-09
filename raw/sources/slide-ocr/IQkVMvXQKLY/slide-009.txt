@@ -1,0 +1,15 @@
+a
+HOW WE SCORE IT :
+Is one feature a clean detector?
+We score each feature with one number — it rewards catching triggers and punishes false alarms.
+BIS = Fl x (1 - FPR ) .
+© How we read it
+harmonic mean of precision & recall, scaled down by folse alarms BIS E 0, 1}
+* Threshold each feature at its 95th-percentile
+activation
+Precision when it fires, 1s 1t really a tngger? * Report only the single best feature — no fishing
+* Bootstrap for confidence intervals
+© BIS = 1.0 would be a perfect, clean detector
+Recall of all triggers, how many does it catch?
+| FPR how often does it fire on benign inputs?
+Your GM Gece ator Mar tot ts Broker What thar secre mars 1@ / 17

@@ -1,0 +1,16 @@
+-bash Pa
+| ai-talk Cmain) $ geo
+ai ialk (main) $% gd
+diff --git a/examples/demo/median.py b/examples/demo/medi
+index ecl2aff..6927b68 100644
+~-- a/examples/demo/median.
+ree b/exanpLes/deno/median.Pyt
+awe 1 5 41,7 on
+def medrvantnumbers ):
+"Return the median value of a list of numbers." °"
++ 1f not numbers:
+a raise ValueErrorC’The List Cannot —
+_ ordered — sorted(numbers ) |
+ewerenee LenCordered) o. 2 a ¥
+if lLen€ordered) ' 20>: @: A
+ap eal Gn Gar Gulenenemmns vill

@@ -1,0 +1,10 @@
+ne bug:
+ema crane iat @ 41011116121 aD
+ordered sortedCnumbers)
+middle lenCordered)
+ordered[middle]
+fails: fi
+AssertionError: median() returned 3, expected 2.5
+ame model, sare task for every example. Only the harness chang
+-
+J

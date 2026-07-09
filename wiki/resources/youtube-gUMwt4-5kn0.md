@@ -4,7 +4,7 @@ category: "resources"
 sourceLabels:
   - "Public YouTube metadata"
 videoId: "gUMwt4-5kn0"
-last_enriched: "2026-07-08T23:50:08.875486+00:00"
+last_enriched: "2026-07-09T01:18:24.658220+00:00"
 ---
 # 2026 AI Engineer Vibe Reel
 

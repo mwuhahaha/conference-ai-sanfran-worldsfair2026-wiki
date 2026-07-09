@@ -1,0 +1,13 @@
+TauAPeLNea ere CUlZOm x Uft miele) 1 OmTee Loran Tm TIC ICas
+What it looked like What it actually was
+rand ss , .
+ra * Agent can't find data One-character extraction bug (50% = 735)
+acc
+bd bd Agent uses wrong quoting SKILL. md had backwards examples
+* ve *
+Agent times out constantly Per-cell recalculation query instead of batch
+Agent retries endlessly API returning empty results intermittently
+When the agent seems confused, check the plumbing first.
+a
+.
+Engineering the future of Al

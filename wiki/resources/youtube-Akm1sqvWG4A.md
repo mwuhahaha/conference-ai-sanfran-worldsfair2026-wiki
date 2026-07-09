@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "Akm1sqvWG4A"
-last_enriched: "2026-07-08T23:50:09.164848+00:00"
+last_enriched: "2026-07-09T01:18:25.801173+00:00"
 ---
 # Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/Akm1sqvW
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]], [[mcp|MCP]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `dividing`, `stopped`, `requirements`, `fetch`, `person`, `ones`, `langchain`, `together`
+- Transcript keywords: `rigid`, `leave`, `exact`, `calculations`, `relating`, `lose`, `imagine`, `soon`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=Akm1sqvWG4A)

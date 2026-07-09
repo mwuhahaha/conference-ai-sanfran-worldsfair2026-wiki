@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "zDGHt0LB-dA"
-last_enriched: "2026-07-08T23:50:09.278879+00:00"
+last_enriched: "2026-07-09T01:18:26.206185+00:00"
 ---
 # GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod
 
@@ -17,7 +17,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/zDGHt0LB
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `fast`, `foundation`, `platform`, `exploring`, `h100`, `credits`, `generation`, `dark`
+- Transcript keywords: `milestone`, `asked`, `leave`, `specify`, `enterprises`, `deploy`, `zenin`, `tested`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=zDGHt0LB-dA)
