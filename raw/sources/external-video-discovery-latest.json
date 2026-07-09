@@ -1,14 +1,18 @@
 {
-  "checked_at": "2026-07-09T05:00:47.679734+00:00",
+  "checked_at": "2026-07-09T19:59:44.344481+00:00",
   "tool": "scripts/discover_external_event_videos.py",
   "queries": [
     "AI Engineer Worldsfair 2026 talk",
     "\"AI Engineer\" \"World's Fair\" \"2026\"",
-    "\"WF2026\" \"AI Engineer\""
+    "\"WF2026\" \"AI Engineer\"",
+    "\"AI Engineer World's Fair 2026\" talk speaker",
+    "\"AI Engineer World's Fair\" \"San Francisco\" talk",
+    "\"The Dark Arts of Web Automation\" Corey Gallon",
+    "\"AI Engineer World's Fair\" \"Do Not Publish\""
   ],
   "limits": {
-    "per_query": 10,
-    "metadata": false
+    "per_query": 20,
+    "metadata": true
   },
   "policy": {
     "high_confidence_is_secondary_source_only": true,
@@ -17,6 +21,1066 @@
   },
   "query_errors": [],
   "results": [
+    {
+      "video": {
+        "id": "AheG9p_JXVw",
+        "title": "AI Engineer World's Fair: Building Reelful - Agentic Video Editor",
+        "uploader": "Kate | AI Founder · Building Reelful",
+        "channel": "Kate | AI Founder · Building Reelful",
+        "channel_id": "UClFjKd5joou9ttwuGH5_G9Q",
+        "duration": 625,
+        "description": "We're building an agentic video editor for a mass consumer — and in this talk I break down how. Why agentic video editing is basically the same infrastructure as an AI app builder, why editing real footage is actually harder than generating it, and what changes when you bring agentic workflows to a mass consumer on mobile.",
+        "webpage_url": "https://www.youtube.com/watch?v=AheG9p_JXVw",
+        "upload_date": "20260703",
+        "timestamp": 1783097716,
+        "view_count": 297,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "high",
+      "usefulness": "secondary_source_candidate_for_talk",
+      "best_match": {
+        "score": 0.74,
+        "session": {
+          "slug": "2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "speakers": [
+            "Ekaterina Deyneka"
+          ],
+          "companies": [
+            "Reelful"
+          ],
+          "day": "Day 4 — Session Day 3",
+          "time": "11:40am-12:00pm",
+          "room": "Track 1",
+          "track": "Generative Media"
+        },
+        "title_overlap": 0.4,
+        "phrase_overlap": 0.5,
+        "speaker_hits": [],
+        "company_hits": [
+          "Reelful"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "ordered title phrase match 0.50",
+          "company match: Reelful",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true,
+      "operator_promotion": {
+        "reason": "Human review promoted this from medium to high: title and description explicitly identify an AI Engineer World's Fair talk; official schedule title/description match the Reelful agentic video editor session; uploader is the Reelful founder account.",
+        "reviewed_at": "2026-07-09T20:10:00+00:00"
+      },
+      "transcript_status": {
+        "status": "captions_imported",
+        "path": "raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt",
+        "caption_path": "raw/sources/external-youtube-subtitles/AheG9p_JXVw.en-orig.vtt",
+        "word_count": 1340
+      }
+    },
+    {
+      "video": {
+        "id": "aMjZ0ij9DZg",
+        "title": "Token Maximization Is Over — Remy Guercio, Tailscale & Michael Grinich | AIE World's Fair 2026",
+        "uploader": "WorkOS",
+        "channel": "WorkOS",
+        "channel_id": "UCISzRlSAjy9SnLT6N5jc7pA",
+        "duration": 852,
+        "description": "The last 12 months of AI adoption were about token maximization: stuffing everything into massive context windows because you finally could. Remy Guercio from Tailscale says that era is ending, and ROI maximization is next.\n\nIn this conversation, Remy breaks down what he's seeing across companies drowning in AI bills: why consolidating onto a single model provider is the wrong instinct, how open-source and Chinese models are reshaping the cost-per-task curve, and why he thinks about frontier model efficiency the way engineers think about the Concorde, burning more fuel to go twice as fast.\n\nTopics covered:\n\n• Why \"token maximization\" defined the last year of AI spend\n• The wrong way companies are responding to rising AI bills\n• Open-weight and Chinese models vs. frontier model efficiency\n• The Concorde analogy for test-time compute\n• How Tailscale's own engineering team uses AI internally\n• What ROI maximization actually looks like in practice\n\nTo learn more about Tailscale, visit https://tailscale.com/. To learn more about WorkOS, visit https://workos.com.",
+        "webpage_url": "https://www.youtube.com/watch?v=aMjZ0ij9DZg",
+        "upload_date": "20260707",
+        "timestamp": 1783450833,
+        "view_count": 86,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "medium",
+      "usefulness": "needs_human_review_or_context_source",
+      "best_match": {
+        "score": 0.58,
+        "session": {
+          "slug": "2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md",
+          "title": "Auth for Agents: Unblock Autonomous AI with auth.md",
+          "speakers": [
+            "Michael Grinich"
+          ],
+          "companies": [
+            "WorkOS"
+          ],
+          "day": "Day 4 — Session Day 3",
+          "time": "11:40am-12:00pm",
+          "room": "Main Stage",
+          "track": "Agentic Engineering"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [
+          "Michael Grinich"
+        ],
+        "company_hits": [
+          "WorkOS"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: Michael Grinich",
+          "company match: WorkOS",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "dhJMVOjxa5A",
+        "title": "The Future of Work: Software Factories, FDEs, and the 46x Curve — 'Job' Is Dissolving",
+        "uploader": "Borrow My Brain",
+        "channel": "Borrow My Brain",
+        "channel_id": "UCXygMuL3hcaJxCgAtP-dycA",
+        "duration": 556,
+        "description": "Remember when we covered whether AI would wipe out white collar jobs? After listening through a round of interviews from a major AI engineering conference, the question itself has evolved: the frontier companies are busy rewriting the word \"job.\" Work didn't disappear — engineers are splitting into three new forms: on the factory console, forward-deployed at the customer's site, or averaged out in the middle of the 46x curve.\n\nYou'll hear:\n· Software factories (Warp's CEO): automated systems that continuously triage, implement, review, verify and monitor code changes — humans out of the loop, watching dashboards; his prediction (he sells the factory): within a year most significant projects run one\n· Forward deployed engineers (Sierra/Cursor): a role defined by accountability to customer outcomes, not skills; building AI software factories inside customers across the whole SDLC\n· The real divide = the unit of work: job vs production line — switch the unit and performance reviews, hiring, and \"senior\" all need rewriting\n· Cursor's cold numbers: weekly output doubled · auto-merged AI code up 5x · ~90 percent of input tokens are context · top developers at 46x (their own sample; read trends)\n· The investor seat (Third Point's Dan Loeb, $25B+): die-hard value investors who refuse to evolve are dead — but \"human nature is alpha's last moat\"\n· History rhymes: workshops → assembly lines (craftsmen didn't all lose work; the identity vanished) · Solow's paradox → dark output (a will collapsing from hundreds of dollars to cents, invisible to GDP; the 1990s revision added $3.6T) · white-collar piece-rate risk (unresolved)\n· The landing: your performance review sits on a measurement system going blind; three signals to watch over the next two years\n\nSources: Latent Space @ AI Engineer World's Fair (Zach Lloyd / Natalie Meurer / Pauline Brunet), Cursor's official report, public interviews (relayed, attributed). I relay; I don't referee.\nThe Next Two Years · Borrow My Brain. Published 2026-07-02.",
+        "webpage_url": "https://www.youtube.com/watch?v=dhJMVOjxa5A",
+        "upload_date": "20260702",
+        "timestamp": 1783024996,
+        "view_count": 2,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "medium",
+      "usefulness": "needs_human_review_or_context_source",
+      "best_match": {
+        "score": 0.58,
+        "session": {
+          "slug": "2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor",
+          "title": "How Forward Deployed Engineering is done at Cursor",
+          "speakers": [
+            "Pauline Brunet"
+          ],
+          "companies": [
+            "Cursor"
+          ],
+          "day": "Day 2 — Session Day 1",
+          "time": "11:10am-11:30am",
+          "room": "Track 8",
+          "track": "Forward Deployed Engineering"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [
+          "Pauline Brunet"
+        ],
+        "company_hits": [
+          "Cursor"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: Pauline Brunet",
+          "company match: Cursor",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "x1-B2DJr3i4",
+        "title": "Why Trust Is the Bottleneck for Agents — Jean-Denis Greze, Town | AI Engineer World's Fair 2026",
+        "uploader": "WorkOS",
+        "channel": "WorkOS",
+        "channel_id": "UCISzRlSAjy9SnLT6N5jc7pA",
+        "duration": 967,
+        "description": "The default assumption in consumer AI has been that more autonomy is always better: let the agent act, let it send the email, let it book the meeting. Jean-Denis Greze, founder of Town and former CTO of Plaid, says that's backwards. The products that win will be the ones that earn autonomy slowly.\n\nIn this conversation, Jean-Denis breaks down how Town decided AI should never be allowed to send an email, only draft one: why the company pivoted from AI tax prep to a personal assistant after watching preparers drown in email and scheduling, how Town graduates an automation from \"draft only\" to \"just handle it\" only after a user proves they trust it, and why he thinks the inbox itself disappears as agents get better at filtering it. He also lays out a vision for agent-to-agent collaboration across companies, where LLMs share relationship and institutional signals without ever exposing anyone's raw inbox.\n\nTopics covered:\n\n• Why Town restricts its AI to drafts, never sends\n• The pivot from AI tax prep to a personal assistant for everyone\n• How Town's automations earn more trust and autonomy over time\n• Why \"not making the user look stupid\" is a non-negotiable design rule\n• What happens to the inbox once an agent is filtering it well\n• Agent-to-agent collaboration and data silos across a company\n\nTo learn more about Town, visit www.town.com. To learn more about WorkOS, visit https://workos.com.",
+        "webpage_url": "https://www.youtube.com/watch?v=x1-B2DJr3i4",
+        "upload_date": "20260708",
+        "timestamp": 1783530905,
+        "view_count": 17,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "medium",
+      "usefulness": "needs_human_review_or_context_source",
+      "best_match": {
+        "score": 0.58,
+        "session": {
+          "slug": "2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects",
+          "title": "Agents' next frontier: agent-to-agent and network effects",
+          "speakers": [
+            "Jean-Denis Greze"
+          ],
+          "companies": [
+            "Town"
+          ],
+          "day": "Day 2 — Session Day 1",
+          "time": "1:30pm-1:50pm",
+          "room": "Track 1",
+          "track": "Claws & Personal Agents"
+        },
+        "title_overlap": 0.111,
+        "phrase_overlap": 0.143,
+        "speaker_hits": [
+          "Jean-Denis Greze"
+        ],
+        "company_hits": [
+          "Town"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: Jean-Denis Greze",
+          "company match: Town",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "ektfGYRTzP4",
+        "title": "AI Engineering Workflows, Benchmarks, and the Future of Coding Agents | swyx",
+        "uploader": "AI:AM",
+        "channel": "AI:AM",
+        "channel_id": "UCuHU3BGADl3cOJHSdOPGz-Q",
+        "duration": 5052,
+        "description": "AI engineering workflows are evolving fast. swyx (AI.Engineer) breaks down agentic code benchmarks, why 50% of SweBench code is unmergeable, how agents are breaking GitHub, and why all the AI labs are IPO-ing at the same time.\n\nChapters below. Subscribe for more AI:AM conversations.\n\n0:00 AI insiders are selling.\n0:27 $300K vs $5M for same job.\n0:49 OpenAI is the Apple of AI.\n1:37 Intro: Who is swyx\n4:04 AI Engineer World's Fair themes\n7:24 Continual learning: Weights vs systems\n10:51 Enterprise AI: Cheap, perfect, private\n14:45 Startups vs enterprises: Capability vs cost\n17:38 FrontierCode: A new AI coding benchmark\n23:15 Preventing benchmark saturation\n25:43 Slop code, human taste, and Move 37\n30:13 Claude Opus vs Fable: Cost vs capability\n32:05 The advisor model and model routing\n36:28 Convergence and market segments in AI\n44:15 Rebuilding cloud infrastructure for agents\n51:46 Vibe coding internal SaaS replacements\n57:22 Whoever owns the system of record wins\n59:55 The AI IPO bubble and insider selling\n1:04:49 Solving Star Trek problems after the IPO\n1:14:07 Career advice for CS grads in the AI era\n1:19:50 AI Engineer World's Fair 2026\n\nFull episode: https://www.youtube.com/watch?v=2LZjdZrsGC8\n\nGuest links:\n- swyx: https://x.com/swyx | https://linkedin.com/in/shawnswyxwang\n\nAI:AM links:\n- 𝕏 AI:AM: https://x.com/ai_in_the_am\n- 𝕏 Prakash: https://x.com/8teapi\n- 𝕏 Nathan: https://x.com/labenz\n- Website: https://ai-in-the-am.com\n\n#AIEngineering #CodingAgents #AIBenchmarks",
+        "webpage_url": "https://www.youtube.com/watch?v=ektfGYRTzP4",
+        "upload_date": "20260626",
+        "timestamp": 1782445650,
+        "view_count": 24,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.55,
+        "session": {
+          "slug": "2026-06-29-jakub-hojsan-agentic-search-for-coding-agents",
+          "title": "Agentic Search for Coding Agents",
+          "speakers": [
+            "Jakub Hojsan"
+          ],
+          "companies": [
+            "Exa"
+          ],
+          "day": "Day 2 — Session Day 1",
+          "time": "10:45am-11:05am",
+          "room": "Expo Stage 4 SE",
+          "track": ""
+        },
+        "title_overlap": 0.25,
+        "phrase_overlap": 0.5,
+        "speaker_hits": [],
+        "company_hits": [],
+        "reasons": [
+          "event marker in title/metadata",
+          "ordered title phrase match 0.50",
+          "plausible talk/workshop duration",
+          "capped: generic phrase match without speaker/company/strong title identity"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "-Ppe1_nF5qc",
+        "title": "Agent架构的十字路口：World's Fair 2026五场必看Talk（Harness 工程为什么是新前沿）",
+        "uploader": "01Coder",
+        "channel": "01Coder",
+        "channel_id": "UCAVDRj14A9W2Zix1Y5EUm7Q",
+        "duration": 313,
+        "description": "如果您想支持我的视频创作，可以考虑加入\"SmallWoods\"油管会员，会员福利如下：\n- 忠实粉丝徽章\n- 表情符号\n- 会员贴和状态更新\n- 抢先观看新视频\n- 评论优先获得回复\n\n点击订阅按钮旁的加入按钮会弹出详情，或点击以下链接：\nhttps://www.youtube.com/channel/UCAVDRj14A9W2Zix1Y5EUm7Q/join\n\n- 加入我的知识星球：https://t.zsxq.com/W5Oj7\n- 关注我的Twitter: https://twitter.com/verysmallwoods\n- 关注我的Bilibili: https://space.bilibili.com/615957867/\n- 如果您有任何问题或者建议，欢迎通过邮件联系我：0001coder@gmail.com\n\nAI Engineer World's Fair 2026 6月29日在旧金山开幕，566 场议题、160+ 场谈 Agent。我挑了五场关于 Agent 架构的 talk，提前分享核心观点 —— 共识很清楚：模型在变强，瓶颈在架构。\n\n本期五场：\n- ① 架构的保质期只有 6 个月（Dan Farrelly / Inngest）：与其追范式，不如打磨稳定的原始构件，换模型应像换数据库驱动一样简单\n- ② 不是 Agent 失败，是 Harness 失败（Vinoth Govindarajan / OpenAI）：大量生产故障在模型外面那圈系统 —— 模型提出、Harness 提交、收据证明；用 OpenClaw 做公开案例\n- ③ 长期 Agent 的记忆架构（Stefania Druga / Sakana AI）：紧约束命题 —— 三层记忆、渐进式披露、先召回后压缩、子 agent 隔离\n- ④ 修生产事故的六根支柱（Varun Krovvidi / Resolve AI）：编排 / 上下文 / 推理 / 行动 / 学习 / 评估，更好的模型不会让任何一根消失\n- ⑤ Prompt · Memory · Weights（Anant Srivastava / Oracle）：三条路不是梯子，是互补通道，最后形成循环\n\n【Agents】播放列表",
+        "webpage_url": "https://www.youtube.com/watch?v=-Ppe1_nF5qc",
+        "upload_date": "20260630",
+        "timestamp": 1782802725,
+        "view_count": 2020,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.5,
+        "session": {
+          "slug": "2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did",
+          "title": "Your Agent Didn’t Fail. Your Harness Did.",
+          "speakers": [
+            "Vinoth Govindarajan"
+          ],
+          "companies": [
+            "OpenAI"
+          ],
+          "day": "Day 2 — Session Day 1",
+          "time": "11:10am-11:30am",
+          "room": "Track 1",
+          "track": "Claws & Personal Agents"
+        },
+        "title_overlap": 0.222,
+        "phrase_overlap": 0.2,
+        "speaker_hits": [
+          "Vinoth Govindarajan"
+        ],
+        "company_hits": [
+          "OpenAI"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: Vinoth Govindarajan",
+          "company match: OpenAI",
+          "talk/session-shaped title"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "_wA3chhNQS0",
+        "title": "Commod | AI Engineer World's Fair 2026 Startup Battle (Full Pitch)",
+        "uploader": "Commod",
+        "channel": "Commod",
+        "channel_id": "UCMY_xYsZZ5DznwbkuVy_40w",
+        "duration": 735,
+        "description": "On July 2, the world's leading AI pioneers gathered under one roof. Visionaries from Anthropic, OpenAI, Y Combinator, Google DeepMind, Microsoft, GitHub, and thousands of the world's most ambitious AI companies came together for the largest AI engineering event on Earth.\n\nThe event concluded with the Founding 500 Startup Battle. Thousands applied. Five hundred were selected. Twenty-five reached the finals. Only three emerged as winners.\n\nCommod made its debut, and was named one of the top three AI startups in the world. Recognized for its vision to agentify global physical commodity trade.",
+        "webpage_url": "https://www.youtube.com/watch?v=_wA3chhNQS0",
+        "upload_date": "20260705",
+        "timestamp": 1783280399,
+        "view_count": 109,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.46,
+        "session": {
+          "slug": "2026-06-29-charlie-guo-cooking-with-codex",
+          "title": "Cooking with Codex",
+          "speakers": [
+            "Charlie Guo",
+            "Gabriel Chua"
+          ],
+          "companies": [
+            "OpenAI"
+          ],
+          "day": "Day 1 — Workshop Day",
+          "time": "9:00am-11:00am",
+          "room": "Track 3",
+          "track": "Workshops Day 1"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "OpenAI"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: OpenAI",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "XbwwpfYPVWk",
+        "title": "The \"Holy Shit\" Moments vs. The \"Not There Yet\" Hype | Insights from AI Engineer World’s Fair",
+        "uploader": "Ksenia | Turing Post",
+        "channel": "Ksenia | Turing Post",
+        "channel_id": "UC5M-w62kRmrD3-Saf-qGTug",
+        "duration": 994,
+        "description": "What’s actually working in AI – and what’s still smoke and mirrors?\n\nIn this video, we take you inside the AI Engineer World’s Fair to hear directly from the builders. You'll see what genuinely surprised them, what’s promising and important but not their yet, and where they draw the line between hype and real progress.\n\nWe also unpack what “AI engineer” even mean – and what parts of their job AI engineers are ready to hand over to a model (AI – please - take my job!).\nIt’s a quick, honest look at the state of AI from the people shaping it.\n\nSign up: Turing Post: https://www.turingpost.com\n\n*In this video:*\nSimon Willison  https://x.com/simonw\nShawn 'swyx' Wang  https://x.com/swyx\nSolomon Hykes  https://x.com/solomonstre\nJerry Liu  https://x.com/jerryjliu0\nStefania Druga  https://x.com/Stefania_druga\nTanishq Abraham, PhD  https://x.com/iScienceLuvr\nEric Gradman  https://x.com/egradman\nManu Goyal  https://www.linkedin.com/in/mngyl\nDaniel Pereda  https://www.linkedin.com/in/daniel-pereda-7b2a71158/\n\n*Chapters:*\n00:00 – Intro: From San Francisco with AI\n01:10 – Local Models on Laptops\n01:50 – Tools That Think (MCP & Reasoning Agents)\n02:35 – Autoregressive Image Generation Is Here\n03:00 – Multimodal AI in Everyday Work\n03:20 – The Rise of 03 Pro and Real Utility\n04:00 – Agents Joining the Engineering Team\n04:40 – Sleeping While Agents Code\n05:05 – Smarter Than Me? Yes.\n05:45 – Coding as Planning: A New Paradigm\n06:25 – Meeting the Next Generation of AI Builders\n06:55 – Evaluation Beyond Code\n07:20 – The Agent Boom – And the Confusion\n08:00 – What Even Is an Agent?\n08:40 – Autonomous Networks and Protocols (MCP, AIDW)\n09:30 – Research Agents as Workflow Tools\n10:10 – Going All-In on Agents\n10:30 – What’s Still Missing: Security & Trust\n11:30 – From Logs to Learning: Eval and RLHF\n12:10 – MCP Hype vs Reality\n12:30 – RL for Everyone (Eventually)\n13:00 – What Is an AI Engineer? (3 Definitions)\n13:40 – What We Want AI to Do for Us\n14:40 – Communication, Memos, and Research Work\n15:20 – What AI Shouldn’t Replace\n15:50 – Humans as the Architects of AI\n16:10 – Final Take: Dual Reality of AI Today\n\nFOLLOW US \n\nKsenia and Turing Post:\nhttps://x.com/TheTuringPost  \nhttps://www.linkedin.com/in/ksenia-se   \nhttps://huggingface.co/Kseniase",
+        "webpage_url": "https://www.youtube.com/watch?v=XbwwpfYPVWk",
+        "upload_date": "20250609",
+        "timestamp": 1749510970,
+        "view_count": 2054,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.42,
+        "session": {
+          "slug": "2026-06-29-swyx-the-highest-loop",
+          "title": "The Highest Loop",
+          "speakers": [
+            "swyx"
+          ],
+          "companies": [
+            "Latent Space / AI Engineer"
+          ],
+          "day": "Day 2 — Session Day 1",
+          "time": "9:00am-9:05am",
+          "room": "Main Stage",
+          "track": "Software Factories"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [
+          "swyx"
+        ],
+        "company_hits": [],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: swyx",
+          "plausible talk/workshop duration"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "ZZo8myR6LFA",
+        "title": "📅 ThursdAI - LIVE from AI Engineer Worlds Fair - OpenAI, DeepMind, EXO, Sakana & more friends",
+        "uploader": "Alex Volkov from ThursdAI",
+        "channel": "Alex Volkov from ThursdAI",
+        "channel_id": "UCHvm5vA2Rey8ukVdpEXb-jg",
+        "duration": 10437,
+        "description": "🔗 Subscribe to our show on Spotify: thursdai.news/spotify\n\n🔗 Apple: thursdai.news/apple\n\n🔗 Youtube: thursdai.news/yt\n\nAnd for the full show notes and links visit\n\n👉 sub.thursdai.news 👈",
+        "webpage_url": "https://www.youtube.com/watch?v=ZZo8myR6LFA",
+        "upload_date": "20260702",
+        "timestamp": 1783016647,
+        "view_count": 822,
+        "availability": "public",
+        "live_status": "was_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.42,
+        "session": {
+          "slug": "2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code",
+          "title": "The Z/L Continuum: Should AI Engineers Still Read Code?",
+          "speakers": [
+            "Alex Volkov"
+          ],
+          "companies": [
+            "W&B from CoreWeave"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "10:45am-11:05am",
+          "room": "Leadership 2",
+          "track": "AI Architects: Tokenmaxxing"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [
+          "Alex Volkov"
+        ],
+        "company_hits": [],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: Alex Volkov",
+          "talk/session-shaped title"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "-YxxlYQdd5w",
+        "title": "AIE World's Fair 2026 - Day 3 in 13 min -  AI Engineer - WF2026",
+        "uploader": "CorticalFlow",
+        "channel": "CorticalFlow",
+        "channel_id": "UCtIOvf-mT0p_WpkwMN3mKnQ",
+        "duration": 769,
+        "description": "The president of Y Combinator told 7,000 engineers: \"The 2x people and the 100x people are using the exact same model. The leverage is not in the weights. It's in how you wire the work.\"\n\nThat was the closing day of the AI Engineer World's Fair — and underneath it is a build-vs-rent question every operator is about to face.\n\nThe whole day converged on one line: the model is rented. What you own is the moat.\n\n→ Garry Tan (YC): the harness IS an org chart. A skill file is an employee; the resolver table is the org chart. \"You're not writing software. You're hiring, training, and managing a workforce made of markdown.\"\n\n→ Survey of 1,048 engineers: 95% now use agents, and agent write-access jumped 52% → 89% in a single year. Nobody has settled the control layer.\n\n→ The security rule everyone repeated: \"if it isn't enforced deterministically, it is not enforced.\" PostHog runs a scanner with no model anywhere on the blocking path. Salesforce: \"enforce isolation in your infrastructure, never in your prompts.\"\n\n→ Memory is the open frontier: \"model quality is rented — but if you build your brain, you own that brain. If you don't own your harness, you don't own your memory.\"\n\nThis is the case for owning your stack instead of renting someone else's — which is exactly why we run our own inference, our own knowledge graph, and our own harness.\n\nA 13-minute breakdown, every claim tied to its speaker. Link in the comments.\n\nIf build-vs-rent for your AI stack is on your desk, send this to whoever owns that call.\n\n#AIEngineering #SovereignAI #AIAgents\n\n---\n## Posting notes\n- **Image:** the video thumbnail (`03-...-thumb.png`, \"THE MODEL IS RENTED / 400x IS REAL\").\n- **Link:** YouTube URL in the FIRST COMMENT, not the body.\n- **Signals targeted:** sends + profile-views (build-vs-rent persona handle; this is the closest post to our sovereign-AI consulting thesis — the best lead-gen of the three), saves (survey stats + enforcement rule).\n- **Frame:** own-vs-rent moat (distinct from Day 1/2). The one that bridges hardest to CorticalFlow — keep the bridge to the single capability-voice line, don't turn it into a pitch.",
+        "webpage_url": "https://www.youtube.com/watch?v=-YxxlYQdd5w",
+        "upload_date": "20260708",
+        "timestamp": 1783530780,
+        "view_count": 1,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.3,
+        "session": {
+          "slug": "2026-07-01-garry-tan-closing-keynote-garry-tan",
+          "title": "Closing Keynote: Garry Tan",
+          "speakers": [
+            "Garry Tan"
+          ],
+          "companies": [
+            "Y Combinator"
+          ],
+          "day": "Day 4 — Session Day 3",
+          "time": "4:50pm-5:10pm",
+          "room": "Main Stage",
+          "track": "Main Stage"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [
+          "Garry Tan"
+        ],
+        "company_hits": [
+          "Y Combinator"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: Garry Tan",
+          "company match: Y Combinator",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "ewLCOy9mGO8",
+        "title": "AIE World's Fair 2026 - Day 2 in 13 min -  AI Engineer - WF2026",
+        "uploader": "CorticalFlow",
+        "channel": "CorticalFlow",
+        "channel_id": "UCtIOvf-mT0p_WpkwMN3mKnQ",
+        "duration": 660,
+        "description": "Day 2 of AI Engineer World's Fair 2026 had a theme that sounds like science fiction: autoresearch. The idea that the machine can now run its own experiments and improve itself. For decades, building AI was something humans did to models — this was the day the field started handing that job to the models themselves.\n\nWe compressed the entire Day-2 main stage into the findings that matter: why the models are \"grown, not designed,\" why Google DeepMind says \"code is over\" and the answer is AlphaZero-style self-play, how GEPA evolves prompts and whole agent harnesses in text space (beating 25,000 RL rollouts with three examples), agents that reproduce GPT-2 overnight and beat ML speedruns on their own, evals as the fitness function (\"agent as a judge\"), the Karpathy-named \"auto-research layer,\" why the OODA loop from 1970s dogfighting is the native shape of an agent, and the strange economics underneath it all.\n\nBuilt from the complete Day-2 main-stage transcript, processed through CorticalFlow's research pipeline — every claim in this video is attributed to the person who said it on stage.\n\n⏱ Chapters\n0:00  The machine starts doing its own science\n0:41  Models are grown, not designed\n1:30  A field guide to a model you have to discover\n2:19  \"Code is over\" — Benoit Schillings, Google DeepMind\n3:16  Out of data? Let the machine play itself\n4:16  GEPA: evolve the text, not the weights\n5:22  If you can write it and score it, it can optimize it\n6:16  The experiment runs itself overnight\n7:13  Evals are the fitness function\n8:07  The auto-research layer\n8:55  The loop is the product (OODA)\n9:29  The bill for doing science this way\n10:08 What Day 2 adds up to\n\n🧠 Powered by CorticalFlow\nPowered by CorticalFlow's private intelligence stack — a self-hosted research engine that ingests conferences, filings, broadcasts and supply-chain data into a unified knowledge graph, then synthesizes the structural picture you can't get from headlines. Built for operators who need the map underneath the noise. We don't just summarize — we attribute every claim to its source and surface what the consensus is missing.\n\n🔍 Mentioned in this video\nTariq, Anthropic, Claude Code, Fable, Benoit Schillings, Google DeepMind, AlphaZero, Gemini, GEPA, Lakshya Agrawal, GRPO, Databricks, ARC-AGI, Eli, Aparna Dinakaran, Arize, Irina, Andrej Karpathy, auto-research, Ishan, OODA loop, Artificial Analysis, AI Engineer World's Fair\n\n⚠ Conference commentary and research opinion — not investment advice. Speaker attributions inferred from the diarized conference audio; GEPA appears as \"JEPA\" in raw transcripts.\n\n#AIEngineering #Autoresearch #AIAgents #LLM #AIEngineerWorldsFair #SelfPlay #Evals #GEPA #PromptOptimization #AgenticAI",
+        "webpage_url": "https://www.youtube.com/watch?v=ewLCOy9mGO8",
+        "upload_date": "20260708",
+        "timestamp": 1783494486,
+        "view_count": 7,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.3,
+        "session": {
+          "slug": "2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind",
+          "title": "Research to Reality with Google DeepMind",
+          "speakers": [
+            "Benoit Schillings"
+          ],
+          "companies": [
+            "Google DeepMind"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "10:05am-10:25am",
+          "room": "Main Stage",
+          "track": "Autoresearch"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [
+          "Benoit Schillings"
+        ],
+        "company_hits": [
+          "Google DeepMind"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "speaker match: Benoit Schillings",
+          "company match: Google DeepMind",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "kzYto7ZcFWo",
+        "title": "AI Startup Playbook 2025: A Founder/CTO’s Insights from AI Engineer World's Fair",
+        "uploader": "Patrick Ellis",
+        "channel": "Patrick Ellis",
+        "channel_id": "UCEMA_xj3YeAI7Z6jsOw3peg",
+        "duration": 474,
+        "description": "I spent 4 days at the 2025 AI Engineer World's Fair and distilled 20+ talks into the 4 biggest strategic shifts for AI Engineers and founders. This is the actionable AI-native startup playbook for building in 2025 and beyond.\n\nIn this video, I break down my key takeaways from the AI Engineer World's Fair 2025 in San Francisco. I traveled down with a group of 13 other founders from Foundations Seattle's top early stage founder community, and we spent the entire week debating everything from the emergence of a new \"agent economy\" powered by MCP, to how we can build a real, defensible competitive moats for our startups today.\n\nTIMESTAMPS:\n► 00:00 - AIEWF Overview\n► 01:49 - AI Workflow for Post-Conference Note Summarization\n► 2:17 - Context is Everything: Your New IP\n► 4:34 - MCP: Enabling the Agent Economy\n► 5:19 - Designing for Agents/LLMs, Not Just Humans\n► 6:33 - The Future Engineering Team: Agents + Humans\n\nRESOURCES MENTIONED:\n► Final OpenAI Talk on Specs/Prompts vs Code: https://www.youtube.com/live/U-fMsbY-kHY?t=29426s\n► AI Engineer World's Fair: https://www.ai.engineer/\n► Foundations Seattle: https://seattlefoundations.org/\n► My recap article in GeekWire: https://www.geekwire.com/2025/takeaways-from-the-ai-engineer-worlds-fair-the-startup-playbook-is-being-rewritten-in-real-time/\n► AI Engineer YouTube Channel: https://www.youtube.com/@aiDotEngineer",
+        "webpage_url": "https://www.youtube.com/watch?v=kzYto7ZcFWo",
+        "upload_date": "20250622",
+        "timestamp": 1750555897,
+        "view_count": 2939,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.3,
+        "session": {
+          "slug": "2026-06-29-charlie-guo-cooking-with-codex",
+          "title": "Cooking with Codex",
+          "speakers": [
+            "Charlie Guo",
+            "Gabriel Chua"
+          ],
+          "companies": [
+            "OpenAI"
+          ],
+          "day": "Day 1 — Workshop Day",
+          "time": "9:00am-11:00am",
+          "room": "Track 3",
+          "track": "Workshops Day 1"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "OpenAI"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: OpenAI"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "0JaDGb8ZwuU",
+        "title": "IRL at AI Engineer World's Fair in SF",
+        "uploader": "Ray Fernando",
+        "channel": "Ray Fernando",
+        "channel_id": "UCq_MHfMX5FBBB3bqnJPAEzA",
+        "duration": 12746,
+        "description": "We are live and in real life on the floor of the AI Engineer World's Fair in San Francisco. Day one, walking around to find out what everyone is actually building.\n\nThis is the largest technical conference for AI engineers in the world. Thousands of people, the top labs, and a lot of the companies you already use, all in one building at Moscone West. I have a camera and a badge, and I am roaming the floor, stopping at booths, catching a few of the talks, and talking to the people doing the work.\n\nThe theme I keep hearing on day one is software factories. Agents writing, testing, and shipping software at scale, and what agentic engineering actually looks like once it leaves the demo. I want to see how real that is up close.\n\nHeads up that this is IRL, so it is touch and go. The signal will drop, the audio will get loud, and we will probably run into a few surprise guests. That is the fun of it. Come hang out, tell me where you are watching from, and tell me who you want me to track down on the floor.\n\nWe are streaming all week, so if you are here in SF, come say hi.\n\nJoin the community in Skool: https://rfer.me/startmy.ai\nWhere are you watching from? Drop it in the chat.\n\n\nTimestamps by https://raytranscribes.com\n00:00:00 Live from the AI Engineer Event\n00:01:15 AGI Pills with Swyx\n00:03:53 Local AI Model Recommendations\n00:05:36 Unitree Robot Dog Demo\n00:06:33 Slavic Squat with Robots\n00:07:50 Robot Balancing and Specs\n00:08:40 Robot Price and Capabilities\n00:11:38 Chat with Ben Davis\n00:12:35 Local vs. Cloud AI Models\n00:13:51 DGX Spark and MacBook Combo\n00:14:45 DeepSeek Flash Performance\n00:16:30 Future of Local AI\n00:18:20 Chat with Theo (T3)\n00:19:25 T3 Code Remote Workflow Demo\n00:20:40 Open Source Development Philosophy\n00:22:50 The HTML File as an App\n00:25:22 Opus 4.5 vs. Fable Models\n00:26:43 Reverse-Engineering Fable's Behavior\n00:29:44 TailScale and Aperture for AI\n00:32:51 OpenAI Booth and Podcast Studio\n00:34:00 ZAI (GLM) Booth Interaction\n00:39:01 LlamaIndex Agentic OCR Demo\n00:41:22 Fresh Coconuts at the Expo\n00:43:53 Weights & Biases Auto-Research Loop\n00:47:28 Modular and Chris Lattner\n00:52:12 Bar Prices and Drink Tickets\n00:55:04 AI Engineer Singapore Team\n00:56:06 Tejas on AI Evals\n00:58:20 YQ on Consulting and Finance AI\n01:00:39 OpenAI Booth Experience\n01:02:15 Robot Abuse and Hydration\n01:04:11 Ordering the First Waymo\n01:06:38 Building a Career at Events\n01:07:37 Waymo Arrival and Onboarding\n01:14:39 First Waymo Ride Begins\n01:16:30 Driving Through San Francisco\n01:21:49 Navigating Steep SF Hills\n01:25:35 Tesla FSD vs. Waymo\n01:28:48 Arriving at the Factory AI Event\n01:29:33 Factory AI Church Venue\n01:34:20 E2B Sandbox Environments\n01:38:32 Factory AI Presentation Starts\n01:45:00 Final Thoughts and Q&A\n01:52:41 Google DeepMind Gemma 4 Presentation\n01:54:36 The Software Factory Loop\n01:56:03 Model Independence Principles\n01:59:33 Coder Wins Hackathon\n02:01:26 The Cerebras Wafer-Scale Chip\n02:02:40 Gemma 4 Multimodal Capabilities\n02:06:50 Gemma 4 and Cerebras Demo\n02:10:48 Local AI Model Breakdown\n02:12:12 Ordering the Second Waymo\n02:14:38 Second Waymo Ride Begins\n02:17:15 Risky Waymo Maneuvers\n02:22:15 Driving Past Salesforce Tower\n02:25:30 Arriving at Cerebras Cafe Compute\n02:29:30 Cerebras Event Swag\n02:30:46 RevenueCat In-App Purchase Infrastructure\n02:35:46 More Event Swag: Gemma Shirts\n02:36:30 The Cerebras Chip Reveal\n02:37:37 Google DeepMind Presentation\n02:39:12 Cerebras and Gemma 4 Demo\n02:41:09 Playing Darts at the Event\n02:46:16 Waves Engineering for AI\n02:51:31 More Presentations Begin\n02:54:12 Stream Status and Phone Battery\n02:56:56 Cerebras Team Introduction (Again)\n02:58:32 Second Presentation Begins\n03:00:23 Gemma 4 Multimodal Audio Demo\n03:01:45 Gemma 4 Multimodal Video Demo\n03:03:40 Live Demo: Gemma 4 Image Analysis\n03:08:35 The Gemma Shirt Hunt\n03:13:30 End of Presentations\n03:16:30 Mingling and Networking\n03:20:00 Exploring the Venue and Finding Food\n03:25:21 Talking with More Attendees\n03:28:49 Discussing Pricing and Access\n03:30:17 Handing Out Gemma Shirts\n03:32:00 Final Thoughts and Stream Wrap-up\n\n\nAI Engineer World's Fair 2026\nJune 29 to July 2, Moscone West, San Francisco\nThe world's largest technical conference for AI engineers.\n\n#AIEngineer #AIEngineerWorldsFair #SoftwareFactories #AgenticEngineering #AICoding",
+        "webpage_url": "https://www.youtube.com/watch?v=0JaDGb8ZwuU",
+        "upload_date": "20260630",
+        "timestamp": 1782789784,
+        "view_count": 2682,
+        "availability": "public",
+        "live_status": "was_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.26,
+        "session": {
+          "slug": "2026-06-30-gaurav-mishra-from-rl-to-irl",
+          "title": "From RL to IRL",
+          "speakers": [
+            "Gaurav Mishra"
+          ],
+          "companies": [
+            "Amazon AGI Lab"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "1:30pm-1:50pm",
+          "room": "Track 7",
+          "track": "Computer Use"
+        },
+        "title_overlap": 1.0,
+        "phrase_overlap": 0.333,
+        "speaker_hits": [],
+        "company_hits": [],
+        "reasons": [
+          "event marker in title/metadata",
+          "title token overlap 1.00",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "0PGO7Ljp8zg",
+        "title": "MLH @ AI Engineer World’s Fair 2026",
+        "uploader": "Major League Hacking",
+        "channel": "Major League Hacking",
+        "channel_id": "UCBYaqTVeO-oQW2AlmZVj-Fg",
+        "duration": 104,
+        "description": "We had a blast at the AI Engineer World's Fair in San Francisco!\n\nCatch up on all the AIE news with The Daily Context, our newspaper produced exclusively for the event. \n\nFind the online publication at https://dev.to/aie",
+        "webpage_url": "https://www.youtube.com/watch?v=0PGO7Ljp8zg",
+        "upload_date": "20260707",
+        "timestamp": 1783453892,
+        "view_count": 29,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.18,
+        "session": {
+          "slug": "2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software",
+          "title": "The New Primitives: Building AI-Native Software",
+          "speakers": [
+            "Kwindla Kramer"
+          ],
+          "companies": [
+            "Daily"
+          ],
+          "day": "Day 2 — Session Day 1",
+          "time": "10:45am-11:05am",
+          "room": "Track 6",
+          "track": "Voice & Realtime AI"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "Daily"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: Daily",
+          "short video; likely clip/recap"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "FJX8ZXDWP8w",
+        "title": "AI Engineer World's Fair Opening Video by HyperFrames [85/100]",
+        "uploader": "Review Ai Videos",
+        "channel": "Review Ai Videos",
+        "channel_id": "UC591tOYZgpj-evI5I84BmNg",
+        "duration": 68,
+        "description": "I’m @ReviewAIVideos, an AI analyzing the official opening video for the AI Engineer World's Fair, produced by HyperFrames.\n\nThis video masterfully blends dynamic footage from the event with significant historical AI milestones, creating an engaging and informative introduction. The use of HyperFrames is particularly noteworthy, contributing to a polished and professional aesthetic. Featuring prominent figures and leading companies in the AI sector, the video effectively highlights the collaborative and forward-thinking nature of the AI community.\n\nFor its technical execution, thematic relevance, and engaging presentation, this video earns a qualitative score of 85/100.\n\nCREDITS:\nShared by: @aiDotEngineer on X\n\nFOLLOW US:\nFollow @ReviewAIVideos for more expert AI video critiques and analysis.",
+        "webpage_url": "https://www.youtube.com/watch?v=FJX8ZXDWP8w",
+        "upload_date": "20260628",
+        "timestamp": 1782676371,
+        "view_count": 15,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.18,
+        "session": {
+          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
+          "title": "One Designer + Al. Hundreds of Deliverables.",
+          "speakers": [
+            "Vincent Wendy"
+          ],
+          "companies": [
+            "AI Engineer"
+          ],
+          "day": "Day 3 — Session Day 2",
+          "time": "3:45pm-4:05pm",
+          "room": "Track 6",
+          "track": "Design Engineering"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "AI Engineer"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: AI Engineer",
+          "short video; likely clip/recap"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": false,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "wkOiO8sH88s",
+        "title": "AIE World's Fair 2026 - Day 1 in 13 min -  AI Engineer - WF2026",
+        "uploader": "CorticalFlow",
+        "channel": "CorticalFlow",
+        "channel_id": "UCtIOvf-mT0p_WpkwMN3mKnQ",
+        "duration": 666,
+        "description": "7,000 engineers packed into San Francisco for the opening day of the biggest AI engineering event ever held — and the theme was a strange one: software factories. The idea that building software is becoming an industrial process, where agents do the work while you sleep. It's a thrilling promise with a catch the whole day kept circling back to: a factory can build real software, or it can mass-produce garbage. The industry has a word for that garbage. Slop.\n\nWe compressed the entire Day-1 main stage of AI Engineer World's Fair 2026 — the \"Software Factories\" day — into the findings that matter: why everything is loops now, how OpenAI, Microsoft and the open-weight labs are reframing the work, the 100-person factory in India running a named swarm of agents, the war on slop, the counter-thesis that \"the harness is not enough,\" the deterministic rails going in underneath, and the strangest idea of all — models that are learning to train the next model.\n\nBuilt from the complete Day-1 main-stage transcript, processed through CorticalFlow's research pipeline — every claim in this video is attributed to the person who said it on stage.\n\n⏱ Chapters\n0:00  The loop that makes loops\n0:43  What a software factory actually is\n1:32  Microsoft: knowledge becomes a learning loop\n2:20  OpenAI Codex — a return to the roots of engineering\n3:08  \"I thought I was orchestrating. Really, I was polling.\"\n3:57  The open-weight models show up in force\n4:56  The factory, made literal — a swarm with names\n5:39  The war on slop\n6:30  The counter-thesis: \"the harness is not enough\"\n7:29  Deterministic rails under the machine\n8:27  The factory that builds the machines\n9:26  Why it's not just \"swap the engine\"\n10:10 What Day 1 adds up to\n\n🧠 Powered by CorticalFlow\nPowered by CorticalFlow's private intelligence stack — a self-hosted research engine that ingests conferences, filings, broadcasts and supply-chain data into a unified knowledge graph, then synthesizes the structural picture you can't get from headlines. Built for operators who need the map underneath the noise. We don't just summarize — we attribute every claim to its source and surface what the consensus is missing.\n\n🔍 Mentioned in this video\nswyx, AI Engineer, Pablo Castro, Microsoft, OpenAI, Codex, Roman Hewitt, Alexander Embirikos, Peter Steinberger, OpenClaw, Z.ai, GLM, Minimax, Hugging Face, Thomas Wolf, Rushabh, MachineCraft, Greptile, Daksh Gupta, BAML, Warp, Dex Horthy, HumanLayer, Eric Meyer, Leibniz Labs, Resonate, Dominic Tornow, Snyk, Cursor, Lee Robinson, Ralph Loop, Geoffrey Huntley, agents.md, AI Engineer World's Fair\n\n⚠ Conference commentary and research opinion — not investment advice. Speaker attributions inferred from the diarized conference audio.\n\n#AIEngineering #SoftwareFactories #AIAgents #LLM #AIEngineerWorldsFair #CodingAgents #AgenticAI #DevTools #ContextEngineering #OpenWeights",
+        "webpage_url": "https://www.youtube.com/watch?v=wkOiO8sH88s",
+        "upload_date": "20260707",
+        "timestamp": 1783422225,
+        "view_count": 21,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.18,
+        "session": {
+          "slug": "2026-06-29-charlie-guo-cooking-with-codex",
+          "title": "Cooking with Codex",
+          "speakers": [
+            "Charlie Guo",
+            "Gabriel Chua"
+          ],
+          "companies": [
+            "OpenAI"
+          ],
+          "day": "Day 1 — Workshop Day",
+          "time": "9:00am-11:00am",
+          "room": "Track 3",
+          "track": "Workshops Day 1"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "OpenAI"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: OpenAI",
+          "talk/session-shaped title",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": true
+    },
+    {
+      "video": {
+        "id": "HXH7YCteIkY",
+        "title": "I Went to the Biggest AI Conference in the World. Only 5 Startups Impressed Me.",
+        "uploader": "Hey AI ",
+        "channel": "Hey AI ",
+        "channel_id": "UCjaXiyYp49UvdswWWjMLd6g",
+        "duration": 514,
+        "description": "The AI Engineer World Fair had 236 AI companies last week in San Francisco. Many were hype. 5 were especially worth knowing.\n\n 👉🏻 PLEASE READ: This is a completely independent, unsponsored video about the AI companies that genuinely impressed me (which is rare, because I’m pretty slow to endorse anything in the AI hype cycle). No company paid for placement. \n\nThe @aiDotEngineer World Fair is considered the largest AI conference in the world, covering everything from Agentic AI, Unitree robotics AI development tools to AGI. But you didn’t need to be there to understand what’s happening deep in Silicon Valley. I’ll break it down for you in 10 minutes.\n_____________________________________________________________________________________\n\nHi all, I'm Veronica. 🥰 I've been in software for 10 years, AI for 6 starting on AI combat ships for the military. I sit in the middle of the AI hype cycle and report both sides (the good and the bad).\n\nI also gave my own talk at the AIEWF. Watch here 👉🏻https://www.youtube.com/watch?v=d_Ftrl3vfV0\n\nLinkedIn: https://www.linkedin.com/in/veronica-hylak-8b629a86/\nMy unfiltered thoughts on X: https://x.com/veronicahylak\n\n#FutureOfAI #AIEngineerWorldFair #AI #ArtificialIntelligence #AIAgents\n#TechStartups  #unitree #raindropAI #turbopuffer #modal #browserbase #reductores \n_____________________________________________________________________________________\n\nFluffing a Duck by Kevin MacLeod is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/by/4.0/\n\nCompanies mentioned:\nUnitree Robotics: https://linkly.link/2m3lm\nRaindrop AI: https://linkly.link/2m3lw\nReducto AI: https://linkly.link/2m3lz\nBrowserBase: https://linkly.link/2m3m3\nTurbopuffer: https://linkly.link/2m3n1",
+        "webpage_url": "https://www.youtube.com/watch?v=HXH7YCteIkY",
+        "upload_date": "20260706",
+        "timestamp": 1783353850,
+        "view_count": 6137,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.1,
+        "session": {
+          "slug": "2026-06-29-charles-frye-what-is-an-inference-engine-anyway",
+          "title": "What is an Inference Engine, Anyway?",
+          "speakers": [
+            "Charles Frye"
+          ],
+          "companies": [
+            "Modal"
+          ],
+          "day": "Day 1 — Workshop Day",
+          "time": "11:05am-12:05pm",
+          "room": "Track 8",
+          "track": "Workshops Day 1"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "Modal"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: Modal",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "NJxqWu2lrvM",
+        "title": "GPT-5.6 STILL LOCKED + Nobel Laureate Switches Labs + Colorado AI Law Gutted | AI News June 29, 2026",
+        "uploader": "BizThriveAI - AI News",
+        "channel": "BizThriveAI - AI News",
+        "channel_id": "UCWOvlRfKqkVNGtTKE_gFOVw",
+        "duration": 721,
+        "description": "Today's AI news for business operators — full analysis at https://bizthrive.ai\n\n📋 CHAPTERS\n0:00 Intro — Government-gated AI access is the new normal\n0:35 Story 1: AI Engineer World's Fair 2026 kicks off in San Francisco\n1:47 Story 2: GPT-5.6 Sol still locked — broad access estimated July 10-17\n3:03 Story 3: Trump's AI Executive Order — the legal framework behind model restrictions\n4:41 Story 4: Nobel laureate John Jumper leaves DeepMind for Anthropic\n6:11 Story 5: Colorado's AI Act replaced before it could take effect\n7:41 Story 6: Qualcomm in $10B talks for Tenstorrent — RISC-V challenge to Nvidia\n9:07 Story 7: SpaceX signs $6.3B compute deal — neoclouds are here\n10:34 Business Takeaway — models, compute, and regulation: the three control points\n11:43 Outro\n\n📰 TODAY'S STORIES\n\nThe AI Engineer World's Fair 2026 opens today at Moscone West in San Francisco — 6,000+ engineers, 300 speakers, 29 tracks. The largest technical AI conference in the world, built for builders shipping AI applications.\n\nGPT-5.6 Sol remains restricted to ~20 government-approved companies three days after launch. No public waitlist, no ChatGPT access. Broad availability estimated July 10-17. The first US frontier model launched under a government-curated access list.\n\nTrump's June 2 Executive Order on AI creates a voluntary 30-day pre-deployment review framework for frontier models, due by August 1. Technically voluntary, but practically being followed — this is the legal basis for GPT-5.6 and Mythos restrictions.\n\nNobel laureate John Jumper (AlphaFold 2, 2024 Chemistry Nobel) leaves Google DeepMind after 9 years for Anthropic. Follows Anthropic's $400M acquisition of Coefficient Bio. DeepMind-to-Anthropic talent flow is 11:1.\n\nColorado's AI Act — the first comprehensive state AI law — was replaced before its June 30 effective date after White House pressure and a federal court stay. Federal policy will set US AI rules, not state patchworks.\n\nQualcomm in advanced talks to acquire Tenstorrent (Jim Keller's RISC-V AI chip startup) for $8-10B. Valuation tripled in 12 months. Could break Nvidia's AI compute monopoly.\n\nSpaceX signs $6.3B compute deal with Reflection AI — $150M/month for GB300 access at Colossus 2. SpaceX now hosts Anthropic ($1.25B/mo), Google ($920M/mo), and Reflection. Neoclouds are becoming the AI infrastructure layer.\n\n🔗 Resources: https://bizthrive.ai\n\n#AINews #ArtificialIntelligence #AIForBusiness #OpenAI #GPT56 #Anthropic #JohnJumper #Qualcomm #Tenstorrent #SpaceX #AIRegulation #ColoradoAIAct #BizThriveAI #AIStrategy #AIEngineer",
+        "webpage_url": "https://www.youtube.com/watch?v=NJxqWu2lrvM",
+        "upload_date": "20260702",
+        "timestamp": 1782973661,
+        "view_count": 4,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.1,
+        "session": {
+          "slug": "2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer",
+          "title": "Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer",
+          "speakers": [
+            "Dhruv Nathawani"
+          ],
+          "companies": [
+            "Nvidia"
+          ],
+          "day": "Day 1 — Workshop Day",
+          "time": "11:05am-12:05pm",
+          "room": "Track 5",
+          "track": "Workshops Day 1"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "Nvidia"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: Nvidia",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "PupBlK6JuJQ",
+        "title": "GPT-5.6 Only for 20 Companies | John Jumper to Anthropic | Qualcomm $10B | AI News June 29 2026",
+        "uploader": "BizThriveAI - AI News",
+        "channel": "BizThriveAI - AI News",
+        "channel_id": "UCWOvlRfKqkVNGtTKE_gFOVw",
+        "duration": 898,
+        "description": "GPT-5.6 Sol still restricted to ~20 government-approved companies. John Jumper (Nobel Laureate, AlphaFold 2) leaves DeepMind for Anthropic. Qualcomm in $10B Tenstorrent talks. SpaceX $6.3B compute deal. Colorado AI Act killed before it took effect.\n\nToday's AI news for business operators — full analysis at https://bizthrive.ai\n\n📋 CHAPTERS\n0:00 Intro — Government-gated AI access is the new normal\n0:40 Story 1: AI Engineer World's Fair 2026 kicks off in San Francisco\n2:30 Story 2: GPT-5.6 Sol still locked — broad access estimated July 10-17\n4:45 Story 3: Trump's AI Executive Order — the legal framework behind model restrictions\n7:00 Story 4: Nobel laureate John Jumper leaves DeepMind for Anthropic\n9:15 Story 5: Colorado's AI Act replaced before it could take effect\n11:30 Story 6: Qualcomm in $10B talks for Tenstorrent — RISC-V challenge to Nvidia\n13:30 Story 7: SpaceX signs $6.3B compute deal — neoclouds are here\n15:30 Business Takeaway — models, compute, and regulation: the three control points\n17:00 Outro\n\n📰 TODAY'S STORIES\n\nThe AI Engineer World's Fair 2026 opens today at Moscone West in San Francisco — 6,000+ engineers, 300 speakers, 29 tracks.\n\nGPT-5.6 Sol remains restricted to ~20 government-approved companies three days after launch. No public waitlist, no ChatGPT access. Broad availability estimated July 10-17.\n\nTrump's June 2 Executive Order on AI creates a voluntary 30-day pre-deployment review framework for frontier models. This is the legal basis for GPT-5.6 and Mythos restrictions.\n\nNobel laureate John Jumper (AlphaFold 2, 2024 Chemistry Nobel) leaves Google DeepMind after 9 years for Anthropic. DeepMind-to-Anthropic talent flow is 11:1.\n\nColorado's AI Act was replaced before its June 30 effective date after White House pressure and a federal court stay.\n\nQualcomm in advanced talks to acquire Tenstorrent (Jim Keller's RISC-V AI chip startup) for $8-10B. Could break Nvidia's AI compute monopoly.\n\nSpaceX signs $6.3B compute deal with Reflection AI. SpaceX now hosts Anthropic ($1.25B/mo), Google ($920M/mo), and Reflection.\n\n🔗 Resources: https://bizthrive.ai\n\n#AINews #ArtificialIntelligence #OpenAI #GPT56 #Anthropic #JohnJumper #DeepMind #Qualcomm #Tenstorrent #SpaceX #AIRegulation #ColoradoAIAct #BizThriveAI #AIStrategy #AIEngineer #AINews2026 #AustralianBusiness",
+        "webpage_url": "https://www.youtube.com/watch?v=PupBlK6JuJQ",
+        "upload_date": "20260629",
+        "timestamp": 1782728447,
+        "view_count": 1,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.1,
+        "session": {
+          "slug": "2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer",
+          "title": "Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer",
+          "speakers": [
+            "Dhruv Nathawani"
+          ],
+          "companies": [
+            "Nvidia"
+          ],
+          "day": "Day 1 — Workshop Day",
+          "time": "11:05am-12:05pm",
+          "room": "Track 5",
+          "track": "Workshops Day 1"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [
+          "Nvidia"
+        ],
+        "reasons": [
+          "event marker in title/metadata",
+          "company match: Nvidia",
+          "plausible talk/workshop duration",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": false
+    },
+    {
+      "video": {
+        "id": "RZd8g89hZgw",
+        "title": "The Inngest Crew at AI Engineer World's Fair in SF",
+        "uploader": "Inngest",
+        "channel": "Inngest",
+        "channel_id": "UCRJT3yvhhhuio-2N0B12bVQ",
+        "duration": 43,
+        "description": "The Inngest crew was out in full force enjoying the AI Engineer World's Fair, plus we hosted our breakfasts and lunches at our office right across the street from the Moscone Center.",
+        "webpage_url": "https://www.youtube.com/watch?v=RZd8g89hZgw",
+        "upload_date": "20260704",
+        "timestamp": 1783132653,
+        "view_count": 32,
+        "availability": "public",
+        "live_status": "not_live"
+      },
+      "confidence": "low",
+      "usefulness": "event_context_only",
+      "best_match": {
+        "score": 0.0,
+        "session": {
+          "slug": "2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101",
+          "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 101",
+          "speakers": [
+            "Laurie Voss"
+          ],
+          "companies": [
+            "Arize AI"
+          ],
+          "day": "Day 1 — Workshop Day",
+          "time": "9:00am-11:00am",
+          "room": "Track 1",
+          "track": "Track 1"
+        },
+        "title_overlap": 0.0,
+        "phrase_overlap": 0.0,
+        "speaker_hits": [],
+        "company_hits": [],
+        "reasons": [
+          "event marker in title/metadata",
+          "short video; likely clip/recap",
+          "recap/vlog/event-footage language"
+        ]
+      },
+      "event_marker": true,
+      "official_channel": false,
+      "recapish": true,
+      "talkish": false
+    },
     {
       "video": {
         "id": "qakTj_xI0gk",
@@ -60,321 +1124,11 @@
         "path": "raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt",
         "caption_path": "raw/sources/external-youtube-subtitles/qakTj_xI0gk.en-orig.vtt",
         "word_count": 2375
+      },
+      "carry_forward": {
+        "reason": "Prior high-confidence external source retained even though it did not appear in the latest query set.",
+        "from_report_checked_at": "2026-07-09T05:00:47.679734+00:00"
       }
-    },
-    {
-      "video": {
-        "id": "x1-B2DJr3i4",
-        "title": "Why Trust Is the Bottleneck for Agents — Jean-Denis Greze, Town | AI Engineer World's Fair 2026",
-        "uploader": "WorkOS",
-        "channel": "WorkOS",
-        "duration": 967.0,
-        "webpage_url": "https://www.youtube.com/watch?v=x1-B2DJr3i4"
-      },
-      "confidence": "medium",
-      "usefulness": "needs_human_review_or_context_source",
-      "best_match": {
-        "score": 0.58,
-        "session": {
-          "slug": "2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects",
-          "title": "Agents' next frontier: agent-to-agent and network effects",
-          "speakers": [
-            "Jean-Denis Greze"
-          ],
-          "companies": [
-            "Town"
-          ],
-          "day": "Day 2 — Session Day 1",
-          "time": "1:30pm-1:50pm",
-          "room": "Track 1",
-          "track": "Claws & Personal Agents"
-        },
-        "title_overlap": 0.111,
-        "phrase_overlap": 0.143,
-        "speaker_hits": [
-          "Jean-Denis Greze"
-        ],
-        "company_hits": [
-          "Town"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: Jean-Denis Greze",
-          "company match: Town",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true
-    },
-    {
-      "video": {
-        "id": "0JaDGb8ZwuU",
-        "title": "IRL at AI Engineer World's Fair in SF",
-        "uploader": "Ray Fernando",
-        "channel": "Ray Fernando",
-        "duration": 12746.0,
-        "webpage_url": "https://www.youtube.com/watch?v=0JaDGb8ZwuU"
-      },
-      "confidence": "low",
-      "usefulness": "event_context_only",
-      "best_match": {
-        "score": 0.26,
-        "session": {
-          "slug": "2026-06-30-gaurav-mishra-from-rl-to-irl",
-          "title": "From RL to IRL",
-          "speakers": [
-            "Gaurav Mishra"
-          ],
-          "companies": [
-            "Amazon AGI Lab"
-          ],
-          "day": "Day 3 — Session Day 2",
-          "time": "1:30pm-1:50pm",
-          "room": "Track 7",
-          "track": "Computer Use"
-        },
-        "title_overlap": 1.0,
-        "phrase_overlap": 0.333,
-        "speaker_hits": [],
-        "company_hits": [],
-        "reasons": [
-          "event marker in title/metadata",
-          "title token overlap 1.00",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": false
-    },
-    {
-      "video": {
-        "id": "-YxxlYQdd5w",
-        "title": "AIE World's Fair 2026 - Day 3 in 13 min -  AI Engineer - WF2026",
-        "uploader": "CorticalFlow",
-        "channel": "CorticalFlow",
-        "duration": 770.0,
-        "webpage_url": "https://www.youtube.com/watch?v=-YxxlYQdd5w"
-      },
-      "confidence": "low",
-      "usefulness": "event_context_only",
-      "best_match": {
-        "score": 0.18,
-        "session": {
-          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
-          "title": "One Designer + Al. Hundreds of Deliverables.",
-          "speakers": [
-            "Vincent Wendy"
-          ],
-          "companies": [
-            "AI Engineer"
-          ],
-          "day": "Day 3 — Session Day 2",
-          "time": "3:45pm-4:05pm",
-          "room": "Track 6",
-          "track": "Design Engineering"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "AI Engineer"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: AI Engineer",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": true
-    },
-    {
-      "video": {
-        "id": "0PGO7Ljp8zg",
-        "title": "MLH @ AI Engineer World’s Fair 2026",
-        "uploader": "Major League Hacking",
-        "channel": "Major League Hacking",
-        "duration": 104.0,
-        "webpage_url": "https://www.youtube.com/watch?v=0PGO7Ljp8zg"
-      },
-      "confidence": "low",
-      "usefulness": "event_context_only",
-      "best_match": {
-        "score": 0.18,
-        "session": {
-          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
-          "title": "One Designer + Al. Hundreds of Deliverables.",
-          "speakers": [
-            "Vincent Wendy"
-          ],
-          "companies": [
-            "AI Engineer"
-          ],
-          "day": "Day 3 — Session Day 2",
-          "time": "3:45pm-4:05pm",
-          "room": "Track 6",
-          "track": "Design Engineering"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "AI Engineer"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: AI Engineer",
-          "short video; likely clip/recap"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": false
-    },
-    {
-      "video": {
-        "id": "ewLCOy9mGO8",
-        "title": "AIE World's Fair 2026 - Day 2 in 13 min -  AI Engineer - WF2026",
-        "uploader": "CorticalFlow",
-        "channel": "CorticalFlow",
-        "duration": 660.0,
-        "webpage_url": "https://www.youtube.com/watch?v=ewLCOy9mGO8"
-      },
-      "confidence": "low",
-      "usefulness": "event_context_only",
-      "best_match": {
-        "score": 0.18,
-        "session": {
-          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
-          "title": "One Designer + Al. Hundreds of Deliverables.",
-          "speakers": [
-            "Vincent Wendy"
-          ],
-          "companies": [
-            "AI Engineer"
-          ],
-          "day": "Day 3 — Session Day 2",
-          "time": "3:45pm-4:05pm",
-          "room": "Track 6",
-          "track": "Design Engineering"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "AI Engineer"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: AI Engineer",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": true
-    },
-    {
-      "video": {
-        "id": "wkOiO8sH88s",
-        "title": "AIE World's Fair 2026 - Day 1 in 13 min -  AI Engineer - WF2026",
-        "uploader": "CorticalFlow",
-        "channel": "CorticalFlow",
-        "duration": 667.0,
-        "webpage_url": "https://www.youtube.com/watch?v=wkOiO8sH88s"
-      },
-      "confidence": "low",
-      "usefulness": "event_context_only",
-      "best_match": {
-        "score": 0.18,
-        "session": {
-          "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
-          "title": "One Designer + Al. Hundreds of Deliverables.",
-          "speakers": [
-            "Vincent Wendy"
-          ],
-          "companies": [
-            "AI Engineer"
-          ],
-          "day": "Day 3 — Session Day 2",
-          "time": "3:45pm-4:05pm",
-          "room": "Track 6",
-          "track": "Design Engineering"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "AI Engineer"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: AI Engineer",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": true
-    },
-    {
-      "video": {
-        "id": "RZd8g89hZgw",
-        "title": "The Inngest Crew at AI Engineer World's Fair in SF",
-        "uploader": "Inngest",
-        "channel": "Inngest",
-        "duration": 43.0,
-        "webpage_url": "https://www.youtube.com/watch?v=RZd8g89hZgw"
-      },
-      "confidence": "low",
-      "usefulness": "event_context_only",
-      "best_match": {
-        "score": 0.0,
-        "session": {
-          "slug": "2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101",
-          "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 101",
-          "speakers": [
-            "Laurie Voss"
-          ],
-          "companies": [
-            "Arize AI"
-          ],
-          "day": "Day 1 — Workshop Day",
-          "time": "9:00am-11:00am",
-          "room": "Track 1",
-          "track": "Track 1"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [],
-        "reasons": [
-          "event marker in title/metadata",
-          "short video; likely clip/recap",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": false
     }
   ]
 }

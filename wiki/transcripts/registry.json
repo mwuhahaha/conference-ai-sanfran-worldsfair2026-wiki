@@ -792,8 +792,16 @@
     "sourceLabel": "YouTube livestream transcript"
   },
   {
+    "id": "youtube-AheG9p_JXVw-transcript",
+    "title": "Transcript: AI Engineer World's Fair: Building Reelful - Agentic Video Editor",
+    "path": "wiki/transcripts/youtube-AheG9p_JXVw-transcript.md",
+    "videoId": "AheG9p_JXVw",
+    "wordCount": 1340,
+    "sourceLabel": "External YouTube secondary-source transcript"
+  },
+  {
     "id": "youtube-qakTj_xI0gk-transcript",
-    "title": "Transcript: Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026",
+    "title": "Transcript: Qaktj Xi0Gk",
     "path": "wiki/transcripts/youtube-qakTj_xI0gk-transcript.md",
     "videoId": "qakTj_xI0gk",
     "wordCount": 2375,

@@ -1,8 +1,8 @@
 {
   "generatedBy": "scripts/generate_phrase_word_cloud.py",
   "sourceCounts": {
-    "documents": 2924,
-    "approxWords": 959964,
+    "documents": 2929,
+    "approxWords": 961334,
     "phraseCandidates": 1026
   },
   "terms": [
@@ -44,7 +44,7 @@
     },
     {
       "term": "code",
-      "count": 3162
+      "count": 3166
     },
     {
       "term": "model context protocol",
@@ -52,7 +52,7 @@
     },
     {
       "term": "open source",
-      "count": 825
+      "count": 831
     },
     {
       "term": "agentic search",
@@ -72,11 +72,11 @@
     },
     {
       "term": "context",
-      "count": 1725
+      "count": 1727
     },
     {
       "term": "tools",
-      "count": 1616
+      "count": 1617
     },
     {
       "term": "systems",
@@ -136,11 +136,11 @@
     },
     {
       "term": "human",
-      "count": 1024
+      "count": 1025
     },
     {
       "term": "agentic",
-      "count": 1019
+      "count": 1023
     },
     {
       "term": "language models",
@@ -148,7 +148,7 @@
     },
     {
       "term": "prompt",
-      "count": 997
+      "count": 1000
     },
     {
       "term": "local AI",
@@ -156,7 +156,7 @@
     },
     {
       "term": "problem",
-      "count": 929
+      "count": 933
     },
     {
       "term": "future",
@@ -188,7 +188,7 @@
     },
     {
       "term": "infrastructure",
-      "count": 851
+      "count": 853
     },
     {
       "term": "teams",
@@ -232,7 +232,7 @@
     },
     {
       "term": "layer",
-      "count": 735
+      "count": 737
     },
     {
       "term": "large language models",
@@ -263,12 +263,12 @@
       "count": 213
     },
     {
-      "term": "world",
-      "count": 697
+      "term": "create",
+      "count": 698
     },
     {
-      "term": "create",
-      "count": 694
+      "term": "world",
+      "count": 697
     },
     {
       "term": "tasks",
@@ -292,11 +292,15 @@
     },
     {
       "term": "find",
-      "count": 657
+      "count": 658
     },
     {
       "term": "best",
-      "count": 651
+      "count": 653
+    },
+    {
+      "term": "case",
+      "count": 642
     },
     {
       "term": "tokens",
@@ -311,8 +315,8 @@
       "count": 637
     },
     {
-      "term": "case",
-      "count": 634
+      "term": "already",
+      "count": 631
     },
     {
       "term": "cloud",
@@ -320,11 +324,7 @@
     },
     {
       "term": "sort",
-      "count": 630
-    },
-    {
-      "term": "already",
-      "count": 627
+      "count": 631
     },
     {
       "term": "running",
@@ -359,15 +359,15 @@
       "count": 607
     },
     {
+      "term": "skills",
+      "count": 606
+    },
+    {
       "term": "agent memory",
       "count": 183
     },
     {
       "term": "point",
-      "count": 603
-    },
-    {
-      "term": "skills",
       "count": 603
     },
     {
@@ -388,31 +388,31 @@
     },
     {
       "term": "they're",
-      "count": 593
+      "count": 594
     },
     {
       "term": "inference",
       "count": 590
     },
     {
-      "term": "production AI",
-      "count": 177
+      "term": "change",
+      "count": 585
     },
     {
-      "term": "change",
-      "count": 584
+      "term": "production AI",
+      "count": 177
     },
     {
       "term": "development",
       "count": 581
     },
     {
-      "term": "read",
-      "count": 579
+      "term": "experience",
+      "count": 580
     },
     {
-      "term": "experience",
-      "count": 578
+      "term": "read",
+      "count": 579
     },
     {
       "term": "architecture",
@@ -443,12 +443,12 @@
       "count": 553
     },
     {
-      "term": "human in the loop",
-      "count": 138
+      "term": "last",
+      "count": 553
     },
     {
-      "term": "last",
-      "count": 552
+      "term": "human in the loop",
+      "count": 138
     },
     {
       "term": "instead",

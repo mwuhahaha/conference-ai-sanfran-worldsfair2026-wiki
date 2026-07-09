@@ -33,8 +33,8 @@
 <text x="1176" y="105" font-size="67" fill="#7c3aed">loop</text>
 <text x="126" y="337" font-size="66" fill="#334155">team</text>
 <text x="45" y="541" font-size="63" fill="#7c3aed">find</text>
-<text x="1205" y="726" font-size="63" fill="#0f766e">case</text>
-<text x="30" y="402" font-size="62" fill="#b45309">sort</text>
+<text x="34" y="400" font-size="62" fill="#7c3aed">sort</text>
+<text x="1188" y="730" font-size="62" fill="#0f766e">write</text>
 <text x="348" y="439" font-size="17" fill="#1d4ed8">nearly headless</text>
 </g>
 </svg>
