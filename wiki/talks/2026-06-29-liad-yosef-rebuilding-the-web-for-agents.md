@@ -86,13 +86,13 @@ between ready and not is about to separate the relevant from the invisible.
 [MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps](https://www.youtube.com/watch?v=o-zkvb0iFDQ) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
 
 ## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+Related video transcript availability: English auto-captions. The transcript has been fetched and converted to [[youtube-o-zkvb0iFDQ-transcript]]. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed.
 
 ## People
 - [[liad-yosef]]
 
 ## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
+- This page now includes source-backed synthesis from the official schedule and the related Liad/Ido MCP UI transcript. Revisit if a confirmed exact recording of this scheduled session is published.
 ## Supporting Slides
 - [[youtube-o-zkvb0iFDQ-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -102,3 +102,37 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - [[youtube-o-zkvb0iFDQ-slides]]
 - Slide-derived terms: `future`, `engineering`, `apps`, `alengineer`, `europe`, `engineer`, `aiengineer`, `mcp-ui`, `host`, `braintrust`, `workos`, `openal`, `rene`, `morrow`, `server`, `claude`, `architecture`, `sandbox`
+
+## Transcript Markdown
+- [[youtube-o-zkvb0iFDQ-transcript]] — full cached transcript markdown for the related YouTube source.
+## Synthesis
+### Synthesized Breakdown
+This talk argues that AI apps are becoming the new browsers, so the web has to be designed for agents as operators, not only for human readers. It breaks agentic-web readiness into the whole journey of discovery, understanding, authentication, action, and human handoff. The key finding is reachability over format: agent-facing files and specs only help when agents can actually find them from trusted surfaces such as docs and homepages. The resulting design frame is a nearly headless web, where agents handle most execution while human-visible checkpoints remain available for judgment, comparison, and consent.
+
+### Speaker And Company Context
+- [[liad-yosef|Liad Yosef]] — Co-creator at [[mcp-apps|MCP Apps]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+- [[mcp]]
+- [[mcp-apps]]
+
+### Derived Links And Source Material
+- [[youtube-o-zkvb0iFDQ-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt` (3,969 words).
+- [[youtube-o-zkvb0iFDQ]] — related YouTube source page.
+- [[youtube-o-zkvb0iFDQ-slides]] — slide evidence.
+- [[youtube-o-zkvb0iFDQ-reconstructed-slides]] — slide evidence.
+- [[youtube-o-zkvb0iFDQ-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- [[reachability-over-format|Reachability Over Format]] — Agent-facing files and specs matter less than whether agents can actually find and reach them from the surfaces they use.
+- [[nearly-headless-web|Nearly Headless Web]] — The web moves toward machine-operable surfaces while preserving human-visible moments for choice, review, and judgment.
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+- [[mcp-app-runtime|MCP Apps As Agentic App Runtime]] — MCP Apps treats interactive UI returned from MCP servers as a runtime layer for agent-facing software.
+
+### Evidence Boundary
+This synthesis uses the official schedule plus cached related-video transcripts. Related videos remain supporting context unless explicitly verified as exact session recordings.

@@ -48,14 +48,14 @@ Architecture - Real-world use cases - What's ahead? - Getting started (+communit
 [MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps](https://www.youtube.com/watch?v=o-zkvb0iFDQ) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
 
 ## Transcript Status
-Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
+Related video transcript availability: English auto-captions. The transcript has been fetched and converted to [[youtube-o-zkvb0iFDQ-transcript]]. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed.
 
 ## People
 - [[liad-yosef]]
 - [[ido-salomon]]
 
 ## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
+- This page now includes source-backed synthesis from the official schedule and the related Liad/Ido MCP UI transcript. Revisit if a confirmed exact recording of this scheduled session is published.
 ## Supporting Slides
 - [[youtube-o-zkvb0iFDQ-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -65,3 +65,34 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - [[youtube-o-zkvb0iFDQ-slides]]
 - Slide-derived terms: `future`, `engineering`, `apps`, `alengineer`, `europe`, `engineer`, `aiengineer`, `mcp-ui`, `host`, `braintrust`, `workos`, `openal`, `rene`, `morrow`, `server`, `claude`, `architecture`, `sandbox`
+
+## Transcript Markdown
+- [[youtube-o-zkvb0iFDQ-transcript]] — full cached transcript markdown for the related YouTube source.
+## Synthesis
+### Synthesized Breakdown
+This talk frames MCP Apps as the interactive application runtime for agentic software. Instead of MCP servers returning only structured tool data or text, MCP Apps lets servers return UI views inside MCP hosts so models get actionable context and humans get usable controls. The session connects MCP UI, the MCP Apps extension, SEP-1865, host integration, real-world use cases, and the move from chat responses toward agentic applications. Its practical method is to separate model-operable data from human-operable interface while keeping both inside the same MCP interaction.
+
+### Speaker And Company Context
+- [[liad-yosef|Liad Yosef]] — Co-creator at [[mcp-apps|MCP Apps]].
+- [[ido-salomon|Ido Salomon]] — Co-Creator at [[mcp-apps|MCP Apps]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+- [[mcp]]
+- [[mcp-apps]]
+
+### Derived Links And Source Material
+- [[youtube-o-zkvb0iFDQ-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt` (3,969 words).
+- [[youtube-o-zkvb0iFDQ]] — related YouTube source page.
+- [[youtube-o-zkvb0iFDQ-slides]] — slide evidence.
+- [[youtube-o-zkvb0iFDQ-reconstructed-slides]] — slide evidence.
+- [[youtube-o-zkvb0iFDQ-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- [[mcp-app-runtime|MCP Apps As Agentic App Runtime]] — MCP Apps treats interactive UI returned from MCP servers as a runtime layer for agent-facing software.
+
+### Evidence Boundary
+This synthesis uses the official schedule plus cached related-video transcripts. Related videos remain supporting context unless explicitly verified as exact session recordings.

@@ -3,7 +3,6 @@ title: "MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps"
 category: "resources"
 sourceLabels: ["Public YouTube metadata"]
 ---
-
 # MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
 
 ## What It Is
@@ -13,7 +12,9 @@ A public AI Engineer YouTube video matched as supporting context for one or more
 English auto-captions
 
 ## Cached Transcript
-Not fetched yet.
+Fetched and converted to markdown.
+- Raw cache: `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt`
+- Wiki transcript: [[youtube-o-zkvb0iFDQ-transcript]]
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=o-zkvb0iFDQ)
@@ -25,3 +26,6 @@ Not fetched yet.
 - [[youtube-o-zkvb0iFDQ-dense-slides]]
 - [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - [[youtube-o-zkvb0iFDQ-slides]]
+
+## Transcript Markdown
+- [[youtube-o-zkvb0iFDQ-transcript]] — full cached transcript markdown.

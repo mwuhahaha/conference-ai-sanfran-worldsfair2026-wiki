@@ -92,6 +92,7 @@ def render_highlight(target: dict) -> str:
         "",
         "## Maintenance Checklist",
         "- Search for exact recordings or source updates before assuming the current evidence is complete.",
+        *[f"- {note}" for note in target.get("maintenanceNotes", [])],
         "- Prefer official schedule and roster facts for conference metadata.",
         "- Add public company, profile, tool, transcript, and slide context when it directly improves the article.",
         "- Keep the target page's backing markdown available under `/md/` after export.",
@@ -130,6 +131,41 @@ def render_index(targets: list[dict]) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
+def render_grouped_map(targets: list[dict]) -> str:
+    groups = [
+        ("Concepts And Topics", {"topic", "tool"}),
+        ("People", {"person"}),
+        ("Talks", {"talk"}),
+        ("Companies And Resources", {"company", "resource"}),
+    ]
+    lines = [
+        frontmatter({"title": "Highlighted Concepts, People, And Talks", "category": "highlights", "sourceLabels": ["Highlight registry", "Wiki navigation"]}),
+        "# Highlighted Concepts, People, And Talks",
+        "",
+        "This is the operator-facing highlight map for targets that deserve more synthesis than ordinary generated pages. Concepts are included when a talk introduces a reusable method, hack, design pattern, or unusually sharp framing that should be tracked across the wiki.",
+    ]
+    for heading, types in groups:
+        rows = [target for target in targets if target.get("targetType") in types]
+        if not rows:
+            continue
+        lines.extend(["", f"## {heading}"])
+        for target in sorted(rows, key=lambda item: (item.get("priority") != "critical", item.get("title", item["slug"]).lower())):
+            lines.append(f"- [[highlight-{target['id']}|{target.get('title') or target['slug']}]] — {target.get('priority', 'normal')} — {target_wikilink(target)}")
+            if target.get("reason"):
+                lines.append(f"  - {target['reason']}")
+    lines.extend(
+        [
+            "",
+            "## How To Add A Highlight",
+            "- Add a target to `raw/sources/highlighted-targets.json`.",
+            "- Use `targetType` to group it as a concept/topic, person, talk, company, tool, or resource.",
+            "- Run `python3 scripts/generate_highlights.py`.",
+            "- Expand the target page itself with evidence, transcript/source status, related concepts, people, companies, and an evidence boundary.",
+        ]
+    )
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def main() -> int:
     targets = json.loads(TARGETS.read_text(encoding="utf-8"))
     out_dir = WIKI / "highlights"
@@ -149,6 +185,17 @@ def main() -> int:
             }
         )
     (out_dir / "index.md").write_text(render_index(targets), encoding="utf-8")
+    (out_dir / "highlighted-concepts-people-talks.md").write_text(render_grouped_map(targets), encoding="utf-8")
+    records.append(
+        {
+            "id": "highlighted-concepts-people-talks",
+            "title": "Highlighted Concepts, People, And Talks",
+            "path": "wiki/highlights/highlighted-concepts-people-talks.md",
+            "targetType": "index",
+            "targetSlug": "highlighted-concepts-people-talks",
+            "priority": "critical",
+        }
+    )
     records.sort(key=lambda item: item["title"].lower())
     (out_dir / "registry.json").write_text(json.dumps(records, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps({"highlights": len(records)}, sort_keys=True))

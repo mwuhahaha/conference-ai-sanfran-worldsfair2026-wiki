@@ -15,6 +15,11 @@
     "path": "wiki/topics/agent-security.md"
   },
   {
+    "id": "agent-ready-accessibility",
+    "title": "Agent-Ready Accessibility",
+    "path": "wiki/topics/agent-ready-accessibility.md"
+  },
+  {
     "id": "agentic-search",
     "title": "Agentic Search",
     "path": "wiki/topics/agentic-search.md"
@@ -45,9 +50,24 @@
     "path": "wiki/topics/inference-engineering.md"
   },
   {
+    "id": "mcp-app-runtime",
+    "title": "MCP Apps as Agentic App Runtime",
+    "path": "wiki/topics/mcp-app-runtime.md"
+  },
+  {
     "id": "mcp",
     "title": "Model Context Protocol",
     "path": "wiki/topics/mcp.md"
+  },
+  {
+    "id": "nearly-headless-web",
+    "title": "Nearly Headless Web",
+    "path": "wiki/topics/nearly-headless-web.md"
+  },
+  {
+    "id": "reachability-over-format",
+    "title": "Reachability Over Format",
+    "path": "wiki/topics/reachability-over-format.md"
   },
   {
     "id": "software-factories",

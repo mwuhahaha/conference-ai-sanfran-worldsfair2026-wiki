@@ -7,6 +7,7 @@
     "priority": "critical",
     "reason": "Favorite and critical talk: it turns browser agents from expensive step-by-step browsing into repeatable, scriptable CDP-based automation.",
     "expansionBrief": "Maintain extra recording-search status, related speaker/company/tool context, chrome-agent links, and a practical synthesis of browser automation patterns.",
+    "maintenanceNotes": ["Recheck room/track livestream coverage for 2026-06-30 Computer Use / Track 7; current channel evidence only shows broad WF2026 livestreams, not a Track 7 room stream."],
     "relatedTargets": ["corey-gallon", "rexmore", "chrome-agent", "agentic-web", "ai-sandboxes"]
   },
   {
@@ -18,6 +19,36 @@
     "reason": "ORA is central to the agentic-web theme through Liad Yosef and public agent-readiness research.",
     "expansionBrief": "Keep the page grounded in ORA's public research, Liad Yosef's scheduled talks, MCP Apps, WebMCP, and the agent-ready web problem.",
     "relatedTargets": ["liad-yosef", "agentic-web", "mcp-apps", "mcp"]
+  },
+  {
+    "id": "liad-yosef",
+    "targetType": "person",
+    "slug": "liad-yosef",
+    "title": "Liad Yosef",
+    "priority": "critical",
+    "reason": "Liad anchors the agentic-web and MCP Apps threads: agent readiness, nearly-headless web design, MCP UI/MCP Apps, and ORA's research on how real agents use sites.",
+    "expansionBrief": "Keep Liad's page tied to both scheduled talks, ORA context, MCP Apps, WebMCP, agent-readiness research, related transcripts, and highlighted concepts.",
+    "relatedTargets": ["ora", "agentic-web", "mcp-apps", "rebuilding-web-for-agents", "mcp-apps-extending-frontier", "reachability-over-format", "nearly-headless-web"]
+  },
+  {
+    "id": "rebuilding-web-for-agents",
+    "targetType": "talk",
+    "slug": "2026-06-29-liad-yosef-rebuilding-the-web-for-agents",
+    "title": "Rebuilding the Web for Agents",
+    "priority": "critical",
+    "reason": "This talk turns agentic web from a protocol checklist into an evidence-backed operating problem: discovery, understanding, authentication, action, and human handoff.",
+    "expansionBrief": "Keep the page expanded with ORA research, transcript-backed Liad/Ido MCP UI evidence, reachability-over-format, nearly-headless web, agent-ready accessibility, and related agentic-web topics.",
+    "relatedTargets": ["liad-yosef", "ora", "agentic-web", "reachability-over-format", "nearly-headless-web", "agent-ready-accessibility"]
+  },
+  {
+    "id": "mcp-apps-extending-frontier",
+    "targetType": "talk",
+    "slug": "2026-06-30-liad-yosef-mcp-apps-extending-the-frontier",
+    "title": "MCP Apps - Extending the Frontier",
+    "priority": "high",
+    "reason": "This talk is a schedule anchor for MCP Apps as an agentic app runtime and for interactive UI inside MCP hosts.",
+    "expansionBrief": "Keep the page linked to Liad, Ido, MCP Apps, MCP UI, SEP-1865, related transcript evidence, and app-runtime design patterns.",
+    "relatedTargets": ["liad-yosef", "ido-salomon", "mcp-apps", "mcp-app-runtime", "agentic-web"]
   },
   {
     "id": "corey-gallon",
@@ -38,6 +69,46 @@
     "reason": "Agentic Web is an organizing theme tying ORA, MCP Apps, browser automation, search, catalogs, and computer-use talks together.",
     "expansionBrief": "Keep schedule anchors, related resources, risks, and implementation patterns richer than ordinary topic pages.",
     "relatedTargets": ["ora", "liad-yosef", "dark-arts-web-automation", "mcp-apps"]
+  },
+  {
+    "id": "reachability-over-format",
+    "targetType": "topic",
+    "slug": "reachability-over-format",
+    "title": "Reachability Over Format",
+    "priority": "critical",
+    "reason": "A clever agent-readiness finding from Liad/ORA: the format of agent files matters less than whether agents can actually discover and reach them from trusted surfaces.",
+    "expansionBrief": "Keep this concept tied to Rebuilding the web for agents, ORA research, agent-readable docs/homepages, and practical site changes that make agent guidance reachable.",
+    "relatedTargets": ["liad-yosef", "ora", "rebuilding-web-for-agents", "agentic-web", "agent-ready-accessibility"]
+  },
+  {
+    "id": "nearly-headless-web",
+    "targetType": "topic",
+    "slug": "nearly-headless-web",
+    "title": "Nearly Headless Web",
+    "priority": "high",
+    "reason": "A useful product/design frame from Liad's talk: the web becomes mostly machine-operable while preserving human-visible moments for judgment and handoff.",
+    "expansionBrief": "Connect this to WebMCP, MCP Apps, human handoff, browser fallback, and cases where full headless automation is the wrong abstraction.",
+    "relatedTargets": ["liad-yosef", "rebuilding-web-for-agents", "agentic-web", "mcp-apps"]
+  },
+  {
+    "id": "agent-ready-accessibility",
+    "targetType": "topic",
+    "slug": "agent-ready-accessibility",
+    "title": "Agent-Ready Accessibility",
+    "priority": "high",
+    "reason": "The talk frames agent-readiness and accessibility as the same engineering problem: reachable, understandable, operable state for non-human and human intermediaries.",
+    "expansionBrief": "Tie this concept to semantic structure, accessible controls, docs reachability, MCP Apps, WebMCP, and agentic-web design patterns.",
+    "relatedTargets": ["liad-yosef", "agentic-web", "reachability-over-format", "mcp-apps"]
+  },
+  {
+    "id": "mcp-app-runtime",
+    "targetType": "topic",
+    "slug": "mcp-app-runtime",
+    "title": "MCP Apps as Agentic App Runtime",
+    "priority": "high",
+    "reason": "MCP Apps is a concrete method for returning interactive UI from tool servers so agents and humans can share richer app surfaces inside MCP hosts.",
+    "expansionBrief": "Keep this concept grounded in Liad/Ido's MCP Apps session, MCP UI history, SEP-1865, MCP hosts, and UI/data split design patterns.",
+    "relatedTargets": ["mcp-apps-extending-frontier", "liad-yosef", "ido-salomon", "mcp-apps", "mcp"]
   },
   {
     "id": "shipping-production-ai-government",

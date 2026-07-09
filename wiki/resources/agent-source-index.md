@@ -45,7 +45,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Talks: 560 rendered talk pages; official schedule sessions indexed: 560.
 - People: 555 rendered people pages; official speakers indexed: 552.
 - Companies: 344 rendered company pages.
-- Topics: 12 synthesis pages across repeated conference themes.
+- Topics: 16 synthesis pages across repeated conference themes.
 - Resources: 213 pages for source maps, YouTube evidence, livestreams, and processing audits.
 - Slides: 403 slide pages; standard decks: 199; reconstructed decks: 107; dense decks: 94.
 - Quotes: 68 selected quote pages tied back to source videos and topics.
@@ -98,7 +98,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Channel video metadata status: present; video entries: 833.
 - Channel livestream metadata status: present; livestream entries: 32.
 - Related talk/video rows indexed: 153.
-- Cached speaker-matched transcript files: 95.
+- Cached speaker-matched transcript files: 96.
 - Cached livestream transcript files: 3.
 - Cached external secondary-source transcript files: 1.
 - External YouTube discovery rows: 8.

@@ -1,5 +1,13 @@
 [
   {
+    "id": "highlight-agent-ready-accessibility",
+    "title": "Highlight: Agent-Ready Accessibility",
+    "path": "wiki/highlights/highlight-agent-ready-accessibility.md",
+    "targetType": "topic",
+    "targetSlug": "agent-ready-accessibility",
+    "priority": "high"
+  },
+  {
     "id": "highlight-agentic-web",
     "title": "Highlight: Agentic Web",
     "path": "wiki/highlights/highlight-agentic-web.md",
@@ -16,12 +24,60 @@
     "priority": "high"
   },
   {
+    "id": "highlight-liad-yosef",
+    "title": "Highlight: Liad Yosef",
+    "path": "wiki/highlights/highlight-liad-yosef.md",
+    "targetType": "person",
+    "targetSlug": "liad-yosef",
+    "priority": "critical"
+  },
+  {
+    "id": "highlight-mcp-apps-extending-frontier",
+    "title": "Highlight: MCP Apps - Extending the Frontier",
+    "path": "wiki/highlights/highlight-mcp-apps-extending-frontier.md",
+    "targetType": "talk",
+    "targetSlug": "2026-06-30-liad-yosef-mcp-apps-extending-the-frontier",
+    "priority": "high"
+  },
+  {
+    "id": "highlight-mcp-app-runtime",
+    "title": "Highlight: MCP Apps as Agentic App Runtime",
+    "path": "wiki/highlights/highlight-mcp-app-runtime.md",
+    "targetType": "topic",
+    "targetSlug": "mcp-app-runtime",
+    "priority": "high"
+  },
+  {
+    "id": "highlight-nearly-headless-web",
+    "title": "Highlight: Nearly Headless Web",
+    "path": "wiki/highlights/highlight-nearly-headless-web.md",
+    "targetType": "topic",
+    "targetSlug": "nearly-headless-web",
+    "priority": "high"
+  },
+  {
     "id": "highlight-ora-agentic-web",
     "title": "Highlight: ORA",
     "path": "wiki/highlights/highlight-ora-agentic-web.md",
     "targetType": "company",
     "targetSlug": "ora",
     "priority": "high"
+  },
+  {
+    "id": "highlight-reachability-over-format",
+    "title": "Highlight: Reachability Over Format",
+    "path": "wiki/highlights/highlight-reachability-over-format.md",
+    "targetType": "topic",
+    "targetSlug": "reachability-over-format",
+    "priority": "critical"
+  },
+  {
+    "id": "highlight-rebuilding-web-for-agents",
+    "title": "Highlight: Rebuilding the Web for Agents",
+    "path": "wiki/highlights/highlight-rebuilding-web-for-agents.md",
+    "targetType": "talk",
+    "targetSlug": "2026-06-29-liad-yosef-rebuilding-the-web-for-agents",
+    "priority": "critical"
   },
   {
     "id": "highlight-shipping-production-ai-government",
@@ -37,6 +93,14 @@
     "path": "wiki/highlights/highlight-dark-arts-web-automation.md",
     "targetType": "talk",
     "targetSlug": "2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans",
+    "priority": "critical"
+  },
+  {
+    "id": "highlighted-concepts-people-talks",
+    "title": "Highlighted Concepts, People, And Talks",
+    "path": "wiki/highlights/highlighted-concepts-people-talks.md",
+    "targetType": "index",
+    "targetSlug": "highlighted-concepts-people-talks",
     "priority": "critical"
   }
 ]

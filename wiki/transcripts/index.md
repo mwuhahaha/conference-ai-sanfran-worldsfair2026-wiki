@@ -52,6 +52,7 @@ These pages expose cached YouTube and livestream transcripts as linkable wiki ma
 - [[youtube-4kYl2_mqmnQ-transcript|Transcript: I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON]]
 - [[youtube-I2cbIws9j10-transcript|Transcript: I2Cbiws9J10]]
 - [[youtube-sAOBXCDiDOs-transcript|Transcript: MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc]]
+- [[youtube-o-zkvb0iFDQ-transcript|Transcript: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]]
 - [[youtube-akk6KRlcwW4-transcript|Transcript: OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack]]
 - [[youtube-vljxQZfJ9wY-transcript|Transcript: Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs]]
 - [[youtube-UM6sFg_jdlE-transcript|Transcript: RAG is dead, right?? — Kuba Rogut, Turbopuffer]]
