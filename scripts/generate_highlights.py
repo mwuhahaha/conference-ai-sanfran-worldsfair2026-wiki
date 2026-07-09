@@ -66,12 +66,12 @@ def target_wikilink(target: dict) -> str:
 
 
 def render_highlight(target: dict) -> str:
-    source = target_path(target)
     related = target.get("relatedTargets", [])
+    title = target.get("title") or target["slug"]
     body = [
         frontmatter(
             {
-                "title": f"Highlight: {target.get('title') or target['slug']}",
+                "title": title,
                 "category": "highlights",
                 "targetType": target.get("targetType"),
                 "targetSlug": target.get("slug"),
@@ -79,24 +79,10 @@ def render_highlight(target: dict) -> str:
                 "sourceLabels": ["Highlight registry", "Wiki navigation"],
             }
         ),
-        f"# Highlight: {target.get('title') or target['slug']}",
+        f"# {title}",
         "",
-        "## Target Page",
+        "## Page",
         f"- {target_wikilink(target)}",
-        "",
-        "## Why Highlighted",
-        target.get("reason", "This target has been marked for extra wiki attention."),
-        "",
-        "## Expansion Brief",
-        target.get("expansionBrief", "Keep this target richer than ordinary generated pages and revisit it when new sources appear."),
-        "",
-        "## Maintenance Checklist",
-        "- Search for exact recordings or source updates before assuming the current evidence is complete.",
-        *[f"- {note}" for note in target.get("maintenanceNotes", [])],
-        "- Prefer official schedule and roster facts for conference metadata.",
-        "- Add public company, profile, tool, transcript, and slide context when it directly improves the article.",
-        "- Keep the target page's backing markdown available under `/md/` after export.",
-        "- Preserve a clear evidence boundary when a recording or transcript is missing.",
         "",
         "## Related Highlight Targets",
     ]
@@ -105,13 +91,6 @@ def render_highlight(target: dict) -> str:
             body.append(f"- [[{slug}]]")
     else:
         body.append("- No related highlight targets listed.")
-    body.extend(
-        [
-            "",
-            "## Source File",
-            f"- `{source.relative_to(ROOT)}`" if source.exists() else f"- Missing expected source file: `{source.relative_to(ROOT)}`",
-        ]
-    )
     return "\n".join(body).rstrip() + "\n"
 
 
@@ -120,14 +99,11 @@ def render_index(targets: list[dict]) -> str:
         frontmatter({"title": "Highlights", "category": "highlights", "sourceLabels": ["Highlight registry"]}),
         "# Highlights",
         "",
-        "Highlighted pages are targets that deserve extra attention, deeper source searches, richer synthesis, and more frequent revisiting than ordinary generated pages.",
-        "",
-        "Use this category as an operator tool: add targets to `raw/sources/highlighted-targets.json`, run `python3 scripts/generate_highlights.py`, then expand the target pages themselves.",
-        "",
-        "## Highlighted Targets",
+        "## Index",
     ]
     for target in sorted(targets, key=lambda item: (item.get("priority") != "critical", item.get("title", item["slug"]).lower())):
-        lines.append(f"- [[highlight-{target['id']}|{target.get('title') or target['slug']}]] — {target.get('priority', 'normal')} — {target.get('reason', '')}")
+        lines.append(f"- {target_wikilink(target)}")
+    lines.extend(["", "## By Type", "- [[highlighted-concepts-people-talks|Concepts, People, And Talks]]"])
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -141,8 +117,6 @@ def render_grouped_map(targets: list[dict]) -> str:
     lines = [
         frontmatter({"title": "Highlighted Concepts, People, And Talks", "category": "highlights", "sourceLabels": ["Highlight registry", "Wiki navigation"]}),
         "# Highlighted Concepts, People, And Talks",
-        "",
-        "This is the operator-facing highlight map for targets that deserve more synthesis than ordinary generated pages. Concepts are included when a talk introduces a reusable method, hack, design pattern, or unusually sharp framing that should be tracked across the wiki.",
     ]
     for heading, types in groups:
         rows = [target for target in targets if target.get("targetType") in types]
@@ -150,19 +124,7 @@ def render_grouped_map(targets: list[dict]) -> str:
             continue
         lines.extend(["", f"## {heading}"])
         for target in sorted(rows, key=lambda item: (item.get("priority") != "critical", item.get("title", item["slug"]).lower())):
-            lines.append(f"- [[highlight-{target['id']}|{target.get('title') or target['slug']}]] — {target.get('priority', 'normal')} — {target_wikilink(target)}")
-            if target.get("reason"):
-                lines.append(f"  - {target['reason']}")
-    lines.extend(
-        [
-            "",
-            "## How To Add A Highlight",
-            "- Add a target to `raw/sources/highlighted-targets.json`.",
-            "- Use `targetType` to group it as a concept/topic, person, talk, company, tool, or resource.",
-            "- Run `python3 scripts/generate_highlights.py`.",
-            "- Expand the target page itself with evidence, transcript/source status, related concepts, people, companies, and an evidence boundary.",
-        ]
-    )
+            lines.append(f"- {target_wikilink(target)}")
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -177,7 +139,7 @@ def main() -> int:
         records.append(
             {
                 "id": f"highlight-{target['id']}",
-                "title": f"Highlight: {target.get('title') or target['slug']}",
+                "title": target.get("title") or target["slug"],
                 "path": str(path.relative_to(ROOT)),
                 "targetType": target.get("targetType"),
                 "targetSlug": target.get("slug"),
