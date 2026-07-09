@@ -92,3 +92,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-Lc8zRh9muoY`
+- Slide deck: [[youtube-Lc8zRh9muoY-dense-slides|Dense Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]] — 6 visible slide image(s).
+![[assets/dense-slides/Lc8zRh9muoY/slide-001.jpg]]
+![[assets/dense-slides/Lc8zRh9muoY/slide-002.jpg]]
+![[assets/dense-slides/Lc8zRh9muoY/slide-003.jpg]]
+- Additional slide evidence: [[youtube-Lc8zRh9muoY-slides|Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]], [[youtube-Lc8zRh9muoY-reconstructed-slides|Reconstructed Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]]
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, identical, determinism, never, failed, luck, reproducing.

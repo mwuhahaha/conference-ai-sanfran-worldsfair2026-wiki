@@ -78,3 +78,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-5ID22ACI7IM`
+- Slide deck: [[youtube-5ID22ACI7IM-dense-slides|Dense Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked]] — 4 visible slide image(s).
+![[assets/dense-slides/5ID22ACI7IM/slide-001.jpg]]
+![[assets/dense-slides/5ID22ACI7IM/slide-002.jpg]]
+![[assets/dense-slides/5ID22ACI7IM/slide-003.jpg]]
+- Additional slide evidence: [[youtube-5ID22ACI7IM-slides|Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked]], [[youtube-5ID22ACI7IM-reconstructed-slides|Reconstructed Slides: Mergeable by default: Building the context engine to save time and tokens — Peter Werry, Unblocked]]
+- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.

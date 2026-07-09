@@ -71,3 +71,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-JhJKgRAmfIU`
+- Slide deck: [[youtube-JhJKgRAmfIU-dense-slides|Dense Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]] — 4 visible slide image(s).
+![[assets/dense-slides/JhJKgRAmfIU/slide-001.jpg]]
+![[assets/dense-slides/JhJKgRAmfIU/slide-002.jpg]]
+![[assets/dense-slides/JhJKgRAmfIU/slide-003.jpg]]
+- Additional slide evidence: [[youtube-JhJKgRAmfIU-slides|Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]], [[youtube-JhJKgRAmfIU-reconstructed-slides|Reconstructed Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]]
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.

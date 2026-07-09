@@ -69,3 +69,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-7Dtu2bilcFs`
+- Slide deck: [[youtube-7Dtu2bilcFs-dense-slides|Dense Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]] — 13 visible slide image(s).
+![[assets/dense-slides/7Dtu2bilcFs/slide-001.jpg]]
+![[assets/dense-slides/7Dtu2bilcFs/slide-002.jpg]]
+![[assets/dense-slides/7Dtu2bilcFs/slide-003.jpg]]
+- Additional slide evidence: [[youtube-7Dtu2bilcFs-slides|Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]], [[youtube-7Dtu2bilcFs-reconstructed-slides|Reconstructed Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]]
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.

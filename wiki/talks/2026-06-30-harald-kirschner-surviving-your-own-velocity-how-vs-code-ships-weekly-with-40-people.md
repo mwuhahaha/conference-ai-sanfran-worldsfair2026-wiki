@@ -67,3 +67,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-eOxOzcw70f0`
+- Slide deck: [[youtube-eOxOzcw70f0-dense-slides|Dense Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]] — 1 visible slide image(s).
+![[assets/dense-slides/eOxOzcw70f0/slide-001.jpg]]
+- Additional slide evidence: [[youtube-eOxOzcw70f0-slides|Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]], [[youtube-eOxOzcw70f0-reconstructed-slides|Reconstructed Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]]
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.

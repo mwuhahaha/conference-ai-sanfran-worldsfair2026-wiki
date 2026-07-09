@@ -63,3 +63,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-Bc6Ojl2XS1w`
+- Slide deck: [[youtube-Bc6Ojl2XS1w-dense-slides|Dense Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]] — 1 visible slide image(s).
+![[assets/dense-slides/Bc6Ojl2XS1w/slide-001.jpg]]
+- Additional slide evidence: [[youtube-Bc6Ojl2XS1w-slides|Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides|Reconstructed Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]]
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.

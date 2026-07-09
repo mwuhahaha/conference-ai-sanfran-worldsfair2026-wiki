@@ -59,3 +59,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-12v5S1n1eOY`
+- Slide deck: [[youtube-12v5S1n1eOY-dense-slides|Dense Slides: Building an Agentic Platform — Ben Kus, CTO Box]] — 2 visible slide image(s).
+![[assets/dense-slides/12v5S1n1eOY/slide-001.jpg]]
+![[assets/dense-slides/12v5S1n1eOY/slide-002.jpg]]
+- Additional slide evidence: [[youtube-12v5S1n1eOY-slides|Slides: Building an Agentic Platform — Ben Kus, CTO Box]], [[youtube-12v5S1n1eOY-reconstructed-slides|Reconstructed Slides: Building an Agentic Platform — Ben Kus, CTO Box]]
+- Slide-derived themes for `youtube-12v5S1n1eOY`: high, speed, fully, integrated, generative, starting, fortune, hereof.

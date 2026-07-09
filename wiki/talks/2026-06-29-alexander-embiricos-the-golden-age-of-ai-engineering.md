@@ -70,3 +70,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-yJHw33cVeHo`
+- Slide deck: [[youtube-yJHw33cVeHo-dense-slides|Dense Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]] — 3 visible slide image(s).
+![[assets/dense-slides/yJHw33cVeHo/slide-001.jpg]]
+![[assets/dense-slides/yJHw33cVeHo/slide-002.jpg]]
+![[assets/dense-slides/yJHw33cVeHo/slide-003.jpg]]
+- Additional slide evidence: [[youtube-yJHw33cVeHo-slides|Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]], [[youtube-yJHw33cVeHo-reconstructed-slides|Reconstructed Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]]
+- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.

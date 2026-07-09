@@ -78,3 +78,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-tzRvcTEapzo`
+- Slide deck: [[youtube-tzRvcTEapzo-dense-slides|Dense Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]] — 5 visible slide image(s).
+![[assets/dense-slides/tzRvcTEapzo/slide-001.jpg]]
+![[assets/dense-slides/tzRvcTEapzo/slide-002.jpg]]
+![[assets/dense-slides/tzRvcTEapzo/slide-003.jpg]]
+- Additional slide evidence: [[youtube-tzRvcTEapzo-slides|Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]], [[youtube-tzRvcTEapzo-reconstructed-slides|Reconstructed Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]]
+- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.

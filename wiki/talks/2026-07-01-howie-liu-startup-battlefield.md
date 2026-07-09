@@ -70,3 +70,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-zepu8Kk6FBQ`
+- Slide deck: [[youtube-zepu8Kk6FBQ-dense-slides|Dense Slides: Agents for Everything Else — swyx]] — 1 visible slide image(s).
+![[assets/dense-slides/zepu8Kk6FBQ/slide-001.jpg]]
+- Additional slide evidence: [[youtube-zepu8Kk6FBQ-slides|Slides: Agents for Everything Else — swyx]], [[youtube-zepu8Kk6FBQ-reconstructed-slides|Reconstructed Slides: Agents for Everything Else — swyx]]
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.

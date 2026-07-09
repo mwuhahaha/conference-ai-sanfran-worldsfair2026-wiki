@@ -64,3 +64,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-gcseUQJ6Gbg`
+- Slide deck: [[youtube-gcseUQJ6Gbg-slides|Slides: Using OSS models to build AI apps with millions of users — Hassan El Mghari]] — 4 visible slide image(s).
+![[assets/slides/gcseUQJ6Gbg/slide-001.jpg]]
+![[assets/slides/gcseUQJ6Gbg/slide-002.jpg]]
+![[assets/slides/gcseUQJ6Gbg/slide-003.jpg]]
+- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, demos, architecture, typical, tech, stack, process, advice.

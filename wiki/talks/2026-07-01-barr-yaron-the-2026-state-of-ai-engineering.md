@@ -59,3 +59,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-mQ7_Zje7WKE`
+- Slide deck: [[youtube-mQ7_Zje7WKE-dense-slides|Dense Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]] — 4 visible slide image(s).
+![[assets/dense-slides/mQ7_Zje7WKE/slide-001.jpg]]
+![[assets/dense-slides/mQ7_Zje7WKE/slide-002.jpg]]
+![[assets/dense-slides/mQ7_Zje7WKE/slide-003.jpg]]
+- Additional slide evidence: [[youtube-mQ7_Zje7WKE-slides|Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]], [[youtube-mQ7_Zje7WKE-reconstructed-slides|Reconstructed Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify]]
+- Slide-derived themes for `youtube-mQ7_Zje7WKE`: respondents, engineering, survey, pear, barr, best, describes, title.

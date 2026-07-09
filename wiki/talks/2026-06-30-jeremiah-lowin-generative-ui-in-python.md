@@ -75,3 +75,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-96G7FLab8xc`
+- Slide deck: [[youtube-96G7FLab8xc-dense-slides|Dense Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect]] — 2 visible slide image(s).
+![[assets/dense-slides/96G7FLab8xc/slide-001.jpg]]
+![[assets/dense-slides/96G7FLab8xc/slide-002.jpg]]
+- Additional slide evidence: [[youtube-96G7FLab8xc-slides|Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect]], [[youtube-96G7FLab8xc-reconstructed-slides|Reconstructed Slides: Your MCP Server is Bad (and you should feel bad) - Jeremiah Lowin, Prefect]]
+- Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.

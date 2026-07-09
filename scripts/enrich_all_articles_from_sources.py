@@ -98,6 +98,13 @@ def upsert_section(markdown: str, heading: str, body: str) -> str:
     return fm + content
 
 
+def remove_section(markdown: str, heading: str) -> str:
+    fm, content, _fields = split_frontmatter(markdown)
+    pattern = re.compile(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", re.M | re.S)
+    content = pattern.sub("", content).rstrip() + "\n"
+    return fm + content.lstrip()
+
+
 def video_ids(text: str) -> list[str]:
     ids = set(re.findall(r"(?:watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})", text))
     ids.update(re.findall(r"youtube-([A-Za-z0-9_-]{11})(?=[\]\)\s/#-]|$)", text))
@@ -314,6 +321,65 @@ def evidence_for_video(video_id: str) -> dict:
     }
 
 
+def slide_page_summary(page_id: str) -> dict:
+    path = WIKI / "slides" / f"{page_id}.md"
+    text = read(path)
+    images = re.findall(r"!\[\[([^\]]+\.(?:jpg|jpeg|png|webp))(?:\|[^\]]+)?\]\]", text, flags=re.I)
+    recreation_count = len(re.findall(r"open HTML recreation", text))
+    no_visible = "No slide-like frames are visible after AI slide classification" in text
+    title = title_of(path) if path.exists() else page_id
+    return {
+        "page_id": page_id,
+        "title": title,
+        "images": images,
+        "recreation_count": recreation_count,
+        "no_visible": no_visible,
+    }
+
+
+def render_talk_slides_section(video_ids_: list[str]) -> str:
+    if not video_ids_:
+        return ""
+    lines: list[str] = []
+    found = False
+    for video_id in video_ids_[:6]:
+        ev = evidence_for_video(video_id)
+        slide_pages = ev["slide_pages"]
+        if not slide_pages:
+            continue
+        found = True
+        lines.append(f"- Source video: `youtube-{video_id}`")
+
+        preferred = sorted(
+            slide_pages,
+            key=lambda page_id: (
+                0 if page_id.endswith("-dense-slides") else 1 if page_id.endswith("-reconstructed-slides") else 2,
+                page_id,
+            ),
+        )
+        primary = preferred[0]
+        summary = slide_page_summary(primary)
+        bits = []
+        if summary["images"]:
+            bits.append(f"{len(summary['images'])} visible slide image(s)")
+        if summary["recreation_count"]:
+            bits.append(f"{summary['recreation_count']} HTML recreation(s)")
+        if summary["no_visible"]:
+            bits.append("no readable content slides after AI classification")
+        detail = "; ".join(bits) if bits else "slide evidence page"
+        lines.append(f"- Slide deck: [[{primary}|{summary['title']}]] — {detail}.")
+        for image in summary["images"][:3]:
+            lines.append(f"![[{image}]]")
+
+        alternates = [page_id for page_id in slide_pages if page_id != primary]
+        if alternates:
+            links = ", ".join(f"[[{page_id}|{title_of(WIKI / 'slides' / f'{page_id}.md')}]]" for page_id in alternates)
+            lines.append(f"- Additional slide evidence: {links}")
+        if ev["slide_keywords"]:
+            lines.append(f"- Slide-derived themes for `youtube-{video_id}`: {', '.join(ev['slide_keywords'])}.")
+    return "\n".join(lines) if found else ""
+
+
 def render_evidence_section(video_ids_: list[str], *, include_title: bool = True) -> str:
     if not video_ids_:
         return "No linked video, transcript, or slide source has been attached yet."
@@ -347,6 +413,8 @@ def render_evidence_section(video_ids_: list[str], *, include_title: bool = True
 def enrich_talk(path: Path) -> bool:
     text = read(path)
     ids = video_ids(text)
+    slides_section = render_talk_slides_section(ids)
+    new_text = upsert_section(text, "Slides", slides_section) if slides_section else remove_section(text, "Slides")
     section = [
         "This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.",
         "",
@@ -356,7 +424,7 @@ def enrich_talk(path: Path) -> bool:
         "### Article Use",
         "Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.",
     ]
-    new_text = upsert_section(text, "Source-Derived Enrichment", "\n".join(section))
+    new_text = upsert_section(new_text, "Source-Derived Enrichment", "\n".join(section))
     if new_text != text:
         write(path, new_text)
         return True

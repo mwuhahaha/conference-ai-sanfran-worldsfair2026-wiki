@@ -89,3 +89,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-BM2JX9hqsVQ`
+- Slide deck: [[youtube-BM2JX9hqsVQ-dense-slides|Dense Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]] — 1 visible slide image(s).
+![[assets/dense-slides/BM2JX9hqsVQ/slide-001.jpg]]
+- Additional slide evidence: [[youtube-BM2JX9hqsVQ-slides|Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]], [[youtube-BM2JX9hqsVQ-reconstructed-slides|Reconstructed Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]]
+- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future, sandbox, permissions, typically, managed, identity, provider.

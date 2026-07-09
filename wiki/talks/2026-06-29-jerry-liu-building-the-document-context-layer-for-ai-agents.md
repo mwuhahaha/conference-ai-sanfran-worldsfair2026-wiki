@@ -73,3 +73,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-jVGCulhBRZI`
+- Slide deck: [[youtube-jVGCulhBRZI-dense-slides|Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]] — 4 visible slide image(s).
+![[assets/dense-slides/jVGCulhBRZI/slide-001.jpg]]
+![[assets/dense-slides/jVGCulhBRZI/slide-002.jpg]]
+![[assets/dense-slides/jVGCulhBRZI/slide-003.jpg]]
+- Additional slide evidence: [[youtube-jVGCulhBRZI-slides|Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]], [[youtube-jVGCulhBRZI-reconstructed-slides|Reconstructed Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]]
+- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.

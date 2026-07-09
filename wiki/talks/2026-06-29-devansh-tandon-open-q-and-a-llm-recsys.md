@@ -59,3 +59,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-LxQsQ3vZDqo`
+- Slide deck: [[youtube-LxQsQ3vZDqo-dense-slides|Dense Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]] — 5 visible slide image(s).
+![[assets/dense-slides/LxQsQ3vZDqo/slide-001.jpg]]
+![[assets/dense-slides/LxQsQ3vZDqo/slide-002.jpg]]
+![[assets/dense-slides/LxQsQ3vZDqo/slide-003.jpg]]
+- Additional slide evidence: [[youtube-LxQsQ3vZDqo-slides|Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]], [[youtube-LxQsQ3vZDqo-reconstructed-slides|Reconstructed Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]]
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.

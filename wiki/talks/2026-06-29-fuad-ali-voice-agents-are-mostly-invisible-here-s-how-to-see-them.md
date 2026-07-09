@@ -67,3 +67,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-SbcQYbrvAfI`
+- Slide deck: [[youtube-SbcQYbrvAfI-dense-slides|Dense Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]] — 32 visible slide image(s).
+![[assets/dense-slides/SbcQYbrvAfI/slide-001.jpg]]
+![[assets/dense-slides/SbcQYbrvAfI/slide-002.jpg]]
+![[assets/dense-slides/SbcQYbrvAfI/slide-003.jpg]]
+- Additional slide evidence: [[youtube-SbcQYbrvAfI-slides|Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]], [[youtube-SbcQYbrvAfI-reconstructed-slides|Reconstructed Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]]
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.

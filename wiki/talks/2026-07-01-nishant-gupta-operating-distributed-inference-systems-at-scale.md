@@ -84,3 +84,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-APh1Vx0oLmQ`
+- Slide deck: [[youtube-APh1Vx0oLmQ-dense-slides|Dense Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs]] — 14 visible slide image(s).
+![[assets/dense-slides/APh1Vx0oLmQ/slide-001.jpg]]
+![[assets/dense-slides/APh1Vx0oLmQ/slide-002.jpg]]
+![[assets/dense-slides/APh1Vx0oLmQ/slide-003.jpg]]
+- Additional slide evidence: [[youtube-APh1Vx0oLmQ-slides|Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs]], [[youtube-APh1Vx0oLmQ-reconstructed-slides|Reconstructed Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs]]
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.

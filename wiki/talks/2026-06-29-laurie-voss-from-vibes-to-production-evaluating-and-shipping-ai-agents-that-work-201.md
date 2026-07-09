@@ -89,3 +89,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-Xfl50508LZM`
+- Slide deck: [[youtube-Xfl50508LZM-dense-slides|Dense Slides: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize]] — 7 visible slide image(s).
+![[assets/dense-slides/Xfl50508LZM/slide-001.jpg]]
+![[assets/dense-slides/Xfl50508LZM/slide-002.jpg]]
+![[assets/dense-slides/Xfl50508LZM/slide-003.jpg]]
+- Additional slide evidence: [[youtube-Xfl50508LZM-slides|Slides: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize]], [[youtube-Xfl50508LZM-reconstructed-slides|Reconstructed Slides: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize]]
+- Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.

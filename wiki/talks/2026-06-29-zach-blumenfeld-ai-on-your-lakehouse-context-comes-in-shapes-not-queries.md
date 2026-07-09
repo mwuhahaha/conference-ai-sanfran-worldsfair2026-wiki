@@ -81,3 +81,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-B9h9ovW5H9U`
+- Slide deck: [[youtube-B9h9ovW5H9U-dense-slides|Dense Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]] — 1 visible slide image(s).
+![[assets/dense-slides/B9h9ovW5H9U/slide-001.jpg]]
+- Additional slide evidence: [[youtube-B9h9ovW5H9U-slides|Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]], [[youtube-B9h9ovW5H9U-reconstructed-slides|Reconstructed Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]]
+- Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.

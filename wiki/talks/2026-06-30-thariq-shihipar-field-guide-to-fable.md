@@ -59,3 +59,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-TqC1qOfiVcQ`
+- Slide deck: [[youtube-TqC1qOfiVcQ-dense-slides|Dense Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]] — 26 visible slide image(s).
+![[assets/dense-slides/TqC1qOfiVcQ/slide-001.jpg]]
+![[assets/dense-slides/TqC1qOfiVcQ/slide-002.jpg]]
+![[assets/dense-slides/TqC1qOfiVcQ/slide-003.jpg]]
+- Additional slide evidence: [[youtube-TqC1qOfiVcQ-slides|Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]], [[youtube-TqC1qOfiVcQ-reconstructed-slides|Reconstructed Slides: Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic]]
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.

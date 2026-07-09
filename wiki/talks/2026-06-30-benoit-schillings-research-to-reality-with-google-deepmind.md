@@ -59,3 +59,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-G_bHFmEAarM`
+- Slide deck: [[youtube-G_bHFmEAarM-dense-slides|Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] — 5 visible slide image(s).
+![[assets/dense-slides/G_bHFmEAarM/slide-001.jpg]]
+![[assets/dense-slides/G_bHFmEAarM/slide-002.jpg]]
+![[assets/dense-slides/G_bHFmEAarM/slide-003.jpg]]
+- Additional slide evidence: [[youtube-G_bHFmEAarM-slides|Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]], [[youtube-G_bHFmEAarM-reconstructed-slides|Reconstructed Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]]
+- Slide-derived themes for `youtube-G_bHFmEAarM`: output, google, gemini, flash, lite, paid, grounding, latest.

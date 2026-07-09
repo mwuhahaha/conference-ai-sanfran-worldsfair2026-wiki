@@ -87,3 +87,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-C_GG5g38vLU`
+- Slide deck: [[youtube-C_GG5g38vLU-dense-slides|Dense Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM]] — 1 visible slide image(s).
+![[assets/dense-slides/C_GG5g38vLU/slide-001.jpg]]
+- Additional slide evidence: [[youtube-C_GG5g38vLU-slides|Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM]], [[youtube-C_GG5g38vLU-reconstructed-slides|Reconstructed Slides: Harnesses in AI: A Deep Dive — Tejas Kumar, IBM]]
+- Slide-derived themes for `youtube-C_GG5g38vLU`: model, engineering, future, console, stories, tool, registry, story.

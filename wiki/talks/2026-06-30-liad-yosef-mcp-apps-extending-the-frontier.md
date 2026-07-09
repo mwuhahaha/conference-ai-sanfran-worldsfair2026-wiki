@@ -108,3 +108,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-o-zkvb0iFDQ`
+- Slide deck: [[youtube-o-zkvb0iFDQ-dense-slides|Dense Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]] — 1 visible slide image(s).
+![[assets/dense-slides/o-zkvb0iFDQ/slide-001.jpg]]
+- Additional slide evidence: [[youtube-o-zkvb0iFDQ-slides|Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]], [[youtube-o-zkvb0iFDQ-reconstructed-slides|Reconstructed Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]]
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.

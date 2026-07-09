@@ -85,3 +85,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-eW_vxrjvERk`
+- Slide deck: [[youtube-eW_vxrjvERk-dense-slides|Dense Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j]] — 1 visible slide image(s).
+![[assets/dense-slides/eW_vxrjvERk/slide-001.jpg]]
+- Additional slide evidence: [[youtube-eW_vxrjvERk-slides|Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j]], [[youtube-eW_vxrjvERk-reconstructed-slides|Reconstructed Slides: Connecting the Dots with Context Graphs — Stephen Chin, Neo4j]]
+- Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.

@@ -69,3 +69,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-JsCCrBF7F1g`
+- Slide deck: [[youtube-JsCCrBF7F1g-dense-slides|Dense Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]] — 1 visible slide image(s).
+![[assets/dense-slides/JsCCrBF7F1g/slide-001.jpg]]
+- Additional slide evidence: [[youtube-JsCCrBF7F1g-slides|Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]], [[youtube-JsCCrBF7F1g-reconstructed-slides|Reconstructed Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]]
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, engineering, hard, tackling, registration, open, observe, platform.

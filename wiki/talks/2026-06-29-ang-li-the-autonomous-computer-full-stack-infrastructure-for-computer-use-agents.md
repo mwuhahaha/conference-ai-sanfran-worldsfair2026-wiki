@@ -71,3 +71,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-F_RyElT_gJk`
+- Slide deck: [[youtube-F_RyElT_gJk-reconstructed-slides|Reconstructed Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp]] — 24 visible slide image(s).
+![[assets/reconstructed-slides/F_RyElT_gJk/slide-001.jpg]]
+![[assets/reconstructed-slides/F_RyElT_gJk/slide-002.jpg]]
+![[assets/reconstructed-slides/F_RyElT_gJk/slide-003.jpg]]
+- Additional slide evidence: [[youtube-F_RyElT_gJk-slides|Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp]]
+- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, claude, slop, cursor, tools, months, gemini, designed.

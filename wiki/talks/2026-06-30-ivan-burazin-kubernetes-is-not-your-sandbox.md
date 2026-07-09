@@ -70,3 +70,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-e9sLVMN76qU`
+- Slide deck: [[youtube-e9sLVMN76qU-reconstructed-slides|Reconstructed Slides: AX is the only Experience that Matters - Ivan Burazin, Daytona]] — 13 visible slide image(s).
+![[assets/reconstructed-slides/e9sLVMN76qU/slide-001.jpg]]
+![[assets/reconstructed-slides/e9sLVMN76qU/slide-002.jpg]]
+![[assets/reconstructed-slides/e9sLVMN76qU/slide-003.jpg]]
+- Additional slide evidence: [[youtube-e9sLVMN76qU-slides|Slides: AX is the only Experience that Matters - Ivan Burazin, Daytona]]
+- Slide-derived themes for `youtube-e9sLVMN76qU`: most, today, tooling, breaks, moment, remove, human, loop.

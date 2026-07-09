@@ -112,3 +112,6 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-AheG9p_JXVw`
+- Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — no readable content slides after AI classification.

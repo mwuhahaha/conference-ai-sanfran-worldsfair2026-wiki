@@ -97,3 +97,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-u3NofYYstaY`
+- Slide deck: [[youtube-u3NofYYstaY-dense-slides|Dense Slides: Cohere for VPs of AI: Vivek Muppalla]] — 1 visible slide image(s).
+![[assets/dense-slides/u3NofYYstaY/slide-001.jpg]]
+- Additional slide evidence: [[youtube-u3NofYYstaY-slides|Slides: Cohere for VPs of AI: Vivek Muppalla]], [[youtube-u3NofYYstaY-reconstructed-slides|Reconstructed Slides: Cohere for VPs of AI: Vivek Muppalla]]
+- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.

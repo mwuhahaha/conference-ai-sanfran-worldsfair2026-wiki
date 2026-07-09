@@ -59,3 +59,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-iXhba366fQc`
+- Slide deck: [[youtube-iXhba366fQc-dense-slides|Dense Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]] — 4 visible slide image(s).
+![[assets/dense-slides/iXhba366fQc/slide-001.jpg]]
+![[assets/dense-slides/iXhba366fQc/slide-002.jpg]]
+![[assets/dense-slides/iXhba366fQc/slide-003.jpg]]
+- Additional slide evidence: [[youtube-iXhba366fQc-slides|Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]], [[youtube-iXhba366fQc-reconstructed-slides|Reconstructed Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]]
+- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.

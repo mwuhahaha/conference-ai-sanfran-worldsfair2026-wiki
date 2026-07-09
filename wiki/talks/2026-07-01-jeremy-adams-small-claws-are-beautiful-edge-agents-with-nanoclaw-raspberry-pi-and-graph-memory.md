@@ -59,3 +59,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-Fzb1a24hF-o`
+- Slide deck: [[youtube-Fzb1a24hF-o-dense-slides|Dense Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]] — 5 visible slide image(s).
+![[assets/dense-slides/Fzb1a24hF-o/slide-001.jpg]]
+![[assets/dense-slides/Fzb1a24hF-o/slide-002.jpg]]
+![[assets/dense-slides/Fzb1a24hF-o/slide-003.jpg]]
+- Additional slide evidence: [[youtube-Fzb1a24hF-o-slides|Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]], [[youtube-Fzb1a24hF-o-reconstructed-slides|Reconstructed Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]]
+- Slide-derived themes for `youtube-Fzb1a24hF-o`: objects, type, consistent, works, supported, started, tomorrow, june.

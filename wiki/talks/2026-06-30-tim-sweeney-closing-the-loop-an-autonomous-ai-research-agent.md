@@ -74,3 +74,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-4sX_He5c4sI`
+- Slide deck: [[youtube-4sX_He5c4sI-dense-slides|Dense Slides: WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive]] — 14 visible slide image(s).
+![[assets/dense-slides/4sX_He5c4sI/slide-001.jpg]]
+![[assets/dense-slides/4sX_He5c4sI/slide-002.jpg]]
+![[assets/dense-slides/4sX_He5c4sI/slide-003.jpg]]
+- Additional slide evidence: [[youtube-4sX_He5c4sI-slides|Slides: WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive]], [[youtube-4sX_He5c4sI-reconstructed-slides|Reconstructed Slides: WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive]]
+- Slide-derived themes for `youtube-4sX_He5c4sI`: examples, tools, lots, many, tool, search, immediate.

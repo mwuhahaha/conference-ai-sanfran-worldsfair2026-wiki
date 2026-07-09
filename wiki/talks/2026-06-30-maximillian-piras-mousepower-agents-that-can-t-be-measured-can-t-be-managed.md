@@ -81,3 +81,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-BZtD0yYAgCQ`
+- Slide deck: [[youtube-BZtD0yYAgCQ-dense-slides|Dense Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori]] — 2 visible slide image(s).
+![[assets/dense-slides/BZtD0yYAgCQ/slide-001.jpg]]
+![[assets/dense-slides/BZtD0yYAgCQ/slide-002.jpg]]
+- Additional slide evidence: [[youtube-BZtD0yYAgCQ-slides|Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori]], [[youtube-BZtD0yYAgCQ-reconstructed-slides|Reconstructed Slides: The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori]]
+- Slide-derived themes for `youtube-BZtD0yYAgCQ`: ship, future, programming, bret, victor, bitter, layout.

@@ -68,3 +68,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-8SUJEqQNClw`
+- Slide deck: [[youtube-8SUJEqQNClw-reconstructed-slides|Reconstructed Slides: Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai]] — 21 visible slide image(s).
+![[assets/reconstructed-slides/8SUJEqQNClw/slide-001.jpg]]
+![[assets/reconstructed-slides/8SUJEqQNClw/slide-002.jpg]]
+![[assets/reconstructed-slides/8SUJEqQNClw/slide-003.jpg]]
+- Additional slide evidence: [[youtube-8SUJEqQNClw-slides|Slides: Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai]]
+- Slide-derived themes for `youtube-8SUJEqQNClw`: typescript, framework, users, sometimes, giving, gatsby, author, principles.

@@ -80,3 +80,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-dvft0Gp9sEE`
+- Slide deck: [[youtube-dvft0Gp9sEE-dense-slides|Dense Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]] — 2 visible slide image(s).
+![[assets/dense-slides/dvft0Gp9sEE/slide-001.jpg]]
+![[assets/dense-slides/dvft0Gp9sEE/slide-002.jpg]]
+- Additional slide evidence: [[youtube-dvft0Gp9sEE-slides|Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]], [[youtube-dvft0Gp9sEE-reconstructed-slides|Reconstructed Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]]
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.

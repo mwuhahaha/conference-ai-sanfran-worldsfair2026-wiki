@@ -94,3 +94,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-P_uhFGH4J9Y`
+- Slide deck: [[youtube-P_uhFGH4J9Y-dense-slides|Dense Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games]] — 2 visible slide image(s).
+![[assets/dense-slides/P_uhFGH4J9Y/slide-001.jpg]]
+![[assets/dense-slides/P_uhFGH4J9Y/slide-002.jpg]]
+- Additional slide evidence: [[youtube-P_uhFGH4J9Y-slides|Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games]], [[youtube-P_uhFGH4J9Y-reconstructed-slides|Reconstructed Slides: New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games]]
+- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, times, score, search, synthesis, department, defense, caveats.

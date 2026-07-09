@@ -59,3 +59,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-6YdPI9YbjbI`
+- Slide deck: [[youtube-6YdPI9YbjbI-dense-slides|Dense Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)]] — 2 visible slide image(s).
+![[assets/dense-slides/6YdPI9YbjbI/slide-001.jpg]]
+![[assets/dense-slides/6YdPI9YbjbI/slide-002.jpg]]
+- Additional slide evidence: [[youtube-6YdPI9YbjbI-slides|Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)]], [[youtube-6YdPI9YbjbI-reconstructed-slides|Reconstructed Slides: How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)]]
+- Slide-derived themes for `youtube-6YdPI9YbjbI`: across, sign, access, join, ease, acme, uses, stripe.

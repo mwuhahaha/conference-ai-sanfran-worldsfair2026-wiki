@@ -102,3 +102,18 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-I2cbIws9j10`
+- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 12 visible slide image(s).
+![[assets/dense-slides/I2cbIws9j10/slide-001.jpg]]
+![[assets/dense-slides/I2cbIws9j10/slide-002.jpg]]
+![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
+- Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
+- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Source video: `youtube-ZRM_TfEZcIo`
+- Slide deck: [[youtube-ZRM_TfEZcIo-dense-slides|Dense Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]] — 11 visible slide image(s); 11 HTML recreation(s).
+![[assets/dense-slides/ZRM_TfEZcIo/slide-001.jpg]]
+![[assets/dense-slides/ZRM_TfEZcIo/slide-003.jpg]]
+![[assets/dense-slides/ZRM_TfEZcIo/slide-004.jpg]]
+- Additional slide evidence: [[youtube-ZRM_TfEZcIo-slides|Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]], [[youtube-ZRM_TfEZcIo-reconstructed-slides|Reconstructed Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]]
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, plus, notion, google, drive, growing, files, month.

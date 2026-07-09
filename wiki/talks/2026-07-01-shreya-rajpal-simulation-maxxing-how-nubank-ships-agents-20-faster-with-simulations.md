@@ -74,3 +74,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-9-vGxMoUM9Y`
+- Slide deck: [[youtube-9-vGxMoUM9Y-dense-slides|Dense Slides: Trust, but Verify: Shreya Rajpal]] — 13 visible slide image(s).
+![[assets/dense-slides/9-vGxMoUM9Y/slide-001.jpg]]
+![[assets/dense-slides/9-vGxMoUM9Y/slide-002.jpg]]
+![[assets/dense-slides/9-vGxMoUM9Y/slide-003.jpg]]
+- Additional slide evidence: [[youtube-9-vGxMoUM9Y-slides|Slides: Trust, but Verify: Shreya Rajpal]], [[youtube-9-vGxMoUM9Y-reconstructed-slides|Reconstructed Slides: Trust, but Verify: Shreya Rajpal]]
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: software, self, driving, cars, deep, deny, cart, auto.

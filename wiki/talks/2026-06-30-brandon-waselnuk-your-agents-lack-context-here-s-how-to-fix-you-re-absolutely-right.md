@@ -79,3 +79,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-BiG2ssibKGc`
+- Slide deck: [[youtube-BiG2ssibKGc-dense-slides|Dense Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]] — 1 visible slide image(s).
+![[assets/dense-slides/BiG2ssibKGc/slide-001.jpg]]
+- Additional slide evidence: [[youtube-BiG2ssibKGc-slides|Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]], [[youtube-BiG2ssibKGc-reconstructed-slides|Reconstructed Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]]
+- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.

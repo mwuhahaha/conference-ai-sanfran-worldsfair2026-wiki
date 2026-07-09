@@ -62,3 +62,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-kR64LOqBBCU`
+- Slide deck: [[youtube-kR64LOqBBCU-reconstructed-slides|Reconstructed Slides: AgentCraft: Putting the Orc in Orchestration — Ido Salomon]] — 17 visible slide image(s).
+![[assets/reconstructed-slides/kR64LOqBBCU/slide-001.jpg]]
+![[assets/reconstructed-slides/kR64LOqBBCU/slide-002.jpg]]
+![[assets/reconstructed-slides/kR64LOqBBCU/slide-003.jpg]]
+- Additional slide evidence: [[youtube-kR64LOqBBCU-slides|Slides: AgentCraft: Putting the Orc in Orchestration — Ido Salomon]]
+- Slide-derived themes for `youtube-kR64LOqBBCU`: bottleneck, orchestration, hired, founding, engineers, skills, along, raft.

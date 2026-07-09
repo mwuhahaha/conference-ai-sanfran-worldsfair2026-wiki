@@ -93,3 +93,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-5_QWh4LGoxg`
+- Slide deck: [[youtube-5_QWh4LGoxg-dense-slides|Dense Slides: Cognitive Shield Real Time Real Smart - Rachna Srivastava]] — 18 visible slide image(s).
+![[assets/dense-slides/5_QWh4LGoxg/slide-001.jpg]]
+![[assets/dense-slides/5_QWh4LGoxg/slide-002.jpg]]
+![[assets/dense-slides/5_QWh4LGoxg/slide-003.jpg]]
+- Additional slide evidence: [[youtube-5_QWh4LGoxg-slides|Slides: Cognitive Shield Real Time Real Smart - Rachna Srivastava]], [[youtube-5_QWh4LGoxg-reconstructed-slides|Reconstructed Slides: Cognitive Shield Real Time Real Smart - Rachna Srivastava]]
+- Slide-derived themes for `youtube-5_QWh4LGoxg`: layer, graph, phishing, emails, working, legitimate, ones, mars.

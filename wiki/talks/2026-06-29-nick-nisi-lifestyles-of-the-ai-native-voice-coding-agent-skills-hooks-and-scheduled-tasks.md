@@ -97,3 +97,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-so9l_MwS2yg`
+- Slide deck: [[youtube-so9l_MwS2yg-reconstructed-slides|Reconstructed Slides: Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS]] — 8 visible slide image(s).
+![[assets/reconstructed-slides/so9l_MwS2yg/slide-001.jpg]]
+![[assets/reconstructed-slides/so9l_MwS2yg/slide-002.jpg]]
+![[assets/reconstructed-slides/so9l_MwS2yg/slide-003.jpg]]
+- Additional slide evidence: [[youtube-so9l_MwS2yg-slides|Slides: Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS]]
+- Slide-derived themes for `youtube-so9l_MwS2yg`: system, find, export, function, next, token, headers, authorization.

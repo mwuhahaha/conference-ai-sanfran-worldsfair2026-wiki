@@ -53,3 +53,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-liG97YXaTSA`
+- Slide deck: [[youtube-liG97YXaTSA-slides|Slides: OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs]] — 4 visible slide image(s).
+![[assets/slides/liG97YXaTSA/slide-001.jpg]]
+![[assets/slides/liG97YXaTSA/slide-002.jpg]]
+![[assets/slides/liG97YXaTSA/slide-003.jpg]]
+- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, samples, trivia, questions, general, model.

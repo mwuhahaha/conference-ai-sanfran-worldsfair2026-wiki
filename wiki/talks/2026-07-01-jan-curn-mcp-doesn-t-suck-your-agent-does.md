@@ -83,3 +83,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-blW-lSd5CYQ`
+- Slide deck: [[youtube-blW-lSd5CYQ-dense-slides|Dense Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify]] — 7 visible slide image(s).
+![[assets/dense-slides/blW-lSd5CYQ/slide-001.jpg]]
+![[assets/dense-slides/blW-lSd5CYQ/slide-002.jpg]]
+![[assets/dense-slides/blW-lSd5CYQ/slide-003.jpg]]
+- Additional slide evidence: [[youtube-blW-lSd5CYQ-slides|Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify]], [[youtube-blW-lSd5CYQ-reconstructed-slides|Reconstructed Slides: The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify]]
+- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.

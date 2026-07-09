@@ -71,3 +71,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-k8cnVCMYmNc`
+- Slide deck: [[youtube-k8cnVCMYmNc-dense-slides|Dense Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal]] — 11 visible slide image(s).
+![[assets/dense-slides/k8cnVCMYmNc/slide-001.jpg]]
+![[assets/dense-slides/k8cnVCMYmNc/slide-002.jpg]]
+![[assets/dense-slides/k8cnVCMYmNc/slide-003.jpg]]
+- Additional slide evidence: [[youtube-k8cnVCMYmNc-slides|Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal]], [[youtube-k8cnVCMYmNc-reconstructed-slides|Reconstructed Slides: OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal]]
+- Slide-derived themes for `youtube-k8cnVCMYmNc`: instructions, python, available, distributed, typescript, developer, advocate, temporal.

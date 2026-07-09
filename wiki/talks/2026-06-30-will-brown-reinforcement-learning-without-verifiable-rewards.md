@@ -67,3 +67,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-JIsgyk0Paic`
+- Slide deck: [[youtube-JIsgyk0Paic-dense-slides|Dense Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley]] — 11 visible slide image(s).
+![[assets/dense-slides/JIsgyk0Paic/slide-001.jpg]]
+![[assets/dense-slides/JIsgyk0Paic/slide-002.jpg]]
+![[assets/dense-slides/JIsgyk0Paic/slide-003.jpg]]
+- Additional slide evidence: [[youtube-JIsgyk0Paic-slides|Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley]], [[youtube-JIsgyk0Paic-reconstructed-slides|Reconstructed Slides: Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley]]
+- Slide-derived themes for `youtube-JIsgyk0Paic`: level, great, benchmarks, interactive, conversational, grok, problem, calls.

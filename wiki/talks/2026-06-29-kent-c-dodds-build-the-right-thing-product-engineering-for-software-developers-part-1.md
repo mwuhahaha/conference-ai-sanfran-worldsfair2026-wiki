@@ -113,3 +113,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-EyZiAp0pelw`
+- Slide deck: [[youtube-EyZiAp0pelw-dense-slides|Dense Slides: Letting AI Interface with your App with MCP — Kent C Dodds]] — 1 visible slide image(s).
+![[assets/dense-slides/EyZiAp0pelw/slide-001.jpg]]
+- Additional slide evidence: [[youtube-EyZiAp0pelw-slides|Slides: Letting AI Interface with your App with MCP — Kent C Dodds]], [[youtube-EyZiAp0pelw-reconstructed-slides|Reconstructed Slides: Letting AI Interface with your App with MCP — Kent C Dodds]]
+- Slide-derived themes for `youtube-EyZiAp0pelw`: device, location, creative, story, tags, thanks.

@@ -84,3 +84,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-P_RI1kCkRbo`
+- Slide deck: [[youtube-P_RI1kCkRbo-dense-slides|Dense Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI]] — 2 visible slide image(s).
+![[assets/dense-slides/P_RI1kCkRbo/slide-001.jpg]]
+![[assets/dense-slides/P_RI1kCkRbo/slide-002.jpg]]
+- Additional slide evidence: [[youtube-P_RI1kCkRbo-slides|Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI]], [[youtube-P_RI1kCkRbo-reconstructed-slides|Reconstructed Slides: Voice AI: when is the \"Her\" moment? — Neil Zeghidour, CEO, Gradium AI]]
+- Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.

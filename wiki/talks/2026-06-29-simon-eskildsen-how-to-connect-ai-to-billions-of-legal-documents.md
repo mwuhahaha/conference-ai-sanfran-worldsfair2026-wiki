@@ -78,3 +78,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-XNtkiQJ49Ps`
+- Slide deck: [[youtube-XNtkiQJ49Ps-dense-slides|Dense Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora]] — 7 visible slide image(s).
+![[assets/dense-slides/XNtkiQJ49Ps/slide-001.jpg]]
+![[assets/dense-slides/XNtkiQJ49Ps/slide-002.jpg]]
+![[assets/dense-slides/XNtkiQJ49Ps/slide-003.jpg]]
+- Additional slide evidence: [[youtube-XNtkiQJ49Ps-slides|Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora]], [[youtube-XNtkiQJ49Ps-reconstructed-slides|Reconstructed Slides: Agents need more than a chat - Jacob Lauritzen, CTO Legora]]
+- Slide-derived themes for `youtube-XNtkiQJ49Ps`: company, jacob, searching, reading, collaborative, lawyers, than, chat.

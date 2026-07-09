@@ -60,3 +60,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-NuePCNMpWGc`
+- Slide deck: [[youtube-NuePCNMpWGc-dense-slides|Dense Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]] — 1 visible slide image(s).
+![[assets/dense-slides/NuePCNMpWGc/slide-001.jpg]]
+- Additional slide evidence: [[youtube-NuePCNMpWGc-slides|Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]], [[youtube-NuePCNMpWGc-reconstructed-slides|Reconstructed Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]]
+- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, benchmarks, enough, info, demo, stop.

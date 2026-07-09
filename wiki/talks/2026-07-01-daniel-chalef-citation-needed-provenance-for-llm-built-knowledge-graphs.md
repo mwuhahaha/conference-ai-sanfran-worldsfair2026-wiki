@@ -75,3 +75,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-T5IMo5ntyhA`
+- Slide deck: [[youtube-T5IMo5ntyhA-dense-slides|Dense Slides: Stop Using RAG as Memory — Daniel Chalef, Zep]] — 1 visible slide image(s).
+![[assets/dense-slides/T5IMo5ntyhA/slide-001.jpg]]
+- Additional slide evidence: [[youtube-T5IMo5ntyhA-slides|Slides: Stop Using RAG as Memory — Daniel Chalef, Zep]], [[youtube-T5IMo5ntyhA-reconstructed-slides|Reconstructed Slides: Stop Using RAG as Memory — Daniel Chalef, Zep]]
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, goal, financial, type, target, amount.

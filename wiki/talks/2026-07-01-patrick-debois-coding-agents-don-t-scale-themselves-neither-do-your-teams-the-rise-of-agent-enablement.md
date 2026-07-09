@@ -87,3 +87,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-bSG9wUYaHWU`
+- Slide deck: [[youtube-bSG9wUYaHWU-dense-slides|Dense Slides: Context Is the New Code — Patrick Debois, Tessl]] — 1 visible slide image(s).
+![[assets/dense-slides/bSG9wUYaHWU/slide-001.jpg]]
+- Additional slide evidence: [[youtube-bSG9wUYaHWU-slides|Slides: Context Is the New Code — Patrick Debois, Tessl]], [[youtube-bSG9wUYaHWU-reconstructed-slides|Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl]]
+- Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.

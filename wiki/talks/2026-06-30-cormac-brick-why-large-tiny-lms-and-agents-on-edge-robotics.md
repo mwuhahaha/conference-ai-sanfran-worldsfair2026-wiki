@@ -71,3 +71,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube--TiET_K-E_g`
+- Slide deck: [[youtube--TiET_K-E_g-dense-slides|Dense Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google]] — 1 visible slide image(s).
+![[assets/dense-slides/-TiET_K-E_g/slide-001.jpg]]
+- Additional slide evidence: [[youtube--TiET_K-E_g-slides|Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google]], [[youtube--TiET_K-E_g-reconstructed-slides|Reconstructed Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google]]
+- Slide-derived themes for `youtube--TiET_K-E_g`: skills, android, bringing, brick, principal, engineer, google, edge.

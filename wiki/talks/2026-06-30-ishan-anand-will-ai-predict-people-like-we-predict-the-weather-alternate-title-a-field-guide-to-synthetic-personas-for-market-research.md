@@ -87,3 +87,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-ZuiJjkbX0Og`
+- Slide deck: [[youtube-ZuiJjkbX0Og-dense-slides|Dense Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]] — 3 visible slide image(s).
+![[assets/dense-slides/ZuiJjkbX0Og/slide-001.jpg]]
+![[assets/dense-slides/ZuiJjkbX0Og/slide-002.jpg]]
+![[assets/dense-slides/ZuiJjkbX0Og/slide-003.jpg]]
+- Additional slide evidence: [[youtube-ZuiJjkbX0Og-slides|Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]], [[youtube-ZuiJjkbX0Og-reconstructed-slides|Reconstructed Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]]
+- Slide-derived themes for `youtube-ZuiJjkbX0Og`: transformer, used, fair, room, lines, vanilla, javascript, basic.

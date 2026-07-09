@@ -82,3 +82,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube--cKUW6n8hBU`
+- Slide deck: [[youtube--cKUW6n8hBU-dense-slides|Dense Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]] — 12 visible slide image(s).
+![[assets/dense-slides/-cKUW6n8hBU/slide-001.jpg]]
+![[assets/dense-slides/-cKUW6n8hBU/slide-002.jpg]]
+![[assets/dense-slides/-cKUW6n8hBU/slide-003.jpg]]
+- Additional slide evidence: [[youtube--cKUW6n8hBU-slides|Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]], [[youtube--cKUW6n8hBU-reconstructed-slides|Reconstructed Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]]
+- Slide-derived themes for `youtube--cKUW6n8hBU`: allows, structured, prompts, program, declarative, framework, modular, software.

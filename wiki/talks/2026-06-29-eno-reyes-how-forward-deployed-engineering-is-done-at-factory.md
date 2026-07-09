@@ -59,3 +59,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-ShuJ_CN6zr4`
+- Slide deck: [[youtube-ShuJ_CN6zr4-dense-slides|Dense Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]] — 2 visible slide image(s).
+![[assets/dense-slides/ShuJ_CN6zr4/slide-001.jpg]]
+![[assets/dense-slides/ShuJ_CN6zr4/slide-002.jpg]]
+- Additional slide evidence: [[youtube-ShuJ_CN6zr4-slides|Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]], [[youtube-ShuJ_CN6zr4-reconstructed-slides|Reconstructed Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]]
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.

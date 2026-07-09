@@ -67,3 +67,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-DeFF3J8T5Pk`
+- Slide deck: [[youtube-DeFF3J8T5Pk-dense-slides|Dense Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal]] — 2 visible slide image(s).
+![[assets/dense-slides/DeFF3J8T5Pk/slide-001.jpg]]
+![[assets/dense-slides/DeFF3J8T5Pk/slide-002.jpg]]
+- Additional slide evidence: [[youtube-DeFF3J8T5Pk-slides|Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal]], [[youtube-DeFF3J8T5Pk-reconstructed-slides|Reconstructed Slides: How fast are LLM inference engines anyway? — Charles Frye, Modal]]
+- Slide-derived themes for `youtube-DeFF3J8T5Pk`: open, engine, advisor, source, engines, getting, better, quickly.

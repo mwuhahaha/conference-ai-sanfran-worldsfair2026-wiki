@@ -65,3 +65,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-SbUxRluVRwk`
+- Slide deck: [[youtube-SbUxRluVRwk-dense-slides|Dense Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]] — 1 visible slide image(s).
+![[assets/dense-slides/SbUxRluVRwk/slide-001.jpg]]
+- Additional slide evidence: [[youtube-SbUxRluVRwk-slides|Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]], [[youtube-SbUxRluVRwk-reconstructed-slides|Reconstructed Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]]
+- Slide-derived themes for `youtube-SbUxRluVRwk`: before, hiring, modern, team, themes.

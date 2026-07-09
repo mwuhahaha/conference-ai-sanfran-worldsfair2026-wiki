@@ -65,3 +65,10 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-jryZvCuA0Uc`
+- Slide deck: [[youtube-jryZvCuA0Uc-dense-slides|Dense Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]] — 2 visible slide image(s).
+![[assets/dense-slides/jryZvCuA0Uc/slide-001.jpg]]
+![[assets/dense-slides/jryZvCuA0Uc/slide-002.jpg]]
+- Additional slide evidence: [[youtube-jryZvCuA0Uc-slides|Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]], [[youtube-jryZvCuA0Uc-reconstructed-slides|Reconstructed Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]]
+- Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.

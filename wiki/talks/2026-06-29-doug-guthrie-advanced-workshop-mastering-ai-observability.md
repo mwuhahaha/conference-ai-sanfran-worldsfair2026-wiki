@@ -69,3 +69,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-bk0TmxoZlUY`
+- Slide deck: [[youtube-bk0TmxoZlUY-dense-slides|Dense Slides: Evals 101 — Doug Guthrie, Braintrust]] — 1 visible slide image(s).
+![[assets/dense-slides/bk0TmxoZlUY/slide-001.jpg]]
+- Additional slide evidence: [[youtube-bk0TmxoZlUY-slides|Slides: Evals 101 — Doug Guthrie, Braintrust]], [[youtube-bk0TmxoZlUY-reconstructed-slides|Reconstructed Slides: Evals 101 — Doug Guthrie, Braintrust]]
+- Slide-derived themes for `youtube-bk0TmxoZlUY`: developer, platform, support, leading, teams, netflix, nite, become.

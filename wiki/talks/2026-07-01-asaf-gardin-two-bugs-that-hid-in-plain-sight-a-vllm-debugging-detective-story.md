@@ -82,3 +82,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-Ywl4LsvHKzU`
+- Slide deck: [[youtube-Ywl4LsvHKzU-dense-slides|Dense Slides: RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot]] — 7 visible slide image(s).
+![[assets/dense-slides/Ywl4LsvHKzU/slide-001.jpg]]
+![[assets/dense-slides/Ywl4LsvHKzU/slide-002.jpg]]
+![[assets/dense-slides/Ywl4LsvHKzU/slide-003.jpg]]
+- Additional slide evidence: [[youtube-Ywl4LsvHKzU-slides|Slides: RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot]], [[youtube-Ywl4LsvHKzU-reconstructed-slides|Reconstructed Slides: RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot]]
+- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, united, states, mother, surname, name.

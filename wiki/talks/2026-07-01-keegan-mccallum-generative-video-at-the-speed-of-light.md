@@ -56,3 +56,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-EY4O9M6AsWI`
+- Slide deck: [[youtube-EY4O9M6AsWI-reconstructed-slides|Reconstructed Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI]] — 17 visible slide image(s).
+![[assets/reconstructed-slides/EY4O9M6AsWI/slide-001.jpg]]
+![[assets/reconstructed-slides/EY4O9M6AsWI/slide-002.jpg]]
+![[assets/reconstructed-slides/EY4O9M6AsWI/slide-003.jpg]]
+- Additional slide evidence: [[youtube-EY4O9M6AsWI-slides|Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI]]
+- Slide-derived themes for `youtube-EY4O9M6AsWI`: nope, white, knuckling, nodes, enough, banana, barely, made.

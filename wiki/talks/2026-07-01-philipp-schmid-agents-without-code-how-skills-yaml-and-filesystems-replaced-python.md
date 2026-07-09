@@ -67,3 +67,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-cVzf49yg0D8`
+- Slide deck: [[youtube-cVzf49yg0D8-dense-slides|Dense Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]] — 14 visible slide image(s).
+![[assets/dense-slides/cVzf49yg0D8/slide-001.jpg]]
+![[assets/dense-slides/cVzf49yg0D8/slide-002.jpg]]
+![[assets/dense-slides/cVzf49yg0D8/slide-003.jpg]]
+- Additional slide evidence: [[youtube-cVzf49yg0D8-slides|Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]], [[youtube-cVzf49yg0D8-reconstructed-slides|Reconstructed Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]]
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.

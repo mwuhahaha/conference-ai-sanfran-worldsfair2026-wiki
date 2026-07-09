@@ -90,3 +90,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-wNH3q9pqn0U`
+- Slide deck: [[youtube-wNH3q9pqn0U-dense-slides|Dense Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]] — 14 visible slide image(s).
+![[assets/dense-slides/wNH3q9pqn0U/slide-001.jpg]]
+![[assets/dense-slides/wNH3q9pqn0U/slide-002.jpg]]
+![[assets/dense-slides/wNH3q9pqn0U/slide-003.jpg]]
+- Additional slide evidence: [[youtube-wNH3q9pqn0U-slides|Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]], [[youtube-wNH3q9pqn0U-reconstructed-slides|Reconstructed Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]]
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.

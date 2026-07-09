@@ -58,3 +58,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-qdh_x-uRs9g`
+- Slide deck: [[youtube-qdh_x-uRs9g-reconstructed-slides|Reconstructed Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked]] — 12 visible slide image(s).
+![[assets/reconstructed-slides/qdh_x-uRs9g/slide-001.jpg]]
+![[assets/reconstructed-slides/qdh_x-uRs9g/slide-002.jpg]]
+![[assets/reconstructed-slides/qdh_x-uRs9g/slide-003.jpg]]
+- Additional slide evidence: [[youtube-qdh_x-uRs9g-slides|Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked]]
+- Slide-derived themes for `youtube-qdh_x-uRs9g`: model, performance, makes, embedding, best, learn, join, team.

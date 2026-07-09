@@ -83,3 +83,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-rcsliSIy_YU`
+- Slide deck: [[youtube-rcsliSIy_YU-dense-slides|Dense Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]] — 17 visible slide image(s).
+![[assets/dense-slides/rcsliSIy_YU/slide-001.jpg]]
+![[assets/dense-slides/rcsliSIy_YU/slide-002.jpg]]
+![[assets/dense-slides/rcsliSIy_YU/slide-003.jpg]]
+- Additional slide evidence: [[youtube-rcsliSIy_YU-slides|Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]], [[youtube-rcsliSIy_YU-reconstructed-slides|Reconstructed Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]]
+- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.

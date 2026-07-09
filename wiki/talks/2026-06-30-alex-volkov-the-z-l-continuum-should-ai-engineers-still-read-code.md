@@ -81,3 +81,9 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-Lcqat4iP_lE`
+- Slide deck: [[youtube-Lcqat4iP_lE-dense-slides|Dense Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]] — 1 visible slide image(s).
+![[assets/dense-slides/Lcqat4iP_lE/slide-001.jpg]]
+- Additional slide evidence: [[youtube-Lcqat4iP_lE-slides|Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]], [[youtube-Lcqat4iP_lE-reconstructed-slides|Reconstructed Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]]
+- Slide-derived themes for `youtube-Lcqat4iP_lE`: tool, call, microsoft, tools, client, server, path, calculate.

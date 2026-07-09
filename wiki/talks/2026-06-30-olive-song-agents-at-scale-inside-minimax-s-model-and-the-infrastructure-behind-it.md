@@ -74,3 +74,11 @@ This section is generated from all currently linked source material for the arti
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+## Slides
+- Source video: `youtube-lY1iFbDPRlw`
+- Slide deck: [[youtube-lY1iFbDPRlw-dense-slides|Dense Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] — 5 visible slide image(s).
+![[assets/dense-slides/lY1iFbDPRlw/slide-001.jpg]]
+![[assets/dense-slides/lY1iFbDPRlw/slide-002.jpg]]
+![[assets/dense-slides/lY1iFbDPRlw/slide-003.jpg]]
+- Additional slide evidence: [[youtube-lY1iFbDPRlw-slides|Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]], [[youtube-lY1iFbDPRlw-reconstructed-slides|Reconstructed Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]]
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
