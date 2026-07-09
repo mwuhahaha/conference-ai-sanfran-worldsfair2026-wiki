@@ -36,10 +36,15 @@ def refreshed_count(output: str) -> int | None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--all", action="store_true", help="Process all slide images instead of suspicious/weak OCR only.")
+    parser.add_argument("--skip-perfect", action="store_true", help="Skip slides whose current OCR already passes the high-confidence clean-text heuristic.")
     parser.add_argument("--limit", type=int, default=0, help="Debug limit passed to the OCR improvement tool.")
     parser.add_argument("--min-gain", type=float, default=35.0)
     parser.add_argument("--deep-variants", action="store_true", help="Use slower extra crop/threshold OCR variants.")
     parser.add_argument("--variant-max-old-score", type=float, default=50.0, help="Only use crop/high-contrast variants below this old OCR score.")
+    parser.add_argument("--engine", action="append", default=[], help="OCR engine to use. Repeatable: rapidocr, paddleocr, easyocr, doctr, surya.")
+    parser.add_argument("--no-live-ocr", action="store_true", help="Merge existing OCR/operator sources without running live OCR engines.")
+    parser.add_argument("--enable-surya", action="store_true", help="Enable Surya only after confirming model-weight license terms fit this use.")
+    parser.add_argument("--internal-eval-log", action="store_true", help="Write ignored internal operator/tool comparison log.")
     parser.add_argument("--no-build", action="store_true", help="Skip npm static export.")
     parser.add_argument("--no-dependent-indexes", action="store_true", help="Skip topic/tool/word-cloud refreshes.")
     args = parser.parse_args()
@@ -47,10 +52,20 @@ def main() -> int:
     improve_cmd = [sys.executable, "scripts/improve_slide_ocr_rapidmerge.py", "--min-gain", str(args.min_gain)]
     if args.all:
         improve_cmd.append("--all")
+    if args.skip_perfect:
+        improve_cmd.append("--skip-perfect")
     if args.limit:
         improve_cmd.extend(["--limit", str(args.limit)])
     if args.deep_variants:
         improve_cmd.append("--deep-variants")
+    for engine in args.engine:
+        improve_cmd.extend(["--engine", engine])
+    if args.no_live_ocr:
+        improve_cmd.append("--no-live-ocr")
+    if args.enable_surya:
+        improve_cmd.append("--enable-surya")
+    if args.internal_eval_log:
+        improve_cmd.extend(["--log-manual-queue", "--internal-eval-log"])
     improve_cmd.extend(["--variant-max-old-score", str(args.variant_max_old_score)])
     run(improve_cmd)
 

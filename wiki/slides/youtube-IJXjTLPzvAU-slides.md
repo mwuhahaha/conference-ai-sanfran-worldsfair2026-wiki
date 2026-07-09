@@ -32,50 +32,31 @@ OCR text:
 
 OCR text:
 
-> See ee ee ere or ee tir eee ae ee
-> ee Rei COSTS S OTE OES Od CT ETOC aE SLICES nee
-> at =a
-> oe %
-> Cen Os
-> -) 2 ra =
-> ws
-> 6” Se >
-> . ad
-> ' { y ”
+> AGROUNDINGQUESTION WE RETURN TOITAT THE VERY END
+> President take thecountry towarwithout Congress? You areAbrahamLincoln.Underwhat circumstancesmaya
+> actdecisivelyinmomentsofnationalemergency.Theexecutive WhileCongresholdsthepowertodeclarewar,thePresident,as Commander-in-Chief,possessesinherentexecutiveauthorityo must respond to threatswith the energy and dispatch the office
+> requires,and historyhasvindicatedthosewho acted topreserve the Union when circumstances demandedit.
+> It sounds like Lincoln.It's a good answer.Hold it.
 
 ![[assets/slides/IJXjTLPzvAU/slide-003.jpg]]
 
 OCR text:
 
-> Epidemiologist
-> & Data Scientist
-> 7S
-> ree ae res
-> ee eres RP a a) Siawe Maran
-> - 7
-> pe ad oer
-> al a "4 nas
-> , eee Li " a.
-> r aa
-> Lar ee
+> WHO'STELLING YOUTHIS DataScientist Epidemiologist AIEngineer
+> JacobE.Thomas UT Austin.Colunb1 enuironmentsshapepopularions sides.Thehumanities are theinstrument the engineering is missing. Onequestion—how informarion fromthree
+> THE DOHAIN VOICES WHO HOLD THE WORK TO THE RECORD
+> RickHalpern Histozian- University of Toronto Shawn Martin Librazlan &Infornation Scientist-Mashingtom College
 
 ![[assets/slides/IJXjTLPzvAU/slide-004.jpg]]
 
 OCR text:
 
-> The field measures personas
-> rigorously — and is bap DRO D Te
-> he
-> CoSER LACS rary) en erat
-> as Nee wi eee
-> in ae
-> 3 re
-> eT i BN
-> Za. a
-> i
-> oe e
-> res
-> a . 4
+> THE STATE OF ION THEWORKISSERIOUS
+> rigorously — and is improving fast. Thefieldmeasurespersonas
+> ICWL2025 CoSER PsyMem 2025 ACL2024 InCharacter
+> chaxacters/771 books.Co5ER-706 matches oz beats GPT-4o on thzee Mot1vation-drivenagentsfron17,966 benchnarks, Indlcators pex chazacter,aochored by 26quantitative psychological knowledge-graphmemoty. Fldelity Via psychologlcal charactezs,14 scales-80.7%. intervleas,not self-report.32
+> 292
+> judge.privilege fluencyandnaturalness over fidelity to the record.
 
 ![[assets/slides/IJXjTLPzvAU/slide-005.jpg]]
 

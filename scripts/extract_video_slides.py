@@ -21,6 +21,13 @@ from pathlib import Path
 
 from PIL import Image, ImageStat
 
+try:
+    import cv2
+    import numpy as np
+except Exception:
+    cv2 = None
+    np = None
+
 
 ROOT = Path(__file__).resolve().parents[1]
 VIDEO_CACHE = ROOT / "raw" / "video-cache"
@@ -197,6 +204,44 @@ def sample_frames(video_path: Path, video_id: str, interval: int, timeout: int =
     return frame_dir
 
 
+def sample_scene_change_frames(video_path: Path, video_id: str, interval: int, timeout: int = 3600) -> Path:
+    """Sample interval frames plus FFmpeg scene-change frames for sharper slide coverage."""
+    frame_dir = sample_frames(video_path, video_id, interval, timeout=timeout)
+    pattern = frame_dir / "scene-%05d.jpg"
+    cmd = [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-i",
+        str(video_path),
+        "-vf",
+        "select='gt(scene,0.08)',scale=960:-1",
+        "-vsync",
+        "vfr",
+        "-q:v",
+        "3",
+        str(pattern),
+    ]
+    cp = run(cmd, timeout=timeout)
+    if cp.returncode != 0:
+        print(f"  scene sampling failed, interval frames kept: {cp.stderr[-500:]}", flush=True)
+    return frame_dir
+
+
+def frame_quality_score(path: Path) -> float:
+    image = Image.open(path).convert("L")
+    small = image.resize((320, max(1, round(320 * image.height / image.width))))
+    stat = ImageStat.Stat(small)
+    contrast = stat.stddev[0]
+    bright = sum(small.histogram()[145:])
+    score = contrast * 2.0 + min(bright / 500.0, 60.0)
+    if cv2 is not None and np is not None:
+        arr = np.array(small)
+        score += float(cv2.Laplacian(arr, cv2.CV_64F).var()) * 0.02
+    return score
+
+
 def average_hash(path: Path, size: int = 8) -> int:
     image = Image.open(path).convert("L").resize((size, size))
     pixels = list(image.getdata())
@@ -226,15 +271,23 @@ def select_slides(frame_dir: Path, video_id: str, max_slides: int) -> list[Path]
         old.unlink()
     selected: list[Path] = []
     selected_hashes: list[int] = []
+    selected_scores: list[float] = []
     for frame in sorted(frame_dir.glob("*.jpg")):
         if is_low_information(frame):
             continue
         ahash = average_hash(frame)
-        if any(hamming(ahash, previous) <= 7 for previous in selected_hashes[-12:]):
+        duplicate_index = next((len(selected_hashes) - 1 - offset for offset, previous in enumerate(reversed(selected_hashes[-12:])) if hamming(ahash, previous) <= 7), None)
+        quality = frame_quality_score(frame)
+        if duplicate_index is not None:
+            if quality > selected_scores[duplicate_index] * 1.18:
+                Image.open(frame).save(selected[duplicate_index], "JPEG", quality=90, optimize=True)
+                selected_hashes[duplicate_index] = ahash
+                selected_scores[duplicate_index] = quality
             continue
         selected_hashes.append(ahash)
+        selected_scores.append(quality)
         output = out_dir / f"slide-{len(selected) + 1:03d}.jpg"
-        Image.open(frame).save(output, "JPEG", quality=88, optimize=True)
+        Image.open(frame).save(output, "JPEG", quality=90, optimize=True)
         selected.append(output)
         if len(selected) >= max_slides:
             break
@@ -585,6 +638,7 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=0, help="Number of distinct videos to process; 0 means all.")
     parser.add_argument("--start", type=int, default=0, help="Zero-based video offset.")
     parser.add_argument("--interval", type=int, default=20, help="Sample one frame every N seconds.")
+    parser.add_argument("--scene-detect", action="store_true", help="Also sample FFmpeg scene-change frames and let quality scoring pick sharper slide images.")
     parser.add_argument("--max-slides", type=int, default=36)
     parser.add_argument("--no-ocr", action="store_true")
     parser.add_argument("--video-id", action="append", default=[])
@@ -605,7 +659,7 @@ def main() -> int:
         print(f"[{index}/{len(ids)}] {video_id} {video.get('youtube_title', '')}", flush=True)
         try:
             video_path = download_video(video_id)
-            frame_dir = sample_frames(video_path, video_id, args.interval)
+            frame_dir = sample_scene_change_frames(video_path, video_id, args.interval) if args.scene_detect else sample_frames(video_path, video_id, args.interval)
             slides = select_slides(frame_dir, video_id, args.max_slides)
             ocr_text = {} if args.no_ocr else ocr_slides(video_id, slides)
             write_slide_page(video_id, video, sessions.get(video_id, []), slides, ocr_text)

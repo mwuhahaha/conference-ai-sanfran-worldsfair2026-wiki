@@ -1,0 +1,20 @@
+A Session
+B User P8281 ieTl3 Mt ne Bae
+alright, time for a new release. i want you to:
+check if all third party contributions since the last release have changelog entries (!" badlogic - = me)
+Just upload your sessions check if CHANGELOG. md entries of packages!= coding-agent but that affect coding-agent are also in
+f 3, the CHANGELOG. md of the cod:ing-agent
+rom. tell me if we are good to release
+~; B Astistant anthrcgic clasdeopys 295 026 TE LATAD AE LE Ca It, Beet
+e “/.claude/projects Pasar ewe
+e /.codex/sessions Theniinp The uses warts fa prepare fora crew cedenase iseedio fo bird the hast re ease fag errs.co? Chrca econ
+e “/.pi/agent/sessions 2too:<awinaen
+pba Cccewaret ced cters badiigiceannecca.es fh GN Ba gat deainibe stage ccabire. 2 GE
+. eu dat
+Nothing else needed!
+2 DRA ema ted bers Gadi egac aetecsaous cs Tone be Gat bod Seat Cersribe otegs caterer A
+@ aad te. Satis fectoer fest ta. Satdmare curver yeustiocacg fur IMi wopeert eotasigd war. feo e
+m Assistant anterepic clade opus 4-95 2126 1 IATOS RR DT dtet oe Tet ALIS La hee
+Theniang Gone, the lest retrace wos 2460 Naw etme dear y turd party conte a, hans int fen Mgrs Jechor:
+Third-party contributors since v0.46.0:
+\ ‘

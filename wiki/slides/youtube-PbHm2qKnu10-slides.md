@@ -67,29 +67,24 @@ OCR text:
 
 OCR text:
 
-> agents are also a thing ee
-> —— + i i ae See QE) SZ
-> et ee ee O.0}
-> 3 7 Ce mren gn ts sae et se ("Ge -
-> 7 @ sravegors witbe
-> ' | _ wn a a
-> _ | | : ie meee °
-> ES
-> , i a Microsoft Qe?
-> ~ >.
+> agents are also a thing TaskExecutionProcess INYISNY
+> Iwanttocropamal bounding boaround the lcene
+> AIE atertedi pp Let's monually crop and inspecti.
+> OLAC Analyzing data
+> 22035)
+> slt.adet'efr)
+> （-0.5,899.5,799.5.-0.5）
+> eu uz/euy
+> Microsoft smol?
 
 ![[assets/slides/PbHm2qKnu10/slide-005.jpg]]
 
 OCR text:
 
-> they’re kinda the same thing actually
-> uve = om I hae
-> = | | |
-> 7 “Sg a - eae _ ,
-> : - [a 4 =
-> rr
-> | aws
-> : |
+> they're kinda the same thing actually
+> AIE LM Ca
+> Corporate between thispictuteand thispicture. needsy outofind the differences
+> aws
 
 ![[assets/slides/PbHm2qKnu10/slide-006.jpg]]
 

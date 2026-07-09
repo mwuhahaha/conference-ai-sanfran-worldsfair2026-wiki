@@ -21,10 +21,11 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ST pe,
-> the human in your loop
-> isn't thinking
-> build Al.systems for discernment, not approval
+> .duolingo
+> AIE2026
+> the human in your loop isn't thinking
+> buildAl systemsfor discernment,notapproval
+> angelortmann lee
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

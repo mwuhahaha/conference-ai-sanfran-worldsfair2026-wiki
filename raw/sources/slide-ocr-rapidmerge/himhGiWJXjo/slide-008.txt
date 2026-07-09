@@ -1,0 +1,20 @@
+executor.output('No
+else:
+recent.novies-[novie["title]for novieInrecent.rentals]
+executor.output（f'Tcpcustooer:[custoer_naee]
+（[customer_enall])\nRecentsovies:[,".join（recent_movies）]'）
+Query: SELECT first_nao,last_nae,eail FROM public.custoer WHERE customer_id(SELECI customer_id FRO publlc.rental GouP BY custo
+AIE
+r_idORDERBY COUNT（rental_id)DESCLIKIT1）
+ELEANOR.HUNTBsakSIacuStomar.org'
+Quory:SELECT f.title FROM public.rentalr JoINpublic.inventoryONr.inventory-idi.inventory.ld JoINpublic.filn fONi.fila.id
+filidHEREr.customer_id(SELECT customer_id FROK public.renta】 GROUP BY custoer_id ORDER BY COUNT（renta].id) DESC LINIT 1) ORDER BY
+.rental.date DESC LIHITS
+RespOnS:[Eitle':'RACER EGG],'title:NUMY CREATURES'},'tItleHELLFIGHTERS SIERRA},'title:WIZARD COLDBLOOOED'},tit
+1e:'DINOSAURSECRETARY]
+tionResult:
+NT（ELEANOR.HUNTBsakilacUstomer.org)
+MURKY CREATURES,HELLFIGHTERS SIERRA,WTZARD COLDBLOODED,DINOSAUR SECRETARY
+Worke'sFai
+Microsoft
+.lows

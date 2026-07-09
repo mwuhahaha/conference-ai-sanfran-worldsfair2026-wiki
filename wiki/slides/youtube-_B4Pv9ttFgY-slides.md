@@ -99,11 +99,9 @@ OCR text:
 
 OCR text:
 
-> We built it wrong
-> — Jattthe datal :: | BBB Semantic :
-> 8 DOE ; summary
-> MA] _
-> Engineering the future of Al
+> Webuiltitwrong
+> AIE Allthedata URL:https://hablich.dev/ Bounds:(min:878787192835,max:878792338739) Metrics （fie Metrics(lab/observed): Availableir -LCP:135 ms,event:（eventKey:r-3682,ts: -insight -LCP breakdown: -insight name:Cache example relevant trace bounds:(min:878787261166, descript relevant example examplequestion:wnat can 1 ao to reduce description:A long cache lifetime can spee example question: what caching strategies CLS:e. -TTFB:2ms,bounds:（min:878787192835, -Rende Semantic summary specific impr 78787192835, nizemyLCP s:(min:8787 ase wasmost no data for
+> AlEngineer Engineering the future of Al
 
 ![[assets/slides/_B4Pv9ttFgY/slide-008.jpg]]
 

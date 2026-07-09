@@ -21,9 +21,12 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> heavy coding + persora’ pro,ects long-running cod.ng tasks shor-.ved gersora’ side praccts
-> eo AOS
-> | Jf ‘ |
+> The fleet
+> control plane
+> MacBook LinuxA Linux B
+> heavycoding+personalprojects long-running coding tasks short-livedpersonal sideprojects
+> macos·sleeps headless always-on headless always-on
+> 3machines OSes sleeps vs always-on
 
 ![[assets/slides/4kYl2_mqmnQ/slide-002.jpg]]
 
@@ -221,10 +224,15 @@ OCR text:
 
 OCR text:
 
-> | forgot which machine I'd built the feature on.
-> Oiscard A , re: foes 3 -
-> ° - :
-> ae
+> IforgotwhichmachineI'dbuiltthefeatureon.
+> Discord single router botmac bot.linuxA bot·linux B
+> [mac]MacC./m/clade cgco一dh1
+> intel-log --/l/2
+> #prgeneral UBUCJPRTEAM ov-mac [mac]A-/personal/claude-code(49MB) 26.4.198901
+> LOUNGE ovl-lnux [n]VP 41980
+> 3.本7：GU(pob) 4./pt k品 1.（
+> # #overlord kp 4.0 7.2a2.类！ 2.A 3.2（·reag） 6.7l：ClaudeAP.GitHubActios worflow dispatch 5.：+C7错-r 今
+> （）k+（-
 
 ![[assets/slides/4kYl2_mqmnQ/slide-009.jpg]]
 

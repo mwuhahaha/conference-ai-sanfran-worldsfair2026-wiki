@@ -48,7 +48,7 @@ OCR text:
 
 OCR text:
 
-> Al Engineers
+> AI Engineers
 
 ![[assets/slides/4sX_He5c4sI/slide-004.jpg]]
 
@@ -310,12 +310,12 @@ OCR text:
 
 OCR text:
 
-> World's Fair |
-> Clicking was
-> the easy part.
-> er oe |
-> a ; c Perception Agents
-> fe * veer eereay ne
+> World's Fair AIEngineer
+> the easy part. Clicking was
+> OpenA
+> AmazonAGlLab
+> NC PerceptionAgents
+> DAT. AntjeBarth/MemberofTechnicalStaffAmazonAGl Lab
 
 ![[assets/slides/4sX_He5c4sI/slide-021.jpg]]
 
@@ -352,46 +352,45 @@ OCR text:
 
 OCR text:
 
-> ae Annotation
-> World's Fair
-> Some Podeast
-> ead “EE
-> cna
-> & bd
-> : wo.
-> ares wo
-> ea aaa # spr es wepo esata: %:
-> fea iae ree (ak ;
-> rr 4 Perception Agents
-> ie 7 / , ae a
-> ar i ,
-> Pee ae enReRe dU) Amazon AGI Lab
+> World'sFair AIEngineer Annotation
+> SomePodcast
+> etSoeLsy
+> ehetheritec re aftar a contet sndoe setesh New episo fons abouf inteligencg = what'a is, how to Iukd a, and
+> sFair aws Neural Network What Even Is Intelligence?(Asking for a Friend's
+> ize spp AEn PerceptionAgents
+> sFair ba AntjeBarth/MemberofTechnical StaffAmazonAGl Lab
 
 ![[assets/slides/4sX_He5c4sI/slide-024.jpg]]
 
 OCR text:
 
-> eT Visual Verification
-> World's Fair an
-> ceceeatT aaa ;
-> Tes pet pare ;
-> I ‘a Perception Agents
-> ea OU V1: Puy Cp Ee]
+> World'sFair AlEngineer VisualVerification
+> L-1000-P-RACT Cicdds akbuon eet e
+> pols/20260626-1933412 porLmd taskfliow-2:Complete a task
+> taskflow-3:Deletea task Verificatin Rests fo chcp-
+> eried tked mnt,oalountu
+> taskfiow-4:Initial page state
+> Vetedhead
+> cormp
+> AuditFindings
+> d'sFair av Artifacts l-verfcatIofos/-4foncaros vis/desi-human-re desigpecicon -veriicatin/specs/-5cmed ory fles82nles) sl-weririctim/sesso/arets-s
+> orld AlEngi PerceptionAgents
+> d'sFair AntjeBarth/MemberofTechnical StaffAmazonAGl Lab
 
 ![[assets/slides/4sX_He5c4sI/slide-025.jpg]]
 
 OCR text:
 
-> World's Fair BO , ,
-> ; B]
-> ee ra 7 , . : a , :
-> Is Fair a
-> iF 1
-> 
-> eat CT yt A
-> 
-> MME ect on Xen
-> Ce AEM US 39 scat) Amazon AGI Lab
+> World'sFair AlEngineer PlatfConts|144|] 1eectes|17117] *ReswltI ALL PASS* kcesbiuty1u
+> No visuel fallures detected.Allrwles match the design specification.
+> tcap-1]fleeort/tcap-1.eert.Pdcastligpageilayalcntentectisste_clete
+> est ALLPASS(/3）
+> Aoditfininps
+> (tap)）（scre
+> Session
+> rld'sFair AJEn a --p--.- 7es7ea-es4c-4caf-855c-21394ac7fefa/
+> ariz Worl AIE Perception Agents
+> rld'sFa AlEnginee AntjeBarth/MemberofTechnicalStaffAmazonAGl Lab
 
 ![[assets/slides/4sX_He5c4sI/slide-026.jpg]]
 
@@ -447,18 +446,16 @@ OCR text:
 
 OCR text:
 
-> ALE Ps A
-> an State of Al Software Engineerin
-> World's Fair | 4 o
-> nike colton
-> 
-> Id’s Fair “mason
-> 
-> eENnAl World
-> 
-> ide Res Aa keels pel ot Le
-> 
-> Benoit Schillings Google DeepMind
+> World'sFair AlEngineer StateofAlSoftwareEngineering
+> PRESENTEDBY Super-human SyntaxGeneration %S6
+> Microsoft Local ProblemSolving&Tasks Multi-step Codebase Planning 45% 70%
+> Architectural System Decisions 25%
+> Modelsgenerate localizedcode rapidlybut struggle toform cohesive systems,design complex architectures,andpredictoverall
+> securityflaws.
+> Id'sFair oz
+> benAl World AlEng
+> Id's En Mic ResearchtoRealitywithGoogleDeepMind
+> AlEng BenoitSchillings/VicePresidentofResearch Google DeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-030.jpg]]
 
@@ -483,43 +480,41 @@ OCR text:
 
 OCR text:
 
-> anil , Gas
-> aaa nds a A _—
-> World's Fair | | Bi) 7 ee
-> - ye ion f ip vw eae
-> AN f iy Secor. a _
-> Marginal Cost of Code
-> i ) an
-> org tal 7 ae
-> Ww Research to Reality with Google DeepMind
-> Benoit Schillings Geogle DeepMind
+> World'sFair AlEngineer The Eeononlidsof Code ARCHITECTURE SECURITY
+> ~$O TheBottleneckTransformed SPECIrI-
+> When generatingcodebecomesvirtuallyfree,software creation isno longer thekey constraint. The system pressure shiftstovalidation and specification.
+> Marginal Costof Code The core disciplinesof the future engineer willfocuson
+> and designing precise constraints.
+> Write onlycode,fast coderefresh.Thisis the same step we sawwith compilers,who stillreads the assembly output?
+> World's
+> Brows
+> W ResearchtoRealitywithGoogleDeepMind
+> Benoit Schillings/VicePresidentofResearch GoogleDeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-032.jpg]]
 
 OCR text:
 
-> vere oe | Neat" ee
-> mn: eS
-> : 7S + a f
-> 7 oa 7 i , amet) i] y oy) a
-> = , ;
-> : MC a
-> orid’s Fair r aan Pe ao ae nat
-> Flore yh aN
-> Rae re ae AVA /o) ieee? ~ a
-> an Research to Reality with Google DeepMind
-> Benoit Schillings Google DeepMind
+> World'sFair AlEngineer Next-Gen Architecture Foundations
+> Multimodal Design Reason LLM-NativeTargetLanguages
+> Human developersrequire languages that optimize for
+> textual.Modern multimodal modelslikeGemini are codereadability.ForAlmodels,dowe stillneed
+> fliowcharts and interface layouts against the standard languages,or do we pivot to mathematically
+> synthesizedcode.
+> orld'sFair
+> Browserbas WoI
+> 'orld AlEngir ResearchtoRealitywithGoogleDeepMind
+> BenoitSchillings/VicePresidentofResearch GoogleDeepMind
 
 ![[assets/slides/4sX_He5c4sI/slide-033.jpg]]
 
 OCR text:
 
-> APARNADHINAKARAN
-> W
-> CO-FOUNDER&CPO
-> arize
-> AIE
-> xrld'sFai
+> APARNA DHINAKARAN
+> DW
+> CO-founder & cpo
+> rid'sFai ^ arize AIE
+> MicrooR
 
 ![[assets/slides/4sX_He5c4sI/slide-034.jpg]]
 
@@ -680,26 +675,30 @@ OCR text:
 
 OCR text:
 
-> ern as i :
-> Open-Ended Evolutian...... ~~
-> OS World's Fau
-> Fair gy Decne
-> pe HES Fa Engineering the future of Al
+> World'sFair AIEngineer
+> Open-Ended Evolution
+> FromBiology toScience,TechnologysndAl
+> World'sFair
+> Fair raintrust
+> rld'sFair Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-044.jpg]]
 
 OCR text:
 
-> Nie Technological evolution RCL
-> Md adcaks lls es Ted AC a cea eR I Se Ce ee ee eee
-> ad
-> a
-> 
-> Fy
-> re el alg
-> ir aa vo
-> 
-> . Engineering the future of Al
+> World'sFair AlEngineer Technologicalevolution Fig.1World Product,Data vs.Modets CES Combined Exp Model Hyperbolic Model Sum of ExpModel +WoridProductEstimates recursive
+> 10,000,000.000.000
+> 1000,000,000,000
+> 100,000,000,000
+> 10,000,000.000
+> Revolution Industrial 1000,000,000
+> Entightenment 10,000,000 100,000.000
+> Hunting 1000,000
+> 100,000
+> W sFair 10,000,000 1000,000 100,000 10,000 1000 100 10 10,000
+> Hanson,R.(2020).Long-Term Growth AsA Sequence of Exponential Modes.
+> US1
+> Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-045.jpg]]
 
@@ -739,10 +738,12 @@ OCR text:
 
 OCR text:
 
-> Roca vt ‘ fh recursive
-> 7 Mevoscft eal IDEN
+> World'sFair PRESENTEDBY AlEngineer EUREKA THE recursive
+> Microsoft
 > MACHINE
-> 7 — Engineering the future of Al
+> Microsoft World's NEWERAOFSCIENTIFICDISCOVERIES WHYAIISTHEKEYTOUNLOCKINGA
+> rld'sFa Browse
+> radiun id's Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-048.jpg]]
 
@@ -767,28 +768,22 @@ OCR text:
 
 OCR text:
 
-> f recursive
-> ONE ag
-> Mh dl laa Better training, faster training, better kernels
-> NanoChat Autoresearch ;
-> NanoGPT Speedrun ;
-> yo SOL-ExecBench
-> ‘d's Fair €) Work<
-> a ae Melsekcd a
-> ca) se Engineering the future of Al
+> World'sFair AlEngineer Firstsimpleproofpoints Better training,faster training,betterkernels recursive
+> 01 Several dozens of humans and hundreds of their ogents NanoChatAutoresearch SOTA:0.9372BPB 0.9109BPB 1.3xspeeduptoreachthe sameloss
+> 02 leoderboard NanoGPTSpeedrun 83humanrecord-setting contributions to the SOTA:79.75 →77.5s Similarorlargerimprovement contributions
+> Id'sFair Work 03 SOL-ExecBench 235kernel-writing tosksderivedfromreol workloads 0.754S0L 18%reductioningap to the optimal performance estimate of1.0
+> Vorld'sF:
+> Id'sFai aws Engineering the future of Al
+> E
 
 ![[assets/slides/4sX_He5c4sI/slide-050.jpg]]
 
 OCR text:
 
-> alengineer es fh recursive
-> World's Fair Wee luntese “ nuanyeraee BRE, I Relaae onclliarmmenanee gor Rigg
-> i a : 3 2 we es . -.
-> : a “4 i | : | j é | | -s |
-> ff Tab ad
-> 7 : 0.699 0.754
-> qv os
-> a
+> World'sFair AlEngineer SOL-ExecBenchSOLscore perkerel SOL-EXECBENCH-03/03 recursive SOL-EeecBenchmeanSOLscorebykee category recursive recursive
+> 0.564 0.690 0.699 0.754
+> OS Cursor doubleAl Leaderboard best Recursive
+> 0.5=optimized PyTorch baseline-1.0=analytic optimal performance estimate-235kernels
 > Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-051.jpg]]
@@ -847,19 +842,13 @@ OCR text:
 
 OCR text:
 
-> a [Won]
-> World's Fair
-> 
-> Autoresearch & eT
-> test-time compute for Zoe
-> . : . ara
-> information retrieval beat
-> 
-> a ciay:\|
-> 
-> Rolie 7
-> 
-> a Engineering the future of Al
+> World'sFair AIEngineer World'sFair
+> test-time compute for informationretrieval Autoresearch& SCAN FOR THE
+> HanXiao VPofAl,Elastic hanxiao.io/aie-sf-2026
+> ghxiao in/hxia087
+> air enAl
+> ;oft Fair
+> all Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-055.jpg]]
 
@@ -893,13 +882,14 @@ OCR text:
 
 OCR text:
 
-> Tree ee Local models are crossing the line
-> re ears iG re - y rm o
-> , a 7 aii 4368s of ram BS ~ 4968s of ram
-> lg era
-> ral za
-> Engineering the future of Al
-> Ta Npere)
+> World'sFair AIEngineer Localmodelsarecrossingtheline
+> Onone96GBM3Lura theewstGLM/OS4buldsare now agenticoo-use capable
+> GLM-4.7-Flash 30/3 12G8·0
+> GLM-4.6/4.5(Iu) GLM-4.5-Alr 3558/328 1068/128 -60G84-bisrongcder-eac won-8otig512GD deepseek-r1:70b usedin local canbe 1TB storage GB.Ihave only43 itis
+> 43GBsofram requires 43GBsofram requires
+> enAl
+> ral Engineering the future of Al
+> ADOG
 
 ![[assets/slides/4sX_He5c4sI/slide-058.jpg]]
 
@@ -932,23 +922,26 @@ OCR text:
 
 OCR text:
 
-> Misused
-> World's Fair The XBench decomposition
-> a Microsoft 4 "
-> / on
-> ‘Ska. , a
-> | - Engineering the future of Al
-> r | en (ol dh
+> World's Fair AlEngineer TheXBenchdecomposition
+> XBench accurate retrieval·n=240·qwen3.6-27b-4bit 50
+> PRESENTED BY Microsoft 70 120 115 165 gate_only rank_only gate+rank oracle 115 165 120 70 70
+> 50
+> 7024012,709-115/2409,713
+> +18.75p.
+> enAl 2306.13651 (225)
+> 'sFan Engineering the future of Al
+> ldkit
 
 ![[assets/slides/4sX_He5c4sI/slide-061.jpg]]
 
 OCR text:
 
-> ied
-> World's Fair Sovereign capability is a control board
-> a Microsoft
-> Settee tS UT vae! rer
-> Wori aa
+> World's Fair AIEngineer Sovereigncapability isacontrol board
+> A local model plusa governed harness is the control board- capablity youmeasure,notrent.
+> PRESENTED BY
+> Microsoft You decidewht data stays localand whichopen DATA&MODELS end-ed One host frozenlanes.model-held-fd COMPUTEEVALUATION inspectable-anumberyou canmeasur,not The hamessmakes whichmemorygovems AUTHORITY&ACCOUNTABILITY tust.
+> Sovereign capabllityismessured capability.
+> Woric
 > Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-062.jpg]]
@@ -967,10 +960,9 @@ OCR text:
 
 OCR text:
 
-> World's Fair
-> Ask it what to build. :
-> You get a faster horse. j
-> what already exists the average
+> World'sFair AEngi Pre-Recorded for Worid'sFair 2026. You are watching an AJE Online Talk
+> You geta fasterhorse. Askitwhattobuild.
+> what already exists the average afasterhorse
 
 ![[assets/slides/4sX_He5c4sI/slide-064.jpg]]
 
@@ -1049,24 +1041,34 @@ OCR text:
 
 OCR text:
 
-> Ff
-> ENS peed
-> World's Fair Two speedruns, two kinds of freedom
+> THELA OF (AUTO}KESEARCH
+> World'sFair AlEngineer Two speedruns，two kinds of freedom
+> FULL SPIEDFUN SUBTRACK
 > NANOGPT OPTIMIZER
-> re Fair mazon
-> Stevaleg ~ 7 ee
-> eee Engineering the future of Al
+> Change everything but the data. Change only the optinizer
+> METHOO8 TOO
+> resches the bar In less tis
+> lorld'sFair mazon.
+> Braintr' AEg 1d
+> lonusri Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-068.jpg]]
 
 OCR text:
 
-> 5
-> eee Claude keeps stopping. Codex never stops.
-> a Microsoft
-> eet mit
-> Sg a Engineering the future of Al
-> ret a
+> THECEAOE(AUTO）EBEACH
+> World'sFair AIEngineer Claude keeps stopping.Codex never stops. ClaudeialI/3ortm Coaex
+> Autonomy:agent-blocked time excluding user/other idle
+> Claudev1 4.1h
+> PRESENTEDBY Microsoft Claude noveity Codexv1
+> Codex novelty
+> Claudev2
+> Codexv2
+> oentbiocked/ne
+> 1d'sFair MINIM wall-clock hours
+> 'owserbase
+> 1d'sFr Engineering the future of Al
+> dail
 
 ![[assets/slides/4sX_He5c4sI/slide-069.jpg]]
 
@@ -1123,17 +1125,11 @@ OCR text:
 
 OCR text:
 
-> rene Fair ;
-> v > EVais. Se PrOoau 0 ea ad
-> —_
-> gga NN
-> —~N.
-> oe SSS ee _ ———e ee
-> Interactions ; : age
-> = oo - | N | Metadata & Telemetry
-> a
-> Production is your largest evaluation dataset.
-> Every interaction is signal.
+> World'sFair Pre-Recorded for Worid's Fair 2026. You are watching an AIE Online Talk
+> OnineEvais:Tne roauctionStream
+> Interactions User Evaluation Gateway Metadata&Telemetry
+> Analytics Database
+> Production is your largestevaluation dataset. Every interaction is signal.
 
 ![[assets/slides/4sX_He5c4sI/slide-073.jpg]]
 
@@ -1305,21 +1301,12 @@ OCR text:
 
 OCR text:
 
-> SECC ADCO rn Biviareses | Tele zl ia
-> 
-> ers ea “ I Fair,
-> en Fi Oars) World's Fair eS | az
-> 
-> 5 7
-> Fair , Cog A Yi
-> ' ; po Z
-> 
-> aoe Amato Peas ~ 7 |
-> cs af Ww ace ALOee (le Yan ~ y» Modal
-> 
-> (— ; Sa es a
-> 
-> a = a ; Conia rE Lae or. 4s Fair |
+> sFair GoogleDeepMind World'sFair AEn Microsoft World'sFair MINIMAX
+> ucto air Workos World'sFair Brows $Fair
+> Fair "orld'sF AEng wn, Wo
+> ATTIC VFirewo, 'sFair
+> Fair SC 'sFai Cognition orl Vodal
+> Emissar Wo.ld'sFair AEn tKit ori d'sFair
 
 ![[assets/slides/4sX_He5c4sI/slide-086.jpg]]
 
@@ -1548,13 +1535,9 @@ OCR text:
 
 OCR text:
 
-> one Fair
-> Lae
-> Principle 2
-> e
-> Workflow Design
-> How does work move trom
-> trigger to completion?
+> World'sFair Pre-Recorded for Worid'sFair 2026. You are watching an AJE Online Talk
+> Principle2 Workfow Design
+> trigger tocompletion? Howdoesworkmovefrom
 
 ![[assets/slides/4sX_He5c4sI/slide-099.jpg]]
 
@@ -1663,35 +1646,38 @@ OCR text:
 
 OCR text:
 
-> World's Fair
-> its just a while loop
-> i's Fair BydelaW XC)
-> NaNaaeeg aeete ee
-> ae tne Engineering the future of Al
+> World'sFair AlEngineer AUTORESEARCH
+> its justa whileloop
+> PROPOSE CORRECT? BENCHMARK KEEP/REVERT
+> d'sFair aZonAGI
+> tintrust dd'sFa AEng autoresearch for kernels eteiasybhakta
+> d'sFair ether Engineering the future of Al
 
 ![[assets/slides/4sX_He5c4sI/slide-106.jpg]]
 
 OCR text:
 
-> World's Fair
-> Count Unnecessary Reexplaining
-> [ev Or ak ae LS Cos
-> Platform
-> Module 1 Litres
-> LUT]
-> =
-> _
-> wy
+> World'sFair AEngi Pre-Recorded for Worla'sFair2026. You are watching an AJE Online Tak
+> EXAMPLE
+> Count Unnecessary Reexplaining Explain theUI change
+> Platform 02 Reexplain the published Ul change whle integratingitinto Module1
+> Explain the Module1issue Utchange before publishing the updated
+> Module1 integrating u change Module2 while lntgrating into Modue Reexplaln the fixedUl change
+> Reexplain the fxedUl change whlle Integrating l into Module
+> 2
+> UI Explain everything white Integratir
+> UNNECESSARY REEXPLAINING
 
 ![[assets/slides/4sX_He5c4sI/slide-107.jpg]]
 
 OCR text:
 
-> World's Fair
-> Ii et eee b> bead i haa
-> So it leans on the one who actually understands what is going on:
-> _
-> m
+> World'sFair AEng Pre-RecordedforWorid'sFair2026. You are watching an AiE Online Talk
+> Session graph
+> decisions about the work. All the conversations and
+> Repograph
+> Hardcode artifactsproduced by yourorg. auth-lib repe 1
+> Soit leansontheonewhoactuallyunderstandswhatisgoingon:the developer.
 
 ![[assets/slides/4sX_He5c4sI/slide-108.jpg]]
 
@@ -1706,11 +1692,11 @@ OCR text:
 
 OCR text:
 
-> Matera kl g
-> Be et-ey- eal: Mate (ousl at) em -)
-> Intent Repos Pullrequests Cl statuses PUT ie Leon
-> =
-> im
+> World'sFair AEngi Pre-Recorded torWorld'sFar2026. You are watching an AJE Online Talk
+> FIXINGAMNESIA
+> The samemachineryfixesepisodicmemory.
+> We captureyourwork,nomatter howmanyreposit touches.
+> Intent Repos Pull requests Clstatuses Allagenttraces
 
 ![[assets/slides/4sX_He5c4sI/slide-110.jpg]]
 
@@ -1868,15 +1854,15 @@ OCR text:
 
 OCR text:
 
-> Meda te kod ol te
-> The agentcansee ... ..._ and
-> remember 7
-> OEE: S
-> St
-> File}
-> Pe Or Tg A
-> wel
-> y \
+> World'sFair The agent can see all the code and AEngine You are watching an AlE Online Talk Pre-Recorded tor World'sFar2026.
+> remembereverydecisionmade.
+> SesslonA suthrefactor SessionC APIV2
+> SessionB addSsO
+> sdk
+> repo5
+> auth-lib repo1 gateway reoo3 api-core repo4
+> tokens repo2
+> wet
 
 ![[assets/slides/4sX_He5c4sI/slide-115.jpg]]
 
@@ -1940,17 +1926,9 @@ OCR text:
 
 OCR text:
 
-> eres Fair .
-> OSA ae
-> a ra” w
-> =e “acnL
-> orn) | Be! LIME —_
-> j. ee oan \ ‘ ta r— O77 | DR: ee
-> Tir ys & jee ae ee .
-> my f- e who oe, LP ed a
-> x aes / pa e: af oon G
-> a 3 5 a I
-> a,
+> World'sFair AEngine Pre-Recorded tor Worid'sFair 2026 You are watching an AIE Online Talk
+> FEEDITEVERYTHING
+> Years of quotes,drawings,schedules，emails.Our internet,not the internet.
 
 ![[assets/slides/4sX_He5c4sI/slide-120.jpg]]
 

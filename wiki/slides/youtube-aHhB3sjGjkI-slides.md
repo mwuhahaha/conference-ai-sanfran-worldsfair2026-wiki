@@ -72,17 +72,13 @@ OCR text:
 
 OCR text:
 
-> Al Agents: a refresher
-> Calendar()
-> Memory Sorgen scene
-> i)
-> '
-> I
-> Search() | Chait oh
-> Subgoalame Fa
-> _ ea a Pen
-> os at
-> i
+> AlAgents:arefresher
+> Short-termmemory Long-termmemory
+> Calendar() Memory
+> Calculator() Reflection
+> Codelnterpreter() Tools Agent Planning Self-critics
+> Search() Chai
+> .more Action Subgoal
 
 ![[assets/slides/aHhB3sjGjkI/slide-006.jpg]]
 
@@ -186,18 +182,14 @@ OCR text:
 
 OCR text:
 
-> So, | built auto-agent
-> “ auto-agent ea wave oc rr) rT)
-> Sa ‘ fo} : PCr Rats ©> Code © About
-> Ree ou tets Le Per -) ar
-> Papo Uta ete)
-> “_ Packages i
-> er a; . oe!
-> vneae at y 7 oe
-> — ae r
-> a
-> é https://github.com/alfonsograziano/auto-agent ;
-> ‘a
+> So,Ibuiltauto-agent
+> auto-agent Public Pin Watch 0 Fork4 Star 84
+> master P1Branch0Tags QGo to fle Add file G <>Code About
+> alfonsograziano feat:replace Claude integration witha generic provider system for 6a24878·5 days ago 32Commits provided. No description,website,ortopics
+> docs specs src templates.claude/skills feat:add Kiro CLl provider support and benchmark frame. feat:add accuracy chart skidocumentation and example feat:add accuracy chart skil documentationand example. feat:replace Claude integration witha genericprovider sy- feat:addKiro CLI provider support and benchmark frame... feat: add generate-changelog script and related documen.. 5days ago last week last week lastweek lastweek lastweek Readme Activity 18stars Owatching Releases MITicense 4forks
+> tests feat:add Kiro CLI provider support and benchmark frame.. last week No releas Createa newrele
+> gitignore LICENSE README.md Add job creationfunctionalityand update templates Add MIT License and enhance README with demo agent i feat: add Kiro CLl provider support and benchmark frame, lastweek lastweek last week Packages qndsabeped oN Publish yourfirstpe
+> https://github.com/alfonsograziano/auto-agent
 
 ![[assets/slides/aHhB3sjGjkI/slide-011.jpg]]
 

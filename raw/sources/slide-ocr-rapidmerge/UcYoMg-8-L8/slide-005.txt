@@ -1,0 +1,6 @@
+1 — Boardgame session manager
+An app used for creating, viewing, joining
+and managing board game event oS
+sessions. Including a chat feature. a
+4 people
+car oe

@@ -82,13 +82,15 @@ OCR text:
 
 OCR text:
 
-> ; -
-> ivy oa ras
 > Music Gemma
-> (ole nC i Mts) See) , ae.
-> Soke
-> °
-> AS (eromc rl cement iat Sane ; og
+> Veo3.1fast·Paid
+> veo-3.1-fast-generate-preview
+> cases.Available to developers on thepaid tierof the Gemini APl. A faster,more accessibleversionofVeo3.1,optimized forspeed and businessuse
+> $Video(*Output pervideo)·Output:$0.15
+> Knowledgecutoff:Unknown
+> Veo3.1lite·New veo-3.1-lite-generate-preview ·Paid 口
+> building high-volume applications. Ourmostcost-efficientvideogenerationmodel,designed forrapid iteration and
+> $Video（*Outputpervideo720p)·Output:$0.05
 
 ![[assets/slides/G_bHFmEAarM/slide-006.jpg]]
 
@@ -152,18 +154,15 @@ OCR text:
 
 OCR text:
 
-> ; © co) ao
-> re) a "
-> ie rer es
-> a's Rexy the little T-Rex - All Episodes - Dinosaur
-> ern
-> an be aed
-> ld
-> es
-> yd , ya
-> a
-> ee o> § Pema > old
-> ines Pee cae
+> Explore Googlemode Videosettings
+> PangeaNEW Rexy the little T-Rex-All Episodes-DinosaurC
+> Watchon YouTube
+> YouTube URL
+> https://www.youtube.com/watch?v=QOaxRz4Xo8s
+> Start Time(e.g,m10s) End Time （e.g.2m30s)
+> FPS(ramesper second)
+> Defaults to 1FPS
+> Cancel Save
 
 ![[assets/slides/G_bHFmEAarM/slide-010.jpg]]
 
@@ -274,15 +273,19 @@ OCR text:
 
 OCR text:
 
-> E Lo J hae
-> vl . co A
-> o Rexy the little T-Rex - All £¢
-> ce
-> aa
-> alo
-> : zt
-> ©
-> wasn Boosgpinge samrgegeesepraneqaonagens
+> FczloabvRy4xUeUFK9_okbaVekrYDei
+> DinosaurVideoTimestampsandFacts 28,082tokens Run setings <）Getcode G X
+> Mediaresolution
+> 10:50AM Default
+> Rexy thelittleT-Rex-All Ep PangeaNEW Thinkinglevel Minimal
+> 27,601tokens Structured outputs
+> Create a table with timestamps forall of the kinds of dinosaurs thatyou see inthis video.Make sure to include a funfact about eachdinosaur type. Code execution Function calling
+> Model 10:50AM Grounding with Google Search Source:GGooge Search
+> Based on thevideoprovided,hereisa table detailing the dinosaur typesidentified,their rappearanceinthevideo,and afunfactforeach. Grounding with Google Maps
+> Dinosaur Type Timestamps FunFact URLcontext
+> Brachlosaurus Tyrannosaurusrex (Rexy and parents) mpt/use option +enter to append 2:21;2:29-3:02;3:06-3:17;3:22-3:37;3:38-4:10; 0:15-0:28:0:50-1:24:1:36-1:47;1:57-2:03:2:13- 4:18-4:40;4:42-4:51:4:52-4:58 148-157:2:00-2:10 Despite theirfearsome reputation,some scientistsbelieve [1][21[3] Safety setings Add stop sequence Outputlength 65536 Add Edit
+> 88Tools GGrounding withGoogle SearchX + TopP
+> 0.95
 
 ![[assets/slides/G_bHFmEAarM/slide-014.jpg]]
 
@@ -390,9 +393,11 @@ OCR text:
 
 OCR text:
 
-> Playground
-> Gemini3.1FlashLite Preview
-> Gemini3FlashPreview
+> GHD CoopeNsto aoadput xpa o0o AikCenin
+> aistdio.google.comprnpcshew_chat 文
+> Playground A
+> Gemini 3.T Flash Lite Preview Gemini 3FiashPreview
+> Start typimgn promptteoptonentor to ppend
 
 ![[assets/slides/G_bHFmEAarM/slide-019.jpg]]
 
@@ -472,14 +477,12 @@ OCR text:
 
 OCR text:
 
-> s Ld CJ Fee
-> vy * ca Al
-> Gemini 3.1 Pro Preview ® New 7
-> ww U
-> API pricing per 1M tokens.
-> Usage in Al Studio UI is free
-> of charge when no API key is
-> SY cren exe!
+> Knowledgecutoff:Jan2025
+> Release date:Dec17,2025
+> gemini-3.1-pro-preview Gemini 3.1ProPreview·New 口
+> powerful multimodal understanding and coding capabilities Our latest SoTAreasoning model with unprecedented depth and nuance,and
+> $<=200Ktokens·Input:$2.00/Output:$12.00
+> Releasedate:Feb 12, Knowledge cutoff:Jai $>200ktokens·Input ofchargewhennoAPikeyis selected APIpricingper1Mtokens. UsageinAlStudioUlisfree
 
 ![[assets/slides/G_bHFmEAarM/slide-024.jpg]]
 

@@ -125,11 +125,10 @@ OCR text:
 
 OCR text:
 
-> mclaSlelare) Delegation
-> Shadowing Chains
-> Capability Escalation
-> Tokens to Human
-> = a Microsoft ary?
+> AIE Shadowing Persona Delegation Chains
+> Capability Tokens Escalation to Human
+> Microsoft smolo
+> Word'sFar
 
 ![[assets/slides/D4Dswf-__RM/slide-012.jpg]]
 

@@ -1,0 +1,6 @@
+SS maintainability
+AGENTS.md at every level —(
+SY the workflow
+JS where policy lives
+SY skills - scripts - subagents
+SY keeping memory current

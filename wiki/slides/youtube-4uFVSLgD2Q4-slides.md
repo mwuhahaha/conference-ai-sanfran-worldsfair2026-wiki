@@ -60,12 +60,13 @@ OCR text:
 
 OCR text:
 
-> —. OpenGov?
-> ou
-> Coin. Us Software for
-> see ante amc | _— eT
-> ae si os accountable
-> - . Bete eT dalteial 8
+> OpenGov
+> OpenOovTuritying Cloud City.USA About OpenGov Software for
+> Workspace more effective,
+> 0 $69 TetalAm O accountable
+> government.
+> Yourbilingbreakdownawaits! Founded over14years ago.OpenGovbuildsERP,budgeting.
+> govemmentandOGAssist now connects across allof it.
 
 ![[assets/slides/4uFVSLgD2Q4/slide-005.jpg]]
 

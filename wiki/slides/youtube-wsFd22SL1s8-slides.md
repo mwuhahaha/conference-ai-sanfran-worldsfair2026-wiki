@@ -460,10 +460,14 @@ OCR text:
 
 OCR text:
 
-> Arrakis: A Quick Tour Of Linux Sandboxing
-> comnenyl sae °
-> Containers: Sandboxing . os
-> Containers ~ Vietusszation | .
+> Arrakis:AQuickTourOf LinuxSandboxing
+> Linux Execution Model
+> Containers:Why?AndWhat?
+> Containers:Security Story
+> Containers:Sandboxing
+> Containers-Virtualization
+> LinuxVirtualization
+> MicroVMsvsTraditionalVMs
 
 ![[assets/slides/wsFd22SL1s8/slide-024.jpg]]
 

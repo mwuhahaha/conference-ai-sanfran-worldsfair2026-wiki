@@ -1,0 +1,6 @@
+RELAI’s learning loop
+oO Signals (logs - feedback - prompts)
+© Replayable learning environments
+:] Root-cause > route to a layer
+oO) Regression-aware optimization
+ry) Reviewable, versioned update:,

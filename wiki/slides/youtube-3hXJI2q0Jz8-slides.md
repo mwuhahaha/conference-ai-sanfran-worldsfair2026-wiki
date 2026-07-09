@@ -57,15 +57,13 @@ OCR text:
 
 OCR text:
 
-> Context itself is the ee ;
-> object of computation ee
-> ane ao a _ 7
-> Recourse - }
-> eur ee 7 7
-> ry a
-> eS
-> : s
-> | ; *
+> RECURSIVE LANGUAGE MODELS
+> Contextitselfisthe
+> objectofcomputation Renr Laa Mad
+> Externalize-thefullprompt livesinaREPL not the context window.
+> slice,and transform it. Operate-the model writes code toinspect,
+> Recurse-it sub-queriesitself over the slices. ARXIV:2512-24601
+> Root RLM （depth=0） (dap）w-qns Sub-RLM8 (depth=1) —LLMA1（depth=2） LLMA2 (depth=2) LLM B1(depth=2) LLM B2（depth=2)
 
 ![[assets/slides/3hXJI2q0Jz8/slide-005.jpg]]
 
@@ -95,28 +93,17 @@ OCR text:
 
 OCR text:
 
-> OpenProse explicitly declares subagent work
-> PRR eae cae ee eS ilamenloin he ats Seo Lene cmir Te)
-> ag age
-> ?
+> OpenProseexplicitlydeclaressubagentwork
+> handles,then verifies the child-work trace. Here are two OpenProse examples where the model turns an external handle into smaller
+> Strs homan ai prmhandeoot doesntread the RECURSIVE DECOMPOSITION handle-recursive-reader.prose.md whole Ping DIRECTORYHANDLE SLICER directory-handle-slicer.prose.md Starts tomarepoor dectory handle,not cop edrooteonk
+> ifnonterminals for child snaaifest: recurse（chld.pah) sanifestodestcedirectory} for child insanifest: vatidatewerker preverance
 
 ![[assets/slides/3hXJI2q0Jz8/slide-007.jpg]]
 
 OCR text:
 
-> Trust is
-> reliability
-> wale
-> . paradigm of
-> Recursive laltcse selec Cites
-> Coding Cofel na oLeL Ca
-> Agents
-> Coding agents -
-> can be RLMs 7
-> fi " ; fi a
-> on-) a
-> - , is 3
-> ¥
+> reliability Trustis model intelligence. Thenext stepis behavioral,notmore
+> FTW Coding Agents Recursive compute canbeRLMs paradigmof inference-time Coding agents Anew RLMsare the new reasoningmodels- recursive codingagents are thenew coding agents. Claude Code dynamic OpenProse show two workflowsand concrete paths.
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

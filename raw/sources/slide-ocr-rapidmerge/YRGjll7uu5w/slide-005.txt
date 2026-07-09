@@ -1,0 +1,9 @@
+- - Evals
+* Most “benchmarks” are
+A; ne B ant 5 fake news
+» You need your own evals
+rer oe eee nat ae « Model performance on
+different tasks can vary
+June 2625,
+aWS
+= aa

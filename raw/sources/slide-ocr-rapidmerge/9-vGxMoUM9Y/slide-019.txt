@@ -1,0 +1,5 @@
+Example: Internal chatbot with “correct” responses
+Problem
+Build a chatbot over the help center
+articles of your mobile application
+© Guntais Ns

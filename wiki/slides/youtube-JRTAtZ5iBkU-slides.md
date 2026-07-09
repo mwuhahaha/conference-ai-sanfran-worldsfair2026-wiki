@@ -64,10 +64,11 @@ OCR text:
 
 OCR text:
 
-> QS Results
-> Sane OFC 20-1 08 Oe ee
-> charts awn aeleres
-> And you can get all sorts of visual effects, charts and layouts,
+> <h1>Q3Results</h1> nodel writes neaning Q3 Results
+> <canvasid="chart"></canvas> <divclass="grid">"</div browser
+> /charts /layouts
+> the modelnever places a coordinate.
+> Andyoucangetallsortsofvisualeffects,chartsandlayouts,
 
 ![[assets/slides/JRTAtZ5iBkU/slide-006.jpg]]
 

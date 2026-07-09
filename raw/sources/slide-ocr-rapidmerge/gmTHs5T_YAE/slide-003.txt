@@ -1,0 +1,9 @@
+Agenda |
+1. TTS model architecture
+2. TTS performance metrics
+3. Orpheus TTS optimization techniques
+4. Orpheus TTS performance benchmarks
+5. Infrastructure and client code
+a 3
+u Microsoft § ou?
+, os

@@ -30,26 +30,27 @@ OCR text:
 
 OCR text:
 
-> wie, Stop babysitting your agents: building a
-> - aa) : context engine for mergeable code
-> : Brandon Waselnuk
-> I
-> Ba Engineering the future of Al
-> ie 2 |
+> Stop babysitting your agents: building a CONTEXT ENGINEERING
+> AIE context engine for mergeable code
+> BrandonWaselnuk
+> Unblocked|getunblocked.com
+> AIEEurope2026
+> Engineering the future of Al
 
 ![[assets/slides/BiG2ssibKGc/slide-003.jpg]]
 
 OCR text:
 
-> How our Nols 4c)
-> lees Ew OQ Creare L id
-> aa i an Bow gtan HMDS enor oe
-> rd ra coward wernt ga SE
-> * * ed cs
-> * a *
-> |__|
-> = ae fe. | AlEngineer |
-> ~y FR p oe _ 0 aye a3
+> Howourcontextengineworks
+> SOURCES WORFLOWS
+> CodePRs Coding Agents
+> Planning Tools aagepo
+> AIE Docs Converotions XDO MessogingApps CU>
+> Merget sigals fomol scurce Unified system contexd fore deloery to Me ogent. S Targeted retrieval Rehriaeve only enlem
+> ConflictResoltion pbsA Perscnclizedrelevance oda riol oi p+dog
+> Token optinizafion Rscked.:
+> AIEngineer
+> EUROPE
 
 ![[assets/slides/BiG2ssibKGc/slide-004.jpg]]
 

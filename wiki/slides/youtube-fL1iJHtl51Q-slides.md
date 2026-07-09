@@ -114,11 +114,12 @@ OCR text:
 
 OCR text:
 
-> y a Se . ee
-> co 1 - <q,
-> _ a
-> BUILDING A FAST FRONTIER MODEL WITH RL
-> en ee LEE ROBINSON | vp. Developer Education QJ CURSOR
+> probably my new daily driverformany things ok composer-1 is pretty nuts, and the code it writes is quite nice. willbrown owillccbb how it feels using cursor's composer model Anthony
+> sync instead of async,and very quickly iterate on fixes.follows instructionsvery well
+> jessald plessa(8)
+> Composer1in Cursoris sofast.We arenowin theride the tigerphase of softwaredevelopment.
+> AIE/CODE BUILDINGAFASTFRONTIERMODELWITHRL
+> GoogleDeepMind PRESENTED BY LEEROBINSON/VP,DeveloperEducation CURSOR
 
 ![[assets/slides/fL1iJHtl51Q/slide-010.jpg]]
 

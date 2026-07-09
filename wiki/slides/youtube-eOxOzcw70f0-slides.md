@@ -35,13 +35,11 @@ OCR text:
 
 OCR text:
 
-> Fully give in to the vibes,
-> Embrace exponentials,
-> And forget that the code even exists
-> e
-> ae
-> re NaS)
-> 3 ee
+> AndrejKarpathy @karpathy
+> AIE There'sa newkindof codingIcallvibe coding，whereyoufullygivein to gettingtoogood.Alsoljust talkto ComposerwithSuperWhispersol find it.IAcceptAllalways,Idontread the diffs anymore.Whenlget thevibes,embrace exponentials,and forgetthat the code even exists. It'spossiblebecause theLLMs(e.g.CursorComposerwSonnet)are barelyeven touchthekeyboard.Iaskforthedumbestthingslike decrease thepaddingonthe sidebarbyhalfbecauseI'mtoolazy to
+> And forgetthat the code even exists Fully give in to the vibes, Embrace exponentials,
+> aws
+> Worid'sFair
 
 ![[assets/slides/eOxOzcw70f0/slide-003.jpg]]
 
@@ -120,43 +118,50 @@ OCR text:
 
 OCR text:
 
-> | a |
-> a 1 t |
-> _
-> meee rn
-> Edit with Copilot
-> ee statcey
-> ere Dane ot ad
-> la. date ad
-> bal
-> ay
-> Ld 39 Sacseco000esagg coe nn ee ee? F |
-> i
-> , i)
-> a Microsoft §Gycu
+> DPLORER CHAT
+> NO FOLDEROPENED
+> OpenFolder
+> AIE You can clone arepository locally. Clone Repository EditwithCopilot Agent Mode
+> You can openaremote repository or pullrequest without cloning. Open Remote Repository AskCopiot to edityourfles nagentmdeCopllot wil automatically usemultiple requests to pickfles to edit run terminal commands,andierate oneors.
+> Tolearnmoreabout how to use Git and source controlin Vs Coderead our docs. Review output carefully before use.
+> ShowAll Commands ortype toattach context
+> Create Swift Project OpenFle or Folder 0
+> Open Recent
+> New Untitled Texi Fle xN
+> Open Chat AddContet
+> Edlt flesinyour
+> WordsFar 08G0660000 Microsoft smol?
 
 ![[assets/slides/eOxOzcw70f0/slide-009.jpg]]
 
 OCR text:
 
-> ee |
-> & tereetes &% ith Copilot
-> @
-> ro css
-> of bor Tonsrolorel S11 moti) a eel; i | |
-> i , S
-> pm u
+> G
+> CHAT
+> AIE vscodeAPI UseVSCodeAPireferences toanswerquestons about VSCodeextensiondevel. problems Checkerrorsforaparticularfle Select tools that are available to chat 62Selected OK jent Mode ithCopilot
+> Shov testFailure includes informationabout the last unit test failure terminalLastCommand The active terminal's last run command openSimpleBrowser Preview a locally hosted website In the Simple Browser runCell Trigger the execution of a cei ln a notebook file changes Get difs of changed files terminalSelection Theactive terminal's selection new Scaffold anewworkspace in VSCode newJupyterNotebookCreate anewJupyter Notebook olerequests topickfiles to edit, ands,and iterate on errors. Al,so mistakes are possible. tcarefullybefore use. #to attach context files in agent mode.Copilot wll
+> Opi readCellOutout Read the outout of.a oreviously executed cell
+> Open Recent R
+> New Untitled TextFile OpenChatx Editfilesinyour workspace in agentmode Add Context.. Agent Clude Sonnet 4
+> 00￥0008000000000900000900800
+> aws
+> Word'sFair
 
 ![[assets/slides/eOxOzcw70f0/slide-010.jpg]]
 
 OCR text:
 
-> Pa o> |
-> Edit with Copilot
-> Fond mH.
-> . xy a9 ic For. popelelolel 20-1: morc) en teat? 7 |
-> vy 2d)
-> a a Microsoft QU
+> O Search
+> G
+> CHAT
+> AIE EditwithCopilot Agent Mode
+> AskCopillot to edit yourfilesin agent mode.Copilot wll automatically use multiple requests topickfiles toedit, run terminal commands,and iterate on errors.
+> Copilot is powered by Al,somistakes are possible. Reviqwoutput carefullybefore use.
+> Show All.Commands or type#to attach context
+> Open File or Folder
+> Open Recent R
+> New Untitled Text Flle OpenChatx X N Edit files inyour workspace inagentmode Add Context Agent Claude Sonnet 4
+> Worid'sFair 800500000N Microsoft smol?
 
 ![[assets/slides/eOxOzcw70f0/slide-011.jpg]]
 
@@ -178,38 +183,37 @@ OCR text:
 
 OCR text:
 
-> i
-> oa : wy t J
-> Pere ene lapinr ent Apple casp red des.ga..
-> See oR eer :
-> _
-> erat On areca]
-> PS
-> ; Co
-> od as Bcecoo000#&ase Coe re ee ee 2
-> a
-> Vi °
-> | neko ES OOO OU
+> vibing-at-aio
+> G
+> EXPLORER CHAT +
+> AIE VIBING-AT-AIE 5.Implement Apple-inspired design with clean,large touch 7.Build andrun the application 6.Setupproject structure and configurationfiles targets
+> √Geting setup information
+> Now Illscaffold the React/TypeScript Viteproject:
+> Run command in terminal
+> npx create-viteglatest -teaplate react-ts
+> Show All Commands Creating a React TypeScript Vite project in the current directory
+> Go to File Continue Cancel
+> Open Chat 3
+> Start Debugging F5 ToggleTerminal Editfiles inyour workspace inagentmode Agent Add Context.. Claude Sonnet4
+> World'sFair.00￥00-+80M000.0000000000900006 Microsoft smol?
 
 ![[assets/slides/eOxOzcw70f0/slide-013.jpg]]
 
 OCR text:
 
-> sm a a ce |
-> oa ey i
-> am Siie Es
-> Cer ea
-> fuplement Apple isp red des. a
-> Peer ase eee ee ee a 2
-> ae eae ee f
-> AE 11 ute Approve Expervmenta
-> ere Ear yr ferret s
-> a
-> ey *
-> 8B 2
-> Ld i) GCSco0000es8ae Coe + UG el «20° me
-> 5
-> [== aI rarer) aE 6000 Oe
+> vibing-at-aie 日日口
+> Settings G
+> AIE User approve Chat)Tools:Auto ApproveExperimental Controls whether tool use should be automatically approved. Workspace 1Seting Found Last synced:O secs ago Let me start by getting the Vite project template: CHAT 5.lmplementApple-inspired design with clean,large touch 7.Build andrun the application 6.Set up project structure and configuration files targets +③
+> √Getting setup information
+> Now Illscaffold the React/TypeScript Vite project:
+> Run command in terminal
+> npx create-viteglatest
+> Creating a React TypeScript Vite projectin the current directory
+> Continue Cancel
+> Add Context..
+> Editfilesinyour workspace inagentmode
+> Agent Claude Sonnet 4
+> Worid'sFair 0800600000 Microsoft smol?
 
 ![[assets/slides/eOxOzcw70f0/slide-014.jpg]]
 
@@ -238,30 +242,32 @@ OCR text:
 
 OCR text:
 
-> a a ican
-> a : fn a |
-> rant
-> ae ey €
-> 7 foreraber CT) er tal)
-> ,
-> Es Bs
-> . i aceco00gse’aag cor 1 @ aff 4B
-> , F
+> vibing-at-aio
+> G
+> EXPLORER CHAT
+> AIE eslint.configjs VIBING-AT-AIE ()package.json README.md vite.config.ts >public >src index.html -gitignore tsconfig.json (1tsconfig.app.json (1tsconfig.node.json ）echo2"|npx create-vite@ latest npty.Please choose how to pr oceed: -/vibing-at-aie 11s continue Current directory is note oRemove existing files an Cancel operation OIgnore files and continu colot十① Ineed tocontinue with the existing directory.Letme proceed: Let me try a different approach-Ill input the choice directly: Selecting option3 to ignore files and continue Run command in terminal Add Context.... Continue printf“3\n|npx create-viteglatest -tenplate react-ts npx create-viteglatest echo2|npx create-viteglatest react-ts Cancel -template react-ts -tenplate
+> Editfilesinyour workspace in agentmode
+> -/vibing-at-aie Agent Claude Sonnet 4
+> 000080000.00000900000900806
+> aws
+> World'sFair
 
 ![[assets/slides/eOxOzcw70f0/slide-016.jpg]]
 
 OCR text:
 
-> mm a a a
-> o> F “ ~ J
-> eater
-> 5 err co
-> + + > Accept Suggestion On Comm t Character
-> f : : foreultar on Tart)
-> hf rs
-> = Vv acseco000ssges Coe > UR ef ee ae
-> —_ e NaS)
-> u
+> vibing-at-aie
+> Settings 白
+> approve 5Settings Found CHAT
+> User Workspace Last synced:6secs ago keepgoing,itworked
+> AIE Chat>Tools:AutoApproveExperimental chat.tools.autoApprove Controlswhether tool use shouldbe automaticallyapproved. Great Nowletme installthe Material-Ul dependencies andother GitHub Copilot
+> PROBLEMS Editor:AcceptSuggestion On Commit Character Controls whether suggestions should be accepted on commit characters.For example,in JavaScript, the semi-colon（）can bea commit character that accepts a suggestion and DEBUG CONSOLE TERMINAL PORTS copllot十 Run command in terminal npa install gaui/eaterial genotion/react gemotion/ styled g=ui/icons-naterial@nui/x-date-pickers dayjs
+> /vibing-at-aie 11s echo"2"|npx create-vite@latest --template react-ts
+> oRenove existing files and continue oIgnore files and continue Current directory is not enpty.Please choose how to proceed: Cancel operation Editfilesinyour workspace in agentmode Add Context... Continue Cancel
+> Agent Clude Sonnet 4
+> A00￥00080M000.000000000090080
+> aws
+> WortdsFair
 
 ![[assets/slides/eOxOzcw70f0/slide-017.jpg]]
 
@@ -322,30 +328,19 @@ OCR text:
 
 OCR text:
 
-> ac a hm inl Scenes
-> i
-> : : eR RRS Le
-> ; SMa s snp eamboat ae be toe
-> . eee
-> oa Tiree : : Es
-> 
-> pee ; Lo ,
-> oes a ; :
-> Tina fe
-> 
-> _— <4
-> 
-> - i ane
-> co
-> al ———_—_—_— Ew
-> See
-> Binge
-> 
-> %, ‘ oot
-> s ; a
-> = i. a’ S°SBC000D0aseG Oar i oe, | |
-> —_ aws
-> u
+> 8日口口@
+> epuup areact/vitewithmaterialdes
+> AIE bCopilot impleand bog acc
+> createa React/Vite website for water hydration tracking
+> Let me start by creating the workspace structure.
+> Create New Workspace*
+> Continue with #new workspace setup
+> bCopilot
+> text.
+> your workspace inagent mode
+> Claude Sonnet4
+> aws
+> World'sFair
 
 ![[assets/slides/eOxOzcw70f0/slide-020.jpg]]
 
@@ -394,17 +389,15 @@ OCR text:
 
 OCR text:
 
-> i a eae aac eas aaa
-> ay oa - J
-> Pe ee a aT nas .
-> Pere ere re ee eerie ee
-> 
-> 3. 8.
-> + st Sceco000eage fae ee ee
-> 
-> i Mai °
-> 
-> fam w Microsoft
+> 日口口
+> Settings copilot-instruetior
+> approve 5SettngsFound oxddudu CHAT
+> AIE User Workspace TextEdior（1) Extensions(1) Features(3) (1） （）suosebons Chat(3) Editor:Accept Suggestion On Commit Character Controls whether suggestions shouldbeacceptedoncommtcharacte.For Chat>Edits2:Enabled Controls whether tool example,inJavaScript,the semi-colon（）can bea commit character that acceptsasuggestion and types thatcharacter. models that don't support tool-caling are unavailable for Edits mode. chat.tools.autoApprove-Modified Last synced:Q secs ago Now let me installFluent Ul React components and other necessary dependencies: Isee theres a dependency confict with React types. Let me instal the Fluent UI esddso Great Now letme nstll the dependencies and add Fluent Ul React components: TTeasuT adu 1ucide-react--egacy-peer-deps npa1nstall gfluentui/react-coponents gfluentui/react-icons npx create-viteglatest np install gfluentui/react-conponents@fluentui/react-icons lucide-react
+> PROBLEMS DEBUG CONSOLE TERMINAL PORTS OUTPUT PerfectlNow let me create thegithub/copilot-instructions.nd fle
+> >npninstallgfluentui/react-components @fluentui/react-iconslucide-react y-peer-deps 48packagesare looking for funding found 8vulnerabilities ~/vibing-at-aie-2 runnp fundfor details -legac Edt flesin yo 1a changed Add Contet Ecopilot-instructions.md lot-inatructions.md D
+> 4s
+> 9088G0660000 0
+> Worid's Fair Microsoft smol"
 
 ![[assets/slides/eOxOzcw70f0/slide-022.jpg]]
 
@@ -468,37 +461,29 @@ OCR text:
 
 OCR text:
 
-> Te EE eee ee eee
-> ee 5 we - J
-> nen
-> i :
-> moat an eae 5 5 5 :
-> ae er aa i re
-> : eer ee
-> Bee wes
-> a
-> ~ Re Ret a ee
-> . 99 ic hed Tepepelelol EY - 1 Baolony en eo ee |
+> App.s App.sx -101doo instrucbons.md 品日口口
+> #root{ max-width:1280px; Perfecti Now let me create thegithub/copilot-instructions.nd fle: CHAT +③
+> AIE app-container background:linear-gradient(135deg, min-height:100vh; font-family:-apple-system,BlinkMacSystemFont, Roboto',ssns-serif; #fsf7fa 0%, Segoe UI' #c3cfe2100%; mainApp component: q Createdcopilot-nstructons.md Apx-110-25
+> app-header border-bottom:1pxsolidrgba0,0,0,0.1）; backdrop-filter:blur 20px; background: rgba255,255，255,θ.95; pUndo|7of12个 Now letme also update the globalCSs toensure properbaseine stying Now let me create the CSSfle for the app with Apple-inspired des 0Ax+1-1 App.cs+21531 princples:
+> PROBLEMS TERMINAL PORTS OUTPUT Co十 Working.
+> )opm installgfluentui/react-components @fluentui/react-icons lucide-react sdap-raad- 48packages are lookingfor funding found evulnerabilities -/vibing-at-aie-2 runnpm fund'for details --legac Edit fesinyour workspace in ag 3 fles charged App.csswc Asd Contest. Fcopllot-lnstructons,mdgthb App.tsxsrc App.css
+> 4s Claude Sonnet4
+> 108G0600000630000-000W Ln1,Co1 Spaces:2 (1PostCSS
+> aws
+> World'sFair
 
 ![[assets/slides/eOxOzcw70f0/slide-024.jpg]]
 
 OCR text:
 
-> ic: |
-> ae 7 a ae |
-> ‘ . nk? ee
-> 
-> ; |
-> 
-> oe Veena eae | neutom 8
-> a a he) @crecog000asege oae ne nl ee 2
-> a
-> 
-> rl a
-> 
-> ©
-> 
-> Foe | a Microsoft Gye
+> App.ss App.x Fcoplot-instructions.md 日口口
+> This isa React/Vite water hydration tracking application with the CHAT 3
+> following requirements: App.tsx
+> AIE ##Design Principles interface Focus on simplicity and user-friendly design Follow Apple design principles:clean,minimal,intuitive Use Fluent Design components for consistent UI Ensure high contrast and readable text Implement big,accessible UI elenents for easy interaction Nowletme create the CSSfle forthe app with App A0.c.215-31 App.tx
+> PROBLEMS ##Technical Stack Vite for build tooling React 18 with TypeScript TERMINAL PORTS OUTPUT KpUndo1of12个 o十 Now rllreplece the entire filecontent: Read·inexcisnes3169 Readinekcss，ines1to30 Woring.
+> >opninstallgfluentui/react-components @fluentui/react-icons lucide-react sdap-raad-s 48packages are looking for funding found @vulnerabilities -/vibing-at-aie-2 runnpm fundfor details --legac Edit flesin your workspace in agent mode App.c5s 3fles charged Ecopllot-lnstructons.mdthb Asd Contet. App.tsxrc
+> 4s Caude Sonnet.4
+> Wortd'sFair #8G0500000 Microsoft smol? Ln1,Col1 Spaces:4 (）nstructions
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

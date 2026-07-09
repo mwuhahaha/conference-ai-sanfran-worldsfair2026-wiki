@@ -588,16 +588,21 @@ OCR text:
 
 OCR text:
 
-> OO Crew iece waite BB teen morse ten ie. Pees cto AE TOI K+ o Awe
-> € Co mangineee/ocrttsier/20264sde-events ag «@Brepogo $
-> ot
-> Cf a we
-> i, ve tet owe ae
-> an LS a
-> 7 =
-> | :
-> ‘Seipe seme Corry SOO ~
-> * (2 @ Y@ ¢ see wan ne — —
+> 豆 AlEngineerWorid's fair 202 6ingsaoutAE2026-G AskG
+> alengineer/worldstair/2026#side-events
+> 41
+> WatchPaty oriOu
+> The Agent Open RSVP on Luna→
+> AGENTOPEN ThetrAgOAffs
+> ate Leadership Dinner-Human Data &AI
+> g of fine ining.cocnecton,and convenaton wth leaders
+> SanFranc
+> L
+> Future Code:Rewriting the Developer Frontier A
+> The A Buiders Mixer RSVP onLuma→
+> eraTion oys
+> Deply.Scale,Sce:DigtalOceanVemionAlnfra Socil
+> AEngineer Word'sFair.
 
 ![[assets/slides/0S8xe9ftGTM/slide-023.jpg]]
 

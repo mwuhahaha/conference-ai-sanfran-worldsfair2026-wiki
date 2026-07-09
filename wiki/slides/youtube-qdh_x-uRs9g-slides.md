@@ -42,11 +42,11 @@ OCR text:
 
 OCR text:
 
-> x * ®
-> * * What Actually Makes Embedding
-> or’ Model Inference Fast?
-> ao
-> 1] Google DeepMind
+> AIE WhatActuallyMakesEmbedding ModelInferenceFast? Not quite.
+> FromFlashAttentiontoQuantization,where istheinerence botleneck？Isitth architecture,the maths,or wilwtingeverythinginust sole allmyproblems？Hint: It's Not Rust)
+> JAN22.2026 FILIP MAKRADULI
+> GoogleDeepMind
+> AlIEngineer
 
 ![[assets/slides/qdh_x-uRs9g/slide-004.jpg]]
 
@@ -167,15 +167,17 @@ OCR text:
 
 OCR text:
 
-> ec , A wndiee 7 No universal engine
-> Pel
-> bd bd
-> bf bal An agentic workHow
-> ad ra *
-> Re-implementation
-> : | Al Engineer |
-> = ay:
-> d
+> SO,LET'SSUPPORT85+MODELSWITH35+RUNTIMESANDINFERENCEBACKENDS
+> Everyarchitectureisdifferentunderthehood
+> Fed poin IDs(0.1.2.) bert_flash Eoch tokenknowh biove ot RoPE:rsQ/vecrbysn qwen2_flash GQA:fewerKVheadssamemory No universalengine BERTQwen2ModenBERT. Eachneedsitsown inference path.
+> AIE Fsed QV:oemrinoe Keeps every token vector(not pooled) colbert_*
+> Lofe inNeract mofch token-by-foken An agenticworkflow
+> Tkespir(qury·doc）osipt cross_encoder clip moge encoder·tead encoder siglip·florence2 untfl we hod coveroge across 90models. We wrote each adopter using Al ogents
+> Outpcovcr
+> splade_flash ghfs, not dense floots 48-88 embedding models sglang Not wrappers.Were-implement Re-implementation the forwardpassandpoolingforeocharch
+> 15 of 35adoptersse Fla
+> AIEngineer
+> AlEngineer EUROPE
 
 ![[assets/slides/qdh_x-uRs9g/slide-011.jpg]]
 

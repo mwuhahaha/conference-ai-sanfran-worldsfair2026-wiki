@@ -47,23 +47,12 @@ OCR text:
 
 OCR text:
 
-> Senator woman questions
-> 
-> leyiliteyarliccesmareyt ety ua ok J ee a
-> 
-> Luci) a cee ima) Roel roL eat] _ Pa fs ee
-> 
-> cata See ae
-> 
-> , ee a eats O oLonat i ae 3
-> 
-> ; er ere. oe = A=alr. >. -
-> 
-> ne i -
-> as =
-> Bare Shae
-> 
-> SA ea oferta 10 aCe ATCC OR TOT On Coe Des eee sen otras cg
+> .Mixedbread AlEngineer
+> billionairesnotatcompanythenok thankyoustaffwill checkhearing "Senatorwomanquestions
+> （）ogeaoxaaseqooopazdoase
+> Retrv rning andevals ineritweb-serchquery distributions
+> Benchmark biasc: BER / nanoBEIR use caveman-style, entity-dense qutries that structurally favor BM25.
+> anddocuments. The agent guesses keywords to increase the overlap betweenquery
 
 ![[assets/slides/1IdzkRVmWAA/slide-004.jpg]]
 

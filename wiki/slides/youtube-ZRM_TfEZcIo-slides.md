@@ -235,16 +235,10 @@ OCR text:
 
 OCR text:
 
-> No database, just the index
-> 
-> ; ec eS.
-> ae mss 2=={ |
-> a yl catalog « summanes:
-> 
-> ad ae)
-> x ; Agent
-> Vr...
-> ! “ i
+> No database,justtheindex
+> total_wik.pages:38 total_sources:10 SOUTCES:
+> Agent readsfirst catalog+summaries index.yaml uri.source_page:wiki/sources/agent-mory.d publfshed_date:*2026-85-17* publfcation:null uri_ful1:iki/repos/agent-msory/AROHETECTuRE.nd original_path:github://eeo4j-1abs/agent-nemory89ae7Bc7994 origin:github title:agent-menory authors: -neo4j-labs
+> applied to agent memory.cite mermaid flowchart LRsubgr
 
 ![[assets/slides/ZRM_TfEZcIo/slide-017.jpg]]
 
@@ -300,19 +294,18 @@ OCR text:
 
 OCR text:
 
-> ©} re a rosearch-0%- workshop
-> (eld peers er anes oer Prey Eanes wens Seen Eee aoarares peers
-> at Pasty
-> RST e|
-> tebdaig ot
-> Pee
-> ct .7 2 i ny
-> en
-> a awh
-> a a NF
-> 5
-> rs
-> ar
+> lusztinpaul al-research-os-worikshop QTypeto search
+> (>Code Issues IPullrequests G:Agents Actions Projects wiki Security and quality Insights Settings
+> Pmain ai-research-os-workshop/plugins/ai-research-os/skills/ QGotofile
+> lusztinpaul feat:Rename to al-research-os
+> Last commitmessage
+> nlm-skil feat:Rename to ai-research-os
+> obsidian-cll feat: Rename to al-research-os
+> readwise-cli feat:Rename to af-research-os
+> research-distill feat:Rename toai-research-os
+> feat:Rename toai-research-os
+> research-render feat:Rename toai-research-os
+> research feat:Rename to ai-research-os
 
 ![[assets/slides/ZRM_TfEZcIo/slide-021.jpg]]
 
@@ -399,17 +392,10 @@ OCR text:
 
 OCR text:
 
-> Lc Reswneuh Septet }
-> Ee
-> ¢odt testa ial reg Serene Mr ie eC
-> brhiasibghtoepheliniaboy one toup nowretaainid pemhmnsbic x Sam
-> Epp alr a SRSA PO OP
-> Mepis
-> . ad
-> a a
-> Sane a 4
-> nee 2A
-> oe ey re,
+> Second-Bain Claude Code Cte Code (ly)/e./. 1reehst.Fitetchck th Paejacta/Biling Yor DnAI Rrch 0S /rsti/ocnts/ta/ecn-/ 1 iF h////a/ The scan clarifies tha zouting.Mote the ciectory iehulding Ya 1ies in Dn-（bty）itry),erhdir ist. Thbin dap crree]edes） - thr esch dir edy erists Rscai1ac 1soty (etx+ to pan) AL hos（ty）t（Ety）fix t ffereet lecatienfr thecieting ikieerenced inmeoryhich tis ie n iait fro catch. wthpie.（o/egieerirg/efectie-hesses-fer-]ong-nning-apets 3.Ae le（ngainid gnt b) PrichartieleinAgtie kames Engiezigtht acchitectass). Per til1'p-rhgte,dlacory ispt-1adyou F.2 --ptf 516114:2 tetel16 (pe +[）[+ Prejects/iling YerOnAIrhOs （Ety）/ee_h1-1aech-S Yt Proects/Buslding Your Oen AL eseazch OS （Eepty）/exa 5.Lat'sLook atOpenCiAzchatecte 14.Cocn.he fate （ 2.(cth r logrng ]t://.hc.c/gir /ffectin-arss-fer-long-riog-agesta) 3（idng ove AI Apett ihLonghtn](tt://yt.ce/tch-w Crte t earh diectey ithsn th sm diectry s thia l pronptnd 1.p-leal diagrs ef t architectre capents frs aben wk 3.225s 1t tb trct tp ftZ tng la.tht wplicetis,ll start hildg. sCladCodthepetcpocethy arond fince,ln ecalied cotart egiering te get the cst et it,couped te very caton t/ snd RAG logic 1.150 5-Sr D1-a D2-B D4-Jou D6-Noes D7-A DAp p. 8-Pojects (1sinpjon Dsk ALEro DBdngaCodngAgntF Stch Dsklls DAcAlEng DContent Caude Deme.2.gb Doa premptmd idng Your Oe AL Ra r'aHandbock chos(E
+> dtalled tlin.nda afh acher（lnt）Sn th（lty) 3 （2mb1Yvi） DMo
+> eiace Beteb 400
+> LgM indt. （1ight pet) [3.2} 1. hes edisesdin -10-20ain CUAUCEmd
 
 ![[assets/slides/ZRM_TfEZcIo/slide-024.jpg]]
 

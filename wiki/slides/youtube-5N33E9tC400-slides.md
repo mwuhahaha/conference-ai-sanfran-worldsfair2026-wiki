@@ -60,12 +60,14 @@ OCR text:
 
 OCR text:
 
-> , The Evolution of the (old)
-> "
-> coratranedt comatrnnedl
-> - Remmerth: ternal Rereerch F agree Al Engeenr Fuastack Engree
-> | = ) aT Nae aa
-> AI.ENGINEER ;
+> The Evolution of the AI Engineer (old)
+> AIE Data/Research corstrainel API Prooluet/user constrnined
+> M.Researcher/ MLErg AIEngineer Fullstack Engineer
+> data
+> modesandResoanchEngineers go rg to bulld etopAPl toolThs dagramha aiso beer griticized for the plecement ofevas and dita we certanly gree evals mortant e APl linespermeale-A/Engeenscan goleft tofinetunehost
+> akspretrainscale data and general benchmar esalt: out A Engineers should certainly viewproduct-speohicdstaand ealsas theirob
+> AGENTENGINEERING
+> HTTPS://AI.ENGINEER
 
 ![[assets/slides/5N33E9tC400/slide-004.jpg]]
 
@@ -205,10 +207,11 @@ OCR text:
 
 OCR text:
 
-> i MU SINK RICO is
-> Better capabilities Better oof use Better tools (AN)
-> ; -| ee Kosei :
-> y | \ ‘ AI.ENGINEER |
+> SidesCarnial Aagust19,2024
+> why agents now?
+> AIE Longinference/reasoning Better/More data MMLU/GPQASaturation Bettercapabilities Bettertool use 100%StructuredOutput,BFCLv3 MCP,Sandboxes.BrowsersSearch Better tools(AX) Memory/RAGframeworks/DBs
+> AGENTENGINEERING
+> HTTPS://AI.ENGINEER
 
 ![[assets/slides/5N33E9tC400/slide-013.jpg]]
 
@@ -246,14 +249,13 @@ OCR text:
 
 OCR text:
 
-> . AgentPMF  ChatGP’'T.com
-> “
-> - ensc cee
-> Openal tops 400 million users despite
-> a DeepSeek’s emergence
-> MOONS own ve tive wecmentrne coon oven cm opoeann =
-> a on Yaa aaiii te
-> a AI.ENGINEER
+> Agent PMF - ChatGPT.com
+> AIE CNBC RATCHUST
+> 三 MARETS EUSNESS NVESTINS TICH POLITICS
+> OpenAltops4oomillionusersdespite DeepSeek'semergence TICN
+> ABX NIOS The artficiat in er.up33% inless han hee Lighicap.told CNiC. bsOpenAnschiefopersing
+> AGENTENGINEERING
+> HTTPS:I/AI.ENGINEER
 
 ![[assets/slides/5N33E9tC400/slide-016.jpg]]
 
@@ -300,15 +302,9 @@ OCR text:
 
 OCR text:
 
-> . (eee ae | ts »
-> , IGN ASOITIOLLSRT MOPGM UM MIU OG mnreceni ey (
-> —- Vn en | SC ro
-> asso ] «ae F ee : |
-> - 7 Sra Aiea
-> | | | | | nN :
-> J! Yas
-> , |e Fe
-> ; - “4 ry
+> TheEvolutionoftheAlEngineer(ideal)
+> gineer MLE tetime cnmgnte inference compute AIE tine SWE reasoning
+> models voftwarr GENTSAT
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

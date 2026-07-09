@@ -1,1 +1,1 @@
-temperature e=0
+temperature = 0

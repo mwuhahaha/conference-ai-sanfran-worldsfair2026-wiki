@@ -69,16 +69,10 @@ OCR text:
 
 OCR text:
 
-> r 1 f ppt
-> oy Pees
-> — Me ' a Ts ,
-> | What RL Means for Agents “Fa "V7
-> re Pi a ;
-> eae ee 4 eh 7
-> Pans oo d A. { E h _ |
-> , i " i m es
-> a a 2.
-> a ~_ A a
+> eer What RL Means for Agents
+> (Reinforcement Learning)
+> Will Brown(@wilcbb) Machine Learning Researcher,Morgan Stanley
+> AlEngineer Summit2025
 
 ![[assets/slides/JIsgyk0Paic/slide-004.jpg]]
 
@@ -277,36 +271,29 @@ OCR text:
 OCR text:
 
 > grpo_demo.py
-> —_
-> Fp areata
-> T OGREBED ae Foc e oun Pogo Payee ae SE
-> Y¥ tr
-> . ~N
-> a Ny 7
-> a a2 SS
-> 1
-> Le
-> raen rewards curacy anicompletion length
-> Fae A a S a
-> are pw ‘ a
-> we “9% P88 % 6
+> willbrown@williccbb·Jan26 ointsscored by the opponent in the chasg GRPOself-correctiononLlama-1B:) Promote We are also given that the points scored by the opponent in the chanpionship gane is half of uF' narite: Simplifying theequation,we get: （24x-2）=（1/2）（24x-2·2）
+> 2) （24x·2）=（24x·2）
+> get: This sinplification was wrong.The opponent sust have scored 2more points
+> 2 Theopponentmusthavescored2more ain/global_step 150 140 130 160 This sinplifies to: This simplifies to: So,they scored 1/6 pointseach in their first24games （24x·2）=（1/2）（24x·2.2） X2/12 x=1/6 （24x-2）=12x 24x-12x=2 12x=2
+> ach in their first 24games t37 484 67K 0.4 train/rewards/accuracy train/completion_length
+> script: willbrown@willccbb·Jan26 0.3 150
+> 0.2 140
+> To 130
 
 ![[assets/slides/JIsgyk0Paic/slide-015.jpg]]
 
 OCR text:
 
-> vi
-> . 3 grpo_demo.py
-> oe neil) aes
-> train remardy accuracy tran cenpleten length
-> 
-> a ees cert] . t
-> 
-> a ro ee mere
-> om a ; 5 i " . , .
-> 2 ao a if ; AGENT ENGINEERING
-> a on ALENGINEER
-> ry
+> grpo_demo.py
+> AIE GRPO self-correction onLlama-1B:) willbrown@willccbb·Jan26 pints sored by the epoonent inthe Promote X1 eare also given that the points nwrite: （24x-2）=（1/2）（24x-2+2） Sinplifying the equation,e get: （24x-2）▪（24x-2）
+> This singtification wos arong. The points
+> 150 4 This sinpLifles to: （2·2-x2）（2/1）-（2-x） （24x-2）·12x 24x·12x2 12x2
+> 130 So,they scored 1/6 points each in their first 24 x2/12 X1/6
+> sch In their first 24 games
+> Q24 37 484 l67K
+> will brown script: @willccbb-Jan26
+> AGENTENGINEERING
+> HTTPS://AI.ENGINEER
 
 ![[assets/slides/JIsgyk0Paic/slide-016.jpg]]
 

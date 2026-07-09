@@ -11,37 +11,33 @@ Weak or suspicious slide OCR is reread with local OCR engines, image crops, and 
 
 ## Latest Run
 - Slide images seen: 2,823
-- Slide OCR records processed: 708
-- Canonical OCR files updated: 30
+- Slide OCR records processed: 1,783
+- Slides skipped as already clean: 1,021
+- Canonical OCR files updated: 0
+- Manual review queue entries: 757
 - Slide markdown pages refreshed from canonical OCR: 199
-- Mode: weak-only
-- Elapsed seconds: 1626.27
+- Mode: all
+- Elapsed seconds: 1.72
 - Audit artifact: `raw/sources/slide-ocr-rapidmerge-audit.json`
 - Merge output directory: `raw/sources/slide-ocr-rapidmerge/`
 - Canonical backups: `raw/sources/slide-ocr-before-rapidmerge/`
 
 ## Best Source Distribution
-- canonical: 500
-- rapidocr-live/full: 91
-- rapidocr-prior: 64
-- rapidocr-live/bright-screen/contrast: 30
-- rapidocr-live/right-72/contrast: 10
-- rapidocr-live/left-72/contrast: 5
-- rapidocr-live/center-82/contrast: 4
-- rapidocr-live/border-trim/contrast: 3
-- reconstructed: 1
+- canonical: 1700
+- rapidocr-prior: 78
+- operator-verified: 3
+- reconstructed: 2
 
 ## Canonical Updates By Source
-- rapidocr-live/bright-screen/contrast: 14
-- rapidocr-live/full: 6
-- rapidocr-live/right-72/contrast: 4
-- rapidocr-live/border-trim/contrast: 3
-- rapidocr-live/left-72/contrast: 3
+- No canonical replacements in the latest run.
+
+## Engine Status
+- Live OCR disabled or no engines selected.
 
 ## Tooling Notes
 - `scripts/improve_slide_ocr_rapidmerge.py` performs weak-slide detection, crop/variant generation, RapidOCR rereads, source scoring, canonical replacement, and audit writing.
 - `scripts/run_slide_ocr_pipeline.py` runs the improvement pass, refreshes slide markdown, regenerates tool/topic surfaces that depend on slide text, and rebuilds the static site.
-- Optional heavier OCR engines such as PaddleOCR or Surya should be added as additional candidate sources when installed; this repository keeps RapidOCR as the default local path because it is already available and runs offline.
+- Optional heavier OCR engines such as PaddleOCR, EasyOCR, docTR, and Surya are treated as local candidate engines when installed and enabled.
 
 ## Source Rationale
 - PaddleOCR and Surya are stronger candidates for future layout-aware OCR, but they are heavier dependencies than the current local environment provides.

@@ -21,31 +21,22 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> be
-> cee sy , [ ues
-> : ve x <" 3 ‘ i ~ eis ms
-> a joes weet he
-> ' Late
-> i a nay ast cali ST
-> 7
-> ‘ I
-> ty 7
-> a ie a
-> aaa Fi : . a —-- )
-> Ee : "
-> e
-> NX
+> godo
+> Hidden Failure Modes
+> for Al Agents
+> essons from Real-World AI Engineering
+> AlEngir EURU
 
 ![[assets/slides/EcqMYoIV57A/slide-002.jpg]]
 
 OCR text:
 
-> e a
-> eles I~ “OB re | Le
-> ale(el=tamar-T] (0 LcoM\(e\e(-1: a ihn Ao
-> ’ for Al Agents oe
-> Engineering the future of Al
-> _)
+> qodo
+> 17
+> AIE HiddenFailureModes
+> for Al Agents
+> Lessons from Real-World AI Engineering
+> AIEn Engineering the future of Al
 
 ![[assets/slides/EcqMYoIV57A/slide-003.jpg]]
 

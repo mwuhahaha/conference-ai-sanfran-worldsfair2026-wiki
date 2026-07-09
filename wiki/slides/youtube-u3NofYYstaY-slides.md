@@ -32,19 +32,13 @@ OCR text:
 
 OCR text:
 
-> S&S Cohere at a glance
-> SELECT INVESTORS STRATEGIC PARTNERS
-> eo Yr
-> Bcohere ome Gomes BD
-> Founded 2019 @uce Se Eo ie, = A OWS
-> Team +500 “7 OTCR Gren scoeniure
-> Offices 4 a ET inowa ea
-> $32
-> CUOMO CO)
-> ~~
-> é
-> : i _ 4 ‘ai )
-> a Microsoft Gc)
+> Cohere ata glance
+> AIE cohere nVIDLA SELECTINVESTORS ORACLE ORACLE STRATEGICPARTNERS
+> Founded 2019 TADICAL Schroders capital Index Veetuses McKinaey &Congury aws
+> Team +300 MIRAEASSET DTCP accenture
+> Offices SanFeancisoo, Toronto,London NenYork SAP inovia
+> TIGERGLOBAL
+> Microsoft smol'
 
 ![[assets/slides/u3NofYYstaY/slide-003.jpg]]
 

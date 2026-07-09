@@ -65,19 +65,22 @@ OCR text:
 
 OCR text:
 
-> J
-> If capabilities requirements
-> saturate, open models will
-> catch up, then dominate.
-> / ‘ 7 a Microsoft ary?
+> AIE saturate, open models will catch up, then dominate. If capabilities requirements
+> Microsoft smol?
+> World'sFair
 
 ![[assets/slides/DeFF3J8T5Pk/slide-005.jpg]]
 
 OCR text:
 
 > Check out specialized LLM inference libraries.
-> oa | ace mE an oerG le aero il Bat is Steen ee a aera
-> . A,
+> micis thefastest.Thisissofast thatI'mskeptical andamnowmotivated tomeasurequality（if 1have time).Whenchecking
+> AIE theoutputsmanually,theydidn'tseemthatdifferentthanotherapproaches. utof allof the solutions1tried.Furthermore,1think that the ergonomics are excellent forthe models that they support.Unlike LM,CTranslatedoesn'tseem tosupportdistributed inferencejustyet. CTranslate2ismyfavorite tool,whichisamongthefastestbutisalsotheeasiesttouse.Thedocumentationisthebest
+> somethingyouwill need forlargermodels.vLLMmightbethesweetspotforservingvery largemodels. LLMisreallyfast,butCTranslatecanbemuchfaster.Onotherhand,vLLMsupportsdistributedinference,whichis
+> astandardway.TGlhassome nicefeaturesliketelemetrybakedin(yia OpenTelemetry)andintegration with theHFecosystem
+> https://hamel.dev/notes/llm/inference/03_inference.html
+> aws
+> World'sFair
 
 ![[assets/slides/DeFF3J8T5Pk/slide-006.jpg]]
 

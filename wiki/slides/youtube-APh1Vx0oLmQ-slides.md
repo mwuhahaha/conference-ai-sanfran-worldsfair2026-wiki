@@ -21,15 +21,14 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> BUILDING DETERMINISTIC |
-> INFRASTRUCTURE FOR . setmennne ennoase oso
-> NON-DETERMINISTIC — .. eaent
-> Al AGENTS Seen
-> | | We SKE /
-> : \ . “eX + RecrificaTion z
-> SSS 17...
-> Nishant Gupta wea) reeaeeen
-> Tech Lead @ Meta _
+> BUILDINGDETERMINISTIC
+> INFRASTRUCTUREFOR
+> AIAGENTS NON-DETERMINISTIC DETERMINISTICBOUNDARY[OB-SOO】 SYSTEMVARIANCE:<O.01% ENTROPYREDUCTION:99.9% PREDICTABILITYINDEX:1.0 CONTROLENCL0SURE[CE-99.99%]
+> THEEMERGINGCONTROLPLANE FORAUTONOMOUSAISYSTEMS
+> RECTIFICATION SIGNAL
+> SYNCHRONIZATION SIGNAL STATE SYNCHRONIZATION
+> Nishant Gupta RIGIDFRAMEWORK [RF-AIZ] CONTROL ENCLOSURE [CE-99.99%]
+> TechLead@Meta
 
 ![[assets/slides/APh1Vx0oLmQ/slide-002.jpg]]
 
@@ -112,31 +111,29 @@ OCR text:
 
 OCR text:
 
-> . 7 Bs
-> The platform decides.
-> The model merely proposes.
-> Validate Y) ©) e Validate G) GS)
-> we cs e 7 TSS ” = ? 7 SI '
-> Rots Be Secret ES es Be
-> J) [Uw TSS Sys |
-> ee | IO 2s. Si
-> (ANALYSIS: STRUCTURAL INTEGRITY) (Fee: O€TERMINISTIC CONTROL
+> The model merelyproposes. Theplatformdecides.
+> Validate Validate →
+> ndno Aligned
+> Stochastic Core Execution Safe
+> System Compliance
+> Deterministic Wrapper Filter Route
+> [ANALYSIS:STRUCTURAL INTEGRITY] [FLOW:DETERMINISTIC CONTROL
 
 ![[assets/slides/APh1Vx0oLmQ/slide-007.jpg]]
 
 OCR text:
 
-> Logs are dead. Autonomous workflows
-> require multidimensional observability.
-> 
-> Agent Trace Timeline [ Tetemetry Sidebar ]
-> Cromoatration on ps ig =
-> 
-> faite See |
-> 
-> Execution
-> 
-> Memory Access on roe.
+> requiremultidimensional observability. Logsaredead.Autonomousworkflows
+> AgentTraceTimeline [TelemetrySidebar]
+> T+0.1s T+0.2s T+0.1s T+0.5s T+1.0s T+1.2s
+> LLMDecisions Track1: Call Tool A Decision. [OY] Call ToolA Decision: Query Memory Decision: [FLON:R[ASONING] Query Memory Decision: Call Tooi A Decision:
+> Pians Track2: Orchestration [OATA:ACTIVE]
+> Execution Track3: Tool Calls& [OATA:ACTIVE] Tool A Executing API Response Received [FLON:DRXTING]
+> Track4: MemoryAccess Context BlockX Read [FLOW:REASONING] New StateY Write: [DATA:ACTIVE]
+> [NISY01] [OATA:ACTIVE] [04TA:ACTIVE]
+> Track5: State Transitions Slate Updated State
+> T+9.1s T+0.1s event T+8.5s T+1.0s T+1.0s
+> [ANALYSIS:FLOWTRACING] [OATA:CONTIMUOUSSTATE]
 
 ![[assets/slides/APh1Vx0oLmQ/slide-008.jpg]]
 

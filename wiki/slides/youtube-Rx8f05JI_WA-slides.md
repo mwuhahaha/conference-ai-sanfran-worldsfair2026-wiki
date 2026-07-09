@@ -113,31 +113,19 @@ OCR text:
 
 OCR text:
 
-> SSS
-> 
 > Leaderboard
-> 
 > 1,400 31.3M 877.4M
-> 
-> s claude Opus 48 : - “ee
-> 
-> AN Claude Opus 4.7 : 16.0%
-> 
-> GLM 5.2 13.0%
-> 
-> @ opr-5.8 : 12.0%
-> 
-> + Gemini 3.5 Flash 7.0%
-> 
-> Y DeepSeek VS Pro 4.0%
-> 
-> © Genii 3.1 Pro Preview 2.0%
-> 
-> ~ MiniMax M2.7 0.0%
-> 
-> ° Kimi K2.6 ° . =
-> 
-> Go
+> trials avg tokens/trial longest trial
+> MODEL/AGENT AlClaudeOpus4.8/Claude Code RESOLUTION RATE (PASSO1) 26.0%
+> AClaudeOpus4.7ClauseCode 16.0%
+> ZGLM5.2/C1eCod 13.0%
+> GPT-5.5/CdexCL1 12.0%
+> Gemini3.5 Flash/Geaini CL1 7.0%
+> 心 DeepSeekV4Pro/Terainus2 4.0%
+> Gemini 3.1ProPreview/ Genini CL1 2.0%
+> 业 MiniMaxM2.7/Terninus2 0.0%
+> ? KimiK2.6/Kini Code CL1 0.0%
+> 254
 
 ![[assets/slides/Rx8f05JI_WA/slide-008.jpg]]
 
@@ -159,23 +147,17 @@ OCR text:
 
 OCR text:
 
-> e
 > Reward hacking
-> 12.8% 9.2% 0
-> © Gemini 3.1 Pro Preview ee 30.0%
-> @ oPr-ss ee 19.0%
-> > Gemini 3.5 Flash - ee 16.0%
-> @ Kimix26 - Pe 10.0%
-> AN Claude Opus 4.8 PF 9.1%
-> W OvepSeck V4 Pro YY 6.3%
-> A\ Claude Opus 4.7 fe 5.0%
-> GLM 5.2 ’ 7 3.0%
-> — MiniMax M2.7 | | 1.0%
-> Co bse, Sa re vues —_
-> /
-> ‘
-> § PY
-> a
+> 12.8% 9.2%
+> suspiclous shortcut behavior clear exploit shipped rdviaexploit
+> MODEL/AGENT GPT-5.5/Cx CLI Gemini3.1Pro Preview/Genin1 CLI SHAREOF TRIALS（%） 30.0% 19.0%
+> Gemini3.5Flash/GeminiCL1 16.0%
+> KimiK2.6KimCode CLI 10.0%
+> A\ClaudeOpus4.8/ClaudeCode 9.1%
+> A\ClaudeOpus 4.7/ClaudeCode DeepSeekV4Pro/Terninus2 6.3% 5.0%
+> ZGLM5.2/ClaodeCode 3.0%
+> MiniMaxM2.7/Terninus2 1.0%
+> Suspiclous shortcut behavier 10% Ctear exptoit shipped 20 48s
 
 ![[assets/slides/Rx8f05JI_WA/slide-010.jpg]]
 

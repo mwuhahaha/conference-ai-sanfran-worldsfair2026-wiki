@@ -180,12 +180,15 @@ OCR text:
 
 OCR text:
 
-> Similar Architecture, Different Training
-> [aie] GPT Assistant training pipeline
-> iW) + © °
-> ° o.. oO eo. 0 (> eran +
-> https:/www. youtube.com/watch?v=bZQun8Y4l2A
-> | -] ees Oly
+> SimilarArchitecture,DifferentTraining
+> GPTAssistanttrainingpipeline
+> AIE Dataset Stage orgygeqy Rawinternet lettllons ofwrs Pretraining -10-10k(promgesponse) sq idel Astat eponses loqunthigqulty 100k-1Mcomperisons wrien bycontracor iowquanity Nigquality Reward Modeling Reinforcement Learning Prompts -- witenbycoracos
+> Algorithm Language modeling Languagemodeling ict the net token uopessepee predictreeards consisterntw preferences Reinforcement Leaming thereward
+> GPT InitfromST
+> Model Basemodel SFTmodel RMmodel RLmodel
+> Notes ap op e 1000sofGPUs 1.100GPUS deys of tvain can deploy thsmodel 1-100GPUS das cftaning 1-100GPUs apog loap ue) deys of vaning
+> https://www.youtube.com/watch?v=bZQun8Y4L2A
+> Microsoft smolo
 
 ![[assets/slides/ZuiJjkbX0Og/slide-009.jpg]]
 
@@ -212,11 +215,15 @@ OCR text:
 
 OCR text:
 
-> Similar Architecture, Different Training
-> | GPT eer training pipeline
-> ry) ) ° s)
-> i - - eee)
-> | ; a Microsoft ary?
+> SimilarArchitecture,DifferentTraining
+> predictingpattemsndata esodund-uedpung knowledgebase by training to mimic“idel" Task correctness by gndino
+> AIE GPTAssistanttrainingpipeline
+> Stage Pretraining Reward Modellng Reinforcement Learning
+> Dataset Raw internet teilons fwonds -10-100（prmg idealAsat esponses Demonstrations spq AenbeyXouenbmo 100K-1Mcomparisons Comparisons winenby contadors lowquanty highqualty writlenbycontraon Prompts 10K-100kpromps owguayhigqalty
+> Algorithm Language modeling pnediet the net token Languagemodeling predict the next token Binary classification predicrerds consent w prelerences Reinforcement Leaming gecerale lokens thatmaimise thereward
+> Model GP Basemodel SFTmodel RMmodel RLmodel init from SFT ChatGPT
+> Notes apog odapue) monhsoftan 1000sofGPUs 1.100GPUs can depoy Nismodel 1.100GPUs day of traning 1-100GPUs dayi of vani lposgodapue
+> Microsoft smol?
 
 ![[assets/slides/ZuiJjkbX0Og/slide-011.jpg]]
 

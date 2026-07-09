@@ -39,16 +39,14 @@ OCR text:
 
 OCR text:
 
-> nergrew
-> oe | wake up
-> 
-> J i dae Bw
-> 
-> ~ an
-> Ax AlEng ; ual
-> alg - a there is a new
-> technological advancement
-> [_atengineer Engineering the future of Al
+> AIEngineer
+> togeth EUROPE AIEngi I wakeup
+> AIE ed
+> iC AIEngi
+> AIEnS EURO tail thereisanew
+> technologicaladvancement
+> Vinenr Kox AIEEarope2026
+> AlEngineer EUROPE Engineering the future of Al
 
 ![[assets/slides/pmoDeA3RBZY/slide-003.jpg]]
 
@@ -71,22 +69,13 @@ OCR text:
 
 OCR text:
 
-> ae eit v
-> - Hil’m Vincent Koc
-> 
-> Your Friendly Clanker
-> re
-> 
-> “it po .
-> 
-> le narke ;
-> - i ©
-> EN = e-\ io
-> 
-> . ~ «ae
-> : ane * ~ we ,
-> 
-> [_atengincer | Engineering the future of Al
+> HiI'mVincentKoc
+> enAl Engineer YourFriendlyClanker
+> EUROPE My lor for eting n wgy (2013)
+> ngine arke
+> SEN'
+> ona AIEEwrepe2026 Visot K
+> AlEngineer EUROPE Engineering the future of Al
 
 ![[assets/slides/pmoDeA3RBZY/slide-005.jpg]]
 
@@ -108,19 +97,15 @@ OCR text:
 
 OCR text:
 
-> as oh Ab en Te se
-> a)
-> 
-> ae Ope ' . Ceo
-> 
-> = = ¢
-> 
-> adel er ” ie
-> 
-> Bo as ee Rol a
-> 
-> Gene <. a ,
-> ze Engineering the future of Al
+> EUR
+> AlEngineer Ope
+> 33
+> bogleD EURO Eng
+> AIEngine Brai
+> BeNC AIEng
+> ELR
+> AIEEarpe2026 VincentKax
+> AlEngineer EUROPE Engineering the future of Al
 
 ![[assets/slides/pmoDeA3RBZY/slide-007.jpg]]
 

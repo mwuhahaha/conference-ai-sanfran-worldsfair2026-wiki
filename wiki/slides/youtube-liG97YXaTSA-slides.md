@@ -22,23 +22,24 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 OCR text:
 
 > Reasoning
-> SAAS TSK STURT BE SUB IOTAOOISA TIE CoO ORL EMOTES aROL TO STE TEC)
-> | aws
-> ; ee)
-> : oe
+> ProgressonAlbenchmarksinthepastfiveyears
+> AIE 100 80 Trivia questions (TriviaQA)
+> Accuracy 60 40 20 Variousexams (MMLU) math(GSM8K) Grade-school math(MATH) Competition SWEtasks(SWE bench verified) STEM(GPQA) Graduate-level Prestigiousmath exam(AIME) 'Humanity's lastexam
+> 2020 2021 2022 2023 2024 2025
+> Credit:JasonWei
+> aws
 
 ![[assets/slides/liG97YXaTSA/slide-002.jpg]]
 
 OCR text:
 
-> Strong Reasoning Through SFT
-> DeepSeek- bo
-> R1-Zero “s
-> Set on
-> aaa ii ae reiteration oO Converged , nore
-> a5
-> somples: torples a R1
-> . i a Microsoft @yr{?
+> Strong Reasoning ThroughSFT
+> AIE DeepSeek- R1-Zero
+> DeepSeek-V3 Base SFTon Initialization RL Converged RL reosoning sampies X009
+> SFTon
+> reasoning samples X009 general samples 200k Reasoning Model RLforalignment DeepSeek- R1
+> Credita16z
+> Microsoft smol?
 
 ![[assets/slides/liG97YXaTSA/slide-003.jpg]]
 

@@ -55,13 +55,13 @@ OCR text:
 
 OCR text:
 
-> an
-> bd bd
-> are
-> bd ad
-> * ee bd
-> | Al Engineer |
-> sel cel ag
+> uoxnha uwey
+> bor..tetel
+> Val
+> AIE
+> Tyee somethiny
+> AI Engineer
+> AIEn EUROPE
 
 ![[assets/slides/r305-aQTaU0/slide-005.jpg]]
 
@@ -125,10 +125,15 @@ OCR text:
 
 OCR text:
 
-> Peo ” =
-> = :
-> iz
-> : Engineering the future of Al
+> / UV)6
+> List
+> (elenmme)
+> AIE
+> 41tiuaep/t.11) re aita A9o0
+> -daalg1
+> lei< (4el-oeceratime) (retsrm: 1
+> Engineering the future of Al
+> AIEns
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

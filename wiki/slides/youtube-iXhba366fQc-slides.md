@@ -112,10 +112,16 @@ OCR text:
 
 OCR text:
 
-> ByAgent"
+> Oaewspets-werahep 11
+> Terinina
+> 01-bad
+> 21 Ar
+> toruerlanr
 > AIE
+> UD
+> 1A2.02 UTT-D S（）Typcrot
 > aws
-> WoridsFair
+> Wrs F
 
 ![[assets/slides/iXhba366fQc/slide-008.jpg]]
 

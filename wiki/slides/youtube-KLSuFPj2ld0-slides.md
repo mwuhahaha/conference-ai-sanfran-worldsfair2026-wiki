@@ -188,11 +188,9 @@ OCR text:
 
 OCR text:
 
-> Machine Payments Protocol a
-> _
-> ay a
-> | - | | AlEngineer |
-> aa aad
+> Machine Payments Protocol stripe
+> AIE
+> 2028 AlEngnor AI Engineer EUROPE
 
 ![[assets/slides/KLSuFPj2ld0/slide-010.jpg]]
 

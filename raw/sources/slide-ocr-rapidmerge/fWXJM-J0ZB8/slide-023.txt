@@ -1,0 +1,7 @@
+Rachel-LeeNabors(they/them)nearestnabors.com
+p50latency(ms)-lowerisbetter
+ClaudeSonnet(celling)
+OQwen2.51.5B
+Qwen31.7B
+Gemma4E2B
+Llama3.23B（recommended)

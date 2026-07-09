@@ -123,26 +123,25 @@ OCR text:
 
 OCR text:
 
-> *reflect
-> t-bench
-> CPTS.4
-> gentRTX
+> reflect
+> 米
+> t²-bench
+> Wie compre beg mode on themirinrs tak inT-bench
+> erhancedperfarrsaroe.
+> GLMnenthinking OPTSA
+> AertRTX
 
 ![[assets/slides/Jx4ZFEAq6bY/slide-010.jpg]]
 
 OCR text:
 
-> re ee
-> non a .
-> - i a
-> oe
-> ra wee ;
-> 
-> Py es abo an
-> 
-> : Tes
-> 
-> li | i
+> Fettures Hewiworts nvgwtiors Doca Dog Detymlec
+> GRTSA
+> ncA ang Loiong-08
+> SAD
+> 42. M.3.
+> 3.Y
+> EnowlesgeFnontir H CodirCan Uielony-ce CNTetk
 
 ![[assets/slides/Jx4ZFEAq6bY/slide-011.jpg]]
 
@@ -193,18 +192,10 @@ OCR text:
 
 OCR text:
 
-> : ee os
-> Sate a pwr, vee cae
-> ween Pas
-> q x
-> ant
-> Eee
-> nt aed a
-> Fl
-> | f f
-> Li p
-> a
-> io Ln ee | 7ORF «+ a
+> *reftlect Traces-rufiect-domo Fnd me agamingmouse not：gpt-4,1-ind PENSING
+> toktui
+> Icouidnt find anygaming mout
+> agemtRTK
 
 ![[assets/slides/Jx4ZFEAq6bY/slide-015.jpg]]
 
@@ -268,37 +259,32 @@ OCR text:
 
 OCR text:
 
-> a eee :
-> a rr Ps Cs
-> ere
-> a :
-> he a
-> re
-> ae Prd
-> ere)
-> 3 ;
-> . at ra Ee ae see ct ad eee Ate
-> cue
-> 7 a Ln ee | | © en! /
+> *reflect
+> PROJECT reflect-de tindmeag
+> Overview
+> 6/6/2026.42311PM eJefer48-84c-51eo-a97f-429 harde REFLECTION 04.80o
+> Traces EEFLECTIO
+> Tre
+> Memories
+> Bding6Usege
+> specific termf
+> APPLICRELETOCLS SEARCE_PRDDUCTS
+> agentRTX NEVIEWED-FAIL
 
 ![[assets/slides/Jx4ZFEAq6bY/slide-019.jpg]]
 
 OCR text:
 
-> a eo - :
-> q or Ps ns
-> :
-> ane
-> ie : SMerTor ars oe Cid
-> Lene
-> Oy rae t fa
-> ee a te es ie oe ee .
-> an Pur
-> BG
-> Pees
-> q
-> | a
-> 7 iM en ee | »,OF » + a
+> *ref/ect PROJECT Memories Fromrevi odtraces.Sort by time orQ
+> ? MBIMO ProjectSidll
+> Projects emoriestoceaail（3/5)
+> Traces
+> Memories
+> APIKnps
+> ngUsage aJaf0f48-8f4c-51e0-a97f-a294e3 6/18/20264.23:11PM sebBrde BEFLECTION 05.500 PAILED
+> REFLECTION
+> The agenitus
+> agentRTX T7eS0
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

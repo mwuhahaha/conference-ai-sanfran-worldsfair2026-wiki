@@ -112,9 +112,18 @@ OCR text:
 
 OCR text:
 
-> AIE
-> BrightDataPluginforClaude Code
-> Lnlock the
+> Soluion
+> orighedata/skls
+> 0<） mqueb Actone
+> P2a0ag Qoo Abol
+> 日
+> AIE esf petk MT Scue
+> RACmd d d glupe 1mve Ysso
+> [LADUS Salevan
+> Bright Data Plugin for Claude Code
+> ngearcandtrctureddets
+> OATAU
+> 1111AV
 > Engineering the future of Al
 
 ![[assets/slides/btxGmN8RvNU/slide-007.jpg]]

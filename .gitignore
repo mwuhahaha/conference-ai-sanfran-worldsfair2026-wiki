@@ -17,6 +17,7 @@ raw/slide-frames-tmp/
 raw/sources/youtube-subtitles/
 raw/sources/external-youtube-subtitles/
 raw/sources/slide-ocr/_preprocessed/
+raw/sources/slide-ocr-before-rapidmerge/
 
 # Raw video captures are too large for normal GitHub pushes and can be regenerated.
 raw/**/*.mp4

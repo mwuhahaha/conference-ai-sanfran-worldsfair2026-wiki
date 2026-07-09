@@ -74,12 +74,12 @@ OCR text:
 
 OCR text:
 
-> atv
+> itv
 > AIE
-> A
+> aws WoddsFa
+> neo WodnFa
 > aws
-> neo
-> aws
+> Waisufa 2CoN
 
 ![[assets/slides/5nOLb27hQ5w/slide-007.jpg]]
 
@@ -100,19 +100,11 @@ OCR text:
 
 OCR text:
 
-> F: a.)
-> bd reese a
-> od z +h Petr Own ites ag ak oan
-> Oo >
-> 
-> | = a *
-> 
-> f/f} & © BBO aQ £ on eo
-> 
-> Pel os
-> t
-> 7 rene 5 ;
-> coe BH Microsoft ©
+> AIE Control Center
+> Party Oirls (feat
+> Microsoft aws MordsFa
+> HEDRM:neo4j
+> DATASTA osF Microsoft smol?
 
 ![[assets/slides/5nOLb27hQ5w/slide-009.jpg]]
 

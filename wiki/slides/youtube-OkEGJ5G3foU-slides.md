@@ -104,30 +104,9 @@ OCR text:
 
 OCR text:
 
-> { : ed
-> : >
-> : 5
-> : Q
-> : a
-> ; 5
-> | |
-> : ,
-> 4 ,
-> s A
-> : 5
-> 5 p
-> : a
-> : a
-> ; 5 ;
-> : ‘reeds_fixed_stride_order’,
-> > ‘needs_fixed stride order’,
-> : ,
-> ; >
-> Gariena :
-> "
-> FAT
-> = V1 °
-> ; a Microsoft OCU
+> AIE TYPE_CHECKING':False, 'bundle_triton_into_fx_graph_cache':True, cnncache_precompile_headers':True, inplace_padding':True, can_inplace_pad_graph_input':False, disable_progress':True, verbose_progress':False, fx_graph_remote_cache':None, bundled_autotune_remote_cache':None, sleep_Sec_TESTING_ONLY':None, enable_auto_functionalized_v2':True, fx_graph_cache':True, autotune_local_cache':True, force_disable_caches':False, custom_op_default_layout_constraint':'needs_fixed_stride_order', triton_kernel_default_layout_constraint':'needs_fixed_stride_order' debug':False, autotune_remote_cache':None, cpp_wrapper':False, softmax':True,
+> Microsoft smol?
+> Worid'sFair
 
 ![[assets/slides/OkEGJ5G3foU/slide-007.jpg]]
 

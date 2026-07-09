@@ -76,19 +76,12 @@ OCR text:
 
 OCR text:
 
-> “. generative Al
-> systems are grown
-> 
-> more than they are
-> built—their internal
-> mechanisms are
-> “emergent” rather
-> than directly
-> designed.”
-> Boris Anode.
-> 
-> i CA
-> —— |
+> The Bitter Layout @MaximillianNYC
+> "...generative Al
+> AIE morethantheyare systemsaregrown 5575157559585 Ssssi1ris55s551 35sr1si+5.11/5455
+> "emergent"rather thandirectly designed." mechanisms are builttheirinternal s5sssi**l...55s. ssSss+t+*i+s1 S:55555+1 555:::$5 -1..1.. ST45555555: ：59644455859555 5551***455555555
+> BarioCmodei
+> aws
 
 ![[assets/slides/BZtD0yYAgCQ/slide-005.jpg]]
 

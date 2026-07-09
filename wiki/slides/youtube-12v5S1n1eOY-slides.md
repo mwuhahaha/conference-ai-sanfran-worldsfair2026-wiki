@@ -87,11 +87,12 @@ OCR text:
 
 OCR text:
 
-> Box has fully integrated generative Al starting in 2023
-> Data
-> 2>xtraction
-> Cia i :
-> - J a Microsoft @yry{?
+> BoxhasfullyintegratedgenerativeAlstartingin2023
+> AIE Q&Aacross documents extraction 172 Contracts Data Al-powered workflows Aoprov
+> AboveS5.000 90 Due in90Days
+> 12Riskyclauses
+> 53Contain PlI
+> Microsoft smol?
 
 ![[assets/slides/12v5S1n1eOY/slide-006.jpg]]
 
@@ -248,15 +249,11 @@ OCR text:
 
 OCR text:
 
-> Bringing agentic technology to the Box platform
-> Al model a as
-> e P Ye Objectives
-> Instructions a> , : -
-> er eee ae , Capabilities and tools
-> Secure access to your content
-> 2a
-> 7 : |
-> . “s oa ~ an
+> Bringing agentic technology to the Boxplatform
+> AIE Foundationmodel that powersreasoning. the Al Agent follows to completeits task Structuredpmpslogc,rn summarization,and generation Instructions Almodel boxAI summarization,classification.andAl APls Specific tasks the Al Agent is designed to accomplish Functions the Al Agentuses toact-—like Objectives Capabilities andtools
+> Secureaccesstoyourcontent
+> Content the Al Agent draws from,thisis the foundationof secure,groundedAl
+> aws
 
 ![[assets/slides/12v5S1n1eOY/slide-013.jpg]]
 
@@ -327,10 +324,9 @@ OCR text:
 
 OCR text:
 
-> Thank youl |
-> Ye
-> | World boyy
-> Ve 7
+> Thank you!
+> box
+> World's Fair
 
 ![[assets/slides/12v5S1n1eOY/slide-018.jpg]]
 

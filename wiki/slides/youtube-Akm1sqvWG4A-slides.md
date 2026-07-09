@@ -206,14 +206,20 @@ OCR text:
 
 OCR text:
 
-> . & % 6 ‘ an ra . Fe = a 3 : eS 7 , 7 z
-> 5 a F 5 j am | cr ee +} ap
-> verter ;
-> . Trace Detail ca i -
-> - Sem sir Sak rere ae rh Pe :
-> , ae
-> Cnr . »
-> ocr
+> FACS FAQsHe Langfuse MorosoWx heading-fa
+> C localhost:3000/project/cmphbwcwb0006cosw74bs7wlc/traces/f046bc3ee86d-43d0-b609-(54f2d2eea277timestamp2026-06-19T12%63A17.. ☆
+> WPP Boomarks 8 Free Pictures Ogy W st PGPMS Websites Webste Test Decoupled RAG Tutoriab ATend
+> Langfusev2.95.11055 TraceDetail lean-doc-chat/chainlit-tracking/Traces/1046b3e-e66d-43d0-b609-154f2d2eea27 Private
+> Tacing Uer ID:idget-aonym
+> Sessions Generations Traces drect Tree E Timeine
+> users Scores Models 6/19/2026≥17:45PM mafaq-agentic-chat Annotate anepopp+ Prevew Scores TRACE faq-agentic-chat
+> Promps Pretty JSON
+> Datasets 6
+> Seethelatestreleases Star Langfuse andhelpgrowthe ppsydouequea
+> Langtuse 29k indicatesplannedmaintenance activities will take place during this time. es.theprovideddooument states thatMaintenance windowis from 600PM(18:00) to 1200 AMmidnight(00:00Sunday，21June)This
+> Feedback Metadata
+> Settings oddrs@ Docs model:qn2.5:e.5b-lestrct top_k:2 sourcesi[- 0:*5creenshot 2826-06-19004158.png 1:*5crenshot 2026-06-19004158.png
+> Abed Matini agemt_mode:false t.tvoe:rat"
 
 ![[assets/slides/Akm1sqvWG4A/slide-008.jpg]]
 

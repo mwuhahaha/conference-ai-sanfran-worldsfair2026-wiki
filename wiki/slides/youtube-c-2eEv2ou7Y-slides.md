@@ -21,11 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> _ a |
-> a in - om ie ce | Why MCP & ChatGF
-> | ammm +--—. ell Double Iframes
-> ‘| | em Pi TES i 4 g ‘ z
-> ae
+> AlEngineer EUROPE WhyMCP&ChatGF DoubleIframes
+> And What That Meansfor YourApp
+> EU/ACO frediric larthelet
+> 2026 AIEngineer
 
 ![[assets/slides/c-2eEv2ou7Y/slide-002.jpg]]
 
@@ -115,9 +114,12 @@ OCR text:
 
 OCR text:
 
-> SS ;
-> What if — rs
-> inherits parent CSP without script nonce,
+> Whatif-srcdoc?
+> script-srenonce--httpa://*.chatgpt.com freme-arc'self*.stripe.con*.youtube.con chatgpt.com Content-Security-Policy
+> AIE
+> <body> <ATP/>doYJno<ATp> srcdoc-"_'>
+> </body>
+> inheritsparentcspwithoutscriptnonce, allviewscriptsblockec
 > Engineering the future of Al
 
 ![[assets/slides/c-2eEv2ou7Y/slide-007.jpg]]
@@ -157,21 +159,14 @@ OCR text:
 
 OCR text:
 
-> NJ
-> 7 f t
-> Pel
-> bd bd
-> ace
-> * *. Bu ike) fs Tents) ed
-> aed
-> L connect Domains | Raa
-> [scr ipt—sre [ wedia-sec | Pa oe ms
-> een eT on reer)
-> een
-> 4 os
-> eas
-> a
-> | Engi ing the fut eA
+> You must declare all domainsyour
+> app dependson
+> AIE _meta.ui.csp feld CSPdirective(s) Unlocks
+> connectDomains connect-src fetch,XHR,WebSocket
+> resourceDomains script-src style-src font-src img-src nedia-src External scripts,styles,fonts,images
+> frameDonains frane-src Nested iframes(maps,video)
+> baseUriDomains base-uri CustombaseURls
+> Engineering the future of Al
 
 ![[assets/slides/c-2eEv2ou7Y/slide-010.jpg]]
 

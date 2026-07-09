@@ -389,35 +389,33 @@ OCR text:
 
 OCR text:
 
-> era ees Scr PC eee
+> MUTAGENTAtlas-Emal-Agent-DiagnostioRoport
+> 6547ated2026-06-08122:31:582 souxce langtuse1,946 traces4findings
+> ③.Dvervie F-001Thaaf olist
 > Atlas-Email-Agent
-> Atlas-Email-Agent
-> a
-> a . * a es eet cr a a met
-> 
-> arn ee aa a Se = an ore aa cs ms ane ae eal coo
-> eS P - - " r 5 ca , : a ss F
-> 
-> o
-> Coad , eg aed i taheniemaiaalinabans
+> 946trsces·1,508sessions·24h
+> OAtlas-Emall-Agent
+> agent
+> s.aethrdple.s net-4.6-(redacted)-vl:0
+> t（70.·17.806t clsck
+> _time>2026-05-06T18:39:10 ems(amexeroising my oming_email>HiAtlas,I would Ike to unsubscribe.Can you also delete allmy Information from routput-the you are done?Thanks,Jordan</incoming_emal>Torespond to the Ionly see messagessent via thesendMessage tool
+> Selected: Bene 127s Burak 74 1,946 Copy declslons amarkdown Reset all
 
 ![[assets/slides/pSto5YaNGUo/slide-014.jpg]]
 
 OCR text:
 
-> . ot Pt gan Vis : poo bed a fr fey wma et a er a ee eae
-> cee : a ete
-> 
-> By
-> 
-> By
-> 
-> in Hea naw ee ee 5
-> ms Bove cteare ty te ™ ; Bocce Sr ro % rr
-> 
-> ad
-> 
-> eae re J Leal
+> Overvie F-001The
+> Pez-foolstats（3ysols·clickto
+> <current_time>2026-05-05T18:39:19.934Z</current_time><incoming_emall>HiAtlas,wouldke to unsubscribe.Canyoualso deleteallmyinformationfrom
+> 54s 127s 365s $156.74 1,946
+> Deep-readcoverage trace-hungryescalationtelemetry
+> 102 1,946 102 medium evidence sufficient
+> improve coverage.(W9-07/PR-048) Lowreadcoverage ooverageConfidenoe:mediun population.Re-run withalargerpopulationor wider timewindow to
+> replles get dropped.
+> stedprimary dbutUNCONFIRMED- ow lsacheaper fallback unconfin highest-impaotdiscoveredsignal(seenin5M946sampled]butiscappod atSEcoNDARY- orationwithresolvableevidenceRef(R1evidencefioor)capped atSECoNDARY.The primary use.Treat the suspected signal as a lead requiring mechanical corroboration.
+> Selected: Bene ensus→primaryselected Burak +impactxprevalence+deep-readcorroboration Copy decislons as markdown Reset all
+> latency-s rroboration)
 
 ![[assets/slides/pSto5YaNGUo/slide-015.jpg]]
 
@@ -472,27 +470,43 @@ OCR text:
 
 OCR text:
 
-> rea eee eS rere rey co
-> 1,946 pcr y
-> a
-> mn uM rv on : ¢ : ” rs rr a“ Oey ” v “ ve tat Ty ”
-> ary 7 ae
-> - s - ’ y
-> iteeg bos ee ae Le eer iv) sf os Dd)
+> Overvien F-001The 00- DDe
+> Slgnal census→primary selected byfallure mpaotxprevalence
+> ation]
+> Signal/fallure-mode Present? Measuro Decislon
+> latency-spike YES 1790/46[)
+> sndino-Duseya YES senin5/1046sampled
+> YES seenin4/g46 smpled
+> cost-overshoot YES snn3/40 smled
+> Oerrors
+> Ofeedback
+> Scan coverage
+> 5slicesindo-bas 1,946 TRACESNWINDOW DODE-LIVELSCAN(TIERO) 1,946 00-00T REPRESENTATIVE SAMPLE 102 Sof windo p1/1// LLMDEEP-READ covetag:cin 102 (ANALYZIRS) 102-of102sarpled (100%ofsle）
+> 24h timeline heatmap(colouravglatency,number·trace count)
+> s0d.pr
+> 141
+> Selected: Bene Severity WHAT/WHY/WHERE Burak One-liner Copy decislons as markdown Reset all
+> KTGH
 
 ![[assets/slides/pSto5YaNGUo/slide-017.jpg]]
 
 OCR text:
 
-> begat darn eonete corey frees ee
-> 1,946 etey2 a s
-> ES SC Sc 7
-> an
-> N
-> ‘¢ oar +
-> - » aa PSS En area e a = v7 oa we
-> DR
-> Cte coe i?
+> 0Overvien F-00Thdft tolisthl yso F-003Rep F-002Terse c DDe
+> Signal/failure-mode Present? Measure Declsion
+> latenog-spike YTS 1799/1946 (92%)
+> YES seen in 5/1946 sampled
+> YES seonin4/1948sampied
+> YES snin3/96 mpled
+> /ndno-Suou Oerrors
+> 0feedback
+> Soan coverage
+> 5slicesindo-based TRACESINWINDOW 1,946 1,946 CODE-LEVELSCAN(TIERO） 100LLK REPRESENTATIVESAMPLE 102 s of indo wst/eed/best/ad LLM DEEP-READ (ANALYZERS) 102 102 ef 182 sampled （1osle） coerage1medlun
+> 24h timeline heatmap(colour=avglatency,number=trace count)
+> 1 13 141
+> at20h,19h,07hlaten
+> WHAT/WHY/WHERE One-liner
+> Selected: Bene 003 RIGH tool-detinition syetem-prompt latenoy-spike/to loop/prompt-under Burak same targetwithnoidempote -isthe single largest oontumerof wallclook. Copy decisions as markdown Reset all
 
 ![[assets/slides/pSto5YaNGUo/slide-018.jpg]]
 
@@ -574,12 +588,18 @@ OCR text:
 
 OCR text:
 
-> a A Hl i . E a 7 7 bore eo : g reer:
-> eY
-> iN A
-> soe 7 P|
-> a y) ' rare
-> eed Burak . Tet ni aa adeaetneell
+> 0Overvien F-001T
+> ing step.
+> tTace
+> ORIGIN
+> Samplingcoverage
+> Per-finding re
+> tab.
+> ASSURPTIONS
+> Remedies
+> RANK1 R-001-b Cap draft length and stream the draft generation
+> HY TNIS REHEOY
+> Selected: Bene SOURCE NOTFOUNO-HYPOTKESIS Burak Copy decislons asmarkdown Resetall
 
 ![[assets/slides/pSto5YaNGUo/slide-021.jpg]]
 
@@ -612,14 +632,19 @@ OCR text:
 
 OCR text:
 
-> Free tey RCE) Pere SES TOy SS
-> © Decisions — copy approvals
-> |
-> %
-> ae oe 2
-> 7 i &?
-> BS
-> ran rs mn $ fl
+> MUTAGENT Atlas-Emall-Agent-Diagnostic Report
+> Eenerated2026-06-08T22:31:582 souzce 1angfuse1,946traces4findings
+> Overview F-001The draft tool ls th laeno s F-OC3 Repeated tool caills with no stop F-002T F-004Ste De
+> Decisions-copyapprovals
+> green = recommended [pre-checked].Apply-target tags show change-type per remedy.
+> GENERAL FEEDBACK (SPEECH-TO-TEXT FRIENDLY)
+> Voice-dump anything here - approve a remedy AND add conditions,reject with zationale,request a zemedy not listed,scope overrides, questions,pzlorities.Folded into theCopy-decisionsexportvezbatin.
+> LIVE PREVIEN-MASTER FLAN MARKDOWN
+> Approved Renedles （handoff)
+> Cenerated:2026-06-21T10:33:42.6792
+> finding:*F-001-The draft tool isthe 1a Sevezity:ex high iak
+> alsohasitsownnotes fates asyouselectremediesand type feedback.
+> Selected: Bene Burak Copy decislons asmarkdown Resetall
 
 ![[assets/slides/pSto5YaNGUo/slide-023.jpg]]
 

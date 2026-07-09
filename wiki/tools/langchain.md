@@ -25,6 +25,8 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [YouTube cwjs1WAG9CM](https://www.youtube.com/watch?v=cwjs1WAG9CM) — Building Context-Aware Reasoning Applications with LangChain and LangSmith: Harrison Chase
 
 ### Slide/OCR Pages
+- [[youtube-HEFSExa0xl0-slides]]
+- [[youtube-I2cbIws9j10-slides]]
 - [[youtube-eW_vxrjvERk-slides]]
 
 ### Transcript Files

@@ -29,6 +29,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-xnXqpUW_Kp8]]
 
 ### Slide/OCR Pages
+- [[youtube-ZRM_TfEZcIo-slides]]
 - [[youtube-sRpqPgKeXNk-slides]]
 - [[youtube-xnXqpUW_Kp8-dense-slides]]
 - [[youtube-xnXqpUW_Kp8-reconstructed-slides]]

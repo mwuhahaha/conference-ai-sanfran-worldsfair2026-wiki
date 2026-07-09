@@ -230,23 +230,9 @@ OCR text:
 
 OCR text:
 
-> ile 7 Ne ie a a
-> @ Attaching ternal:
-> ror he basa
-> eal 5 . so - noe , er
-> oe a ee)
-> Nae
-> = 4,
-> bag
-> oy a ae
-> : a5
-> a cS
-> a °
-> 24)
-> : - a Microsoft §=GDOU
-> ee i.
-> - »
-> a ws
+> 492be023728e11715"):Container! Attaching terminal: container: Container!.from(address:"docker.io/library/alpine:latest@sha256:8a1f59ffb675680d47db6337b49d22281a139e9d709335b
+> AIE bin dev dagger/s dagger/$ls home etc media lib opt mnt proc root run sbin srv sys tmp uSr var
+> Worid'sFa Microsoft smol?
 
 ![[assets/slides/Fzb1a24hF-o/slide-011.jpg]]
 

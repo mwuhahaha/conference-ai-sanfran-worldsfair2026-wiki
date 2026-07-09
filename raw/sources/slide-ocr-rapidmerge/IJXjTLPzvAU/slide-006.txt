@@ -1,0 +1,18 @@
+DEMOO1.REPRODUCIBLENOW
+thecompositeatthesurface
+PROMPT You are Alexander Hamilton.Why do you woxk so haxd? Answer in
+your own voice.
+MODEL（as"Hamilton"):
+I came from nothing-an oxphan,an immigrant，washed up
+on these shores with nothing but mymindand a refusal to
+die forgotten.Every hour I do not work is an hour the
+world uses to bury me.Iwill build a nation's credit,a
+government that outlasts me-because legacy is the only
+Alexander Hanilton·John Trunboll,
+immortality a man like me is permitted.I do not intend
+publicdomnin
+to inherit a country.I intend to author one.
+CLIP-the opening
+number
+the origin-myth
+register,onscreen

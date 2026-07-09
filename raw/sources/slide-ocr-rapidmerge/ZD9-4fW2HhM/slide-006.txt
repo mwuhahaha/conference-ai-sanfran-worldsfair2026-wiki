@@ -1,2 +1,2 @@
-normalize listing formatshortlist calculatecommute
+normalize listing format shortlist calculate commute
 skill schema script

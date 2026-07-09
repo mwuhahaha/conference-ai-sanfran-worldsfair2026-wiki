@@ -21,16 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> RITnNem Gelert neaace
-> {COMERS GLEN OKCICKTETG
-> _ i SA eel a 7
-> a rf Leet ed
-> bal » r — a
-> i
-> ’ il
-> os
-> a i
-> =
+> tusterSpreadshe -hing Coding Age
+> AIEngineer EUROPE Nuno Campos
+> Previously LangChain,LangGraph WitanLabs.CTO&Co-Founder AIELondon-April2026
+> 2006 AlEngineer DRON
 
 ![[assets/slides/HEFSExa0xl0/slide-002.jpg]]
 
@@ -106,15 +100,12 @@ OCR text:
 
 OCR text:
 
-> STR ost eRe U Cala
-> Before (10 15 tool calls):
-> Pn 3 , Pe og oe Tee ., a ;
-> a x 7 to aes af 7 a ae o oo
-> * bal bon BD ca an mg eg
-> * ad Ss +L e ee fin a ee
-> * ra *
-> After (1 tool call):
-> Engineering the future of Al
+> Beforevs.After
+> Before(10-15toolcalls):
+> AIE Tool call 3:find_cells（"Revenue") Toolcal14:read_ce11("Summary!C10")->"$1,234,567" Tool call 1:list_sheets() Tool call2:read_range("Summary!A1:D10")->cell values ->[matches] >["Summary"，“Data"，"Inputs"]
+> After(1toolcall):
+> const summary =await xlsx.readRangeTsv（wb,S{sheets[0].name}!A1:D10): const sheets=await xlsx.listSheets（wb); const revenue=await xlsx.findCells（wb, console.log(sheets,summary,revenue); “Revenue”，{context:1}）;
+> AlEngineer Engineering the future of Al
 
 ![[assets/slides/HEFSExa0xl0/slide-007.jpg]]
 

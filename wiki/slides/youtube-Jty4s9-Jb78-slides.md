@@ -100,14 +100,13 @@ OCR text:
 
 OCR text:
 
-> 2, xc
-> Context F
-> sm Output
-> . [ops segs | ;
-> Cc.) Is ae bale) re
-> P Sameer Tale cd ; —~, we 8 A De
-> im re coe core ae ee ae
-> Full Context * RAG ¢ Weights
+> Turnup volume
+> LLM
+> Context
+> NYC(NYT）47.14Cafe
+> Medical Record Prompt Output
+> Isthereanything I'mmissing? evolving Consider repeating chest CT given symptoms respiratory
+> FullContext·RAG·Weights
 
 ![[assets/slides/Jty4s9-Jb78/slide-006.jpg]]
 
@@ -212,10 +211,18 @@ OCR text:
 
 OCR text:
 
-> e| Context Rol: How Increasing Input
-> Tokens Impacts LLM Performance a
-> 2
-> Full Context « RAG ¢ Weights
+> Context Rot: How Increasing Input Turnupvolum
+> Tokens Impacts LLM Performance
+> Kelly Hong Researcher-Chroma NYC (NYT)47.14 Cafe
+> JeffHuberCofounder,CEO-Chroma
+> handle the 10,000th token just as reliably as the 100th. process context uniformly-that is,the model should
+> However,in practice, this assumption does not hold. We
+> input length changes,even on simple tasks,
+> In thisreport,we evaluate 18LLMs,including the state-of-
+> the-art GPT-4.1,Claude 4,Gemini 2.5,andQwen3models.
+> uniformly:instead, their performance grows increasingly Our results reveal that models do not use thelr context
+> unreliable asinput length grows.
+> FullContext·RAG·Weights
 
 ![[assets/slides/Jty4s9-Jb78/slide-012.jpg]]
 
@@ -265,18 +272,12 @@ OCR text:
 
 OCR text:
 
-> Context Rot a
-> Fepeated Wierds Rertremarce ty Inpt Length ives: O P|
-> \ . . Se Py
-> 
-> : ‘4
-> : —— \
-> 
-> ve \ .
-> 
-> No.
-> a et ~~ =
-> Full Context * RAG ¢ Weichts
+> Tunupvolum
+> ContextRot
+> Repeated Words-Performance by Input Length (Tokens) Clde 5oe4 + + On3-328 (P141 Gesinr 2.5 flash
+> NYC(NYT)47.14Cafe
+> Irput Length (Tokersi
+> FullContext·RAG·Weights
 
 ![[assets/slides/Jty4s9-Jb78/slide-014.jpg]]
 

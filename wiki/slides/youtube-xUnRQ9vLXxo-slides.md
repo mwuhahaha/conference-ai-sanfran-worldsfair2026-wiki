@@ -51,17 +51,14 @@ OCR text:
 
 OCR text:
 
-> ENS Sead
-> World's Fair
-> . n F 4
-> 
-> a Microsoft ae
-> 1g . licrosoft
-> \! rela .
-> Le) Co
-> ar . ao ee ee
-> 
-> Theo Browne t3.9g
+> World'sFair AIEngineer
+> PRESENTED BY
+> Microsoft
+> 228% Colorado Boulder
+> M.8.Ci.501N.Z..07
+> :air licrosoft
+> Fair
+> air Keynote TheoBrowne/Founder t3.gg
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

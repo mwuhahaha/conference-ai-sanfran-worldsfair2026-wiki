@@ -1,0 +1,6 @@
+Domain Specific Agents...
+¢ Far more efficient with tokens
+* Make small language models practical
+* Can enforce strict limits on capabilities
+¢ Have excellent scaling characteristics.
+my

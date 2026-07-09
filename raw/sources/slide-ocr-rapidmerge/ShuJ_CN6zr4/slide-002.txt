@@ -1,0 +1,6 @@
+, $ FACTORY
+Building Autonomous Engineering Systems
+or, how do we make codebases that are agent ready?
+2
+MAKING CODEBASES "AGENT-READY"
+CREME «ENOREVES /ctoeco-rouncer FACTORY

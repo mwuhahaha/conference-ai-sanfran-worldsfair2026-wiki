@@ -21,12 +21,13 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> 38 Manufact
-> 
+> Manufact
+> MCPAPPS
 > Primitives, discovery, and why this
 > is how all software will be used
-> 
-> eee ine sv ecaton co sere ws comes
+> PietroZullo
+> MANUFACT(YCS25) CREATOROFHCP-USE S0V01NA00+H8
+> MANUFACT.COM
 
 ![[assets/slides/sAOBXCDiDOs/slide-002.jpg]]
 
@@ -55,8 +56,17 @@ OCR text:
 
 OCR text:
 
+> Manufact ADOPTION
 > Apps are landing in the stores, fast
-> ChatGPT apps & Claude connectors over time ee ee
+> ChatGPTapps&Claudeconnectorsovertime CUMULATIVECOUNT
+> 800
+> 600
+> 400
+> 200
+> W1 W2 SM W4 SM 9M LM SM 6M WIo WT1 WT2 WI3 W4 W15 W36 WT7
+> ChotGPTopps Claude connectors
+> SOURCE: APPDISCOVERABILITY.COM
+> MANUFACT.COM
 
 ![[assets/slides/sAOBXCDiDOs/slide-005.jpg]]
 
@@ -113,11 +123,11 @@ OCR text:
 
 OCR text:
 
-> OPENEDITORS
-> OUTLINE
-> TIMELINE
-> jonL1-79
-> 00L1-118
+> rnpet eMauct ceoosndfind how topulusanicsfr theRenseveteManct demorg Exploring
+> Raad MocrvabitoytnenjionL1-ss
+> Radoe.t_oobakdowjonL1-7
+> Rnadpet_rveotjoL1118
+> Placnrgsextesores
 
 ![[assets/slides/sAOBXCDiDOs/slide-010.jpg]]
 
@@ -227,12 +237,11 @@ OCR text:
 
 OCR text:
 
-> 38 Monufoct
-> Nobody wants to look
-> at your dashboard.
+> Manufact
+> Nobody wants to look at your dashboard.
 > Ship an MCP App.
-> @ * @
-> Anat Ta GO k
+> PIETRO ZULLO MANUFACT DOCS.MCP-USE.COM
+> MANUF COM
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

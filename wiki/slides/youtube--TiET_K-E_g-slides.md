@@ -21,10 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> PLATINUMSPONSORS
-> $ Braintrust
-> Workos
-> OpenAl
+> PLATINUM SPONSORS
+> Braintrust
+> WorkOS
+> OpenAI
 
 ![[assets/slides/-TiET_K-E_g/slide-002.jpg]]
 
@@ -100,10 +100,12 @@ OCR text:
 
 OCR text:
 
-> Example Skills - Restaurant Roulette
-> Cs Ree Noah aaa
-> ae
+> Example Skills-Restaurant Roulette
+> Whar'snew inGemma4
+> AIE What'snewin
+> Gemma4
 > Engineering the future of Al
+> AIE
 
 ![[assets/slides/-TiET_K-E_g/slide-008.jpg]]
 

@@ -133,10 +133,13 @@ OCR text:
 
 OCR text:
 
-> ~ . - Drei)
-> = P ‘ Bottlenecks within current operating model and team setup areas
-> a 7 a nines oe Ser 7 cn
-> Engineering the future of Al
+> Bottleneckswithincurrentoperatingmodelandteamsetup
+> Bottleneck
+> andsecurityvulnerabilities
+> Refinement Dayo Retro Day5
+> hard-to-interpret developersand Inefficient task oanp suaSe specifications assignment among Sprint planning Day1 Development Day2-3 Sprintreview Day4
+> McKinsey
+> AIEngineer Engineering the future of Al
 
 ![[assets/slides/SZStlIhyTCY/slide-008.jpg]]
 

@@ -312,10 +312,15 @@ OCR text:
 
 OCR text:
 
-> 2 Replay eval mode — mum.c output from a saved bovelope
-> » ed SR ol <a Og 01s S| e101 S010 0 On ae ek ee
-> E Say PE A ee ae: . - a u ar ne
-> a By # Spa Sy oe tT ee Sc etre! re cote ge tee
+> trade_notional.pyβ zsh (1002-place_order-1.json M ()001-agent-1.json M PreviewREADME.md
+> 2.Replay/evalmode-mimicoutputfromasavedEnvelope
+> @boundarywrapper（EvAL+stub)
+> @boundary("place_order",kind="tool") same decorator
+> ReplayPlan(trace_id).stub("place_order",1)eval:freeze this step
+> defplace_order(symbol:str,quantity:int)->dict: notional=quantity*SHARE_PRICE return{"status":"filled",...} -NOTexecuted
+> mimics the output Chronicle captured in LIvE mode OUTPuT returned from saved Envelope （incident fixture) {"status":“filled"，"notional_cents":19000000,...)
+> Forcut-pointtests,oneboundarycanbesettoliveinsteadofstub-thewrapperrunsyournewfunctionbodywhileupstreamsteps
+> stillmimicthesavedEnvelope.SeeCut-pointreplaybelow.
 
 ![[assets/slides/Lc8zRh9muoY/slide-019.jpg]]
 
@@ -420,10 +425,8 @@ OCR text:
 OCR text:
 
 > code + writeup
-> eae
-> a =
-> : SS &
-> ae no ge en ne Chronicle team
+> 回
+> Thanks -- now go chronicle your agent.. -The Chronicle team
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

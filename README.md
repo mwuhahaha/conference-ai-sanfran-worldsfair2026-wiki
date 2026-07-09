@@ -47,13 +47,19 @@ python3 scripts/generate_transcript_markdown_pages.py
 python3 scripts/generate_talk_synthesis.py --speaker "Liad Yosef"
 python3 scripts/generate_highlights.py
 python3 scripts/run_slide_ocr_pipeline.py
+python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --internal-eval-log
+python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --no-live-ocr --internal-eval-log
 ```
 
 The external video discovery tool searches YouTube beyond the official AI Engineer channel, scores candidates against the official schedule, treats high-confidence matches as secondary sources only, and writes its audit report to `wiki/resources/external-video-discovery.md`.
 
 The talk synthesis tool adds transcript/source-backed sections to talk pages. The highlight generator publishes both the normal highlights index and the grouped `Highlighted Concepts, People, And Talks` map.
 
-The slide OCR pipeline rereads weak or suspicious slide frames with local RapidOCR/ONNX Runtime, crop detection, and high-contrast variants. It compares those outputs with existing Tesseract/RapidOCR/reconstructed/dense OCR artifacts, updates canonical slide OCR only when the score improves, refreshes slide markdown, regenerates dependent tool/topic indexes, and writes an audit report. For a narrow debug run, use `python3 scripts/run_slide_ocr_pipeline.py --limit 50 --no-build`.
+The slide OCR pipeline rereads weak or suspicious slide frames with local OCR engines, crop detection, OpenCV preprocessing, and high-contrast variants. It compares those outputs with existing Tesseract/RapidOCR/reconstructed/dense OCR artifacts, updates canonical slide OCR only when the score improves, refreshes slide markdown, regenerates dependent tool/topic indexes, and writes an audit report. For a narrow debug run, use `python3 scripts/run_slide_ocr_pipeline.py --limit 50 --no-build`.
+
+For a fuller quality pass, run `python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --internal-eval-log`. The five free/local improvement paths now supported by the toolkit are: OpenCV crop/threshold preprocessing, RapidOCR live rereads, PaddleOCR rescue reads, EasyOCR/docTR adapter hooks for CPU/GPU installs that provide Torch cleanly, and Surya as an explicit opt-in after checking model-weight license terms. PaddleOCR is available as a targeted rescue engine, but it is too slow for default whole-corpus runs on this host. Operator-verified text belongs under `raw/sources/slide-ocr-operator-verified/`; run `python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --no-live-ocr --internal-eval-log` to merge those corrections without rerunning live OCR. Internal eval logs are written under `.ops/state/cache/` and are intentionally ignored by git.
+
+Future video slide extraction can use scene-change frame sampling and sharpness replacement with `python3 scripts/extract_video_slides.py --scene-detect --video-id <id>`.
 
 ## Static Site Export
 

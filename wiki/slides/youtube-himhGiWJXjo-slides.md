@@ -70,6 +70,11 @@ OCR text:
 > a tool for your LLM.
 
 ![[assets/slides/himhGiWJXjo/slide-006.jpg]]
+
+OCR text:
+
+> CoCO:Lac:al-engine:(ain)SIOGEIHER-API_KEY-$IOGEIHER API-KEY: poetrY Arun chatr-d POstgreSN-CASPOSI6RES
+
 ![[assets/slides/himhGiWJXjo/slide-007.jpg]]
 
 OCR text:
@@ -111,9 +116,14 @@ OCR text:
 
 OCR text:
 
-> LLMs don't know what your API is.
-> But LLMs know what SQL is.
-> What if everything was SQL?
+> LLMsdon'tknowwhatyourAPIis.
+> ButLLMsknowwhatSQLis.
+> What if everythingwasSQL?
+> orAI tool catling Your orchestration orAI tool calling Your orchestration
+> SQLPacha DON
+> Tool-call Tool-call Tool-call
+> Dutabases APIS Wector Detabases APIS vector
+> Pacliauui
 
 ![[assets/slides/himhGiWJXjo/slide-010.jpg]]
 
@@ -138,6 +148,7 @@ OCR text:
 
 > Write a python program to figure out a plan to
 > retrieve multiple pieces of data required.
+> PachaDDN
 
 ![[assets/slides/himhGiWJXjo/slide-013.jpg]]
 

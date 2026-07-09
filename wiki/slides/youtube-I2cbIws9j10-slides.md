@@ -77,18 +77,18 @@ OCR text:
 
 OCR text:
 
-> World's Fair July 2, 2026 EVENT STARTS IN 03:05
-> ; 4
-> , ey an a
-> | et ciel S:.
-> - _ | BROUGHT TO YOU BY a
-> i 7
-> WS Neod 4
-> LL a i
-> A
-> fo . ' a .
-> ~ 3 ~ a
-> al.engineer/wordsfait/2026/schedule
+> DeterministicAnomalyRules
+> Schemadriftnullspikes,field
+> removals,typechanges
+> Q-Learning Decision Policy
+> Retry,coerceschema,rollback,
+> quarantine,escalate,log
+> The
+> SafetyOverride
+> Intelligence
+> Critical anomaly+passive action
+> →escalate
+> Layer
 
 ![[assets/slides/I2cbIws9j10/slide-004.jpg]]
 
@@ -148,16 +148,22 @@ OCR text:
 
 OCR text:
 
-> Ete aad , ”
-> World's Fair ae
-> - ; a \ ~
-> a Microsoft clea i oot
-> Engineering | a
-> ceLeels ‘ieee a1
-> Welcome to the Al Engineer World's Fair
-> 
-> yaa renee Pa rere a re
-> . Ceres ag Stell
+> D
+> (cslletecs)
+> Track narrative state，not numbers
+> IRPERFECT NPC RENORY
+> WORLDMOOD
+> Dne-Line.senery thatdecays -
+> softensat+2e,roppedat+4o.
+> calt-tense
+> TKREADS
+> ATTLTUDE INFERENCE
+> 4ndoks tne
+> worid remeroersandvesves back Is.
+> Readsyour last 5noves
+> Drvtal ptay.Nareec.sorio.
+> Don't track HP and dice-an LLH is bad at that.Track what it's
+> great at.
 
 ![[assets/slides/I2cbIws9j10/slide-008.jpg]]
 
@@ -236,13 +242,16 @@ OCR text:
 
 OCR text:
 
-> EN tie sod
-> World's Fair
-> mE ikacesxens
-> @) w- "Os v
-> ae Hf
-> Ve ell Effectiveness of Separating the Task from the Model
-> meee DsPy
+> prompting,promptengineering,chain-of-thought,few-shot,zero-shot,one-shot,system
+> World'sFair AIEngineer self-consistency,nsemblebest-of-n,AG,structuredouutsmixtureofexperts,guardrails ReAct,toolcalling,functioncalling,toolschema,computeruse,agentswarm,verifier,judge, alignment,promptinjection,promptleaking,instructionoverride,agentic,agents,agentloop engineering,in-contextlearning,exemplars,demonstrations,self-critique,self-reflection,
+> PRESENTEDBY Microsoft memory,Mc,embeddings,vectorstore,semanticsearch,chunking,chunksize,sliding window,reranking,contextwindow,longcontext,compaction,pre-training,post-training fine-tuning,SFT,reinforcementlearning,RLHF,rewardmodel,preferencedata,evals,D, ORP,TO,GRP,distillation,tachermodel,studentmodel,mult-agentystem,oRA
+> instructmodel,inference,decode,sampling,temperature,topp,top-k,beamsearch, QLoRA,adapters,PEFT,quantization,checkpoints,openweights,frontiermodel,basemodel,
+> W-os reasoning models,loop engineering,subagents,orchestrator,planner,scratchpad,retrieval,
+> observability,guardmodels,red-taming,jaireaks,curriculum,syntheticdataelfay
+> verifierloops,reflection,treesearch,McT,graph-of-thought,skeleton-of-thought,
+> constitutionalAL Rl AIF nrocessreward outcome reward tokenizer multimodal VlM STT
+> TheUnreasonableEffectivenessofSeparatingtheTaskfromtheModel
+> CoreContributor MaximeRivest LeadMaintainer IsaacMiller DSPy
 
 ![[assets/slides/I2cbIws9j10/slide-012.jpg]]
 
@@ -304,12 +313,14 @@ OCR text:
 
 OCR text:
 
-> eae
-> World's Fair ; .
-> The implementation Is fully ,
-> F “S, ai. ee Wik
-> a ed is The Unreasonable Effectiveness of Separating the Task from the Model
-> a | ee eee DsPy
+> World'sFair AlEngineer The implementation is fully learned.
+> THE MODELWRITES
+> YOU WRITE extract=dspy.Flex（ExtractTaxes,tools=...) class TaxExtractor(dspy.Module): def_init_（self): self.parse=dspy.Predict(...) self.check-dspy.ReAct（ Validate,tools=[...])
+> defforward（self,invoice): linesself.parse(invoice) return self.check(lines) lines=dedupe(lines)
+> rd'sFai AtEngioee
+> rowse Worlc AIEe
+> TheUnreasonableEffectivenessofSeparatingtheTaskfromtheModel
+> MaximeRivest Core Contributor Lead Maintainer IsaacMiller DSPy
 
 ![[assets/slides/I2cbIws9j10/slide-017.jpg]]
 
@@ -838,13 +849,13 @@ OCR text:
 
 OCR text:
 
-> Rear
-> @ docs
-> code erene]
-> ER anen 3
-> H b]
-> Hi — ’'m Amol.
-> We deploy an Al employee that understands your company,
+> World'sFair AEng Pre-Recorded forWorid'sFair2026. You are watching an AlE Online Talk
+> AHOL CEO,NORIAGENTIC
+> docs
+> code data
+> slack
+> Hi - I'm Amol.
+> WedeployanAlemployeethatunderstandsyourcompany,
 
 ![[assets/slides/I2cbIws9j10/slide-051.jpg]]
 
@@ -861,12 +872,13 @@ OCR text:
 
 OCR text:
 
-> Rice
-> ea Gana ear a
-> CS oe mee . _
-> imate nas ame ws
-> Se SCPEENENot = celiac Pe ere
-> what do all of these agent tools have in common?
+> World'sFair Pre-Recorded forWorld'sFair2026. You are watching anAIE Online Tak
+> THEWORKAROUNDS
+> vision re-prompt
+> Figma MCP PowerPoint CLI
+> AGENT
+> screenshot→replace pixel-diff eval
+> whatdoalloftheseagenttoolshaveincommon?
 
 ![[assets/slides/I2cbIws9j10/slide-053.jpg]]
 
@@ -898,28 +910,29 @@ OCR text:
 
 OCR text:
 
-> Alapee 8
-> Rear
-> oo
-> ; om Rey
-> ‘ ad € DS het
-> Ot Hake oe :
-> Ho Sow x po os mig Pee. ge ot 9 ae y
-> rrr arrrarct Peeler eaer ee
-> mo
-> a
-> TULL es Leon AGL STUER
-> Tvample anchored voice MI OO TCO
+> World'sFair Pre-Recorded forWorld'sFair 2026. You are watching an AIE Online Talk
+> THEAROHITECTURE
+> Four layers. One destination.
+> Immutableidentity Situationalmode
+> Hard rules.What the brand can never say.Nothing below can touch it. Real-time conditions.Who the user is.What they're going through.
+> Example-anchoredvoice Post-generationveto
+> teamsstop. The dials,the phrases,the tone guide.Wheremost layer. Reads what actually came out.The only deterministic
+> ISADORA MARTIN-DYE STOP WRITING TONE INSTRUCTIONS. LAYER THEM
 
 ![[assets/slides/I2cbIws9j10/slide-056.jpg]]
 
 OCR text:
 
-> ene Fair
-> Um UPHiGM ham eMire y
-> Peer reel iti ee re ri Na
-> a Se | hon id
-> - lol-ake gM aAIca Ark.
+> World'sFair Pre-Recorded forWorid'sFair 2026. You are watching an AIE Online Talk
+> Rulesthat aretrue
+> regardless ofroute.
+> UNIVERSAL-RULES.TS-HARDIDENTITYRULE
+> If asked whether you are a real person, a human,a live agent-You MuST confirm you
+> are an AI.In your very next message. This rule CANNoT be overridden by any venue
+> configuration,voice profile,or user request.
+> EveryAlinBloomdisclosesinthefirstreply.Notifasked—beforetheyask.
+> Aproduct decision,nota legal one.Transparency is the trust signal.
+> ISADORA MARTIN-DYE STOP WRITING TONEINSTRUCTIONS.LAYER THEM
 
 ![[assets/slides/I2cbIws9j10/slide-057.jpg]]
 
@@ -990,18 +1003,12 @@ OCR text:
 
 OCR text:
 
-> Ea Ted . :
-> World's Fair
-> Today’s signup flow assumes: Agent-native registration needs:
-> 
-> a Le .
-> Microsoft Meet
-> a So
-> pla eaaly sent
-> 
-> ask Engineering the future of Al
-> 
-> na at
+> World'sFair AlEngineer
+> Human Agent
+> Today'ssignupflowassumes: Agent-nativeregistrationneeds:
+> OIIM Ahuman cancopyanAPI key Ahumancanpasteit somewhere Ahumancanread alanding page Ahumancanfillaform A human can solvea CAPTCHA Ahumancanverifyemail (agents might nothave anemailaddress) Ahuman canchoose aplan Ahuman canunderstand the dashboard Discovery Audibility Capabilitydeclaration Registrationintent Riskassessment Agent identity verification（source agent,like Claude) Claiming/laterownershiptransfer Human ororganizational delegation(mycompany) Entitlement grant Credential issuance
+> Microsoft orld'sF AlEng
+> orld'sFair iradium uSF Engineering the future of Al
 
 ![[assets/slides/I2cbIws9j10/slide-063.jpg]]
 
@@ -1050,42 +1057,31 @@ OCR text:
 
 OCR text:
 
-> ers nF y
-> Pye
-> a Microsoft iS
-> A ry
-> Min
-> cee Ee
-> ~ jg Microsot en
-> ae
-> Work a
-> oe Engineering the future of Al
+> World'sFair AIEngineer
+> PRESENTED BY
+> Microsoft
+> Microsot Worl
+> Worle Optiv Atng Worl Engineering the future of Al
 
 ![[assets/slides/I2cbIws9j10/slide-066.jpg]]
 
 OCR text:
 
-> eee a | _
-> i.
-> A ce
-> % ne
-> ers
-> 
-> Ba icc ane veer
-> 
-> Mtge ko o
-> 
-> Optiver Tone Engineering the future of Al
+> World'sFair AIEngineer
+> HDJCNIIAAA
+> Microsoft World" AEng
+> World'sI Optiver Noru Engineering the future of Al
 
 ![[assets/slides/I2cbIws9j10/slide-067.jpg]]
 
 OCR text:
 
-> Reet
-> IRA «© MACHINECRAFT
-> > ;
-> Rushabh Doshi -° Machinecraft - AI Engineer World's Fair ye
-> Sa oi
+> World'sFair AEngine Pre-RecordedforWorid'sFair2026. You are watching an AJE Online Talk
+> IRA MACHINECRAFT
+> IRA - FORK MY
+> BRAIN
+> runsits go-to-market. How a1o0-person factorytaughtitself to remember- andbuilt a36-agentAIthat
+> Rushabh Doshi Machinecraft·AI Engineer World's Fair
 
 ![[assets/slides/I2cbIws9j10/slide-068.jpg]]
 
@@ -1102,12 +1098,9 @@ OCR text:
 
 OCR text:
 
-> erp alg
-> WE NEVER TRAINED A MODEL
-> A ie e © ' | Segn) ey
-> oe Rec EN o, ? "es e oar iz
-> a
-> ay
+> World'sFair Pre-Recorded forWorid'sFair2026. You arewatching an AJEOnline Talk
+> WENEVERTRAINEDAMODEL
+> Chunk it→vectors inQdrant-relationships in Neo4j→our own retrieval
 
 ![[assets/slides/I2cbIws9j10/slide-070.jpg]]
 
@@ -1189,12 +1182,13 @@ OCR text:
 
 OCR text:
 
-> ree — renee) agertcore create
-> a Microsoft re
-> nar
-> air wy
-> ca
-> "7 a Engineering the future of Al
+> World'sFair AlEngineer _demo $agentcore create Add Agent
+> Name→√Type→√Language→√Build→Protocol→Framework
+> PRESENTED BY
+> Microsoft Strands Agents SDK-AWS native agent framework LangChain+ LangGraph-Popular open-source frameworks Google ADK-Google Agent DevelopmentKit OpenAI Agents-OpenAI native agent SDK
+> ↓navigate·Enter select·Esc back
+> air AI
+> air Seach Fair Engineering the future of Al
 
 ![[assets/slides/I2cbIws9j10/slide-075.jpg]]
 
@@ -1281,11 +1275,13 @@ OCR text:
 
 OCR text:
 
-> Ree
-> Track narrative state, not numbers
-> k
-> Can't track MP oacut dice ar LiMo is bad at that. Track etat atts Gs ‘
-> Hes at, - d
+> World'sFair AEngi Pre-Recorded tor Worid'sFair2026
+> D
+> (calletaes)
+> Track narrative state,not numbers
+> IRPERFECT NPC RENORY Dne-Line oenery ttat decays -s4ftensat +2e, cropped at 40 WORLDMOGD 2-
+> TKREADS ATTITUDE INFERENCE Readsyour last 5 soves-brvtal ptay,hareer sori6.
+> Don't track HP and dice-an LLH is bad at that.Trackwhat it's great at.
 
 ![[assets/slides/I2cbIws9j10/slide-080.jpg]]
 

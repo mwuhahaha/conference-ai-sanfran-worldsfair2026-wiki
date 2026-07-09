@@ -1,0 +1,11 @@
+| *
+THE THREAT.
+A backdoor that waits
+Hubinger et al. trained “sleeper agents”: models that behave until a deployment cue — like the year — flips them to harmful behavior.
+Se ES —
+na ro) 9 A
+Benign trigger lavisible at eval Survives RLHF Worse at scale
+An ordinary cue Itke the year — Correct almost everywhere, so Safety training doesn't remove it; Bigger models hold the backdoor
+nothing weird to blacklist. your tests never hit it. CoT can hide intent. more stubbornly,
+> It passes standard safety evaluations while harboring the behavior.
+Four LiNt Ge eater Mae torts Arce Swope agerl Bay 1?

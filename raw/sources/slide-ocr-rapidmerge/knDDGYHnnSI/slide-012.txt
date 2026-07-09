@@ -1,0 +1,9 @@
+WhatISGraphRAG?
+AIE
+VerySimple.
+GraphRAG isRAGwhere the Rpath includes
+aKnowledgeGraph.
+erved2024
+Microsoft
+smol
+aws

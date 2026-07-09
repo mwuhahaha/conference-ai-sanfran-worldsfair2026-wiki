@@ -89,27 +89,18 @@ OCR text:
 
 OCR text:
 
-> . a ae . 4 ; .
-> : ene &
-> 7 ws ; 7 7 eee ad
-> | Atererayeat
-> Pere Cereyy
-> . favor {
-> an Cn a 8 a “ ; ;
-> : _ - Pra} 7
-> . uh aed ? $ 7 7 7 : a 7 ea is ; : Preset ad
-> esta ey . a »
-> eee nn a
-> ey cere : = : 7 .
-> _o i Ce ; : ,
-> Ton wen ind | j
-> S baa a) ta ions |
-> F Y , v $ € 1
-> e . : an : .
-> ao ry . 7
-> . eo _ i
-> ; ; 7 7 ' f oe a
-> re or es wo one &
+> 44.5M SI84.7
+> AGENTS
+> ALLIANCEPANEL
+> Mag'tukAdd bea Remote Access Sare your tal
+> Channels
+> Reading index.ts Hall
+> sopsn/uopda6duu Kilro'ash Add channelsfeature to README ACTIVELOOPS
+> Rek'osh Ide29m
+> ACTIVITY(9)
+> Quest Started
+> Quest Started
+> Quest Started
 
 ![[assets/slides/kR64LOqBBCU/slide-007.jpg]]
 
@@ -208,55 +199,33 @@ OCR text:
 
 OCR text:
 
-> / i 4 . AS
-> fi . i
-> 7 |
-> ALLIANCE PANEL \
-> a !
-> Remote Access Erdem l iN | ;
-> (eres Open > '
-> ; os a 2 ee 2 ]
-> far) Pee | aa +26 |
-> »
-> aad ACTIVE LOOPS N | }
-> ; |
-> ne i |
-> hd | a Ps er er i ere 7 ve :
-> j ]
-> I
+> CRAFT /Users/idosal/claude-rts/s.
+> ALLIANCEPANEL Mag'tuk READ
+> Shareyourbattlefieldvialink RemoteAccess Open) Mag'grim READ
+> 1bot configured forpairings Channels Open) A2 agents accessed this file
+> Hall Open) +26-1 COMMITTED
+> Multi-machine agent federation @-190,7+190,7@@exportinterface TaskSpec
+> round?:number
+> ACTIVELOOPS
+> orchestratorGuidance?:string executorType?:'claude'|'opencode'
+> templateId?:string executorType?:'claude'|'opencode' containerMode?:boolean
+> extraVolumes?:Array<{host:string;cont
+> @-215,6+215,7@@exportinterface TaskPlan
+> planMarkdown?:string campaignBranch?:string
 
 ![[assets/slides/kR64LOqBBCU/slide-011.jpg]]
 
 OCR text:
 
-> Be ns ne > coil |
-> , — rar id
-> , fs . 7m q Pe) css: :
-> oh res an
-> =, rvereey t n
-> g eae rae : iN
-> 9 f feng ‘ *
-> ; 7 : , i” iOS Ronen a taire etna an !
-> ae wan | -
-> raters
-> a
-> _ sald |
-> Noy
-> Cee On ee oT
-> : ioe oreaitels
-> ei eT) i
-> ‘ i) - ; ae i) . . A f
-> , ; .
-> one Ta “rem a ,
-> ~ 7 - i ;
-> A cS y- _ 4 se | _
-> , - my oo -
-> v- “% , 7 i i a J os 4 |
-> d H ‘on : f i 2 i i
-> ry a
-> . 5 . ; F
-> ot ; r | ' a ar , if
-> vos rr s a in re
+> 445M 5884.7 CHAT GIT FILES
+> HY AGENTS Idle Mag'g-- DAFAOLFCO. Avaiting
+> EventBus.ts Submit canpaign to nev section as iten
+> Maggrim Submit campaign to new sectiona Aqueuno.p Kilro'ash Durg'dur unadeadedau6 5uu Asd Oanneis f Magtuk Add beads.dev task management int feature toREADME Add channels featureto README AddCopillotCLI platfom support playwright-report/ playwright-build/ lib/ Channels Hall Multi Shareyour Access understand what changes are already in progress, current state of the modified CampaignPanel to structure. Suyao qns aa then clarify with you. Let me read more of the file to see the full section Ineed to carify therequest.Currently,whena
+> Rek'osh ap5aa/soda6bu Idle 30m section like the other plan statuses do Awaiting Review, Active, Coenpleted, etc.).
+> ACTIVITY(11) ★Quest Started fe-buildi cloudflarel WHATDOYOUMEANBYNEWSECTION? GENERATINGSHOWASABANNERNOTASTEMS MEAN SOMETHING ELSE ENTIRELY? CURRENTLX.SUBMITTEDPLANSTHATARE INASECTIONSHOULDTHEYBECOMEITEMSIN ANEWGENERATING'SECTION?ORDOYOU
+> Generatingsection
+> Active,Completed, etc.). Different section
+> MAG'GRIM Nhat do you mean by plans that are Currently.submitted generating shov as nev sectlon*7 Type your answer.. DUTAULT- PLAN MODE
 
 ![[assets/slides/kR64LOqBBCU/slide-012.jpg]]
 
@@ -283,60 +252,40 @@ OCR text:
 
 OCR text:
 
-> Irwer’yes ; nap im . en 4 a a a SB
-> ; Nee , i i , a
-> a? 7 Pa vd . 7 oe e
-> - | ener teat) ’
-> Pe ae ee o 7 , , Ds
-> on . ed cre
-> eeeremen a —
-> a
-> . Re ee eee rm D ~~! 7 Saal mo
-> ; _ : ; bh. é
-> en rs . / h Pd ad
-> — | a. Joon
-> h a
-> toe - ~~ 2
-> 27 ~ —+* a ; ; _ F
-> , ;
-> eetoh eee ee
-> oe; .% ana od
-> ; On, F : | :
-> F Fo) co) i | -
-> Pee) Fj . , | F 5 ‘
-> e eS _
-> j con ‘ - ( , | Pn i
-> Ts re’ ‘ ee , « &
-> 7 cs -
+> 44.5M 5884
+> MY AGENTS
+> ALLIANCEPANEL
+> DECOMPOSING BEADT Remote Access
+> Zorn'mar Orchestrator Channels
+> Mag'grim Submit cam
+> What do you mean by
+> Kilro'ash Add channes feature to README
+> Asd Chaelsfeture to README ACTIVE LOOPS
+> Drak'dan Working
+> -Sa/User/idosal/daude-rtss
+> Add Copliot CLIplatfo
+> Asdbe
+> ek'osh lib/
 
 ![[assets/slides/kR64LOqBBCU/slide-014.jpg]]
 
 OCR text:
 
-> il : : ae rd 7 + ae as —!
-> E Ouse & i. , 4
-> - 7 ~ : ‘ f een Tare A TT . 7
-> ; / ; Pierce Te
-> a Coeeacery i , N
-> oe ery F
-> . Pee ees i
-> uO oe ry or SS a | j
-> 7 Hi
-> ws F 2. re a f : h
-> .# Pea eer) , '
-> 7 rs erry ma . nN
-> ee Cr ce . io
-> a 7 7 ~ a 7
-> o : fe is TT a ke haa oan |
-> ry iS) i ae . in : F ar om | A
-> , ; ; ]
-> ; a) ; : .
-> : .e 2 — . ff f
-> A ‘on - ‘ an 2 1 i !
-> e / n aoe
-> ! i, ee ae {
-> a ~~ oh ‘ ee : : « * ar aaa -
-> —— x ams oad —
+> 44.5M SI847 CHAT GIT FILES
+> MYAGENTS Branwyn Li IAL Idle
+> ALLIANCEPANEL Design mew login page
+> DECOMPOSING. READY Remote Access
+> Durg'dur Zom'mar Add Copllot CLI platform support Orchestrator Channels 1bstooN YAELOMER design the new login page
+> Which Copiot GLI tool are Mag'tuk Add beds.devtaskman Whatkindfeds.devinegaton Hall ICTIO d35d4a0c-afb8-4a0a-a24c-Cc85788s87bo 1NOTICE Let me explore the codebuse to understand the setup before designing the login page.
+> ag'grim Submitcampa
+> What do youmeanby
+> Kilro'ash Add channe
+> reto README
+> Drak'dan Working
+> Rek'osh ACTIVELOOPS
+> YOU page design the new 1ogin Remote heroes are read-only. omer).use the notice board,ot fork/hand-off toalocal bero.
+> FORK HOONVH
+> BRANWYNLI.
 
 ![[assets/slides/kR64LOqBBCU/slide-015.jpg]]
 
@@ -373,21 +322,23 @@ OCR text:
 
 OCR text:
 
-> ade
-> en CAE COC EU RCS
-> al our whole lives
-> ° tailsca. [ang
-> Engineering the future of Al
+> AIEnginee EUROPE GoogleD
+> Microso T NEng We've been preparing for this
+> AlEngineer EUROPE Wo our whole lives
+> tailscal AIEng
+> AlEngineer Engineering the future of Al
 
 ![[assets/slides/kR64LOqBBCU/slide-017.jpg]]
 
 OCR text:
 
-> eee we Boe
-> _Alenginest vi
-> Pee ICHMT UT
-> “Nengne ( BON
-> cr mee-HESTRATION AGENTCRAFT: PUTTING THE (
+> Workos AIEng EURO
+> AIEngineer Vic
+> Braintru EUROPE AIEng EURO We need a higher ceiling
+> AlEnginer BeNC
+> EUR
+> AIEngineer EUROPE CHESTRATION AGENTCRAFT:PUTTINGTHE
+> GoogleDeepMind PRESENTED BY IDOSALOMON/CreatorofAgentCraft&MCP-UI MCP-UI
 
 ![[assets/slides/kR64LOqBBCU/slide-018.jpg]]
 

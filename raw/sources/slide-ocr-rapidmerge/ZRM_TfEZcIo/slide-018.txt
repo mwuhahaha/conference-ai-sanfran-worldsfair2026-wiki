@@ -1,13 +1,18 @@
 Howdoesthewikilooklike?
 research-coding-agent-architectures
-raw wiki ARCHITECTURIARCHITECTURE
+raw
+ARCHITECTURIARCHITECTURE
+wiki
 comparisons
 concepts
 entities
 notes
 repos
 sources
-open-questions nstruction-ties
-synthesis overview ARCHITECTURE
+open-questions
+nstruction-ties
+overview
+ARCHITECTURE
+synthesis
 index
 log

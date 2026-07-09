@@ -107,13 +107,13 @@ OCR text:
 
 OCR text:
 
-> Eye oe
-> World's Fair
-> mE acorseus Intrinsic
-> 31 Lab fora CekcMarlig
-> on OpenAl
-> A or acl
-> erenl @ Oreeeee DOIG)
+> World'sFair AIEngineer
+> PRESENTED BY
+> Microsoft Intrinsic
+> GI Lab World'sFair
+> =air OpenAl
+> er. 1d'sFair UIEn OnAlandKnowledge
+> =air DATADOG PabloCastro / CVP&Distinguished Engineen Microsoft
 
 ![[assets/slides/htM02KMNZnk/slide-006.jpg]]
 
@@ -141,29 +141,33 @@ OCR text:
 
 OCR text:
 
-> rere | Your people. Your agents. Your IQ.
-> 
-> m2
-> 
-> 2 Ne cere Microsoft 1Q
-> Worle air Fi nt Ee a a b . of
-> 
-> Or Al
-> Ww . S
-> Engineering the future of Al
+> World'sFair AlEngineer Your people.Your agents. Your IQ.
+> Interactive Autonomous
+> People Agents
+> PRESENTED BY
+> Microsoft MicrosoftIQ
+> and workflows Teams,roles, State and actions of the business knowledge Curated
+> World'-Eair
+> W Engineering the future of Al
 > te
 
 ![[assets/slides/htM02KMNZnk/slide-008.jpg]]
 
 OCR text:
 
-> eal: eal Foundry |Q
-> World's Fair
-> } - | i lh |
-> TINEA World's
-> 1's Fair Open
-> ore) Riek
-> Pay sxe ile
+> World'sFair AIEngineer FoundryIQ Retrievalrelevanceby dataset
+> 90.0
+> 80.0
+> PRESENTED BY 70.0
+> Microsoft 60.0
+> 40.0
+> 20.0
+> o'ot
+> 1INIMAX World's 0.0 BER(NDCG@10) Customer (NDCG@3) MIML (NDCG@3) (@9oo）oddns
+> KrywordVectorHybridsHybrid +Reraning
+> I'sFair Open
+> oe orld's
+> I'sFai Buil
 
 ![[assets/slides/htM02KMNZnk/slide-009.jpg]]
 
@@ -352,18 +356,12 @@ OCR text:
 
 OCR text:
 
-> World's Fair 7
-> i 7 r gn May
-> ¢. : : a 5 7 :
-> F a ee} . : dP
-> | : i ae.
-> a Microsoft (~ en 7 | F ,
-> 3 = - ;
-> — << a .
-> or 7 a L | , “5 7
-> aa noes oe wal a ie y
-> Nad ot
-> ai a Engineering the future of Al
+> World'sFair AlEngineer
+> PRESENTED BY
+> Microsoft
+> air MINIMAX
+> )ase AlEngir 'sFair
+> ail e Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-016.jpg]]
 
@@ -378,13 +376,13 @@ OCR text:
 
 OCR text:
 
-> World's Fair | oe
-> eee Build an open
-> [Oferel> marae) ecosystem
-> World's Fair Models
-> rans
-> | Engineering the future of Al
-> f
+> World's Fair AIEngineer Plugins
+> App
+> PRESENTED BY Microsoft CodexHarness AppServer ecosystem Buildanopen
+> ResponsesAPI
+> World'sFair Models
+> av
+> Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-018.jpg]]
 
@@ -498,16 +496,19 @@ OCR text:
 
 OCR text:
 
-> Z ZCODE ; a>
-> 
-> on oro ra a . A Af Ge Se es v
-> 
-> World's Fair a
-> PPE ike cesxene
-> 7 a :
-> TOS
-> GLM-5.2: Frontier Intelligence, Open Weights.
-> op Zixuan Li y aN
+> ZZCODE 中文 Login
+> World's Fair AlEngineer 日 印
+> NewTask
+> OpenWorkspace Ss ud ne ledepney:h pw pingfving opqpy Updtedyeondechtm Ch feat/ao 734
+> PRESENTED BY Microsoft Wre in hes ristic A tums ots,bur. Bitastne bwr Gkgdsnd155 bhdrch TheAhurthrnadrherymoorse friodcdc slfer ycaht Sn4,trackg tunme and move count.and supports reetarting the match. ate points i considered Gomoku vA-miemeetconpuer /5-21 moes wahuigcsgorm
+> heneaning stapiende.habrowerndplay Veificaion: node checkaop.spassed Iddnotrnaninteractive b
+> 3fles changed
+> acoJs 471 G
+> indexhenk
+> lddpri tsfor styles.cos
+> ranBot
+> GLM-5.2:FrontierIntelligence,OpenWeights.
+> ZixuanLi/HeadofZ.ai Z.AI
 
 ![[assets/slides/htM02KMNZnk/slide-027.jpg]]
 
@@ -654,26 +655,23 @@ OCR text:
 
 OCR text:
 
-> re Three acts
-> Retee of working in Codex
-> . Microsoft
-> aa lel ayy
-> af ce
-> ia NL Engineering the future of Al
+> World'sFair AIEngineer ofworking in Codex Threeacts
+> 01 Bring contextin
+> PRESENTED BY 02 Workonit
+> Microsoft 03 Actandwriteback
+> air OpenAl
+> oft Id'sFair AlEn
+> air Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-039.jpg]]
 
 OCR text:
 
-> Peed ; ,
-> World's Fair Build your own plugin
-> Vans geyser eenentce
-> a Microsoft or ; Te ne
-> SS mete
-> 
-> manne. Ne YeepMir
-> ri
-> ; tas Engineering the future of Al
+> World'sFair AIEngineer WORKFLOW/CUSTOMPLUGINS Buildyourownplugin
+> developer-experience/ You should become thePlugin Heroat work and define yourOperatingprocedures.
+> PRESENTED BY Microsoft skills/.codex-plugin/.app.json delegate/ triage/ plugin.json skill.md skill.md Doit manually Learn thejudgement calls and approval boundaries Wire up the systems Add the apps where context and actions live Package the plugin workflowinstallable Capture the instructions, references,and scripts Make the whole Create the skill
+> Goc eepMin
+> :Fair Engineering the future of Al SouroesntSk andBuidlugins
 
 ![[assets/slides/htM02KMNZnk/slide-040.jpg]]
 
@@ -856,13 +854,13 @@ OCR text:
 
 OCR text:
 
-> AlEngecer Stop repeating to agents how you
-> leeks want things done
-> Plugins
-> a Microsoft |
-> EVhee bee
-> Context engine
-> Engineering the future of Al
+> World'sFair AlEngineer Stoprepeatingtoagentshowyou wantthingsdone 3/ALWAYSIMPROVING
+> PRESENTED BY Microsoft Plugins Reusable skill packages: prompts,tools，context in oneinstall Dedicated skills for bug reports or for risky actions
+> Autowiki Auto-generated,always-fresh docs from your codebase
+> Contextengine Deferred context,scoped preferences tools,structured user
+> d'sFair Open
+> Source:Factory.Agent Readiness
+> oe I'sFair Buil rld's AlEng Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-051.jpg]]
 
@@ -957,11 +955,10 @@ OCR text:
 
 OCR text:
 
-> rete |
-> . an 1. Stay near the frontier
-> WorkOS World's
-> ate aa iS erenr an
-> oa ae Engineering the future of Al
+> World'sFair AlEngineer
+> PRESENTED BY Microsoft 1.Staynear thefrontier
+> Workos World'sI
+> rlo aws forld'sl Braint AuEng Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-056.jpg]]
 
@@ -1097,11 +1094,11 @@ OCR text:
 
 OCR text:
 
-> Ree
-> Sen Pececi ne teliaeran (a ict onc ee cto ete eee Te EL OLentreeerae Oe
-> m ;
-> -
-> Aa
+> World'sFair AEngi Pre-Recorded for Worid'sFair2026 You are watching an AlE Online Talk
+> 10x THEPROMISE
+> That should make us 10 times more productive,right?
+> Doyou feel it? Areyou10xfaster? LON.
+> stag.build 03/11
 
 ![[assets/slides/htM02KMNZnk/slide-066.jpg]]
 
@@ -1116,21 +1113,25 @@ OCR text:
 
 OCR text:
 
-> renee ltd
-> This is when productivity
-> Designer pT=a) QA
-> Works directly on running code yo eee ae ey oe RY Tells agent directty in browser
-> eee
-> 7 * Ba Berets ist Rata e- eV iiss) seh
+> World'sFair AEngi Pre-Recorded for Worid'sFair 2026 You are watching an AiE Online Talk
+> This iswhenproductivity actually explodes.
+> Designer Dev QA
+> Figma fleshandofiterations Code-CI40min wait~feedback Find bug→ticketwait →retest
+> Works directy on running code Agent+sandbox→live in30s Tells agent directlyin browser
+> Ships complete features Bug fixed before ticket is filed
+> The workflowrunsatAl speed.Not just the code.
+> stag.build 10/11
 
 ![[assets/slides/htM02KMNZnk/slide-068.jpg]]
 
 OCR text:
 
-> Pare 3
-> Ree
-> IRA © MACHINECRAFT
-> Rushabh Doshi «° Machinecraft - AI Engineer World's Fair >
+> World'sFair AEngine Pre-RecordedforWorid'sFair2026. You arewatching an AlEOnlineTalk
+> IRA MACHINECRAFT
+> IRA - FORK MY
+> BRAIN
+> runsitsgo-to-market. How a 100-person factory taught itself to remember-and built a 36-agent AIthat
+> Rushabh Doshi Machinecraft·AI Engineer World's Fair
 
 ![[assets/slides/htM02KMNZnk/slide-069.jpg]]
 
@@ -1212,30 +1213,23 @@ OCR text:
 
 OCR text:
 
-> eee tbe
-> AI systems evolved faster than fi
-> our evaluation methods
-> The Illusion The Reality
-> “
-> . AAA - ta Modes
-> z Behavior
-> —_— a
-> Reliability Gaps
-> 90% 25%
-> Benchmark Accuracy of
-> T-0 T+10ms T+S0ms T+100ms
+> World'sFair AEng our evaluationmethods AIsystems evolved fasterthan You are watching an AJE Onine Talk Pre-Recorded for WorldsFair 2026.
+> The Illusion TheReality
+> 100% Modes Invisible Failure
+> 75% Degraded Production Behavior
+> BenchmarkAccuracy 90% 50% 25% 0% T-0 T+10ms T+50ms AMAAAA Reliability Gaps Unpredictable User T+100ms
 
 ![[assets/slides/htM02KMNZnk/slide-077.jpg]]
 
 OCR text:
 
-> Agent-First.
-> Ma lraxekxese
-> ’ Google Antigravity IDE 2.0)
-> ir | ommeny\ eee ae Coe
-> a t a4
-> tf Engineering the future of Al
-> rl J 7
+> World'sFair AIEngineer Unapologetically Agent-First. AGoogleAntigravity
+> PRESENTED BY
+> Microsoft
+> AGoogleAntigravity IDE 2.0
+> AI Antigravity IDE Antigravity 2.0 Antigravity CLI
+> f
+> Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-078.jpg]]
 
@@ -1274,12 +1268,14 @@ OCR text:
 
 OCR text:
 
-> Id Biases
-> World's Fair
-> | Worl! Far Scaling with intelligence isn't always easy
-> orm ewe
-> mE Viacerxenie 7 ferns a
-> a | Engineering the future of Al
+> World'sFair AIEngineer AGoogleAntigravity Scalingwithintelligenceisn'talwayseasy
+> PRESENTED BY t Knvia Hu kevinho.2 -f19. 2005 Wmadd bet 2024 so be a.e and o Codet Daecoet, fle edt,
+> Microsoft Loganciogrto 2442-Fb1,2025
+> Whichis technically andstatiaticallycorrect O Oangemy mind 口
+> GivingAlaTerminal Removing Chat.OnlyAgent
+> Goo DeepMin Fearfrom users（rightfully so)about the potential downsides Modelsgotbetterinvestinprmissions primitives,andyou end up building muchfaster, safely agents Multi-step.agentic research and execution was thefuture Lotsof userpushback removing chatinfavor of
+> Fair
+> Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-080.jpg]]
 
@@ -1349,17 +1345,13 @@ OCR text:
 
 OCR text:
 
-> PU Spend Genomes
-> World's Fair
-> ee, °
-> : Long lived utilities ser the aa ioe ae ©
-> . Neen model can run & edit itself. on
-> on a
-> sires esaesnea tee a.
-> } oOo 4 an -—
-> rs
-> po Engineering the future of Al
-> rn 7
+> World'sFair AlEngineer AGoogle Antigravity New Primitives for2026
+> SIDECARS
+> PRESENTED BY Microsoft modelcanrun&edititself. Longlivedutilitiesthatthe
+> New plugin protocol that enables:
+> SMS-basedmessaging Webhooks
+> AI Cronjobs Otherconversation triggers Reviewagents Always on personal assistants
+> Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-084.jpg]]
 
@@ -1387,22 +1379,28 @@ OCR text:
 
 OCR text:
 
-> as ne
-> er en
-> A cd
-> ee
-> aera enn EE OO ENE nEOENan EIN
+> arize Z.AI
+> extend vastal Ref. WdHot OULZOKU
+> RELI eMods WartfsFae prompto
+> ZERO Al Engineer
+> SOLaJO snFa World's Fair esfnse
+> ModJor MEAGE
+> od
+> NGEST BAND Cheric
+> Z.AI
+> Mori.cs
+> Brnetrett Z.AI
 
 ![[assets/slides/htM02KMNZnk/slide-087.jpg]]
 
 OCR text:
 
-> Reco The evolution of
-> agentic development
-> a Microsoft Chat Al Autocomplete Interactive Agents Automated Agents
-> ‘air | — AGI
-> gUrS} _# cs *
-> ‘air | os Engineering the future of Al
+> World's Fair AIEngineer agenticdevelopment Theevolutionof
+> PRESENTEDBY
+> Microsoft Chat AlAutocomplete InteractiveAgents AutomatedAgents
+> air azon AGI
+> 'ust I'sFai
+> air gether Engineering the future of Al
 
 ![[assets/slides/htM02KMNZnk/slide-088.jpg]]
 
@@ -1674,13 +1672,12 @@ OCR text:
 
 OCR text:
 
-> The missing layer between evals and action
-> Observability Ae
-> Your observability ; ; The GAP
-> stack captures every [i= €<-
-> tcall,everyLLM & ne
-> lompletion, and
-> ‘very exception.
+> World'sFair Pre-Recorded forWorid'sFair2026 You are watching an AIE Online Talk
+> Themissing layerbetweenevals and action
+> Observability Evals Agent
+> stackcapturesevery toolcall,everyLLM Your observability ompletion,and whetherthefinaloutput Your eval suite judges was correct. TheGAP Context,Skills and.md file
+> veryexception.
+> agentRTX
 
 ![[assets/slides/htM02KMNZnk/slide-103.jpg]]
 
@@ -2043,11 +2040,13 @@ OCR text:
 
 OCR text:
 
-> renee Fair .
-> The Paradigm Shift: Output vs. Behavior -
-> Traditional LLM Evaluation Agent Evaluation
-> Wie a eee Oran itah Te Sennen
-> Multi-path & Tocl Dependent
+> World'sFair Pre-Recorded forWorid'sFair2026. You are watching an AIE Online Talk
+> The Paradigm Shift:Output vs.Behavior
+> Traditional LLM Evaluation AgentEvaluation
+> Goal Output Accuracy Workflow Behavior
+> Environment Static Datasets Dynamic Contexts
+> Execution Single-path Processing Multi-path&ToolDependent
+> Failure Mode Hallucination Cascading Workflow Failure
 
 ![[assets/slides/htM02KMNZnk/slide-117.jpg]]
 
@@ -2070,11 +2069,10 @@ OCR text:
 
 OCR text:
 
-> World's Fair
+> World'sFair AlEngineer
 > We're all building loops wrong
-> | V
-> : . a ie ee Fr rr ee Eo ce rere
-> c
+> AI
+> Loop Engineering from First Principles|Kyle Mistele|@Oxblacklight World'sFair
 
 ![[assets/slides/htM02KMNZnk/slide-119.jpg]]
 

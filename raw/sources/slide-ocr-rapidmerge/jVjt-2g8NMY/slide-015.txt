@@ -1,0 +1,20 @@
+11AT0S0H
+With the old hardcoded "PolyShopping"this was fine,but a long backend-supplied title has nothing to stop it-it wraps to multiple
+lines （inflating the header height)or squeezes the nav links,breaking the layout.（The Footer is unaffected -there the title sits in
+its own grid cell and wrapping is harmless.)
+The fix
+src/components/Navbar.tsx-constrain the title to a single line that ellipsizes when too long,with the full text available on hover:
+<Link
+to="/"
+title="PolyShopping"
+className="inline-block text-2xl font-bold text-indigo-68e nr-8 max-w-[208px]truncatealign-middle
+data-testid="navbar-title"
+PolyShopping
+truncate →overfLow-hidden text-ellipsis whitespace-nowrap （no wrapping,"-"on overflow)
+max-w-[200px]→ the cap the ellipsis kicks in at
+inline-block→an anchor is inline by default and would ignore max-width/truncate without it
+align-middle →keeps it vertically aligned with the nav after the display change
+titleattribute→fulltitle onhover,sonothingislost
+Verification
+-npm run build（tsc+vite build clean）
+poly-frontend-93df5cb0 git:(fix-the-bug-with-title-1edeacf8)x[0pus 4.8 （1M context)]

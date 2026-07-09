@@ -68,14 +68,11 @@ OCR text:
 
 OCR text:
 
-> ~ ARES DR DyrN bia: CRMEAT oo gif b fbth « of
-> toe
-> : a wae a § an ze f oot Cac ed e Ane
-> / Fr 8 sew oe
-> ta i
-> 1
-> \
-> eo ee .
+> SPEC-DRIVEN DEVELOPHENT AIEWORLD'S FAIR SF
+> -stirtrek 80
+> design.md9.x New Session
+> Q tasks.md F.config.kiro design.md requirements.md 9+ movie-database Design Document:Movle Database （6es These) Overview Design>2Requirements>3Task list SycFles →Continue
+> B C (1package-lockjson mtsconfigjson Oen.example Tsnut.config.ts ①README.md Ts vitest.configs >tests )server D >pubiic Vapp.ue data >assets >composables >types >components >pages app Anv gitignore xnu 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 22 28 29 31 32 33 34 Architecture Aretro-styledmovie database application built vith Nuxt4and Tailwind CSsv4,featuring a synthwve/Bs （hot pink,electric blue,purple),retro typography,grid-line backgrounds,and glowing UI elements inspired by visual experience resiniscent of 19Bes pop culture. graphTD aesthetic.Users can browse,search,and viev details about movies with an inmersive neon-lit,retro-futuristic synthwave art. nermaid ak burAisydeubons subgraph “Nuxt 4AppLicatLon” subgraph"Data Layer" end N[assets/css/nain.css-Tailvind.s Theoe） [pTTAo-AxapuT/sabed]g[1Snoe-A·dde] A->C[pages/novies/_id_.vue-MovieDetaill 8->E[conponents/SearchBar.vue] A->I[conponents/AgpFooter.vue] JIconposables/useMovies.ts]->K[data/movles.json] ]-→L[conposables/useSearch.ts] o[assets/css/aninations.css-Neon ->D[conponents/MovieCard.vue] ->F[conponents/GenreFitter.voe] >H[components/AppHeader.vue] ->M[coeposables/useFilters.ts] Open Preview herabeas yoo DVibe Leplore ideas and Great.for: epg sa Tinking theugh feturesin-deh Proectsneedingut ng Plan,search，or buildanything Let'sbuild Plan fist,hen bud. ayq sp pue Create requinements codrg starts.
 
 ![[assets/slides/IddXPepIAS4/slide-005.jpg]]
 

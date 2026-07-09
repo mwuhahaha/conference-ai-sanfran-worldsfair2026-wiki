@@ -28,26 +28,23 @@ OCR text:
 
 OCR text:
 
-> 1g turbopuffer
-> Rag is dead, right??
-> * .
-> f 7 Kuba Rogut
-> , . ih
-> , wal. Engineering the future of Al
+> turbopuffer
+> AIE How hybrid,tool-rich retrieval is becoming the default Rag is dead, right?? for serious ogentic search
+> Kuba Rogut Deployed Engineer
+> April9.2026
+> Engineering thefutureofAl
 
 ![[assets/slides/UM6sFg_jdlE/slide-003.jpg]]
 
 OCR text:
 
-> “RAG is dead”? ‘g® turbopuffer
-> e Ree erent Aigrersend Comers! +
-> bd bd
-> r rs
-> ra aa Ieterest ower tone t
-> * ® *
-> 7
-> & - | AlEngineer |
-> —— f aU ea
+> "RAGisdead"？ turbopuffer
+> Retrieval Aug onted Ge
+> Mar 1, 2021- Feb 27, 2026
+> AIE
+> lnterest over time
+> AIEngineer
+> EUROPE
 
 ![[assets/slides/UM6sFg_jdlE/slide-004.jpg]]
 

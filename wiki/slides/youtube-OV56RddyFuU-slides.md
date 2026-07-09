@@ -198,19 +198,16 @@ OCR text:
 
 OCR text:
 
-> ae
-> Hermes Agent
-> ¢ (or) directly setup from setup
-> = wizard, it's a breeze
-> * * recommended: GLV-5.1,
-> A ‘i Gemma-4 26B, upcoming
-> ne 1 | rumored MiniMax model
-> | : pa Maat |
-> > - Peat
-> ey ry oy
-> ,  — — =
-> e
-> ze Google DeepMind
+> HermesAgent ·(or)directlysetupfromsetup Starting setup wizard..
+> wizard，it'sabreeze
+> recommended:GLM-5.1, rumoredMiniMaxmodel Gemma-426B,upcoming Wming:Noiference provider configured,Runheres odelto chooseaprovide +Inference Provider Current nodel: Active provider: nooe anthropic/claude-opus-4.6
+> API key saved.
+> merve @Zeki ping Justnow tse uRttps://router.hggingface.co/v1]1 Defaltmodelset to:zal-org/Gu-5.1(viamugging Face) Found 19 nodel(s) froe sodels.dev registry
+> ZekiApp Justnow
+> Pong! 0910 1640. dk11y.(4c00)
+> What'stheAl2releaseyou'rereferringto? I'dlove tocheckitout!
+> AlEngineer Google DeepMind
+> EUROPE
 
 ![[assets/slides/OV56RddyFuU/slide-012.jpg]]
 

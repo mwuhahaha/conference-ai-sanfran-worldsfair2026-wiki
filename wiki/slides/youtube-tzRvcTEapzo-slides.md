@@ -35,10 +35,10 @@ OCR text:
 
 OCR text:
 
-> From Mixture of Experts
-> to Mixture of Agents
-> Daniel Kim Daria icicle
-> oe an 7 ‘al Microsoft Simon
+> AIE From Mixture of Experts to Mixture of Agents
+> Daniel Kim DariaSoboleva
+> HeadofGrowth Head ResearchScientist
+> Microsoft smol?
 
 ![[assets/slides/tzRvcTEapzo/slide-003.jpg]]
 
@@ -110,28 +110,29 @@ OCR text:
 
 OCR text:
 
-> 900,000 Cores on WSE-3
-> 44.» ;
-> He go
-> Beal
-> Each Core has
-> DIRECT ACCESS
-> | TO MEMORY
-> 7 — 7 a Microsoft ary?
+> 900,0o0 Cores on WSE-3
+> AIE 32b Buffers FabricRouter 32b Routes 320
+> 32b
+> Memory
+> 32b
+> EachCorehas
+> DIRECTACCESS
+> TOMEMORY
+> Wortd'sFar Microsoft smol?
 
 ![[assets/slides/tzRvcTEapzo/slide-008.jpg]]
 
 OCR text:
 
 > Cerebras scales linearly across large models
-> Multi-WSE DGX-H100(Multi-GPU)
-> AE ¥ 2 c = cia
-> e J Cita
-> : | se Clad
-> : aviink
-> Te Activations, Cached Computations
-> a UE
-> — Py |
+> Multi-WSE DGX-H100(MuIti-GPU)
+> AIE nvlink
+> nvlink
+> nvlink
+> nvlink
+> ViaEthernet Activations Activations,Cached Computations Via100sofNVLinks,connectors, switches
+> 2024C
+> Wortd'sFar aws
 
 ![[assets/slides/tzRvcTEapzo/slide-009.jpg]]
 

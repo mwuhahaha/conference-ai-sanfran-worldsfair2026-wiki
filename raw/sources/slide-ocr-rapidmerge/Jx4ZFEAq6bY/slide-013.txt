@@ -1,0 +1,10 @@
+ANALINLLAN
+list_products,
+search_products_by_nase
+notns
+source/hon/sona
+AI/projects/skill-demm/.venv/bin/activate
+mf:-/projects/skill-demossource/hom/sonamAL/projects/ski1l-demo/.ve/bin/activate
+(sklll-demo)
+AT:~/projects/skill-demospythondemohuman_revlesr.py
+REFLECT_PRO3ECT_ID not set;using default'reflect-demo',Set it eplicitly for multi-tenant use

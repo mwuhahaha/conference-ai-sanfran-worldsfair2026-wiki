@@ -40,18 +40,16 @@ OCR text:
 
 OCR text:
 
-> oT 7 PC i . . . . . . . Cr a ad " i “s 7 ; ROK ; ~
-> 
-> observe Dee ne on OR CP ava a
-> Cy ce: a ca os ot ere |
-> 
-> aa Ship Agents that Work
-> 
-> A iM
-> Sr =i .
-> Powering the world’s leading Al teams
-> =
-> #3 Braintrust €) WorkOS OpenAl
+> observe Registratonis cpenforArize:Oberve 2026-
+> arize ArleAK Sgnin Getstatd
+> ShipAgentsthatWork
+> AIE Al&AgentEngieerng PlatfomOneplacefordeveopmnt observabiity.andevaluation
+> Get Started Self-HostOSs
+> Poweringtheworld'sleadingAlteams
+> Handshake PagerDuty DOORDASH instacart reddlt RABL
+> AIRCANADA priceline" motorwa)
+> Braintrust Workos OpenAl
+> Engineer
 
 ![[assets/slides/JsCCrBF7F1g/slide-004.jpg]]
 

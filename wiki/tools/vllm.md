@@ -33,8 +33,10 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-Ywl4LsvHKzU]]
 
 ### Slide/OCR Pages
+- [[youtube-HvZXAOZ3iv8-slides]]
 - [[youtube-ILdE7FaAjVA-slides]]
 - [[youtube-htM02KMNZnk-slides]]
+- [[youtube-vh2VGuQ3zhY-slides]]
 
 ### Topic Pages
 - [[coding-agents]]

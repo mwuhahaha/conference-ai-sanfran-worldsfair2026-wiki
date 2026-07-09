@@ -36,22 +36,24 @@ OCR text:
 
 OCR text:
 
-> Al Native Cloud
-> bd *
-> “1. cursor 2 Runware LM aiclol ee COMU Lore A417
-> i e ty
-> _ ’ Engineering the future of Al
+> AI Native Cloud
+> Model Builders AppDevelopers
+> AIE GPUClusters Model Shaping Inference 紫
+> GPUs asa service with accelerated training stack yourtasks Tailloredcustomizationfor The fastest waytolaunch Almodels
+> Storage services B200+GB20OLeader Accelerate modeltraining Observability RL(private beta) Fine-tuning+distillation Complete ownership 200+leadingmodels Advancedoptimizations ServerlessandDedicated
+> Trusted by: CURSOR Runware hedra Decagon KREA
+> Engineering the future of Al
 
 ![[assets/slides/TUnPNY4E2fw/slide-003.jpg]]
 
 OCR text:
 
 > Why do we want to long-context training?
-> ra ae ne es CY i}
-> . * Cee Mey yy)
-> — =
-> | AlEngineer |
-> , 4 a EUROPE
+> thsr
+> /context
+> AIE 0990099900 0008000000 0000000000 00000008器 9900000900 Context Usage 06800 00000 Systen tools:15.2k tokens（7.6%） MCP t0o1s:94.2ktokens （47.1%） Custonagents:758 tokens （o.4%） Messages:5.4k tokens （2.7%) Free space:37k（18.4%） Autocompact buffer:45.oktokens （22.5%) claude-s0nnet-4-5-20250929-163k/20ek toke Systen prompt:2.6k tokens （1.3%)
+> AIEngineer
+> EUROPE
 
 ![[assets/slides/TUnPNY4E2fw/slide-004.jpg]]
 
@@ -70,40 +72,38 @@ OCR text:
 OCR text:
 
 > What's stopping us?
-> Long Context
-> aaa a ae
-> Ps _- oe
-> ‘B88 BES === _ll
-> _ 4— : Engineering the future of Al
+> LongContext
+> AIE Computation (VN)0) Memory O(N)
+> Memory Usage for SBModel
+> 160 DP-8 DP=8 Zero-1 OP=8 Zero-2 DP=8Zero-3
+> 140 120
+> 00
+> Seqvence Length Seduence Length Stqvence Length Sequtnce Length 924 16.354
+> Engineering the future of Al
 
 ![[assets/slides/TUnPNY4E2fw/slide-006.jpg]]
 
 OCR text:
 
-> LONE aker- A No 4 1
-> 80
-> a Model Gi
-> . * a a. Attn act. Hi
-> * bd 3% Other ==:
-> * * QC
-> a zo
-> 320
-> 0” Default
-> Llama 3-8B, 3M tokens, 8xH1O0
-> a ; |
-> ye Engineering the future of Al
+> How far can we get?
+> AIE Peakmemory(GiB) 80 60 Attn act. Model Other
+> 40 OOM (119)
+> 20
+> Default
+> Llama3-8B,3Mtokens,8xH100
+> Engineering the future of Al
 
 ![[assets/slides/TUnPNY4E2fw/slide-007.jpg]]
 
 OCR text:
 
-> DeepSpeed Ulysses
-> |
-> Pein be 7 — 7 0
-> aoe “ | a
-> ** 7 a  - Full Flash Attention : kt
-> What if we divide by num_heads dim?
-> _ a Engineering the future of Al
+> DeepSpeedUlysses
+> qo. ko 00
+> AIE AII2AII Full FlashAttention AII2AIl 02 01
+> q3. k3 03
+> Whatifwedividebynum_headsdim?
+> DeepSpeed Ulysses:System Optimizations for Enabling Tra sformer Models.Jacobsea.,2023
+> Engineering the future of Al
 
 ![[assets/slides/TUnPNY4E2fw/slide-008.jpg]]
 
@@ -157,15 +157,13 @@ OCR text:
 
 OCR text:
 
-> Chunk size ablations
-> a 20: | 840-
-> * - 15; f a0.
-> 5g * 9 3
-> * E10: $820:
-> 5° = 810:
-> Ons 16 3200 FON 'g 16 32,
-> Chunk size Chunk size
-> , = Engineering the future of Al
+> Chunksizeablations
+> AIE Memory(GiB) 15 20 Throughput(TPS) 840 830
+> 10 820
+> 5 810
+> Chunksize 8 16 32 800 Chunk size 8 16 32
+> Untied Ulysses:Memory-Eficient Chunking.Ghadia etal.,2026
+> Engineering the future of Al
 
 ![[assets/slides/TUnPNY4E2fw/slide-012.jpg]]
 

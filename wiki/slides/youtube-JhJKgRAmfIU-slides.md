@@ -82,9 +82,9 @@ OCR text:
 
 OCR text:
 
-> WE'RE ENGINEERS!
-> WE'VE GOT THIS!
-> | - a Microsoft Qc?
+> WE'RE ENGINEERS! WE'VE GOT THIS!
+> AIE
+> Wertd'sFair Microsoft smol ai
 
 ![[assets/slides/JhJKgRAmfIU/slide-006.jpg]]
 

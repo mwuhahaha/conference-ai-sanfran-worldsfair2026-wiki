@@ -1,0 +1,12 @@
+Applications no longer own the user journey
+AIE
+e)buddous
+window.parent.postMessage(
+type:notify"
+payload:
+message:
+"cart-updated"
+Reply to Claude.
+Rerch
+AIEngineer
+EUROPE

@@ -172,14 +172,10 @@ OCR text:
 
 OCR text:
 
-> al Microsoft [ Wor fad Cals |
-> vy
-> 
-> | World's Da € a | World's Da
-> 
-> er gey aL Cael=ys : Ma\=loy4])
-> 
-> eres RY ears |
+> Microsoft Wor AIF aws
+> World'sFair AIEngineer World'sFair AIEngineer
+> braintrust neo4j
+> World'sFair AIEngineer se World'sFair AIEngineer
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

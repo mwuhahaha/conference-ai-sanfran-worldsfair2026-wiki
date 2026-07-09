@@ -1,0 +1,5 @@
+Principle S
+e@
+Modularity
+Which capabilities should be
+reusable, and which stay local?

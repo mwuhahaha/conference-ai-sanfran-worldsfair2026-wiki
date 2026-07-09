@@ -80,7 +80,7 @@
     "evidenceCounts": {
       "schedule": 1,
       "youtube": 10,
-      "slides": 13,
+      "slides": 14,
       "resources": 6,
       "topics": 6,
       "transcripts": 2
@@ -311,7 +311,7 @@
     "evidenceCounts": {
       "schedule": 39,
       "youtube": 9,
-      "slides": 44,
+      "slides": 54,
       "resources": 6,
       "topics": 3,
       "transcripts": 41
@@ -384,7 +384,7 @@
     "evidenceCounts": {
       "schedule": 20,
       "youtube": 3,
-      "slides": 11,
+      "slides": 12,
       "resources": 4,
       "topics": 2,
       "transcripts": 26
@@ -425,7 +425,7 @@
     "evidenceCounts": {
       "schedule": 9,
       "youtube": 8,
-      "slides": 20,
+      "slides": 24,
       "resources": 3,
       "topics": 1,
       "transcripts": 18
@@ -512,7 +512,7 @@
     "evidenceCounts": {
       "schedule": 12,
       "youtube": 0,
-      "slides": 3,
+      "slides": 4,
       "resources": 1,
       "topics": 4,
       "transcripts": 8
@@ -573,7 +573,7 @@
     "evidenceCounts": {
       "schedule": 2,
       "youtube": 1,
-      "slides": 4,
+      "slides": 5,
       "resources": 3,
       "topics": 2,
       "transcripts": 1
@@ -643,7 +643,7 @@
     "evidenceCounts": {
       "schedule": 16,
       "youtube": 10,
-      "slides": 19,
+      "slides": 20,
       "resources": 4,
       "topics": 1,
       "transcripts": 21
@@ -707,7 +707,7 @@
     "evidenceCounts": {
       "schedule": 4,
       "youtube": 1,
-      "slides": 2,
+      "slides": 1,
       "resources": 1,
       "topics": 0,
       "transcripts": 4
@@ -855,7 +855,7 @@
     "evidenceCounts": {
       "schedule": 2,
       "youtube": 2,
-      "slides": 1,
+      "slides": 3,
       "resources": 0,
       "topics": 0,
       "transcripts": 7
@@ -916,7 +916,7 @@
     "evidenceCounts": {
       "schedule": 4,
       "youtube": 2,
-      "slides": 2,
+      "slides": 6,
       "resources": 0,
       "topics": 0,
       "transcripts": 2
@@ -1143,7 +1143,7 @@
     "evidenceCounts": {
       "schedule": 41,
       "youtube": 34,
-      "slides": 52,
+      "slides": 57,
       "resources": 80,
       "topics": 12,
       "transcripts": 28
@@ -1176,7 +1176,7 @@
     "evidenceCounts": {
       "schedule": 4,
       "youtube": 9,
-      "slides": 15,
+      "slides": 20,
       "resources": 4,
       "topics": 3,
       "transcripts": 3
@@ -1687,7 +1687,7 @@
     "evidenceCounts": {
       "schedule": 10,
       "youtube": 0,
-      "slides": 2,
+      "slides": 4,
       "resources": 2,
       "topics": 2,
       "transcripts": 4

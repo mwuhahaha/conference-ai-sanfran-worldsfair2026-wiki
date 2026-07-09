@@ -1,0 +1,2 @@
+GraphRAG Retrieval Patterns
+1. Doa vector search to find an initial set of nodes

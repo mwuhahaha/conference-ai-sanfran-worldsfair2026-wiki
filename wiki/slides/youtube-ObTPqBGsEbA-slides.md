@@ -21,13 +21,11 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ary Engineer The Producti
-> a aeRerea ee
-> | AI Playbook,
-> 7 J Learnings from deploying agents in enterprises
-> !
-> r ore
-> La
+> AIEngineer The Producti
+> EUROPE AI Playbook
+> Learningsfrom deploying ogents in enterprises
+> Databricks Data&AlTechLead SandipanBhaumik
+> AlEngineer EUROPE
 
 ![[assets/slides/ObTPqBGsEbA/slide-002.jpg]]
 
@@ -119,52 +117,40 @@ OCR text:
 
 OCR text:
 
-> s
-> Three layers of evaluation
-> Layer 1 — Deterministic td
-> Pons
-> * eo ES Cea Ee red
-> im ‘+ en en ere
-> * *
-> =
-> Layer 2 — Semantic
-> Laver 3 — Behavioural
-> Prete ae SAMPLE: LLM-as-a-judge prompt
-> =, e
-> eaaal Al Engineer
-> : EUROPE
+> PILLAR01-DEEPDIVE
+> Threelayers of evaluation
+> Layer1-Deterministic
+> AIE Pll detection(NER+regex),Output format validation,Response lengthbounds Layer2-Semantic ufetyi cerrectsess) severy factal class sep Deseresse stohte crret liy cme wtiatlycrt,flly rect id PIT Leak ertee by theretrievee ceetet? dhallocinated account data? OHH
+> above threshold Correctness&groundedness,LLM-as-a-Judge,Non- determinismfix:run eachtest3x-flagvariance
+> eitscare.
+> AlEngin within scope? escalate whenconfidence was low?Didit stay Layer3-Behavioural Didit calltheright tools,in the rightorder?Didit teat? SAMPLE:LLM-as-a-Judgeprompt
+> AiEngineer AlEngineer
+> EUROPE
 
 ![[assets/slides/ObTPqBGsEbA/slide-007.jpg]]
 
 OCR text:
 
 > Databricks Data Intelligence Platform
-> 100% serverless
-> 
-> ae fee Me
-> _ a a
-> 
+> Disasterrecovery 100%serverless Costcontrols Enterprise security
+> Databricks SQL Data warehousing Workflows/SDP Ingest,ETL,streming
+> AIE Articialintellgence MosaicAI Businessinteligence AI/BI
 > Lakehouse
-> 
-> ie: Unity Catalog
-> a
-> [_nttoae A peta Lake ICEBERG @ Parquet
-> D
-> 7 |
-> Se | Al Engineer |
-> sb) te] a4
+> UnityCatalog
+> AIEngin DELTALAKE ICEBERG Parquet
+> AlEngi AIEngineer
+> EUROPE
 
 ![[assets/slides/ObTPqBGsEbA/slide-008.jpg]]
 
 OCR text:
 
-> Voy databricks . aa eae
-> rd 7 aera
-> Multi-Agent BE
-> Orchestration a
-> aka ew o~ ae DO Dae em Dim -
-> »
-> ee Engineering the future of Al
+> AlEngineer
+> EUROPE
+> AIE Multi-Agent databricks
+> Orchestration
+> AlEngin From Chaos to Choreography: Multi-Agent Orchestration Patterns That Actually Work - Sandipan Bhaumik AlEngineer Share
+> AEng Engineering the future of Al
 
 ![[assets/slides/ObTPqBGsEbA/slide-009.jpg]]
 

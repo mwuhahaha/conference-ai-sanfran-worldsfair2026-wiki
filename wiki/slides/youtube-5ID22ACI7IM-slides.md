@@ -39,9 +39,11 @@ OCR text:
 
 OCR text:
 
+> bdn226（otetemnerrgv3mnl
 > What we'll cover today
 > 3 3
 > Myths Lessons
+> Unblocked
 
 ![[assets/slides/5ID22ACI7IM/slide-004.jpg]]
 
@@ -146,23 +148,32 @@ OCR text:
 
 OCR text:
 
-> fo Ce See enees Over teens [> eure O.-- OG sesrnrarcsmenygnesiny [ee eas eee eer) ee
-> LE Waters Se ele Te eee ee ee ee cere]
-> baat oad
-> @ [ie oe od Th OA em te
-> ceeened es
-> >
+> C ☆
+> Oauko pno
+> }-Merged Bulk code reviewmemories experiment:rerun allcodereviews withmemories enabled #25632 risheres merged1comitintomain fromrichie/e
+> unblockedbotreviewedonDec3.2025 Vew revie edcha
+> unblockedbotleftacomment
+> 1issue found. Lockcoversation
+> ..n/com/nextchaptersoftware/review/lifecycle/CodeReviewEventProcessorPullRequestChangedTest.kt
+> Mnt on ines +210 to +288
+> 210 211 212 213 214 215 216 217 218 219 228 222 223 224 225 226 227 228 221 eTest suspendingDatabaseTest( valpr-makePul1Request（） //Must be in base type format for polymorphicserialization towork valevent:CodeReviewEvent-CodeReviewEvent.PullRequestChanged（ valorg-makeOrg（） valcommit=Hash.parse(*s888888 valcodeReview=nakeCodeReview( orgId-org.id.value, prId-pr.id.value, commit=comit, pr-pr, comnitconnit, scope=CodeReviewScope.Ful1, trigger-CodeReviewEventType.PullRequestOpened, eMithMer nories for Full scop
 
 ![[assets/slides/5ID22ACI7IM/slide-011.jpg]]
 
 OCR text:
 
-> fo ee eon ores lo ee rny el los ee eer O:.+ (ee a ee Fleece wen ie GNC area
-> [ane CT Se ale ee ee ete ee aed eres]
-> bat ad
-> >
-> Cranes roan
-> res La
+> C ☆
+> wh Unblocked Clude Cod poqun
+> Merged Bulk code reviewmemories experiment:rerun all codereviews with memories enabled25632 rsheresmerged1commit intoainfromxichie/cr-
+> scope=CodeReviewScope.Full,
+> valevent: CodeReviewEvent CodeReviewEvent.PullRequestChanged（ orgIdorg.id.value, prId-pr.id.value, eventTypeeventType, commit=comnit,
+> whenever(codeReviewControlService.shouldAutonaticallyCreateCodeReview（org.id.value,p: shenever( codeReviewManager.createReview( orgId-org.id.value, prId-pr.id.value, connitconmit,
+> ).thenReturn(codeReview.asDataModel())
+> processor.process(mockMessage,event.encode())
+> verify(codeRevienLifecycleEventProducer).eng orgId=org.id.value, prId-pr.id.value, commitcommit, eHiddenPullRequestReviewwithMenoriesEv
+> Basedon#24846（comment）and24699
+> richiebresonDec3.2025 Author
+> Very cool.SomethingIwould say!
 
 ![[assets/slides/5ID22ACI7IM/slide-012.jpg]]
 
@@ -215,30 +226,44 @@ OCR text:
 
 OCR text:
 
-> (> eee eer one (> eee Ocon ee eee te cern fr] ee ey
-> dette an ee
-> Summary Table
-> aT De ee ASS ae
-> Seer) oe eC re eee ec. ce
-> rere eee tote ae oe
-> ra
+> D claude.ai C ☆ +
+> ories. n ked Clude Cod Oveview-Une
+> 口 Comparing unblocked vs.standard feature plans Shared by Brandon
+> Edge:WithoutUnblocked-simplerandfaster.
+> 白
+> SummaryTable
+> Dimenson With Unblocked Without Unblocked
+> Hook point Post-revlewevent(cleaner) Mid-review plpeline (rlsder)
+> User preference Yes No
+> Frontend togle Yes capability-gated No
+> Template aareness Yes(headers,comments,checkboxes) No(<50 charthreshold)
+> Soope filtering Checks Full vs Incremental Event type only
+> Attribution Yes No
+> Migrationnumbering Correct(V236) Likely incorrect(V74)
+> Flleschanged -20+ 7
+> Testupdates Newtests+Sexistingfles updated Newtestsonly
+> Time to implement -17min -11min
+> reasonable spikeorprtotypebut themissinguserpreferencestemplatehandlingand questionable migration numbering mean it'd need significant follow-up work before it's truly production-ready.
+> Start your ownconversation
 
 ![[assets/slides/5ID22ACI7IM/slide-014.jpg]]
 
 OCR text:
 
-> (oC oe fo eee rs (oe ee ee Tee Poweriewe we ween ee eee
-> @ Unblocked g Summary of Latest PR Fixes and Enh...
-> 
-> e a) 7 a a y y
-> 
-> Pe “ont
-> 
-> ae Cara i re
-> 
-> Tamer ore Cee ote
-> (er co
-> & ae
+> C ☆ +
+> qn D tPRFa
+> Unblocked SummaryofLatestPRFixesandEnh... Private
+> Aska NewQuestion name alone,sokeys stored by other tools(e.g.Claude Code)are also found. underthe social-graph account.ltnowfallsbacktosearchingbyservice
+> Code Reviews MyQuestions Key changes across3files: bui Lder.py-buildsknown_users dict from PRauthor data,handling collisionavoidance with existing logins.
+> RecentlyArchived visualization.py-compute_lines_from_git accepts known_users, config.py-_macos_keychain_get loopsovertwokeychain search parses git author name + email, and resolves to GitHub login.
+> Settings strategies.
+> Analytics References: Fixnode sizenormalizqtion andkeychainfall
+> Thiswas:Helpful CaNot Helpful
+> Invite Members
+> DownloadUnblocked
+> Contact Support Documentation Continue the discussion AnswerPreferences
+> unblocked-aie
+> pwerry
 
 ![[assets/slides/5ID22ACI7IM/slide-015.jpg]]
 
@@ -322,23 +347,36 @@ OCR text:
 
 OCR text:
 
-> i aesine 0 : (oer! (> ones - 7 re 7 | Ce Cre - a a oa on eer ereany
-> lta : seal al -_
+> flefUser C ☆
+> apoe sories. pqno qn kedC Overview-Unblocked ②50
+> rasharab 0.29 rasharab 0.99 rasharab 0.97
+> ricNebres 124, 9646 401 0.69 0.72 martin-acs 0.79
+> martin-cs 0.62 0.70 5.6 xgc 0.76
+> davidkowlam EOTL 60,4161 0.57 0.55 andrey daidkwlam 23.229 a2 0.58 0.54 devidkwlam 44.*29 0.60 0.58
+> Adminwebservice 4erp Models 4epets.Dured 796 6 Src 4eeria.Du
+> rasharab 24,446 12,521: 0.99 0.64 rasharab 27,015 0.74 richiebres rasharab 14,138 0.74 0.94
+> andry TL228 davidkwlam 0.61 davidowlan 0.61
+> davidkwlam 0.55 0.53 pwerry 0.63
+> 0.52 leffrey-rg 0.44 jefrey-eg 0.44
+> Cllents Aejets-Sh Frontend Jepets.Bhured Infrastructure 4*
+> rasharab 83 martin-nics 93,641 10,402 0.74 0.64 jeftrey-ng matthewjamesadam 1.00 0.53 rasharab 97,8513 620 0.70
+> davidkwlam 0.45 mathieu-vu 25,621.5) 2-1 10,139 1 0.46
+> ery 0.40 rasharab 0.20 mahdi-torabi 0.43
+> richiebres 0.29 0.17 narayan 0.13
+> Review T/T Search Semantie 3epenx:Shared Apiservice 242
 
 ![[assets/slides/5ID22ACI7IM/slide-019.jpg]]
 
 OCR text:
 
-> (eee lo ena lo rere ere [ : re Oncaea ee rere fe) ee eer ery
-> TA UOC eld
-> 
-> a ~ Cooney
-> 
-> Co) e
-> x @ ; |
-> rn
-> (owe Sa :
-> TAY
+> D graph.html C ☆
+> aapooe wh Unblocked Clude Cod ocked
+> SocialCommentNetwork
+> Heat Map Grid Peer Tables Teams Eperts Interactive Graph
+> Richie Dreunan
+> ed degre:9.75
+> Martin Scota David Lam PeterWerry ppoqun-lapur Kay Cheng MatlAdam Jeff Morteza Mlani Rahin Arab RCHIE BRESNAN REVIEWSPRS FROM mathieo-vu 0.320 0.183 0.279 0.226 0.107 0.159
+> PeterWerry MattAdam RashinArab Martin Scotta MortezaMlani mahdi-torabi Jeff Devid Lan SMAO mathiev-vu OCHIE BRESNAN'SPRS 0.941 0.543 0.299 0.264 0.218 1000 0.519 0.517 0.290
 
 ![[assets/slides/5ID22ACI7IM/slide-020.jpg]]
 
@@ -367,21 +405,17 @@ OCR text:
 
 OCR text:
 
-> (oe ee (ee (ee Gres (ye re er neers eer oar ec OLPenTy
-> peta ella ,
-> a eee
-> “
-> a
-> — re
-> an se
-> re Pe , a
-> VP ae
-> re 7
-> oN oan -
-> ~
-> NN
-> an
-> an
+> D
+> ip Overview-Un ocked
+> SocialCommentNetwork
+> Deten
+> Heat Map Grid Peer Tables Diperts Interactive Graph
+> Matt Adam
+> MATTADAMREVIEWSPRSFROM
+> in Scotta mahieu-vu Kay Cheng PeterWery Jeff David Lam Richie Bresnan 0.454
+> WHO REVIEWS MATT ADAM'S PRS
+> Jeff Richie Bresnan 0.854 0.177 1.000
+> DavidLam
 
 ![[assets/slides/5ID22ACI7IM/slide-023.jpg]]
 

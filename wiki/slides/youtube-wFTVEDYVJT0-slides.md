@@ -83,11 +83,12 @@ OCR text:
 
 OCR text:
 
-> What does an agentic system look like?
-> Agent workflow 1)
-> Agent components | ea 2 )
-> , Fs
-> ; a Microsoft Qa?
+> Whatdoes an agenticsystemlook like?
+> Agentworkflow
+> AIE Jser Rication Optional HIL
+> Agentcomponents
+> Foundation Models KnowledgeBases Guardralls APis/Tools Memory Otheragents
+> Microsoft smol
 
 ![[assets/slides/wFTVEDYVJT0/slide-007.jpg]]
 
@@ -238,18 +239,20 @@ OCR text:
 
 OCR text:
 
-> What is Model Context Protocol (MCP)
-> Client a LS
-> Knowledge base
-> , GitHub
-> a Microsoft ary?
+> WhatisModel ContextProtocol(MCP)
+> AIE AWSMCP Client AWSMCP Server aws
+> Al Agent Base Client Knowledge Base Server Knowledge
+> Knowledgebase
+> GitHubMCP Client GitHubMCP Server GitHub
+> Microsoft smol?
 
 ![[assets/slides/wFTVEDYVJT0/slide-015.jpg]]
 
 OCR text:
 
-> Let’s build!
-> https://s12d.com/ai_eng_aws
+> Let's build!
+> AIE https://s12d.com/ai_eng_aws
+> Microsoft smol ai
 
 ![[assets/slides/wFTVEDYVJT0/slide-016.jpg]]
 
@@ -437,16 +440,12 @@ OCR text:
 
 OCR text:
 
-> P|
-> Survey sea
-> dsl
-> or
-> im rd AO:
-> r
-> https://pulse.aws/promotion/RPNDSAFU?p-0
-> , aoe a _ ; ee
-> po i Onn Dal i<lo ct Bs
-> a Microsoft ary?
+> 02:001 2:06PM Next sllde
+> Survey Thank youl
+> AIE Click to addnotes
+> https://pulse.aws/promotion/RPND9AFU?p=0
+> Side16of17
+> Word'sFair Microsoft smol?
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

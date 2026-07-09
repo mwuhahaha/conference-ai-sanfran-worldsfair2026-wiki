@@ -74,16 +74,13 @@ OCR text:
 
 OCR text:
 
+> Xetejaskumar_
 > Agent Harness
-> ae ie Kerel a 2t-yoA11 08
-> 
-> _ « Model
-> « Context Management
-> e Guardrails
-> 
-> ra
-> a | . .
-> aa Engineering the future of Al
+> AIE Tool Registry Model ContextManagement
+> Guardrails
+> Ager
+> ToolRe.Model ontext Management uardrails
+> AlEnge Engineering the future of Al
 
 ![[assets/slides/C_GG5g38vLU/slide-007.jpg]]
 

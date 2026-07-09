@@ -1,0 +1,5 @@
+Principle 7
+a
+Contract Design
+What contracts do other parts
+of the system depend on?

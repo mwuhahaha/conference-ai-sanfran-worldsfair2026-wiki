@@ -1,2 +1,3 @@
-Qrunpod
-Runpod Introducing
+runpod
+Introducing
+Runpod

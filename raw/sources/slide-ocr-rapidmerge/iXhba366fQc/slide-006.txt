@@ -1,0 +1,4 @@
+General tips for
+building voice agents
+Start small with a clear goal Build evals and guardrails early. Customize and create a personalized
+Collect feedback brand

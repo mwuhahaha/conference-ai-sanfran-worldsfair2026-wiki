@@ -1,0 +1,14 @@
+wm OLangcnan
+Challenge may be recency bias in LLMs
+A likely culprit for this phenomenon is a mismatch between the task LLMs are trained on and context-augmented
+generation tasks. Among the documents typically used to pre-train LLMs such as web pages, books, articles and code,
+the most informative tokens for predicting a particular token are typically the most recent ones. During pre-training,
+this induces a leamed bias to attend to recent tokens. In addition, the rotary positional embedding (RoPE) scheme used
+in the open source models we investigate has an inductive bias towards reduced attention at long distances [27] that may
+make it even easier for these models to learn to attend preferentially to recent tokens. Extreme recency bias is not a good
+prior for context augmented generation tasks where far away tokens may, in fact, contain very relevant information.
+ay Reis ak aa a et
+|
+A aiid an Mi ft @
+; gw Microso
+A

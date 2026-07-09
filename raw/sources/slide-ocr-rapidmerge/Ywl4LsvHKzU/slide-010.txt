@@ -1,0 +1,8 @@
+Ingestion - Schema Creation
+World Cup
+Year: int(1900-2100)
+Corpus Schema Winner: Team
+(FIFA) (SemanticObject) || Top3: List{Teams]
+TopScorer: Tuple[Player, int]
+ey aa
+74

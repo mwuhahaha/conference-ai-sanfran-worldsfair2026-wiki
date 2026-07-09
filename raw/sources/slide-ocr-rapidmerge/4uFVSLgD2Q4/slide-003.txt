@@ -1,5 +1,6 @@
 OpenGov
-AboutOpenGov Software for
+AboutOpenGov
+Software for
 more effective,
 accountable
 government.

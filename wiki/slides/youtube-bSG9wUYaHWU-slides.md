@@ -97,14 +97,12 @@ OCR text:
 
 OCR text:
 
-> Context Development Lifecycle
-> Generate Distribute
-> (XD)
-> Evaluate Observe
-> |
-> a
-> Engineering the future of Al
-> wmPuses
+> ContextDevelopmentLifecycle
+> Makingimpicit knowledgeexpliot Generate Distribute Cotet asapacage
+> AIE
+> Evaluate TDDfor context Leam from use in the wld Observe
+> AIEngineer
+> AlEngineer Engineering the future of Al
 
 ![[assets/slides/bSG9wUYaHWU/slide-006.jpg]]
 
@@ -150,12 +148,16 @@ OCR text:
 OCR text:
 
 > Context Connectors
-> rales a Pee Reis] 7 i _ i a °
-> “ee a as
-> aw
-> .
-> vee
-> Engineering the future of Al
+> Unblocked
+> Connect Unblocked toyourknowledge sources
+> AIE Connectmodelstotherealworld
+> Servers and tools from the communitythat connect models to fles, APls, databases, and more.
+> hMCP
+> AIMCPservers
+> Markitdown Netdata
+> o5aodicf 1o Ma aroun Se Jormats POF, Wc Ry sdala0 78,005 eal-Sime inhat UCLnE Install theUnblockedMCPplugin
+> AlEngineer Github MCP -https://github.com/mcp https://getunblocked.com/unblocked-mcp/
+> AEnginer Engineering the future of Al
 
 ![[assets/slides/bSG9wUYaHWU/slide-009.jpg]]
 
@@ -233,17 +235,15 @@ OCR text:
 
 OCR text:
 
-> Public vs Private Registries
-> a: @
-> BRKILLS The package manager for
-> rales ; : agent skills and context
-> bd bd
-> nares
-> rs * pn
-> wy *
-> | lachal
-> a Google DeepMind
-> Piss
+> PublicvsPrivate Registries
+> SKILLS TE OPEN AGENT SKTLLS ECOGYSTEN Thepackagemanagerfor agentskillsandcontext
+> AIE Skills arereusable capabiities forAl agents.Install them with a single command to enhance your agents withaccess toprocedural knowledge. Skils.sh-https://sikis.sh TesslRegistry-https:slegstry ros tesl sar
+> CLAUDECODEMARKETPLACES
+> MARKETPLRCES SAILLSLEANN AOYERTISE FEEDOSCK
+> Qearch by nae,descriptien, or category.
+> tecntly Palishes -Deeuoest 30-Seneratien becessaitity
+> AIEngineer
+> 2O25 AlEngineer GoogleDeepMind
 
 ![[assets/slides/bSG9wUYaHWU/slide-014.jpg]]
 
@@ -295,19 +295,15 @@ OCR text:
 
 OCR text:
 
-> Context security scan
-> 
-> ann)
-> * *
-> ae
-> * a
-> 
-> * a * cee
-> 
-> a
-> ca | AlEngineer |
-> 
-> a—Disrs EUROPE
+> Contextsecurity scan
+> clawdtm-skills 2ffes
+> Review and rate Ciat de Code skis.See wat umans and Alagentsrecommnd
+> >_metajson
+> AIE ）Dkllmd
+> Re-analyse
+> 9securychecks con 2issuesfound
+> AIEngineer SnykSkiScan-https://abs.snyk.o/experiments/skil-scan/
+> AlEngineer AlEngineer EUROPE
 
 ![[assets/slides/bSG9wUYaHWU/slide-016.jpg]]
 
@@ -327,29 +323,27 @@ OCR text:
 
 OCR text:
 
-> S Entire | signin |
-> air Every commit tells a story.
-> i bs] 4 Now you can read it.
-> oa
-> :
-> t 5 .
-> Engineering the future of Al
-> Pass
+> Entire DiscordBlogCompany Page 35of.44 Vision Signin
+> Every commit tells a story. Announcing Entire with $6on seed round
+> AIE Now you can read it.
+> EntireCLl hooksintoyourgitworkflowtocaptureAlagentsessionsonevery push.Sessionsareindexed alongsidecommits,asearchablerecordofhow
+> codewaswritten.
+> curl curl-fsSL https://entire.io/install.shIbash
+> AIEngineer Open source-MIT licensed https:/lentireio/ 3.6k
+> AEnginoer Engineering the future of Al
 
 ![[assets/slides/bSG9wUYaHWU/slide-018.jpg]]
 
 OCR text:
 
-> Context from production code
-> Calera]
-> a e Pa * Understand code behavior with
-> * function level data
-> [serge]
-> |
-> k a
-> Engineering the future of Al
-> 
-> we Pais
+> Contextfromproductioncode
+> {Hud Ctv
+> 10.874/0> 68.9427.50
+> AIE Understandcodebehaviorwith functionleveldata B
+> erootcauseinthecod.Engneers useths dataintheIDE Hud gathers errors and perlormance dataat the servioe and tunctionlevelconneetsatrunme,the businessmpactand CalCraph
+> ?
+> AlEngineer
+> AlEngineer Engineering the future of Al
 
 ![[assets/slides/bSG9wUYaHWU/slide-019.jpg]]
 
@@ -382,17 +376,12 @@ OCR text:
 
 OCR text:
 
-> Skills Development lifecycle
-> 
-> Oca as teal O strioute Onseve
-> 
-> * rs
-> 
-> nN
-> Ss a
-> | aaleplniptal
-> $3 Braintrust €) WorkOS OpenAl
-> a Piuss
+> SkillsDevelopment lifecycle
+> AIE Create CONTEXT EVALS Test Distribute SHARE DELIVER Observe MEASURE& LEARN
+> AUTHOR LOOP
+> ORGANIZATION LOOP
+> AIEngineer
+> AlEnginoer Braintrust Workos OpenAl
 
 ![[assets/slides/bSG9wUYaHWU/slide-021.jpg]]
 

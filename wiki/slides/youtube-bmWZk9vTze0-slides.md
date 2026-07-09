@@ -35,12 +35,10 @@ OCR text:
 
 OCR text:
 
-> onan |
-> ETN | sa a @ Graphite Ke
-> TSF u ® HA ‘ a a 7 pee H
-> Py ry | re —_ a |
-> | Mi fol aCe koe r=] |
-> ngbase @ Microsoft re
+> aily Worle'- AlEngineer Graphite Wor
+> d'sFair Wrld' Eair AlEngineer
+> World's Fair AIEngineer
+> ngbase PRESENTED BY Microsoft Wor
 
 ![[assets/slides/bmWZk9vTze0/slide-003.jpg]]
 
@@ -206,16 +204,19 @@ OCR text:
 
 OCR text:
 
-> 1G: Pet Proview tte E61 Selector “Yew: Ge :Winéow hen, G) Se) © Reet Om © Be wstan tice
-> [et
-> Gre ean ee ee ,
-> an eee es ae ee
-> ee ee re a eer eas oe ee Ee
-> errata ty ane -
-> es ie ee ee ae o
-> ue , Sn cae ae hee se
-> j 5 FI
-> 3G O&8 "WO
+> ZedPrevien Fle tdt Go
+> README.md settings
+> 118
+> 120 121 119 122 123 async def run_query(ctx:RunContext[Deps],sql:str)→str: @pypi_agent.output_validator m=re.search（r ifm: remove sql.. \w*\n(.*?)...,,sql,flags=re.S)
+> 124 sql=m.group（1).strip（)
+> 125
+> 126 logfire.info('running{sql}',sql=sql）
+> 127 128 129 await ctx.deps.mcp_context.log（'info','runningquery') iff'from{table_name}'not in sql.lower(）: raise ModelRetry（f'Query must be against the{table_name?table')
+> 132 130 131 try: rows=query_job.result（) query_job=client.query（sql)
+> 133 except BadRequest as e:
+> 134
+> 135 136 await ctx.deps.mcp_context.log('info','query successful') raise ModelRetry（f'Invalid query:{e}')from e
+> 1L
 
 ![[assets/slides/bmWZk9vTze0/slide-012.jpg]]
 
@@ -241,38 +242,38 @@ OCR text:
 
 OCR text:
 
-> G ledProwe fhe (fai Seiten ew Oo Windon Map Q © © Ret © mw SF AO Qe wstar ian
-> os eS
-> a
-> ua ge a anaes ee am
-> [eee eee er ee? re a ee A : bynes cr
-> Hae 2s ae a ae oa Lame i oa o we = A
-> Eseries a. y
-> Sey ec a ee Om | 5
-> oe a a Oe ;
-> ear ca pre! hada :
-> 4 aa Se fe +
-> H ae ec oe eo veri eer
-> H 5 FI
-> . aC P=) > ee
+> ZedPrevien Fle tdt
+> README.md setings
+> class Deps
+> 124 123 125 ifm: sql=m.group（1).strip（）
+> 126 logfire.info('running {sql}',sql=sql）
+> 127 128 await ctx.deps.mcp_context.log（'info','runningquery') iff'from{table_name}'notin sql.lower(）:
+> 129
+> 132 130 131 133 134 135 try: except BadRequest as e: rows=query_job.result（) query_job=client.query(sql) await ctx.deps.mcp_context.log（'warning','query error retrying') raise ModelRetry（f'Invalid query:{e}')from e
+> 136 await ctx.deps.mcp_context.log('info',‘query successful')
+> 137 data=[dict（row) for row in rows] #type:ignore
+> 138 return format_as_xml（data,item_tag='row',include_root_tag=False)
+> 139
+> 140
+> 141 mcp=FastMCP（'PyPI query',log_level='WARNING'）
+> 1L
 
 ![[assets/slides/bmWZk9vTze0/slide-014.jpg]]
 
 OCR text:
 
-> G ledProvwe fe fa telecon View Oc Widow Mop Q > © Ret © mw SF A Be wetasent
-> eo a
-> Gea ae
-> se a ie MPR ING
-> 2
-> Context Seryversession 7 D
-> area rea er i ec ee rr i
-> os ea er ee ee
-> oe cee ee aes oe a RA GH tao vs taste Ban aera OLee .
-> (ees meena
-> an ae
-> f A Fy
-> 3 ae) >
+> ZedPreview Fle Edt 四
+> READMEmd setings
+> pypi_ncp_setves.py 138 139 137 data=[dict（row）for row inrows]type:ignore return format_as_xml（data,item_tag='row',include_root_tag=False)
+> 140
+> 141 142 mcp =FastMCP（'PyPI query',log_level='WARNING'）
+> 143
+> 144 145 146 async def pypi_downloads(question:str,ctx:Context[ServerSession,None]) → str: @mcp.tool() aboutpackagedownloads."""
+> 147 result=await pypi_agent.run(question,model=MCPSamplingModel（session=ctx.session),
+> 148 deps=Deps(ctx)) return result.output
+> 149
+> 150 152 151 153 if_name #from devtoolsimport debug mcp.run() main
+> 1L
 
 ![[assets/slides/bmWZk9vTze0/slide-015.jpg]]
 
@@ -382,13 +383,10 @@ OCR text:
 
 OCR text:
 
-> |G cornea rae ste re reanery vermeil stm
-> 7 ae ; - a Se 8 SM he neta it?
-> ee ea KS 1. re el oe
-> al
-> 7
-> ee J mv, aws
-> cog scien ek ES 608 Ue
+> Thankyou
+> AIE Slidesat I'm at the Pydantic booth，ifyou have any questions, com and say hi.
+> World'sF- Graphite
+> World'sFair AEno iadd~Eair Microsoft aws smol?
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

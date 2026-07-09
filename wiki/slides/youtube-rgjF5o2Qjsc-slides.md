@@ -50,9 +50,16 @@ OCR text:
 
 OCR text:
 
-> a ; oO re uh
-> ALITY: HYPE VS. REALITY THE STATE OF AI
-> COMER ITAMAR FRIEDMAN jco-Foundere ceo “PAqodo
+> Tye
+> L
+> allowed-tools description
+> remote show，Read,Glob，Grep,LS,Task Bashgt diff:,Bash（git status:）,Bash(git log:*）,Bash(git show:*)，Bash(git on the current branch Completea securtyreview of the pend Sing changes
+> Youarea seniorsecurityengineerconductingafocusedsecurityreviewof thechangeson this branch
+> potentlThisisnota generalcodereview-focus ONLY on securitymplicationsnewly added bythis PR.Donot coment nexisting security concerms.
+> CRITICALINSTRUCTIONS:
+> 2.AVOIDSESktticalisesstecsrlowactfinings 4.EXCLUSiONS:Do NOTreport thefollowingissue types: 1.MINIMIZEFALSEPOSTIVES:Onlyflagissues whereyoure>8O%confident ofactual 3.FOCUS ONIMPACT:Prioriize vulnerabiices that couldlead to unauthorized access,data breaches,orsystemcompromi exploitabilty
+> AIE/LEAD JALITY:HYPEVS.REALITY THESTATEOF AI
+> GoogleDeepMind PRESENTED BY ITAMARFRIEDMAN/Co-Founder&CEO opob
 
 ![[assets/slides/rgjF5o2Qjsc/slide-004.jpg]]
 
@@ -182,10 +189,12 @@ OCR text:
 
 OCR text:
 
-> P 7 Why is Al Code Review Important?
-> | ra Ae
-> 7 _ a tee rexel)
-> Engineering the future of Al
+> Why is Al Code Review Important?
+> Moreproductive,higherquality
+> 47%
+> WhenusingAlcodereviewthere are double qualitygain More productive when using Al codereview
+> Source:QodoState of Al qodo
+> AlEngineer Engineering the future of Al
 
 ![[assets/slides/rgjF5o2Qjsc/slide-013.jpg]]
 

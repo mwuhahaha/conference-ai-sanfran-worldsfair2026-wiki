@@ -47,25 +47,20 @@ OCR text:
 
 OCR text:
 
-> ) Graphite > _ ra a MV Ce Celso) a asl aW
-> 
-> — ngoee —— _ S. — ae
-> 
-> ea \ See ae
-> 
-> wi K anion
-> ae PE
-> 
-> eee AL Aes net
+> Graphite Microsoft d'sFair aw
+> Vorld'sFair AlEngineer World'sF AlEngineer World's NEngin
+> World'sFair AlEngineer
+> xpander.ai PRESENTEDBY Microsoft ec
 
 ![[assets/slides/Lcqat4iP_lE/slide-004.jpg]]
 
 OCR text:
 
-> MCPs are black boxes*
-> : "for observability
-> ry » a a Prone
-> es ern Doser Cas ES 000 OO
+> AIE
+> MCPsareblackboxes
+> *forobservability
+> aphite Worir oft Word'sFair aws
+> fsFair ander.ai WordsFar Moasot Word'sFair se04j Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-005.jpg]]
 
@@ -84,42 +79,40 @@ OCR text:
 
 OCR text:
 
-> ‘Clientglraces)
-> ct th em el LUA
-> "support with @weave.op
-> Pt)
-> ere ae Co -« Docs: wandb.me/mcpop
-> peat bs &: mMicrosoft OWS gral?
+> Fiterbyopnan
+> run_client In31s Inputs 小色
+> MCPClient.connect_to_server Path
+> MCPClient.interactive_sess.. self <mcp.client.session.ClientSession object at 0x12a45a1c28d0>
+> AIE MCPClient.cal_tool VMCPClient.call_ool add calculate_bmi arguments name weighukg ClientTraces 70
+> MCPClient.demo_all_tools MCPClient.call_tool D height_m W&BWeave-MCPClient/Server 1.75
+> MCPClient.call_tool MCPClient.call_tool add calculate_bmi Output Path content supportwith@weave.op 小
+> MCPClient.call_tool create_thumbnail MCPtool calls text 42858
+> orld'sFair ellum Wo g://app isError annotations nut1 false Docs:wandb.me/mcpop
+> Fair Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-007.jpg]]
 
 OCR text:
 
-> https://observable:to0|S _i
-> Observable Tools
-> \ a
-> i | ee
-> t Ce Hi na , , 5 iD
-> TAM NTT
-> a a Real We +
-> | y
-> aaa SS 1 (e110) | a ES O00 OO
-> rere
+> https:/lobservable.tools
+> ObservableTools
+> AIE Let'smakeMCPolstanspanent and observabl
+> AVAVAFRI
+> SEET SEE ERR
+> 'orld'sFair m Wo
+> Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-008.jpg]]
 
 OCR text:
 
-> OpentTelemetry - primitives
+> OpenTelemetry - primitives
 > Traces
-> a Parente! 7 | | ear along | eager Stee , ee
-> [ee | i
-> _ ; , Si pehoaden
-> a 7 NM iCecekse) ae
-> | my aws 0
-> . = Microsoft Simol
-> 
-> wd [ae | al <a ee ‘
+> AIE POST/api/checkout
+> getcarto caleulateFraudlScore() performCheckout() renderJson)
+> dlb-select cart... db-upclate cart...
+> Microsot World'sFai
+> Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-009.jpg]]
 
@@ -147,29 +140,32 @@ OCR text:
 OCR text:
 
 > Different Domains
-> | _ au
-> reed oy er el
-> a :
-> i Semeey an cae on ec
-> aed mT aws es
-> en Pe Ble cecxe)at ES (nol
+> AIE |mcp-agent-client 7chat.turn 7.60s
+> 4chat.model_call
+> mcp-agent-client 2.53s
+> mcp-agent-client POST 2.13s
+> |mcp-agent-client 2tool.fetch mcp-fetch-server fetch.operation 378.03ms 374.52ms
+> >2chat.model_call
+> -client 5.07s
+> Norld'sFair daily Wo Mi
+> SFNTDV Work
+> World'sFair PHUNTIST Microsoft W brair Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-012.jpg]]
 
 OCR text:
 
-> Same Domains
-> | ane ——————————
-> oiee 4 ao eal : 7
-> E POST ;
-> | Dikeoe
-> tes fetch o
-> . g + kine ———, chat mode.cal
-> PA ete ho ame nt | a
-> on
-> Vi aws fs)
-> Soa icrosoft
-> ree ae a AWS mae)
+> SameDomains
+> |mcp-agent-client 15chat.turn 22.53s
+> AIE |mcp-agent-cllent 6chat.modeLcall 2.49s
+> POST
+> mcp-agent-client 2.05s
+> |mcp-agent-client 4tool.fetch 401.04ms
+> mcp-fetch-server 3fetch.operation 397.04ms
+> fetch.http_request mcp-fetch-server 363.21ms
+> fetch.markdown_conversion mcp-fetch-server 32.90ms
+> Microsoft orld'sFair -agent-cllent chat.model_call 3.00s
+> World's AEngrer Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-013.jpg]]
 
@@ -216,38 +212,36 @@ OCR text:
 
 OCR text:
 
-> Observable|MCPATOOLS
-> usingJOTELandmmeta Pe |
-> _ ,
-> / MCEISERVERRACES
-> reat om Biren en 0
-> a |
-> ee a
-> De ha ae
-> ccom wit’ ~—trom = Microsoft SWS aaa®
+> param usingOTELand_meta ObservableMcPToOLS MCPCLIENTTRACES
+> AIE
+> MCPSERVERTRACES
+> Vorld'sFair Graphite World'sFair Mi
+> Weights Vorid
+> World'sFair Microsoft Word'sFa brain Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-016.jpg]]
 
 OCR text:
 
-> Weave OTel example as well
-> a Reena eee. ae
-> WANOB_API_KEY
-> WANOB PROJECT _ID ,
-> part ae a Pree ri
-> fh
-> cen A ew iG
-> Sirah g
-> ee 1100-00 OO
+> WeaveOTel exampleaswell
+> AIE.local.env.example
+> #OpenTelemetry endpoint （optional, defaults to http://locaLhost:4318) OTLP_ENDPoINT=https://trace.wandb.ai/oteL/v1/traces
+> #Weights & Biases API Key for Weave tracing （optionaL） #Get your API key from:https://wandb.ai/authorize
+> WANDB_API_KEY=
+> #W&B project in format "entity/project"（e.g.,"myteam/myproject") WANDB_PRoJECT_ID=your_entity/your_project
+> lorld'sFair raphite World'sFair Mic
+> Weights baz
+> Worid'sFair Microsoft Word'sFair rain Microsoft aws 5 smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-017.jpg]]
 
 OCR text:
 
-> Magic MCP moment
-> with Opus 4 & Windsurf
-> “ an os . oe RNS! eer
-> Tn ee EY [Tol goto SMES ero?
+> withOpus4&Windsurf MagicMcPmoment
+> AIE
+> sFair.um Word'sFair Microsc
+> SENTR Norld'sFai
+> World'sFair Microsoft World'sFair braintrus Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-018.jpg]]
 
@@ -275,23 +269,34 @@ OCR text:
 
 OCR text:
 
-> Magic MCP moment |
-> with Opus 4 & Windsurf
-> ae mera) etd a ticrose 7
-> a ona ; a PSSA Riaa7 Pe
-> ee a enV [ecesseyit eS Sinol
+> Magic MCP moment Ican see the attributes are being set with inguts.and outputs.
+> withOpus4&Windsurf level nputs and output fieldsin Weave.Thismight be because Weave expects a specific format.Let me check the Weave documentation again for the exactformat:
+> MCPToolwandb/query_wandb_support_bot
+> AIE sent toWeave and then checkif the inputs/outputsare now properly mapped: Great!The testisworking.Letmewaita moment for the tracestobe Ran with these arguments:
+> Ran terminalcommand
+> //mcp-otelSsleep10 Auto-run Output
+> MCPTool:wandb/query_weave_traces_tool "sources":[ "https://github.com/wandb/weave/tree/naster/weave-js
+> the attributes are being properly set by looking at the fulltrace data: Inotice that the inputs and output fields are stillempty.Letme check if
+> sFair lum Worid'sFair licroscments: db/query_weave_traces_tool Ah! The support botindicates that Weave expects wondb.inputs.and the code touse the correctprefixes: wondb.outputs.prefixes,notjust inputs.and outputs..Letme update
+> SENTRY
+> World'sFair Microsoft World'sFair trus Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-020.jpg]]
 
 OCR text:
 
 > mcp.run - Profiles & Tasks
-> Example: A “Work Assistant™ Profile
-> , . 3 ed it = pad 4 rh eke abe
-> a Nie ”. renee .
-> on -
-> _ : |. P4 Pa AV aSy at]
-> Ce D1 as ES SOD
+> Example:A"WorkAssistant”Profile
+> AIE Cursor,Claude Desktog.Winds urforyourownAlageet canalmanage GiHubissuessend Slack messagesand update Notion pages-allthrough Slack+ your one proliel Noton WorkAssistant
+> Inbound LeadRouter
+> 2/13/202510:31:25AM
+> Instructions Settings Triggers
+> Editor
+> This nev contact just submitted their information through our web form,indicating interest in
+> assign this lead contact to soneone on our tean,please analyze the contact with the goal of
+> other indicators.
+> Mic World'sFair Here*s what I suggest doing1 New contact submission: (（firstNase）{（lastNane））<（（email}）>
+> Microsoft aws smol?
 
 ![[assets/slides/Lcqat4iP_lE/slide-021.jpg]]
 

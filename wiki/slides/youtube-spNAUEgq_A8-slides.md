@@ -210,16 +210,16 @@ OCR text:
 
 OCR text:
 
-> Pe ,
-> Own NAVAN
-> FFigMa & Playwright
-> mm Gmail B Google Sheets ‘
-> aus 7 enance
-> Ay aT |
-> OR feat Code Fix btinter |
-> nt
-> DO tithe
-> ae
+> AYAK NAVAN
+> Figma Playwright
+> Gmail GoogleSheets Inheritance
+> Skill
+> React Code Fix&Linter
+> Grill Me
+> Github
+> Tools
+> SystemPrompt
+> Model
 
 ![[assets/slides/spNAUEgq_A8/slide-017.jpg]]
 

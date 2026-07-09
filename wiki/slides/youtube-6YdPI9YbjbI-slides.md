@@ -194,22 +194,21 @@ OCR text:
 > BRAINTRUST.DEV
 > Outcomes
 > AIE
-> 10x
-> Moreissuestriagedandfixed/day
-> IncreaseinAlproductquality
+> 10x 50%
+> More issues triaged and fixed/day Increase in Al product quality
+> OOAFICENTLAL
 > aws
-> World
+> Worid
 
 ![[assets/slides/6YdPI9YbjbI/slide-012.jpg]]
 
 OCR text:
 
-> BRAINTRUST.DEV
-> AIE
-> Q&A
-> Microsoft
-> smolo
-> Wo
+> BRAINIRUST,DEY O
+> AIE Q&A
+> CONF IDENTEAN
+> Mierosaft smol?
+> Wo.
 
 ![[assets/slides/6YdPI9YbjbI/slide-013.jpg]]
 
@@ -350,12 +349,12 @@ OCR text:
 
 OCR text:
 
-> a Ps
+> BRAINTRUST,DEV
 > What should I improve?
-> @
-> rome ‘) Improve evals
-> j Improve evals improve Al app
-> a —
+> 7
+> AIE Goodoutput High score Improveevals Lowscore
+> ndinopeg Improveevals ImproveAlapp
+> WorkfsFa aws
 
 ![[assets/slides/6YdPI9YbjbI/slide-021.jpg]]
 
@@ -410,11 +409,10 @@ OCR text:
 
 OCR text:
 
-> oe r
+> BRAINTRUST.DEV
 > Scorer Types
-> Code-based scorers LLM-as-a-Judge scorers
-> “ 7 M fi]
-> nS m Microsoft = SOCU
+> AIE Code-basedscorers Exactorbinaryconditions Numericcomparisons Structuredorfactualchecks LLM-as-a-judgescorers Human-likeinterpretation Improvementacrossmultipledrafts Subjectiveorcontextualfeedback
+> Word'sFair Microsoft smol?
 
 ![[assets/slides/6YdPI9YbjbI/slide-024.jpg]]
 

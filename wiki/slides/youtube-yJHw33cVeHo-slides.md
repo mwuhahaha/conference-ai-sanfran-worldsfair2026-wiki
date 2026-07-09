@@ -62,44 +62,27 @@ OCR text:
 
 OCR text:
 
-> ne
-> Pa ae
-> EY ees een
-> Pv Aree GPT-3 ee es i aa
-> Centon Use Cases pea . a ’
-> . Cows
-> il Soy BEEF mad . 7
-> ee aoe a Reet,
-> Lee eye “ ae -
+> Programming Assistance
+> Compliance Legaland CodeReview
+> AndVirtual Assistants Chatbots Use Cases GPT-3 Information Searchand Retrieval
+> Language Creation Content
+> Communication Emailand
 
 ![[assets/slides/yJHw33cVeHo/slide-006.jpg]]
 
 OCR text:
 
-> Perepottepeep, 0 Caitmast ites
-> o ee
-> cnn
-> ar ae a a ue
-> seen a
-> ete Use Cases mens
-> ae ee Ben —
+> images and leaningsand Interpret Summarize visuals findings Personalize content Predict trends Use Cases GPT-4 Create assistive experiences prooesses Augment existing Automate workfiows Accelerate lsunches
+> concepts Explain Analyzedata
+> Translatetext inrealtime Visualizedata orsystems resources Allocate
 
 ![[assets/slides/yJHw33cVeHo/slide-007.jpg]]
 
 OCR text:
 
-> EX
-> oa
-> - he
-> sea ea OC Tn Ss o oo F
-> 8 eae) e,
-> nae a , ;
-> creer GPT-4 ee Good morning
-> Ris ar Use Cases ccs
-> eee Tis
-> Sn een a aoe eS
-> “ eee ee ee
-> ee oe
+> images and learnings and Interpret Summarize visuals findings Personalize content Predict trends Use Cases GPT-4 Create assistive experiences processes Augment eoosting Automate workflows Accelerate launches Goodmorning
+> concepts Explain Analyzedata
+> Translatetext inrealtime Visualizedata orsystems Alocate DJ Aaxdfea
 
 ![[assets/slides/yJHw33cVeHo/slide-008.jpg]]
 
@@ -131,14 +114,12 @@ OCR text:
 
 OCR text:
 
-> et a cee oe Whol We Ba eg Se 2 9d bb
-> . ana
-> a Pernrenoeeralll MOO ay
-> yo: Gaiileo World's Fair
-> oo ore | NK World's Fair a’ Covalent
-> cu
-> ' nH Crusoe World's Fail
-> Tomehy
+> Milcrosoft Worid'sFall
+> OB World'sFair Goog World'sFair AlEngi neo4j
+> VISVIVO Galileo World'sFair
+> World'sFair ALER Covalent.
+> sFair ee
+> dby Wc Crusoe World's Fair AlEng
 
 ![[assets/slides/yJHw33cVeHo/slide-010.jpg]]
 

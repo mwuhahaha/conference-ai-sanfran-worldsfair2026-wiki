@@ -30,11 +30,10 @@ OCR text:
 
 OCR text:
 
-> a
-> a as
-> LT
-> AlEngineer AGENTS NEED MORE THAN A CHAT
-> EEN JACOB LAURITZEN /cto LEGORA
+> Researchrelevant lawanddrafta contractbetweenthetwoparties inthese documents. Make no mistakes
+> t
+> AIEngineer EUROPE AGENTSNEEDMORETHANACHAT
+> GoogleDeepMind PRESENTEDBY JACOBLAURITZEN/CTO LEGORA
 
 ![[assets/slides/XNtkiQJ49Ps/slide-003.jpg]]
 
@@ -95,32 +94,27 @@ OCR text:
 
 OCR text:
 
-> LEGORA COLLAGQRATIVE ALF OR LAATERS
+> LEGORA COLLABORATIVE AIFOR LAWYERS
 > Guardrails
-> Very constrained No constraints
-> @ _________—_e
-> Hee, ay eae
-> ) Hy
-> @________f____________________e
-> Low trust High trust
+> Veryconstrained No constraints
+> Pernissions: ALlow Ask Auao Workspace（+/→
+> Create file - 1 Hello,World! Claude Code won't ask before using allowed tools. Search..
+> Do you want to create hello-world.txt? 1.Yes Yes,allow all edits during this session Bash(/tmp/tean_ownership_report.txt:*) Bash(bash:*) Bash(date:*) Bash(./tools/scripts/src/local-dev.js:*) Bash(cat:*) Bash(chmod:*) Addanewrule. dangerously-skip-permissions
+> Lowtrust Hightrust
 
 ![[assets/slides/XNtkiQJ49Ps/slide-008.jpg]]
 
 OCR text:
 
-> LEGORA COLL AMIRATI GT AL FOR LAWTERS
-> Default chat Gum. --
-> A.
-> fo ! oS
-> ON.
-> oT TN
-> Units of work {a> ap ee
-> ee) CEOEK
-> p> a@> ‘0
-> = eo 2
-> @ verex0 aD . L
-> @ Trusted
-> Human judgement
+> LEGORA COLLABORATIVE AIFOR LAWYERS
+> Default chat employmentcontracts Writereporton Review
+> 1.Researchorg 2.Review contracts 3.Draftreport
+> termination 1.Review IPassignment 2.Review confidentialty 3.Review
+> Unitsofwork John Doe SvenS John Doe 'SuMS John Doe
+> EULaW JensJ. SvenS.
+> Untrusted JensJ. JensJ.
+> Trusted
+> Humanjudgement
 
 ![[assets/slides/XNtkiQJ49Ps/slide-009.jpg]]
 ![[assets/slides/XNtkiQJ49Ps/slide-010.jpg]]

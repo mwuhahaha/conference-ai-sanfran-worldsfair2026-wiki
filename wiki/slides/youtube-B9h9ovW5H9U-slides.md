@@ -161,19 +161,18 @@ OCR text:
 
 OCR text:
 
-> GQ Comet seen tere Bap hat ees fae AR Aree
-> a cc = @@ —_
-> acc ee 2
-> aw serie e@ e 6 E ~ rr
-> eee e oe te
-> not detect frm parverme e@ svaenienens
-> a D gintary po or
-> nna — _— - 7
-> = . er
-> a 7]
-> aan ; ,
-> a Wap ? Engineering the future of Al
-> ; ie _ yt
+> Context Graph Demo
+> Al Assistant Ask guts Context Craph Decision Trace
+> AIE "acent_fLago_tranurti _inflecerel. "aceet_relae,trsT
+> ety_percest_flaggee adK
+> +.42684218526315799,
+> t_fLagoed_transact sant°:
+> aud tyoiogyFT-8291. elcity checkfaed
+> 4rita tac
+> s7(e-4ga4-s410- c116871", "neighbor_co 2r4kTai
+> cation rejected Credit score ef 709 m treihoid cf 620. Recent
+> 1msk.facs
+> Engineering the future of Al
 
 ![[assets/slides/B9h9ovW5H9U/slide-009.jpg]]
 

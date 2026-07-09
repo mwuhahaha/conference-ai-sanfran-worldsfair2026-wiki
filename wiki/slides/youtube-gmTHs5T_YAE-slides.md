@@ -62,23 +62,19 @@ OCR text:
 
 OCR text:
 
-> Example: e Llama 3.2 3B backbone
-> Orpheus TTS e Increased vocab size for
-> speech-specific tokens
-> V Canopy Labs —.. Extended context ienaih
-> with RoPE scaling
-> = 3
-> 2“ " a Microsoft simon
+> "archttectures':[
+> AIE CanopyLabs OrpheusTTS Example: ·Extendedcontextlength Increasedvocabsizefor Llama3.23Bbackbone speech-specifictokens withRoPEscaling "inittalizer_range*:.82. "attention_btas:false, "attentton_dropout:B., "bos_token_ld:128808, "head_din':128, "htdden_act":"stlu', "htdden_s（ze²:3872, "ax_posttton_embeddings*:131872, "nu_attentton_heads*:24, "nun_htdden_layers”:28, "num_key_value_heads':8, "eos_token_（d:12801, internediate_stze:8192, "pretraining_tp":1, uesado ee11.ad11apo res_norn_eps:le- "factor':32.6, "low_freq_factor'x1.6,.oe11.:odado "high_freq_factor':4.0. suppqauoasodxee5o
+> "tle_word_erbeddings':true.o "transformers_verston:*4.47.0* "rope_theta':58e889.8.
+> vocab_stze:156939
+> Microsoft smol?
 
 ![[assets/slides/gmTHs5T_YAE/slide-005.jpg]]
 
 OCR text:
 
-> ¢ Optimize for Hopper architecture
-> TensorRT-LLM  ° Post-training quantization to FP8
-> cottings ¢ Quantize KV cache
-> | - 3
-> a Microsoft @yr{?
+> AIE settings engine TensorRT-LLM ·Post-training quantization toFP8 ·QuantizeKVcache OptimizeforHopperarchitecture build: runtlee: ensor_oarallelcount:1 plugin_conftguratton: Ay.cache_free.opu.#e.fraction:985 base model:llama Quantization_type:fpB_kv enable_chunked_context:true nax_batch_slze:256 max_mum_tokens:16384 checkpoint repo:baseten/orpheus-3b-e.1-ft caltb.dataset:"cnn_datlyaatl" reviston:b9eb57... use_fpecontext_foho:true
+> E
+> Microsoft smol?
 
 ![[assets/slides/gmTHs5T_YAE/slide-006.jpg]]
 

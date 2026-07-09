@@ -227,17 +227,16 @@ OCR text:
 
 OCR text:
 
-> OOD reece Heownng hs oc TT 2108 1874 = 2} iso? x Boe x Seo a Bac x ¢ .
-> € CO beanen 52415 et Gan;
-> a
-> Phae
-> Bal
-> sie dge tte
-> Pare re
-> rq au
-> re
-> bn ET
-> 4 1
+> 2504.19824 1706.03762
+> C locahost:52415
+> eXO HOME DONNLOADS
+> NEW CHAT INSTANCES
+> CONVERSATIONS Hi 02:58PM t-055-200-004-08 IFT481es-95.0tok/s 26.9G8/119.608（22%) gx10-de89 45'C 40W 0% 4A7436F7 PipelIneVLLR （CUDA) Muging fece g1e-det9 READY ogena1/gpt-oss-2 83AFA4F8 Reody te chet! DELETE DELETE
+> pt-055-200-04-Q Chat Apr8,02:55PM Chat Apr8,e2:57 PM 02:57PM 2:55PM 002-550-1 Ryuichi's MacBoo.. 44'C 13W 4% LOAD MODEL gpt-05s-200-MXFP4-Q811C8 Reale ts chos! alx-Co8un1ty/g0t-05s-29o-MFP4. Pipeline.XRingREr ging Fece Ryuichi'sRsclosk Pro Ryalchi'sRecBosk Pre-Byeichi's READY RaoakFr7(7) 97nodels
+> 1100 pt-055-20b-00F74-06 37,1G8/128G8(29%) 100.83.156.7ta11scalee 100.101.172.42tum7 192.168.100.1P7s7 172.17.0.16ocker 192.165.100.2e9 901-015-20-0094-06 DOWNLOADING ADVANCED OPTIONS PIPELINE mnity/0pt-ss-2b-RL HLXRING 16.2/s 1168
+> sasted-text.txt 5.4 pasted-text.txt
+> Can you summarise these tvo papers?
+> 3CONVERSATIONS
 
 ![[assets/slides/ESbWpPT_9-o/slide-013.jpg]]
 

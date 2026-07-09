@@ -32,14 +32,11 @@ OCR text:
 
 OCR text:
 
-> S whoami
-> 
-> a Prefect Technologies
-> 
-> r Prefect, Marvin, FastMCP
-> 
-> | Slightly overwhelmed
-> Rd 2025-11-22 13:14:39
+> $whoami
+> Founder&CEo:Prefect Technologies
+> Responsible for:Prefect,Marvin,FastMCP
+> Status:Slightlyoverwhelmed
+> 2025-11-2213:14:39
 
 ![[assets/slides/96G7FLab8xc/slide-003.jpg]]
 
@@ -114,13 +111,13 @@ OCR text:
 
 OCR text:
 
-> @ Saeed
-> ‘ron fastmcp ane
-> mcp = | ranean tre ere eee |
-> “mep.tool
-> ae ~ () > bool:
-> a
-> > 2025-11-22 13:23:49
+> MCP
+> server.py
+> from fastmcp import FastMcP
+> mcp =FastMCP（"Washington DC Metro")
+> @mcp.tool def is_metro_on_fire()→ bool: """Check the fire status of the Dc Metro"""
+> return True
+> 2025-11-2213:23:49
 
 ![[assets/slides/96G7FLab8xc/slide-010.jpg]]
 
@@ -153,20 +150,13 @@ OCR text:
 
 OCR text:
 
-> e ee oserverpy
-> 
-> -mep.tool
-> 
-> tet Cemail: str} 2 dict: ...
-> 
-> mep.tool
-> 
-> a (user_id: str, query: dict) -% list: ...
-> Nien neerene
-> 
-> Lee Corder_id: str) —- dict: ...
-> 
-> ‘ 2025-11-22 13:26:44
+> server.py
+> The "REST Wrapper"Starting Point
+> @mcp.tool def get_user_by_email(email:str)→dict:
+> @mcp.tool
+> def list_orders_v2(user_id:str,query:dict)→list:
+> @mcp.tool def get_shipping_details（order_id:str)→dict:
+> 2025-11-2213:26:44
 
 ![[assets/slides/96G7FLab8xc/slide-013.jpg]]
 
@@ -207,21 +197,12 @@ OCR text:
 
 OCR text:
 
-> ri Peer
-> 
-> A
-> fab anKG) Literal
-> 
-> "icp.toel
-> 
-> bos 7 i
-> email: str,
-> include cancelled: bool a
-> format: Literal! ;
-> 
-> a? one
-> 
-> ae 2025-11-22 13:34:14
+> server.py
+> Clean Args,Missing Context
+> from typing import Literal
+> @mcp.tool async def track_latest_order(
+> str: """Finds the order."." include_cancelled:bool=False, email:str, format:Literal["basic","verbose"]="basic"
+> 2025-11-2213:34:14
 
 ![[assets/slides/96G7FLab8xc/slide-017.jpg]]
 

@@ -1,0 +1,13 @@
+(hapuens)
+Redis
+API
+GpU werkers
+Redis
+AIE
+(stardbg)
+Redis
+Workers
+CPU
+Seaweedfs
+Luma
+aws

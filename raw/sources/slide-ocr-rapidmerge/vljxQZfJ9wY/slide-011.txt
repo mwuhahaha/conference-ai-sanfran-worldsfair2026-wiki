@@ -1,0 +1,9 @@
+The Agentic Control Plane |
+Reference Architecture
+Control Plane
+: Scenario
+Tracing & Telemetry: HITL
+Gia
+LLM Agent External
+Orchestrator Tools
+Execution Plane

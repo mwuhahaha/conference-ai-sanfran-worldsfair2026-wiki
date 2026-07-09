@@ -21,11 +21,12 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ee,
-> . Mocplettmea lmparacrivas |. RS 7
-> IOa ee iS Rea kotaes eye oe
-> ir a ee a a
-> ieee ee OlOl ow SUN Ein Alon eae el ele
+> AIE VS Code with MCP Apps Building Interactive Uls in
+> MARLENE MHANGAMI
+> Microsoft/GitHub
+> Senlor Developer Advocate LIAM HAMPTON
+> Microsoft/GitHub
+> Bailding lnteractive Uisin VSCodewthMCPApps Google DeepMind
 
 ![[assets/slides/_xIwFcnHqp4/slide-002.jpg]]
 
@@ -111,23 +112,20 @@ OCR text:
 
 OCR text:
 
-> Who’s building MCP Apps?
+> Who's building MCP Apps?
+> AIE functioe App（1（ </> retum(
 > Shopify Exaclidraw Figma
-> ——
-> S| l | |
-> = b AlEngineer
-> ial . sel ce) aa
-> a ae
+> AIEngineer
+> EUROPE
 
 ![[assets/slides/_xIwFcnHqp4/slide-008.jpg]]
 
 OCR text:
 
-> Building MCP Apps in
-> mm | VS Code (demo)
-> _
-> ~ 7 7 Engineering the future of Al
-> > »
+> AIE
+> Vs Code (demo) Building MCP Apps in
+> BuildingMCPAppsin vSCode(demo)
+> Engineering the future of Al
 
 ![[assets/slides/_xIwFcnHqp4/slide-009.jpg]]
 

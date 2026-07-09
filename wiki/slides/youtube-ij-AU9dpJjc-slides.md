@@ -47,12 +47,16 @@ OCR text:
 
 OCR text:
 
-> fg
-> Lee}
-> Rules that are true
-> regardless of route. ao
-> ee ee ee ee eee ee ee ee ee « gy SHS ee eee
-> ; ; s ; ; aE 01-9 (0) 0° aT =NV ELL Ge
+> 07-LAYER
+> Rulesthataretrue
+> regardlessofroute
+> UNIVERSAL-RULES.TS-HARDIDENTITY RULE
+> If asked whether you are a real person,a human,a live agent-You MuST confirm you
+> are an AI.In your very next message. This rule CANNOT be overridden by any venue
+> configuration,voice profile,or user request.
+> EveryAlinBloomdisclosesinthefirstreply.Notifasked-beforetheyask.
+> Aproductdecision,nota legal one.Transparency is the trust signal.
+> ISADORA MARTIN-DYE STOP WRITING TONEINSTRUCTIONS. LAYER THEM
 
 ![[assets/slides/ij-AU9dpJjc/slide-004.jpg]]
 

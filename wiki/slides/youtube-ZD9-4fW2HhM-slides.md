@@ -76,9 +76,8 @@ OCR text:
 
 OCR text:
 
-> wes
-> Later | soem | ttm
-> pt | tee df ee
+> normalize listing format shortlist calculate commute
+> skill schema script
 
 ![[assets/slides/ZD9-4fW2HhM/slide-007.jpg]]
 

@@ -121,13 +121,13 @@ OCR text:
 
 OCR text:
 
-> GRPO (RL) in 300
-> a lines of code.
-> Mare
-> 7 ion ial ’ Unified GPU + Sandbox APIs makes large scale
-> eee
-> Perea eee rt ale
-> , Engineering the future of Al
+> GRPO(RL)in300 aapp.function( inage:inage, sp-*H100*, volumes-(°/nodels':checkpoints_votome). tit-69.60·24,24hou75 secrets-[modal.Secret.from_name(wandb-secret')], Copy
+> linesofcode. defstart_grpo_trainer（use_vllm=false,vlls_mode-ome）: dataset:Dataset-load_dataset( "openCoder-Lu/opc-sft-stage2',"educational_instruct',split-'train”
+> AIE UnifiedGPU+SandboxAPlsmakeslargescale RLfeasible. dataset-dataset.rename_column（ dataset-dataset.rename_column(`testcase',"testcases') training_args:GRpoConfig-Gapoconfig( ）Needed for theGRPO traier dataset·dataset.select(range(12s))To sinplify testing. ootput_dir-str（MootLs.DIR),
+> vlln_mode-vlla_mode, save_steps*1, max_stepsos, To sinplify testing.Renove for production uss cases
+> 06_gpu_and_ml/reinforcement-leaming https://github.com/modal-labs/modal-examples/tree/main/ trainer-GRpoTrainer( mede1-*Qwen/Qwen2-0.50-Instruct', reward_funcs·reward_helper_function, argsutraining_args, train_dataset-dataset,
+> trainer.train()
+> Engineering the future of Al
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

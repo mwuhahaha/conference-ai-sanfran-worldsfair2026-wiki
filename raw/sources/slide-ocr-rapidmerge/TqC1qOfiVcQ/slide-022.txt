@@ -1,0 +1,6 @@
+Tools
+Use tools for: Atomic actions your agent mostly needs to execute
+in sequence
+For example:
+- Writing a file
+- Sending an email

@@ -1,0 +1,22 @@
+hae Nh Ie aC OR Fr te i Mm Re ae RE Si
+de by 0 v7 oO rl * ce] oO ey 9 G i] rd
+5: om 5 a e-
+ORT
+This quickstart uses the Daggerizced project from the Ci quickstart. To verify that your project is in the correct state, change
+AE to the project's working directory and list the available Dagger Functions:
+nello saqqee
+Gagaer furetrors
+This should show:
+a
+i eer cee en apes ia
+ere as) Barld the application comtainer
+on eet ae Bulldo a ready to nse development oenyibouwent
+oe] Omar ees) Publisn tne application conteirer after tourlding ara testing itor the fly
+are Reture the cesalt of coanieg arit tests
+= bt A
+. F
+N At
+o 3 er!
+ns
+“?.:
+| a

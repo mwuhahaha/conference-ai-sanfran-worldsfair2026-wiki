@@ -116,14 +116,22 @@ OCR text:
 
 OCR text:
 
-> ee ee a ee oo od a vo i ee A | a a
-> . [Cs sveve canoe + Oo ag - : fo) o Q
-> a - oO . y
-> . Co eee “ an. "
-> Fae ea aE
-> 7 a a ec - ad 2
-> rrr a
-> ie aan ls Te Reel) a 2025-11-22 09:42:48
+> manusim kauyJ7c
+> manus Manus1.5 1. JustTblock anayOpens 6AM Monday
+> Newtask Sh Lbrary 2.Culture Espresso-72 W38thSt（4.6★，2,136review） 2.A True Itllan Coffe Experience-Unmatched Flavor & W 1.Alsery cosopnunt7M 2.Great espresso and the chocolate chip is soft,chewyand just perfect
+> 3.Blue Bottle Coffee -54 W 40th St (4.4,1,170 reviews)
+> Smgie Coffee 1.Hp cafe forgourmet coffee,openunti7 PM
+> How toAcoess AwS Loft 27Ino 2.Delicious drp coffee,lovely service,fantastic location!
+> 4.CafeGrumpy-Fashion District-200w39thSt(4.3★，684reviews)
+> S 1.Same street, open until 4 PM
+> How toWaktoAVSHark27fro. 2.Tasty cold brewcomfortable spece to work
+> rom Manus'. 5.Brioche NYC-44W37th St[4.8★,138reviews)
+> 1.ExcelentAmericano coffee,clean bathrooms,and friendly staff.
+> Allof thesearewithineasy wakingdistance1-2blocks）Matto Espresso orCulture Espressoare
+> them in the map for directions!
+> Latest AEr
+> PWSSL
+> 2025-11-2209:42:48
 
 ![[assets/slides/xz0-brt56L8/slide-008.jpg]]
 
@@ -264,12 +272,18 @@ OCR text:
 
 OCR text:
 
-> CC ee . 6 ms O@ os Be - Paid ms
-> i LCs temo conee® (; [4] fv] D 0 S
-> a . ee . .
-> nea ere
-> oo.
-> Tee aa 1s eel oe 2025-11-22 09:52:23
+> manes
+> manus Settings
+> Masus
+> Sen
+> Schedued tasks
+> Ma Manus
+> Otaco
+> Cloud browser
+> Connectors
+> Ontegrations
+> Gethep
+> 2025-11-2209:52:23
 
 ![[assets/slides/xz0-brt56L8/slide-016.jpg]]
 
@@ -386,18 +400,17 @@ OCR text:
 
 OCR text:
 
-> Cn er co Ed soe ms Bo Be ao = ee
-> : | (ered eae Pn
-> Meee ao .
-> ‘ * ane celasela1e1 8)
-> ee 2
-> A 2
-> A y Weis
-> 4
-> mi
-> Pt any
-> r = ~ 2025-11-22 10:13:45
-> + ise ee t+ 0G a]
+> Ivan Personal 2 #workshop 81 6
+> Messages
+> Huddes Threds eewtt'saBn #workshop
+> DM Diectories Add people to channel Asdchannel description Pick a template
+> Saed
+> vanleomk ned faorkshop 1220N
+> vanieomk 1221M
+> Wanta preductivity boost? Mai1221 Slackbot1221 vanleomk113 OKIveivited as added to Pworishop by tohscane 33
+> epsnoar B 小
+> Shure audio and video clips C
+> Alis tuned on for van P 2025-11-22 10:13:45
 
 ![[assets/slides/xz0-brt56L8/slide-023.jpg]]
 
@@ -432,20 +445,16 @@ OCR text:
 
 OCR text:
 
-> Ce ns Se cle De sem. eo Be anal *
-> 7 sme) Peron entrar re cr
-> Renan es : e- a
-> - .-
-> Tere: Your Aap
-> A n
-> rs
-> fey
-> : ed e
-> exams oe ‘
-> 2
-> | a
-> A
-> rT Pea 1. Te eel" ae 2025-11-22 10:22:05
+> Ivan Personal 2 workshop 800Q Thread
+> huades D6 Diertunes Thread BerNireHathawory2025lmvestorLetter.d Hello.Word! Hello.Word vanleomk Melwhal'sup uterab YourApps
+> Sd Mani
+> W
+> Benhire Hathawry 2025vestor Leter.pdl
+> Want a preductivity boost?
+> DOgniyoursideb
+> sapunopas
+> Share audio and video clips
+> Alisturne 2025-11-2210:22:05
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

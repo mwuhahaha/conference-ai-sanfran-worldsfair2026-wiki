@@ -177,27 +177,22 @@ OCR text:
 OCR text:
 
 > Our Stack (up to 2025)
-> - Marketing: Figma + React + Vercel + Supabase
-> - Ticketing: Ti.to + Validar
-> - Sponsors: Figma + Google Sheets
-> - Speakers: Sessionize
+> Marketing:Figma+React+Vercel+Supabase Sponsors:Figma+GoogleSheets Speakers:Sessionize Ticketing:Ti.to+Validar
+> AlEngineerEurope2026 Bullding AI Engineer with AI swyx
 
 ![[assets/slides/zepu8Kk6FBQ/slide-009.jpg]]
 
 OCR text:
 
-> bl 3.8, Te cel
-> es oy eral Ie em orieee 9 (3210)
-> ae eet xa From v ad Only my channels Exclude automations
-> / x
-> Devin
-> - *e* ee a bat Se ye
-> / ,
-> S eran)
-> ase
-> Cy
-> ad Cry ce Cr re? a see
-> Zo € Braintrust €} WorkOS OpenAl
+> er.ai Resultsfor:devin Givefeedback
+> Messages From In Onlymychannels Exclude automations Filters Sort:Oldest
+> D
+> Devin APP #dev Devin isavailable in thischannel.Tag @Devin tobegin. Nov10th.2025at6:47PM
+> Showhelp
+> DevinAPp Threadin#dev Nov10th,2025at6:47PM
+> Devinisawaitinginstructions
+> ● Al Engin Bulding Al Engineer with Al
+> AlEngineer EUROPE Braintrust Workos OpenAl
 
 ![[assets/slides/zepu8Kk6FBQ/slide-010.jpg]]
 
@@ -236,9 +231,10 @@ OCR text:
 
 OCR text:
 
-> Agents for ;
-> in an e| oleae Let's knock something off your list
-> S havi ng ' See ee ae UCe aa cae oe _
+> Agents for Chat Cowork Code
+> Random *Let'sknocksomethingoffyourlist
+> Yak Shaving Cowork isinresearchpreview.Learnhow to useit safely. to-the-Figma-MCP-serverand https://docs.devin.ai/use-cases/gallery/figma-design- heycowork,readhttps://help.figma.com/hc/en-us/articles/32132100833559-Guide- Workinaproject Opus4.6 Let'sgo→
+> Al Engineer Europe 2026 Bulding AlEngineer withAl swyx
 
 ![[assets/slides/zepu8Kk6FBQ/slide-012.jpg]]
 
@@ -396,27 +392,32 @@ OCR text:
 
 OCR text:
 
-> ry Artis Vo te -
-> a from Spear Mardis Photo in tie websites Spada Kindy check thane.
-> o ;
-> | swyx (AIE)
-> Ti
-> Devin ---
-> Ma Talk to Devin in this thread
+> TrishMar9that12:57PM FromSpeakerMardu:Photointhewebsiteiswrong.Kindlycheck,thanks! CC
+> cc:@sWyx(AIE)
+> Agents for Screenshot2026-03-09at8.56.05PM.png Mardu Swanepoel tlarfe 128P
+> CMS HLia
+> 12replies
+> sWyx(AIE)Mar9that5:22PM
+> @Devinplsfix
+> DevinAPPMar9that5:22PM TalktoDevininthisthread
+> Al Engineer Europe 2026 Bulding Al Engineer with AI swyx
 
 ![[assets/slides/zepu8Kk6FBQ/slide-019.jpg]]
 
 OCR text:
 
-> 4 Kyle Hollingee m
-> , nr. \
-> tir"
-> Aaents for oe
-> feat)
-> ‘o° Bae ae aed
-> = | lense aa)
-> ¢ a> es]
-> ON tee ba ga et kia -
+> KyleHollingerMr11that824PM
+> 49replies Can we please bridge thisgap tomake sure we're pullingfrom the headshots theyve uploaded before we startpullingfrom the intermetplease and thankyou
+> Agents for speaker data thaticanrunin future @Devin can u store accel events apikey somewhere and writea data sync skill/script toupdate our 11G
+> ETL TalktoDevin in this thread DevinAPPMar11that8:25PM
+> ddeqamuado
+> Tip:Start your message with aside to have Devin ignore it
+> 8:25Ill helpset up anAccelevents APiintegration and data syncscript for speakeraata.Letme explore the repofirst to understand the current speaker data setup.then Ill need theAccel events APIkey from
+> you. Requestinga secret:ACCELEVENTS_API_KEY Accelevents APl keyforfetching speaker data(headshots.bios,socials)forAl Engineer Europe 2026. Found at Edit Enterprise -> Integrations -> APi Key in accelevents admin.
+> ProvideSecrets
+> Ineed the Accelevents APlkey to build the syncscript.Ive sent a secureinputrequest-youcanfind it in your Enterpriseadmin at EditEnterprise->Integrations->APiKey.ll saveit forall future Devin sessions soyouwon'tneed toprovideitagain.
+> While waiting.Tmresearching the image URLpattem to download speaker headshots from the imogeuri UUID feld in the APIresponse.
+> AlEngineerEurope2026 Bulding Al Engineer with Al swyx
 
 ![[assets/slides/zepu8Kk6FBQ/slide-020.jpg]]
 
@@ -473,17 +474,19 @@ OCR text:
 
 OCR text:
 
-> | hae an .
-> yay e + Caan
-> Cen EhiC mee
-> = . oe Eee
-> eplacing fe
-> om eine
-> SaaS f
-> Iida
-> Fi Pere
-> | ea
-> fs Perr
+> Kelsey Mohland,Lia McBride
+> QSeachsagesn chnel[xF）X Thurday.March 12h
+> swyx(AIE)7:11 amfeeling increasing uld cance elylor worldsfair
+> devin and competitors
+> Agents for swyx(AIE)712PM andwe canmodifyanythingwewantwithout 7:12PM
+> Replacing SaaS Well it's mostly the portal aspect we want to use it fo. SWyx(AIE7:12PN Kelsey Mohland13PM Not the schedlingperse KelseyMohland7:12PM yeah sWyx(AIE）7.13PM KelseyMohland7.13 SoKyle andIwere talking and getting ahaha not this sprint im aware what im proposing is t trivia edsto
+> sWyx(AIE)7:13 butkeif theres contractual KelseyMohland7:14PM With the AP1 access.we could it
+> sWyx(AIE)714PM thensorewit,go full way
+> im ready to commit to being ourinternal inhouse agent guy
+> d qam
+> pay For speakers?
+> Since it's stilthe platorm for registration and attendees
+> AlEngineer Europe 2026 And sponsors for lead scans. xAM
 
 ![[assets/slides/zepu8Kk6FBQ/slide-024.jpg]]
 

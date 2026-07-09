@@ -169,13 +169,12 @@ OCR text:
 
 OCR text:
 
-> rT
-> Core concepts
-> Prompt engineering Eb Al observability
-> ares | ey ee fat Tosrorese ce regres? Cee mn et aoe ae ee
-> aes eG aa aS Panera DE gee ae doe MO Pecug, eel
-> bs
-> | a Microsoft Gxcl®
+> BRAINTRUST.DEV Core concepts
+> AIE
+> Promptengineering Evals Alobservability
+> Think IDE for LLMoutputs Did Iimprove or regress? What's happening in prod?
+> Eval playgrounds for rapid prototyping Scores=a performance scoreof0-100% or？Debug.eval
+> Microsoft smol?
 
 ![[assets/slides/bk0TmxoZlUY/slide-011.jpg]]
 
@@ -240,13 +239,12 @@ OCR text:
 
 OCR text:
 
-> . Td
+> BRAINTRUST.DEV
 > What should I improve?
-> 71)
-> [ale] rome o) Improve evals
-> 5 Improve evals Improve Al app
-> ry
-> a u
+> K
+> AIE Goodoutput High score Improveevals Lowscore
+> ndinopeg Improveevals ImproveAlapp
+> aws
 
 ![[assets/slides/bk0TmxoZlUY/slide-015.jpg]]
 
@@ -354,19 +352,11 @@ OCR text:
 
 OCR text:
 
-> ce eee Re ; a came — — . | . . eee }
-> 
-> = :
-> 
-> 7m | :
-> EE Evals via SDK ° |
-> mB |
-> 
-> es | . "
-> b O607"O0880-84° HE -*28”
-> 
-> 2
-> a a Microsoft @yr{?
+> AIWorldFar-Eval Track Fe EdtVew nsertFormat Side? 回 D Sidesho
+> QMetus
+> AIE
+> Evals via SDK
+> Microsoft smol?
 
 ![[assets/slides/bk0TmxoZlUY/slide-021.jpg]]
 

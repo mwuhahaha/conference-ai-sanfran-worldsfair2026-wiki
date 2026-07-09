@@ -35,13 +35,14 @@ OCR text:
 
 OCR text:
 
-> Are coding agents
-> aioe t suscre 5
-> id a © ; a - 7 : 7 ; woe cE a 7 3 : a
-> i,
-> — i . al)
-> — a Microsoft @7yry
-> - |
+> Are coding agents good or slop?
+> Jessie Frazelle ejessfraz Subscribe
+> AIE Reminder:this is all fake.Any time someone makes a claim like this, awfulandcan'tprogram atall. JonathanBlow @Jonathan_Blow I think you are right and the problem is there is the top 0.05% engineers and there iseveryone else and its helping the_everyone elses_10x themselves,lkeiuseitfrom time to time butitcertainly hasnot0x-ed myspeedmyspeedwas alreadyfastwithoutit 12:52 PM · May 29, 2025 - 10.9K Vlews Q: t.
+> Ithink it's undebatable that devs are moving at a different speed Since Claude 4 launch:SWEfrlend told mehe cleared his backlogforthe first time ever,anotherfriend shipped amonth's worth of side projectwork inthe past 5 days, and my DMs are full of similar stories. Showmore Alex Albertalexalbert_·May28 Did you get up on the idiot side of the bed this morning? I'm seeinghuge speedup too.lt ain't fake. Erlc S.Raymond
+> 5:41PM-May 28,2025-809KViews 8:40 AM·May 29,2025·5,233 Views 48
+> 1.My AI skepticfriends are all nuts(fly.io) 1003pointsby tabletcorry7hoursago|flag|hide|1304comments
+> Microsoft smol?
+> id'sFair
 
 ![[assets/slides/F_RyElT_gJk/slide-003.jpg]]
 
@@ -65,11 +66,9 @@ OCR text:
 
 OCR text:
 
-> Using coding agents like you were
-> using Al coding tools
-> %}
-> = 0
-> 0 ' _ a Microsoft ey
+> AIE Topmistake: Using coding agents likeyou were using Al coding tools 6 months ago
+> Microsoft smol°
+> rld'sFair
 
 ![[assets/slides/F_RyElT_gJk/slide-005.jpg]]
 
@@ -189,20 +188,16 @@ OCR text:
 
 OCR text:
 
-> . e = A o Pere
-> oo = ad a QO Cc * 7 * fs} £
-> Amp Sane ss See nO Trend) (orca meee
-> «) Beyang liu beyurg@sou‘cegraph.car Sage ok
-> Team Membership
-> Create Team
-> Team Name
-> 5 et
-> 9
-> er
-> _ AA; °
-> C
-> re a Microsoft §S~ocy
-> —
+> Amp Threads dbLeaderboard Beyang EA
+> AIE Name BeyangLiubeyang@sourcegraph.com Emall [>SignOut
+> TeamMembership
+> You're not a member of any team.
+> Create a team to share threads with others. Teams also get leaderboards and shared biling. Create Team
+> TeamName
+> ab-case（e.g.,my-team)
+> Team
+> Microsoft smol?
+> orid'sFair
 
 ![[assets/slides/F_RyElT_gJk/slide-012.jpg]]
 
@@ -232,17 +227,22 @@ OCR text:
 
 OCR text:
 
-> oi Poof.
-> PO ee Sat rer)
-> Amp oO
-> Getting Started
-> RS etre ERT) weer , ;
-> =
-> es : ;
-> 1 aWws
-> ld |
-> i
-> ay
+> Preview README.md
+> Amp
+> Ampisanagentic coding toolinresearch preview fromSourcegraph.
+> See Amp Owner's Manual formore informationabout Amp. antcom Out
+> AIE Getting Started Tools
+> 1.Create server/.env.local withcontentsfrom 1Password
+> macOSbootstrap browse_navigate
+> 1. Install dependencies: wser_tao_lstbrowser_tab_new
+> 2.Create podman machine with sufficlentresources: brew installrg brew install redis brew install mise brewinstall postgresql brew install podman brewinstall podman-desktop 口 ist_ce er_type Beamyes get_lss ue_status lst_prejects getproject
+> podman machine init-disk-size 128-memory 16384
+> find_issue
+> NOTION
+> ILservice: get_page
+> ces start postaresql AMR
+> aws
+> rid'sFair
 
 ![[assets/slides/F_RyElT_gJk/slide-014.jpg]]
 
@@ -560,23 +560,18 @@ OCR text:
 
 OCR text:
 
-> ss a a
-> : La = a a Peres
-> Eat Connection
-> Connection Type
-> | Remote MCP Server .|
-> i Es
-> Display Name
-> Aeecr
-> Lsirels Cua)
+> EaitConnection
+> Amp Connection Type Edit the external connection configuration.
+> Connections Remote MCPServer
+> AIE Connectors Display Name Linear
+> Hidden
 > Configuration
-> { i
-> “endpoint_ucl: “nttos://mcp. linear.app/sse"
-> i
-> ~
-> w
-> or
-> —
+> GitHub "endpoint_url":"https://mcp.linear.app/sse"
+> Linear
+> Connection configuration in JSoN format
+> XCancel Save
+> aws
+> rid'sFair
 
 ![[assets/slides/F_RyElT_gJk/slide-022.jpg]]
 

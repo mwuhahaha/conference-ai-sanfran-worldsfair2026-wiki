@@ -129,15 +129,16 @@ OCR text:
 
 OCR text:
 
-> OSM Cedar) @- els) a ato. 23-)
-> Repo grapn
-> PT od
-> i
-> >
-> So it leans on the one who actually understands what is going on: i:1:
-> Gree re ero lef
-> , _
-> wa wy
+> 1000Z0
+> Thisiswhatagentsees
+> Session graph
+> All the conversations and
+> decisions about the work.
+> Repograph
+> Hard code artifactsproduced by Bono auth-lib
+> onrepo
+> Soit leansontheonewho actuallyunderstandswhatisgoingon:the developer.
+> Prevloun
 
 ![[assets/slides/jVjt-2g8NMY/slide-007.jpg]]
 
@@ -253,22 +254,17 @@ OCR text:
 
 OCR text:
 
-> Se Mae etal
-> fetch-app-title-from-backend a
-> ae eee eee
-> io) ~
-> fet ape tht te basen ad
-> Q a
-> ie Sete erieta Ty
-> a
-> *
-> ey
-> om
-> lO Rtae Sit ee Prieta.) 7
-> io Co
-> od
-> yw y
-> ss i
+> snapshot.app.trypolygraph.com MOK Sv1T
+> Poygraph Polygraph-Demo-Snapshot Sessions fetch-app-title-from-backend
+> fetch-app-title-from-backend fetch-app-title-from-backend npoly-frontend-93ofscbe-feto 9Access
+> clor Sait
+> fetch-app-title-from-backend Overview Log view
+> polygraph session resune fetch-app-title-
+> extract-desigs-systen-coaponest--
+> Oraph
+> poly-backend-93df5cbe
+> at(app-info):addGETJapiapp-inf
+> poly-frontend-93df5cbo
 
 ![[assets/slides/jVjt-2g8NMY/slide-012.jpg]]
 

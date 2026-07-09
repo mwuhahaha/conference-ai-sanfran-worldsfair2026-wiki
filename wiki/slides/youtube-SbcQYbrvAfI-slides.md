@@ -21,31 +21,19 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> ay onary es) . . . . . : Bs ne
-> Applied Prompt FCDA
-> Me De) nee ON
-> bal OptimizationLoop... -° ASN
-> ~ ee Ty] : 7 . BAN S |
-> , y a _ a ° A
-> 4 yl f | yo
-> t- f - Os PT
-> 7 ‘ . ._.
-> = (f* fee 2025-11-22 12:33:53
+> arize
+> Applied Prompt Learning: Building a Eval-Driven Optimization Loop
+> SallyAnn DeLucia &Fuad Ali
+> JFK27-B1.300 2025-11-2212:33:53
 
 ![[assets/slides/SbcQYbrvAfI/slide-002.jpg]]
 
 OCR text:
 
-> a te . ANITA ee
-> Tea 13 FDO
-> BT Lh) eee
-> _ OptimizationLoop... - A ;
-> | | pee ey) D : 7 iu ASN . r
-> . oo ;
-> i.
-> a ee
-> A eal a A _ on A
-> veusy ens aa ; 2025-11-22 12:34:43
+> arize
+> Applied Prompt Learning: Building a Eval-Driveni Optimization Loop
+> SallyAnn DeLucia &Fuad Ali
+> JFK27-B1.300 2025-11-2212:34:43
 
 ![[assets/slides/SbcQYbrvAfI/slide-003.jpg]]
 
@@ -135,13 +123,12 @@ OCR text:
 
 OCR text:
 
-> Prompt Learning
-> Agent __—_— Output > LLM Evals
-> (Student) (Takes Exam) (Teacher)
-> Update Prompt
-> (Lessons, HWs)
-> Algorithm: Meta-Prompting
-> (Teaching)
+> PromptLearning
+> (Student) Agent （Takes Exam) Output LLMEvals (Teacher)
+> (Lessons,HWs) UpdatePrompt EnglishFeedback which answers werewrong
+> WHYanswers
+> Algorithm:Meta-Prompting (Teaching) werewrong WHEREstudent needsto study
+> arize IWe Make Modols Wori 2025-11-2212:40:08
 
 ![[assets/slides/SbcQYbrvAfI/slide-010.jpg]]
 

@@ -36,32 +36,31 @@ OCR text:
 OCR text:
 
 > Wholam Why I'm giving this talk
-> ~-f.*
-> \ ava ) Mast
-> Sam Bhagwat 4 The Typesc :
-> Tee aerten CET Str Fey] bin
-> a npm create mastra
-> |
+> AIE Mastra is theleading Typescript agent framework Users use our agent andworkflowprimitivesfor differentuse-cases....and sometimestogether
+> Mastra
+> SamBhagwat TheTypeScriptAlFramework
+> Author,Principles of Prev:Gatsby co-founder BuildingAl Agents Founder/CEO,Mastra.ai samonX/Twitter s npm create mastra
+> github.com/mastra-ai/mastra
+> Word'sFair
 
 ![[assets/slides/8SUJEqQNClw/slide-003.jpg]]
 
 OCR text:
 
-> In December Anthropic
-> wrote a great blog post
-> that canonically defined
-> agents and workflows
-> - | a Microsoft @yr{??
+> AIE In December Anthropic wrote a great blog post
+> that canonically defined agents and workflows
+> github.com/mastra-ai/mastra
+> Microsoft smol?
+> Worid'sFair
 
 ![[assets/slides/8SUJEqQNClw/slide-004.jpg]]
 
 OCR text:
 
-> In April OpenAl A practical
-> released a paper building agents
-> on the topic
-> hy:
-> a a Microsoft Qa?
+> AIE released a paper In April OpenAl on the topic guideto Apractical buildingagents
+> github.com/mastra-ai/mastra
+> Microsoft smolo
+> World'sFair
 
 ![[assets/slides/8SUJEqQNClw/slide-005.jpg]]
 
@@ -115,10 +114,11 @@ OCR text:
 
 OCR text:
 
-> So when | see APIs :
-> like this, it gives me
-> (bad) flashbacks
-> a | a Microsoft @yr{?
+> AIE SowhenIseeAPls const graph =new MessageGraph() 1/Langgraph.js
+> like this, it gives me (bad) flashbacks.addEdge(“nodeB"，END).addNode(“nodeB"funcB).addEdge("nodeA"，"nodeB").addEdge(START,"nodeA").addNode("nodeA",funcA) nodes edges
+> github.com/mastra-ai/mastra
+> Microsoft smol?
+> World'sFair
 
 ![[assets/slides/8SUJEqQNClw/slide-010.jpg]]
 
@@ -208,12 +208,12 @@ OCR text:
 
 OCR text:
 
-> At the end of
-> the day it’s all
-> just a tradeoff
-> Peer err eae
-> ar | -
-> i a Microsoft ary?
+> AIE At the end of control
+> justa tradeoff theday it'sall
+> multi-agent agent workflow
+> github.com/mastra-ai/mastra
+> Microsoft smol?
+> Word'sFair
 
 ![[assets/slides/8SUJEqQNClw/slide-017.jpg]]
 

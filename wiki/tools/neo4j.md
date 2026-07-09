@@ -43,13 +43,13 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-1t-9-s1brcg-slides]]
 - [[youtube-5_QWh4LGoxg-slides]]
 - [[youtube-5nOLb27hQ5w-slides]]
+- [[youtube-84Vtz2IL1Ug-slides]]
 - [[youtube-B9h9ovW5H9U-dense-slides]]
 - [[youtube-B9h9ovW5H9U-reconstructed-slides]]
 - [[youtube-B9h9ovW5H9U-slides]]
-- [[youtube-eW_vxrjvERk-dense-slides]]
-- [[youtube-eW_vxrjvERk-reconstructed-slides]]
-- [[youtube-eW_vxrjvERk-slides]]
-- [[youtube-himhGiWJXjo-slides]]
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-ZRM_TfEZcIo-slides]]
+- [[youtube-aqW68Is_Kj4-slides]]
 
 ### Topic Pages
 - [[agent-memory]]

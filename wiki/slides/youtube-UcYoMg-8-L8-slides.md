@@ -112,18 +112,14 @@ OCR text:
 
 OCR text:
 
-> | DESIGNER | : DEVELOPER
-> » ; & : rd Pres ee oo
-> evs re
-> 
-> : : ‘ pt . we St owen wa ee ' ,
-> 
-> \ a \
-> 
-> + . ‘,
-> / PRODUCT * | DESIGNER
-> 
-> Hh uly.
+> DESIGNER DEVELOPER
+> Rename mpy tale siotlabel from HOSTto GAME
+> LMy A
+> n
+> on stay &
+> punopeqqopuyd ddy agethn
+> ddpdpsp
+> PRODUCT DESIGNER
 
 ![[assets/slides/UcYoMg-8-L8/slide-008.jpg]]
 
@@ -155,22 +151,14 @@ OCR text:
 
 OCR text:
 
-> _ : R27 yy - waa’ =—
-> ee ee a a
-> ake ©... > “%@ en aen 7
-> Sone Sing.
-> ae : hese . ~
-> ee ~~~ :
-> as _ woes Son u ; -
-> Ri e@-. - iS
-> . = . ee, a
-> — peel EY i. =
-> mh = i 4 @-.... .
-> . an
-> —
-> = @
-> 7 a , a ; ~
-> ai aia
+> 12:278 Synthest
+> Synthest D Do you ship to Lima,Peru?
+> We ship anywherepostal works.
+> theEUandUS.Expegttentofourteen approximately$40- coveritif you spendmore than$500. business days,and Customs andVATare onyououtside Uugh we'll ingruns
+> FAQS
+> Thiswas anautomated replybasedon the shops Info.The hop owner haseennotified and w followup.
+> Allsynths are in]
+> WooCommerce
 
 ![[assets/slides/UcYoMg-8-L8/slide-011.jpg]]
 

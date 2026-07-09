@@ -1,0 +1,89 @@
+Q
+Conversion.ipynbMx
+Token_Cost_Comparison.ipynbM
+Chunkless_RAG.ipynb M
+Chunking.ipynb
+DOCLING-WORKSHOP
+ntsinto Al-Ready Data with Docling>M Working with Tables>M Basic Table Export >print(f\nDocument contains{len(table_doc.tables)} tables)
+notebooks
+>fixtures
+Add CodeAdd MarkdownRun All Restart Clear All Outputs|Jupyter Variables Outline
+.venv (3.13.7)(Python 3.13.7)
+>output
+#Save as HTHL
+gitignore
+withopen(output_dir/f"table_(table_idx).html",
+"）asfp:
+Chunking.ipynb
+fp.write(table.export_to_html(doc=table_doc))
+BChunkless_RAG.ipynb
+[es]
+√0.0s
+Python
+Conversion_Colab.ipynb
+Usage ofTableItem.export_to_dataframe()withoutdoc'argument isdeprecated.
+Conversion.ipynb
+M
+MCP_Agents.ipynb
+M
+Document contains 8 tables
+Ollama RAG.ipynb
+RAG.ipynb
+##Table
+Shape:(4,4)
+Serving.ipynb
+Token_Cost_Compari..M
+Cauldron
+LLaVa-OneVision
+Cambrian-7m
+>scripts
+General
+276.5K
+881.3K
+1.8M
+>src
+Language/Captioning
+202.1K
+N/A
+NA
+gitignore
+Math/Science/Reasoning
+178.4K
+318.0K
+354.5K
+!.markdownlint-cli2.yaml
+Image Comparison
+188.9K
+N/A
+NA
+!poutine.yml
+!.pre-commit-config-yaml
+F.spellcheck-en-custom.txt
+##Table1
+!.spellcheck.yaml
+Shape:(4,4)
+Fconstraints.txt
+LICENSE
+Cauldron
+LLaVa-OneVision
+Cambrian-7m
+!mkdocs.yml
+General
+812.7K
+2.0M
+7.9M
+pyproject.toml
+Language/Captioning
+203.3K
+1.2M
+1.8M
+①README.md
+Math/Science/Reasoning
+765.1K
+464.8K
+802.0K
+Image Comparison
+237.9K
+N/A
+N/A
+OUTLINE

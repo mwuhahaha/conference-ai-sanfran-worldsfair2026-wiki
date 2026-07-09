@@ -73,33 +73,27 @@ OCR text:
 
 OCR text:
 
-> ir January, 2023: Moderation
-> World's Fair
-> 
-> OpenAl Banning accounts.
-> cx
-> 
-> wrid's ; j a
-> 
-> b “
-> 
-> eal
-> 
-> re als
-> 
-> MT eet Engineering the future of Al
+> World'sFair AIEnginee January,2023:Moderation
+> OpenAl Banning accounts. Noobrage2112 r/ChatGPT-2yr.ago
+> orld's AEngin Hithere, OpenAl APlin ways that violate our policies. Gone Wid
+> for breachncludevioltionsofourontenlicy,repeated attemptsatisallweducasesoraccessingthe APifromanunsuportedlocation.Youmayalsowishtoreview ourTermsof Use.
+> Worl AII appeals within one business dayand will contactyouif wereinstateaccess to theAPi.
+> The OpenAl team Best,
+> That was the E-mailreceived just a couple of minutes earlier.
+> orl A 1had just purchased an account for the Beta Playground and shortly after I was removed.I'mnot going to be supporting OpenAl anymore after this action.I don't appreciate the weights and aggression they have placed on adventure games thatmight entailforms of Violence/Gore/Fantasy/Erotic/Fictional gameplay the filter precautions, and I feel this is highly unfair. Itseems OpenAl does not appreciate people usingit's program for D&DyText based/ Roleplaying/Fictio
+> World'sFair AEng Engineering thefuture ofAl
 
 ![[assets/slides/84Vtz2IL1Ug/slide-005.jpg]]
 
 OCR text:
 
-> i February, 2023: Open Source race begins...
-> World's Fair
-> [D] List of Large Language Models to play with.
-> orororm a a
-> ; i< |
-> ore WE . a
-> World's Fair Engineering the future of Al
+> World'sFair AIEnginee February,2023:OpenSourceracebegins...
+> [D]ListofLargeLanguageModelstoplaywith. r/MachineLearning-2yr.ago sinavski
+> orld'sFair AlEng a the landscape sinceIhaven't worked in thisfieldbefore.I'm trying torun them“from the largest to the smallest" Discussion
+> By“relatively easy”,Imean doesn'trequire to setup aGPU cluster or costsmore than$20:)
+> gm AI Here are someexamplesIhave foundso far: 2.QpenAlaoi to access GPT-3s(from ada (0.5B) to davinci(175B)).Also CodeX ChatGPT (obviously)-175Bparams
+> orld'sF AlEngk 4.OPT-175B（FacebookLLM),the hostingworks surprisingly fast,but slower than ChatGPT 5.Several modelsonHuggingFace thatlmade torunwith ColabPro subscription:GPT-NeoX20B,Elan-t5-xxl Hugging faceAPl interfaces/spaces didn't workforme:(.Here is anexample notebookImade forNeox. 11B,Xlm-roberta-xxl10.7B,GPT-j6B.1spent about$20 totalonrunning themodelsbelow.Noneof the
+> World'sFair AIEng Engineering the future of Al
 
 ![[assets/slides/84Vtz2IL1Ug/slide-006.jpg]]
 
@@ -182,15 +176,14 @@ OCR text:
 
 OCR text:
 
-> ee March, 2023: The first distillation success
-> World's Fair
-> Alpaca: A Strong, Replicable Instruction-Following Model
-> vS
-> es
-> | | Stanford (3
-> anv Alpaca &&
+> World'sFair AIEngin March,2023:Thefirstdistillationsuccess
+> Alpaca:AStrong.ReplicableInstruction-FollowingModel
+> VS Authors: Rohan Taori and Tianyi Zhangand Yann Duboisand Xuechen Tatsunori B.Hashimoto
+> Wetroduce Apac 7Ba moder fine-tuned fro Ie LLaMA78modef n52K dsuqd (6o0S).Ceckout our code release ont
+> Update:Thepubilicdemoisnow disabiedThe origin mostiyachieved nisgoaandgiventhe hosting wedecided tobring cownthedemo rch in an accessible way. We foe/ thit we nave
+> 4j Stanford Alpaca
 > Overview
-> World's Fair
+> World'sFair AEn Microsoft
 
 ![[assets/slides/84Vtz2IL1Ug/slide-010.jpg]]
 
@@ -206,13 +199,12 @@ OCR text:
 
 OCR text:
 
-> ree WF VA Ae Pac bm O lel -1al cele lcs
-> The Unified ae
-> aws Interface For LLMs a
-> > -
-> ae i BYeys1) Pad
-> N
-> World's Fair a Microsoft ae smoot
+> World'sFair AIEnginee May,2023:0penRouter
+> aws Betterprices,betteruptime,nosubscripton. InterfaceForLLMs TheUnified Featured Models Gemini 2.5ProPreview 6c06 215.0B Tokens/ek 2.4s +7.02%
+> Fair Starta message uadofa GPT-4.1 49.1B 815ms +4.23%
+> ClaudeSonnet4
+> 04j 242.8B 1.7s +47.29%
+> World'sFair AEng Microsoft aws smolo
 
 ![[assets/slides/84Vtz2IL1Ug/slide-012.jpg]]
 
@@ -280,17 +272,13 @@ OCR text:
 
 OCR text:
 
-> World's Fair
-> ae] WS
-> Closed-source models cece yet gee ptt iene
-> didn’t keep up with
-> Be aT demand... no =
-> 4
-> ee ator. |
-> N
-> cer
-> tan oa [ Pperare|
-> MT er Engineering the future of Al
+> World'sFair AIEngine Anthropic:Claude3.7Sonnet antzop1c/elaude-3.7-sonet0 Chat
+> Fair aws Overview Providers Versions Apps Activity Uptime API
+> Closed-sourcemodels didn'tkeepupwith Uptime statsforClaude3.7Sonnet Uptie satsfor Claude 3.7 Sonet ac
+> 'sFair demand...
+> Fair neo4j
+> on
+> World'sFair Engineering the future of Al
 
 ![[assets/slides/84Vtz2IL1Ug/slide-015.jpg]]
 
@@ -341,18 +329,19 @@ OCR text:
 
 OCR text:
 
-> renee Will intelligence be winner-take-all?
-> Token Marketshare by Model Author
-> a es Le aS a bi an
-> a * Pere ie = al i. a ae
-> x . a is
-> 7 |
-> ee all U
-> I
-> | i eu nin |
-> | a “ee j Ml
-> en ae
-> eee MEW reco <o)| aah ES 680 0 Oh
+> World'sFair AIEngineer Will intelligencebewinner-take-all?
+> TokenMarketsharebyModelAuthor
+> WS 100% une1.2025 OpenRouter
+> 34.6%
+> 22.9%
+> shropic 16.7%
+> ode %09 meta-llama 14.7% 3.9%
+> 2.8%
+> 30% 1.5% 1.3%
+> 04j 0.7% 0.5%
+> 0% Jun2,2024 Jut21 Sep8 Oct27 Dec15 Feb 2 Mar 23 May 11 Total ousresearch 100.0% 0.4%
+> H'eFair
+> World'sFair AIEn Microsoft aws smolo
 
 ![[assets/slides/84Vtz2IL1Ug/slide-017.jpg]]
 
@@ -392,16 +381,10 @@ OCR text:
 
 OCR text:
 
-> AlEngincer 7 AlEngincer
-> rosoft | ya eR ar lL | Lc hd | Vera al |
-> ro Tard
-> Seely | F- zg | & tambo
-> | I os ae , Ps AlEngincer
-> ‘rust rl 2 ee O} Rote Da
-> 
-> ot
-> — i.
-> a | ; ; en a oe | |
+> rosoft World'sFair AlEngineer aws World'sFair AIlEngineer
+> sFair Work AIEngineer ld'sFair tambo
+> trust World's Fair AIEngineer neo4j World'sFair AIEngineer
+> AIEngineer
 
 ![[assets/slides/84Vtz2IL1Ug/slide-020.jpg]]
 
@@ -468,13 +451,14 @@ OCR text:
 
 OCR text:
 
-> ere Better prompt RLS .
-> Better model discoverability/routing.
-> | -
-> | yo
-> ST 8
-> a sa
-> MT et Engineering the future of Al
+> World'sFair AIEngine Bettermodeldiscoverability/routing. Betterpromptobservability.
+> openai/gpt-4o-mini0
+> Starting at $o.6O/M output tokens $0.217/K input imgs
+> Technology（#1) Science（#1) Marketing/Seo (#6) Programming（#6) Translation(#6) +3categories
+> GPT-4ominiisOpenAl'snewestmodel after GPT-4 Omni supporting both textand image inputs wit Asthelrmost acvanced smallmodelis.many Trivia(#9) Finance (#7) perthanGPT-3.5
+> Academia(#10)
+> Overview Providers Apps Activity Uptime API
+> World'sFair AEnc Engineering the future of Al
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

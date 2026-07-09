@@ -166,10 +166,10 @@ OCR text:
 OCR text:
 
 > Our Principles
-> todayandtomorrow.
-> A.GENTS.ATWOFK
-> E
-> WORK
+> How we think of building vibey, agentic technology for
+> todayandtomorrow. A.GENTSATWOFK
+> aWOex AGOTSIT
+> Ntnges
 
 ![[assets/slides/bVNNvWq6dKo/slide-008.jpg]]
 
@@ -300,12 +300,12 @@ OCR text:
 
 OCR text:
 
-> ae User runs commands in Terminal
-> “Ss. F we
-> a on orc . ae |
-> Cascade is up-to-date with recent termina! commands
-> AGENT ENGINEERING
-> _ ee Tet)
+> UserrunscommandsinTerminal
+> AIE yashmittal@MacBook-Pro-2Testdwbs Problems Output Debug Console Terminal Ports zsh node zsh zsh cat
+> Cascadeisup-to-datewithrecentterminalcommands
+> Ssource-/.bashrc sdwbs p6s sacimg Yourrecent terminal commands: sgd
+> AGENTENGINEERING
+> HTTPS://AI.ENGINEER
 
 ![[assets/slides/bVNNvWq6dKo/slide-012.jpg]]
 
@@ -432,9 +432,12 @@ OCR text:
 OCR text:
 
 > We are the first and only company to replace Chat
-> with Agents
-> “and peaple love that’
-> aR ETRE GD
+> withAgents
+> *andpeoplelovethat*
+> whetherit writes code orhelps you specc feature before codingit.Very cool! Yep,they callitCascadeandyoucantog lanNuttall t3 @iannuttall-11/18/24 1 3.1K Shao|少蒙 Follow hole process of the code generation and tave tested both and my pick is Windsurf. fiting feels more natural and built-in... MICHALO @michaLdolnik Follow
+> Thosewhoknow,know.NotallAlbasededitors
+> arethesame.Thedeepcontextawarenessof
+> maintainingthe conversation eric@itsmnjn·2d onesubtle uxdiffiappreciatein@windsul compared to@cursor_ai is the ability to sv fromcomposer/agentmodeto chatwhile separation ofcomposervs chatinUx... windsurfistrulyremarkable.Itevenknowsthe cursorlocation,thechangessofar,otherfilesl didn'tmention,anditdoesn'thavethearbitrary 9:19PM-2/13/25·57VieWS ScottForsyth@ScotiForsyth-12/12/24 Greatreview.Ive used Windsurf a lotin the last couple of weeks,and1generallypreferitover Cursor.lt feels more integrated andnatural.
 
 ![[assets/slides/bVNNvWq6dKo/slide-019.jpg]]
 

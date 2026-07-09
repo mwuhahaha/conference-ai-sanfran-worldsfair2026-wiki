@@ -89,14 +89,9 @@ OCR text:
 
 OCR text:
 
-> a
-> :
-> uN
-> Urea Wit
-> Santa Barbara Overview ren
-> a
-> ; a
-> a ALEXA: Santa Barbara is great for everyone.
+> natural wonders.Would youlike tomake anychanges or shall we dive intomore detailsforeachday? FodorsTravel 722:35
+> SantaBarbaraOverview June-3days 2adults.2teens Day1 santsat
+> ALExA:SantaBarbaraisgreatforeveryone.
 
 ![[assets/slides/WJjInLeaJjo/slide-007.jpg]]
 
@@ -170,30 +165,22 @@ OCR text:
 
 OCR text:
 
-> vr are Alexa+ / A! agents at scale
-> 
-> ae X
-> 
-> . 600 million devices
-> 
-> ny Hundreds of specialized expert systems
-> a ie cs p p Mi
-> 
-> ad Tens of thousands of partner services and devices
-> ane ef
-> 
-> Mee ei Engineering the future of Al
+> World'sFair AlEnginee Alexa+/Alagentsatscale
+> orld'sFai AEng Honeywell Spotify YSOAY NSWUS SONO amazon music GRUBHUB levoit EMERSON uber OUSINES
+> 600milliondevices hulu
+> gmr Wo ATdyson Tensofthousandsofpartnerservicesanddevices Hundredsofspecializedexpertsystems
+> orld's AlEngine plex TED Eugust WOLFRAM XBOX VSVN vagaro
+> World'sFair Engineering the futureofAl
 
 ![[assets/slides/WJjInLeaJjo/slide-010.jpg]]
 
 OCR text:
 
-> rere
-> oe A
-> i From web services
-> Ae to agentic services
-> ae [
-> rene as Engineering the future of Al
+> World'sFair AIEnginee
+> orld'sF Fromwebservices
+> gr Wo to agentic services
+> orla AErv
+> World'sFair Engineering the future of Al
 
 ![[assets/slides/WJjInLeaJjo/slide-011.jpg]]
 
@@ -287,16 +274,9 @@ OCR text:
 
 OCR text:
 
-> ere strands EN telah
-> strands tools calculator
-> eae agent = Agent(tools=[calculator])
-> Wort « iir| agent( . )
-> oo
-> , ‘ F .
-> , { ;
-> |
-> Yoo
-> Ci BUILDING AGENTS AT CLOUD-SCALE
+> World'sFair AlEngine from strands import Agent from strands_tools import calculator
+> Worl AEn agent=Agent(tools=[calculator]) agent("What is the square root of 1764")
+> aws BUILDINGAGENTSATCLOUD-SCALE
 
 ![[assets/slides/WJjInLeaJjo/slide-017.jpg]]
 
@@ -446,12 +426,13 @@ OCR text:
 
 OCR text:
 
-> rere Fair '
-> Agent Store
-> —— Nee —— \ My Agent lo). —™
-> st ® ae
-> ra is : " | -
-> rene as Engineering the future of Al
+> World'sFair AlEngineer
+> AgentStore
+> World'sF AIEng MyAgent Weath
+> WildUnk
+> Whardoyouwant to do today?
+> W Concept artwork-nota realproduct
+> World'sFair AlEngk Engineering the future of Al
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

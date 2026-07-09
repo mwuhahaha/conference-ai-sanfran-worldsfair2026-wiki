@@ -53,11 +53,8 @@ OCR text:
 
 OCR text:
 
-> Nara ae eee
-> ‘ aa s an
-> 
-> iL
-> | i a Microsoft Qc?
+> AIE Hit
+> Microsoft smol
 
 ![[assets/slides/xnXqpUW_Kp8/slide-004.jpg]]
 

@@ -1,5 +1,7 @@
 High Level ldea
 Query
 FIFA World Cup
-Unstructured Corpus DataStructure
+Unstructured
+DataStructure
+Corpus
 ONAIR

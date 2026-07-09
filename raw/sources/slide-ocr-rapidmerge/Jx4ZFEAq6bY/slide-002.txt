@@ -1,0 +1,8 @@
+What is an agent?
+E
+An agent is an LLM with agency: it reasons, invokes
+TOOLS to interact with the world, RETRIEVES from
+memory, and loops until the TASK is complete.
+ia!
+il
+q

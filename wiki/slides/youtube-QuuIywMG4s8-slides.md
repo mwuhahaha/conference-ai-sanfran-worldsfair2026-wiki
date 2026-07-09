@@ -86,12 +86,12 @@ OCR text:
 
 OCR text:
 
-> terminal-bench: benchmarks for ai
-> yoX—) Leg 3 aes TON ea
-> Pd Pa
-> [nr to tst oy age
+> terminal-bench: benchmarks for ai agents in terminal environments
+> AIE to help agent makers quantify their agents'terminal mastery terminal-bench isa collection of harbor-native benchmarks
+> ).terminal-bench 3.θ is nowin development terminal-bench-science is now in development
+> help build the next frontier benchmark extending terminal-bench to the natural sciences
+> iwant to testmyagent
 > Engineering the future of Al
-> , Pl
 
 ![[assets/slides/QuuIywMG4s8/slide-007.jpg]]
 

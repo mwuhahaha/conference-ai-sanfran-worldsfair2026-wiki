@@ -55,32 +55,29 @@ OCR text:
 
 OCR text:
 
-> Today no
-> Scattered, lost reasoning i.
-> Sa 7) g
-> 4
-> : * Y . . Es y
-> * * a ra
-> * a op . .
-> rd an
-> oa ? - SA eee
-> Oca Ss if
-> a : Pa
-> od ae
-> ar 7 Oe - a *
-> | Al Engineer |
-> ae tela
+> Scattered,lostreasoning Today
+> AIE CRM Why? Alternatives Considered?
+> Slack Slack ZendeskSupport Ticket
+> JraProject Board
+> pd
+> PagerDuty Zoom
+> Context Lose inPeople's Heads& Silos Tribal Knowledge,Cross-System Synthess ApprovalChains Outside Systems
+> AIEngineer
+> EUROPE
 
 ![[assets/slides/eW_vxrjvERk/slide-005.jpg]]
 
 OCR text:
 
-> Hype cycle for Agentic Al od
-> x * _ ' , ke 7 :
-> Ba rs oe tela @
-> Pans fe) yas aoa | ,
-> 5 aw _
-> | Al Engineer |
+> Hype cycle for Agentic Al
+> AIE EXPECTATIONS Hunan-Agent Collaborbonwospace AIAgentDe Domai Context Graphs Emtarprine Al Assistants- eticAIGo AgeticA/Security Agentic Analytics Multingeet Systes No-Code Agent Buders AlCodingAgonts Machine O Model Conlext Protocol certcAl stomers
+> EmbodedAl
+> AlAgnt Communicaticn Protoool Agent Managam tPatform
+> AlAgentsin SofthwareEngine Agent Marketpiace
+> FinOgs for Agentic Al AgenticBrowser Coetinul Leaig Agentc Commerce
+> Guardlan Agent Agent Experonce(Ax Computer Use for Agents Agent Deveiopent Lre Cycle Ageet Orchestration Platesu will be reached: 2ym 2-5y O5-10ym 10yrx Obsclete before plateau AsetAgri2026
+> Innovation Peak of Inflated Expectations Disillusionment Troughof TIME Enlightenment Productivity Plateauof
+> AIEngineer
 > EUROPE
 
 ![[assets/slides/eW_vxrjvERk/slide-006.jpg]]
@@ -323,12 +320,11 @@ OCR text:
 
 OCR text:
 
-> Context graph based retrieval a
-> Tonle ae ue eae ad Agent Loop (ober orn e TE
-> ad od RetnavalTocis
-> Neodgj
-> e a
-> r is
+> Contextgraphbasedretrieval
+> AIE Search ContextGraphMemory RetrievalTools AgentLoop Contextual Memory
+> Retrieval Query Information Relevant
+> neo4j
+> Knowledge Graph + Vectors GraphData Science
 > Engineering the future of Al
 
 ![[assets/slides/eW_vxrjvERk/slide-019.jpg]]

@@ -69,14 +69,11 @@ OCR text:
 
 OCR text:
 
-> as
-> Think like an SRE: Accuracy gives way to Reliab."
-> Satisfaction LD S& Tool Success
-> SN
-> [ ’ Reliability \ Plannin
-> Accuracy Safety Yi) Quality”
-> Y—X
-> Cost -— Latency
+> Think like an SRE: Accuracy gives way to Reliab
+> Task Success
+> Satisfaction Human Tool Success
+> Accuracy Safety Reliability System Planning Quality
+> Cost Latency
 
 ![[assets/slides/vljxQZfJ9wY/slide-005.jpg]]
 
@@ -162,13 +159,11 @@ OCR text:
 
 OCR text:
 
-> The Continuous Evaluation Loop TS
-> O ORES
-> [ Evaluation is an \
-> validate systen antes (> always-running ( \
-> before He eee WT service, not a WT for edge cases
-> \ testing phase. J
-> SO A wis.
+> The Continuous Evaluation Loop
+> A Online Telemetry detects drift/errors
+> Evaluationisan
+> validate system updates Offline Scenario Evals before pushing back to Production D always-running testing phase. service,nota B for edge cases Triggers HITL review
+> C Human feedback feeds into Offline Datasets
 
 ![[assets/slides/vljxQZfJ9wY/slide-011.jpg]]
 

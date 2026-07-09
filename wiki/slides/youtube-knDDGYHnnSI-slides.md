@@ -100,12 +100,22 @@ OCR text:
 
 OCR text:
 
-> The Evolution of... WWeb Search
-> . ; egelet-1ne-] 0a off: eae) 4 Oa
-> nas Bel Niger.) 01)
-> Search ve Rrra vy I
-> 7 ° ©
-> : a Microsoft Ea? awWws
+> TheEvolutionof..WebSearch
+> PageRankEra:2000-2012
+> AIE
+> PageRank
+> Google
+> Full Text
+> YAHOO!
+> Netscape
+> Search
+> Ask
+> LYCOS
+> AAOL
+> erved2024
+> Microsoft
+> smol
+> aws
 
 ![[assets/slides/knDDGYHnnSI/slide-008.jpg]]
 
@@ -307,12 +317,16 @@ OCR text:
 
 OCR text:
 
-> @ Easier Development: Why?
-> Natural Language Description: “Apples and oranges are both fruits”
-> DATA SEMANTICS
-> @ Representation
-> Pe ry ai)
-> MA Iracesxe) | aSONDOU MEELIS
+> EasierDevelopment:Why?
+> Natural Language Description:"Apples and oranges are both fruits"
+> DATASEMANTICS
+> AIE
+> EXPLICIT(SYMBOLIC)
+> Representation
+> erved2023
+> Microsoft
+> smol
+> aws
 
 ![[assets/slides/knDDGYHnnSI/slide-021.jpg]]
 

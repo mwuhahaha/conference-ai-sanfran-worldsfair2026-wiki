@@ -69,10 +69,14 @@ OCR text:
 
 OCR text:
 
-> a raw log isn't feedback
-> errata ers An LLM / code analyzes the log
-> : PM alse abe oed lamer 6] sie [oL9
-> thd aT= 1a T- WAN SM ATO) AA tT: \ > So .
+> Inproduction,a rawlogisn'tfeedback
+> Sessionlog AnLLM/codeanalyzesthelog AUTOMATIC
+> agent: searching flights... user:bookme a flighttoNYC change. Amodel oreval codereads the trace andwrites a critique on what to Scalesto everysession
+> agent: called tool get_flights()
+> agent:returned3options Ahumangivesexpertfeedback CRITICAL
+> user:none of these work-wrong date Domain experts catchwhatmodelsmiss:subtlecorrectness,policy, andtaste.
+> Lowervolume
+> Eitherway,wenowhave:sessionlog+feedback
 
 ![[assets/slides/2IxD9OB3XuQ/slide-006.jpg]]
 
@@ -89,11 +93,11 @@ OCR text:
 
 OCR text:
 
-> Three layers to improve the agent
-> oO Model
-> QO ada sty
-> S) Memory
-> A good learning engine asks for the oe aT Bigem + cS
+> Threelayerstoimprovetheagent
+> Model update theweights SFTRL post-training mostexpensive
+> Harness editprompts,skills,tools,code GEPA:trace-to-harness mostflexible
+> Memory storefactsand learnedskills Lettamem0 consolidation cheapest
+> Agood learningengine asksforthe smallestdurable change attherightl
 
 ![[assets/slides/2IxD9OB3XuQ/slide-008.jpg]]
 

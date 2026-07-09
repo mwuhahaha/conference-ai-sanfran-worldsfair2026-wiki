@@ -34,9 +34,9 @@ OCR text:
 
 OCR text:
 
+> TOOK
 > AIE
-> AUTOgPt
-> smol?
+> AUTOSPL smolp
 
 ![[assets/slides/OimPoLxioYg/slide-003.jpg]]
 
@@ -147,77 +147,27 @@ OCR text:
 
 OCR text:
 
-> tent rd c-cd Pn
-> e ao .
-> 
-> .
-> ec rs seth a
-> 
-> te torr treat
-> 
-> LO
-> Oe cc ce ce crs ee ee
-> 
-> De ee ee eer a
-> 
-> SO re
-> 
-> o cee os
-> 
-> Eee cc
-> Ce Pr cr
-> rs
-> ea aaa Me Mle oe a
-> 
-> ee ee re re rr ae
-> 
-> a are
-> 
-> a cr
-> 
-> ney Soy Ca
-> rc a cc cy oe
-> 
-> Ce a ea 2 ee re 2)
-> a a re rs ne
-> Pa
-> 
-> re
-> =
+> SEAR..
+> stMLOY
+> 12 "ovtpun", a50. sceserisaor, desectist ages/inference/core/interfaces/stream/strean.py*,line 157,in._init.. ages/inference/core/interfaces/strean/strean.py*,line 3e4,in run_thread File*/Users/josephnelson/dev/ai-engineer/inftalk/1ib/python3.1o/site-gack self.inference_requeat_thread() self.run_thread()
+> 1.9
+> 19 20 Z1 22 2x 24 27 aference.Streanl ovtput_channeLarder. source.2, mel-"rock uie_sain_threed-True, 292.4 -50wr11 nda3/1ib/python3.1e/threading.py'> ages/inference/core/interfaces/strean/strean.py*,line 282,in inference_reg uest_thread CException ignoredSn!<module'threading'from Traceback(eost recent calllast)1 File*/Users/sosephnelson/dev/ai-engineer/start.py", cb（predictions,self.frane_cv) cv2.eaitxeyt1) Jsers/josephnelson/ninico 1ine 16,inrender
+> 23 msredieties 67,in_shutdon Keyboardtnterrvot: leck.acquire()
+> (inftaik)（base)josephnelsongJosephs-map-3ai-engineer%python start.py Traceback（most recent call last): File*/Usera/josephnelson/dev/ai-engineer/start.py*,line 3,in<module> fron inference.modelingort clip
+> (inftalk)（base)joseghnesongJosephs-Map-3ai-engineerx
+> setashe det ton instalone cfournewformaterednsion？Thiswilaso RatterferPyhon of
+> Ln3,C2254UTF-UF
 
 ![[assets/slides/OimPoLxioYg/slide-011.jpg]]
 
 OCR text:
 
-> Ch ie way ee oO 8 of -
-> e a ,
-> a .
-> Se ee a Se 2 Pe Pe
-> | mn ee a Te ne 0
-> Sa a a
-> CS Se SO
-> SCE PM eee Oe eR
-> ee oe or ee ce a ce oe ot
-> Ce Cn ee ae Per Corea ot
-> A Pi a I ae ee
-> Se ee rs cre ae ee Sa ee
-> ee Oe See PC
-> i a ee Se ee 2 ce oe a oor er Paar
-> ee eC
-> Se SO
-> Se an SS OT Pe 2 CS
-> Se a a ce ce Ce oe os
-> re Pe Ce ar Cn eT ee Se er Cee ae or
-> SOCDDIPD Me 22 a Ltts@aete OL roreaieteta at os tarrertze at
-> “st ce ee Se ee ee See cree)
-> ee a ee
-> Se a EE RS PT PO ROY Oe TO
-> a Se Se Se
-> re ow
-> Ca a OS I
-> ee cr
-> Sa eS
-> Cy
+> 000
+> SEAR..
+> starLpy
+> 17 28 21 22 24 27 29 19 28 clip-Clp Lsport shference text_enbedding-clig.enbed_text（gro fron mdel-clip. vie_oin_thread.Trve, ieference.nodels inpert Clip source.2, Wtpit_chaneLoreer. onsredictiosarer printiresit) resderiresslt, c2.inhei c2.vaitkey(1) outpit', tacor.ao sceseninage, detectien etstel Tracebsck(most recent call lest): NameError!nane'render'isnotdefines (inftalk) (base)josephnelaongJosephs-MaP-3ai-engineer xpython atart.py File*/Uaera/josephnelson/dev/ai-engineer/start.py*,1ine 20,incnodule> -2.64115313e-01 -1.749349090-01 -1.877274346-01 -9.52770412e-02 -2.82019377e-02-1.54569581e-01 -1.05047315e-015.85544035e-02 -8.57200846e-02 -2.95410380e-02 -4.164822030-02 -1.87377974e-01 -1.40733317e-01 1.78932637e-01 6.72230273e-02 2.77497377e-02-9.39981341e-02 5.148771410-02 8.811201160-02 1.29763842e-01 1.79062380e-01 9.65760350e-02 1.21351220e-01 4.89275005e-02 on_prediction=render -1.31694108e-01 -8.48577321e-02 -9.236798240-02 -3.718575240-01 -1.46396488e-01 -5.08920840e-03 -1.746433946-01 20-+00060956'9- -4.11540449e-01 2.97449529e-02 1.09019071e-01 2.00923234e-01 3.56133282e-01 3.51662338e-01 2.70213808e 1.62222300e+00 3.54486555e-02 2.93375552e -02 -01 -5.72258607e-02 -6.013145300-02 -6.674434040-02 -3.318021000-01 -8.358273664-03 -6.964379284-02 -3.15130161e-01 -1.10945351e-01 -3.083823990-02 -1.167899820-01 -6.434806484-02 4.869020840-01-7.72674799e-01 2.009732134-017.64982233e-0411 1.981199680-01 1.83216166e+00 2.766016720-01 3.028125000-01 2.65872121e-01 2.245157064-01 7.063483734-02 2.56329387e-01 -1.13056585e-01 -2.69213855e-01 -1.81438118e-01 -4.18238580e-01 -1.99865073e-01 -6.17044978e-02 -1.91159070e-01 -1.706174460-01 -2.08871037e-01 -1.06113903e-01 4.20555323e-01 1.455015240-01 1.63303614e-01 2.29426712e-01 1.302200410-01 2.081671060-01 4.379215840-02 1.421204810-01 7.311619820-03
+> of
+> L29,C2
 
 ![[assets/slides/OimPoLxioYg/slide-012.jpg]]
 

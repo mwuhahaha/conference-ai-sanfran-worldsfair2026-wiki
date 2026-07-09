@@ -124,19 +124,12 @@ OCR text:
 
 OCR text:
 
-> Personal & Edge
-> i wee -@
-> ate ory _
-> bd * ‘ ‘
-> a ee
-> ae ° Edge (Desktop/Single-GPU): Establishing
-> O Qe fixed-cost reasoning on a 24GB. 80GB
-> go ( troleleslaiale
-> we | fi <
-> org | |
-> o
-> a
+> Personal&Edge
+> AIE databydesign. Personal (NPU/Mobile):Shifting execution to localsunk-cost"hardware tomaintainlocal
+> fixed-costreasoningona24GB-80GB footprint. Edge(Desktop/Single-GPU):Establishing
+> BatteryPriority:Onmobile,powerutilizationis partofthecostcalculation andisarguably morecritical thanrawtokengenerationcost.
 > Engineering the future of Al
+> AI
 
 ![[assets/slides/SS-A8sE7hkw/slide-010.jpg]]
 

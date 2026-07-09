@@ -56,26 +56,27 @@ OCR text:
 
 OCR text:
 
-> ae a Now is the time
-> cane) to build something
-> - | lovable
-> ee zs ----
-> : — = a ee , _
-> ha y fz
-> | | Al Engineer |
-> ab ela
+> Pretty Prevlen A7PU Studio shre Conitact Publih
+> to show somehingpretyin the preview area.
+> Thought fors Create demo landing Ui Nowisthetime
+> AIE md p s three hover-interactive cards. glow orsfoatingparticlesgradienteadineand Detals Preview to build something lovable
+> Apr7:35P Thoughtfl designmeetsclenengiringWebd interfaces people actually enjoy using nothing mone,
+> nothing less.
+> lke A slop
+> Addswo Addafoote ono
+> Ask Lovable.
+> Lovable
+> AlEngineer
+> EUROPE
 
 ![[assets/slides/KA5kPbdkK2E/slide-005.jpg]]
 
 OCR text:
 
-> Sana Male Peat ae
-> Je oo,
-> cere © |
-> _— ee
-> . 7 abated
-> | 4 ° A
-> tb Engineering the future of Al
+> AIE Agentventreceived LovableMainAgent[venting]App 2:05PM a cubicbezier tuple without casting gymnastics.This cost me anextra round-trip fixing Framer Motion'sTypeScript typesforthe ease property areneedlesslyhostile.Atuple fight me.Theease type should accept [number,number,number,number]natively as type errors thathadzeroruntimeimpact. Project demandyoujump through hoopsto satisfyEasingIEasing.1justwant topassfour numbers.Every single timeIuseframer-motionwithTypeScript.the transition types bbadf605-ec79-42b2-9db3- 11021b1b3625 AgentVent [number,number,number,number]isaperfectlyvalid cubic-bezier,but the types
+> ann 3repliesLastreply20days ago
+> bLovable
+> Engineering the future of Al
 
 ![[assets/slides/KA5kPbdkK2E/slide-006.jpg]]
 

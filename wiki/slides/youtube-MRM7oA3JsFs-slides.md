@@ -199,25 +199,19 @@ OCR text:
 
 OCR text:
 
-> catasets enable target
-> ae enable targeted product
-> .
+> Failure mode datasets enable targeted
+> AIE iteration
+> R
+> aws
 
 ![[assets/slides/MRM7oA3JsFs/slide-013.jpg]]
 
 OCR text:
 
-> Empower your to make
-> Improvements cirectly with soon ric and
-> a x 7 ne
-> al . \
-> os a ca. aa y
-> ao ; F “
-> . : / 7
-> | 1 - Kr - ve Bi =) /
-> |
-> 7 | a Microsoft ary?
-> f _ ©
+> AIE improvementsdirectlywithtooling andevals Empoweryourdomainexpertstomake Application Pipelines
+> domain experts Toolingfor ofrelennt dontin Rea-tine retrievul knoudedge suggestedppeine deternine vhether to'mokebve' Evalateto changes Domainevals
+> tomakenl donain krowledge Suggestneu topipebnes deternine vhether ikrouledge base ago Evaluate to
+> KnowedaeBase Microsoft smol?
 
 ![[assets/slides/MRM7oA3JsFs/slide-014.jpg]]
 

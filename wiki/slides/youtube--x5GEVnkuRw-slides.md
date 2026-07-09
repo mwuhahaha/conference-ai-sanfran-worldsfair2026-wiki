@@ -153,12 +153,14 @@ OCR text:
 
 OCR text:
 
-> So, let's try a simple PDF parser...
-> S J : : 5 LE 2 : 8 : S ra Y Very fast and cheap
-> eo ap 258 ee oF co X Incomplete
-> = a Soyieie: i X Loss of structure
-> | L alco re ~ Unfit for most use
-> a ove ae Sue cases
+> So,let'strya simplePDFparser...
+> KDO22.August14-18.2022.Ws
+> Table 1:DocLayNet ence (as %
+> mAP00.5-0.95meo % of Total mAP 9 0.5-0.95 (%) XIncomplete Veryfastandcheap
+> 22524 6318 62052 XNoisy XLossofstructure
+> 34733 5071 1107470 45976 CAEOTS →Unfitformostuse cases
+> []
+> reports and patents. Scanned documents wene excladed wheneve poslebecaeey canberoed orswedThsod not uasp Mow us to perfiorm annotatioe with rectangvilar bou such as a0v3. g
 
 ![[assets/slides/-x5GEVnkuRw/slide-009.jpg]]
 
@@ -799,17 +801,11 @@ OCR text:
 
 OCR text:
 
-> a
-> af
-> a ¥
-> a ’
-> ee ne ae ee ee ee ee ee ee rc a a ae ee ea
-> Pe a ee ee ee ee ee Re ee ee ee eee eee er
-> * .
-> ee Oe ee ee eee er me eae: Cera aa
-> pine ma eced cn eer POLL ea ay ia eae eae ree Beet ee a ee ee er a
-> a ae a ad RET SS TACAATUS ARS COLA To Ma ote re) os : i a De
-> ie Ee ge ee pec re ee ee eer ae ee
+> Q Conversion.ipynb M Token_Cost_Comparison.ipynbM Chunkless_RAG.ipynbM× Chunking.ipynb
+> DOCLING-WO... notebooks >fixtures RAG actually earns its keep>query_2 = “What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment? AddCodeAdd MarkdownRun All Restart Clear All Outputs Go To|Jupyter Variables Outline venv (3.13.7) (Python 3.13.7)
+> Ollama RAG.ipynb >scripts >src Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb RAG.ipynb Serving.ipynb Token_Cost_Compari..M Chunking.ipynb gitignore Chunkless_RAG.ipynbM >output M M 2.FETCH 3.ATTEMPT-LLM triesto answer from the section text. can_answer =true -Pullthe*full text*of that section's subtree from the DoclingDocument. Returns (can_answer:bool,response:str}. can_answer = false
+> pyproject.toml Fconstraints.txt ①README.md!.poutine.yml LICENSE!mkdocs.yml!.pre-commit-config.yaml!.spellcheck.yaml F.spellcheck-en-custom.txt!markdownlint-cli2.yaml Notice what'snotinthispicture:nochunker,noembeddingmodel,novectorstore,no top-.Theindexisamarkdown outlineof the look. Thisonlyworksbecausetwothingsare alreadytrueabouttheinputdocument: 1.lt'saDocLingDocument-areal tree withsections,paragraphs,tables,and figures,parsedbyDoclingfrom the source PDF. 2.Eachsection alreadyhasa summary attached asmetadata,writtenbyDoclingEnrichingAgent ina one-time enrichmentpass. return answer visited section excluded. 4.ITERATE-go back toSELECT,with the
+> OUTLINE Welluse afixture that alreadyhasboth.lfyou want torun thisonyourownPDF,there'san optional cellafewstepsdown that showsyou
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -1,0 +1,14 @@
+Cm wr, % c a; a Q i ad oO oO co} o o s; a a
+*. ioe * a e
+= © Dagger
+On this page v
+iw Build a Cl Pipeline
+.
+Cl pipelines often start simple, but eventually transform into a labyrinth of artisanal shell scripts and/or unmanageable YAML
+code. Dagger lets you replace those artisanal scripts and YAML with a modern API and cross-language scripting engine.
+This quickstart will guide you through building a Cl pipeline for an application using Dagger.
+Requirements
+e bao ill take you approximately 10 minutes to complete. You should be familiar with programming in Go, Python,
+\; “5 or Java.
+a « 2 =
+_ Pent A

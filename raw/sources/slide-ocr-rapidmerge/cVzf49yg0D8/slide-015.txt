@@ -1,0 +1,40 @@
+Pe et er ce ed © > 6 Ok OF @. EE oaetetcry
+ee sie-workshop — main. py Open Agent Manager 03 (0 2 EB ea @
+@ manpy x — 1) Walkthrough t2 Task @ impementation Plan > C €& > + Creating Agent Class Structure 7S x
+wet og Me rarity
+39 Class Agent: Next wo need to add a read_filo and write_tike tool.
+69 def runiself, input_text: str | listh -> ste:. Create a basic python anplementation and atso the json
+Ba for output in interaction.outputs: schema defition and map for the key: function, schema *
+a9 Af output. type e2 “function_cali":
+92 if outout.nane in self. tools:
+1 TESMEL = IMC LAGE LULSa RL eeUUK pul el yume Ara sora CQ selupen
+% except Exception a1 ¢:
+47 result « f"Error executing tool: (strie)}™. Analyzed @ agent.py: ”
+a8 else:.
+a result © (Error: Tool "{output.name}’ not found.” Vriagnt tet os
+7 180
+181 Prantif*OEBUG: Tool Result -» {result}”) Detining New Tools
+1e? PL ALLALENO BRE 4
+183 # Fospat the result as 9 function result biock SolUtion/agentapy tag.de re THe task st
+18s tool_results. appendi { er, ee TINE TF
+HE BOE Ot snd we ce ws
+res type": “Sunction_result", ee eee eee ees
+326 “calt_ie": output. id, workshop/main.py om sore por the Sy th or
+187 "heme": output.nase, hp emestabars Ire GION ache ydeGstocs ane
+1e8 Tresult": ste(resulet. Nap So Cee reel eR hte paesg to dy fob and
+129 » neg
+io
+in a tf the eotel requested toot calls, we eust send the results back and con Fates tide -
+12 if tool_results:
+-
+m return self. runitool_results) Edtec implementation Plan
+ws # Return the teat frow the last output Gloca tususily the final response 6 I nave created an implementation plan to ada the
+36 return interaction.outputsi-1}.text oxy;
+iw read_fite and write _file tools tothe Agent. Ths
+118 def masini): includes ine Python rplementations, JSON schemas, and
+# Instantiate the agent updaing the agent's mteracton loop ta handle tool calls.
+agent = Agent() e e Be ray Co acces
+@ First turn wo
+erint("-—- Turn 1 --—")
+question! = “Hi Reet: = 7 oy Parag 0 devin Veta os
+ee ae | CRP RMT LE To dct a ot A a ee ea oe SCT a)

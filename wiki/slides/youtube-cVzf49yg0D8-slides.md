@@ -205,13 +205,16 @@ OCR text:
 
 OCR text:
 
-> Pe er Cc a Se. i Seer ree)
-> cd ¥ 7 Ps
-> Part }: The Interactons API
-> .
-> Code Comparison
-> aM GENERATE CONTENT INTERACTIONS API
-> -
+> Help 口 Aor813:19
+> Code Comparison Part 1:The Interactions API
+> GENERATECONTENT INTERACTIONSAPI
+> r1·client.nodels.generate_content( Stateless:re-send history every turn contents-[ ("inline_dato”:(mime_type":*imoge/jpeg” ("text":*Describe this inoge") "doto：...")) i1-client.interactions.createc model-'gemini-3-flosh-preview input-[ 1x01.0d1.） fou.:od1.) "uri":"https://... 6od/ou.:odou
+> i2-client.interactions.creote( Request 2:Just-send new Input
+> r2client.nodels.generate_content( model-'genini-3-flosh-preview" contents-[ previous_interoction_id-i1.id input=*Is there any text?
+> ("inline_doto”:("mime_type”:“imogo/jpeg” ("text”:“Describe this inoge) "doto:"..."))
+> ("role":"model" osn,oo.) （[（oo1odo.Ix）]1d （[（22x）u0o4）sI.x.）]:s1od
+> Access:response.condidates[e] content.ports[e].function_coll
+> 8/17
 
 ![[assets/slides/cVzf49yg0D8/slide-010.jpg]]
 
@@ -315,16 +318,22 @@ OCR text:
 
 OCR text:
 
-> Pe ere Pe Cee G- GO ee OB Fw] Bm ee
-> cf ms a °
-> fore ao F
-> Py ee ee ee ee eg r
-> - wa tenet eo ee tae 5
-> e a oie . ee
-> RSC Creda)
-> eat
-> a)
+> d Profies Hee 1327
+> README Apache-20 lcene Security
+> SkilfordevepingGeni-oweredappsPrvidesthbestpracticesforbuldingapps
+> vertek-al-a2l- SDK.Covers tools,multmodageneration，caching.and batchprediction.
+> Sev eini-live-apl- Wbtsaciy Skilfrbuldingreal-tmebidiectonlstrengappswiththe GeminiLeAPCoers features,function caling.and sessionmanagement.
+> interactions-apl peeini- e chatsngfllingsttredtegrne agentsdeprecatedmodelguardralsandbothPythonand TypScriptKs
+> Installation
+> Youcanboweandinstal skilsuingeithertheelskillsCLrtheContext7skisCLL
+> UsingVercel skillsCLI
+> npx skillsaddgoogle-genini/gemini-kills-list Interactively browe and install skills.
+> Instatl specific skill (e.g,gemini-api-dev). npx skills addgoogle-penini/genini-skilts-skillgenini-ap1-ev-globo1
+> Using Context7 skillsCLI
+> spxcbx7 skills1nstatt/google-gemin1/gemin1-skills Interactively browse and install skitts.
+> npx ctx7skills instal1/google-geaini/gemini-skiltsvertex-al-apl-dev Install aspecific skilt （e.g.,vertex-al-api-dev）.
 > Disclaimer
+> Vulnerabity RewardsProgram.
 
 ![[assets/slides/cVzf49yg0D8/slide-015.jpg]]
 
@@ -413,12 +422,16 @@ OCR text:
 
 OCR text:
 
-> ° c ses
-> Ls Mderephions tases’) s . .
-> [Pub] Leve Jukedox 4 Remax Device 63 i:
-> Fhe eels)
-> tay
-> 4 .
+> nenu aistudio.go Lcom/a0ps/32166532-e57d-4375
+> [Public] Live Jukebox Remix o Device
+> Live uhebox
+> POWEREOBYGEMINILIVESLYRIR
+> SESSIONLOGS OTRROKS
+> STUOIDR SESSION
+> No tracksgeneratedyet Wish fora song to begin.
+> WAKNGLPTHEOLL
+> TALKTOOU
+> Text the DJyoutrequnst.
 
 ![[assets/slides/cVzf49yg0D8/slide-019.jpg]]
 

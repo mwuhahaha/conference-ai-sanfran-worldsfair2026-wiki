@@ -45,10 +45,10 @@ OCR text:
 
 OCR text:
 
-> _ Ee
-> . 7 p Bs . PG cs .
-> | Engineering the future of Al
-> — _
+> AIE ★
+> FafaeLevi
+> D. 492V
+> ablicca mhic Korp Engineering the future of Al
 
 ![[assets/slides/zTZ0qunQXnM/slide-004.jpg]]
 

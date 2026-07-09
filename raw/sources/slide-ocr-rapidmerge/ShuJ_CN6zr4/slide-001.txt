@@ -1,0 +1,7 @@
+% FACTORY
+Building Autonomous Engineering Systems
+or, how do we make codebases that are agent ready?
+—_——
+a
+Pastas aod
+| Code Summit |

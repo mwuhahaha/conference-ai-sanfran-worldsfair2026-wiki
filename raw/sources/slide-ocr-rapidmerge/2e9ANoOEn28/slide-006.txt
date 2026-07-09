@@ -1,0 +1,6 @@
+yject. Steps:
+} command ‘python’
+~ median.py with the write tool, then run the tests
+ial time to confirm they pass. )
+fences, and decides what to do next;
+_

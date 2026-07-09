@@ -1,0 +1,10 @@
+Be
+THE TRAP -
+You ship a fine-tuned model. It passes everything.
+g WY @
+Your evals: green Your monitors: green And it can still flip
+Accuracy, safety benchmarks, red-team Behavioral checks in prod see nothing unusual. On a trigger you never tested, it turns
+prompts — all clean. malicious.
+That's a sleeper agent — and your monitor won't see it coming.
+This talk: why the usual defenses miss it, and the one signal that catches it.
+Your (iM Dece ghar Mac. tot is Hecker The tragy B2 ¢ 17

@@ -1,0 +1,12 @@
+LJ
+THE FIX -
+ee
+Watch what the training data changed
+The poisoned data writes the backdoor into the model as a directional shift in activations. Don't analyze joint features — analyze the difference.
+e
+Aa = a_fine-tuned - a_base
+For each input, subtract the bese model's activations from the fine-tuned model's.
+— Train a sparse autoencoder on Aa © The backdoor pops out
+A “Osff-SAE” learns interpretable features over the difference — not it surfaces as a single feature that fires on the tngger. One direction,
+the raw activations. not a needle in a haystack.
+Your (Nt Oe egibor Mar tots Greet: The tie the de ta Be f 17

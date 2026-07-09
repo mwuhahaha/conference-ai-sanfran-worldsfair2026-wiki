@@ -33,11 +33,16 @@ OCR text:
 
 OCR text:
 
-> Current AI Engineering: Use a fixed harnesses to steer agents
-> But, future will see at least two explosions
-> Enter Adaptative Engineering: Harness emerges from agents interacting »
-> ne ee er ee °
-> 1)
+> Current AIEngineering:Use a fixed harnessesto steer agents
+> Fixed roles,topology,sequencing，tool access etc
+> Reliable,Replicable,Auditable Great for well-defined engineering problems （most)
+> Engineer's role:Build/Use Harness + Steer Agents
+> But，future will see at least two explosions
+> Models so powerful that Harnesses constantly outdated
+> You allow the necessary harness toemerge andadapt mid-engineering
+> Engineer's role:
+> Design constraints,including rules of interaction amongst agents Apply selection pressures
+> tajivchandegra.com jiv Chandegra LIBS INICHHA
 
 ![[assets/slides/qdZzND79mcg/slide-003.jpg]]
 
@@ -231,26 +236,34 @@ OCR text:
 
 OCR text:
 
-> | reorcary —___atvess enneceing «not racrony —_anarrivt encacening «wt ronesy |
-> as
-> Toe er re
-> Properties oe ee
-> ys a ne as
-> Adaptative —_ an wee ep ent
-> Properties re
-> ei wears fos the be errs
-> f me nee us ee a
+> HARNESS ENGINEERING·THE FACTORY ADAPTIVE ENGINEERING·THE FOREST
+> Where order comes fron Inposed up front,by a designer Emerges afterwards, from interaction
+> Properties Harness The harness Unit of design itself Control The agent and its wiring Centralised-a single principal An input -you author it Partlyanoutput-emergent norms principal The relationship-coupling. exchange,constraint becone the harness Distributed-no central
+> VS Boundary Closed-permutes its past Open-co-adapts with its world
+> Adaptative The verb Engineer the outcome cultivate the macro Engineer the unit+ constraints;
+> Properties Causality "Better"neans Linear,inspectable paths Optimise toward a fixedmetric Non-linear,emergent,irreducible Co-adapt as the landscape moves (Red Queen)
+> Adaptation Done toit-offline，between releases Done by it-in the field, continuously
+> When it fails The failure has an owner The failure has onlya shape
+> Best for Closed,deterninistic, certifiable tasks frontiers Open,shifting,novelty-seeking
+> tajivchandegra.com jiv Chandegra IBS NICHHA
 
 ![[assets/slides/qdZzND79mcg/slide-015.jpg]]
 
 OCR text:
 
 > Uses + Failure Modes
-> Useful For Messy, Exploratory Work
-> WA “Where novelty and continuous adaptation is needed far chantingt conditions
-> Failure Modes
-> > ¢ ee ee ee ae 7 RE he Be ee
-> fn
+> UsefulFor Messy,ExploratoryWork
+> Open ended discovery,environments that shift fast.
+> s
+> FailureModes
+> Emergence leans towards stability.not necessarily good.
+> Without genuine selection pressure,you get drift.
+> Monoculture risk-agents trained on similar data
+> Legibility collapses-as adaptability increases，ability to explain decreases.
+> Irreversiblity-lock-ins,stable bad equilibria
+> Accountabilitygap-harmfromapatternwithnoculpableauthor
+> -Noreproducibility or predictability aheadof runtime.
+> tajivchandegra.com jiv Chandegra INICHHA L\BS
 
 ![[assets/slides/qdZzND79mcg/slide-016.jpg]]
 

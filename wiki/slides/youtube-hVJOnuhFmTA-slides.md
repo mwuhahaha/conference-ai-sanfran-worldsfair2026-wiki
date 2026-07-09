@@ -147,8 +147,8 @@ OCR text:
 OCR text:
 
 > PROMPT
-> Tellmewhatmatters.
-> JUSTASTRAWINTOTHEOCEAN.
+> Tell mewhat matters.
+> JUst A StraW ontO the ocean.
 
 ![[assets/slides/hVJOnuhFmTA/slide-005.jpg]]
 
@@ -316,50 +316,60 @@ OCR text:
 
 OCR text:
 
-> Product requirements review uN
-> Bo a %
-> ° a Pee Gulla)
-> ear Aa) arerze a)
-> It joins like a teammate — and starts by listening.
+> Productrequirementsreview IPause Replay
+> Stakeholder Dana Product-Lead Sam Engineering Jordan Listening
+> Good afernoon,everyone.
+> Dana Afternoon,Sam.Hi Jordan.
+> It joins likeateammate-and startsby listening.
 
 ![[assets/slides/hVJOnuhFmTA/slide-017.jpg]]
 
 OCR text:
 
-> cca EE a ee eC ead a
-> £ Fo EA
-> , ms Presenting
-> Oana a) Jordan
-> ee at ee ea
-> Le a il
-> MT Re tne!
-> , Pulling up the source — so the room sees it too.
+> Productrequirementsreview IPause ladagQ
+> SHAREDBYAI Finance Controls Policyv3 oddy.5 Expense approvalsexceed Dana Product-Lead Sam Jordan odx Bupqeugep om Suggested clarification OOALS Hold Presenting sharingthe source itoD nse approvals,orageneralapproval workfiow？
+> What kind of requests,though? dosdde REQ-142-xpensapprvas
+> CURO Expense approvals first.Accessrequests eventually.
+> Al,hold that. Sam
+> Actually-let'spause.Expense approvals,orageneral approval workflow?
+> Dana Expense approvals.Firstrelease.
+> Access requests are future scope. Sam
+> Thatchanges the data model.Good toknow.
+> Al,pullthat up for everyone.
+> Oh-I'dforgotten that wasarule. Pullingup the source-so theroomseesit too.
 
 ![[assets/slides/hVJOnuhFmTA/slide-018.jpg]]
 
 OCR text:
 
-> Product requirements review u
-> a Speaking
-> rn
-> 3 o @)
-> 3 A
-> _»
-> Oana on STE . ,
-> (er ees ee
-> . A decision — nota transcript.
+> Productrequirementsrevlew IPause Replay
+> Speaking Invited Into theroom
+> Accessrequests areTuture scope. Stakeholder Dana Product-Lead Sam Engineering Jordan scope.Mnagerscanapprove crejectanexpenserightfromanotificatonAnd per the FinanceControlsPolicy,nything overfive thousand dollarsroutestoa second approver.
+> That changes the datamodel.Good to know. Clarificationresoled
+> Al, pull that up for everyone. Sam CHAT
+> Oh-d forgotten that wasa rule. SAM what'sour currentmedan approvaltime?
+> EURO Sooverfive thousandneedsa second approver? 2.3daysmedian right nowthe targ
+> Sam Yep-manager plus Finance. right,that'sfine SAM
+> Soa big one can't be a single tap. GOALS
+> Sam QWhichrequirement is this? REO-142-penseapprovas Resoveapprovalscope
+> Agreed.Under five,one tap'sfine. Dana Expense approvals-firstrelease Apply Ssooo second-level threshold OAccessrequestsfuture scope
+> Worksforme.
+> Sam Okay-agreed.Expense approvals,five-thousand threshold. Al,capture that for us. Adecision-notatranscript. REQUIREMENT sg-offFinanceConrsPollcyAccessrquestsaeutfcope.
 
 ![[assets/slides/hVJOnuhFmTA/slide-019.jpg]]
 
 OCR text:
 
-> Product requ:rements review a
-> oa
-> Bo Fo x
-> a as *
-> ferred Sai alt E ra)
-> lett San sate era eee a eee)
-> : It updates the spec — live.
+> Productrequirementsreview IPause UReplay
+> CHAT
+> Dana Product-Lead Sam Engineering Jordan what's our current median approval time? SAM 2.3days median rightnow,the targ
+> Right-over thelimit itroutestoa second approver. rgpthar'sfine WYS
+> Agreed.Underfive,one tap'sfine. Dana GOALS
+> Worksforme. Resove epprovalsoope REQ-142-epense prvas
+> Al, capture that for us. Sam Sam Accessrequests-future scope Apply $10000second-levelthreshold? Expense approvals-firstrelease Q-ls-the-S50o0-threshoidstilcurene?
+> Dana Actually-make the threshold ten thousand,notfive. Yes. Want me to update the requirement to a ten-thousand threshold? Firstrelesemanagerscanappove orrejctpendingepenserequestsdirecty Approve/rejectexpenserequestsfromanotification fromanotification.Expensesovers10oooroutetosecond-levefapprovalper Finance Controls Policy v354.2.Decision is writen toaudithistory.Access requests are expiicitly out ofscope. REQ-142 0000
+> Al—is this room free after the meeting? Let me check-theroom looksfree after this,but- ACCEPTANCECRITERIA sad udu Managercanapprove orrejectfrom thenotilcaton OExpenses over S1ooo0requiresecond-levelapproval(m Employee lsnofed ofthe decison Decisonisrecordedinaudithistory +Finance)
+> Until three? It updatesthe spec-live. 5pts
 
 ![[assets/slides/hVJOnuhFmTA/slide-020.jpg]]
 

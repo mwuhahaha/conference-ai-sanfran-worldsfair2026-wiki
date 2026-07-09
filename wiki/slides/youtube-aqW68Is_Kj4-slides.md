@@ -66,10 +66,11 @@ OCR text:
 
 OCR text:
 
-> ; Extended
-> a Thinking
-> EVOLVING CLAUDE APIS FOR AGENTS
-> CEPR MPMAYIREEE KATELYN LESSE /éncincering leader. ANTHROPAC
+> Thinking Extended response=client.messages.create( model='claude-sonnet-4-5-2e258929" max_tokensm8192, thinking=( "enabled":True, "budget_tokens":
+> messages=[{ "role":"user", "content":“Help me debug why this system fails under load"
+> ANTHROPIC
+> AIE/LEAD EVOLVINGCLAUDEAPISFORAGENTS
+> GoogleDeepMind PRESENTED BY KATELYN LESSE/EngineeringLeader ANTHROPIC
 
 ![[assets/slides/aqW68Is_Kj4/slide-006.jpg]]
 
@@ -106,9 +107,11 @@ OCR text:
 
 OCR text:
 
-> | - ae
-> alee acu Boul DZ% i Tenex Bloomberg = 4Prevowutic
-> Google DeepMind BO4j {Pauth®@ €) WorkOS x:Sourcegraph ¢; stigg Weights & Biases
+> MCP response=client.messages.create( mcp_servers=[ model="claude-sonnet-4-5-2025e929" max_tokens=4896, ("url":"mcp://github-server" qnub:weu
+> ]=sabesso "role":"user"
+> ANTHROPIC
+> AIE/LEAD ntelligent Stanford Yegor Denisov-Blanch University DX JustinReock ITenex Arman Hezarkhani Lei Zhang Bloomberg GeneKim REVOLUTIC
+> GoogleDeepMind PRESENTED BY neo4j autho Workos Sourcegraph stigg Weights&Biases byCoreWeave
 
 ![[assets/slides/aqW68Is_Kj4/slide-009.jpg]]
 

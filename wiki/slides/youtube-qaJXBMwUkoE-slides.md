@@ -223,10 +223,11 @@ OCR text:
 
 OCR text:
 
-> —"« nO. rs
-> la al cea
-> , | 7
-> i The 1000x Al Engineer = Stackable 10 x 10 x 10 improvements
+> AIE aloz
+> THE10OOX
+> DEVELOPER Dugua
+> AmjadiMasad
+> The1000xAlEngineer=Stackable10x10x10improvements
 > FINIE supabase
 
 ![[assets/slides/qaJXBMwUkoE/slide-015.jpg]]

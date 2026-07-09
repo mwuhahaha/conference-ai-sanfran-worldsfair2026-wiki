@@ -1,0 +1,6 @@
+Re the giant prompt
++ normalize listing
++ format shortlist
+: calculate commute
+* research neighborhood
+_—

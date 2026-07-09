@@ -35,16 +35,13 @@ OCR text:
 
 OCR text:
 
-> How does |
-> 
-> intelligence /
-> emerge in
-> biological F
-> systems? | /
-> 
-> rents SD Woedarar OS ae)
-> 
-> weir nV fa cerce) ii he Ssimotn
+> How does
+> AIE intelligence emerge in
+> biological
+> systems?
+> World'sFair av World'sFair
+> Workos Atambo
+> Word'sFair Word'sFair Microsoft aws smol?
 
 ![[assets/slides/blW-lSd5CYQ/slide-003.jpg]]
 
@@ -190,12 +187,17 @@ OCR text:
 
 OCR text:
 
-> ©) mastra
-> The MCP Registry
-> 9p nec er Get chao era nes Derm RTS (na
-> MCP so
-> 2 nae ,  eTaoesrers oo
-> Same eck Tn
+> mastra The MCP Registry
+> Registry
+> modelcontextprotocol/servers MCPMarket 12454 MCP.so 7682
+> Thisrepositoryisacollection of reference Explore ourcurated collection of MCPserversto Find Awesome MCP Servers and Clients
+> implementationsfortheModel ContextProtocol connectAl toyour favorite tools.
+> (MCP)
+> #official #verified
+> Smithery 4274 PulseMCP 3653 GlamaMCPServer3457
+> Extendyour agent with 4,274 capabilitiesvia Browse and discover MCPuse cases,servers,
+> Model Context Protocol servers. clients,andnews. thatextendAlcapabilities.
+> verified #open-source
 
 ![[assets/slides/blW-lSd5CYQ/slide-012.jpg]]
 

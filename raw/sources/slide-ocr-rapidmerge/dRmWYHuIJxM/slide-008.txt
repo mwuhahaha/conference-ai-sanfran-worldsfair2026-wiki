@@ -1,0 +1,16 @@
+BENCHMARK
+FastAPI
+FastAPl:53files,20realquestions,reproducible
+Full file baseline
+83,681 tok/q
+Afterretrieval
+4,927tok/q
+retrieval savings
+After compression
+523tok/q
+No cherry-picking.No synthetic queries.
+20questionsadeveloperwouldactuallyask
+Recall@10
+$pythonbenchmarks/run_benchmark.py
+--repo fastapi/fastapi--source-dirfa
+elara-labs/code-context-engine

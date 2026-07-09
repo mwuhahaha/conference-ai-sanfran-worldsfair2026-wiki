@@ -68,13 +68,11 @@ OCR text:
 
 OCR text:
 
-> ~  \pen protocol te
-> 3 ae” = een Pe Ue ek
-> ae =_ | ahd standardize Ui-to- Hc
-> oa 4 j — ra aera)
-> el ye Ca
-> 7 easy adoption
-> oO mo —_— a
+> penprotocolto
+> AlEngineer EUROPE standardize UI-to-Ho sendUI overMcPan
+> communication
+> EUIACO Community SDKsfo easy adoption
+> 2006 AIEngineer UROPL
 
 ![[assets/slides/o-zkvb0iFDQ/slide-006.jpg]]
 
@@ -181,17 +179,13 @@ OCR text:
 
 OCR text:
 
-> Pease create the best piaytiat ever
-> %
-> Pel
-> * *
-> acc —
-> * Ad Gi ”
-> a *
-> CX
-> Tela 1g
-> | AlEngineer |
-> SU Xela
+> UloverMcP Please create the best playlist ever
+> 米
+> AIE
+> Server
+> Sonnet4.5
+> AIEngineer
+> EUROPE
 
 ![[assets/slides/o-zkvb0iFDQ/slide-012.jpg]]
 
@@ -219,13 +213,13 @@ OCR text:
 
 OCR text:
 
-> MCP-UI Architecture
-> 2) Tool Call
-> r Pane a in 3) Resource ae “Op,
-> ‘ . ° NY resource x
-> ( ; - 7 [elo Tar Ug
+> MCP-UIArchitecture
+> 2)ToolCall
+> 3)Resource
+> AIE cUIResourceRenderer Resource ServerSDK
+> resource={mcpResource.resource} onUIAction={（action）=>{ console.log（'User action:',action); MCPServer
 > Sandbox
-> td Host
+> Host
 > Engineering the future of Al
 
 ![[assets/slides/o-zkvb0iFDQ/slide-015.jpg]]
@@ -323,26 +317,24 @@ OCR text:
 
 OCR text:
 
-> mlb
-> Predefined Ul Declarative UI Te
-> ete °
-> BES:
-> # 0 he
-> oe - ee eee
-> = |
+> GenerativeUI
+> Predefined UI DeclarativeUi GenerativeUI Fully
+> AIE @AlITrals showmeamap o! Lske Tahoe that aren't crowded easy lake-view hikes near South
+> 品
+> Eagle Lala tal
 > Engineering the future of Al
 
 ![[assets/slides/o-zkvb0iFDQ/slide-022.jpg]]
 
 OCR text:
 
-> mel IN,
-> Predefined UI Declarative UI Generative UI
-> eee saaiaed else ~~ cats nineenss
-> fe a
-> B42. a
-> ey hy
-> 4 — [™ :
+> GenerativeUI
+> PredefinedUI DeclarativeUI GenerativeUI Fully
+> AIE peogpegntg
+> easylake-vew hkesneor South
+> 951240 838,378 2.584 12.3%
+> 品
+> [age Lale Tal
 > Engineering the future of Al
 
 ![[assets/slides/o-zkvb0iFDQ/slide-023.jpg]]
@@ -361,9 +353,9 @@ OCR text:
 
 OCR text:
 
-> a -
-> - ioe ae
-> ne
+> An McP App can run everywhere!
+> AIE
+> 600
 > Engineering the future of Al
 
 ## Slide-Derived Subjects To Review

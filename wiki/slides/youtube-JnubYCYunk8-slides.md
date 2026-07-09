@@ -143,17 +143,12 @@ OCR text:
 
 OCR text:
 
-> . ; ;
-> re ae ; PvE ear eneE
-> . a, an a Section 43
-> ia ote oa mua
-> . ee a
-> ; . Oo! se :
-> ¢. | | | | ; 7 as
-> ] . — a Fs wp, aE Deawress Hl, . . San
-> a , ns , Section 81
-> |
-> 80OB9 y,ao » @O6§@8@--4~467 « Q@rOQ@Q @Qe.
+> 8三0 Q
+> B- F63Ar326PM
+> ICl D met, consectetur adipiscing elit. Sed do eiusmod tempor incididunt e dolor in reprehenderit in voluptate velit esse cillum dolore eu fu uptaten quia voluptas sit aspernatur aut odit aut fugit,sed quia co dal.Scroll down to see all options.You must select the correct rad dal.Scroll down to see all options.You must select the correct rad atn" is unde omnis iste natus error sit voluptaten accusantium dolorenque auda" equu" est, the correct option to proceed.Scroll to see all options.Not this on labo" lit," ion" but" but" all options.You must select the correct radio button to proceed.Se [MUTATIONS after step 14]（35 new) REMOVED(35): -aid-628<div>“Please Select an 0ptionThis isa scrollable -aid-629 -aid-630 -aid-631 qui doloren ipsum quia dolor sit anet,consectetur,adipisci aid-636 aid-633<div>"Section 2:ImportantInformationDuis aute i aid-637 <div>"Inportant:Select Your Choice:You must selec aid-635<div>"Section 4:More InformationNemoenin ipsam and25more post-batch re-extract:127ms S]reconciled 35 stamped episodes,1unstamped （always sur troll down to see all options. planned,5executed RSLT:[1] scrolledaid=aid-631（z=θ“This isa scrolla <div>“Please Select an OptionThis isa scrollable cdiv>“This is a scrollable modal.Scroll down to <div>“PleaseSelectanOption" “）by 5eepx[2]clickedaic Section51 Section42 Section43 This is filler cont Section46 This is filler Section48 Section49 Section50 Section44 Section45 Section47 This is filer cor This is filer This is filer This inig to.find the niarv ng to find the navi ng to find the nav ng to find the nav ng to find the niv ru ag pug et Su browsetTnfra+GPTO8S120B Step3of30-BrowserNavigationC gation buttori ation button. ation bufton C do.se5le o..tet do_textfle o_textfle etfe tefle textfie
+> OFINACC
+> Om2
+> ATg
 
 ![[assets/slides/JnubYCYunk8/slide-004.jpg]]
 
@@ -257,22 +252,30 @@ OCR text:
 
 OCR text:
 
-> es an This browser challenge is a
-> Fairly simple webpage
-> But generally across webpage
-> The markdown has
-> ~20x token compression w.r.t DOM
-> So a
+> +
+> Google A Stu
+> Google AI Studio Playground ExploreGeminimodels Untited prompt i Featured L813 tok ~20x.token.compressionw.r.tDoM Butgenerallyacrosswebpage Thisbrowserchallengeisa Fairlysimplewebpage Themarkdownhas ni 3 Flash Previ <>Cetcode
+> NoAPIKey
+> G Dashboard Video Generation Text to Speech and Music Real-tin
+> Default
+> aid-53z439[an aid-85[anim "Try This!" "Moving!" "Button!" ed][blocked by aid-75,ad-58] ocked byad-75,aid-58,aid84] Thinkinglevel
+> ③Settings CetAP oil.com S8Tools cURLcontext X Run3t Function caling Structured outputs Code execution
 
 ![[assets/slides/JnubYCYunk8/slide-008.jpg]]
 
 OCR text:
 
-> 3. Dismiss Hit vs Miss — Fake Close Buttons
-> 4. Unblocked Signal — What Becomes Accessible
-> 5. Failed Action > Diagnosis > Recovery
-> » ry a
-> -
+> radetoPro 口口
+> feedback-mutations.md U feedback-action-log.mdU
+> pytest_cache )ruff_cache aid-479'z9997 *0verlayNotice”blocks[aid-81,a1d-353,aid-83,..]
+> SUBX
+> )crawler OClaude-browser challenge.mo Aourfuppa-opnepo feedback-action-log.md Oclaude-aadhar.mov feedback-blocker-recovery.md feedback-mutations.md Screenshot2026-04-03at12.32.23A v5-step9-deep-blocking.md v5-metacritic-real-worid.md ￥v5-step1-full-unedited.md ￥v5-step1-overlays-blocking.md demo-video ours-aadhar.mov our-agent.mov ours-trekking.mov U U U U U U U U U U u Agent must dismiss them in the right order - the representation tells it exactly what's in the way. 3.DismissHitvsMiss-Fake Close Buttons Agentlearns which buttons are decoys and adapts. After each overlay dismissal, the system reports exactly which elements are now reachable: 4.UnblockedSignal-WhatBecomesAccessible [0ISMISS MISS]aid-87->still_visible <--P[XO SSISI0] [FAST_CLICK aid-87]dispatchat （64θ,32) [FAST_CLICxaid-77]dispatchat（697,414) +cLick didn't work（fake button）
+> v5-step9-full-unedited.md U U [UNBL0cKE0] aid-13,aid-5,aid-9,aid-11,aid-12,aid-19,aid-7,aid-8,aid-18,aid-15,aid-16,aid-6,aid-14, aid-28,aid-18,aid-17,aid-78 （blocker gone)
+> 17 elements suddenly become clickable.Agent can now interact with them.
+> 5.FailedAction→Diagnosis→Recovery
+> bed seoda
+> OUTUN -- - 9] [step 7]click aid-102 ->clickedaid=aid-102 +fixes the blocker now succeeds
+> Git Gr
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -1,0 +1,10 @@
+lf you only remember
+one thing...
+Use WebSockets for
+server-to-server connections
+Perce ry
+Twilio server @ Pipecat bot
+Pipecat bot < speech-to-speech API
+ry atency
+x a 6
+ya: Tcl ES IOOL

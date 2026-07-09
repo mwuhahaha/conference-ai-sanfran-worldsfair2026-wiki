@@ -43,6 +43,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-fL1iJHtl51Q]]
 
 ### Slide/OCR Pages
+- [[youtube-4sX_He5c4sI-slides]]
 - [[youtube-4uFVSLgD2Q4-slides]]
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-C_GG5g38vLU-slides]]
@@ -51,8 +52,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-IddXPepIAS4-slides]]
 - [[youtube-JIsgyk0Paic-slides]]
 - [[youtube-JhJKgRAmfIU-slides]]
-- [[youtube-OV56RddyFuU-slides]]
-- [[youtube-Rx8f05JI_WA-slides]]
+- [[youtube-Lcqat4iP_lE-slides]]
 
 ### Topic Pages
 - [[mcp]]

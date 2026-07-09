@@ -59,12 +59,10 @@ OCR text:
 
 OCR text:
 
-> DSPy allows you to decompose logic into a -
-> program that treats LLMs as a first class citizen...
-> ... Without having to tweak prompts (unless you
-> want to)
-> 
-> e
+> 中
+> Takng:NYC (NYT) 46.17 Central
+> program that treats LLMs as a first class citizen DSPy allows you to decompose logic into a
+> want to) without having to tweak prompts (unless you
 
 ![[assets/slides/-cKUW6n8hBU/slide-005.jpg]]
 
@@ -127,12 +125,12 @@ OCR text:
 
 OCR text:
 
-> ee , ; , Go " 5 c p a |
-> e How you “express your
-> iN ry lI T re Ss declarative intent”
-> e Can be simple strings or
+> Taing:NYC(NYT)46.17Cental
+> How you“express your
+> Signatures
+> declarativeintent”
+> Can be simple strings or
 > complex Class-based objects
-> |
 
 ![[assets/slides/-cKUW6n8hBU/slide-010.jpg]]
 
@@ -194,11 +192,15 @@ OCR text:
 
 OCR text:
 
-> changes in beneficial
-> transactions involving the
-> ,200,000 shares were
-> number of
-> sharessold
+> G
+> Taking:NYCNYT)46.17Cental
+> Optimizers
+> DSPy has various built-in primitives that allow you to then optimize your
+> program. This allows you to quantitatively improve your performance and
+> costprofile.
+> "A DsPy optimizer is an algorithm that can tune the parameters of a DsPy
+> program (i.e., the prompts and/or the LM weights) to maximize the metrics
+> you specify, like accuracy."
 
 ![[assets/slides/-cKUW6n8hBU/slide-014.jpg]]
 
@@ -218,12 +220,21 @@ OCR text:
 
 OCR text:
 
-> “DSPy is not an optimizer. It's set of
-> programming abstractions (signatures, modules)
-> that can be optimized.”
-> - Omar Khattab @lateinteraction
-> 
-> e
+> D
+> Taikng:NYC(NYT)46.17Centra
+> Thereason thatthisistrickyisquitesubtle.It's thefact that
+> anytimeyou use an LLM to assign areward,thoseLLMs aregiant
+> thingswith billionsofparameters,and they'regameable.Ifyou're
+> reinforcementlearningwithrespect to them,you willfind
+> -AndrejKarpathy
+> adversarial examplesforyourLMjudgesalmostguaranteed.
+> (via theDwarkesh
+> Podcast)
+> Soyou can't do thisfor too long.You domaybe10 steps or20
+> steps,andmaybeitwillwork,butyoucantdo100or100.I
+> understand it'snotobvious,butbasically themodelwill find little
+> cracks.It will find all these spurious things in the nooks and
+> crannies of the giantmodel and find a way to cheat it
 
 ![[assets/slides/-cKUW6n8hBU/slide-016.jpg]]
 
@@ -283,11 +294,24 @@ OCR text:
 
 OCR text:
 
-> This is all you need to construct arbitrarily
-> complex workflows, data processing pipelines,
-> replication of business logic, etc.
-> 
-> e
+> SNOW!
+> Ssopshere
+> Tang:NYC(NYT) 46.17Centa
+> DSPy on X
+> @lateinteraction
+> CreatorofDSPy(and ColBERT!)
+> @maximerivest
+> CreatorofAttachments
+> @tech_optimist
+> DSPy advocate, programmer, nice guy
+> @dbreunig
+> Writesexcellenttechnicalcontent
+> @DSPyOSS
+> OfficialDSPy account
+> @getpy
+> Curator of DSPyWeekly
+> @kmad
+> Me
 
 ![[assets/slides/-cKUW6n8hBU/slide-019.jpg]]
 

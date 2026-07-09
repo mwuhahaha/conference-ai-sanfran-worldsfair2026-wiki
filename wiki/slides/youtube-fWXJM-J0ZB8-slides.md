@@ -445,91 +445,27 @@ OCR text:
 
 OCR text:
 
-> PS)
-> Q
-> im)
-> >
-> D
-> ~~ Settings x
-> an
-> ta)
-> D
-> fe] —____
-> >
-> <4 he yt 2 ra ae _ 8s 7 eee a
-> oe) os
-> ot ~
-> i =
-> 4 Current Cont-guration ce =
-> _ oy 7 a
-> > S
-> a :
-> ry
-> Q
-> pias
-> tae
-> va)
-> =
-> Pa
-> I Golden Dataset |
-> a
-> = dé .
-> a) 1
-> Bea
+> Rachel-LeeNabors(they/them)nearestnabors.com Mima New Conversatio ust now G Sync
+> iversations Settings
+> Accounts APICredentials AI Feed Muted Dangerous
+> digests. Configure howMimausesAl to summarizeyoursocial feeds andgenerate topic CurrentConfiguration Using OpenAl orAnthropicAPI √APiKey-Ready Configure mima.social
+> AboutAlFeatures
+> atpostsntotopics andgeneratesummries.wihout Al,topicswillshow
+> Golden Dataset
+> @rachelnabors@editframe Thatisa fantasticusecase
+> CarlAssmann,SecFault&16others
 
 ![[assets/slides/fWXJM-J0ZB8/slide-017.jpg]]
 
 OCR text:
 
-> Es)
-> 
-> a)
-> 
-> im)
-> 
-> >
-> 
-> a
-> 
-> on
-> 
-> a Age wm A Se
-> 
-> > Golden dataset at a glance
-> 
-> Q
-> 
-> >
-> 
-> >)
-> 
-> oe fr)
-> 
-> > 28 14 Po Wi 100%
-> 
-> S
-> 
-> oo
-> 
-> Po
-> 
-> fa)
-> 
-> Rp a: ee
-> 
-> a esky Hh moda
-> 
-> Q af rh cay na iy 7 fore]
-> 
-> D
-> 
-> A
-> 
-> > ;
-> S a.
-> : eal
-> Q g
-> =
+> Rachel-LeeNabors(they/them)nearestnabors.com Mimalocal-modeleval Goldendatasetataglance
+> 28 Examples 14 Threads 2-17 Messages/thread 100% Annotated
+> eachviewedlist+modal median5 hand-written[ref:N]
+> Byplatform Byview context
+> X. 22 6 Bluesky list. 14 14 modal
+> Sourced from real Mima threads,anonymized.Each example pairsa thread inputwith a gold-standard summary and citation r
+> 5modelsevaluatedagainstthissetwith3repetitionseach(420runs total).
 
 ![[assets/slides/fWXJM-J0ZB8/slide-018.jpg]]
 
@@ -652,36 +588,18 @@ OCR text:
 
 OCR text:
 
-> a as we ee 1 G7 cs
-> FS) ;
-> iS Cees ate e rs
-> a goider-summar.es ; , k=
-> a ;
-> ® rere 2 q
-> P yeepgee om ata te a PA ; ;
-> 9 ny e H ry FA
-> > y , , A ,
-> fo}
-> a
-> a
-> a
-> ot
-> lo
-> > ; —_ — _ a
-> 199)
-> 3 ) Z : - |
-> os F : — — - : ,
-> a 7 — ae Pa 5 rn
-> any
-> n Os ant — ames ao ae cy a
-> =
-> a a
-> 5 4
-> pod
-> wy 4
-> Cy
-> © ss
-> =} :
+> Rachel-LeeNabors(they/them)nearestnabors.com Datasets)golden-summaries
+> golden-summaries Label +Experiment
+> Experiments Evaluators
+> Experiments Analysis
+> 0.25- 0.75 0.5 O 754 5.0s 2.5s 10.0s 0.0s
+> Columns
+> json_parse_rate_eval refere RA"Aoe semantio_smlarity_eval avglatency totalcost totaltokons errorrate
+> 100 100 0.89 0.58 1.3s 40.798 0.00%
+> B4 100 100 0.95 0.58 8.4s 83.742 0.00%
+> 0.89 100 0.76 0.51 7.2s @81,293 0.00%
+> 0.92 0.96 0.72 0.49 1s @38,930 0.00%
+> 100 100 0.96 0.70 2.9s $0.22 42.931 0.00y
 
 ![[assets/slides/fWXJM-J0ZB8/slide-022.jpg]]
 

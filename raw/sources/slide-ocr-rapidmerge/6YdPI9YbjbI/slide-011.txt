@@ -1,8 +1,8 @@
 BRAINTRUST.DEV
 Outcomes
 AIE
-10x
-Moreissuestriagedandfixed/day
-IncreaseinAlproductquality
+10x 50%
+More issues triaged and fixed/day Increase in Al product quality
+OOAFICENTLAL
 aws
-World
+Worid

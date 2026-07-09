@@ -35,28 +35,30 @@ OCR text:
 
 OCR text:
 
-> The Browser
+> June2025
+> AIE The Browser
 > (MCP Server)
 > is all you need
-> ? San Francisco, CA
-> —_ a Microsoft ary?
+> SanFrancisco,CA
+> June2825
+> Microsoft smol?
+> Word'sFair
 
 ![[assets/slides/YRGjll7uu5w/slide-003.jpg]]
 
 OCR text:
 
-> Browserbase’s MCP Server's #1 in Browser Automation, #6 Overall
-> © Stor Hetory
-> coo | [enna nee nerer tere) a
-> .
-> ee
-> 400
-> _ ,
-> 2025 February March April Wa me
-> Date ~ ptor-hetorycom
-> via Smithery
-> June 2626,
-> = a Microsoft § ie?
+> Browserbase'sMCPServeris#1inBrowserAutomation,#6Overall
+> StarHistory Browserbase
+> AIE 1200 1000 browserbase/mcp-server-browserbase Provides cloud browserautomation capablites using pages,tae screenshots,and execute JavaScriptina @browserbasehq/mcp-browserbase Remota 66.48k
+> GitHubStars 800 @microsot/playwright-mcp Playwright Automation
+> 600 Enableyour LLMs tonavigate,extract data,and pnsBusn sfedqmuosuoeuo
+> 400 Loca 33.87K
+> 200 @browserbasehg/mcp-stagehand Stagehand
+> Providescloud browserautomation capabites using
+> 2025 February Date March April take screenshots,and execute JavaScript in a cloud... Remote 8.29k
+> viaSmithery June2625
+> World'sFair Microsoft smol?
 
 ![[assets/slides/YRGjll7uu5w/slide-004.jpg]]
 
@@ -95,11 +97,15 @@ OCR text:
 
 OCR text:
 
+> Chat
+> Chs
+> Addcostaot
+> Cresieanew
+> Auto
 > AIE
-> CursorTab
+> Cursor Tab 0
 > aws
-> S
-> Worid'sFair
+> WoridsFar
 
 ![[assets/slides/YRGjll7uu5w/slide-007.jpg]]
 

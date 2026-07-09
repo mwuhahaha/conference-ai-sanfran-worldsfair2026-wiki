@@ -101,16 +101,8 @@ OCR text:
 
 OCR text:
 
-> Loe i ae ia ae
-> Match the display I |
-> to the job. Keep
-> the model off the a
-> metal. Track
-> narrative, not fo
-> numbers. ° |
-> Di
-> a
-> a 2
+> Match the display to the job. Keep metal.Track narrative, the model off the numbers. not
+> OUAL-SISPLAY SPLIT AI-STTVE,OTO LOCAL OPDCLAX ASENTS
 
 ![[assets/slides/akk6KRlcwW4/slide-008.jpg]]
 

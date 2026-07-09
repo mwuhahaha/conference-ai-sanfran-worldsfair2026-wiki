@@ -1,0 +1,53 @@
+Settings
+App.tx
+.md口
+approve
+5SettngsFound
+CHAT
+User Workspace
+Last symced:Osecs ago
+Isee there's a dependency conflict withReact types.Letme instal the Fluent U
+components withthe legacy peer depsflag:
+TextEdior(1)
+Suggestions(1)
+Chat)Tools:Auto ApproveExperimental
+Controls whether tool use should be automatical
+npa install gfluentui/react-coeponentsgfluentut/xeact-icons
+Foatures(3)
+lucide-react--legacy-peer-deps
+AIE
+Chat(3)
+Extensions(1)
+Perfectl Now letme create thegithub/copilot-instructions.nd fle:
+Editor:Accept Suggestion On Commit Character
+(）d
+Conrols whether suggestions shouldbeacceptedoncommtcharactes.For
+Createdcopilot-lnstructions.md
+example,inJavaScript,the semi-colon（）canbea commit character that
+acceptsasuggestion and types that character.
+Chat)Edits2:Enabled
+App.tx+t90-25
+d
+models that don't support tool-calling are unavailable for Edits mode.
+PROBLEMS
+DEBUG CONSOLE
+TERMINAL
+PORTS
+OUTPUT
+App.
+~/vibing-at-aie-2
+Now let
+>npninstall gfluentui/react-components @fluentui/react-iconslucide-react
+-legac
+sdap-raad-
+2rles changed
+Fcopilot-instructions.mdpthub
+48packages are looking for funding
+App.tsxsrc
+runnpm fund' for details
+8Asd Cotet.
+foundevulnerabilities
+Edit fles in ypur workspa
+4s
+net4
+aws

@@ -103,20 +103,22 @@ OCR text:
 
 OCR text:
 
-> OOo kat rcoe wep tam igre mcm tama agert ox Ep eee inc dee agen on EP re ras aeninttun x + _
-> + Ze ae Dene arte Comput eos Dro AY BDO LAY sper 0 2¢ dt 25h BBO? F907 Tae Mae dG ane ed Seed 6 UR tntry OL IQ + b-3 oro ven i
-> New Annotation Contig
-> R
-> an
-> Dwacripomn
-> Arenson Toe
-> O carroorces Coremunn — Freetores
-> Oveerer stn Creatas
-> Qaumm eee tone
-> Camaperien
-> a
-> G
-> + Aan category
+> 0 Vork
+> PHOENN Trace 229901 share
+> TraceStaus OUNSET $0 TotalCost Latency 42.8s Ou.00 u0.00 Ou1.00 u1.00 lew Ses
+> 1&E Trace New Annotation Config
+> financial_report Annotatios Nane Unlock 1Pass
+> WebSearch
+> RESTAP WebSearch
+> 4 WeeSearch LditAn
+> 8Cla
+> Categorica Freeform
+> - wn-g0-5
+> HO
+> Minimize None
+> cxhgherle score the beerg.com
+> Aoscategory
+> CogOut Pyorie 2.**Convers1onzesults Jmped g7y*-Ths specific figuze 1snot corrobotated by Meta's actual eaznings disclosures and aopears financial disclotute.
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

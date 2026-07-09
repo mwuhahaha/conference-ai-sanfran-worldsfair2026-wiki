@@ -21,8 +21,9 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> Building an ACP
-> a. | ‘compatible agent
+> compatible agent Building an ACP
+> met l 20226
+> AlEngineer EUROPE
 
 ![[assets/slides/HsxQICTLF84/slide-002.jpg]]
 
@@ -38,9 +39,16 @@ OCR text:
 
 OCR text:
 
-> . 30+ Agents
-> ee
-> y\ J #3 Braintrust €) WorkOS OpenAl
+> AegeCu Asgs t t,p k hte sl yotd ( agKoogoej ed by faisry A Vareftoey anoistart pg NNI engine atrarcooenand
+> $.98,5
+> Antobupd Code Code mno boild xgevigs wit) C dtfoid OU OpeeCele
+> g eger1
+> AIE codirg ganr () Tescert Clsaf QerL
+> Rg tle
+> Ce
+> (c Ele Mein tueude As oee med A/ todh meitent thiclt mt ssele rl h 30+ Agents
+> B.8 E.L.P
+> Braintrust WorkOS OpenAl
 
 ![[assets/slides/HsxQICTLF84/slide-004.jpg]]
 

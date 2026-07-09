@@ -122,9 +122,14 @@ OCR text:
 
 OCR text:
 
-> Our bug - it opens a PR and tells mo
-> Outside billing issue - sust a heads-up, no PR
-> It alerts only when it matters — and knows the difference.
+> LOG-MONITOR-SLACK
+> Ourbug→itopensaPR and tellsme
+> DAHOH
+> Outside billingissue-justaheads-up,noPR
+> LogMonitorfollo deroOA
+> duction Period Last 1h (02:06 UTC)
+> Provider biling iss The ererread woseedteracleansk-thatisnowcontradictedThe credtce edvla falback each tine hit LlamaParse 402exceededmax -RECURRED.notresoed workpers 21ta
+> Italertsonlywhenitmatters-andknowsthedifference.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-010.jpg]]
 

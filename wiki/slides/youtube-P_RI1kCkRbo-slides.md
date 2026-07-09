@@ -70,13 +70,14 @@ OCR text:
 
 OCR text:
 
-> Research to Productio
-> | LO ZelCal Breakthrough
-> ats foooN ro Serica
-> aco @ = ee
-> moshi.chat
-> 7, kyutai Gradium: Scaling Impact
-> — | Al Engineer |
+> From ResearchtoProduction
+> Kyutai Breakthrough
+> Paris-basedopenscience Al lab. Founded2023withE300M. Moshi:firstspeech-native Research
+> AIE Team from MetaFAIR,Google DeepMind,and Inria. Hibiki-Zero:real-time
+> speech-to-speech translation.
+> moshi.chat by/kyutai Buito bringresearchtoproduction.$70Mraised in2025. Gradium:Scaling Impact Pocket-TTS:CPUmodelforTTS
+> AIEngineer
+> AIEngineer EUROPE
 
 ![[assets/slides/P_RI1kCkRbo/slide-005.jpg]]
 
@@ -195,21 +196,29 @@ OCR text:
 
 OCR text:
 
-> Full-Dupiex Conversationsaenite NtaiiaEE mane ree Deeg not 8 real agent
-> rn * te
-> A Engineering the future of Al
-> af |
+> Moshi Lessons Learned
+> WhatWorksWell Challenges
+> AIE Full-DuplexConversation: Natural,uninterupted Aresearchprototype notarealagent
+> dialogueflow Lackof observability and reliability
+> Real-timeInteraction: Truly conversationalAl,userand Doesnotconveyorunderstand empathy well
+> Alspeak simultaneously
+> Engineering the future of Al
+> AIEngineer LORON
 
 ![[assets/slides/P_RI1kCkRbo/slide-015.jpg]]
 
 OCR text:
 
-> CPU inference ae cro oes
-> * * randih, ae ae bite
-> SOTA perfermance
-> | =
-> Fe | Engineering the future of Al
-> )
+> GradiumPhonon Real-Time InferenceonCPU
+> CPUInference Weights WER SpeakerSim
+> Faster than real-time with no perceptible delay Phonon ~100M 1.48% 56.37%
+> AIE Kani TTS 2 450M 4.97% 40.73%
+> Personalization NeuTTS Air 552M 2.18% 47.51%
+> Multilingual+canreproduce any voicefroma short referenceclip,noretrainingrequired Kokoro NeuTTSNano 229M 100M 1.71% 0.90% 40.15%
+> SOTAperformance
+> Benchmarkon seed-tts→
+> Engineering the future of Al
+> AIEngineer
 
 ![[assets/slides/P_RI1kCkRbo/slide-016.jpg]]
 

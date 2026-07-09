@@ -161,13 +161,13 @@ OCR text:
 
 OCR text:
 
-> World's Fair |
-> The pastisa
-> foreign country |
-> Veo wornasra
-> Het a cee gare)
-> 4 Remeron eres
-> “air NOt ANTHROP\C
+> World'sFair AlEngineer
+> foreign country The past is a
+> 2019-2024-a30-personYC startup,-12engineers
+> woriasra
+> -air Browserb 31/40
+> Id'sFa Er Field GuidetoFable
+> 3x Thariq Shihipar/MemberofTechnical StaffANTHROPIC
 
 ![[assets/slides/9fubhllmsBU/slide-012.jpg]]
 

@@ -119,13 +119,16 @@ OCR text:
 
 OCR text:
 
-> [Automation + Assistant UX] Financial Due Diligence
-> LO ae
-> or Wem ans Uamacioud | EE] Usmaindex
-> fers of mitons dar
-> | 28
+> [Automation+AssistantUx]Financial DueDiligence
+> AIE Use Case CARLYLE LlamaCloud Llamalndex
+> Ane2eleveraged buyout agent
+> Impact SQLTool
+> workflowtodoaleveraged "Thisend-to-end agentic Excel Normalization Agent
+> buyoutmodelcreated decision-making value in the VectorRetrieval Tool Due Diligence Copilot
+> tensofmillionsofdollars." PDF
+> File Tool
+> DocumentExtraction Agent 28
 > aws
-> Nee)
 
 ![[assets/slides/jVGCulhBRZI/slide-008.jpg]]
 

@@ -158,13 +158,19 @@ OCR text:
 
 OCR text:
 
-> O Peo
-> Pe roy Ca enn ne
-> on CR aE CULT siete kiya een ra rene orc
-> 6 crsmea
-> iD 1 eee ee ee Be B gli Pee
+> 1.Oper Refactorutl:asycremoteworkspace,ncryptinkeys,andQLutilties csmith49wants tomerge1commtintoain from refector/bate
+> cth9coned5mntsao
+> ndimprovecorrectness
+> daedsyosowerouse.
+> Splita verylongexecute_command mplementationintosmallerhepermethodsstaremote_command Fxed fle uploadidowmload endpoints to include server_urf and headers whenmaking HTTP cals. Added docstrings to hepermethodsand mproved ogging. Repiaced blocking time.sleep with asyncio.sleep to avoid biocking theevent loop. etch_bashevents_collect_cmmand_output toreducefunctionengthandimproveeadablity. Nocne Noneyet
+> Adlanuogduoue.
+> Addedmore detaled docstrings. Foxed inconsistent serialization context key (now usesexpose_secrets'consistenty). q s Br None yet
+> forfactoryfunctionsandrow2dict.
+> theseisues. Successtulyme
+> nges;verifed presence of docstrings and type-safety checks. None yet
+> etterarablesandissingocstngsonpublicuntions.Compledthecodetnsuretherearno nal behaviorwhileaddressinglongfunctionsblockingcalsnsyccodeinconsistentcontextky
+> the theas
 > 2025-11-22 14:58:18
-> A 7
 
 ![[assets/slides/rcsliSIy_YU/slide-010.jpg]]
 
@@ -240,18 +246,14 @@ OCR text:
 
 OCR text:
 
-> i eo er oo Qiwiare rte ¢€ EO os, or rar)
-> e ta! ce] a + ey
-> z Ca) ry * ue
-> . . . z
-> ( ) one cve-demo-ai-engineer aT
-> Code wade eee ee a aaee aa Ba eas ialiad teas
-> tea or n Cance! changes Commit changes...
-> 2 ae ad “tares 8 ad aad
-> Ps eT ee
-> te ee ee rece a ee
-> Fe ae ro ae
-> 2025-11-22 15:13:51
+> 口 Ca
+> rbren/cve-demo-ai-engineer QTypetosearch
+> <>Code Issues IPullrequests Actions Projects wiki Security Insights Settings
+> cve-demo-ai-engineer/.openhands/microagents/repo.md inmain Cancel changes Commitchanges..
+> Edit Preview Spaces No wrap
+> We're buildingaprocessforremediatingCVEswithagents
+> Relevant docs for the OpenHands SDK are at:docs.openhands.dev/sdk and github.con/OpenHands/software-agent-sdk
+> Use Control+Shift + to toggle the tab key moving focus.Alternatively,use esc then tab to move to thenext interactive element on the page. 2025-11-2215:13:51
 
 ![[assets/slides/rcsliSIy_YU/slide-016.jpg]]
 

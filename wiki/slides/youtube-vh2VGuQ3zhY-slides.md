@@ -53,27 +53,32 @@ OCR text:
 
 OCR text:
 
-> eae”
-> Pat
-> THE PROBLEM ret)
-> 7 ed -
-> The Fat Agent Trap
-> The Natve Architecture
-> Cs
-> |] how
-> Token Bloat °. oa , ag
-> AccuracyCrash - + an rs
-> [eekia a telrestlola) ; fu REY y F
-> Context Crowding °. me ;
+> TheFatAgentTrap THEPROBLEM
+> The Naive Architecture Ankush Rastogi
+> Theeasiest approach istodump every tool'sschema into the prompton everyrequest.Itworksperfectlyindemosand falls apartinproduction. EVERY SINGLE REQUEST UserQuery
+> TokenBloat 127,000tokensfor741tools LLM+ALL100+ToolSchemas
+> Sohal Shakh
+> AccuracyCrash78%→13%asthetoolpoolgrows 1 T2 E1 T4
+> T6 T7 T8 T9 T10
+> CostExplosion Upto99xmore tokensbilled T11 T12 T100 85nore
+> ContextCrowding Noroomleftforactualreasoning Every token,everyrequest isbilled andprocessedinful
+> 20
+> Ankush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-004.jpg]]
 
 OCR text:
 
-> WHY IT FAILS it
-> Accuracy Collapses With Scale
-> ee Se
-> Tool Selection Accuracy (°%e} vs. Too! Pool Size ’
+> WHYITFAILS Accuracy Collapses With Scale
+> Ankush Rastogi
+> 78% 40% 13%
+> Accuracy at 10 tools Accuracyat100tools Accuracyat741tools
+> Tool SelectionAccuracy (%)vs.Tool-Pool Size Sohal Shaikh
+> BO
+> 100 200
+> FatAgent(alltools) WithSemanticRouter
+> 04
+> Ankush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-005.jpg]]
 
@@ -106,53 +111,61 @@ OCR text:
 
 OCR text:
 
-> practel aS it
-> ; — ae
-> Benchmark Results
-> Per eet
-> Accuracy (%) vs. Tool Count TTFT (ms) vs. Too! Count @ GPT4o
-> a ee
-> ee ‘ee
-> | bon
-> = ff
-> oe
-> od co
-> Pn ete
+> RESULTS
+> BenchmarkResults
+> Ankush Rastogi
+> Accuracy(%)vs.Tool Count TTFT(ms)vs.ToolCount@GPT-40
+> 100- 7000
+> 80 6000
+> 5000
+> 60 4000
+> 40 3000 Sohal Shaikh
+> 2000
+> 20 1000
+> 10 50 100 200 741 10 100 200 400 741
+> Baseline (fat agent) With Router Baseline (fatagent) With Router
+> 10
+> Ankush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-007.jpg]]
 
 OCR text:
 
-> HOW TO BUILD IT it
-> 3 Step Implementation Pattern
-> Build Tool Index 7 Route Each Query on Inject & Call LLM
-> a | ee ‘ia :
+> HOWTOBUILDIT
+> 3Step ImplementationPattern
+> Ankush Rastogi
+> Build Tool Index RouteEach Query Inject&CallLLM
+> OFFLINE-ONE-TIME RUNTIME·EVERYREQUEST RUNTIME-EVERYREQUEST
+> Collect all tool names, descriptions,and JsON schemas Embed theincominguserquery with thesamemodel FetchJSoNschemasforthe selectedtoolsonly
+> .Indexonce andreuseforeverby Embedeachtooldescription SentenceTransformers) storingvectorsinFAisSor Pinecone. (OpenAl,Cohere, Run approximate ·Retrieve top-Ktools（K=5 thetoolindex nearest-neighborsearch against default);applya cosine threshold ·Build theprompt with just those Call theLLM→returnresult;log selectionsfor monitoring schemasinthetoolsparameter SohaillShaikh
+> Ankush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-008.jpg]]
 
 OCR text:
 
-> eaters a at)
-> . P — ‘ie
+> YOURROADMAP
 > Implementation Checklist
-> Catalog Your Tools ., Build the Embedding Index
-> + , |
-> ; Implement the Router Integrate into the Agent Loop
-> 7 Evaluate & Tune K 7 Monitor & Iterate
+> Ankush Rastogi
+> Gatheralltoolnames,descriptions,andJsN schemasinastructuredlist CatalogYourTools 2 Pinecone;one-time setup Embed each description;store vectorsinFAiSS or BuildtheEmbeddingIndex
+> 3 schemas ImplementtheRouter embed（query)→similarity_search→top-K→fetch output on every call IntegrateIntotheAgentLoop Replaceyourstaticfunctionslistwith therouter Sohal Shaikh
+> 5 pickthesweetspot Benchmark accuracy atK=3,5,10onaheld-outset; Evaluate&TuneK 6 Monitor&Iterate Log selections;alert onmissed tools;re-embed as yourcataloggrows
+> Ankush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-009.jpg]]
 
 OCR text:
 
-> P= ae
-> INDUSTRY EVIDENCE it.
-> an p |
-> Teams Are Hitting the Same Tool-Scaling Wall
-> Cee cea Anthropic Engineering Blog eee SOK «Issue
-> - : S ? ma a
-> ee A |
-> MCP-Zcro (xfey/MCP-Zero) n8n Community Forum
-> Eo
+> INDUSTRYEVIDENCE
+> TeamsAreHitting theSameTool-ScalingWall
+> Real evidencefrom practitioners,engineersandAnthropicitselfnotsimulated benchmarks. Ankush Rastogi
+> tokens 150K→2K current taskdrops usage from150,oo0 to AnthropicEngineeringBlog Loadingonly the toolsneeded for.the 2,000 with 98.7% cut. 20+ toolsbreaksit VercelAISDK-Issue #11920 Sending alltool definitions every request degrades performance,confusestool choice,and raises tokens +latency
+> Official Anthropicfinding Realproctitioner issue-Jon2026
+> Sohall Shaikh
+> 98% tokenreduction Selects accuratelyfrom~3Kcandidates while cutting tokens98%. MCP-Zero (xfey/MCP-Zero) Testedon308MCPserversand2,797tools. >2 tools-+stuckloop n8nCommunityForum iterations."Hit in production. "Addmore than two toolsand theAlgets stuckin aloop,burningthroughallmax
+> Open source,codeavailablenow Production failure-Aug 2024
+> 15
+> Ankush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-010.jpg]]
 
@@ -195,28 +208,28 @@ OCR text:
 
 OCR text:
 
-> GO DEEPER it
-> Resources & References .
-> aw] Kasia Ss a fetel mM <:] elel-} = API Docs
-> Thank you!
+> GO DEEPER
+> Resources& References
+> Ankush Rastogi
+> 三 Papers& Benchmarks Tools&Repos APIDoCS
+> Zhengetal.-SkillRouter:LLM AgentsatScale(2026).SkilliRouter- github.com/alibaba/skillrouter AnthropicMCP docs.anthropic.com/mcp
+> Liu&Chen-SemanticTool Selection(vLLM,2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohal Shaikh
+> Berkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vectorDBs) GoogleGenAIGemini 2.0- ai.google.dev
+> AnthropicEng.-MCPOn-Demand Context(2025) LangGraph-agentorchestration SentenceTransformers-sbert.net
+> Thankyou!
+> 19
 
 ![[assets/slides/vh2VGuQ3zhY/slide-013.jpg]]
 
 OCR text:
 
-> | (|
-> LET'S CONNECT ft oot
-> Thank You _
-> 
-> a
-> 
-> Ceo ee etl
-> 
-> ees ne
-> 
-> San fale Syn
-> 
+> LET'SCONNECT
+> ThankYou AnkushRastogi
+> Scan either code to connectwith uson Linkedln
+> Sohai Shuikh
 > Ankush Rastogi Sohail Shaikh
+> SeniorData SolutionsEngineer·Prosodica LLC DataScientist·ProsodicaLLC
+> 20
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.
