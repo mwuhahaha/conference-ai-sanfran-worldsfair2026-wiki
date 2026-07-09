@@ -44,6 +44,9 @@ def main() -> int:
     parser.add_argument("--engine", action="append", default=[], help="OCR engine to use. Repeatable: rapidocr, paddleocr, easyocr, doctr, surya.")
     parser.add_argument("--no-live-ocr", action="store_true", help="Merge existing OCR/operator sources without running live OCR engines.")
     parser.add_argument("--enable-surya", action="store_true", help="Enable Surya only after confirming model-weight license terms fit this use.")
+    parser.add_argument("--vision-rescue", action="store_true", help="Run AI vision interpretation for low-confidence/manual-queue slides after OCR.")
+    parser.add_argument("--vision-provider", choices=["auto", "ollama", "openai"], default="auto")
+    parser.add_argument("--vision-limit", type=int, default=0)
     parser.add_argument("--internal-eval-log", action="store_true", help="Write ignored internal operator/tool comparison log.")
     parser.add_argument("--no-build", action="store_true", help="Skip npm static export.")
     parser.add_argument("--no-dependent-indexes", action="store_true", help="Skip topic/tool/word-cloud refreshes.")
@@ -68,6 +71,33 @@ def main() -> int:
         improve_cmd.extend(["--log-manual-queue", "--internal-eval-log"])
     improve_cmd.extend(["--variant-max-old-score", str(args.variant_max_old_score)])
     run(improve_cmd)
+
+    if args.vision_rescue:
+        vision_cmd = [
+            sys.executable,
+            "scripts/interpret_slide_text_with_vision.py",
+            "--provider",
+            args.vision_provider,
+        ]
+        if args.vision_limit:
+            vision_cmd.extend(["--limit", str(args.vision_limit)])
+        run(vision_cmd)
+        merge_ai_cmd = [
+            sys.executable,
+            "scripts/improve_slide_ocr_rapidmerge.py",
+            "--all" if args.all else "--log-manual-queue",
+            "--skip-perfect",
+            "--no-live-ocr",
+            "--min-gain",
+            str(args.min_gain),
+            "--variant-max-old-score",
+            str(args.variant_max_old_score),
+        ]
+        if args.all:
+            merge_ai_cmd.append("--log-manual-queue")
+        if args.internal_eval_log:
+            merge_ai_cmd.append("--internal-eval-log")
+        run(merge_ai_cmd)
 
     refresh = run([sys.executable, "scripts/refresh_slide_pages_from_ocr.py"])
     count = refreshed_count(refresh.stdout or "")

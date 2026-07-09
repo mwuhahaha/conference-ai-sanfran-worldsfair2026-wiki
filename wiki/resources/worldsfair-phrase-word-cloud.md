@@ -12,7 +12,7 @@ sourceLabels: ["Official schedule", "Transcript evidence", "Local slide OCR", "P
 - Official/source JSON files: 1
 - Transcript files: 100
 - Slide OCR files: 2823
-- Approximate normalized corpus words: 958,301
+- Approximate normalized corpus words: 958,302
 
 ## Phrase Handling
 Common conference phrases, topic names, tool names, company names, speaker names, session titles, and schedule labels were matched before token scoring, so phrases such as agentic web, MCP Apps, model context protocol, and self-driving production are kept together.
@@ -24,7 +24,7 @@ Common conference phrases, topic names, tool names, company names, speaker names
 - reinforcement learning (228)
 - AI agents (1332)
 - world's fair (1197)
-- AI engineer (1035)
+- AI engineer (1041)
 - coding agents (1026)
 - agentic search (102)
 - open source (813)

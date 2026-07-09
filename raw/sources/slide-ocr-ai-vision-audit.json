@@ -1,0 +1,12 @@
+{
+  "generatedBy": "scripts/interpret_slide_text_with_vision.py",
+  "startedAtEpoch": 1783607896.7430353,
+  "provider": null,
+  "requestedProvider": "auto",
+  "slidesQueued": 1,
+  "slidesAttempted": 0,
+  "visionFilesWritten": 0,
+  "minConfidence": 0.72,
+  "records": [],
+  "providerStatus": "dry-run"
+}

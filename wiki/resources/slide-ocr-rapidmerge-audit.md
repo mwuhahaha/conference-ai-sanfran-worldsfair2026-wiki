@@ -13,23 +13,23 @@ Weak or suspicious slide OCR is reread with local OCR engines, image crops, and 
 - Slide images seen: 2,823
 - Slide OCR records processed: 1,783
 - Slides skipped as already clean: 1,021
-- Canonical OCR files updated: 0
-- Manual review queue entries: 757
+- Canonical OCR files updated: 1
+- Manual review queue entries: 756
 - Slide markdown pages refreshed from canonical OCR: 199
 - Mode: all
-- Elapsed seconds: 1.72
+- Elapsed seconds: 2.47
 - Audit artifact: `raw/sources/slide-ocr-rapidmerge-audit.json`
 - Merge output directory: `raw/sources/slide-ocr-rapidmerge/`
 - Canonical backups: `raw/sources/slide-ocr-before-rapidmerge/`
 
 ## Best Source Distribution
-- canonical: 1700
+- canonical: 1699
 - rapidocr-prior: 78
-- operator-verified: 3
+- operator-verified: 4
 - reconstructed: 2
 
 ## Canonical Updates By Source
-- No canonical replacements in the latest run.
+- operator-verified: 1
 
 ## Engine Status
 - Live OCR disabled or no engines selected.

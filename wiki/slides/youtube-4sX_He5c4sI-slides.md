@@ -21,9 +21,10 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 
 OCR text:
 
-> se aad
-> | World's Fair |
-> e STREAM STARTS JULY 1, 2026 9:00AM PT
+> AI Engineer
+> World's Fair
+> STARTING SOON
+> STREAM STARTS JULY 1, 2026 9:00AM PT
 
 ![[assets/slides/4sX_He5c4sI/slide-002.jpg]]
 

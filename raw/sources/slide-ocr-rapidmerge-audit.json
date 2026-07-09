@@ -1,14 +1,14 @@
 {
   "generatedBy": "scripts/improve_slide_ocr_rapidmerge.py",
-  "startedAtEpoch": 1783594271.793358,
+  "startedAtEpoch": 1783607628.4547331,
   "mode": "all",
   "skipPerfect": true,
   "engineStatus": {},
   "slidesSeen": 2823,
   "slidesProcessed": 1783,
   "slidesSkippedPerfect": 1021,
-  "canonicalUpdated": 0,
-  "manualReviewNeeded": 757,
+  "canonicalUpdated": 1,
+  "manualReviewNeeded": 756,
   "records": [
     {
       "videoId": "-TiET_K-E_g",
@@ -1838,13 +1838,13 @@
       "oldScore": 79.32,
       "perfectBefore": false,
       "variantReread": false,
-      "bestSource": "canonical",
-      "bestWords": 6,
-      "bestScore": 79.32,
-      "updatedCanonical": false,
-      "manualReviewNeeded": true,
+      "bestSource": "operator-verified",
+      "bestWords": 8,
+      "bestScore": 206.24,
+      "updatedCanonical": true,
+      "manualReviewNeeded": false,
       "engineErrors": {},
-      "preview": "se aad\n| World's Fair |\ne STREAM STARTS JULY 1, 2026 9:00AM PT"
+      "preview": "AI Engineer\nWorld's Fair\nSTARTING SOON\nSTREAM STARTS JULY 1, 2026 9:00AM PT"
     },
     {
       "videoId": "4sX_He5c4sI",
@@ -30322,6 +30322,6 @@
       "preview": "Keley Mohland,Lia Mcride\nerai\nineer\n(AD\nAgents for\nReplacing\n(AD\nSaaS\ne\nsca\nGoogle DeepMind\nAlEngineer\nEUROPE"
     }
   ],
-  "finishedAtEpoch": 1783594273.513965,
-  "elapsedSeconds": 1.72
+  "finishedAtEpoch": 1783607630.9289036,
+  "elapsedSeconds": 2.47
 }

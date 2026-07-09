@@ -33,6 +33,7 @@ AUDIT_PATH = ROOT / "raw" / "sources" / "slide-ocr-rapidmerge-audit.json"
 AUDIT_PAGE = ROOT / "wiki" / "resources" / "slide-ocr-rapidmerge-audit.md"
 SOURCE_DIRS = [
     ("operator-verified", ROOT / "raw" / "sources" / "slide-ocr-operator-verified"),
+    ("ai-vision", ROOT / "raw" / "sources" / "slide-ocr-ai-vision"),
     ("canonical", CANONICAL_OCR),
     ("tesseract-improved", ROOT / "raw" / "sources" / "slide-ocr-improved"),
     ("rapidocr-prior", ROOT / "raw" / "sources" / "slide-ocr-rapidocr"),
@@ -79,6 +80,8 @@ class Candidate:
             score += 8
         if self.source == "operator-verified":
             score += 100
+        if self.source == "ai-vision":
+            score += 85
         return score
 
 
@@ -654,6 +657,7 @@ def improve(args: argparse.Namespace) -> int:
         manual_needed = (
             args.log_manual_queue
             and best.source != "operator-verified"
+            and best.source != "ai-vision"
             and (best.score < args.manual_score_threshold or is_weak(best.text))
         )
         if manual_needed:

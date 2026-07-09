@@ -2,7 +2,7 @@
   "generatedBy": "scripts/generate_phrase_word_cloud.py",
   "sourceCounts": {
     "documents": 2924,
-    "approxWords": 958301,
+    "approxWords": 958302,
     "phraseCandidates": 1026
   },
   "terms": [
@@ -32,7 +32,7 @@
     },
     {
       "term": "AI engineer",
-      "count": 1035
+      "count": 1041
     },
     {
       "term": "coding agents",
