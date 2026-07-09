@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RAW = ROOT / "raw" / "sources"
 ASSETS = WIKI / "assets"
-OUT_SVG = ASSETS / "worldsfair-phrase-word-cloud.svg"
+OUT_SVG = ASSETS / "worldsfair-phrase-word-cloud-v2.svg"
 OUT_JSON = RAW / "worldsfair-phrase-word-cloud.json"
 OUT_PAGE = WIKI / "resources" / "worldsfair-phrase-word-cloud.md"
 
