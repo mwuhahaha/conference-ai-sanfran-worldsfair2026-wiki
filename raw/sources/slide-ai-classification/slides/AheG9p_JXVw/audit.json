@@ -1,0 +1,103 @@
+{
+  "video_id": "AheG9p_JXVw",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "min_confidence": 0.72,
+  "hide_rejected": true,
+  "evidence_retained": true,
+  "accepted_count": 0,
+  "rejected_count": 4,
+  "accepted": [],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with a presenter; slide content is only partially visible and not a readable presentation slide.",
+      "text": "Generating VS Editing\nVS Editing",
+      "layout": {
+        "background": "linear-gradient(135deg, #0b0f14 0%, #1a2b3a 55%, #3dd6d0 100%)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Generating VS Editing",
+            "x": 76.0,
+            "y": 34.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "VS Editing",
+            "x": 0,
+            "y": 14.0,
+            "w": 38.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/AheG9p_JXVw/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628706.5020735
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with presenter and projected slides; not a readable content slide.",
+      "text": "",
+      "layout": {
+        "background": "teal-to-cyan stage lighting with dark curtains and white projection screens",
+        "style": "dark",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/AheG9p_JXVw/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628718.8251688
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with presenter and screens; not a readable standalone content slide.",
+      "text": "AE exclusive - try our beta!",
+      "layout": {
+        "background": "dark stage with teal/blue lighting",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AE exclusive - try our beta!",
+            "x": 76.0,
+            "y": 33.0,
+            "w": 18.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/AheG9p_JXVw/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628732.5205886
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.12,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with projection screens; slide content is not readable and this is not a clear presentation slide frame.",
+      "text": "",
+      "layout": {
+        "background": "teal-blue stage lighting with dark curtains",
+        "style": "dark",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/AheG9p_JXVw/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628749.454043
+    }
+  ]
+}

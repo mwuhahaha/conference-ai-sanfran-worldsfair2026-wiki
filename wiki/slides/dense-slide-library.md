@@ -68,7 +68,7 @@ This indexes slide-only cropped decks produced from captured video frames. Use t
 - [[youtube-Xfl50508LZM-dense-slides]] — 7 slide-only images
 - [[youtube-YRGjll7uu5w-dense-slides]] — 4 slide-only images
 - [[youtube-Ywl4LsvHKzU-dense-slides]] — 7 slide-only images
-- [[youtube-ZRM_TfEZcIo-dense-slides]] — 12 slide-only images
+- [[youtube-ZRM_TfEZcIo-dense-slides]] — 11 visible slide-only images; 1 hidden evidence frame
 - [[youtube-ZuiJjkbX0Og-dense-slides]] — 3 slide-only images
 - [[youtube-aqW68Is_Kj4-dense-slides]] — 5 slide-only images
 - [[youtube-bSG9wUYaHWU-dense-slides]] — 1 slide-only image

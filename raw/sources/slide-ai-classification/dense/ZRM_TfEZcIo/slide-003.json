@@ -1,0 +1,65 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Hi, I'm Louis-François\n– Co-founder & CTO @ Towards AI\n– \"What's AI\" on YouTube · author of Building LLMs for Production\n– Previously PhD @ Mila\n– Build courses, videos, and trainings for a living\n  o Which all starts from good research!",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Hi, I'm Louis-François",
+        "x": 33.0,
+        "y": 11.0,
+        "w": 41.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "– Co-founder & CTO @ Towards AI",
+        "x": 33.0,
+        "y": 28.0,
+        "w": 44.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "– \"What's AI\" on YouTube · author of Building LLMs for Production",
+        "x": 33.0,
+        "y": 38.0,
+        "w": 61.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "– Previously PhD @ Mila",
+        "x": 33.0,
+        "y": 48.0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "– Build courses, videos, and trainings for a living",
+        "x": 33.0,
+        "y": 57.0,
+        "w": 55.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "o Which all starts from good research!",
+        "x": 39.0,
+        "y": 67.0,
+        "w": 41.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628751.8947577
+}

@@ -1,8 +1,8 @@
 {
   "is_content_slide": false,
-  "confidence": 0.97,
+  "confidence": 0.98,
   "frame_type": "title_card",
-  "reject_reason": "speaker intro card with bio rather than substantive presentation content",
+  "reject_reason": "speaker intro card / biography slide",
   "text": "Hi, I'm Paul\n\nFounder & CEO @ Decoding AI\nContent and courses on shipping AI products\n\nCo-Author of the\nLLM Engineer’s Handbook Bestseller",
   "layout": {
     "background": "#ffffff",
@@ -11,38 +11,39 @@
       {
         "role": "title",
         "text": "Hi, I'm Paul",
-        "x": 32.0,
-        "y": 14.0,
-        "w": 24.0,
-        "h": 9.0
+        "x": 31.0,
+        "y": 11.0,
+        "w": 20.0,
+        "h": 7.0
       },
       {
         "role": "body",
         "text": "Founder & CEO @ Decoding AI\nContent and courses on shipping AI products",
-        "x": 32.0,
-        "y": 34.0,
-        "w": 33.0,
-        "h": 16.0
+        "x": 31.0,
+        "y": 26.0,
+        "w": 31.0,
+        "h": 12.0
       },
       {
         "role": "body",
         "text": "Co-Author of the\nLLM Engineer’s Handbook Bestseller",
-        "x": 32.0,
-        "y": 53.0,
+        "x": 31.0,
+        "y": 41.0,
         "w": 33.0,
-        "h": 15.0
+        "h": 12.0
       },
       {
         "role": "logo",
         "text": "LLM Engineer’s Handbook",
-        "x": 74.0,
-        "y": 18.0,
-        "w": 17.0,
-        "h": 28.0
+        "x": 73.0,
+        "y": 13.0,
+        "w": 20.0,
+        "h": 38.0
       }
     ]
   },
-  "image": "wiki/assets/slides/ZRM_TfEZcIo/slide-005.jpg",
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-002.jpg",
+  "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628391.6248424
+  "classified_at_epoch": 1783628727.994293
 }

@@ -1,0 +1,73 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "My OS didn't start from zero\n\n- Years of notes — every video and course I've made, all moved into Obsidian\n- Meeting recaps I save after every call -> Obsidian\n- Highlights from posts, tweets, and articles -> Obsidian\n- Even my agent skills -> Obsidian",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "My OS didn't start from zero",
+        "x": 33.0,
+        "y": 10.0,
+        "w": 41.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Years of notes — every video and course I've made, all moved into Obsidian",
+        "x": 36.0,
+        "y": 22.0,
+        "w": 46.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Meeting recaps I save after every call -> Obsidian",
+        "x": 36.0,
+        "y": 30.0,
+        "w": 41.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Highlights from posts, tweets, and articles -> Obsidian",
+        "x": 36.0,
+        "y": 38.0,
+        "w": 44.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Even my agent skills -> Obsidian",
+        "x": 36.0,
+        "y": 46.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "archive\nLouis's skills\nPersonal\nprofessional\nmeetings\nMeetings & Events\nTowards AI\nVideo & Writing\nProfessional\nworking-dir\nTodo Personal\nTodo Professional",
+        "x": 83.0,
+        "y": 26.0,
+        "w": 15.0,
+        "h": 44.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "TOWARDS AI",
+        "x": 8.0,
+        "y": 49.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628772.4150634
+}

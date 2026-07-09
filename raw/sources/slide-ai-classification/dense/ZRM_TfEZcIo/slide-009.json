@@ -1,0 +1,49 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Now, how do we query this wiki?\nindex.yaml summary\nsource wiki page\nwiki derivatives",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Now, how do we query this wiki?",
+        "x": 24.0,
+        "y": 4.0,
+        "w": 52.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "index.yaml summary",
+        "x": 41.0,
+        "y": 22.0,
+        "w": 29.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "source wiki page",
+        "x": 44.0,
+        "y": 34.0,
+        "w": 26.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "wiki derivatives",
+        "x": 47.0,
+        "y": 47.0,
+        "w": 26.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783629099.243191
+}

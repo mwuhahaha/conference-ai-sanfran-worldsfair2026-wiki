@@ -1,0 +1,16 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.12,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Speaker on stage with projection screens; slide content is not readable and this is not a clear presentation slide frame.",
+  "text": "",
+  "layout": {
+    "background": "teal-blue stage lighting with dark curtains",
+    "style": "dark",
+    "blocks": []
+  },
+  "image": "wiki/assets/slides/AheG9p_JXVw/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628749.454043
+}

@@ -1,0 +1,469 @@
+{
+  "video_id": "APh1Vx0oLmQ",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "min_confidence": 0.72,
+  "hide_rejected": true,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "BUILDING DETERMINISTIC\nINFRASTRUCTURE FOR\nNON-DETERMINISTIC\nAI AGENTS\n\nTHE EMERGING CONTROL PLANE\nFOR AUTONOMOUS AI SYSTEMS\n\nNishant Gupta\nTech Lead @ Meta\n\nDETERMINISTIC BOUNDARY (DB-500)\nENTROPY REDUCTION: 99.9%\nPREDICTABILITY INDEX: 1.0\nSYSTEM VARIANCE: <0.1%\nCONTROL ENCLOSURE (CE-99.99%)\n\nSIGNAL RECTIFICATION\nSTATE SYNCHRONIZATION\nSIGNAL SYNCHRONIZATION\nRIGID FRAMEWORK\nCONTROL ENCLOSURE (CE-99.99%)",
+      "layout": {
+        "background": "#f5f5f2",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "BUILDING DETERMINISTIC\nINFRASTRUCTURE FOR\nNON-DETERMINISTIC\nAI AGENTS",
+            "x": 4.0,
+            "y": 0,
+            "w": 43.0,
+            "h": 22.0
+          },
+          {
+            "role": "subtitle",
+            "text": "THE EMERGING CONTROL PLANE\nFOR AUTONOMOUS AI SYSTEMS",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 29.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram",
+            "text": "3D cube diagram with red synchronization lines around a gray cloud-like core",
+            "x": 36.0,
+            "y": 11.0,
+            "w": 53.0,
+            "h": 65.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DETERMINISTIC BOUNDARY (DB-500)\nENTROPY REDUCTION: 99.9%\nPREDICTABILITY INDEX: 1.0\nSYSTEM VARIANCE: <0.1%\nCONTROL ENCLOSURE (CE-99.99%)",
+            "x": 72.0,
+            "y": 8.0,
+            "w": 25.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SIGNAL RECTIFICATION",
+            "x": 85.0,
+            "y": 39.0,
+            "w": 13.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "STATE SYNCHRONIZATION",
+            "x": 86.0,
+            "y": 49.0,
+            "w": 13.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SIGNAL SYNCHRONIZATION",
+            "x": 25.0,
+            "y": 39.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RIGID FRAMEWORK",
+            "x": 37.0,
+            "y": 80.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "CONTROL ENCLOSURE (CE-99.99%)",
+            "x": 78.0,
+            "y": 81.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Nishant Gupta\nTech Lead @ Meta",
+            "x": 4.0,
+            "y": 89.0,
+            "w": 20.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/APh1Vx0oLmQ/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628956.3048444,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/APh1Vx0oLmQ/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Infrastructure was built for\npredictable microservices.\n\nTHE GREAT MISMATCH\n\nTraditional\nMicroservices\n\nStateless\n[STATE: 0]\n\nDeterministic\n[PATH: FIXED]\n\nRequest-response\n[FLOW: SYNC]\n\nMillisecond execution\n[TIME: <100MS]\n\nFRICTION POINTS &\nINCOMPATIBILITY ZONES\n\nAutonomous\nAI Agents\n\nStateful\n[STATE: PERSIST]\n\nProbabilistic\n[PATH: DYNAMIC]\n\nMulti-step workflows\n[FLOW: ASYNC]\n\nLong-running\n[TIME: >MIN/HR]",
+      "layout": {
+        "background": "light off-white with gray and navy panels",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Infrastructure was built for\npredictable microservices.",
+            "x": 3.0,
+            "y": 0,
+            "w": 60.0,
+            "h": 13.0
+          },
+          {
+            "role": "caption",
+            "text": "THE GREAT MISMATCH",
+            "x": 37.0,
+            "y": 15.0,
+            "w": 26.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Traditional\nMicroservices",
+            "x": 7.0,
+            "y": 20.0,
+            "w": 31.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Autonomous\nAI Agents",
+            "x": 66.0,
+            "y": 20.0,
+            "w": 28.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "FRICTION POINTS &\nINCOMPATIBILITY ZONES",
+            "x": 40.0,
+            "y": 25.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Stateless\n[STATE: 0]",
+            "x": 8.0,
+            "y": 40.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Deterministic\n[PATH: FIXED]",
+            "x": 8.0,
+            "y": 51.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Request-response\n[FLOW: SYNC]",
+            "x": 8.0,
+            "y": 62.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Millisecond execution\n[TIME: <100MS]",
+            "x": 8.0,
+            "y": 73.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Stateful\n[STATE: PERSIST]",
+            "x": 67.0,
+            "y": 40.0,
+            "w": 27.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Probabilistic\n[PATH: DYNAMIC]",
+            "x": 67.0,
+            "y": 51.0,
+            "w": 27.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Multi-step workflows\n[FLOW: ASYNC]",
+            "x": 67.0,
+            "y": 62.0,
+            "w": 27.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Long-running\n[TIME: >MIN/HR]",
+            "x": 67.0,
+            "y": 73.0,
+            "w": 27.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/APh1Vx0oLmQ/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628977.891977,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/APh1Vx0oLmQ/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Demos optimize for capability.\nProduction demands reliability.\n\nCapabilities\nReliability Core\nReliability Core\n[STRUCTURAL INTEGRITY: CRITICAL]\n(LOAD BEARING)\n[ISOMETRIC VIEW: SYSTEM CROSS-SECTION]",
+      "layout": {
+        "background": "very light gray/white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Demos optimize for capability.\nProduction demands reliability.",
+            "x": 4.0,
+            "y": 2.0,
+            "w": 72.0,
+            "h": 18.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Capabilities",
+            "x": 64.0,
+            "y": 31.0,
+            "w": 19.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Reliability Core",
+            "x": 4.0,
+            "y": 53.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Reliability Core",
+            "x": 77.0,
+            "y": 52.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "[STRUCTURAL INTEGRITY: CRITICAL]",
+            "x": 74.0,
+            "y": 11.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "(LOAD BEARING)",
+            "x": 3.0,
+            "y": 88.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "[ISOMETRIC VIEW: SYSTEM CROSS-SECTION]",
+            "x": 78.0,
+            "y": 91.0,
+            "w": 19.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Prompt",
+            "x": 39.0,
+            "y": 25.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM",
+            "x": 51.0,
+            "y": 26.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory",
+            "x": 29.0,
+            "y": 63.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tools",
+            "x": 42.0,
+            "y": 66.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Authentication",
+            "x": 56.0,
+            "y": 63.0,
+            "w": 12.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/APh1Vx0oLmQ/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629001.3153398,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/APh1Vx0oLmQ/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Real production failures originate in\nthe infrastructure, not the model.\n\nDiagnostic Failure Tree\nLogic\nRecursive reasoning loops\nWorkflow deadlocks\nAction\nStochastic Model Output\nTool hallucinations\nRetry storms\nCost explosions\nState\nContext drift\nMemory poisoning",
+      "layout": {
+        "background": "#f3f1ec",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Real production failures originate in\nthe infrastructure, not the model.",
+            "x": 3.0,
+            "y": 0,
+            "w": 94.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Diagnostic Failure Tree",
+            "x": 6.0,
+            "y": 14.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Stochastic Model Output",
+            "x": 8.0,
+            "y": 38.0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Logic",
+            "x": 30.0,
+            "y": 27.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Recursive reasoning loops",
+            "x": 40.0,
+            "y": 24.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Workflow deadlocks",
+            "x": 82.0,
+            "y": 20.0,
+            "w": 12.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Action",
+            "x": 30.0,
+            "y": 48.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tool hallucinations",
+            "x": 42.0,
+            "y": 40.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Retry storms",
+            "x": 63.0,
+            "y": 41.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cost explosions",
+            "x": 82.0,
+            "y": 39.0,
+            "w": 12.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "State",
+            "x": 30.0,
+            "y": 72.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Context drift",
+            "x": 41.0,
+            "y": 64.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory poisoning",
+            "x": 82.0,
+            "y": 63.0,
+            "w": 14.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/APh1Vx0oLmQ/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629024.4549308,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/APh1Vx0oLmQ/slide-004.html"
+    }
+  ],
+  "rejected": []
+}

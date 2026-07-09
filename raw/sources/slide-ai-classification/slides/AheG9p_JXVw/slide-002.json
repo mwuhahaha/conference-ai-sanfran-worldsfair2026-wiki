@@ -1,0 +1,16 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Stage photo with presenter and projected slides; not a readable content slide.",
+  "text": "",
+  "layout": {
+    "background": "teal-to-cyan stage lighting with dark curtains and white projection screens",
+    "style": "dark",
+    "blocks": []
+  },
+  "image": "wiki/assets/slides/AheG9p_JXVw/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628718.8251688
+}

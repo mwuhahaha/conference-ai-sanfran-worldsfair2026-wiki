@@ -1,0 +1,25 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.96,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Stage photo with presenter and screens; not a readable standalone content slide.",
+  "text": "AE exclusive - try our beta!",
+  "layout": {
+    "background": "dark stage with teal/blue lighting",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AE exclusive - try our beta!",
+        "x": 76.0,
+        "y": 33.0,
+        "w": 18.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image": "wiki/assets/slides/AheG9p_JXVw/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628732.5205886
+}

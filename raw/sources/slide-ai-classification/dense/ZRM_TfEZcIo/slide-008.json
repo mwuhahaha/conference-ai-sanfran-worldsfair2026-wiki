@@ -1,0 +1,41 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How does the wiki look like?\nresearch-coding-agent-architectures\nraw\nwiki\ncomparisons\nconcepts\nentities\nnotes\nrepos\nsources\nopen-questions\noverview\nsynthesis\nindex\nlog",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How does the wiki look like?",
+        "x": 27.0,
+        "y": 5.0,
+        "w": 46.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "research-coding-agent-architectures\nraw\nwiki\ncomparisons\nconcepts\nentities\nnotes\nrepos\nsources\nopen-questions\noverview\nsynthesis\nindex\nlog",
+        "x": 27.0,
+        "y": 11.0,
+        "w": 26.0,
+        "h": 79.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "wiki graph / topic network",
+        "x": 55.0,
+        "y": 11.0,
+        "w": 42.0,
+        "h": 79.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783629083.6283495
+}

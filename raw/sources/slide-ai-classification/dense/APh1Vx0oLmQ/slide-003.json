@@ -1,0 +1,113 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Demos optimize for capability.\nProduction demands reliability.\n\nCapabilities\nReliability Core\nReliability Core\n[STRUCTURAL INTEGRITY: CRITICAL]\n(LOAD BEARING)\n[ISOMETRIC VIEW: SYSTEM CROSS-SECTION]",
+  "layout": {
+    "background": "very light gray/white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Demos optimize for capability.\nProduction demands reliability.",
+        "x": 4.0,
+        "y": 2.0,
+        "w": 72.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Capabilities",
+        "x": 64.0,
+        "y": 31.0,
+        "w": 19.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Reliability Core",
+        "x": 4.0,
+        "y": 53.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Reliability Core",
+        "x": 77.0,
+        "y": 52.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "[STRUCTURAL INTEGRITY: CRITICAL]",
+        "x": 74.0,
+        "y": 11.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "(LOAD BEARING)",
+        "x": 3.0,
+        "y": 88.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "[ISOMETRIC VIEW: SYSTEM CROSS-SECTION]",
+        "x": 78.0,
+        "y": 91.0,
+        "w": 19.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Prompt",
+        "x": 39.0,
+        "y": 25.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM",
+        "x": 51.0,
+        "y": 26.0,
+        "w": 5.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Memory",
+        "x": 29.0,
+        "y": 63.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 42.0,
+        "y": 66.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Authentication",
+        "x": 56.0,
+        "y": 63.0,
+        "w": 12.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783629001.3153398
+}

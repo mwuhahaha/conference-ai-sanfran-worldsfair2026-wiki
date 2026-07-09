@@ -1,0 +1,757 @@
+{
+  "video_id": "ZRM_TfEZcIo",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "min_confidence": 0.72,
+  "hide_rejected": true,
+  "evidence_retained": true,
+  "accepted_count": 11,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "My Second Brain\n5,489 notes in Obsidian\n5,505 files in Readwise\nPlus, Notion, Google Drive.\nGrowing ~250 files per month",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "My Second Brain",
+            "x": 7.0,
+            "y": 10.0,
+            "w": 34.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "5,489 notes in Obsidian",
+            "x": 7.0,
+            "y": 30.0,
+            "w": 31.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "5,505 files in Readwise",
+            "x": 7.0,
+            "y": 42.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Plus, Notion, Google Drive.",
+            "x": 7.0,
+            "y": 56.0,
+            "w": 37.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Growing ~250 files per month",
+            "x": 7.0,
+            "y": 71.0,
+            "w": 35.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628708.6146905,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hi, I'm Louis-François\n– Co-founder & CTO @ Towards AI\n– \"What's AI\" on YouTube · author of Building LLMs for Production\n– Previously PhD @ Mila\n– Build courses, videos, and trainings for a living\n  o Which all starts from good research!",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hi, I'm Louis-François",
+            "x": 33.0,
+            "y": 11.0,
+            "w": 41.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "– Co-founder & CTO @ Towards AI",
+            "x": 33.0,
+            "y": 28.0,
+            "w": 44.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "– \"What's AI\" on YouTube · author of Building LLMs for Production",
+            "x": 33.0,
+            "y": 38.0,
+            "w": 61.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "– Previously PhD @ Mila",
+            "x": 33.0,
+            "y": 48.0,
+            "w": 34.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "– Build courses, videos, and trainings for a living",
+            "x": 33.0,
+            "y": 57.0,
+            "w": 55.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "o Which all starts from good research!",
+            "x": 39.0,
+            "y": 67.0,
+            "w": 41.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628751.8947577,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "My OS didn't start from zero\n\n- Years of notes — every video and course I've made, all moved into Obsidian\n- Meeting recaps I save after every call -> Obsidian\n- Highlights from posts, tweets, and articles -> Obsidian\n- Even my agent skills -> Obsidian",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "My OS didn't start from zero",
+            "x": 33.0,
+            "y": 10.0,
+            "w": 41.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Years of notes — every video and course I've made, all moved into Obsidian",
+            "x": 36.0,
+            "y": 22.0,
+            "w": 46.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Meeting recaps I save after every call -> Obsidian",
+            "x": 36.0,
+            "y": 30.0,
+            "w": 41.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Highlights from posts, tweets, and articles -> Obsidian",
+            "x": 36.0,
+            "y": 38.0,
+            "w": 44.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Even my agent skills -> Obsidian",
+            "x": 36.0,
+            "y": 46.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "archive\nLouis's skills\nPersonal\nprofessional\nmeetings\nMeetings & Events\nTowards AI\nVideo & Writing\nProfessional\nworking-dir\nTodo Personal\nTodo Professional",
+            "x": 83.0,
+            "y": 26.0,
+            "w": 15.0,
+            "h": 44.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "TOWARDS AI",
+            "x": 8.0,
+            "y": 49.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628772.4150634,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Inside v1: fan out, rank, scrape\nTopic\ngolden links\nScrape links\nseed context\nQuery rounds\nGemini grounded in Google\nMain agent\nsubagent Q1\nsubagent Q2\nsubagent Q3\nsubagent Q4\nsubagent Q5\nsubagent Q6\nx3 rounds",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Inside v1: fan out, rank, scrape",
+            "x": 29.0,
+            "y": 6.0,
+            "w": 44.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Topic\ngolden links",
+            "x": 28.0,
+            "y": 49.0,
+            "w": 8.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Scrape links\nseed context",
+            "x": 39.0,
+            "y": 49.0,
+            "w": 10.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Query rounds",
+            "x": 57.0,
+            "y": 17.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Gemini grounded in Google",
+            "x": 57.0,
+            "y": 21.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Main agent",
+            "x": 53.0,
+            "y": 51.0,
+            "w": 8.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "subagent Q1\nsubagent Q2\nsubagent Q3\nsubagent Q4\nsubagent Q5\nsubagent Q6",
+            "x": 64.0,
+            "y": 35.0,
+            "w": 11.0,
+            "h": 33.0
+          },
+          {
+            "role": "caption",
+            "text": "x3 rounds",
+            "x": 56.0,
+            "y": 75.0,
+            "w": 9.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628794.3513358,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Forget the infrastructure you think\nyou need\n\nNo vector database. No knowledge graph.\nNo semantic search. No text search.",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Forget the infrastructure you think\nyou need",
+            "x": 28.0,
+            "y": 17.0,
+            "w": 65.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "No vector database. No knowledge graph.\nNo semantic search. No text search.",
+            "x": 38.0,
+            "y": 47.0,
+            "w": 44.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628807.9328394,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "No database, just the index\nAgent\nreads first\nindex.yaml\ncatalog + summaries",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "No database, just the index",
+            "x": 28.0,
+            "y": 10.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agent",
+            "x": 38.0,
+            "y": 39.0,
+            "w": 7.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "reads first",
+            "x": 44.0,
+            "y": 34.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "index.yaml",
+            "x": 49.0,
+            "y": 38.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "catalog + summaries",
+            "x": 49.0,
+            "y": 46.0,
+            "w": 15.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629063.939547,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How does the wiki look like?\nresearch-coding-agent-architectures\nraw\nwiki\ncomparisons\nconcepts\nentities\nnotes\nrepos\nsources\nopen-questions\noverview\nsynthesis\nindex\nlog",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How does the wiki look like?",
+            "x": 27.0,
+            "y": 5.0,
+            "w": 46.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "research-coding-agent-architectures\nraw\nwiki\ncomparisons\nconcepts\nentities\nnotes\nrepos\nsources\nopen-questions\noverview\nsynthesis\nindex\nlog",
+            "x": 27.0,
+            "y": 11.0,
+            "w": 26.0,
+            "h": 79.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "wiki graph / topic network",
+            "x": 55.0,
+            "y": 11.0,
+            "w": 42.0,
+            "h": 79.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629083.6283495,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Now, how do we query this wiki?\nindex.yaml summary\nsource wiki page\nwiki derivatives",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Now, how do we query this wiki?",
+            "x": 24.0,
+            "y": 4.0,
+            "w": 52.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "index.yaml summary",
+            "x": 41.0,
+            "y": 22.0,
+            "w": 29.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "source wiki page",
+            "x": 44.0,
+            "y": 34.0,
+            "w": 26.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "wiki derivatives",
+            "x": 47.0,
+            "y": 47.0,
+            "w": 26.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629099.243191,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Every question leaves a trace\nquestion\nconcept\nnew note\nnew comparison\nyour questions",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Every question leaves a trace",
+            "x": 27.0,
+            "y": 5.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "question",
+            "x": 27.0,
+            "y": 45.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "concept",
+            "x": 47.0,
+            "y": 41.0,
+            "w": 11.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "new note",
+            "x": 60.0,
+            "y": 31.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "new comparison",
+            "x": 60.0,
+            "y": 53.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "your questions",
+            "x": 78.0,
+            "y": 18.0,
+            "w": 17.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629112.8116689,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "One immutable PARA snapshot\nProjects\nAreas\nResources\nArchive\nObsidian snapshot\nimmutable\nnotes\nresources\nhighlights",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "One immutable PARA snapshot",
+            "x": 27.0,
+            "y": 4.0,
+            "w": 46.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Projects",
+            "x": 36.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Areas",
+            "x": 36.0,
+            "y": 23.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Resources",
+            "x": 36.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Archive",
+            "x": 36.0,
+            "y": 39.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Obsidian snapshot",
+            "x": 66.0,
+            "y": 18.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "immutable",
+            "x": 72.0,
+            "y": 24.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "notes",
+            "x": 72.0,
+            "y": 31.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "resources",
+            "x": 72.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "highlights",
+            "x": 72.0,
+            "y": 47.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629127.1893365,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Want to build systems like this?\nAgent Engineering: Building Multi-Agent Systems\nTowards AI Academy\n– the engineering behind this repo\n– agent workflows, tool use, memory\n– multi-agent systems & orchestration\n– evals & production-grade agents\nThe repo gives you a working research OS — the course teaches you to build it, and the multi-agent systems beyond it.\ntowardsai.com",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Want to build systems like this?",
+            "x": 34.0,
+            "y": 10.0,
+            "w": 44.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Agent Engineering: Building Multi-Agent Systems",
+            "x": 34.0,
+            "y": 20.0,
+            "w": 47.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Towards AI Academy",
+            "x": 34.0,
+            "y": 28.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "– the engineering behind this repo\n– agent workflows, tool use, memory\n– multi-agent systems & orchestration\n– evals & production-grade agents",
+            "x": 34.0,
+            "y": 35.0,
+            "w": 35.0,
+            "h": 28.0
+          },
+          {
+            "role": "caption",
+            "text": "The repo gives you a working research OS — the course teaches you to build it, and the multi-agent systems beyond it.",
+            "x": 31.0,
+            "y": 78.0,
+            "w": 56.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "towardsai.com",
+            "x": 77.0,
+            "y": 67.0,
+            "w": 12.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629152.4582994,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZRM_TfEZcIo/slide-012.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "speaker intro card / biography slide",
+      "text": "Hi, I'm Paul\n\nFounder & CEO @ Decoding AI\nContent and courses on shipping AI products\n\nCo-Author of the\nLLM Engineer’s Handbook Bestseller",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hi, I'm Paul",
+            "x": 31.0,
+            "y": 11.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Founder & CEO @ Decoding AI\nContent and courses on shipping AI products",
+            "x": 31.0,
+            "y": 26.0,
+            "w": 31.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Co-Author of the\nLLM Engineer’s Handbook Bestseller",
+            "x": 31.0,
+            "y": 41.0,
+            "w": 33.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "LLM Engineer’s Handbook",
+            "x": 73.0,
+            "y": 13.0,
+            "w": 20.0,
+            "h": 38.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZRM_TfEZcIo/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628727.994293
+    }
+  ]
+}

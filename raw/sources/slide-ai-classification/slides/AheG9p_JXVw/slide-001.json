@@ -1,0 +1,33 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Stage photo with a presenter; slide content is only partially visible and not a readable presentation slide.",
+  "text": "Generating VS Editing\nVS Editing",
+  "layout": {
+    "background": "linear-gradient(135deg, #0b0f14 0%, #1a2b3a 55%, #3dd6d0 100%)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Generating VS Editing",
+        "x": 76.0,
+        "y": 34.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "VS Editing",
+        "x": 0,
+        "y": 14.0,
+        "w": 38.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image": "wiki/assets/slides/AheG9p_JXVw/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628706.5020735
+}

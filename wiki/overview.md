@@ -68,6 +68,7 @@ Slides are first-class material in this wiki because many World’s Fair videos 
 
 ## Slide/OCR Coverage
 - [[slide-library]] tracks 401 extracted video slide decks.
-- 2823 slide/frame images are embedded in deck pages.
-- 2798 extracted frames have non-empty local OCR text.
+- 2823 slide/frame images are visible in deck pages.
+- 4 additional extracted frames are retained as hidden evidence after AI slide classification.
+- 2802 extracted frames have non-empty local OCR text or retained OCR evidence.
 - OCR is best-effort because most videos are full-stage captures rather than direct slide exports.

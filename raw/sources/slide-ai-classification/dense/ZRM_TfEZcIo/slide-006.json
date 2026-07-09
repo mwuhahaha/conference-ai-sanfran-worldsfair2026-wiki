@@ -1,0 +1,33 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Forget the infrastructure you think\nyou need\n\nNo vector database. No knowledge graph.\nNo semantic search. No text search.",
+  "layout": {
+    "background": "#ffffff",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Forget the infrastructure you think\nyou need",
+        "x": 28.0,
+        "y": 17.0,
+        "w": 65.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "No vector database. No knowledge graph.\nNo semantic search. No text search.",
+        "x": 38.0,
+        "y": 47.0,
+        "w": 44.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628807.9328394
+}

@@ -1,0 +1,253 @@
+{
+  "video_id": "4sX_He5c4sI",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "min_confidence": 0.72,
+  "hide_rejected": true,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "CAPABILITY OVERHANG\nClaude gets smarter in\nspiky ways\n11/40",
+      "layout": {
+        "background": "#f4f1e8 with a large black diagram area on the right",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "CAPABILITY OVERHANG",
+            "x": 29.0,
+            "y": 18.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Claude gets smarter in\nspiky ways",
+            "x": 29.0,
+            "y": 24.0,
+            "w": 28.0,
+            "h": 11.0
+          },
+          {
+            "role": "caption",
+            "text": "11/40",
+            "x": 94.0,
+            "y": 37.0,
+            "w": 4.0,
+            "h": 3.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628950.4998853,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Engineer\nWorld’s Fair\nPRESENTED BY\nMicrosoft\nSystem Prompt Design\nSmall system prompt,\nfew tools, lots of examples\nLarge system prompt,\nlots of examples, many tools\nSmaller system prompt,\ntool search, no examples\n14/40",
+      "layout": {
+        "background": "light cream with dark branded left sidebar",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer\nWorld’s Fair\nPRESENTED BY\nMicrosoft",
+            "x": 0,
+            "y": 0,
+            "w": 25.0,
+            "h": 48.0
+          },
+          {
+            "role": "title",
+            "text": "System Prompt Design",
+            "x": 29.0,
+            "y": 2.0,
+            "w": 28.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Small system prompt,\nfew tools, lots of examples",
+            "x": 28.0,
+            "y": 56.0,
+            "w": 20.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "Large system prompt,\nlots of examples, many tools",
+            "x": 51.0,
+            "y": 56.0,
+            "w": 23.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "Smaller system prompt,\ntool search, no examples",
+            "x": 77.0,
+            "y": 56.0,
+            "w": 19.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628968.5889602,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agenda\n\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+      "layout": {
+        "background": "#23363d",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agenda",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1. Meet OG Assist",
+            "x": 2.0,
+            "y": 16.0,
+            "w": 96.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "2. The Origin Story",
+            "x": 2.0,
+            "y": 24.0,
+            "w": 96.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "3. Betting on Effect",
+            "x": 2.0,
+            "y": 32.0,
+            "w": 96.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "4. The Core Agent Loop",
+            "x": 2.0,
+            "y": 41.0,
+            "w": 96.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "5. A2A, Evals & Sandboxing",
+            "x": 2.0,
+            "y": 49.0,
+            "w": 96.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "6. Long Context Handling",
+            "x": 2.0,
+            "y": 57.0,
+            "w": 96.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "7. Monitoring & Observability",
+            "x": 2.0,
+            "y": 66.0,
+            "w": 96.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "8. Tools, Skills & Dev Workflows",
+            "x": 2.0,
+            "y": 74.0,
+            "w": 96.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783628984.9526963,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Origin Story\nOne bet on agents, one immediate yes.\nA principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.",
+      "layout": {
+        "background": "#f3f1eb",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "Cloud... Workspace\nDay's Sales Outstanding\nTotal Amount Owed\nTotal Payments Taken Today\nReceipts by Payment Method\nYour billing breakdown awaits!\nOG Assist",
+            "x": 0,
+            "y": 10.0,
+            "w": 58.0,
+            "h": 76.0
+          },
+          {
+            "role": "title",
+            "text": "Origin Story",
+            "x": 63.0,
+            "y": 10.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "One bet on agents, one immediate yes.",
+            "x": 63.0,
+            "y": 18.0,
+            "w": 33.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "A principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.",
+            "x": 63.0,
+            "y": 55.0,
+            "w": 33.0,
+            "h": 19.0
+          }
+        ]
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783629004.6333585,
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-004.html"
+    }
+  ],
+  "rejected": []
+}

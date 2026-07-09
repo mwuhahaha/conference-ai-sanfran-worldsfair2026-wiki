@@ -1,0 +1,97 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "One immutable PARA snapshot\nProjects\nAreas\nResources\nArchive\nObsidian snapshot\nimmutable\nnotes\nresources\nhighlights",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "One immutable PARA snapshot",
+        "x": 27.0,
+        "y": 4.0,
+        "w": 46.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Projects",
+        "x": 36.0,
+        "y": 15.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Areas",
+        "x": 36.0,
+        "y": 23.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Resources",
+        "x": 36.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Archive",
+        "x": 36.0,
+        "y": 39.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Obsidian snapshot",
+        "x": 66.0,
+        "y": 18.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "immutable",
+        "x": 72.0,
+        "y": 24.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "notes",
+        "x": 72.0,
+        "y": 31.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "resources",
+        "x": 72.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "highlights",
+        "x": 72.0,
+        "y": 47.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783629127.1893365
+}

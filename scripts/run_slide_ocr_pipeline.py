@@ -50,8 +50,9 @@ def main() -> int:
     parser.add_argument("--vision-limit", type=int, default=0)
     parser.add_argument("--vision-jobs", type=int, default=1, help="Parallel vision rescue reads. Keep low for Codex CLI provider.")
     parser.add_argument("--classify-video-id", action="append", default=[], help="Run low-cost vision slide/non-slide classification for a specific video deck.")
+    parser.add_argument("--classify-deck-kind", choices=["slides", "dense", "reconstructed"], default="slides")
     parser.add_argument("--classify-model", default="gpt-5.4-mini")
-    parser.add_argument("--remove-non-slides", action="store_true", help="When classifying, remove rejected non-slide frames from wiki slide decks.")
+    parser.add_argument("--remove-non-slides", action="store_true", help="Compatibility alias: hide rejected non-slide frames from visible wiki slide decks while keeping evidence files.")
     parser.add_argument("--internal-eval-log", action="store_true", help="Write ignored internal operator/tool comparison log.")
     parser.add_argument("--no-build", action="store_true", help="Skip npm static export.")
     parser.add_argument("--no-dependent-indexes", action="store_true", help="Skip topic/tool/word-cloud refreshes.")
@@ -119,11 +120,13 @@ def main() -> int:
             "scripts/classify_and_recreate_slides.py",
             "--video-id",
             video_id,
+            "--deck-kind",
+            args.classify_deck_kind,
             "--model",
             args.classify_model,
         ]
         if args.remove_non_slides:
-            classify_cmd.append("--remove-rejected")
+            classify_cmd.append("--hide-rejected")
         run(classify_cmd)
 
     if not args.no_dependent_indexes:

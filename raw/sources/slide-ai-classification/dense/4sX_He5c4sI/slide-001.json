@@ -1,0 +1,41 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "CAPABILITY OVERHANG\nClaude gets smarter in\nspiky ways\n11/40",
+  "layout": {
+    "background": "#f4f1e8 with a large black diagram area on the right",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "CAPABILITY OVERHANG",
+        "x": 29.0,
+        "y": 18.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Claude gets smarter in\nspiky ways",
+        "x": 29.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 11.0
+      },
+      {
+        "role": "caption",
+        "text": "11/40",
+        "x": 94.0,
+        "y": 37.0,
+        "w": 4.0,
+        "h": 3.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628950.4998853
+}

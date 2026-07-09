@@ -1,0 +1,57 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Engineer\nWorld’s Fair\nPRESENTED BY\nMicrosoft\nSystem Prompt Design\nSmall system prompt,\nfew tools, lots of examples\nLarge system prompt,\nlots of examples, many tools\nSmaller system prompt,\ntool search, no examples\n14/40",
+  "layout": {
+    "background": "light cream with dark branded left sidebar",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer\nWorld’s Fair\nPRESENTED BY\nMicrosoft",
+        "x": 0,
+        "y": 0,
+        "w": 25.0,
+        "h": 48.0
+      },
+      {
+        "role": "title",
+        "text": "System Prompt Design",
+        "x": 29.0,
+        "y": 2.0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Small system prompt,\nfew tools, lots of examples",
+        "x": 28.0,
+        "y": 56.0,
+        "w": 20.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "Large system prompt,\nlots of examples, many tools",
+        "x": 51.0,
+        "y": 56.0,
+        "w": 23.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "Smaller system prompt,\ntool search, no examples",
+        "x": 77.0,
+        "y": 56.0,
+        "w": 19.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628968.5889602
+}

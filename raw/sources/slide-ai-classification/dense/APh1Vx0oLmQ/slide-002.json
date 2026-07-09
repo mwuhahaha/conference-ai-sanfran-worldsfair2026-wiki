@@ -1,0 +1,121 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Infrastructure was built for\npredictable microservices.\n\nTHE GREAT MISMATCH\n\nTraditional\nMicroservices\n\nStateless\n[STATE: 0]\n\nDeterministic\n[PATH: FIXED]\n\nRequest-response\n[FLOW: SYNC]\n\nMillisecond execution\n[TIME: <100MS]\n\nFRICTION POINTS &\nINCOMPATIBILITY ZONES\n\nAutonomous\nAI Agents\n\nStateful\n[STATE: PERSIST]\n\nProbabilistic\n[PATH: DYNAMIC]\n\nMulti-step workflows\n[FLOW: ASYNC]\n\nLong-running\n[TIME: >MIN/HR]",
+  "layout": {
+    "background": "light off-white with gray and navy panels",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Infrastructure was built for\npredictable microservices.",
+        "x": 3.0,
+        "y": 0,
+        "w": 60.0,
+        "h": 13.0
+      },
+      {
+        "role": "caption",
+        "text": "THE GREAT MISMATCH",
+        "x": 37.0,
+        "y": 15.0,
+        "w": 26.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Traditional\nMicroservices",
+        "x": 7.0,
+        "y": 20.0,
+        "w": 31.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Autonomous\nAI Agents",
+        "x": 66.0,
+        "y": 20.0,
+        "w": 28.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "FRICTION POINTS &\nINCOMPATIBILITY ZONES",
+        "x": 40.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Stateless\n[STATE: 0]",
+        "x": 8.0,
+        "y": 40.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Deterministic\n[PATH: FIXED]",
+        "x": 8.0,
+        "y": 51.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Request-response\n[FLOW: SYNC]",
+        "x": 8.0,
+        "y": 62.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Millisecond execution\n[TIME: <100MS]",
+        "x": 8.0,
+        "y": 73.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Stateful\n[STATE: PERSIST]",
+        "x": 67.0,
+        "y": 40.0,
+        "w": 27.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Probabilistic\n[PATH: DYNAMIC]",
+        "x": 67.0,
+        "y": 51.0,
+        "w": 27.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Multi-step workflows\n[FLOW: ASYNC]",
+        "x": 67.0,
+        "y": 62.0,
+        "w": 27.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Long-running\n[TIME: >MIN/HR]",
+        "x": 67.0,
+        "y": 73.0,
+        "w": 27.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628977.891977
+}

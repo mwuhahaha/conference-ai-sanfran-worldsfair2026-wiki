@@ -1,0 +1,81 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Inside v1: fan out, rank, scrape\nTopic\ngolden links\nScrape links\nseed context\nQuery rounds\nGemini grounded in Google\nMain agent\nsubagent Q1\nsubagent Q2\nsubagent Q3\nsubagent Q4\nsubagent Q5\nsubagent Q6\nx3 rounds",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Inside v1: fan out, rank, scrape",
+        "x": 29.0,
+        "y": 6.0,
+        "w": 44.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Topic\ngolden links",
+        "x": 28.0,
+        "y": 49.0,
+        "w": 8.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Scrape links\nseed context",
+        "x": 39.0,
+        "y": 49.0,
+        "w": 10.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Query rounds",
+        "x": 57.0,
+        "y": 17.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Gemini grounded in Google",
+        "x": 57.0,
+        "y": 21.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Main agent",
+        "x": 53.0,
+        "y": 51.0,
+        "w": 8.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "subagent Q1\nsubagent Q2\nsubagent Q3\nsubagent Q4\nsubagent Q5\nsubagent Q6",
+        "x": 64.0,
+        "y": 35.0,
+        "w": 11.0,
+        "h": 33.0
+      },
+      {
+        "role": "caption",
+        "text": "x3 rounds",
+        "x": 56.0,
+        "y": 75.0,
+        "w": 9.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783628794.3513358
+}

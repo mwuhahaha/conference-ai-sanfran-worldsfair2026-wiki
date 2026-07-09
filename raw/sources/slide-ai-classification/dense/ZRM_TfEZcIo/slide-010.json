@@ -1,0 +1,65 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Every question leaves a trace\nquestion\nconcept\nnew note\nnew comparison\nyour questions",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Every question leaves a trace",
+        "x": 27.0,
+        "y": 5.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "question",
+        "x": 27.0,
+        "y": 45.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "concept",
+        "x": 47.0,
+        "y": 41.0,
+        "w": 11.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "new note",
+        "x": 60.0,
+        "y": 31.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "new comparison",
+        "x": 60.0,
+        "y": 53.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "your questions",
+        "x": 78.0,
+        "y": 18.0,
+        "w": 17.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783629112.8116689
+}
