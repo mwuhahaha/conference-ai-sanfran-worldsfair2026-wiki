@@ -19,3 +19,5 @@ Rob Wachen is the co-founder and president of Etched. Etched is building rack-sc
 
 ## Scheduled Sessions
 - [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles]] — Latent Space Live: the Inference Inflection from First Principles (2026-07-01, 12:30pm-1:30pm)
+## Livestream Appearances
+- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]] — [watch at 01:43:47](https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

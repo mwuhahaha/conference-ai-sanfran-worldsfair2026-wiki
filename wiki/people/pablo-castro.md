@@ -20,3 +20,5 @@ Pablo leads the AI Knowledge team in the CoreAI division at Microsoft, where he 
 
 ## Scheduled Sessions
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge]] — On AI and Knowledge (2026-06-29, 9:05am-9:25am)
+## Livestream Appearances
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]] — [watch at 00:10:28](https://www.youtube.com/watch?v=htM02KMNZnk&t=628s) in WF2026: Software Factories & Keynotes (Day 1).

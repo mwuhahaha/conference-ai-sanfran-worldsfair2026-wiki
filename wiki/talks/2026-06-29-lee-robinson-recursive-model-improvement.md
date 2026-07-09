@@ -48,3 +48,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-fL1iJHtl51Q-reconstructed-slides]]
 - [[youtube-fL1iJHtl51Q-slides]]
 - Slide-derived terms: `frontier`, `file`, `composer`, `fast`, `cursor`, `intelligence`, `speed`, `best`, `model`, `robinson`, `developer`, `education`, `read`, `edit`, `code`, `combines`, `coding`, `best-in-class`
+## Livestream Segment
+- [Watch in livestream at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) — WF2026: Software Factories & Keynotes (Day 1).
+- Match basis: speaker and title; timed captions matched Lee Robinson, improvement, model, recursive.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

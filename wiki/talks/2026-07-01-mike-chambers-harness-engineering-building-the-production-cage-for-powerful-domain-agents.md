@@ -72,3 +72,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-HT4l0DeP69I-reconstructed-slides]]
 - [[youtube-HT4l0DeP69I-slides]]
 - Slide-derived terms: `models`, `amazon`, `microsoft`, `bedrock`, `model`, `prompt`, `mike`, `system`, `master`, `roll`, `claude`, `chat`, `select`, `nova`, `learn`, `world`, `ate-wf-2025-demos`, `grand`
+## Livestream Segment
+- [Watch in livestream at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Match basis: speaker and title; timed captions matched Mike Chambers, engineering, harness.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

@@ -49,3 +49,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-qaJXBMwUkoE-reconstructed-slides]]
 - [[youtube-qaJXBMwUkoE-slides]]
 - Slide-derived terms: `network`, `imagine`, `auto`, `supabase`, `engineer`, `value`, `time`, `were`, `here`, `deployment`, `driver`, `finie`, `increases`, `size`, `dete`, `foom`, `every`, `discipline`
+## Livestream Segment
+- [Watch in livestream at 01:43:47](https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Match basis: speaker and title; timed captions matched swyx, first, latent, space.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

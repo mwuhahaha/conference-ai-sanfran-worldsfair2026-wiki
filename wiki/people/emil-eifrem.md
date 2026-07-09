@@ -22,3 +22,5 @@ Emil created the category of graph databases and has devoted his professional li
 
 ## Scheduled Sessions
 - [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer]] — Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer (2026-07-01, 10:20am-10:30am)
+## Livestream Appearances
+- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]] — [watch at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

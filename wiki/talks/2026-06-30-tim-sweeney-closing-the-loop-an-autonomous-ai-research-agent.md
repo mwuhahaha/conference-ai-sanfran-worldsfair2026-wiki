@@ -55,3 +55,7 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Livestream Segment
+- [Watch in livestream at 04:38:57](https://www.youtube.com/watch?v=4sX_He5c4sI&t=16737s) — WF2026: Autoresearch & Keynotes (Day 2).
+- Match basis: speaker and title; timed captions matched Tim Sweeney, research.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

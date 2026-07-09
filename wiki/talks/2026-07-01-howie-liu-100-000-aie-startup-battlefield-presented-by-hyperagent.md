@@ -53,3 +53,7 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+## Livestream Segment
+- [Watch in livestream at 08:18:26](https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Match basis: speaker and title; timed captions matched Howie Liu, battlefield, hyperagent.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

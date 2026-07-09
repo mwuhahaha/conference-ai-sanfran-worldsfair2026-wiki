@@ -46,7 +46,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - People: 553 rendered people pages; official speakers indexed: 552.
 - Companies: 341 rendered company pages.
 - Topics: 12 synthesis pages across repeated conference themes.
-- Resources: 192 pages for source maps, YouTube evidence, livestreams, and processing audits.
+- Resources: 193 pages for source maps, YouTube evidence, livestreams, and processing audits.
 - Slides: 385 slide pages; standard decks: 181; reconstructed decks: 107; dense decks: 94.
 - Quotes: 59 selected quote pages tied back to source videos and topics.
 - Tools: 62 tool/protocol/entity pages generated from the conference evidence layer.
@@ -76,6 +76,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Inference Engineering topic: https://aie-worldsfair2026.plusrobot.ai/topics/inference-engineering/
 - Talk/video/transcript map: https://aie-worldsfair2026.plusrobot.ai/resources/talk-video-transcript-map/
 - Livestreams resource: https://aie-worldsfair2026.plusrobot.ai/resources/worldsfair-2026-livestreams/
+- Livestream talk segments: https://aie-worldsfair2026.plusrobot.ai/resources/livestream-talk-segments/
 - Slide library: https://aie-worldsfair2026.plusrobot.ai/resources/slide-library/
 - Reconstructed slide library: https://aie-worldsfair2026.plusrobot.ai/resources/reconstructed-slide-library/
 - Dense slide library: https://aie-worldsfair2026.plusrobot.ai/resources/dense-slide-library/
@@ -98,6 +99,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Related talk/video rows indexed: 153.
 - Cached speaker-matched transcript files: 76.
 - Cached livestream transcript files: 3.
+- High-confidence livestream talk timestamp matches: 11.
 
 ## Agent Task Recipes
 - To answer `what was said about X`: search X, inspect the relevant topic page, open related talks, then follow video/transcript and slide links.

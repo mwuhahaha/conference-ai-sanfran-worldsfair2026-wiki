@@ -24,3 +24,5 @@ Mike Krieger leads Anthropic Labs and previously served as Anthropic's Chief Pro
 
 ## Scheduled Sessions
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs]] — How Anthropic Builds: Lessons from Labs (2026-07-01, 10:00am-10:20am)
+## Livestream Appearances
+- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

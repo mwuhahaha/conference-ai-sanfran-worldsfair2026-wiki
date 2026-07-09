@@ -23,3 +23,5 @@ Howie is the CEO of Airtable, which he co-founded in 2013 with the vision of cre
 ## Scheduled Sessions
 - [[2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent]] — $100,000 AIE Startup Battlefield — presented by Hyperagent (2026-07-01, 10:45am-1:00pm)
 - [[2026-07-01-howie-liu-startup-battlefield]] — Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
+## Livestream Appearances
+- [[2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent|$100,000 AIE Startup Battlefield — presented by Hyperagent]] — [watch at 08:18:26](https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

@@ -80,3 +80,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
 - [[youtube-ZRM_TfEZcIo-slides]]
 - Slide-derived terms: `notes`, `obsidian`, `research`, `towards`, `index`, `every`, `database`, `files`, `engineer`, `handbook`, `content`, `courses`, `videos`, `starts`, `zero`, `codex`, `repos`, `course`
+## Livestream Segment
+- [Watch in livestream at 02:11:16](https://www.youtube.com/watch?v=I2cbIws9j10&t=7876s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Match basis: speaker and title; timed captions matched Louis-François Bouchard, engineering.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

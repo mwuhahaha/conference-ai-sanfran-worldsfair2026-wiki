@@ -22,3 +22,5 @@ Garry is President & CEO at Y Combinator, which he rejoined in Fall 2023, after 
 
 ## Scheduled Sessions
 - [[2026-07-01-garry-tan-closing-keynote-garry-tan]] — Closing Keynote: Garry Tan (2026-07-01, 4:50pm-5:10pm)
+## Livestream Appearances
+- [[2026-07-01-garry-tan-closing-keynote-garry-tan|Closing Keynote: Garry Tan]] — [watch at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

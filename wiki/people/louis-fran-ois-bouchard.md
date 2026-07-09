@@ -26,3 +26,5 @@ Louis-François Bouchard is the co-founder of Towards AI, where he builds and te
 
 ## Scheduled Sessions
 - [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost]] — Context Engineering in 2026: Compaction, Memory & Cost (2026-06-29, 2:20pm-4:20pm)
+## Livestream Appearances
+- [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost|Context Engineering in 2026: Compaction, Memory & Cost]] — [watch at 02:11:16](https://www.youtube.com/watch?v=I2cbIws9j10&t=7876s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

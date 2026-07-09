@@ -1,0 +1,306 @@
+[
+  {
+    "talk_slug": "2026-06-29-lee-robinson-recursive-model-improvement",
+    "title": "Recursive Model Improvement",
+    "date": "2026-06-29",
+    "time": "5:10pm-5:30pm",
+    "track": "Software Factories",
+    "room": "Main Stage",
+    "speakers": [
+      "Lee Robinson"
+    ],
+    "video_id": "htM02KMNZnk",
+    "video_title": "WF2026: Software Factories & Keynotes (Day 1)",
+    "start_seconds": 29533,
+    "start_hms": "08:12:13",
+    "url": "https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s",
+    "confidence": "high",
+    "confidence_score": 141,
+    "matched_speakers": [
+      "Lee Robinson"
+    ],
+    "matched_title_terms": [
+      "improvement",
+      "model",
+      "recursive"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "slightly different language than free monet but the idea is the same. The monet but the idea is the same. The monet but the idea is the same. The language doesn't matter. It's it's the language doesn't matter. It's it's the language doesn't matter. It's it's the um the principle that matters. So um the principle that matters. So um the principle that matters"
+  },
+  {
+    "talk_slug": "2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost",
+    "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+    "date": "2026-06-29",
+    "time": "2:20pm-4:20pm",
+    "track": "Track 6",
+    "room": "Track 6",
+    "speakers": [
+      "Louis-François Bouchard",
+      "Samridhi Vaid",
+      "Omar Solano"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 7876,
+    "start_hms": "02:11:16",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=7876s",
+    "confidence": "high",
+    "confidence_score": 92,
+    "matched_speakers": [
+      "Louis-François Bouchard"
+    ],
+    "matched_title_terms": [
+      "engineering"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "Louis François and I will teach you how Louis François and I will teach you how to build your own AI research OS. This to build your own AI research OS. This to build your own AI research OS. This also comes with code, so you can also also comes with code, so you can also also comes with code, so you can also try it out yourself. try it out yourself. try it "
+  },
+  {
+    "talk_slug": "2026-06-29-pablo-castro-on-ai-and-knowledge",
+    "title": "On AI and Knowledge",
+    "date": "2026-06-29",
+    "time": "9:05am-9:25am",
+    "track": "Software Factories",
+    "room": "Main Stage",
+    "speakers": [
+      "Pablo Castro"
+    ],
+    "video_id": "htM02KMNZnk",
+    "video_title": "WF2026: Software Factories & Keynotes (Day 1)",
+    "start_seconds": 628,
+    "start_hms": "00:10:28",
+    "url": "https://www.youtube.com/watch?v=htM02KMNZnk&t=628s",
+    "confidence": "high",
+    "confidence_score": 127,
+    "matched_speakers": [
+      "Pablo Castro"
+    ],
+    "matched_title_terms": [
+      "knowledge"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "Also, AI security best practices have Also, AI security best practices have emerged, allowing models and allowing emerged, allowing models and allowing emerged, allowing models and allowing agents to have the security, autonomy, agents to have the security, autonomy, agents to have the security, autonomy, and capability they need to do real and capability th"
+  },
+  {
+    "talk_slug": "2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent",
+    "title": "Closing the Loop: An Autonomous AI Research Agent",
+    "date": "2026-06-30",
+    "time": "1:30pm-1:50pm",
+    "track": "Autoresearch",
+    "room": "Main Stage",
+    "speakers": [
+      "Tim Sweeney"
+    ],
+    "video_id": "4sX_He5c4sI",
+    "video_title": "WF2026: Autoresearch & Keynotes (Day 2)",
+    "start_seconds": 16737,
+    "start_hms": "04:38:57",
+    "url": "https://www.youtube.com/watch?v=4sX_He5c4sI&t=16737s",
+    "confidence": "high",
+    "confidence_score": 92,
+    "matched_speakers": [
+      "Tim Sweeney"
+    ],
+    "matched_title_terms": [
+      "research"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "of time actually finding meaningful of time actually finding meaningful notes that I can use in my work, right? notes that I can use in my work, right? notes that I can use in my work, right? And another problem that I have is that And another problem that I have is that And another problem that I have is that I want this system to actually be I want this sy"
+  },
+  {
+    "talk_slug": "2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer",
+    "title": "Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer",
+    "date": "2026-07-01",
+    "time": "10:20am-10:30am",
+    "track": "Graphs",
+    "room": "Main Stage",
+    "speakers": [
+      "Emil Eifrem"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 5941,
+    "start_hms": "01:39:01",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s",
+    "confidence": "high",
+    "confidence_score": 106,
+    "matched_speakers": [
+      "Emil Eifrem"
+    ],
+    "matched_title_terms": [
+      "based",
+      "ontology",
+      "semantic"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "should be more like functions and we learned that the real problem with learned that the real problem with learned that the real problem with building with agents is not the model, building with agents is not the model, building with agents is not the model, but it's about everything around it. but it's about everything around it. but it's about everything a"
+  },
+  {
+    "talk_slug": "2026-07-01-garry-tan-closing-keynote-garry-tan",
+    "title": "Closing Keynote: Garry Tan",
+    "date": "2026-07-01",
+    "time": "4:50pm-5:10pm",
+    "track": "Main Stage",
+    "room": "Main Stage",
+    "speakers": [
+      "Garry Tan"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 28640,
+    "start_hms": "07:57:20",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s",
+    "confidence": "high",
+    "confidence_score": 92,
+    "matched_speakers": [
+      "Garry Tan"
+    ],
+    "matched_title_terms": [
+      "garry"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "their agents in half the time, which is their agents in half the time, which is crazy. Slack sucks. It's not a good crazy. Slack sucks. It's not a good crazy. Slack sucks. It's not a good product, but it's the right shape for product, but it's the right shape for product, but it's the right shape for people to build the features they want people to build the"
+  },
+  {
+    "talk_slug": "2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent",
+    "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+    "date": "2026-07-01",
+    "time": "10:45am-1:00pm",
+    "track": "Startup Battlefield",
+    "room": "Networking Room",
+    "speakers": [
+      "Howie Liu"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 29906,
+    "start_hms": "08:18:26",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=29906s",
+    "confidence": "high",
+    "confidence_score": 99,
+    "matched_speakers": [
+      "Howie Liu"
+    ],
+    "matched_title_terms": [
+      "battlefield",
+      "hyperagent"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "[applause] >> And every single one of you can fly, not >> And every single one of you can fly, not >> And every single one of you can fly, not metaphorically, mechanically. And you metaphorically, mechanically. And you metaphorically, mechanically. And you need to to survive, to thrive, to win. need to to survive, to thrive, to win. need to to survive, to th"
+  },
+  {
+    "talk_slug": "2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model",
+    "title": "The Unreasonable Effectiveness of Separating the Task from the Model",
+    "date": "2026-07-01",
+    "time": "9:40am-10:00am",
+    "track": "Harness Engineering",
+    "room": "Main Stage",
+    "speakers": [
+      "Maxime Rivest",
+      "Isaac Miller"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 3216,
+    "start_hms": "00:53:36",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=3216s",
+    "confidence": "high",
+    "confidence_score": 120,
+    "matched_speakers": [
+      "Maxime Rivest"
+    ],
+    "matched_title_terms": [
+      "effectiveness",
+      "model",
+      "separating",
+      "task",
+      "unreasonable"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "need help getting started, answer need help getting started, answer questions, bug fixes, whatever, you questions, bug fixes, whatever, you questions, bug fixes, whatever, you know, I'd be happy to work with you to know, I'd be happy to work with you to know, I'd be happy to work with you to try and make you successful with it. try and make you successful wi"
+  },
+  {
+    "talk_slug": "2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents",
+    "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+    "date": "2026-07-01",
+    "time": "12:05pm-12:25pm",
+    "track": "Harness Engineering",
+    "room": "Main Stage",
+    "speakers": [
+      "Mike Chambers"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 11668,
+    "start_hms": "03:14:28",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s",
+    "confidence": "high",
+    "confidence_score": 99,
+    "matched_speakers": [
+      "Mike Chambers"
+    ],
+    "matched_title_terms": [
+      "engineering",
+      "harness"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "facts, a memory, a dream cycle, an facts, a memory, a dream cycle, an immune system to fight off bad immune system to fight off bad immune system to fight off bad information. information. information. Why biology? Well, because evolution Why biology? Well, because evolution Why biology? Well, because evolution already spent a billion years solving already s"
+  },
+  {
+    "talk_slug": "2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs",
+    "title": "How Anthropic Builds: Lessons from Labs",
+    "date": "2026-07-01",
+    "time": "10:00am-10:20am",
+    "track": "Harness Engineering",
+    "room": "Main Stage",
+    "speakers": [
+      "Mike Krieger",
+      "swyx"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 4262,
+    "start_hms": "01:11:02",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s",
+    "confidence": "high",
+    "confidence_score": 99,
+    "matched_speakers": [
+      "Mike Krieger"
+    ],
+    "matched_title_terms": [
+      "anthropic",
+      "labs"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "it and make this awesome technique available for everyone. available for everyone. available for everyone. Thank you. align:start position:0% align:start position:0% align:start position:0% align:start position:0% >> Joining us on stage is the co-founder of >> Joining us on stage is the co-founder of Instagram Instagram Instagram >> [music] >> [music] >> [mu"
+  },
+  {
+    "talk_slug": "2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles",
+    "title": "Latent Space Live: the Inference Inflection from First Principles",
+    "date": "2026-07-01",
+    "time": "12:30pm-1:30pm",
+    "track": "Expo Stage 2",
+    "room": "Expo Stage 2 NW",
+    "speakers": [
+      "swyx",
+      "Rob Wachen"
+    ],
+    "video_id": "I2cbIws9j10",
+    "video_title": "WF26: Harness Engineering & Startup Battlefield (Day 3)",
+    "start_seconds": 6227,
+    "start_hms": "01:43:47",
+    "url": "https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s",
+    "confidence": "high",
+    "confidence_score": 106,
+    "matched_speakers": [
+      "swyx"
+    ],
+    "matched_title_terms": [
+      "first",
+      "latent",
+      "space"
+    ],
+    "match_basis": "speaker and title",
+    "evidence_excerpt": "take it from me, take it from Swyx. take it from me, take it from Swyx. A week ago on the Latent Space podcast, A week ago on the Latent Space podcast, A week ago on the Latent Space podcast, he said, \"Hey guys, you got to learn he said, \"Hey guys, you got to learn he said, \"Hey guys, you got to learn your databases. You cannot vibe code your databases. You "
+  }
+]

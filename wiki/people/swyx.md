@@ -25,3 +25,6 @@ Shawn Wang, known online as swyx, is a co-founder/editor of Latent Space and an 
 - [[2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session]] — Improving AIE: Q&A and Feedback Session (2026-07-01, 2:25pm-2:45pm)
 - [[2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session-repeat]] — Improving AIE: Q&A and Feedback Session (repeat) (2026-07-01, 3:20pm-3:40pm)
 - [[2026-07-01-howie-liu-startup-battlefield]] — Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
+## Livestream Appearances
+- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]] — [watch at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]] — [watch at 01:43:47](https://www.youtube.com/watch?v=I2cbIws9j10&t=6227s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

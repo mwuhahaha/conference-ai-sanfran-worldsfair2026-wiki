@@ -48,3 +48,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-knDDGYHnnSI-reconstructed-slides]]
 - [[youtube-knDDGYHnnSI-slides]]
 - Slide-derived terms: `e-03`, `microsoft`, `smol`, `graphrag`, `search`, `google`, `graph`, `moscone`, `erved2024`, `knowledge`, `accuracy`, `e-04`, `lycos`, `text`, `world`, `users`, `center`, `initial`
+## Livestream Segment
+- [Watch in livestream at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Match basis: speaker and title; timed captions matched Emil Eifrem, based, ontology, semantic.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

@@ -49,3 +49,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-5N33E9tC400-reconstructed-slides]]
 - [[youtube-5N33E9tC400-slides]]
 - Slide-derived terms: `think`, `ai.engineer`, `https`, `year`, `they`, `david`, `better`, `evolution`, `latentspace`, `engineering`, `agentengineering`, `i/ai.engineer`, `people`, `look`, `million`, `maybe`, `good`, `swyx`
+## Livestream Segment
+- [Watch in livestream at 01:11:02](https://www.youtube.com/watch?v=I2cbIws9j10&t=4262s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
+- Match basis: speaker and title; timed captions matched Mike Krieger, anthropic, labs.
+- Confidence: high automated match; prefer a dedicated cut-video recording when one exists.

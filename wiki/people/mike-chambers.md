@@ -20,3 +20,5 @@ Mike Chambers is a Senior Developer Advocate for Generative AI at AWS. He create
 
 ## Scheduled Sessions
 - [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents]] — Harness Engineering: Building the Production Cage for Powerful Domain Agents (2026-07-01, 12:05pm-12:25pm)
+## Livestream Appearances
+- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents|Harness Engineering: Building the Production Cage for Powerful Domain Agents]] — [watch at 03:14:28](https://www.youtube.com/watch?v=I2cbIws9j10&t=11668s) in WF26: Harness Engineering & Startup Battlefield (Day 3).

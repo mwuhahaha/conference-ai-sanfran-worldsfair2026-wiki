@@ -24,3 +24,5 @@ Model research and personality at Cursor. Previously Vercel.
 
 ## Scheduled Sessions
 - [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement (2026-06-29, 5:10pm-5:30pm)
+## Livestream Appearances
+- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — [watch at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) in WF2026: Software Factories & Keynotes (Day 1).
