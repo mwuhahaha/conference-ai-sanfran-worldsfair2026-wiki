@@ -9,7 +9,6 @@ website: "https://pamelafox.org/"
 blog: "http://blog.pamelafox.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Pamela Fox
 
 ## Official Role
@@ -31,3 +30,19 @@ Pamela Fox is a developer advocate at Microsoft, where she helps developers use 
 - [[2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end]] — Use Copilot across CLI, dev, and cloud workflows to move faster end-to-end (2026-06-29, 11:40am-12:00pm)
 - [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack]] — OpenAI, Anthropic, or agent frameworks: choose the right AI stack (2026-06-30, 11:40am-12:00pm)
 - [[2026-07-01-pamela-fox-diagnosing-agent-failures-in-production]] — Diagnosing agent failures in production (2026-07-01, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps|Get Started with Models in Microsoft Foundry to Build AI Apps]]
+- [[2026-06-29-pamela-fox-the-model-swap-workshop|The model swap workshop]]
+- [[2026-06-29-pamela-fox-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry|Observe, optimize and protect your hosted agents in Microsoft Foundry]]
+- [[2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end|Use Copilot across CLI, dev, and cloud workflows to move faster end-to-end]]
+- [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack|OpenAI, Anthropic, or agent frameworks: choose the right AI stack]]
+- [[2026-07-01-pamela-fox-diagnosing-agent-failures-in-production|Diagnosing agent failures in production]]
+
+### Slide And Transcript Signals
+- `youtube-1t-9-s1brcg` — 10 slide-derived text signals
+  - Slide-derived themes: microsoft, start, access, quick, templates, powdery, bran, expert.
+  - Evidence links: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]

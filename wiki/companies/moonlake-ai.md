@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Moonlake AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Moonlake AI
 
 ## What It Is
@@ -25,3 +24,13 @@ Moonlake AI appears through 1 official speaker(s) connected to 2 scheduled sessi
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2|Building the simulation infrastructure for practical world model use (Part 2)]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

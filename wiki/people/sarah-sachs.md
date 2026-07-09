@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/sarahmsachs/"
 twitter: "https://x.com/sarahmsachs"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sarah Sachs
 
 ## Official Role
@@ -26,3 +25,14 @@ Sarah holds a Sc.B. in Applied Mathematics–Computer Science from Brown Univers
 
 ## Scheduled Sessions
 - [[2026-06-29-sarah-sachs-notion-s-token-town]] — Notion's Token Town (2026-06-29, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]]
+
+### Slide And Transcript Signals
+- `youtube-6YdPI9YbjbI` — 10 slide-derived text signals
+  - Slide-derived themes: across, sign, access, join, ease, acme, uses, stripe.
+  - Evidence links: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]

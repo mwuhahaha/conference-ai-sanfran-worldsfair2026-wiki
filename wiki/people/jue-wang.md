@@ -7,7 +7,6 @@ twitter: "https://x.com/JueWANG26088228"
 website: "https://juewang.me"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jue Wang
 
 ## Official Role
@@ -22,3 +21,12 @@ Jue Wang is a Senior Staff Researcher at Together AI working on efficient and co
 
 ## Scheduled Sessions
 - [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]] — Open-Source Inference Engineering for the Agentic Era (2026-06-29, 9:00am-11:00am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era|Open-Source Inference Engineering for the Agentic Era]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

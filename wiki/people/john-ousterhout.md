@@ -7,7 +7,6 @@ twitter: "https://x.com/johnousterhout"
 website: "https://web.stanford.edu/~ouster/cgi-bin/home.php"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # John Ousterhout
 
 ## Official Role
@@ -22,3 +21,12 @@ John Ousterhout is the Bosack Lerner Professor of Computer Science, Emeritus at 
 
 ## Scheduled Sessions
 - [[2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it]] — TCP and RDMA are Killing Inference Throughput; Homa can Fix It (2026-07-01, 9:20am-9:40am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it|TCP and RDMA are Killing Inference Throughput; Homa can Fix It]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

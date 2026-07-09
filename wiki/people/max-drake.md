@@ -9,7 +9,6 @@ website: "https://maxdrake.md"
 blog: "https://maxdrake.md"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Max Drake
 
 ## Official Role
@@ -26,3 +25,12 @@ Product engineer at tldraw building a very good infinite canvas sdk, currently w
 
 ## Scheduled Sessions
 - [[2026-06-30-max-drake-the-spatial-harness-bringing-agents-to-the-canvas]] — The Spatial Harness: Bringing Agents to the Canvas (2026-06-30, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-max-drake-the-spatial-harness-bringing-agents-to-the-canvas|The Spatial Harness: Bringing Agents to the Canvas]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -7,7 +7,6 @@ linkedin: "https://linkedin.com/in/ethancha0411"
 website: "https://ethancha.net"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ethan (Jung Min) Cha
 
 ## Official Role
@@ -24,3 +23,12 @@ Across earlier roles at Cedar, a healthcare fintech company, and Novelis, a glob
 
 ## Scheduled Sessions
 - [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer]] — Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer (2026-06-29, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer|Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/vasumanmoza/"
 twitter: "https://x.com/vasuman"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Vasuman Moza
 
 ## Official Role
@@ -22,3 +21,12 @@ Vas Moza is the founder and CEO of Varick Agents, a San Francisco startup transf
 
 ## Scheduled Sessions
 - [[2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering]] — AI tools for Forward Deployed Engineering (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-vasuman-moza-ai-tools-for-forward-deployed-engineering|AI tools for Forward Deployed Engineering]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

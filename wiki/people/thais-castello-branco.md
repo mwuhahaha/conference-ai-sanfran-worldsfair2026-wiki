@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/thais-castello-branco/"
 twitter: "https://x.com/thaiscbranco_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Thais Castello Branco
 
 ## Official Role
@@ -23,3 +22,13 @@ Thais Castello Branco is the founder and CEO of Taste, building the taste infras
 ## Scheduled Sessions
 - [[2026-06-29-thais-castello-branco-ending-ai-slop]] — Ending AI Slop (2026-06-29, 1:55pm-2:15pm)
 - [[2026-06-30-thais-castello-branco-training-taste]] — Training Taste (2026-06-30, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-thais-castello-branco-ending-ai-slop|Ending AI Slop]]
+- [[2026-06-30-thais-castello-branco-training-taste|Training Taste]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

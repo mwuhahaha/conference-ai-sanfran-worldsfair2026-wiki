@@ -3,7 +3,6 @@ title: "Model Context Protocol"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # Model Context Protocol
 
 ## Synopsis
@@ -136,3 +135,30 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - “The let's say past few decades, we have been building the web for human actions and human eyes, and we've been trying to optimize for that, but these days, it's not just humans that are using the web.” — [[youtube-ghJmWQCIHRM]]
 - “Well, today I'm going to share four engineering lessons from the Chrome uh DevTools team on how we build Chrome DevTools for agents and how we deployed it for effect.” — [[youtube-_B4Pv9ttFgY]]
 - “In a world where you are delegating away work to agents and automating away agents, you need to think about trust boundaries.” — [[youtube-_B4Pv9ttFgY]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does|MCP doesn’t suck — your agent does]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui|MCP Apps: Give the Model Data, Give the User a UI]]
+- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software|The New Primitives: Building AI-Native Software]]
+- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli|How We Built the Airbyte Agent MCP Server and CLI]]
+- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies|Emulated: The data for fully autonomous software engineers and companies]]
+- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production|Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production]]
+- [[2026-06-29-jim-clark-who-approved-that-mcp-server-governing-the-tool-layer|Who Approved That MCP Server? Governing the Tool Layer]]
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
+- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
+
+### Slide And Transcript Signals
+- `youtube-blW-lSd5CYQ` — 10 slide-derived text signals
+  - Slide-derived themes: scraper, data, extract, posts, google, maps, instagram, scrape.
+  - Evidence links: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
+  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
+  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-E71YtNbCFXY` — 5 slide-derived text signals
+  - Slide-derived themes: pelt, remember, connections.
+  - Evidence links: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]

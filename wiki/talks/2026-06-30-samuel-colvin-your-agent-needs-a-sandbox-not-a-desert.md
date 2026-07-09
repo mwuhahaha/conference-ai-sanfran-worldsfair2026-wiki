@@ -74,3 +74,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-bmWZk9vTze0-reconstructed-slides]]
 - [[youtube-bmWZk9vTze0-slides]]
 - Slide-derived terms: `request`, `world`, `tool`, `response`, `call`, `sfair`, `microsoft`, `server`, `pydantic`, `smol`, `sampling`, `client`, `been`, `chat`, `toolcall`, `text`, `return`, `async`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-bmWZk9vTze0` — 10 slide-derived text signals
+  - Slide-derived themes: query, client, info, table, tool, call, response, await.
+  - Evidence links: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

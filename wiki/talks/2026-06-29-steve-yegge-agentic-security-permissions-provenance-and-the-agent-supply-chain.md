@@ -58,3 +58,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-7Dtu2bilcFs-reconstructed-slides]]
 - [[youtube-7Dtu2bilcFs-slides]]
 - Slide-derived terms: `software`, `coding`, `google`, `deepmind`, `engineering`, `year`, `died`, `steve`, `yegge`, `gene`, `engineer`, `author`, `researcher`, `code`, `models`, `future`, `will`, `watch`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-7Dtu2bilcFs` — 10 slide-derived text signals
+  - Slide-derived themes: year, died, google, software, engineer, author, researcher, steve.
+  - Evidence links: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

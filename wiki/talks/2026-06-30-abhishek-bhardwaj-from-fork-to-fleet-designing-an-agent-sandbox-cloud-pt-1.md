@@ -65,3 +65,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-wsFd22SL1s8-reconstructed-slides]]
 - [[youtube-wsFd22SL1s8-slides]]
 - Slide-derived terms: `namespace`, `arrakis`, `process`, `containers`, `kernel`, `container`, `linux`, `code`, `chatgpt`, `clone`, `mount`, `attack`, `snapshot`, `server`, `python`, `userspace`, `version`, `syscall`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-wsFd22SL1s8` — 10 slide-derived text signals
+  - Slide-derived themes: clone, flask, project, code, create, scratch, systems, chat.
+  - Evidence links: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

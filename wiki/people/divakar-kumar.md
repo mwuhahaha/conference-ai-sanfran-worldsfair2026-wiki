@@ -8,7 +8,6 @@ website: "https://iamdivakarkumar.com"
 blog: "https://iamdivakarkumar.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Divakar Kumar
 
 ## Official Role
@@ -24,3 +23,12 @@ Divakar Kumar is a Microsoft MVP in AI and a Microsoft Certified Trainer (MCT), 
 
 ## Scheduled Sessions
 - [[2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems]] — Let's integrate AI Agents in Event-Sourced Systems (2026-07-01, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems|Let's integrate AI Agents in Event-Sourced Systems]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

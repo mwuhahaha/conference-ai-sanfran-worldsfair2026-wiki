@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/nikita-kothari3"
 website: "https://www.salesforce.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Nikita Kothari
 
 ## Official Role
@@ -22,3 +21,12 @@ Nikita Kothari is a Senior Member of Technical Staff at Salesforce, where she bu
 
 ## Scheduled Sessions
 - [[2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development]] — MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development (2026-07-01, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-nikita-kothari-mcps-clis-and-skills-choosing-the-right-tooling-layer-for-agentic-development|MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

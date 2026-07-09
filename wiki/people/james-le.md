@@ -9,7 +9,6 @@ website: "http://jameskle.com/"
 blog: "https://jameskle.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # James Le
 
 ## Official Role
@@ -26,3 +25,12 @@ James Le is currently leading Developer Experience at Twelve Labs, a startup bui
 
 ## Scheduled Sessions
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]] — Video Has No Memory. Here's How We Built One. (2026-07-01, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

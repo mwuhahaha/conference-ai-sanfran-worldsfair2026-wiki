@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Edge & Node", "Edge And Node"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Edge & Node
 
 ## What It Is
@@ -25,3 +24,12 @@ Edge & Node appears through 2 official speaker(s) connected to 1 scheduled sessi
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-rodrigo-coelho-agent-spending-without-controls-the-missing-infrastructure-layer-for-ai-pa|Agent Spending Without Controls: The Missing Infrastructure Layer for AI Pa…]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

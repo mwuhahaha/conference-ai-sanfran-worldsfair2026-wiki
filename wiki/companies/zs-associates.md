@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["ZS Associates"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # ZS Associates
 
 ## What It Is
@@ -24,3 +23,12 @@ ZS Associates appears through 1 official speaker(s) connected to 1 scheduled ses
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-subbiah-sethuraman-why-we-killed-our-multi-agent-pipeline-lessons-from-pharma-commercial-intelligence|Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

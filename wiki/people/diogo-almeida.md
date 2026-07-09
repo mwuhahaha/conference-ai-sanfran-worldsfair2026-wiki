@@ -8,7 +8,6 @@ twitter: "https://x.com/CompleteSkeptic"
 website: "https://typesafe.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Diogo Almeida
 
 ## Official Role
@@ -24,3 +23,12 @@ Diogo Almeida is the Co-founder and CEO of TypeSafe AI, a company building a new
 
 ## Scheduled Sessions
 - [[2026-06-30-diogo-almeida-what-s-next-after-rlhf]] — What's next after RLHF? (2026-06-30, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-diogo-almeida-what-s-next-after-rlhf|What's next after RLHF?]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

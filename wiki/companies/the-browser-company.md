@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["The Browser Company"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # The Browser Company
 
 ## What It Is
@@ -24,3 +23,12 @@ The Browser Company appears through 1 official speaker(s) connected to 1 schedul
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-hursh-agrawal-prototyping-as-leadership-how-a-cto-ships-with-ai-agents|Prototyping as Leadership: How a CTO Ships with AI Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

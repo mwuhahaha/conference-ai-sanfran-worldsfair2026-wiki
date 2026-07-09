@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/lizfue/"
 twitter: "https://x.com/lizfue"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Elizabeth Fuentes Leone
 
 ## Official Role
@@ -23,3 +22,13 @@ Elizabeth Fuentes Leone is a Developer Advocate at AWS, helping developers build
 ## Scheduled Sessions
 - [[2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship]] — Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship (2026-06-29, 11:05am-12:05pm)
 - [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents]] — The Infinite Context Window Is a Myth: Context Engineering for AI Agents (2026-06-30, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship|Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship]]
+- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents|The Infinite Context Window Is a Myth: Context Engineering for AI Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

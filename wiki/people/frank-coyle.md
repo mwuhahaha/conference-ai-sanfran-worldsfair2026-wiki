@@ -9,7 +9,6 @@ website: "https://www.frank-coyle.ai/"
 blog: "https://frank-coyle.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Frank Coyle
 
 ## Official Role
@@ -31,3 +30,13 @@ His current work focuses on the practical engineering of agentic AI systems and 
 ## Scheduled Sessions
 - [[2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering]] — Anthropic's CCA Exam as a Field-Guide for Agentic Engineering (2026-07-01, 11:10am-11:30am)
 - [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]] — Why Agentic Systems Need Ontologies (2026-07-01, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering|Anthropic's CCA Exam as a Field-Guide for Agentic Engineering]]
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

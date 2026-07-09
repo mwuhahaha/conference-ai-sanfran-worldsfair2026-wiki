@@ -8,7 +8,6 @@ twitter: "https://x.com/infwinston"
 website: "https://infwinston.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Wei-Lin Chiang
 
 ## Official Role
@@ -28,3 +27,12 @@ Outside of work, Wei-Lin enjoys hiking and cycling, often exploring new trails a
 
 ## Scheduled Sessions
 - [[2026-06-30-wei-lin-chiang-closing-keynote]] — Closing Keynote (2026-06-30, 5:10pm-5:30pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-wei-lin-chiang-closing-keynote|Closing Keynote]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

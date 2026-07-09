@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/lena-hall"
 twitter: "https://x.com/lenadroid"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Lena Hall
 
 ## Official Role
@@ -22,3 +21,12 @@ Lena Hall is Senior Director Developers and AI at Akamai. She previously led Dev
 
 ## Scheduled Sessions
 - [[2026-07-01-lena-hall-the-signal-layer-what-to-build-when-anything-can-be-built]] — The Signal Layer: What to Build When Anything Can Be Built (2026-07-01, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-lena-hall-the-signal-layer-what-to-build-when-anything-can-be-built|The Signal Layer: What to Build When Anything Can Be Built]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

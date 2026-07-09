@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["UCAL Berkeley"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # UCAL Berkeley
 
 ## What It Is
@@ -25,3 +24,13 @@ UCAL Berkeley appears through 1 official speaker(s) connected to 2 scheduled ses
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering|Anthropic's CCA Exam as a Field-Guide for Agentic Engineering]]
+- [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies|Why Agentic Systems Need Ontologies]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

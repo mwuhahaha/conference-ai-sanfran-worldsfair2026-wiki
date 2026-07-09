@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-G_bHFmEAarM-reconstructed-slides]]
 - [[youtube-G_bHFmEAarM-slides]]
 - Slide-derived terms: `code`, `grounding`, `google`, `search`, `video`, `function`, `withgoogle`, `tokens`, `green`, `gemini`, `preview`, `structured`, `outputs`, `execution`, `maps`, `rexy`, `minimal`, `calling`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-G_bHFmEAarM` — 10 slide-derived text signals
+  - Slide-derived themes: output, google, gemini, flash, lite, paid, grounding, latest.
+  - Evidence links: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Stanford University / Together AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Stanford University / Together AI
 
 ## What It Is
@@ -24,3 +23,12 @@ Stanford University / Together AI appears through 1 official speaker(s) connecte
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-james-zou-harnessing-collective-agent-intelligence-for-open-science|Harnessing Collective Agent Intelligence for Open Science]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

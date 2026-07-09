@@ -14,3 +14,12 @@ DBT Labs appears at AI Engineer World's Fair 2026 through Aaron Stanley, its CIS
 
 ## Associated Speakers
 - [[aaron-stanley]] — CISO
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-aaron-stanley-ai-s-jurassic-park-period|AI’s Jurassic Park Period]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

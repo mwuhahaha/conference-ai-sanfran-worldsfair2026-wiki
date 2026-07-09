@@ -7,7 +7,6 @@ linkedin: "https://linkedin.com/in/steveonjava"
 twitter: "https://x.com/steveonjava"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Stephen Chin
 
 ## Official Role
@@ -22,3 +21,14 @@ Stephen Chin is VP of Developer Relations at Neo4j, program chair and board memb
 
 ## Scheduled Sessions
 - [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]] — CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens (2026-07-01, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
+
+### Slide And Transcript Signals
+- `youtube-eW_vxrjvERk` — 10 slide-derived text signals
+  - Slide-derived themes: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+  - Evidence links: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]

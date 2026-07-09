@@ -65,3 +65,15 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Transcript Markdown
 - [[youtube-dvft0Gp9sEE-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
+  - Transcript signals: analysis, sales, transcript, models, calls, data, single, doing.
+  - Slide-derived themes: calls, shift, week.
+  - Evidence links: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

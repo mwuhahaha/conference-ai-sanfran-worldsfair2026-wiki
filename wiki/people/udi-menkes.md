@@ -9,7 +9,6 @@ website: "https://genaipm.com/about"
 blog: "https://genaipm.com/about"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Udi Menkes
 
 ## Official Role
@@ -26,3 +25,12 @@ Udi Menkes is a Principal AI Product Manager at Intuit, where he leads the devel
 
 ## Scheduled Sessions
 - [[2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money]] — Why Off-the-Shelf AI Doesn't Understand Money (2026-07-01, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-udi-menkes-why-off-the-shelf-ai-doesn-t-understand-money|Why Off-the-Shelf AI Doesn't Understand Money]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -9,7 +9,6 @@ website: "https://hamming.ai"
 blog: "https://hamming.ai/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sumanyu Sharma
 
 ## Official Role
@@ -26,3 +25,12 @@ Sumanyu Sharma is the Founder & CEO of Hamming AI, a YC company that invented au
 
 ## Scheduled Sessions
 - [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]] — I Monitored Crime Audio. Voice Agents Scare Me More. (2026-06-29, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more|I Monitored Crime Audio. Voice Agents Scare Me More.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

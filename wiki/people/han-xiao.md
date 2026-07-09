@@ -8,7 +8,6 @@ twitter: "https://x.com/hxiao"
 website: "https://hanxiao.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Han Xiao
 
 ## Official Role
@@ -24,3 +23,12 @@ Dr. Han Xiao is the VP of AI at Elastic. Han founded Jina AI in 2020 and served 
 
 ## Scheduled Sessions
 - [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]] — Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models (2026-06-30, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

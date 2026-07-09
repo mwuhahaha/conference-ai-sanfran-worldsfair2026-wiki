@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Stanford University"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Stanford University
 
 ## What It Is
@@ -26,3 +25,13 @@ Stanford University appears through 2 official speaker(s) connected to 2 schedul
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-simran-arora-can-llms-write-fast-multi-gpu-kernels-we-built-a-benchmark-to-find-out|Can LLMs write fast multi-GPU kernels? We built a benchmark to find out.]]
+- [[2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it|TCP and RDMA are Killing Inference Throughput; Homa can Fix It]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

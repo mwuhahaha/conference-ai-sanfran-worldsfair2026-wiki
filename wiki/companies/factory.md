@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Factory"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Factory
 
 ## What It Is
@@ -26,3 +25,15 @@ Factory appears through 2 official speaker(s) connected to 2 scheduled session(s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
+
+### Slide And Transcript Signals
+- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
+  - Slide-derived themes: autonomous, engineering, systems, ready, making.
+  - Evidence links: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]

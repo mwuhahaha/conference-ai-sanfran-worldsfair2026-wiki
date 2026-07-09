@@ -64,3 +64,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-iUWwcG-C8OU-reconstructed-slides]]
 - [[youtube-iUWwcG-C8OU-slides]]
 - Slide-derived terms: `braintrust`, `workos`, `openal`, `help`, `today`, `engineering`, `future`, `engineer`, `ai.engineer`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
+  - Slide-derived themes: help, today, engineering, future.
+  - Evidence links: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

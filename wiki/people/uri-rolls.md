@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/urirolls/"
 twitter: "https://x.com/uri_rolls"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Uri Rolls
 
 ## Official Role
@@ -24,3 +23,12 @@ Previously, Uri conducted black-hole imaging research at Harvard and the Smithso
 
 ## Scheduled Sessions
 - [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers]] — Training Frontier Models to Out-Think Hackers (2026-06-30, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

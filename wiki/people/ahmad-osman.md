@@ -34,3 +34,18 @@ Ahmad’s background spans LLMs, inference, hardware, infrastructure, and full-s
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now]] — State of the Union: Why Local, Why Now (2026-07-01, 10:45am-11:05am)
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420]] — State of the Union: Why Local, Why Now (2026-07-01, 11:10am-11:30am)
 - [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk]] — Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk (2026-07-01, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-1|Local LLMs and workstation agents: Part 1]]
+- [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-2|Local LLMs and workstation agents: Part 2]]
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]]
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now-11-10am-11-30am-track-4-420|State of the Union: Why Local, Why Now]]
+- [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk|'Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk']]
+
+### Slide And Transcript Signals
+- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
+  - Slide-derived themes: research, decode, hardware, ideas, progress, iteration, given, software.
+  - Evidence links: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]

@@ -135,3 +135,27 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[agentic-search]]
 - [[agent-memory]]
 - [[inference-engineering]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
+- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels|Autoresearch for Kernels]]
+- [[2026-06-30-roland-gavrilescu-autoresearch-in-the-wild|Autoresearch in the wild]]
+- [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms|ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs]]
+- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
+- [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
+
+### Slide And Transcript Signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+  - Transcript signals: model, code, models, research, system, well, first, better.
+  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
+  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-G_bHFmEAarM` — 10 slide-derived text signals
+  - Slide-derived themes: output, google, gemini, flash, lite, paid, grounding, latest.
+  - Evidence links: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]

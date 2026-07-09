@@ -140,3 +140,15 @@ This synthesis uses the official schedule plus cached related-video transcripts.
 ## Additional Photo Slide Evidence
 These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-rebuilding-the-web-for-agents-slides]] - Google Photos Slides: Rebuilding the Web for Agents (confidence: high).
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
+  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
+  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

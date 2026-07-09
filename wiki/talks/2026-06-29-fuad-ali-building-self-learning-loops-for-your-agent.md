@@ -74,3 +74,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-SbcQYbrvAfI-reconstructed-slides]]
 - [[youtube-SbcQYbrvAfI-slides]]
 - Slide-derived terms: `prompt`, `learning`, `system`, `rules`, `coding`, `gepa`, `score`, `changes`, `cost`, `claude`, `test`, `mone`, `planning`, `missing`, `aarize`, `evals`, `function`, `exam`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-SbcQYbrvAfI` — 10 slide-derived text signals
+  - Slide-derived themes: prompt, learning, planning, missing, applied, optimization, loop, case.
+  - Evidence links: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

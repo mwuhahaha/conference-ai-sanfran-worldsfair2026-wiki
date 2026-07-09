@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["NVIDIA", "Nvidia"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # NVIDIA
 
 ## What It Is
@@ -39,3 +38,27 @@ NVIDIA appears through 9 official speaker(s) connected to 8 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer|Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer]]
+- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features|Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features]]
+- [[2026-06-29-hiral-shah-your-agreements-are-a-database-you-can-t-query-we-re-fixing-that|Your Agreements Are a Database You Can't Query. We're Fixing That]]
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]]
+- [[2026-07-01-sheilah-kirui-seeing-the-plumbing-profiling-vllm-speculative-decoding-on-nvidia-blackwell|Seeing the Plumbing: Profiling vLLM Speculative Decoding on NVIDIA Blackwell]]
+- [[2026-07-01-carter-abdallah-local-models-trust-control-optimization|Local Models: Trust, Control, Optimization]]
+- [[2026-07-01-chris-alexiuk-compression-at-the-edge|Compression at the Edge]]
+- [[2026-07-01-nader-khalil-model-routing|Model Routing]]
+
+### Slide And Transcript Signals
+- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
+  - Slide-derived themes: research, decode, hardware, ideas, progress, iteration, given, software.
+  - Evidence links: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
+- `youtube-OV56RddyFuU` — 10 slide-derived text signals
+  - Slide-derived themes: models, community, trending, image, pare, update, mode, tees.
+  - Evidence links: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+- `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
+  - Slide-derived themes: couple, minutes, earlier, inference, largest, market, ever, software.
+  - Evidence links: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

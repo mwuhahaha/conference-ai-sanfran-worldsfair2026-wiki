@@ -9,7 +9,6 @@ website: "https://openpasture.dev"
 blog: "https://openpasture.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Cody Menefee
 
 ## Official Role
@@ -26,3 +25,12 @@ Success Engineer at Firecrawl, focused on making Firecrawl the default web acces
 
 ## Scheduled Sessions
 - [[2026-06-29-cody-menefee-you-re-not-thinking-big-enough-rebuilding-food-systems-from-first-principles-with-ai-agents]] — You’re Not Thinking Big Enough: Rebuilding Food Systems from First Principles with AI Agents (2026-06-29, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-cody-menefee-you-re-not-thinking-big-enough-rebuilding-food-systems-from-first-principles-with-ai-agents|You’re Not Thinking Big Enough: Rebuilding Food Systems from First Principles with AI Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

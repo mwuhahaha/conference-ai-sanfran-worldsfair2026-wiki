@@ -8,7 +8,6 @@ twitter: "https://x.com/ThorstenHans"
 website: "https://www.thorsten-hans.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Thorsten Hans
 
 ## Official Role
@@ -24,3 +23,12 @@ Thorsten Hans is a Senior Developer Advocate at Akamai focused on emerging cloud
 
 ## Scheduled Sessions
 - [[2026-06-30-thorsten-hans-edge-native-ai-building-ultra-fast-agents-and-mcp-servers-with-spin]] — Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin (2026-06-30, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-thorsten-hans-edge-native-ai-building-ultra-fast-agents-and-mcp-servers-with-spin|Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

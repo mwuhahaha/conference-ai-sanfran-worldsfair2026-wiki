@@ -6,7 +6,6 @@ company: "Bee (acq. Amazon)"
 website: "https://bee.computer"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ethan Sutin
 
 ## Official Role
@@ -20,3 +19,12 @@ Ethan Sutin is co-founder of Bee, where he works on secure cloud compute.
 
 ## Scheduled Sessions
 - [[2026-06-29-ethan-sutin-secure-cloud-compute]] — Secure Cloud Compute (2026-06-29, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ethan-sutin-secure-cloud-compute|Secure Cloud Compute]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

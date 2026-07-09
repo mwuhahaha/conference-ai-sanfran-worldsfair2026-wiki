@@ -6,7 +6,6 @@ company: "Cursor"
 linkedin: "https://www.linkedin.com/in/pauline-brunet/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Pauline Brunet
 
 ## Official Role
@@ -20,3 +19,12 @@ VP of Forward Deployed Engineering at Cursor. Building the motion and team to he
 
 ## Scheduled Sessions
 - [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor]] — How Forward Deployed Engineering is done at Cursor (2026-06-29, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

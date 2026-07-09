@@ -60,3 +60,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-OV56RddyFuU-reconstructed-slides]]
 - [[youtube-OV56RddyFuU-slides]]
 - Slide-derived terms: `model`, `skills`, `models`, `gguf`, `hermes`, `community`, `datasets`, `text`, `local`, `llama.cpp`, `inference`, `image`, `search`, `spaces`, `jobs`, `setup`, `claude`, `some`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-OV56RddyFuU` — 10 slide-derived text signals
+  - Slide-derived themes: models, community, trending, image, pare, update, mode, tees.
+  - Evidence links: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

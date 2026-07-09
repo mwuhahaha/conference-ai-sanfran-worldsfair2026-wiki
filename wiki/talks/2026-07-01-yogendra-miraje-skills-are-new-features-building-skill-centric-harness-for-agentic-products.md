@@ -48,3 +48,13 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-sl3icG-IjHo-reconstructed-slides]]
 - [[youtube-sl3icG-IjHo-slides]]
 - Slide-derived terms: `awws`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augmentcode`, `workos`, `evolution`, `intelligence`, `gen-al`, `transformers`, `alexwet`, `year`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-sl3icG-IjHo` — source page linked
+  - Evidence links: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

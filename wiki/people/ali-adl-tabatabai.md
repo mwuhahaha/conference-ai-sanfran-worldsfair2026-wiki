@@ -5,7 +5,6 @@ role: "Founder and CEO"
 company: "Gitar.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ali Adl-Tabatabai
 
 ## Official Role
@@ -19,3 +18,12 @@ Ali-Reza Adl-Tabatabai is founder and CEO of Gitar.ai, a developer-infrastructur
 
 ## Scheduled Sessions
 - [[2026-07-01-ali-adl-tabatabai-while-you-were-generating-the-verification-gap-nobody-talked-about]] — While You Were Generating: The Verification Gap Nobody Talked About (2026-07-01, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-ali-adl-tabatabai-while-you-were-generating-the-verification-gap-nobody-talked-about|While You Were Generating: The Verification Gap Nobody Talked About]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

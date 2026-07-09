@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Maven Clinic"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Maven Clinic
 
 ## What It Is
@@ -24,3 +23,12 @@ Maven Clinic appears through 1 official speaker(s) connected to 1 scheduled sess
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-dan-feng-how-to-build-an-ai-native-health-company|How to build an AI-Native Health Company]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

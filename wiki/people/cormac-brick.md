@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/cbrick/"
 twitter: "https://x.com/cormacb"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Cormac Brick
 
 ## Official Role
@@ -22,3 +21,14 @@ Principal Engineer at Google working on edge AI.  Lead on the Google AI Edge tea
 
 ## Scheduled Sessions
 - [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics]] — Why Large? Tiny LMs & Agents on Edge/Robotics (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics|Why Large? Tiny LMs & Agents on Edge/Robotics]]
+
+### Slide And Transcript Signals
+- `youtube--TiET_K-E_g` — 10 slide-derived text signals
+  - Slide-derived themes: skills, android, bringing, brick, principal, engineer, google, edge.
+  - Evidence links: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]

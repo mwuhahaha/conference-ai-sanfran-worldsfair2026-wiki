@@ -6,7 +6,6 @@ company: "WSO2"
 linkedin: "https://www.linkedin.com/in/raniakhalaf"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Rania Khalaf
 
 ## Official Role
@@ -20,3 +19,12 @@ Dr. Rania Khalaf is Chief AI Officer and GM of AI at WSO2, leading the company's
 
 ## Scheduled Sessions
 - [[2026-06-30-rania-khalaf-the-chief-ai-officer-a-framework-for-the-emerging-swiss-army-knife-of-roles]] — The Chief AI Officer: A framework for the emerging Swiss Army Knife of roles (2026-06-30, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-rania-khalaf-the-chief-ai-officer-a-framework-for-the-emerging-swiss-army-knife-of-roles|The Chief AI Officer: A framework for the emerging Swiss Army Knife of roles]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

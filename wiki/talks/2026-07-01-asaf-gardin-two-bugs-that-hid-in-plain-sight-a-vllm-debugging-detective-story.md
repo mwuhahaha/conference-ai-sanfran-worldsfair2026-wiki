@@ -71,3 +71,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Ywl4LsvHKzU-reconstructed-slides]]
 - [[youtube-Ywl4LsvHKzU-slides]]
 - Slide-derived terms: `world`, `fifa`, `local`, `name`, `questions`, `same`, `future`, `wife`, `first`, `mother`, `schema`, `prob`, `answers`, `assuming`, `answer`, `lies`, `certain`, `chunk`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals
+  - Slide-derived themes: world, local, questions, united, states, mother, surname, name.
+  - Evidence links: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

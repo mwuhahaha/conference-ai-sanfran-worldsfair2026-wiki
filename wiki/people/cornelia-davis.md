@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/corneliadavis/"
 twitter: "https://x.com/cdavisafc"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Cornelia Davis
 
 ## Official Role
@@ -22,3 +21,14 @@ Cornelia's career has spanned several major shifts in software, from image proce
 
 ## Scheduled Sessions
 - [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async]] — MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async? (2026-06-30, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
+
+### Slide And Transcript Signals
+- `youtube-k8cnVCMYmNc` — 10 slide-derived text signals
+  - Slide-derived themes: instructions, python, available, distributed, typescript, developer, advocate, temporal.
+  - Evidence links: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]

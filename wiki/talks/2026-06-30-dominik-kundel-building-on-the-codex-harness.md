@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-iXhba366fQc-reconstructed-slides]]
 - [[youtube-iXhba366fQc-slides]]
 - Slide-derived terms: `complex`, `fair`, `voice`, `parts`, `traces`, `world`, `than`, `personalized`, `conversations`, `dealing`, `support`, `okct`, `aine`, `ronteto`, `mdaily`, `augmentcode`, `workos`, `started`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-iXhba366fQc` — 10 slide-derived text signals
+  - Slide-derived themes: complex, support, before, started, workshop, slack, voice, provide.
+  - Evidence links: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

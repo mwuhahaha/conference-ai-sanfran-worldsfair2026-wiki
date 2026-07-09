@@ -5,7 +5,6 @@ aliases: ["Superconductor"]
 website: "https://www.superconductor.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public company documentation", "Public professional profile"]
 ---
-
 # Superconductor
 
 ## What It Is
@@ -37,3 +36,12 @@ The official speaker roster lists Arjun Singh as Superconductor's co-founder and
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-arjun-singh-multiplayer-agentic-engineering-enabling-your-whole-team-and-your-best-agents-to-work-together|Multiplayer agentic engineering: enabling your whole team and your best agents to work together]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

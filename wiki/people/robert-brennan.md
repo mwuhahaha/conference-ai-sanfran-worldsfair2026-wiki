@@ -9,7 +9,6 @@ website: "https://rbren.io"
 blog: "https://rbren.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Robert Brennan
 
 ## Official Role
@@ -26,3 +25,14 @@ Robert Brennan is the CEO of All Hands AI, the company behind OpenHands, an MIT-
 
 ## Scheduled Sessions
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] — Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale (2026-06-30, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
+
+### Slide And Transcript Signals
+- `youtube-rcsliSIy_YU` — 9 slide-derived text signals
+  - Slide-derived themes: code, showcase, automating, massive, robert, brennan, generation, implement.
+  - Evidence links: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]

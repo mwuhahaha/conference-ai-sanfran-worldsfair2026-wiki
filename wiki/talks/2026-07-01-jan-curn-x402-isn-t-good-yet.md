@@ -58,3 +58,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-blW-lSd5CYQ-reconstructed-slides]]
 - [[youtube-blW-lSd5CYQ-slides]]
 - Slide-derived terms: `scraper`, `actor`, `google`, `maps`, `email`, `extract`, `form`, `world`, `sfair`, `apify`, `details`, `posts`, `intelligence`, `emerge`, `tool`, `runs`, `instagram`, `contact`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-blW-lSd5CYQ` — 10 slide-derived text signals
+  - Slide-derived themes: scraper, data, extract, posts, google, maps, instagram, scrape.
+  - Evidence links: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

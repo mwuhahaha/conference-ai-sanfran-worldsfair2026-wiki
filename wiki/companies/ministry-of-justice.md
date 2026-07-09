@@ -3,11 +3,10 @@ title: "Ministry of Justice"
 category: "companies"
 aliases: ["MoJ", "UK Ministry of Justice"]
 website: "https://www.gov.uk/government/organisations/ministry-of-justice"
-sourceLabels: ["Public YouTube metadata", "Justice AI Unit official site", "No10 Innovation Fellowship", "Highlight synthesis"]
+sourceLabels: ["Public YouTube metadata", "Justice AI Unit official site", "No10 Innovation Fellowship", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # Ministry of Justice
 
 ## What It Is
@@ -35,3 +34,12 @@ Most World's Fair talks focus on startups, platforms, developer tools, or AI-nat
 
 ## Evidence Boundary
 Official Ministry of Justice and Justice AI Unit pages establish the public-sector context. The AI Engineer video and cached transcript provide the conference-source synthesis about AI product shipping in prisons, probation, and related justice workflows.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- No related scheduled session was found in this pass.
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

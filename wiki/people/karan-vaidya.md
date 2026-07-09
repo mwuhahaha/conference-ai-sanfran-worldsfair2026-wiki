@@ -9,7 +9,6 @@ website: "https://kvaidya.com/"
 blog: "https://kvaidya.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Karan Vaidya
 
 ## Official Role
@@ -26,3 +25,12 @@ Karan Vaidya is the co-founder and CTO of Composio, where he's building the agen
 
 ## Scheduled Sessions
 - [[2026-06-29-karan-vaidya-from-coding-to-knowledge-work-agents]] — From coding to Knowledge work agents (2026-06-29, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-karan-vaidya-from-coding-to-knowledge-work-agents|From coding to Knowledge work agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

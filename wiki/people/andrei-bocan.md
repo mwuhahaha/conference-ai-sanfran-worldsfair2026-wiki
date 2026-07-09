@@ -6,7 +6,6 @@ company: "Atlassian"
 linkedin: "https://www.linkedin.com/in/andrei-bocan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Andrei Bocan
 
 ## Official Role
@@ -20,3 +19,12 @@ Andrei Bocan is a Principal Engineer at Atlassian and a frequent speaker on Grap
 
 ## Scheduled Sessions
 - [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]] — The best SDLC is the one you build yourself: Why orchestration changes everything (2026-06-29, 9:00am-11:00am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|The best SDLC is the one you build yourself: Why orchestration changes everything]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

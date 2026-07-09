@@ -9,7 +9,6 @@ website: "https://csanchez.org/"
 blog: "https://csanchez.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Carlos Sanchez
 
 ## Official Role
@@ -26,3 +25,12 @@ Principal Scientist at Adobe Experience Manager, specializing in software automa
 
 ## Scheduled Sessions
 - [[2026-06-30-carlos-sanchez-agentic-sites-building-hyper-personalized-websites]] — Agentic Sites: Building Hyper Personalized Websites (2026-06-30, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-carlos-sanchez-agentic-sites-building-hyper-personalized-websites|Agentic Sites: Building Hyper Personalized Websites]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

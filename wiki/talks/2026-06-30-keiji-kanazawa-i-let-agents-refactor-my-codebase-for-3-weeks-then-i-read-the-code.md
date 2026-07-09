@@ -60,3 +60,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-JhJKgRAmfIU-reconstructed-slides]]
 - [[youtube-JhJKgRAmfIU-slides]]
 - Slide-derived terms: `microsoft`, `azure`, `azure_ai_project_endpoint`, `foundry`, `loot`, `bank`, `initialize`, `service`, `endpoint`, `api_key`, `redteamplugin`, `problims`, `output`, `termnal`, `ports`, `node`, `smol`, `awss`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals
+  - Slide-derived themes: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+  - Evidence links: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -5,7 +5,6 @@ role: "Engineering Manager"
 company: "G2i"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Gabriel Martinez
 
 ## Official Role
@@ -19,3 +18,12 @@ No official bio included in the speaker JSON.
 
 ## Scheduled Sessions
 - [[2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages]] — Agents Don't Have Coworkers, They Have Hostages (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages|Agents Don't Have Coworkers, They Have Hostages]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

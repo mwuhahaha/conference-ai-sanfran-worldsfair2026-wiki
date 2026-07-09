@@ -6,7 +6,6 @@ company: "Neo4j"
 twitter: "https://x.com/emileifrem"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Emil Eifrem
 
 ## Official Role
@@ -24,3 +23,18 @@ Emil created the category of graph databases and has devoted his professional li
 - [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer]] — Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer (2026-07-01, 10:20am-10:30am)
 ## Livestream Appearances
 - [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]] — [watch at 01:39:01](https://www.youtube.com/watch?v=I2cbIws9j10&t=5941s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]]
+
+### Slide And Transcript Signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-knDDGYHnnSI` — 2 slide-derived text signals
+  - Slide-derived themes: full, text, george, mooc.
+  - Evidence links: [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]

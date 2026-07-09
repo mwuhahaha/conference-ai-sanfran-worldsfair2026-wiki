@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Temporal"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Temporal
 
 ## What It Is
@@ -24,3 +23,14 @@ Temporal appears through 1 official speaker(s) connected to 1 scheduled session(
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
+
+### Slide And Transcript Signals
+- `youtube-k8cnVCMYmNc` — 10 slide-derived text signals
+  - Slide-derived themes: instructions, python, available, distributed, typescript, developer, advocate, temporal.
+  - Evidence links: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]

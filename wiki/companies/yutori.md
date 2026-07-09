@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Yutori"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Yutori
 
 ## What It Is
@@ -26,3 +25,15 @@ Yutori appears through 2 official speaker(s) connected to 2 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis|Computer-use models will agentify the web, not APIs]]
+- [[2026-06-30-maximillian-piras-mousepower-agents-that-can-t-be-measured-can-t-be-managed|Mousepower: agents that can’t be measured, can’t be managed.]]
+
+### Slide And Transcript Signals
+- `youtube-BZtD0yYAgCQ` — 5 slide-derived text signals
+  - Slide-derived themes: ship, future, programming, bret, victor, bitter, layout.
+  - Evidence links: [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]

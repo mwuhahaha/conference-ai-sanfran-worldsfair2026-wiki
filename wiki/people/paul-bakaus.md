@@ -8,7 +8,6 @@ twitter: "https://x.com/pbakaus"
 website: "https://www.paulbakaus.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Paul Bakaus
 
 ## Official Role
@@ -29,3 +28,13 @@ His mission: move the human-AI interface past the chat box, and build AI tools f
 ## Scheduled Sessions
 - [[2026-06-29-paul-bakaus-the-dark-arts-of-skill-engineering]] — The Dark Arts of Skill Engineering (2026-06-29, 4:30pm-5:30pm)
 - [[2026-06-30-paul-bakaus-design-at-the-speed-of-adjectives]] — Design at the Speed of Adjectives (2026-06-30, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-paul-bakaus-the-dark-arts-of-skill-engineering|The Dark Arts of Skill Engineering]]
+- [[2026-06-30-paul-bakaus-design-at-the-speed-of-adjectives|Design at the Speed of Adjectives]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

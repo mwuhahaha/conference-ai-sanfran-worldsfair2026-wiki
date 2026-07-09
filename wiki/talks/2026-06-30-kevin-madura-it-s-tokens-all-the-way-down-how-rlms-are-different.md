@@ -71,3 +71,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube--cKUW6n8hBU-reconstructed-slides]]
 - [[youtube--cKUW6n8hBU-slides]]
 - Slide-derived terms: `dspy`, `shares`, `document`, `attachments`, `program`, `total`, `python`, `sold`, `structured`, `code`, `were`, `find`, `allows`, `class`, `transactions`, `applying`, `step`, `sentiment`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube--cKUW6n8hBU` — 10 slide-derived text signals
+  - Slide-derived themes: allows, structured, prompts, program, declarative, framework, modular, software.
+  - Evidence links: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

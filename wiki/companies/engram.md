@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Engram"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Engram
 
 ## What It Is
@@ -24,3 +23,14 @@ Engram appears through 1 official speaker(s) connected to 1 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-jack-morris-scaling-compute-on-context|Scaling Compute on Context]]
+
+### Slide And Transcript Signals
+- `youtube-Jty4s9-Jb78` — 10 slide-derived text signals
+  - Slide-derived themes: tokens, context, output, knowledge, given, user, second, blue.
+  - Evidence links: [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]

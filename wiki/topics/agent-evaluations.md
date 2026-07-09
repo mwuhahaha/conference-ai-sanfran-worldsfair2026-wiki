@@ -3,7 +3,6 @@ title: "Agent Evaluations"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # Agent Evaluations
 
 ## Synopsis
@@ -141,3 +140,27 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - “Um so anyway, so the the title of my talk today is evals are broken and you should use them anyway.” — [[youtube-QuuIywMG4s8]]
 - “And lastly, this axis is all about producing more complex work, more representative work, and also nuanced signals that can be used for not just evaluation, but reward signals during training.” — [[youtube-iNkFlCiij0U]]
 - “And for the same amount of evaluation, it takes only 7 hours.” — [[youtube-hqHC6Z_lXyo]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-30-maor-bril-evaling-video-slop|Evaling Video Slop]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101|From Vibes to Production: Evaluating and Shipping AI Agents That Work 101]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201|From Vibes to Production: Evaluating and Shipping AI Agents That Work 201]]
+- [[2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior|Model Whisperers: How Evals and Prompts Shape Agent Behavior]]
+- [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive|Evals in AI: A Deep Dive]]
+- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline|From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline]]
+- [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale|Building Closed-Loop Evals for a Multimodal Agent at Uber Scale]]
+- [[2026-06-30-rustem-feyzkhanov-from-agent-traces-to-agent-simulations-the-next-era-of-agent-evaluation|From Agent Traces to Agent Simulations: The next era of agent evaluation]]
+- [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely|Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely]]
+- [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale|AI Evals Platform for Cross-Functional Teams at Scale]]
+
+### Slide And Transcript Signals
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
+  - Transcript signals: evals, eval, data, should, judge, output, whether, phoenix.
+  - Slide-derived themes: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+  - Evidence links: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- `youtube-C_GG5g38vLU` — 8 slide-derived text signals
+  - Slide-derived themes: model, engineering, future, console, stories, tool, registry, story.
+  - Evidence links: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]

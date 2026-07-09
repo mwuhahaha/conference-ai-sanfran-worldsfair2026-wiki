@@ -26,3 +26,14 @@ Exa is listed in the wiki as a participating company connected to Bryk, co-found
 
 ## Scheduled Sessions
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]] — The Search Engine for the Agentic Web (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
+
+### Slide And Transcript Signals
+- `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
+  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
+  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]

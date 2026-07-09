@@ -9,7 +9,6 @@ website: "https://clare.dev/"
 blog: "https://clare.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Clare Liguori
 
 ## Official Role
@@ -26,3 +25,12 @@ Clare Liguori is a Senior Principal Engineer at Amazon Web Services (AWS), where
 
 ## Scheduled Sessions
 - [[2026-06-29-clare-liguori-from-ai-assisted-to-ai-native-building-a-frontier-development-team]] — From AI-Assisted to AI-Native: Building a Frontier Development Team (2026-06-29, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-clare-liguori-from-ai-assisted-to-ai-native-building-a-frontier-development-team|From AI-Assisted to AI-Native: Building a Frontier Development Team]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

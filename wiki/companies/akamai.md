@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Akamai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Akamai
 
 ## What It Is
@@ -26,3 +25,13 @@ Akamai appears through 2 official speaker(s) connected to 2 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-thorsten-hans-edge-native-ai-building-ultra-fast-agents-and-mcp-servers-with-spin|Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin]]
+- [[2026-07-01-lena-hall-the-signal-layer-what-to-build-when-anything-can-be-built|The Signal Layer: What to Build When Anything Can Be Built]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

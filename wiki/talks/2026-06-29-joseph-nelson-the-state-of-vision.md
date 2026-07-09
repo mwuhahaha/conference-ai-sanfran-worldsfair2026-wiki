@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-OimPoLxioYg-reconstructed-slides]]
 - [[youtube-OimPoLxioYg-slides]]
 - Slide-derived terms: `clip`, `prompt`, `paint.wtf`, `draw`, `user`, `driving`, `tractor`, `bumblebee`, `loves`, `lessons`, `ranking`, `capitalism`, `autogpt`, `convince`, `best`, `similarity`, `raccoon`, `araccoon`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-OimPoLxioYg` — 10 slide-derived text signals
+  - Slide-derived themes: prompt, paint, clip, user, image, text, embedding, feature.
+  - Evidence links: [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

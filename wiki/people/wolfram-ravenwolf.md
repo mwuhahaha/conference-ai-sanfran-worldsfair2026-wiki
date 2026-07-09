@@ -9,7 +9,6 @@ website: "https://wolfbench.ai/"
 blog: "https://wolfbench.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Wolfram Ravenwolf
 
 ## Official Role
@@ -26,3 +25,12 @@ Wolfram Ravenwolf is an AI Evangelist at CoreWeave / Weights & Biases, where he 
 
 ## Scheduled Sessions
 - [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]] — From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline (2026-06-29, 12:10pm-1:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline|From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

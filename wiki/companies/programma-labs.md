@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Programma Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Programma Labs
 
 ## What It Is
@@ -24,3 +23,12 @@ Programma Labs appears through 1 official speaker(s) connected to 1 scheduled se
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-6YdPI9YbjbI-reconstructed-slides]]
 - [[youtube-6YdPI9YbjbI-slides]]
 - Slide-derived terms: `evals`, `microsoft`, `evaluation`, `datasets`, `scorer`, `prompt`, `human`, `improve`, `scorers`, `world`, `across`, `scoring`, `evaluate`, `deploy`, `help`, `braintrust.dev`, `logs`, `review`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-6YdPI9YbjbI` — 10 slide-derived text signals
+  - Slide-derived themes: across, sign, access, join, ease, acme, uses, stripe.
+  - Evidence links: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

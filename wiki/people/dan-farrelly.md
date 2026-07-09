@@ -6,7 +6,6 @@ company: "Inngest"
 linkedin: "https://www.linkedin.com/in/djfarrelly"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dan Farrelly
 
 ## Official Role
@@ -20,3 +19,12 @@ Dan Farrelly is CTO and co-founder of Inngest, a platform for durable serverless
 
 ## Scheduled Sessions
 - [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months]] — Your agent architecture has a half-life of 6 months (2026-06-30, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-dan-farrelly-your-agent-architecture-has-a-half-life-of-6-months|Your agent architecture has a half-life of 6 months]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

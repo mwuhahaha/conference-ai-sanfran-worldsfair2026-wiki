@@ -6,7 +6,6 @@ company: "Snyk"
 linkedin: "https://www.linkedin.com/in/ezra-tanzer-5a187423"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ezra Tanzer
 
 ## Official Role
@@ -20,3 +19,12 @@ Ezra Tanzer is a Director of Product Management at Snyk, leading teams building 
 
 ## Scheduled Sessions
 - [[2026-06-29-ezra-tanzer-agentic-development-security]] — Agentic Development Security (2026-06-29, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -3,7 +3,6 @@ title: "Voice Agents"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # Voice Agents
 
 ## Synopsis
@@ -123,3 +122,33 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - “So for that you need to know who's who who spoke when.” — [[youtube-mFLlVpnGpds]]
 - “And the question is now we need to assign a speaker to each word.” — [[youtube-mFLlVpnGpds]]
 - “So in there you you'll be able to to with Pianoteq open source toolkit for diarization with piano metrics for evaluation.” — [[youtube-mFLlVpnGpds]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence|Realtime Voice Agents with Frontier Intelligence]]
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things|Voice Agents Can Just Do Things]]
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind|Speech-to-Speech Model Research at Google DeepMind]]
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more|I Monitored Crime Audio. Voice Agents Scare Me More.]]
+- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents|\"My name is... my name is...\": A Linguistic Map for Building and Debugging Voice Agents]]
+- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one|5 Voice Agent Failure Modes You'll Hit in Week One]]
+- [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
+- [[2026-06-29-paula-dozsa-tolan-voice-first-ai-companion|Tolan: Voice-First AI Companion]]
+- [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
+- [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
+
+### Slide And Transcript Signals
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
+  - Transcript signals: analysis, sales, transcript, models, calls, data, single, doing.
+  - Slide-derived themes: calls, shift, week.
+  - Evidence links: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals
+  - Slide-derived themes: engineering, future, brig, team, google, translation, great, hove.
+  - Evidence links: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+- `youtube-u3NofYYstaY` — 8 slide-derived text signals
+  - Slide-derived themes: cohere, team, accenture, global, languages, support, addresses, unique.
+  - Evidence links: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
+- `youtube-SbcQYbrvAfI` — 10 slide-derived text signals
+  - Slide-derived themes: prompt, learning, planning, missing, applied, optimization, loop, case.
+  - Evidence links: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]

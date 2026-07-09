@@ -8,7 +8,6 @@ twitter: "https://x.com/JaredJoselowitz"
 website: "https://jossy.co.za/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jared Joselowitz
 
 ## Official Role
@@ -24,3 +23,12 @@ Jared Joselowitz is the Lead AI Research Engineer at Ufonia, where Dora (an AI v
 
 ## Scheduled Sessions
 - [[2026-07-01-jared-joselowitz-shipping-ai-to-a-million-patients-without-an-a-b-test]] — Shipping AI to a Million Patients Without an A/B Test (2026-07-01, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-jared-joselowitz-shipping-ai-to-a-million-patients-without-an-a-b-test|Shipping AI to a Million Patients Without an A/B Test]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -8,7 +8,6 @@ twitter: "https://x.com/vim1up"
 website: "https://hippocraticai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Vivek Muppalla
 
 ## Official Role
@@ -28,3 +27,14 @@ Throughout his career, Vivek has focused on the hardest part of shipping AI: bui
 
 ## Scheduled Sessions
 - [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses]] — 200 Million Patient Interactions Later: What the Generic Voice Stack Misses (2026-07-01, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
+
+### Slide And Transcript Signals
+- `youtube-u3NofYYstaY` — 8 slide-derived text signals
+  - Slide-derived themes: cohere, team, accenture, global, languages, support, addresses, unique.
+  - Evidence links: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]

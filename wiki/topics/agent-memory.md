@@ -3,7 +3,6 @@ title: "Agent Memory"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # Agent Memory
 
 ## Synopsis
@@ -141,3 +140,33 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - “And so, to kind of think actually about what a context graph is, we need to ask ourselves, "Would you agents really be accurate?" Right?” — [[youtube-B9h9ovW5H9U]]
 - “And then context, policies that are um in different reasoning by AI that records memory, but um by employees and and past humans that have made decisions.” — [[youtube-B9h9ovW5H9U]]
 - “Um But yeah, that's a good point and then in the create context graph, we're still working on how you would write um new decision traces.” — [[youtube-B9h9ovW5H9U]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer|From Context to Memory: Your Agents Need a Real Memory Layer]]
+- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents|WTF Is the Context Layer? The Missing Infrastructure for Production Agents]]
+- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents|The Infinite Context Window Is a Myth: Context Engineering for AI Agents]]
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]]
+- [[2026-06-29-ignacio-martinez-total-recall-agent-memory-and-harness-engineering|Total Recall: Agent Memory and Harness Engineering]]
+- [[2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost|Context Engineering in 2026: Compaction, Memory & Cost]]
+- [[2026-06-30-anant-srivastava-prompt-memory-weights-the-architecture-decisions-most-ai-teams-make-by-accident|Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident]]
+- [[2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system|Lessons from Studying Every Memory System]]
+
+### Slide And Transcript Signals
+- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
+  - Slide-derived themes: solution, water, growth, crystal, salt, input, sources, services.
+  - Evidence links: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
+- `youtube-eW_vxrjvERk` — 10 slide-derived text signals
+  - Slide-derived themes: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+  - Evidence links: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals
+  - Slide-derived themes: obsidian, plus, notion, google, drive, growing, files, month.
+  - Evidence links: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]

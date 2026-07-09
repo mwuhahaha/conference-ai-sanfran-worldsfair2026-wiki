@@ -8,7 +8,6 @@ twitter: "https://x.com/_sarthak4"
 website: "https://sarthak.site"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sarthak Aggarwal
 
 ## Official Role
@@ -24,3 +23,12 @@ Sarthak is the co-founder of Decawork, building autonomous IT admin for the AI w
 
 ## Scheduled Sessions
 - [[2026-06-29-sarthak-aggarwal-it-admin-for-the-ai-workforce-why-your-ai-agents-will-need-their-own-it-department]] — IT Admin for the AI Workforce: Why Your AI Agents Will Need Their Own IT Department (2026-06-29, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-sarthak-aggarwal-it-admin-for-the-ai-workforce-why-your-ai-agents-will-need-their-own-it-department|IT Admin for the AI Workforce: Why Your AI Agents Will Need Their Own IT Department]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

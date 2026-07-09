@@ -3,7 +3,6 @@ title: "Agentic Web"
 category: "topics"
 sourceLabels: ["Official conference schedule", "Public YouTube metadata", "YouTube transcript evidence", "Local slide OCR", "Topic synthesis"]
 ---
-
 # Agentic Web
 
 Agentic Web is the conference theme around making the public web usable by AI agents as an action surface, retrieval surface, interface layer, and data substrate. In this wiki it is a topic, not a standalone section: it connects scheduled talks, people, companies, videos, transcripts, slide evidence, and adjacent concepts such as agentic search, browser agents, MCP, sandboxes, catalogs, and agent-facing HTML.
@@ -127,3 +126,40 @@ The World's Fair schedule frames this as a multi-track theme rather than a singl
 
 ## Evidence Boundary
 Official schedule data is canonical for talk titles, speakers, dates, tracks, rooms, and inclusion in the schedule anchor list. YouTube videos, transcripts, local Whisper output, OCR, and reconstructed slide crops are supporting evidence. Treat transcript and OCR-derived claims as reviewable evidence, and verify important slide claims against the embedded slide image or reconstructed crop when available.
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
+- [[2026-06-29-yohan-raju-building-ai-agents-with-real-time-web-data|Building AI Agents with Real-Time Web Data]]
+- [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs|The Death of Keyword Search and the Rise of Agent-Readable Catalogs]]
+- [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai|How Web Data Infrastructure Powers the Next Generation of AI]]
+- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale|Deploying browser agents at scale]]
+- [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis|Computer-use models will agentify the web, not APIs]]
+- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web|Bringing agents onto the world wide web]]
+- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans]]
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
+- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
+
+### Slide And Transcript Signals
+- `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
+  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
+  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- `youtube-YRGjll7uu5w` — 8 slide-derived text signals
+  - Slide-derived themes: playwright, automation, stagehand, february, date, march, april, take.
+  - Evidence links: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+  - Transcript signals: model, code, models, research, system, well, first, better.
+  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
+  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-JsKTQbT58BY` — source page linked
+  - Evidence links: [[youtube-JsKTQbT58BY]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
+  - Transcript signals: model, code, models, loop, well, software, first, team.
+  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]

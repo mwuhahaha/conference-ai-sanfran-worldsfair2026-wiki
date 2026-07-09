@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Amazon Web Services"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Amazon Web Services
 
 ## What It Is
@@ -32,3 +31,17 @@ Amazon Web Services appears through 4 official speaker(s) connected to 6 schedul
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship|Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship]]
+- [[2026-06-29-clare-liguori-from-ai-assisted-to-ai-native-building-a-frontier-development-team|From AI-Assisted to AI-Native: Building a Frontier Development Team]]
+- [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code|1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code]]
+- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents|The Infinite Context Window Is a Myth: Context Engineering for AI Agents]]
+- [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild|Agents That Forge Their Own Tools: Self-Modifying AI in the Wild]]
+- [[2026-07-01-sandhya-subramani-tell-the-robot-what-you-want|Tell the Robot What You Want]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

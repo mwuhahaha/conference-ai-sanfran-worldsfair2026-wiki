@@ -3,11 +3,10 @@ title: "ORA"
 category: "companies"
 aliases: ["ORA", "Ora", "ora.ai"]
 website: "https://ora.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public research article", "Public professional profile", "Highlight synthesis"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public research article", "Public professional profile", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # ORA
 
 ## What It Is
@@ -51,3 +50,20 @@ ORA's state-of-agent-readiness report is useful supporting evidence for several 
 
 ## Evidence Boundary
 The official speaker roster is canonical for Liad Yosef's World's Fair participation. ORA's public site, ORA's research article, and public professional profiles are supporting sources used to explain the company and the agentic-web context.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
+- [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be|We're the bottleneck, but we don't have to be]]
+
+### Slide And Transcript Signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
+  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
+  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-kR64LOqBBCU` — 10 slide-derived text signals
+  - Slide-derived themes: bottleneck, orchestration, hired, founding, engineers, skills, along, raft.
+  - Evidence links: [[youtube-kR64LOqBBCU]], [[youtube-kR64LOqBBCU-slides]], [[youtube-kR64LOqBBCU-reconstructed-slides]]

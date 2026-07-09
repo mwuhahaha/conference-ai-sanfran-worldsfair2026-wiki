@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/prukalpa"
 twitter: "https://x.com/prukalpa"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Prukalpa Sankar
 
 ## Official Role
@@ -22,3 +21,12 @@ Prukalpa Sankar is the Founder & Co-CEO of Atlan, the context layer for AI. She'
 
 ## Scheduled Sessions
 - [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents (2026-06-30, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents|WTF Is the Context Layer? The Missing Infrastructure for Production Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

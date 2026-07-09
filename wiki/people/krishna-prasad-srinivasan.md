@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/krishnapsrinivasan/"
 twitter: "https://x.com/fewshotlearner"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Krishna Prasad Srinivasan
 
 ## Official Role
@@ -22,3 +21,12 @@ Krishna Prasad Srinivasan is a Head of Vision Models at Sarvam, where he led a l
 
 ## Scheduled Sessions
 - [[2026-06-29-krishna-prasad-srinivasan-from-scratch-to-sota-training-a-3b-state-space-vision-model-for-1-4-billion-people]] — From Scratch to SOTA: Training a 3B State-Space Vision Model for 1.4 Billion People (2026-06-29, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-krishna-prasad-srinivasan-from-scratch-to-sota-training-a-3b-state-space-vision-model-for-1-4-billion-people|From Scratch to SOTA: Training a 3B State-Space Vision Model for 1.4 Billion People]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

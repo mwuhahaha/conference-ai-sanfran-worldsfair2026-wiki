@@ -6,7 +6,6 @@ company: "Nvidia"
 linkedin: "https://www.linkedin.com/in/dhruvnathawani/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dhruv Nathawani
 
 ## Official Role
@@ -20,3 +19,12 @@ Dhruv Nathawani is a Research Scientist at NVIDIA, where he works at the interse
 
 ## Scheduled Sessions
 - [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer]] — Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer (2026-06-29, 11:05am-12:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer|Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

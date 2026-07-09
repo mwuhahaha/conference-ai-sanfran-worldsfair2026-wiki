@@ -79,3 +79,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-wNH3q9pqn0U-reconstructed-slides]]
 - [[youtube-wNH3q9pqn0U-slides]]
 - Slide-derived terms: `microsoft`, `crystal`, `growth`, `water`, `solution`, `demo`, `salt`, `yeast`, `fermentation`, `open-source`, `open`, `jacdac`, `nucleation`, `science`, `supersaturation`, `dissolves`, `than`, `temperature`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
+  - Slide-derived themes: solution, water, growth, crystal, salt, input, sources, services.
+  - Evidence links: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/valeriawu/"
 twitter: "https://x.com/valeriawu_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Valeria Wu Fon
 
 ## Official Role
@@ -22,3 +21,12 @@ Product Manager at Google DeepMind for Gemini's speech to speech model. Previous
 
 ## Scheduled Sessions
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] — Speech-to-Speech Model Research at Google DeepMind (2026-06-29, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind|Speech-to-Speech Model Research at Google DeepMind]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

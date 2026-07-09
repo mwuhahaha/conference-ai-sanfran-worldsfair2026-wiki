@@ -8,7 +8,6 @@ twitter: "https://x.com/nickheiner"
 website: "https://www.nickheiner.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Nick Heiner
 
 ## Official Role
@@ -24,3 +23,12 @@ Nick Heiner is the Head of RL Environments at Surge AI, the post-training compan
 
 ## Scheduled Sessions
 - [[2026-06-29-nick-heiner-when-will-the-benchmaxxing-plague-end]] — When Will The Benchmaxxing Plague End? (2026-06-29, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-nick-heiner-when-will-the-benchmaxxing-plague-end|When Will The Benchmaxxing Plague End?]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

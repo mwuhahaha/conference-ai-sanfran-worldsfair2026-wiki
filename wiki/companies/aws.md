@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["AWS"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # AWS
 
 ## What It Is
@@ -24,3 +23,12 @@ AWS appears through 1 official speaker(s) connected to 1 scheduled session(s). T
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-varun-pant-your-code-has-bugs-lean4-has-proofs-a-practical-guide-to-formal-verification-for-engineers|Your Code Has Bugs. Lean4 Has Proofs. A Practical Guide to Formal Verification for Engineers]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

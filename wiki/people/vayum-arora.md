@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/vayum-arora/"
 blog: "https://www.weco.ai/blog/vardera-case-study"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Vayum Arora
 
 ## Official Role
@@ -22,3 +21,12 @@ Vayum started in AI as an ML engineer and product lead on Apple's Intelligence t
 
 ## Scheduled Sessions
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] — Hands-on AutoResearch: Cracking OpenAI's Parameter Golf (2026-06-29, 2:20pm-4:20pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

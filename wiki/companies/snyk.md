@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Snyk"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Snyk
 
 ## What It Is
@@ -33,3 +32,17 @@ Snyk appears through 5 official speaker(s) connected to 6 scheduled session(s). 
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-manoj-nair-security-track-intro|Security Track intro]]
+- [[2026-06-29-manoj-nair-through-the-ai-fog-the-architectural-decision-the-next-24-months-of-agentic-security-depends-on|Through the AI Fog: The architectural decision the next 24 months of agentic security depends on.]]
+- [[2026-06-29-ezra-tanzer-agentic-development-security|Agentic Development Security]]
+- [[2026-06-29-micah-silverman-ai-security-engineer-foundations-certificate|AI Security Engineer Foundations + Certificate]]
+- [[2026-06-29-javier-garza-ai-security-engineer-foundations-certificate|AI Security Engineer Foundations + Certificate]]
+- [[2026-06-30-eli-cohen-continuous-offensive-security-the-only-approach-in-an-agent-first-world|Continuous Offensive Security the only approach in an agent-first world]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -5,7 +5,6 @@ role: "Director of Product Marketing"
 company: "Microsoft"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ronak Chokshi
 
 ## Official Role
@@ -19,3 +18,12 @@ Ronak Chokshi is Director of Product Marketing at Microsoft, with recent public 
 
 ## Scheduled Sessions
 - [[2026-06-30-ronak-chokshi-power-agents-with-microsoft-iq]] — Power agents with Microsoft IQ (2026-06-30, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-ronak-chokshi-power-agents-with-microsoft-iq|Power agents with Microsoft IQ]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

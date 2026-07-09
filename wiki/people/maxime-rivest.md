@@ -9,7 +9,6 @@ website: "https://maximerivest.com"
 blog: "https://maximerivest.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Maxime Rivest
 
 ## Official Role
@@ -28,3 +27,15 @@ Maxime builds tools and create content that make LLMs more accessible and powerf
 - [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model]] — The Unreasonable Effectiveness of Separating the Task from the Model (2026-07-01, 9:40am-10:00am)
 ## Livestream Appearances
 - [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model|The Unreasonable Effectiveness of Separating the Task from the Model]] — [watch at 00:53:36](https://www.youtube.com/watch?v=I2cbIws9j10&t=3216s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model|The Unreasonable Effectiveness of Separating the Task from the Model]]
+
+### Slide And Transcript Signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]

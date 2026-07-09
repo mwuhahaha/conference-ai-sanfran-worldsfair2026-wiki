@@ -6,7 +6,6 @@ company: "Lease End"
 linkedin: "https://linkedin.com/in/dkbjornn"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dan Bjornn
 
 ## Official Role
@@ -20,3 +19,12 @@ Dan Bjornn is a Senior Data Scientist at Lease End, where he builds AI systems b
 
 ## Scheduled Sessions
 - [[2026-06-29-dan-bjornn-your-fine-tuned-model-is-tech-debt-a-50x-roi-house-of-cards]] — Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards (2026-06-29, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-dan-bjornn-your-fine-tuned-model-is-tech-debt-a-50x-roi-house-of-cards|Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

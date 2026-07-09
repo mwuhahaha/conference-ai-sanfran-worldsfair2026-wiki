@@ -76,3 +76,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-C_GG5g38vLU-reconstructed-slides]]
 - [[youtube-C_GG5g38vLU-slides]]
 - Slide-derived terms: `model`, `const`, `news`, `engineering`, `future`, `harness`, `task`, `hacker`, `upvote`, `import`, `story`, `session`, `europe`, `lght`, `https`, `news.ycombinator.com`, `stories`, `highest-ranked`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-C_GG5g38vLU` — 8 slide-derived text signals
+  - Slide-derived themes: model, engineering, future, console, stories, tool, registry, story.
+  - Evidence links: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

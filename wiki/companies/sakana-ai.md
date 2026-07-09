@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Sakana.ai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sakana.ai
 
 ## What It Is
@@ -24,3 +23,14 @@ Sakana.ai appears through 1 official speaker(s) connected to 1 scheduled session
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
+
+### Slide And Transcript Signals
+- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
+  - Slide-derived themes: solution, water, growth, crystal, salt, input, sources, services.
+  - Evidence links: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]

@@ -6,7 +6,6 @@ company: "Zions Bancorporation"
 linkedin: "https://www.linkedin.com/in/tanmay-sah/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Tanmay Sah
 
 ## Official Role
@@ -21,3 +20,13 @@ Tanmay Sah, PhD, is a quantitative modeler and AI researcher working at the inte
 ## Scheduled Sessions
 - [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2]] — 2 hr deep dive on LLM Inference at Scale — Part 1 of 2 (2026-06-29, 12:10pm-1:10pm)
 - [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2]] — 2 hr deep dive on LLM Inference at Scale — Part 2 of 2 (2026-06-29, 1:15pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2|2 hr deep dive on LLM Inference at Scale — Part 1 of 2]]
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2|2 hr deep dive on LLM Inference at Scale — Part 2 of 2]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

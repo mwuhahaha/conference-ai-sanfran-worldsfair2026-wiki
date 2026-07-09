@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Mastra"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Mastra
 
 ## What It Is
@@ -24,3 +23,14 @@ Mastra appears through 1 official speaker(s) connected to 1 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
+
+### Slide And Transcript Signals
+- `youtube-8SUJEqQNClw` — 10 slide-derived text signals
+  - Slide-derived themes: typescript, framework, users, sometimes, giving, gatsby, author, principles.
+  - Evidence links: [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]

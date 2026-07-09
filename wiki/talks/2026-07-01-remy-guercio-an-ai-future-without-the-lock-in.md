@@ -78,3 +78,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
 - [[youtube-BM2JX9hqsVQ-slides]]
 - Slide-derived terms: `tailscale`, `alengineer`, `engineering`, `future`, `braintrust`, `workos`, `openal`, `network`, `sandbox`, `components`, `europe`, `google`, `deepmind`, `sanc`, `aiengir`, `keys`, `pein`, `taliscale`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-BM2JX9hqsVQ` — 7 slide-derived text signals
+  - Slide-derived themes: engineering, future, sandbox, permissions, typically, managed, identity, provider.
+  - Evidence links: [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

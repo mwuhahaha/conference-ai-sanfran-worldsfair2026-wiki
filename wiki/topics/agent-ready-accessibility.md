@@ -1,11 +1,10 @@
 ---
 title: "Agent-Ready Accessibility"
 category: "topics"
-sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Highlight synthesis"]
+sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # Agent-Ready Accessibility
 
 ## What It Is
@@ -28,4 +27,30 @@ Liad Yosef's agentic-web talk frames agent-readiness and accessibility as the sa
 - [[mcp]]
 
 ## Evidence Boundary
-This is a highlighted synthesis concept grounded in official schedule text and related source evidence. It is not a formal accessibility standard.
+This is a synthesis concept grounded in official schedule text and related source evidence. It is not a formal accessibility standard.
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
+- [[2026-06-29-adit-abraham-from-ingestion-to-agents-how-leading-ai-teams-build-on-document-intelligence|From Ingestion to Agents: How Leading AI Teams Build on Document Intelligence]]
+- [[2026-06-29-ahmad-osman-local-llms-and-workstation-agents-part-1|Local LLMs and workstation agents: Part 1]]
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
+- [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer|Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer]]
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust|In Code They Act, In Proof We Trust]]
+- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code|The Last Human Code Review: Building Trust in AI-Generated Code]]
+- [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects|Agents' next frontier: agent-to-agent and network effects]]
+
+### Slide And Transcript Signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
+  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
+  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
+  - Slide-derived themes: autonomous, engineering, systems, ready, making.
+  - Evidence links: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
+  - Slide-derived themes: code, state, quality, bash, reality, show, engineering, future.
+  - Evidence links: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]

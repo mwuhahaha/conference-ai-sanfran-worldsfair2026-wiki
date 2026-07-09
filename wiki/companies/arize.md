@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Arize"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Arize
 
 ## What It Is
@@ -26,3 +25,16 @@ Arize appears through 2 official speaker(s) connected to 2 scheduled session(s).
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-laurie-voss-evals-track-intro|Evals Track Intro]]
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent|From Signal to PR: Anatomy of a Self-Improving Agent]]
+
+### Slide And Transcript Signals
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
+  - Transcript signals: evals, eval, data, should, judge, output, whether, phoenix.
+  - Slide-derived themes: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+  - Evidence links: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]

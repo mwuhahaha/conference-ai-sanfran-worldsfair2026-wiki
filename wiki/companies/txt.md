@@ -4,7 +4,6 @@ category: "companies"
 aliases: [".txt"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # .txt
 
 ## What It Is
@@ -24,3 +23,12 @@ No public company profile has been added yet. This page is grounded in the offic
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-r-mi-louf-agent-frameworks-considered-harmful|Agent Frameworks Considered Harmful]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

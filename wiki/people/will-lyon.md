@@ -8,7 +8,6 @@ twitter: "https://x.com/lyonwj"
 website: "https://lyonwj.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Will Lyon
 
 ## Official Role
@@ -24,3 +23,12 @@ William Lyon is a Product Manager for AI Innovation at Neo4j, where he is buildi
 
 ## Scheduled Sessions
 - [[2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs]] — Actionable Knowledge For Agents With Context Graphs (2026-06-29, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs|Actionable Knowledge For Agents With Context Graphs]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

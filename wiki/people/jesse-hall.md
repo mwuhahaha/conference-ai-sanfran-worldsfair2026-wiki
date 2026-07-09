@@ -5,7 +5,6 @@ role: "Staff Developer Advocate"
 company: "Livekit"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jesse Hall
 
 ## Official Role
@@ -19,3 +18,12 @@ Jesse Hall is a Staff Developer Advocate at LiveKit and a full-stack developer w
 
 ## Scheduled Sessions
 - [[2026-06-30-jesse-hall-latency-is-a-budget-humanlike-is-the-goal]] — Latency Is a Budget. Humanlike Is the Goal. (2026-06-30, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-jesse-hall-latency-is-a-budget-humanlike-is-the-goal|Latency Is a Budget. Humanlike Is the Goal.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

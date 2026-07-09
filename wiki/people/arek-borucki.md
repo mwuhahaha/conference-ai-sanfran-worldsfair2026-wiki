@@ -9,7 +9,6 @@ website: "https://arekborucki.cloud/"
 blog: "https://arekborucki.cloud/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Arek Borucki
 
 ## Official Role
@@ -26,3 +25,12 @@ Arek Borucki is a Machine Learning Platform & Database Engineer at Hugging Face,
 
 ## Scheduled Sessions
 - [[2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub]] — Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub (2026-06-29, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub|Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

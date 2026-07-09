@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Prefect"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Prefect
 
 ## What It Is
@@ -24,3 +23,14 @@ Prefect appears through 1 official speaker(s) connected to 1 scheduled session(s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-jeremiah-lowin-generative-ui-in-python|Generative UI... in Python?]]
+
+### Slide And Transcript Signals
+- `youtube-96G7FLab8xc` — 10 slide-derived text signals
+  - Slide-derived themes: prefect, list, server, should, feel, engineer, code, summit.
+  - Evidence links: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]

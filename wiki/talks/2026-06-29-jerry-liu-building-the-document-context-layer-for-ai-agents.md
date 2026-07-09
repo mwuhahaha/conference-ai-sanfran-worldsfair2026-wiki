@@ -62,3 +62,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-jVGCulhBRZI-reconstructed-slides]]
 - [[youtube-jVGCulhBRZI-slides]]
 - Slide-derived terms: `automation`, `knowledge`, `work`, `microsoft`, `cases`, `time`, `ieee`, `unstructured`, `documents`, `excel`, `agentic`, `financial`, `extraction`, `document`, `awws`, `graphite`, `windsurf`, `moneobp`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-jVGCulhBRZI` — 10 slide-derived text signals
+  - Slide-derived themes: knowledge, data, cases, automate, workers, efficient, does, automation.
+  - Evidence links: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

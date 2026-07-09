@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Hugging Face"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Hugging Face
 
 ## What It Is
@@ -32,3 +31,22 @@ Hugging Face appears through 4 official speaker(s) connected to 6 scheduled sess
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-thom-wolf-thom-wolf-keynote|Thom Wolf keynote]]
+- [[2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge|Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge]]
+- [[2026-06-29-arek-borucki-serving-2-million-models-without-melting-scaling-the-hugging-face-hub|Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub]]
+- [[2026-06-29-niels-rogge-how-i-automate-my-own-job-at-hugging-face-using-agents|How I automate my own job at Hugging Face using agents]]
+- [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers|Training Frontier Models to Out-Think Hackers]]
+- [[2026-07-01-chris-alexiuk-compression-at-the-edge|Compression at the Edge]]
+
+### Slide And Transcript Signals
+- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals
+  - Slide-derived themes: research, agentic, model, senior, engineer, tasks, real, fast.
+  - Evidence links: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
+- `youtube-OV56RddyFuU` — 10 slide-derived text signals
+  - Slide-derived themes: models, community, trending, image, pare, update, mode, tees.
+  - Evidence links: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

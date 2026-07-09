@@ -8,7 +8,6 @@ twitter: "https://x.com/charles_irl"
 website: "https://charlesfrye.github.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Charles Frye
 
 ## Official Role
@@ -24,3 +23,14 @@ Charles Frye builds and teaches people to build AI applications. After publishin
 
 ## Scheduled Sessions
 - [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway]] — What is an Inference Engine, Anyway? (2026-06-29, 11:05am-12:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway|What is an Inference Engine, Anyway?]]
+
+### Slide And Transcript Signals
+- `youtube-DeFF3J8T5Pk` — 9 slide-derived text signals
+  - Slide-derived themes: open, engine, advisor, source, engines, getting, better, quickly.
+  - Evidence links: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]

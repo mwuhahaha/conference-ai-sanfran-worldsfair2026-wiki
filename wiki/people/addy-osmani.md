@@ -8,7 +8,6 @@ twitter: "https://x.com/addyosmani"
 website: "https://addyosmani.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Addy Osmani
 
 ## Official Role
@@ -24,3 +23,12 @@ Engineering and evangelism leader who spent over 14 years at Google leading deve
 
 ## Scheduled Sessions
 - [[2026-06-30-addy-osmani-closing-keynote]] — Closing Keynote (2026-06-30, 4:30pm-4:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-addy-osmani-closing-keynote|Closing Keynote]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -9,7 +9,6 @@ website: "https://varunshenoy.com"
 blog: "https://varunshenoy.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Varun Shenoy
 
 ## Official Role
@@ -26,3 +25,12 @@ Cofounder at Long Lake. Focused on diffusing AI: deploying frontier technology i
 
 ## Scheduled Sessions
 - [[2026-06-30-varun-shenoy-how-do-you-diffuse-ai-into-the-real-world]] — How do you diffuse AI into the real world? (2026-06-30, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-varun-shenoy-how-do-you-diffuse-ai-into-the-real-world|How do you diffuse AI into the real world?]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

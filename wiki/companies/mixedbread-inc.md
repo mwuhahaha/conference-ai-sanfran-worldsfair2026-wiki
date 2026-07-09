@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Mixedbread Inc."]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Mixedbread Inc.
 
 ## What It Is
@@ -24,3 +23,12 @@ Mixedbread Inc. appears through 1 official speaker(s) connected to 1 scheduled s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-benjamin-clavi-if-we-want-them-to-do-knowledge-work-we-need-to-design-knowledge-agents|If we want them to do Knowledge Work, we need to design Knowledge Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

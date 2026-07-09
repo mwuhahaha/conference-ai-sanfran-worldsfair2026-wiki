@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/jesselumarie/"
 twitter: "https://x.com/jesselumarie"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jesse Lumarie
 
 ## Official Role
@@ -22,3 +21,12 @@ Jesse Lumarie is a software engineer building AI tools and integrations at Figma
 
 ## Scheduled Sessions
 - [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server]] — Building the engine while flying the plane — launching the Figma MCP server (2026-06-29, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

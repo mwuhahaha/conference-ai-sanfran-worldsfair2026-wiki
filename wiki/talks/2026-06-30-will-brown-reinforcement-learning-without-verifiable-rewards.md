@@ -56,3 +56,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-JIsgyk0Paic-reconstructed-slides]]
 - [[youtube-JIsgyk0Paic-slides]]
 - Slide-derived terms: `engineering`, `level`, `reasoning`, `prompt`, `completions`, `models`, `responses`, `completion`, `count`, `better`, `deepseek`, `works`, `rewards`, `next`, `llms`, `chatbots`, `work`, `ai.engineer`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-JIsgyk0Paic` — 10 slide-derived text signals
+  - Slide-derived themes: level, great, benchmarks, interactive, conversational, grok, problem, calls.
+  - Evidence links: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

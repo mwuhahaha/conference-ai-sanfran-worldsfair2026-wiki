@@ -6,7 +6,6 @@ company: "Arize"
 linkedin: "https://www.linkedin.com/in/jason-lopatecki-9509941/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jason Lopatecki
 
 ## Official Role
@@ -20,3 +19,12 @@ Jason Lopatecki is co-founder and CEO of Arize AI, an AI & Agent observability a
 
 ## Scheduled Sessions
 - [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent]] — From Signal to PR: Anatomy of a Self-Improving Agent (2026-06-30, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent|From Signal to PR: Anatomy of a Self-Improving Agent]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

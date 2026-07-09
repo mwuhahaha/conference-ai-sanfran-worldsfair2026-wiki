@@ -54,3 +54,14 @@ These videos were discovered outside the official AI Engineer channel and matche
   - Transcript markdown: [[youtube-qakTj_xI0gk-transcript]]
 ## Transcript Markdown
 - [[youtube-qakTj_xI0gk-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-qakTj_xI0gk` — 2,375 transcript words
+  - Transcript signals: models, traversal, customers, data, company, companies, great, might.
+  - Evidence links: [[youtube-qakTj_xI0gk-transcript]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

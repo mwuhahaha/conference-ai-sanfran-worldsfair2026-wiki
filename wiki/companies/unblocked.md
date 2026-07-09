@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Unblocked"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Unblocked
 
 ## What It Is
@@ -30,3 +29,21 @@ Unblocked appears through 3 official speaker(s) connected to 5 scheduled session
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch|Beyond RAG: Build a Relational Context Engine from Scratch]]
+- [[2026-06-29-jeff-ng-building-agents-is-trivial-now-context-is-the-next-frontier|Building agents is trivial now, context is the next frontier]]
+- [[2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine|How to generate mergeable code with a context engine]]
+- [[2026-06-30-brandon-waselnuk-your-agents-lack-context-here-s-how-to-fix-you-re-absolutely-right|Your agents lack context: Here's how to fix \"You're absolutely right!\]]
+- [[2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn|Beyond RAG: See a relational context engine reduce token burn]]
+
+### Slide And Transcript Signals
+- `youtube-5ID22ACI7IM` — 10 slide-derived text signals
+  - Slide-derived themes: context, callers, cover, today, remember, built, original, intent.
+  - Evidence links: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
+- `youtube-BiG2ssibKGc` — 5 slide-derived text signals
+  - Slide-derived themes: context, engineering, stop, babysitting, engine, code, future, creating.
+  - Evidence links: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]

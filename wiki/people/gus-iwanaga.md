@@ -9,7 +9,6 @@ website: "https://www.youtube.com/@Produtando"
 blog: "https://www.youtube.com/@Produtando"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Gus Iwanaga
 
 ## Official Role
@@ -26,3 +25,12 @@ Gus Iwanaga is founder and GM for mosAIc at commercetools, where he works on age
 
 ## Scheduled Sessions
 - [[2026-07-01-gus-iwanaga-the-end-of-the-static-screen-architecting-intent-driven-ux-with-agentic-orchestration]] — The End of the Static Screen: Architecting Intent-Driven UX with Agentic Orchestration (2026-07-01, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-gus-iwanaga-the-end-of-the-static-screen-architecting-intent-driven-ux-with-agentic-orchestration|The End of the Static Screen: Architecting Intent-Driven UX with Agentic Orchestration]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

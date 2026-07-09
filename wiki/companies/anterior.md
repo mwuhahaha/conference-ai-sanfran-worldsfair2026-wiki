@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Anterior"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Anterior
 
 ## What It Is
@@ -26,3 +25,15 @@ Anterior appears through 2 official speaker(s) connected to 2 scheduled session(
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-anuj-iravane-don-t-be-data-poor|Don't be data poor]]
+- [[2026-07-01-christopher-lovejoy-why-your-enterprise-tech-stack-isn-t-ready-for-ai-agents-and-what-to-build-instead|Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead]]
+
+### Slide And Transcript Signals
+- `youtube-MRM7oA3JsFs` — 10 slide-derived text signals
+  - Slide-derived themes: weeks, performance, achieved, care, application, company, provides, clinical.
+  - Evidence links: [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]

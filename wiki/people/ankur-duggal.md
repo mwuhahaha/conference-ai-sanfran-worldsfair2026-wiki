@@ -5,7 +5,6 @@ role: "Solutions Architect"
 company: "Arize AI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ankur Duggal
 
 ## Official Role
@@ -19,3 +18,12 @@ Ankur Duggal is a Solutions Architect at Arize AI, where he helps enterprise tea
 
 ## Scheduled Sessions
 - [[2026-06-29-ankur-duggal-let-your-agent-cook-using-skills-to-evaluate-and-improve-your-app]] — Let your agent cook: using skills to evaluate and improve your app (2026-06-29, 1:15pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ankur-duggal-let-your-agent-cook-using-skills-to-evaluate-and-improve-your-app|Let your agent cook: using skills to evaluate and improve your app]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

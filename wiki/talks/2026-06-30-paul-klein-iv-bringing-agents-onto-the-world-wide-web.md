@@ -56,3 +56,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-YRGjll7uu5w-reconstructed-slides]]
 - [[youtube-YRGjll7uu5w-slides]]
 - Slide-derived terms: `microsoft`, `server`, `https`, `browser`, `francisco`, `worid`, `sfair`, `browserbase`, `june`, `will`, `evals`, `smol`, `word`, `sfar`, `graphite`, `windsurf`, `mongobb`, `mdaily`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-YRGjll7uu5w` — 8 slide-derived text signals
+  - Slide-derived themes: playwright, automation, stagehand, february, date, march, april, take.
+  - Evidence links: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

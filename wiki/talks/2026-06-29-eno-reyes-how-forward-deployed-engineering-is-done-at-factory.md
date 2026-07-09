@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 - [[youtube-ShuJ_CN6zr4-slides]]
 - Slide-derived terms: `factory`, `codebases`, `summit`, `autonomous`, `engineering`, `systems`, `make`, `ready`, `cocle`, `pastas`, `code`, `making`, `agent-ready`, `creme`, `enoreves`, `ctoeco-rouncer`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
+  - Slide-derived themes: autonomous, engineering, systems, ready, making.
+  - Evidence links: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

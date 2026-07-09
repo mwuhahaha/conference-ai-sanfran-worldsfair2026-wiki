@@ -9,7 +9,6 @@ website: "https://motodave.com"
 blog: "https://motodave.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # David Levine
 
 ## Official Role
@@ -30,3 +29,12 @@ A graduate of Yale University, Levine has been featured in The New York Times, W
 
 ## Scheduled Sessions
 - [[2026-07-01-david-levine-beyond-the-lethal-trifecta-agentic-commerce-on-the-open-internet-at-machine-speed]] — Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet at Machine Speed (2026-07-01, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-david-levine-beyond-the-lethal-trifecta-agentic-commerce-on-the-open-internet-at-machine-speed|Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet at Machine Speed]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

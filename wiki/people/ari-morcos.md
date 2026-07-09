@@ -8,7 +8,6 @@ twitter: "https://x.com/arimorcos"
 website: "http://www.arimorcos.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ari Morcos
 
 ## Official Role
@@ -24,3 +23,12 @@ Ari Morcos is co-founder and CEO of DatologyAI, building a self-service data cur
 
 ## Scheduled Sessions
 - [[2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier]] — Data Quality is the Compute Multiplier (2026-06-29, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ari-morcos-data-quality-is-the-compute-multiplier|Data Quality is the Compute Multiplier]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

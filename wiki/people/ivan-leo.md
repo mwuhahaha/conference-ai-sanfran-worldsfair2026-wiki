@@ -5,7 +5,6 @@ role: "Developer Experience Engineer"
 company: "Google DeepMind"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ivan Leo
 
 ## Official Role
@@ -19,3 +18,14 @@ Ivan Leo works on Developer Experience at Google DeepMind, focusing on making it
 
 ## Scheduled Sessions
 - [[2026-07-01-ivan-leo-an-interaction-is-all-you-need]] — An Interaction Is All You Need (2026-07-01, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-ivan-leo-an-interaction-is-all-you-need|An Interaction Is All You Need]]
+
+### Slide And Transcript Signals
+- `youtube-xz0-brt56L8` — 6 slide-derived text signals
+  - Slide-derived themes: wednesday, november, include, attachments, loft, delicious, coffee, lovely.
+  - Evidence links: [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]

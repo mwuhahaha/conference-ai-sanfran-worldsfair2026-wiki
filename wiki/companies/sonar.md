@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Sonar"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sonar
 
 ## What It Is
@@ -28,3 +27,14 @@ Sonar appears through 3 official speaker(s) connected to 3 scheduled session(s).
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development|SonarQube + OpenAI: Wiring Your Team for Agentic Development]]
+- [[2026-06-30-tariq-shaukat-in-the-land-of-ai-agents-the-verifiers-are-king|'In the Land of AI Agents, the Verifiers Are King']]
+- [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands|Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

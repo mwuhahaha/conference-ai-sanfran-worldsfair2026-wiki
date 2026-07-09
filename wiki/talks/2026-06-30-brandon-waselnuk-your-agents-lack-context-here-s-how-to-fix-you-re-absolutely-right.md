@@ -68,3 +68,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-BiG2ssibKGc-reconstructed-slides]]
 - [[youtube-BiG2ssibKGc-slides]]
 - Slide-derived terms: `braintrust`, `workos`, `openal`, `stop`, `babysitting`, `context`, `engine`, `mergeable`, `code`, `brandon`, `waselnuk`, `engineering`, `future`, `nols`, `lees`, `creare`, `gtan`, `hmds`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-BiG2ssibKGc` — 5 slide-derived text signals
+  - Slide-derived themes: context, engineering, stop, babysitting, engine, code, future, creating.
+  - Evidence links: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

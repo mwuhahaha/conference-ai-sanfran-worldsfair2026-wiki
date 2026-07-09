@@ -6,7 +6,6 @@ company: "Qdrant"
 linkedin: "https://www.linkedin.com/in/dcouzon"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dylan Couzon
 
 ## Official Role
@@ -20,3 +19,12 @@ Dylan Couzon is a DevRel Engineer at Qdrant. His WF26 talk, "The Frontier Is Com
 
 ## Scheduled Sessions
 - [[2026-06-30-dylan-couzon-the-frontier-is-coming-home]] — The Frontier Is Coming Home (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-dylan-couzon-the-frontier-is-coming-home|The Frontier Is Coming Home]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

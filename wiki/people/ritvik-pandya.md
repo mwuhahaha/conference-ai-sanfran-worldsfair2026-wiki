@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/ritvik-pandya/"
 website: "https://www.jpmorganchase.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ritvik Pandya
 
 ## Official Role
@@ -22,3 +21,12 @@ Ritvik Pandya is an engineering leader with over seventeen years building distri
 
 ## Scheduled Sessions
 - [[2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis]] — AI : Learned Execution Graphs for Real-Time Anomaly Detection & Drift Classification in APIs (2026-07-01, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis|AI : Learned Execution Graphs for Real-Time Anomaly Detection & Drift Classification in APIs]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

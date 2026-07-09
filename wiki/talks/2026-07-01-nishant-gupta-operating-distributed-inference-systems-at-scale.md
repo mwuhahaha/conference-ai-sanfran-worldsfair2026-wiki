@@ -73,3 +73,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
 - [[youtube-APh1Vx0oLmQ-slides]]
 - Slide-derived terms: `step`, `reliability`, `infrastructure`, `path`, `time`, `systems`, `state`, `production`, `core`, `model`, `reasoning`, `invalid`, `analysis`, `memory`, `pattern`, `deterministic`, `microservices`, `autonomous`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-APh1Vx0oLmQ` — 7 slide-derived text signals
+  - Slide-derived themes: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.
+  - Evidence links: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

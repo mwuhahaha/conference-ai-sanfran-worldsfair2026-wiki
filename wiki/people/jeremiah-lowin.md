@@ -8,7 +8,6 @@ twitter: "https://x.com/jlowin"
 website: "https://jlowin.dev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jeremiah Lowin
 
 ## Official Role
@@ -24,3 +23,14 @@ Jeremiah Lowin is the founder and CEO of Prefect and the creator of FastMCP. Pre
 
 ## Scheduled Sessions
 - [[2026-06-30-jeremiah-lowin-generative-ui-in-python]] — Generative UI... in Python? (2026-06-30, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-jeremiah-lowin-generative-ui-in-python|Generative UI... in Python?]]
+
+### Slide And Transcript Signals
+- `youtube-96G7FLab8xc` — 10 slide-derived text signals
+  - Slide-derived themes: prefect, list, server, should, feel, engineer, code, summit.
+  - Evidence links: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]

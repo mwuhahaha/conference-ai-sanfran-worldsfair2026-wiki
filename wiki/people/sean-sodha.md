@@ -6,7 +6,6 @@ company: "NVIDIA"
 linkedin: "https://www.linkedin.com/in/sean-sodha/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sean Sodha
 
 ## Official Role
@@ -20,3 +19,12 @@ Sean Singh Sodha is a deep learning Senior Product Manager at NVIDIA, responsibl
 
 ## Scheduled Sessions
 - [[2026-06-29-hiral-shah-your-agreements-are-a-database-you-can-t-query-we-re-fixing-that]] — Your Agreements Are a Database You Can't Query. We're Fixing That (2026-06-29, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-hiral-shah-your-agreements-are-a-database-you-can-t-query-we-re-fixing-that|Your Agreements Are a Database You Can't Query. We're Fixing That]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

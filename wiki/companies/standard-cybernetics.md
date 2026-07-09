@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Standard Cybernetics"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Standard Cybernetics
 
 ## What It Is
@@ -24,3 +23,12 @@ Standard Cybernetics appears through 1 official speaker(s) connected to 1 schedu
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-matthew-jewkes-engineering-agency-out-of-the-happy-path|Engineering Agency out of the Happy Path]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

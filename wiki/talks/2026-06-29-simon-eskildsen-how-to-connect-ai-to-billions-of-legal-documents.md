@@ -67,3 +67,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-XNtkiQJ49Ps-reconstructed-slides]]
 - [[youtube-XNtkiQJ49Ps-slides]]
 - Slide-derived terms: `legora`, `chat`, `than`, `company`, `jacob`, `lauritzen`, `trust`, `searching`, `reading`, `braintrust`, `workos`, `openal`, `files`, `file`, `humans`, `alengineer`, `vecoea`, `collard`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-XNtkiQJ49Ps` — 10 slide-derived text signals
+  - Slide-derived themes: company, jacob, searching, reading, collaborative, lawyers, than, chat.
+  - Evidence links: [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

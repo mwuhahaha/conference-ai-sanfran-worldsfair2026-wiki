@@ -5,7 +5,6 @@ role: "Vice President"
 company: "China Resources Holdings"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Shawn Chan
 
 ## Official Role
@@ -19,3 +18,12 @@ Shawn Chan is Vice President at China Resources Holdings, leading a consumer-sec
 
 ## Scheduled Sessions
 - [[2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees]] — Build for the Memo, Not the Demo — Notes from 200 Investment Committees (2026-07-01, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees|Build for the Memo, Not the Demo — Notes from 200 Investment Committees]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

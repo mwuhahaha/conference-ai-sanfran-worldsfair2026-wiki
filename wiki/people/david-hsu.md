@@ -6,7 +6,6 @@ company: "Retool"
 linkedin: "https://www.linkedin.com/in/dvdhsu/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # David Hsu
 
 ## Official Role
@@ -20,3 +19,12 @@ David Hsu is the Founder and CEO of Retool, the $3.2B Sequoia-backed governed pl
 
 ## Scheduled Sessions
 - [[2026-06-29-david-hsu-governance-is-the-real-bottleneck-to-ai-roi]] — Governance Is the Real Bottleneck to AI ROI (2026-06-29, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-david-hsu-governance-is-the-real-bottleneck-to-ai-roi|Governance Is the Real Bottleneck to AI ROI]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

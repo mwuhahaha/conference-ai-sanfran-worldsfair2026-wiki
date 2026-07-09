@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/udaykiran/"
 twitter: "https://x.com/udaykiran"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Uday Kiran Medisetty
 
 ## Official Role
@@ -22,3 +21,12 @@ Uday Kiran Medisetty is a Distinguished Engineer at Uber, where he leads enginee
 
 ## Scheduled Sessions
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]] — Agentic SDLC at Uber: Building Blocks for Uber's Software Factory (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory|Agentic SDLC at Uber: Building Blocks for Uber's Software Factory]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

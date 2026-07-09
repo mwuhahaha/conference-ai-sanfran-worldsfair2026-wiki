@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/rayan-garg/"
 twitter: "https://x.com/RayanGarg"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Rayan Garg
 
 ## Official Role
@@ -22,3 +21,12 @@ CEO at Theta Software, building RL environments. Previously at DeepSilicon.
 
 ## Scheduled Sessions
 - [[2026-06-29-rayan-garg-rethinking-environments-for-long-horizon-work]] — Rethinking Environments for Long Horizon Work (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-rayan-garg-rethinking-environments-for-long-horizon-work|Rethinking Environments for Long Horizon Work]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

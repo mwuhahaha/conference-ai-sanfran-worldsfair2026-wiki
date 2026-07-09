@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Figma"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Figma
 
 ## What It Is
@@ -26,3 +25,13 @@ Figma appears through 2 official speaker(s) connected to 2 scheduled session(s).
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
+- [[2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage|How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage)]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -17,3 +17,12 @@ Arize AI appears in the official AI Engineer World's Fair 2026 speaker roster th
 - [[dat-ngo]] — AI Architect
 - [[fuad-ali]] — Senior Product Manager
 - [[laurie-voss]] — Head of Developer Relations
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- No related scheduled session was found in this pass.
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

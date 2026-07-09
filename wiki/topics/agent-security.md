@@ -3,7 +3,6 @@ title: "Agent Security"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # Agent Security
 
 ## Synopsis
@@ -119,3 +118,35 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - [[youtube-hCMrEfPG2Yg]] — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
 - [[youtube-_xIwFcnHqp4]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
 - [[youtube-6bmM45jkMDY]] — You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features|Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features]]
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain|Agentic Security: Permissions, Provenance, and the Agent Supply Chain]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert|Your agent needs a sandbox, not a desert]]
+- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox|Kubernetes Is Not Your Sandbox]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']]
+- [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code|1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code]]
+- [[2026-06-29-bereket-habtemeskel-agent-auth|Agent Auth]]
+- [[2026-07-01-jay-mok-your-agent-just-authorized-what|Your Agent Just Authorized What?!]]
+
+### Slide And Transcript Signals
+- `youtube-7Dtu2bilcFs` — 10 slide-derived text signals
+  - Slide-derived themes: year, died, google, software, engineer, author, researcher, steve.
+  - Evidence links: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+- `youtube-rcsliSIy_YU` — 9 slide-derived text signals
+  - Slide-derived themes: code, showcase, automating, massive, robert, brennan, generation, implement.
+  - Evidence links: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
+- `youtube-bmWZk9vTze0` — 10 slide-derived text signals
+  - Slide-derived themes: query, client, info, table, tool, call, response, await.
+  - Evidence links: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
+- `youtube-e9sLVMN76qU` — 10 slide-derived text signals
+  - Slide-derived themes: most, today, tooling, breaks, moment, remove, human, loop.
+  - Evidence links: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
+- `youtube-wsFd22SL1s8` — 10 slide-derived text signals
+  - Slide-derived themes: clone, flask, project, code, create, scratch, systems, chat.
+  - Evidence links: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]

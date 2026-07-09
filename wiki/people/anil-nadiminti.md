@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/nadiminti"
 twitter: "https://x.com/super_intel_bot"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Anil Nadiminti
 
 ## Official Role
@@ -22,3 +21,12 @@ Anil Nadiminti is a Senior Solutions Architect at AWS, where he supports Enterpr
 
 ## Scheduled Sessions
 - [[2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws]] — When AI Agents Pay and Sellers Monetize: Building x402 Apps for Agentic Commerce on AWS (2026-07-01, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-anil-nadiminti-when-ai-agents-pay-and-sellers-monetize-building-x402-apps-for-agentic-commerce-on-aws|When AI Agents Pay and Sellers Monetize: Building x402 Apps for Agentic Commerce on AWS]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

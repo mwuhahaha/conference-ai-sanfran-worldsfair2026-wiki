@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
 - [[youtube-TqC1qOfiVcQ-slides]]
 - Slide-derived terms: `claude`, `code`, `bash`, `workflows`, `anthrop`, `skills`, `tool`, `file`, `tools`, `system`, `files`, `tial`, `tasks`, `models`, `context`, `query`, `call`, `example`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals
+  - Slide-derived themes: claude, code, file, system, tools, prompts, custom, features.
+  - Evidence links: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

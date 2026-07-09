@@ -46,3 +46,15 @@ No official session recording transcript was found by exact title match on the A
 
 ## Transcript Markdown
 - [[youtube-htM02KMNZnk-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
+  - Transcript signals: model, code, models, loop, well, software, first, team.
+  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Neo4j"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Neo4j
 
 ## What It Is
@@ -34,3 +33,33 @@ Neo4j appears through 6 official speaker(s) connected to 6 scheduled session(s).
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context|RAG Needs a Map: Using GraphRAG to Retrieve Connected Context]]
+- [[2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs|Actionable Knowledge For Agents With Context Graphs]]
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]]
+- [[2026-07-01-emil-eifrem-thinner-agents-on-a-smarter-substrate-the-ontology-based-semantic-layer|Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer]]
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
+- [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory|Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory]]
+
+### Slide And Transcript Signals
+- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 10 slide-derived text signals
+  - Transcript signals: graph, context, data, create, traces, back, little, decision.
+  - Slide-derived themes: context, graphs, information, required, accurate, answer, graph, started.
+  - Evidence links: [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-knDDGYHnnSI` — 2 slide-derived text signals
+  - Slide-derived themes: full, text, george, mooc.
+  - Evidence links: [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
+- `youtube-eW_vxrjvERk` — 10 slide-derived text signals
+  - Slide-derived themes: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+  - Evidence links: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+- `youtube-Fzb1a24hF-o` — 10 slide-derived text signals
+  - Slide-derived themes: objects, type, consistent, works, supported, started, tomorrow, june.
+  - Evidence links: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]

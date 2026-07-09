@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["OpenHands"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # OpenHands
 
 ## What It Is
@@ -24,3 +23,14 @@ OpenHands appears through 1 official speaker(s) connected to 1 scheduled session
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
+
+### Slide And Transcript Signals
+- `youtube-rcsliSIy_YU` — 9 slide-derived text signals
+  - Slide-derived themes: code, showcase, automating, massive, robert, brennan, generation, implement.
+  - Evidence links: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]

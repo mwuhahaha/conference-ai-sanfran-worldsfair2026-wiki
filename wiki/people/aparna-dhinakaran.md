@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/aparnadhinakaran/"
 twitter: "https://x.com/aparnadhinak"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Aparna Dhinakaran
 
 ## Official Role
@@ -22,3 +21,15 @@ Aparna Dhinakaran is the Co-Founder and Chief Product Officer at Arize AI, a pio
 
 ## Scheduled Sessions
 - [[2026-06-30-laurie-voss-evals-track-intro]] — Evals Track Intro (2026-06-30, 10:25am-10:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-laurie-voss-evals-track-intro|Evals Track Intro]]
+
+### Slide And Transcript Signals
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
+  - Transcript signals: evals, eval, data, should, judge, output, whether, phoenix.
+  - Slide-derived themes: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+  - Evidence links: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]

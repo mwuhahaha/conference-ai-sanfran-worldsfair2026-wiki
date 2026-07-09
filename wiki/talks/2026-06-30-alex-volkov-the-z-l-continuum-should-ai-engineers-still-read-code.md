@@ -70,3 +70,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Lcqat4iP_lE-reconstructed-slides]]
 - [[youtube-Lcqat4iP_lE-slides]]
 - Slide-derived terms: `microsoft`, `observability`, `world`, `fair`, `otel`, `windsurf`, `support`, `work`, `observable`, `moment`, `graphite`, `mdaily`, `care`, `both`, `tools`, `openttelemetry`, `primitives`, `traces`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-Lcqat4iP_lE` — 10 slide-derived text signals
+  - Slide-derived themes: tool, call, microsoft, tools, client, server, path, calculate.
+  - Evidence links: [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -8,7 +8,6 @@ twitter: "https://x.com/kimmaida"
 website: "https://maida.kim"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Kim Maida
 
 ## Official Role
@@ -24,3 +23,12 @@ Kim is the Head of Developer Relations and Founding GTM Engineer working on secu
 
 ## Scheduled Sessions
 - [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are]] — It's 10pm. Do You Know Where Your Agents Are? (2026-06-29, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -9,7 +9,6 @@ website: "https://www.proceduralia.com"
 blog: "https://pragmatichumanism.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Pierluca D'Oro
 
 ## Official Role
@@ -26,3 +25,12 @@ Pierluca D’Oro is founder at a stealth startup revolutionizing how humans inte
 
 ## Scheduled Sessions
 - [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]] — Computer Use at the Edge of the Statistical Precipice (2026-06-30, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

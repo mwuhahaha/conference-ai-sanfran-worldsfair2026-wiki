@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Snowflake"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Snowflake
 
 ## What It Is
@@ -24,3 +23,12 @@ Snowflake appears through 1 official speaker(s) connected to 1 scheduled session
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-sait-izmit-building-gtm-ai-agents-lessons-from-deploying-to-6-000-users|Building GTM AI Agents: Lessons from Deploying to 6,000 Users]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -4,11 +4,10 @@ category: "people"
 role: "AI Product Manager"
 company: "Justice AI Unit / Ministry of Justice"
 linkedin: "https://uk.linkedin.com/in/louis-allgood"
-sourceLabels: ["YouTube transcript", "Justice AI Unit public site", "Public professional profile", "Highlight synthesis"]
+sourceLabels: ["YouTube transcript", "Justice AI Unit public site", "Public professional profile", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # Louis Allgood
 
 ## Official Role
@@ -26,7 +25,7 @@ Public profile snippets identify Allgood as an AI Product Manager at the Justice
 In the talk transcript, Allgood describes building with probation officers, using direct feedback, and keeping the product simple enough for frontline adoption.
 
 ## Related Source Pages
-- [[youtube-qlHaO6laBlM]] — highlighted resource article.
+- [[youtube-qlHaO6laBlM]] — source article.
 - [[youtube-qlHaO6laBlM-transcript]] — full cached transcript markdown.
 
 ## Related Organizations
@@ -38,3 +37,12 @@ In the talk transcript, Allgood describes building with probation officers, usin
 
 ## Evidence Boundary
 This page uses the local transcript, Justice AI Unit public context, and public professional-profile snippets. It avoids inferring private biographical details beyond those sources.
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- No related scheduled session was found in this pass.
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

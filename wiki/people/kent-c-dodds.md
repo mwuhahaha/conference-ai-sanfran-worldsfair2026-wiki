@@ -9,7 +9,6 @@ website: "https://kentcdodds.com"
 blog: "https://kentcdodds.com/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Kent C. Dodds
 
 ## Official Role
@@ -27,3 +26,15 @@ Kent C. Dodds is a world renowned web development educator and engineer. He's ac
 ## Scheduled Sessions
 - [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1]] — Build the Right Thing: Product Engineering for Software Developers (Part 1) (2026-06-29, 12:10pm-1:10pm)
 - [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2]] — Build the Right Thing: Product Engineering for Software Developers — Part 2 (2026-06-29, 1:15pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1|Build the Right Thing: Product Engineering for Software Developers (Part 1)]]
+- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2|Build the Right Thing: Product Engineering for Software Developers — Part 2]]
+
+### Slide And Transcript Signals
+- `youtube-EyZiAp0pelw` — 1 slide-derived text signals
+  - Slide-derived themes: device, location, creative, story, tags, thanks.
+  - Evidence links: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]

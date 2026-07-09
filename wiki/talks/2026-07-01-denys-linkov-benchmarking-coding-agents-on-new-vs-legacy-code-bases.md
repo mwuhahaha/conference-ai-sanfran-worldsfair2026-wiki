@@ -54,3 +54,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-SbUxRluVRwk-reconstructed-slides]]
 - [[youtube-SbUxRluVRwk-slides]]
 - Slide-derived terms: `hiring`, `awws`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augment`, `code`, `workos`, `expectations`, `explain`, `modern`, `team`, `themes`, `olean`, `evolution`, `generalist`, `question`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-SbUxRluVRwk` — 2 slide-derived text signals
+  - Slide-derived themes: before, hiring, modern, team, themes.
+  - Evidence links: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

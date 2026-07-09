@@ -9,7 +9,6 @@ website: "https://thursdai.news"
 blog: "https://thursdai.news"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Alex Volkov
 
 ## Official Role
@@ -26,3 +25,14 @@ Alex Volkov is an AI Evangelist at Weights & Biases by CoreWeave and the founder
 
 ## Scheduled Sessions
 - [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code? (2026-06-30, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code|The Z/L Continuum: Should AI Engineers Still Read Code?]]
+
+### Slide And Transcript Signals
+- `youtube-Lcqat4iP_lE` — 10 slide-derived text signals
+  - Slide-derived themes: tool, call, microsoft, tools, client, server, path, calculate.
+  - Evidence links: [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]

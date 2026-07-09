@@ -1,11 +1,10 @@
 ---
 title: "Reachability Over Format"
 category: "topics"
-sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Highlight synthesis"]
+sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Synthesis"]
 highlighted: "true"
 highlightPriority: "critical"
 ---
-
 # Reachability Over Format
 
 ## What It Is
@@ -29,3 +28,34 @@ The clever move in [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuild
 
 ## Evidence Boundary
 This is a synthesis concept derived from Liad Yosef's official talk description and related MCP UI/MCP Apps transcript evidence. Use it as a design pattern, not as a formal protocol claim.
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
+- [[2026-06-29-benjamin-clavi-if-we-want-them-to-do-knowledge-work-we-need-to-design-knowledge-agents|If we want them to do Knowledge Work, we need to design Knowledge Agents]]
+- [[2026-06-29-jerry-liu-building-the-document-context-layer-for-ai-agents|Building the Document Context Layer for AI Agents]]
+- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1|Build the Right Thing: Product Engineering for Software Developers (Part 1)]]
+- [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2|Build the Right Thing: Product Engineering for Software Developers — Part 2]]
+- [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves|Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.]]
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
+- [[2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide|LLM Knowledge Bases: a practical guide]]
+
+### Slide And Transcript Signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
+  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
+  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
+- `youtube-jVGCulhBRZI` — 10 slide-derived text signals
+  - Slide-derived themes: knowledge, data, cases, automate, workers, efficient, does, automation.
+  - Evidence links: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
+- `youtube-EyZiAp0pelw` — 1 slide-derived text signals
+  - Slide-derived themes: device, location, creative, story, tags, thanks.
+  - Evidence links: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+- `youtube-himhGiWJXjo` — 10 slide-derived text signals
+  - Slide-derived themes: customer, data, query, select, public, order, title, creatures.
+  - Evidence links: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
+- `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
+  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
+  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]

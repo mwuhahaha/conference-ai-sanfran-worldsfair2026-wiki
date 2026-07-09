@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["LlamaIndex"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # LlamaIndex
 
 ## What It Is
@@ -26,3 +25,15 @@ LlamaIndex appears through 2 official speaker(s) connected to 2 scheduled sessio
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-jerry-liu-building-the-document-context-layer-for-ai-agents|Building the Document Context Layer for AI Agents]]
+- [[2026-07-01-george-he-everyone-talks-about-document-search-but-what-about-results|Everyone talks about document search, but what about results?]]
+
+### Slide And Transcript Signals
+- `youtube-jVGCulhBRZI` — 10 slide-derived text signals
+  - Slide-derived themes: knowledge, data, cases, automate, workers, efficient, does, automation.
+  - Evidence links: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]

@@ -42,3 +42,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-liG97YXaTSA-slides]] — extracted from the related public AI Engineer video.
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-liG97YXaTSA` — 2 slide-derived text signals
+  - Slide-derived themes: reasoning, samples, trivia, questions, general, model.
+  - Evidence links: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

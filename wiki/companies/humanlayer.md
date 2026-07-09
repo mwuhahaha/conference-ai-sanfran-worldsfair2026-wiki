@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["HumanLayer"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # HumanLayer
 
 ## What It Is
@@ -26,3 +25,15 @@ HumanLayer appears through 2 official speaker(s) connected to 2 scheduled sessio
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles|Loop Engineering from first principles]]
+- [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]]
+
+### Slide And Transcript Signals
+- `youtube-rmvDxxNubIg` — 10 slide-derived text signals
+  - Slide-derived themes: vibes, allowed, solving, tasks, code, intentional, compaction, most.
+  - Evidence links: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]

@@ -56,3 +56,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 - [[youtube-bVNNvWq6dKo-slides]]
 - Slide-derived terms: `const`, `ai.engineer`, `images`, `agentengineering`, `https`, `cascade`, `next`, `documentation`, `code`, `dynamic`, `main`, `usestate`, `value`, `prev`, `check`, `crawler`, `create`, `first`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-bVNNvWq6dKo` — 6 slide-derived text signals
+  - Slide-derived themes: always, believed, future, software, write, analyzes, content, most.
+  - Evidence links: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

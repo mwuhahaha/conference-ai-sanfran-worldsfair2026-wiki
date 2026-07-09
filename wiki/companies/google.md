@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Google"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Google
 
 ## What It Is
@@ -34,3 +33,17 @@ Google appears through 8 official speaker(s) connected to 4 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-averi-kitsch-build-time-vs-run-time-why-your-dev-tools-will-fail-in-production|Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production]]
+- [[2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior|Model Whisperers: How Evals and Prompts Shape Agent Behavior]]
+- [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics|Why Large? Tiny LMs & Agents on Edge/Robotics]]
+- [[2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable|Are LLM Performance Benchmarks Reliable?]]
+
+### Slide And Transcript Signals
+- `youtube--TiET_K-E_g` — 10 slide-derived text signals
+  - Slide-derived themes: skills, android, bringing, brick, principal, engineer, google, edge.
+  - Evidence links: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]

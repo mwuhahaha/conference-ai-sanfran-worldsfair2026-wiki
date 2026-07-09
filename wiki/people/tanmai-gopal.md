@@ -5,7 +5,6 @@ role: "CEO/cofounder"
 company: "PromptQL"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Tanmai Gopal
 
 ## Official Role
@@ -19,3 +18,14 @@ Tanmai is the CEO/cofounder of PromptQL (née Hasura). He loves programming lang
 
 ## Scheduled Sessions
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves]] — Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves. (2026-06-29, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves|Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.]]
+
+### Slide And Transcript Signals
+- `youtube-himhGiWJXjo` — 10 slide-derived text signals
+  - Slide-derived themes: customer, data, query, select, public, order, title, creatures.
+  - Evidence links: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]

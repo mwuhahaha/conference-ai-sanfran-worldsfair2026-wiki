@@ -7,7 +7,6 @@ linkedin: "https://linkedin.com/in/nyahmacklin"
 twitter: "https://x.com/nyahmacklindev"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Nyah Macklin
 
 ## Official Role
@@ -22,3 +21,12 @@ Nyah Macklin is a seasoned researcher and speaker on topics around AI, ML, Ethic
 
 ## Scheduled Sessions
 - [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context]] — RAG Needs a Map: Using GraphRAG to Retrieve Connected Context (2026-06-29, 11:05am-12:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context|RAG Needs a Map: Using GraphRAG to Retrieve Connected Context]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

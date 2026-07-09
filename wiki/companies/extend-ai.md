@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Extend AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Extend AI
 
 ## What It Is
@@ -24,3 +23,14 @@ Extend AI appears through 1 official speaker(s) connected to 1 scheduled session
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-sonar-expo-welcome-speech|Expo Welcome Speech]]
+
+### Slide And Transcript Signals
+- `youtube-NuePCNMpWGc` — 4 slide-derived text signals
+  - Slide-derived themes: programming, changed, last, benchmarks, enough, info, demo, stop.
+  - Evidence links: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]

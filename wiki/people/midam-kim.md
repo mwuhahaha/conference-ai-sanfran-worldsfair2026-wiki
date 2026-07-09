@@ -6,7 +6,6 @@ company: "ServiceNow"
 linkedin: "https://www.linkedin.com/in/midamkim/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Midam Kim
 
 ## Official Role
@@ -20,3 +19,12 @@ Midam Kim is an ML Engineer at ServiceNow, where she builds and evaluates a mult
 
 ## Scheduled Sessions
 - [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]] — "My name is... my name is...": A Linguistic Map for Building and Debugging Voice Agents (2026-06-29, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents|\"My name is... my name is...\": A Linguistic Map for Building and Debugging Voice Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

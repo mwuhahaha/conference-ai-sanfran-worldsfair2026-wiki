@@ -83,3 +83,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## Additional Photo Slide Evidence
 These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-nyt-games-connections-slides]] - Google Photos Slides: On-Device Agentic AI for the New York Times Games (confidence: high).
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-P_uhFGH4J9Y` — 10 slide-derived text signals
+  - Slide-derived themes: york, times, score, search, synthesis, department, defense, caveats.
+  - Evidence links: [[youtube-P_uhFGH4J9Y]], [[youtube-P_uhFGH4J9Y-slides]], [[youtube-P_uhFGH4J9Y-dense-slides]], [[youtube-P_uhFGH4J9Y-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

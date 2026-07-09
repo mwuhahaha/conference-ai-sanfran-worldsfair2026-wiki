@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/clay-cockrell-906b0b4/"
 website: "https://www.walkandtalk.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Clay Cockrell
 
 ## Official Role
@@ -24,3 +23,12 @@ As the co-founder of CoupleWork, Clay is at the forefront of integrating artific
 
 ## Scheduled Sessions
 - [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong]] — Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong. (2026-07-01, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong|Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

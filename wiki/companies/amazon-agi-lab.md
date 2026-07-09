@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Amazon AGI Lab"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Amazon AGI Lab
 
 ## What It Is
@@ -31,3 +30,17 @@ Amazon AGI Lab appears through 5 official speaker(s) connected to 4 scheduled se
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-aditya-khandelwal-agents-codebases-and-teams-what-it-actually-takes-to-ship-together|Agents, codebases, and teams: what it actually takes to ship together]]
+- [[2026-06-29-emile-baizel-build-with-perception-agents|Build with Perception Agents]]
+- [[2026-06-30-gaurav-mishra-from-rl-to-irl|From RL to IRL]]
+- [[2026-06-30-antje-barth-perception-agents|Perception Agents]]
+
+### Slide And Transcript Signals
+- `youtube-WJjInLeaJjo` — 10 slide-derived text signals
+  - Slide-derived themes: documentation, barth, future, tool, search, server, allow, customer.
+  - Evidence links: [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]

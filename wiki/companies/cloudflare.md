@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Cloudflare"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Cloudflare
 
 ## What It Is
@@ -26,3 +25,13 @@ Cloudflare appears through 2 official speaker(s) connected to 2 scheduled sessio
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-kenton-varda-gadgets-personal-app-vibe-coding-that-is-actually-safe|Gadgets: Personal app vibe coding that is actually safe]]
+- [[2026-07-01-justin-joyce-how-ai-agents-let-gtm-teams-scale|How AI Agents Let GTM Teams Scale]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

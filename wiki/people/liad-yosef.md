@@ -10,7 +10,6 @@ highlighted: "true"
 highlightPriority: "critical"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Transcript-backed synthesis", "Highlight registry"]
 ---
-
 # Liad Yosef
 
 ## Official Role
@@ -48,3 +47,16 @@ The key contribution is that agent readiness is not just "add a protocol file." 
 - [[youtube-o-zkvb0iFDQ]] — related AI Engineer video with Liad Yosef and Ido Salomon on MCP UI / MCP Apps.
 - [[youtube-o-zkvb0iFDQ-transcript]] — cached transcript markdown used as supporting context.
 - [[youtube-o-zkvb0iFDQ-slides]] — extracted slide evidence from the related video.
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
+
+### Slide And Transcript Signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
+  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
+  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]

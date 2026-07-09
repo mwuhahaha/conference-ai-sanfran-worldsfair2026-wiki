@@ -55,3 +55,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-xz0-brt56L8-reconstructed-slides]]
 - [[youtube-xz0-brt56L8-slides]]
 - Slide-derived terms: `manus`, `workshop`, `peer`, `year`, `died`, `gene`, `description`, `b1.302`, `link`, `task`, `create`, `manes`, `eget`, `meee`, `whatis2`, `channel`, `manu`, `work`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-xz0-brt56L8` — 6 slide-derived text signals
+  - Slide-derived themes: wednesday, november, include, attachments, loft, delicious, coffee, lovely.
+  - Evidence links: [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

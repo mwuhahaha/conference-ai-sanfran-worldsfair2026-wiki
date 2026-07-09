@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Legora"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Legora
 
 ## What It Is
@@ -24,3 +23,14 @@ Legora appears through 1 official speaker(s) connected to 1 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents|How to Connect AI to Billions of Legal Documents]]
+
+### Slide And Transcript Signals
+- `youtube-XNtkiQJ49Ps` — 10 slide-derived text signals
+  - Slide-derived themes: company, jacob, searching, reading, collaborative, lawyers, than, chat.
+  - Evidence links: [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]

@@ -9,7 +9,6 @@ website: "https://www.agentmail.to/"
 blog: "https://www.agentmail.to/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Adi Singh
 
 ## Official Role
@@ -26,3 +25,12 @@ Co-founder of AgentMail (YC S25), the email inbox API for AI agents. The company
 
 ## Scheduled Sessions
 - [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity]] — The Next Trillion Users of the Internet Still Don't Have an Identity (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity|The Next Trillion Users of the Internet Still Don't Have an Identity]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

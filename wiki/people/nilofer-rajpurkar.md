@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/nilofer-rajpurkar-3a80a168"
 twitter: "https://x.com/nilli_minaj"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Nilofer Rajpurkar
 
 ## Official Role
@@ -26,3 +25,12 @@ Beyond technology, Nilofer has served as an NYC[x] Innovation Fellow with U.S. D
 
 ## Scheduled Sessions
 - [[2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals]] — Inside the AI economy: What Stripe’s data reveals (2026-06-29, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals|Inside the AI economy: What Stripe’s data reveals]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

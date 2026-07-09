@@ -5,7 +5,6 @@ role: "Product, Software, Infra, and Applied AI"
 company: "Reducto"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Abhi Arya
 
 ## Official Role
@@ -19,3 +18,12 @@ Abhi Arya works on product, software, infrastructure, and applied AI at Reducto.
 
 ## Scheduled Sessions
 - [[2026-06-29-abhi-arya-from-chatbots-to-agents-how-reducto-builds-for-agent-experience-to-enable-real-work]] — From Chatbots to Agents: How Reducto builds for Agent Experience to Enable Real Work (2026-06-29, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-abhi-arya-from-chatbots-to-agents-how-reducto-builds-for-agent-experience-to-enable-real-work|From Chatbots to Agents: How Reducto builds for Agent Experience to Enable Real Work]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

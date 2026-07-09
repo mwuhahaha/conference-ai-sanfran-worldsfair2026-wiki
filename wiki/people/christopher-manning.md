@@ -8,7 +8,6 @@ twitter: "https://x.com/chrmanning"
 website: "https://nlp.stanford.edu/~manning/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Christopher Manning
 
 ## Official Role
@@ -25,3 +24,13 @@ Christopher Manning is a Distinguished Member of Technical Staff at Moonlake AI,
 ## Scheduled Sessions
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use]] — Building the simulation infrastructure for practical world model use (2026-06-30, 10:45am-11:05am)
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2]] — Building the simulation infrastructure for practical world model use (Part 2) (2026-06-30, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use-part-2|Building the simulation infrastructure for practical world model use (Part 2)]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Two Sigma Investments"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Two Sigma Investments
 
 ## What It Is
@@ -24,3 +23,12 @@ Two Sigma Investments appears through 1 official speaker(s) connected to 1 sched
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-shu-fang-tethered-our-agents-are-us|Tethered: Our Agents Are Us]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

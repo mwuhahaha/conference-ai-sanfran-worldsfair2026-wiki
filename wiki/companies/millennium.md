@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Millennium"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Millennium
 
 ## What It Is
@@ -24,3 +23,12 @@ Millennium appears through 1 official speaker(s) connected to 1 scheduled sessio
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-brian-lewis-which-ai-startups-actually-land-enterprise-contracts-lessons-from-evaluating-100-ai-startups-at-millennium-management|Which AI startups actually land enterprise contracts? Lessons from evaluating 100+ AI startups at Millennium Management]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

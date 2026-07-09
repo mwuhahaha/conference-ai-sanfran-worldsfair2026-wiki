@@ -56,3 +56,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-5nOLb27hQ5w-reconstructed-slides]]
 - [[youtube-5nOLb27hQ5w-slides]]
 - Slide-derived terms: `microsoft`, `fair`, `cafe`, `call`, `project`, `knowledge`, `dawn`, `best`, `here`, `coffee`, `comee`, `doge`, `shares`, `dice`, `transcripts`, `form`, `mongodb`, `cloud`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-5nOLb27hQ5w` — 5 slide-derived text signals
+  - Slide-derived themes: fair, dawn, focused, understand, wees, requests, bits, designer.
+  - Evidence links: [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

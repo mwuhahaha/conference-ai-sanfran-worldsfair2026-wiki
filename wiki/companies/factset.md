@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["FactSet"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # FactSet
 
 ## What It Is
@@ -24,3 +23,13 @@ FactSet appears through 1 official speaker(s) connected to 1 scheduled session(s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products|Skills are new features: Building Skill-Centric Harness for Agentic Products]]
+
+### Slide And Transcript Signals
+- `youtube-sl3icG-IjHo` — source page linked
+  - Evidence links: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]

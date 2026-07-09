@@ -57,3 +57,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-PbHm2qKnu10-reconstructed-slides]]
 - [[youtube-PbHm2qKnu10-slides]]
 - Slide-derived terms: `performance`, `training`, `microsoft`, `learning`, `openal`, `observed`, `same`, `compute`, `models`, `they`, `think`, `thing`, `trainer`, `graphite`, `windsurf`, `moneobb`, `mdaily`, `augment`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-PbHm2qKnu10` — 10 slide-derived text signals
+  - Slide-derived themes: performance, observed, compute, models, research, lead, prime, intellect.
+  - Evidence links: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

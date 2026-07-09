@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/garrytan/"
 twitter: "https://x.com/garrytan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Garry Tan
 
 ## Official Role
@@ -24,3 +23,15 @@ Garry is President & CEO at Y Combinator, which he rejoined in Fall 2023, after 
 - [[2026-07-01-garry-tan-closing-keynote-garry-tan]] — Closing Keynote: Garry Tan (2026-07-01, 4:50pm-5:10pm)
 ## Livestream Appearances
 - [[2026-07-01-garry-tan-closing-keynote-garry-tan|Closing Keynote: Garry Tan]] — [watch at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) in WF26: Harness Engineering & Startup Battlefield (Day 3).
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-garry-tan-closing-keynote-garry-tan|Closing Keynote: Garry Tan]]
+
+### Slide And Transcript Signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]

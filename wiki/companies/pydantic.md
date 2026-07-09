@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Pydantic"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Pydantic
 
 ## What It Is
@@ -24,3 +23,14 @@ Pydantic appears through 1 official speaker(s) connected to 1 scheduled session(
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert|Your agent needs a sandbox, not a desert]]
+
+### Slide And Transcript Signals
+- `youtube-bmWZk9vTze0` — 10 slide-derived text signals
+  - Slide-derived themes: query, client, info, table, tool, call, response, await.
+  - Evidence links: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]

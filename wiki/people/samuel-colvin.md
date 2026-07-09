@@ -6,7 +6,6 @@ company: "Pydantic"
 twitter: "https://x.com/samuelcolvin"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Samuel Colvin
 
 ## Official Role
@@ -20,3 +19,14 @@ Samuel Colvin is a Python and Rust developer and the founder of Pydantic Inc., b
 
 ## Scheduled Sessions
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]] — Your agent needs a sandbox, not a desert (2026-06-30, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert|Your agent needs a sandbox, not a desert]]
+
+### Slide And Transcript Signals
+- `youtube-bmWZk9vTze0` — 10 slide-derived text signals
+  - Slide-derived themes: query, client, info, table, tool, call, response, await.
+  - Evidence links: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]

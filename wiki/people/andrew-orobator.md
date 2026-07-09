@@ -9,7 +9,6 @@ website: "https://medium.com/@andreworobator"
 blog: "https://medium.com/@andreworobator"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Andrew Orobator
 
 ## Official Role
@@ -26,3 +25,12 @@ Andrew Orobator is a senior Android engineer at Reddit and the author of the Vib
 
 ## Scheduled Sessions
 - [[2026-06-29-andrew-orobator-spin-at-the-gate-until-green-the-engineering-primitives-behind-self-driving-codebases]] — Spin at the Gate Until Green: The Engineering Primitives Behind Self-Driving Codebases (2026-06-29, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-andrew-orobator-spin-at-the-gate-until-green-the-engineering-primitives-behind-self-driving-codebases|Spin at the Gate Until Green: The Engineering Primitives Behind Self-Driving Codebases]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

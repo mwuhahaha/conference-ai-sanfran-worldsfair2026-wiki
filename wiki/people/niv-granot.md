@@ -5,7 +5,6 @@ role: "Tech Group Lead"
 company: "AI21 Labs"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Niv Granot
 
 ## Official Role
@@ -19,3 +18,14 @@ Niv Granot is a Tech Group Lead at AI21 Labs working on AI systems engineering, 
 
 ## Scheduled Sessions
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022]] — Stop Chunking Like It's 2022 (2026-06-29, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022|Stop Chunking Like It's 2022]]
+
+### Slide And Transcript Signals
+- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals
+  - Slide-derived themes: world, local, questions, united, states, mother, surname, name.
+  - Evidence links: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

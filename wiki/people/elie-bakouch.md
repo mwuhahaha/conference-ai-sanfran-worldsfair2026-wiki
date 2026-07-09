@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/eliebak/"
 twitter: "https://x.com/eliebakouch"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Elie Bakouch
 
 ## Official Role
@@ -22,3 +21,12 @@ Elie Bakouch is a Research Engineer at Prime Intellect, working to advance open 
 
 ## Scheduled Sessions
 - [[2026-06-30-elie-bakouch-the-era-of-auto-research]] — « the era of (auto) research » (2026-06-30, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

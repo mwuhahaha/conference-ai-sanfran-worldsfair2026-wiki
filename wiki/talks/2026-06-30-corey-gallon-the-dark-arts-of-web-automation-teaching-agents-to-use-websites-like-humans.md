@@ -6,7 +6,7 @@ time: "12:05pm-12:25pm"
 track: "Computer Use"
 room: "Track 7"
 speakers: ["Corey Gallon"]
-sourceLabels: ["Official conference schedule", "Official speaker roster", "Public company site", "Public GitHub project", "Public YouTube metadata", "Highlight synthesis"]
+sourceLabels: ["Official conference schedule", "Official speaker roster", "Public company site", "Public GitHub project", "Public YouTube metadata", "Synthesis"]
 scheduleTrack: "Computer Use"
 scheduleRoom: "Track 7"
 scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
@@ -15,8 +15,8 @@ highlightPriority: "critical"
 ---
 # The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans
 
-## Highlight Status
-This is a highlighted critical talk in the wiki. It should receive extra recording-search effort, richer company and tool context, and more synthesis than an ordinary schedule page.
+## Why This Talk Matters
+This is a critical talk for the wiki's browser-agent and agentic-web coverage. It receives extra recording-search effort, richer company and tool context, and deeper synthesis because it connects web automation technique to repeatable engineering practice.
 
 The talk matters because it argues for browser automation as durable infrastructure rather than disposable agent clicking. Corey Gallon's core claim is practical: if a browser task will happen more than once, an AI agent should be able to turn it into a repeatable program that drives Chrome through the Chrome DevTools Protocol, not burn tokens replaying the same step-by-step browsing sequence.
 
@@ -121,3 +121,25 @@ Official schedule and speaker data are canonical for the talk title, speaker, da
 ## Additional Photo Slide Evidence
 These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-dark-arts-web-automation-slides]] - Google Photos Slides: The Dark Arts of Web Automation (confidence: high).
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+  - Transcript signals: model, code, models, research, system, well, first, better.
+  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
+  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-JsKTQbT58BY` — source page linked
+  - Evidence links: [[youtube-JsKTQbT58BY]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
+  - Transcript signals: model, code, models, loop, well, software, first, team.
+  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -6,7 +6,6 @@ company: "Google DeepMind"
 linkedin: "https://www.linkedin.com/in/nidhivyas/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Nidhi Kaushik Vyas
 
 ## Official Role
@@ -20,3 +19,12 @@ AI product leader who turns frontier research into products people and companies
 
 ## Scheduled Sessions
 - [[2026-07-01-nidhi-kaushik-vyas-designing-multimodal-collaborative-agents-for-next-gen-commerce]] — Designing Multimodal Collaborative Agents for Next-Gen Commerce (2026-07-01, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-nidhi-kaushik-vyas-designing-multimodal-collaborative-agents-for-next-gen-commerce|Designing Multimodal Collaborative Agents for Next-Gen Commerce]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

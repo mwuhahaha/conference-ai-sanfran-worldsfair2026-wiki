@@ -52,3 +52,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-ib-wTAvCZqg-reconstructed-slides]]
 - [[youtube-ib-wTAvCZqg-slides]]
 - Slide-derived terms: `generation`, `bias`, `tokens`, `question`, `search`, `documents`, `llms`, `recent`, `awws`, `step`, `lististr`, `retrieval`, `recency`, `tasks`, `typically`, `used`, `attend`, `models`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-ib-wTAvCZqg` — 10 slide-derived text signals
+  - Slide-derived themes: step, display, search, documents, retrieval, typically, used, most.
+  - Evidence links: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

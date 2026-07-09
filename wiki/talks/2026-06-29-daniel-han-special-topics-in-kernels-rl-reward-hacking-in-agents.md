@@ -50,3 +50,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-OkEGJ5G3foU-reconstructed-slides]]
 - [[youtube-OkEGJ5G3foU-slides]]
 - Slide-derived terms: `microsoft`, `contributions`, `fixes`, `awss`, `graphite`, `windsurf`, `mongobr`, `mdaily`, `augment`, `code`, `workos`, `unsloth`, `daniel`, `deep-dive`, `kernels`, `quantization`, `aaeoat`, `naan`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-OkEGJ5G3foU` — 3 slide-derived text signals
+  - Slide-derived themes: fixes, chat, template, multiple, llama, research, google, github.
+  - Evidence links: [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

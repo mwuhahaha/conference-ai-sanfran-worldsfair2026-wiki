@@ -6,7 +6,6 @@ company: "Deno"
 twitter: "https://x.com/rough__sea"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ryan Dahl
 
 ## Official Role
@@ -20,3 +19,12 @@ Ryan Dahl is a programmer and the creator of Node.js and co-founder of Deno. Bor
 
 ## Scheduled Sessions
 - [[2026-06-29-ryan-dahl-security-firewall-for-agents]] — Security Firewall for Agents (2026-06-29, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ryan-dahl-security-firewall-for-agents|Security Firewall for Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

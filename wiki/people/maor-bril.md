@@ -8,7 +8,6 @@ twitter: "https://x.com/maorbril"
 website: "https://character.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Maor Bril
 
 ## Official Role
@@ -24,3 +23,12 @@ Maor is a Principal Software Engineer at Character.ai, where he builds the agent
 
 ## Scheduled Sessions
 - [[2026-06-30-maor-bril-evaling-video-slop]] — Evaling Video Slop (2026-06-30, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-maor-bril-evaling-video-slop|Evaling Video Slop]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

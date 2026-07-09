@@ -6,7 +6,6 @@ company: "Navan"
 linkedin: "https://www.linkedin.com/in/udaybhanuprasad"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Uday Kanagala
 
 ## Official Role
@@ -20,3 +19,12 @@ Uday Kanagala is a Software Architect at Navan with experience in cloud-native d
 
 ## Scheduled Sessions
 - [[2026-06-30-roberto-milev-agents-are-where-microservices-were-in-2015-we-re-making-all-the-same-mistakes]] — Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes. (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-roberto-milev-agents-are-where-microservices-were-in-2015-we-re-making-all-the-same-mistakes|Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

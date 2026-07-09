@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/shashankgoyal1/"
 twitter: "https://x.com/shashankgoyal95"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Shashank Goyal
 
 ## Official Role
@@ -23,3 +22,12 @@ Prior to OpenRouter, Shashank was a backend engineer at OpenSea and spent more t
 
 ## Scheduled Sessions
 - [[2026-06-30-shashank-goyal-letting-the-interns-loose-how-we-accelerated-ai-adoption]] — Letting the Interns Loose — How We Accelerated AI Adoption. (2026-06-30, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-shashank-goyal-letting-the-interns-loose-how-we-accelerated-ai-adoption|Letting the Interns Loose — How We Accelerated AI Adoption.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -102,3 +102,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-EyZiAp0pelw-reconstructed-slides]]
 - [[youtube-EyZiAp0pelw-slides]]
 - Slide-derived terms: `write`, `location`, `wake`, `yourbrainneedsthis`, `cess`, `etece`, `dovnldaoga/sec`, `veptrace`, `translation`, `archivi`, `bestclips`, `itgoing`, `kent`, `please`, `ajournalentry`, `forme`, `kentcdodds.com`, `aboutmy`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-EyZiAp0pelw` — 1 slide-derived text signals
+  - Slide-derived themes: device, location, creative, story, tags, thanks.
+  - Evidence links: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

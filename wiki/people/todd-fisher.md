@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/todd-b-fisher/"
 website: "https://www.linkedin.com/in/todd-b-fisher"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Todd Fisher
 
 ## Official Role
@@ -22,3 +21,12 @@ In his current role Todd co-launches a new venture backed startup every few mont
 
 ## Scheduled Sessions
 - [[2026-07-01-todd-fisher-while-my-guitar-gently-speaks]] — While my guitar gently speaks (2026-07-01, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-todd-fisher-while-my-guitar-gently-speaks|While my guitar gently speaks]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

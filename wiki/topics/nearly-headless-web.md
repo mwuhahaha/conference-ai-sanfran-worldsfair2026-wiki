@@ -1,11 +1,10 @@
 ---
 title: "Nearly Headless Web"
 category: "topics"
-sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Highlight synthesis"]
+sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # Nearly Headless Web
 
 ## What It Is
@@ -29,3 +28,15 @@ Fully headless APIs are not always enough. Some user choices remain visual, comp
 
 ## Evidence Boundary
 This page synthesizes a recurring design frame from the official schedule description and related transcript evidence. It should be refined if an exact session recording becomes available.
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
+
+### Slide And Transcript Signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
+  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
+  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]

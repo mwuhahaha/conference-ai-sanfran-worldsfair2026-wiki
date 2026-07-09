@@ -9,7 +9,6 @@ website: "https://urun.sh"
 blog: "https://urun.sh"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Keegan McCallum
 
 ## Official Role
@@ -26,3 +25,14 @@ Founder of uRun, build the inference cloud for the interactive era of AI. Former
 
 ## Scheduled Sessions
 - [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light]] — Generative Video at the Speed of Light (2026-07-01, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light|Generative Video at the Speed of Light]]
+
+### Slide And Transcript Signals
+- `youtube-EY4O9M6AsWI` — 7 slide-derived text signals
+  - Slide-derived themes: nope, white, knuckling, nodes, enough, banana, barely, made.
+  - Evidence links: [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]

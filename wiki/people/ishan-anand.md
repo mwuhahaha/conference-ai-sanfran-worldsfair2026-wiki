@@ -9,7 +9,6 @@ website: "https://ishananand.com/"
 blog: "https://ishananand.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ishan Anand
 
 ## Official Role
@@ -26,3 +25,14 @@ Ishan Anand is Chief AI Officer (CAIO) at InsightSciences.ai, where he builds LL
 
 ## Scheduled Sessions
 - [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research]] — Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”) (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]]
+
+### Slide And Transcript Signals
+- `youtube-ZuiJjkbX0Og` — 10 slide-derived text signals
+  - Slide-derived themes: transformer, used, fair, room, lines, vanilla, javascript, basic.
+  - Evidence links: [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]

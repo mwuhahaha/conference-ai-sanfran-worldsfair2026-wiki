@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["PromptQL"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # PromptQL
 
 ## What It Is
@@ -24,3 +23,14 @@ PromptQL appears through 1 official speaker(s) connected to 1 scheduled session(
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves|Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.]]
+
+### Slide And Transcript Signals
+- `youtube-himhGiWJXjo` — 10 slide-derived text signals
+  - Slide-derived themes: customer, data, query, select, public, order, title, creatures.
+  - Evidence links: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]

@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Applied Compute"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Applied Compute
 
 ## What It Is
@@ -26,3 +25,13 @@ Applied Compute appears through 2 official speaker(s) connected to 2 scheduled s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-raymond-feng-learning-on-the-job-the-future-of-post-training|Learning on the job: the future of post-training]]
+- [[2026-06-30-samuel-denton-bringing-continual-learning-into-enterprises|Bringing Continual Learning into Enterprises]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

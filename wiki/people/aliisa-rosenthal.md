@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/aliisa-rosenthal"
 website: "https://www.acrewcapital.com/team-members/aliisa-rosenthal"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Aliisa Rosenthal
 
 ## Official Role
@@ -22,3 +21,12 @@ Aliisa Rosenthal is a General Partner at Acrew Capital, where she invests in the
 
 ## Scheduled Sessions
 - [[2026-07-01-aliisa-rosenthal-reverse-engineering-the-ai-buyer]] — Reverse-Engineering the AI Buyer (2026-07-01, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-aliisa-rosenthal-reverse-engineering-the-ai-buyer|Reverse-Engineering the AI Buyer]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

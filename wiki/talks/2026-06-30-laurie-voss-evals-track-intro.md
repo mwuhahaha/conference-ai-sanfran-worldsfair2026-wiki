@@ -52,3 +52,15 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Transcript Markdown
 - [[youtube-Xfl50508LZM-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
+  - Transcript signals: evals, eval, data, should, judge, output, whether, phoenix.
+  - Slide-derived themes: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+  - Evidence links: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -8,7 +8,6 @@ twitter: "https://x.com/ArmenAgha"
 website: "https://perceptron.inc"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Armen Aghajanyan
 
 ## Official Role
@@ -24,3 +23,12 @@ Co-founder & CEO, @perceptroninc; ex-RS FAIR/MSFT
 
 ## Scheduled Sessions
 - [[2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents]] — From VLM/VLA's to Embodied Agents (2026-06-29, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents|From VLM/VLA's to Embodied Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

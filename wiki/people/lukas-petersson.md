@@ -8,7 +8,6 @@ twitter: "https://x.com/lukaspet"
 website: "https://lukaspet.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Lukas Petersson
 
 ## Official Role
@@ -24,3 +23,12 @@ Lukas Petersson is co-founder of Andon Labs, testing AIs in the real world. Ando
 
 ## Scheduled Sessions
 - [[2026-06-30-lukas-petersson-vending-bench-long-horizon-agent-evals-for-a-simulated-vending-business]] — Vending-Bench: Long-Horizon Agent Evals for a Simulated Vending Business (2026-06-30, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-lukas-petersson-vending-bench-long-horizon-agent-evals-for-a-simulated-vending-business|Vending-Bench: Long-Horizon Agent Evals for a Simulated Vending Business]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

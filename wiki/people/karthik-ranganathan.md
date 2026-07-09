@@ -6,7 +6,6 @@ company: "Yugabyte"
 twitter: "https://x.com/karthikr"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Karthik Ranganathan
 
 ## Official Role
@@ -20,3 +19,12 @@ Karthik Ranganathan is co-founder and co-CEO of Yugabyte, the company behind Yug
 
 ## Scheduled Sessions
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not]] — Agent Memory Is a Solved Problem. Agent Learning Is Not. (2026-07-01, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not|Agent Memory Is a Solved Problem. Agent Learning Is Not.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

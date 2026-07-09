@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Elastic"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Elastic
 
 ## What It Is
@@ -26,3 +25,13 @@ Elastic appears through 2 official speaker(s) connected to 2 scheduled session(s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-jeff-vestal-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers|Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

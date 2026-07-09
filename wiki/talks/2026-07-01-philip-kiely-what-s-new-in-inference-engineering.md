@@ -58,3 +58,13 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-gmTHs5T_YAE-reconstructed-slides]]
 - [[youtube-gmTHs5T_YAE-slides]]
 - Slide-derived terms: `orpheus`, `microsoft`, `baseten`, `model`, `architecture`, `performance`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augmentcode`, `workos`, `philip`, `developer`, `relations`, `based`, `sfba`, `favorite`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-gmTHs5T_YAE` — source page linked
+  - Evidence links: [[youtube-gmTHs5T_YAE]], [[youtube-gmTHs5T_YAE-slides]], [[youtube-gmTHs5T_YAE-dense-slides]], [[youtube-gmTHs5T_YAE-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

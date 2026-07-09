@@ -24,3 +24,12 @@ Abdul Dakkak is Chief Scientist at Modular, where his work sits at the center of
 
 ## Scheduled Sessions
 - [[2026-06-30-abdul-dakkak-modular-taming-the-ai-hardware-cambrian-explosion]] — Modular: Taming the AI Hardware Cambrian Explosion (2026-06-30, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-abdul-dakkak-modular-taming-the-ai-hardware-cambrian-explosion|'Modular: Taming the AI Hardware Cambrian Explosion']]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -8,7 +8,6 @@ twitter: "https://x.com/latkins"
 website: "https://arcee.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Lucas Atkins
 
 ## Official Role
@@ -25,3 +24,13 @@ Lucas Atkins serves as CTO and Head of Research at Arcee, where he led the devel
 ## Scheduled Sessions
 - [[2026-07-01-carter-abdallah-local-models-trust-control-optimization]] — Local Models: Trust, Control, Optimization (2026-07-01, 1:30pm-1:50pm)
 - [[2026-07-01-carter-abdallah-local-models-trust-control-optimization-1-55pm-2-15pm-track-4-489]] — Local Models: Trust, Control, Optimization (2026-07-01, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-carter-abdallah-local-models-trust-control-optimization|Local Models: Trust, Control, Optimization]]
+- [[2026-07-01-carter-abdallah-local-models-trust-control-optimization-1-55pm-2-15pm-track-4-489|Local Models: Trust, Control, Optimization]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

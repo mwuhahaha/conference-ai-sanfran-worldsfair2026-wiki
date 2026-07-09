@@ -9,7 +9,6 @@ website: "https://rlancemartin.github.io"
 blog: "https://rlancemartin.github.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Lance Martin
 
 ## Official Role
@@ -26,3 +25,14 @@ Member of technical staff at Anthropic. Working on the Claude Platform, includin
 
 ## Scheduled Sessions
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks]] — Claude for long-horizon tasks (2026-06-29, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]]
+
+### Slide And Transcript Signals
+- `youtube-ib-wTAvCZqg` — 10 slide-derived text signals
+  - Slide-derived themes: step, display, search, documents, retrieval, typically, used, most.
+  - Evidence links: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]

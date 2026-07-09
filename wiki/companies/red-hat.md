@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Red Hat"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Red Hat
 
 ## What It Is
@@ -25,3 +24,12 @@ Red Hat appears through 2 official speaker(s) connected to 1 scheduled session(s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-yuchen-fama-kv-cache-aware-routing-and-p-d-disaggregation-on-kubernetes-the-parts-public-benchmarks-don-t-show|KV Cache-Aware Routing and P/D Disaggregation on Kubernetes: The Parts Public Benchmarks Don't Show]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

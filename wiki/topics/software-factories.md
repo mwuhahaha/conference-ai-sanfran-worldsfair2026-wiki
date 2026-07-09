@@ -3,7 +3,6 @@ title: "Software Factories"
 category: "topics"
 sourceLabels: ["Official schedule", "Public YouTube livestream transcript", "Local slide OCR"]
 ---
-
 # Software Factories
 
 ## Synopsis
@@ -90,3 +89,30 @@ Use a software-factory approach when many similar tasks flow through the same pa
 - [[agent-security]]
 - [[agent-evaluations]]
 - [[ai-sandboxes]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-07-01-session-the-software-factory|The Software Factory]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|The best SDLC is the one you build yourself: Why orchestration changes everything]]
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory|Agentic SDLC at Uber: Building Blocks for Uber's Software Factory]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory|No, That's Not a Software Factory]]
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory|How Forward Deployed Engineering is done at Factory]]
+- [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents|Harness Engineering: Building the Production Cage for Powerful Domain Agents]]
+- [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers|Harness Engineering: The New Core Skill for Agentic Developers]]
+- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles|Loop Engineering from first principles]]
+- [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
+
+### Slide And Transcript Signals
+- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
+  - Slide-derived themes: autonomous, engineering, systems, ready, making.
+  - Evidence links: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- `youtube-HT4l0DeP69I` — 10 slide-derived text signals
+  - Slide-derived themes: mike, chambers, advocate, engineering, generative, real, world, applications.
+  - Evidence links: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]

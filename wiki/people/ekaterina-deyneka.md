@@ -9,7 +9,6 @@ website: "https://www.katedeyneka.com/"
 blog: "https://www.katedeyneka.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ekaterina Deyneka
 
 ## Official Role
@@ -26,3 +25,14 @@ Kate Deyneka is the founder and CEO of Reelful, an agentic video editor for soci
 
 ## Scheduled Sessions
 - [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer]] — Building an Agentic Video Editor for Mass Consumer (2026-07-01, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer|Building an Agentic Video Editor for Mass Consumer]]
+
+### Slide And Transcript Signals
+- `youtube-AheG9p_JXVw` — 1,340 transcript words
+  - Transcript signals: editing, media, editor, case, real, users, user, everything.
+  - Evidence links: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]

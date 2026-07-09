@@ -8,7 +8,6 @@ twitter: "https://x.com/DhruvBatra_"
 website: "https://dhruvbatra.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dhruv Batra
 
 ## Official Role
@@ -30,3 +29,12 @@ He is a recipient of best paper awards/nominations in every area of AI (vision, 
 
 ## Scheduled Sessions
 - [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]] — Computer-use models will agentify the web, not APIs (2026-06-30, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis|Computer-use models will agentify the web, not APIs]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -57,3 +57,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
 - [[youtube-84Vtz2IL1Ug-slides]]
 - Slide-derived terms: `models`, `tokens`, `world`, `fair`, `model`, `llama`, `language`, `inference`, `train`, `openrouter`, `engineering`, `future`, `performance`, `openal`, `best`, `training`, `datasets`, `alengincer`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
+  - Slide-derived themes: couple, minutes, earlier, inference, largest, market, ever, software.
+  - Evidence links: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

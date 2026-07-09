@@ -7,7 +7,6 @@ twitter: "https://x.com/sjparsons"
 website: "https://sjparsons.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sam Parsons
 
 ## Official Role
@@ -22,3 +21,12 @@ Sam Parsons is a Senior Staff Software Engineer and Tech Lead at PayPal Braintre
 
 ## Scheduled Sessions
 - [[2026-06-29-sam-parsons-how-paypal-enterprise-payments-handles-agent-initiated-payments-across-chatgpt-and-google-ai-mode]] — How PayPal Enterprise Payments handles agent-initiated payments across ChatGPT and Google AI Mode (2026-06-29, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-sam-parsons-how-paypal-enterprise-payments-handles-agent-initiated-payments-across-chatgpt-and-google-ai-mode|How PayPal Enterprise Payments handles agent-initiated payments across ChatGPT and Google AI Mode]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -9,7 +9,6 @@ website: "https://greze.com/"
 blog: "https://www.greze.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jean-Denis Greze
 
 ## Official Role
@@ -26,3 +25,12 @@ Jean-Denis Greze is co-founder and CEO of Town, a personal AI assistant that doe
 
 ## Scheduled Sessions
 - [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects]] — Agents' next frontier: agent-to-agent and network effects (2026-06-29, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects|Agents' next frontier: agent-to-agent and network effects]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

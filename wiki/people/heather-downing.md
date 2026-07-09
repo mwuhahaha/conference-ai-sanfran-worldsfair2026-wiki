@@ -8,7 +8,6 @@ twitter: "https://twitter.com/quorralyne"
 website: "https://quorralyne.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Heather Downing
 
 ## Official Role
@@ -24,3 +23,12 @@ Heather Downing is a developer advocate and 7x Microsoft MVP focused on AI, data
 
 ## Scheduled Sessions
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not]] — Agent Memory Is a Solved Problem. Agent Learning Is Not. (2026-07-01, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not|Agent Memory Is a Solved Problem. Agent Learning Is Not.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

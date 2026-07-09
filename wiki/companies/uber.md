@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Uber"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Uber
 
 ## What It Is
@@ -30,3 +29,14 @@ Uber appears through 5 official speaker(s) connected to 3 scheduled session(s). 
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory|Agentic SDLC at Uber: Building Blocks for Uber's Software Factory]]
+- [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine|Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine]]
+- [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale|Building Closed-Loop Evals for a Multimodal Agent at Uber Scale]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

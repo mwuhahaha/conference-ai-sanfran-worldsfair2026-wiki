@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Fireworks AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Fireworks AI
 
 ## What It Is
@@ -26,3 +25,13 @@ Fireworks AI appears through 2 official speaker(s) connected to 2 scheduled sess
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-jetashree-ravi-stop-renting-intelligence-the-train-to-deploy-loop-for-specialized-ai|Stop Renting Intelligence: The Train-to-Deploy Loop for Specialized AI]]
+- [[2026-07-01-pranay-bhatia-stop-model-shopping-why-ownership-beats-choice-in-the-agent-stack|Stop Model Shopping: Why Ownership Beats Choice in the Agent Stack]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

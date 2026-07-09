@@ -5,7 +5,6 @@ role: "Member of Technical Staff"
 company: "Laude Institute"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ryan Marten
 
 ## Official Role
@@ -19,3 +18,14 @@ Ryan Marten is building Harbor at the Laude Institute and works on research-to-p
 
 ## Scheduled Sessions
 - [[2026-06-30-alex-shaw-everything-is-a-rollout]] — Everything Is a Rollout (2026-06-30, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
+
+### Slide And Transcript Signals
+- `youtube-liG97YXaTSA` — 2 slide-derived text signals
+  - Slide-derived themes: reasoning, samples, trivia, questions, general, model.
+  - Evidence links: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]

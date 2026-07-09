@@ -58,3 +58,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 - [[youtube-JsCCrBF7F1g-slides]]
 - Slide-derived terms: `observability`, `evaluation`, `teams`, `engineer`, `europe`, `braintrust`, `workos`, `openal`, `experimentation`, `genal`, `hard`, `tackling`, `know`, `sevan`, `arize`, `platform`, `google`, `deepmind`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-JsCCrBF7F1g` — 10 slide-derived text signals
+  - Slide-derived themes: teams, engineering, hard, tackling, registration, open, observe, platform.
+  - Evidence links: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

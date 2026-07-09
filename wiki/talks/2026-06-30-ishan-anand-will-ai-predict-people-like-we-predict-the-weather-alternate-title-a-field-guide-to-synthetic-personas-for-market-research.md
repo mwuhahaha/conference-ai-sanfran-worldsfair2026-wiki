@@ -76,3 +76,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-ZuiJjkbX0Og-reconstructed-slides]]
 - [[youtube-ZuiJjkbX0Og-slides]]
 - Slide-derived terms: `training`, `microsoft`, `transformer`, `architecture`, `different`, `pipeline`, `model`, `spreadsheets-are-all-you-need.ai`, `used`, `language`, `gpt-2`, `strawberry`, `clip`, `attention`, `similar`, `assistant`, `graphite`, `windsurf`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-ZuiJjkbX0Og` — 10 slide-derived text signals
+  - Slide-derived themes: transformer, used, fair, room, lines, vanilla, javascript, basic.
+  - Evidence links: [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

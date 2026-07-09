@@ -9,7 +9,6 @@ website: "https://boredhacking.com/"
 blog: "https://boredhacking.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # James Russo
 
 ## Official Role
@@ -26,3 +25,12 @@ Engineering lead for HyperFrames. Currently at HeyGen building the future of vid
 
 ## Scheduled Sessions
 - [[2026-07-01-james-russo-html-is-all-agents-need]] — HTML Is All Agents Need (2026-07-01, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

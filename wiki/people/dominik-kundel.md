@@ -8,7 +8,6 @@ twitter: "https://x.com/dkundel"
 website: "https://dkundel.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dominik Kundel
 
 ## Official Role
@@ -25,3 +24,15 @@ Dominik Kundel works on Developer Experience at OpenAI, where he helps builders 
 ## Scheduled Sessions
 - [[2026-06-30-dominik-kundel-building-on-the-codex-harness]] — Building on the Codex Harness (2026-06-30, 3:45pm-4:05pm)
 - [[2026-07-01-dominik-kundel-codex-behind-the-harness]] — Codex, Behind the Harness (2026-07-01, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-dominik-kundel-building-on-the-codex-harness|Building on the Codex Harness]]
+- [[2026-07-01-dominik-kundel-codex-behind-the-harness|Codex, Behind the Harness]]
+
+### Slide And Transcript Signals
+- `youtube-iXhba366fQc` — 10 slide-derived text signals
+  - Slide-derived themes: complex, support, before, started, workshop, slack, voice, provide.
+  - Evidence links: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]

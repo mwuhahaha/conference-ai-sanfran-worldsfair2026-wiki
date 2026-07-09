@@ -76,3 +76,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-bSG9wUYaHWU-reconstructed-slides]]
 - [[youtube-bSG9wUYaHWU-slides]]
 - Slide-derived terms: `context`, `alengineer`, `code`, `engineering`, `future`, `prompt`, `aiengineer`, `europe`, `engineer`, `https`, `piss`, `braintrust`, `workos`, `openal`, `skill`, `tryi`, `best`, `meout`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-bSG9wUYaHWU` — 10 slide-derived text signals
+  - Slide-derived themes: code, context, fetch, retries, user, retry, write, function.
+  - Evidence links: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

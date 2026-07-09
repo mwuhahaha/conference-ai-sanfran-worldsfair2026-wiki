@@ -8,7 +8,6 @@ twitter: "https://x.com/0xBlacklight"
 website: "https://blacklight.sh"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Kyle Mistele
 
 ## Official Role
@@ -24,3 +23,12 @@ Recovering Red-Team security engineer & ATM hacker, now CTO at HumanLayer helpin
 
 ## Scheduled Sessions
 - [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles]] — Loop Engineering from first principles (2026-06-29, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles|Loop Engineering from first principles]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

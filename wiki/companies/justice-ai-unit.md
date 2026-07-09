@@ -4,11 +4,10 @@ category: "companies"
 aliases: ["Justice AI", "MoJ Justice AI Unit"]
 website: "https://ai.justice.gov.uk/"
 linkedin: "https://www.linkedin.com/company/justice-ai-unit/"
-sourceLabels: ["Justice AI Unit official site", "No10 Innovation Fellowship", "YouTube transcript", "Highlight synthesis"]
+sourceLabels: ["Justice AI Unit official site", "No10 Innovation Fellowship", "YouTube transcript", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # Justice AI Unit
 
 ## What It Is
@@ -39,3 +38,12 @@ The unit is the central organization in [[youtube-qlHaO6laBlM|Shipping Productio
 
 ## Evidence Boundary
 The Justice AI Unit official site supports the organizational description. The highlighted YouTube transcript supplies the conference-specific synthesis and should be treated as auto-captured source text.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- No related scheduled session was found in this pass.
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

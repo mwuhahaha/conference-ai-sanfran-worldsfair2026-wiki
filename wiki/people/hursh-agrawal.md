@@ -8,7 +8,6 @@ twitter: "https://twitter.com/hursh"
 website: "https://www.hurshagrawal.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Hursh Agrawal
 
 ## Official Role
@@ -24,3 +23,12 @@ Hursh Agrawal is the Co-founder and CTO of The Browser Company, makers of the Ar
 
 ## Scheduled Sessions
 - [[2026-06-29-hursh-agrawal-prototyping-as-leadership-how-a-cto-ships-with-ai-agents]] — Prototyping as Leadership: How a CTO Ships with AI Agents (2026-06-29, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-hursh-agrawal-prototyping-as-leadership-how-a-cto-ships-with-ai-agents|Prototyping as Leadership: How a CTO Ships with AI Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

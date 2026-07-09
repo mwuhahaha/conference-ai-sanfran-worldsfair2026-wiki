@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/wangzjeff/"
 twitter: "https://x.com/jeffzwang"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jeffrey Wang
 
 ## Official Role
@@ -26,3 +25,12 @@ Jeff believes that the intelligence of any AI system is ultimately limited by th
 
 ## Scheduled Sessions
 - [[2026-07-01-jeffrey-wang-knowledge-systems-the-new-gtm-stack]] — Knowledge Systems: The New GTM Stack (2026-07-01, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-jeffrey-wang-knowledge-systems-the-new-gtm-stack|Knowledge Systems: The New GTM Stack]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

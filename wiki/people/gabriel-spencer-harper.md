@@ -8,7 +8,6 @@ twitter: "https://x.com/meticulousgabe"
 website: "https://www.meticulous.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Gabriel Spencer-Harper
 
 ## Official Role
@@ -24,3 +23,12 @@ Gabriel Spencer-Harper is CEO and co-founder of Meticulous, which builds AI-powe
 
 ## Scheduled Sessions
 - [[2026-06-30-gabriel-spencer-harper-why-ai-didn-t-actually-make-you-ship-faster]] — Why AI Didn't Actually Make You Ship Faster (2026-06-30, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-gabriel-spencer-harper-why-ai-didn-t-actually-make-you-ship-faster|Why AI Didn't Actually Make You Ship Faster]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

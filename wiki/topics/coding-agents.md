@@ -3,7 +3,6 @@ title: "Coding Agents"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # Coding Agents
 
 ## Synopsis
@@ -147,3 +146,30 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - “We need to think about the branches in our skill moving material out behind context pointers.” — [[youtube-UNzCG3lw6O0]]
 - “And this is this is pretty uh important because sometimes the problem is uh, uh so critical so we need to fix them as soon as possible and yeah, it works pretty well.” — [[youtube-kZsf_Sfm7RU]]
 - “Now when the context is provided it's always like these are my security concerns which I always have to look into.” — [[youtube-EcqMYoIV57A]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine|Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine]]
+- [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep|Give your coding agents the power of turbogrep!]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]]
+- [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands|Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands]]
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows|How to Build Quality Gates into Agentic Coding Workflows]]
+- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code|The Last Human Code Review: Building Trust in AI-Generated Code]]
+- [[2026-06-30-laurie-voss-the-death-of-the-code-review|The Death of the Code Review]]
+- [[2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage|How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage)]]
+- [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity|The Next Trillion Users of the Internet Still Don't Have an Identity]]
+- [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer|Building an Agentic Video Editor for Mass Consumer]]
+
+### Slide And Transcript Signals
+- `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
+  - Slide-derived themes: code, state, quality, bash, reality, show, engineering, future.
+  - Evidence links: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
+  - Transcript signals: evals, eval, data, should, judge, output, whether, phoenix.
+  - Slide-derived themes: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+  - Evidence links: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- `youtube-AheG9p_JXVw` — 1,340 transcript words
+  - Transcript signals: editing, media, editor, case, real, users, user, everything.
+  - Evidence links: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]

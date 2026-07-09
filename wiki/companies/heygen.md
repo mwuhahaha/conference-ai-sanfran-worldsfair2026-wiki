@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["HeyGen"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # HeyGen
 
 ## What It Is
@@ -26,3 +25,15 @@ HeyGen appears through 2 official speaker(s) connected to 2 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
+- [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
+
+### Slide And Transcript Signals
+- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals
+  - Slide-derived themes: teams, tiny, such, vibe, most, josh, snyder, speakers.
+  - Evidence links: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

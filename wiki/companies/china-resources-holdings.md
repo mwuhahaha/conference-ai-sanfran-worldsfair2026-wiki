@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["China Resources Holdings"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # China Resources Holdings
 
 ## What It Is
@@ -24,3 +23,12 @@ China Resources Holdings appears through 1 official speaker(s) connected to 1 sc
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-shawn-chan-build-for-the-memo-not-the-demo-notes-from-200-investment-committees|Build for the Memo, Not the Demo — Notes from 200 Investment Committees]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

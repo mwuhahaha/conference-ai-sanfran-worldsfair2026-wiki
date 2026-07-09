@@ -9,7 +9,6 @@ website: "https://baseten.co"
 blog: "https://philipkiely.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Philip Kiely
 
 ## Official Role
@@ -26,3 +25,13 @@ Philip Kiely leads Developer Relations at Baseten. Prior to joining Baseten in 2
 
 ## Scheduled Sessions
 - [[2026-07-01-philip-kiely-what-s-new-in-inference-engineering]] — What's New in Inference Engineering (2026-07-01, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-philip-kiely-what-s-new-in-inference-engineering|What's New in Inference Engineering]]
+
+### Slide And Transcript Signals
+- `youtube-gmTHs5T_YAE` — source page linked
+  - Evidence links: [[youtube-gmTHs5T_YAE]], [[youtube-gmTHs5T_YAE-slides]], [[youtube-gmTHs5T_YAE-dense-slides]], [[youtube-gmTHs5T_YAE-reconstructed-slides]]

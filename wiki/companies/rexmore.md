@@ -3,11 +3,10 @@ title: "Rexmore"
 category: "companies"
 aliases: ["Rexmore"]
 website: "https://rexmore.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public professional profile", "Highlight synthesis"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public professional profile", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # Rexmore
 
 ## What It Is
@@ -47,3 +46,25 @@ The site also frames its acquisition interest around companies with a strong ear
 
 ## Evidence Boundary
 Official roster and schedule facts are canonical for Rexmore's conference participation. Rexmore's public site and Corey Gallon's profile links are supporting context used to explain the company and why the Dark Arts talk belongs in its operating model.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans]]
+
+### Slide And Transcript Signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+  - Transcript signals: model, code, models, research, system, well, first, better.
+  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
+  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-JsKTQbT58BY` — source page linked
+  - Evidence links: [[youtube-JsKTQbT58BY]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
+  - Transcript signals: model, code, models, loop, well, software, first, team.
+  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]

@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["poolside"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # poolside
 
 ## What It Is
@@ -25,3 +24,12 @@ poolside appears through 2 official speaker(s) connected to 1 scheduled session(
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-robert-mchardy-the-messy-reality-of-scale-synthetic-data-and-pre-training-at-poolside|The Messy Reality of Scale: Synthetic Data and Pre-Training at Poolside]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

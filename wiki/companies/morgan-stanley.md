@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Morgan Stanley"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Morgan Stanley
 
 ## What It Is
@@ -25,3 +24,13 @@ Morgan Stanley appears through 1 official speaker(s) connected to 2 scheduled se
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms|ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs]]
+- [[2026-07-01-brendan-rappazzo-loophole-adversarial-agents-to-stress-test-your-morality|Loophole - Adversarial Agents To Stress Test Your Morality]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

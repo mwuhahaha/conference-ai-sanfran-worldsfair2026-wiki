@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["DRUID AI", "Druid AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # DRUID AI
 
 ## What It Is
@@ -25,3 +24,12 @@ DRUID AI appears through 2 official speaker(s) connected to 1 scheduled session(
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-andreea-ple-ea-would-your-ai-agent-get-the-job-a-performance-review-framework-for-enterprise-agents|Would your AI agent get the job? A performance review framework for enterprise agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

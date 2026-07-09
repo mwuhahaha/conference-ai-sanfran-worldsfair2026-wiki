@@ -74,3 +74,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-eW_vxrjvERk-reconstructed-slides]]
 - [[youtube-eW_vxrjvERk-slides]]
 - Slide-derived terms: `graph`, `context`, `engineer`, `memory`, `europe`, `engineering`, `future`, `reasoning`, `entities`, `knowledge`, `relationships`, `enhance`, `relevance`, `domain`, `care`, `plans`, `associated`, `andrea`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-eW_vxrjvERk` — 10 slide-derived text signals
+  - Slide-derived themes: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+  - Evidence links: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

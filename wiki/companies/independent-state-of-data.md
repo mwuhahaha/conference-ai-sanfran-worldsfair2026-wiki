@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Independent / State of Data"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Independent / State of Data
 
 ## What It Is
@@ -24,3 +23,12 @@ Independent / State of Data appears through 1 official speaker(s) connected to 1
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-sean-cai-state-of-data|State of Data]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

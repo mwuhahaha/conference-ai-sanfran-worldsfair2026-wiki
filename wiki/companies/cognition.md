@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Cognition"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Cognition
 
 ## What It Is
@@ -24,3 +23,14 @@ Cognition appears through 1 official speaker(s) connected to 1 scheduled session
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-nader-khalil-model-routing|Model Routing]]
+
+### Slide And Transcript Signals
+- `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
+  - Slide-derived themes: couple, minutes, earlier, inference, largest, market, ever, software.
+  - Evidence links: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

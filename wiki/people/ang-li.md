@@ -28,3 +28,14 @@ At the World's Fair, Ang is scheduled to lead [[2026-06-29-ang-li-the-autonomous
 
 ## Scheduled Sessions
 - [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents]] — The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents (2026-06-29, 4:30pm-5:30pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents|'The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents']]
+
+### Slide And Transcript Signals
+- `youtube-F_RyElT_gJk` — 10 slide-derived text signals
+  - Slide-derived themes: coding, claude, slop, cursor, tools, months, gemini, designed.
+  - Evidence links: [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]

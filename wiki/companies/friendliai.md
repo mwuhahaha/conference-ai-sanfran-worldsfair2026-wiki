@@ -16,3 +16,13 @@ FriendliAI appears in the official AI Engineer World's Fair 2026 speaker roster 
 - [[alex-campos]] — Director of Sales Partnerships
 - [[byung-gon-gon-chun]] — Founder & CEO
 - [[yunmo-koo]] — Founding Engineer
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-alex-campos-inference-performance-as-a-competitive-advantage|Inference performance as a competitive advantage]]
+- [[2026-07-01-byung-gon-gon-chun-the-frontier-ai-inference-cloud-for-agents|The Frontier AI Inference Cloud for Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

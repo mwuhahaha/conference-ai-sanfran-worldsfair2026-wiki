@@ -8,7 +8,6 @@ twitter: "https://x.com/vasantkearney"
 website: "https://onlay.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Vasant Kearney
 
 ## Official Role
@@ -28,3 +27,12 @@ His work sits at the intersection of healthcare operations, regulated workflows,
 
 ## Scheduled Sessions
 - [[2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents]] — Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents (2026-07-01, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents|Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

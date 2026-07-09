@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Composio"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Composio
 
 ## What It Is
@@ -26,3 +25,13 @@ Composio appears through 2 official speaker(s) connected to 2 scheduled session(
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-karan-vaidya-from-coding-to-knowledge-work-agents|From coding to Knowledge work agents]]
+- [[2026-07-01-sarah-simionescu-dashboards-are-dead|Dashboards are Dead]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

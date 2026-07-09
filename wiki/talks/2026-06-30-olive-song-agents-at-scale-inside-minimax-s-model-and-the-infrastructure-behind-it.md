@@ -63,3 +63,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 - [[youtube-lY1iFbDPRlw-slides]]
 - Slide-derived terms: `minimax`, `research`, `open-weight`, `senior`, `engineer`, `tasks`, `minimax-m2`, `agentic`, `model`, `fast`, `coding`, `intetgence`, `everyene`, `olive`, `song`, `intelligence`, `real`, `experience`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals
+  - Slide-derived themes: research, agentic, model, senior, engineer, tasks, real, fast.
+  - Evidence links: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

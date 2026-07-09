@@ -6,7 +6,6 @@ company: "Gimlet Labs"
 linkedin: "https://www.linkedin.com/in/michelle-nguyen-82736762"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Michelle Nguyen
 
 ## Official Role
@@ -20,3 +19,14 @@ Michelle Nguyen is cofounder of Gimlet Labs, the first multi-silicon inference c
 
 ## Scheduled Sessions
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]] — All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens (2026-07-01, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens|All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens]]
+
+### Slide And Transcript Signals
+- `youtube-tzRvcTEapzo` — 10 slide-derived text signals
+  - Slide-derived themes: mixture, experts, queen, research, focus, training, cores, buffers.
+  - Evidence links: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]

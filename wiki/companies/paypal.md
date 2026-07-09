@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["PayPal"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # PayPal
 
 ## What It Is
@@ -29,3 +28,14 @@ PayPal appears through 4 official speaker(s) connected to 3 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-mark-lummus-burn-your-flags-how-paypal-designs-interactive-cli-tools-for-agents|Burn your flags: How PayPal designs interactive CLI tools for agents]]
+- [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs|The Death of Keyword Search and the Rise of Agent-Readable Catalogs]]
+- [[2026-07-01-jay-mok-your-agent-just-authorized-what|Your Agent Just Authorized What?!]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

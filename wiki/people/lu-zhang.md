@@ -6,7 +6,6 @@ company: "OpenAI"
 linkedin: "https://www.linkedin.com/in/luzhang1/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Lu Zhang
 
 ## Official Role
@@ -20,3 +19,12 @@ Lu is an engineer working on large-scale inference platforms, focused on making 
 
 ## Scheduled Sessions
 - [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy]] — Routing LLM Inference in Production: From Engine Signals to Policy (2026-07-01, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy|Routing LLM Inference in Production: From Engine Signals to Policy]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

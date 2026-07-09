@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Nereu"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Nereu
 
 ## What It Is
@@ -24,3 +23,12 @@ Nereu appears through 1 official speaker(s) connected to 1 scheduled session(s).
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-arturo-nunez-the-next-game-engine-won-t-have-a-manual|The Next Game Engine Won't Have a Manual]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

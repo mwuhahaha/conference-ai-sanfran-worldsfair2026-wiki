@@ -54,3 +54,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-jryZvCuA0Uc-reconstructed-slides]]
 - [[youtube-jryZvCuA0Uc-slides]]
 - Slide-derived terms: `awws`, `orci`, `aviace`, `fotatetey`, `mdaily`, `augment`, `code`, `workos`, `eeeeeeessssssssssseseeeaassss`, `look`, `jeff`, `huber`, `jason`, `oaths`, `read`, `full`, `report`, `research`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-jryZvCuA0Uc` — 3 slide-derived text signals
+  - Slide-derived themes: look, data, jeff, huber, jason, read, full, report.
+  - Evidence links: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

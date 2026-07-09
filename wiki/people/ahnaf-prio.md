@@ -28,3 +28,12 @@ Senior Engineering Manager at Best Buy building next-gen, AI-driven retail exper
 
 ## Scheduled Sessions
 - [[2026-07-01-ahnaf-prio-the-agentic-commerce-stack]] — The Agentic Commerce Stack (2026-07-01, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-ahnaf-prio-the-agentic-commerce-stack|The Agentic Commerce Stack]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

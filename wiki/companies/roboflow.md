@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Roboflow"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Roboflow
 
 ## What It Is
@@ -25,3 +24,18 @@ Roboflow appears through 1 official speaker(s) connected to 2 scheduled session(
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-joseph-nelson-the-state-of-vision|The State of Vision]]
+- [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]]
+
+### Slide And Transcript Signals
+- `youtube-OimPoLxioYg` — 10 slide-derived text signals
+  - Slide-derived themes: prompt, paint, clip, user, image, text, embedding, feature.
+  - Evidence links: [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
+- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
+  - Slide-derived themes: research, decode, hardware, ideas, progress, iteration, given, software.
+  - Evidence links: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]

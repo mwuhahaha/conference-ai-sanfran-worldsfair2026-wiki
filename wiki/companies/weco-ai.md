@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Weco AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Weco AI
 
 ## What It Is
@@ -28,3 +27,13 @@ Weco AI appears through 4 official speaker(s) connected to 2 scheduled session(s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
+- [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

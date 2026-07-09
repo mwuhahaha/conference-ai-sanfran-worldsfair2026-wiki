@@ -9,7 +9,6 @@ website: "https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)"
 blog: "https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Erik Meijer
 
 ## Official Role
@@ -26,3 +25,12 @@ Erik Meijer has spent more than three decades designing programming languages an
 
 ## Scheduled Sessions
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust (2026-06-29, 4:50pm-5:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust|In Code They Act, In Proof We Trust]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

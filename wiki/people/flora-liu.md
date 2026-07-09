@@ -8,7 +8,6 @@ twitter: "https://twitter.com/floppyliu"
 website: "https://www.flofloliu.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Flora Liu
 
 ## Official Role
@@ -26,3 +25,12 @@ Before Notion, Flora spent more than five years as a software engineer at Opendo
 
 ## Scheduled Sessions
 - [[2026-07-01-flora-liu-ai-in-gtm-at-notion]] — AI in GTM at Notion (2026-07-01, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-flora-liu-ai-in-gtm-at-notion|AI in GTM at Notion]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

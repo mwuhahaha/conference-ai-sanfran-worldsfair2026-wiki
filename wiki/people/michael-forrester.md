@@ -8,7 +8,6 @@ website: "https://www.michaelrishiforrester.com"
 blog: "https://www.michaelrishiforrester.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Michael Forrester
 
 ## Official Role
@@ -24,3 +23,12 @@ Michael Forrester is a student, explorer, and educator working at the boundary b
 
 ## Scheduled Sessions
 - [[2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn]] — Build a Platform, Unleash an Agent on it.... and Watch it Burn! (2026-06-29, 1:15pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-michael-forrester-build-a-platform-unleash-an-agent-on-it-and-watch-it-burn|Build a Platform, Unleash an Agent on it.... and Watch it Burn!]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

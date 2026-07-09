@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["GEPA"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # GEPA
 
 ## What It Is
@@ -24,3 +23,12 @@ GEPA appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization|Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

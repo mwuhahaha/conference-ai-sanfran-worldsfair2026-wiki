@@ -9,7 +9,6 @@ website: "https://joelhooks.com"
 blog: "https://badass.dev/the-process"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Joel Hooks
 
 ## Official Role
@@ -26,3 +25,12 @@ Joel Hooks is a software developer and entrepreneur known for developer educatio
 
 ## Scheduled Sessions
 - [[2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends]] — The Art and Science of Loopcraft with Pi (and friends) (2026-06-29, 4:30pm-5:30pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends|The Art and Science of Loopcraft with Pi (and friends)]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

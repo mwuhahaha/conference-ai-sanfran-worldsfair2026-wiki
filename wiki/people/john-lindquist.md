@@ -8,7 +8,6 @@ website: "https://egghead.io"
 blog: "https://dev.build"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # John Lindquist
 
 ## Official Role
@@ -26,3 +25,14 @@ John Lindquist currently teaches Codex "Power User" Workshops through https://eg
 - [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development]] — The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (2026-06-30, 1:30pm-1:50pm)
 - [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-2]] — The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 2) (2026-06-30, 1:55pm-2:15pm)
 - [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-3]] — The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 3) (2026-06-30, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development|The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development]]
+- [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-2|The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 2)]]
+- [[2026-06-30-john-lindquist-the-agentic-power-user-s-playbook-tips-and-tricks-for-swarm-style-agentic-development-continued-3|The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 3)]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

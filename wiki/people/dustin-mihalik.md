@@ -8,7 +8,6 @@ website: "https://dmihalik.com"
 blog: "https://dmihalik.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dustin Mihalik
 
 ## Official Role
@@ -24,3 +23,12 @@ Dustin is a Technical Fellow at Indeed, where he leads the AI Platform powering 
 
 ## Scheduled Sessions
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]] — MCP Apps: Give the Model Data, Give the User a UI (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui|MCP Apps: Give the Model Data, Give the User a UI]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

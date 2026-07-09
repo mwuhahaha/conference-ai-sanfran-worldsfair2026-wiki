@@ -58,3 +58,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-P_RI1kCkRbo-reconstructed-slides]]
 - [[youtube-P_RI1kCkRbo-slides]]
 - Slide-derived terms: `engineering`, `future`, `braintrust`, `workos`, `openal`, `engineer`, `aiengineer`, `gradium`, `kyutai`, `real`, `raat`, `tdps`, `vastelnt`, `cofounder`, `brig`, `soos`, `google`, `deepmind`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-P_RI1kCkRbo` — 10 slide-derived text signals
+  - Slide-derived themes: engineering, future, brig, team, google, translation, great, hove.
+  - Evidence links: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

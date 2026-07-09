@@ -86,3 +86,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-u3NofYYstaY-reconstructed-slides]]
 - [[youtube-u3NofYYstaY-slides]]
 - Slide-derived terms: `cohere`, `text`, `multilingual`, `enterprise`, `awws`, `mongodb`, `cloud`, `neoy`, `glance`, `select`, `investors`, `strategic`, `partners`, `bcohere`, `gomes`, `founded`, `team`, `otcr`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-u3NofYYstaY` — 8 slide-derived text signals
+  - Slide-derived themes: cohere, team, accenture, global, languages, support, addresses, unique.
+  - Evidence links: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

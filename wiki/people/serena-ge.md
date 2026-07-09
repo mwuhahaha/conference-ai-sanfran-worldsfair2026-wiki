@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/serena-ge-4583731b4/"
 twitter: "https://x.com/serenaa_ge"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Serena Ge
 
 ## Official Role
@@ -22,3 +21,12 @@ CEO at Datacurve. Building research and data collection infrastructure to advanc
 
 ## Scheduled Sessions
 - [[2026-07-01-serena-ge-deepswe-expert-code-datasets]] — DeepSWE: expert code datasets (2026-07-01, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-serena-ge-deepswe-expert-code-datasets|DeepSWE: expert code datasets]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -6,7 +6,6 @@ company: "Gates Foundation"
 linkedin: "https://www.linkedin.com/in/mike-phipps-79339a38"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Mike Phipps
 
 ## Official Role
@@ -20,3 +19,12 @@ Mike is the lead AI engineer in business operations at the Gates Foundation, whe
 
 ## Scheduled Sessions
 - [[2026-07-01-mike-phipps-your-moat-is-your-data-model]] — Your Moat Is Your Data Model (2026-07-01, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-mike-phipps-your-moat-is-your-data-model|Your Moat Is Your Data Model]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

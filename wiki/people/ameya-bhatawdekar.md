@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/ameyab"
 website: "http://proficient.io/ameyab"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ameya Bhatawdekar
 
 ## Official Role
@@ -22,3 +21,12 @@ Ameya Bhatawdekar is VP, Field CTO at Braintrust, where he helps teams evaluate 
 
 ## Scheduled Sessions
 - [[2026-06-29-ameya-bhatawdekar-your-agent-evolved-your-evals-didn-t]] — Your Agent Evolved. Your Evals Didn't. (2026-06-29, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-ameya-bhatawdekar-your-agent-evolved-your-evals-didn-t|Your Agent Evolved. Your Evals Didn't.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

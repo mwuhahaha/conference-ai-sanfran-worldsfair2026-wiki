@@ -27,3 +27,18 @@ Will Brown leads Applied Research at Prime Intellect, where his work centers on 
 ## Scheduled Sessions
 - [[2026-06-29-will-brown-the-prime-intellect-stack]] — The Prime Intellect Stack (2026-06-29, 4:30pm-5:30pm)
 - [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards]] — Reinforcement Learning without Verifiable Rewards (2026-06-30, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]]
+- [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards|Reinforcement Learning without Verifiable Rewards]]
+
+### Slide And Transcript Signals
+- `youtube-PbHm2qKnu10` — 10 slide-derived text signals
+  - Slide-derived themes: performance, observed, compute, models, research, lead, prime, intellect.
+  - Evidence links: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
+- `youtube-JIsgyk0Paic` — 10 slide-derived text signals
+  - Slide-derived themes: level, great, benchmarks, interactive, conversational, grok, problem, calls.
+  - Evidence links: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]

@@ -8,7 +8,6 @@ twitter: "https://x.com/edoliberty"
 website: "https://edoliberty.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Edo Liberty
 
 ## Official Role
@@ -24,3 +23,12 @@ Edo Liberty is the founder and Chief Scientist of Pinecone. Pinecone is the know
 
 ## Scheduled Sessions
 - [[2026-06-29-edo-liberty-pinecone-2-0]] — Pinecone 2.0 (2026-06-29, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-edo-liberty-pinecone-2-0|Pinecone 2.0]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

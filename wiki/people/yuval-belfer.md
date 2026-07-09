@@ -7,7 +7,6 @@ linkedin: "https://linkedin.com/in/yuval-belfer"
 twitter: "https://x.com/yuvalinthedeep"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Yuval Belfer
 
 ## Official Role
@@ -23,3 +22,15 @@ Yuval is a Senior Developer Advocate at AI21 Labs, where he helps engineers go f
 ## Scheduled Sessions
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022]] — Stop Chunking Like It's 2022 (2026-06-29, 3:20pm-3:40pm)
 - [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story]] — Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story (2026-07-01, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022|Stop Chunking Like It's 2022]]
+- [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story|Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story]]
+
+### Slide And Transcript Signals
+- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals
+  - Slide-derived themes: world, local, questions, united, states, mother, surname, name.
+  - Evidence links: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

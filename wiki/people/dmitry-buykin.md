@@ -8,7 +8,6 @@ twitter: "https://x.com/tzakus"
 website: "https://www.maersk.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dmitry Buykin
 
 ## Official Role
@@ -24,3 +23,12 @@ Dmitry Buykin builds production AI agent systems that turn frontline tribal know
 
 ## Scheduled Sessions
 - [[2026-07-01-dmitry-buykin-tribal-dungeons-of-global-shipping-ai-agents-at-global-scale]] — Tribal Dungeons of Global Shipping: AI Agents at Global Scale (2026-07-01, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-dmitry-buykin-tribal-dungeons-of-global-shipping-ai-agents-at-global-scale|Tribal Dungeons of Global Shipping: AI Agents at Global Scale]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

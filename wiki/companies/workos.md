@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["WorkOS"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # WorkOS
 
 ## What It Is
@@ -31,3 +30,23 @@ WorkOS appears through 5 official speaker(s) connected to 4 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks|>-]]
+- [[2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder|Building an Agent Harness for the Business, Not the Builder]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory|No, That's Not a Software Factory]]
+- [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md|Auth for Agents: Unblock Autonomous AI with auth.md]]
+
+### Slide And Transcript Signals
+- `youtube-so9l_MwS2yg` — 10 slide-derived text signals
+  - Slide-derived themes: system, find, export, function, next, token, headers, authorization.
+  - Evidence links: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
+- `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
+  - Slide-derived themes: help, today, engineering, future.
+  - Evidence links: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
+- `youtube-D4Dswf-__RM` — 10 slide-derived text signals
+  - Slide-derived themes: identity, shadowing, persona, delegation, chains, capability, tokens, escalation.
+  - Evidence links: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]

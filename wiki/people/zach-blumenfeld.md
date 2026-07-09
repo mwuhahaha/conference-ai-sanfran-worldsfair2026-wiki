@@ -6,7 +6,6 @@ company: "Neo4j"
 linkedin: "https://www.linkedin.com/in/zachblumenfeld/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Zach Blumenfeld
 
 ## Official Role
@@ -20,3 +19,15 @@ Zach Blumenfeld is an AI/ML graph specialist at Neo4j who helps engineers, data 
 
 ## Scheduled Sessions
 - [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries]] — AI on Your Lakehouse: Context Comes in Shapes, Not Queries (2026-06-29, 9:00am-11:00am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]]
+
+### Slide And Transcript Signals
+- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 10 slide-derived text signals
+  - Transcript signals: graph, context, data, create, traces, back, little, decision.
+  - Slide-derived themes: context, graphs, information, required, accurate, answer, graph, started.
+  - Evidence links: [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]

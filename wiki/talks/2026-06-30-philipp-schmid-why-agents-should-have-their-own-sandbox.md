@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-3_gYbhABcAE-reconstructed-slides]]
 - [[youtube-3_gYbhABcAE-slides]]
 - Slide-derived terms: `braintrust`, `workos`, `openal`, `teas`, `senior`, `engineers`, `struggle`, `tsacconss`, `mental`, `model`, `collisions`, `traditional`, `engineering`, `reatty`, `alengineer`, `colds`, `erate`, `septs`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-3_gYbhABcAE` — 7 slide-derived text signals
+  - Slide-derived themes: senior, engineers, engineering, text, state, trap, treating, world.
+  - Evidence links: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

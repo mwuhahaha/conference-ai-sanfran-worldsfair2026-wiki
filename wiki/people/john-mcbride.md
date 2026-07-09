@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/jpmcb/"
 website: "https://johncodes.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # John McBride
 
 ## Official Role
@@ -24,3 +23,12 @@ He has previously worked on MCP/AI gateway infra at Zuplo, AI infrastructure at 
 
 ## Scheduled Sessions
 - [[2026-06-30-brian-douglas-don-t-write-skills-train-models]] — Don't Write Skills, Train Models (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-brian-douglas-don-t-write-skills-train-models|Don't Write Skills, Train Models]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

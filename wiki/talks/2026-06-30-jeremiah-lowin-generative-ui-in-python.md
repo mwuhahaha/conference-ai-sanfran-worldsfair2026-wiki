@@ -64,3 +64,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-96G7FLab8xc-reconstructed-slides]]
 - [[youtube-96G7FLab8xc-slides]]
 - Slide-derived terms: `fastmcp`, `fivetran`, `server`, `prefect`, `mep.tool`, `bool`, `servers`, `dict`, `tools`, `email`, `user`, `mcps`, `product`, `b1.302`, `operations`, `tool`, `literal`, `track_latest_order`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-96G7FLab8xc` — 10 slide-derived text signals
+  - Slide-derived themes: prefect, list, server, should, feel, engineer, code, summit.
+  - Evidence links: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

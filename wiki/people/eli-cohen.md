@@ -6,7 +6,6 @@ company: "Snyk"
 linkedin: "https://www.linkedin.com/in/cohen-eli"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Eli Cohen
 
 ## Official Role
@@ -20,3 +19,12 @@ Director of Technology Incubation at Snyk, focused on securing an AI-native futu
 
 ## Scheduled Sessions
 - [[2026-06-30-eli-cohen-continuous-offensive-security-the-only-approach-in-an-agent-first-world]] — Continuous Offensive Security the only approach in an agent-first world (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-eli-cohen-continuous-offensive-security-the-only-approach-in-an-agent-first-world|Continuous Offensive Security the only approach in an agent-first world]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

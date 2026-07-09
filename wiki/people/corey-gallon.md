@@ -7,11 +7,10 @@ linkedin: "https://www.linkedin.com/in/coreygallon"
 twitter: "https://x.com/CoreyGallon"
 website: "https://gallon.me"
 blog: "https://gallon.me"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public YouTube metadata", "Highlight synthesis"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public YouTube metadata", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # Corey Gallon
 
 ## Official Role
@@ -23,8 +22,8 @@ Managing Director at [[rexmore|Rexmore]].
 - [Website](https://gallon.me)
 - [Blog](https://gallon.me)
 
-## Why He Is Highlighted
-Corey Gallon is highlighted because [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation]] is one of the clearest talks in the World's Fair corpus about turning browser agents into repeatable engineering leverage.
+## Why He Matters At World's Fair
+Corey Gallon matters because [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation]] is one of the clearest talks in the World's Fair corpus about turning browser agents into repeatable engineering leverage.
 
 His profile connects three useful threads:
 
@@ -48,3 +47,25 @@ Corey Gallon is Managing Director of Rexmore, an AI-native holding company that 
 
 ## Evidence Boundary
 Official roster and schedule data establish Corey's role, company, and scheduled session. Rexmore's website and Corey's public profile links support the company and professional context. The exact Dark Arts recording has not been found yet.
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans]]
+
+### Slide And Transcript Signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+  - Transcript signals: model, code, models, research, system, well, first, better.
+  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
+  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-JsKTQbT58BY` — source page linked
+  - Evidence links: [[youtube-JsKTQbT58BY]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
+  - Transcript signals: model, code, models, loop, well, software, first, team.
+  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]

@@ -88,3 +88,15 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Transcript Markdown
 - [[youtube-wFTVEDYVJT0-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals
+  - Transcript signals: nova, amazon, code, server, browser, able, open, click.
+  - Slide-derived themes: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+  - Evidence links: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

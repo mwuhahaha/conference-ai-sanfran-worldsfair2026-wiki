@@ -6,7 +6,6 @@ company: "Bugcrowd, Inc"
 linkedin: "https://www.linkedin.com/in/thedavidbrumley"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # David Brumley
 
 ## Official Role
@@ -22,3 +21,12 @@ His work spans automated vulnerability discovery, exploit generation, and large-
 
 ## Scheduled Sessions
 - [[2026-06-29-david-brumley-bugcrowd-posttraining-talk]] — Bugcrowd posttraining talk (2026-06-29, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-david-brumley-bugcrowd-posttraining-talk|Bugcrowd posttraining talk]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -6,7 +6,6 @@ company: "Figma"
 linkedin: "https://www.linkedin.com/in/eyalg/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Eyal Blum
 
 ## Official Role
@@ -20,3 +19,12 @@ Eyal Blum is a senior staff engineer at Figma working on Client Testing, Observa
 
 ## Scheduled Sessions
 - [[2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage]] — How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage) (2026-06-29, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-eyal-blum-how-to-get-your-org-to-adopt-coding-agents-without-shipping-garbage|How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage)]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

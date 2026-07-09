@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Sourcegraph"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sourcegraph
 
 ## What It Is
@@ -26,3 +25,13 @@ Sourcegraph appears through 2 official speaker(s) connected to 2 scheduled sessi
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
+- [[2026-07-01-stephanie-jarmak-the-death-of-developer-advocates|The Death of Developer Advocates]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

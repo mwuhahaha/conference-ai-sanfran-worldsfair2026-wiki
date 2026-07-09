@@ -6,7 +6,6 @@ company: "Google DeepMind"
 linkedin: "https://www.linkedin.com/in/benoit-schillings-2942a5"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Benoit Schillings
 
 ## Official Role
@@ -22,3 +21,14 @@ Previously, as Chief Technology Officer at X, Benoit guided early-stage teams in
 
 ## Scheduled Sessions
 - [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind]] — Research to Reality with Google DeepMind (2026-06-30, 10:05am-10:25am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
+
+### Slide And Transcript Signals
+- `youtube-G_bHFmEAarM` — 10 slide-derived text signals
+  - Slide-derived themes: output, google, gemini, flash, lite, paid, grounding, latest.
+  - Evidence links: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]

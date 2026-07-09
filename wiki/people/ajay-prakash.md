@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/ajay-prakash-3780b132/"
 twitter: "https://x.com/ajay_prakash_ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ajay Prakash
 
 ## Official Role
@@ -22,3 +21,12 @@ Ajay is a software engineer at LinkedIn with 14 years of experience in software,
 
 ## Scheduled Sessions
 - [[2026-06-30-ajay-prakash-500-skills-zero-fine-tuning-linkedin-s-playbook-for-ai-agents-that-actually-know-your-codebase]] — 500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents That Actually Know Your Codebase (2026-06-30, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-ajay-prakash-500-skills-zero-fine-tuning-linkedin-s-playbook-for-ai-agents-that-actually-know-your-codebase|500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents That Actually Know Your Codebase]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

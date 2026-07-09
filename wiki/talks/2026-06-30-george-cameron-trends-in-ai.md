@@ -49,3 +49,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-sRpqPgKeXNk-reconstructed-slides]]
 - [[youtube-sRpqPgKeXNk-slides]]
 - Slide-derived terms: `artificial`, `analysis`, `models`, `reasoning`, `intelligence`, `cost`, `index`, `tokens`, `non-reasoning`, `input`, `anatysis`, `open`, `weights`, `leading`, `output`, `time`, `world`, `engineering`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-sRpqPgKeXNk` — 10 slide-derived text signals
+  - Slide-derived themes: analysis, artificial, intelligence, index, tokens, models, language, output.
+  - Evidence links: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -8,7 +8,6 @@ twitter: "https://x.com/ryfeus"
 website: "https://ryfeus.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Rustem Feyzkhanov
 
 ## Official Role
@@ -24,3 +23,12 @@ Rustem Feyzkhanov is a Senior Engineering Manager on the AI Platform Engineering
 
 ## Scheduled Sessions
 - [[2026-06-30-rustem-feyzkhanov-from-agent-traces-to-agent-simulations-the-next-era-of-agent-evaluation]] — From Agent Traces to Agent Simulations: The next era of agent evaluation (2026-06-30, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-rustem-feyzkhanov-from-agent-traces-to-agent-simulations-the-next-era-of-agent-evaluation|From Agent Traces to Agent Simulations: The next era of agent evaluation]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

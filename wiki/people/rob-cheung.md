@@ -8,7 +8,6 @@ twitter: "https://x.com/perceptnet"
 website: "https://rob.zo.space"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Rob Cheung
 
 ## Official Role
@@ -24,3 +23,12 @@ Rob Cheung is Co-founder of Zo Computer. He was previously the first engineer at
 
 ## Scheduled Sessions
 - [[2026-06-29-benjamin-guo-everyone-gets-a-software-company]] — Everyone Gets A Software Company (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-benjamin-guo-everyone-gets-a-software-company|Everyone Gets A Software Company]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

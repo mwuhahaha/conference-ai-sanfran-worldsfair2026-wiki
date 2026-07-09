@@ -5,7 +5,6 @@ role: "Member of Technical Staff"
 company: "Anthropic"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Kevin Bai
 
 ## Official Role
@@ -19,3 +18,12 @@ Kevin Bai works in applied AI at Anthropic and has a background in forward deplo
 
 ## Scheduled Sessions
 - [[2026-06-29-kevin-bai-forward-deployed-engineering-101]] — Forward Deployed Engineering 101 (2026-06-29, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-kevin-bai-forward-deployed-engineering-101|Forward Deployed Engineering 101]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Roku"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Roku
 
 ## What It Is
@@ -24,3 +23,12 @@ Roku appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-amit-desai-act-confirm-or-stop-smarter-behavior-for-ai-assistants-wearables-and-robots|Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

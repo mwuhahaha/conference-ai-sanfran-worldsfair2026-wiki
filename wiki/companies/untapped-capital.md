@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Untapped Capital"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Untapped Capital
 
 ## What It Is
@@ -24,3 +23,12 @@ Untapped Capital appears through 1 official speaker(s) connected to 1 scheduled 
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4|Active Graph Agent Runtime (BabyAGI 4)]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

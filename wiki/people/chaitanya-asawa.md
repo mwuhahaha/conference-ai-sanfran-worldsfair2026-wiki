@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/casawa"
 twitter: "https://x.com/c_asawa"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Chaitanya Asawa
 
 ## Official Role
@@ -22,3 +21,12 @@ Chaitanya leads agentic experiences & clinical decision support at Abridge, buil
 
 ## Scheduled Sessions
 - [[2026-07-01-chaitanya-asawa-from-ambient-documentation-to-clinical-intelligence]] — From Ambient Documentation to Clinical Intelligence (2026-07-01, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-chaitanya-asawa-from-ambient-documentation-to-clinical-intelligence|From Ambient Documentation to Clinical Intelligence]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

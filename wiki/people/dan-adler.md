@@ -6,7 +6,6 @@ linkedin: "https://www.linkedin.com/in/danielnealadler"
 blog: "https://sourcegraph.com/blog/a-note-from-dan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dan Adler
 
 ## Official Role
@@ -21,3 +20,12 @@ No official bio included in the speaker JSON.
 
 ## Scheduled Sessions
 - [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines]] — The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines (2026-06-29, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

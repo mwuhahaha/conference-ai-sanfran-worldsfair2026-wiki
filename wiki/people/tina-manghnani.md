@@ -6,7 +6,6 @@ company: "Microsoft"
 linkedin: "https://www.linkedin.com/in/tina-manghnani"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Tina Manghnani
 
 ## Official Role
@@ -21,3 +20,15 @@ Tina Manghnani is a Product Manager at Microsoft building the Foundry agents pla
 ## Scheduled Sessions
 - [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service]] — From framework to runtime: running agents with Foundry Agent Service (2026-06-30, 10:45am-11:05am)
 - [[2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work]] — Design multi-agent systems that actually work (2026-07-01, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service|From framework to runtime: running agents with Foundry Agent Service]]
+- [[2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work|Design multi-agent systems that actually work]]
+
+### Slide And Transcript Signals
+- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals
+  - Slide-derived themes: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+  - Evidence links: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

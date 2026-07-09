@@ -6,7 +6,6 @@ company: "Ironclad"
 linkedin: "https://www.linkedin.com/in/mingshenghong/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Mingsheng Hong
 
 ## Official Role
@@ -20,3 +19,12 @@ Mingsheng Hong is a tech entrepreneur and executive specializing in AI and data 
 
 ## Scheduled Sessions
 - [[2026-06-30-mingsheng-hong-from-tokenmaxxing-to-trusted-throughput]] — From Tokenmaxxing to Trusted Throughput (2026-06-30, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-mingsheng-hong-from-tokenmaxxing-to-trusted-throughput|From Tokenmaxxing to Trusted Throughput]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

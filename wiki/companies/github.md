@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["GitHub"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # GitHub
 
 ## What It Is
@@ -27,3 +26,14 @@ GitHub appears through 2 official speaker(s) connected to 3 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-salil-subbakrishna-modernize-ci-cd-using-agent-assisted-workflows-that-reduce-manual-debugging|Modernize CI/CD using agent-assisted workflows that reduce manual debugging]]
+- [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app|Build agents fast with GitHub Copilot (from idea to working app)]]
+- [[2026-07-01-idan-gazit-realtime-multiplayer-automation-and-you|Realtime multiplayer, automation, and you!]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

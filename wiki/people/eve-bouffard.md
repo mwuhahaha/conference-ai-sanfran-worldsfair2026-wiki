@@ -8,7 +8,6 @@ twitter: "https://x.com/eve_bouff"
 website: "https://evebouffard.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Eve Bouffard
 
 ## Official Role
@@ -24,3 +23,12 @@ Eve is Head of Design at Y Combinator. She joined YC as the youngest member of t
 
 ## Scheduled Sessions
 - [[2026-06-30-eve-bouffard-imagination-engineering]] — Imagination Engineering (2026-06-30, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -8,7 +8,6 @@ twitter: "https://x.com/0thernet"
 website: "https://0.zo.space"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Benjamin Guo
 
 ## Official Role
@@ -24,3 +23,12 @@ Cofounder of Zo Computer. Joined Stripe early (2015), where he worked for over 8
 
 ## Scheduled Sessions
 - [[2026-06-29-benjamin-guo-everyone-gets-a-software-company]] — Everyone Gets A Software Company (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-benjamin-guo-everyone-gets-a-software-company|Everyone Gets A Software Company]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

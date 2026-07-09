@@ -49,3 +49,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-aqW68Is_Kj4-reconstructed-slides]]
 - [[youtube-aqW68Is_Kj4-slides]]
 - Slide-derived terms: `claude`, `context`, `evolving`, `apis`, `katelyn`, `lesse`, `leader`, `engineering`, `anthrop`, `biases`, `give`, `mirren`, `model`, `weights`, `google`, `deepmind`, `payment`, `aren`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-aqW68Is_Kj4` — 10 slide-derived text signals
+  - Slide-derived themes: messages, model, context, response, client, create, tokens, give.
+  - Evidence links: [[youtube-aqW68Is_Kj4]], [[youtube-aqW68Is_Kj4-slides]], [[youtube-aqW68Is_Kj4-dense-slides]], [[youtube-aqW68Is_Kj4-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

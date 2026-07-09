@@ -60,3 +60,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-ESbWpPT_9-o-reconstructed-slides]]
 - [[youtube-ESbWpPT_9-o-slides]]
 - Slide-derived terms: `info`, `research`, `tokens`, `delete`, `chat`, `conversations`, `decode`, `hardware`, `instances`, `testerdoy`, `tok/s`, `cache`, `sumnorise`, `sent`, `pasted-text.txt`, `pope`, `fece`, `summorise`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
+  - Slide-derived themes: research, decode, hardware, ideas, progress, iteration, given, software.
+  - Evidence links: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

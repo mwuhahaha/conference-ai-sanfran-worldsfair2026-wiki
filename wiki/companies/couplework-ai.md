@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["CoupleWork AI"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # CoupleWork AI
 
 ## What It Is
@@ -25,3 +24,12 @@ CoupleWork AI appears through 2 official speaker(s) connected to 1 scheduled ses
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-clay-cockrell-al-is-becoming-the-world-s-largest-relationship-therapist-we-can-t-afford-to-get-it-wrong|Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

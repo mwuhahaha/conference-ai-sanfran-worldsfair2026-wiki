@@ -9,7 +9,6 @@ website: "https://www.vtrivedy.com/"
 blog: "https://www.vtrivedy.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Vivek Trivedy
 
 ## Official Role
@@ -26,3 +25,12 @@ Vivek leads Applied Research at LangChain Labs where he's focused on cracking Co
 
 ## Scheduled Sessions
 - [[2026-06-30-vivek-trivedy-improving-agents-is-a-data-mining-problem]] — Improving Agents is a Data Mining Problem (2026-06-30, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-vivek-trivedy-improving-agents-is-a-data-mining-problem|Improving Agents is a Data Mining Problem]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -82,3 +82,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-5_QWh4LGoxg-reconstructed-slides]]
 - [[youtube-5_QWh4LGoxg-slides]]
 - Slide-derived terms: `fraud`, `management`, `detection`, `flow`, `payment`, `graph`, `chat`, `user`, `case`, `examination`, `profile`, `portal`, `lost`, `knowledge`, `level`, `distribution`, `processing`, `search`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-5_QWh4LGoxg` — 10 slide-derived text signals
+  - Slide-derived themes: layer, graph, phishing, emails, working, legitimate, ones, mars.
+  - Evidence links: [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

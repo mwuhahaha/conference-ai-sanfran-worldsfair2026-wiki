@@ -8,7 +8,6 @@ twitter: "https://twitter.com/itamar_mar"
 blog: "https://www.qodo.ai/authors/itamar-f"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Itamar Friedman
 
 ## Official Role
@@ -24,3 +23,14 @@ Co-founder and CEO of Qodo, an AI-driven code integrity platform. Previously co-
 
 ## Scheduled Sessions
 - [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]] — The Last Human Code Review: Building Trust in AI-Generated Code (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code|The Last Human Code Review: Building Trust in AI-Generated Code]]
+
+### Slide And Transcript Signals
+- `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
+  - Slide-derived themes: code, state, quality, bash, reality, show, engineering, future.
+  - Evidence links: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]

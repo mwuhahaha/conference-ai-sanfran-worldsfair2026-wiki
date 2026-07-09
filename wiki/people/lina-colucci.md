@@ -8,7 +8,6 @@ twitter: "https://x.com/lina_colucci"
 website: "https://www.linacolucci.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Lina Colucci
 
 ## Official Role
@@ -24,3 +23,12 @@ Co-Founder and CEO of LemonSlice, an AI lab working to break the avatar Turing t
 
 ## Scheduled Sessions
 - [[2026-07-01-lina-colucci-voice-agents-with-realtime-video]] — Voice agents with Realtime Video (2026-07-01, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-lina-colucci-voice-agents-with-realtime-video|Voice agents with Realtime Video]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

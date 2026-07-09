@@ -9,7 +9,6 @@ website: "https://arcolano.com/"
 blog: "https://arcolano.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Nicholas Arcolano
 
 ## Official Role
@@ -26,3 +25,12 @@ Head of AI & Research at Jellyfish, building AI agents and data platforms that h
 
 ## Scheduled Sessions
 - [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]] — Tokenmaxxing is the New "Lines of Code" (2026-06-30, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code|Tokenmaxxing is the New \"Lines of Code\]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

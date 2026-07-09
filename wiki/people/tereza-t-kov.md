@@ -9,7 +9,6 @@ website: "https://www.terezatizkova.com"
 blog: "https://www.terezatizkova.com/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Tereza Tížková
 
 ## Official Role
@@ -28,3 +27,12 @@ In her free time, she likes to write blog, enjoys testing new products, and talk
 
 ## Scheduled Sessions
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]] — Rise of the Software Factory (2026-06-29, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

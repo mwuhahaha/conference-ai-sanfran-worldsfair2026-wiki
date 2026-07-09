@@ -8,7 +8,6 @@ twitter: "https://x.com/pgasawa"
 website: "https://pgasawa.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Parth Asawa
 
 ## Official Role
@@ -24,3 +23,12 @@ Parth Asawa is a PhD student at UC Berkeley advised by Professor Matei Zaharia a
 
 ## Scheduled Sessions
 - [[2026-06-30-parth-asawa-beyond-static-intelligence-evaluating-continual-learning]] — Beyond Static Intelligence: Evaluating Continual Learning (2026-06-30, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-parth-asawa-beyond-static-intelligence-evaluating-continual-learning|Beyond Static Intelligence: Evaluating Continual Learning]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

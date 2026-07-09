@@ -8,7 +8,6 @@ twitter: "https://x.com/retttx"
 website: "https://retttx.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Everett Berry
 
 ## Official Role
@@ -24,3 +23,12 @@ Everett Berry is the Head of GTM Engineering at Clay, where he pioneers the inte
 
 ## Scheduled Sessions
 - [[2026-07-01-everett-berry-gtm-engineering-the-technical-bits]] — GTM Engineering: The Technical Bits (2026-07-01, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-everett-berry-gtm-engineering-the-technical-bits|GTM Engineering: The Technical Bits]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

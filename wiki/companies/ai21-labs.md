@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["AI21 Labs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # AI21 Labs
 
 ## What It Is
@@ -24,3 +23,14 @@ AI21 Labs appears through 1 official speaker(s) connected to 1 scheduled session
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022|Stop Chunking Like It's 2022]]
+
+### Slide And Transcript Signals
+- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals
+  - Slide-derived themes: world, local, questions, united, states, mother, surname, name.
+  - Evidence links: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

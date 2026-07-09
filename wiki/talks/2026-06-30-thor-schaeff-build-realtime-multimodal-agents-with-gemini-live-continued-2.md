@@ -58,3 +58,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## Additional Photo Slide Evidence
 These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-gemini-live-slides]] - Google Photos Slides: Gemini Live API Workshop (confidence: medium).
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals
+  - Slide-derived themes: audio, engineering, future, gemini, flash, native, shipping, relentless.
+  - Evidence links: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Keycard"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Keycard
 
 ## What It Is
@@ -24,3 +23,12 @@ Keycard appears through 1 official speaker(s) connected to 1 scheduled session(s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-kim-maida-it-s-10pm-do-you-know-where-your-agents-are|It's 10pm. Do You Know Where Your Agents Are?]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

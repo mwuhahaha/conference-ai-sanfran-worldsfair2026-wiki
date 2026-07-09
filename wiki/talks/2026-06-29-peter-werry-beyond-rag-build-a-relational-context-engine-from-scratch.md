@@ -58,3 +58,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-5ID22ACI7IM-reconstructed-slides]]
 - [[youtube-5ID22ACI7IM-slides]]
 - Slide-derived terms: `code`, `context`, `unblocked`, `tickets`, `review`, `tests`, `description`, `rere`, `planning`, `architecture`, `compiles`, `fails`, `undlocked`, `callers`, `quality`, `team`, `comp`, `improve`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-5ID22ACI7IM` — 10 slide-derived text signals
+  - Slide-derived themes: context, callers, cover, today, remember, built, original, intent.
+  - Evidence links: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

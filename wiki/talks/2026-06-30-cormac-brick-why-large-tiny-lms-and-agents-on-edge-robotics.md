@@ -60,3 +60,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube--TiET_K-E_g-reconstructed-slides]]
 - [[youtube--TiET_K-E_g-slides]]
 - Slide-derived terms: `engineering`, `future`, `skills`, `tlms`, `engineer`, `edge`, `example`, `restaurant`, `roulette`, `tral`, `braintrust`, `workos`, `openal`, `tinyllmsand`, `agentsonedgedevices`, `bringing`, `state-of-the-artagenticskilstothe`, `edgewithopenmodels`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube--TiET_K-E_g` — 10 slide-derived text signals
+  - Slide-derived themes: skills, android, bringing, brick, principal, engineer, google, edge.
+  - Evidence links: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

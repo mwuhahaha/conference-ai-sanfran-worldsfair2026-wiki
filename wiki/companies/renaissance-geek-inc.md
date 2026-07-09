@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Renaissance Geek, Inc."]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Renaissance Geek, Inc.
 
 ## What It Is
@@ -25,3 +24,13 @@ Renaissance Geek, Inc. appears through 1 official speaker(s) connected to 2 sche
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-paul-bakaus-the-dark-arts-of-skill-engineering|The Dark Arts of Skill Engineering]]
+- [[2026-06-30-paul-bakaus-design-at-the-speed-of-adjectives|Design at the Speed of Adjectives]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

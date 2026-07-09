@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["uRun"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # uRun
 
 ## What It Is
@@ -24,3 +23,14 @@ uRun appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light|Generative Video at the Speed of Light]]
+
+### Slide And Transcript Signals
+- `youtube-EY4O9M6AsWI` — 7 slide-derived text signals
+  - Slide-derived themes: nope, white, knuckling, nodes, enough, banana, barely, made.
+  - Evidence links: [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]

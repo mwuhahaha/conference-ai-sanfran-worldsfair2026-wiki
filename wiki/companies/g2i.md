@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["G2i"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # G2i
 
 ## What It Is
@@ -26,3 +25,13 @@ G2i appears through 2 official speaker(s) connected to 2 scheduled session(s). T
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-gabriel-martinez-agents-don-t-have-coworkers-they-have-hostages|Agents Don't Have Coworkers, They Have Hostages]]
+- [[2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly|Benchmarks: The Good, the Bad, and the Ugly]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

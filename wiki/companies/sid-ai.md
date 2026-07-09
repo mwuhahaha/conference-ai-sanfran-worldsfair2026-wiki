@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["SID AI", "SID.ai"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # SID AI
 
 ## What It Is
@@ -25,3 +24,12 @@ SID AI appears through 2 official speaker(s) connected to 1 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search|Where RL Will Take Search]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
 - [[youtube-mQ7_Zje7WKE-slides]]
 - Slide-derived terms: `world`, `fair`, `engineering`, `amplify`, `microsoft`, `respondents`, `sfair`, `survey`, `partner`, `engineer`, `latent`, `space`, `swyx`, `machine`, `nathan`, `gradient`, `awss`, `graphite`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-mQ7_Zje7WKE` — 10 slide-derived text signals
+  - Slide-derived themes: respondents, engineering, survey, pear, barr, best, describes, title.
+  - Evidence links: [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

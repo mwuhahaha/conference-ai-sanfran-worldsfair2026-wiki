@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Fzb1a24hF-o-reconstructed-slides]]
 - [[youtube-Fzb1a24hF-o-slides]]
 - Slide-derived terms: `dagger`, `function`, `code`, `microsoft`, `will`, `functions`, `type`, `module`, `application`, `file`, `source`, `chain`, `python`, `java`, `project`, `prompt`, `show`, `pipeline`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-Fzb1a24hF-o` — 10 slide-derived text signals
+  - Slide-derived themes: objects, type, consistent, works, supported, started, tomorrow, june.
+  - Evidence links: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

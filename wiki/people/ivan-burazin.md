@@ -6,7 +6,6 @@ company: "Daytona"
 twitter: "https://x.com/ivanburazin"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ivan Burazin
 
 ## Official Role
@@ -20,3 +19,14 @@ Co-founder and CEO of Daytona; previously co-founded Codeanywhere and served as 
 
 ## Scheduled Sessions
 - [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]] — Kubernetes Is Not Your Sandbox (2026-06-30, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox|Kubernetes Is Not Your Sandbox]]
+
+### Slide And Transcript Signals
+- `youtube-e9sLVMN76qU` — 10 slide-derived text signals
+  - Slide-derived themes: most, today, tooling, breaks, moment, remove, human, loop.
+  - Evidence links: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]

@@ -6,7 +6,6 @@ company: "Sondermind"
 linkedin: "https://www.linkedin.com/in/akele-reed"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Akele Reed
 
 ## Official Role
@@ -20,3 +19,12 @@ Principal AI Engineer at SonderMind, Akele Reed leads the team behind the compan
 
 ## Scheduled Sessions
 - [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely]] — Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely|Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

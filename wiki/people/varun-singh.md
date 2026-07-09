@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/varun-singh-cs"
 twitter: "https://x.com/stochasticchasm"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Varun Singh
 
 ## Official Role
@@ -22,3 +21,12 @@ Pre-training lead at Arcee AI working on end to end pre-training of large langua
 
 ## Scheduled Sessions
 - [[2026-06-29-varun-singh-the-base-model-is-dead]] — The Base Model is Dead (2026-06-29, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-varun-singh-the-base-model-is-dead|The Base Model is Dead]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

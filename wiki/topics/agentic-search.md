@@ -3,7 +3,6 @@ title: "Agentic Search"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # Agentic Search
 
 ## Synopsis
@@ -136,3 +135,30 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - “And what I Turbo puffer what we think this actually means, you know if you break down rag into retrieval augmented generation, you know retrieval is not just vector search.” — [[youtube-UM6sFg_jdlE]]
 - “Um So what we're finding now is that a lot of people are no longer doing the simple rag you know the the Twitter quote unquote rag of just doing vector search once and throwing it into the context windows.” — [[youtube-UM6sFg_jdlE]]
 - “So you know not not a public benchmark but you can trust the numbers they give us.” — [[youtube-UM6sFg_jdlE]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers|Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers]]
+- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search|The unreasonable effectiveness of BM25 for agentic search]]
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
+- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search|Where RL Will Take Search]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models|Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
+- [[2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer|Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer]]
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
+
+### Slide And Transcript Signals
+- `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
+  - Slide-derived themes: built, queries, biden, information, traditional, search, engines, humans.
+  - Evidence links: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+  - Transcript signals: model, code, models, research, system, well, first, better.
+  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
+  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-eW_vxrjvERk` — 10 slide-derived text signals
+  - Slide-derived themes: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+  - Evidence links: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]

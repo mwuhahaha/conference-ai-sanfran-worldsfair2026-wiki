@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Browserbase"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Browserbase
 
 ## What It Is
@@ -30,3 +29,17 @@ Browserbase appears through 4 official speaker(s) connected to 4 scheduled sessi
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale|Deploying browser agents at scale]]
+- [[2026-06-29-shubhankar-srivastava-hill-climbing-skills-how-to-improve-agents-without-touching-the-model|Hill-climbing Skills: How to Improve Agents Without Touching the Model]]
+- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web|Bringing agents onto the world wide web]]
+- [[2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents|The Art of Building Verifiers for Computer Use Agents]]
+
+### Slide And Transcript Signals
+- `youtube-YRGjll7uu5w` — 8 slide-derived text signals
+  - Slide-derived themes: playwright, automation, stagehand, february, date, march, april, take.
+  - Evidence links: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]

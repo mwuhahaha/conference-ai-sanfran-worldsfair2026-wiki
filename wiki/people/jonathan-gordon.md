@@ -9,7 +9,6 @@ website: "https://www.reweaver.ai"
 blog: "https://www.reweaver.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Jonathan Gordon
 
 ## Official Role
@@ -26,3 +25,12 @@ JONATHAN GORDON is the Founder & CEO of ReWeaver AI, a platform that detects des
 
 ## Scheduled Sessions
 - [[2026-06-30-jonathan-gordon-the-design-code-roundtrip-that-isn-t]] — The Design-Code Roundtrip That Isn't (2026-06-30, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-jonathan-gordon-the-design-code-roundtrip-that-isn-t|The Design-Code Roundtrip That Isn't]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

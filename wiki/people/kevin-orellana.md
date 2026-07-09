@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/kevinorellana/"
 twitter: "https://x.com/KevssOrellana"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Kevin Orellana
 
 ## Official Role
@@ -22,3 +21,12 @@ Kevin Orellana is a software engineer at AWS, where he builds the sandboxed code
 
 ## Scheduled Sessions
 - [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code]] — 1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code (2026-06-30, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code|1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

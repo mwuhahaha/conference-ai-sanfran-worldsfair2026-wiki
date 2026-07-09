@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/tomashk/"
 twitter: "https://x.com/tomas_hk"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Tomás Hernando Kofman
 
 ## Official Role
@@ -22,3 +21,12 @@ Tomás Hernando Kofman is the founder of Not Diamond, the world's most powerful 
 
 ## Scheduled Sessions
 - [[2026-06-30-tom-s-hernando-kofman-intelligent-model-routing-frontier-performance-without-frontier-bills]] — Intelligent Model Routing: Frontier Performance Without Frontier Bills (2026-06-30, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-tom-s-hernando-kofman-intelligent-model-routing-frontier-performance-without-frontier-bills|Intelligent Model Routing: Frontier Performance Without Frontier Bills]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

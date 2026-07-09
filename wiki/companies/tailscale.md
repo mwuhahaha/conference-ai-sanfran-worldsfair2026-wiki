@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Tailscale"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Tailscale
 
 ## What It Is
@@ -24,3 +23,14 @@ Tailscale appears through 1 official speaker(s) connected to 1 scheduled session
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in|An AI Future Without the Lock-In]]
+
+### Slide And Transcript Signals
+- `youtube-BM2JX9hqsVQ` — 7 slide-derived text signals
+  - Slide-derived themes: engineering, future, sandbox, permissions, typically, managed, identity, provider.
+  - Evidence links: [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]

@@ -26,3 +26,14 @@ Stefania Druga is a Research Scientist at Sakana AI in Tokyo, Japan, focused on 
 
 ## Scheduled Sessions
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]] — Memory Harnesses for Long-Running Research Agents (2026-06-30, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
+
+### Slide And Transcript Signals
+- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
+  - Slide-derived themes: solution, water, growth, crystal, salt, input, sources, services.
+  - Evidence links: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]

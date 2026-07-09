@@ -8,7 +8,6 @@ twitter: "https://x.com/LakshyAAAgrawal"
 website: "https://lakshyaaagrawal.github.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Lakshya Agrawal
 
 ## Official Role
@@ -24,3 +23,12 @@ Lakshya A. Agrawal is the creator and maintainer of GEPA and a second-year EECS 
 
 ## Scheduled Sessions
 - [[2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization]] — Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization (2026-06-30, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization|Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

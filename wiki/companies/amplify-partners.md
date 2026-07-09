@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Amplify Partners"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Amplify Partners
 
 ## What It Is
@@ -24,3 +23,14 @@ Amplify Partners appears through 1 official speaker(s) connected to 1 scheduled 
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering|The 2026 State of AI Engineering]]
+
+### Slide And Transcript Signals
+- `youtube-mQ7_Zje7WKE` — 10 slide-derived text signals
+  - Slide-derived themes: respondents, engineering, survey, pear, barr, best, describes, title.
+  - Evidence links: [[youtube-mQ7_Zje7WKE]], [[youtube-mQ7_Zje7WKE-slides]], [[youtube-mQ7_Zje7WKE-dense-slides]], [[youtube-mQ7_Zje7WKE-reconstructed-slides]]

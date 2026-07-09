@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
 - [[youtube-LxQsQ3vZDqo-slides]]
 - Slide-derived terms: `watchnext`, `microsoft`, `recs`, `gemini`, `youtube`, `home`, `search`, `personalized`, `recommendation`, `peers`, `user`, `tasks`, `finds`, `races`, `women`, `graphite`, `windsurf`, `monegobb`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-LxQsQ3vZDqo` — 10 slide-derived text signals
+  - Slide-derived themes: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
+  - Evidence links: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -5,7 +5,6 @@ role: "FDE CTO"
 company: "Decagon"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Sunny Rekhi
 
 ## Official Role
@@ -19,3 +18,12 @@ Sunny Rekhi is FDE CTO at Decagon and speaks about how forward deployed engineer
 
 ## Scheduled Sessions
 - [[2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon]] — How Forward Deployed Engineering is done at Decagon (2026-06-29, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-sunny-rekhi-how-forward-deployed-engineering-is-done-at-decagon|How Forward Deployed Engineering is done at Decagon]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

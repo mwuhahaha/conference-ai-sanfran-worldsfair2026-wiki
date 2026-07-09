@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Prime Intellect"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Prime Intellect
 
 ## What It Is
@@ -29,3 +28,20 @@ Prime Intellect appears through 3 official speaker(s) connected to 4 scheduled s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-will-brown-the-prime-intellect-stack|The Prime Intellect Stack]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
+- [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards|Reinforcement Learning without Verifiable Rewards]]
+- [[2026-07-01-carter-abdallah-local-models-trust-control-optimization|Local Models: Trust, Control, Optimization]]
+
+### Slide And Transcript Signals
+- `youtube-PbHm2qKnu10` — 10 slide-derived text signals
+  - Slide-derived themes: performance, observed, compute, models, research, lead, prime, intellect.
+  - Evidence links: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
+- `youtube-JIsgyk0Paic` — 10 slide-derived text signals
+  - Slide-derived themes: level, great, benchmarks, interactive, conversational, grok, problem, calls.
+  - Evidence links: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]

@@ -48,3 +48,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Jty4s9-Jb78-reconstructed-slides]]
 - [[youtube-Jty4s9-Jb78-slides]]
 - Slide-derived terms: `context`, `full`, `weights`, `tokens`, `text`, `document`, `card`, `output`, `vector`, `databases`, `mage`, `april`, `kentucky`, `embeddings`, `things`, `knowledge`, `amazon`, `figma`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-Jty4s9-Jb78` — 10 slide-derived text signals
+  - Slide-derived themes: tokens, context, output, knowledge, given, user, second, blue.
+  - Evidence links: [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

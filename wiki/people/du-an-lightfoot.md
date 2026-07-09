@@ -24,3 +24,15 @@ Du'an Lightfoot is a Senior AI Engineer at Akamai Technologies, where his AI and
 
 ## Scheduled Sessions
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs (2026-06-29, 9:00am-11:00am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus|>-]]
+
+### Slide And Transcript Signals
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals
+  - Transcript signals: nova, amazon, code, server, browser, able, open, click.
+  - Slide-derived themes: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+  - Evidence links: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]

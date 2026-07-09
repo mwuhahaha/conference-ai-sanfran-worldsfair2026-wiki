@@ -4,7 +4,6 @@ category: "people"
 company: "ZS"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Abhilash Asokan
 
 ## Official Role
@@ -18,3 +17,12 @@ No official bio included in the speaker JSON.
 
 ## Scheduled Sessions
 - [[2026-07-01-subbiah-sethuraman-why-we-killed-our-multi-agent-pipeline-lessons-from-pharma-commercial-intelligence]] — Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence (2026-07-01, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-subbiah-sethuraman-why-we-killed-our-multi-agent-pipeline-lessons-from-pharma-commercial-intelligence|Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

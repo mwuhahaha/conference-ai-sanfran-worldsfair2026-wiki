@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Stripe"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Stripe
 
 ## What It Is
@@ -30,3 +29,15 @@ Stripe appears through 4 official speaker(s) connected to 4 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-nilofer-rajpurkar-inside-the-ai-economy-what-stripe-s-data-reveals|Inside the AI economy: What Stripe’s data reveals]]
+- [[2026-06-30-andrew-garvin-how-to-avoid-disaster-when-vibe-coding-a-billing-engine|How to avoid disaster when vibe-coding a billing engine]]
+- [[2026-07-01-jennifer-lee-building-safe-payment-infrastructure-for-machine-to-machine-commerce|Building safe payment infrastructure for machine-to-machine commerce]]
+- [[2026-07-01-anna-spysz-teaching-agents-to-pay|Teaching agents to pay]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

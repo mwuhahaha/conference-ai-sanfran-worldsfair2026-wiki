@@ -6,7 +6,6 @@ company: "TikTok"
 linkedin: "https://www.linkedin.com/in/salman96/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Salman Munaf
 
 ## Official Role
@@ -20,3 +19,12 @@ Salman Munaf is a Lead Site Reliability Engineer at TikTok, where he builds and 
 
 ## Scheduled Sessions
 - [[2026-07-01-salman-munaf-ai-agents-are-just-distributed-systems-now]] — AI Agents Are Just Distributed Systems Now (2026-07-01, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-salman-munaf-ai-agents-are-just-distributed-systems-now|AI Agents Are Just Distributed Systems Now]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

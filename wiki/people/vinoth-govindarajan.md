@@ -9,7 +9,6 @@ website: "https://theagentstack.substack.com/"
 blog: "https://theagentstack.substack.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Vinoth Govindarajan
 
 ## Official Role
@@ -30,3 +29,12 @@ Outside of his work, he is the co-author of Engineering Lakehouses with Open Tab
 
 ## Scheduled Sessions
 - [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did]] — Your Agent Didn’t Fail. Your Harness Did. (2026-06-29, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did|Your Agent Didn’t Fail. Your Harness Did.]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

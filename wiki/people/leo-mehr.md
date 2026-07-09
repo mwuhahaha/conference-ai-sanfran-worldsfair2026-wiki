@@ -8,7 +8,6 @@ twitter: "https://x.com/leomehr"
 website: "https://leomehr.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Leo Mehr
 
 ## Official Role
@@ -24,3 +23,12 @@ Leo is a Director of Engineering at Ramp, where he's built the Forward Deployed 
 
 ## Scheduled Sessions
 - [[2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp]] — How Forward Deployed Engineering is done at Ramp (2026-06-29, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-leo-mehr-how-forward-deployed-engineering-is-done-at-ramp|How Forward Deployed Engineering is done at Ramp]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

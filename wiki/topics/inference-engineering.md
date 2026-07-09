@@ -3,7 +3,6 @@ title: "Inference Engineering"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # Inference Engineering
 
 ## Synopsis
@@ -133,3 +132,30 @@ Invest in inference engineering once prototypes need predictable user experience
 - “Um you need to before you start doing anything, you need to know what it is that you're measuring.” — [[youtube-fWXJM-J0ZB8]]
 - “So it's not just one pass, it does multiple passes, but it gets to attend to the future tokens and so on.” — [[youtube-r305-aQTaU0]]
 - “All right, so So, when we're serving uh an auto regressive model, these these chips are memory bound.” — [[youtube-r305-aQTaU0]]
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale|Operating Distributed Inference Systems at Scale]]
+- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production|Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production]]
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus|>-]]
+- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era|Open-Source Inference Engineering for the Agentic Era]]
+- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code|Tokenmaxxing is the New \"Lines of Code\]]
+- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens|All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens]]
+- [[2026-07-01-sheilah-kirui-seeing-the-plumbing-profiling-vllm-speculative-decoding-on-nvidia-blackwell|Seeing the Plumbing: Profiling vLLM Speculative Decoding on NVIDIA Blackwell]]
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2|2 hr deep dive on LLM Inference at Scale — Part 1 of 2]]
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2|2 hr deep dive on LLM Inference at Scale — Part 2 of 2]]
+- [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy|Routing LLM Inference in Production: From Engine Signals to Policy]]
+
+### Slide And Transcript Signals
+- `youtube-APh1Vx0oLmQ` — 7 slide-derived text signals
+  - Slide-derived themes: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.
+  - Evidence links: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals
+  - Transcript signals: nova, amazon, code, server, browser, able, open, click.
+  - Slide-derived themes: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+  - Evidence links: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
+- `youtube-tzRvcTEapzo` — 10 slide-derived text signals
+  - Slide-derived themes: mixture, experts, queen, research, focus, training, cores, buffers.
+  - Evidence links: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]

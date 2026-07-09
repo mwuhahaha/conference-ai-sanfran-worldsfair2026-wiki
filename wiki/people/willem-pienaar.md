@@ -8,7 +8,6 @@ twitter: "https://x.com/willpienaar"
 website: "https://willem.co"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Willem Pienaar
 
 ## Official Role
@@ -24,3 +23,12 @@ Willem Pienaar is co-founder and CTO of Cleric, where he is building an autonomo
 
 ## Scheduled Sessions
 - [[2026-07-01-willem-pienaar-your-agent-can-t-tell-if-it-s-right]] — Your Agent Can't Tell If It's Right (2026-07-01, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-willem-pienaar-your-agent-can-t-tell-if-it-s-right|Your Agent Can't Tell If It's Right]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

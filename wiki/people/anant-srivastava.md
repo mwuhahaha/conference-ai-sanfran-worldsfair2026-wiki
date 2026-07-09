@@ -6,7 +6,6 @@ company: "Oracle"
 linkedin: "https://www.linkedin.com/in/anantds"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Anant Srivastava
 
 ## Official Role
@@ -20,3 +19,12 @@ Anant Srivastava is a Principal Technologist for Data and AI Platforms at Oracle
 
 ## Scheduled Sessions
 - [[2026-06-30-anant-srivastava-prompt-memory-weights-the-architecture-decisions-most-ai-teams-make-by-accident]] — Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident (2026-06-30, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-anant-srivastava-prompt-memory-weights-the-architecture-decisions-most-ai-teams-make-by-accident|Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

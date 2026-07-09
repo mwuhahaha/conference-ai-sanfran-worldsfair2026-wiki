@@ -8,7 +8,6 @@ twitter: "https://x.com/grmcameron"
 website: "https://artificialanalysis.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # George Cameron
 
 ## Official Role
@@ -24,3 +23,14 @@ Co-Founder at Artificial Analysis, the leading independent AI benchmarking compa
 
 ## Scheduled Sessions
 - [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI (2026-06-30, 4:50pm-5:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-george-cameron-trends-in-ai|Trends in AI]]
+
+### Slide And Transcript Signals
+- `youtube-sRpqPgKeXNk` — 10 slide-derived text signals
+  - Slide-derived themes: analysis, artificial, intelligence, index, tokens, models, language, output.
+  - Evidence links: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]

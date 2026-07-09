@@ -9,7 +9,6 @@ website: "https://edginary.io"
 blog: "https://x.com/omribruchim"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Omri Bruchim
 
 ## Official Role
@@ -26,3 +25,12 @@ Omri Bruchim is an Engineering Group Manager at monday.com, where he leads the A
 
 ## Scheduled Sessions
 - [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context]] — From Systems of Record to Systems of Context (2026-07-01, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

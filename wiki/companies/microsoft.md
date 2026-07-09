@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Microsoft"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Microsoft
 
 ## What It Is
@@ -58,3 +57,33 @@ Microsoft appears through 14 official speaker(s) connected to 22 scheduled sessi
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents|From zero to deployed on Azure with AI agents]]
+- [[2026-06-29-pamela-fox-the-model-swap-workshop|The model swap workshop]]
+- [[2026-06-29-pamela-fox-use-copilot-across-cli-dev-and-cloud-workflows-to-move-faster-end-to-end|Use Copilot across CLI, dev, and cloud workflows to move faster end-to-end]]
+- [[2026-06-29-pamela-fox-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry|Observe, optimize and protect your hosted agents in Microsoft Foundry]]
+- [[2026-06-29-maria-bledsoe-using-ai-tools-to-teach-old-apps-new-tricks|Using AI tools to teach old apps new tricks]]
+- [[2026-06-29-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people|Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People]]
+- [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps|Get Started with Models in Microsoft Foundry to Build AI Apps]]
+- [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]]
+- [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service|From framework to runtime: running agents with Foundry Agent Service]]
+- [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack|OpenAI, Anthropic, or agent frameworks: choose the right AI stack]]
+
+### Slide And Transcript Signals
+- `youtube-1t-9-s1brcg` — 10 slide-derived text signals
+  - Slide-derived themes: microsoft, start, access, quick, templates, powdery, bran, expert.
+  - Evidence links: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
+- `youtube-eOxOzcw70f0` — 10 slide-derived text signals
+  - Slide-derived themes: code, vibes, learning, clone, even, exists, fully, give.
+  - Evidence links: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
+  - Transcript signals: model, code, models, loop, well, software, first, team.
+  - Slide-derived themes: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+  - Evidence links: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals
+  - Slide-derived themes: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+  - Evidence links: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

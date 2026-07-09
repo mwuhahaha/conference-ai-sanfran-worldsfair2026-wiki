@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Zions Bancorporation"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Zions Bancorporation
 
 ## What It Is
@@ -25,3 +24,13 @@ Zions Bancorporation appears through 1 official speaker(s) connected to 2 schedu
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2|2 hr deep dive on LLM Inference at Scale — Part 1 of 2]]
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2|2 hr deep dive on LLM Inference at Scale — Part 2 of 2]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

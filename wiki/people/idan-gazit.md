@@ -9,7 +9,6 @@ website: "https://gazit.me"
 blog: "https://gazit.me"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Idan Gazit
 
 ## Official Role
@@ -28,3 +27,14 @@ Idan Gazit leads GitHub Next, the birthplace of GitHub Copilot, and many more pr
 - [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app]] — Build agents fast with GitHub Copilot (from idea to working app) (2026-06-29, 10:45am-11:05am)
 - [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app-2-25pm-2-45pm-expo-stage-2-nw-176]] — Build agents fast with GitHub Copilot (from idea to working app) (2026-06-29, 2:25pm-2:45pm)
 - [[2026-07-01-idan-gazit-realtime-multiplayer-automation-and-you]] — Realtime multiplayer, automation, and you! (2026-07-01, 2:50pm-3:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app|Build agents fast with GitHub Copilot (from idea to working app)]]
+- [[2026-06-29-idan-gazit-build-agents-fast-with-github-copilot-from-idea-to-working-app-2-25pm-2-45pm-expo-stage-2-nw-176|Build agents fast with GitHub Copilot (from idea to working app)]]
+- [[2026-07-01-idan-gazit-realtime-multiplayer-automation-and-you|Realtime multiplayer, automation, and you!]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -5,7 +5,6 @@ role: "Forward Deployed Engineer Lead"
 company: "AssemblyAI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Matt Lawler
 
 ## Official Role
@@ -19,3 +18,12 @@ Leads FDE for Onboarding at AssemblyAI, helping teams ship speech-to-text and vo
 
 ## Scheduled Sessions
 - [[2026-06-30-matt-lawler-fde-playbook-build-an-ai-support-agent-and-give-it-a-voice]] — FDE Playbook: Build an AI Support Agent and Give It a Voice (2026-06-30, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-matt-lawler-fde-playbook-build-an-ai-support-agent-and-give-it-a-voice|FDE Playbook: Build an AI Support Agent and Give It a Voice]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

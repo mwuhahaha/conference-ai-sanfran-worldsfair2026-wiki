@@ -6,7 +6,6 @@ company: "Ramp"
 linkedin: "https://www.linkedin.com/in/armanvaziri/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Arman Vaziri
 
 ## Official Role
@@ -20,3 +19,12 @@ Software engineer building the agents and data platform powering Ramp’s growth
 
 ## Scheduled Sessions
 - [[2026-07-01-arman-vaziri-the-building-blocks-of-gtm-orchestration]] — The Building Blocks of GTM Orchestration (2026-07-01, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-arman-vaziri-the-building-blocks-of-gtm-orchestration|The Building Blocks of GTM Orchestration]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

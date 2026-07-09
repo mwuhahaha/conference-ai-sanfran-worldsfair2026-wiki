@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/waldenyan"
 twitter: "https://x.com/walden_yan"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Walden Yan
 
 ## Official Role
@@ -23,3 +22,15 @@ Walden Yan is the co-founder and Chief Product Officer of Cognition, the AI lab 
 ## Scheduled Sessions
 - [[2026-07-01-nader-khalil-model-routing]] — Model Routing (2026-07-01, 3:20pm-3:40pm)
 - [[2026-07-01-nader-khalil-model-routing-3-45pm-4-05pm-track-4-549]] — Model Routing (2026-07-01, 3:45pm-4:05pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-nader-khalil-model-routing|Model Routing]]
+- [[2026-07-01-nader-khalil-model-routing-3-45pm-4-05pm-track-4-549|Model Routing]]
+
+### Slide And Transcript Signals
+- `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
+  - Slide-derived themes: couple, minutes, earlier, inference, largest, market, ever, software.
+  - Evidence links: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

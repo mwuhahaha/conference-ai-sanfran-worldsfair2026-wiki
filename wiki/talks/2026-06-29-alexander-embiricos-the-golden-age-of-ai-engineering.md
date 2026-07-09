@@ -59,3 +59,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-yJHw33cVeHo-reconstructed-slides]]
 - [[youtube-yJHw33cVeHo-slides]]
 - Slide-derived terms: `gpt-40`, `models`, `intelligence`, `cases`, `gpt-4`, `world`, `model`, `string`, `custom`, `openal`, `fair`, `toolbox`, `cheaper`, `trained`, `vision`, `next`, `gpt-3`, `natural`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-yJHw33cVeHo` — 10 slide-derived text signals
+  - Slide-derived themes: cases, text, vision, voice, outlook, research, deployment, company.
+  - Evidence links: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -1,11 +1,10 @@
 ---
 title: "MCP Apps as Agentic App Runtime"
 category: "topics"
-sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Highlight synthesis"]
+sourceLabels: ["Official conference schedule", "Related YouTube transcript evidence", "Synthesis"]
 highlighted: "true"
 highlightPriority: "high"
 ---
-
 # MCP Apps as Agentic App Runtime
 
 ## What It Is
@@ -29,3 +28,16 @@ MCP Apps as an agentic app runtime is the idea that MCP servers can return inter
 
 ## Evidence Boundary
 This page is grounded in official schedule context and related MCP UI/MCP Apps transcript evidence. It should be updated as MCP Apps implementation details and SEP-1865 adoption evolve.
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
+- [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents|Rebuilding the web for agents]]
+
+### Slide And Transcript Signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+  - Transcript signals: apps, host, claude, back, chatgpt, look, mcpui, chat.
+  - Slide-derived themes: apps, maintainer, labs, used, text, community, easy, adoption.
+  - Evidence links: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]

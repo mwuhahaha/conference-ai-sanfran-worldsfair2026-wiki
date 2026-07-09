@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Oxylabs"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Oxylabs
 
 ## What It Is
@@ -26,3 +25,13 @@ Oxylabs appears through 2 official speaker(s) connected to 2 scheduled session(s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai|How Web Data Infrastructure Powers the Next Generation of AI]]
+- [[2026-07-01-giedrius-steimantas-the-missing-layer-in-agentic-ai|The Missing Layer in Agentic AI]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

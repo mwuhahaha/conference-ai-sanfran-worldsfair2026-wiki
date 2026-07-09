@@ -6,7 +6,6 @@ company: "Twilio Inc."
 linkedin: "https://www.linkedin.com/in/kanish-manuja-a99bb923/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Kanish Manuja
 
 ## Official Role
@@ -24,3 +23,12 @@ In this session, Kanish will share practical lessons from designing and operatin
 
 ## Scheduled Sessions
 - [[2026-06-29-kanish-manuja-productionizing-llm-gateways-architecture-tradeoffs-and-hard-lessons-from-the-trenches]] — Productionizing LLM Gateways: Architecture, Tradeoffs, and Hard Lessons from the Trenches (2026-06-29, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-kanish-manuja-productionizing-llm-gateways-architecture-tradeoffs-and-hard-lessons-from-the-trenches|Productionizing LLM Gateways: Architecture, Tradeoffs, and Hard Lessons from the Trenches]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

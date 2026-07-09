@@ -5,7 +5,6 @@ role: "Co-Founder"
 company: "Introspection"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Julian Bright
 
 ## Official Role
@@ -19,3 +18,12 @@ Julian Bright is a co-founder at Introspection, building infrastructure for agen
 
 ## Scheduled Sessions
 - [[2026-06-30-roland-gavrilescu-autoresearch-in-the-wild]] — Autoresearch in the wild (2026-06-30, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-roland-gavrilescu-autoresearch-in-the-wild|Autoresearch in the wild]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

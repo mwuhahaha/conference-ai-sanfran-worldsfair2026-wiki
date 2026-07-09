@@ -5,7 +5,6 @@ role: "Chief Product Officer and Co-Founder"
 company: "DRUID AI"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dan Bălăceanu
 
 ## Official Role
@@ -19,3 +18,12 @@ Dan Bălăceanu is Chief Product Officer and Co-Founder at DRUID AI. He works on
 
 ## Scheduled Sessions
 - [[2026-06-29-andreea-ple-ea-would-your-ai-agent-get-the-job-a-performance-review-framework-for-enterprise-agents]] — Would your AI agent get the job? A performance review framework for enterprise agents (2026-06-29, 11:40am-12:00pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-andreea-ple-ea-would-your-ai-agent-get-the-job-a-performance-review-framework-for-enterprise-agents|Would your AI agent get the job? A performance review framework for enterprise agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

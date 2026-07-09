@@ -8,7 +8,6 @@ twitter: "https://x.com/vinooganesh"
 website: "https://vinoo.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Vinoo Ganesh
 
 ## Official Role
@@ -25,3 +24,13 @@ CEO & Co-Founder of Kepler, backed by founders of OpenAI and Facebook AI, buildi
 ## Scheduled Sessions
 - [[2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler]] — How Forward Deployed Engineering is done at Kepler (2026-06-29, 3:20pm-3:40pm)
 - [[2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services]] — How Kepler Built Verifiable AI for Financial Services (2026-07-01, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler|How Forward Deployed Engineering is done at Kepler]]
+- [[2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services|How Kepler Built Verifiable AI for Financial Services]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

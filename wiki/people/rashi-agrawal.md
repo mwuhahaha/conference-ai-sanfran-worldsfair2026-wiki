@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/rashi283/"
 website: "https://sessionize.com/rashiagrawal/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Rashi Agrawal
 
 ## Official Role
@@ -28,3 +27,12 @@ Beyond the office, Rashi is a global explorer who has traveled to over 50 countr
 
 ## Scheduled Sessions
 - [[2026-07-01-rashi-agrawal-guardrails-first-engineering-member-facing-health-ai]] — Guardrails First: Engineering Member-Facing Health AI (2026-07-01, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-rashi-agrawal-guardrails-first-engineering-member-facing-health-ai|Guardrails First: Engineering Member-Facing Health AI]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

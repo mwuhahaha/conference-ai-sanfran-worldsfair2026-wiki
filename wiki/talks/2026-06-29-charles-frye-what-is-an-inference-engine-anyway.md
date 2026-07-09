@@ -56,3 +56,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
 - [[youtube-DeFF3J8T5Pk-slides]]
 - Slide-derived terms: `microsoft`, `open`, `models`, `every`, `benchmarked`, `world`, `fair`, `graphite`, `windsurf`, `moneobb`, `mdaily`, `augmentcode`, `workos`, `weights`, `source`, `engines`, `getting`, `better`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-DeFF3J8T5Pk` — 9 slide-derived text signals
+  - Slide-derived themes: open, engine, advisor, source, engines, getting, better, quickly.
+  - Evidence links: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

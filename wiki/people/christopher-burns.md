@@ -9,7 +9,6 @@ website: "https://burnedchris.com"
 blog: "https://burnedchris.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Christopher Burns
 
 ## Official Role
@@ -26,3 +25,12 @@ Christopher Burns is the founder of Inth, building developer-first privacy compl
 
 ## Scheduled Sessions
 - [[2026-07-01-christopher-burns-how-we-got-llms-to-recommend-our-open-source-library-without-paying-or-plug-ins]] — How We Got LLMs to Recommend Our Open Source Library (Without Paying or Plug-ins) (2026-07-01, 1:55pm-2:15pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-christopher-burns-how-we-got-llms-to-recommend-our-open-source-library-without-paying-or-plug-ins|How We Got LLMs to Recommend Our Open Source Library (Without Paying or Plug-ins)]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

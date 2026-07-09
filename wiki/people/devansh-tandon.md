@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/devanshtandon/"
 twitter: "https://x.com/devanshtandon_"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Devansh Tandon
 
 ## Official Role
@@ -27,3 +26,15 @@ Devansh graduated Magna Cum Laude from Yale University, with a BS in Computer Sc
 ## Scheduled Sessions
 - [[2026-06-29-devansh-tandon-tokens-in-engagement-out-training-llm-recommenders]] — Tokens In, Engagement Out: Training LLM-Recommenders (2026-06-29, 10:45am-11:05am)
 - [[2026-06-29-devansh-tandon-open-q-and-a-llm-recsys]] — Open Q&A: LLM Recsys (2026-06-29, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-devansh-tandon-tokens-in-engagement-out-training-llm-recommenders|Tokens In, Engagement Out: Training LLM-Recommenders]]
+- [[2026-06-29-devansh-tandon-open-q-and-a-llm-recsys|Open Q&A: LLM Recsys]]
+
+### Slide And Transcript Signals
+- `youtube-LxQsQ3vZDqo` — 10 slide-derived text signals
+  - Slide-derived themes: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
+  - Evidence links: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]

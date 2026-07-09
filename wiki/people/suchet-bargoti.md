@@ -6,7 +6,6 @@ company: "Skydio"
 linkedin: "https://www.linkedin.com/in/sbargoti"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Suchet Bargoti
 
 ## Official Role
@@ -20,3 +19,12 @@ Suchet Bargoti is Director of Inspection and Mapping at Skydio, where he leads w
 
 ## Scheduled Sessions
 - [[2026-06-30-suchet-bargoti-from-manual-drones-to-autonomous-multi-agent-missions]] — From Manual Drones to Autonomous Multi-Agent Missions (2026-06-30, 2:25pm-2:45pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-suchet-bargoti-from-manual-drones-to-autonomous-multi-agent-missions|From Manual Drones to Autonomous Multi-Agent Missions]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

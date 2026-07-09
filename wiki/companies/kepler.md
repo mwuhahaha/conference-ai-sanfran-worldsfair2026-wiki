@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Kepler"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Kepler
 
 ## What It Is
@@ -25,3 +24,13 @@ Kepler appears through 1 official speaker(s) connected to 2 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-vinoo-ganesh-how-forward-deployed-engineering-is-done-at-kepler|How Forward Deployed Engineering is done at Kepler]]
+- [[2026-07-01-vinoo-ganesh-how-kepler-built-verifiable-ai-for-financial-services|How Kepler Built Verifiable AI for Financial Services]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

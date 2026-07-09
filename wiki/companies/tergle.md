@@ -3,9 +3,8 @@ title: "Tergle"
 category: "companies"
 aliases: ["Tergle (YC W25)"]
 website: "https://tergle.com/"
-sourceLabels: ["Public company site", "Y Combinator profile", "Public YouTube video frames", "Highlight synthesis"]
+sourceLabels: ["Public company site", "Y Combinator profile", "Public YouTube video frames", "Synthesis"]
 ---
-
 # Tergle
 
 ## What It Is
@@ -32,3 +31,12 @@ Y Combinator's public profile describes Tergle as "AI Agents for Audit" and says
 
 ## Evidence Boundary
 Tergle's site and YC profile support the company description. Its relationship to the World's Fair corpus is through William Tarr's slide/profile context, not through an official scheduled Tergle session found in this wiki.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- No related scheduled session was found in this pass.
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Upside"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Upside
 
 ## What It Is
@@ -24,3 +23,12 @@ Upside appears through 1 official speaker(s) connected to 1 scheduled session(s)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

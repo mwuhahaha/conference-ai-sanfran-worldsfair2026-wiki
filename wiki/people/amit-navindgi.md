@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/amitnavindgi/"
 twitter: "https://x.com/amitnavindgi"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Amit Navindgi
 
 ## Official Role
@@ -22,3 +21,12 @@ Amit Navindgi is a Senior Staff Software Engineer and AI lead at Zoox, where he 
 
 ## Scheduled Sessions
 - [[2026-06-30-amit-navindgi-from-self-driving-monorepo-to-self-driving-cars]] — From Self-Driving Monorepo to Self-Driving Cars (2026-06-30, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-amit-navindgi-from-self-driving-monorepo-to-self-driving-cars|From Self-Driving Monorepo to Self-Driving Cars]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

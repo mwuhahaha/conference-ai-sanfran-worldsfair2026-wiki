@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/lovina25"
 blog: "https://developer.nvidia.com/blog/author/ldmello"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Lovina Dmello
 
 ## Official Role
@@ -22,3 +21,12 @@ Lovina Dmello is a senior infrastructure software engineer on the Deep Learning 
 
 ## Scheduled Sessions
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features (2026-06-29, 11:10am-11:30am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features|Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

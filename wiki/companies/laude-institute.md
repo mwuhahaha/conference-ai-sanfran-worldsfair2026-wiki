@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Laude Institute"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Laude Institute
 
 ## What It Is
@@ -25,3 +24,14 @@ Laude Institute appears through 2 official speaker(s) connected to 1 scheduled s
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
+
+### Slide And Transcript Signals
+- `youtube-liG97YXaTSA` — 2 slide-derived text signals
+  - Slide-derived themes: reasoning, samples, trivia, questions, general, model.
+  - Evidence links: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]

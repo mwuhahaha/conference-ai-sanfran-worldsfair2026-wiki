@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Microsoft Research"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Microsoft Research
 
 ## What It Is
@@ -24,3 +23,12 @@ Microsoft Research appears through 1 official speaker(s) connected to 1 schedule
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents|The Art of Building Verifiers for Computer Use Agents]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

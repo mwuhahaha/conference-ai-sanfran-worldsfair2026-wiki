@@ -26,3 +26,12 @@ Alex Bauer is co-founder of Upside, the data layer for GTM engineers. His AI Eng
 
 ## Scheduled Sessions
 - [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem]] — How Juries and Librarians Can Solve GTM's AI Trust Problem (2026-07-01, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

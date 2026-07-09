@@ -56,3 +56,18 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Transcript Markdown
 - [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-5N33E9tC400` — 10 slide-derived text signals
+  - Slide-derived themes: look, maybe, david, fare, seat, possible, today, worth.
+  - Evidence links: [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+  - Transcript signals: code, model, back, system, well, first, today, even.
+  - Slide-derived themes: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+  - Evidence links: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -3,7 +3,6 @@ title: "AI Sandboxes"
 category: "topics"
 sourceLabels: ["Slide/video-derived supporting context"]
 ---
-
 # AI Sandboxes
 
 ## Synopsis
@@ -129,3 +128,32 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[youtube-qlHaO6laBlM]] — Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)
 - [[youtube-ghJmWQCIHRM]] — The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google
 - [[youtube-HvZXAOZ3iv8]] — What Lies Beneath the API — Benjamin Cowen, Modal
+
+## Source-Derived Enrichment
+This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+
+### Talk Evidence
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert|Your agent needs a sandbox, not a desert]]
+- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems|Unlock Agent Autonomy: The Runtime for AI-Native Systems]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']]
+- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox|Kubernetes Is Not Your Sandbox]]
+- [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code|1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code]]
+- [[2026-06-30-adam-azzam-don-t-build-agents-build-environments|Don’t build agents, build environments]]
+- [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox|How I learned to stop worrying and love the sandbox]]
+
+### Slide And Transcript Signals
+- `youtube-rcsliSIy_YU` — 9 slide-derived text signals
+  - Slide-derived themes: code, showcase, automating, massive, robert, brennan, generation, implement.
+  - Evidence links: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
+- `youtube-bmWZk9vTze0` — 10 slide-derived text signals
+  - Slide-derived themes: query, client, info, table, tool, call, response, await.
+  - Evidence links: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
+- `youtube-wsFd22SL1s8` — 10 slide-derived text signals
+  - Slide-derived themes: clone, flask, project, code, create, scratch, systems, chat.
+  - Evidence links: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+- `youtube-e9sLVMN76qU` — 10 slide-derived text signals
+  - Slide-derived themes: most, today, tooling, breaks, moment, remove, human, loop.
+  - Evidence links: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]

@@ -72,3 +72,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-rcsliSIy_YU-reconstructed-slides]]
 - [[youtube-rcsliSIy_YU-slides]]
 - Slide-derived terms: `null`, `info`, `event`, `name`, `lineno`, `filename`, `asctine`, `sockets.py`, `message`, `openhands`, `websocket`, `file`, `asctime`, `done`, `server`, `disconnected`, `ineno`, `code`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-rcsliSIy_YU` — 9 slide-derived text signals
+  - Slide-derived themes: code, showcase, automating, massive, robert, brennan, generation, implement.
+  - Evidence links: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

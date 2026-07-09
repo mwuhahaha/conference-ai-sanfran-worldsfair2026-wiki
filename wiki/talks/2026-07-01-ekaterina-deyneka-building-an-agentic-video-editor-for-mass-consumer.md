@@ -101,3 +101,14 @@ The product lesson is that complex agent workflows should disappear behind simpl
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached related-video transcripts. Related videos remain supporting context unless explicitly verified as exact session recordings.
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-AheG9p_JXVw` — 1,340 transcript words
+  - Transcript signals: editing, media, editor, case, real, users, user, everything.
+  - Evidence links: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

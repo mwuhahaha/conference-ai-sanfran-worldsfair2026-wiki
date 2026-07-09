@@ -9,7 +9,6 @@ website: "https://www.ahmedahres.com"
 blog: "https://www.ahmedahres.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ahmed Ahres
 
 ## Official Role
@@ -26,3 +25,12 @@ Head of Product & GTM @ Reactor. Previously was the first ever intern at Revolut
 
 ## Scheduled Sessions
 - [[2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers]] — The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers (2026-07-01, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers|The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

@@ -49,3 +49,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-NuePCNMpWGc-reconstructed-slides]]
 - [[youtube-NuePCNMpWGc-slides]]
 - Slide-derived terms: `changed`, `braintrust`, `workos`, `openal`, `sonor`, `software`, `engineering`, `good`, `hard`, `communicate`, `much`, `programming`, `alin`, `last`, `months`, `typing`, `computer`, `code`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-NuePCNMpWGc` — 4 slide-derived text signals
+  - Slide-derived themes: programming, changed, last, benchmarks, enough, info, demo, stop.
+  - Evidence links: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

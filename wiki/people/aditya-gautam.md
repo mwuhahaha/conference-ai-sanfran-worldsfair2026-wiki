@@ -6,7 +6,6 @@ company: "Meta"
 linkedin: "https://www.linkedin.com/in/aditya-gautam-68233a30/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Aditya Gautam
 
 ## Official Role
@@ -20,3 +19,12 @@ Aditya Gautam is a seasoned AI practitioner and leader specializing in multimoda
 
 ## Scheduled Sessions
 - [[2026-06-29-aditya-gautam-modality-misalignment-and-originality-attribution-in-short-form-video-a-multi-agent-approach-at-platform-scale]] — Modality Misalignment and Originality Attribution in Short-Form Video: A Multi-Agent Approach at Platform Scale (2026-06-29, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-aditya-gautam-modality-misalignment-and-originality-attribution-in-short-form-video-a-multi-agent-approach-at-platform-scale|Modality Misalignment and Originality Attribution in Short-Form Video: A Multi-Agent Approach at Platform Scale]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

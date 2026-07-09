@@ -7,7 +7,6 @@ linkedin: "https://www.linkedin.com/in/nishantgupta-ai/"
 blog: "https://buzzingtech.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Nishant Gupta
 
 ## Official Role
@@ -28,3 +27,14 @@ I am passionate about building scalable, fault-tolerant systems and translating 
 
 ## Scheduled Sessions
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale (2026-07-01, 10:45am-11:05am)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale|Operating Distributed Inference Systems at Scale]]
+
+### Slide And Transcript Signals
+- `youtube-APh1Vx0oLmQ` — 7 slide-derived text signals
+  - Slide-derived themes: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.
+  - Evidence links: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]

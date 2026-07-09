@@ -60,3 +60,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-k8cnVCMYmNc-reconstructed-slides]]
 - [[youtube-k8cnVCMYmNc-slides]]
 - Slide-derived terms: `temporal`, `completed`, `python`, `tools`, `alerts`, `pycache`, `here`, `result`, `weather`, `openal`, `instructions`, `today`, `york`, `skies`, `clear`, `start_workflow`, `model`, `support`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-k8cnVCMYmNc` — 10 slide-derived text signals
+  - Slide-derived themes: instructions, python, available, distributed, typescript, developer, advocate, temporal.
+  - Evidence links: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -9,7 +9,6 @@ website: "https://www.greptile.com"
 blog: "https://www.greptile.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Daksh Gupta
 
 ## Official Role
@@ -26,3 +25,12 @@ Daksh is the co-founder/CEO of Greptile. Greptile is building AI agents that rev
 
 ## Scheduled Sessions
 - [[2026-06-29-daksh-gupta-what-we-learned-by-analyzing-1m-ai-generated-prs]] — What we learned by analyzing 1M AI-generated PRs (2026-06-29, 12:05pm-12:25pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-daksh-gupta-what-we-learned-by-analyzing-1m-ai-generated-prs|What we learned by analyzing 1M AI-generated PRs]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

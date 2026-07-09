@@ -70,3 +70,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-PmZDupFP3UM-reconstructed-slides]]
 - [[youtube-PmZDupFP3UM-slides]]
 - Slide-derived terms: `increase`, `code`, `google`, `engineering`, `genal`, `adoption`, `deepmind`, `down`, `leadership`, `ai-assisted`, `development`, `quality`, `speed`, `seeing`, `impacts`, `strategy`, `playbook`, `senior`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-PmZDupFP3UM` — 10 slide-derived text signals
+  - Slide-derived themes: engineering, claude, against, expert, forecasts, developer, slows, down.
+  - Evidence links: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -70,3 +70,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-BZtD0yYAgCQ-reconstructed-slides]]
 - [[youtube-BZtD0yYAgCQ-slides]]
 - Slide-derived terms: `than`, `awss`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augment`, `code`, `workos`, `bitter`, `layout`, `maximilliannyc`, `ihelp`, `ship`, `doyou`, `want`, `tobuild`, `whatwill`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-BZtD0yYAgCQ` — 5 slide-derived text signals
+  - Slide-derived themes: ship, future, programming, bret, victor, bitter, layout.
+  - Evidence links: [[youtube-BZtD0yYAgCQ]], [[youtube-BZtD0yYAgCQ-slides]], [[youtube-BZtD0yYAgCQ-dense-slides]], [[youtube-BZtD0yYAgCQ-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

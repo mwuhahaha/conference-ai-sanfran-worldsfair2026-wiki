@@ -8,7 +8,6 @@ twitter: "https://x.com/Josh_Leavitt"
 website: "https://www.coinbase.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Josh Leavitt
 
 ## Official Role
@@ -24,3 +23,12 @@ Josh Leavitt is Senior Director of Product Management at Coinbase, where he lead
 
 ## Scheduled Sessions
 - [[2026-07-01-josh-leavitt-from-zero-to-ai-native-scaling-ai-across-the-org]] — From Zero to AI-Native: Scaling AI Across the Org (2026-07-01, 1:30pm-1:50pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-07-01-josh-leavitt-from-zero-to-ai-native-scaling-ai-across-the-org|From Zero to AI-Native: Scaling AI Across the Org]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

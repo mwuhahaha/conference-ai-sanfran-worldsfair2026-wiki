@@ -58,3 +58,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-WJjInLeaJjo-reconstructed-slides]]
 - [[youtube-WJjInLeaJjo-slides]]
 - Slide-derived terms: `world`, `engineering`, `server`, `future`, `amazon`, `sfair`, `fair`, `tools`, `strands`, `open`, `servers`, `barth`, `alexa`, `orld`, `services`, `code`, `developer`, `rere`
+
+## Source-Derived Enrichment
+This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Source Signals
+- `youtube-WJjInLeaJjo` — 10 slide-derived text signals
+  - Slide-derived themes: documentation, barth, future, tool, search, server, allow, customer.
+  - Evidence links: [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]
+
+### Article Use
+Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

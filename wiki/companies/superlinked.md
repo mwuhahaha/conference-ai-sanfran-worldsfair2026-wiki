@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Superlinked"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Superlinked
 
 ## What It Is
@@ -27,3 +26,16 @@ Superlinked appears through 2 official speaker(s) connected to 3 scheduled sessi
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer|Turning My Obsidian Vault Into a Local AI Engineer]]
+- [[2026-07-01-daniel-svonava-large-clusters-for-small-models|Large clusters for small models]]
+- [[2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards|Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards]]
+
+### Slide And Transcript Signals
+- `youtube-qdh_x-uRs9g` — 10 slide-derived text signals
+  - Slide-derived themes: model, performance, makes, embedding, best, learn, join, team.
+  - Evidence links: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]

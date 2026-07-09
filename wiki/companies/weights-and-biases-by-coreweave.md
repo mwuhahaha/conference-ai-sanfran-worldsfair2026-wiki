@@ -4,7 +4,6 @@ category: "companies"
 aliases: ["Weights & Biases by CoreWeave"]
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Weights & Biases by CoreWeave
 
 ## What It Is
@@ -28,3 +27,17 @@ Weights & Biases by CoreWeave appears through 3 official speaker(s) connected to
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+
+## Source-Derived Enrichment
+This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline|From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline]]
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
+- [[2026-07-01-zubin-aysola-aria-how-we-built-autoresearch-with-autoresearch|ARIA, how we built autoresearch with autoresearch]]
+
+### Slide And Transcript Signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+  - Transcript signals: model, code, models, research, system, well, first, better.
+  - Slide-derived themes: examples, tools, lots, many, tool, search, immediate.
+  - Evidence links: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]

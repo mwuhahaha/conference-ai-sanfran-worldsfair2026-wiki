@@ -6,7 +6,6 @@ company: "G2i"
 linkedin: "https://www.linkedin.com/in/ali-khial/"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Ali Khial
 
 ## Official Role
@@ -20,3 +19,12 @@ Ali Khial is an engineering leader focused on building AI-native systems that wo
 
 ## Scheduled Sessions
 - [[2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly]] — Benchmarks: The Good, the Bad, and the Ugly (2026-06-30, 3:20pm-3:40pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly|Benchmarks: The Good, the Bad, and the Ugly]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.

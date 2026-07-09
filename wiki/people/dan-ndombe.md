@@ -5,7 +5,6 @@ role: "Staff Developer Success Advocate"
 company: "Docker"
 sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
-
 # Dan Ndombe
 
 ## Official Role
@@ -19,3 +18,12 @@ Dan Ndombe is a Staff Developer Success Advocate at Docker who helps developers 
 
 ## Scheduled Sessions
 - [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker]] — From approval loops to autonomous agents with Docker (2026-06-29, 12:10pm-1:10pm)
+
+## Source-Derived Enrichment
+This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Related Sessions
+- [[2026-06-29-john-craft-from-approval-loops-to-autonomous-agents-with-docker|From approval loops to autonomous agents with Docker]]
+
+### Slide And Transcript Signals
+No linked video, transcript, or slide source has been attached yet.
