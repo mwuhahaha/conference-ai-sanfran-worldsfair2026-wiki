@@ -47,3 +47,23 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# The Next Trillion Users of the Internet Still Don't Have an Identity ## Conference Context - Date/time: 2026-06-30 · 2:50pm-3:10pm - Track/room: Sandbox & Platform Engineering · Track 1 - Speaker(s): Adi Singh - Session type/status: session · confirmed - Track: Sandbox & Platform Engineering - Room: Track 1 - Session type: session - Status: confirmed ## Session Description In the last few months, hundreds of thousands of people set up personal AI agents that send email on their behalf, manage calendars, book travel, even sign contracts - all thanks to openclaw. Most of these agents have no real identity online. They borrow a human's. The identity stack of the internet, OAuth, 2FA, KYC, magic links, was built for people sitting at a keyboard.
+
+### Speaker And Company Context
+- [[adi-singh|Adi Singh]] — Co-founder at [[agentmail|AgentMail]].
+
+### Topics Covered
+- [[agent-security]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

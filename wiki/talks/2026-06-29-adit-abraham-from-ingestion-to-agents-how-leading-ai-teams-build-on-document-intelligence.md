@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# From Ingestion to Agents: How Leading AI Teams Build on Document Intelligence ## Conference Context - Date/time: 2026-06-29 · 1:30pm-1:50pm - Track/room: Vision & OCR · Track 2 - Speaker(s): Adit Abraham - Session type/status: sponsor · confirmed - Track: Vision & OCR - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description The agents of tomorrow are only as good as the context they reason on — yet most real-world data lives in messy, unstructured documents. In this session, we reveal the patterns that separate AI teams shipping reliable, production-grade agents from those stuck debugging pipelines. Drawing on patterns we've seen from AI-native startups to Fortune 10 enterprises, we'll cover what it takes to transform complex documents into clean, accurate context at scale across legal, finance, healthcare and more. From ingestion architecture to agent-ready outputs, walk away with the strategies top teams use to turn document chaos into competitive advantage.
+
+### Speaker And Company Context
+- [[adit-abraham|Adit Abraham]] — CEO and cofounder at [[reducto|Reducto]].
+
+### Topics Covered
+- [[agentic-web]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

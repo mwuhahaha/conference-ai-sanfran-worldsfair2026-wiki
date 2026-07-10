@@ -48,3 +48,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence ## Conference Context - Date/time: 2026-07-01 · 3:45pm-4:05pm - Track/room: Graphs · Track 5 - Speaker(s): Subbiah Sethuraman, Abhilash Asokan - Session type/status: sponsor · confirmed - Track: Graphs - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description Key takeaways: A practical design principle for agentic systems in regulated, high-stakes domains: derive the architecture from agent behavior, don't impose it. Concrete patterns the audience can apply this week — domain knowledge graphs as agent context, deterministic preprocessing as a complement to agentic reasoning, reference-based context management. An honest case study from production: what worked, what didn't, and the open architectural questions we're still working on. Abstract : We lead the architecture and AI engineering org behind ZS Associates' commercial intelligence platform for pharmaceutical brand teams.
+
+### Speaker And Company Context
+- [[subbiah-sethuraman|Subbiah Sethuraman]] — Partner at [[zs-associates|ZS Associates]].
+- [[abhilash-asokan|Abhilash Asokan]] — role not listed at [[zs|ZS]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

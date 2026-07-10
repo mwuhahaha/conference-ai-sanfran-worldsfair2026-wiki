@@ -65,3 +65,28 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-jVGCulhBRZI-reconstructed-slides]]
 - [[youtube-jVGCulhBRZI-slides]]
 - Slide-derived terms: `automation`, `knowledge`, `work`, `microsoft`, `cases`, `time`, `ieee`, `unstructured`, `documents`, `excel`, `agentic`, `financial`, `extraction`, `document`, `awws`, `graphite`, `windsurf`, `moneobp`
+
+## Synthesis
+### Synthesized Breakdown
+# Building the Document Context Layer for AI Agents ## Conference Context - Date/time: 2026-06-29 · 11:10am-11:30am - Track/room: Vision & OCR · Track 2 - Speaker(s): Jerry Liu - Session type/status: sponsor · confirmed - Track: Vision & OCR - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description AI agents are the new knowledge workers, but knowledge work depends on unstructured enterprise context. ~90% of that data lives in the form of document containers - from human-native (PDFs, Word, Pptx) to emerging agent-native formats (HTML, MD). Doing RAG in 2026 involves generalized agent harnesses with tools, MCPs, and skills. In this world, every company building agents needs a Document Context Layer, the bridge between their unstructured docs and the agents trying to reason over them.
+
+### Speaker And Company Context
+- [[jerry-liu|Jerry Liu]] — CEO at [[llamaindex|LlamaIndex]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[mcp]]
+
+### Derived Links And Source Material
+- [[youtube-jVGCulhBRZI]] — related YouTube source page.
+- [[youtube-jVGCulhBRZI-slides]] — slide evidence.
+- [[youtube-jVGCulhBRZI-reconstructed-slides]] — slide evidence.
+- [[youtube-jVGCulhBRZI-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

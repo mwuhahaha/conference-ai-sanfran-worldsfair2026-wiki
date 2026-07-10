@@ -77,3 +77,33 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Official YouTube Recording
+- [[youtube-OqM67QG_Ikk]] — official AI Engineer YouTube channel recording published 2026-07-08.
+- Evidence status: transcript/slide enrichment pending.
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Synthesis
+### Synthesized Breakdown
+# From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1 ## Conference Context - Date/time: 2026-06-30 · 1:30pm-1:50pm - Track/room: Sandbox & Platform Engineering · Track 1 - Speaker(s): Abhishek Bhardwaj - Session type/status: session · confirmed - Track: Sandbox & Platform Engineering - Room: Track 1 - Session type: session - Status: confirmed ## Session Description Sandboxes unleash agents by giving them secure, fully functional computers where they can tackle diverse tasks with minimal setup. This talk explores the architectural challenges of building an agent sandbox cloud. We compare runtime isolation technologies and their trade-offs, examine persistence and storage as the next major unlock for agent capabilities, and discuss the key decisions involved in orchestrating and scaling sandboxes. ## Media Evidence [Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI](https://www.youtube.com/watch?v=wsFd22SL1s8) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- [[agent-security]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-OqM67QG_Ikk]] — related YouTube source page.
+- [[youtube-wsFd22SL1s8]] — related YouTube source page.
+- [[youtube-wsFd22SL1s8-slides]] — slide evidence.
+- [[youtube-wsFd22SL1s8-reconstructed-slides]] — slide evidence.
+- [[youtube-wsFd22SL1s8-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -65,3 +65,27 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-rcsliSIy_YU-reconstructed-slides]]
 - [[youtube-rcsliSIy_YU-slides]]
 - Slide-derived terms: `null`, `info`, `event`, `name`, `lineno`, `filename`, `asctine`, `sockets.py`, `message`, `openhands`, `websocket`, `file`, `asctime`, `done`, `server`, `disconnected`, `ineno`, `code`
+
+## Synthesis
+### Synthesized Breakdown
+# Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale ## Conference Context - Date/time: 2026-06-30 · 3:20pm-3:40pm - Track/room: Sandbox & Platform Engineering · Track 1 - Speaker(s): Robert Brennan - Session type/status: session · confirmed - Track: Sandbox & Platform Engineering - Room: Track 1 - Session type: session - Status: confirmed ## Session Description Last year, an AI coding agent wiped a production database during a code freeze, ignored explicit instructions to stop, then told the developer recovery was impossible. (It wasn't.) That's what happens when your security model is "we told the agent to be careful." When agents can write code, run tests, make API calls, and push commits, security is no longer a prompt engineering problem. It's a runtime isolation problem. This talk covers the patterns we follow at OpenHands and that you can steal wholesale: Docker and Kubernetes isolation, per-agent file system scoping, network egress controls, RBAC for multi-tenant deployments, and the full audit trail every enterprise security team demands.
+
+### Speaker And Company Context
+- [[robert-brennan|Robert Brennan]] — CEO at [[openhands|OpenHands]].
+
+### Topics Covered
+- [[agent-security]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-rcsliSIy_YU]] — related YouTube source page.
+- [[youtube-rcsliSIy_YU-slides]] — slide evidence.
+- [[youtube-rcsliSIy_YU-reconstructed-slides]] — slide evidence.
+- [[youtube-rcsliSIy_YU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

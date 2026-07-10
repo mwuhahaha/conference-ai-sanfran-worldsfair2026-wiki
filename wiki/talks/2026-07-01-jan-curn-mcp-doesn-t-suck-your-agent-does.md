@@ -65,3 +65,28 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-blW-lSd5CYQ-reconstructed-slides]]
 - [[youtube-blW-lSd5CYQ-slides]]
 - Slide-derived terms: `scraper`, `actor`, `google`, `maps`, `email`, `extract`, `form`, `world`, `sfair`, `apify`, `details`, `posts`, `intelligence`, `emerge`, `tool`, `runs`, `instagram`, `contact`
+
+## Synthesis
+### Synthesized Breakdown
+# MCP doesn’t suck — your agent does ## Conference Context - Date/time: 2026-07-01 · 1:55pm-2:15pm - Track/room: track TBD · Expo Stage 2 NW - Speaker(s): Jan Curn - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 2 NW - Session type: session - Status: confirmed ## Session Description Most AI agents misuse MCP and treat tools as prompt-time function calls: tool definitions and results are repeatedly injected into the context, tokens are wasted, and context rots. The result? Slower, less reliable agents, and the misleading conclusion that “MCP sucks, CLIs are better.” To challenge this narrative and show how agents can get the best of both MCP and CLI, at https://apify.com/ we’ve built mcpc (https://github.com/apify/mcpc), an open-source universal CLI client for MCP. It maps MCP operations to intuitive CLI commands, which agents quickly pick up through --help without external skills.
+
+### Speaker And Company Context
+- [[jan-curn|Jan Curn]] — Founder & CEO at [[apify|Apify]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
+- [[mcp]]
+
+### Derived Links And Source Material
+- [[youtube-blW-lSd5CYQ]] — related YouTube source page.
+- [[youtube-blW-lSd5CYQ-slides]] — slide evidence.
+- [[youtube-blW-lSd5CYQ-reconstructed-slides]] — slide evidence.
+- [[youtube-blW-lSd5CYQ-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

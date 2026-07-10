@@ -65,3 +65,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-YRGjll7uu5w-reconstructed-slides]]
 - [[youtube-YRGjll7uu5w-slides]]
 - Slide-derived terms: `microsoft`, `server`, `https`, `browser`, `francisco`, `worid`, `sfair`, `browserbase`, `june`, `will`, `evals`, `smol`, `word`, `sfar`, `graphite`, `windsurf`, `mongobb`, `mdaily`
+
+## Synthesis
+### Synthesized Breakdown
+# Bringing agents onto the world wide web ## Conference Context - Date/time: 2026-06-30 · 11:40am-12:00pm - Track/room: Computer Use · Track 7 - Speaker(s): Paul Klein IV - Session type/status: session · confirmed - Track: Computer Use - Room: Track 7 - Session type: session - Status: confirmed ## Session Description The web wasn't built for agents. Heavy HTML, human-first UIs, and a DOM that can hijack the model's context. Still, agents browse it for millions of hours every month through Browserbase, across teams like Ramp, Shopify, and Lovable. This talk walks through that browser agent harness layer by layer, from the security boundary between DOM and model to caching, Agent Identity, and the infrastructure that provisions browsers at scale, and where browser agents go once it is in place.
+
+### Speaker And Company Context
+- [[paul-klein-iv|Paul Klein IV]] — Founder & CEO at [[browserbase|Browserbase]].
+
+### Topics Covered
+- [[agentic-web]]
+- [[ai-sandboxes]]
+
+### Derived Links And Source Material
+- [[youtube-YRGjll7uu5w]] — related YouTube source page.
+- [[youtube-YRGjll7uu5w-slides]] — slide evidence.
+- [[youtube-YRGjll7uu5w-reconstructed-slides]] — slide evidence.
+- [[youtube-YRGjll7uu5w-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

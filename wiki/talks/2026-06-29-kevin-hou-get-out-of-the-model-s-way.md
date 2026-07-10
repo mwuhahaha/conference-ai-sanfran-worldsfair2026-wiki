@@ -65,3 +65,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 - [[youtube-bVNNvWq6dKo-slides]]
 - Slide-derived terms: `const`, `ai.engineer`, `images`, `agentengineering`, `https`, `cascade`, `next`, `documentation`, `code`, `dynamic`, `main`, `usestate`, `value`, `prev`, `check`, `crawler`, `create`, `first`
+
+## Synthesis
+### Synthesized Breakdown
+# Get Out of the Model's Way ## Conference Context - Date/time: 2026-06-29 · 1:30pm-1:50pm - Track/room: Software Factories · Main Stage - Speaker(s): Kevin Hou - Session type/status: session · confirmed - Track: Software Factories - Room: Main Stage - Session type: session - Status: confirmed ## Session Description From autocomplete to chat to agents to agent orchestration...how do you build a product that scales with intelligence? What core primitives enable agents to operate at the technical (and non-technical) frontier? How can you best squeeze every ounce of capability out of your agentic dev tools? I'll answer all these questions and break down how Google Antigravity creates dynamic agent teams to solve complex tasks like building an OS-Kernal and automating research workflows.
+
+### Speaker And Company Context
+- [[kevin-hou|Kevin Hou]] — Engineering Lead @ Antigravity at [[google-deepmind|Google DeepMind]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-bVNNvWq6dKo]] — related YouTube source page.
+- [[youtube-bVNNvWq6dKo-slides]] — slide evidence.
+- [[youtube-bVNNvWq6dKo-reconstructed-slides]] — slide evidence.
+- [[youtube-bVNNvWq6dKo-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

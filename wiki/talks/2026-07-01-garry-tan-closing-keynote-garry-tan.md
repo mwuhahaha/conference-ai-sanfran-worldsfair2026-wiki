@@ -65,3 +65,30 @@ No official session recording transcript was found by exact title match on the A
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+Mhm. Mhm. Mhm. Ladies and gentlemen, welcome to the AI Engineer World's Fair.
+
+### Speaker And Company Context
+- [[garry-tan|Garry Tan]] — President & CEO at [[y-combinator|Y Combinator]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+- [[mcp]]
+
+### Derived Links And Source Material
+- [[youtube-I2cbIws9j10-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt` (91,792 words).
+- [[youtube-I2cbIws9j10]] — related YouTube source page.
+- [[youtube-I2cbIws9j10-slides]] — slide evidence.
+- [[youtube-I2cbIws9j10-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+
+### Evidence Boundary
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.

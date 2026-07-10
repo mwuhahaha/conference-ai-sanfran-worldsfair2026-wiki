@@ -59,3 +59,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-SZStlIhyTCY-slides]] — extracted from the related public AI Engineer video.
+
+## Synthesis
+### Synthesized Breakdown
+# The Agentic Product Development Organization ## Conference Context - Date/time: 2026-07-01 · 11:00am-12:00pm - Track/room: CTO Circle · Leadership Lounge - Speaker(s): Martin Harrysson, Matt Linderman, Prakhar Dixit - Session type/status: session · confirmed - Track: CTO Circle - Room: Leadership Lounge - Session type: session - Status: confirmed ## Session Description *Facilitated, peer-to-peer, under the Chatham House Rule — not recorded.* As AI agents become embedded in day-to-day work, organizations will need to rethink product development teams, roles, and skills. This foundational shift reshapes management layers and requires overcoming challenges across talent attraction, development, and retention. ## Media Evidence [Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company](https://www.youtube.com/watch?v=SZStlIhyTCY) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-SZStlIhyTCY` - Slide deck: [[youtube-SZStlIhyTCY-reconstructed-slides|Reconstructed Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company]] — 16 visible slide image(s); 16 HTML recreation(s).
+
+### Speaker And Company Context
+- [[martin-harrysson|Martin Harrysson]] — Senior Partner at [[mckinsey-and-company|McKinsey & Company]].
+- [[matt-linderman|Matt Linderman]] — Partner, Technology Practice at [[mckinsey-and-company|McKinsey & Company]].
+- [[prakhar-dixit|Prakhar Dixit]] — Partner at [[mckinsey|McKinsey]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+- [[youtube-SZStlIhyTCY]] — related YouTube source page.
+- [[youtube-SZStlIhyTCY-slides]] — slide evidence.
+- [[youtube-SZStlIhyTCY-reconstructed-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

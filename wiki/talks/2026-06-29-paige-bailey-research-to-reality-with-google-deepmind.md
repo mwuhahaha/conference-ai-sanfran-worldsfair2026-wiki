@@ -65,3 +65,27 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-G_bHFmEAarM-reconstructed-slides]]
 - [[youtube-G_bHFmEAarM-slides]]
 - Slide-derived terms: `code`, `grounding`, `google`, `search`, `video`, `function`, `withgoogle`, `tokens`, `green`, `gemini`, `preview`, `structured`, `outputs`, `execution`, `maps`, `rexy`, `minimal`, `calling`
+
+## Synthesis
+### Synthesized Breakdown
+# Research to Reality with Google DeepMind ## Conference Context - Date/time: 2026-06-29 · 12:10pm-1:10pm - Track/room: Workshops Day 1 · Track 9 - Speaker(s): Paige Bailey - Session type/status: workshop · confirmed - Track: Workshops Day 1 - Room: Track 9 - Session type: workshop - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence [Build & deploy AI-powered apps — Paige Bailey, Google DeepMind](https://www.youtube.com/watch?v=G_bHFmEAarM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-G_bHFmEAarM` - Slide deck: [[youtube-G_bHFmEAarM-dense-slides|Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] — 5 visible slide image(s); 5 HTML recreation(s). ![[assets/dense-slides/G_bHFmEAarM/slide-001.jpg]] ![[assets/dense-slides/G_bHFmEAarM/slide-002.jpg]] ![[assets/dense-slides/G_bHFmEAarM/slide-003.jpg]] - Additional slide evidence: [[youtube-G_bHFmEAarM-slides|Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]], [[youtube-G_bHFmEAarM-reconstructed-slides|Reconstructed Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] - Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
+
+### Speaker And Company Context
+- [[paige-bailey|Paige Bailey]] — AI Developer Relations Engineering Lead at [[google-deepmind|Google DeepMind]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-G_bHFmEAarM]] — related YouTube source page.
+- [[youtube-G_bHFmEAarM-slides]] — slide evidence.
+- [[youtube-G_bHFmEAarM-reconstructed-slides]] — slide evidence.
+- [[youtube-G_bHFmEAarM-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

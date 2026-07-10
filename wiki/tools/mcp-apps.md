@@ -42,6 +42,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-_xIwFcnHqp4-slides]]
 - [[youtube-c-2eEv2ou7Y-slides]]
 - [[youtube-hCMrEfPG2Yg-slides]]
+- [[youtube-kR64LOqBBCU-reconstructed-slides]]
 - [[youtube-kR64LOqBBCU-slides]]
 - [[youtube-o-zkvb0iFDQ-dense-slides]]
 - [[youtube-o-zkvb0iFDQ-reconstructed-slides]]

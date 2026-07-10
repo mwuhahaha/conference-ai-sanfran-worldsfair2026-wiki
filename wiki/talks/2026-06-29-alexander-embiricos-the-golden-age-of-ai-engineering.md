@@ -74,3 +74,31 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-yJHw33cVeHo-reconstructed-slides]]
 - [[youtube-yJHw33cVeHo-slides]]
 - Slide-derived terms: `gpt-40`, `models`, `intelligence`, `cases`, `gpt-4`, `world`, `model`, `string`, `custom`, `openal`, `fair`, `toolbox`, `cheaper`, `trained`, `vision`, `next`, `gpt-3`, `natural`
+
+## Official YouTube Recording
+- [[youtube-pMggiOb18tc]] — official AI Engineer YouTube channel recording published 2026-07-09.
+- Evidence status: transcript/slide enrichment pending.
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Synthesis
+### Synthesized Breakdown
+# The Golden Age of AI Engineering ## Conference Context - Date/time: 2026-06-29 · 9:25am-9:45am - Track/room: Software Factories · Main Stage - Speaker(s): Alexander Embiricos, Romain Huet - Session type/status: keynote · confirmed - Track: Software Factories - Room: Main Stage - Session type: keynote - Status: confirmed ## Session Description TBD ## Media Evidence [From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet](https://www.youtube.com/watch?v=yJHw33cVeHo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-yJHw33cVeHo` - Slide deck: [[youtube-yJHw33cVeHo-dense-slides|Dense Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]] — 1 visible slide image(s); 1 HTML recreation(s). ![[assets/dense-slides/yJHw33cVeHo/slide-001.jpg]] - Additional slide evidence: [[youtube-yJHw33cVeHo-slides|Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]], [[youtube-yJHw33cVeHo-reconstructed-slides|Reconstructed Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]] - Slide-derived themes for `youtube-yJHw33cVeHo`: hello. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-pMggiOb18tc]] — related YouTube source page.
+- [[youtube-yJHw33cVeHo]] — related YouTube source page.
+- [[youtube-yJHw33cVeHo-slides]] — slide evidence.
+- [[youtube-yJHw33cVeHo-reconstructed-slides]] — slide evidence.
+- [[youtube-yJHw33cVeHo-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

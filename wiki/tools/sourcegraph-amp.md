@@ -36,6 +36,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-F_RyElT_gJk-reconstructed-slides]]
 - [[youtube-F_RyElT_gJk-slides]]
+- [[youtube-aqW68Is_Kj4-dense-slides]]
 - [[youtube-aqW68Is_Kj4-slides]]
 - [[youtube-fL1iJHtl51Q-slides]]
 - [[youtube-rmvDxxNubIg-slides]]

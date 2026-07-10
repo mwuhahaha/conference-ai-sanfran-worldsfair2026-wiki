@@ -66,3 +66,27 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+# Benchmarking Coding Agents on New vs Legacy Code bases ## Conference Context - Date/time: 2026-07-01 · 12:05pm-12:25pm - Track/room: Agentic Engineering · Track 8 - Speaker(s): Denys Linkov - Session type/status: session · confirmed - Track: Agentic Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description You have an old code base with 100,000s of lines of code, should you let an AI Agent refactor or do you wait until you have a cleaner setup? Last year we refactored a number of code bases and ran evaluations on how well different models, harnesses and rule sets affected multiple versions of the code base. This talk will feature specific code examples as well as a broader set of evals. ## Media Evidence [Structuring a modern AI team — Denys Linkov, Wisedocs](https://www.youtube.com/watch?v=SbUxRluVRwk) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+### Speaker And Company Context
+- [[denys-linkov|Denys Linkov]] — Head of ML at [[wisedocs|Wisedocs]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[agentic-web]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-SbUxRluVRwk]] — related YouTube source page.
+- [[youtube-SbUxRluVRwk-slides]] — slide evidence.
+- [[youtube-SbUxRluVRwk-reconstructed-slides]] — slide evidence.
+- [[youtube-SbUxRluVRwk-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -2,7 +2,7 @@
 title: "Langfuse"
 category: "tools"
 aliases: ["Langfuse"]
-sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR"]
+sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence"]
 scheduleTracks: ["Workshops Day 1"]
 scheduleRooms: ["Track 9", "Expo Stage 1 NE"]
 ---
@@ -25,10 +25,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[talk-video-transcript-map]]
-
-### Slide/OCR Pages
-- [[youtube-Akm1sqvWG4A-slides]]
-- [[youtube-aHhB3sjGjkI-slides]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/Akm1sqvWG4A.txt`

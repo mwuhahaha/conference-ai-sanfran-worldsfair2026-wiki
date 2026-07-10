@@ -65,3 +65,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-SbcQYbrvAfI-reconstructed-slides]]
 - [[youtube-SbcQYbrvAfI-slides]]
 - Slide-derived terms: `prompt`, `learning`, `system`, `rules`, `coding`, `gepa`, `score`, `changes`, `cost`, `claude`, `test`, `mone`, `planning`, `missing`, `aarize`, `evals`, `function`, `exam`
+
+## Synthesis
+### Synthesized Breakdown
+# Voice Agents Are Mostly Invisible. Here's How to See Them. ## Conference Context - Date/time: 2026-06-29 · 1:55pm-2:15pm - Track/room: track TBD · Expo Stage 2 NW - Speaker(s): Fuad Ali - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 2 NW - Session type: session - Status: confirmed ## Session Description Voice agents are one of the fastest-growing and hardest-to-debug categories: the failures live in latency, turn-taking, transcription drift, and tone none of which show up in a text log. We demo Voice traces and Session views, following a real voice session span by span, and Voice evals for scoring what text-only observability can't reach.
+
+### Speaker And Company Context
+- [[fuad-ali|Fuad Ali]] — Senior Product Manager at [[arize-ai|Arize AI]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+- [[youtube-SbcQYbrvAfI]] — related YouTube source page.
+- [[youtube-SbcQYbrvAfI-slides]] — slide evidence.
+- [[youtube-SbcQYbrvAfI-reconstructed-slides]] — slide evidence.
+- [[youtube-SbcQYbrvAfI-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

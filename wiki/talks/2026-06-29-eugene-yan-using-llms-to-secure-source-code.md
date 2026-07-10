@@ -56,3 +56,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-2vlCqD6igVA-slides]] — extracted from the related public AI Engineer video.
+
+## Synthesis
+### Synthesized Breakdown
+# Using LLMs to Secure Source Code ## Conference Context - Date/time: 2026-06-29 · 1:30pm-1:50pm - Track/room: Security · Track 5 - Speaker(s): Eugene Yan - Session type/status: sponsor · confirmed - Track: Security - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description Models are now finding and fixing real vulnerabilities at scale. Drawing on Anthropic's work with security teams, this talk walks a six-step workflow — threat model, sandbox, discover, verify, triage, patch — through one running example, shows where orgs actually bottleneck, and gives you a copy-paste path to your first scan. ## Media Evidence [Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon](https://www.youtube.com/watch?v=2vlCqD6igVA) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-2vlCqD6igVA` - Slide deck: [[youtube-2vlCqD6igVA-reconstructed-slides|Reconstructed Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon]] — 2 visible slide image(s); 2 HTML recreation(s).
+
+### Speaker And Company Context
+- [[eugene-yan|Eugene Yan]] — Member of Technical Staff at [[anthropic|Anthropic]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-2vlCqD6igVA]] — related YouTube source page.
+- [[youtube-2vlCqD6igVA-slides]] — slide evidence.
+- [[youtube-2vlCqD6igVA-reconstructed-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

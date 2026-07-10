@@ -47,3 +47,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Computer-use models will agentify the web, not APIs ## Conference Context - Date/time: 2026-06-30 · 10:45am-11:05am - Track/room: Computer Use · Track 7 - Speaker(s): Dhruv Batra - Session type/status: session · confirmed - Track: Computer Use - Room: Track 7 - Session type: session - Status: confirmed ## Session Description We are rushing towards a world where every single digital surface (email, calendar, messaging, …, every desktop app, every phone app, every web app) that was previously meant for humans is now managed by AI agents. Of course, there are technical challenges to be solved: - Model context windows haven’t increased in 2 years. And the digital world is OOMs bigger (the ultimate “big world hypothesis”) anyway, so how does one architect this? - A large part of the digital world (most of the web) does not have APIs available and requires agents to act like humans (consume pixels, output keyboard/mouse actions).
+
+### Speaker And Company Context
+- [[dhruv-batra|Dhruv Batra]] — Co-founder & Chief Scientist at [[yutori|Yutori]].
+
+### Topics Covered
+- [[agentic-web]]
+- [[ai-sandboxes]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

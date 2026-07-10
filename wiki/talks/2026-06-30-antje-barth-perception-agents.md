@@ -64,3 +64,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-WJjInLeaJjo-reconstructed-slides]]
 - [[youtube-WJjInLeaJjo-slides]]
 - Slide-derived terms: `world`, `engineering`, `server`, `future`, `amazon`, `sfair`, `fair`, `tools`, `strands`, `open`, `servers`, `barth`, `alexa`, `orld`, `services`, `code`, `developer`, `rere`
+
+## Synthesis
+### Synthesized Breakdown
+# Perception Agents ## Conference Context - Date/time: 2026-06-30 · 9:45am-10:05am - Track/room: Autoresearch · Main Stage - Speaker(s): Antje Barth - Session type/status: keynote · confirmed - Track: Autoresearch - Room: Main Stage - Session type: keynote - Status: confirmed ## Session Description Human-agent collaboration is changing, becoming more visual. The agents most teams ship today still wait for us to type a paragraph to explain what we're looking at. They cannot see a screen, navigate a UI that changes, or recover when an application throws an unexpected modal. That is the architectural gap between agents that demo well and agents that work alongside real teams in real software.
+
+### Speaker And Company Context
+- [[antje-barth|Antje Barth]] — Member of Technical Staff at [[amazon-agi-lab|Amazon AGI Lab]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-WJjInLeaJjo]] — related YouTube source page.
+- [[youtube-WJjInLeaJjo-slides]] — slide evidence.
+- [[youtube-WJjInLeaJjo-reconstructed-slides]] — slide evidence.
+- [[youtube-WJjInLeaJjo-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

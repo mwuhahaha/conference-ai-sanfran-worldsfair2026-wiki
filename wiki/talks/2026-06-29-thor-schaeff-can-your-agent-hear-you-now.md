@@ -63,3 +63,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 - [[youtube-Bc6Ojl2XS1w-slides]]
 - Slide-derived terms: `audio`, `engineer`, `engineering`, `future`, `deepmind`, `gemini`, `performance`, `google`, `thor`, `transcription`, `english`, `transcript`, `prompt`, `speaker`, `context`, `segment`, `following`, `europe`
+
+## Synthesis
+### Synthesized Breakdown
+# Can Your Agent Hear You Now? ## Conference Context - Date/time: 2026-06-29 · 3:20pm-3:40pm - Track/room: Expo Stage 3 · Expo Stage 1 NE - Speaker(s): Thor 雷神 Schaeff - Session type/status: session · confirmed - Track: Expo Stage 3 - Room: Expo Stage 1 NE - Session type: session - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence [From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind](https://www.youtube.com/watch?v=Bc6Ojl2XS1w) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-Bc6Ojl2XS1w` - Slide deck: [[youtube-Bc6Ojl2XS1w-dense-slides|Dense Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]] — 1 visible slide image(s); 1 HTML recreation(s).
+
+### Speaker And Company Context
+- [[thor-schaeff|Thor 雷神 Schaeff]] — Member of the Technical Staff (DevX) at Google DeepMind at [[google-deepmind|Google DeepMind]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+- [[youtube-Bc6Ojl2XS1w]] — related YouTube source page.
+- [[youtube-Bc6Ojl2XS1w-slides]] — slide evidence.
+- [[youtube-Bc6Ojl2XS1w-reconstructed-slides]] — slide evidence.
+- [[youtube-Bc6Ojl2XS1w-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -74,3 +74,28 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-5ID22ACI7IM-reconstructed-slides]]
 - [[youtube-5ID22ACI7IM-slides]]
 - Slide-derived terms: `code`, `context`, `unblocked`, `tickets`, `review`, `tests`, `description`, `rere`, `planning`, `architecture`, `compiles`, `fails`, `undlocked`, `callers`, `quality`, `team`, `comp`, `improve`
+
+## Synthesis
+### Synthesized Breakdown
+# How to generate mergeable code with a context engine ## Conference Context - Date/time: 2026-06-30 · 11:40am-12:00pm - Track/room: track TBD · Expo Stage 2 NW - Speaker(s): Peter Werry - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 2 NW - Session type: session - Status: confirmed ## Session Description Your agents are fast, capable, and completely context-blind. They generate code that compiles but doesn't reflect how your system actually works. You're likely already seeing the impact: ballooning token costs, longer review cycles, and inconsistent outputs. More MCPs, rules, and bigger context windows give agents access to information, but not understanding.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- [[agentic-search]]
+- [[agentic-web]]
+- [[coding-agents]]
+- [[mcp]]
+
+### Derived Links And Source Material
+- [[youtube-5ID22ACI7IM]] — related YouTube source page.
+- [[youtube-5ID22ACI7IM-slides]] — slide evidence.
+- [[youtube-5ID22ACI7IM-reconstructed-slides]] — slide evidence.
+- [[youtube-5ID22ACI7IM-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

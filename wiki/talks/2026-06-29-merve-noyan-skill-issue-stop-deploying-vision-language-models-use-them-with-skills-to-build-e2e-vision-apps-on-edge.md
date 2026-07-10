@@ -65,3 +65,28 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-OV56RddyFuU-reconstructed-slides]]
 - [[youtube-OV56RddyFuU-slides]]
 - Slide-derived terms: `model`, `skills`, `models`, `gguf`, `hermes`, `community`, `datasets`, `text`, `local`, `llama.cpp`, `inference`, `image`, `search`, `spaces`, `jobs`, `setup`, `claude`, `some`
+
+## Synthesis
+### Synthesized Breakdown
+# Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge ## Conference Context - Date/time: 2026-06-29 · 11:40am-12:00pm - Track/room: Vision & OCR · Track 2 - Speaker(s): Merve Noyan - Session type/status: sponsor · confirmed - Track: Vision & OCR - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description With the boom of vision language models barrier of entry to build vision apps are much lower so developers tend to use them right away. However, these models are very large and inefficient in production. In this talk, I will go through combining vision language models with Skills to build end-to-end vision apps from training to deployment using HF Skills, on top of showing the state-of-the-art in small computer vision/multimodal models. ## Media Evidence [Self-Training Agents: Hermes Agent, HF Traces, Skills, MCP & Finetuning — Merve Noyan, Hugging Face](https://www.youtube.com/watch?v=OV56RddyFuU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+### Speaker And Company Context
+- [[merve-noyan|Merve Noyan]] — MLE at [[hugging-face|Hugging Face]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
+- [[mcp]]
+
+### Derived Links And Source Material
+- [[youtube-OV56RddyFuU]] — related YouTube source page.
+- [[youtube-OV56RddyFuU-slides]] — slide evidence.
+- [[youtube-OV56RddyFuU-reconstructed-slides]] — slide evidence.
+- [[youtube-OV56RddyFuU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

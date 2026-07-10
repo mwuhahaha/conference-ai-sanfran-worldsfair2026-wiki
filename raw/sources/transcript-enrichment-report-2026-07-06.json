@@ -1158,6 +1158,39 @@
       "words": 4772
     },
     {
+      "video_id": "o-zkvb0iFDQ",
+      "title": "MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          155
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          29
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          2
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          1
+        ]
+      ],
+      "matches": [
+        "2026-06-30-liad-yosef-mcp-apps-extending-the-frontier",
+        "2026-06-29-liad-yosef-rebuilding-the-web-for-agents",
+        "2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be"
+      ],
+      "quotes": 3,
+      "words": 3969
+    },
+    {
       "video_id": "akk6KRlcwW4",
       "title": "OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
       "topics": [
@@ -2874,6 +2907,6 @@
       "reason": "non-talk event reel"
     }
   ],
-  "quote_count": 261,
-  "updated_at": "2026-07-09T01:18:39.422432+00:00"
+  "quote_count": 264,
+  "updated_at": "2026-07-10T18:12:58.136046+00:00"
 }

@@ -48,3 +48,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Agent Memory Is a Solved Problem. Agent Learning Is Not. ## Conference Context - Date/time: 2026-07-01 · 3:20pm-3:40pm - Track/room: track TBD · Expo Stage 1 NE - Speaker(s): Karthik Ranganathan, Heather Downing - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 1 NE - Session type: session - Status: confirmed ## Session Description The failures that break multi-agent systems are not reasoning failures, they are handoff failures. One agent works something out and the knowledge dies in its private context, because the only thing that crosses the boundary is output.
+
+### Speaker And Company Context
+- [[karthik-ranganathan|Karthik Ranganathan]] — Co-founder and Co-CEO at [[yugabyte|Yugabyte]].
+- [[heather-downing|Heather Downing]] — Developer Advocate at [[yugabyte|Yugabyte]].
+
+### Topics Covered
+- [[agent-security]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

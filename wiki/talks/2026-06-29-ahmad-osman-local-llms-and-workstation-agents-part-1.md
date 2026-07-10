@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Local LLMs and workstation agents: Part 1 ## Conference Context - Date/time: 2026-06-29 · 11:05am-12:05pm - Track/room: Workshops Day 1 · Track 6 - Speaker(s): Ahmad Osman - Session type/status: workshop · confirmed - Track: Workshops Day 1 - Room: Track 6 - Session type: workshop - Status: confirmed ## Session Description Have you heard "Buy a GPU," "Opensource AI Must Win," or "Local AI FTW" before? This workshop will be a practical window into that confusing world and a practical map for understanding what different Local AI hardware is actually capable of and which models make sense on each class of machine. Whether you are just getting started or already running models every day, we will demo and work through why a Mac mini, M4 Pro MacBook Pro, M5 Max MacBook Pro, RTX 5070 8GB laptop, Strix Halo box, DGX Spark, and 2x RTX PRO 6000 Blackwell machine should not be configured, benchmarked, or used the same way. What are you trying to run?
+
+### Speaker And Company Context
+- [[ahmad-osman|Ahmad Osman]] — Founder & CEO at [[osmantic|Osmantic]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

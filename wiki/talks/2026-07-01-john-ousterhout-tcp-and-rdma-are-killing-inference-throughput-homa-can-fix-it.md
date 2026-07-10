@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# TCP and RDMA are Killing Inference Throughput; Homa can Fix It ## Conference Context - Date/time: 2026-07-01 · 9:20am-9:40am - Track/room: Software Factories · Main Stage - Speaker(s): John Ousterhout - Session type/status: keynote · confirmed - Track: Software Factories - Room: Main Stage - Session type: keynote - Status: confirmed ## Session Description Modern AI inferencing is shifting from monolithic requests to complex agentic workflows and disaggregated KV stores. As a result, AI network traffic is no longer just very large transfers; tiny metadata requests are becoming more and more common, and their latency has a critical impact on throughput. Unfortunately, legacy transport protocols such as TCP and RDMA perform poorly on these workloads due to poor congestion control and head-of-line blocking. This talk will discuss the problems with TCP and RDMA and provide a brief introduction to the Homa transport protocol.
+
+### Speaker And Company Context
+- [[john-ousterhout|John Ousterhout]] — Professor Emeritus at [[stanford-university|Stanford University]].
+
+### Topics Covered
+- [[agent-security]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

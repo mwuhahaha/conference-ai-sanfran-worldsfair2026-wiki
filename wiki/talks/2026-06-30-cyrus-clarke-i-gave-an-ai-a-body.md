@@ -47,3 +47,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# I gave an AI a body ## Conference Context - Date/time: 2026-06-30 · 3:45pm-4:05pm - Track/room: Robotics & World Models · Track 2 - Speaker(s): Cyrus Clarke - Session type/status: sponsor · confirmed - Track: Robotics & World Models - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description I gave an AI a body. Not a body in the fleshy sense, or even a humanoid shell, but a form through which it can express itself, explore itself, and maybe even discover who or what it is. The three videos I've released documenting my encounters have crossed 15 million views, provoking responses from awe to anxiety. The body was a 900-pin shape display at MIT Media Lab.
+
+### Speaker And Company Context
+- [[cyrus-clarke|Cyrus Clarke]] — Researcher at [[mit-media-lab|MIT Media Lab]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

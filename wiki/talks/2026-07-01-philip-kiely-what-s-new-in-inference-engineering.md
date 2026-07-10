@@ -62,3 +62,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-gmTHs5T_YAE-reconstructed-slides]]
 - [[youtube-gmTHs5T_YAE-slides]]
 - Slide-derived terms: `orpheus`, `microsoft`, `baseten`, `model`, `architecture`, `performance`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augmentcode`, `workos`, `philip`, `developer`, `relations`, `based`, `sfba`, `favorite`
+
+## Synthesis
+### Synthesized Breakdown
+# What's New in Inference Engineering ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: Inference · Track 9 - Speaker(s): Philip Kiely - Session type/status: session · confirmed - Track: Inference - Room: Track 9 - Session type: session - Status: confirmed ## Session Description More than 30,000 engineers have learned the fundamentals of inference since Inference Engineering was published. But the field keeps accelerating, so it's time for the first public addendum to the book. The past four months have seen a renewed focus on training-dependent inference optimization across the "big three" performance techniques of speculation, caching, and quantization. This talk provides structured guidance for training DFlash and EAGLE 3 draft models to accelerate LLM decode, introduces the concept of KV compaction, and explains the hype behind TurboQuant.
+
+### Speaker And Company Context
+- [[philip-kiely|Philip Kiely]] — Developer Relations at [[baseten|Baseten]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-gmTHs5T_YAE]] — related YouTube source page.
+- [[youtube-gmTHs5T_YAE-slides]] — slide evidence.
+- [[youtube-gmTHs5T_YAE-reconstructed-slides]] — slide evidence.
+- [[youtube-gmTHs5T_YAE-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

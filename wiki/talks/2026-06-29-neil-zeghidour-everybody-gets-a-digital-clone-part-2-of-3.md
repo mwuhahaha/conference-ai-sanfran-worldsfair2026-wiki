@@ -63,3 +63,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-P_RI1kCkRbo-reconstructed-slides]]
 - [[youtube-P_RI1kCkRbo-slides]]
 - Slide-derived terms: `engineering`, `future`, `braintrust`, `workos`, `openal`, `engineer`, `aiengineer`, `gradium`, `kyutai`, `real`, `raat`, `tdps`, `vastelnt`, `cofounder`, `brig`, `soos`, `google`, `deepmind`
+
+## Synthesis
+### Synthesized Breakdown
+# Everybody Gets a Digital Clone! (Part 2 of 3) ## Conference Context - Date/time: 2026-06-29 · 1:55pm-2:15pm - Track/room: Workshops Day 2 · Track 4 - Speaker(s): Neil Zeghidour - Session type/status: session · confirmed - Track: Workshops Day 2 - Room: Track 4 - Session type: session - Status: confirmed ## Session Description Walk out of this workshop with a deployed digital clone that makes your phone calls for you. We will skip the theory and immediately get our hands dirty wiring together OpenClaw, Twilio, and Gradium to build an autonomous voice agent on a live cellular network. You will tackle the hardest parts of real-time telephony: routing audio streams, handling human interruption, and killing latency.
+
+### Speaker And Company Context
+- [[neil-zeghidour|Neil Zeghidour]] — Co-founder & CEO at [[gradium|Gradium]].
+
+### Topics Covered
+- [[agent-security]]
+
+### Derived Links And Source Material
+- [[youtube-P_RI1kCkRbo]] — related YouTube source page.
+- [[youtube-P_RI1kCkRbo-slides]] — slide evidence.
+- [[youtube-P_RI1kCkRbo-reconstructed-slides]] — slide evidence.
+- [[youtube-P_RI1kCkRbo-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

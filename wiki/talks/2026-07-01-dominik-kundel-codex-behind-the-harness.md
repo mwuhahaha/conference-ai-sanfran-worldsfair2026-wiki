@@ -65,3 +65,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-iXhba366fQc-reconstructed-slides]]
 - [[youtube-iXhba366fQc-slides]]
 - Slide-derived terms: `complex`, `fair`, `voice`, `parts`, `traces`, `world`, `than`, `personalized`, `conversations`, `dealing`, `support`, `okct`, `aine`, `ronteto`, `mdaily`, `augmentcode`, `workos`, `started`
+
+## Synthesis
+### Synthesized Breakdown
+# Codex, Behind the Harness ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: Agentic Engineering · Track 8 - Speaker(s): Dominik Kundel - Session type/status: session · confirmed - Track: Agentic Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description Agents have evolved a lot in the last year both in capabilities and in the overall structure. Increasingly sandbox-powered coding agents are breaking out to do general purpose work. In this talk we’ll be taking apart the open-source Codex agent harness. Understand how it works, what makes it so suitable to do work beyond coding tasks, how it handles key aspects like context management, tools and file system access.
+
+### Speaker And Company Context
+- [[dominik-kundel|Dominik Kundel]] — Developer Experience Lead at [[openai|OpenAI]].
+
+### Topics Covered
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-iXhba366fQc]] — related YouTube source page.
+- [[youtube-iXhba366fQc-slides]] — slide evidence.
+- [[youtube-iXhba366fQc-reconstructed-slides]] — slide evidence.
+- [[youtube-iXhba366fQc-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

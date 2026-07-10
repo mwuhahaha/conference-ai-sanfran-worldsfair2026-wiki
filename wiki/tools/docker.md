@@ -32,9 +32,11 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[talk-video-transcript-map]]
 
 ### Slide/OCR Pages
+- [[youtube-0S8xe9ftGTM-slides]]
 - [[youtube-Fzb1a24hF-o-slides]]
 - [[youtube-rcsliSIy_YU-slides]]
 - [[youtube-wcUJWP6WpGM-slides]]
+- [[youtube-wsFd22SL1s8-dense-slides]]
 - [[youtube-wsFd22SL1s8-slides]]
 
 ### Topic Pages

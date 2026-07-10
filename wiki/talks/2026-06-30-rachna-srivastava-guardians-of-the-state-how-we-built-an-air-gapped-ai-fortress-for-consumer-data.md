@@ -65,3 +65,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-5_QWh4LGoxg-reconstructed-slides]]
 - [[youtube-5_QWh4LGoxg-slides]]
 - Slide-derived terms: `fraud`, `management`, `detection`, `flow`, `payment`, `graph`, `chat`, `user`, `case`, `examination`, `profile`, `portal`, `lost`, `knowledge`, `level`, `distribution`, `processing`, `search`
+
+## Synthesis
+### Synthesized Breakdown
+# Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data ## Conference Context - Date/time: 2026-06-30 · 1:55pm-2:15pm - Track/room: AI-Native Enterprises · Leadership 1 - Speaker(s): Rachna Srivastava - Session type/status: session · confirmed - Track: AI-Native Enterprises - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description Every enterprise slide deck talks about "data privacy," but at the California Department of Financial Protection and Innovation (DFPI), a single leaked Social Security Number or bank account doesn’t just mean a bad PR day—it violates strict state consumer laws and triggers massive regulatory security breaches. When your raw data includes petabytes of unredacted fraud complaints, dark web scam networks, and banking statements, standard commercial public APIs are an absolute non-starter. This talk breaks down the exact enterprise architecture the DFPI uses to leverage frontier-level reasoning on highly sensitive data without crossing legal lines. We will walk through the code and infrastructure of our sovereign data pipeline.
+
+### Speaker And Company Context
+- [[rachna-srivastava|Rachna Srivastava]] — Enterprise Architect at [[dfpi|DFPI]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-5_QWh4LGoxg]] — related YouTube source page.
+- [[youtube-5_QWh4LGoxg-slides]] — slide evidence.
+- [[youtube-5_QWh4LGoxg-reconstructed-slides]] — slide evidence.
+- [[youtube-5_QWh4LGoxg-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

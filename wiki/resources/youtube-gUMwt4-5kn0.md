@@ -4,17 +4,17 @@ category: "resources"
 sourceLabels:
   - "Public YouTube metadata"
 videoId: "gUMwt4-5kn0"
-last_enriched: "2026-07-09T01:18:24.658220+00:00"
+last_enriched: "2026-07-10T18:12:33.804422+00:00"
 ---
 # 2026 AI Engineer Vibe Reel
 
 ## What It Is
-A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
+An official AI Engineer YouTube media item connected to AI Engineer World's Fair San Francisco 2026.
 
 ## Source Classification
-- Source role: supporting contextual video source.
-- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
-- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
+- Source role: primary event video source when the item is an official World's Fair San Francisco 2026 livestream or cut video; otherwise supporting official-channel context.
+- Channel/source: official AI Engineer YouTube channel.
+- Use: verify against the official schedule and transcript/slide availability before using it for specific session claims.
 
 ## Transcript Status
 No article transcript is expected for this non-talk event reel; it is kept as supporting media rather than topic evidence.
@@ -24,6 +24,3 @@ No article transcript is expected for this non-talk event reel; it is kept as su
 
 ## Extracted Slides
 - [[youtube-gUMwt4-5kn0-slides]]
-
-## Transcript Markdown
-- [[youtube-gUMwt4-5kn0-transcript]] — full cached transcript markdown.

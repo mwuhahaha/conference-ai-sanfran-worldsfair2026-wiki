@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# RAG Needs a Map: Using GraphRAG to Retrieve Connected Context ## Conference Context - Date/time: 2026-06-29 · 11:05am-12:05pm - Track/room: Track 2 · Track 2 - Speaker(s): Nyah Macklin - Session type/status: sponsor · confirmed - Track: Track 2 - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description Vector search is good at finding similar text, but real answers often depend on how facts, entities, and documents connect. In this hands-on workshop, you’ll build a GraphRAG workflow that uses relationships to retrieve connected context for more grounded AI responses. ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Speaker And Company Context
+- [[nyah-macklin|Nyah Macklin]] — Sr. Developer Advocate, Artificial intelligence at [[neo4j|Neo4j]].
+
+### Topics Covered
+- [[agentic-search]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

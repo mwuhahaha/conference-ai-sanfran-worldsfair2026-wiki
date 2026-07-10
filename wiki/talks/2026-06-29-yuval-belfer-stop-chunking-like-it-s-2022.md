@@ -66,3 +66,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Ywl4LsvHKzU-reconstructed-slides]]
 - [[youtube-Ywl4LsvHKzU-slides]]
 - Slide-derived terms: `world`, `fifa`, `local`, `name`, `questions`, `same`, `future`, `wife`, `first`, `mother`, `schema`, `prob`, `answers`, `assuming`, `answer`, `lies`, `certain`, `chunk`
+
+## Synthesis
+### Synthesized Breakdown
+# Stop Chunking Like It's 2022 ## Conference Context - Date/time: 2026-06-29 · 3:20pm-3:40pm - Track/room: Search & Retrieval · Track 3 - Speaker(s): Yuval Belfer, Niv Granot - Session type/status: session · confirmed - Track: Search & Retrieval - Room: Track 3 - Session type: session - Status: confirmed ## Session Description Every RAG system bets everything on a single chunk size. 500 tokens? 800? Pick wrong, and half your queries fail before they start.
+
+### Speaker And Company Context
+- [[yuval-belfer|Yuval Belfer]] — Sr. Developer Advocate at [[ai21|AI21]].
+- [[niv-granot|Niv Granot]] — Tech Group Lead at [[ai21-labs|AI21 Labs]].
+
+### Topics Covered
+- [[agentic-search]]
+
+### Derived Links And Source Material
+- [[youtube-Ywl4LsvHKzU]] — related YouTube source page.
+- [[youtube-Ywl4LsvHKzU-slides]] — slide evidence.
+- [[youtube-Ywl4LsvHKzU-reconstructed-slides]] — slide evidence.
+- [[youtube-Ywl4LsvHKzU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

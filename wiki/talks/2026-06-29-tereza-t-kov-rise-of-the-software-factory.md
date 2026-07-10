@@ -47,3 +47,25 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Rise of the Software Factory ## Conference Context - Date/time: 2026-06-29 · 11:10am-11:30am - Track/room: Software Factories · Main Stage - Speaker(s): Tereza Tížková - Session type/status: session · confirmed - Track: Software Factories - Room: Main Stage - Session type: session - Status: confirmed ## Session Description The Stanford HAI 2024 AI Index reports a 30x productivity gap between AI leaders and laggards. The differentiator is not company culture, prompting technique or model selection, but the infrastructure. Organizations capturing outsized value from AI agents have machine-readable codebases, deterministic internal APIs, CI/CD pipelines with agent-addressable hooks, and permission models granular enough to scope exactly what an agent can touch. I believe the “agents as employees” framing is most useful if you operationalize it.
+
+### Speaker And Company Context
+- [[tereza-t-kov|Tereza Tížková]] — Growth at [[factory|Factory]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

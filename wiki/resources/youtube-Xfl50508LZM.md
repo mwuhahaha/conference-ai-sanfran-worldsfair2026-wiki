@@ -5,24 +5,24 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "Xfl50508LZM"
-last_enriched: "2026-07-09T01:18:27.020641+00:00"
+last_enriched: "2026-07-10T18:12:38.024553+00:00"
 ---
 # Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize
 
 ## What It Is
-A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
+An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
-- Source role: supporting contextual video source.
-- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
-- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
+- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/Xfl50508LZM.txt` (22,591 words).
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `leave`, `faithfulness`, `takes`, `paying`, `import`, `tesla`, `disagreeing`, `unit`
+- Transcript keywords: `compounds`, `ready`, `suite`, `wondering`, `biases`, `explanations`, `tells`, `response`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=Xfl50508LZM)
@@ -38,6 +38,3 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/Xfl50508
 - [[youtube-Xfl50508LZM-dense-slides]]
 - [[youtube-Xfl50508LZM-reconstructed-slides]]
 - [[youtube-Xfl50508LZM-slides]]
-
-## Transcript Markdown
-- [[youtube-Xfl50508LZM-transcript]] — full cached transcript markdown.

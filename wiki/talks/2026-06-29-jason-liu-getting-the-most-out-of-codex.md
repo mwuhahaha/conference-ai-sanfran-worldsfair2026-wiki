@@ -63,3 +63,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-jryZvCuA0Uc-reconstructed-slides]]
 - [[youtube-jryZvCuA0Uc-slides]]
 - Slide-derived terms: `awws`, `orci`, `aviace`, `fotatetey`, `mdaily`, `augment`, `code`, `workos`, `eeeeeeessssssssssseseeeaassss`, `look`, `jeff`, `huber`, `jason`, `oaths`, `read`, `full`, `report`, `research`
+
+## Synthesis
+### Synthesized Breakdown
+# Getting the most out of Codex ## Conference Context - Date/time: 2026-06-29 · 10:45am-11:05am - Track/room: Software Factories · Main Stage - Speaker(s): Jason Liu - Session type/status: session · confirmed - Track: Software Factories - Room: Main Stage - Session type: session - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence [How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)](https://www.youtube.com/watch?v=jryZvCuA0Uc) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-jryZvCuA0Uc` - Slide deck: [[youtube-jryZvCuA0Uc-dense-slides|Dense Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]] — 1 visible slide image(s); 1 HTML recreation(s). ![[assets/dense-slides/jryZvCuA0Uc/slide-002.jpg]] - Additional slide evidence: [[youtube-jryZvCuA0Uc-slides|Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]], [[youtube-jryZvCuA0Uc-reconstructed-slides|Reconstructed Slides: How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]] - Slide-derived themes for `youtube-jryZvCuA0Uc`: read, full, report.
+
+### Speaker And Company Context
+- [[jason-liu|Jason Liu]] — Developer Experience, OpenAI at [[openai|OpenAI]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-jryZvCuA0Uc]] — related YouTube source page.
+- [[youtube-jryZvCuA0Uc-slides]] — slide evidence.
+- [[youtube-jryZvCuA0Uc-reconstructed-slides]] — slide evidence.
+- [[youtube-jryZvCuA0Uc-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
