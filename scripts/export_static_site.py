@@ -728,7 +728,7 @@ fetch("/graph-data.json")
   })
   .then((data) => {
     graph = data;
-    const categories = [...new Set(graph.nodes.map((node) => node.category))].sort();
+    const categories = [...new Set(graph.nodes.map((node) => node.category).filter((category) => category !== "root"))].sort();
     colors = new Map(categories.map((category, index) => [category, palette[index % palette.length]]));
     categories.forEach((category) => {
       const option = document.createElement("option");
@@ -740,7 +740,7 @@ fetch("/graph-data.json")
       const swatch = document.createElement("i");
       swatch.style.background = colors.get(category);
       item.append(swatch, document.createTextNode(category.replaceAll("-", " ")));
-      legend.append(item);
+      legend.append(item, document.createTextNode(" "));
     });
     categorySelect.addEventListener("change", render);
     searchInput.addEventListener("input", render);
@@ -1064,9 +1064,32 @@ blockquote {
   font: inherit;
 }
 .graph-status { color: var(--muted); font-size: 0.9rem; }
-.graph-legend { display: flex; flex-wrap: wrap; gap: 6px 12px; margin: 14px 0; }
-.graph-legend-item { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); font-size: 0.78rem; text-transform: capitalize; }
-.graph-legend-item i { width: 10px; height: 10px; border-radius: 50%; }
+.graph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+.graph-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.graph-legend-item i {
+  flex: 0 0 auto;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
 .graph-workspace { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 16px; align-items: start; }
 .graph-canvas-wrap { min-height: 560px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; }
 .graph-canvas { display: block; width: 100%; min-height: 560px; }
