@@ -98,3 +98,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ## Slides
 - Source video: `youtube-AheG9p_JXVw`
 - Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — no readable content slides after AI classification.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

@@ -13,9 +13,11 @@ import json
 import math
 import re
 import subprocess
+from statistics import median
 from collections import defaultdict
 from pathlib import Path
 
+import cv2
 from PIL import Image, ImageDraw, ImageFont
 
 
@@ -30,7 +32,10 @@ SHEET_OUT = OUT / "contact-sheets"
 PUBLIC_ASSET_DIR = "attendance-calibration-v1"
 ASSET_SHEET_OUT = WIKI / "assets" / PUBLIC_ASSET_DIR
 REPORT = OUT / "room-calibration-evidence.json"
+VIDEO_REPORT = OUT / "video-attendance-evidence.json"
+VIDEO_OVERRIDES = OUT / "video-attendance-overrides.json"
 WIKI_PAGE = WIKI / "resources" / "room-attendance-calibration.md"
+VIDEO_WIKI_PAGE = WIKI / "resources" / "video-attendance-visibility.md"
 VALID_YOUTUBE_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
 
 
@@ -123,6 +128,13 @@ def score_candidate(row: dict) -> tuple[int, str]:
     }.get(row.get("source_kind"), 3)
     media_rank = 0 if row.get("video_cache") else 1 if row.get("frame_cache") else 2
     return (source_rank, media_rank, row.get("title", ""))
+
+
+def evidence_key(row: dict) -> str:
+    segment = row.get("segment_start_seconds")
+    if segment is None:
+        return f"{row['video_id']}-full"
+    return f"{row['video_id']}-t{segment}"
 
 
 def video_duration_seconds(video_path: Path) -> float | None:
@@ -245,7 +257,7 @@ def make_sheet(room: str, evidence: list[dict]) -> str:
         tile = Image.new("RGB", (320, 220), "white")
         tile.paste(img, ((320 - img.width) // 2, 8))
         draw = ImageDraw.Draw(tile)
-        label = f"{item['video_id']} {item.get('time_seconds') or ''}"
+        label = f"{item.get('evidence_key', item['video_id'])} {item.get('time_seconds') or ''}"
         draw.text((8, 184), label[:42], fill=(0, 0, 0))
         draw.text((8, 202), item.get("title", "")[:46], fill=(60, 60, 60))
         images.append(tile)
@@ -267,6 +279,185 @@ def make_sheet(room: str, evidence: list[dict]) -> str:
     sheet.save(out_path, quality=88)
     sheet.save(asset_path, quality=88)
     return str(asset_path.relative_to(WIKI))
+
+
+def local_people_detector_count(path: Path) -> int:
+    """Best-effort visible-person signal, not a publishable attendance count."""
+    image = cv2.imread(str(path))
+    if image is None:
+        return 0
+    height, width = image.shape[:2]
+    scale = min(1.0, 960 / max(width, height))
+    if scale < 1.0:
+        image = cv2.resize(image, (int(width * scale), int(height * scale)))
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    face_count = 0
+    cascade_path = Path(cv2.data.haarcascades) / "haarcascade_frontalface_default.xml"
+    if cascade_path.exists():
+        cascade = cv2.CascadeClassifier(str(cascade_path))
+        faces = cascade.detectMultiScale(gray, scaleFactor=1.08, minNeighbors=5, minSize=(18, 18))
+        face_count = len(faces)
+    hog = cv2.HOGDescriptor()
+    hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
+    bodies, _ = hog.detectMultiScale(image, winStride=(8, 8), padding=(8, 8), scale=1.05)
+    return max(face_count, len(bodies))
+
+
+def icon_scale(count: int) -> int:
+    if count <= 0:
+        return 0
+    return min(10, max(1, math.ceil(count / 5)))
+
+
+def icon_string(count: int) -> str:
+    return " ".join(["👤"] * count)
+
+
+def load_video_overrides() -> dict:
+    if not VIDEO_OVERRIDES.exists():
+        return {}
+    try:
+        data = json.loads(VIDEO_OVERRIDES.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    return data.get("videos", {}) if isinstance(data, dict) else {}
+
+
+def build_video_attendance_report(room_report: dict) -> dict:
+    videos: dict[str, dict] = {}
+    overrides = load_video_overrides()
+    for room, row in sorted(room_report["rooms"].items()):
+        calibration = row["calibration"]
+        evidence_by_key: dict[str, list[dict]] = defaultdict(list)
+        for item in row["evidence"]:
+            evidence_by_key[item.get("evidence_key", item["video_id"])].append(item)
+        for video in row["used_videos"]:
+            key = evidence_key(video)
+            samples = evidence_by_key.get(key, [])
+            detector_counts = []
+            for sample in samples:
+                frame_path = ROOT / sample["path"]
+                if frame_path.exists():
+                    detector_counts.append(local_people_detector_count(frame_path))
+            max_count = max(detector_counts or [0])
+            median_count = int(median(detector_counts)) if detector_counts else 0
+            primary = video.get("source_kind") in {"worldsfair-livestream-segment", "candidate-session-video"}
+            automated_candidate = (
+                primary
+                and calibration["use"] == "partial visible-area calibration"
+                and max_count >= 8
+                and sum(1 for count in detector_counts if count >= 5) >= 2
+            )
+            override = overrides.get(key, {})
+            override_icons = int(override.get("display_icons") or 0) if isinstance(override, dict) else 0
+            high_confidence = bool(override.get("publish") and 1 <= override_icons <= 10) if isinstance(override, dict) else False
+            display_icons = override_icons if high_confidence else 0
+            videos[key] = {
+                "video_id": video["video_id"],
+                "segment_start_seconds": video.get("segment_start_seconds"),
+                "source_kind": video.get("source_kind"),
+                "room": room,
+                "track": video.get("track", ""),
+                "title": video.get("title", ""),
+                "talk_page": video.get("talk_page", ""),
+                "sample_frames": len(samples),
+                "detector_counts": detector_counts,
+                "max_visible_signal": max_count,
+                "median_visible_signal": median_count,
+                "automated_candidate": automated_candidate,
+                "confidence": "high" if high_confidence else "needs_review" if automated_candidate else "low",
+                "display_icons": display_icons,
+                "display": icon_string(display_icons) if display_icons else "",
+                "publishable": bool(display_icons),
+                "reason": (
+                    "Published from explicit high-confidence review override as a capped icon-scale visible attendance signal."
+                    if display_icons
+                    else "No number shown because confidence is low, the automated signal still needs review, no people were confidently detected, or the visual evidence is only a room/camera proxy."
+                ),
+            }
+    return {"videos": videos}
+
+
+def upsert_section(text: str, heading: str, body: str) -> str:
+    pattern = re.compile(rf"\n## {re.escape(heading)}\n.*?(?=\n## |\Z)", re.S)
+    section = f"\n## {heading}\n{body.rstrip()}\n"
+    if pattern.search(text):
+        return pattern.sub(section, text)
+    return text.rstrip() + "\n" + section
+
+
+def write_video_wiki(video_report: dict) -> None:
+    published = [row for row in video_report["videos"].values() if row["publishable"]]
+    suppressed = [row for row in video_report["videos"].values() if not row["publishable"]]
+    lines = [
+        "---",
+        'title: "Video Attendance Visibility"',
+        'category: "resources"',
+        'sourceLabels: ["Local video frame sampling", "Attendance calibration", "OpenCV visual signal"]',
+        "---",
+        "# Video Attendance Visibility",
+        "",
+        "This page records the conservative video-level attendance visibility pass. It is not an exact attendance count. A number is shown only when the visual signal is high confidence; zero and low-confidence estimates are suppressed.",
+        "",
+        "## Display Rule",
+        "- Do not show a number when the estimate is zero.",
+        "- Do not show a number when confidence is low or the source is only a supporting/camera-family proxy.",
+        "- When confidence is high, show a capped icon scale from 1 to 10 person icons.",
+        "- Automated detector output may nominate a candidate, but publication requires explicit high-confidence review.",
+        "- The icon scale is a visible-attendance signal, not a precise count.",
+        "",
+        "## Published Icon Signals",
+        "",
+    ]
+    if published:
+        for row in sorted(published, key=lambda item: (item["room"], item["title"])):
+            lines.append(f"- {row['display']} — {row['title']} (`{row['video_id']}`), {row['room']}; confidence: high.")
+    else:
+        lines.append("- No high-confidence video attendance icon signals are publishable in this pass.")
+    lines.extend(["", "## Suppressed Video Signals", ""])
+    for row in sorted(suppressed, key=lambda item: (item["room"], item["title"], item["video_id"])):
+        segment = f" at {row['segment_start_seconds']}s" if row.get("segment_start_seconds") is not None else ""
+        candidate = "; automated candidate awaiting review" if row.get("automated_candidate") else ""
+        lines.append(
+            f"- `{row['video_id']}`{segment} — {row['title']} ({row['room']}): suppressed; max local visible-person signal {row['max_visible_signal']}; confidence {row['confidence']}{candidate}."
+        )
+    lines.extend(
+        [
+            "",
+            "## Method Boundary",
+            "The local detector produces a review signal from sampled frames. It can miss people in dark rooms, count speakers instead of audience, and fail on slide-only captures. For that reason, only high-confidence results are displayed on talk pages.",
+        ]
+    )
+    VIDEO_WIKI_PAGE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def apply_talk_attendance_sections(video_report: dict) -> None:
+    by_talk: dict[str, list[dict]] = defaultdict(list)
+    for row in video_report["videos"].values():
+        if row.get("talk_page"):
+            by_talk[row["talk_page"]].append(row)
+    for rel_path, rows in by_talk.items():
+        path = ROOT / rel_path
+        if not path.exists():
+            continue
+        published = [row for row in rows if row["publishable"]]
+        if not published:
+            body = (
+                "No high-confidence attendance icon signal is shown for this talk. "
+                "The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view."
+            )
+        else:
+            body_lines = [
+                "Visible attendance signal is shown as a capped 1-10 person-icon scale, not an exact count.",
+                "",
+            ]
+            for row in published:
+                body_lines.append(f"- {row['display']} — high confidence from `{row['video_id']}` sampled frames.")
+            body = "\n".join(body_lines)
+        text = path.read_text(encoding="utf-8")
+        updated = upsert_section(text, "Attendance Visibility", body)
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
 
 
 def inferred_calibration(room: str, evidence_count: int, primary_videos: int, supporting_videos: int) -> dict:
@@ -422,7 +613,8 @@ def main() -> int:
             video_id = row["video_id"]
             video_path = video_file(video_id)
             frame_dir = FRAME_CACHE / video_id
-            out_dir = FRAME_OUT / room_slug / video_id
+            key = evidence_key(row)
+            out_dir = FRAME_OUT / room_slug / key
             samples = []
             if video_path:
                 samples = sample_video(video_id, video_path, out_dir, 6, row.get("segment_start_seconds"))
@@ -434,6 +626,7 @@ def main() -> int:
                     sample.update(
                         {
                             "video_id": video_id,
+                            "evidence_key": key,
                             "title": row["title"],
                             "track": row["track"],
                             "source_kind": row.get("source_kind"),
@@ -457,7 +650,23 @@ def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_wiki(report)
-    print(json.dumps({"rooms": len(report["rooms"]), "report": str(REPORT.relative_to(ROOT)), "wiki": str(WIKI_PAGE.relative_to(ROOT))}, sort_keys=True))
+    video_report = build_video_attendance_report(report)
+    VIDEO_REPORT.write_text(json.dumps(video_report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    write_video_wiki(video_report)
+    apply_talk_attendance_sections(video_report)
+    print(
+        json.dumps(
+            {
+                "rooms": len(report["rooms"]),
+                "room_report": str(REPORT.relative_to(ROOT)),
+                "video_report": str(VIDEO_REPORT.relative_to(ROOT)),
+                "room_wiki": str(WIKI_PAGE.relative_to(ROOT)),
+                "video_wiki": str(VIDEO_WIKI_PAGE.relative_to(ROOT)),
+                "published_video_icons": sum(1 for row in video_report["videos"].values() if row["publishable"]),
+            },
+            sort_keys=True,
+        )
+    )
     return 0
 
 

@@ -66,3 +66,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/NuePCNMpWGc/slide-001.jpg]]
 - Additional slide evidence: [[youtube-NuePCNMpWGc-slides|Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]], [[youtube-NuePCNMpWGc-reconstructed-slides|Reconstructed Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]]
 - Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, benchmarks, enough, info, demo, stop.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

@@ -68,3 +68,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/JhJKgRAmfIU/slide-003.jpg]]
 - Additional slide evidence: [[youtube-JhJKgRAmfIU-slides|Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]], [[youtube-JhJKgRAmfIU-reconstructed-slides|Reconstructed Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]]
 - Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

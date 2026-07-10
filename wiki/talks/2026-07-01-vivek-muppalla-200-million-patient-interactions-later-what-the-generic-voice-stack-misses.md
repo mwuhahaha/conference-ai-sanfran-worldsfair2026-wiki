@@ -65,3 +65,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/u3NofYYstaY/slide-001.jpg]]
 - Additional slide evidence: [[youtube-u3NofYYstaY-slides|Slides: Cohere for VPs of AI: Vivek Muppalla]], [[youtube-u3NofYYstaY-reconstructed-slides|Reconstructed Slides: Cohere for VPs of AI: Vivek Muppalla]]
 - Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

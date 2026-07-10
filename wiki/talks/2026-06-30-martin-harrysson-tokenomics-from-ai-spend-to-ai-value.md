@@ -62,3 +62,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/reconstructed-slides/SZStlIhyTCY/slide-003.jpg]]
 - Additional slide evidence: [[youtube-SZStlIhyTCY-slides|Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company]]
 - Slide-derived themes for `youtube-SZStlIhyTCY`: agile, software, moving, away, next, november, technologies, given.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

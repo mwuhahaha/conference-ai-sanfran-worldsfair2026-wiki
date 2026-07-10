@@ -74,3 +74,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/xz0-brt56L8/slide-003.jpg]]
 - Additional slide evidence: [[youtube-xz0-brt56L8-slides|Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]], [[youtube-xz0-brt56L8-reconstructed-slides|Reconstructed Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]]
 - Slide-derived themes for `youtube-xz0-brt56L8`: wednesday, november, include, attachments, loft, delicious, coffee, lovely.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

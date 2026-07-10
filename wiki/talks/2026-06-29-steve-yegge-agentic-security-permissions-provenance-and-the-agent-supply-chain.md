@@ -67,3 +67,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/7Dtu2bilcFs/slide-003.jpg]]
 - Additional slide evidence: [[youtube-7Dtu2bilcFs-slides|Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]], [[youtube-7Dtu2bilcFs-reconstructed-slides|Reconstructed Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]]
 - Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

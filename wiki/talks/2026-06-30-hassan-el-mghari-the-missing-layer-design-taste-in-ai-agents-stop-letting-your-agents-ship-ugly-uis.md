@@ -59,3 +59,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/slides/gcseUQJ6Gbg/slide-002.jpg]]
 ![[assets/slides/gcseUQJ6Gbg/slide-003.jpg]]
 - Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, demos, architecture, typical, tech, stack, process, advice.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

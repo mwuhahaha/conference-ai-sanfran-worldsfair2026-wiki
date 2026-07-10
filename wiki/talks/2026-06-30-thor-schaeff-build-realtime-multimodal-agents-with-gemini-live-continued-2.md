@@ -69,3 +69,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/Bc6Ojl2XS1w/slide-001.jpg]]
 - Additional slide evidence: [[youtube-Bc6Ojl2XS1w-slides|Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides|Reconstructed Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]]
 - Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

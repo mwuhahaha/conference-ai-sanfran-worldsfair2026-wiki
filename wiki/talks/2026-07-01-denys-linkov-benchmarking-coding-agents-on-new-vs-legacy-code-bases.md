@@ -65,3 +65,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/SbUxRluVRwk/slide-001.jpg]]
 - Additional slide evidence: [[youtube-SbUxRluVRwk-slides|Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]], [[youtube-SbUxRluVRwk-reconstructed-slides|Reconstructed Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]]
 - Slide-derived themes for `youtube-SbUxRluVRwk`: before, hiring, modern, team, themes.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

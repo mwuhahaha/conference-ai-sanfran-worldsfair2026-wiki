@@ -76,3 +76,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/-cKUW6n8hBU/slide-003.jpg]]
 - Additional slide evidence: [[youtube--cKUW6n8hBU-slides|Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]], [[youtube--cKUW6n8hBU-reconstructed-slides|Reconstructed Slides: DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners]]
 - Slide-derived themes for `youtube--cKUW6n8hBU`: allows, structured, prompts, program, declarative, framework, modular, software.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

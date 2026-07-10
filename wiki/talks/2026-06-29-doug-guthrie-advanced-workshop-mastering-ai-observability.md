@@ -69,3 +69,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/bk0TmxoZlUY/slide-001.jpg]]
 - Additional slide evidence: [[youtube-bk0TmxoZlUY-slides|Slides: Evals 101 — Doug Guthrie, Braintrust]], [[youtube-bk0TmxoZlUY-reconstructed-slides|Reconstructed Slides: Evals 101 — Doug Guthrie, Braintrust]]
 - Slide-derived themes for `youtube-bk0TmxoZlUY`: developer, platform, support, leading, teams, netflix, nite, become.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

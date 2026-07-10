@@ -68,3 +68,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/Lc8zRh9muoY/slide-003.jpg]]
 - Additional slide evidence: [[youtube-Lc8zRh9muoY-slides|Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]], [[youtube-Lc8zRh9muoY-reconstructed-slides|Reconstructed Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]]
 - Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, identical, determinism, never, failed, luck, reproducing.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

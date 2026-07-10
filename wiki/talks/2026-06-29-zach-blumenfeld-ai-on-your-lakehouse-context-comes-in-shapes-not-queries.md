@@ -69,3 +69,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/B9h9ovW5H9U/slide-001.jpg]]
 - Additional slide evidence: [[youtube-B9h9ovW5H9U-slides|Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]], [[youtube-B9h9ovW5H9U-reconstructed-slides|Reconstructed Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]]
 - Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

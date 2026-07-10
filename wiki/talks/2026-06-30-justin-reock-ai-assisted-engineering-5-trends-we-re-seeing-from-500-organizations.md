@@ -67,3 +67,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/PmZDupFP3UM/slide-003.jpg]]
 - Additional slide evidence: [[youtube-PmZDupFP3UM-slides|Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]], [[youtube-PmZDupFP3UM-reconstructed-slides|Reconstructed Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]]
 - Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

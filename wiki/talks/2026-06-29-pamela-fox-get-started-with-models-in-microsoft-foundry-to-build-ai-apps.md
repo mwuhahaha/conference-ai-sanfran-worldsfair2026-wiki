@@ -67,3 +67,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/1t-9-s1brcg/slide-003.jpg]]
 - Additional slide evidence: [[youtube-1t-9-s1brcg-slides|Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]], [[youtube-1t-9-s1brcg-reconstructed-slides|Reconstructed Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]]
 - Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

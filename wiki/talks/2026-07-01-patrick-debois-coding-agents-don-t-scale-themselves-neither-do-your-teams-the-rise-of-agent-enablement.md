@@ -65,3 +65,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/bSG9wUYaHWU/slide-001.jpg]]
 - Additional slide evidence: [[youtube-bSG9wUYaHWU-slides|Slides: Context Is the New Code — Patrick Debois, Tessl]], [[youtube-bSG9wUYaHWU-reconstructed-slides|Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl]]
 - Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

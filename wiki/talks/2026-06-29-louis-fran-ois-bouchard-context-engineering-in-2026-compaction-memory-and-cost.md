@@ -87,3 +87,6 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/ZRM_TfEZcIo/slide-004.jpg]]
 - Additional slide evidence: [[youtube-ZRM_TfEZcIo-slides|Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]], [[youtube-ZRM_TfEZcIo-reconstructed-slides|Reconstructed Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]]
 - Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, plus, notion, google, drive, growing, files, month.
+
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
