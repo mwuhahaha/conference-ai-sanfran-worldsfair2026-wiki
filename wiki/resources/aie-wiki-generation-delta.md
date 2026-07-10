@@ -9,11 +9,11 @@ sourceLabels:
 
 # AIE Wiki Generation Delta
 
-This page records the factual delta between four local AI Engineer wiki generations inspected on 2026-07-10:
+This page records the factual delta between four AI Engineer wiki generations inspected on 2026-07-10:
 
-- AI Engineer World's Fair 2024 local fixture wiki.
-- AI Engineer Miami 2026 local public wiki app.
-- AI Engineer World's Fair 2025 local fixture wiki.
+- AI Engineer World's Fair 2024 local fixture wiki. No public live site is linked here.
+- [AI Engineer Miami 2026 public wiki](https://aie-miami-wiki.onrender.com/).
+- AI Engineer World's Fair 2025 local fixture wiki. No public live site is linked here.
 - This AI Engineer World's Fair 2026 public static wiki.
 
 The main comparison is the evolution of the AI engineering conversation: what information became important, which technologies moved into focus, and what lessons the wiki logic needed to preserve. The implementation details are included only where they explain what the wiki can see.
@@ -114,13 +114,22 @@ The lesson for the 2026 wiki is evidence discipline. A production-agent conferen
 | Technical lesson | Do not blend broad themes with evidence. | Treat agent concepts as a linked knowledge graph, not one-off talk notes. | Production agents require evaluation, observability, security, memory, and deployment patterns. | Every derived claim needs provenance because agent systems depend on operational details. |
 | Wiki lesson | Preserve source classes separately. | Use transcript-first synthesis and read-only graph navigation. | Scale coverage while retaining fixture boundaries. | Keep the public site static/read-only while publishing agent-readable indexes and evidence layers. |
 
+## Source Availability
+
+| Wiki | Public link status used on this page |
+|---|---|
+| AI Engineer World's Fair 2024 | No public live site is linked. The comparison uses a local fixture output inspected on 2026-07-10. |
+| AI Engineer Miami 2026 | Public wiki: [aie-miami-wiki.onrender.com](https://aie-miami-wiki.onrender.com/). |
+| AI Engineer World's Fair 2025 | No public live site is linked. The comparison uses a local fixture output inspected on 2026-07-10. |
+| AI Engineer World's Fair 2026 | Current public wiki: [aie-worldsfair2026.plusrobot.ai](https://aie-worldsfair2026.plusrobot.ai/). |
+
 ## Date Anchors
 
 | Wiki | Event date information visible in the inspected sources | Inspection note |
 |---|---:|---|
-| AI Engineer World's Fair 2024 | The inspected overview identifies the event year as 2024; it does not expose calendar-day event dates in the overview or source-boundary page. | Local fixture wiki served from a static HTML export. |
-| AI Engineer Miami 2026 | April 20, 2026 and April 21, 2026. | The Miami overview names two transcript files, one for each conference day. |
-| AI Engineer World's Fair 2025 | The inspected overview identifies the event year as 2025; it does not expose calendar-day event dates in the overview or source-boundary page. | Local fixture wiki served from a static HTML export. |
+| AI Engineer World's Fair 2024 | The inspected overview identifies the event year as 2024; it does not expose calendar-day event dates in the overview or source-boundary page. | Local fixture wiki served from a static HTML export; no public live site is linked. |
+| AI Engineer Miami 2026 | April 20, 2026 and April 21, 2026. | The public Miami wiki overview names two transcript files, one for each conference day. |
+| AI Engineer World's Fair 2025 | The inspected overview identifies the event year as 2025; it does not expose calendar-day event dates in the overview or source-boundary page. | Local fixture wiki served from a static HTML export; no public live site is linked. |
 | AI Engineer World's Fair 2026 | June 28-July 2, 2026. | Current public wiki event days are New Engineer Orientation, Workshop Day and Welcome Reception, Keynotes and Breakouts, World Cup and Multi-Track Programming, and Final Day and Last Chance Expo. |
 
 ## Scale At Inspection Time
