@@ -15,6 +15,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 ## Start Here
 - Home overview: https://aie-worldsfair2026.plusrobot.ai/
 - Full index: https://aie-worldsfair2026.plusrobot.ai/index/
+- Knowledge graph: https://aie-worldsfair2026.plusrobot.ai/graph/
 - Search page: https://aie-worldsfair2026.plusrobot.ai/search/
 - Topics index: https://aie-worldsfair2026.plusrobot.ai/topics/
 - Talks index: https://aie-worldsfair2026.plusrobot.ai/talks/
@@ -48,6 +49,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - A quote page is `/quotes/<quote-slug>/`.
 - A resource page is `/resources/<resource-slug>/`.
 - Wiki links in markdown use `[[slug]]` or `[[slug|label]]`; on the public site these resolve to the matching rendered URL.
+- The graph browser is `/graph/`; its full static dataset is `/graph-data.json`.
 - If a rendered page is hard to parse, fetch its markdown backing file first and use the rendered page only for images or visual inspection.
 
 ## Corpus Map
@@ -101,6 +103,8 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - AI Sandboxes topic: https://aie-worldsfair2026.plusrobot.ai/topics/ai-sandboxes/
 - MCP topic: https://aie-worldsfair2026.plusrobot.ai/topics/mcp/
 - Inference Engineering topic: https://aie-worldsfair2026.plusrobot.ai/topics/inference-engineering/
+- Knowledge graph: https://aie-worldsfair2026.plusrobot.ai/graph/
+- Graph dataset: https://aie-worldsfair2026.plusrobot.ai/graph-data.json
 - Talk/video/transcript map: https://aie-worldsfair2026.plusrobot.ai/resources/talk-video-transcript-map/
 - External YouTube video discovery: https://aie-worldsfair2026.plusrobot.ai/resources/external-video-discovery/
 - Livestreams resource: https://aie-worldsfair2026.plusrobot.ai/resources/worldsfair-2026-livestreams/
