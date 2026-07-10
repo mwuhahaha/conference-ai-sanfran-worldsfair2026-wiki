@@ -394,16 +394,16 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
 
     stats = [
         ("Schedule sessions", entry_count(sessions), "/talks/"),
-        ("Speaker pages", category_counts.get("people", 0), "/people/"),
-        ("Company pages", category_counts.get("companies", 0), "/companies/"),
-        ("Source resources", category_counts.get("resources", 0), "/resources/"),
-        ("Slide pages", category_counts.get("slides", 0), "/slides/"),
+        ("Speakers", entry_count(speakers), "/people/"),
+        ("Companies", category_counts.get("companies", 0), "/companies/"),
+        ("Talk/video rows", entry_count(related_videos), "/resources/talk-video-transcript-map/"),
         ("Transcript pages", category_counts.get("transcripts", 0), "/transcripts/"),
+        ("Slide pages", category_counts.get("slides", 0), "/slides/"),
         ("Topics", category_counts.get("topics", 0), "/topics/"),
         ("Graph links", f"{len(graph['links']):,}", "/graph/"),
     ]
     stats_html = "\n".join(
-        f"""<a class="home-stat" href="{url}">
+        f"""<a class="home-metric" href="{url}">
   <strong>{html.escape(str(value))}</strong>
   <span>{html.escape(label)}</span>
 </a>"""
@@ -415,10 +415,10 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
     for event in event_pages:
         linked_count = len(re.findall(r"(?<!!)\[\[([^\]]+)\]\]", event.body))
         event_card_items.append(
-            f"""<a class="home-event-card" href="{event.url}">
+            f"""<a class="home-row" href="{event.url}">
+  <span class="home-row-kicker">{event.id.split('/', 1)[-1][:10]}</span>
   <strong>{html.escape(event.title)}</strong>
   <span>{linked_count} linked sessions or sources</span>
-  <p>{html.escape(event.excerpt)}</p>
 </a>"""
         )
     event_cards = "\n".join(event_card_items)
@@ -432,8 +432,8 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
         ("Synthesis layers", f"{category_counts.get('topics', 0)} topics, {category_counts.get('tools', 0)} tools, {category_counts.get('questions', 0)} questions", "Topic, tool, claim, harness, playbook, evaluation, and policy pages summarize patterns across evidence.", "/topics/"),
     ]
     source_html = "\n".join(
-        f"""<a class="home-source-card" href="{url}">
-  <small>{html.escape(kicker)}</small>
+        f"""<a class="home-row home-source-row" href="{url}">
+  <span class="home-row-kicker">{html.escape(kicker)}</span>
   <strong>{html.escape(count)}</strong>
   <span>{html.escape(description)}</span>
 </a>"""
@@ -441,17 +441,13 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
     )
 
     primary_links = [
-        ("Official event site", "https://www.ai.engineer/worldsfair/2026", "Original public event page."),
-        ("Conference days", "/events/", "Day-level schedule anchors."),
-        ("Talk schedule", "/talks/", "All generated official session pages."),
-        ("Livestreams", "/resources/worldsfair-2026-livestreams/", "Official AI Engineer livestream sources."),
-        ("Talk/video map", "/resources/talk-video-transcript-map/", "Recording and transcript coverage by talk."),
-        ("Knowledge graph", "/graph/", "Build-time wikilink map."),
-        ("Agent index", "/agent-index.md", "Standalone markdown navigation contract."),
-        ("Source boundary", "/resources/source-boundary/", "Evidence confidence and corpus rules."),
+        ("Explore schedule", "/talks/", "All official session pages."),
+        ("Open graph", "/graph/", "Connections across pages."),
+        ("Check media", "/resources/talk-video-transcript-map/", "Talk/video/transcript coverage."),
+        ("Use as agent", "/agent-index.md", "Standalone markdown map."),
     ]
     links_html = "\n".join(
-        f"""<a class="home-link-card" href="{html.escape(url)}">
+        f"""<a class="home-start-link" href="{html.escape(url)}">
   <strong>{html.escape(label)}</strong>
   <span>{html.escape(description)}</span>
 </a>"""
@@ -459,52 +455,47 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
     )
 
     body = f"""<section class="home-landing">
-  <p class="page-tools"><a href="{html.escape(page.markdown_url)}">Markdown source</a></p>
-  <p class="eyebrow">AI Engineer World's Fair 2026</p>
-  <h1>Conference intelligence wiki</h1>
-  <p class="home-lede">A static, read-only map of the San Francisco World&apos;s Fair built from the official schedule and speaker roster, then layered with public AI Engineer video, transcripts, slides, OCR, topics, tools, quotes, and source-bound synthesis.</p>
-  <div class="home-hero-actions">
-    <a href="/events/">Browse days</a>
-    <a href="/talks/">Browse talks</a>
-    <a href="/graph/">Open graph</a>
-    <a href="/agent-index.md">Agent index</a>
+  <div class="home-hero-copy">
+    <p class="page-tools"><a href="{html.escape(page.markdown_url)}">Markdown source</a></p>
+    <p class="eyebrow">Static public wiki</p>
+    <h1>AI Engineer World&apos;s Fair 2026</h1>
+    <p class="home-deck">A schedule-first map of the San Francisco conference, enriched with public video, transcript, slide, topic, tool, and source-bound synthesis layers.</p>
+  </div>
+  <dl class="home-facts">
+    <div><dt>When</dt><dd>June 28-July 2, 2026</dd></div>
+    <div><dt>Where</dt><dd>Moscone West, San Francisco</dd></div>
+    <div><dt>Core source</dt><dd>Official schedule and speaker roster</dd></div>
+    <div><dt>Contract</dt><dd>Static, read-only, markdown-backed</dd></div>
+  </dl>
+  <div class="home-start">
+    <p class="eyebrow">Start here</p>
+    <div class="home-start-grid">{links_html}</div>
   </div>
 </section>
 
-<section class="home-section">
-  <div class="home-section-heading">
-    <p class="eyebrow">At a glance</p>
-    <h2>Corpus counts</h2>
-  </div>
-  <div class="home-stat-grid">{stats_html}</div>
-</section>
-
-<section class="home-section">
-  <div class="home-section-heading">
-    <p class="eyebrow">Primary navigation</p>
-    <h2>Start with the event, then follow evidence</h2>
-  </div>
-  <div class="home-link-grid">{links_html}</div>
-</section>
-
-<section class="home-section">
-  <div class="home-section-heading">
+<section class="home-split">
+  <div class="home-panel">
     <p class="eyebrow">Source boundary</p>
-    <h2>Official facts stay separate from supporting media and synthesis</h2>
+    <h2>What is official?</h2>
+    <ol class="home-boundary-list">
+      <li><strong>Official schedule facts</strong> are dates, titles, speakers, organizations, rooms, tracks, and status.</li>
+      <li><strong>Media evidence</strong> is supporting context from videos, livestreams, transcripts, slides, OCR, and external candidates.</li>
+      <li><strong>Synthesis pages</strong> summarize patterns; follow their linked evidence before treating a claim as primary.</li>
+    </ol>
   </div>
-  <div class="home-boundary">
-    <p><strong>Official schedule facts</strong> establish dates, titles, speakers, organizations, tracks, rooms, and session status.</p>
-    <p><strong>Supporting media</strong> includes AI Engineer YouTube videos, livestreams, transcripts, slide frames, OCR, reconstructed slide crops, and external video candidates.</p>
-    <p><strong>Synthesis pages</strong> such as topics, tools, claims, questions, harnesses, playbooks, evaluations, and policies are navigation and analysis layers. Follow their linked talk, resource, transcript, and slide pages before treating a claim as primary.</p>
+  <div class="home-panel">
+    <p class="eyebrow">Corpus</p>
+    <h2>At a glance</h2>
+    <div class="home-metric-grid">{stats_html}</div>
   </div>
 </section>
 
 <section class="home-section">
   <div class="home-section-heading">
     <p class="eyebrow">Conference days</p>
-    <h2>Event panels</h2>
+    <h2>Day-level entry points</h2>
   </div>
-  <div class="home-event-grid">{event_cards}</div>
+  <div class="home-row-list">{event_cards}</div>
 </section>
 
 <section class="home-section">
@@ -512,7 +503,7 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
     <p class="eyebrow">Source layers</p>
     <h2>What the wiki is built from</h2>
   </div>
-  <div class="home-source-grid">{source_html}</div>
+  <div class="home-row-list">{source_html}</div>
 </section>"""
     return render_layout(page.title, body, pages, "overview")
 
@@ -900,79 +891,159 @@ blockquote {
 .card strong { font-size: 1.02rem; line-height: 1.25; }
 .card small { color: var(--accent-2); font-weight: 750; text-transform: uppercase; }
 .card span { color: var(--muted); font-size: 0.92rem; }
-.home-landing, .home-section {
+.home-landing, .home-panel, .home-section {
   max-width: 1120px;
-  margin-bottom: 18px;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: clamp(22px, 4vw, 42px);
-  box-shadow: 0 12px 35px rgba(16, 24, 40, 0.05);
-}
-.home-landing h1 { max-width: 820px; margin: 0; }
-.home-lede { max-width: 88ch; color: #344054; font-size: 1.08rem; }
-.home-hero-actions, .home-stat-grid, .home-link-grid, .home-event-grid, .home-source-grid {
-  display: grid;
-  gap: 12px;
-}
-.home-hero-actions {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  margin-top: 24px;
-}
-.home-hero-actions a {
-  padding: 12px 14px;
-  border: 1px solid var(--accent);
   border-radius: 8px;
-  background: #fff;
-  color: var(--accent);
-  font-weight: 800;
-  text-align: center;
 }
-.home-section-heading h2 {
-  margin: 0 0 16px;
-  border: 0;
-  padding: 0;
-}
-.home-stat-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
-.home-link-grid, .home-event-grid, .home-source-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-.home-stat, .home-link-card, .home-event-card, .home-source-card {
+.home-landing {
   display: grid;
-  gap: 7px;
-  min-height: 100px;
-  padding: 16px;
+  grid-template-columns: minmax(0, 1.4fr) minmax(260px, 0.8fr);
+  gap: 24px;
+  padding: clamp(24px, 4vw, 40px);
+  margin-bottom: 18px;
+}
+.home-hero-copy h1 {
+  max-width: 780px;
+  margin: 0;
+  font-size: clamp(2rem, 3.6vw, 3.45rem);
+  letter-spacing: 0;
+}
+.home-deck {
+  max-width: 72ch;
+  margin: 18px 0 0;
+  color: #344054;
+  font-size: 1.06rem;
+}
+.home-facts {
+  display: grid;
+  gap: 0;
+  align-self: start;
+  margin: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
-  color: var(--ink);
+  background: #fbfcf8;
 }
-.home-stat strong {
-  font-size: 1.8rem;
-  line-height: 1;
-  color: var(--accent);
+.home-facts div {
+  padding: 13px 14px;
+  border-bottom: 1px solid var(--line);
 }
-.home-stat span, .home-link-card span, .home-event-card span, .home-source-card span {
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-.home-link-card strong, .home-event-card strong, .home-source-card strong { font-size: 1.03rem; line-height: 1.22; }
-.home-event-card p { margin: 0; color: #344054; font-size: 0.92rem; }
-.home-source-card small {
+.home-facts div:last-child { border-bottom: 0; }
+.home-facts dt {
+  margin: 0 0 2px;
   color: var(--accent-2);
-  font-weight: 800;
+  font-size: 0.72rem;
+  font-weight: 850;
   text-transform: uppercase;
 }
-.home-boundary {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-.home-boundary p {
+.home-facts dd {
   margin: 0;
-  padding: 16px;
+  color: var(--ink);
+  font-weight: 700;
+}
+.home-start {
+  grid-column: 1 / -1;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.home-start-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.home-start-link {
+  display: grid;
+  gap: 3px;
+  min-height: 76px;
+  padding: 13px 14px;
   border: 1px solid var(--line);
   border-radius: 8px;
+  color: var(--ink);
   background: #fff;
 }
+.home-start-link:first-child {
+  border-color: var(--accent);
+  background: #f1f8f6;
+}
+.home-start-link strong { line-height: 1.2; }
+.home-start-link span, .home-row span, .home-metric span {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+.home-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.9fr);
+  gap: 18px;
+  max-width: 1120px;
+  margin-bottom: 18px;
+}
+.home-panel, .home-section {
+  padding: clamp(20px, 3vw, 30px);
+  margin-bottom: 18px;
+}
+.home-split .home-panel { margin-bottom: 0; }
+.home-section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+.home-section-heading h2, .home-panel h2 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 1.35rem;
+}
+.home-boundary-list {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding-left: 1.25rem;
+}
+.home-boundary-list li { max-width: none; }
+.home-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 14px;
+  margin-top: 14px;
+}
+.home-metric {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+}
+.home-metric strong {
+  color: var(--accent);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.home-row-list {
+  display: grid;
+  border-top: 1px solid var(--line);
+}
+.home-row {
+  display: grid;
+  grid-template-columns: minmax(88px, 0.42fr) minmax(180px, 1fr) minmax(220px, 1.2fr);
+  gap: 16px;
+  align-items: start;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+}
+.home-row strong { line-height: 1.25; }
+.home-row-kicker {
+  color: var(--accent-2);
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+.home-source-row { grid-template-columns: minmax(130px, 0.55fr) minmax(200px, 0.9fr) minmax(260px, 1.4fr); }
 .graph-landing { max-width: 1200px; }
 .graph-controls {
   display: grid;
@@ -1012,10 +1083,15 @@ blockquote {
 .graph-nearby a, .graph-nearby small { display: block; }
 .graph-nearby small { color: var(--muted); text-transform: capitalize; }
 @media (max-width: 880px) {
-  .sidebar { position: static; width: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .sidebar { position: static; width: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 22px 20px; }
+  .brand { font-size: 1.28rem; }
+  .subtitle { margin: 10px 0 16px; font-size: 0.95rem; }
   main { margin-left: 0; padding: 24px 16px; }
-  .main-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .home-boundary { grid-template-columns: 1fr; }
+  .main-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .main-nav a { padding: 8px 9px; font-size: 0.9rem; }
+  .home-landing, .home-split, .home-start-grid, .home-row, .home-source-row { grid-template-columns: 1fr; }
+  .home-metric-grid { grid-template-columns: 1fr; }
+  .home-start { grid-column: auto; }
   .graph-controls, .graph-workspace { grid-template-columns: 1fr; }
   .graph-canvas-wrap, .graph-canvas { min-height: 420px; }
 }

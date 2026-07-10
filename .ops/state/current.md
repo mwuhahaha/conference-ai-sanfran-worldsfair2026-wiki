@@ -2,7 +2,7 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-10T12:31:40-04:00
+updated: 2026-07-10T13:04:20-04:00
 ---
 
 # AI Engineer World's Fair 2026 Project State
@@ -17,8 +17,8 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
 - The shared sidebar now includes Graph.
 - S2: conference-native home.
 - `/` now renders a static event/source dashboard instead of the long article-first overview.
-- The home page surfaces corpus counts, primary event/source links, source-boundary guidance, conference-day panels, and source-layer panels.
-- Latest local validation: 2,412 graph nodes, 10,971 graph links, 21 categories, zero broken link endpoints, and headless Chrome home-page smoke coverage.
+- The S2 design was refined after review: the home page now uses a clearer event brief, compact fact panel, start-here strip, source-boundary guidance, count summary, and row-based event/source lists instead of many equal-weight cards.
+- Latest local validation: 2,412 graph nodes, 10,971 graph links, 21 categories, zero broken link endpoints, and headless Chrome desktop/mobile home-page smoke coverage.
 
 The AIE-specific conversion plan is complete. The active plan remains `.ops/plans/worldsfair-aie-specific-conversion-plan.md`, but S1-S9 are now checked off and should not be reopened unless the user explicitly asks to revise that plan.
 
