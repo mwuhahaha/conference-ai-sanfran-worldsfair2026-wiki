@@ -419,6 +419,7 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
   <span class="home-row-kicker">{event.id.split('/', 1)[-1][:10]}</span>
   <strong>{html.escape(event.title)}</strong>
   <span>{linked_count} linked sessions or sources</span>
+  <span class="home-row-arrow" aria-hidden="true">Open →</span>
 </a>"""
         )
     event_cards = "\n".join(event_card_items)
@@ -436,20 +437,22 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
   <span class="home-row-kicker">{html.escape(kicker)}</span>
   <strong>{html.escape(count)}</strong>
   <span>{html.escape(description)}</span>
+  <span class="home-row-arrow" aria-hidden="true">Open →</span>
 </a>"""
         for kicker, count, description, url in source_layers
     )
 
     primary_links = [
-        ("Explore schedule", "/talks/", "All official session pages."),
-        ("Open graph", "/graph/", "Connections across pages."),
-        ("Check media", "/resources/talk-video-transcript-map/", "Talk/video/transcript coverage."),
-        ("Use as agent", "/agent-index.md", "Standalone markdown map."),
+        ("Explore schedule", "/talks/", "Start from official sessions, speakers, tracks, rooms, and conference days."),
+        ("Open graph", "/graph/", "See how talks, people, companies, tools, topics, quotes, and resources connect."),
+        ("Check media", "/resources/talk-video-transcript-map/", "Audit which sessions have matched recordings, transcripts, livestream segments, or slides."),
+        ("Use as agent", "/agent-index.md", "Give another agent a stable, read-only markdown contract for the public wiki."),
     ]
     links_html = "\n".join(
         f"""<a class="home-start-link" href="{html.escape(url)}">
   <strong>{html.escape(label)}</strong>
   <span>{html.escape(description)}</span>
+  <em aria-hidden="true">Open →</em>
 </a>"""
         for label, url, description in primary_links
     )
@@ -459,7 +462,11 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
     <p class="page-tools"><a href="{html.escape(page.markdown_url)}">Markdown source</a></p>
     <p class="eyebrow">Static public wiki</p>
     <h1>AI Engineer World&apos;s Fair 2026</h1>
-    <p class="home-deck">A schedule-first map of the San Francisco conference, enriched with public video, transcript, slide, topic, tool, and source-bound synthesis layers.</p>
+    <p class="home-deck">A public, read-only intelligence map for AI Engineer World&apos;s Fair 2026 in San Francisco. It starts with the official schedule, then layers in public recordings, transcripts, slides, topics, tools, source notes, and cross-page links so readers and agents can inspect the conference without guessing where evidence came from.</p>
+    <div class="home-intro">
+      <p>Use this as a navigation surface, not a polished news article. The schedule and roster are the primary layer; media and synthesis pages are supporting layers that should point back to concrete sources.</p>
+      <p>The fastest paths are below: schedule for the program, graph for relationships, media map for transcript/video coverage, and agent index for a single markdown entry point.</p>
+    </div>
   </div>
   <dl class="home-facts">
     <div><dt>When</dt><dd>June 28-July 2, 2026</dd></div>
@@ -877,8 +884,17 @@ main { max-width: 1080px; margin-left: 320px; padding: 42px clamp(24px, 5vw, 72p
   font-size: 0.86rem;
 }
 .page-tools a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fbfcf8;
   color: var(--muted);
+  font-weight: 700;
 }
+.page-tools a::after { content: "↗"; color: var(--accent); }
 h1, h2, h3 { line-height: 1.18; margin: 1.4em 0 0.45em; }
 h1:first-child, h2:first-child, h3:first-child { margin-top: 0; }
 h1 { font-size: clamp(2rem, 4vw, 3.4rem); }
@@ -952,6 +968,19 @@ blockquote {
   color: #344054;
   font-size: 1.06rem;
 }
+.home-intro {
+  display: grid;
+  gap: 10px;
+  max-width: 74ch;
+  margin-top: 18px;
+  padding-left: 16px;
+  border-left: 4px solid #c7ddd8;
+  color: #344054;
+}
+.home-intro p {
+  margin: 0;
+  max-width: none;
+}
 .home-facts {
   display: grid;
   gap: 0;
@@ -990,22 +1019,40 @@ blockquote {
 }
 .home-start-link {
   display: grid;
-  gap: 3px;
-  min-height: 76px;
-  padding: 13px 14px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
+  grid-template-rows: auto 1fr auto;
+  gap: 8px;
+  min-height: 132px;
+  padding: 16px;
+  border: 1px solid #cfd8d1;
+  border-radius: 10px;
   color: var(--ink);
   background: #fff;
+  box-shadow: 0 8px 20px rgba(16, 24, 40, 0.04);
+  transition: border-color 140ms, box-shadow 140ms, transform 140ms, background 140ms;
 }
 .home-start-link:first-child {
   border-color: var(--accent);
   background: #f1f8f6;
 }
-.home-start-link strong { line-height: 1.2; }
+.home-start-link:hover, .home-start-link:focus {
+  text-decoration: none;
+  border-color: var(--accent);
+  background: #f6fbf9;
+  box-shadow: 0 12px 28px rgba(16, 24, 40, 0.08);
+  transform: translateY(-1px);
+}
+.home-start-link strong { line-height: 1.2; font-size: 1.03rem; }
 .home-start-link span, .home-row span, .home-metric span {
   color: var(--muted);
   font-size: 0.88rem;
+}
+.home-start-link em {
+  color: var(--accent);
+  font-style: normal;
+  font-size: 0.82rem;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .home-split {
   display: grid;
@@ -1054,6 +1101,7 @@ blockquote {
   border-bottom: 1px solid var(--line);
   color: var(--ink);
 }
+.home-metric:hover, .home-metric:focus { text-decoration: none; color: var(--accent); }
 .home-metric strong {
   color: var(--accent);
   font-size: 1.25rem;
@@ -1061,16 +1109,27 @@ blockquote {
 }
 .home-row-list {
   display: grid;
-  border-top: 1px solid var(--line);
+  gap: 10px;
 }
 .home-row {
   display: grid;
-  grid-template-columns: minmax(88px, 0.42fr) minmax(180px, 1fr) minmax(220px, 1.2fr);
+  grid-template-columns: minmax(92px, 0.42fr) minmax(190px, 1fr) minmax(240px, 1.2fr) auto;
   gap: 16px;
   align-items: start;
-  padding: 13px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 15px 16px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
   color: var(--ink);
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.035);
+  transition: border-color 140ms, box-shadow 140ms, transform 140ms, background 140ms;
+}
+.home-row:hover, .home-row:focus {
+  text-decoration: none;
+  border-color: var(--accent);
+  background: #fbfdfb;
+  box-shadow: 0 10px 24px rgba(16, 24, 40, 0.07);
+  transform: translateY(-1px);
 }
 .home-row strong { line-height: 1.25; }
 .home-row-kicker {
@@ -1079,7 +1138,16 @@ blockquote {
   font-weight: 850;
   text-transform: uppercase;
 }
-.home-source-row { grid-template-columns: minmax(130px, 0.55fr) minmax(200px, 0.9fr) minmax(260px, 1.4fr); }
+.home-row-arrow {
+  justify-self: end;
+  color: var(--accent) !important;
+  font-size: 0.78rem !important;
+  font-weight: 850;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.home-source-row { grid-template-columns: minmax(130px, 0.55fr) minmax(210px, 0.9fr) minmax(280px, 1.4fr) auto; }
 .graph-landing { max-width: 1200px; }
 .graph-controls {
   display: grid;
