@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import shutil
 from dataclasses import dataclass
@@ -17,6 +18,7 @@ RAW = ROOT / "raw" / "sources"
 DIST = ROOT / "dist"
 SITE_TITLE = "AI Engineer World's Fair 2026 Wiki"
 SITE_SUBTITLE = "Standalone conference intelligence wiki for AI Engineer World's Fair 2026."
+ASSET_VERSION = (os.environ.get("GITHUB_SHA") or "local-dev")[:12]
 PREFERRED_CATEGORIES = [
     "talks",
     "slides",
@@ -344,7 +346,7 @@ def render_layout(title: str, body: str, pages: list[Page], current: str = "") -
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(title)} · {html.escape(SITE_TITLE)}</title>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v={html.escape(ASSET_VERSION)}">
 </head>
 <body>
   <aside class="sidebar">
@@ -481,7 +483,7 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
 </section>
 
 <section class="home-split">
-  <div class="home-panel">
+  <div class="home-panel home-boundary-panel">
     <p class="eyebrow">Source boundary</p>
     <h2>What is official?</h2>
     <ol class="home-boundary-list">
@@ -490,11 +492,14 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
       <li><strong>Synthesis pages</strong> summarize patterns; follow their linked evidence before treating a claim as primary.</li>
     </ol>
   </div>
-  <div class="home-panel">
+</section>
+
+<section class="home-section home-stats-section">
+  <div class="home-section-heading">
     <p class="eyebrow">Corpus</p>
     <h2>At a glance</h2>
-    <div class="home-metric-grid">{stats_html}</div>
   </div>
+  <div class="home-metric-grid">{stats_html}</div>
 </section>
 
 <section class="home-section">
@@ -1056,7 +1061,7 @@ blockquote {
 }
 .home-split {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.9fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 18px;
   max-width: 1120px;
   margin-bottom: 18px;
@@ -1088,24 +1093,38 @@ blockquote {
 .home-boundary-list li { max-width: none; }
 .home-metric-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px 14px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
   margin-top: 14px;
 }
 .home-metric {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 9px 0;
-  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 7px;
+  min-height: 92px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fbfcf8;
   color: var(--ink);
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.03);
+  transition: border-color 140ms, box-shadow 140ms, transform 140ms, background 140ms;
 }
-.home-metric:hover, .home-metric:focus { text-decoration: none; color: var(--accent); }
+.home-metric:hover, .home-metric:focus {
+  text-decoration: none;
+  border-color: var(--accent);
+  background: #f6fbf9;
+  box-shadow: 0 10px 24px rgba(16, 24, 40, 0.06);
+  transform: translateY(-1px);
+}
 .home-metric strong {
   color: var(--accent);
-  font-size: 1.25rem;
+  font-size: 1.65rem;
   line-height: 1;
+}
+.home-metric span {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.25;
 }
 .home-row-list {
   display: grid;
