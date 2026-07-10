@@ -4,10 +4,11 @@ Project-local instructions for the clean AI Engineer World’s Fair 2026 wiki.
 
 Read first:
 1. `.ops/state/current.md`
-2. `.ops/plans/worldsfair-aie-specific-conversion-plan.md`
-3. `README.md`
-4. The public standalone repo: `https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki`
-5. `wiki/resources/agent-source-index.md`
+2. `.ops/plans/worldsfair-static-navigation-followup.md`
+3. `.ops/plans/worldsfair-aie-specific-conversion-plan.md`
+4. `README.md`
+5. The public standalone repo: `https://github.com/mwuhahaha/conference-ai-sanfran-worldsfair2026-wiki`
+6. `wiki/resources/agent-source-index.md`
 
 ## Public Repo Structure
 

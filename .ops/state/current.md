@@ -1,11 +1,21 @@
 ---
 type: orchestration-current
 scope: project-local
-status: complete
-updated: 2026-07-10T01:44:41Z
+status: active
+updated: 2026-07-10T12:06:29-04:00
 ---
 
 # AI Engineer World's Fair 2026 Project State
+
+The completed AIE-specific conversion plan remains closed. Follow-up public navigation work now lives in `.ops/plans/worldsfair-static-navigation-followup.md`.
+
+## Latest Completed Follow-Up Story
+
+- S1: static knowledge graph.
+- `scripts/export_static_site.py` now emits the complete resolved wiki-link graph to `dist/graph-data.json`.
+- `/graph/` provides category filtering, search, a category legend, node detail, and nearby-page links without adding a server or write path.
+- The shared sidebar now includes Graph.
+- Latest local validation: 2,412 nodes, 10,971 links, 21 categories, and zero broken link endpoints.
 
 The AIE-specific conversion plan is complete. The active plan remains `.ops/plans/worldsfair-aie-specific-conversion-plan.md`, but S1-S9 are now checked off and should not be reopened unless the user explicitly asks to revise that plan.
 
@@ -41,4 +51,5 @@ Future native YouTube import receipts now include `slideScanMode` through:
 The receipt payload records Tesseract primary OCR, RapidOCR fallback availability/usage, and explicit reconstructed-crop/dense-scene status.
 
 ## Next Step
-No next conversion slice remains. If more work is requested, create a new follow-up slice or plan with a fresh boundary.
+
+Implement S2 in `.ops/plans/worldsfair-static-navigation-followup.md`: replace the article-first home with Miami-style conference event/source panels, counts, source-boundary guidance, and primary links. Keep this separate from backlink/outgoing/nearby-page generation and category landing-page improvements.

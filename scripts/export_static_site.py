@@ -124,11 +124,51 @@ def build_link_maps(pages: list[Page]) -> tuple[dict[str, Page], dict[str, Page]
 
 
 def resolve_wikilink(target: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> str | None:
+    page = resolve_wikilink_page(target, by_id, by_stem)
+    return page.url if page else None
+
+
+def resolve_wikilink_page(target: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> Page | None:
     target = target.split("#", 1)[0].strip()
     if not target:
         return None
-    page = by_id.get(target) or by_stem.get(Path(target).name)
-    return page.url if page else None
+    return by_id.get(target) or by_stem.get(Path(target).name)
+
+
+def extract_graph(pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> dict[str, list[dict]]:
+    outgoing: dict[str, set[str]] = {page.id: set() for page in pages}
+    backlinks: dict[str, set[str]] = {page.id: set() for page in pages}
+
+    for page in pages:
+        for raw_target in re.findall(r"(?<!!)\[\[([^\]]+)\]\]", page.body):
+            target = raw_target.split("|", 1)[0]
+            linked = resolve_wikilink_page(target, by_id, by_stem)
+            if not linked or linked.id == page.id:
+                continue
+            outgoing[page.id].add(linked.id)
+            backlinks[linked.id].add(page.id)
+
+    nodes = []
+    for page in pages:
+        nodes.append(
+            {
+                "id": page.id,
+                "title": page.title,
+                "category": page.category,
+                "url": page.url,
+                "excerpt": page.excerpt,
+                "outgoingCount": len(outgoing[page.id]),
+                "backlinkCount": len(backlinks[page.id]),
+                "degree": len(outgoing[page.id] | backlinks[page.id]),
+            }
+        )
+
+    links = [
+        {"source": source, "target": target}
+        for source in sorted(outgoing)
+        for target in sorted(outgoing[source])
+    ]
+    return {"nodes": nodes, "links": links}
 
 
 def render_inline(text: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
@@ -274,6 +314,7 @@ def render_layout(title: str, body: str, pages: list[Page], current: str = "") -
     home_active = ' class="active"' if current == "overview" else ""
     index_active = ' class="active"' if current == "index" else ""
     quotes_active = ' class="active"' if current == "quotes" else ""
+    graph_active = ' class="active"' if current == "graph" else ""
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -290,6 +331,7 @@ def render_layout(title: str, body: str, pages: list[Page], current: str = "") -
     <nav class="main-nav">
       <a href="/"{home_active}>Home</a>
       <a href="/index/"{index_active}>Index</a>
+      <a href="/graph/"{graph_active}>Graph</a>
       <a href="/quotes/"{quotes_active}>Quotes</a>
       {nav}
     </nav>
@@ -355,6 +397,207 @@ input.addEventListener("input", render);
 render();
 </script>"""
     return render_layout("Search", body, pages, "search")
+
+
+def render_graph(pages: list[Page]) -> str:
+    body = """<section class="landing graph-landing">
+  <p class="eyebrow">Conference map</p>
+  <h1>Knowledge graph</h1>
+  <p>Explore the wiki links between talks, people, companies, tools, topics, and evidence pages. The graph is generated at build time and remains read-only.</p>
+  <div class="graph-controls" aria-label="Graph filters">
+    <label>Category<select id="graph-category"><option value="">All categories</option></select></label>
+    <label>Search<input id="graph-search" type="search" placeholder="Find a page by title or text"></label>
+  </div>
+  <p id="graph-status" class="graph-status" aria-live="polite">Loading graph…</p>
+  <div id="graph-legend" class="graph-legend" aria-label="Graph legend"></div>
+  <div class="graph-workspace">
+    <div class="graph-canvas-wrap">
+      <svg id="graph-canvas" class="graph-canvas" viewBox="0 0 1200 760" role="img" aria-label="Wiki relationship graph"></svg>
+    </div>
+    <aside id="graph-detail" class="graph-detail">
+      <p class="eyebrow">Node detail</p>
+      <h2>Select a page</h2>
+      <p>Choose a node to inspect its category, link counts, and nearby pages.</p>
+    </aside>
+  </div>
+  <noscript><p>This interactive graph requires JavaScript. The underlying dataset remains available at <a href="/graph-data.json">/graph-data.json</a>.</p></noscript>
+</section>
+<script src="/graph.js" defer></script>"""
+    return render_layout("Knowledge graph", body, pages, "graph")
+
+
+def write_graph_script() -> None:
+    (DIST / "graph.js").write_text(
+        r"""const SVG_NS = "http://www.w3.org/2000/svg";
+const palette = ["#0f766e", "#9a3412", "#1d4ed8", "#7c3aed", "#be123c", "#4d7c0f", "#0369a1", "#a16207", "#475569", "#047857", "#c2410c", "#6d28d9"];
+const categorySelect = document.querySelector("#graph-category");
+const searchInput = document.querySelector("#graph-search");
+const status = document.querySelector("#graph-status");
+const legend = document.querySelector("#graph-legend");
+const canvas = document.querySelector("#graph-canvas");
+const detail = document.querySelector("#graph-detail");
+let graph = { nodes: [], links: [] };
+let colors = new Map();
+
+function el(name, attrs = {}) {
+  const node = document.createElementNS(SVG_NS, name);
+  Object.entries(attrs).forEach(([key, value]) => node.setAttribute(key, value));
+  return node;
+}
+
+function graphSubset() {
+  const category = categorySelect.value;
+  const query = searchInput.value.trim().toLowerCase();
+  const filtered = graph.nodes.filter((node) => {
+    if (category && node.category !== category) return false;
+    if (!query) return true;
+    return `${node.title} ${node.category} ${node.excerpt}`.toLowerCase().includes(query);
+  });
+  const ranked = [...filtered].sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title));
+  const limit = query ? 80 : category ? 140 : 160;
+  const primary = ranked.slice(0, limit);
+  const ids = new Set(primary.map((node) => node.id));
+  const links = graph.links.filter((link) => ids.has(link.source) && ids.has(link.target));
+  return { nodes: primary, links, total: filtered.length, limited: filtered.length > primary.length };
+}
+
+function positions(nodes) {
+  const grouped = new Map();
+  nodes.forEach((node) => {
+    if (!grouped.has(node.category)) grouped.set(node.category, []);
+    grouped.get(node.category).push(node);
+  });
+  const categories = [...grouped.keys()].sort();
+  const output = new Map();
+  categories.forEach((category, categoryIndex) => {
+    const angle = (Math.PI * 2 * categoryIndex) / Math.max(categories.length, 1) - Math.PI / 2;
+    const centerX = 600 + Math.cos(angle) * (categories.length === 1 ? 0 : 320);
+    const centerY = 380 + Math.sin(angle) * (categories.length === 1 ? 0 : 230);
+    const items = grouped.get(category).sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title));
+    items.forEach((node, index) => {
+      const ring = Math.floor(Math.sqrt(index));
+      const itemAngle = index * 2.399963;
+      const radius = 22 + ring * 14;
+      output.set(node.id, {
+        x: centerX + Math.cos(itemAngle) * radius,
+        y: centerY + Math.sin(itemAngle) * radius,
+      });
+    });
+  });
+  return output;
+}
+
+function showDetail(node) {
+  const neighbors = new Map();
+  graph.links.forEach((link) => {
+    if (link.source === node.id) neighbors.set(link.target, "Outgoing");
+    if (link.target === node.id && !neighbors.has(link.source)) neighbors.set(link.source, "Backlink");
+  });
+  const byId = new Map(graph.nodes.map((item) => [item.id, item]));
+  const nearby = [...neighbors.entries()]
+    .map(([id, direction]) => ({ ...byId.get(id), direction }))
+    .filter((item) => item.id)
+    .sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title))
+    .slice(0, 18);
+  detail.replaceChildren();
+  const eyebrow = document.createElement("p");
+  eyebrow.className = "eyebrow";
+  eyebrow.textContent = node.category;
+  const heading = document.createElement("h2");
+  heading.textContent = node.title;
+  const summary = document.createElement("p");
+  summary.textContent = node.excerpt || "No excerpt available.";
+  const counts = document.createElement("p");
+  counts.className = "graph-counts";
+  counts.textContent = `${node.outgoingCount} outgoing · ${node.backlinkCount} backlinks · ${node.degree} connected pages`;
+  const open = document.createElement("a");
+  open.className = "graph-open-page";
+  open.href = node.url;
+  open.textContent = "Open page";
+  detail.append(eyebrow, heading, summary, counts, open);
+  if (nearby.length) {
+    const nearbyHeading = document.createElement("h3");
+    nearbyHeading.textContent = "Nearby pages";
+    const list = document.createElement("ul");
+    list.className = "graph-nearby";
+    nearby.forEach((item) => {
+      const li = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = item.url;
+      link.textContent = item.title;
+      const meta = document.createElement("small");
+      meta.textContent = `${item.category} · ${item.direction}`;
+      li.append(link, meta);
+      list.append(li);
+    });
+    detail.append(nearbyHeading, list);
+  }
+}
+
+function render() {
+  const subset = graphSubset();
+  const coords = positions(subset.nodes);
+  canvas.replaceChildren();
+  const defs = el("defs");
+  const marker = el("marker", { id: "arrow", viewBox: "0 0 10 10", refX: "13", refY: "5", markerWidth: "5", markerHeight: "5", orient: "auto-start-reverse" });
+  marker.append(el("path", { d: "M 0 0 L 10 5 L 0 10 z", fill: "#94a3b8" }));
+  defs.append(marker);
+  canvas.append(defs);
+  const linksGroup = el("g", { class: "graph-links" });
+  subset.links.forEach((link) => {
+    const source = coords.get(link.source);
+    const target = coords.get(link.target);
+    if (!source || !target) return;
+    linksGroup.append(el("line", { x1: source.x, y1: source.y, x2: target.x, y2: target.y, "marker-end": "url(#arrow)" }));
+  });
+  canvas.append(linksGroup);
+  const nodesGroup = el("g", { class: "graph-nodes" });
+  subset.nodes.forEach((node) => {
+    const point = coords.get(node.id);
+    const group = el("g", { class: "graph-node", tabindex: "0", role: "button", "aria-label": `${node.title}, ${node.category}` });
+    group.append(el("circle", { cx: point.x, cy: point.y, r: Math.min(12, 5 + Math.sqrt(node.degree + 1)), fill: colors.get(node.category) }));
+    const title = el("title");
+    title.textContent = `${node.title} (${node.category})`;
+    group.append(title);
+    group.addEventListener("click", () => showDetail(node));
+    group.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showDetail(node); }
+    });
+    nodesGroup.append(group);
+  });
+  canvas.append(nodesGroup);
+  status.textContent = `Showing ${subset.nodes.length.toLocaleString()} of ${subset.total.toLocaleString()} matching pages and ${subset.links.length.toLocaleString()} visible links${subset.limited ? "; highest-connected pages shown" : ""}. Full dataset: ${graph.nodes.length.toLocaleString()} pages, ${graph.links.length.toLocaleString()} links.`;
+}
+
+fetch("/graph-data.json")
+  .then((response) => {
+    if (!response.ok) throw new Error(`Graph request failed: ${response.status}`);
+    return response.json();
+  })
+  .then((data) => {
+    graph = data;
+    const categories = [...new Set(graph.nodes.map((node) => node.category))].sort();
+    colors = new Map(categories.map((category, index) => [category, palette[index % palette.length]]));
+    categories.forEach((category) => {
+      const option = document.createElement("option");
+      option.value = category;
+      option.textContent = `${category.replaceAll("-", " ")} (${graph.nodes.filter((node) => node.category === category).length})`;
+      categorySelect.append(option);
+      const item = document.createElement("span");
+      item.className = "graph-legend-item";
+      const swatch = document.createElement("i");
+      swatch.style.background = colors.get(category);
+      item.append(swatch, document.createTextNode(category.replaceAll("-", " ")));
+      legend.append(item);
+    });
+    categorySelect.addEventListener("change", render);
+    searchInput.addEventListener("input", render);
+    render();
+  })
+  .catch((error) => { status.textContent = `Unable to load graph: ${error.message}`; });
+""",
+        encoding="utf-8",
+    )
 
 
 def strip_frontmatter(markdown: str) -> str:
@@ -496,10 +739,50 @@ blockquote {
 .card strong { font-size: 1.02rem; line-height: 1.25; }
 .card small { color: var(--accent-2); font-weight: 750; text-transform: uppercase; }
 .card span { color: var(--muted); font-size: 0.92rem; }
+.graph-landing { max-width: 1200px; }
+.graph-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 24px 0 12px;
+}
+.graph-controls label { color: var(--muted); font-weight: 700; }
+.graph-controls select, .graph-controls input {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+.graph-status { color: var(--muted); font-size: 0.9rem; }
+.graph-legend { display: flex; flex-wrap: wrap; gap: 6px 12px; margin: 14px 0; }
+.graph-legend-item { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); font-size: 0.78rem; text-transform: capitalize; }
+.graph-legend-item i { width: 10px; height: 10px; border-radius: 50%; }
+.graph-workspace { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 16px; align-items: start; }
+.graph-canvas-wrap { min-height: 560px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; }
+.graph-canvas { display: block; width: 100%; min-height: 560px; }
+.graph-links line { stroke: #cbd5e1; stroke-width: 1; opacity: 0.55; }
+.graph-node { cursor: pointer; outline: none; }
+.graph-node circle { stroke: #fff; stroke-width: 2; transition: stroke-width 120ms, r 120ms; }
+.graph-node:hover circle, .graph-node:focus circle { stroke: var(--ink); stroke-width: 3; }
+.graph-detail { min-height: 300px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: #fbfcf8; }
+.graph-detail h2 { margin-top: 0; padding-top: 0; border-top: 0; font-size: 1.35rem; }
+.graph-detail h3 { margin-top: 1.5rem; }
+.graph-counts { color: var(--muted); font-size: 0.88rem; }
+.graph-open-page { display: inline-block; padding: 8px 11px; border-radius: 7px; background: var(--accent); color: #fff; font-weight: 750; }
+.graph-nearby { display: grid; gap: 8px; padding-left: 1.1rem; }
+.graph-nearby a, .graph-nearby small { display: block; }
+.graph-nearby small { color: var(--muted); text-transform: capitalize; }
 @media (max-width: 880px) {
   .sidebar { position: static; width: auto; border-right: 0; border-bottom: 1px solid var(--line); }
   main { margin-left: 0; padding: 24px 16px; }
   .main-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .graph-controls, .graph-workspace { grid-template-columns: 1fr; }
+  .graph-canvas-wrap, .graph-canvas { min-height: 420px; }
 }
 """.strip()
         + "\n",
@@ -510,11 +793,14 @@ blockquote {
 def export() -> None:
     pages = [parse_page(path) for path in sorted(WIKI.rglob("*.md"))]
     by_id, by_stem = build_link_maps(pages)
+    graph = extract_graph(pages, by_id, by_stem)
 
     if DIST.exists():
         shutil.rmtree(DIST)
     DIST.mkdir(parents=True)
     write_styles()
+    write_graph_script()
+    (DIST / "graph-data.json").write_text(json.dumps(graph, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     assets = WIKI / "assets"
     if assets.exists():
@@ -538,6 +824,10 @@ def export() -> None:
     search_dir = DIST / "search"
     search_dir.mkdir()
     (search_dir / "index.html").write_text(render_search(pages), encoding="utf-8")
+
+    graph_dir = DIST / "graph"
+    graph_dir.mkdir()
+    (graph_dir / "index.html").write_text(render_graph(pages), encoding="utf-8")
 
     (DIST / "_headers").write_text(
         """/*

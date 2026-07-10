@@ -24,6 +24,7 @@ Use the original `conference-ai-sanfran-worldsfair2026` directory if full video/
 This clean copy is meant to become the AIE-specific conference intelligence version of the World’s Fair wiki: not a generic personal wiki and not only a generated schedule archive.
 
 Read:
+- `.ops/plans/worldsfair-static-navigation-followup.md`
 - `.ops/plans/worldsfair-aie-specific-conversion-plan.md`
 - `.ops/state/current.md`
 
@@ -35,7 +36,7 @@ From this directory:
 npm run build
 ```
 
-The build first normalizes article section shapes by page type, then writes the deployable static site to `dist/`.
+The build sanitizes public text, refreshes the agent index, normalizes article section shapes by page type, then writes the deployable static site to `dist/`. The export includes a complete static wiki-link dataset at `dist/graph-data.json` and a read-only graph browser at `dist/graph/index.html`.
 
 ## Wiki Toolkit
 
@@ -80,7 +81,7 @@ Local build:
 npm run build
 ```
 
-The build normalizes article shapes and writes a pre-rendered static site to `dist/`.
+The build normalizes article shapes and writes a pre-rendered static site to `dist/`, including `/graph/`, `/graph-data.json`, and the standalone `/agent-index.md` contract.
 
 Cloudflare Pages Git integration settings:
 
