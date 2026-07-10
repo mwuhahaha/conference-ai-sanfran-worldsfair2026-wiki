@@ -564,7 +564,7 @@ def render_graph(pages: list[Page]) -> str:
   <div id="graph-legend" class="graph-legend" aria-label="Graph legend"></div>
   <div class="graph-workspace">
     <div class="graph-canvas-wrap">
-      <svg id="graph-canvas" class="graph-canvas" viewBox="0 0 1200 760" role="img" aria-label="Wiki relationship graph"></svg>
+      <svg id="graph-canvas" class="graph-canvas" viewBox="0 0 1200 900" role="img" aria-label="Wiki relationship graph"></svg>
     </div>
     <aside id="graph-detail" class="graph-detail">
       <p class="eyebrow">Node detail</p>
@@ -590,6 +590,7 @@ const canvas = document.querySelector("#graph-canvas");
 const detail = document.querySelector("#graph-detail");
 let graph = { nodes: [], links: [] };
 let colors = new Map();
+let selectedNodeId = "";
 
 function el(name, attrs = {}) {
   const node = document.createElementNS(SVG_NS, name);
@@ -601,13 +602,28 @@ function graphSubset() {
   const category = categorySelect.value;
   const query = searchInput.value.trim().toLowerCase();
   const filtered = graph.nodes.filter((node) => {
+    if (node.category === "root") return false;
     if (category && node.category !== category) return false;
     if (!query) return true;
     return `${node.title} ${node.category} ${node.excerpt}`.toLowerCase().includes(query);
   });
-  const ranked = [...filtered].sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title));
-  const limit = query ? 80 : category ? 140 : 160;
-  const primary = ranked.slice(0, limit);
+  let primary;
+  if (!category && !query) {
+    const grouped = new Map();
+    filtered.forEach((node) => {
+      if (!grouped.has(node.category)) grouped.set(node.category, []);
+      grouped.get(node.category).push(node);
+    });
+    primary = [...grouped.keys()].sort().flatMap((groupCategory) =>
+      grouped.get(groupCategory)
+        .sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title))
+        .slice(0, 32)
+    );
+  } else {
+    const ranked = [...filtered].sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title));
+    const limit = query ? 100 : 160;
+    primary = ranked.slice(0, limit);
+  }
   const ids = new Set(primary.map((node) => node.id));
   const links = graph.links.filter((link) => ids.has(link.source) && ids.has(link.target));
   return { nodes: primary, links, total: filtered.length, limited: filtered.length > primary.length };
@@ -621,25 +637,33 @@ function positions(nodes) {
   });
   const categories = [...grouped.keys()].sort();
   const output = new Map();
+  const singleCategory = categories.length === 1;
+  const columns = singleCategory ? 1 : Math.min(5, Math.max(1, categories.length));
+  const cellWidth = singleCategory ? 1040 : 220;
+  const cellHeight = singleCategory ? 610 : 190;
+  const startX = singleCategory ? 80 : 50;
+  const startY = singleCategory ? 70 : 50;
   categories.forEach((category, categoryIndex) => {
-    const angle = (Math.PI * 2 * categoryIndex) / Math.max(categories.length, 1) - Math.PI / 2;
-    const centerX = 600 + Math.cos(angle) * (categories.length === 1 ? 0 : 320);
-    const centerY = 380 + Math.sin(angle) * (categories.length === 1 ? 0 : 230);
+    const col = categoryIndex % columns;
+    const row = Math.floor(categoryIndex / columns);
+    const centerX = startX + col * cellWidth + cellWidth / 2;
+    const centerY = startY + row * cellHeight + cellHeight / 2;
     const items = grouped.get(category).sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title));
     items.forEach((node, index) => {
-      const ring = Math.floor(Math.sqrt(index));
+      const ring = Math.floor(Math.sqrt(index + 1));
       const itemAngle = index * 2.399963;
-      const radius = 22 + ring * 14;
+      const radius = singleCategory ? 16 + ring * 12 : 10 + ring * 10;
       output.set(node.id, {
-        x: centerX + Math.cos(itemAngle) * radius,
-        y: centerY + Math.sin(itemAngle) * radius,
+        x: Math.max(startX + col * cellWidth + 18, Math.min(startX + (col + 1) * cellWidth - 18, centerX + Math.cos(itemAngle) * radius)),
+        y: Math.max(startY + row * cellHeight + 34, Math.min(startY + (row + 1) * cellHeight - 18, centerY + Math.sin(itemAngle) * radius)),
       });
     });
   });
-  return output;
+  return { points: output, grouped, columns, cellWidth, cellHeight, startX, startY };
 }
 
 function showDetail(node) {
+  selectedNodeId = node.id;
   const neighbors = new Map();
   graph.links.forEach((link) => {
     if (link.source === node.id) neighbors.set(link.target, "Outgoing");
@@ -688,37 +712,49 @@ function showDetail(node) {
 
 function render() {
   const subset = graphSubset();
-  const coords = positions(subset.nodes);
+  const layout = positions(subset.nodes);
+  const coords = layout.points;
+  if (selectedNodeId && !subset.nodes.some((node) => node.id === selectedNodeId)) selectedNodeId = "";
   canvas.replaceChildren();
-  const defs = el("defs");
-  const marker = el("marker", { id: "arrow", viewBox: "0 0 10 10", refX: "13", refY: "5", markerWidth: "5", markerHeight: "5", orient: "auto-start-reverse" });
-  marker.append(el("path", { d: "M 0 0 L 10 5 L 0 10 z", fill: "#94a3b8" }));
-  defs.append(marker);
-  canvas.append(defs);
+  const clustersGroup = el("g", { class: "graph-clusters" });
+  [...layout.grouped.keys()].sort().forEach((category, index) => {
+    const col = index % layout.columns;
+    const row = Math.floor(index / layout.columns);
+    const x = layout.startX + col * layout.cellWidth;
+    const y = layout.startY + row * layout.cellHeight;
+    clustersGroup.append(el("rect", { x, y, width: layout.cellWidth - 18, height: layout.cellHeight - 18, rx: "10" }));
+    const label = el("text", { x: x + 13, y: y + 23 });
+    label.textContent = `${category.replaceAll("-", " ")} (${layout.grouped.get(category).length})`;
+    clustersGroup.append(label);
+  });
+  canvas.append(clustersGroup);
   const linksGroup = el("g", { class: "graph-links" });
-  subset.links.forEach((link) => {
+  const selectedLinks = selectedNodeId
+    ? subset.links.filter((link) => link.source === selectedNodeId || link.target === selectedNodeId).slice(0, 80)
+    : [];
+  selectedLinks.forEach((link) => {
     const source = coords.get(link.source);
     const target = coords.get(link.target);
     if (!source || !target) return;
-    linksGroup.append(el("line", { x1: source.x, y1: source.y, x2: target.x, y2: target.y, "marker-end": "url(#arrow)" }));
+    linksGroup.append(el("line", { x1: source.x, y1: source.y, x2: target.x, y2: target.y }));
   });
   canvas.append(linksGroup);
   const nodesGroup = el("g", { class: "graph-nodes" });
   subset.nodes.forEach((node) => {
     const point = coords.get(node.id);
-    const group = el("g", { class: "graph-node", tabindex: "0", role: "button", "aria-label": `${node.title}, ${node.category}` });
-    group.append(el("circle", { cx: point.x, cy: point.y, r: Math.min(12, 5 + Math.sqrt(node.degree + 1)), fill: colors.get(node.category) }));
+    const group = el("g", { class: `graph-node${node.id === selectedNodeId ? " selected" : ""}`, tabindex: "0", role: "button", "aria-label": `${node.title}, ${node.category}` });
+    group.append(el("circle", { cx: point.x, cy: point.y, r: Math.min(9, 4 + Math.sqrt(node.degree + 1) * 0.55), fill: colors.get(node.category) || "#64748b" }));
     const title = el("title");
     title.textContent = `${node.title} (${node.category})`;
     group.append(title);
-    group.addEventListener("click", () => showDetail(node));
+    group.addEventListener("click", () => { selectedNodeId = node.id; render(); showDetail(node); });
     group.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showDetail(node); }
+      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); selectedNodeId = node.id; render(); showDetail(node); }
     });
     nodesGroup.append(group);
   });
   canvas.append(nodesGroup);
-  status.textContent = `Showing ${subset.nodes.length.toLocaleString()} of ${subset.total.toLocaleString()} matching pages and ${subset.links.length.toLocaleString()} visible links${subset.limited ? "; highest-connected pages shown" : ""}. Full dataset: ${graph.nodes.length.toLocaleString()} pages, ${graph.links.length.toLocaleString()} links.`;
+  status.textContent = `Showing ${subset.nodes.length.toLocaleString()} of ${subset.total.toLocaleString()} matching pages in category clusters${selectedNodeId ? ` with ${selectedLinks.length.toLocaleString()} selected links` : "; select a node to show direct links"}${subset.limited ? "; highest-connected pages shown" : ""}. Full dataset: ${graph.nodes.length.toLocaleString()} pages, ${graph.links.length.toLocaleString()} links.`;
 }
 
 fetch("/graph-data.json")
@@ -1090,13 +1126,29 @@ blockquote {
   height: 9px;
   border-radius: 50%;
 }
-.graph-workspace { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 16px; align-items: start; }
-.graph-canvas-wrap { min-height: 560px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; }
-.graph-canvas { display: block; width: 100%; min-height: 560px; }
-.graph-links line { stroke: #cbd5e1; stroke-width: 1; opacity: 0.55; }
+.graph-workspace { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: start; }
+.graph-canvas-wrap { min-height: 640px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; }
+.graph-canvas { display: block; width: 100%; min-height: 640px; }
+.graph-clusters rect {
+  fill: #ffffff;
+  stroke: #dbe3dd;
+  stroke-width: 1;
+}
+.graph-clusters text {
+  fill: #667085;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.graph-links line {
+  stroke: #64748b;
+  stroke-width: 1.35;
+  opacity: 0.42;
+}
 .graph-node { cursor: pointer; outline: none; }
 .graph-node circle { stroke: #fff; stroke-width: 2; transition: stroke-width 120ms, r 120ms; }
 .graph-node:hover circle, .graph-node:focus circle { stroke: var(--ink); stroke-width: 3; }
+.graph-node.selected circle { stroke: #111827; stroke-width: 4; }
 .graph-detail { min-height: 300px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: #fbfcf8; }
 .graph-detail h2 { margin-top: 0; padding-top: 0; border-top: 0; font-size: 1.35rem; }
 .graph-detail h3 { margin-top: 1.5rem; }
