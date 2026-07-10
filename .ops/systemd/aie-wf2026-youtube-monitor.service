@@ -1,0 +1,9 @@
+[Unit]
+Description=AIE WF2026 official YouTube monitor
+Documentation=https://aie-worldsfair2026.plusrobot.ai/agent-index.md
+
+[Service]
+Type=oneshot
+WorkingDirectory=/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean
+Environment=AIE_WF2026_MONITOR_AUTO_PUSH=1
+ExecStart=/usr/bin/python3 /garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/scripts/monitor_official_youtube.py --auto-push

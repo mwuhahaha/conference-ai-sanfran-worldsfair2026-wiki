@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Redesigning how software gets built ## Conference Context - Date/time: 2026-06-30 · 10:45am-11:05am - Track/room: Expo Stage 4 · Expo Stage 4 SE - Speaker(s): TBD — Sonar - Session type/status: session · confirmed - Track: Expo Stage 4 - Room: Expo Stage 4 SE - Session type: session - Status: confirmed ## Session Description AI is already transforming how software is built, but most organizations are still treating it as a productivity tool rather than a governance challenge. The real question isn't whether to adopt AI-assisted development; it's whether your operating model is designed to control what comes out of it. This session reframes the AI development conversation around three practitioner horizons: organizations that are proficient with the status quo, those capturing velocity today, and those building toward the next frontier, where AI agents operate with genuine autonomy at scale. The gap between these horizons isn't model capability.
-
-### Speaker And Company Context
-- [[tbd-sonar|TBD — Sonar]] — role not listed at company not listed.
-
-### Topics Covered
-- [[agent-security]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

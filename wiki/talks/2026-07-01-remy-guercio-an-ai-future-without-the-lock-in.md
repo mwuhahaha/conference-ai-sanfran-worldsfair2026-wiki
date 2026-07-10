@@ -66,27 +66,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-# An AI Future Without the Lock-In ## Conference Context - Date/time: 2026-07-01 · 3:20pm-3:40pm - Track/room: track TBD · Expo Stage 4 SE - Speaker(s): Remy Guercio - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 4 SE - Session type: session - Status: confirmed ## Session Description Every organization navigating AI adoption faces the same trap: the market moves faster than any procurement cycle, no single vendor leads across model quality, interface, sandbox, and data access for more than a few months at a time, and the obvious answer of consolidating behind one platform trades short-term control for long-term lock-in. This session makes the case that the winning strategy is not picking the best walled garden. It is building a connective layer underneath all of them. Tailscale's Remy Guercio walks through the four components required for transformative AI, why vertically integrated stacks are structurally fragile, and how organizations can maintain visibility and control without betting on a single vendor's continued dominance.
-
-### Speaker And Company Context
-- [[remy-guercio|Remy Guercio]] — Strategic Projects at [[tailscale|Tailscale]].
-
-### Topics Covered
-- [[agent-security]]
-- [[ai-sandboxes]]
-- [[mcp]]
-
-### Derived Links And Source Material
-- [[youtube-BM2JX9hqsVQ]] — related YouTube source page.
-- [[youtube-BM2JX9hqsVQ-slides]] — slide evidence.
-- [[youtube-BM2JX9hqsVQ-reconstructed-slides]] — slide evidence.
-- [[youtube-BM2JX9hqsVQ-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

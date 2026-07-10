@@ -37,7 +37,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-JhJKgRAmfIU]]
 
 ### Slide/OCR Pages
-- [[youtube-1t-9-s1brcg-dense-slides]]
+- [[youtube--x5GEVnkuRw-slides]]
 - [[youtube-1t-9-s1brcg-slides]]
 - [[youtube-JhJKgRAmfIU-dense-slides]]
 - [[youtube-JhJKgRAmfIU-reconstructed-slides]]

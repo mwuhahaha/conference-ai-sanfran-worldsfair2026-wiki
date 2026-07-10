@@ -24,7 +24,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
-- [[external-video-discovery]]
 - [[talk-video-transcript-map]]
 - [[youtube-BM2JX9hqsVQ]]
 

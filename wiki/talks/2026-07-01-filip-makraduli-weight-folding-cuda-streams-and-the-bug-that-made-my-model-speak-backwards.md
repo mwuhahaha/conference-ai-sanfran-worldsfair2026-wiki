@@ -57,24 +57,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-qdh_x-uRs9g-slides]] — extracted from the related public AI Engineer video.
-
-## Synthesis
-### Synthesized Breakdown
-# Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards ## Conference Context - Date/time: 2026-07-01 · 3:45pm-4:05pm - Track/room: Inference · Track 9 - Speaker(s): Filip Makraduli - Session type/status: session · confirmed - Track: Inference - Room: Track 9 - Session type: session - Status: confirmed ## Session Description A talk about contributing GPU benchmarks to an open-source research paper (FlashNorm). I'll walk through the engineering journey: folding norm weights into projections, writing Triton kernels, accidentally making attention bidirectional (oops), and ultimately proving a 33-35% speedup on the norm+project operation. Practical lessons for anyone trying to optimize transformer inference. ## Media Evidence [The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked](https://www.youtube.com/watch?v=qdh_x-uRs9g) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-### Speaker And Company Context
-- [[filip-makraduli|Filip Makraduli]] — Founding Member of Technical Staff at [[superlinked|Superlinked]].
-
-### Topics Covered
-- [[agentic-search]]
-
-### Derived Links And Source Material
-- [[youtube-qdh_x-uRs9g]] — related YouTube source page.
-- [[youtube-qdh_x-uRs9g-slides]] — slide evidence.
-- [[youtube-qdh_x-uRs9g-reconstructed-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

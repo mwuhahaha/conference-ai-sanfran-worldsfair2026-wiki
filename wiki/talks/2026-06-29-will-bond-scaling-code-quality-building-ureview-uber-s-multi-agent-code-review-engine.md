@@ -48,23 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine ## Conference Context - Date/time: 2026-06-29 · 12:05pm-12:25pm - Track/room: AI-Native Enterprises · Leadership 1 - Speaker(s): Will Bond, Ameya Ketkar - Session type/status: session · confirmed - Track: AI-Native Enterprises - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description At Uber scale, human-only code reviews create massive bottlenecks, while generic AI tools overwhelm developers with noisy, hallucinated spam. This session explores the architecture behind uReview, Uber’s multi-agent AI code review engine designed strictly for high-precision feedback. Attendees will learn how we moved beyond monolithic prompts to build a modular pipeline featuring deep contextual ingestion, specialized domain agents, and a Generator-Verifier grader system. By enforcing strict confidence scoring and semantic deduplication, uReview filters out AI noise, shifting the focus from comment quantity to high-signal actionability and significantly reducing Pull Request cycle times.
-
-### Speaker And Company Context
-- [[will-bond|Will Bond]] — Staff Software Engineer at [[uber|Uber]].
-- [[ameya-ketkar|Ameya Ketkar]] — Software Engineer at [[uber-technology-inc|Uber Technology Inc.]].
-
-### Topics Covered
-- [[agent-security]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

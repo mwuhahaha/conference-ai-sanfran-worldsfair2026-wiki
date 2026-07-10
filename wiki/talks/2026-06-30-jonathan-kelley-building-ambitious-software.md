@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Building ambitious software ## Conference Context - Date/time: 2026-06-30 · 3:45pm-4:05pm - Track/room: Sandbox & Platform Engineering · Track 1 - Speaker(s): Jonathan Kelley - Session type/status: session · confirmed - Track: Sandbox & Platform Engineering - Room: Track 1 - Session type: session - Status: confirmed ## Session Description TBD — Add final abstract after outreach/confirmation. ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits. ### Media Signals No linked video, transcript, or slide source has been attached yet.
-
-### Speaker And Company Context
-- [[jonathan-kelley|Jonathan Kelley]] — Founder at [[dioxus-labs|Dioxus Labs]].
-
-### Topics Covered
-- [[ai-sandboxes]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

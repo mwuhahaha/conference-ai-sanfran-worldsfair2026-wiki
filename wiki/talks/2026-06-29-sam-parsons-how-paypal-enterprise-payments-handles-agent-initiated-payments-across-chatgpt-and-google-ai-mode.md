@@ -47,25 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# How PayPal Enterprise Payments handles agent-initiated payments across ChatGPT and Google AI Mode ## Conference Context - Date/time: 2026-06-29 · 10:45am-11:05am - Track/room: track TBD · Expo Stage 3 SW - Speaker(s): Sam Parsons - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 3 SW - Session type: session - Status: confirmed ## Session Description PayPal Enterprise Payments has shipped integrations across the major agentic surfaces in the last six months each with human-in-the-loop confirmation and full transaction attribution back to the originating AI platform. We'll tour all three paths: ACP for ChatGPT apps (delegated payment tokens via complete_checkout, allowance validation, facilitator_details attribution), UCP with Google Pay for Google AI Mode (server-side tokenizationSpecification, parsing androidPayCards for the single-use token), and a preview of MCP Apps inline checkout, where the payment surface renders in-chat and card data never enters the LLM context. For each path we'll cover where PayPal Enterprise Payments fits, what the shopper and merchant each see, and the tradeoffs between them. You leave with working code and the docs to evaluate which path fits your stack.
-
-### Speaker And Company Context
-- [[sam-parsons|Sam Parsons]] — Senior Staff Software Engineer and Tech Lead at [[paypal-braintree|PayPal Braintree]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[agentic-web]]
-- [[coding-agents]]
-- [[mcp]]
-- [[mcp-apps]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- [[mcp-app-runtime|MCP Apps As Agentic App Runtime]] — MCP Apps treats interactive UI returned from MCP servers as a runtime layer for agent-facing software.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

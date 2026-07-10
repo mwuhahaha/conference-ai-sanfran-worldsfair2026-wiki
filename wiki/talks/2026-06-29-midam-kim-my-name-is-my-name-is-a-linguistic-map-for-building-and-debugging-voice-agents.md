@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# "My name is... my name is...": A Linguistic Map for Building and Debugging Voice Agents ## Conference Context - Date/time: 2026-06-29 · 3:20pm-3:40pm - Track/room: Voice & Realtime AI · Track 6 - Speaker(s): Midam Kim - Session type/status: session · confirmed - Track: Voice & Realtime AI - Room: Track 6 - Session type: session - Status: confirmed ## Session Description Every voice AI engineer has heard it: a caller repeating their name three times, getting more frustrated with each attempt. The logs look clean. Confidence scores look fine.
-
-### Speaker And Company Context
-- [[midam-kim|Midam Kim]] — ML Engineer at [[servicenow|ServiceNow]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer ## Conference Context - Date/time: 2026-06-29 · 11:05am-12:05pm - Track/room: Workshops Day 1 · Track 5 - Speaker(s): Dhruv Nathawani - Session type/status: workshop · confirmed - Track: Workshops Day 1 - Room: Track 5 - Session type: workshop - Status: confirmed ## Session Description Modern agentic systems often fail because the right training data simply does not exist. Search agents are a perfect example: if you want a model to browse the web effectively, you need high-quality multi-step trajectories that teach it how to search, refine queries, inspect sources, and recover from dead ends. Those datasets are rarely available off the shelf. In this hands-on workshop, we will show how NVIDIA used Data Designer to build synthetic supervised fine-tuning data for search-capable Nemotron models.
-
-### Speaker And Company Context
-- [[dhruv-nathawani|Dhruv Nathawani]] — Research Scientist at [[nvidia|Nvidia]].
-
-### Topics Covered
-- [[agentic-search]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

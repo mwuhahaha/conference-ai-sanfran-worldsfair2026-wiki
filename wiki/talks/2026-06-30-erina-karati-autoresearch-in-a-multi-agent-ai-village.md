@@ -48,24 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Autoresearch in a Multi-Agent AI Village ## Conference Context - Date/time: 2026-06-30 · 3:45pm-4:05pm - Track/room: Autoresearch · Main Stage - Speaker(s): Erina Karati, Arunachalam Manikandan - Session type/status: session · confirmed - Track: Autoresearch - Room: Main Stage - Session type: session - Status: confirmed ## Session Description Project Paradox is an existing multi-agent framework built at Supercell's first AI Innovation Lab, which has a 3D Unity village with local LLM powered agents. The characters remember conversations, update emotional state, track trust, plan actions, move through rooms, transfer items, and talk to each other through a FastAPI backend. The new work is an autoresearch layer around that village. We built a backend loop that runs controlled social scenarios, scores the resulting NPC behavior, proposes protocol or policy changes, reruns the suite, and keeps changes that improve the agents.
-
-### Speaker And Company Context
-- [[erina-karati|Erina Karati]] — Former Microsoft at [[supercell|Supercell]].
-- [[arunachalam-manikandan|Arunachalam Manikandan]] — AI Engineer, Co-Founder at [[university-of-minnesota|University of Minnesota]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

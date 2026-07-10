@@ -21,13 +21,9 @@ Voice agents are useful in customer support, healthcare intake, sales calls, mee
 
 Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
 
-Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
-
-Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
-
-Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
-
 ## Connections
+- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
+
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence; [[bohan-li|Bohan Li]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Voice & Realtime AI; official schedule)
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; official schedule)
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] — Speech-to-Speech Model Research at Google DeepMind; [[valeria-wu-fon|Valeria Wu Fon]], [[tom-ouyang|Tom Ouyang]] (Day 2 — Session Day 1 · 11:10am-11:30am · Voice & Realtime AI; official schedule)
@@ -97,8 +93,6 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - [[assemblyai|AssemblyAI]]
 - [[twilio|Twilio]]
 
-- [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
-
 ## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-mFLlVpnGpds]] — Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI
@@ -117,10 +111,6 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - “So for that you need to know who's who who spoke when.” — [[youtube-mFLlVpnGpds]]
 - “And the question is now we need to assign a speaker to each word.” — [[youtube-mFLlVpnGpds]]
 - “So in there you you'll be able to to with Pianoteq open source toolkit for diarization with piano metrics for evaluation.” — [[youtube-mFLlVpnGpds]]
-
-### Transcript-backed resources
-
-### Quote signals
 
 This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
@@ -188,17 +178,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Transcripts
 - [[youtube-dvft0Gp9sEE-transcript]]
-
-This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
-
-
-### Talks
-
-### Resources
-
-### Slides
-
-### Transcripts
 
 ## Active Use Cases
 - Realtime support and appointment workflows.

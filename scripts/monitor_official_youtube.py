@@ -559,7 +559,7 @@ def main() -> int:
 
     report["processed"] = processed
     if not args.dry_run:
-        enrichment = run_enrichment(transcript_imports or len(processed))
+        enrichment = run_enrichment(transcript_imports)
         report["enrichment"] = enrichment
         auto_push = args.auto_push or os.environ.get("AIE_WF2026_MONITOR_AUTO_PUSH") == "1"
         report["publish"] = maybe_commit_and_push(auto_push, "Import new official AI Engineer YouTube videos")

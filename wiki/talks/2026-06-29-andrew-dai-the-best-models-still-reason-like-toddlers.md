@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# The Best Models Still Reason Like Toddlers ## Conference Context - Date/time: 2026-06-29 · 1:55pm-2:15pm - Track/room: Vision & OCR · Track 2 - Speaker(s): Andrew Dai - Session type/status: sponsor · confirmed - Track: Vision & OCR - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description Frontier AI models score 80–90% on standard benchmarks like RKGI, yet when tested on visual tasks any 3-year-old handles effortlessly (like counting objects in an image), those same models fall to pieces. I watched this gap widen firsthand during my 14 years at Google Brain and DeepMind, where I co-led development on GLaM, PaLM 2, and Gemini. The problem is that most models hit high RKGI scores not through genuine visual understanding, but by coding – a workaround that scores well and reveals little. Strip that away and you're left with systems that struggle to solve a simple crossword puzzle, identify what's the same or different across two images, or navigate a basic 3D view.
-
-### Speaker And Company Context
-- [[andrew-dai|Andrew Dai]] — Co-founder and CEO at [[elorian|Elorian]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -57,24 +57,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-8SUJEqQNClw-slides]] — extracted from the related public AI Engineer video.
-
-## Synthesis
-### Synthesized Breakdown
-# Every Harness Will Become A Claw ## Conference Context - Date/time: 2026-06-29 · 3:20pm-3:40pm - Track/room: Claws & Personal Agents · Track 1 - Speaker(s): Sam Bhagwat - Session type/status: session · confirmed - Track: Claws & Personal Agents - Room: Track 1 - Session type: session - Status: confirmed ## Session Description Most of the Harness discussion is just a reprise of Context Engineering from last summer. But it's not 2025 anymore. We live in a Claude Code world, and the best way to think about a harness is Context engineering + Coding Agents = Harness. Harnesses are a magical DX because of specific features like planning mode, parallel subagents, skills, background tasks etc.
-
-### Speaker And Company Context
-- [[sam-bhagwat|Sam Bhagwat]] — Founder/CEO at [[mastra|Mastra]].
-
-### Topics Covered
-- [[coding-agents]]
-
-### Derived Links And Source Material
-- [[youtube-8SUJEqQNClw]] — related YouTube source page.
-- [[youtube-8SUJEqQNClw-slides]] — slide evidence.
-- [[youtube-8SUJEqQNClw-reconstructed-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

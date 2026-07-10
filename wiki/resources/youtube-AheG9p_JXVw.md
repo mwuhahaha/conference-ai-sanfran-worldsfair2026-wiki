@@ -23,7 +23,8 @@ The match is strong because the title and description explicitly identify AI Eng
 - Slides: [[youtube-AheG9p_JXVw-slides]]
 
 ## Transcript Markdown
-- [[youtube-AheG9p_JXVw-transcript]] — full cached transcript markdown.
+- [[youtube-AheG9p_JXVw-transcript]] - full cached transcript markdown.
+
 ## Source Classification
 - Source role: supporting external video source.
 - Channel/source: non-official YouTube upload or external event-related recording.

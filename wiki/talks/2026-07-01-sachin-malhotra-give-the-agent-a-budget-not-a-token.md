@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Give the Agent a Budget, Not a Token ## Conference Context - Date/time: 2026-07-01 · 3:20pm-3:40pm - Track/room: AI Architects: AI Factories · Leadership 2 - Speaker(s): Sachin Malhotra - Session type/status: session · confirmed - Track: AI Architects: AI Factories - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description Every agent demo runs with a god-token. Then it ships, and someone has to explain why the helpful AI just rm -rf'd the staging database "to clean up." I run platform infrastructure at a frontier lab, and for the last year my job has partly been: let coding agents do real work against real systems, without ever having to write the postmortem. This talk is the permission model that fell out of that - not RBAC-with-extra-steps, but primitives designed for an actor that's smart, fast, tireless, and occasionally *confidently wrong*. **The four primitives:** - **Asymmetric verbs** - the agent can `quarantine` but not `delete`, `retry` but not `approve`, `propose` but not `merge`.
-
-### Speaker And Company Context
-- [[sachin-malhotra|Sachin Malhotra]] — Member of Technical Staff at [[anthropic|Anthropic]].
-
-### Topics Covered
-- [[agent-security]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

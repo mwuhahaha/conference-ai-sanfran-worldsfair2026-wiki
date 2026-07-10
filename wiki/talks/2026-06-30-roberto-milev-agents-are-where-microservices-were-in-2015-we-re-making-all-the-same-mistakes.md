@@ -48,25 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes. ## Conference Context - Date/time: 2026-06-30 · 2:50pm-3:10pm - Track/room: AI-Native Enterprises · Leadership 1 - Speaker(s): Roberto Milev, Uday Kanagala - Session type/status: session · confirmed - Track: AI-Native Enterprises - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description Remember when everyone was shipping microservices without service discovery, circuit breakers, or distributed tracing? Agents are in that exact phase right now.
-
-### Speaker And Company Context
-- [[roberto-milev|Roberto Milev]] — Chief Architect at [[navan|Navan]].
-- [[uday-kanagala|Uday Kanagala]] — Software Architect at [[navan|Navan]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[ai-sandboxes]]
-- [[mcp]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

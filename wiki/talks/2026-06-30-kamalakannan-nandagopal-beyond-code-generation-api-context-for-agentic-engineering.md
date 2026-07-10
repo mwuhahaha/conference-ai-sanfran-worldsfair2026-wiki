@@ -47,23 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Beyond Code Generation: API Context for Agentic Engineering ## Conference Context - Date/time: 2026-06-30 · 2:25pm-2:45pm - Track/room: track TBD · Expo Stage 2 NW - Speaker(s): Kamalakannan Nandagopal - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 2 NW - Session type: session - Status: confirmed ## Session Description Maintaining production systems involves a lot more than generating code. APIs are the interfaces between systems and that surface gets out of control fast, as endpoints multiply and new consumers come online. Once an API is in use, changing it becomes incredibly hard. We felt this acutely at Postman.
-
-### Speaker And Company Context
-- [[kamalakannan-nandagopal|Kamalakannan Nandagopal]] — Staff Software Engineer at [[postman|Postman]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

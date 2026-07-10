@@ -66,24 +66,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-F_RyElT_gJk-slides]] — extracted from the related public AI Engineer video.
-
-## Synthesis
-### Synthesized Breakdown
-# The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents ## Conference Context - Date/time: 2026-06-29 · 4:30pm-5:30pm - Track/room: Workshops Day 1 · Track 1 - Speaker(s): Ang Li - Session type/status: session · confirmed - Track: Workshops Day 1 - Room: Track 1 - Session type: session - Status: confirmed ## Session Description Even the world's best computer-use agents cannot repeat their successes at the moment. Agents that write code — emitting structured selector-based actions instead of clicking pixels — break through that ceiling. We'll share two years of experience from Simular's production agent platform, the architectural decisions that mattered (refs over pixels, code as substrate, Simulang DSL), and a live demo: a 30-step unattended Windows workflow, side-by-side with a vision-only baseline. If you're shipping agents to real users, this is the playbook.
-
-### Speaker And Company Context
-- No speaker profile is attached in the official schedule data.
-
-### Topics Covered
-- [[coding-agents]]
-
-### Derived Links And Source Material
-- [[youtube-F_RyElT_gJk]] — related YouTube source page.
-- [[youtube-F_RyElT_gJk-slides]] — slide evidence.
-- [[youtube-F_RyElT_gJk-reconstructed-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

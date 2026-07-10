@@ -47,23 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Unlock Agent Autonomy: The Runtime for AI-Native Systems ## Conference Context - Date/time: 2026-06-29 · 3:45pm-4:05pm - Track/room: AI Architects: Show my Workflow · Leadership 2 - Speaker(s): Tushar Jain - Session type/status: session · confirmed - Track: AI Architects: Show my Workflow - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description The way software gets built in 2026 doesn't look like it did in 2024. The actors changed. Agents read and write entire codebases. Subagents spawn to chase down a flaky test, refactor a module, or triage an incident.
-
-### Speaker And Company Context
-- [[tushar-jain|Tushar Jain]] — EVP of Engineering at [[docker|Docker]].
-
-### Topics Covered
-- [[agent-security]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

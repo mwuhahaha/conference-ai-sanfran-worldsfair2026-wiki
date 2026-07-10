@@ -26,9 +26,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
-- [[room-attendance-calibration]]
 - [[talk-video-transcript-map]]
-- [[video-attendance-visibility]]
 - [[youtube-1t-9-s1brcg]]
 - [[youtube-JhJKgRAmfIU]]
 

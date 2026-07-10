@@ -48,22 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Speech-to-Speech Model Research at Google DeepMind ## Conference Context - Date/time: 2026-06-29 · 11:10am-11:30am - Track/room: Voice & Realtime AI · Track 6 - Speaker(s): Valeria Wu Fon, Tom Ouyang - Session type/status: session · confirmed - Track: Voice & Realtime AI - Room: Track 6 - Session type: session - Status: confirmed ## Session Description Most voice interfaces today are built as a 3-way cascade system (ASR/LLM/TTS). While functional, this cascaded approach introduces latency bottlenecks, strips away non-verbal nuance, and limits emotion-aware, multi-turn dialogue. Today, we are witnessing a profound shift toward native speech-to-speech models that process audio natively from end to end. In this session, we’ll explore the exciting paradigm at Google DeepMind to train speech-to-speech models for real-time voice agents.
-
-### Speaker And Company Context
-- [[valeria-wu-fon|Valeria Wu Fon]] — Product Manager at [[google-deepmind|Google DeepMind]].
-- [[tom-ouyang|Tom Ouyang]] — Principal Engineer at [[google-deepmind|Google DeepMind]].
-
-### Topics Covered
-- [[agentic-search]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

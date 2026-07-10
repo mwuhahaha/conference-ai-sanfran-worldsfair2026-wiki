@@ -68,28 +68,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-# Agentic Security: Permissions, Provenance, and the Agent Supply Chain ## Conference Context - Date/time: 2026-06-29 · 2:25pm-2:45pm - Track/room: Security · Track 5 - Speaker(s): Steve Yegge - Session type/status: sponsor · confirmed - Track: Security - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description As AI agents move from demos into production engineering workflows, the security boundary shifts from code alone to the permissions, tools, prompts, dependencies, credentials, and orchestration layers that agents can touch. This talk frames agentic security broadly: least-privilege agent permissions, sandboxing and capability design, provenance for agent-generated changes, risks in agent/tool/package supply chains, and practical patterns for keeping autonomous coding and operational agents auditable and containable. ## Media Evidence [2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding](https://www.youtube.com/watch?v=7Dtu2bilcFs) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-7Dtu2bilcFs` - Slide deck: [[youtube-7Dtu2bilcFs-dense-slides|Dense Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]] — 13 visible slide image(s); 13 HTML recreation(s).
-
-### Speaker And Company Context
-- [[steve-yegge|Steve Yegge]] — Icon at [[gas-town|Gas Town]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-- [[youtube-7Dtu2bilcFs]] — related YouTube source page.
-- [[youtube-7Dtu2bilcFs-slides]] — slide evidence.
-- [[youtube-7Dtu2bilcFs-reconstructed-slides]] — slide evidence.
-- [[youtube-7Dtu2bilcFs-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

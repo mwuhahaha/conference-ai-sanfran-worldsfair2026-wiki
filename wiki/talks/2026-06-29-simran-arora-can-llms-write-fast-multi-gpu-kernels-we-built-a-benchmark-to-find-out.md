@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Can LLMs write fast multi-GPU kernels? We built a benchmark to find out. ## Conference Context - Date/time: 2026-06-29 · 12:05pm-12:25pm - Track/room: track TBD · Expo Stage 3 SW - Speaker(s): Simran Arora - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 3 SW - Session type: session - Status: confirmed ## Session Description LLMs have gotten surprisingly good at writing GPU kernels, but almost all the benchmarks measuring that progress are single-GPU. In production, communication is the bottleneck: all-reduce alone accounts for over 20% of inference latency on Llama-3.3-70B, and that gap keeps widening as compute scales faster than interconnect bandwidth.
-
-### Speaker And Company Context
-- [[simran-arora|Simran Arora]] — Computer Science PhD Student at [[stanford-university|Stanford University]].
-
-### Topics Covered
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

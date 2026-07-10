@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-The session explains MCP Apps as a way to add interactive UI to MCP-based workflows. It treats the MCP host as the place where tool data, model reasoning, and human controls meet.
-
-### Speaker And Company Context
-- [[dustin-mihalik|Dustin Mihalik]] — Technical Fellow at [[indeed|Indeed]].
-
-### Topics Covered
-- [[mcp]]
-- [[mcp-apps]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- [[mcp-app-runtime|MCP Apps As Agentic App Runtime]] — MCP Apps treats interactive UI returned from MCP servers as a runtime layer for agent-facing software.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

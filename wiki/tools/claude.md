@@ -49,11 +49,11 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Slide/OCR Pages
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-knowledge-systems-gtm-stack-slides]]
-- [[youtube-4sX_He5c4sI-dense-slides]]
+- [[youtube-3hXJI2q0Jz8-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
 - [[youtube-4uFVSLgD2Q4-slides]]
 - [[youtube-5ID22ACI7IM-slides]]
-- [[youtube-5nOLb27hQ5w-dense-slides]]
 - [[youtube-5nOLb27hQ5w-slides]]
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-84Vtz2IL1Ug-slides]]
@@ -61,15 +61,8 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Topic Pages
 - [[agent-memory]]
-- [[agent-ready-accessibility]]
 - [[agentic-search]]
-- [[agentic-web]]
-- [[autoresearch]]
 - [[coding-agents]]
-- [[mcp-app-runtime]]
-- [[mcp]]
-- [[nearly-headless-web]]
-- [[reachability-over-format]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/-x5GEVnkuRw.txt`

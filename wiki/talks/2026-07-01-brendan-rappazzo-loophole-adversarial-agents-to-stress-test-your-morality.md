@@ -47,23 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Loophole - Adversarial Agents To Stress Test Your Morality ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: Harness Engineering · Main Stage - Speaker(s): Brendan Rappazzo - Session type/status: session · confirmed - Track: Harness Engineering - Room: Main Stage - Session type: session - Status: confirmed ## Session Description Most natural language specifications have holes their authors didn't notice - and writing more rules tends to create more holes. I built Loophole to try a different approach: point adversarial agents at a spec until it stops breaking. You give the system a set of natural language principles. An AI drafts a formal codified version.
-
-### Speaker And Company Context
-- [[brendan-rappazzo|Brendan Rappazzo]] — Machine Learning Scientist at [[morgan-stanley|Morgan Stanley]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

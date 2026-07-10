@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# No, That's Not a Software Factory ## Conference Context - Date/time: 2026-07-01 · 10:45am-11:05am - Track/room: Expo Stage 3 · Expo Stage 3 SW - Speaker(s): Ryan Cooke - Session type/status: session · confirmed - Track: Expo Stage 3 - Room: Expo Stage 3 SW - Session type: session - Status: confirmed ## Session Description Drop an agent in a sandbox, point it at your repo, watch it ship code. Whether you're buying from a vendor or building it yourself, everyone is following the same playbook. But a sandbox isn't a software factory. At WorkOS, we built Project Horizon, and it taught us that infrastructure is only the first challenge.
-
-### Speaker And Company Context
-- [[ryan-cooke|Ryan Cooke]] — role not listed at [[workos|WorkOS]].
-
-### Topics Covered
-- [[ai-sandboxes]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

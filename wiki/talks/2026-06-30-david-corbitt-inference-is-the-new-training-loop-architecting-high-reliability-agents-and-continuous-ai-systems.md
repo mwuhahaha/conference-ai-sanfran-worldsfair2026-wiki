@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems ## Conference Context - Date/time: 2026-06-30 · 3:20pm-3:40pm - Track/room: Posttraining & Midtraining · Leadership 2 - Speaker(s): David Corbitt - Session type/status: session · confirmed - Track: Posttraining & Midtraining - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description For agentic AI and complex, multi-step workloads, the inference environment is the engine for continuous improvement, not a final deployment step. This talk focuses on engineering the full AI loop: tightly integrating inference with reinforcement learning (RL) and evaluation. Learn how to leverage native observability, serverless RL, and optimized inference stacks to continuously refine model behavior based on production traces, delivering agents that are reliable, auditable, and constantly evolving. ## Media Evidence No related AI Engineer channel video found yet.
-
-### Speaker And Company Context
-- [[david-corbitt|David Corbitt]] — Head of Product, Serverless Training at [[coreweave|CoreWeave]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

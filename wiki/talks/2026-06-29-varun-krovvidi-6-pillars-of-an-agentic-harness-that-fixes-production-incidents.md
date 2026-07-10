@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# 6 Pillars of an Agentic Harness That Fixes Production Incidents ## Conference Context - Date/time: 2026-06-29 · 2:50pm-3:10pm - Track/room: track TBD · Expo Stage 1 NE - Speaker(s): Varun Krovvidi - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 1 NE - Session type: session - Status: confirmed ## Session Description A model delights us when any plausible answer works, but a production incident has one right answer, and the model alone can't reliably reach it. Getting there depends less on the model and more on the orchestration, context, and judgment built around it. That work is harness engineering, and it is the new frontier. This session breaks down the six pillars of an agentic harness required to fix production incidents: model orchestration, context, reasoning, actions, learning, and evals.
-
-### Speaker And Company Context
-- [[varun-krovvidi|Varun Krovvidi]] — role not listed at company not listed.
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

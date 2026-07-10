@@ -72,26 +72,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-so9l_MwS2yg-slides]] — extracted from the related public AI Engineer video.
-
-## Synthesis
-### Synthesized Breakdown
-# Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks ## Conference Context - Date/time: 2026-06-29 · 4:30pm-5:30pm - Track/room: Workshops Day 1 · Track 7 - Speaker(s): Nick Nisi, Zack Proser - Session type/status: workshop · confirmed - Track: Workshops Day 1 - Room: Track 7 - Session type: workshop - Status: confirmed ## Session Description Most engineers are bolting AI onto a workflow that was designed for a pre-AI world. The result is a faster version of the same grind. This talk is about the other path: rebuilding the daily practice of software engineering from the ground up, around what agents are actually good at. Two senior practitioners from WorkOS will walk through how we actually work now as AI-native engineers — not in the aspirational sense, but the literal one.
-
-### Speaker And Company Context
-- No speaker profile is attached in the official schedule data.
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-- [[youtube-so9l_MwS2yg]] — related YouTube source page.
-- [[youtube-so9l_MwS2yg-slides]] — slide evidence.
-- [[youtube-so9l_MwS2yg-reconstructed-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

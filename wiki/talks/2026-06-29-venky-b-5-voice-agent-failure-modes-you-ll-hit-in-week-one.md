@@ -48,22 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# 5 Voice Agent Failure Modes You'll Hit in Week One ## Conference Context - Date/time: 2026-06-29 · 1:55pm-2:15pm - Track/room: Voice & Realtime AI · Track 6 - Speaker(s): Venky B, Vyas A - Session type/status: session · confirmed - Track: Voice & Realtime AI - Room: Track 6 - Session type: session - Status: confirmed ## Session Description Building a voice agent that demos well is easy now. The hard part starts the second a real person calls it. Most voice agents today are basically a chatbot with a microphone bolted on, they listen, then think, then talk, one side at a time, like a walkie talkie. Real conversations don't work that way.
-
-### Speaker And Company Context
-- [[venky-b|Venky B]] — Founder & CEO at [[plivo|Plivo]].
-- [[vyas-a|Vyas A]] — Head of Product at [[plivo|Plivo]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

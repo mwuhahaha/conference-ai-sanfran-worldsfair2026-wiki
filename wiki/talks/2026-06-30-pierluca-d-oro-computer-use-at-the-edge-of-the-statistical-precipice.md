@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Computer Use at the Edge of the Statistical Precipice ## Conference Context - Date/time: 2026-06-30 · 11:10am-11:30am - Track/room: Computer Use · Track 7 - Speaker(s): Pierluca D'Oro - Session type/status: session · confirmed - Track: Computer Use - Room: Track 7 - Session type: session - Status: confirmed ## Session Description Evaluating Computer Use Agents (CUAs) on interactive environments is fraught with methodological pitfalls that the field has yet to systematically address. We show that a 1MB replay script that blindly executes a recorded action sequence without ever observing the screen outperforms frontier models on prominent static benchmarks, and prove that its expected success rate is exactly equal to the source agent's pass@k in deterministic environments. We trace this and other failures to two root causes: non-principled environment design (static, unsandboxed, or unreliably verified environments) and non-principled evaluation methodology (naive aggregation and misuse of pass@k for stateful UI interactions). To address the first, we propose PRISM, five design principles for CUA environments and instantiate them in DigiWorld, a benchmark of 15 realistic sandboxed mobile applications able to evaluate agents in over 3.2 million verified unique configurations.
-
-### Speaker And Company Context
-- [[pierluca-d-oro|Pierluca D'Oro]] — Founder at [[programma-labs|Programma Labs]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[ai-sandboxes]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

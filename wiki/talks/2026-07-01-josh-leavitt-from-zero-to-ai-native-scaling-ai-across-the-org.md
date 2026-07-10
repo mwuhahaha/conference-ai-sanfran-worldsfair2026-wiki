@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# From Zero to AI-Native: Scaling AI Across the Org ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: AI-Native Enterprises · Leadership 1 - Speaker(s): Josh Leavitt - Session type/status: session · confirmed - Track: AI-Native Enterprises - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description Most companies talk about being AI-native, but few show what it takes at scale. Josh Leavitt, Sr. Director of AI & Data at Coinbase, shares the hard-won playbook for transforming a high-stakes, regulated engineering organization into one where AI is a first-class citizen across every team. Josh can cover my approach towards building a centralized AI platform that serves thousands of engineers without becoming a bottleneck, tooling decisions that actually moved the needle, and what AI-native really means when shipping in a zero-tolerance-for-failure environment.
-
-### Speaker And Company Context
-- [[josh-leavitt|Josh Leavitt]] — Sr. Director of AI & Data at [[coinbase|Coinbase]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

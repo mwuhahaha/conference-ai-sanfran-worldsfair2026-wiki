@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Continuous Offensive Security the only approach in an agent-first world ## Conference Context - Date/time: 2026-06-30 · 2:50pm-3:10pm - Track/room: track TBD · Expo Stage 4 SE - Speaker(s): Eli Cohen - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 4 SE - Session type: session - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits. ### Media Signals No linked video, transcript, or slide source has been attached yet.
-
-### Speaker And Company Context
-- [[eli-cohen|Eli Cohen]] — Director of Technology Incubation at [[snyk|Snyk]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -23,7 +23,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[talk-video-transcript-map]]
 
 ### Topic Pages
-- [[agent-ready-accessibility]]
 - [[agentic-search]]
 
 ## Confidence

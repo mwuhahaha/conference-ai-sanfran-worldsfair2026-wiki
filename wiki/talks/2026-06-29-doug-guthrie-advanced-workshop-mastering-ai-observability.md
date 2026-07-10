@@ -67,28 +67,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-Hey everybody, my name is Doug Guthrie. Uh, I'm a solutions engineer at Brain Trust. Um, as you can see here, we're an endto-end developer platform for building AI products. We do evals.
-
-### Speaker And Company Context
-- [[doug-guthrie|Doug Guthrie]] — Solutions Engineer at [[braintrust|Braintrust]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-- [[youtube-bk0TmxoZlUY-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/bk0TmxoZlUY.txt` (9,125 words).
-- [[youtube-bk0TmxoZlUY]] — related YouTube source page.
-- [[youtube-bk0TmxoZlUY-slides]] — slide evidence.
-- [[youtube-bk0TmxoZlUY-reconstructed-slides]] — slide evidence.
-- [[youtube-bk0TmxoZlUY-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.

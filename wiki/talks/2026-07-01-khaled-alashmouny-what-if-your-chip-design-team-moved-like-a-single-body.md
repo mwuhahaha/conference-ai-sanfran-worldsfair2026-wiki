@@ -62,22 +62,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# What If Your Chip Design Team Moved Like a Single Body? ## Conference Context - Date/time: 2026-07-01 · 11:40am-12:00pm - Track/room: AI Architects: AI Factories · Leadership 2 - Speaker(s): Khaled Alashmouny, Abduallah Mohamed - Session type/status: session · confirmed - Track: AI Architects: AI Factories - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description Most agentic demos you've seen has a hidden assumption: one user, one session, one task. But what happens when the agent needs to coordinate with 30 other agents, across 10 disciplines, on a project that takes 12 months — where a single miscommunication costs $10-50M? Chip design is that problem.
-
-### Speaker And Company Context
-- No speaker profile is attached in the official schedule data.
-
-### Topics Covered
-- [[agentic-search]]
-- [[ai-sandboxes]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

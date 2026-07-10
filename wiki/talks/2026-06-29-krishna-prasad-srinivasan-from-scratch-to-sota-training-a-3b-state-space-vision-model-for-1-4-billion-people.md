@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# From Scratch to SOTA: Training a 3B State-Space Vision Model for 1.4 Billion People ## Conference Context - Date/time: 2026-06-29 · 3:20pm-3:40pm - Track/room: Vision & OCR · Track 2 - Speaker(s): Krishna Prasad Srinivasan - Session type/status: sponsor · confirmed - Track: Vision & OCR - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description India has 22 official languages. Across those languages live over a billion people whose knowledge is locked inside scanned images in scripts that most frontier models perform poorly. The problem is dire - until now, there wasn't even a comprehensive benchmark to measure Indic OCR performance, let alone training data at scale. When Sarvam AI set out to solve this, we had to build the infrastructure before the model, creating the first ground-truth benchmark for Indic document intelligence.
-
-### Speaker And Company Context
-- [[krishna-prasad-srinivasan|Krishna Prasad Srinivasan]] — Head of Vision Models at [[sarvam|Sarvam]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

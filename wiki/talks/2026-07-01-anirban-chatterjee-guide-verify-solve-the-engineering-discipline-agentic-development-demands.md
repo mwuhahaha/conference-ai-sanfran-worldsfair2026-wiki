@@ -47,23 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Guide, Verify, Solve: The Engineering Discipline Agentic Development Demands ## Conference Context - Date/time: 2026-07-01 · 11:40am-12:00pm - Track/room: Agentic Engineering · Track 8 - Speaker(s): Anirban Chatterjee - Session type/status: session · confirmed - Track: Agentic Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description Agentic development is not a productivity story: it's a reliability engineering problem at a scale most teams have never faced. Long-running agent tasks fail at alarming rates, pull requests have grown from 50 lines to 5,000, and cognitive surrender is real—the more capable AI output appears, the less humans interrogate it, right at the moment the stakes are highest. Independent, peer-reviewed research from Carnegie Mellon studying 807 open source projects found that AI agent adoption caused a persistent 30% increase in code analysis warnings and a 41% increase in complexity — with long-term development velocity declining as a result. Agents don't just write code faster, they accumulate debt faster, too.
-
-### Speaker And Company Context
-- [[anirban-chatterjee|Anirban Chatterjee]] — Director, Product and Solutions Marketing at [[sonar|Sonar]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

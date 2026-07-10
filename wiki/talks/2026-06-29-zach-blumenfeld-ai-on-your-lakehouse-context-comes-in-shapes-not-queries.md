@@ -69,29 +69,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-So, my name is Zach. Uh I work for Neo4j. We're a graph intelligence company. You can think of us like a knowledge layer graph database at the core.
-
-### Speaker And Company Context
-- [[zach-blumenfeld|Zach Blumenfeld]] — AI Research Engineer at [[neo4j|Neo4j]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-- [[coding-agents]]
-- [[mcp]]
-
-### Derived Links And Source Material
-- [[youtube-B9h9ovW5H9U-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/B9h9ovW5H9U.txt` (2,859 words).
-- [[youtube-B9h9ovW5H9U]] — related YouTube source page.
-- [[youtube-B9h9ovW5H9U-slides]] — slide evidence.
-- [[youtube-B9h9ovW5H9U-reconstructed-slides]] — slide evidence.
-- [[youtube-B9h9ovW5H9U-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.

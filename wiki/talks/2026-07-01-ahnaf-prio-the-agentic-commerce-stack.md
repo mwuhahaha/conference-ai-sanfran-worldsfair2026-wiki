@@ -56,22 +56,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# The Agentic Commerce Stack ## Conference Context - Date/time: 2026-07-01 · 2:25pm-2:45pm - Track/room: Agentic Commerce · Track 2 - Speaker(s): Ahnaf Prio - Session type/status: sponsor · confirmed - Track: Agentic Commerce - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description Agents are already handling product discovery, cart building, and checkout — no human clicking required. But what's the protocol stack actually making this work? This talk maps the real infrastructure: MCP for tool access, A2A for agent coordination, the ACP spec (backed by OpenAI) and the UCP spec (backed by Google) — two competing approaches to standardizing the full agentic commerce lifecycle — and AP2 for agentic payments. We'll cover what each does, how they compose, and where they're still forming.
-
-### Speaker And Company Context
-- No speaker profile is attached in the official schedule data.
-
-### Topics Covered
-- [[agentic-search]]
-- [[mcp]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

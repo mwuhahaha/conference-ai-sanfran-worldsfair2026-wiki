@@ -34,11 +34,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Slide/OCR Pages
 - [[youtube--cKUW6n8hBU-reconstructed-slides]]
-- [[youtube-9-vGxMoUM9Y-dense-slides]]
 - [[youtube-bmWZk9vTze0-dense-slides]]
 - [[youtube-bmWZk9vTze0-reconstructed-slides]]
 - [[youtube-bmWZk9vTze0-slides]]
-- [[youtube-rcsliSIy_YU-dense-slides]]
 
 ### Topic Pages
 - [[agent-security]]

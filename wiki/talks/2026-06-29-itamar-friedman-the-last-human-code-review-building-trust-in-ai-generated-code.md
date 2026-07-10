@@ -57,25 +57,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-rgjF5o2Qjsc-slides]] — extracted from the related public AI Engineer video.
-
-## Synthesis
-### Synthesized Breakdown
-# The Last Human Code Review: Building Trust in AI-Generated Code ## Conference Context - Date/time: 2026-06-29 · 11:40am-12:00pm - Track/room: AI Architects: Show my Workflow · Leadership 2 - Speaker(s): Itamar Friedman - Session type/status: session · confirmed - Track: AI Architects: Show my Workflow - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description By the end of 2026, asking a human to review every pull request will be as optional as asking one to run every unit test manually. The tooling will be ready. The question is whether organizations are. In this talk, Itamar Friedman, CEO of Qodo, explains why we are approaching the end of line-by-line human code review as a default requirement and explores what has to be true for teams to get there.
-
-### Speaker And Company Context
-- [[itamar-friedman|Itamar Friedman]] — Co-Founder & CEO at [[qodo|Qodo]].
-
-### Topics Covered
-- [[agent-security]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-- [[youtube-rgjF5o2Qjsc]] — related YouTube source page.
-- [[youtube-rgjF5o2Qjsc-slides]] — slide evidence.
-- [[youtube-rgjF5o2Qjsc-reconstructed-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

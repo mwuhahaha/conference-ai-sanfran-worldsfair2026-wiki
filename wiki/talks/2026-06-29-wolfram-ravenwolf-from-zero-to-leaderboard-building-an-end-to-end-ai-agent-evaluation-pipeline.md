@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline ## Conference Context - Date/time: 2026-06-29 · 12:10pm-1:10pm - Track/room: Workshops Day 1 · Track 5 - Speaker(s): Wolfram Ravenwolf - Session type/status: workshop · confirmed - Track: Workshops Day 1 - Room: Track 5 - Session type: workshop - Status: confirmed ## Session Description Running one agent eval is easy. Running hundreds — with controlled timeouts, replicated configs, and automated collection across distributed VMs — requires infrastructure that most teams end up building from scratch. In this workshop, we shortcut that process and build a rigorous evaluation pipeline end-to-end. Participants will set up and connect the full evaluation stack: **Layer 1 — The Benchmark Runner.** Configure Harbor to orchestrate parallel agent evaluations on Terminal-Bench 2.0, with W&B Sandboxes providing isolated environments for each task.
-
-### Speaker And Company Context
-- [[wolfram-ravenwolf|Wolfram Ravenwolf]] — AI Evangelist at [[weights-and-biases-by-coreweave|Weights & Biases by CoreWeave]].
-
-### Topics Covered
-- [[agent-security]]
-- [[ai-sandboxes]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -37,7 +37,7 @@ Tool pages distinguish confirmed mentions from inferred relevance and cite the s
 - [[hugging-face-hub]] — Hugging Face Hub (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[krea-2]] — Krea 2 (Official schedule, Public YouTube metadata)
 - [[langchain]] — LangChain (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
-- [[langfuse]] — Langfuse (Official schedule, Public YouTube metadata, Transcript evidence)
+- [[langfuse]] — Langfuse (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[langgraph]] — LangGraph (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[llamaindex]] — LlamaIndex (Official schedule, Public YouTube metadata, Local slide OCR, Topic synthesis)
 - [[manus]] — Manus (Public YouTube metadata, Local slide OCR)

@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# How We Got LLMs to Recommend Our Open Source Library (Without Paying or Plug-ins) ## Conference Context - Date/time: 2026-07-01 · 1:55pm-2:15pm - Track/room: AI in GTM · Track 6 - Speaker(s): Christopher Burns - Session type/status: session · confirmed - Track: AI in GTM - Room: Track 6 - Session type: session - Status: confirmed ## Session Description Over the past year, we’ve seen a new distribution channel emerge: AI assistants. Instead of SEO, ads, or integrations, developers are discovering tools through models like Claude. In this talk, I’ll break down how we got our open source library recommended organically by LLMs in under a year, without plugins, paid placements, or partnerships. We’ll cover what actually influences model outputs today, how developer-first products behave differently in this channel, and the practical steps we took to make our project show up when it matters.
-
-### Speaker And Company Context
-- [[christopher-burns|Christopher Burns]] — Founder at [[inth|Inth]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

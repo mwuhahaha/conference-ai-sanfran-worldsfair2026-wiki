@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# The Agent Behind the Curtain: Building the Oz Cloud Agent Platform ## Conference Context - Date/time: 2026-07-01 · 10:45am-11:05am - Track/room: AI Architects: AI Factories · Leadership 2 - Speaker(s): Safia Abdalla - Session type/status: session · confirmed - Track: AI Architects: AI Factories - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description At Warp, we’re building Oz to be the platform that enables people to be creative and build with cloud agents. That sounds simple, but only because the job of good developer tooling is to take on complexity before it reaches the user. The best tools fit into the way developers already think, then make accessible work that used to feel out of reach. This talk is about the engineering philosophy behind that work: how Warp’s evolution from terminal to local agent to Oz shaped the way we think about building for developers.
-
-### Speaker And Company Context
-- [[safia-abdalla|Safia Abdalla]] — Software Engineer at [[warp|Warp]].
-
-### Topics Covered
-- [[agent-security]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

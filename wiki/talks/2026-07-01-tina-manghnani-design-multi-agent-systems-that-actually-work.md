@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Design multi-agent systems that actually work ## Conference Context - Date/time: 2026-07-01 · 12:05pm-12:25pm - Track/room: Track M · Track M - Speaker(s): Tina Manghnani - Session type/status: sponsor · confirmed - Track: Track M - Room: Track M - Session type: sponsor - Status: confirmed ## Session Description Real-world agent systems don’t run in isolation. Learn how to design and coordinate multi-agent systems that collaborate effectively in production—splitting responsibilities, managing system-level complexity, and operating with shared context from Microsoft IQ. See how agents move from single interactions to orchestrated systems that reason, act, and evolve together. ## Media Evidence No related AI Engineer channel video found yet.
-
-### Speaker And Company Context
-- [[tina-manghnani|Tina Manghnani]] — Product Manager at [[microsoft|Microsoft]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

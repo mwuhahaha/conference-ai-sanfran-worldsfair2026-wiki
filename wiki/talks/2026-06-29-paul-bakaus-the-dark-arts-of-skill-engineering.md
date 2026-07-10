@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# The Dark Arts of Skill Engineering ## Conference Context - Date/time: 2026-06-29 · 4:30pm-5:30pm - Track/room: track TBD · Track 2 - Speaker(s): Paul Bakaus - Session type/status: session · confirmed - Track: track TBD - Room: Track 2 - Session type: session - Status: confirmed ## Session Description Most agent skills are a system prompt and a prayer. They produce safe, median output because that's what LLMs default to. After building 24 design skills across 9 AI platforms, I found the patterns that break through that ceiling, and they're rarely documented or discussed. Make your agents argue: spawn parallel sub-agents that independently evaluate the same work, then force their conflicting opinions into a single result.
-
-### Speaker And Company Context
-- [[paul-bakaus|Paul Bakaus]] — Founder at [[renaissance-geek-inc|Renaissance Geek, Inc.]].
-
-### Topics Covered
-- [[agent-security]]
-- [[ai-sandboxes]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

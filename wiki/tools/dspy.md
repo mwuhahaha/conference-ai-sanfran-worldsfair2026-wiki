@@ -39,10 +39,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube--cKUW6n8hBU-slides]]
 - [[youtube-I2cbIws9j10-dense-slides]]
 - [[youtube-I2cbIws9j10-slides]]
-- [[youtube-JIsgyk0Paic-dense-slides]]
 - [[youtube-JIsgyk0Paic-slides]]
-- [[youtube-Jx4ZFEAq6bY-slides]]
-- [[youtube-SbcQYbrvAfI-dense-slides]]
 - [[youtube-SbcQYbrvAfI-slides]]
 
 ### Topic Pages

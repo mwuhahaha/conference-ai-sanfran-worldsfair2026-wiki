@@ -68,26 +68,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-# AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations ## Conference Context - Date/time: 2026-06-30 · 11:10am-11:30am - Track/room: Expo Stage 2 · Expo Stage 2 NW - Speaker(s): Justin Reock - Session type/status: session · confirmed - Track: Expo Stage 2 - Room: Expo Stage 2 NW - Session type: session - Status: confirmed ## Session Description AI is reshaping how engineers work but what does that actually look like at scale? Drawing on data and patterns from more than 500 organizations, we break down the five most significant trends emerging in AI-assisted engineering today. This fast-paced theater session cuts through the hype to deliver concrete, evidence-based insights that engineering leaders can act on immediately. Key takeaways: Discover the top 5 AI-assisted engineering trends observed across 500+ organizations Understand how leading teams are integrating AI into their engineering workflows Leave with actionable strategies to apply at your organization ## Media Evidence [Leadership in AI Assisted Engineering – Justin Reock, DX (acq.
-
-### Speaker And Company Context
-- [[justin-reock|Justin Reock]] — Deputy CTO at [[dx|DX]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-- [[youtube-PmZDupFP3UM]] — related YouTube source page.
-- [[youtube-PmZDupFP3UM-slides]] — slide evidence.
-- [[youtube-PmZDupFP3UM-reconstructed-slides]] — slide evidence.
-- [[youtube-PmZDupFP3UM-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

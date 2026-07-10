@@ -69,27 +69,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-# All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens ## Conference Context - Date/time: 2026-07-01 · 11:40am-12:00pm - Track/room: Inference · Leadership 1 - Speaker(s): Daniel Kim, Michelle Nguyen - Session type/status: session · confirmed - Track: Inference - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description Every time the industry figures out how to serve tokens faster and cheaper, the appetite grows to match. Models get bigger, contexts get longer, agents start chaining thousands of calls together. The finish line keeps moving. This talk is a technical tour through everything the industry has done to keep up, led by two experts in high-performance inference.
-
-### Speaker And Company Context
-- [[daniel-kim|Daniel Kim]] — Head of Growth at [[cerebras|Cerebras]].
-- [[michelle-nguyen|Michelle Nguyen]] — Co-Founder at [[gimlet-labs|Gimlet Labs]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-- [[youtube-tzRvcTEapzo]] — related YouTube source page.
-- [[youtube-tzRvcTEapzo-slides]] — slide evidence.
-- [[youtube-tzRvcTEapzo-reconstructed-slides]] — slide evidence.
-- [[youtube-tzRvcTEapzo-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

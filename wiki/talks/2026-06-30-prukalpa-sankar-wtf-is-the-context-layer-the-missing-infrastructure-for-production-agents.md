@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# WTF Is the Context Layer? The Missing Infrastructure for Production Agents ## Conference Context - Date/time: 2026-06-30 · 1:55pm-2:15pm - Track/room: Context Engineering · Track 8 - Speaker(s): Prukalpa Sankar - Session type/status: session · confirmed - Track: Context Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description In the last two years, models have gotten exponentially smarter. Two years ago they couldn't pass the bar. Today, top 1% of test scorers.
-
-### Speaker And Company Context
-- [[prukalpa-sankar|Prukalpa Sankar]] — Founder & Co-CEO at [[atlan|Atlan]].
-
-### Topics Covered
-- [[mcp]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

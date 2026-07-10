@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Realtime Voice Agents with Frontier Intelligence ## Conference Context - Date/time: 2026-06-29 · 2:50pm-3:10pm - Track/room: Voice & Realtime AI · Track 6 - Speaker(s): Bohan Li - Session type/status: session · confirmed - Track: Voice & Realtime AI - Room: Track 6 - Session type: session - Status: confirmed ## Session Description Dive into how the EliseAI voice agent harness orchestrates multiple models with jagged capability profiles to achieve realtime latency without sacrificing intelligence. Reduces p90 effective latency overhead of ASR, TTS, and tool calling to sub 200ms, unlocking frontier models like GPT 5.5 for voice. ### ASR: Eager Speculative Transcription We introduce speculative transcription by pairing local Whisper or Parakeet fine-tunes for speed with API models like Scribe, Nova, or Gemini Flash for accuracy. A local content match classifier operates at sub 10ms latency, allowing us to immediately trigger the downstream pipeline from the fast local transcription and dynamically replace text with the more accurate transcription if significant differences occur.
-
-### Speaker And Company Context
-- [[bohan-li|Bohan Li]] — Staff Software Engineer at [[eliseai|EliseAi]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

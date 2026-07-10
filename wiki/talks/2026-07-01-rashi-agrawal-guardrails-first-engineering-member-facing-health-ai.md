@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Guardrails First: Engineering Member-Facing Health AI ## Conference Context - Date/time: 2026-07-01 · 11:10am-11:30am - Track/room: AI in Healthcare · Track 7 - Speaker(s): Rashi Agrawal - Session type/status: session · confirmed - Track: AI in Healthcare - Room: Track 7 - Session type: session - Status: confirmed ## Session Description Everywhere else in the company, an AI pilot can reach production in weeks. For our member-facing clinical assistant, it can't, and that single constraint redesigned our entire architecture. This is a field report on building conversational AI in a regulated digital health setting, where "move fast and break things" isn't a culture choice. It's a liability.
-
-### Speaker And Company Context
-- [[rashi-agrawal|Rashi Agrawal]] — Head of Agentic AI at [[hinge-health|Hinge Health]].
-
-### Topics Covered
-- [[agent-security]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

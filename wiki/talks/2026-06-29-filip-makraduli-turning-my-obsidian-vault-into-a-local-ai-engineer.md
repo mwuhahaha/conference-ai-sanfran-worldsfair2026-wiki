@@ -57,25 +57,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-qdh_x-uRs9g-slides]] — extracted from the related public AI Engineer video.
-
-## Synthesis
-### Synthesized Breakdown
-# Turning My Obsidian Vault Into a Local AI Engineer ## Conference Context - Date/time: 2026-06-29 · 1:15pm-2:15pm - Track/room: Workshops Day 1 · Track 8 - Speaker(s): Filip Makraduli - Session type/status: sponsor · confirmed - Track: Workshops Day 1 - Room: Track 8 - Session type: sponsor - Status: confirmed ## Session Description Personal knowledge bases are messy, but engineering agents need memory: decisions, docs, TODOs, old PRs, architecture notes, incident notes. This talk shows how I made an Obsidian vault usable by an agent using local-first retrieval and small-model inference. The point is not “chat with notes”; it is how to build durable, inspectable agent memory. ## Media Evidence [The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked](https://www.youtube.com/watch?v=qdh_x-uRs9g) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-### Speaker And Company Context
-- [[filip-makraduli|Filip Makraduli]] — Founding Member of Technical Staff at [[superlinked|Superlinked]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[agentic-web]]
-
-### Derived Links And Source Material
-- [[youtube-qdh_x-uRs9g]] — related YouTube source page.
-- [[youtube-qdh_x-uRs9g-slides]] — slide evidence.
-- [[youtube-qdh_x-uRs9g-reconstructed-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

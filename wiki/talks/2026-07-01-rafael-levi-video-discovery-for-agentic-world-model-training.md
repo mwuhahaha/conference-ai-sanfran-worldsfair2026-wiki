@@ -51,25 +51,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## People
 - [[rafael-levi]]
-
-## Synthesis
-### Synthesized Breakdown
-# Video Discovery for Agentic World-Model Training ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: track TBD · Expo Stage 4 SE - Speaker(s): Rafael Levi - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 4 SE - Session type: session - Status: confirmed ## Session Description Physical AI had its “Attention Is All You Need” moment with the rise of Vision-Language-Action models. The next bottleneck is data: not just more video, but the ability to find the exact real-world moments that teach models how the world works: gravity, motion, causality, human behavior, and object interactions. This session explores a new approach: discovering specific scenes from the vastness of the web. We’ll show how teams can search for moments like objects falling, people interacting with environments, or actions unfolding over time, then collect and structure only the relevant clips for training and evaluation.
-
-### Speaker And Company Context
-- [[rafael-levi|Rafael Levi]] — DevRel at [[bright-data|Bright Data]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[mcp]]
-
-### Derived Links And Source Material
-- [[youtube-zTZ0qunQXnM]] — related YouTube source page.
-- [[youtube-zTZ0qunQXnM-slides]] — slide evidence.
-- [[youtube-zTZ0qunQXnM-reconstructed-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

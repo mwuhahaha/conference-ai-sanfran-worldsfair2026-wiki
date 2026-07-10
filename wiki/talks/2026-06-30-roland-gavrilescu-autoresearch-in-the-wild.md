@@ -48,22 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Autoresearch in the wild ## Conference Context - Date/time: 2026-06-30 · 3:20pm-3:40pm - Track/room: Autoresearch · Main Stage - Speaker(s): Roland Gavrilescu, Julian Bright - Session type/status: session · confirmed - Track: Autoresearch - Room: Main Stage - Session type: session - Status: confirmed ## Session Description We have reached model capability overhang. Models are now bottleneck by the systems built around them. In this session we discuss how the next generation of compound AI systems need to be designed for self-improvement, how to set up feedback loops that automate the continuous refinement of the end-to-end architecture. ## Media Evidence No related AI Engineer channel video found yet.
-
-### Speaker And Company Context
-- [[roland-gavrilescu|Roland Gavrilescu]] — Co-Founder, CEO at [[introspection|Introspection]].
-- [[julian-bright|Julian Bright]] — Co-Founder at [[introspection|Introspection]].
-
-### Topics Covered
-- [[agentic-search]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

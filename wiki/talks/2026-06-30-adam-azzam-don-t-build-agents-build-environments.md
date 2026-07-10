@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Don’t build agents, build environments ## Conference Context - Date/time: 2026-06-30 · 10:45am-11:05am - Track/room: Sandbox & Platform Engineering · Track 1 - Speaker(s): Adam Azzam - Session type/status: session · confirmed - Track: Sandbox & Platform Engineering - Room: Track 1 - Session type: session - Status: confirmed ## Session Description We’ve largely settled on what a coding agent is: a model working in a loop, calling tools. As a result, the hard part has moved. It’s no longer the agent loop, it’s the environment around it. This talk is about the real challenges of building fast-booting, reliable, reproducible environments for coding agents at scale.
-
-### Speaker And Company Context
-- [[adam-azzam|Adam Azzam]] — Member of Product Staff at [[modal|Modal]].
-
-### Topics Covered
-- [[ai-sandboxes]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

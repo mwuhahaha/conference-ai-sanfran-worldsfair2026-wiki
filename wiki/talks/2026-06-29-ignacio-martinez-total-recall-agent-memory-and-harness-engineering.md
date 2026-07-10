@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Total Recall: Agent Memory and Harness Engineering ## Conference Context - Date/time: 2026-06-29 · 9:00am-11:00am - Track/room: Workshops Day 1 · Track 6 - Speaker(s): Ignacio Martinez - Session type/status: sponsor · confirmed - Track: Workshops Day 1 - Room: Track 6 - Session type: sponsor - Status: confirmed ## Session Description In this hands-on workshop you'll build a working autonomous agent from the harness up, in a notebook, then see it live in a full working web application and leave with one that can write and run its own automations. You'll implement every surface area yourself: a set of predefined tools, persistent memory through the Oracle AI Agent Memory package, orchestration with LangChain and LangGraph, and LLM access through OCI GenAI Service, composing the full set of Oracle primitives into one harness you understand end to end. Most teams assemble that harness from a dozen disconnected services: one store for vectors, another for state, a separate reranker, a bolt-on memory layer. We take the opposite approach, on a single unified memory core.
-
-### Speaker And Company Context
-- [[ignacio-martinez|Ignacio Martinez]] — AI Developer Advocate at [[oracle|Oracle]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

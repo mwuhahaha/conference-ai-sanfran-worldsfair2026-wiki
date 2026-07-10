@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Everyone talks about document search, but what about results? ## Conference Context - Date/time: 2026-07-01 · 1:55pm-2:15pm - Track/room: track TBD · Expo Stage 4 SE - Speaker(s): George He - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 4 SE - Session type: session - Status: confirmed ## Session Description Search is usually treated as the end of the document pipeline: parse, chunk, retrieve, and hand them to the model. But long-running agents need something more durable than one-off retrieval. They need reusable work: structured outputs, citations, extracted entities, prior decisions, and file-system-like context they can return to across tasks.
-
-### Speaker And Company Context
-- [[george-he|George He]] — Head of Platform Engineering at [[llamaindex|LlamaIndex]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[agentic-web]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

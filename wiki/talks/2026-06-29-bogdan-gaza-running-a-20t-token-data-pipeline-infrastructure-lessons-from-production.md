@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production ## Conference Context - Date/time: 2026-06-29 · 3:20pm-3:40pm - Track/room: track TBD · Expo Stage 3 SW - Speaker(s): Bogdan Gaza - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 3 SW - Session type: session - Status: confirmed ## Session Description The problem. Curation algorithms tend to get the spotlight: model-based quality filtering, embedding-based deduplication, synthetic generation at scale, target distribution matching. The engineering behind them, the systems that actually run those algorithms reliably on petabytes of data and thousands of GPUs, usually gets overlooked. This session is about the engineering.
-
-### Speaker And Company Context
-- [[bogdan-gaza|Bogdan Gaza]] — Co-Founder & CTO at [[datologyai|DatologyAI]].
-
-### Topics Covered
-- [[ai-sandboxes]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

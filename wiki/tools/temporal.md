@@ -38,7 +38,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-k8cnVCMYmNc-dense-slides]]
 - [[youtube-k8cnVCMYmNc-reconstructed-slides]]
 - [[youtube-k8cnVCMYmNc-slides]]
-- [[youtube-qdZzND79mcg-slides]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/IJXjTLPzvAU.txt`

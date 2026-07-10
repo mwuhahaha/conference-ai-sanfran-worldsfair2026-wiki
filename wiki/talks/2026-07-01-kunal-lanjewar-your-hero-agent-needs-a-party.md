@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Your Hero Agent Needs a Party ## Conference Context - Date/time: 2026-07-01 · 2:25pm-2:45pm - Track/room: AI-Native Enterprises · Leadership 1 - Speaker(s): Kunal Lanjewar - Session type/status: session · confirmed - Track: AI-Native Enterprises - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description A front-door persona, a party of deterministic specialist agents, A2A between. Your support bot deflects half its tickets, then, soloing a problem it was never built for, confidently runs the wrong `kubectl` command. Most teams respond by rewriting the prompt. The real fix is a multi‑agent party of specialists.
-
-### Speaker And Company Context
-- [[kunal-lanjewar|Kunal Lanjewar]] — Staff Engineer at [[riot-games|Riot Games]].
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

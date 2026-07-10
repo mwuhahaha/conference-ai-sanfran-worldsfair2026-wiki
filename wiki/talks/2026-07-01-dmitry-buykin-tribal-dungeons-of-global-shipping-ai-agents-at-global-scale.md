@@ -47,23 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Tribal Dungeons of Global Shipping: AI Agents at Global Scale ## Conference Context - Date/time: 2026-07-01 · 11:10am-11:30am - Track/room: AI-Native Enterprises · Leadership 1 - Speaker(s): Dmitry Buykin - Session type/status: session · confirmed - Track: AI-Native Enterprises - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description Most “AI agents in production” talks skip the part where you have to turn distributed operational knowledge into something an agent can execute safely. This is that part: a practitioner report from a global logistics case-processing project at Maersk, focused on SOPs-as-code, evaluation UX, guardrails, replay-based testing, and SME refinement loops. The talk covers why versioned, country-aware SOPs beat prompt engineering at scale; how SME corrections become safe workflow changes; why classifier routing and SOP execution must stay separate; where agents under-deliver against demos; and why most of the engineering effort goes into evaluation, replay, and guardrails rather than model prompting. ## Media Evidence No related AI Engineer channel video found yet.
-
-### Speaker And Company Context
-- [[dmitry-buykin|Dmitry Buykin]] — Applied AI Lead, Staff Software Engineer at [[maersk|Maersk]].
-
-### Topics Covered
-- [[agent-security]]
-- [[ai-sandboxes]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

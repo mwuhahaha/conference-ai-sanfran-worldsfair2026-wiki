@@ -35,11 +35,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Slide/OCR Pages
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-llm-inference-at-scale-slides]]
 - [[youtube-DeFF3J8T5Pk-slides]]
+- [[youtube-HvZXAOZ3iv8-slides]]
 - [[youtube-ILdE7FaAjVA-slides]]
-- [[youtube-OV56RddyFuU-dense-slides]]
-- [[youtube-htM02KMNZnk-dense-slides]]
 - [[youtube-htM02KMNZnk-slides]]
-- [[youtube-qdh_x-uRs9g-reconstructed-slides]]
 - [[youtube-vh2VGuQ3zhY-slides]]
 
 ### Topic Pages

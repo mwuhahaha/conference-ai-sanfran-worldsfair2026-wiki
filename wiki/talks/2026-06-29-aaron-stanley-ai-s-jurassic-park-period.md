@@ -56,22 +56,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# AI’s Jurassic Park Period ## Conference Context - Date/time: 2026-06-29 · 3:20pm-3:40pm - Track/room: Security · Track 5 - Speaker(s): Aaron Stanley - Session type/status: sponsor · confirmed - Track: Security - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description Early in my career, I accidentally and unrecoverably changed data I was collecting for a federal investigation. Twenty years later, with the help of AI and a career’s worth of experience as a security leader, I intentionally did the same thing. Make no mistake, what my agent and I did together was dangerous. It was only because I had enough subject matter expertise in both the functional and risk issues that I could navigate it safely.
-
-### Speaker And Company Context
-- No speaker profile is attached in the official schedule data.
-
-### Topics Covered
-- [[agent-security]]
-- [[agentic-search]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

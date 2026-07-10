@@ -48,23 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# The best SDLC is the one you build yourself: Why orchestration changes everything ## Conference Context - Date/time: 2026-06-29 · 9:00am-11:00am - Track/room: Workshops Day 1 · Track 4 - Speaker(s): Shane Wolf, Andrei Bocan - Session type/status: sponsor · confirmed - Track: Workshops Day 1 - Room: Track 4 - Session type: sponsor - Status: confirmed ## Session Description Industry research shows AI productivity gains have plateaued at 10–15% — because today's tools only optimize the 20% of a developer's day spent writing code. The real bottlenecks are left and right of code: planning, orchestration, review, and operations. We'll also explore the value of AI-powered code reviews - from establishing code standards that AI can seamlessly enforce, to triggering agentic pipelines that autonomously fix issues. Join Atlassian's Shane Wolf and Andrei Bocan for a hands-on deep dive into the AI-native SDLC.
-
-### Speaker And Company Context
-- [[shane-wolf|Shane Wolf]] — role not listed at [[atlassian|Atlassian]].
-- [[andrei-bocan|Andrei Bocan]] — Principal Engineer at [[atlassian|Atlassian]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

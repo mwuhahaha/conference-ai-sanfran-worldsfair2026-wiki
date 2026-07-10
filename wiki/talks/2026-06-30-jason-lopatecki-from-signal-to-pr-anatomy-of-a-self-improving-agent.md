@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# From Signal to PR: Anatomy of a Self-Improving Agent ## Conference Context - Date/time: 2026-06-30 · 11:10am-11:30am - Track/room: Evals · Track 5 - Speaker(s): Jason Lopatecki - Session type/status: sponsor · confirmed - Track: Evals - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description What if your observability platform didn't just tell you something was wrong, but told you why, and opened a PR with the fix? We'll walk through how we built Autopilot at Arize: an autonomous investigation agent that triggers on monitor alerts or schedules, pulls traces into a working filesystem, runs root-cause analysis, and produces actionable assets: a PR with prompt or code changes ready for review. We'll cover the architecture decisions (cloud agents vs. sandboxed containers, AI harness + skills), why traces-on-a-filesystem is the key unlock for agent-driven debugging, and how we dogfooded the system on our own agent, Alyx, before shipping it to customers.
-
-### Speaker And Company Context
-- [[jason-lopatecki|Jason Lopatecki]] — CEO at [[arize|Arize]].
-
-### Topics Covered
-- [[ai-sandboxes]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

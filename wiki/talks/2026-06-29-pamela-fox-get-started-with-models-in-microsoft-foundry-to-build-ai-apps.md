@@ -68,25 +68,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
-
-## Synthesis
-### Synthesized Breakdown
-# Get Started with Models in Microsoft Foundry to Build AI Apps ## Conference Context - Date/time: 2026-06-29 · 9:00am-10:15am - Track/room: Track M · Track M - Speaker(s): Pamela Fox - Session type/status: sponsor · confirmed - Track: Track M - Room: Track M - Session type: sponsor - Status: confirmed ## Session Description In this hands-on lab, you will build a production-ready AI application using Microsoft Foundry, with no fine-tuning or deep machine learning expertise required. You will discover and select models, provision a Foundry project, and connect to a hosted model using the OpenAI SDK. You’ll implement a comment moderation workflow, compare model outputs, and package the solution as a hosted agent using Python, ready for real-world integration. ## Media Evidence [Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner](https://www.youtube.com/watch?v=1t-9-s1brcg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
-
-### Speaker And Company Context
-- [[pamela-fox|Pamela Fox]] — Principal Cloud Advocate at [[microsoft|Microsoft]].
-
-### Topics Covered
-- [[agentic-search]]
-
-### Derived Links And Source Material
-- [[youtube-1t-9-s1brcg]] — related YouTube source page.
-- [[youtube-1t-9-s1brcg-slides]] — slide evidence.
-- [[youtube-1t-9-s1brcg-reconstructed-slides]] — slide evidence.
-- [[youtube-1t-9-s1brcg-dense-slides]] — slide evidence.
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

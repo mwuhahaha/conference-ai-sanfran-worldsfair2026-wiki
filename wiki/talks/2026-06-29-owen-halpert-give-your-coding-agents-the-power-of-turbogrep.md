@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Give your coding agents the power of turbogrep! ## Conference Context - Date/time: 2026-06-29 · 11:10am-11:30am - Track/room: track TBD · Expo Stage 1 NE - Speaker(s): Owen Halpert - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 1 NE - Session type: session - Status: confirmed ## Session Description Coding agents can grep the filesystem, but sometimes semantic search is more useful for finding the right files, especially on large codebases. Claude Code and Codex, unlike Cursor, do not use semantic search for code retrieval. There are good reasons for this, but Cursor has consistently demonstrated that semantic retrieval can materially improve code search to improve answer accuracy, increase code retention, and reduce token usage.
-
-### Speaker And Company Context
-- [[owen-halpert|Owen Halpert]] — GTM at [[turbopuffer|turbopuffer]].
-
-### Topics Covered
-- [[agentic-search]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

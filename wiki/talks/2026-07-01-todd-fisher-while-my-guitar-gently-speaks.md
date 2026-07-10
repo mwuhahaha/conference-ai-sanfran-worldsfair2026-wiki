@@ -47,21 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# While my guitar gently speaks ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: Generative Media · Track 1 - Speaker(s): Todd Fisher - Session type/status: session · confirmed - Track: Generative Media - Room: Track 1 - Session type: session - Status: confirmed ## Session Description Do you ever wonder What the next evolution of live performances will look like? I do all the time. Come experience what happens when you combine live guitar playing with DSP as well as TTS and other models, all running locally. Prepare to be entertained and get familiar with new possibilities that modern tools open up in the audio and digital signal processing space while you enjoy a live performance on top of an informative slide presentation.
-
-### Speaker And Company Context
-- [[todd-fisher|Todd Fisher]] — Head of Engineering Launching 0-1 startups at [[philo-ventures|Philo Ventures]].
-
-### Topics Covered
-- Topic links are pending transcript-backed classification.
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

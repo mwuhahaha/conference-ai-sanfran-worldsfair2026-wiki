@@ -1,0 +1,10 @@
+[Unit]
+Description=Run AIE WF2026 official YouTube monitor every 6 hours
+
+[Timer]
+OnActiveSec=6h
+OnUnitActiveSec=6h
+Unit=aie-wf2026-youtube-monitor.service
+
+[Install]
+WantedBy=timers.target

@@ -48,22 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# Vertical Mobility: Building an AI Inference Platform That Scales from MVP to Trillion-Parameter Workloads ## Conference Context - Date/time: 2026-07-01 · 12:05pm-12:25pm - Track/room: Inference · Track 9 - Speaker(s): Rita Zhang, Sitanshu Gupta - Session type/status: session · confirmed - Track: Inference - Room: Track 9 - Session type: session - Status: confirmed ## Session Description The future of AI inference is not one-size-fits-all. This talk explores a multi-tiered architecture that supports the full AI lifecycle, from rapid, pay-per-token experimentation to dedicated, SLO-bound production and extreme-scale, self-managed deployments. Learn about lessons learned from CoreWeave’s inference stack as performance, cost, and control requirements evolve. ## Media Evidence No related AI Engineer channel video found yet.
-
-### Speaker And Company Context
-- [[rita-zhang|Rita Zhang]] — role not listed at [[coreweave|Coreweave]].
-- [[sitanshu-gupta|Sitanshu Gupta]] — role not listed at [[coreweave|Coreweave]].
-
-### Topics Covered
-- [[agent-security]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

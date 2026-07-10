@@ -47,22 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Synthesis
-### Synthesized Breakdown
-# What we learned by analyzing 1M AI-generated PRs ## Conference Context - Date/time: 2026-06-29 · 12:05pm-12:25pm - Track/room: Software Factories · Main Stage - Speaker(s): Daksh Gupta - Session type/status: session · confirmed - Track: Software Factories - Room: Main Stage - Session type: session - Status: confirmed ## Session Description We analyzed >1M end-to-end AI generated PRs reviewed by Greptile to understand what types of bugs they tend to create and some strategies on mitigating them. For instance, did you know that Claude Code is nearly 3X more likely than Codex to introduce auth bypass vulnerabilities? ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Speaker And Company Context
-- [[daksh-gupta|Daksh Gupta]] — co-founder/CEO at [[greptile|Greptile]].
-
-### Topics Covered
-- [[agent-security]]
-- [[coding-agents]]
-
-### Derived Links And Source Material
-
-### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
-
-### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
