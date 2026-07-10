@@ -25,6 +25,11 @@
     "path": "wiki/resources/ai-slide-classification-and-recreation.md"
   },
   {
+    "id": "aie-wiki-generation-delta",
+    "title": "AIE Wiki Generation Delta",
+    "path": "wiki/resources/aie-wiki-generation-delta.md"
+  },
+  {
     "id": "external-video-discovery",
     "title": "External YouTube Video Discovery",
     "path": "wiki/resources/external-video-discovery.md"

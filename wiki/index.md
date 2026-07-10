@@ -47,6 +47,7 @@ This standalone wiki is organized as a conference intelligence vault: official s
 - [[worldsfair-2026-livestreams]]
 - [[livestream-thematic-anchors]]
 - [[external-video-discovery]]
+- [[aie-wiki-generation-delta]]
 - [[room-attendance-calibration]]
 - [[video-attendance-visibility]]
 
