@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
+RAW = ROOT / "raw" / "sources"
 DIST = ROOT / "dist"
 SITE_TITLE = "AI Engineer World's Fair 2026 Wiki"
 SITE_SUBTITLE = "Standalone conference intelligence wiki for AI Engineer World's Fair 2026."
@@ -121,6 +122,28 @@ def build_link_maps(pages: list[Page]) -> tuple[dict[str, Page], dict[str, Page]
     for page in pages:
         by_stem.setdefault(Path(page.id).name, page)
     return by_id, by_stem
+
+
+def load_json(path: Path, fallback):
+    if not path.exists():
+        return fallback
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def entry_count(blob) -> int | str:
+    if isinstance(blob, list):
+        return len(blob)
+    if isinstance(blob, dict):
+        for key in ("sessions", "speakers", "entries", "results"):
+            if isinstance(blob.get(key), list):
+                return len(blob[key])
+    return "unknown"
+
+
+def count_files(path: Path, pattern: str) -> int:
+    if not path.exists():
+        return 0
+    return len(list(path.glob(pattern)))
 
 
 def resolve_wikilink(target: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> str | None:
@@ -349,11 +372,149 @@ def render_layout(title: str, body: str, pages: list[Page], current: str = "") -
 
 
 def render_page(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
+    if page.id == "overview":
+        return render_home(page, pages, by_id, by_stem)
     body = f"""<article class="page">
   <p class="page-tools"><a href="{html.escape(page.markdown_url)}">Markdown source</a></p>
   {render_markdown(page.body, by_id, by_stem)}
 </article>"""
     return render_layout(page.title, body, pages, page.category if page.category != "root" else page.id)
+
+
+def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
+    category_counts = {category: len([item for item in pages if item.category == category]) for category in {item.category for item in pages}}
+    graph = extract_graph(pages, by_id, by_stem)
+    sessions = load_json(RAW / "official-sessions.json", {})
+    speakers = load_json(RAW / "official-speakers.json", {})
+    videos = load_json(RAW / "aidotengineer-channel-videos-latest.json", [])
+    streams = load_json(RAW / "aidotengineer-channel-streams-latest.json", [])
+    related_videos = load_json(RAW / "speaker-video-map.json", [])
+    livestream_segments = load_json(RAW / "livestream-talk-segments.json", [])
+    external_discovery = load_json(RAW / "external-video-discovery-latest.json", {})
+
+    stats = [
+        ("Schedule sessions", entry_count(sessions), "/talks/"),
+        ("Speaker pages", category_counts.get("people", 0), "/people/"),
+        ("Company pages", category_counts.get("companies", 0), "/companies/"),
+        ("Source resources", category_counts.get("resources", 0), "/resources/"),
+        ("Slide pages", category_counts.get("slides", 0), "/slides/"),
+        ("Transcript pages", category_counts.get("transcripts", 0), "/transcripts/"),
+        ("Topics", category_counts.get("topics", 0), "/topics/"),
+        ("Graph links", f"{len(graph['links']):,}", "/graph/"),
+    ]
+    stats_html = "\n".join(
+        f"""<a class="home-stat" href="{url}">
+  <strong>{html.escape(str(value))}</strong>
+  <span>{html.escape(label)}</span>
+</a>"""
+        for label, value, url in stats
+    )
+
+    event_pages = sorted([item for item in pages if item.category == "events"], key=lambda item: item.id)
+    event_card_items = []
+    for event in event_pages:
+        linked_count = len(re.findall(r"(?<!!)\[\[([^\]]+)\]\]", event.body))
+        event_card_items.append(
+            f"""<a class="home-event-card" href="{event.url}">
+  <strong>{html.escape(event.title)}</strong>
+  <span>{linked_count} linked sessions or sources</span>
+  <p>{html.escape(event.excerpt)}</p>
+</a>"""
+        )
+    event_cards = "\n".join(event_card_items)
+
+    source_layers = [
+        ("Official schedule", f"{entry_count(sessions)} sessions and {entry_count(speakers)} roster speakers", "Dates, titles, speakers, organizations, rooms, tracks, and session status.", "/resources/official-sessions-json/"),
+        ("AI Engineer media", f"{entry_count(videos)} channel videos and {entry_count(streams)} livestream rows", "Official channel uploads, livestream metadata, transcript status, and slide extraction outputs.", "/resources/worldsfair-2026-livestreams/"),
+        ("Matched recordings", f"{entry_count(related_videos)} talk/video rows and {entry_count(livestream_segments)} livestream timestamp matches", "Speaker/title matching connects schedule pages to public recordings and transcript coverage.", "/resources/talk-video-transcript-map/"),
+        ("Supporting discovery", f"{entry_count(external_discovery)} external video candidates", "External uploads remain secondary sources unless a page says otherwise.", "/resources/external-video-discovery/"),
+        ("Cached transcripts", f"{count_files(RAW / 'youtube-transcripts', '*.txt')} cut-video, {count_files(RAW / 'youtube-livestream-transcripts', '*.txt')} livestream, {count_files(RAW / 'external-youtube-transcripts', '*.txt')} external", "Transcript pages are supporting evidence; important wording should be checked against the linked video/resource page.", "/transcripts/"),
+        ("Synthesis layers", f"{category_counts.get('topics', 0)} topics, {category_counts.get('tools', 0)} tools, {category_counts.get('questions', 0)} questions", "Topic, tool, claim, harness, playbook, evaluation, and policy pages summarize patterns across evidence.", "/topics/"),
+    ]
+    source_html = "\n".join(
+        f"""<a class="home-source-card" href="{url}">
+  <small>{html.escape(kicker)}</small>
+  <strong>{html.escape(count)}</strong>
+  <span>{html.escape(description)}</span>
+</a>"""
+        for kicker, count, description, url in source_layers
+    )
+
+    primary_links = [
+        ("Official event site", "https://www.ai.engineer/worldsfair/2026", "Original public event page."),
+        ("Conference days", "/events/", "Day-level schedule anchors."),
+        ("Talk schedule", "/talks/", "All generated official session pages."),
+        ("Livestreams", "/resources/worldsfair-2026-livestreams/", "Official AI Engineer livestream sources."),
+        ("Talk/video map", "/resources/talk-video-transcript-map/", "Recording and transcript coverage by talk."),
+        ("Knowledge graph", "/graph/", "Build-time wikilink map."),
+        ("Agent index", "/agent-index.md", "Standalone markdown navigation contract."),
+        ("Source boundary", "/resources/source-boundary/", "Evidence confidence and corpus rules."),
+    ]
+    links_html = "\n".join(
+        f"""<a class="home-link-card" href="{html.escape(url)}">
+  <strong>{html.escape(label)}</strong>
+  <span>{html.escape(description)}</span>
+</a>"""
+        for label, url, description in primary_links
+    )
+
+    body = f"""<section class="home-landing">
+  <p class="page-tools"><a href="{html.escape(page.markdown_url)}">Markdown source</a></p>
+  <p class="eyebrow">AI Engineer World's Fair 2026</p>
+  <h1>Conference intelligence wiki</h1>
+  <p class="home-lede">A static, read-only map of the San Francisco World&apos;s Fair built from the official schedule and speaker roster, then layered with public AI Engineer video, transcripts, slides, OCR, topics, tools, quotes, and source-bound synthesis.</p>
+  <div class="home-hero-actions">
+    <a href="/events/">Browse days</a>
+    <a href="/talks/">Browse talks</a>
+    <a href="/graph/">Open graph</a>
+    <a href="/agent-index.md">Agent index</a>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="home-section-heading">
+    <p class="eyebrow">At a glance</p>
+    <h2>Corpus counts</h2>
+  </div>
+  <div class="home-stat-grid">{stats_html}</div>
+</section>
+
+<section class="home-section">
+  <div class="home-section-heading">
+    <p class="eyebrow">Primary navigation</p>
+    <h2>Start with the event, then follow evidence</h2>
+  </div>
+  <div class="home-link-grid">{links_html}</div>
+</section>
+
+<section class="home-section">
+  <div class="home-section-heading">
+    <p class="eyebrow">Source boundary</p>
+    <h2>Official facts stay separate from supporting media and synthesis</h2>
+  </div>
+  <div class="home-boundary">
+    <p><strong>Official schedule facts</strong> establish dates, titles, speakers, organizations, tracks, rooms, and session status.</p>
+    <p><strong>Supporting media</strong> includes AI Engineer YouTube videos, livestreams, transcripts, slide frames, OCR, reconstructed slide crops, and external video candidates.</p>
+    <p><strong>Synthesis pages</strong> such as topics, tools, claims, questions, harnesses, playbooks, evaluations, and policies are navigation and analysis layers. Follow their linked talk, resource, transcript, and slide pages before treating a claim as primary.</p>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="home-section-heading">
+    <p class="eyebrow">Conference days</p>
+    <h2>Event panels</h2>
+  </div>
+  <div class="home-event-grid">{event_cards}</div>
+</section>
+
+<section class="home-section">
+  <div class="home-section-heading">
+    <p class="eyebrow">Source layers</p>
+    <h2>What the wiki is built from</h2>
+  </div>
+  <div class="home-source-grid">{source_html}</div>
+</section>"""
+    return render_layout(page.title, body, pages, "overview")
 
 
 def render_category(category: str, category_pages: list[Page], all_pages: list[Page]) -> str:
@@ -739,6 +900,79 @@ blockquote {
 .card strong { font-size: 1.02rem; line-height: 1.25; }
 .card small { color: var(--accent-2); font-weight: 750; text-transform: uppercase; }
 .card span { color: var(--muted); font-size: 0.92rem; }
+.home-landing, .home-section {
+  max-width: 1120px;
+  margin-bottom: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: clamp(22px, 4vw, 42px);
+  box-shadow: 0 12px 35px rgba(16, 24, 40, 0.05);
+}
+.home-landing h1 { max-width: 820px; margin: 0; }
+.home-lede { max-width: 88ch; color: #344054; font-size: 1.08rem; }
+.home-hero-actions, .home-stat-grid, .home-link-grid, .home-event-grid, .home-source-grid {
+  display: grid;
+  gap: 12px;
+}
+.home-hero-actions {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-top: 24px;
+}
+.home-hero-actions a {
+  padding: 12px 14px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--accent);
+  font-weight: 800;
+  text-align: center;
+}
+.home-section-heading h2 {
+  margin: 0 0 16px;
+  border: 0;
+  padding: 0;
+}
+.home-stat-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.home-link-grid, .home-event-grid, .home-source-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.home-stat, .home-link-card, .home-event-card, .home-source-card {
+  display: grid;
+  gap: 7px;
+  min-height: 100px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+}
+.home-stat strong {
+  font-size: 1.8rem;
+  line-height: 1;
+  color: var(--accent);
+}
+.home-stat span, .home-link-card span, .home-event-card span, .home-source-card span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+.home-link-card strong, .home-event-card strong, .home-source-card strong { font-size: 1.03rem; line-height: 1.22; }
+.home-event-card p { margin: 0; color: #344054; font-size: 0.92rem; }
+.home-source-card small {
+  color: var(--accent-2);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.home-boundary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.home-boundary p {
+  margin: 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
 .graph-landing { max-width: 1200px; }
 .graph-controls {
   display: grid;
@@ -781,6 +1015,7 @@ blockquote {
   .sidebar { position: static; width: auto; border-right: 0; border-bottom: 1px solid var(--line); }
   main { margin-left: 0; padding: 24px 16px; }
   .main-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-boundary { grid-template-columns: 1fr; }
   .graph-controls, .graph-workspace { grid-template-columns: 1fr; }
   .graph-canvas-wrap, .graph-canvas { min-height: 420px; }
 }

@@ -29,11 +29,26 @@ Validation:
 
 ### S2 - Conference-Native Home
 
-- [ ] Replace the long article-first home presentation with event/source panels.
-- [ ] Surface useful category and source-layer counts.
-- [ ] Explain the official schedule versus supporting media/synthesis boundary.
-- [ ] Keep primary event, schedule, livestream/video, agent-index, and graph links prominent.
+- [x] Replace the long article-first home presentation with event/source panels.
+- [x] Surface useful category and source-layer counts.
+- [x] Explain the official schedule versus supporting media/synthesis boundary.
+- [x] Keep primary event, schedule, livestream/video, agent-index, and graph links prominent.
+
+Validation:
+
+- `npm run build`
+- `python3 -m py_compile scripts/export_static_site.py`
+- `node --check dist/graph.js`
+- JSON integrity check for graph node/link endpoints
+- Headless Chrome DOM/screenshot smoke check for the new home page
+
+### S3 - Build-Time Local Navigation
+
+- [ ] Generate consistent backlinks, outgoing links, and nearby-page sections at build time.
+- [ ] Keep the sections static and read-only.
+- [ ] Preserve source-boundary language on talk, resource, transcript, slide, and synthesis pages.
+- [ ] Avoid reshaping category landing pages in this story.
 
 ## Next Thin Slice
 
-Implement S2 only: the Miami-style conference-native home with event/source panels and counts.
+Implement S3 only: build-time backlinks, outgoing links, and nearby-page sections for rendered pages.
