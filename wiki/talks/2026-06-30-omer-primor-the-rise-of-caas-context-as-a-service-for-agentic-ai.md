@@ -56,6 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[omer-primor|Omer Primor]] — role not listed at [[bright-data|Bright Data]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-web]]
 
 ### Derived Links And Source Material

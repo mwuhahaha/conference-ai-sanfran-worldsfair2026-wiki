@@ -56,6 +56,7 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 - [[dustin-mihalik|Dustin Mihalik]] — Technical Fellow at [[indeed|Indeed]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[mcp]]
 - [[mcp-apps]]
 

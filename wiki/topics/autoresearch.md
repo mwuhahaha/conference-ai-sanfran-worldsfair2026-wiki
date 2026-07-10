@@ -12,9 +12,13 @@ last_auto_summarized: '2026-07-06T19:58:14.630Z'
 ## Overview
 AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
 
+AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
+
 AutoResearch is the use of agents to search, read, compare, synthesize, benchmark, and sometimes design follow-up experiments over a body of evidence. In the WF2026 Autoresearch track, the concept spans automated AI research, dense retrieval with test-time compute over frozen embedding models, autonomous research-agent loops, reflective self-improvement of context and model weights, kernel optimization, and production pathways from frontier ML research into usable systems. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, evaluation, and clear next-step planning.
 
 ## Conference Context
+It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
+
 It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
 
 It grew from literature search, systematic review methods, research assistants, web search, RAG, benchmarking, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, compare evidence, and produce structured research artifacts. The connected WF2026 material places AutoResearch in a broader shift from one-off retrieval toward closed-loop systems: agents that gather evidence, run or propose tests, improve their own harnesses, and move research ideas toward production workflows.
@@ -22,9 +26,17 @@ It grew from literature search, systematic review methods, research assistants, 
 ## Significance
 Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
 
+Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
+
 Research work is expensive because it involves discovery, filtering, evidence comparison, synthesis under uncertainty, and judgment about what to try next. The connected sessions make the topic concrete: Richard Socher frames automated AI research as an emerging research direction, Han Xiao ties autoresearch to retrieval quality and test-time compute, Tim Sweeney focuses on autonomous research-agent loops, and Lakshya Agrawal connects self-improvement to context, harnesses, and model weights. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps instead of hiding uncertainty behind polished prose.
 
 ## Applied Use
+Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
+
+AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
+
+Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
+
 Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
 
 AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
@@ -54,18 +66,17 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research]] — Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”); [[ishan-anand|Ishan Anand]] (Day 3 — Session Day 2 · 2:50pm-3:10pm · Computer Use; official schedule)
 - [[2026-06-30-deepak-pathak-frontier-robotics-research]] — Frontier Robotics Research; [[deepak-pathak|Deepak Pathak]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Robotics & World Models; official schedule)
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]] — An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge; [[zhengyao-jiang|Zhengyao Jiang]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Autoresearch; official schedule)
-- [[2026-06-29-sonar-expo-welcome-speech]] — Expo Welcome Speech; [[sonar|Sonar]], [[extend-ai|Extend AI]] (Day 1 — Workshop Day · 6:00pm-6:15pm · Expo Stage 3; related YouTube resource; via [[youtube-4sX_He5c4sI]])
-- [[2026-06-29-charlie-guo-cooking-with-codex]] — Cooking with Codex; [[charlie-guo|Charlie Guo]], [[gabriel-chua|Gabriel Chua]] (Day 1 — Workshop Day · 9:00am-11:00am · Workshops Day 1; related YouTube resource; via [[youtube-dvft0Gp9sEE]])
-- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; related YouTube resource; via [[youtube-dvft0Gp9sEE]])
-- [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability]] — Advanced workshop: Mastering AI Observability; [[doug-guthrie|Doug Guthrie]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 9; related YouTube resource; via [[youtube-bk0TmxoZlUY]])
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable; [[thariq-shihipar|Thariq Shihipar]] (Day 3 — Session Day 2 · 9:05am-9:25am · Autoresearch; official schedule)
 - [[2026-06-30-antje-barth-perception-agents]] — Perception Agents; [[antje-barth|Antje Barth]] (Day 3 — Session Day 2 · 9:45am-10:05am · Autoresearch; official schedule)
 - [[2026-06-30-laurie-voss-evals-track-intro]] — Evals Track Intro; [[laurie-voss|Laurie Voss]], [[aparna-dhinakaran|Aparna Dhinakaran]] (Day 3 — Session Day 2 · 10:25am-10:30am · Autoresearch; official schedule)
 - [[2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization]] — Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization; [[lakshya-agrawal|Lakshya Agrawal]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Autoresearch; official schedule)
+- [[2026-06-30-wei-lin-chiang-closing-keynote]] — Closing Keynote; [[addy-osmani|Addy Osmani]] (Day 3 — Session Day 2 · 4:30pm-4:50pm · Autoresearch; official schedule)
+- [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI; [[george-cameron|George Cameron]], [[micah-hill-smith|Micah Hill-Smith]] (Day 3 — Session Day 2 · 4:50pm-5:10pm · Autoresearch; official schedule)
+- [[2026-06-29-shubhankar-srivastava-hill-climbing-skills-how-to-improve-agents-without-touching-the-model]] — Hill-climbing Skills: How to Improve Agents Without Touching the Model; [[shubhankar-srivastava|Shubhankar Srivastava]] (Day 1 — Workshop Day · 4:30pm-5:30pm · Workshops Day 1; official schedule)
+- [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale]] — AI Evals Platform for Cross-Functional Teams at Scale; [[nachiket-paranjape|Nachiket Paranjape]], [[swaroop-chitlur-haridas|Swaroop Chitlur Haridas]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · AI-Native Enterprises; official schedule)
 
 - [[laurie-voss|Laurie Voss]]
 - [[zhengyao-jiang|Zhengyao Jiang]]
-- [[charlie-guo|Charlie Guo]]
 - [[tim-sweeney|Tim Sweeney]]
 - [[dixing-xu|Dixing Xu]]
 - [[vayum-arora|Vayum Arora]]
@@ -86,19 +97,18 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[tom-ouyang|Tom Ouyang]]
 - [[ishan-anand|Ishan Anand]]
 - [[deepak-pathak|Deepak Pathak]]
-- [[sonar|Sonar]]
+- [[thariq-shihipar|Thariq Shihipar]]
+- [[antje-barth|Antje Barth]]
 
 - [[weco-ai|Weco AI]]
 - [[google-deepmind|Google DeepMind]]
 - [[arize-ai|Arize AI]]
 - [[together-ai|Together AI]]
-- [[openai|OpenAI]]
 - [[weights-and-biases-by-coreweave|Weights & Biases by CoreWeave]]
 - [[introspection|Introspection]]
 - [[artificial-analysis|Artificial Analysis]]
 - [[doordash|DoorDash]]
 - [[browserbase|Browserbase]]
-- [[poolside|poolside]]
 - [[superlinked|Superlinked]]
 - [[atlassian|Atlassian]]
 - [[friendliai|FriendliAI]]
@@ -106,8 +116,24 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[prime-intellect|Prime Intellect]]
 - [[supercell|Supercell]]
 - [[university-of-minnesota|University of Minnesota]]
+- [[elastic|Elastic]]
+- [[morph|Morph]]
+
+- [[2026-06-29-sonar-expo-welcome-speech]] — Expo Welcome Speech; [[sonar|Sonar]], [[extend-ai|Extend AI]] (Day 1 — Workshop Day · 6:00pm-6:15pm · Expo Stage 3; related YouTube resource; via [[youtube-4sX_He5c4sI]])
+- [[2026-06-29-charlie-guo-cooking-with-codex]] — Cooking with Codex; [[charlie-guo|Charlie Guo]], [[gabriel-chua|Gabriel Chua]] (Day 1 — Workshop Day · 9:00am-11:00am · Workshops Day 1; related YouTube resource; via [[youtube-dvft0Gp9sEE]])
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; related YouTube resource; via [[youtube-dvft0Gp9sEE]])
+- [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability]] — Advanced workshop: Mastering AI Observability; [[doug-guthrie|Doug Guthrie]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 9; related YouTube resource; via [[youtube-bk0TmxoZlUY]])
+
+- [[charlie-guo|Charlie Guo]]
+- [[sonar|Sonar]]
+
+- [[openai|OpenAI]]
+- [[poolside|poolside]]
 
 ## Evidence Graph
+### Transcript-backed resources
+- [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
+
 ### Transcript-backed resources
 - [[youtube-OXMMN-XbxwA]] — Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc
 - [[youtube-aHhB3sjGjkI]] — Agents Building Agents - Alfonso Graziano, Nearform
@@ -119,7 +145,6 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[youtube-fWXJM-J0ZB8]] — Frontier results, on device - RL Nabors, Arize
 - [[youtube-u-rJwPPU3QA]] — How to talk to statues — Joe Reeve, ElevenLabs
 - [[youtube-IJXjTLPzvAU]] — The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen
-- [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
 - [[youtube-0S8xe9ftGTM]] — 6 Things to Know about AIE World's Fair 2026
 - [[youtube-Iwe_RY-fYgI]] — AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent
 - [[youtube-akk6KRlcwW4]] — OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack
@@ -198,6 +223,21 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 59 | Related pages outside the main evidence categories. |
+| talks | 28 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 
 ### Talks
 

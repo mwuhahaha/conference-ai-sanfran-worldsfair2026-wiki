@@ -56,7 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[raymond-feng|Raymond Feng]] — Researcher at [[applied-compute|Applied Compute]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[agentic-search]]
 
 ### Derived Links And Source Material
 

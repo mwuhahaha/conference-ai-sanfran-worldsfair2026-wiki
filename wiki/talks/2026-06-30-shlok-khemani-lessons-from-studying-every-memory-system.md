@@ -56,7 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[shlok-khemani|Shlok Khemani]] — Independent Researcher at [[independent|Independent]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[agentic-search]]
 
 ### Derived Links And Source Material
 

@@ -67,6 +67,8 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ### Topics Covered
 - [[coding-agents]]
+- [[mcp]]
+- [[mcp-apps]]
 
 ### Derived Links And Source Material
 - [[youtube-kR64LOqBBCU]] — related YouTube source page.
@@ -74,7 +76,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-kR64LOqBBCU-reconstructed-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
+- [[mcp-app-runtime|MCP Apps As Agentic App Runtime]] — MCP Apps treats interactive UI returned from MCP servers as a runtime layer for agent-facing software.
 
 ### Evidence Boundary
 This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

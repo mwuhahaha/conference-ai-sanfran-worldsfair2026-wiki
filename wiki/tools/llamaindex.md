@@ -34,6 +34,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-jVGCulhBRZI-slides]]
 
 ### Topic Pages
+- [[agent-memory]]
 - [[agentic-search]]
 
 ## Confidence

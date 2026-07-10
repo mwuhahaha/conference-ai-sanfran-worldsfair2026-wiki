@@ -73,6 +73,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[eno-reyes|Eno Reyes]] — CTO & Co-Founder at [[factory|Factory]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-web]]
 - [[coding-agents]]
 

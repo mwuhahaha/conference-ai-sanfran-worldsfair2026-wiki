@@ -39,7 +39,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[room-attendance-calibration]]
 - [[slide-ocr-ai-vision-audit]]
 - [[talk-video-transcript-map]]
-- [[youtube-dvft0Gp9sEE]]
 - [[youtube-iXhba366fQc]]
 - [[youtube-jryZvCuA0Uc]]
 

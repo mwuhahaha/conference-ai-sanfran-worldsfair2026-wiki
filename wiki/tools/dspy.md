@@ -46,6 +46,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-SbcQYbrvAfI-slides]]
 
 ### Topic Pages
+- [[agent-evaluations]]
+- [[agent-memory]]
+- [[coding-agents]]
 - [[inference-engineering]]
 - [[voice-agents]]
 

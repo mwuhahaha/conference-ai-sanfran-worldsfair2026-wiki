@@ -38,17 +38,49 @@ def official_wf_livestream_ids() -> set[str]:
 
 
 def official_wf_cut_ids() -> set[str]:
+    return confirmed_event_cut_ids()
+
+
+STOPWORDS = {
+    "the", "and", "for", "with", "from", "your", "you", "into", "that", "this", "are", "how", "why", "what",
+    "when", "where", "can", "our", "their", "agent", "agents", "ai", "engineering", "engineer",
+}
+
+
+def normalize(value: str) -> set[str]:
+    return {word for word in re.findall(r"[a-z0-9]+", value.lower()) if len(word) > 2 and word not in STOPWORDS}
+
+
+def title_speaker(title: str) -> str:
+    return re.split(r"\s+[—-]\s+", title, maxsplit=1)[0].strip()
+
+
+def title_alignment(video_title: str, session_title: str) -> tuple[int, float]:
+    video_terms = normalize(title_speaker(video_title))
+    session_terms = normalize(session_title)
+    if not video_terms or not session_terms:
+        return 0, 0.0
+    overlap = len(video_terms & session_terms)
+    return overlap, overlap / max(1, min(len(video_terms), len(session_terms)))
+
+
+def confirmed_event_cut_ids() -> set[str]:
+    sessions = read_json(RAW / "official-sessions.json", {}).get("sessions", [])
     ids: set[str] = set()
-    manifest = read_json(RAW / "new-video-import-2026-07-09.json", {})
-    for row in manifest.get("imported_transcripts", []) if isinstance(manifest, dict) else []:
-        if row.get("id"):
-            ids.add(row["id"])
-    slide_extraction = manifest.get("slide_extraction", {}) if isinstance(manifest, dict) else {}
-    for video_id in slide_extraction.get("completed_slide_pages", []) if isinstance(slide_extraction, dict) else []:
-        ids.add(video_id)
-    for row in manifest.get("pending_premieres", []) if isinstance(manifest, dict) else []:
-        if row.get("id"):
-            ids.add(row["id"])
+    for path in sorted(RESOURCES.glob("youtube-*.md")):
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        video_id = video_id_from_page(path, text)
+        if not (RAW / "youtube-transcripts" / f"{video_id}.txt").exists():
+            continue
+        title_match = re.search(r"^#\s+(.+)$", text, re.M)
+        title = title_match.group(1).strip() if title_match else video_id
+        for session in sessions:
+            overlap, ratio = title_alignment(title, session.get("title", ""))
+            if overlap >= 2 and ratio >= 0.75:
+                speaker_blob = title.lower()
+                if any(str(speaker).lower() in speaker_blob for speaker in session.get("speakers") or []):
+                    ids.add(video_id)
+                    break
     return ids
 
 

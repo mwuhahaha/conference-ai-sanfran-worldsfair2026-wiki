@@ -50,7 +50,7 @@ No official session recording transcript was found by exact title match on the A
 
 ## Synthesis
 ### Synthesized Breakdown
-# How PayPal Enterprise Payments handles agent-initiated payments across ChatGPT and Google AI Mode ## Conference Context - Date/time: 2026-06-29 · 10:45am-11:05am - Track/room: track TBD · Expo Stage 3 SW - Speaker(s): Sam Parsons - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 3 SW - Session type: session - Status: confirmed ## Session Description PayPal Enterprise Payments has shipped integrations across the major agentic surfaces in the last six months each with human-in-the-loop confirmation and full transaction attribution back to the originating AI platform. We'll tour all three paths: ACP for ChatGPT apps (delegated payment tokens via complete_checkout, allowance validation, facilitator_details attribution), UCP with Google Pay for Google AI Mode (server-side tokenizationSpecification, parsing androidPayCards for the single-use token), and a preview of MCP Apps inline checkout, where the payment surface renders in-chat and card data never enters the LLM context. For each path we'll cover where PayPal Enterprise Payments fits, what the shopper and merchant each see, and the tradeoffs between them. You leave with working code and the docs to evaluate which path fits your stack.
+The session explains MCP Apps as a way to add interactive UI to MCP-based workflows. It treats the MCP host as the place where tool data, model reasoning, and human controls meet.
 
 ### Speaker And Company Context
 - [[sam-parsons|Sam Parsons]] — Senior Staff Software Engineer and Tech Lead at [[paypal-braintree|PayPal Braintree]].

@@ -60,7 +60,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Resources: 225 pages for source maps, YouTube evidence, livestreams, and processing audits.
 - Slides: 418 slide pages; standard decks: 200; reconstructed decks: 107; dense decks: 94.
 - Transcripts: 104 transcript markdown pages.
-- Quotes: 68 selected quote pages tied back to source videos and topics.
+- Quotes: 15 selected quote pages tied back to source videos and topics.
 - Tools: 62 tool/protocol/entity pages generated from the conference evidence layer.
 - Claims: 1 evidence-backed claim pages.
 - Conversations: 1 cross-page conversation maps.

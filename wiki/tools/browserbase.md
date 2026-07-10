@@ -35,6 +35,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-YRGjll7uu5w-slides]]
 
 ### Topic Pages
+- [[agentic-search]]
 - [[agentic-web]]
 - [[ai-sandboxes]]
 - [[autoresearch]]

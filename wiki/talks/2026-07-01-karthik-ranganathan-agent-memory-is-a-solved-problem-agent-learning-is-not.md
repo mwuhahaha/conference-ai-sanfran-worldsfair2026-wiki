@@ -59,6 +59,7 @@ No official session recording transcript was found by exact title match on the A
 
 ### Topics Covered
 - [[agent-security]]
+- [[coding-agents]]
 
 ### Derived Links And Source Material
 

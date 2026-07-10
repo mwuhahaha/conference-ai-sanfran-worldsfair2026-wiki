@@ -79,7 +79,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[alex-atallah|Alex Atallah]] — Co-founder & CEO at [[openrouter|OpenRouter]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[coding-agents]]
 
 ### Derived Links And Source Material
 - [[youtube-84Vtz2IL1Ug]] — related YouTube source page.

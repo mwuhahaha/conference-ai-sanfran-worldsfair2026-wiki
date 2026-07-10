@@ -56,6 +56,8 @@ No official session recording transcript was found by exact title match on the A
 - [[hursh-agrawal|Hursh Agrawal]] — Co-Founder & CTO at [[the-browser-company|The Browser Company]].
 
 ### Topics Covered
+- [[agentic-web]]
+- [[ai-sandboxes]]
 - [[coding-agents]]
 
 ### Derived Links And Source Material

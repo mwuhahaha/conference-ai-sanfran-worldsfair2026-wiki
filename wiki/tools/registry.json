@@ -220,7 +220,7 @@
       "youtube": 1,
       "slides": 4,
       "resources": 3,
-      "topics": 3,
+      "topics": 4,
       "transcripts": 0
     }
   },
@@ -385,7 +385,7 @@
       "schedule": 20,
       "youtube": 3,
       "slides": 15,
-      "resources": 8,
+      "resources": 7,
       "topics": 2,
       "transcripts": 27
     }
@@ -543,7 +543,7 @@
       "youtube": 4,
       "slides": 10,
       "resources": 6,
-      "topics": 2,
+      "topics": 5,
       "transcripts": 3
     }
   },
@@ -943,7 +943,7 @@
       "youtube": 2,
       "slides": 3,
       "resources": 3,
-      "topics": 1,
+      "topics": 2,
       "transcripts": 0
     }
   },
@@ -1449,7 +1449,8 @@
     "sourceLabels": [
       "Official schedule",
       "Public YouTube metadata",
-      "Local slide OCR"
+      "Local slide OCR",
+      "Topic synthesis"
     ],
     "scheduleTracks": [
       "Agentic Commerce",
@@ -1465,7 +1466,7 @@
       "youtube": 3,
       "slides": 9,
       "resources": 3,
-      "topics": 0,
+      "topics": 1,
       "transcripts": 0
     }
   },
@@ -1721,7 +1722,7 @@
       "youtube": 3,
       "slides": 8,
       "resources": 4,
-      "topics": 2,
+      "topics": 3,
       "transcripts": 9
     }
   },

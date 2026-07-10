@@ -56,7 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[nilofer-rajpurkar|Nilofer Rajpurkar]] — Product Lead, Agent and Developer Experience at [[stripe|Stripe]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[coding-agents]]
 
 ### Derived Links And Source Material
 

@@ -76,7 +76,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[arun-sekhar|Arun Sekhar]] — Principal Product Manager for AI Developer Experience at [[microsoft|Microsoft]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[coding-agents]]
 
 ### Derived Links And Source Material
 - [[youtube-1t-9-s1brcg]] — related YouTube source page.

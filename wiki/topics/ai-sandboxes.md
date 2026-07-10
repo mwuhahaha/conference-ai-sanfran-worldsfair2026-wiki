@@ -27,6 +27,12 @@ They are useful in coding assistants, data-analysis agents, browser agents, app 
 
 Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
 
+Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
+
+They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
+
+Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
+
 ## Connections
 - [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]] — Computer Use at the Edge of the Statistical Precipice; [[pierluca-d-oro|Pierluca D'Oro]] (Day 3 — Session Day 2 · 11:10am-11:30am · Computer Use; official schedule)
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] — Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale; [[robert-brennan|Robert Brennan]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Sandbox & Platform Engineering; official schedule)
@@ -38,8 +44,8 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[2026-06-30-kevin-orellana-1-000-agent-tasks-in-a-sandbox-what-breaks-when-llms-write-and-run-code]] — 1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code; [[kevin-orellana|Kevin Orellana]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Sandbox & Platform Engineering; official schedule)
 - [[2026-06-30-adam-azzam-don-t-build-agents-build-environments]] — Don’t build agents, build environments; [[adam-azzam|Adam Azzam]] (Day 3 — Session Day 2 · 10:45am-11:05am · Sandbox & Platform Engineering; official schedule)
 - [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox]] — How I learned to stop worrying and love the sandbox; [[matt-brockman|Matt Brockman]] (Day 1 — Workshop Day · 11:05am-12:05pm · Workshops Day 1; official schedule)
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; related YouTube resource; via [[youtube-pMggiOb18tc]])
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; verified event YouTube resource; via [[youtube-pMggiOb18tc]])
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 - [[2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud]] — Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud; [[arun-sekhar|Arun Sekhar]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Track M; official schedule)
 - [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]] — Deploying browser agents at scale; [[derek-meegan|Derek Meegan]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · Expo Stage 4 SE; official schedule)
 - [[2026-06-29-ross-taylor-scaling-to-long-horizons-algorithms-environments-compute]] — Scaling to Long-Horizons: Algorithms, Environments, Compute; [[ross-taylor|Ross Taylor]], [[chengxi-taylor|Chengxi Taylor]] (Day 2 — Session Day 1 · 2:25pm-2:45pm · Data Quality; official schedule)
@@ -55,8 +61,6 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 
 - [[john-craft|John Craft]]
 - [[abhishek-bhardwaj|Abhishek Bhardwaj]]
-- [[liad-yosef|Liad Yosef]]
-- [[ido-salomon|Ido Salomon]]
 - [[arun-sekhar|Arun Sekhar]]
 - [[tina-manghnani|Tina Manghnani]]
 - [[pierluca-d-oro|Pierluca D'Oro]]
@@ -69,6 +73,8 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[matt-brockman|Matt Brockman]]
 - [[alexander-embiricos|Alexander Embiricos]]
 - [[romain-huet|Romain Huet]]
+- [[liad-yosef|Liad Yosef]]
+- [[ido-salomon|Ido Salomon]]
 - [[derek-meegan|Derek Meegan]]
 - [[ross-taylor|Ross Taylor]]
 - [[chengxi-taylor|Chengxi Taylor]]
@@ -81,21 +87,26 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[docker|Docker]]
 - [[microsoft|Microsoft]]
 - [[openai|OpenAI]]
-- [[mcp-apps|MCP Apps]]
 - [[browserbase|Browserbase]]
 - [[amazon-agi-lab|Amazon AGI Lab]]
+- [[mcp-apps|MCP Apps]]
 - [[cua|Cua]]
 - [[typedef|typedef]]
 - [[oxylabs|Oxylabs]]
 - [[amazon-web-services|Amazon Web Services]]
 - [[navan|Navan]]
-- [[warp|Warp]]
 - [[uber|Uber]]
+- [[warp|Warp]]
 - [[prime-intellect|Prime Intellect]]
 - [[meta|Meta]]
 - [[yugabyte|Yugabyte]]
 - [[programma-labs|Programma Labs]]
 - [[openhands|OpenHands]]
+
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; related YouTube resource; via [[youtube-pMggiOb18tc]])
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
+
+
 
 - [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
 - [[youtube-qdZzND79mcg-slides]] — Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs (16 extracted slide frames)
@@ -112,6 +123,10 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[ang-li|Ang Li]]
 
 ## Evidence Graph
+### Transcript-backed resources
+- [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
+- [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
+
 ### Transcript-backed resources
 - [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
 - [[youtube-2IxD9OB3XuQ]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI
@@ -215,6 +230,17 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Resources
 - [[youtube-pMggiOb18tc]]
 - [[youtube-o-zkvb0iFDQ]]
+
+### Slides
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
 
 ### Slides
 

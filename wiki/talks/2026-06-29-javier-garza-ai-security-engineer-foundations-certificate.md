@@ -56,6 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[javier-garza|Javier Garza]] — Developer Advocate at [[snyk|Snyk]].
 
 ### Topics Covered
+- [[coding-agents]]
 - [[mcp]]
 
 ### Derived Links And Source Material

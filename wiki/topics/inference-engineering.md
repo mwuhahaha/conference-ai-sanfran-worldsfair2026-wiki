@@ -27,6 +27,12 @@ It matters in chat products, coding agents, voice agents, search and RAG systems
 
 Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
 
+Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
+
+It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
+
+Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
+
 ## Connections
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale; [[nishant-gupta|Nishant Gupta]], [[naman-ahuja|Naman Ahuja]] (Day 4 — Session Day 3 · 10:45am-11:05am · Inference; official schedule)
 - [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]] — Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production; [[bogdan-gaza|Bogdan Gaza]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 3 SW; official schedule)
@@ -46,21 +52,18 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story]] — Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story; [[asaf-gardin|Asaf Gardin]], [[yuval-belfer|Yuval Belfer]] (Day 4 — Session Day 3 · 3:20pm-3:40pm · Inference; official schedule)
 - [[2026-06-30-session-your-stack-has-a-latency-problem-you-can-t-see]] — Your Stack Has a Latency Problem You Can’t See; speaker TBD (Day 3 — Session Day 2 · 2:25pm-2:45pm · Expo Stage 4 SE; official schedule)
 - [[2026-06-30-alex-campos-inference-performance-as-a-competitive-advantage]] — Inference performance as a competitive advantage; [[alex-campos|Alex Campos]], [[yunmo-koo|Yunmo Koo]] (Day 3 — Session Day 2 · 2:50pm-3:10pm · Expo Stage 1 NE; official schedule)
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; related YouTube resource; via [[youtube-pMggiOb18tc]])
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; verified event YouTube resource; via [[youtube-pMggiOb18tc]])
 - [[2026-06-29-simran-arora-can-llms-write-fast-multi-gpu-kernels-we-built-a-benchmark-to-find-out]] — Can LLMs write fast multi-GPU kernels? We built a benchmark to find out.; [[simran-arora|Simran Arora]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · Expo Stage 3 SW; official schedule)
 - [[2026-06-30-mingsheng-hong-from-tokenmaxxing-to-trusted-throughput]] — From Tokenmaxxing to Trusted Throughput; [[mingsheng-hong|Mingsheng Hong]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · AI-Native Enterprises; official schedule)
 - [[2026-06-30-tarun-sunkaraneni-ray-actors-vision-tokens-and-the-gil-engineering-an-sft-data-pipeline-that-keeps-gpus-busy]] — Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy; [[tarun-sunkaraneni|Tarun Sunkaraneni]] (Day 3 — Session Day 2 · 3:45pm-4:05pm · Expo Stage 4 SE; official schedule)
 - [[2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it]] — TCP and RDMA are Killing Inference Throughput; Homa can Fix It; [[john-ousterhout|John Ousterhout]] (Day 4 — Session Day 3 · 9:20am-9:40am · Software Factories; official schedule)
 - [[2026-06-30-david-corbitt-inference-is-the-new-training-loop-architecting-high-reliability-agents-and-continuous-ai-systems]] — Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems; [[david-corbitt|David Corbitt]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Posttraining & Midtraining; official schedule)
 
-- [[laurie-voss|Laurie Voss]]
 - [[neil-zeghidour|Neil Zeghidour]]
 - [[harshul-jain|Harshul Jain]]
 - [[tanmay-sah|Tanmay Sah]]
-- [[swyx|swyx]]
 - [[yuval-belfer|Yuval Belfer]]
 - [[ahmad-osman|Ahmad Osman]]
-- [[christopher-manning|Christopher Manning]]
 - [[filip-makraduli|Filip Makraduli]]
 - [[nishant-gupta|Nishant Gupta]]
 - [[naman-ahuja|Naman Ahuja]]
@@ -77,25 +80,37 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[qianru-lao|Qianru Lao]]
 - [[lu-zhang|Lu Zhang]]
 - [[byung-gon-gon-chun|Byung-Gon (Gon) Chun]]
+- [[charles-frye|Charles Frye]]
+- [[tisha-chawla|Tisha Chawla]]
+- [[susheem-koul|Susheem Koul]]
 
 - [[together-ai|Together AI]]
-- [[arize-ai|Arize AI]]
 - [[nvidia|NVIDIA]]
 - [[openai|OpenAI]]
-- [[anthropic|Anthropic]]
 - [[meta|Meta]]
 - [[friendliai|FriendliAI]]
 - [[microsoft|Microsoft]]
+- [[anthropic|Anthropic]]
 - [[ai21|AI21]]
 - [[towards-ai|Towards AI]]
 - [[superlinked|Superlinked]]
-- [[stripe|Stripe]]
 - [[gradium|Gradium]]
 - [[audible|Audible]]
 - [[zions-bancorporation|Zions Bancorporation]]
 - [[coreweave|Coreweave]]
 - [[stanford-university|Stanford University]]
 - [[red-hat|Red Hat]]
+- [[mckinsey-and-company|McKinsey & Company]]
+- [[google|Google]]
+
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; related YouTube resource; via [[youtube-pMggiOb18tc]])
+
+- [[laurie-voss|Laurie Voss]]
+- [[swyx|swyx]]
+- [[christopher-manning|Christopher Manning]]
+
+- [[arize-ai|Arize AI]]
+- [[stripe|Stripe]]
 
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 - [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
@@ -103,6 +118,11 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference]] — Optimizing Open Models for Production Grade Inference; [[sujee-maniyam|Sujee Maniyam]], [[dylan-bristot|Dylan Bristot]] (Day 4 — Session Day 3 · 2:25pm-2:45pm · Expo Stage 1 NE; official schedule)
 
 ## Evidence Graph
+### Transcript-backed resources
+- [[youtube-I2cbIws9j10]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
+- [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
+- [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
+
 ### Transcript-backed resources
 - [[youtube-r305-aQTaU0]] — Text Diffusion — Brendan O’Donoghue, Google DeepMind
 - [[youtube-vh2VGuQ3zhY]] — The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica
@@ -115,12 +135,10 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[youtube-KLSuFPj2ld0]] — Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe
 - [[youtube-65X0pQ6Lmbg]] — Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs
 - [[youtube-dRmWYHuIJxM]] — We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco
-- [[youtube-I2cbIws9j10]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
 - [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw
 - [[youtube-HvZXAOZ3iv8]] — What Lies Beneath the API — Benjamin Cowen, Modal
 - [[youtube-uiP88SpCi1Q]] — Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS
 - [[youtube-HsxQICTLF84]] — Building an ACP-Compatible Agent Live — Bennet Fenner, Zed
-- [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
 - [[youtube-spNAUEgq_A8]] — The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents
 
 ### Quote signals
@@ -209,6 +227,21 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Resources
 - [[youtube-pMggiOb18tc]]
+
+### Slides
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 62 | Related pages outside the main evidence categories. |
+| resources | 23 | Video/resource pages; check source status before treating as primary event evidence. |
+
+### Talks
+
+### Resources
+- [[youtube-I2cbIws9j10]]
+- [[youtube-ZpK5PWX2YRM]]
 
 ### Slides
 

@@ -56,7 +56,9 @@ No official session recording transcript was found by exact title match on the A
 - [[frank-coyle|Frank Coyle]] — Lecturer, UCALBerkeley / Founder AI/Edge at [[ucal-berkeley|UCAL Berkeley]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-search]]
+- [[agentic-web]]
 
 ### Derived Links And Source Material
 

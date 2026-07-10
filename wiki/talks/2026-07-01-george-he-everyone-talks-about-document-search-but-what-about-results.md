@@ -56,6 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[george-he|George He]] — Head of Platform Engineering at [[llamaindex|LlamaIndex]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-search]]
 - [[agentic-web]]
 

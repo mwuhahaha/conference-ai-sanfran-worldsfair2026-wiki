@@ -56,6 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[nicholas-arcolano|Nicholas Arcolano]] — Head of AI & Research at [[jellyfish|Jellyfish]].
 
 ### Topics Covered
+- [[agentic-search]]
 - [[coding-agents]]
 
 ### Derived Links And Source Material

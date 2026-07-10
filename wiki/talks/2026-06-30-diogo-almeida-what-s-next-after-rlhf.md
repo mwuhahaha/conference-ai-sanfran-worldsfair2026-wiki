@@ -56,6 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[diogo-almeida|Diogo Almeida]] — CEO at [[typesafe-ai|TypeSafe AI]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-search]]
 
 ### Derived Links And Source Material

@@ -347,6 +347,31 @@ def related_sessions(video: dict, sessions: list[dict]) -> list[tuple[int, dict]
     return sorted(matches, key=lambda item: item[0], reverse=True)[:5]
 
 
+def title_alignment(video_title: str, session_title: str) -> tuple[int, float]:
+    video_terms = normalize(title_speaker(video_title)[0])
+    session_terms = normalize(session_title)
+    if not video_terms or not session_terms:
+        return 0, 0.0
+    overlap = len(video_terms & session_terms)
+    return overlap, overlap / max(1, min(len(video_terms), len(session_terms)))
+
+
+def confirmed_event_matches(video: dict, matches: list[tuple[int, dict]]) -> list[tuple[int, dict]]:
+    confirmed = []
+    for score, session in matches:
+        overlap, ratio = title_alignment(video["youtube_title"], session.get("title", ""))
+        if score >= 80 and overlap >= 2 and ratio >= 0.75:
+            confirmed.append((score, session))
+    return confirmed
+
+
+def confirmed_event_video(video: dict, matches: list[tuple[int, dict]]) -> bool:
+    if video.get("source_kind") == "channel_stream":
+        title = video.get("youtube_title", "").lower()
+        return "wf26" in title or "wf2026" in title or ("world" in title and "fair" in title and "2026" in title)
+    return bool(confirmed_event_matches(video, matches))
+
+
 def transcript_summary(text: str) -> list[str]:
     words = normalize(text)
     counts = Counter(w for w in words if len(w) > 3)
@@ -487,20 +512,32 @@ def upsert_section(path: Path, heading: str, body: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def write_resource(video_id: str, video: dict, text: str, topics: list[tuple[str, str, int]], matches: list[tuple[int, dict]]) -> None:
+def write_resource(video_id: str, video: dict, text: str, topics: list[tuple[str, str, int]], matches: list[tuple[int, dict]], *, is_event_video: bool) -> None:
     RESOURCES.mkdir(parents=True, exist_ok=True)
     words = len(text.split())
     topic_links = ", ".join(f"[[{slug}|{label}]]" for slug, label, _score in topics) or "None detected"
     keywords = ", ".join(f"`{w}`" for w in transcript_summary(text))
     source_kind = "WF26 livestream" if video.get("source_kind") == "channel_stream" else "AI Engineer cut video"
-    what_it_is = (
-        "An official AI Engineer YouTube WF26 livestream for AI Engineer World's Fair San Francisco 2026. "
-        "This is a primary event video source for what the recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata."
-        if video.get("source_kind") == "channel_stream"
-        else
-        "An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. "
-        "This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata."
-    )
+    if is_event_video and video.get("source_kind") == "channel_stream":
+        what_it_is = (
+            "An official AI Engineer YouTube WF26 livestream for AI Engineer World's Fair San Francisco 2026. "
+            "This is a primary event video source for what the recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata."
+        )
+        source_role = "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026."
+        use_line = "- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata."
+    elif is_event_video:
+        what_it_is = (
+            "An official AI Engineer YouTube cut video verified against an AI Engineer World's Fair San Francisco 2026 scheduled session. "
+            "This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata."
+        )
+        source_role = "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026."
+        use_line = "- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata."
+    else:
+        what_it_is = (
+            "An official AI Engineer YouTube channel video with a cached transcript. It is retained as supporting context only because it has not been verified as an actual AI Engineer World's Fair San Francisco 2026 event recording."
+        )
+        source_role = "- Source role: supporting official-channel video context, not first-class event evidence."
+        use_line = "- Use: background, speaker, company, or historical AIE context only; do not use for World's Fair San Francisco 2026 session claims unless manually verified against the official event."
     lines = [
         frontmatter({
             "title": video["youtube_title"],
@@ -515,9 +552,9 @@ def write_resource(video_id: str, video: dict, text: str, topics: list[tuple[str
         what_it_is,
         "",
         "## Source Classification",
-        "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
+        source_role,
         f"- Channel/source: official AI Engineer YouTube channel {source_kind}.",
-        "- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.",
+        use_line,
         "",
         "## Transcript Status",
         f"Cached transcript text is available at `raw/sources/{'youtube-livestream-transcripts' if video.get('source_kind') == 'channel_stream' else 'youtube-transcripts'}/{video_id}.txt` ({words:,} words).",
@@ -567,7 +604,7 @@ def write_non_transcript_resource(video_id: str, video: dict, reason: str) -> No
         "An official AI Engineer YouTube media item connected to AI Engineer World's Fair San Francisco 2026.",
         "",
         "## Source Classification",
-        "- Source role: primary event video source when the item is an official World's Fair San Francisco 2026 livestream or cut video; otherwise supporting official-channel context.",
+        "- Source role: supporting official-channel context unless separately verified as an actual World's Fair San Francisco 2026 livestream or cut video.",
         "- Channel/source: official AI Engineer YouTube channel.",
         "- Use: verify against the official schedule and transcript/slide availability before using it for specific session claims.",
         "",
@@ -592,6 +629,8 @@ def write_non_transcript_resource(video_id: str, video: dict, reason: str) -> No
 
 def write_quote_pages(quotes: list[dict]) -> None:
     QUOTES.mkdir(parents=True, exist_ok=True)
+    for old in QUOTES.glob("quote-*.md"):
+        old.unlink()
     index_lines = [
         frontmatter({"title": "Quotes", "category": "quotes", "sourceLabels": ["YouTube transcript"]}),
         "# Quotes",
@@ -871,16 +910,20 @@ def main() -> int:
         text = path.read_text(errors="ignore")
         topics = topic_hits(video["youtube_title"], text)
         matches = related_sessions(video, sessions)
-        write_resource(video_id, video, text, topics, matches)
-        for slug, label, score in topics:
-            topic_resources[slug].append({"video_id": video_id, "title": video["youtube_title"], "score": score})
-            for match_score, session in matches:
-                topic_sessions[slug].append({"session": session, "score": score + match_score, "source": "related YouTube resource", "video_id": video_id})
-        qrows = quote_candidates(video_id, video, text, topics)
-        quote_rows.extend(qrows)
-        for row in qrows:
-            topic_quotes[row["topic"]].append(row)
-        processed.append({"video_id": video_id, "title": video["youtube_title"], "topics": topics, "matches": [session_slug(s) for _score, s in matches], "quotes": len(qrows), "words": len(text.split())})
+        event_matches = confirmed_event_matches(video, matches)
+        is_event_video = confirmed_event_video(video, matches)
+        write_resource(video_id, video, text, topics, event_matches if is_event_video else [], is_event_video=is_event_video)
+        qrows = []
+        if is_event_video:
+            for slug, label, score in topics:
+                topic_resources[slug].append({"video_id": video_id, "title": video["youtube_title"], "score": score})
+                for match_score, session in event_matches:
+                    topic_sessions[slug].append({"session": session, "score": score + match_score, "source": "verified event YouTube resource", "video_id": video_id})
+            qrows = quote_candidates(video_id, video, text, topics)
+            quote_rows.extend(qrows)
+            for row in qrows:
+                topic_quotes[row["topic"]].append(row)
+        processed.append({"video_id": video_id, "title": video["youtube_title"], "event_video": is_event_video, "topics": topics if is_event_video else [], "matches": [session_slug(s) for _score, s in event_matches], "quotes": len(qrows), "words": len(text.split())})
     write_quote_pages(quote_rows)
     update_topic_pages(topic_resources, topic_quotes, topic_sessions)
     update_resource_registry()

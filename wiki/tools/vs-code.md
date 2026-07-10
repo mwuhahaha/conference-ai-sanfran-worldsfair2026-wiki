@@ -43,6 +43,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-eOxOzcw70f0-slides]]
 
 ### Topic Pages
+- [[agent-evaluations]]
 - [[agent-security]]
 - [[mcp]]
 

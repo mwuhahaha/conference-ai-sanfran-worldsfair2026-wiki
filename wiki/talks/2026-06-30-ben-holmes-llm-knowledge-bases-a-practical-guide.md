@@ -56,7 +56,9 @@ No official session recording transcript was found by exact title match on the A
 - [[ben-holmes|Ben Holmes]] — Dev Rel Lead at [[warp|Warp]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-search]]
+- [[agentic-web]]
 - [[coding-agents]]
 
 ### Derived Links And Source Material

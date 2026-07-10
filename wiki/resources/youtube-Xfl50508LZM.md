@@ -5,34 +5,27 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "Xfl50508LZM"
-last_enriched: "2026-07-10T19:33:09.581908+00:00"
+last_enriched: "2026-07-10T19:40:47.621160+00:00"
 ---
 # Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize
 
 ## What It Is
-An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
+A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
 
 ## Source Classification
-- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
+- Source role: supporting contextual video source.
+- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
+- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/Xfl50508LZM.txt` (22,591 words).
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `refer`, `dramatically`, `meta`, `minutes`, `rather`, `request`, `type`, `somebody`
+- Transcript keywords: `totally`, `focus`, `handling`, `amazing`, `waiting`, `rapidly`, `architectural`, `takes`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=Xfl50508LZM)
-
-## Related Scheduled Sessions
-- [[2026-06-30-laurie-voss-evals-track-intro]] — Evals Track Intro (match score 83)
-- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]] — From Vibes to Production: Evaluating and Shipping AI Agents That Work 101 (match score 80)
-- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]] — From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 (match score 80)
-- [[2026-06-30-laurie-voss-the-death-of-the-code-review]] — The Death of the Code Review (match score 80)
-- [[2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it]] — How long can your skills be before your agent forgets what you told it? (match score 80)
 
 ## Extracted Slides
 - [[youtube-Xfl50508LZM-dense-slides]]

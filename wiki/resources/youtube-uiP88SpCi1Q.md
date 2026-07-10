@@ -5,24 +5,24 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "uiP88SpCi1Q"
-last_enriched: "2026-07-10T19:33:13.629684+00:00"
+last_enriched: "2026-07-10T19:40:48.872084+00:00"
 ---
 # Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS
 
 ## What It Is
-An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
+A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
 
 ## Source Classification
-- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
+- Source role: supporting contextual video source.
+- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
+- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/uiP88SpCi1Q.txt` (1,000 words).
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `necessarily`, `difficulty`, `comes`, `same`, `social`, `window`, `programwitheric`, `each`
+- Transcript keywords: `statement`, `around`, `case`, `simpler`, `time`, `cloud`, `rather`, `technique`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=uiP88SpCi1Q)

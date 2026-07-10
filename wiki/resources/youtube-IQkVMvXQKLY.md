@@ -5,30 +5,27 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "IQkVMvXQKLY"
-last_enriched: "2026-07-10T19:33:13.796299+00:00"
+last_enriched: "2026-07-10T19:40:48.902016+00:00"
 ---
 # Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis
 
 ## What It Is
-An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
+A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
 
 ## Source Classification
-- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
-- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
+- Source role: supporting contextual video source.
+- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
+- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/IQkVMvXQKLY.txt` (6,377 words).
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[autoresearch|AutoResearch]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `mean`, `rest`, `entirely`, `triggers`, `downloaded`, `move`, `minutes`, `type`
+- Transcript keywords: `proves`, `positives`, `already`, `effect`, `backdoors`, `cried`, `injection`, `lots`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=IQkVMvXQKLY)
-
-## Related Scheduled Sessions
-- [[2026-06-29-robert-mchardy-the-messy-reality-of-scale-synthetic-data-and-pre-training-at-poolside]] — The Messy Reality of Scale: Synthetic Data and Pre-Training at Poolside (match score 9)
 
 ## Extracted Slides
 - [[youtube-IQkVMvXQKLY-slides]]

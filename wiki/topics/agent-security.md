@@ -27,6 +27,12 @@ Agent security matters in coding agents, MCP servers, browser agents, enterprise
 
 Apply strong controls whenever an agent can read sensitive data, write state, call external APIs, spend money, deploy code, or influence another system. Lower-risk chat-only agents still need data handling and logging rules.
 
+Use least-privilege tool scopes, explicit approval gates for high-risk actions, isolated execution environments, secret redaction, provenance checks, and audit trails. Treat retrieved content as untrusted input, test prompt-injection cases, and design rollback paths for destructive operations.
+
+Agent security matters in coding agents, MCP servers, browser agents, enterprise assistants, finance and compliance workflows, internal operations tools, and any system connected to privileged APIs or private data.
+
+Apply strong controls whenever an agent can read sensitive data, write state, call external APIs, spend money, deploy code, or influence another system. Lower-risk chat-only agents still need data handling and logging rules.
+
 ## Connections
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features; [[lovina-dmello|Lovina Dmello]] (Day 2 — Session Day 1 · 11:10am-11:30am · Security; official schedule)
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]] — Agentic Security: Permissions, Provenance, and the Agent Supply Chain; [[steve-yegge|Steve Yegge]] (Day 2 — Session Day 1 · 2:25pm-2:45pm · Security; official schedule)
@@ -82,9 +88,9 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - [[snyk|Snyk]]
 - [[workos|WorkOS]]
 - [[openai|OpenAI]]
-- [[microsoft|Microsoft]]
 - [[anthropic|Anthropic]]
 - [[paypal|PayPal]]
+- [[microsoft|Microsoft]]
 - [[better-auth|Better Auth]]
 - [[navan|Navan]]
 - [[stripe|Stripe]]
@@ -97,10 +103,16 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - [[pydantic|Pydantic]]
 - [[daytona|Daytona]]
 
+
+
+
 - [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 
 ## Evidence Graph
+### Transcript-backed resources
+- [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
+
 ### Transcript-backed resources
 - [[youtube-MpZzWMdmQCE]] — Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com
 - [[youtube-SKDJo2CopRs]] — Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare
@@ -110,7 +122,6 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - [[youtube-CDqzWpwkSls]] — Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo
 - [[youtube-BqZrTdgBaPw]] — Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG
 - [[youtube-iRcX54EO5g8]] — Your agent is blindfolded — Johan Lajili, Poolside AI
-- [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
 - [[youtube-hCMrEfPG2Yg]] — Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman
 - [[youtube-_xIwFcnHqp4]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
 - [[youtube-6bmM45jkMDY]] — You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs
@@ -196,6 +207,18 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Talks
 
 ### Resources
+
+### Slides
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+- [[youtube-ZpK5PWX2YRM]]
 
 ### Slides
 

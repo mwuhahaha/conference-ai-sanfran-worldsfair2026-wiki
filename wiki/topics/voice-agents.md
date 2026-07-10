@@ -27,6 +27,12 @@ Voice agents are useful in customer support, healthcare intake, sales calls, mee
 
 Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
 
+Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
+
+Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
+
+Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
+
 ## Connections
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence; [[bohan-li|Bohan Li]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Voice & Realtime AI; official schedule)
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; official schedule)
@@ -96,6 +102,9 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - [[arize-ai|Arize AI]]
 - [[assemblyai|AssemblyAI]]
 - [[twilio|Twilio]]
+
+
+
 
 - [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
@@ -188,6 +197,17 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Transcripts
 - [[youtube-dvft0Gp9sEE-transcript]]
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
 
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 

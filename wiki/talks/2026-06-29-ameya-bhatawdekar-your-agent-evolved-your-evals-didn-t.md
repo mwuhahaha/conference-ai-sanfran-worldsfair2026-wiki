@@ -56,7 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[ameya-bhatawdekar|Ameya Bhatawdekar]] — VP, Field CTO at [[braintrust|Braintrust]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[agent-security]]
 
 ### Derived Links And Source Material
 

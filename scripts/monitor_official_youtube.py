@@ -171,22 +171,37 @@ def match_talks(video: VideoEntry, talks: list[dict[str, str]]) -> list[dict[str
     scored: list[tuple[int, dict[str, str]]] = []
     for talk in talks:
         talk_norm = normalize_title(talk["title"])
+        title_overlap = set(talk_norm.split()) & set(video_norm.split())
+        title_ratio = len(title_overlap) / max(1, min(len(set(talk_norm.split())), len(set(video_norm.split()))))
         score = 0
         if talk_norm and talk_norm in video_norm:
             score += 10
         elif video_norm and video_norm in talk_norm:
             score += 8
         else:
-            overlap = set(talk_norm.split()) & set(video_norm.split())
-            if len(overlap) >= 4:
-                score += len(overlap)
+            if len(title_overlap) >= 4:
+                score += len(title_overlap)
         speaker_overlap = speaker_tokens(talk["speakers"]) & video_tokens
         if speaker_overlap:
             score += min(6, len(speaker_overlap) * 2)
-        if score >= 7:
+        if score >= 7 and len(title_overlap) >= 2 and title_ratio >= 0.75:
             scored.append((score, talk))
     scored.sort(key=lambda item: (-item[0], item[1]["title"]))
     return [talk for _score, talk in scored[:3]]
+
+
+def explicit_wf26_title(video: VideoEntry) -> bool:
+    title = video.title.lower()
+    return "wf26" in title or "wf2026" in title or ("world" in title and "fair" in title and "2026" in title)
+
+
+def event_entries(entries: list[VideoEntry], talks: list[dict[str, str]]) -> list[tuple[VideoEntry, list[dict[str, str]]]]:
+    rows = []
+    for entry in entries:
+        matched = match_talks(entry, talks)
+        if matched or explicit_wf26_title(entry):
+            rows.append((entry, matched))
+    return rows
 
 
 def write_resource_page(video: VideoEntry, matched_talks: list[dict[str, str]], transcript_status: str, slide_status: str) -> bool:
@@ -196,7 +211,7 @@ def write_resource_page(video: VideoEntry, matched_talks: list[dict[str, str]], 
         for talk in matched_talks:
             talk_lines.append(f"- [[{talk['id']}|{talk['title']}]]")
     else:
-        talk_lines.append("- No exact schedule-page match has been assigned yet; use as official channel media evidence until matched.")
+        talk_lines.append("- No exact schedule-page match has been assigned yet; keep as supporting official-channel context until manually verified against the event schedule.")
     transcript_line = (
         f"Cached transcript text is available at `raw/sources/youtube-transcripts/{video.video_id}.txt`."
         if transcript_path(video.video_id).exists()
@@ -218,13 +233,13 @@ def write_resource_page(video: VideoEntry, matched_talks: list[dict[str, str]], 
             f"# {video.title}",
             "",
             "## What It Is",
-            "An official AI Engineer YouTube video connected to AI Engineer World's Fair 2026 monitoring. This is a public media source; official schedule pages remain canonical for schedule metadata.",
+            "An official AI Engineer YouTube video detected by the World's Fair 2026 monitor. It is first-class event evidence only when it is matched to an actual World's Fair San Francisco 2026 scheduled session or confirmed WF26 livestream; official schedule pages remain canonical for schedule metadata.",
             "",
             "## Source Classification",
-            "- Source role: official AI Engineer YouTube channel media evidence.",
+            "- Source role: primary event video source only when matched to a confirmed AI Engineer World's Fair San Francisco 2026 session; otherwise supporting official-channel context.",
             f"- Published date: {video.published_date.isoformat()}",
             f"- Channel/source: {OFFICIAL_CHANNEL}.",
-            "- Use: evidence for what the published recording, transcript, and captured slides show. Keep schedule facts tied to the official schedule pages.",
+            "- Use: use as media/transcript/slide evidence only after event-match verification; keep schedule facts tied to the official schedule pages.",
             "",
             "## Matched Schedule Pages",
             *talk_lines,
@@ -533,9 +548,11 @@ def main() -> int:
     checked_at = datetime.now(timezone.utc)
     entries = fetch_rss()
     update_channel_snapshot(entries)
+    talks = read_talk_pages()
+    event_rows = event_entries(entries, talks)
     today = checked_at.date()
     cutoff = today - timedelta(days=6)
-    latest_date = max((entry.published_date for entry in entries), default=None)
+    latest_date = max((entry.published_date for entry, _matched in event_rows), default=None)
 
     report: dict[str, object] = {
         "checked_at": checked_at.isoformat(),
@@ -550,7 +567,7 @@ def main() -> int:
         report.update(
             {
                 "state": "stopped",
-                "message": "No official AI Engineer video was published within the last seven calendar dates; monitor disabled.",
+                "message": "No confirmed AI Engineer World's Fair 2026 event video was published within the last seven calendar dates; monitor disabled.",
             }
         )
         write_status(report)
@@ -558,14 +575,12 @@ def main() -> int:
         open_status_page()
         return 0
 
-    talks = read_talk_pages()
-    recent = [entry for entry in entries if entry.published_date >= cutoff]
-    new_entries = [entry for entry in recent if not resource_path(entry.video_id).exists()]
+    recent_rows = [(entry, matched) for entry, matched in event_rows if entry.published_date >= cutoff]
+    new_rows = [(entry, matched) for entry, matched in recent_rows if not resource_path(entry.video_id).exists()]
     processed: list[dict[str, object]] = []
     transcript_imports = 0
 
-    for entry in new_entries:
-        matched = match_talks(entry, talks)
+    for entry, matched in new_rows:
         transcript = {"status": "dry_run"}
         slides = {"status": "dry_run"}
         resource_status = "dry_run"
@@ -603,9 +618,9 @@ def main() -> int:
     report.update(
         {
             "state": "active",
-            "message": f"Official videos are still being published within the last seven calendar dates. Processed {len(processed)} new RSS entries; monitor remains active.",
-            "recent_entry_count": len(recent),
-            "new_entry_count": len(new_entries),
+            "message": f"Confirmed AI Engineer World's Fair 2026 event videos are still being published within the last seven calendar dates. Processed {len(processed)} new RSS entries; monitor remains active.",
+            "recent_entry_count": len(recent_rows),
+            "new_entry_count": len(new_rows),
         }
     )
     write_status(report)

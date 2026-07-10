@@ -56,6 +56,7 @@ No official session recording transcript was found by exact title match on the A
 - [[adit-abraham|Adit Abraham]] — CEO and cofounder at [[reducto|Reducto]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-web]]
 
 ### Derived Links And Source Material

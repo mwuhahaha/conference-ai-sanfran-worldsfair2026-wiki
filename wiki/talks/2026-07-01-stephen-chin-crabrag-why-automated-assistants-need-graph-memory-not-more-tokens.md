@@ -73,6 +73,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ### Topics Covered
 - [[agentic-search]]
+- [[coding-agents]]
 
 ### Derived Links And Source Material
 - [[youtube-eW_vxrjvERk]] — related YouTube source page.

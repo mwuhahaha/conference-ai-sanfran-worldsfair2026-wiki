@@ -73,6 +73,7 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 - [[jeremiah-lowin|Jeremiah Lowin]] — Founder & CEO at [[prefect|Prefect]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[coding-agents]]
 - [[mcp]]
 - [[mcp-apps]]
